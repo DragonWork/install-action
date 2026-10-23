@@ -1,0 +1,18 @@
+name: Pinned installation
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  install:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: DragonWork/install-action@84c72c0d1860436d8bd9daa7952f7d17df1219c0 # v1.0.0
+      - id: cliff
+        uses: DragonWork/install-action/tools/git-cliff@7b03d4b6428472552f85b3df46fa8c175b8337fa # git-cliff/v2.14.2
+      - run: test "$(git-cliff --version)" = "git-cliff $EXPECTED_VERSION"
+        env:
+          EXPECTED_VERSION: ${{ steps.cliff.outputs.version }}
