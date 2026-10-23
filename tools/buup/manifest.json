@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "buup",
+  "version": "0.25.5",
+  "repository": "benletchford/buup",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/benletchford/buup/releases/download/v0.25.5/buup-v0.25.5-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.25.5",
+      "sha256": "39aa8df55860c26e72dcf376515e665a006735829b8b813c3c153778ef17bc40",
+      "size": 353212,
+      "format": "tar.gz",
+      "binaries": {
+        "buup": {
+          "path": "buup",
+          "sha256": "3c16ccc892197ad9d88cfbbf7fd445712132e47daf35ece5f5fd6651194613ec"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/benletchford/buup/releases/download/v0.25.5/buup-v0.25.5-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.5",
+      "sha256": "1b24dc70b3d7a4c3c814bbc13d505e8ece3e92caa5e25bd98adbede95e8dc11d",
+      "size": 340546,
+      "format": "tar.gz",
+      "binaries": {
+        "buup": {
+          "path": "buup",
+          "sha256": "4ecfcdd3a73389fee6284a603bd366c5c785940bc4bd9c8cbee14e4d6aa65532"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/benletchford/buup/releases/download/v0.25.5/buup-v0.25.5-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.5",
+      "sha256": "43ea473bd72be85b7d994140a3e694803c568c23e97fed94644bc96b44fc5030",
+      "size": 321520,
+      "format": "tar.gz",
+      "binaries": {
+        "buup": {
+          "path": "buup",
+          "sha256": "0cdd139d13ca326972ef59e378ee4afdc7faf6ad89945cbd18721002362e5182"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/benletchford/buup/releases/download/v0.25.5/buup-v0.25.5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.25.5",
+      "sha256": "fcb007785554031fa09e000d0e038f8b831f9b844a9fc9d6b07ab456ad4faf49",
+      "size": 259578,
+      "format": "zip",
+      "binaries": {
+        "buup.exe": {
+          "path": "buup.exe",
+          "sha256": "64328a14d72e1ecfe4be0f2dc3728c54d434c883631120df8be0fb9b11baf37f"
+        }
+      }
+    }
+  }
+}
