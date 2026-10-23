@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "adrs",
+  "version": "0.12.1",
+  "repository": "joshrotenberg/adrs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/joshrotenberg/adrs/releases/download/v0.12.1/adrs-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.12.1",
+      "sha256": "1e0dda183f38eeff44a6dd82d688df4a0f3a655396fcc72cdbc31de753d88419",
+      "size": 2719572,
+      "format": "tar.xz",
+      "binaries": {
+        "adrs": {
+          "path": "adrs-x86_64-unknown-linux-gnu/adrs",
+          "sha256": "c8282fe4be9eb28048a4974347ccd21713b4b864e1cb72097660b8bdbb0b741b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/joshrotenberg/adrs/releases/download/v0.12.1/adrs-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.12.1",
+      "sha256": "4b075927dd313826f92eaa89a2deaf03b495c38d78b72ae9c27a89209bd3b026",
+      "size": 2518592,
+      "format": "tar.xz",
+      "binaries": {
+        "adrs": {
+          "path": "adrs-aarch64-unknown-linux-gnu/adrs",
+          "sha256": "c70c6749181f6f49c8a100182cde8fb4ddf3e25b2fcaa413632f5d99bc969c1b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/joshrotenberg/adrs/releases/download/v0.12.1/adrs-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.1",
+      "sha256": "6fdd55ba4d00a0aac59597cf05ddcf1c4c331bb757951d04e310e39d766d2664",
+      "size": 2559676,
+      "format": "tar.xz",
+      "binaries": {
+        "adrs": {
+          "path": "adrs-x86_64-apple-darwin/adrs",
+          "sha256": "a2d1d13d680ecef7000b1d01e49fe33c2181188fdab8bb0bb97d0671531d08f8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/joshrotenberg/adrs/releases/download/v0.12.1/adrs-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.1",
+      "sha256": "7ff323f25d5b2d5befdb041381970bee0c33b5957640e23204d92309c09c7c36",
+      "size": 2382496,
+      "format": "tar.xz",
+      "binaries": {
+        "adrs": {
+          "path": "adrs-aarch64-apple-darwin/adrs",
+          "sha256": "3e021317fc49c847e30b0ce2ccf433cd529f31d1f60e4394391579f0038e16b1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/joshrotenberg/adrs/releases/download/v0.12.1/adrs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.1",
+      "sha256": "6fdcd49be36ea91bda232a364b58b016b7f84aa10a80775c2323fcc6e7e0afed",
+      "size": 3614441,
+      "format": "zip",
+      "binaries": {
+        "adrs.exe": {
+          "path": "adrs.exe",
+          "sha256": "64813740c733022e0ad0be6f1f978ffe14550a9b75b3df6071b77280c1abd486"
+        }
+      }
+    }
+  }
+}
