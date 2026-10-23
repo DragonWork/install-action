@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "bender",
+  "version": "0.32.1",
+  "repository": "pulp-platform/bender",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pulp-platform/bender/releases/download/v0.32.1/bender-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.32.1",
+      "sha256": "59a36723b056a06b266dc68d4ceedcd0aa17a1c096e8c2ea512af264ff6a13f6",
+      "size": 3886520,
+      "format": "tar.xz",
+      "binaries": {
+        "bender": {
+          "path": "bender-x86_64-unknown-linux-gnu/bender",
+          "sha256": "37f68104525495733bec4c89baec24f3a01f8995a6c80137f469cef42c57953e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pulp-platform/bender/releases/download/v0.32.1/bender-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.32.1",
+      "sha256": "6a5098954e0166938de67505006c7ebf3e4df23ce4f824104191a1e62fc68ae5",
+      "size": 3550528,
+      "format": "tar.xz",
+      "binaries": {
+        "bender": {
+          "path": "bender-aarch64-unknown-linux-gnu/bender",
+          "sha256": "b2b32997bc2115122133c8137050b196f6b99511895259db5fdd27c04a60821e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pulp-platform/bender/releases/download/v0.32.1/bender-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.32.1",
+      "sha256": "ce8e61acd47ec80ecd3ab416d9f1924ca64bbe231a658eaf2446cec6613cdc77",
+      "size": 3572196,
+      "format": "tar.xz",
+      "binaries": {
+        "bender": {
+          "path": "bender-x86_64-apple-darwin/bender",
+          "sha256": "eed1c58140f747b5b818a772a71da611c8562fa788d0cfd7fa596bb296639ca4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pulp-platform/bender/releases/download/v0.32.1/bender-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.32.1",
+      "sha256": "eee823f229f5451b420fb12d54320767b1358cbca1388e85b260a6f53fa186ec",
+      "size": 3268128,
+      "format": "tar.xz",
+      "binaries": {
+        "bender": {
+          "path": "bender-aarch64-apple-darwin/bender",
+          "sha256": "baf00626ed37273d6173b8d77d17b9552a97f4825cf8073edb3aa9b37189aae5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pulp-platform/bender/releases/download/v0.32.1/bender-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.32.1",
+      "sha256": "6bbc2820470f21c6be7239afdea00a680bf362cbcd16aaf966d567f33a2455a3",
+      "size": 5574336,
+      "format": "zip",
+      "binaries": {
+        "bender.exe": {
+          "path": "bender.exe",
+          "sha256": "55659f9ded9ebda588de3c457a44d51d99a53e968e427a447b54effe69b60ea2"
+        }
+      }
+    }
+  }
+}
