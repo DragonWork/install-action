@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "atac",
+  "version": "0.24.0",
+  "repository": "Julien-cpsn/ATAC",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Julien-cpsn/ATAC/releases/download/v0.24.0/atac-v0.24.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "cc9561783c82b317c1e2781c164fd46b65cd65db610cc2e67b39ab63d76014d1",
+      "size": 8178280,
+      "format": "tar.gz",
+      "binaries": {
+        "atac": {
+          "path": "atac",
+          "sha256": "58f4a55166ab694b3b04ddb063978002d68db857d08df57643264361c46152b8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Julien-cpsn/ATAC/releases/download/v0.24.0/atac-v0.24.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "b18b23addd2e2bd57a634fe50aac63c9ff324e2cfa39f0fd6bb7fdc27f53b8e7",
+      "size": 7747057,
+      "format": "tar.gz",
+      "binaries": {
+        "atac": {
+          "path": "atac",
+          "sha256": "3932178892f4fd9447a28255da75a6584d3d8ce3395dafd34b20f3e2c121cf1d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Julien-cpsn/ATAC/releases/download/v0.24.0/atac-v0.24.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "33a6d9e2cd3201700c25dc289bbb5a1b64752b1860d9acce719d024efb81d8e6",
+      "size": 7385840,
+      "format": "tar.gz",
+      "binaries": {
+        "atac": {
+          "path": "atac",
+          "sha256": "992ef1579802310eb1be2bad7a1e092c69fa1c03be6f514391557c1471ad66a1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Julien-cpsn/ATAC/releases/download/v0.24.0/atac-v0.24.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "1e7eca299b166215cf8aac346384e8be22694acb37c4384b5bda9d04afea7334",
+      "size": 7063054,
+      "format": "tar.gz",
+      "binaries": {
+        "atac": {
+          "path": "atac",
+          "sha256": "b048141027d42687119d90a3b4388ddf4dbfc9dd7ee60227dbed7bf58c6f99fb"
+        }
+      }
+    }
+  }
+}
