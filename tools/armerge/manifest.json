@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "armerge",
+  "version": "2.2.2",
+  "repository": "tux3/armerge",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tux3/armerge/releases/download/v2.2.2/armerge-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.2.2",
+      "sha256": "6d8406445bfd483409f5f0075ce8095d1c3766fd5adb4e7f5fb3692df510ab5d",
+      "size": 1754603,
+      "format": "tar.gz",
+      "binaries": {
+        "armerge": {
+          "path": "armerge",
+          "sha256": "e013b6ab9a8f95b7ef56f2fca0cd0f4b5c0ff002b87783100b914ae3a0d0d105"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tux3/armerge/releases/download/v2.2.2/armerge-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.2.2",
+      "sha256": "58150ac1bb8b87bed390c23db8d4a948d2263a4e6742f0bdfc786d32488d1241",
+      "size": 1658973,
+      "format": "tar.gz",
+      "binaries": {
+        "armerge": {
+          "path": "armerge",
+          "sha256": "0532589b796b6111f6c914230517b3836f4f1b4ffdb9e82ed2f6ebcf00977cee"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tux3/armerge/releases/download/v2.2.2/armerge-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.2.2",
+      "sha256": "fa50d11ec9a6ebb183c9a783593eb06d192f9fd28875f3e2831cd753be3a1dc6",
+      "size": 1298883,
+      "format": "zip",
+      "binaries": {
+        "armerge.exe": {
+          "path": "armerge.exe",
+          "sha256": "6e14e4e50bd60d508e3acb14d0667dbaea23bda7dfcfd70294b8d1e172492e3a"
+        }
+      }
+    }
+  }
+}
