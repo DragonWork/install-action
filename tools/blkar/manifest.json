@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "blkar",
+  "version": "7.2.7",
+  "repository": "darrenldl/blockyarchive",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/darrenldl/blockyarchive/releases/download/v7.2.7/blkar-v7.2.7-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v7.2.7",
+      "sha256": "78355cf66fa9552a4c897338fc999597bf47aab1f739e53b8a414c6a5cdc2296",
+      "size": 1272567,
+      "format": "tar.gz",
+      "binaries": {
+        "blkar": {
+          "path": "blkar",
+          "sha256": "53c834592154561b7193be637bea99054948481a0eca6316658b8a1c4bac51bf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/darrenldl/blockyarchive/releases/download/v7.2.7/blkar-v7.2.7-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v7.2.7",
+      "sha256": "baf57e513744642d463f138e54761e8ddf2fd6db4e9d677423b925cb389c0848",
+      "size": 1171846,
+      "format": "tar.gz",
+      "binaries": {
+        "blkar": {
+          "path": "blkar",
+          "sha256": "f79bb8025e02b26e58f9d6f37cae7842262c989bdbb8f524f60af72259a09609"
+        }
+      }
+    }
+  }
+}
