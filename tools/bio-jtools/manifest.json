@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "bio-jtools",
+  "version": "0.2.0",
+  "repository": "jrhawley/bio-jtools-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jrhawley/bio-jtools-rs/releases/download/v0.2.0/bio-jtools_v0.2.0_x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "0be29ac455447f96af39626ffa8429d61256babce896e5e620f89deda3f3bd9d",
+      "size": 1540820,
+      "format": "zip",
+      "binaries": {
+        "bjt": {
+          "path": "bjt",
+          "sha256": "6e19ff0966ebd394aaa84f82c966aeb4ae4a6b620c71593b7b2b833d5e05a398"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jrhawley/bio-jtools-rs/releases/download/v0.2.0/bio-jtools_v0.2.0_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "c938f605c610c75cc70b0caf9ee3bd035159a7b618f57e2c8f150080fd9f97db",
+      "size": 2227478,
+      "format": "zip",
+      "binaries": {
+        "bjt.exe": {
+          "path": "bjt.exe",
+          "sha256": "07cd9ccfb722b3de95d6baf7db6c06e6c783752c948604912cdfc69b14c1dec8"
+        }
+      }
+    }
+  }
+}
