@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "aikup",
+  "version": "0.0.11",
+  "repository": "aiken-lang/aikup",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aiken-lang/aikup/releases/download/v0.0.11/aikup-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.0.11",
+      "sha256": "d72ff537e5642d3a9457b0a9749911f0649a36eaf6a64dd5fa602b6f35da3af6",
+      "size": 2906841,
+      "format": "tar.gz",
+      "binaries": {
+        "aikup": {
+          "path": "aikup-x86_64-unknown-linux-gnu/aikup",
+          "sha256": "f00063063774610c3fe1b34603cc9479cf9c6e9b97284841415c55bfb9240e2d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aiken-lang/aikup/releases/download/v0.0.11/aikup-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.11",
+      "sha256": "35462ec2766ff85a34a130ac0f74de53f1cfb16049d7beeebd5816048049a025",
+      "size": 2704104,
+      "format": "tar.gz",
+      "binaries": {
+        "aikup": {
+          "path": "aikup-x86_64-apple-darwin/aikup",
+          "sha256": "acdf01dbbbdbdcb8acf46687f0457f0834c17ca27c68907123c84d30a35f7e69"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aiken-lang/aikup/releases/download/v0.0.11/aikup-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.11",
+      "sha256": "de250a4ddcb57dfc3c2cca736a21cd85f229a58803ae3164ea5a3472d36ebb83",
+      "size": 2602253,
+      "format": "tar.gz",
+      "binaries": {
+        "aikup": {
+          "path": "aikup-aarch64-apple-darwin/aikup",
+          "sha256": "10f8f53391322cb23e7ae34eef51b94ab76a976fb0bead2a65a3d5c6eb329d66"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aiken-lang/aikup/releases/download/v0.0.11/aikup-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.0.11",
+      "sha256": "fe50b673dc63d7b7778deca0ef324b9d06397130cee10a45fd468a0b9fd04ec4",
+      "size": 2561951,
+      "format": "tar.gz",
+      "binaries": {
+        "aikup.exe": {
+          "path": "aikup-x86_64-pc-windows-msvc/aikup.exe",
+          "sha256": "afe38f7f9413595a74c66de5178dd0ecf4c8526dc472218733a3c4ebaf82ec75"
+        }
+      }
+    }
+  }
+}
