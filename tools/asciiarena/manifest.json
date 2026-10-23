@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "asciiarena",
+  "version": "0.0.7",
+  "repository": "lemunozm/asciiarena",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lemunozm/asciiarena/releases/download/v0.0.7/asciiarena-v0.0.7-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.7",
+      "sha256": "9c4e57f9e7374530a41dd4e09e1733c106d5b591abac103af0a5cee2f51c8974",
+      "size": 2173436,
+      "format": "tar.gz",
+      "binaries": {
+        "asciiarena": {
+          "path": "asciiarena-v0.0.7-x86_64-unknown-linux-musl/asciiarena",
+          "sha256": "95b5a0b048a23bd1b041312f99fb2ce787c7fa8d9d910ca09ce78140d625019a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lemunozm/asciiarena/releases/download/v0.0.7/asciiarena-v0.0.7-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.7",
+      "sha256": "1e1c57581d0da930b06916b343c59564c91d49b5ecd4a03baaf05de50d983e3b",
+      "size": 1321842,
+      "format": "tar.gz",
+      "binaries": {
+        "asciiarena": {
+          "path": "asciiarena-v0.0.7-x86_64-apple-darwin/asciiarena",
+          "sha256": "27ad04d0a33b9d4f327b5c1aae7d90724d19ac7d16ad728b42478c30564e154f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lemunozm/asciiarena/releases/download/v0.0.7/asciiarena-v0.0.7-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.7",
+      "sha256": "a6ec466619d078672aa55a734766b267ac22e4b0b1480b0b8f5c54a3b0d92f69",
+      "size": 1009435,
+      "format": "zip",
+      "binaries": {
+        "asciiarena.exe": {
+          "path": "asciiarena-v0.0.7-x86_64-pc-windows-msvc/asciiarena.exe",
+          "sha256": "04f1f5a64f0930538c5af00528122d8db7ad25feaebe34cb2855affae70d840e"
+        }
+      }
+    }
+  }
+}
