@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "benchie",
+  "version": "0.5.0",
+  "repository": "benchie-io/benchie",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/benchie-io/benchie/releases/download/0.5.0/benchie-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "0.5.0",
+      "sha256": "c82058aeb09a5125229baf610412af570b87b205403dd200656b0d0ecfcaac7c",
+      "size": 3565349,
+      "format": "zip",
+      "binaries": {
+        "benchie": {
+          "path": "benchie",
+          "sha256": "aee1bb17a02f2f3efefa8575a2cdea312475d6146719fc1845ff2e9336df9e87"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/benchie-io/benchie/releases/download/0.5.0/benchie-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.5.0",
+      "sha256": "73aee20c5da5362c23455ae7d32d7d3e36d6490a66fd9fa50f3ff982bedbacaa",
+      "size": 1474765,
+      "format": "zip",
+      "binaries": {
+        "benchie.exe": {
+          "path": "benchie.exe",
+          "sha256": "34b6998419571fe0ca19a36e5884ad1c893e3c9f5eca61bf45337ce3eb89628d"
+        }
+      }
+    }
+  }
+}
