@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "aichat",
+  "version": "0.30.0",
+  "repository": "sigoden/aichat",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.30.0",
+      "sha256": "6b0cc08c5ceb551dc52bfac2221752f82215be5908c70605d655e9b91ab1557c",
+      "size": 5759120,
+      "format": "tar.gz",
+      "binaries": {
+        "aichat": {
+          "path": "aichat",
+          "sha256": "8378dfc295093efadc3ddddd17f2b49223f120a14ef3503159f375d68f287346"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.30.0",
+      "sha256": "eb1cd0948569404c5d9d01c10b32b902e11f8231073315456454dec246bdf26e",
+      "size": 5464580,
+      "format": "tar.gz",
+      "binaries": {
+        "aichat": {
+          "path": "aichat",
+          "sha256": "94cec806549e7193a9f3d91745efc0279ffb5b80b1c8b26d9672295a1f9ff4ea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.30.0",
+      "sha256": "94aa09315773929e027bcb399f78661c2ddffd887b65348bae446601989d9ddd",
+      "size": 5195911,
+      "format": "tar.gz",
+      "binaries": {
+        "aichat": {
+          "path": "aichat",
+          "sha256": "61b71344e2be24f40fdb7280bf59ef6b26c903858a02387f04e2fea5d03c07a5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.30.0",
+      "sha256": "680d36ed7f7ba8a2c2490a099df26c9da54495903c27956109a89c87eeb9edb3",
+      "size": 5044993,
+      "format": "tar.gz",
+      "binaries": {
+        "aichat": {
+          "path": "aichat",
+          "sha256": "6bb88c28304ce97697dc21dad700cdcb8b1205a89420904b0c65c1854c5232aa"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.30.0",
+      "sha256": "89df8c4ccd6dad310ac713eb5d550494ae7fa14722cde346588fab38ff4afd8f",
+      "size": 5252563,
+      "format": "zip",
+      "binaries": {
+        "aichat.exe": {
+          "path": "aichat.exe",
+          "sha256": "db321777f6fe19462a72bd5476cc1b101ca6f10bd3373d4b784d98ae6a9a6478"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.30.0",
+      "sha256": "2f381e70ddaf0831df7e0181a1d25d700bb0d7e53287393a47fd435c253d6091",
+      "size": 5087866,
+      "format": "zip",
+      "binaries": {
+        "aichat.exe": {
+          "path": "aichat.exe",
+          "sha256": "b318c68d72de151998e33f9f6e42d33e1f24c5e4447c77b806721e3adb9b45e8"
+        }
+      }
+    }
+  }
+}
