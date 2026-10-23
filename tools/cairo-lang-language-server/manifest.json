@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "cairo-lang-language-server",
+  "version": "1.1.1",
+  "repository": "starkware-libs/cairo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v1.1.1/release-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.1",
+      "sha256": "ac1bd0a5c5acecb92d824eb448e3bb4e31eb0c055c86586160a6427beb6bf81d",
+      "size": 42705271,
+      "format": "tar.gz",
+      "binaries": {
+        "cairo-language-server": {
+          "path": "cairo/bin/cairo-language-server",
+          "sha256": "5f33c90dc9eaed242a3120f179eae47941633b40c609f1d954fb6b9786f1af9e"
+        }
+      }
+    }
+  }
+}
