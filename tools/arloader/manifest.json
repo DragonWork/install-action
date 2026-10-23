@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "arloader",
+  "version": "0.1.63",
+  "repository": "CalebEverett/arloader",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/CalebEverett/arloader/releases/download/v0.1.63/arloader-v0.1.63-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.1.63",
+      "sha256": "6d102bc892c0c274716e087294497e53e64546fa49250fb8f12a3f419c650e98",
+      "size": 3106867,
+      "format": "zip",
+      "binaries": {
+        "arloader": {
+          "path": "arloader",
+          "sha256": "fc75391f6c0e0e2ea5207205b09145717bf72547212e3a0ed5304719be6f6aab"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/CalebEverett/arloader/releases/download/v0.1.63/arloader-v0.1.63-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.1.63",
+      "sha256": "3dd7d05ddb45ceaac9d6ab5d53dd698dad7fafd12258ca3f110cb51f070cb212",
+      "size": 2728105,
+      "format": "zip",
+      "binaries": {
+        "arloader": {
+          "path": "arloader",
+          "sha256": "3ab8d79438f4234394de7b873ad512a948e7799b5dfea09c65ce0246d7014624"
+        }
+      }
+    }
+  }
+}
