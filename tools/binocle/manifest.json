@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "binocle",
+  "version": "0.3.2",
+  "repository": "sharkdp/binocle",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sharkdp/binocle/releases/download/v0.3.2/binocle-v0.3.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "a438b00fedeff85892500523f620c1c951f80a4101083de2dd4056d834e6dd60",
+      "size": 6417529,
+      "format": "tar.gz",
+      "binaries": {
+        "binocle": {
+          "path": "binocle-v0.3.2-x86_64-unknown-linux-musl/binocle",
+          "sha256": "e9dd7d1dd5c524ccffd5b546e7d67277ec69956fe76241140b37f8c00bb5d48a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sharkdp/binocle/releases/download/v0.3.2/binocle-v0.3.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "2d9986d76a21777157234af15174eb2eb7d79e576f3be894b56f5848c2cb6848",
+      "size": 6234861,
+      "format": "tar.gz",
+      "binaries": {
+        "binocle": {
+          "path": "binocle-v0.3.2-aarch64-unknown-linux-gnu/binocle",
+          "sha256": "65c4ff0c5e56afb0f67e961e515c825cc2d981d14332039c0daabe8b72279160"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sharkdp/binocle/releases/download/v0.3.2/binocle-v0.3.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "046f936b451990ad0c05d66242ad2c5d01528aa0d4831855feae88941540488d",
+      "size": 3895048,
+      "format": "tar.gz",
+      "binaries": {
+        "binocle": {
+          "path": "binocle-v0.3.2-x86_64-apple-darwin/binocle",
+          "sha256": "efa17b59c657dcc8dd5c4fe5258ca3984a1b03a53547db227101792206a2feab"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sharkdp/binocle/releases/download/v0.3.2/binocle-v0.3.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "9e7394fddf2b151b29150e3dfda26f824676ff43c20bce21ee63ec4b612a7ac1",
+      "size": 3898070,
+      "format": "zip",
+      "binaries": {
+        "binocle.exe": {
+          "path": "binocle-v0.3.2-x86_64-pc-windows-msvc/binocle.exe",
+          "sha256": "f8a31ef139cddb4ca225ca7ee9eb903f46b1fedd4e34bec2e00782ff804db121"
+        }
+      }
+    }
+  }
+}
