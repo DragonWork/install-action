@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "caesura",
+  "version": "0.33.1",
+  "repository": "RogueOneEcho/caesura",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RogueOneEcho/caesura/releases/download/v0.33.1/caesura-0.33.1-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.33.1",
+      "sha256": "1051d35042e94a5aaeed94fa3df5e92e890da13699436c272c766dfcec43985d",
+      "size": 5543120,
+      "format": "tar.xz",
+      "binaries": {
+        "caesura": {
+          "path": "caesura",
+          "sha256": "0292866cc944595b285ec3cd64b81883524d7c77a4d1948450119fb51b251dc5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/RogueOneEcho/caesura/releases/download/v0.33.1/caesura-0.33.1-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.33.1",
+      "sha256": "9ed8c046f4abff5d2a6f366cc9ec4e8bdae96ad61c2003ed66301fc10c0b348d",
+      "size": 4933976,
+      "format": "tar.xz",
+      "binaries": {
+        "caesura": {
+          "path": "caesura",
+          "sha256": "b0e70e23ef2303e3033c61b7cbbfb3ca23aefde5d0734e9cf53c680f68f68ea5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/RogueOneEcho/caesura/releases/download/v0.33.1/caesura-0.33.1-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.33.1",
+      "sha256": "b0d6de5cad55b2faf20e00d4ce4818fa464cb642d55dc924d2eefab2ec5e358e",
+      "size": 4662668,
+      "format": "tar.xz",
+      "binaries": {
+        "caesura": {
+          "path": "caesura",
+          "sha256": "0ba43cd11a1dba9dbfc7b10b6a5972a3f0461a40c9c3f5d072ae979bc5cebda2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RogueOneEcho/caesura/releases/download/v0.33.1/caesura-0.33.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.33.1",
+      "sha256": "a6665664dcb16c7fa2ad5766e930e14e882a71651a6ef913e730b55b04ba19a1",
+      "size": 6593947,
+      "format": "zip",
+      "binaries": {
+        "caesura.exe": {
+          "path": "caesura.exe",
+          "sha256": "0d690218764cb5ae6d1265ea65d30b78003c80e994e4e53efc6d069f46b8f217"
+        }
+      }
+    }
+  }
+}
