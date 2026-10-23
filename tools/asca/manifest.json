@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "asca",
+  "version": "0.10.3",
+  "repository": "Girv98/asca-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Girv98/asca-rust/releases/download/0.10.3/asca-0.10.3-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.10.3",
+      "sha256": "5fe34c20abac6acf1a5adc78393c50270d9610635d661af17ed138025b5045e0",
+      "size": 1162450,
+      "format": "tar.gz",
+      "binaries": {
+        "asca": {
+          "path": "asca-0.10.3-x86_64-unknown-linux-musl/asca",
+          "sha256": "d007a72c126de5fce2ed757d1609dce20fe15d5e31eae1d386a07a90880d4f5a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Girv98/asca-rust/releases/download/0.10.3/asca-0.10.3-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.10.3",
+      "sha256": "99d7f7f6c196c7decb87b7585492104ec87734203d89692a626526a759e0586f",
+      "size": 1025637,
+      "format": "tar.gz",
+      "binaries": {
+        "asca": {
+          "path": "asca-0.10.3-aarch64-unknown-linux-gnu/asca",
+          "sha256": "79e3e385b6bfe18a5867c74beef3e071b749aa4029a4b9860edca973c41fe0b8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Girv98/asca-rust/releases/download/0.10.3/asca-0.10.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.10.3",
+      "sha256": "4cb64351f8042e827998f56b57382c1b1b7233c4d1635d4ed7e48707707d2751",
+      "size": 1074633,
+      "format": "tar.gz",
+      "binaries": {
+        "asca": {
+          "path": "asca-0.10.3-x86_64-apple-darwin/asca",
+          "sha256": "6814f656b3c72af0a01ee6ef95d8461061f0bbc6802202cff121135935fb0724"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Girv98/asca-rust/releases/download/0.10.3/asca-0.10.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.10.3",
+      "sha256": "1be230c22f25bb6e7dd40828729dc17f895c2333b5d52086f960429be46efa20",
+      "size": 1014100,
+      "format": "tar.gz",
+      "binaries": {
+        "asca": {
+          "path": "asca-0.10.3-aarch64-apple-darwin/asca",
+          "sha256": "a60ba5c402141ca5977ac50e7004c13aaa28ace73591766f3a18a93f0c68a78e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Girv98/asca-rust/releases/download/0.10.3/asca-0.10.3-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.10.3",
+      "sha256": "d09aa8125ead6614d58b6b7c7d843d5689a7cc93e2ddcae30112be1d6cdc1757",
+      "size": 1042700,
+      "format": "zip",
+      "binaries": {
+        "asca.exe": {
+          "path": "asca-0.10.3-x86_64-pc-windows-msvc/asca.exe",
+          "sha256": "aa70d24a07a9ec41976762c625ac24535332dea9d7f5b7db77cdccb4006c3b8e"
+        }
+      }
+    }
+  }
+}
