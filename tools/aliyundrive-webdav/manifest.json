@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "aliyundrive-webdav",
+  "version": "2.3.3",
+  "repository": "messense/aliyundrive-webdav",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v2.3.3/aliyundrive-webdav-v2.3.3.x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.3.3",
+      "sha256": "768122795280e54a818d74d47c6ae71ba8584f0d0c41193bf1d959cf5d3b6cb8",
+      "size": 4241567,
+      "format": "tar.gz",
+      "binaries": {
+        "aliyundrive-webdav": {
+          "path": "aliyundrive-webdav",
+          "sha256": "029542beebe1b51420dad2012efecbdc597f79735ad23003d27b28f18629d25b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v2.3.3/aliyundrive-webdav-v2.3.3.aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.3.3",
+      "sha256": "10abbe819b02b538aa9c65c5bad07be04209bdf507f3b1a40525b58b015f9e53",
+      "size": 3621761,
+      "format": "tar.gz",
+      "binaries": {
+        "aliyundrive-webdav": {
+          "path": "aliyundrive-webdav",
+          "sha256": "c65301e4fab030a6185915f05b579da77cd66ebe32998a68628c63f9d19e53b0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v2.3.3/aliyundrive-webdav-v2.3.3.x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.3.3",
+      "sha256": "6582ce142faba27bb8b3ee0295dda209a675653f84fd69403cf54be2eacb9e13",
+      "size": 4347944,
+      "format": "zip",
+      "binaries": {
+        "aliyundrive-webdav.exe": {
+          "path": "aliyundrive-webdav.exe",
+          "sha256": "3b089ec43fb75bcfc700cfb750a3e00c9015f96bdce8a2715c28c06f2595386e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v2.3.3/aliyundrive-webdav-v2.3.3.aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v2.3.3",
+      "sha256": "4e98f9cf48b4f318fc4b71f5576400a789aea0709afd8c7123f37da430f54e48",
+      "size": 3489293,
+      "format": "zip",
+      "binaries": {
+        "aliyundrive-webdav.exe": {
+          "path": "aliyundrive-webdav.exe",
+          "sha256": "239657dd785af3bcebf118cc8724da77e98dea5bc3009dec30b5e70c6c6936d5"
+        }
+      }
+    }
+  }
+}
