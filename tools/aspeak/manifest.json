@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "aspeak",
+  "version": "6.1.0",
+  "repository": "kxxt/aspeak",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kxxt/aspeak/releases/download/v6.1.0/aspeak-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v6.1.0",
+      "sha256": "424515e05896b997906dbd085eeb08e99bd13e7fe57c691bb3b33c0f039c41f6",
+      "size": 2459590,
+      "format": "tar.gz",
+      "binaries": {
+        "aspeak": {
+          "path": "aspeak",
+          "sha256": "365b5c03db45f1c696d58b2bcddd917779e41e988a9ba8b5ffe629d47f97bbd8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kxxt/aspeak/releases/download/v6.1.0/aspeak-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v6.1.0",
+      "sha256": "ffea2a5350890bfd41932964aeeb83684e95b72b9a03c7fdca18a39ee2aa034e",
+      "size": 2311869,
+      "format": "tar.gz",
+      "binaries": {
+        "aspeak": {
+          "path": "aspeak",
+          "sha256": "9eee61b6ac3645edf93199711c334bc0c03219a20041e357ff78ae9737cab9be"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kxxt/aspeak/releases/download/v6.1.0/aspeak-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v6.1.0",
+      "sha256": "861a4ed98614b81cab4feac6ea09dea67827275372841d735352de986c05c5e7",
+      "size": 2183382,
+      "format": "tar.gz",
+      "binaries": {
+        "aspeak": {
+          "path": "aspeak",
+          "sha256": "d13c657ce195f09a2b36a708334633ddb6e216ade6e78f4b306ad4f18fabc2c0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kxxt/aspeak/releases/download/v6.1.0/aspeak-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v6.1.0",
+      "sha256": "f9319186466121940f6c3e3a6508bbcbf834ae6d7f666468ebda0b8de991e61a",
+      "size": 2337689,
+      "format": "zip",
+      "binaries": {
+        "aspeak.exe": {
+          "path": "aspeak.exe",
+          "sha256": "658c660e7e88996714939357bd052c9bc50d2a5561abffed9868920863799fc1"
+        }
+      }
+    }
+  }
+}
