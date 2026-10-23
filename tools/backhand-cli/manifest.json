@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "name": "backhand-cli",
+  "version": "0.25.5",
+  "repository": "wcampbell0x2a/backhand",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wcampbell0x2a/backhand/releases/download/v0.25.5/backhand-v0.25.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.25.5",
+      "sha256": "d2af56617fe5ea4320019dd1d6964db07151fa618bdc2de4ff10b996a56b92d4",
+      "size": 4807442,
+      "format": "tar.gz",
+      "binaries": {
+        "add-backhand": {
+          "path": "add-backhand",
+          "sha256": "5fbd197036372ec5deb072390714f8ba3b83c796fedae40d69a75a5f613a598a"
+        },
+        "replace-backhand": {
+          "path": "replace-backhand",
+          "sha256": "5aa2963105f1c6646d7961fea9c9a04ec8dcc55da34fe7c06e057b177fce51ec"
+        },
+        "unsquashfs-backhand": {
+          "path": "unsquashfs-backhand",
+          "sha256": "8230c724b336b9fea53239216fb046aa35c589898e5156c3fd512c0c85ab1fce"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wcampbell0x2a/backhand/releases/download/v0.25.5/backhand-v0.25.5-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.25.5",
+      "sha256": "738435df40af9380a7d20eb2666eb6ffdf45f853a19feafa2dac2104d504ab4d",
+      "size": 4443913,
+      "format": "tar.gz",
+      "binaries": {
+        "add-backhand": {
+          "path": "add-backhand",
+          "sha256": "ff60597cfd2ffeab217e474652f462e1be2f0d25927d5616367b713de76fd16d"
+        },
+        "replace-backhand": {
+          "path": "replace-backhand",
+          "sha256": "9c022396e6693098dffdf649071b70d398c5fa530258fbf0a9b45b11001fe01c"
+        },
+        "unsquashfs-backhand": {
+          "path": "unsquashfs-backhand",
+          "sha256": "87106b4936a82cc18b5045374a6a092ac1990a3f1dcba92de729cd51da67fc47"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wcampbell0x2a/backhand/releases/download/v0.25.5/backhand-v0.25.5-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.5",
+      "sha256": "f8db2d107727e85694b71e68c8e6b16890918999d094266671f7233867c9268a",
+      "size": 3694628,
+      "format": "tar.gz",
+      "binaries": {
+        "add-backhand": {
+          "path": "add-backhand",
+          "sha256": "07c3d3a628c456cac64850fa576e99b8cf5542150ef74e8e9751ee82949e7586"
+        },
+        "replace-backhand": {
+          "path": "replace-backhand",
+          "sha256": "7bfcbcee5f5a690c44421be39c4e7b06dd07bd70739941d3e8d91ec7513168ce"
+        },
+        "unsquashfs-backhand": {
+          "path": "unsquashfs-backhand",
+          "sha256": "24c433537f00e508dfe29f9a2de89ad4a0f53a65d8f5b06ff6ae78b9ec2ddbfc"
+        }
+      }
+    }
+  }
+}
