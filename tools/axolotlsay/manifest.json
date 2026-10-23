@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "axolotlsay",
+  "version": "0.3.3",
+  "repository": "axodotdev/axolotlsay",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/axodotdev/axolotlsay/releases/download/v0.3.3/axolotlsay-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "1797b003e70249909344b147cdb89adf6367c63644da9f20103592b586bdce5d",
+      "size": 892161,
+      "format": "tar.gz",
+      "binaries": {
+        "axolotlsay": {
+          "path": "axolotlsay-x86_64-unknown-linux-musl/axolotlsay",
+          "sha256": "55cab53ec2b6ff188922536b1a5236e460dbb221ccfa7a9f9b11146fea01f9a1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/axodotdev/axolotlsay/releases/download/v0.3.3/axolotlsay-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "24da45d61fee373c461f7a406d800f547e272d56ddb32aeac17f41e4182490ae",
+      "size": 891704,
+      "format": "tar.gz",
+      "binaries": {
+        "axolotlsay": {
+          "path": "axolotlsay-aarch64-unknown-linux-musl/axolotlsay",
+          "sha256": "92d37fc6f93dc3634b155edf4b00c95f9b49ebe4983bde30c847e5d35bece8e1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/axodotdev/axolotlsay/releases/download/v0.3.3/axolotlsay-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "381308beb6037ee847e526bb2bbf3e4e96bb5632abf00c6c4b6ace812d1b2d6e",
+      "size": 396758,
+      "format": "tar.gz",
+      "binaries": {
+        "axolotlsay": {
+          "path": "axolotlsay-x86_64-apple-darwin/axolotlsay",
+          "sha256": "cdca7b94d2170941e6064d354cfd35f17f12aad8a85586c118aa14690f3ace72"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/axodotdev/axolotlsay/releases/download/v0.3.3/axolotlsay-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "0ead09a313c78a2507f1a35065044468c5c4028381a713812fc27ea1f40368cb",
+      "size": 385210,
+      "format": "tar.gz",
+      "binaries": {
+        "axolotlsay": {
+          "path": "axolotlsay-aarch64-apple-darwin/axolotlsay",
+          "sha256": "b5bb09bd3b553004b192823a9d4602be6ddcb6a320d4a5759e249efc4048c150"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/axodotdev/axolotlsay/releases/download/v0.3.3/axolotlsay-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "ad3f7fbc89b23849b41f4f8e7dee885bedb430109eeba0e42beed6511efafd2d",
+      "size": 336399,
+      "format": "tar.gz",
+      "binaries": {
+        "axolotlsay.exe": {
+          "path": "axolotlsay-x86_64-pc-windows-msvc/axolotlsay.exe",
+          "sha256": "0e1fa4d91ae9bcca812227d0b31d801a9ecad223a9783c48e2c30d239e868648"
+        }
+      }
+    }
+  }
+}
