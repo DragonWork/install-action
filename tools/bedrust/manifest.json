@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "bedrust",
+  "version": "0.8.8",
+  "repository": "darko-mesaros/bedrust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/darko-mesaros/bedrust/releases/download/v0.8.8/bedrust-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.8",
+      "sha256": "564af4fd6fd8e4181bb6a96d3b0aa64d1f28a6265931cfe939bb077f4638dffc",
+      "size": 8772494,
+      "format": "tar.gz",
+      "binaries": {
+        "bedrust": {
+          "path": "bedrust",
+          "sha256": "5098e2529e8d1086562de83f98bc00bcce5ed15dbc3ab7b2bd9069e2264ef9fc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/darko-mesaros/bedrust/releases/download/v0.8.8/bedrust-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.8",
+      "sha256": "a773355e25d36dd028193716ff28f5cadc524e7e1c5d6488f340ce210a846cd5",
+      "size": 8441789,
+      "format": "tar.gz",
+      "binaries": {
+        "bedrust": {
+          "path": "bedrust",
+          "sha256": "ee7bcf5ab67d6bc3f12344308973313213f04e975b2ab297fc31d6e767f59d3b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/darko-mesaros/bedrust/releases/download/v0.8.8/bedrust-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.8",
+      "sha256": "a3619ddeac70965b938a775cc738dff99b457f71018c270d7298193e70d8adb3",
+      "size": 8299702,
+      "format": "tar.gz",
+      "binaries": {
+        "bedrust": {
+          "path": "bedrust",
+          "sha256": "db71a1c9ea6b618579f80e91460b625dc4a62c53a1082fd7c284fde54af0e770"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/darko-mesaros/bedrust/releases/download/v0.8.8/bedrust-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.8",
+      "sha256": "5ccdb75ffd4063c99f68cfc2e566b798e328970abda7e43adee27cd3cd24fe1d",
+      "size": 7962580,
+      "format": "tar.gz",
+      "binaries": {
+        "bedrust": {
+          "path": "bedrust",
+          "sha256": "5e7222eb9bbfae38be8e8d79096533ae0f52977a31e07c7fede78becfb42cff5"
+        }
+      }
+    }
+  }
+}
