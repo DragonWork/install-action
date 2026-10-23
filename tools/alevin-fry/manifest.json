@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "alevin-fry",
+  "version": "0.18.3",
+  "repository": "COMBINE-lab/alevin-fry",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/COMBINE-lab/alevin-fry/releases/download/v0.18.3/alevin-fry-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.18.3",
+      "sha256": "8f0d1d61643f8224b4267fffc106eee8639cedd7e66c5776d15ec6a25806d652",
+      "size": 1477856,
+      "format": "tar.xz",
+      "binaries": {
+        "alevin-fry": {
+          "path": "alevin-fry-x86_64-unknown-linux-gnu/alevin-fry",
+          "sha256": "9ed89ab5db8528fa474629a41196346bcee2f5c9a0e99c19b4025ba71a14de38"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/COMBINE-lab/alevin-fry/releases/download/v0.18.3/alevin-fry-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.18.3",
+      "sha256": "e00184a2417706cfb4ff906bbf3b42a8e1beca4272f9983dbf8c8328176bf7b8",
+      "size": 1372652,
+      "format": "tar.xz",
+      "binaries": {
+        "alevin-fry": {
+          "path": "alevin-fry-aarch64-unknown-linux-gnu/alevin-fry",
+          "sha256": "f268291289b7a912087032dba69d00798cd022f902ff41da62452ddd1e95e70c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/COMBINE-lab/alevin-fry/releases/download/v0.18.3/alevin-fry-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.18.3",
+      "sha256": "580c81d6b9cc8fc593b24e9df94517ef42dbae7149f13c617335d6cc677dc095",
+      "size": 1380840,
+      "format": "tar.xz",
+      "binaries": {
+        "alevin-fry": {
+          "path": "alevin-fry-x86_64-apple-darwin/alevin-fry",
+          "sha256": "d36812b1f7fadc869e49ea7df44e9bb1e7616f2df9c28f32f5abb492a9f63e34"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/COMBINE-lab/alevin-fry/releases/download/v0.18.3/alevin-fry-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.18.3",
+      "sha256": "fac37c696379a7bb723c9e80d328646294b4ee1f4b1abbd4aff2d38c6703446c",
+      "size": 1198424,
+      "format": "tar.xz",
+      "binaries": {
+        "alevin-fry": {
+          "path": "alevin-fry-aarch64-apple-darwin/alevin-fry",
+          "sha256": "0b441f25761c619a7653ce865fac3627108f907724622a06ba96c5c5683a2277"
+        }
+      }
+    }
+  }
+}
