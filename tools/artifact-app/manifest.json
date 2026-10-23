@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "artifact-app",
+  "version": "1.0.1",
+  "repository": "vitiral/artifact",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vitiral/artifact/releases/download/1.0.1/artifact-app-1.0.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.0.1",
+      "sha256": "3b29f44a5534d434ba5aaa011acbb324fe9c75955801738eba23e6ba8e456e5c",
+      "size": 6198875,
+      "format": "tar.gz",
+      "binaries": {
+        "art": {
+          "path": "art",
+          "sha256": "f8fe0a25605acc7e996f44c451d794efd8262557464b775530ef6ff8f55e9cdf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vitiral/artifact/releases/download/1.0.1/artifact-app-1.0.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.0.1",
+      "sha256": "9852a3ac71a44d5cf7df02217c7b6abc6cc4b87ca648155da90df824ba0db379",
+      "size": 4430426,
+      "format": "tar.gz",
+      "binaries": {
+        "art": {
+          "path": "art",
+          "sha256": "7607f97ec1584a67a481f98542ce1150781390d70ef091f99a668ddc20ad18e9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vitiral/artifact/releases/download/1.0.1/artifact-app-1.0.1-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "1.0.1",
+      "sha256": "f377c360b53528f4599b729dfb33aed788f06bdc782ef190063d786f09799e1b",
+      "size": 4131287,
+      "format": "zip",
+      "binaries": {
+        "art.exe": {
+          "path": "art.exe",
+          "sha256": "9421cc3eb39296e464e11e710b9b8435cbd87a614b8610e4d4e020cba6100d10"
+        }
+      }
+    }
+  }
+}
