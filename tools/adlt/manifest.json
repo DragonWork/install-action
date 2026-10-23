@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "adlt",
+  "version": "0.33.2",
+  "repository": "mbehr1/adlt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mbehr1/adlt/releases/download/v0.33.2/adlt-v0.33.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.33.2",
+      "sha256": "8ae49c22d7c18c4540d72f7b0b10c72e5a9e50dc0eb176c353ae24813121479e",
+      "size": 1914932,
+      "format": "tar.gz",
+      "binaries": {
+        "adlt": {
+          "path": "adlt-v0.33.2-x86_64-unknown-linux-musl/adlt",
+          "sha256": "bdefa2355b10ea6c4e017f811234d5ff3506fc9fbb39a38c98485d1b6d61b5b6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mbehr1/adlt/releases/download/v0.33.2/adlt-v0.33.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.33.2",
+      "sha256": "bba52e77a7b4935f12af8c9a9fe2c306f59f5c6d47e51ec3f930ab4751992c21",
+      "size": 3089915,
+      "format": "tar.gz",
+      "binaries": {
+        "adlt": {
+          "path": "adlt-v0.33.2-aarch64-unknown-linux-gnu/adlt",
+          "sha256": "c2f25842ab4190e42f1051604cf082f0f96046b08b9f01598bb87f9a98169087"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mbehr1/adlt/releases/download/v0.33.2/adlt-v0.33.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.33.2",
+      "sha256": "ad495d8418449bf5e74bdf282d5b4fc1b0936180ab03439b8d6d56214a707a3e",
+      "size": 1753216,
+      "format": "tar.gz",
+      "binaries": {
+        "adlt": {
+          "path": "adlt-v0.33.2-x86_64-apple-darwin/adlt",
+          "sha256": "ad2a8e7f650b70e5569ea5edd4f4781839566703b4b704a826651496ef2042c3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mbehr1/adlt/releases/download/v0.33.2/adlt-v0.33.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.33.2",
+      "sha256": "fd80e0166913a2e8886f76e830318ee42b226c95711a823aae379868452227cf",
+      "size": 2029597,
+      "format": "tar.gz",
+      "binaries": {
+        "adlt": {
+          "path": "adlt-v0.33.2-aarch64-apple-darwin/adlt",
+          "sha256": "0c190f9b8d4cb1ff5760b9dc545582f037732f77e7d3f7b4e3f25eff9053f43b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mbehr1/adlt/releases/download/v0.33.2/adlt-v0.33.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.33.2",
+      "sha256": "293658e2d59e2ebcad424dc77ffec8c95d5f8506b38124253bf274016333cdec",
+      "size": 1775311,
+      "format": "zip",
+      "binaries": {
+        "adlt.exe": {
+          "path": "adlt-v0.33.2-x86_64-pc-windows-msvc/adlt.exe",
+          "sha256": "1e0b054f65d071c3d278e551a40a8ea40431975bf26a1f33344a629fd8ce7250"
+        }
+      }
+    }
+  }
+}
