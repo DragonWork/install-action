@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "asaru",
+  "version": "0.3.4",
+  "repository": "thekuwayama/asaru",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/thekuwayama/asaru/releases/download/v0.3.4/asaru-v0.3.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.4",
+      "sha256": "d831a35fad1f95882bd8c60df31fbf00c03a9d737a18279760bbb77bc37f042b",
+      "size": 2009153,
+      "format": "tar.gz",
+      "binaries": {
+        "asaru": {
+          "path": "asaru",
+          "sha256": "c6563f20d37844ed6ce27df77ac9731daf8d9c4b859cc7f05f1f2e51971a7b65"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/thekuwayama/asaru/releases/download/v0.3.4/asaru-v0.3.4-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.4",
+      "sha256": "1f999813b907a588d7964ca632b031dba0e80e2f0b9c3220da6b18bd86f3fd6c",
+      "size": 1911345,
+      "format": "tar.gz",
+      "binaries": {
+        "asaru": {
+          "path": "asaru",
+          "sha256": "36567cb902d705ebf233a2dcd6dcf728a2b939c2aca4ccc9de6b9dfcac8021cd"
+        }
+      }
+    }
+  }
+}
