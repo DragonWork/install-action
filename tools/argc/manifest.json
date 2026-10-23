@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "argc",
+  "version": "1.24.0",
+  "repository": "sigoden/argc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.24.0",
+      "sha256": "92e2c30ef078e0a66855b5bdd389cefa7ac6ef4c1fe0b177f3f0bf639891aa72",
+      "size": 594541,
+      "format": "tar.gz",
+      "binaries": {
+        "argc": {
+          "path": "argc",
+          "sha256": "1ad93ba9b2cf6aada94663a4c0f723dcae9c12d9336ba179fb0510b0fb738407"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.24.0",
+      "sha256": "1493e522be42b83e326750bbd6bd1893b33ed4889ef6d1a03f18c57702159519",
+      "size": 571433,
+      "format": "tar.gz",
+      "binaries": {
+        "argc": {
+          "path": "argc",
+          "sha256": "9cdba718ba948f14d6f22d3e3ca9e64089822382f6569945a4f82d8fd1b785b3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.24.0",
+      "sha256": "fc096ec0569e166856b838cc9a54a6818f3062eea87e94fd69c3452a7e2c0097",
+      "size": 494804,
+      "format": "tar.gz",
+      "binaries": {
+        "argc": {
+          "path": "argc",
+          "sha256": "3b4ff8dd1627a5569c834ce4d5846350f4210c06e70958b289cd90083847b092"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.24.0",
+      "sha256": "617e2fbca3ce0fe604b82f22cd857e3d53fa1b53dbb18d5883bb0f935c31f42e",
+      "size": 475871,
+      "format": "tar.gz",
+      "binaries": {
+        "argc": {
+          "path": "argc",
+          "sha256": "75c5f94679463ccf5ba8cb712b9f9303a2d84bd46cb184c243fe962e040a35da"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.24.0",
+      "sha256": "70f70b987cba68677db17c2012b6b7faf09a7374896b98c7ed4d039262f72914",
+      "size": 445473,
+      "format": "zip",
+      "binaries": {
+        "argc.exe": {
+          "path": "argc.exe",
+          "sha256": "2131271590961db9f87860bf465dfa89181fa7f67ff5723c0b0aba1fe81a8cc8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sigoden/argc/releases/download/v1.24.0/argc-v1.24.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.24.0",
+      "sha256": "243d6f1b67b253193d30a5d6bb5a696b1de0cbb6ecfb7431925e268ef9e114ac",
+      "size": 421020,
+      "format": "zip",
+      "binaries": {
+        "argc.exe": {
+          "path": "argc.exe",
+          "sha256": "093770bb408508774aef3220d5fa4e5ff2a4c64159bdcac3ba526833af90852c"
+        }
+      }
+    }
+  }
+}
