@@ -11,6 +11,7 @@ async function checkRegistry(directory) {
     const folder = path.join(directory, 'tools', name);
     const files = (await fs.readdir(folder)).sort();
     assert(JSON.stringify(files) === JSON.stringify(['Cargo.lock', 'action.yml', 'manifest.json']), `Unexpected files in ${name}.`);
+    for (const file of files) assert((await fs.lstat(path.join(folder, file))).isFile(), `Unexpected link or directory in ${name}.`);
     const manifest = validateManifest(JSON.parse(await fs.readFile(path.join(folder, 'manifest.json'), 'utf8')));
     assert(manifest.name === name, 'Crate namespace does not match its manifest.');
     assert(await fs.readFile(path.join(folder, 'action.yml'), 'utf8') === wrapper(name), `Unexpected action wrapper for ${name}.`);

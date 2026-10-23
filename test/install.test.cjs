@@ -76,6 +76,16 @@ test('crate extraction rejects traversal, links, duplicates and broken headers',
   assert.equal(await fs.stat(path.join(root, 'escape')).catch(() => null), null);
 });
 
+test('crate extraction supports Unicode source paths', async t => {
+  const root = await temporary(t);
+  const archive = tar({
+    'sample-cli-1.0.0/Cargo.toml': '[package]\nname="sample-cli"\n',
+    'sample-cli-1.0.0/tests/日本語.txt': 'fixture',
+  });
+  await unpackCrate(archive, root, 'sample-cli-1.0.0');
+  assert.equal(await fs.readFile(path.join(root, 'tests/日本語.txt'), 'utf8'), 'fixture');
+});
+
 test('download rejects untrusted redirects and oversized responses', async () => {
   let calls = 0;
   await assert.rejects(download('https://github.com/example/asset', {

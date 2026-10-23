@@ -12,10 +12,16 @@ async function main() {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-smoke-'));
   let success = false;
   try {
+    const changed = process.env.CHANGED_CRATES?.split(' ').filter(Boolean);
     for (const name of await checkRegistry(directory)) {
+      if (changed && !changed.includes(name)) continue;
       const folder = path.join(directory, 'tools', name);
       const manifest = JSON.parse(await fs.readFile(path.join(folder, 'manifest.json'), 'utf8'));
       const lock = await fs.readFile(path.join(folder, 'Cargo.lock'));
+      if (process.env.PREBUILT_ONLY === 'true' && !manifest.artifacts[`${process.platform}-${process.arch}`]) {
+        console.log(`${name}: pinned source build required on this platform.`);
+        continue;
+      }
       const result = await install(manifest, root, { lock });
       console.log(`${name} ${result.version}: ${result.bin}`);
     }

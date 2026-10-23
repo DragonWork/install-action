@@ -24,6 +24,8 @@ jobs:
     outputs:
       head: ${{ steps.base.outputs.head }}
       artifact: ${{ steps.upload.outputs.artifact-id }}
+      changed: ${{ steps.update.outputs.changed }}
+      names: ${{ steps.update.outputs.names }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -41,6 +43,7 @@ jobs:
         run: echo "head=$(git -C registry rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - run: npm test
       - name: Resolve crate updates
+        id: update
         run: node scripts/update-tools.cjs
         env:
           CRATE_NAMES: ${{ inputs.crates }}
@@ -56,6 +59,7 @@ jobs:
 
   validate:
     needs: prepare
+    if: needs.prepare.outputs.changed == 'true'
     strategy:
       fail-fast: false
       matrix:
@@ -75,9 +79,13 @@ jobs:
           merge-multiple: true
       - run: npm run check
       - run: node scripts/smoke.cjs
+        env:
+          CHANGED_CRATES: ${{ needs.prepare.outputs.names }}
+          PREBUILT_ONLY: 'true'
 
   publish:
     needs: [prepare, validate]
+    if: always() && needs.prepare.result == 'success' && (needs.validate.result == 'success' || needs.validate.result == 'skipped')
     runs-on: ubuntu-24.04
     permissions:
       contents: write

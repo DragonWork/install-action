@@ -2,8 +2,13 @@
 
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs/promises');
+const os = require('node:os');
+const path = require('node:path');
 const { signedCommit, release } = require('../scripts/github.cjs');
 const { wrapper, compareVersions, repositoryOf } = require('../scripts/update-tools.cjs');
+const { main: publishTools } = require('../scripts/publish-tools.cjs');
+const { sample } = require('./fixtures.cjs');
 
 test('crate wrappers call the selected engine without embedding its version', () => {
   const text = wrapper('cargo_example');
@@ -55,4 +60,49 @@ test('release recovery never moves an existing tag', async t => {
   };
   await assert.rejects(release('DragonWork/install-action', 'git-cliff/v1.0.0', 'a'.repeat(40), 'notes'), /different commit/);
   assert.deepEqual(methods, ['GET']);
+});
+
+test('unchanged namespaces do not create commits or tags', async t => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-publish-'));
+  const originalFetch = global.fetch;
+  const originalEnv = { ...process.env };
+  t.after(async () => {
+    global.fetch = originalFetch;
+    for (const key of Object.keys(process.env)) if (!(key in originalEnv)) delete process.env[key];
+    Object.assign(process.env, originalEnv);
+    await fs.rm(root, { recursive: true, force: true });
+  });
+  const { manifest, lock } = sample();
+  const folder = path.join(root, 'tools', manifest.name);
+  await fs.mkdir(folder, { recursive: true });
+  const files = {
+    'manifest.json': JSON.stringify(manifest, null, 2) + '\n',
+    'action.yml': wrapper(manifest.name),
+    'Cargo.lock': lock.toString(),
+  };
+  for (const [file, content] of Object.entries(files)) await fs.writeFile(path.join(folder, file), content);
+  Object.assign(process.env, {
+    CRATES_DIR: root, GITHUB_REF: 'refs/heads/main', GITHUB_REPOSITORY: 'DragonWork/install-action',
+    CRATES_HEAD: 'a'.repeat(40), GITHUB_SHA: 'c'.repeat(40),
+  });
+  const calls = [];
+  global.fetch = async (url, options) => {
+    calls.push(options.method);
+    assert.equal(options.method, 'GET');
+    if (url.includes('/contents/')) {
+      const name = new URL(url).pathname.split('/').at(-1);
+      return Response.json({ content: Buffer.from(files[name]).toString('base64') });
+    }
+    if (url.includes('/heads/main')) return Response.json({ object: { sha: 'c'.repeat(40) } });
+    if (url.includes('/heads/crates')) return Response.json({ object: { sha: 'a'.repeat(40) } });
+    if (url.includes('/commits?')) return Response.json([{ sha: 'b'.repeat(40) }]);
+    if (url.includes('/commits/')) return Response.json({ commit: { verification: { verified: true } },
+      files: [{ filename: 'tools/sample-cli/manifest.json' }] });
+    if (url.includes('/git/ref/tags/')) return Response.json({ object: { type: 'commit', sha: 'b'.repeat(40) } });
+    if (url.includes('/releases/tags/')) return Response.json({ id: 1 });
+    throw new Error(`Unexpected API request: ${url}`);
+  };
+  await publishTools();
+  assert(calls.length > 0);
+  assert(calls.every(method => method === 'GET'));
 });

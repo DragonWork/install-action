@@ -4,6 +4,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const { assert, failure } = require('../lib/common.cjs');
 const { checkRegistry } = require('./check.cjs');
+const { compareVersions } = require('./update-tools.cjs');
 const { api, signedCommit, release } = require('./github.cjs');
 
 async function contents(repository, file, ref) {
@@ -37,7 +38,9 @@ async function main() {
       const previous = await contents(repository, prefix + 'manifest.json', head);
       if (previous) {
         const old = JSON.parse(previous);
-        assert(old.release !== manifest.release && old.version !== manifest.version, 'Refusing an unversioned crate update.');
+        assert(compareVersions(manifest.release, old.release) > 0
+          && compareVersions(manifest.version, old.version) >= 0, 'Refusing an unversioned crate update or downgrade.');
+        assert(old.version !== manifest.version || old.source.sha256 === manifest.source.sha256, 'Refusing replacement of an existing crate source.');
       }
       commit = await signedCommit(repository, 'crates', head,
         `${previous ? 'chore' : 'feat'}(${name}): ${previous ? 'update to' : 'add'} ${manifest.version}`, changes);

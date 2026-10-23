@@ -179,6 +179,7 @@ async function main() {
   const names = [...new Set([...(await registered(directory)), ...extra])].sort();
   assert(names.length, 'Provide CRATE_NAMES to register a CLI crate.');
   let changed = 0;
+  const changedNames = [];
   for (const name of names) {
     assert(NAME.test(name), 'Invalid crate name.');
     const folder = path.join(directory, 'tools', name);
@@ -193,8 +194,12 @@ async function main() {
     await fs.writeFile(path.join(folder, 'action.yml'), wrapper(name));
     console.log(`${name}: ${previous?.version || 'new'} -> ${update.manifest.version}`);
     changed++;
+    changedNames.push(name);
   }
-  if (process.env.GITHUB_OUTPUT) await writeCommand(process.env.GITHUB_OUTPUT, 'changed', String(changed > 0));
+  if (process.env.GITHUB_OUTPUT) {
+    await writeCommand(process.env.GITHUB_OUTPUT, 'changed', String(changed > 0));
+    await writeCommand(process.env.GITHUB_OUTPUT, 'names', changedNames.join(' '));
+  }
 }
 
 if (require.main === module) main().catch(failure);
