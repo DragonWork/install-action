@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "bendsql",
+  "version": "0.34.2",
+  "repository": "databendlabs/bendsql",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.34.2",
+      "sha256": "065e5a376265c1d62b0a2b132ebb9b51a70d92490a210d54ad5893ea563c0a72",
+      "size": 14867386,
+      "format": "tar.gz",
+      "binaries": {
+        "bendsql": {
+          "path": "bendsql",
+          "sha256": "03df97b2df6a57cde6862ca968cfc717bc069fa3ee0650ae10e2a3a84caf109a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.34.2",
+      "sha256": "5153b44e2af74f7758d8d1dd22bf2f5e59a986afb9039bd69e6647550dcc4387",
+      "size": 14280376,
+      "format": "tar.gz",
+      "binaries": {
+        "bendsql": {
+          "path": "bendsql",
+          "sha256": "afd534e31777f71b5f6dd934f3b87d4ef28fe76c506e875d133471a5ef57c8e1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.34.2",
+      "sha256": "cb064c00c4f0c09595a83cb97639c6a76d7954542eb4d4debe19ee8928c9aff3",
+      "size": 13584611,
+      "format": "tar.gz",
+      "binaries": {
+        "bendsql": {
+          "path": "bendsql",
+          "sha256": "b8dab36bd95c0ce9916108d7658f959c6420c5096443cb8071e892074c8d6ddc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.34.2",
+      "sha256": "098ceeba0f6b91bb43bcafb3bbd2e99160fb28c755e876f34a638b49a190b0f2",
+      "size": 12821853,
+      "format": "tar.gz",
+      "binaries": {
+        "bendsql": {
+          "path": "bendsql",
+          "sha256": "3c651218f16674c3a976b5a893984424024227bf4feb31817e351284d590ae6f"
+        }
+      }
+    }
+  }
+}
