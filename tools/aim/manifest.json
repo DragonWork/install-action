@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "aim",
+  "version": "1.8.8",
+  "repository": "mihaigalos/aim",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mihaigalos/aim/releases/download/1.8.8/aim-1.8.8-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.8.8",
+      "sha256": "ef4eb0dda2663e0875d2084d0a65075e1254d03de65ae347f9a0f46541569fe2",
+      "size": 7586977,
+      "format": "tar.gz",
+      "binaries": {
+        "aim": {
+          "path": "aim",
+          "sha256": "7b403942bef80fb35d37b7288593a06e8bbe37834a4a84af83b1f2d832ba51ee"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mihaigalos/aim/releases/download/1.8.8/aim-1.8.8-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.8.8",
+      "sha256": "23ade54e5c5347386b02bd747c0a9cb4977b7c5e92182f18b9359b7675eb7ebe",
+      "size": 7352806,
+      "format": "tar.gz",
+      "binaries": {
+        "aim": {
+          "path": "aim",
+          "sha256": "cb861aa10e471c4eeaa5058165e0c80e4c4d8744cc8f2116f8dcd007bc97d880"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mihaigalos/aim/releases/download/1.8.8/aim-1.8.8-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.8.8",
+      "sha256": "89dee45a69ba34af464d638a379539614a749757e9bb3ebda2ace707baa8412a",
+      "size": 6630370,
+      "format": "tar.gz",
+      "binaries": {
+        "aim": {
+          "path": "aim",
+          "sha256": "bc787a837599c14db652b65834db9e647393ff5423482f8514dad9565e872952"
+        }
+      }
+    }
+  }
+}
