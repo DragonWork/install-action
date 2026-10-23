@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "cairo-lang-runner",
+  "version": "1.1.1",
+  "repository": "starkware-libs/cairo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v1.1.1/release-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.1",
+      "sha256": "ac1bd0a5c5acecb92d824eb448e3bb4e31eb0c055c86586160a6427beb6bf81d",
+      "size": 42705271,
+      "format": "tar.gz",
+      "binaries": {
+        "cairo-run": {
+          "path": "cairo/bin/cairo-run",
+          "sha256": "611ae32a7dd3ac8f8bc31907c73a5e9d4f53acc8fa78a310830421b7bb1c0c74"
+        }
+      }
+    }
+  }
+}
