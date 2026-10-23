@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "awsbck",
+  "version": "1.0.5",
+  "repository": "beeb/awsbck",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.5/awsbck-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v1.0.5",
+      "sha256": "878016951a513b809204bd475256cc3410586acff61e33375b9a7af8ca574c2b",
+      "size": 4933008,
+      "format": "tar.xz",
+      "binaries": {
+        "awsbck": {
+          "path": "awsbck-x86_64-unknown-linux-musl/awsbck",
+          "sha256": "02e3be09333f4762e0693054808e71e03b0c58a7676ba2cab2d59ea2667f8855"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.5/awsbck-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.5",
+      "sha256": "28cf35c78158324a835bb3f19299d23a2a585705713169a6355004b36d09c65a",
+      "size": 4363124,
+      "format": "tar.xz",
+      "binaries": {
+        "awsbck": {
+          "path": "awsbck-aarch64-unknown-linux-gnu/awsbck",
+          "sha256": "bfd7e8260190efa2fabdb727ed6393777764cfecbd15fb9cfd40593e2ec15fd3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.5/awsbck-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.5",
+      "sha256": "88eb471499de09a58023996f83d15736ee90a449117dac780bcf7e94aa4cd0e9",
+      "size": 3869932,
+      "format": "tar.xz",
+      "binaries": {
+        "awsbck": {
+          "path": "awsbck-aarch64-apple-darwin/awsbck",
+          "sha256": "54a3f2ad94d67c36d34f33022cd7339fa9927d5e4465286870ca2e8114144ff6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.5/awsbck-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.5",
+      "sha256": "a6e994f14f0e555260318417644021f71141e71c50705607f30a5de824293a98",
+      "size": 7472339,
+      "format": "zip",
+      "binaries": {
+        "awsbck.exe": {
+          "path": "awsbck.exe",
+          "sha256": "f5fb042f92e1013718b14a4629685daff61cc7750b87c59d119689ec1ba49e08"
+        }
+      }
+    }
+  }
+}
