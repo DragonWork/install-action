@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "applesauce-cli",
+  "version": "0.5.30",
+  "repository": "Dr-Emann/applesauce",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/Dr-Emann/applesauce/releases/download/applesauce-cli-v0.5.30/applesauce-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "applesauce-cli-v0.5.30",
+      "sha256": "80b0ee7e6aba7cdc5b2f323f3e7c296b406bd9da5193000059601486d0527222",
+      "size": 1170736,
+      "format": "tar.xz",
+      "binaries": {
+        "applesauce": {
+          "path": "applesauce-cli-x86_64-apple-darwin/applesauce",
+          "sha256": "264f25c52d77c5d105ed07dae4c5e267f1064b5d7cd6082b2ceb0982a0bdc8ab"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Dr-Emann/applesauce/releases/download/applesauce-cli-v0.5.30/applesauce-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "applesauce-cli-v0.5.30",
+      "sha256": "a9056a441e266360718dff3803f26bf9ae3e693bba11eb38030b9b4772a0f80d",
+      "size": 1066528,
+      "format": "tar.xz",
+      "binaries": {
+        "applesauce": {
+          "path": "applesauce-cli-aarch64-apple-darwin/applesauce",
+          "sha256": "930a613509fa1db336f3810a59c7c1747d2241630ebac8629bef651896ff0a8b"
+        }
+      }
+    }
+  }
+}
