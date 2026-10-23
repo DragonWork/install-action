@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "cairo-lang-formatter",
+  "version": "1.1.1",
+  "repository": "starkware-libs/cairo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v1.1.1/release-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.1",
+      "sha256": "ac1bd0a5c5acecb92d824eb448e3bb4e31eb0c055c86586160a6427beb6bf81d",
+      "size": 42705271,
+      "format": "tar.gz",
+      "binaries": {
+        "cairo-format": {
+          "path": "cairo/bin/cairo-format",
+          "sha256": "18542a1b484585ebe241c4a85748571b6425e086bba4b54bc070b51e808061b9"
+        }
+      }
+    }
+  }
+}
