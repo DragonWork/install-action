@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ateam",
+  "version": "1.0.16",
+  "repository": "frisoft/ateam",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/frisoft/ateam/releases/download/v1.0.16/ateam-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.16",
+      "sha256": "93d0aac52c046aaa170ac5385de7b9a1777afbcd099a878b2961346a215b5417",
+      "size": 6741060,
+      "format": "tar.xz",
+      "binaries": {
+        "ateam": {
+          "path": "ateam-x86_64-unknown-linux-gnu/ateam",
+          "sha256": "1e1c6dbc8d83f74bd67437cd339d65a7b389bbaae4b70b2bf33ff576a8a2dddb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/frisoft/ateam/releases/download/v1.0.16/ateam-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.16",
+      "sha256": "b69da8e57899d453b0a9f561e38d92922bda613d42b6a32c7658f4f5ad489e14",
+      "size": 6244252,
+      "format": "tar.xz",
+      "binaries": {
+        "ateam": {
+          "path": "ateam-aarch64-unknown-linux-gnu/ateam",
+          "sha256": "0ff9a7a8a8f765ec418d3157babb2364417aa92dcfb6e6fcc8583281a38a06ba"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/frisoft/ateam/releases/download/v1.0.16/ateam-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.16",
+      "sha256": "e43bf5f6f4ada75e61b27f2ede275b9278b9c410047297e95000a3b685c3c505",
+      "size": 2748092,
+      "format": "tar.xz",
+      "binaries": {
+        "ateam": {
+          "path": "ateam-x86_64-apple-darwin/ateam",
+          "sha256": "233dbf408f30cdcb5067a6c7787ba9611a0b6f8fd7b80ee63195be207a0e62bb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/frisoft/ateam/releases/download/v1.0.16/ateam-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.16",
+      "sha256": "eadce4f85b6700451f83c4fd1ab5d22d228d735fbc58ca32601030859ecfe6e9",
+      "size": 2513888,
+      "format": "tar.xz",
+      "binaries": {
+        "ateam": {
+          "path": "ateam-aarch64-apple-darwin/ateam",
+          "sha256": "568f918bf7a808b26af008dd8e34b77c55dad1c2fde3440e94e85cd5c79aafcf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/frisoft/ateam/releases/download/v1.0.16/ateam-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.16",
+      "sha256": "7b97d94359a8f1de90ee592f659041cf1c811ded71ce3e959767197ecf6b9758",
+      "size": 3361390,
+      "format": "zip",
+      "binaries": {
+        "ateam.exe": {
+          "path": "ateam.exe",
+          "sha256": "de7d0529a0d60446a9486fc2ca26642fb3a783b21e07d15a75530111bb7d17a9"
+        }
+      }
+    }
+  }
+}
