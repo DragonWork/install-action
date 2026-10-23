@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "adnix",
+  "version": "0.4.10",
+  "repository": "msfjarvis/adnix-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/msfjarvis/adnix-rs/releases/download/v0.4.10/adnix-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.4.10",
+      "sha256": "2401f62f424904c104a10a2794528d586984ed0717b3db0cf2e3515380f85c0f",
+      "size": 2286040,
+      "format": "tar.xz",
+      "binaries": {
+        "adnix": {
+          "path": "adnix-x86_64-unknown-linux-musl/adnix",
+          "sha256": "706dde3acdeb85ed69d0b5e550b7738e1e943118f769e9efaea642a795c007f2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/msfjarvis/adnix-rs/releases/download/v0.4.10/adnix-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.10",
+      "sha256": "f31a214859dee8f1be13e0df6c4829f466d1905579ccff08ffe8f5b1f9d89fd9",
+      "size": 1392056,
+      "format": "tar.xz",
+      "binaries": {
+        "adnix": {
+          "path": "adnix-x86_64-apple-darwin/adnix",
+          "sha256": "1ad5cb629b13654df969e717d783355666ced118c7d1601b2c52ac9241ea3401"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/msfjarvis/adnix-rs/releases/download/v0.4.10/adnix-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.10",
+      "sha256": "00eed0760fe819d3f9dfb22654da34463a7dc120441865e797908d13ce25298b",
+      "size": 1233972,
+      "format": "tar.xz",
+      "binaries": {
+        "adnix": {
+          "path": "adnix-aarch64-apple-darwin/adnix",
+          "sha256": "e3c87267b5ac6bbfbde0e67c7ff1fe313947d05487e874835e3bbe7422f2a85c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/msfjarvis/adnix-rs/releases/download/v0.4.10/adnix-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.10",
+      "sha256": "655de2d33955de4bf13118612405b311c6d1b9e7753599192572d20e87b865ff",
+      "size": 3588220,
+      "format": "zip",
+      "binaries": {
+        "adnix.exe": {
+          "path": "adnix.exe",
+          "sha256": "58a93a2e0122f2115b7bae48037710ee855f9031c79eebe5194be2d48a18a5ae"
+        }
+      }
+    }
+  }
+}
