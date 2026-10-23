@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "bandwhich",
+  "version": "0.23.1",
+  "repository": "imsnif/bandwhich",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.23.1",
+      "sha256": "fec93e01c393cd3ef8aa168a675dffb8fa4841d5fd93390b5d14f238ae29e59c",
+      "size": 1601364,
+      "format": "tar.gz",
+      "binaries": {
+        "bandwhich": {
+          "path": "bandwhich",
+          "sha256": "cc64d0a37e599f52b08572c472429cbc37d10a32d4bf6ece72cd48cac58dc857"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.23.1",
+      "sha256": "6bbf084e5280a1a10833b8f466728ff428a7d637282c0487d6fcda0c4781357a",
+      "size": 1495429,
+      "format": "tar.gz",
+      "binaries": {
+        "bandwhich": {
+          "path": "bandwhich",
+          "sha256": "ab473b1d33d5c24440c12874008dd8dbd33419e07b4957ee901349dc0de6b5a5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.23.1",
+      "sha256": "d4c8f25b997c3f1ad807f251db1d3a0ac53cfcc4d98757d6932360316789ff29",
+      "size": 1980809,
+      "format": "tar.gz",
+      "binaries": {
+        "bandwhich": {
+          "path": "bandwhich",
+          "sha256": "5c94e0cb06ba885e24ee1d11620c6a62a7009efe753d2927170bdbe59c766c95"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.23.1",
+      "sha256": "3b440e6a48c94c2ca7507d45f769d8e97fe9069bafa6f718b045a185addfad36",
+      "size": 1894447,
+      "format": "tar.gz",
+      "binaries": {
+        "bandwhich": {
+          "path": "bandwhich",
+          "sha256": "81f119c958bd67e974ca2a557dbf82b381324cce832eedc916f0197d6ade3e78"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.23.1",
+      "sha256": "684d87acfd0fa808700500c2d4ced2a60be222dd86adc671035ad7b84c42cda4",
+      "size": 1416546,
+      "format": "zip",
+      "binaries": {
+        "bandwhich.exe": {
+          "path": "bandwhich.exe",
+          "sha256": "021ce3871686d268bcb198ff4f2cfd9f66300700f522e702e8ada9ee65e2a635"
+        }
+      }
+    }
+  }
+}
