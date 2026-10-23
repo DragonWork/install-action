@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "bacon-ls",
+  "version": "0.31.0",
+  "repository": "crisidev/bacon-ls",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/crisidev/bacon-ls/releases/download/0.31.0/bacon-ls-0.31.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.31.0",
+      "sha256": "eba75f32d6e39cdbacfa539f57febd68871dafdb02a4e065d8d8a42a35c24009",
+      "size": 3273016,
+      "format": "tar.gz",
+      "binaries": {
+        "bacon-ls": {
+          "path": "bacon-ls",
+          "sha256": "5a8e0200f88932272c75c1f4511728d3a5b5b34932f327049e99d62133c5376c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/crisidev/bacon-ls/releases/download/0.31.0/bacon-ls-0.31.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.31.0",
+      "sha256": "56bf3b853513f9358b034df4e3f21467626e2d10d281509bfb288c5f029d2f28",
+      "size": 3153533,
+      "format": "tar.gz",
+      "binaries": {
+        "bacon-ls": {
+          "path": "bacon-ls",
+          "sha256": "c15fc63c9d5cf7a4512c00779317b4217753f9f607ebc234a12726574000757a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/crisidev/bacon-ls/releases/download/0.31.0/bacon-ls-0.31.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.31.0",
+      "sha256": "401c7a0959a5a36ca2c48a2a6b1f81a088a5b7be324be816020c6e2312534a7d",
+      "size": 2889918,
+      "format": "tar.gz",
+      "binaries": {
+        "bacon-ls": {
+          "path": "bacon-ls",
+          "sha256": "b188ea22c14e84fad3bdce131b66047926cb287db9a0e7298851b918112e2ecf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/crisidev/bacon-ls/releases/download/0.31.0/bacon-ls-0.31.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.31.0",
+      "sha256": "b8067e38fa977eefa83a6dde8f0b82ad47e92b9ad31cebbb978f0e888a50d5cb",
+      "size": 2770155,
+      "format": "tar.gz",
+      "binaries": {
+        "bacon-ls": {
+          "path": "bacon-ls",
+          "sha256": "65174ef9383d7f8a04140bf17c8ef14d205765618460552040e96a2419afceeb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/crisidev/bacon-ls/releases/download/0.31.0/bacon-ls-0.31.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.31.0",
+      "sha256": "6057ee26ccd4b0cd1db0035ecd2f4713bd9ef2bb7473869e47045c192b4c6901",
+      "size": 2481050,
+      "format": "zip",
+      "binaries": {
+        "bacon-ls.exe": {
+          "path": "target/x86_64-pc-windows-msvc/release/bacon-ls.exe",
+          "sha256": "64cc252d7a121f7aef4d7e8bbb2f4f2de5e06efc0b8e9bab4da30338d736bbad"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/crisidev/bacon-ls/releases/download/0.31.0/bacon-ls-0.31.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.31.0",
+      "sha256": "e0d3968fd5cffd52b59a7e06c2c316947d67cb75ace6e4416620e81476d16c1e",
+      "size": 2325345,
+      "format": "zip",
+      "binaries": {
+        "bacon-ls.exe": {
+          "path": "target/aarch64-pc-windows-msvc/release/bacon-ls.exe",
+          "sha256": "fb6f6adb7fd7974ed5fb9ecea990041a4969b9becdf81575c274746fb03ee0b7"
+        }
+      }
+    }
+  }
+}
