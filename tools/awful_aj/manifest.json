@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "awful_aj",
+  "version": "0.4.0",
+  "repository": "graves/awful_aj",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/graves/awful_aj/releases/download/v0.4.0/awful_aj-v0.4.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "d8094b24033e966a10710575905ae7b2f61e3b21d1d4144c0d219e3af64b1587",
+      "size": 9288700,
+      "format": "tar.gz",
+      "binaries": {
+        "aj": {
+          "path": "awful_aj-v0.4.0-x86_64-unknown-linux-gnu/aj",
+          "sha256": "a55318eda2c28a6b9cc911b5ff9b5a121cadd565a8a4d4a6f56bac5d04ecaeb3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/graves/awful_aj/releases/download/v0.4.0/awful_aj-v0.4.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "6e181df5c63a0cf1e1d492dd24ab7d4619f6470c5c783ed1471be74e4ca7e4ba",
+      "size": 8858042,
+      "format": "tar.gz",
+      "binaries": {
+        "aj": {
+          "path": "awful_aj-v0.4.0-aarch64-unknown-linux-gnu/aj",
+          "sha256": "17a4e6d32ab02c89c1fb22d38117a246709cc8bad0b38191c3de32d118513083"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/graves/awful_aj/releases/download/v0.4.0/awful_aj-v0.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "a371b0dcd1e6078331d0cf267b2cdbf58f340e987d2cb57e1ef359845a5ec747",
+      "size": 8586109,
+      "format": "tar.gz",
+      "binaries": {
+        "aj": {
+          "path": "awful_aj-v0.4.0-x86_64-apple-darwin/aj",
+          "sha256": "d3c5bbdb0af17a22d38bbfe3eb1f4bd4202de704a4c14b3cbf979829b5e0910e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/graves/awful_aj/releases/download/v0.4.0/awful_aj-v0.4.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "0a22d2a393a647b5ba358affb2781066f4d68e3fe7fdc255938a815601a278e6",
+      "size": 8228956,
+      "format": "tar.gz",
+      "binaries": {
+        "aj": {
+          "path": "awful_aj-v0.4.0-aarch64-apple-darwin/aj",
+          "sha256": "1879c88fdc895a1c421f2bcda0f08ac81e2efd0d143546a77e35a08b825edb70"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/graves/awful_aj/releases/download/v0.4.0/awful_aj-v0.4.0-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "d20ad7057d56c9637bd225d18e846f41c725349eed5fe0be25e67c196bfb05f8",
+      "size": 17712585,
+      "format": "zip",
+      "binaries": {
+        "aj.exe": {
+          "path": "awful_aj-v0.4.0-x86_64-pc-windows-gnu/aj.exe",
+          "sha256": "145b72804c758d45280ecbe083556c69cfdf99fbc36d3c368fe7944d8f324e81"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/graves/awful_aj/releases/download/v0.4.0/awful_aj-v0.4.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "1c2064565cf6b609500e46952f999dcdaa071f6ecc6fd91a027afab3794429ad",
+      "size": 6842006,
+      "format": "zip",
+      "binaries": {
+        "aj.exe": {
+          "path": "awful_aj-v0.4.0-aarch64-pc-windows-msvc/aj.exe",
+          "sha256": "83dbd3f9f533a321af35be4c72aeaae8187f0349b1f47485890dff5575c1999c"
+        }
+      }
+    }
+  }
+}
