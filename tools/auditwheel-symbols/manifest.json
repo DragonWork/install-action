@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "auditwheel-symbols",
+  "version": "0.1.13",
+  "repository": "messense/auditwheel-symbols",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/messense/auditwheel-symbols/releases/download/v0.1.13/auditwheel-symbols-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.13",
+      "sha256": "08ed12623f715291ad11dca58c8e777021ae9611778cf6e8104387c643f9008a",
+      "size": 2141292,
+      "format": "tar.gz",
+      "binaries": {
+        "auditwheel-symbols": {
+          "path": "auditwheel-symbols",
+          "sha256": "a22351e05f77f1b1e8f12fc5931258344c64d41cb23cd8be52a635a67612102a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/messense/auditwheel-symbols/releases/download/v0.1.13/auditwheel-symbols-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.13",
+      "sha256": "77033594305fa1d33e16294d28c8c552c06cfc7b5c645c674fcf952df58ced3e",
+      "size": 2053323,
+      "format": "tar.gz",
+      "binaries": {
+        "auditwheel-symbols": {
+          "path": "auditwheel-symbols",
+          "sha256": "2a977893ce509bf293f613a4e3c541f01a5d9e329c06f2fb80eefdea29f1b55c"
+        }
+      }
+    }
+  }
+}
