@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "name": "ast-grep",
+  "version": "0.51.0",
+  "repository": "ast-grep/ast-grep",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "0.51.0",
+      "sha256": "a7eead5552d3a8daad70f5d50d935da44bd0c138e946b5b0a96b1d38169fa639",
+      "size": 8857052,
+      "format": "zip",
+      "binaries": {
+        "ast-grep": {
+          "path": "ast-grep",
+          "sha256": "99b5aeab1f47536789482b4517595b759de910f7f1f1d1f80c752824e894e38e"
+        },
+        "sg": {
+          "path": "sg",
+          "sha256": "ca07e422a66b3fbfeb52da69d165eb4964bbc34fd8d0cdd755a67d3793c4b220"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "0.51.0",
+      "sha256": "73af0ebe5958acee012754a5b2826a186580ef83333092408a7a01096fc30b8b",
+      "size": 8511534,
+      "format": "zip",
+      "binaries": {
+        "ast-grep": {
+          "path": "ast-grep",
+          "sha256": "50f96dbaf16c20b6e3f2275b3e670bd2a8e527e85c67ca906447116b2ff37cee"
+        },
+        "sg": {
+          "path": "sg",
+          "sha256": "807c03b2adbb85c03c92cc8b7e38c2ae62a7598aea33994655275119f01fcc5e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-x86_64-apple-darwin.zip",
+      "releaseTag": "0.51.0",
+      "sha256": "8438fe549da59da28518c45bdaab5b851aabafe8fb4f8dc05c261a7649b4eca6",
+      "size": 8689176,
+      "format": "zip",
+      "binaries": {
+        "ast-grep": {
+          "path": "ast-grep",
+          "sha256": "7c7bd4ccd32fa7881dd52b6eb6b55dc8c930e20db41cdf8ee733a9c47085a981"
+        },
+        "sg": {
+          "path": "sg",
+          "sha256": "9e206a22640bd6047626acc80547ce53a33393039f5aefd85a119d41fe63d2e5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-aarch64-apple-darwin.zip",
+      "releaseTag": "0.51.0",
+      "sha256": "e18e13c27ed6c4b3ec4de00745b0755dee9dc26c035e226f4dd5d147dca99cc8",
+      "size": 8626879,
+      "format": "zip",
+      "binaries": {
+        "ast-grep": {
+          "path": "ast-grep",
+          "sha256": "6e4e64393e1cbc67b68f56606982c2834e9ffe771cf10d4811de0f4d15ee3a6d"
+        },
+        "sg": {
+          "path": "sg",
+          "sha256": "b4d74880ed67e10447eaf4d19fb99e3ac7f800f0126b88308cd48543eaee101b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.51.0",
+      "sha256": "1a5b7824c5925ac34257f806488e54860817cefd855fd308d13df7550d068908",
+      "size": 16249102,
+      "format": "zip",
+      "binaries": {
+        "ast-grep.exe": {
+          "path": "ast-grep.exe",
+          "sha256": "8ac5d5e90484e727c6ca53114c77c93b26e63a42bf9db07efda5008a5a4165a3"
+        },
+        "sg.exe": {
+          "path": "sg.exe",
+          "sha256": "9ee7ad7e4beb391f84d6aea24e72ccbd2678740959ad973b3e6051af6b2dff24"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.51.0",
+      "sha256": "fb6a4c3c6ed350d7e64eae81961bdf6b3f201c6e7c31ace8caccf8ceddff1cac",
+      "size": 15496895,
+      "format": "zip",
+      "binaries": {
+        "ast-grep.exe": {
+          "path": "ast-grep.exe",
+          "sha256": "db2e891196e4ac0ff074af35ef9f8654b53eccc415d7800e7da64ca253d5e778"
+        },
+        "sg.exe": {
+          "path": "sg.exe",
+          "sha256": "b72876bf6668f81020edf2100055a1b2772055d0e593f41ceaf818703a7f5d8a"
+        }
+      }
+    }
+  }
+}
