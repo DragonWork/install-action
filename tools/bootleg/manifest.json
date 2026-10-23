@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "bootleg",
+  "version": "0.2.0",
+  "repository": "hadronomy/bootleg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hadronomy/bootleg/releases/download/v0.2.0/bootleg-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "5a177661ea54005d6538767517e775b443603148acb3b4b3b46ee1330b164392",
+      "size": 885272,
+      "format": "tar.xz",
+      "binaries": {
+        "bootleg": {
+          "path": "bootleg-x86_64-unknown-linux-gnu/bootleg",
+          "sha256": "b7a3e6e419b24ce7276c73257d68bef9ba61a01dc314005528dc5eef420734fc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hadronomy/bootleg/releases/download/v0.2.0/bootleg-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "87f60f0e21c8181a6671ac4b752b9f0e031296661c4d03e4366784b99c2f14da",
+      "size": 727220,
+      "format": "tar.xz",
+      "binaries": {
+        "bootleg": {
+          "path": "bootleg-x86_64-apple-darwin/bootleg",
+          "sha256": "6f5612d4d3b9e56ac8f7a6e4e8b0eec9bb19c1b14a40bd6213d0cbfa7ce860a7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hadronomy/bootleg/releases/download/v0.2.0/bootleg-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "760c92cd56405827bf0993fcfd01a3efa1bab5d823ddad974c9e74e13656a5f3",
+      "size": 651264,
+      "format": "tar.xz",
+      "binaries": {
+        "bootleg": {
+          "path": "bootleg-aarch64-apple-darwin/bootleg",
+          "sha256": "bd227cc36d32110930670f5f64aa4c0d0d31dfe5d8f1164331e8d247affac1f1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hadronomy/bootleg/releases/download/v0.2.0/bootleg-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "a1a169556a38583f5d197d59784cbea6fab3dfd203e38e1be2d8e0173d4e0883",
+      "size": 1971717,
+      "format": "zip",
+      "binaries": {
+        "bootleg.exe": {
+          "path": "bootleg.exe",
+          "sha256": "d8421e3a025eea74fd0b36fb51587459bfe1b144643cbf6f113ed47e6b749955"
+        }
+      }
+    }
+  }
+}
