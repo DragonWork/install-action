@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "add-notice",
+  "version": "0.2.14",
+  "repository": "ameknite/add-notice",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ameknite/add-notice/releases/download/v0.2.14/add-notice-v0.2.14-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.14",
+      "sha256": "6a82cbb50f53d052a836914a213fb1e25ed6f05ed380574d1e8a9b0f8212902f",
+      "size": 462242,
+      "format": "tar.gz",
+      "binaries": {
+        "add-notice": {
+          "path": "add-notice",
+          "sha256": "a4bddf237ca135829e723a6d759d3f2069a1d76e35d72060399d8d76267a278c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ameknite/add-notice/releases/download/v0.2.14/add-notice-v0.2.14-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.14",
+      "sha256": "4000d0f010a81d8ea88e3446702e91c9d4cb26db4a98da9c7288a3ec491e6ff2",
+      "size": 436796,
+      "format": "tar.gz",
+      "binaries": {
+        "add-notice": {
+          "path": "add-notice",
+          "sha256": "cad975de73314a0484528d32f107d3bc694255c67d8659e42635792d03f7e6f1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ameknite/add-notice/releases/download/v0.2.14/add-notice-v0.2.14-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.14",
+      "sha256": "407e0874246025f0cd238f56e91841eae93848aa579eb0faad629516b7b4abd2",
+      "size": 368346,
+      "format": "tar.gz",
+      "binaries": {
+        "add-notice": {
+          "path": "add-notice",
+          "sha256": "c1e456c4d7ce2d7782ad4cd72a7e1a6b1930d298558c84ad0e329a16de305388"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ameknite/add-notice/releases/download/v0.2.14/add-notice-v0.2.14-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.14",
+      "sha256": "cda84265dd7f44a76faaf4cbf771b90313e165d74b93299868aaa07074fb5576",
+      "size": 351460,
+      "format": "tar.gz",
+      "binaries": {
+        "add-notice": {
+          "path": "add-notice",
+          "sha256": "6d54d3a7f25ecf685b87923439f884aed166b0c2620bca604314725b486f1e79"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ameknite/add-notice/releases/download/v0.2.14/add-notice-v0.2.14-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.14",
+      "sha256": "e5fc08dd92437f0e495721b1be977bca248269817cca2f7740324f95ddced0c6",
+      "size": 247851,
+      "format": "zip",
+      "binaries": {
+        "add-notice.exe": {
+          "path": "add-notice.exe",
+          "sha256": "606423c449e12b55f564a5287b1ca46e8cfdd40a4120f280748e57b253e40d04"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ameknite/add-notice/releases/download/v0.2.14/add-notice-v0.2.14-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.14",
+      "sha256": "215d591dfad554072b8945023d48bd322fe4c8d495b80f11f8031b77ad31ecb9",
+      "size": 234787,
+      "format": "zip",
+      "binaries": {
+        "add-notice.exe": {
+          "path": "add-notice.exe",
+          "sha256": "d11bc7e8351e63714caa99f0101cf51503b433af91a28bf350b4b48f732babd0"
+        }
+      }
+    }
+  }
+}
