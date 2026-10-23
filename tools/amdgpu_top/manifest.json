@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "amdgpu_top",
+  "version": "0.11.5",
+  "repository": "Umio-Yasuno/amdgpu_top",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.5/amdgpu_top-0.11.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.5",
+      "sha256": "3500b0ea38c13d6640a5777d8c35442ee4010d8acfad5ac716910c65dc555e1e",
+      "size": 773882,
+      "format": "tar.gz",
+      "binaries": {
+        "amdgpu_top": {
+          "path": "amdgpu_top",
+          "sha256": "b3720ef6ef2ea3123b994fafa0b72e37e7c9c2f3981ef3c15cfb0d70b410ded8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.5/amdgpu_top-0.11.5-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.11.5",
+      "sha256": "77a12c91da6c521f422a393d37538b18cbd1a33f027b6c0b593e9cb09eb14cdb",
+      "size": 8453884,
+      "format": "tar.gz",
+      "binaries": {
+        "amdgpu_top": {
+          "path": "amdgpu_top",
+          "sha256": "87a3197a6e015fb8d36664165d49dcb153fc79ab531658aebbd1bc1b71ef4bbb"
+        }
+      }
+    }
+  }
+}
