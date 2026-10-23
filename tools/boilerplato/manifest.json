@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "boilerplato",
+  "version": "1.0.3",
+  "repository": "boilerplato/boilerplato",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/boilerplato/boilerplato/releases/download/v1.0.3/boilerplato-v1.0.3-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.3",
+      "sha256": "7f03226f78c344a50de923888558e8cd26546414a3edb9a05ab9f5db29cc215a",
+      "size": 4493395,
+      "format": "tar.gz",
+      "binaries": {
+        "boilerplato": {
+          "path": "boilerplato",
+          "sha256": "5d108c85991adcc3c9ed37451e21e0a1ea3027de5ec3f4ef05157ed1c6b80be6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/boilerplato/boilerplato/releases/download/v1.0.3/boilerplato-v1.0.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.3",
+      "sha256": "21ed332186a80a2630f44ed0fa33b8bdb16893c60cc9feece030769ea23dac25",
+      "size": 2432763,
+      "format": "tar.gz",
+      "binaries": {
+        "boilerplato": {
+          "path": "boilerplato",
+          "sha256": "9b1c1f3e8004d98416dfbfac8f9995f55d629207994db74e5155af9f2f9e64cc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/boilerplato/boilerplato/releases/download/v1.0.3/boilerplato-v1.0.3-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v1.0.3",
+      "sha256": "38c90bcca3ee45750f7102e98b013baab46cc248184726db3cdb94731af2243a",
+      "size": 5507705,
+      "format": "zip",
+      "binaries": {
+        "boilerplato.exe": {
+          "path": "boilerplato.exe",
+          "sha256": "faf4dcbc449d476612d77bc441b2057f5cfe03021fa29142c7111aaa009b2061"
+        }
+      }
+    }
+  }
+}
