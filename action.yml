@@ -1,0 +1,10 @@
+name: DragonWork Install
+description: Install checksum-pinned tools with independent Dependabot updates.
+author: DragonWork
+branding:
+  icon: download
+  color: orange
+runs:
+  using: node24
+  main: lib/setup.cjs
+  post: lib/cleanup.cjs
