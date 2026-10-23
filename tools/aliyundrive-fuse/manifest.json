@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "aliyundrive-fuse",
+  "version": "0.1.14",
+  "repository": "messense/aliyundrive-fuse",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/messense/aliyundrive-fuse/releases/download/v0.1.14/aliyundrive-fuse-v0.1.14.x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.14",
+      "sha256": "039129ceba4c5492a22557803dea7ec66b93adb0e1a6809e35275b36670b86e2",
+      "size": 2086117,
+      "format": "tar.gz",
+      "binaries": {
+        "aliyundrive-fuse": {
+          "path": "aliyundrive-fuse",
+          "sha256": "68bdf8555142afe820ed73e57ba85fb2aaae955f7192622b5386a33d38b5acf8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/messense/aliyundrive-fuse/releases/download/v0.1.14/aliyundrive-fuse-v0.1.14.aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.14",
+      "sha256": "8e39d89788954d7bea99abca3ecf9e5a56febc7791ccf3d27c8b30a4eb661424",
+      "size": 1919992,
+      "format": "tar.gz",
+      "binaries": {
+        "aliyundrive-fuse": {
+          "path": "aliyundrive-fuse",
+          "sha256": "c8832273b80bd5d3fec39be7b229d14897c3dfcc559933ad5bc1993373272875"
+        }
+      }
+    }
+  }
+}
