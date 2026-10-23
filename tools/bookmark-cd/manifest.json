@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "bookmark-cd",
+  "version": "1.1.0",
+  "repository": "a1ecbr0wn/bcd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/a1ecbr0wn/bcd/releases/download/v1.1.0/bcd-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "e5ce6e5eaf8fe5335c69f5caa5ec62dfcc79a7b478d6969000e041788ca6b2c0",
+      "size": 772343,
+      "format": "tar.gz",
+      "binaries": {
+        "bookmark-cd": {
+          "path": "bookmark-cd",
+          "sha256": "ddc714a1e9c054db46ea8ec507cc8a387d824f56be8957fdbb1a8a3f4716b0c6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/a1ecbr0wn/bcd/releases/download/v1.1.0/bcd-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "eede31caebc6e01513e283052f7c4448f5a2b4d5a79505e44195f31f3414f64c",
+      "size": 713401,
+      "format": "tar.gz",
+      "binaries": {
+        "bookmark-cd": {
+          "path": "bookmark-cd",
+          "sha256": "1b61823836ce50c6e243d2aac142bbe761cdab9782d0813ab396efe05c1cf293"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/a1ecbr0wn/bcd/releases/download/v1.1.0/bcd-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "b47aa38e4199144e2d9580a847bb1441dd0fc664c17244b1ae9618a4926d221a",
+      "size": 685410,
+      "format": "tar.gz",
+      "binaries": {
+        "bookmark-cd": {
+          "path": "bookmark-cd",
+          "sha256": "f9bf18b5d06f4e07958859aa5035e9eab61d3129d456883e34dadf8ca8dfd5f9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/a1ecbr0wn/bcd/releases/download/v1.1.0/bcd-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "52d4dea4d22c5ab9174186b99a92701df5a491723e17d6e5c936a4821b345791",
+      "size": 648027,
+      "format": "tar.gz",
+      "binaries": {
+        "bookmark-cd": {
+          "path": "bookmark-cd",
+          "sha256": "c42b52c16c70d1d93d591679acab0ff716a917ea7e47941c51ab202dc3910ce0"
+        }
+      }
+    }
+  }
+}
