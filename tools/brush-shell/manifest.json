@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "brush-shell",
+  "version": "0.4.0",
+  "repository": "reubeno/brush",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.4.0/brush-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "brush-shell-v0.4.0",
+      "sha256": "7397aa2cecef43ed38070912b6d865fdbe23dc08fda2d6148d8cee8dc12d15ee",
+      "size": 3174995,
+      "format": "tar.gz",
+      "binaries": {
+        "brush": {
+          "path": "brush",
+          "sha256": "00b91c49526e940913420d5b4e9bbe99aaca697cf1eb42480beb2f956cf3f156"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.4.0/brush-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "brush-shell-v0.4.0",
+      "sha256": "d76bdc0652c447eb8b0afda22eb849b79a1e3d8db77543729a56b731c7fb2c3e",
+      "size": 2848686,
+      "format": "tar.gz",
+      "binaries": {
+        "brush": {
+          "path": "brush",
+          "sha256": "bcf27cca7cb36952b95910b731b1b1c410f0eeda8d1efc86c90852f37da66d0c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.4.0/brush-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "brush-shell-v0.4.0",
+      "sha256": "fa371980b7770c6dd0d54b8534ec67d02e4c20542b9cc93801d879be17c07ab7",
+      "size": 2908142,
+      "format": "tar.gz",
+      "binaries": {
+        "brush": {
+          "path": "brush",
+          "sha256": "b62d480de8a4672dadf75232dd13cc5c791b5843a5e6d5cac4425ab91b7aeb91"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.4.0/brush-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "brush-shell-v0.4.0",
+      "sha256": "42e45cb44b1775d7654f26f6fad04adc5fe0d99eb98d4e48ec629ae49645559e",
+      "size": 2603850,
+      "format": "tar.gz",
+      "binaries": {
+        "brush": {
+          "path": "brush",
+          "sha256": "1631bd03e965c14d0a402b2d0a83505b2cc08f3df4e78ba9dc82d1a1e42fa90e"
+        }
+      }
+    }
+  }
+}
