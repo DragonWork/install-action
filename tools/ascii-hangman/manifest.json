@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "ascii-hangman",
+  "version": "5.7.2",
+  "repository": "getreu/ascii-hangman",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/getreu/ascii-hangman/releases/download/v5.7.2/ascii-hangman-v5.7.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v5.7.2",
+      "sha256": "fbf2e1a75b58ab67a8f2c99d828047904f8d74b5d89646a1e695cbf446af58f0",
+      "size": 298006,
+      "format": "tar.gz",
+      "binaries": {
+        "ascii-hangman": {
+          "path": "ascii-hangman",
+          "sha256": "8bb85f972635fc659f131467e4c8ca1bb1da9c2d30d520060c974817c40daab2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/getreu/ascii-hangman/releases/download/v5.7.2/ascii-hangman-v5.7.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v5.7.2",
+      "sha256": "39ddc40342254767dc9900c34d786ee946a0cef6249fe55f63723eaf2598c29c",
+      "size": 279834,
+      "format": "tar.gz",
+      "binaries": {
+        "ascii-hangman": {
+          "path": "ascii-hangman",
+          "sha256": "e0430d29261b7b4ea451e50b3a81aaa1dc19d21c3cc36c6f4f2edeeae590b35a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/getreu/ascii-hangman/releases/download/v5.7.2/ascii-hangman-v5.7.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v5.7.2",
+      "sha256": "d6601f910860b56294607a6f1eef4a9b88fdeb3f5ae5cd6cd8118fd80fe176c3",
+      "size": 231416,
+      "format": "zip",
+      "binaries": {
+        "ascii-hangman.exe": {
+          "path": "ascii-hangman.exe",
+          "sha256": "90b161230e286ed90781a8f0f5e000a3d0969e28ee9fceb8048f5e97b31f6d15"
+        }
+      }
+    }
+  }
+}
