@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "bkt",
+  "version": "0.8.2",
+  "repository": "dimo414/bkt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dimo414/bkt/releases/download/0.8.2/bkt.v0.8.2.x86_64-unknown-linux-musl.zip",
+      "releaseTag": "0.8.2",
+      "sha256": "8e02116962dc8f87f2ac0843146071afa3d811580c4ee2da568f086042e7e3cc",
+      "size": 685621,
+      "format": "zip",
+      "binaries": {
+        "bkt": {
+          "path": "bkt",
+          "sha256": "b350f8087e5a16add02e4a5f6a82a930457520e2538311db6d00aa7984910b9e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dimo414/bkt/releases/download/0.8.2/bkt.v0.8.2.aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "0.8.2",
+      "sha256": "7973a56ee1a90bea67714f72a2f2a16a85bc246c92d2368ad48ffae03c0dc2ff",
+      "size": 630201,
+      "format": "zip",
+      "binaries": {
+        "bkt": {
+          "path": "bkt",
+          "sha256": "1068fff3f778312de2046b6d5dc73be7a7eea20dd6b8ac4c40fd5f48dc7ff2cd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dimo414/bkt/releases/download/0.8.2/bkt.v0.8.2.x86_64-apple-darwin.zip",
+      "releaseTag": "0.8.2",
+      "sha256": "4ce041aa4484c171fcd4824ba1f58d267fc059f7f47eb7410f0cd05dd3f2a2ea",
+      "size": 580998,
+      "format": "zip",
+      "binaries": {
+        "bkt": {
+          "path": "bkt",
+          "sha256": "925dd8c40a884335434d0a286574edb201b3c8afc75dbc661cf658d7cbbd5f77"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dimo414/bkt/releases/download/0.8.2/bkt.v0.8.2.aarch64-apple-darwin.zip",
+      "releaseTag": "0.8.2",
+      "sha256": "04eb57810d489130b9fd6226e82ad6032eac1a9c868f952ea1422a725f80bfa1",
+      "size": 571237,
+      "format": "zip",
+      "binaries": {
+        "bkt": {
+          "path": "bkt",
+          "sha256": "433c0e77d517eb8803fc22836b4e97c614d90bee164847d4cd06ba349c53e2c6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dimo414/bkt/releases/download/0.8.2/bkt.v0.8.2.x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.8.2",
+      "sha256": "a825dbc7514366d89d8b68b0adcd7fa7be7625bfb5a69c06886e27ef63f7b081",
+      "size": 460369,
+      "format": "zip",
+      "binaries": {
+        "bkt.exe": {
+          "path": "bkt.exe",
+          "sha256": "3f11446c1212c3bc532f0129fa46bbfce3943f30fcae6f8271a093572a2d2c95"
+        }
+      }
+    }
+  }
+}
