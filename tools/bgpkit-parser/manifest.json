@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "bgpkit-parser",
+  "version": "0.23.0",
+  "repository": "bgpkit/bgpkit-parser",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bgpkit/bgpkit-parser/releases/download/v0.23.0/bgpkit-parser-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.23.0",
+      "sha256": "88695a904fb4170e868d7cbac8f15d8549e9b80afbdd584822ccc3e7a005c46d",
+      "size": 4875941,
+      "format": "tar.gz",
+      "binaries": {
+        "bgpkit-parser": {
+          "path": "bgpkit-parser",
+          "sha256": "12daa961281710b313cd05516910eecef23a25362782fc0d90e98731379f2d9c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bgpkit/bgpkit-parser/releases/download/v0.23.0/bgpkit-parser-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.23.0",
+      "sha256": "ae9481443c7249eb64ebe904312ffe99dcb21e1958d669cb3236f2c2882658a3",
+      "size": 4673871,
+      "format": "tar.gz",
+      "binaries": {
+        "bgpkit-parser": {
+          "path": "bgpkit-parser",
+          "sha256": "1ec4e4b31f2338bc01f8d47b3379980209cf6f555d9bd9279cfa6dac2d50e68f"
+        }
+      }
+    }
+  }
+}
