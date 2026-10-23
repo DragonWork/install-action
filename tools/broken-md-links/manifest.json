@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "broken-md-links",
+  "version": "2.1.1",
+  "repository": "ClementNerma/broken-md-links",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ClementNerma/broken-md-links/releases/download/v2.1.1/broken-md-links-x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "v2.1.1",
+      "sha256": "1f82a5bba7b3202ef4eb08027e819d6963819893410948eb08c41aa29b0fa349",
+      "size": 1403692,
+      "format": "tar.gz",
+      "binaries": {
+        "broken-md-links": {
+          "path": "broken-md-links",
+          "sha256": "6648e500cd29b375a0f0925faa3b5092e33a5212a9280cf00f2abfcb05ba52cf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ClementNerma/broken-md-links/releases/download/v2.1.1/broken-md-links-aarch64-unknown-linux-musl.tgz",
+      "releaseTag": "v2.1.1",
+      "sha256": "f6db8ecb325710833f8c02bdd3cb563bf49bd7e9e7199cc6ab419dc7a15b6adf",
+      "size": 1283614,
+      "format": "tar.gz",
+      "binaries": {
+        "broken-md-links": {
+          "path": "broken-md-links",
+          "sha256": "f474c4b46ff6c2cdafe8702b8170d7cdc08668eef5a1f7d561dca2b8a3937d71"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ClementNerma/broken-md-links/releases/download/v2.1.1/broken-md-links-x86_64-pc-windows-gnu.tgz",
+      "releaseTag": "v2.1.1",
+      "sha256": "a33591e4d9be8347dd96d53fd5e7819e527a5f126876962bcae15406ced5b818",
+      "size": 1833200,
+      "format": "tar.gz",
+      "binaries": {
+        "broken-md-links.exe": {
+          "path": "broken-md-links.exe",
+          "sha256": "61ff9af745d2634021f40ffe554497a4cb5f7b446d316baa1ee8513a28498439"
+        }
+      }
+    }
+  }
+}
