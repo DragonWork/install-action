@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "bibget",
+  "version": "1.1.2",
+  "repository": "nathansam/bibget",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nathansam/bibget/releases/download/v1.1.2/bibget-v1.1.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.1.2",
+      "sha256": "d80acc0df086b87f1d9e4045f88e8b3a81f50a69d2b33b9e2bbcf23ac698ba29",
+      "size": 2521153,
+      "format": "tar.gz",
+      "binaries": {
+        "bibget": {
+          "path": "bibget",
+          "sha256": "11237a69d8a390c8f1dc7bf20eff9990fcc35bbf8e31dac48eabfede7da456b3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nathansam/bibget/releases/download/v1.1.2/bibget-v1.1.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.2",
+      "sha256": "220006487e89bc7165ae471e6f66e981ec87d8d012028b66340dc1b090af8bf8",
+      "size": 2482177,
+      "format": "tar.gz",
+      "binaries": {
+        "bibget": {
+          "path": "bibget",
+          "sha256": "b527943d7f9f6781925ddf42a5b9c60524cefce509d2ea023de799d180ebeb51"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nathansam/bibget/releases/download/v1.1.2/bibget-v1.1.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.2",
+      "sha256": "7e9b93695b3d851742935adf854b389c9049c1667c4a6864df8caf9ffbfaa983",
+      "size": 2318055,
+      "format": "tar.gz",
+      "binaries": {
+        "bibget": {
+          "path": "bibget",
+          "sha256": "da9828cc347f2a3efd31bfdfc58148c0acaea7bdc8f747d99f9afab2e67c93a1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nathansam/bibget/releases/download/v1.1.2/bibget-v1.1.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.2",
+      "sha256": "5f70ec37aa2e1ae0fb03a67779e052fda69c97988895f64dd5971bd01230264f",
+      "size": 2186997,
+      "format": "zip",
+      "binaries": {
+        "bibget.exe": {
+          "path": "bibget.exe",
+          "sha256": "ad0c2d512c4ee8d873c8b2b2c633d0569d76655784f505c48a2ceb037cdd0338"
+        }
+      }
+    }
+  }
+}
