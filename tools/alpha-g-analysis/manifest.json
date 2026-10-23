@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "name": "alpha-g-analysis",
+  "version": "0.5.9",
+  "repository": "ALPHA-g-Experiment/alpha-g",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ALPHA-g-Experiment/alpha-g/releases/download/alpha-g-analysis-v0.5.9/alpha-g-analysis-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "alpha-g-analysis-v0.5.9",
+      "sha256": "cbc85874c8b1f3c250586d2c34afa39da804b058b1202ebbfef554d82dd0c488",
+      "size": 2351844,
+      "format": "tar.xz",
+      "binaries": {
+        "alpha-g-chronobox-timestamps": {
+          "path": "alpha-g-analysis-x86_64-unknown-linux-musl/alpha-g-chronobox-timestamps",
+          "sha256": "9363b33750430b2af2a4227ac4796d71b0c8fd9eb07e3e56a4d32e067d1e666a"
+        },
+        "alpha-g-odb": {
+          "path": "alpha-g-analysis-x86_64-unknown-linux-musl/alpha-g-odb",
+          "sha256": "3822183e3a3434b26482ea701df9641a44270c2beea8b3e371d6e8da1d78b53e"
+        },
+        "alpha-g-sequencer": {
+          "path": "alpha-g-analysis-x86_64-unknown-linux-musl/alpha-g-sequencer",
+          "sha256": "ac03f3709c4432d24400c7ba57b28ea9200a59902182e5099d4bf98adb9a9141"
+        },
+        "alpha-g-trg-scalers": {
+          "path": "alpha-g-analysis-x86_64-unknown-linux-musl/alpha-g-trg-scalers",
+          "sha256": "e1cccd2d97e7a5988dee2a03f897a94f05a4179094ea25eace870b3556dd0201"
+        },
+        "alpha-g-vertices": {
+          "path": "alpha-g-analysis-x86_64-unknown-linux-musl/alpha-g-vertices",
+          "sha256": "fb086765e1f3957d90cba3c3c7dec1af83003084680c773ea43e3a41853dd1a6"
+        }
+      }
+    }
+  }
+}
