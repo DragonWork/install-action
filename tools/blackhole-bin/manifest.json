@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "blackhole-bin",
+  "version": "0.6.2",
+  "repository": "watawuwu/blackhole",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/watawuwu/blackhole/releases/download/v0.6.2/blackhole-v0.6.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.2",
+      "sha256": "fe9972660eae362cf3ede41acc114f74c5ae7b6674fc173d0456f4baac490b20",
+      "size": 3855263,
+      "format": "tar.gz",
+      "binaries": {
+        "blackhole": {
+          "path": "blackhole",
+          "sha256": "998b11ed46a386f70834f19238d6d4e48f03edb805a1c4bd4ccf0e1b97efea16"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/watawuwu/blackhole/releases/download/v0.6.2/blackhole-v0.6.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.2",
+      "sha256": "20b858c817c8d2f5ac020058eda3d64250802032ab13b1e72bacbbdb12390798",
+      "size": 2641632,
+      "format": "tar.gz",
+      "binaries": {
+        "blackhole": {
+          "path": "blackhole",
+          "sha256": "15f75e49738d21d4c32c19aa3aa985480b635688637ca53f1e08b7d30f8e2ec7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/watawuwu/blackhole/releases/download/v0.6.2/blackhole-v0.6.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.2",
+      "sha256": "ea1a8d11f9a59b83f8092d17db68d9419acf5e306edcfc9990e99517007e2801",
+      "size": 2560562,
+      "format": "tar.gz",
+      "binaries": {
+        "blackhole": {
+          "path": "blackhole",
+          "sha256": "0ade82bb85511748236f52272e5c092f40f1152518e1b0f7d13969c3ad1d1ca8"
+        }
+      }
+    }
+  }
+}
