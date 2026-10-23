@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "asm-lsp",
+  "version": "0.10.1",
+  "repository": "bergercookie/asm-lsp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bergercookie/asm-lsp/releases/download/v0.10.1/asm-lsp-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "2a2f386c10348e365df484d5c66d084813e7dbf8ab4e9eb7a7cc0bb0acf2f8f8",
+      "size": 3467525,
+      "format": "tar.gz",
+      "binaries": {
+        "asm-lsp": {
+          "path": "asm-lsp",
+          "sha256": "3dbcd39c4e233d3cc6cdd2ead7f5f1a3d21bfa11cf55ac5622a2680a1356d823"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bergercookie/asm-lsp/releases/download/v0.10.1/asm-lsp-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "900c0c95bb2cf0a65102beb09031496e3ed2d31b85dbbe3ef8cae5ffbe493a07",
+      "size": 3201681,
+      "format": "tar.gz",
+      "binaries": {
+        "asm-lsp": {
+          "path": "asm-lsp",
+          "sha256": "48dd32f70899c4ecee9246526d4b318e168f5184a1c3dec05ef3367574d42379"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bergercookie/asm-lsp/releases/download/v0.10.1/asm-lsp-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "affc8917d5bb6f44805c2e964ad07cf7e0799ecfaa7686f7a5cea9efa00bc575",
+      "size": 3077825,
+      "format": "tar.gz",
+      "binaries": {
+        "asm-lsp": {
+          "path": "asm-lsp",
+          "sha256": "630c29ae0631caa989432bf74c9943dbdca78136b4f70643c7c2c8df486dd194"
+        }
+      }
+    }
+  }
+}
