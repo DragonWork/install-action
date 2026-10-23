@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "bottom",
+  "version": "0.14.9",
+  "repository": "ClementTsang/bottom",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.14.9",
+      "sha256": "b4bee5b193e7d3f6e090ac14f0ca15acec2e7fe4ef64988e0bfc492e16c28c9a",
+      "size": 2126967,
+      "format": "tar.gz",
+      "binaries": {
+        "btm": {
+          "path": "btm",
+          "sha256": "5bffbcd391b9b9964e8429549f1c404f25d7606a5031a4242cad787ac6028bf3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.14.9",
+      "sha256": "7b6d532f6a6af356970f4e8d7d3a792590485aa4a53ebf038e10d20366125533",
+      "size": 1918659,
+      "format": "tar.gz",
+      "binaries": {
+        "btm": {
+          "path": "btm",
+          "sha256": "db127978c2e0a32d35e53f084d36ba937b1fe261bec27a6974c8f9f5d83ef0cb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.14.9",
+      "sha256": "d0b1d446963ee3c4dfbfe2efd9614cfdc77f39e8268bf8cc2e0b5b6cea982774",
+      "size": 1901583,
+      "format": "tar.gz",
+      "binaries": {
+        "btm": {
+          "path": "btm",
+          "sha256": "266bed1d308fde42b3a8803faf1faa43ab006768a79cb9ed90ecb78de5921f3f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.14.9",
+      "sha256": "28358e19a3d62b3778fc0d1778b0028a682059145c9ac38ac5076bf124d77714",
+      "size": 1755361,
+      "format": "tar.gz",
+      "binaries": {
+        "btm": {
+          "path": "btm",
+          "sha256": "30da99d815f4e1a47ad58347d4a9c3317e7434917cbcb28742ca1a762d28f8e7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.14.9",
+      "sha256": "01660721b0fdc72b191f2b27b78dc9a3087aeb7b3fad4a890c53870089d6b500",
+      "size": 1926802,
+      "format": "zip",
+      "binaries": {
+        "btm.exe": {
+          "path": "btm.exe",
+          "sha256": "3be92a9795e44a94194852ee446f262523eb701098ee3fabb20852c848ec87d1"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.14.9",
+      "sha256": "fabe9fc4850d12917150295900119eaa5455724658d1d709e013cacdc0390349",
+      "size": 1720657,
+      "format": "zip",
+      "binaries": {
+        "btm.exe": {
+          "path": "btm.exe",
+          "sha256": "71b682d755b3ebd77524a236aa28f40fd3c514729cfcf7dfe3c5621ff0cbbba0"
+        }
+      }
+    }
+  }
+}
