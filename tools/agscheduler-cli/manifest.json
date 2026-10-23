@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "agscheduler-cli",
+  "version": "0.5.0",
+  "repository": "AGScheduler/agscheduler-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AGScheduler/agscheduler-cli/releases/download/v0.5.0/agscheduler-cli-v0.5.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "77972304a6bd50b9d60b4a5c83363bfca0f3cfd5cea733692b116b8318bc29a6",
+      "size": 2467545,
+      "format": "tar.gz",
+      "binaries": {
+        "agscheduler-cli": {
+          "path": "agscheduler-cli-v0.5.0-x86_64-unknown-linux-musl/agscheduler-cli",
+          "sha256": "278b8da84f8d0d49ae8d04325d7d80ef5cc1cf0be68c7f60ca765ce6bd96aaf4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AGScheduler/agscheduler-cli/releases/download/v0.5.0/agscheduler-cli-v0.5.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "aeec804324014e16dc33dd55e2db332f3a1480a876c0f52aabd3674e21553e58",
+      "size": 2241639,
+      "format": "tar.gz",
+      "binaries": {
+        "agscheduler-cli": {
+          "path": "agscheduler-cli-v0.5.0-x86_64-apple-darwin/agscheduler-cli",
+          "sha256": "55e5be9c478c484a8bdf3bd39b803371caccef5362745d07acfa95c830cb3bc5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AGScheduler/agscheduler-cli/releases/download/v0.5.0/agscheduler-cli-v0.5.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "fb7342a62ef6ff420dc34f3680c274f8a4d75e25af34f482acc4eb62c2c2dee6",
+      "size": 2144151,
+      "format": "tar.gz",
+      "binaries": {
+        "agscheduler-cli": {
+          "path": "agscheduler-cli-v0.5.0-aarch64-apple-darwin/agscheduler-cli",
+          "sha256": "993d3ab3781d42e1d65c93bb67fcfa39018816c7ee5c96b66391cb70a0d0f9ea"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AGScheduler/agscheduler-cli/releases/download/v0.5.0/agscheduler-cli-v0.5.0-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "eefd592cb83352c915dc4315fad0183e2f1f34920864bd8f25bf48944db5e840",
+      "size": 3432737,
+      "format": "zip",
+      "binaries": {
+        "agscheduler-cli.exe": {
+          "path": "agscheduler-cli-v0.5.0-x86_64-pc-windows-gnu/agscheduler-cli.exe",
+          "sha256": "20568ffc024372591405dd4e7eb919b713481d3ac43d2964b9bee6cd5591d7d2"
+        }
+      }
+    }
+  }
+}
