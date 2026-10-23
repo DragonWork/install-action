@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "beamdpr",
+  "version": "1.4.0",
+  "repository": "henrybaxter/beamdpr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/henrybaxter/beamdpr/releases/download/v1.4.0/beamdpr-1.4.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.4.0",
+      "sha256": "c96e68c319a9dcffd455ffddad78d65e95650ed39cf9b22bdb5583838d89a9a1",
+      "size": 476905,
+      "format": "tar.gz",
+      "binaries": {
+        "beamdpr": {
+          "path": "beamdpr-1.4.0-x86_64-unknown-linux-gnu/beamdpr",
+          "sha256": "f1d7f3aecbc412354bad71813fa77efb7a885bdd3546723da80a9dc045ddcbb5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/henrybaxter/beamdpr/releases/download/v1.4.0/beamdpr-1.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.0",
+      "sha256": "c1c73fe564e67d17821b84792f67d5652ba8f9a4e4b8ce82e02e1f57ae62300c",
+      "size": 454199,
+      "format": "tar.gz",
+      "binaries": {
+        "beamdpr": {
+          "path": "beamdpr-1.4.0-x86_64-apple-darwin/beamdpr",
+          "sha256": "7b80cddc793c8ef112f69b1f70a4e2e1548de0712afa86f23ca53466d0ef9ce2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/henrybaxter/beamdpr/releases/download/v1.4.0/beamdpr-1.4.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.0",
+      "sha256": "c81aac38d5bd453145e69f116858a22e29b2d49fb2f36af3fe369e6ff604a67b",
+      "size": 437020,
+      "format": "tar.gz",
+      "binaries": {
+        "beamdpr": {
+          "path": "beamdpr-1.4.0-aarch64-apple-darwin/beamdpr",
+          "sha256": "5e40f70dfab4937054fde9066e2079d350d87e5bf3d2fb0a884d3e55d694dce1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/henrybaxter/beamdpr/releases/download/v1.4.0/beamdpr-1.4.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "4144fd78b905060fce6954c0286df7d7dbadc3e659a12c200709b6fb1c138631",
+      "size": 330481,
+      "format": "zip",
+      "binaries": {
+        "beamdpr.exe": {
+          "path": "beamdpr-1.4.0-x86_64-pc-windows-msvc/beamdpr.exe",
+          "sha256": "e8dd4a1d3419f8dfccaf0356385e5c7e2781266bfc414fab16b2f834565a16ff"
+        }
+      }
+    }
+  }
+}
