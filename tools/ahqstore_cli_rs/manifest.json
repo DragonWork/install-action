@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "ahqstore_cli_rs",
+  "version": "0.15.0",
+  "repository": "ahqstore/cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ahqstore/cli/releases/download/0.15.0/ahqstore_cli_rs-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "0.15.0",
+      "sha256": "4c14f323764085c57f48d7cd4330165478febe1ab2e61be89b5a589bbc6f8587",
+      "size": 8490490,
+      "format": "zip",
+      "binaries": {
+        "ahqstore": {
+          "path": "ahqstore",
+          "sha256": "ca187f21c2d75f487a89b33e16f44ee91a6fd9f48cca8c9512e3f5011228cb2b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ahqstore/cli/releases/download/0.15.0/ahqstore_cli_rs-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "0.15.0",
+      "sha256": "7bf96e643684b355e99f5f3950c3baad30aefaec20066694454b84603a53a137",
+      "size": 8970772,
+      "format": "zip",
+      "binaries": {
+        "ahqstore": {
+          "path": "ahqstore",
+          "sha256": "291d26f0f38e2276dd2c7619aae3171d6a8140304549607a198fbab1e05bd69c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ahqstore/cli/releases/download/0.15.0/ahqstore_cli_rs-x86_64-apple-darwin.zip",
+      "releaseTag": "0.15.0",
+      "sha256": "4776b5afb8263ecfcc26a26314a531dea90dcf000e9c7316d7a087441dbe0af4",
+      "size": 4329634,
+      "format": "zip",
+      "binaries": {
+        "ahqstore": {
+          "path": "ahqstore",
+          "sha256": "44e5db0fb0a5a72ffc4d12c0be806307b43f9c9675eb54ee0369cd694e28d266"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ahqstore/cli/releases/download/0.15.0/ahqstore_cli_rs-aarch64-apple-darwin.zip",
+      "releaseTag": "0.15.0",
+      "sha256": "863e186aea26f30e02ba29fc6929be4e457fa54679b8f411ed9661e8ff2eef04",
+      "size": 4050098,
+      "format": "zip",
+      "binaries": {
+        "ahqstore": {
+          "path": "ahqstore",
+          "sha256": "53a85afb11f06be4ed450b08c628be6d2f99ce384c55dfbc707ac3d4349e5d3f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ahqstore/cli/releases/download/0.15.0/ahqstore_cli_rs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.15.0",
+      "sha256": "03146f59eac0fb5831ab5abf09b3923f038cf9868bcd2c3a44424f29c309b5cb",
+      "size": 4470818,
+      "format": "zip",
+      "binaries": {
+        "ahqstore.exe": {
+          "path": "ahqstore.exe",
+          "sha256": "9dd01c4486a40757eff933d604193459dd5efaead007eb50dc2777d7542c43cd"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ahqstore/cli/releases/download/0.15.0/ahqstore_cli_rs-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.15.0",
+      "sha256": "7f525e53a0471a302cbb43df32e2444a1764da7e463744b3761f262229c0981d",
+      "size": 4222312,
+      "format": "zip",
+      "binaries": {
+        "ahqstore.exe": {
+          "path": "ahqstore.exe",
+          "sha256": "c09f0173435cfc7105438ce7d3c8c015fd93ff02d097d0838368de0efccadf9f"
+        }
+      }
+    }
+  }
+}
