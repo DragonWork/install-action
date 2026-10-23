@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "bigml-parallel",
+  "version": "1.0.1",
+  "repository": "faradayio/bigml-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/faradayio/bigml-rs/releases/download/v1.0.1/bigml-parallel_1.0.1_x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v1.0.1",
+      "sha256": "9f91b9a8c5ee5f054b1bcaec3c71b5d45dd4d37106cdbd2dfcbcb8f32bcd68b8",
+      "size": 5308787,
+      "format": "zip",
+      "binaries": {
+        "bigml-parallel": {
+          "path": "bigml-parallel",
+          "sha256": "16ed3738b1454f20522f1d46fb3f1ccefa5f63c0bf63e0aec2af1042a277c3b1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/faradayio/bigml-rs/releases/download/v1.0.1/bigml-parallel_1.0.1_x86_64-apple-darwin.zip",
+      "releaseTag": "v1.0.1",
+      "sha256": "57af235e00c18a3dfa7486bcbc9d5e047237c38712f1a5ec9f2530798e7eef71",
+      "size": 3789798,
+      "format": "zip",
+      "binaries": {
+        "bigml-parallel": {
+          "path": "bigml-parallel",
+          "sha256": "862cbc2ab56d96c64c77294dee92f8cc23d17c6b5405dcbcf283690e21e1959c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/faradayio/bigml-rs/releases/download/v1.0.1/bigml-parallel_1.0.1_aarch64-apple-darwin.zip",
+      "releaseTag": "v1.0.1",
+      "sha256": "a469673dba472d247fb9e20cec38a2a00662d3e193e00fd32900f98efd1b5502",
+      "size": 3746059,
+      "format": "zip",
+      "binaries": {
+        "bigml-parallel": {
+          "path": "bigml-parallel",
+          "sha256": "bd4d68c72416a7421566dcd94d02264bf9d9128ded37faeb7f1c9644e32f8544"
+        }
+      }
+    }
+  }
+}
