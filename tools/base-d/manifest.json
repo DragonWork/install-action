@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "base-d",
+  "version": "3.0.36",
+  "repository": "coryzibell/base-d",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/coryzibell/base-d/releases/download/v3.0.36/base-d-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.0.36",
+      "sha256": "3fd0ed79c72398a9b8aeb1f15c948166bb146f48320519846259f0f805e7aafa",
+      "size": 2985340,
+      "format": "tar.gz",
+      "binaries": {
+        "base-d": {
+          "path": "base-d",
+          "sha256": "f332448fc9e5894716f36fd32ab8fc4bd00a65ee907eb14c1c6be0a149b1a20b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/coryzibell/base-d/releases/download/v3.0.36/base-d-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.0.36",
+      "sha256": "863697c619976189ec6cc68e6b52e89ee70e00c1e94dee8736ba7ab563298ea4",
+      "size": 2814365,
+      "format": "tar.gz",
+      "binaries": {
+        "base-d": {
+          "path": "base-d",
+          "sha256": "0b36cb84ef5ed963afaa8a9e3734221613e26e706b494e1f918fa9b10e7537ec"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/coryzibell/base-d/releases/download/v3.0.36/base-d-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.0.36",
+      "sha256": "409d6a459dbcbc500a10cc28a843727655d4832f75177eced1959b0316c535a1",
+      "size": 2661365,
+      "format": "tar.gz",
+      "binaries": {
+        "base-d": {
+          "path": "base-d",
+          "sha256": "7c001b2c3f3e3a50a083dcc7f916a14fb71e32b139dcbd15e32b37250b868605"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/coryzibell/base-d/releases/download/v3.0.36/base-d-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.0.36",
+      "sha256": "d6e12d260d6244ce9318a36ee31f6d30268e7a12f07b2806dd95c7d590e7a330",
+      "size": 2430044,
+      "format": "tar.gz",
+      "binaries": {
+        "base-d": {
+          "path": "base-d",
+          "sha256": "3867b29449d3245f6e5960717700f4fd34903b8ea1b11afd8a6f9ac76172c82c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/coryzibell/base-d/releases/download/v3.0.36/base-d-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.0.36",
+      "sha256": "39d6c63f8645edfbf74d66be23d7c68b183eec8a062dfd97c0de6990b0f79f23",
+      "size": 2439924,
+      "format": "zip",
+      "binaries": {
+        "base-d.exe": {
+          "path": "base-d.exe",
+          "sha256": "982b8a073b2b09efad4eb935b292532c45a90e951dd381d97a0f3371f77fec72"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/coryzibell/base-d/releases/download/v3.0.36/base-d-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v3.0.36",
+      "sha256": "0d7fd638ab4be377d59943906004b3f9dd39ec2648a4364015dd8811c84c20fd",
+      "size": 2343473,
+      "format": "zip",
+      "binaries": {
+        "base-d.exe": {
+          "path": "base-d.exe",
+          "sha256": "4d7e9780843e999a1e58badc40391f2799b853d3cab3a15ad98a3bee08e5bbe1"
+        }
+      }
+    }
+  }
+}
