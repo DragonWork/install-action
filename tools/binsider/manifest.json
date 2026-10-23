@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "binsider",
+  "version": "0.3.2",
+  "repository": "orhun/binsider",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orhun/binsider/releases/download/v0.3.2/binsider-0.3.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "fd349c580824f2b52ff7cd6a302aaa774a3fe4beedd9378515bdfecec0d877a3",
+      "size": 1427946,
+      "format": "tar.gz",
+      "binaries": {
+        "binsider": {
+          "path": "binsider-0.3.2/binsider",
+          "sha256": "4c76295164b710c7bd4765515e71de715ae7e4b4c5e515987940e27125062b25"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/orhun/binsider/releases/download/v0.3.2/binsider-0.3.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "a5e745f1e31f1667ec14f6239bac3c31cc5043962624b12dae4182d31b5244e2",
+      "size": 1206922,
+      "format": "tar.gz",
+      "binaries": {
+        "binsider": {
+          "path": "binsider-0.3.2/binsider",
+          "sha256": "4be7568211a3b26456d3c6867301f1e0f2f9d4c7445ba56f76001a9ca69f2aad"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orhun/binsider/releases/download/v0.3.2/binsider-0.3.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "1c3cfe24301fdd679ecf165378bb1335bf6401d0077cf3b1bbafe591c846e81a",
+      "size": 1081833,
+      "format": "tar.gz",
+      "binaries": {
+        "binsider": {
+          "path": "binsider-0.3.2/binsider",
+          "sha256": "4f6aa427a42614e224b44908bb3b4fa4fbad7510f6442c352049d108f5357486"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/orhun/binsider/releases/download/v0.3.2/binsider-0.3.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "08d601a17b6c129bd6cd71aaa76fa5a194fcf21815ccba1c9bfff8b649674fbf",
+      "size": 1008439,
+      "format": "tar.gz",
+      "binaries": {
+        "binsider": {
+          "path": "binsider-0.3.2/binsider",
+          "sha256": "87e402da2601bcc6282fc27fb7745c72b5311aa6d6d49ab8790873e9a807d649"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orhun/binsider/releases/download/v0.3.2/binsider--x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "acb806543b1a1c0b09a4da782f6ba8c8042591f694b2124cf602424720c33392",
+      "size": 951130,
+      "format": "zip",
+      "binaries": {
+        "binsider.exe": {
+          "path": "binsider-/binsider.exe",
+          "sha256": "68b1b392732b9389d9487f91a56d8bd0788916eaeef9a1e4ec8f3e27437a0ee2"
+        }
+      }
+    }
+  }
+}
