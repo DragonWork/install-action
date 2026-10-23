@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "aoc-cli",
+  "version": "0.12.0",
+  "repository": "scarvalhojr/aoc-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/scarvalhojr/aoc-cli/releases/download/0.12.0/aoc-cli-0.12.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.12.0",
+      "sha256": "7858def4cf7a05fb165fbd67cfd05d24997b8d42a1c3660b560313518ef85af6",
+      "size": 5427216,
+      "format": "tar.gz",
+      "binaries": {
+        "aoc": {
+          "path": "aoc-cli-0.12.0-x86_64-unknown-linux-musl/aoc",
+          "sha256": "e5d8e4e5c14e14d74b09da131fb6e7fe50e4a245e6e5767554367628851cb98b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/scarvalhojr/aoc-cli/releases/download/0.12.0/aoc-cli-0.12.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.12.0",
+      "sha256": "8bd5dbf22d2758ae41a6058fd0654d002dd9e9a0eb73382e9bc2feb4e87e290b",
+      "size": 2997494,
+      "format": "tar.gz",
+      "binaries": {
+        "aoc": {
+          "path": "aoc-cli-0.12.0-x86_64-apple-darwin/aoc",
+          "sha256": "6637bd67c551a4d03354d126466fcdecf6378ca11ee1e301028cef22468acb32"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/scarvalhojr/aoc-cli/releases/download/0.12.0/aoc-cli-0.12.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.12.0",
+      "sha256": "c9f9f5ca00a515c563d466cb0525da8301d55cb00b0b34829be4f2ab5a8d704e",
+      "size": 2431452,
+      "format": "zip",
+      "binaries": {
+        "aoc.exe": {
+          "path": "aoc-cli-0.12.0-x86_64-pc-windows-msvc/aoc.exe",
+          "sha256": "33fe7a4843742e90ac84a13655b9e0aa5abec1b3bc5e57ab301a49bbbae1e7b6"
+        }
+      }
+    }
+  }
+}
