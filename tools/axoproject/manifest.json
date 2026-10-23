@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "axoproject",
+  "version": "0.7.0",
+  "repository": "axodotdev/axoproject",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/axodotdev/axoproject/releases/download/v0.7.0/axoproject-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "ba1ba8bd1567c0423ae28492cdb05af99f8da389cf41456fe068408c967c62af",
+      "size": 1711172,
+      "format": "tar.xz",
+      "binaries": {
+        "axoproject": {
+          "path": "axoproject-x86_64-unknown-linux-gnu/axoproject",
+          "sha256": "3c35a4f09999e5413a588986ab5f1870b770a79c4b18c9313acd95ed6272c2c7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/axodotdev/axoproject/releases/download/v0.7.0/axoproject-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "ff15e2a882952192280bdd56cf7933379b73fd6dae6618a71e16fb173712378e",
+      "size": 1248816,
+      "format": "tar.xz",
+      "binaries": {
+        "axoproject": {
+          "path": "axoproject-x86_64-apple-darwin/axoproject",
+          "sha256": "e280139e6578040cade6c9214bb30c4890257b2b287410c7f5d8a7a94c4555c1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/axodotdev/axoproject/releases/download/v0.7.0/axoproject-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "c7283889a4f8b40d2e9b0e36730cad0f9dac5107f831e641f6ba33db4cdaa238",
+      "size": 1158316,
+      "format": "tar.xz",
+      "binaries": {
+        "axoproject": {
+          "path": "axoproject-aarch64-apple-darwin/axoproject",
+          "sha256": "4b72744d2e8c472df6c35cf55d89f06c3b2944d8b8b32e3b12d958dcdb934436"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/axodotdev/axoproject/releases/download/v0.7.0/axoproject-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "36cb4c6f8e4f49cb690b85c81f895a3fcf8f8a94cc16845ebfd44300ab645c38",
+      "size": 3946841,
+      "format": "zip",
+      "binaries": {
+        "axoproject.exe": {
+          "path": "axoproject.exe",
+          "sha256": "2af6f1382c5feceafd06b45ac03f59b5425c02b6e21ed826bd1ebbbbeb886387"
+        }
+      }
+    }
+  }
+}
