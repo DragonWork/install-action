@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "artem",
+  "version": "3.0.0",
+  "repository": "FineFindus/artem",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FineFindus/artem/releases/download/v3.0.0/artem-v3.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "f3b74aa5f977e47627dd639ede244c83a4aa237376ea16ae9ac28d37ecc53b45",
+      "size": 4615293,
+      "format": "tar.gz",
+      "binaries": {
+        "artem": {
+          "path": "artem",
+          "sha256": "59dc11fffa7421a8633a46cea05156965b92ab39731c053b6742336a474d5181"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FineFindus/artem/releases/download/v3.0.0/artem-v3.0.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "0b1c683bae37712a80542c05be2820e02d047b1937e37ad1048d727439ddc2de",
+      "size": 4282578,
+      "format": "tar.gz",
+      "binaries": {
+        "artem": {
+          "path": "artem",
+          "sha256": "8f9d30ad1c03a252a18e463af4e26077c7e0eabeeb6557d1d63bce5e08b8fd73"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FineFindus/artem/releases/download/v3.0.0/artem-v3.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "6716001340e35c715fbc5da443825b8f4db335bf24e27277fc789e9cd79a1c5a",
+      "size": 3032560,
+      "format": "tar.gz",
+      "binaries": {
+        "artem": {
+          "path": "artem",
+          "sha256": "c63c381513e8f006aa72bb9b495dfe6c573e534eddcf34f6cdc068911eb8ba57"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FineFindus/artem/releases/download/v3.0.0/artem-v3.0.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "342abae08f237ef5865a0df3328e086bf28045f111322e29af596c0aa0a04a1b",
+      "size": 2866985,
+      "format": "tar.gz",
+      "binaries": {
+        "artem": {
+          "path": "artem",
+          "sha256": "c40d4761b7afe356cfe30b7847b5ace26c9072cda31d325c8df7c0d8aeb7b4d0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/FineFindus/artem/releases/download/v3.0.0/artem-v-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.0.0",
+      "sha256": "0477686041f79243852c6ab89566157f4be56966453ce678b8511261c93aa3eb",
+      "size": 2568031,
+      "format": "zip",
+      "binaries": {
+        "artem.exe": {
+          "path": "artem.exe",
+          "sha256": "ccbdc6835cb471359b41b884d6d81af4c8748aaadb03517ffe69943c1c883c97"
+        }
+      }
+    }
+  }
+}
