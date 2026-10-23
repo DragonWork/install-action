@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "blight",
+  "version": "0.8.0",
+  "repository": "VoltaireNoir/blight",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/VoltaireNoir/blight/releases/download/v0.8.0/blight-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "24ba6379717b6330e0dce6851dfe1f293335dbba2d1aa52023188fd05e3416cf",
+      "size": 212324,
+      "format": "tar.xz",
+      "binaries": {
+        "blight": {
+          "path": "blight-x86_64-unknown-linux-gnu/blight",
+          "sha256": "af6af6532333f2378f10bd87e221d82d5584368a56da8cc75d98e2f0d9d03563"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/VoltaireNoir/blight/releases/download/v0.8.0/blight-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "53a4a7dc4493063fc4186127682620bcdf132806e67e453b77e8510002f93462",
+      "size": 186068,
+      "format": "tar.xz",
+      "binaries": {
+        "blight": {
+          "path": "blight-aarch64-unknown-linux-gnu/blight",
+          "sha256": "605bed8e46a520d4711fcad726708a4148b46c3c004f7c5a39c5af4862f2d95c"
+        }
+      }
+    }
+  }
+}
