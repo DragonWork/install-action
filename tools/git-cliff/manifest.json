@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "name": "git-cliff",
+  "version": "2.14.2",
+  "repository": "orhun/git-cliff",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orhun/git-cliff/releases/download/v2.14.2/git-cliff-2.14.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.14.2",
+      "sha256": "fa21e2fc70046fcfd0e43e5e4613873ab799aff3d9dc8559c00d31b270e417d0",
+      "size": 7955124,
+      "format": "tar.gz",
+      "binaries": {
+        "git-cliff": {
+          "path": "git-cliff-2.14.2/git-cliff",
+          "sha256": "4cf58f1dfa57c73bc66db3e23b2890582243f1eb234a5621487d659225f1614f"
+        },
+        "git-cliff-completions": {
+          "path": "git-cliff-2.14.2/git-cliff-completions",
+          "sha256": "6f1f6a24edd210db3b59fc10d9907975f4b194aab11b606e7d0807a541fa5229"
+        },
+        "git-cliff-mangen": {
+          "path": "git-cliff-2.14.2/git-cliff-mangen",
+          "sha256": "a43e246f7f68ff72ea5ba104a09ad9bc4b8dda2074323bbb56a880b2d4ea1ec9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/orhun/git-cliff/releases/download/v2.14.2/git-cliff-2.14.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.14.2",
+      "sha256": "4be21b21ec9699af4d330b224aeba8a41d41d8f5b351ca2da8a9ea2bdc36380f",
+      "size": 7240693,
+      "format": "tar.gz",
+      "binaries": {
+        "git-cliff": {
+          "path": "git-cliff-2.14.2/git-cliff",
+          "sha256": "9753237922cb27d94288915955ec57a431382c0bd2c537c73c4fb4a71b7205f4"
+        },
+        "git-cliff-completions": {
+          "path": "git-cliff-2.14.2/git-cliff-completions",
+          "sha256": "ba1c2eb278e039e8442ced7f0f34e833f77890a262f15c459ce122d18bf8b473"
+        },
+        "git-cliff-mangen": {
+          "path": "git-cliff-2.14.2/git-cliff-mangen",
+          "sha256": "6d9aec183c62fc663a5cbda493cf1f379711850fb64559b0ee0c4507e83c0b1d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orhun/git-cliff/releases/download/v2.14.2/git-cliff-2.14.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.14.2",
+      "sha256": "4e647d2deb152aca1e987f225cf42b080b991dd98f3bce4027ef95446d982ac3",
+      "size": 7269932,
+      "format": "tar.gz",
+      "binaries": {
+        "git-cliff": {
+          "path": "git-cliff-2.14.2/git-cliff",
+          "sha256": "f8dc394b3c5b8f769f2f34f19a6e29dd2ca8827200bf83a0979e60796c87452d"
+        },
+        "git-cliff-completions": {
+          "path": "git-cliff-2.14.2/git-cliff-completions",
+          "sha256": "7ccaa6d6c1b6289fd72e5e7fe58fb0ac69ddb9e9d25183cb7ee868122fe1059d"
+        },
+        "git-cliff-mangen": {
+          "path": "git-cliff-2.14.2/git-cliff-mangen",
+          "sha256": "91877b597e7529f8c42da6c7e0509d6f22b40a46c19fc33343fdcb1af3cd5297"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/orhun/git-cliff/releases/download/v2.14.2/git-cliff-2.14.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.14.2",
+      "sha256": "a0be97e237d440d34c5e508ec21d070b2c85cbb8be48a46a56f9a4e8bd247f05",
+      "size": 6783346,
+      "format": "tar.gz",
+      "binaries": {
+        "git-cliff": {
+          "path": "git-cliff-2.14.2/git-cliff",
+          "sha256": "78f0d0b2d798ecb92ebdb7222c127f18dcca67ae3b3a03ba50599bb4f73b4511"
+        },
+        "git-cliff-completions": {
+          "path": "git-cliff-2.14.2/git-cliff-completions",
+          "sha256": "2364d9e85c52a5f11e13fe5a4777c4d219102f709e880264269efa7c30527b40"
+        },
+        "git-cliff-mangen": {
+          "path": "git-cliff-2.14.2/git-cliff-mangen",
+          "sha256": "f3689814b3e16fe01bac455df54035187b4ddea7a383af4a7418662d71365067"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orhun/git-cliff/releases/download/v2.14.2/git-cliff-2.14.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.14.2",
+      "sha256": "6ece2112b3f4af462190ecbea4aeb1315fff6af415629b597f84319073c31131",
+      "size": 7428304,
+      "format": "zip",
+      "binaries": {
+        "git-cliff.exe": {
+          "path": "git-cliff-2.14.2/git-cliff.exe",
+          "sha256": "c65ba98a7323a10e1ce524f0c952c432ff7057a25eff8690eb19bb5c31825a9c"
+        },
+        "git-cliff-completions.exe": {
+          "path": "git-cliff-2.14.2/git-cliff-completions.exe",
+          "sha256": "02b23e39b536bf3673c0ae33f981deeb0976e1e9c0688c5f7a21e4c55ebd310f"
+        },
+        "git-cliff-mangen.exe": {
+          "path": "git-cliff-2.14.2/git-cliff-mangen.exe",
+          "sha256": "b201dd82578eae46c9ce5c3517f9ed771d08728be59aecbf6a43feac03a56103"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/orhun/git-cliff/releases/download/v2.14.2/git-cliff-2.14.2-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v2.14.2",
+      "sha256": "5fb69daea6e47daebd91abbd4c24cfb74c13547c96fa7e5a252f8f7a3c7585aa",
+      "size": 6945947,
+      "format": "zip",
+      "binaries": {
+        "git-cliff.exe": {
+          "path": "git-cliff-2.14.2/git-cliff.exe",
+          "sha256": "acaa4cc466ebb5f79af5eb001505f69b7263d3574388f593a3304644c9b34062"
+        },
+        "git-cliff-completions.exe": {
+          "path": "git-cliff-2.14.2/git-cliff-completions.exe",
+          "sha256": "74a13d41dd80f013331ce1fed4f3eb33cc2c8f306f469d4aea0c7256fab48d8f"
+        },
+        "git-cliff-mangen.exe": {
+          "path": "git-cliff-2.14.2/git-cliff-mangen.exe",
+          "sha256": "a1c44db87d893caadbbeed7220c557403c5cfef594415868bc4e457455037d62"
+        }
+      }
+    }
+  }
+}
