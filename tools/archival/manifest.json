@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "archival",
+  "version": "0.26.2",
+  "repository": "archival-dev/archival",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/archival-dev/archival/releases/download/v0.26.2/archival-v0.26.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.26.2",
+      "sha256": "d076b645944bc44f775f3ed9e15cc7b15d83b0177198ef88f8236d652cd64850",
+      "size": 6881801,
+      "format": "tar.gz",
+      "binaries": {
+        "archival": {
+          "path": "archival-v0.26.2-x86_64-unknown-linux-musl/archival",
+          "sha256": "f67f51789e70db6532d9c715bdb6bd9a19a672d2f99716f1388997034e23c859"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/archival-dev/archival/releases/download/v0.26.2/archival-v0.26.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.26.2",
+      "sha256": "e136c6c57065a96393b38470a2e614438cba2192d8e8e399f2fc240b542159f7",
+      "size": 6429475,
+      "format": "tar.gz",
+      "binaries": {
+        "archival": {
+          "path": "archival-v0.26.2-aarch64-unknown-linux-musl/archival",
+          "sha256": "ecf3ab3083f9013a02c90d76de3df51cade90e061dc9817deab0c75f05dd25ac"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/archival-dev/archival/releases/download/v0.26.2/archival-v0.26.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.26.2",
+      "sha256": "fbf7cde51ff81f422d1fe975c00547c5754ffe29586e057132a26e07f196a042",
+      "size": 6472641,
+      "format": "tar.gz",
+      "binaries": {
+        "archival": {
+          "path": "archival-v0.26.2-x86_64-apple-darwin/archival",
+          "sha256": "37d7b052c603e10ad807c82612ab70d46164f71d93e09ccfd990158a30d79e4e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/archival-dev/archival/releases/download/v0.26.2/archival-v0.26.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.26.2",
+      "sha256": "ebcc7978786501ef5485cb3907873207036d3bfc88d31372bad348b6c40314ef",
+      "size": 6115163,
+      "format": "tar.gz",
+      "binaries": {
+        "archival": {
+          "path": "archival-v0.26.2-aarch64-apple-darwin/archival",
+          "sha256": "46211a541bca559ad9c52e0ae9d750ba2b0c3ee7fab75538c3c03489df4e3473"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/archival-dev/archival/releases/download/v0.26.2/archival-v0.26.2-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.26.2",
+      "sha256": "d0119aa5ac30f957779d5917237c968313fb27569368119861e1f1c844813ebe",
+      "size": 6378113,
+      "format": "tar.gz",
+      "binaries": {
+        "archival.exe": {
+          "path": "archival-v0.26.2-x86_64-pc-windows-msvc/archival.exe",
+          "sha256": "f9ce6f537b44306b06ce929c09146c163b5c881090f7d169899b2f3b9815eca2"
+        }
+      }
+    }
+  }
+}
