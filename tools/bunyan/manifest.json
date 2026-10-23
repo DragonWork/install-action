@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "bunyan",
+  "version": "0.1.10",
+  "repository": "LukeMathWalker/officina",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/bunyan-v0.1.10/bunyan-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "bunyan-v0.1.10",
+      "sha256": "ae0d2a02535f9bd16335b846700c835c73b5df1a049e8d3ff368775e7fbb54fe",
+      "size": 483504,
+      "format": "tar.xz",
+      "binaries": {
+        "bunyan": {
+          "path": "bunyan-x86_64-unknown-linux-musl/bunyan",
+          "sha256": "b96b50a5230b9a6fae095bf34d9699f86cdd76432448d2d039f7337d9355f73c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/bunyan-v0.1.10/bunyan-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "bunyan-v0.1.10",
+      "sha256": "390ecdd1979560c73dccc197a759c3b9897bd673c87b8ac91e2c48726a6e8894",
+      "size": 414300,
+      "format": "tar.xz",
+      "binaries": {
+        "bunyan": {
+          "path": "bunyan-x86_64-apple-darwin/bunyan",
+          "sha256": "18e289e940f18bfa2f355304d654e9ee29634b3c451450a975c96d60fd5c72f6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/bunyan-v0.1.10/bunyan-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "bunyan-v0.1.10",
+      "sha256": "cbb6023cb3a5983920b2c4fd89516a9e5397aff27814c30f01dc1798866c1af8",
+      "size": 371116,
+      "format": "tar.xz",
+      "binaries": {
+        "bunyan": {
+          "path": "bunyan-aarch64-apple-darwin/bunyan",
+          "sha256": "91b50cef67e1d9e15bf642eb4056615260190d0f47f7fa057248cd04da5dead3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/bunyan-v0.1.10/bunyan-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "bunyan-v0.1.10",
+      "sha256": "519a654b4d526d6282b7fd67b40f5112851b757bf1ec79e779b762b76ad69192",
+      "size": 466042,
+      "format": "zip",
+      "binaries": {
+        "bunyan.exe": {
+          "path": "bunyan.exe",
+          "sha256": "5f4101970db05b503d661c817baeacb58fea413c87b56cd1bc9ad513299f4ca0"
+        }
+      }
+    }
+  }
+}
