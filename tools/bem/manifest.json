@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "bem",
+  "version": "0.2.7",
+  "repository": "vortex-design/bem",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vortex-design/bem/releases/download/v0.2.7/bem-v0.2.7-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.7",
+      "sha256": "cf22c5d83bb10808be2dbd76ed154751e4bdc374dab564504a14d90548f40666",
+      "size": 433652,
+      "format": "tar.gz",
+      "binaries": {
+        "bem": {
+          "path": "bem",
+          "sha256": "2947348089860900fd8595664875d5a9a1f5b8d1c7ce64663fd628fc88bf7322"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/vortex-design/bem/releases/download/v0.2.7/bem-v0.2.7-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.7",
+      "sha256": "12faecc55b6dd045a55a0dadaf4b2194467c4169b3a4a95c14998ec63438768a",
+      "size": 1374784,
+      "format": "tar.gz",
+      "binaries": {
+        "bem": {
+          "path": "bem",
+          "sha256": "d89b9b135802d36f99ec46e1126c60562f11cd3dd87a5119780a0b9aa6221dde"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vortex-design/bem/releases/download/v0.2.7/bem-v0.2.7-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.7",
+      "sha256": "246ff9869cbb4c19cf057e44323fdb8cb9b4527b9e062101733f3c5b8f414867",
+      "size": 358858,
+      "format": "tar.gz",
+      "binaries": {
+        "bem": {
+          "path": "bem",
+          "sha256": "b1727ccaed398a1702e8f06ddbb45de11a407cc62fb17ccefd34c586f15449ed"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vortex-design/bem/releases/download/v0.2.7/bem-v0.2.7-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.7",
+      "sha256": "7c4367ce24c93ec53c6af9d70678ba424646edf3cdbee4f96e32df8762a82e19",
+      "size": 444158,
+      "format": "tar.gz",
+      "binaries": {
+        "bem": {
+          "path": "bem",
+          "sha256": "7bb2bea5ae05cb2af19090ec2f2fafd63997d387237a9b7ec593a3a8b8c5bb31"
+        }
+      }
+    }
+  }
+}
