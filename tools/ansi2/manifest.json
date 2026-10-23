@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ansi2",
+  "version": "0.3.0",
+  "repository": "ahaoboy/ansi2",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ahaoboy/ansi2/releases/download/v0.3.0/ansi2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "71dcb2ddd682c200e4a29d08db0ff3eedb58c4704979a4d31d467db7f1e4dafa",
+      "size": 4649154,
+      "format": "tar.gz",
+      "binaries": {
+        "ansi2": {
+          "path": "ansi2",
+          "sha256": "4c1d2a96c10f4433889466c9d2dad518a73699da27962bf341314579ba39426a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ahaoboy/ansi2/releases/download/v0.3.0/ansi2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "8f06cc795f40d6d4fda5d4e30ed0304524afa0dc4bd6e9ed032f9c7be8e1fc5c",
+      "size": 4150902,
+      "format": "tar.gz",
+      "binaries": {
+        "ansi2": {
+          "path": "ansi2",
+          "sha256": "c663db4ed9ccfc105d138f4a12c299d5ed36508e0af03223806f53efb8bc2730"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ahaoboy/ansi2/releases/download/v0.3.0/ansi2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "a698cbab94b97e2f7a7a068d3a795ee6b31590a9a3abfde74a8894fa3f89f252",
+      "size": 4498123,
+      "format": "tar.gz",
+      "binaries": {
+        "ansi2": {
+          "path": "ansi2",
+          "sha256": "abfbc1bbeb93c63e6b07158d9fdda2247d37399e937b56fed89d56bfc075c4eb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ahaoboy/ansi2/releases/download/v0.3.0/ansi2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "996eec283b64319a4196178ea89cfefa30e00f96e4ecb34ced2779d5c3c8ed31",
+      "size": 4025703,
+      "format": "tar.gz",
+      "binaries": {
+        "ansi2": {
+          "path": "ansi2",
+          "sha256": "3da3df4574e3580d14c1a9eee69adfd1c128fa4dfe5684f8f5319aaad0f3bddc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ahaoboy/ansi2/releases/download/v0.3.0/ansi2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "f589d698d59a61552e803e927a7c4b942d38f62ab70980c903f4a7191f0dab6c",
+      "size": 4611752,
+      "format": "zip",
+      "binaries": {
+        "ansi2.exe": {
+          "path": "ansi2.exe",
+          "sha256": "eacc8fd8200952e989683ad7498352caca2ea4fd77b1be65e24ce92ae10ddfab"
+        }
+      }
+    }
+  }
+}
