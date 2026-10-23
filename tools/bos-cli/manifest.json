@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "bos-cli",
+  "version": "0.4.3",
+  "repository": "bos-cli-rs/bos-cli-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bos-cli-rs/bos-cli-rs/releases/download/v0.4.3/bos-cli-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "8b8873c87a789586fca0e2c9412c6f5afe3e27466775cc532baff8e1dfb80408",
+      "size": 9748178,
+      "format": "tar.gz",
+      "binaries": {
+        "bos": {
+          "path": "bos-cli-x86_64-unknown-linux-gnu/bos",
+          "sha256": "c4941cc29a56de8e1b2076c521e6aa649a9956bf28af05d1c8b671eabbb82b1b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bos-cli-rs/bos-cli-rs/releases/download/v0.4.3/bos-cli-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "53c8ff6422e205fd034f4b802e2024c185db511b4d5a8dbe7e32aecf60d11b60",
+      "size": 10345296,
+      "format": "tar.gz",
+      "binaries": {
+        "bos": {
+          "path": "bos-cli-aarch64-unknown-linux-gnu/bos",
+          "sha256": "1fd9701d6ea7e568c54f00302e3abb4d0d205fd2060c71062790b0f3e2630d13"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bos-cli-rs/bos-cli-rs/releases/download/v0.4.3/bos-cli-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "f2881dd0970796d66bfc6ef20bc17bfb33a776cc6e18d065f21da32e05f7d055",
+      "size": 6874839,
+      "format": "tar.gz",
+      "binaries": {
+        "bos": {
+          "path": "bos-cli-x86_64-apple-darwin/bos",
+          "sha256": "b2cb7776c3e6dd1dc1306178b73c4630f31329000ad02196203fd7a39117a332"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bos-cli-rs/bos-cli-rs/releases/download/v0.4.3/bos-cli-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "4e3c70eb34db8f727e549b1fb26835cc924b77d31d1b37d7540d7afac017beda",
+      "size": 6692188,
+      "format": "tar.gz",
+      "binaries": {
+        "bos": {
+          "path": "bos-cli-aarch64-apple-darwin/bos",
+          "sha256": "d4215224cb8fad628dd22a62d8be486f7843ea01f5c34d2911d7b371370e5c1a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bos-cli-rs/bos-cli-rs/releases/download/v0.4.3/bos-cli-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "3194a3771de6705b73c438a947ef135e04c8c7e6e43d5f5e804aaef637431690",
+      "size": 7315271,
+      "format": "tar.gz",
+      "binaries": {
+        "bos.exe": {
+          "path": "bos-cli-x86_64-pc-windows-msvc/bos.exe",
+          "sha256": "dc24ae348eedcd34bedb4786baa81123b22b30cbf91937be4057476bf9b98c7f"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/bos-cli-rs/bos-cli-rs/releases/download/v0.4.3/bos-cli-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "067d15096c54ebee1ce324b90314d09bfe597b6885777ce89340f54ea99c6926",
+      "size": 6915799,
+      "format": "tar.gz",
+      "binaries": {
+        "bos.exe": {
+          "path": "bos-cli-aarch64-pc-windows-msvc/bos.exe",
+          "sha256": "62faeb6ec51243247756f933890c9dd4d7e9c9b826434afc2ec2b497c4fc771a"
+        }
+      }
+    }
+  }
+}
