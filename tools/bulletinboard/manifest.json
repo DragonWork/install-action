@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "bulletinboard",
+  "version": "0.5.3",
+  "repository": "manuels/bulletinboard-dht",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/manuels/bulletinboard-dht/releases/download/v0.5.3/bulletinboard-v0.5.3-x86_64-unknown-linux-musl-without_dbus_service.tar.gz",
+      "releaseTag": "v0.5.3",
+      "sha256": "99afcb732ddcbe66d03141511bd89e935d1b0a82e60e74cf14fd1978cf8b2c71",
+      "size": 1500402,
+      "format": "tar.gz",
+      "binaries": {
+        "bulletinboard": {
+          "path": "bulletinboard",
+          "sha256": "82164cb48dbca793613d963e8aa4d45be9d1468ad151ebbbfe7df44d34384707"
+        }
+      }
+    }
+  }
+}
