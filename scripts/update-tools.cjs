@@ -72,7 +72,7 @@ async function probeReleases(catalog, state, current, limit = 2000) {
       } } : { reason: 'No matching upstream binary release.' }) };
     }
     console.log(`Checked binary releases for ${Math.min(offset + block.length, requests.length)} / ${requests.length} crates.`);
-    if (response.data.rateLimit?.remaining < 100) break;
+    if (response.data.rateLimit?.remaining < 150) break;
     if (offset + 50 < requests.length) await new Promise(resolve => setTimeout(resolve, 5000));
   }
 }
@@ -107,6 +107,10 @@ function compareVersions(a, b) {
   const left = a.split('.').map(Number), right = b.split('.').map(Number);
   for (let i = 0; i < 3; i++) if (left[i] !== right[i]) return left[i] - right[i];
   return 0;
+}
+
+function publicationBudget(remaining, requested, priority = false) {
+  return Math.max(0, Math.min(requested, Math.floor((remaining - 100) / (priority ? 12 : 8))));
 }
 
 async function cratesApi(endpoint) {
@@ -217,8 +221,10 @@ async function main() {
   for (const name of await registered(directory)) current[name] = await readJson(`tools/${name}/manifest.json`);
   assert(catalog.minimumDownloads === 10000 || !Object.keys(catalog.crates).length, 'Refresh the catalog with the 10,000-download threshold.');
   const now = Date.now();
-  const batch = Number(process.env.CRATE_BATCH_SIZE || 100);
-  assert(Number.isSafeInteger(batch) && batch >= 1 && batch <= 100, 'Crate batch size must be between 1 and 100.');
+  const requested = Number(process.env.CRATE_BATCH_SIZE || 100);
+  assert(Number.isSafeInteger(requested) && requested >= 1 && requested <= 100, 'Crate batch size must be between 1 and 100.');
+  const limits = await api('/rate_limit');
+  const batch = publicationBudget(limits.resources.core.remaining, requested, extra.length > 0);
   const ready = Object.keys(state).filter(name => state[name].release && !current[name]).length;
   if (!extra.length && ready < batch && Object.keys(catalog.crates).length && process.env.DISCOVER_RELEASES !== 'false') {
     await probeReleases(catalog, state, current, Number(process.env.CRATE_PROBE_SIZE || 5000));
@@ -271,4 +277,4 @@ async function main() {
 }
 
 if (require.main === module) main().catch(failure);
-module.exports = { wrapper, compareVersions, repositoryOf, generate, registered, probeReleases, main };
+module.exports = { wrapper, compareVersions, repositoryOf, generate, registered, probeReleases, publicationBudget, main };

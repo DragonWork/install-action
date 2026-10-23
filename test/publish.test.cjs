@@ -6,7 +6,7 @@ const fs = require('node:fs/promises');
 const os = require('node:os');
 const path = require('node:path');
 const { signedCommit, release } = require('../scripts/github.cjs');
-const { wrapper, compareVersions, repositoryOf, probeReleases } = require('../scripts/update-tools.cjs');
+const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget } = require('../scripts/update-tools.cjs');
 const { main: publishTools } = require('../scripts/publish-tools.cjs');
 const { sample } = require('./fixtures.cjs');
 
@@ -22,6 +22,13 @@ test('release selection compares semantic versions and constrains repository URL
   assert(compareVersions('2.10.0', '3.0.0') < 0);
   assert.equal(repositoryOf('https://github.com/orhun/git-cliff.git'), 'orhun/git-cliff');
   assert.equal(repositoryOf('https://github.com.evil.test/orhun/git-cliff'), undefined);
+});
+
+test('publication batches leave room for API checks and priority lookups', () => {
+  assert.equal(publicationBudget(99, 100), 0);
+  assert.equal(publicationBudget(900, 100), 100);
+  assert.equal(publicationBudget(500, 100), 50);
+  assert.equal(publicationBudget(700, 100, true), 50);
 });
 
 test('bulk discovery batches release lookups and records unavailable repositories', async t => {
