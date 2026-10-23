@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "bq-rs",
+  "version": "0.2.4",
+  "repository": "isaacadams/bq-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/isaacadams/bq-rs/releases/download/0.2.4/bq-rs-0.2.4-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.2.4",
+      "sha256": "fec52f94c7f9fb150c79166b9af69b0afe0f03e646fe8e0a9ef21d9abe8721de",
+      "size": 2394915,
+      "format": "tar.gz",
+      "binaries": {
+        "bq-rs": {
+          "path": "bq-rs-0.2.4-x86_64-unknown-linux-musl/bq-rs",
+          "sha256": "5c0a6e36b358b5c2b575bad6f3050b28d12be25d21223a6cc2c506a634580d33"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/isaacadams/bq-rs/releases/download/0.2.4/bq-rs-0.2.4-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.2.4",
+      "sha256": "3900569031e32ae57f036ae56e28c7fed191805781bb7e11d625ca9829822cad",
+      "size": 2271732,
+      "format": "tar.gz",
+      "binaries": {
+        "bq-rs": {
+          "path": "bq-rs-0.2.4-aarch64-unknown-linux-musl/bq-rs",
+          "sha256": "0294df199f0cf1140e19b15877cbdcb26895c3b816311cdcfffbb55c62e3e8a3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/isaacadams/bq-rs/releases/download/0.2.4/bq-rs-0.2.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.2.4",
+      "sha256": "b00e6d0915db67fc53f1d084ad5ee7927030f6b2949d7ba9b521d832c7a139cb",
+      "size": 2056250,
+      "format": "tar.gz",
+      "binaries": {
+        "bq-rs": {
+          "path": "bq-rs-0.2.4-x86_64-apple-darwin/bq-rs",
+          "sha256": "8789e15de9c13d7a093eb157a23ac68c61353f639edede811eea2b18a95677f3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/isaacadams/bq-rs/releases/download/0.2.4/bq-rs-0.2.4-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.2.4",
+      "sha256": "2ee73687fee20976ec24f39e72abf7f4cdd4d17a6d88c82f5212239a378af46e",
+      "size": 2056251,
+      "format": "tar.gz",
+      "binaries": {
+        "bq-rs": {
+          "path": "bq-rs-0.2.4-aarch64-apple-darwin/bq-rs",
+          "sha256": "8789e15de9c13d7a093eb157a23ac68c61353f639edede811eea2b18a95677f3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/isaacadams/bq-rs/releases/download/0.2.4/bq-rs-0.2.4-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.2.4",
+      "sha256": "5bd0c22f169736a30f3e63394798b0911a96f728f56ab06085e6622d0a080d84",
+      "size": 1846892,
+      "format": "zip",
+      "binaries": {
+        "bq-rs.exe": {
+          "path": "bq-rs-0.2.4-x86_64-pc-windows-msvc/bq-rs.exe",
+          "sha256": "092cbafd1fb592e0f276739d0cc9cd49f9661b019554464f5336b2d47155a4fa"
+        }
+      }
+    }
+  }
+}
