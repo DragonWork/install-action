@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "abcrypt-cli",
+  "version": "0.5.1",
+  "repository": "sorairolake/abcrypt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sorairolake/abcrypt/releases/download/abcrypt-cli-v0.5.1/abcrypt-v0.5.1-x86_64-unknown-linux-musl.tar.zst",
+      "releaseTag": "abcrypt-cli-v0.5.1",
+      "sha256": "effc8a68b4632055fe6d3f26e9a0010e687e6a4a824706cdff64d4e729ad2954",
+      "size": 515066,
+      "format": "tar.zst",
+      "binaries": {
+        "abcrypt": {
+          "path": "abcrypt-v0.5.1-x86_64-unknown-linux-musl/abcrypt",
+          "sha256": "802fcf50cc5cfd6815b0895e34146c0a84abb49bed0d74dc24b539cc25d12b17"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sorairolake/abcrypt/releases/download/abcrypt-cli-v0.5.1/abcrypt-v0.5.1-aarch64-unknown-linux-musl.tar.zst",
+      "releaseTag": "abcrypt-cli-v0.5.1",
+      "sha256": "6cb8253655b6b39d018013e745d6b2681d9e50e4d2035cda867e8f558136b5fa",
+      "size": 476502,
+      "format": "tar.zst",
+      "binaries": {
+        "abcrypt": {
+          "path": "abcrypt-v0.5.1-aarch64-unknown-linux-musl/abcrypt",
+          "sha256": "4d79a357c8d45c8b61de97ff2314ef5ed383d14f68b62336176dcc2506fcd83c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sorairolake/abcrypt/releases/download/abcrypt-cli-v0.5.1/abcrypt-v0.5.1-x86_64-apple-darwin.tar.zst",
+      "releaseTag": "abcrypt-cli-v0.5.1",
+      "sha256": "67fc555df6d1c7a2f28a7c8633531f7208ac8a7ad68b6a030df155d5082797ee",
+      "size": 447284,
+      "format": "tar.zst",
+      "binaries": {
+        "abcrypt": {
+          "path": "abcrypt-v0.5.1-x86_64-apple-darwin/abcrypt",
+          "sha256": "511c16cacaefb2adda8ff40406d953fbfb01c6e28af62e6e0ba7ec8fc472a612"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sorairolake/abcrypt/releases/download/abcrypt-cli-v0.5.1/abcrypt-v0.5.1-aarch64-apple-darwin.tar.zst",
+      "releaseTag": "abcrypt-cli-v0.5.1",
+      "sha256": "485937ca638b1112a0893b5ef3b07e091d5e9dce6a2a945f279c73a1f084866a",
+      "size": 410950,
+      "format": "tar.zst",
+      "binaries": {
+        "abcrypt": {
+          "path": "abcrypt-v0.5.1-aarch64-apple-darwin/abcrypt",
+          "sha256": "6ea7ce796b27aaaebcf78daf74cf9a1d3a48bd75fbe5ac8989052ba239f6abc8"
+        }
+      }
+    }
+  }
+}
