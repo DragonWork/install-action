@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "aef",
+  "version": "0.10.0",
+  "repository": "wyhaya/aef",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wyhaya/aef/releases/download/v0.10.0/aef-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "f5d3e7de4f4e16899d57a8ff49f0d8f5d85d833ec715eda8519d121071c48bf3",
+      "size": 435026,
+      "format": "zip",
+      "binaries": {
+        "aef": {
+          "path": "aef",
+          "sha256": "18ece1c6aac1547c06b0edac9c9a9bc9d1b2498abd692dad948f411eb6a8cfcd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wyhaya/aef/releases/download/v0.10.0/aef-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "eac4837887db3a25386469d8cfb3095a2cfc9a033e14b676f9e9693bfa6c64a3",
+      "size": 395371,
+      "format": "zip",
+      "binaries": {
+        "aef": {
+          "path": "aef",
+          "sha256": "490ed30a9e4f1fbdc789efd576e338ea812213ea4aa6d4a8fa07460640af55c4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wyhaya/aef/releases/download/v0.10.0/aef-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "7edb00b4b0c031af74c9398c5d25f35f1b0a26c7653ff9c361357ababcf9379f",
+      "size": 375912,
+      "format": "zip",
+      "binaries": {
+        "aef": {
+          "path": "aef",
+          "sha256": "3bd7ce7b7dcb919722a74815a459d638c27bb38f10673af27a280ad0c059608d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wyhaya/aef/releases/download/v0.10.0/aef-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "394dc282c36bf5bd0b2ff5a50c693f466e69a0c6a55644585aa08488f1735457",
+      "size": 342702,
+      "format": "zip",
+      "binaries": {
+        "aef": {
+          "path": "aef",
+          "sha256": "5eb97dca68b8beff3c0ea94297b156103852185dde440e84fc0259dfee34b74b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wyhaya/aef/releases/download/v0.10.0/aef-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "9e7c4534f00cab2ebf96a47ad7ce8f174a2c5c86fa04bf443b748e2f6e5c46a7",
+      "size": 328452,
+      "format": "zip",
+      "binaries": {
+        "aef.exe": {
+          "path": "aef.exe",
+          "sha256": "278c1d4984a9cb4ff3d261c5347bf5a9d13315d5164cc744c42dc4d4e6369770"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/wyhaya/aef/releases/download/v0.10.0/aef-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "f9bdbc53fa842e15679fd3710dc720e1aa7736f22f36eb87bfcee3fb341e2646",
+      "size": 300515,
+      "format": "zip",
+      "binaries": {
+        "aef.exe": {
+          "path": "aef.exe",
+          "sha256": "7b8956e30212a16aee430cb532b4e0fefa791c831bbc7110d85c6d3d2eeb7616"
+        }
+      }
+    }
+  }
+}
