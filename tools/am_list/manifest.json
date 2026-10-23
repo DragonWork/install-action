@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "am_list",
+  "version": "0.3.0",
+  "repository": "autometrics-dev/am_list",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/autometrics-dev/am_list/releases/download/v0.3.0/am_list-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "be3a01561885603a0b941f17a50570aa98aaa34823eb6fb6177b96ab3a64a379",
+      "size": 2593972,
+      "format": "tar.gz",
+      "binaries": {
+        "am_list": {
+          "path": "am_list-x86_64-unknown-linux-gnu/am_list",
+          "sha256": "3cd724e24b08fa47f7bd986024e31026e83a9ea4427639946f6028f40ee057f4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/autometrics-dev/am_list/releases/download/v0.3.0/am_list-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "5d845e178cc61a5253587c395c7e9e075200a9d82d4fdd51f0250bd495eb5e66",
+      "size": 1883653,
+      "format": "tar.gz",
+      "binaries": {
+        "am_list": {
+          "path": "am_list-x86_64-apple-darwin/am_list",
+          "sha256": "7c34c96f105fd9e548da2ea8d3b84221adcc52f8de08345b490b502f4ffb0c7c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/autometrics-dev/am_list/releases/download/v0.3.0/am_list-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "9d7ebe5550bf7b6ab87ee5c59432f4d3294bb3b745471ff0a72f3753feec8b5c",
+      "size": 1857391,
+      "format": "tar.gz",
+      "binaries": {
+        "am_list": {
+          "path": "am_list-aarch64-apple-darwin/am_list",
+          "sha256": "e7775cb1b0107219dd5cc3a093a144d64015c0a5be191863c348b487abfd0a30"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/autometrics-dev/am_list/releases/download/v0.3.0/am_list-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "ba1c5f7e5569ef6bab45be0915fa321a60778e003fef3dcb481db3dd5409b635",
+      "size": 6053191,
+      "format": "zip",
+      "binaries": {
+        "am_list.exe": {
+          "path": "am_list.exe",
+          "sha256": "dc6e08f100be7c992901aac16bbdd425e7d3364b659eeeb69682950d93de5746"
+        }
+      }
+    }
+  }
+}
