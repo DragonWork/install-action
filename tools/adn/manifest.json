@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "adn",
+  "version": "0.1.9",
+  "repository": "Wilovy09/ADN",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Wilovy09/ADN/releases/download/v0.1.9/adn-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "cd16fea223e73819299d055ef51cadd12f41605687f778a15b3b3120afbf519f",
+      "size": 373952,
+      "format": "tar.xz",
+      "binaries": {
+        "adn": {
+          "path": "adn-x86_64-unknown-linux-gnu/adn",
+          "sha256": "d5d995f0c4d717a31eb0d61ee169c305ffb90cf20320b9309264db372951985f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Wilovy09/ADN/releases/download/v0.1.9/adn-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "a3deaf70b18d2e544df66e92a1deca5626defb538d03f4a02f03dca5458f588a",
+      "size": 346092,
+      "format": "tar.xz",
+      "binaries": {
+        "adn": {
+          "path": "adn-x86_64-apple-darwin/adn",
+          "sha256": "7d1c7f7768547768396d555446b0fedeb76eead67cc1b82d41995bc0436bb55f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Wilovy09/ADN/releases/download/v0.1.9/adn-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "01b0cd5f671688874bfb1be778ae5cef1a3363f9b7d391d0b0acee72fbf510d5",
+      "size": 312348,
+      "format": "tar.xz",
+      "binaries": {
+        "adn": {
+          "path": "adn-aarch64-apple-darwin/adn",
+          "sha256": "bc0ab192f4f52d4367d8c662347898b346969bc5ed40ad648e02f320e7dfd98a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Wilovy09/ADN/releases/download/v0.1.9/adn-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.9",
+      "sha256": "1890899869c7bf4d946d3ad8d089b55a459b4536c08efd76ac37c934e400869c",
+      "size": 1013577,
+      "format": "zip",
+      "binaries": {
+        "adn.exe": {
+          "path": "adn.exe",
+          "sha256": "0bf8a113e22f04392b7115d9b2fb057967aab2402725014c305bd76161237dea"
+        }
+      }
+    }
+  }
+}
