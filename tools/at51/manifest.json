@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "at51",
+  "version": "1.1.1",
+  "repository": "8051Enthusiast/at51",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/8051Enthusiast/at51/releases/download/1.1.1/at51-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "1.1.1",
+      "sha256": "e22329d4992fe4c7051b59fb3ed230948c3a2f36fe74c6f907c331a329670afa",
+      "size": 772232,
+      "format": "tar.xz",
+      "binaries": {
+        "at51": {
+          "path": "at51-x86_64-unknown-linux-musl/at51",
+          "sha256": "73c6f33169baa320a396adf549085f5ccb6dae28ce58926b2ebda957ef7e3edb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/8051Enthusiast/at51/releases/download/1.1.1/at51-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "1.1.1",
+      "sha256": "d62d0d69143f62f8a1bbc062c18e93220f56f34927d5dbcb614038eaeadd098f",
+      "size": 672652,
+      "format": "tar.xz",
+      "binaries": {
+        "at51": {
+          "path": "at51-x86_64-apple-darwin/at51",
+          "sha256": "b2b830db5d925055debb408714402a319681ab362418394aef07f750ed59b8e8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/8051Enthusiast/at51/releases/download/1.1.1/at51-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "1.1.1",
+      "sha256": "c769ffd9e0ea3d7005a87b04767e399e9a4a332dab046d0c184ccb77d3d2c224",
+      "size": 535784,
+      "format": "tar.xz",
+      "binaries": {
+        "at51": {
+          "path": "at51-aarch64-apple-darwin/at51",
+          "sha256": "b6573af85670e518d45c68631e5800788b95d582224f8621eb534c5d8c41b835"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/8051Enthusiast/at51/releases/download/1.1.1/at51-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.1.1",
+      "sha256": "f10fbf50b9525d887a2bec4bc3d8fb52e13ff98b0f1cfc2b3f99154d9063ac29",
+      "size": 2036500,
+      "format": "zip",
+      "binaries": {
+        "at51.exe": {
+          "path": "at51.exe",
+          "sha256": "a3288ad17b2987560f4f965b6f40532b802c16d3b785c7cc9c5dec56016d6e98"
+        }
+      }
+    }
+  }
+}
