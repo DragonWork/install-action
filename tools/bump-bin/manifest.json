@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "bump-bin",
+  "version": "0.4.3",
+  "repository": "watawuwu/bump",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/watawuwu/bump/releases/download/v0.4.3/bump-v0.4.3-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "dae0fb50c45f429c339e53bd1160d5b9c0ad4af34c10fa2832adac8cde76e5d5",
+      "size": 2034197,
+      "format": "tar.gz",
+      "binaries": {
+        "bump": {
+          "path": "bump",
+          "sha256": "194ddd7488e8cb34217a74e3af4c6ade6b8aaecf1299bd7d2501b0a528fe2214"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/watawuwu/bump/releases/download/v0.4.3/bump-v0.4.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "9b181688cbf3a9a7c19fcdd5952b523daa9b6acaa3c96ca1a99eeb968e22ba72",
+      "size": 1076250,
+      "format": "tar.gz",
+      "binaries": {
+        "bump": {
+          "path": "bump",
+          "sha256": "a60ba7f9f5b5348c7b49c92d09c4d50b5bcde05f0e74cfc06c86c7b3418efa17"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/watawuwu/bump/releases/download/v0.4.3/bump-v0.4.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "0dfd3ab3ccf9715c7951489a71d709ff36e3b51f5e2cf2d7726b3cf0d8f9f7d6",
+      "size": 1049701,
+      "format": "tar.gz",
+      "binaries": {
+        "bump": {
+          "path": "bump",
+          "sha256": "22fcdffd7f2d81b2e955540d7c2d7115c168c2549b1d8defb5f202d336d8d0a7"
+        }
+      }
+    }
+  }
+}
