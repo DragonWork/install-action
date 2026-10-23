@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "bws",
+  "version": "2.1.0",
+  "repository": "bitwarden/sdk-sm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bitwarden/sdk-sm/releases/download/bws-v2.1.0/bws-x86_64-unknown-linux-musl-2.1.0.zip",
+      "releaseTag": "bws-v2.1.0",
+      "sha256": "f59ee150e42b82128d437087e9bac920053c6bfddcb960d20ce9386e5ac9bba6",
+      "size": 5987311,
+      "format": "zip",
+      "binaries": {
+        "bws": {
+          "path": "bws",
+          "sha256": "c1e62be60735e71a82699bb7286043c6cb8b525a70f838d1fc81f10bc83f40b1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bitwarden/sdk-sm/releases/download/bws-v2.1.0/bws-aarch64-unknown-linux-musl-2.1.0.zip",
+      "releaseTag": "bws-v2.1.0",
+      "sha256": "eb0f1ae61d1c3b74244d2841233276e05c77e8be4da197ed90fc6248387005e1",
+      "size": 5651025,
+      "format": "zip",
+      "binaries": {
+        "bws": {
+          "path": "bws",
+          "sha256": "9238a8f2b6749bc9d7fcd1bf663245b55d429ab93ca0c483d4bf393421dc4637"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bitwarden/sdk-sm/releases/download/bws-v2.1.0/bws-x86_64-apple-darwin-2.1.0.zip",
+      "releaseTag": "bws-v2.1.0",
+      "sha256": "6f626b3971368902af1b9847c02791a1b4666969d7561e2047681cded7997537",
+      "size": 6473426,
+      "format": "zip",
+      "binaries": {
+        "bws": {
+          "path": "bws",
+          "sha256": "93f3bf2c9710bec3c1a55529e2b2deef6848f7deef1207ffbbef63493fe25dd5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bitwarden/sdk-sm/releases/download/bws-v2.1.0/bws-aarch64-apple-darwin-2.1.0.zip",
+      "releaseTag": "bws-v2.1.0",
+      "sha256": "9cb1c1c6e6164d83b2e339883ba02b4cbb37188ce9a484b1ce8249443163e066",
+      "size": 6044198,
+      "format": "zip",
+      "binaries": {
+        "bws": {
+          "path": "bws",
+          "sha256": "2ab334434f09c1d4f3dcd4266661208cfc317c246fae02896163a1d93633aff8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bitwarden/sdk-sm/releases/download/bws-v2.1.0/bws-x86_64-pc-windows-msvc-2.1.0.zip",
+      "releaseTag": "bws-v2.1.0",
+      "sha256": "8d6f2b51beb6f992b5b1de8b85a98bdf18de74096b724d17fa06219fc23f2bd5",
+      "size": 5677642,
+      "format": "zip",
+      "binaries": {
+        "bws.exe": {
+          "path": "bws.exe",
+          "sha256": "39fdc70fe07e7d8db597eb8f7feeb285a5b320813ec5df71302f1aba98b449f4"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/bitwarden/sdk-sm/releases/download/bws-v2.1.0/bws-aarch64-pc-windows-msvc-2.1.0.zip",
+      "releaseTag": "bws-v2.1.0",
+      "sha256": "ba18adeb5d123481211c47c4e4d0ad6d81a6b0139150704785542fdee542e583",
+      "size": 5314294,
+      "format": "zip",
+      "binaries": {
+        "bws.exe": {
+          "path": "bws.exe",
+          "sha256": "22c8419c4497dab5e9d0a7614a0b67e2ed2e639b577a91914ebf4094c1e72398"
+        }
+      }
+    }
+  }
+}
