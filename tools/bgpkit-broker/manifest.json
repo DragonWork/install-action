@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "bgpkit-broker",
+  "version": "0.13.1",
+  "repository": "bgpkit/bgpkit-broker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bgpkit/bgpkit-broker/releases/download/v0.13.1/bgpkit-broker-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "49e3e2c1f32aa008b20547e4dc9bd6645733db3f90cfcf5c00c66d92ad7eda7a",
+      "size": 9605727,
+      "format": "tar.gz",
+      "binaries": {
+        "bgpkit-broker": {
+          "path": "bgpkit-broker",
+          "sha256": "76a655ca9dbdea8b22fda11bad10377729dec4ef181d24548b6ba82710f36c60"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bgpkit/bgpkit-broker/releases/download/v0.13.1/bgpkit-broker-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "6094ec7b604e050607578a37951b5a2fdfb4030492ea5a306bc9cc3c7fafbdfb",
+      "size": 9318056,
+      "format": "tar.gz",
+      "binaries": {
+        "bgpkit-broker": {
+          "path": "bgpkit-broker",
+          "sha256": "b2ecc60289d74c37555c1be093a290b61074647512258588f0cd43159520d5a7"
+        }
+      }
+    }
+  }
+}
