@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "almel",
+  "version": "1.4.7",
+  "repository": "Ryooooooga/almel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Ryooooooga/almel/releases/download/v1.4.7/almel-v1.4.7-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.4.7",
+      "sha256": "f8465ff1b6e841d94e36c7d714788e1b51e86c8d204d1310f0a58b3f2e639927",
+      "size": 1909214,
+      "format": "tar.gz",
+      "binaries": {
+        "almel": {
+          "path": "almel",
+          "sha256": "fdb2b11ec7a390b2ab5e64f72511274021c1fa0eca67963deb475001381dcdba"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Ryooooooga/almel/releases/download/v1.4.7/almel-v1.4.7-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.4.7",
+      "sha256": "59c138706de480a840fd11431522fd276c29d4b5d694208b40b4374630c5f4a5",
+      "size": 1836396,
+      "format": "tar.gz",
+      "binaries": {
+        "almel": {
+          "path": "almel",
+          "sha256": "a53e04870a13963fd8ed64c34220c85483de0bd2a69511ee66340455e2655aaa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Ryooooooga/almel/releases/download/v1.4.7/almel-v1.4.7-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.7",
+      "sha256": "439b5ae74143658936a2fd7e5564b4c633be0a94d79f906b87d4eceb72c96963",
+      "size": 947331,
+      "format": "tar.gz",
+      "binaries": {
+        "almel": {
+          "path": "almel",
+          "sha256": "8595d1a3ecf9686ccf0814e31bea9cb9f64f535367dbea8c85d147f626f08607"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Ryooooooga/almel/releases/download/v1.4.7/almel-v1.4.7-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.7",
+      "sha256": "6954791f95f361cf2626ddf568469919c1b2ff80556ae8fcdf8d08a8ebb58580",
+      "size": 913615,
+      "format": "tar.gz",
+      "binaries": {
+        "almel": {
+          "path": "almel",
+          "sha256": "75b3d00a347862b3674ac4081db25f6dfccba1f5d6a4f28dbb640c52d5c8011f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Ryooooooga/almel/releases/download/v1.4.7/almel-v1.4.7-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v1.4.7",
+      "sha256": "901cb3881af96081cc99211eb394ac33f6efc515fbe8d120f9b5dd493deff88b",
+      "size": 3309834,
+      "format": "zip",
+      "binaries": {
+        "almel.exe": {
+          "path": "almel.exe",
+          "sha256": "5e03755915f4da25dc74be2987dbf2062180e33e6c3f013a16d759d3c4e04c22"
+        }
+      }
+    }
+  }
+}
