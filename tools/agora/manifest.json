@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "agora",
+  "version": "0.1.2",
+  "repository": "agora-org/agora",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/agora-org/agora/releases/download/0.1.2/agora-0.1.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.1.2",
+      "sha256": "8b3240a309c192255f53cb303c9b5ac55c56c020b5dfc8012bd22372b5013833",
+      "size": 7253475,
+      "format": "tar.gz",
+      "binaries": {
+        "agora": {
+          "path": "agora",
+          "sha256": "2f37df81785b4e95fcf848dfee752c4489ab2555823cee9a96276d42b411aeaf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/agora-org/agora/releases/download/0.1.2/agora-0.1.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.1.2",
+      "sha256": "e65f79fb2b1ee4eddeb4ca0a084e82af230c52506e9ac4b52ece68d93822a9c4",
+      "size": 6999814,
+      "format": "tar.gz",
+      "binaries": {
+        "agora": {
+          "path": "agora",
+          "sha256": "2f5280c888349bffaf5b7a9c9d824a81299b83a149184f9baef76445b0ee1a33"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/agora-org/agora/releases/download/0.1.2/agora-0.1.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.1.2",
+      "sha256": "b2078ddb320c4b35d58b8649715f662257b306e84a877246f17a4474c74d8c12",
+      "size": 5492079,
+      "format": "tar.gz",
+      "binaries": {
+        "agora": {
+          "path": "agora",
+          "sha256": "bf13ff5d7db84b61750b3b58000f79d4a3ddb2507bd186447198bfdbcd8a41cd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/agora-org/agora/releases/download/0.1.2/agora-0.1.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.1.2",
+      "sha256": "3a47df118c7280955d54d0fbd7733c8c78a55394af2abcb542fa6c949ae7a615",
+      "size": 4548746,
+      "format": "zip",
+      "binaries": {
+        "agora.exe": {
+          "path": "agora.exe",
+          "sha256": "a30f3a7af57715704b146af0e71e91ff53f3fb232785658ebc44066e15503060"
+        }
+      }
+    }
+  }
+}
