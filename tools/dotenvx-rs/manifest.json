@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "name": "dotenvx-rs",
+  "version": "0.4.34",
+  "repository": "linux-china/dotenvx-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/linux-china/dotenvx-rs/releases/download/v0.4.34/dotenvx-rs-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.4.34",
+      "sha256": "2b598324a2f2e5fb225e5c172d61c666472623e557977e580692b9ef71f726f8",
+      "size": 1834584,
+      "format": "tar.xz",
+      "binaries": {
+        "dotenvx": {
+          "path": "dotenvx-rs-x86_64-unknown-linux-gnu/dotenvx",
+          "sha256": "08d84c6a75302cd0ec3770cf3a36017b6ec033bc32e0d2ed4e058f0324c2fad2"
+        },
+        "mkey": {
+          "path": "dotenvx-rs-x86_64-unknown-linux-gnu/mkey",
+          "sha256": "1f6bccd14dab7dc992897d19be89dbd8188e003c67ca9d04874c531842ae4b17"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/linux-china/dotenvx-rs/releases/download/v0.4.34/dotenvx-rs-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.4.34",
+      "sha256": "a6adf7f488f235aa214ba6c60d4a42146c35f4cecf3db751178b1f4d1c2eb178",
+      "size": 1700952,
+      "format": "tar.xz",
+      "binaries": {
+        "dotenvx": {
+          "path": "dotenvx-rs-aarch64-unknown-linux-gnu/dotenvx",
+          "sha256": "29ab1844f43b1e92a40d1ca3d1bc372f12d2e78948da8da75276b448bcadaa38"
+        },
+        "mkey": {
+          "path": "dotenvx-rs-aarch64-unknown-linux-gnu/mkey",
+          "sha256": "e937980509dcdc5a1021e88886c1522d5f895b919a2d6a8541011bfda09b4a0c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/linux-china/dotenvx-rs/releases/download/v0.4.34/dotenvx-rs-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.34",
+      "sha256": "81a07ec328ed9a1b0516aa50daa53bc0e0e4755b95d8e24ae94c4e9df9d83d83",
+      "size": 1583404,
+      "format": "tar.xz",
+      "binaries": {
+        "dotenvx": {
+          "path": "dotenvx-rs-x86_64-apple-darwin/dotenvx",
+          "sha256": "ebd4f1237bc6b891bf3c5d2b7136e959b90aeac7c2f47528406b30e68ee3248c"
+        },
+        "mkey": {
+          "path": "dotenvx-rs-x86_64-apple-darwin/mkey",
+          "sha256": "1bc433aa57f8c0cde74f597ece8e4af13af044b8bed3c50b5fc8895cc8ac8284"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/linux-china/dotenvx-rs/releases/download/v0.4.34/dotenvx-rs-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.34",
+      "sha256": "83fddf47a2b890746d26cf3dff842abab5d1fb33d5bdcb4de4f18f50e79d27b8",
+      "size": 1456072,
+      "format": "tar.xz",
+      "binaries": {
+        "dotenvx": {
+          "path": "dotenvx-rs-aarch64-apple-darwin/dotenvx",
+          "sha256": "9ab356f2fc25f9ca514603c39af8093e4c6d4329ef0c82686cca31319c022278"
+        },
+        "mkey": {
+          "path": "dotenvx-rs-aarch64-apple-darwin/mkey",
+          "sha256": "358c384bde79a91141aadc7c8c4ae4bea9bfac38bc61889f2ca3a0ad5f8e9c1d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/linux-china/dotenvx-rs/releases/download/v0.4.34/dotenvx-rs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.34",
+      "sha256": "7a2ca44268af3061bede67e0f6a6727ff39da2060a4e389f1b5c6ee00ea44473",
+      "size": 2249376,
+      "format": "zip",
+      "binaries": {
+        "dotenvx.exe": {
+          "path": "dotenvx.exe",
+          "sha256": "9972035c827985d3351fc2198cd393869462f177bae429cf63a3839aaf463682"
+        },
+        "mkey.exe": {
+          "path": "mkey.exe",
+          "sha256": "ed78a243baaac91a9403d3b88218392c19f1802c36590ec2e2bc98add22520e8"
+        }
+      }
+    }
+  }
+}
