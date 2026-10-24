@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "xremap",
+  "version": "0.15.15",
+  "repository": "xremap/xremap",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xremap/xremap/releases/download/v0.15.15/xremap-linux-x86_64-kde.zip",
+      "releaseTag": "v0.15.15",
+      "sha256": "9554cb9af20d6ab289ed8b3d48c6caad51119c60f18bdecfcba45a05ab9cbd14",
+      "size": 2485875,
+      "format": "zip",
+      "binaries": {
+        "xremap": {
+          "path": "xremap",
+          "sha256": "e95c7cbdf54a6905eecd042e7ed1fae043c780c51042ddf1e6dcdb97da58ab25"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/xremap/xremap/releases/download/v0.15.15/xremap-linux-aarch64-kde.zip",
+      "releaseTag": "v0.15.15",
+      "sha256": "adb94d65b32b9d3d1294c297f2adf62b1266568639ab9a8d9f2c6dbe974be9d4",
+      "size": 2315456,
+      "format": "zip",
+      "binaries": {
+        "xremap": {
+          "path": "xremap",
+          "sha256": "fb1ace68b787249185a4fdd3da1cbb861b538991d6a509b3d23ae4ee2665e40f"
+        }
+      }
+    }
+  }
+}
