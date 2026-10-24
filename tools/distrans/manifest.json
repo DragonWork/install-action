@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "distrans",
+  "version": "0.3.1",
+  "repository": "cmars/stigmerge",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cmars/stigmerge/releases/download/distrans-v0.3.1/distrans-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "distrans-v0.3.1",
+      "sha256": "448903aedb1ca77de7eb2f19e942c523a2ee1e09959584c5461615526d7ee40d",
+      "size": 5089956,
+      "format": "tar.xz",
+      "binaries": {
+        "distrans": {
+          "path": "distrans-x86_64-unknown-linux-gnu/distrans",
+          "sha256": "b1f9c7d83af3064f65b16e91da6d7e1a66ec27971953fef5879f9158115ea591"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cmars/stigmerge/releases/download/distrans-v0.3.1/distrans-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "distrans-v0.3.1",
+      "sha256": "cdb2faf27b1d152a3322bc2db71347b17cd7a1daa37ca5232abba9be79e1aedb",
+      "size": 4272108,
+      "format": "tar.xz",
+      "binaries": {
+        "distrans": {
+          "path": "distrans-x86_64-apple-darwin/distrans",
+          "sha256": "e8c5bec3a97c61bf66352ca24bad7a67bd2df12faa445ef5577abc2467f388a7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cmars/stigmerge/releases/download/distrans-v0.3.1/distrans-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "distrans-v0.3.1",
+      "sha256": "f8b3f668363b8417911c6e193aa880a2e6d9f9f359e5c6127dec89dda66ec394",
+      "size": 4401516,
+      "format": "tar.xz",
+      "binaries": {
+        "distrans": {
+          "path": "distrans-aarch64-apple-darwin/distrans",
+          "sha256": "fcd50208ee6ab9fb505bc56ab62926be1286cc8cb8f8951c3ad35b19f5a001ad"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cmars/stigmerge/releases/download/distrans-v0.3.1/distrans-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "distrans-v0.3.1",
+      "sha256": "844b085ea35cb287d80917da1200166ac6a8ef5514b5d3b31475b716cd9f916b",
+      "size": 16890787,
+      "format": "zip",
+      "binaries": {
+        "distrans.exe": {
+          "path": "distrans.exe",
+          "sha256": "194295d4de5f8b466bddee4ca7c44bd079ef1517b9af11bcd2f1d60e1e2bdb0e"
+        }
+      }
+    }
+  }
+}
