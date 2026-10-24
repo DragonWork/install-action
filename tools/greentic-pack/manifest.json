@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "greentic-pack",
+  "version": "1.2.1",
+  "repository": "greenticai/greentic-pack",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/greenticai/greentic-pack/releases/download/v1.2.1/greentic-pack-v1.2.1-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "bb7148304dc153d8f55098bcbbd2921cd73845b1f2a8ec0e0adff03e42f08606",
+      "size": 24637046,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-pack": {
+          "path": "greentic-pack-v1.2.1-x86_64-unknown-linux-gnu/greentic-pack",
+          "sha256": "be370a3d708cb376d6b36e3da11eb26b4ffab407966eeda7ddb545ea47aa58f0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/greenticai/greentic-pack/releases/download/v1.2.1/greentic-pack-v1.2.1-aarch64-unknown-linux-gnu.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "2d6ddfe4182b984a646555fb403637fcdafab90305891e1b32b031de7de29d46",
+      "size": 23615334,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-pack": {
+          "path": "greentic-pack-v1.2.1-aarch64-unknown-linux-gnu/greentic-pack",
+          "sha256": "490a896bd30373bcf77fd03da3b2af69ed35bbfc961dabd533474bb7f526b1ed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/greenticai/greentic-pack/releases/download/v1.2.1/greentic-pack-v1.2.1-x86_64-apple-darwin.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "d7cf35052d97262af0576c73fc2fb97d25cd6d90723b95a2aa879cf0cf7b5001",
+      "size": 24050367,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-pack": {
+          "path": "greentic-pack-v1.2.1-x86_64-apple-darwin/greentic-pack",
+          "sha256": "c113ea969f92271f8183658620cf8ec914b760ae34e176fc60b07449b4d606d8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/greenticai/greentic-pack/releases/download/v1.2.1/greentic-pack-v1.2.1-aarch64-apple-darwin.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "533a9afd09d89744c86a55afd7bc8a66e608fb2b38939f4829476ed79fea7da6",
+      "size": 22174057,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-pack": {
+          "path": "greentic-pack-v1.2.1-aarch64-apple-darwin/greentic-pack",
+          "sha256": "c969ac1f7f9dc94b5d837a2af19560a3d10d46eff3ff390db8aa2dfe5f567841"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/greenticai/greentic-pack/releases/download/v1.2.1/greentic-pack-v1.2.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "6a77473261e7a8077f659016d8dc761db5551e4acfe96958d5b5a1d63d69e18f",
+      "size": 21871894,
+      "format": "zip",
+      "binaries": {
+        "greentic-pack.exe": {
+          "path": "greentic-pack-v1.2.1-x86_64-pc-windows-msvc/greentic-pack.exe",
+          "sha256": "9e848bb37fdd82fba181bbe81dfb1355fcd64deacdb2515434d4ab99f36133cf"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/greenticai/greentic-pack/releases/download/v1.2.1/greentic-pack-v1.2.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "b7bfbca51d003af10a4081930b502fbceaeff4d98094d13d6c2d1181dab41972",
+      "size": 19644396,
+      "format": "zip",
+      "binaries": {
+        "greentic-pack.exe": {
+          "path": "greentic-pack-v1.2.1-aarch64-pc-windows-msvc/greentic-pack.exe",
+          "sha256": "4c4defe42f120c0289236cae28032da059c13cbb3bf1fd4138299daaed8a5318"
+        }
+      }
+    }
+  }
+}
