@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "name": "ripgrep_all",
+  "version": "0.10.10",
+  "repository": "phiresky/ripgrep-all",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/phiresky/ripgrep-all/releases/download/v0.10.10/ripgrep_all-v0.10.10-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.10",
+      "sha256": "a969c25b182ac84aa672518313b5f741091decf7d93d03a020bcfe517b9ff4e8",
+      "size": 8375790,
+      "format": "tar.gz",
+      "binaries": {
+        "rga": {
+          "path": "ripgrep_all-v0.10.10-x86_64-unknown-linux-musl/rga",
+          "sha256": "886a3e0bc8a9094cd9fcdf792a2a7dd7b4da87f41a3c7e492a1e3c3d5d7674c1"
+        },
+        "rga-fzf": {
+          "path": "ripgrep_all-v0.10.10-x86_64-unknown-linux-musl/rga-fzf",
+          "sha256": "a67ce193c952240fa36e013f2c5bbbb846adaba6d3c84c87e8a9f6a3bbfc9f8e"
+        },
+        "rga-fzf-open": {
+          "path": "ripgrep_all-v0.10.10-x86_64-unknown-linux-musl/rga-fzf-open",
+          "sha256": "118c6626193ba28e66853d9952274acbd6d5b916587b77bf4326df6be9b4b906"
+        },
+        "rga-preproc": {
+          "path": "ripgrep_all-v0.10.10-x86_64-unknown-linux-musl/rga-preproc",
+          "sha256": "884792518d64df793cae7308457bdc76fe0ae8cb910d5533af05a82064fcb24d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/phiresky/ripgrep-all/releases/download/v0.10.10/ripgrep_all-v0.10.10-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.10",
+      "sha256": "2cd875ab6c78b27e4830b5bca92c570a8a8dcfb368bc71b189b65ac01fbc3020",
+      "size": 7184646,
+      "format": "tar.gz",
+      "binaries": {
+        "rga": {
+          "path": "ripgrep_all-v0.10.10-aarch64-unknown-linux-gnu/rga",
+          "sha256": "964530b8738a9f1a7b9454169ec30400f4a47082f26e0b6dd89a1f3a33e146f7"
+        },
+        "rga-fzf": {
+          "path": "ripgrep_all-v0.10.10-aarch64-unknown-linux-gnu/rga-fzf",
+          "sha256": "e438b8f05942945171b4f901cd0f690c6f346a4309d9509cb3e2759e6d9875d8"
+        },
+        "rga-fzf-open": {
+          "path": "ripgrep_all-v0.10.10-aarch64-unknown-linux-gnu/rga-fzf-open",
+          "sha256": "ba8a3a2a511b58953a20a029112b8c2992a8dd3a50f30a65506fa66c68b0d137"
+        },
+        "rga-preproc": {
+          "path": "ripgrep_all-v0.10.10-aarch64-unknown-linux-gnu/rga-preproc",
+          "sha256": "7d3513f44c23cccd2e147addbdecc5f3b2913e7ebec458c797d9f862b0afce31"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/phiresky/ripgrep-all/releases/download/v0.10.10/ripgrep_all-v0.10.10-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.10",
+      "sha256": "3d9fe75878ddab6a8e7abb66ab13af1bdea2844a02c479fb293b7bfb258ab353",
+      "size": 7685275,
+      "format": "tar.gz",
+      "binaries": {
+        "rga": {
+          "path": "ripgrep_all-v0.10.10-x86_64-apple-darwin/rga",
+          "sha256": "0879980a6dfdf09bb514f000e108f4864343d4416511121e8d11069b668fb712"
+        },
+        "rga-fzf": {
+          "path": "ripgrep_all-v0.10.10-x86_64-apple-darwin/rga-fzf",
+          "sha256": "f1bb2b00be5af9141cd9f72a5ef8af8970511738cdd0912e6162d59e09287c16"
+        },
+        "rga-fzf-open": {
+          "path": "ripgrep_all-v0.10.10-x86_64-apple-darwin/rga-fzf-open",
+          "sha256": "cf525f0c3b1196154c9b3d21534a44d36630bb4281b70fafd3051a954ab47c91"
+        },
+        "rga-preproc": {
+          "path": "ripgrep_all-v0.10.10-x86_64-apple-darwin/rga-preproc",
+          "sha256": "108f2b288054eff92b7b920ac322eddbb878e010ba534d5841a9d55091d47fa9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/phiresky/ripgrep-all/releases/download/v0.10.10/ripgrep_all-v0.10.10-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.10",
+      "sha256": "9deeaa927779078568832b5b69ae57986ca917f24974bb4976c062f632846856",
+      "size": 6994828,
+      "format": "tar.gz",
+      "binaries": {
+        "rga": {
+          "path": "ripgrep_all-v0.10.10-aarch64-apple-darwin/rga",
+          "sha256": "1c20743e41ed56da0c74fb7104b849a121810ed5dfc5b0b32b203454a6c26226"
+        },
+        "rga-fzf": {
+          "path": "ripgrep_all-v0.10.10-aarch64-apple-darwin/rga-fzf",
+          "sha256": "841b04dfac3946306570032eb80789a0fc7172bc61fd541d3498b91729f58196"
+        },
+        "rga-fzf-open": {
+          "path": "ripgrep_all-v0.10.10-aarch64-apple-darwin/rga-fzf-open",
+          "sha256": "4c93284b5b025057047265427285f62b2e04a97f726a65dfbe2a850165808fb4"
+        },
+        "rga-preproc": {
+          "path": "ripgrep_all-v0.10.10-aarch64-apple-darwin/rga-preproc",
+          "sha256": "759d8337d6bd62b867532be685cc87401f02c1a0d29e09e8a9829c534b6b64c1"
+        }
+      }
+    }
+  }
+}
