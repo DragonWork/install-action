@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "memfaultd",
+  "version": "1.30.1",
+  "repository": "memfault/memfaultd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/memfault/memfaultd/releases/download/1.30.1/memfaultd-x86_64-unknown-linux-musl",
+      "sha256": "d2ee9d70691440fe76c2d61d82d6a249af49d88fdddee22f6dda40a11307f705",
+      "size": 7207496,
+      "format": "binary",
+      "releaseTag": "1.30.1",
+      "binaries": {
+        "memfaultd": {
+          "path": "memfaultd-x86_64-unknown-linux-musl",
+          "sha256": "d2ee9d70691440fe76c2d61d82d6a249af49d88fdddee22f6dda40a11307f705"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/memfault/memfaultd/releases/download/1.30.1/memfaultd-aarch64-unknown-linux-musl",
+      "sha256": "8fc06eb1e89eefbd23e7ce52aa9dae83d042bf75afe6049d7b7bf2901400babf",
+      "size": 5806056,
+      "format": "binary",
+      "releaseTag": "1.30.1",
+      "binaries": {
+        "memfaultd": {
+          "path": "memfaultd-aarch64-unknown-linux-musl",
+          "sha256": "8fc06eb1e89eefbd23e7ce52aa9dae83d042bf75afe6049d7b7bf2901400babf"
+        }
+      }
+    }
+  }
+}
