@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "knope",
+  "version": "0.23.2",
+  "repository": "knope-dev/knope",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/knope-dev/knope/releases/download/knope/v0.23.2/knope-x86_64-unknown-linux-musl.tgz",
+      "sha256": "c64f6281e012fc8e046ebd6f30be76c583e88b9ad55b00c7b1809b030db92eee",
+      "size": 4080456,
+      "format": "tar.gz",
+      "releaseTag": "knope/v0.23.2",
+      "binaries": {
+        "knope": {
+          "path": "knope-x86_64-unknown-linux-musl/knope",
+          "sha256": "448f874cc61d2cf4ba4d3013cbf60c696af30afde81fdb2094683e49cc7bb34a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/knope-dev/knope/releases/download/knope/v0.23.2/knope-aarch64-unknown-linux-musl.tgz",
+      "sha256": "65ec774bd37d7d030100c896bd7fc635b11acade0fb039ffcb57c2b56be9da11",
+      "size": 3692219,
+      "format": "tar.gz",
+      "releaseTag": "knope/v0.23.2",
+      "binaries": {
+        "knope": {
+          "path": "knope-aarch64-unknown-linux-musl/knope",
+          "sha256": "6d9b8882f89315e3cc069483ae75be1e3a07b35b79fbe9cf86f19801fc4dfd6a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/knope-dev/knope/releases/download/knope/v0.23.2/knope-x86_64-apple-darwin.tgz",
+      "sha256": "e35cd3857477134a0ebd9395fa97eddcdf41217f6f8e426369d44f1b9c16df63",
+      "size": 3794186,
+      "format": "tar.gz",
+      "releaseTag": "knope/v0.23.2",
+      "binaries": {
+        "knope": {
+          "path": "knope-x86_64-apple-darwin/knope",
+          "sha256": "9d820469ea7e8a3c4953dddd2bccddab2f540c9e9bf68cfcd3273b2bd8ba08df"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/knope-dev/knope/releases/download/knope/v0.23.2/knope-aarch64-apple-darwin.tgz",
+      "sha256": "9ca0403d8e528af48b6451eb14ef4d3110b570a323e761bab8994fc14c04dc49",
+      "size": 3425279,
+      "format": "tar.gz",
+      "releaseTag": "knope/v0.23.2",
+      "binaries": {
+        "knope": {
+          "path": "knope-aarch64-apple-darwin/knope",
+          "sha256": "6cfa4bb28751ec4640202cd19b6b0bcf2cf460117479ddd66914eab12e59decf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/knope-dev/knope/releases/download/knope/v0.23.2/knope-x86_64-pc-windows-msvc.tgz",
+      "sha256": "ddde4b768353bde46aeacb4067f6ec50b5bccc6373afd4ac2c2396b144b5336a",
+      "size": 3677881,
+      "format": "tar.gz",
+      "releaseTag": "knope/v0.23.2",
+      "binaries": {
+        "knope.exe": {
+          "path": "knope-x86_64-pc-windows-msvc/knope.exe",
+          "sha256": "89082772a7491c39a48e252076232bc78ee6fd0cdf042149a98ee6cb05e1ac21"
+        }
+      }
+    }
+  }
+}
