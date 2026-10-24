@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "envful",
+  "version": "1.0.7",
+  "repository": "arvindell/envful",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/arvindell/envful/releases/download/v1.0.7/envful-v1.0.7-linux.tar.gz",
+      "sha256": "a3fa0b872dabb8a6812fb2e8b0e871b2541acbc6836cc433c5b2d718328e99e0",
+      "size": 1280665,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.7",
+      "binaries": {
+        "envful": {
+          "path": "envful-v1.0.7-linux/envful",
+          "sha256": "17614398f00cc4f0c6f953ec51250676d02016d0aadbbc3502acc1f895551fbf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/arvindell/envful/releases/download/v1.0.7/envful-v1.0.7-macos.tar.gz",
+      "sha256": "d9e28e9c658007cf2ff5d77a97e6d7934752e697c943031926871fa884882292",
+      "size": 499415,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.7",
+      "binaries": {
+        "envful": {
+          "path": "envful-v1.0.7-macos/envful",
+          "sha256": "6a9d079992555891fd0a695a2edd8318333c5c308b801f3df18436723417570d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/arvindell/envful/releases/download/v1.0.7/envful-v1.0.7-win64.tar.gz",
+      "sha256": "e4eb42de37b9b78602767387de142c3297375823eb2334c3fbe2e8143fa46204",
+      "size": 1856152,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.7",
+      "binaries": {
+        "envful.exe": {
+          "path": "envful-v1.0.7-win64/envful.exe",
+          "sha256": "98007f6b9adce760df65a9cf221fe6813bfd19b8eb161d7bf21ff75677e58be0"
+        }
+      }
+    }
+  }
+}
