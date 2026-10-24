@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wit",
+  "version": "0.16.0",
+  "repository": "bytecodealliance/cargo-component",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/cargo-component/releases/download/v0.16.0/cargo-component-x86_64-unknown-linux-gnu",
+      "sha256": "766298668cf51e07bffd654912b21a6d2c5c3983868db79f68cb53cb5a9f7c46",
+      "size": 17538208,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "wit": {
+          "path": "cargo-component-x86_64-unknown-linux-gnu",
+          "sha256": "766298668cf51e07bffd654912b21a6d2c5c3983868db79f68cb53cb5a9f7c46"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/cargo-component/releases/download/v0.16.0/cargo-component-aarch64-unknown-linux-gnu",
+      "sha256": "86a85b5e5ffd07903e1fa9448644ab381e37e274ee53e77b5ac56f38407938a8",
+      "size": 15959240,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "wit": {
+          "path": "cargo-component-aarch64-unknown-linux-gnu",
+          "sha256": "86a85b5e5ffd07903e1fa9448644ab381e37e274ee53e77b5ac56f38407938a8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/cargo-component/releases/download/v0.16.0/cargo-component-x86_64-apple-darwin",
+      "sha256": "fb76c544788eb97520ce6a663cd789e0f5c3c74995099b41ad7b6650eb53f5f3",
+      "size": 13906592,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "wit": {
+          "path": "cargo-component-x86_64-apple-darwin",
+          "sha256": "fb76c544788eb97520ce6a663cd789e0f5c3c74995099b41ad7b6650eb53f5f3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/cargo-component/releases/download/v0.16.0/cargo-component-aarch64-apple-darwin",
+      "sha256": "32203d37c4cd89c83a03c11648314acddc6ff2c16b3aa84239b73d0cfd8200d0",
+      "size": 11975616,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "wit": {
+          "path": "cargo-component-aarch64-apple-darwin",
+          "sha256": "32203d37c4cd89c83a03c11648314acddc6ff2c16b3aa84239b73d0cfd8200d0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/cargo-component/releases/download/v0.16.0/cargo-component-x86_64-pc-windows-gnu",
+      "sha256": "7ca1283dee9ea066a316c50d953099aef5704e1af3846b7b0aefc9911f659770",
+      "size": 14609096,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "wit.exe": {
+          "path": "cargo-component-x86_64-pc-windows-gnu",
+          "sha256": "7ca1283dee9ea066a316c50d953099aef5704e1af3846b7b0aefc9911f659770"
+        }
+      }
+    }
+  }
+}
