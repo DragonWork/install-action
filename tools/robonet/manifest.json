@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "robonet",
+  "version": "0.3.2",
+  "repository": "neurobionics/robonet",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/neurobionics/robonet/releases/download/0.3.2/robonet-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.3.2",
+      "sha256": "95bd71e8c4b5b8e96f11c149486f2f79c21420582b21dd7df86aa631b18ee3d4",
+      "size": 1978744,
+      "format": "tar.xz",
+      "binaries": {
+        "robonet": {
+          "path": "robonet-x86_64-unknown-linux-gnu/robonet",
+          "sha256": "49811989ed03250903b39c34e70f13d16110c2441f06fb57238cda5132afd42c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/neurobionics/robonet/releases/download/0.3.2/robonet-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.3.2",
+      "sha256": "3140be90baa98277d4de0363850660bc9ee68e657789c13be98a7661a124b17f",
+      "size": 1510112,
+      "format": "tar.xz",
+      "binaries": {
+        "robonet": {
+          "path": "robonet-aarch64-unknown-linux-gnu/robonet",
+          "sha256": "e83a38d5d9f8cab3129227725cbf1a4d2fbb6c92721d8c6692839d3dbef30f6a"
+        }
+      }
+    }
+  }
+}
