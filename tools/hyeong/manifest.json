@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "hyeong",
+  "version": "0.2.2",
+  "repository": "buttercrab/hyeo-ung-lang",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/buttercrab/hyeo-ung-lang/releases/download/v0.2.2/hyeong-v0.2.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "2979e56a8fd7a61d4ce31464d1dd824570dd0b9d8fdeb0d9b79015270d509cec",
+      "size": 835140,
+      "format": "tar.gz",
+      "binaries": {
+        "hyeong": {
+          "path": "hyeong",
+          "sha256": "bb15d3ff987a2879d1d3bb5a1ffba00db47481f998d89d0983d34d8f43a52f8e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/buttercrab/hyeo-ung-lang/releases/download/v0.2.2/hyeong-v0.2.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "0ebbee7252dd8bd164e58aef7b2a9df8b401aa2af00a415bb69b285be85ecb04",
+      "size": 498805,
+      "format": "tar.gz",
+      "binaries": {
+        "hyeong": {
+          "path": "hyeong",
+          "sha256": "0a9cc3c1d960bbf37d2764c7ec4d2da2ae4bda5a429519d6950436575172c516"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/buttercrab/hyeo-ung-lang/releases/download/v0.2.2/hyeong-v0.2.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.2",
+      "sha256": "4133c3fa07e9cb333cb41015b7e14ea166af4bb7e080cddb7b65d90594e6991f",
+      "size": 437521,
+      "format": "zip",
+      "binaries": {
+        "hyeong.exe": {
+          "path": "hyeong.exe",
+          "sha256": "73779992e08594f0c0b6ec149ea183ba0f5643609a69b11076a47335c266fa5a"
+        }
+      }
+    }
+  }
+}
