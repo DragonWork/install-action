@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "git-ar",
+  "version": "1.1.14",
+  "repository": "jordilin/gitar",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jordilin/gitar/releases/download/v1.1.14/gr-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.14",
+      "sha256": "1ba8619f68ed76e1753babf0f9fa0a89bb314f06e9f187b392e5e4f6a8c66b50",
+      "size": 3666209,
+      "format": "tar.gz",
+      "binaries": {
+        "gr": {
+          "path": "gr",
+          "sha256": "84bf283a59651029637c822f7b10966f6f8a84f746c8f3dba2516358b4bfa9de"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jordilin/gitar/releases/download/v1.1.14/gr-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.14",
+      "sha256": "fa913b81742c273cc8b2f19a78f9d432b56399b9f011859da06ff8b7d047f583",
+      "size": 3266808,
+      "format": "tar.gz",
+      "binaries": {
+        "gr": {
+          "path": "gr",
+          "sha256": "f8578bdbd7720ee68f834aabec9833f5d6046323aa2e46a2531ec9d4750b5df4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jordilin/gitar/releases/download/v1.1.14/gr-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.14",
+      "sha256": "8e63468ce6566aaabe951941fab2e38dcd6be64979dd2ec1203ee43d44c6ee14",
+      "size": 3099030,
+      "format": "tar.gz",
+      "binaries": {
+        "gr": {
+          "path": "gr",
+          "sha256": "b948dc88c3954239bae2204dad0b1097b3b38fd2b5402b84ca1571dc012b550b"
+        }
+      }
+    }
+  }
+}
