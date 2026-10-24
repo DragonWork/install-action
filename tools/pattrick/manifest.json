@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "pattrick",
+  "version": "0.7.0",
+  "repository": "jvanbuel/pattrick",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jvanbuel/pattrick/releases/download/v0.7.0/pattrick-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "6f9aab1138e2aedcbac5b3ddb38bc6639aa07928d19712b500aab810fbf46e75",
+      "size": 7127034,
+      "format": "tar.gz",
+      "binaries": {
+        "pattrick": {
+          "path": "pattrick",
+          "sha256": "92ac6e090d4c42ba8eab6434dc248ed6a27333b37cd6d0bc3844ce0aee9b7d96"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jvanbuel/pattrick/releases/download/v0.7.0/pattrick-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "311100e16b93c4b189941ac82d934eeea2695f8b62dc0861618f829aef4bd473",
+      "size": 6982915,
+      "format": "tar.gz",
+      "binaries": {
+        "pattrick": {
+          "path": "pattrick",
+          "sha256": "b000a670a6628efff7ec679483432552d36d3d4802bd69246800112afbcf7ef4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jvanbuel/pattrick/releases/download/v0.7.0/pattrick-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "d4268c6cc04a1527525899b406bd6d9a6f39523ab8bcee4708c6eb6c58f33b5b",
+      "size": 4541511,
+      "format": "tar.gz",
+      "binaries": {
+        "pattrick": {
+          "path": "pattrick",
+          "sha256": "54bd92f32d2c5a1186fb3ebdde87c8610be6010d6cfa5517997c20d243d0b35c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jvanbuel/pattrick/releases/download/v0.7.0/pattrick-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "3e77fdee31ac71ecb13efb364ea585bfa19a4a6d0bb229c5144a776e1ec4e394",
+      "size": 4317058,
+      "format": "tar.gz",
+      "binaries": {
+        "pattrick": {
+          "path": "pattrick",
+          "sha256": "11117154a08b8fd9fd7d9a8a5c33e629b686cdad539bbab9c4e14be4bb445ca8"
+        }
+      }
+    }
+  }
+}
