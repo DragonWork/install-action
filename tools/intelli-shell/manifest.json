@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "intelli-shell",
+  "version": "3.4.6",
+  "repository": "lasantosr/intelli-shell",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lasantosr/intelli-shell/releases/download/v3.4.6/intelli-shell-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.4.6",
+      "sha256": "046a4faa64060a11380db9a769205fdbe321eae7ea6785afc8908e5e281fb149",
+      "size": 11565466,
+      "format": "tar.gz",
+      "binaries": {
+        "intelli-shell": {
+          "path": "intelli-shell",
+          "sha256": "9e3ece21ed2653cc239ba472a42de551cb835042d81deb38d38b6357472739cc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lasantosr/intelli-shell/releases/download/v3.4.6/intelli-shell-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.4.6",
+      "sha256": "ba9935912ecd00cffd77e45ede28ecaafed5b5c776c20e925f1044d2f4de46c5",
+      "size": 11146986,
+      "format": "tar.gz",
+      "binaries": {
+        "intelli-shell": {
+          "path": "intelli-shell",
+          "sha256": "1638b489707e18261f926f57780284cd34c06ce740d446ebd4efaafb4d0131fe"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lasantosr/intelli-shell/releases/download/v3.4.6/intelli-shell-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.4.6",
+      "sha256": "f10af316bae03feee9822c8b24ad0a991810d179847d16725e7d3b7404621122",
+      "size": 10137756,
+      "format": "tar.gz",
+      "binaries": {
+        "intelli-shell": {
+          "path": "intelli-shell",
+          "sha256": "2badbac20e370e4eb7997aa707acb7035815ac8b00fe5a78cac0a213c8716340"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lasantosr/intelli-shell/releases/download/v3.4.6/intelli-shell-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.4.6",
+      "sha256": "0fe068de55a0c8d8ec71fab121a627d9b99108f82f7f8a08c0207ace5c994af1",
+      "size": 9908772,
+      "format": "tar.gz",
+      "binaries": {
+        "intelli-shell": {
+          "path": "intelli-shell",
+          "sha256": "a60c9633bf126eeea771043581728ea20a358464cf4ef06bca0b4f9d5bb33ffe"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lasantosr/intelli-shell/releases/download/v3.4.6/intelli-shell-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.4.6",
+      "sha256": "fd28ccf466791ecb119662b8acc2c49987945ae1ad7a1f33ab306e8b008efaa9",
+      "size": 8111040,
+      "format": "zip",
+      "binaries": {
+        "intelli-shell.exe": {
+          "path": "intelli-shell.exe",
+          "sha256": "01394344d42eb1322c33a7dd8340b8c4d8a820140aac101441fbeb409a3f76a8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/lasantosr/intelli-shell/releases/download/v3.4.6/intelli-shell-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v3.4.6",
+      "sha256": "a0bf739e4e0f5a9ebf4fc6b4aa680e747b1a3ca75f9a494bb3b820bfbfb6a989",
+      "size": 7618074,
+      "format": "zip",
+      "binaries": {
+        "intelli-shell.exe": {
+          "path": "intelli-shell.exe",
+          "sha256": "f7006f723b4549fc3b715f713c98c95cbe9ff6c56e589996eb3825faada51ac4"
+        }
+      }
+    }
+  }
+}
