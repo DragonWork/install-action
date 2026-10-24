@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "fuel-indexer",
+  "version": "0.25.0",
+  "repository": "FuelLabs/fuel-indexer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/fuel-indexer-0.25.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "03d93ff13705727e1d163f4a40d6f5988f863d0e5b23a5862dd4f21b22b61149",
+      "size": 16244463,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-indexer": {
+          "path": "fuel-indexer-0.25.0-x86_64-unknown-linux-gnu/fuel-indexer",
+          "sha256": "d0cf46c3f947169b462a4a9e0d6c93281fc4d051ec61d958afa0ad2635032451"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/fuel-indexer-0.25.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "b311fa4fdbdd23dd96d66ba08db7d6df197265c6dfc215124b0fc38469efca79",
+      "size": 15550504,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-indexer": {
+          "path": "fuel-indexer-0.25.0-aarch64-unknown-linux-gnu/fuel-indexer",
+          "sha256": "dbada4ea2afeeb3d70dc842f93dbd6c39ff3dd94f3a13448d845857a01c67ee8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/fuel-indexer-0.25.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "0ed2da82504f010ee90effc3a0f4f879a397b2b220c63684a39e274a95a3e3c2",
+      "size": 13545589,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-indexer": {
+          "path": "fuel-indexer-0.25.0-x86_64-apple-darwin/fuel-indexer",
+          "sha256": "34c7cfc5bca5c68979d24a8887f0bd4e79a8b2d6462f643c92f98d9de5a06acb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/fuel-indexer-0.25.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "df53bfbc0eb775308a5ef011c2937b92107bb8be8af322ef348493db4a336aba",
+      "size": 12290499,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-indexer": {
+          "path": "fuel-indexer-0.25.0-aarch64-apple-darwin/fuel-indexer",
+          "sha256": "970b1d3e88f818492f0adda7a6480613956295f4b45db05527e13d0ce171654c"
+        }
+      }
+    }
+  }
+}
