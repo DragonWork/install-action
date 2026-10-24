@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "moonwave",
+  "version": "1.4.2",
+  "repository": "evaera/moonwave",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/evaera/moonwave/releases/download/v1.4.2/moonwave-extractor-v1.4.2-linux.zip",
+      "sha256": "475fac138561862b3dd3f2d7086e7dd39a230e4be03164a5272eb8623bcdb97a",
+      "size": 1081239,
+      "format": "zip",
+      "releaseTag": "v1.4.2",
+      "binaries": {
+        "moonwave-extractor": {
+          "path": "moonwave-extractor",
+          "sha256": "4bd675229e8bcad8d9d0c4c5ef07f6658ddcf90d49ae3a9bb5637c13e02cb8f6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/evaera/moonwave/releases/download/v1.4.2/moonwave-extractor-v1.4.2-macos.zip",
+      "sha256": "1bfec442037b3448bc46a3fdd9f952dd05f5f3ae6639909473c4717e72add987",
+      "size": 981815,
+      "format": "zip",
+      "releaseTag": "v1.4.2",
+      "binaries": {
+        "moonwave-extractor": {
+          "path": "moonwave-extractor",
+          "sha256": "a49ccffacec4614316325f11173ccdab19dda3a593913910a0f09d31f4ad222c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/evaera/moonwave/releases/download/v1.4.2/moonwave-extractor-v1.4.2-win64.zip",
+      "sha256": "3b3e2591934019af99bb77cab446bc5d861e6f245762cd8c822f11d200d647c6",
+      "size": 904060,
+      "format": "zip",
+      "releaseTag": "v1.4.2",
+      "binaries": {
+        "moonwave-extractor.exe": {
+          "path": "moonwave-extractor.exe",
+          "sha256": "f47bd36d811000a50162895b18a8b9bbc213932cf069aefdd3ff796b52b19a21"
+        }
+      }
+    }
+  }
+}
