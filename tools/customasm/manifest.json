@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "customasm",
+  "version": "0.14.2",
+  "repository": "hlorenzi/customasm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hlorenzi/customasm/releases/download/v0.14.2/customasm_v0.14.2_linux_musl.zip",
+      "sha256": "b3cb585c320e4b625735145ac70201606ec4cd9879fa6181b1b6024a28095109",
+      "size": 636326,
+      "format": "zip",
+      "releaseTag": "v0.14.2",
+      "binaries": {
+        "customasm": {
+          "path": "customasm",
+          "sha256": "ce47a9a8866136292a7a2b0bdae3d15ca5969c31720320d5897461c939c1f716"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hlorenzi/customasm/releases/download/v0.14.2/customasm_v0.14.2_win64.zip",
+      "sha256": "f41a8e87d45e1e78155df9a8cf246f6ef692374d072de2d74a1b1083cccbca3d",
+      "size": 921442,
+      "format": "zip",
+      "releaseTag": "v0.14.2",
+      "binaries": {
+        "customasm.exe": {
+          "path": "customasm.exe",
+          "sha256": "afcb152b3a6eaedbaba9a7fec2186a422f965355112a753722e693fb9ea0b93f"
+        }
+      }
+    }
+  }
+}
