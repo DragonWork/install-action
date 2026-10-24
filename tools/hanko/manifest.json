@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "hanko",
+  "version": "1.1.3",
+  "repository": "SRv6d/hanko",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/SRv6d/hanko/releases/download/v1.1.3/hanko-1.1.3-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.3",
+      "sha256": "218291a0c89a759b2beb61737a74c9f32e1a9c87e0870a2a648d50387ec4ab93",
+      "size": 3523279,
+      "format": "tar.gz",
+      "binaries": {
+        "hanko": {
+          "path": "./hanko",
+          "sha256": "47344ae8b5397745d83951fd199a10785a34a149f4a639a98e3f05ef5616b205"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/SRv6d/hanko/releases/download/v1.1.3/hanko-1.1.3-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.3",
+      "sha256": "5fe280c7c02a3b5b2577d8f7f1e3938362da6529c786c9cca14fa84447a7b742",
+      "size": 3218937,
+      "format": "tar.gz",
+      "binaries": {
+        "hanko": {
+          "path": "./hanko",
+          "sha256": "cef1bbcaa3316aa4f2db0fe3781fcba75fc06289da67628a4acc9e6780ef8489"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/SRv6d/hanko/releases/download/v1.1.3/hanko-1.1.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.3",
+      "sha256": "cbfa1b3072918a101440c9b34b912e500d053fb8ea39c71859f78d9942f26d67",
+      "size": 3342640,
+      "format": "tar.gz",
+      "binaries": {
+        "hanko": {
+          "path": "./hanko",
+          "sha256": "1efa8bdc1e8a45dabb1686b67213d08867bb867c3221078de71c72917f4afd61"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/SRv6d/hanko/releases/download/v1.1.3/hanko-1.1.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.3",
+      "sha256": "309f55716c2db24008d24413ab487d0ad008e128cb2cbc1d0541f43168a1672d",
+      "size": 2991320,
+      "format": "tar.gz",
+      "binaries": {
+        "hanko": {
+          "path": "./hanko",
+          "sha256": "bbe059d46cd2fe5fc426220a099c3f34fcef55918a8474fe642399eaea1ce0f9"
+        }
+      }
+    }
+  }
+}
