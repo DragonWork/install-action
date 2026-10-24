@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "shpool",
+  "version": "0.11.5",
+  "repository": "shell-pool/shpool",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shell-pool/shpool/releases/download/v0.11.5/shpool-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.5",
+      "sha256": "132f786bd275749a46224c17a071474a850f0be1fbb752b1c96d910778543c9b",
+      "size": 1904329,
+      "format": "tar.gz",
+      "binaries": {
+        "shpool": {
+          "path": "shpool",
+          "sha256": "7b03a2a8db8b18885438048ffc8e9529952415782de81a987be3c9a2a8e1eb05"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/shell-pool/shpool/releases/download/v0.11.5/shpool-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.5",
+      "sha256": "98402f7ba14b0e9050b31eab80c6dfb26761f1aed45733f393841f615000d18b",
+      "size": 1820914,
+      "format": "tar.gz",
+      "binaries": {
+        "shpool": {
+          "path": "shpool",
+          "sha256": "ced2ed617ef9c56964e5d3c3bd2543d88566b157d88776179273a03c2209f049"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/shell-pool/shpool/releases/download/v0.11.5/shpool-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.11.5",
+      "sha256": "ca8fe3541f6c4d0ebde6941d88d27e0986286728e4a58cc0e23a627d25401dea",
+      "size": 1626818,
+      "format": "tar.gz",
+      "binaries": {
+        "shpool": {
+          "path": "shpool",
+          "sha256": "1e10127ab407f70bbd20c24d8ed98750b0706305e50b7905100c2c8b6666c892"
+        }
+      }
+    }
+  }
+}
