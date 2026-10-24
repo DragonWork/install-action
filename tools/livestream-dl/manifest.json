@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "livestream-dl",
+  "version": "0.5.7",
+  "repository": "evanc577/livestream-dl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/evanc577/livestream-dl/releases/download/v0.5.7/livestream-dl_v0.5.7_x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "2795c077a67c7c622d02b28c2af92a1ca52cde00d2c3c9d3610cbe9ecd569164",
+      "size": 2962682,
+      "format": "zip",
+      "binaries": {
+        "livestream-dl": {
+          "path": "livestream-dl",
+          "sha256": "c00fe6294f902c8ca356abde43c5c6e7ae10e85fa45368762bd0d47540a71642"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/evanc577/livestream-dl/releases/download/v0.5.7/livestream-dl_v0.5.7_x86_64-apple-darwin.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "09c34146b8b2b17048efe19261d5d85cb285523717a143928feb2d577ee7cf53",
+      "size": 3190281,
+      "format": "zip",
+      "binaries": {
+        "livestream-dl": {
+          "path": "livestream-dl",
+          "sha256": "c8430ce054badebdbfb49a2b0087e455367c81b7bad780568c977dbe5d712ee4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/evanc577/livestream-dl/releases/download/v0.5.7/livestream-dl_v0.5.7_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "df2c290bbdbef79730ae3d4b8ac4c9b5e8bd9d240c8ae5fcc0ac4e70a6ebf5d2",
+      "size": 2853816,
+      "format": "zip",
+      "binaries": {
+        "livestream-dl.exe": {
+          "path": "livestream-dl.exe",
+          "sha256": "41fd17ab83045ccb5246b7383e8b2c62ebbbca62f8daa80586e44006beb982fe"
+        }
+      }
+    }
+  }
+}
