@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "dsntk",
+  "version": "0.3.0",
+  "repository": "DecisionToolkit/dsntk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DecisionToolkit/dsntk/releases/download/v0.3.0/dsntk-v0.3.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "bd3944381bcd247d509d3b5403a7d289fd2b9f837ace100088fe49bb54347700",
+      "size": 8406278,
+      "format": "tar.gz",
+      "binaries": {
+        "dsntk": {
+          "path": "dsntk",
+          "sha256": "60e7002a5cf2e88b0c5331e25fdbe049b09355a20a38ba18edfcdee81f045645"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/DecisionToolkit/dsntk/releases/download/v0.3.0/dsntk-v0.3.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "5b652322c38e07f21a295f95e2f2070fb342673b81a703ca4d0494802d731637",
+      "size": 7848605,
+      "format": "tar.gz",
+      "binaries": {
+        "dsntk": {
+          "path": "dsntk",
+          "sha256": "60f575fc0166ae980f2e83cab0887cbe819a4c2b97fac5a5b0ea0621257a1291"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/DecisionToolkit/dsntk/releases/download/v0.3.0/dsntk-v0.3.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "14e138d5cc27b8098532f86fc2977f510888947b79dcde83add5f1505d5bc7c8",
+      "size": 7459306,
+      "format": "tar.gz",
+      "binaries": {
+        "dsntk": {
+          "path": "dsntk",
+          "sha256": "4ca19984a708f629fe374e7f2b4c5b3c92dc90d0784411fa3c12a7c71250750e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/DecisionToolkit/dsntk/releases/download/v0.3.0/dsntk-v0.3.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "7ac1d58bbf022520879faf6e9a8462037140820704e995f972eb6406028bad34",
+      "size": 7999352,
+      "format": "zip",
+      "binaries": {
+        "dsntk.exe": {
+          "path": "dsntk.exe",
+          "sha256": "5d87a8af067004c4ae3d2a8274235a10c188b8b4da94119aca989df9af0da010"
+        }
+      }
+    }
+  }
+}
