@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mdcat",
+  "version": "2.19.0",
+  "repository": "BIRSAx2/mdcat",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/BIRSAx2/mdcat/releases/download/mdcat-2.19.0/mdcat-2.19.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "mdcat-2.19.0",
+      "sha256": "789f0a2d1f6266cc4d49a7444359ef475665dac24c52211dd96db9cb48b78bad",
+      "size": 14046332,
+      "format": "tar.gz",
+      "binaries": {
+        "mdcat": {
+          "path": "mdcat-2.19.0-x86_64-unknown-linux-gnu/mdcat",
+          "sha256": "c5f6beeb705b069d9641b404e81a58dc98e0832021a69130dc581763518557ad"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/BIRSAx2/mdcat/releases/download/mdcat-2.19.0/mdcat-2.19.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "mdcat-2.19.0",
+      "sha256": "424dc17e4b7c9140f7a1a98b3e8a3dac28ee61c38a58f41b306897fc9e709db6",
+      "size": 13012815,
+      "format": "tar.gz",
+      "binaries": {
+        "mdcat": {
+          "path": "mdcat-2.19.0-aarch64-unknown-linux-gnu/mdcat",
+          "sha256": "1ff019fd3f9586b001b45b2db258b6d7b1131a2c546d9fd9bc514f24a5632b20"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/BIRSAx2/mdcat/releases/download/mdcat-2.19.0/mdcat-2.19.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "mdcat-2.19.0",
+      "sha256": "58ab985ea42e54507a3f07b731c6a4a494511f1bdfedcec5db2c6cc06ece772e",
+      "size": 13280322,
+      "format": "zip",
+      "binaries": {
+        "mdcat.exe": {
+          "path": "mdcat.exe",
+          "sha256": "2299c143a5455917b676131595c70241c6da8e02ff45ea28d86cbe0bb99162b9"
+        }
+      }
+    }
+  }
+}
