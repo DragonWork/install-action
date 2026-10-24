@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dji-log-parser",
+  "version": "0.3.0",
+  "repository": "lvauvillier/dji-log-parser",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lvauvillier/dji-log-parser/releases/download/v0.3.0/dji-log-parser-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "9494c29760ddc219d915a15e6b3bd4a11c2fb670874922be3f2cf05542f9c67d",
+      "size": 1562669,
+      "format": "tar.gz",
+      "binaries": {
+        "dji-log-parser": {
+          "path": "dji-log-parser",
+          "sha256": "91a07214c298b6358c20bbbfba68935dd5f37f0a2dc630de8eb463648eca4cd7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lvauvillier/dji-log-parser/releases/download/v0.3.0/dji-log-parser-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "cd947533fb821bff5698201434afb745f507c994c19d82331b8ad3ed5bf99925",
+      "size": 1530667,
+      "format": "tar.gz",
+      "binaries": {
+        "dji-log-parser": {
+          "path": "dji-log-parser",
+          "sha256": "53d3d7a0f29c03e4237d6df074d82fa884708b3adb5062443acfde8f11618b90"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lvauvillier/dji-log-parser/releases/download/v0.3.0/dji-log-parser-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "bd684b9825138418858b793a023bff4d434d4ca3a28ff127b1795b48076e6498",
+      "size": 1429284,
+      "format": "tar.gz",
+      "binaries": {
+        "dji-log-parser": {
+          "path": "dji-log-parser",
+          "sha256": "78dbc511a514a22a165ed2b0229f5c21e46c4090a3ba0d7581514f1c354ff91c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lvauvillier/dji-log-parser/releases/download/v0.3.0/dji-log-parser-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "6d926e86034a6ad410faf66aefe2e49d254643fccb446e79e439587ebe23c453",
+      "size": 1336163,
+      "format": "tar.gz",
+      "binaries": {
+        "dji-log-parser": {
+          "path": "dji-log-parser",
+          "sha256": "9814a17d3e288d90bc2c765f831f19a19a7bd9a7c128abb3c02eb4e44909d0c1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lvauvillier/dji-log-parser/releases/download/v0.3.0/dji-log-parser-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "919f15d938b89b3a977d466c6f4e69414c688a4c2aa4d3c8d351317fb938ecb1",
+      "size": 1309817,
+      "format": "zip",
+      "binaries": {
+        "dji-log-parser.exe": {
+          "path": "dji-log-parser.exe",
+          "sha256": "476ec867448d7131bf17e2a58547e582bf0a41f71b058e032eb159cdcef36e7d"
+        }
+      }
+    }
+  }
+}
