@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "forge-deploy",
+  "version": "0.2.0",
+  "repository": "wighawag/forge-deploy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wighawag/forge-deploy/releases/download/v0.2.0/forge-deploy_v0.2.0_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "15d0c280408fca0df502d48227b033e89a4a4ae0afb104fb89fe1070c568583f",
+      "size": 7424000,
+      "format": "tar.gz",
+      "binaries": {
+        "forge-deploy": {
+          "path": "forge-deploy_v0.2.0_x86_64-unknown-linux-musl/forge-deploy",
+          "sha256": "bd8b13fa9a0a6679c8e809f0dfb5a0bcd01e9ebc9bf7f6d5d75a59c14b501a75"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wighawag/forge-deploy/releases/download/v0.2.0/forge-deploy_v0.2.0_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "8ec89ff1b14e75bcdf08579e979f485de948b80497db5483a3214625fb62168c",
+      "size": 3450880,
+      "format": "tar.gz",
+      "binaries": {
+        "forge-deploy": {
+          "path": "forge-deploy_v0.2.0_x86_64-apple-darwin/forge-deploy",
+          "sha256": "5da4458f5d70d94b99aefad3650729518016cd2661c1ca3b9fd98c29237803d5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wighawag/forge-deploy/releases/download/v0.2.0/forge-deploy_v0.2.0_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "5269918adddcbc834a16e109c87a7269e4d8ef2e02a3c256a11b6ff7dd37da57",
+      "size": 3153408,
+      "format": "tar.gz",
+      "binaries": {
+        "forge-deploy": {
+          "path": "forge-deploy_v0.2.0_aarch64-apple-darwin/forge-deploy",
+          "sha256": "8cca50bb6dd5b4513c7cf01c93230052933915591cd6e8d1ced5211cac040d2c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wighawag/forge-deploy/releases/download/v0.2.0/forge-deploy_v0.2.0_x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "3ad57e48b22d4ea74dde8242246422522083c2c8eac73d877a1bae2642bb35c1",
+      "size": 2705408,
+      "format": "tar.gz",
+      "binaries": {
+        "forge-deploy.exe": {
+          "path": "forge-deploy_v0.2.0_x86_64-pc-windows-msvc/forge-deploy.exe",
+          "sha256": "123d36c5e7daa63a66bff748f78d25c2519979e00b90fbcb949925668cec1eb6"
+        }
+      }
+    }
+  }
+}
