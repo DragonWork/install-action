@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hexyl",
+  "version": "0.17.0",
+  "repository": "sharkdp/hexyl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "82b374b800cc965f4116b9d5d6a50394945170d4f65b9ef6ced3b82b014de8a6",
+      "size": 600537,
+      "format": "tar.gz",
+      "binaries": {
+        "hexyl": {
+          "path": "hexyl-v0.17.0-x86_64-unknown-linux-musl/hexyl",
+          "sha256": "0168ff73113de5ed1b22128c23270e93ddae7d94df16c1df1f8e273ab693aea4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "70b97648935f98801fd3c3e4758ff4e92afcf7e75316ff65d4e4f5d2e321b658",
+      "size": 531498,
+      "format": "tar.gz",
+      "binaries": {
+        "hexyl": {
+          "path": "hexyl-v0.17.0-aarch64-unknown-linux-gnu/hexyl",
+          "sha256": "2e8d50ed069530066cd9382d590144a0d365f051507f2e30beebbfc19af6bc2f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "55346f1dcee92bf93f32e104b0fb9d31fab8eec36532a9b6107b4e0e0aef5f46",
+      "size": 535239,
+      "format": "tar.gz",
+      "binaries": {
+        "hexyl": {
+          "path": "hexyl-v0.17.0-x86_64-apple-darwin/hexyl",
+          "sha256": "59fff90e49c1959a553aceb504c08bdfdd64a04783b2045ad50b9674ac0316d2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "d8c50f5ec688faf566ea4c13d6aa12a5681dc370dab3ffba0a9db935a5986630",
+      "size": 507300,
+      "format": "tar.gz",
+      "binaries": {
+        "hexyl": {
+          "path": "hexyl-v0.17.0-aarch64-apple-darwin/hexyl",
+          "sha256": "bbc845962f868cc9d59a74d99cc1eaf5878aa831fd232ca3a1fee7fb56850d27"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.17.0",
+      "sha256": "ab5c3442cff63f585553d4fce330eaa1ef1bd2584643f1a0e29ab7c13fc9566d",
+      "size": 430403,
+      "format": "zip",
+      "binaries": {
+        "hexyl.exe": {
+          "path": "hexyl-v0.17.0-x86_64-pc-windows-msvc/hexyl.exe",
+          "sha256": "9fa04c965ba6b670580e30f9395c87391fd83bb719d930fa503f92357f40a44a"
+        }
+      }
+    }
+  }
+}
