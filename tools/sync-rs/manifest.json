@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "sync-rs",
+  "version": "1.7.0",
+  "repository": "dest1n1s/sync-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dest1n1s/sync-rs/releases/download/v1.7.0/sync-rs-linux-x86_64",
+      "sha256": "eeaa43f4a1d1e9f691533b802b70f0995ac449a4d3981bae286e6e169b45afb7",
+      "size": 1754920,
+      "format": "binary",
+      "releaseTag": "v1.7.0",
+      "binaries": {
+        "sync-rs": {
+          "path": "sync-rs-linux-x86_64",
+          "sha256": "eeaa43f4a1d1e9f691533b802b70f0995ac449a4d3981bae286e6e169b45afb7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dest1n1s/sync-rs/releases/download/v1.7.0/sync-rs-linux-aarch64",
+      "sha256": "6e7a6e328ad0d4bbe8597664204b32e48d309476c66c327076cd2f12a2ce2905",
+      "size": 1690632,
+      "format": "binary",
+      "releaseTag": "v1.7.0",
+      "binaries": {
+        "sync-rs": {
+          "path": "sync-rs-linux-aarch64",
+          "sha256": "6e7a6e328ad0d4bbe8597664204b32e48d309476c66c327076cd2f12a2ce2905"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dest1n1s/sync-rs/releases/download/v1.7.0/sync-rs-macos-x86_64",
+      "sha256": "8300315cf889df7aed55798dd5f07f1f14fefa65119faf3da6cc5705c2e5c3de",
+      "size": 1556808,
+      "format": "binary",
+      "releaseTag": "v1.7.0",
+      "binaries": {
+        "sync-rs": {
+          "path": "sync-rs-macos-x86_64",
+          "sha256": "8300315cf889df7aed55798dd5f07f1f14fefa65119faf3da6cc5705c2e5c3de"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dest1n1s/sync-rs/releases/download/v1.7.0/sync-rs-macos-aarch64",
+      "sha256": "eab8d409c86327f2a325b25da942ec08d354a7f2e15a537a1c665250afd73de4",
+      "size": 1506592,
+      "format": "binary",
+      "releaseTag": "v1.7.0",
+      "binaries": {
+        "sync-rs": {
+          "path": "sync-rs-macos-aarch64",
+          "sha256": "eab8d409c86327f2a325b25da942ec08d354a7f2e15a537a1c665250afd73de4"
+        }
+      }
+    }
+  }
+}
