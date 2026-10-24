@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "name": "dragonfly-client",
+  "version": "1.5.9",
+  "repository": "dragonflyoss/client",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.9/dragonfly-client-v1.5.9-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.5.9",
+      "sha256": "1beae2ebb00d2e480e6dea8a3b122c1571caf5943282beeadb28140dd86bf94e",
+      "size": 34597404,
+      "format": "tar.gz",
+      "binaries": {
+        "dfcache": {
+          "path": "dragonfly-client-v1.5.9-x86_64-unknown-linux-musl/dfcache",
+          "sha256": "989abaf5c9d8628670724f05ddb41c76c62a2cd3a7d7594fd7600d4fef48bce0"
+        },
+        "dfctl": {
+          "path": "dragonfly-client-v1.5.9-x86_64-unknown-linux-musl/dfctl",
+          "sha256": "00256fb44573af59890bc862f38225a892fc4b82044bf065efdb65169d5a4255"
+        },
+        "dfdaemon": {
+          "path": "dragonfly-client-v1.5.9-x86_64-unknown-linux-musl/dfdaemon",
+          "sha256": "8d0a557411c5185e918833ef25a1e3bfc9578c315c5e6ff675b2332c89991a2f"
+        },
+        "dfget": {
+          "path": "dragonfly-client-v1.5.9-x86_64-unknown-linux-musl/dfget",
+          "sha256": "6609886399669107c3c977c0aa8254580eb52af9e19f4d00aae2e05a8ac5aa0a"
+        },
+        "dfstore": {
+          "path": "dragonfly-client-v1.5.9-x86_64-unknown-linux-musl/dfstore",
+          "sha256": "70a3957340c183c7f2308197828bda5cab0cbd748f949e82cecdeabbfb14f143"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.9/dragonfly-client-v1.5.9-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.5.9",
+      "sha256": "190ce568df554eb9ea960935e65ab24462d96f6c459203650a0cd0fe8c880f4e",
+      "size": 31035024,
+      "format": "tar.gz",
+      "binaries": {
+        "dfcache": {
+          "path": "dragonfly-client-v1.5.9-aarch64-unknown-linux-musl/dfcache",
+          "sha256": "575d97dc150914ef3a3173d8e26287b23660cca19ccca2169ed839e2e0ff3342"
+        },
+        "dfctl": {
+          "path": "dragonfly-client-v1.5.9-aarch64-unknown-linux-musl/dfctl",
+          "sha256": "bb1ec81dcd084bbec84aa13cc3db494ed966b9bde8b7d5e3b6ac3513d5c64991"
+        },
+        "dfdaemon": {
+          "path": "dragonfly-client-v1.5.9-aarch64-unknown-linux-musl/dfdaemon",
+          "sha256": "162c8ea4d83688b3b2e32f9441304d1894a89434a17e1acac12a5590e30755dd"
+        },
+        "dfget": {
+          "path": "dragonfly-client-v1.5.9-aarch64-unknown-linux-musl/dfget",
+          "sha256": "7c6e78e59924c4abc8650db905d2e3592c2fbf6edf2cef57eb8570dc57c6bdbd"
+        },
+        "dfstore": {
+          "path": "dragonfly-client-v1.5.9-aarch64-unknown-linux-musl/dfstore",
+          "sha256": "3aff1ab718ed67f59478e17ef43fb1b78ed476fd252e0a781599ae7b4463a6de"
+        }
+      }
+    }
+  }
+}
