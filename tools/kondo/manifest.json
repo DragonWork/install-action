@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "kondo",
+  "version": "0.9.0",
+  "repository": "tbillington/kondo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tbillington/kondo/releases/download/v0.9/kondo-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "b8855f3ba710661d9d2fb37a32919531697e020b2c0973dc46b1ac52a38048bc",
+      "size": 1192015,
+      "format": "tar.gz",
+      "releaseTag": "v0.9",
+      "binaries": {
+        "kondo": {
+          "path": "kondo",
+          "sha256": "c3c37984ecbed4c0ec524da3d601f80f9d2b8d799d70815dccb88b8574f20e11"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tbillington/kondo/releases/download/v0.9/kondo-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "531cfc381e851300878e20f77ebd58724ddc28ecf5e48bec654f630f0bfc7fb0",
+      "size": 1046726,
+      "format": "tar.gz",
+      "releaseTag": "v0.9",
+      "binaries": {
+        "kondo": {
+          "path": "kondo",
+          "sha256": "78a58d22ff8f2e823361a567296cb12b11852e058f02039f3db458aa3c105a26"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tbillington/kondo/releases/download/v0.9/kondo-x86_64-apple-darwin.tar.gz",
+      "sha256": "aa1500e275cefe8d8a7c84ef17367c00fcff5de2b2e595d4be91db940d69ff1d",
+      "size": 1115970,
+      "format": "tar.gz",
+      "releaseTag": "v0.9",
+      "binaries": {
+        "kondo": {
+          "path": "kondo",
+          "sha256": "65e14965fb435b7e080b35a8f9c5b2c5e92f7772a97468479c13e4c9c6467c78"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tbillington/kondo/releases/download/v0.9/kondo-aarch64-apple-darwin.tar.gz",
+      "sha256": "847d2f5d8fb242d8fc1eb64b08fba4b8ed9567bef7fb7ff23a7b8c7fd11fc3bc",
+      "size": 1034232,
+      "format": "tar.gz",
+      "releaseTag": "v0.9",
+      "binaries": {
+        "kondo": {
+          "path": "kondo",
+          "sha256": "0252cb9bbd24ace719849d83ef83f987cf9160eed7a57e26d01ca477b580f312"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tbillington/kondo/releases/download/v0.9/kondo-x86_64-pc-windows-msvc.zip",
+      "sha256": "4c70e7de85bfaf1b66de931654e9943681af42b093cd591530fc0dd4cc4a0f88",
+      "size": 958920,
+      "format": "zip",
+      "releaseTag": "v0.9",
+      "binaries": {
+        "kondo.exe": {
+          "path": "kondo.exe",
+          "sha256": "4498ce9df8204262e88709f0ac0efc1021cbae8efbf6d4caa4d659ed37d2d612"
+        }
+      }
+    }
+  }
+}
