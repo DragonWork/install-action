@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "jubako",
+  "version": "0.4.1",
+  "repository": "jubako/jubako",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jubako/jubako/releases/download/0.4.1/jbk-0.4.1-linux.tar.gz",
+      "sha256": "6c9ba42a7f1016c65cc309582fa95409adcdf5d93c647563e8aaea16519afa39",
+      "size": 965351,
+      "format": "tar.gz",
+      "releaseTag": "0.4.1",
+      "binaries": {
+        "jbk": {
+          "path": "jbk-0.4.1-linux/jbk",
+          "sha256": "81436f30b8089cf6b370ae9a44bc1bf504611ec67bebea6e2649f9c23618bff3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jubako/jubako/releases/download/0.4.1/jbk-0.4.1-macos.tar.gz",
+      "sha256": "e27b0b4884e8a625892c439b60e34141a84731614999d7e69b436b1e8de880e9",
+      "size": 711753,
+      "format": "tar.gz",
+      "releaseTag": "0.4.1",
+      "binaries": {
+        "jbk": {
+          "path": "jbk-0.4.1-macos/jbk",
+          "sha256": "f523129f945453fadc1c364afcfbc3b02ecc094dd26ca51e187186dda8609b45"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jubako/jubako/releases/download/0.4.1/jbk-0.4.1-windows.zip",
+      "sha256": "5e134b7f3acc51ce0aca041ff8d32c9d3a36b7a72200dfd4d57e549336fa20a4",
+      "size": 703856,
+      "format": "zip",
+      "releaseTag": "0.4.1",
+      "binaries": {
+        "jbk.exe": {
+          "path": "jbk-0.4.1-windows/jbk.exe",
+          "sha256": "b56169cd73dde36e1313da0ed85896852b08768568d33f1b252bd7c5c86407f8"
+        }
+      }
+    }
+  }
+}
