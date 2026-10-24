@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rickview",
+  "version": "0.5.0",
+  "repository": "KonradHoeffner/rickview",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KonradHoeffner/rickview/releases/download/0.5.0/rickview-0.5.0-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "0.5.0",
+      "sha256": "4ad5f9f4636483b1573c3b9caaf898b10c9c694873ff95d683ce3baa4d68d7ff",
+      "size": 5000544,
+      "format": "zip",
+      "binaries": {
+        "rickview": {
+          "path": "rickview-0.5.0-x86_64-unknown-linux-musl/rickview",
+          "sha256": "79524ffb8c82c7481721a2cf386286da92130680303ef49440af348e3c57e8d8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KonradHoeffner/rickview/releases/download/0.5.0/rickview-0.5.0-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "0.5.0",
+      "sha256": "0096b4a0e5acc010d9b634ac8c0e1d88f68744e12ac195404a86c6aca3e94b6b",
+      "size": 4669029,
+      "format": "zip",
+      "binaries": {
+        "rickview": {
+          "path": "rickview-0.5.0-aarch64-unknown-linux-gnu/rickview",
+          "sha256": "d03ba0817df896406ce610400c269468fcf6bca1e74d57d022eb06286719b717"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KonradHoeffner/rickview/releases/download/0.5.0/rickview-0.5.0-x86_64-apple-darwin.zip",
+      "releaseTag": "0.5.0",
+      "sha256": "10bcc7f1a25d29cae4b67fb42981af0339e7de99af413e0bbf5d0967cfc84a30",
+      "size": 4685393,
+      "format": "zip",
+      "binaries": {
+        "rickview": {
+          "path": "rickview-0.5.0-x86_64-apple-darwin/rickview",
+          "sha256": "fe3a63a0d7294b7dfa7c746e61c5606ed563bd09550ee83637bb0c17c6de52a7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KonradHoeffner/rickview/releases/download/0.5.0/rickview-0.5.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.5.0",
+      "sha256": "7041b6d65435bc0fa7d2a5f7c4016cf00817c02c1d67ee6b859be6323757f082",
+      "size": 4634341,
+      "format": "zip",
+      "binaries": {
+        "rickview.exe": {
+          "path": "rickview-0.5.0-x86_64-pc-windows-msvc/rickview.exe",
+          "sha256": "6cffe24ffed3402cd1df3f8bfe1880a9ae05a042db9792f613af6b5c9e2cfa06"
+        }
+      }
+    }
+  }
+}
