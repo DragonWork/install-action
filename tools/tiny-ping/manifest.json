@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tiny-ping",
+  "version": "0.7.1",
+  "repository": "Fierthraix/tiny-ping",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Fierthraix/tiny-ping/releases/download/v0.7.1/tiny-ping-0.7.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "20ccd20a443102443fbd85c592174fa6a1b5f8bdf856b3cec928a0c031bd5f9b",
+      "size": 268190,
+      "format": "tar.gz",
+      "binaries": {
+        "tiny-ping": {
+          "path": "tiny-ping-0.7.1-x86_64-unknown-linux-gnu/tiny-ping",
+          "sha256": "eacade351d720c257e4e1ce1873c02f752da8c5ffd6ec458f404e3d562e727f1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Fierthraix/tiny-ping/releases/download/v0.7.1/tiny-ping-0.7.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "ecabe246737d54d05c78e90c363273fe4232bdcc91fcc202c419b74772d485a1",
+      "size": 262836,
+      "format": "tar.gz",
+      "binaries": {
+        "tiny-ping": {
+          "path": "tiny-ping-0.7.1-aarch64-unknown-linux-gnu/tiny-ping",
+          "sha256": "227333dd7e8d9e3ac851c6a466f7222ea1ad7b3ec3227cf1dfa4a77419e5cf2b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Fierthraix/tiny-ping/releases/download/v0.7.1/tiny-ping-0.7.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "ed2b06bc8fab6f15160b04fbc89c3c83477e7a3818236dd93f70a237cff7b48b",
+      "size": 278882,
+      "format": "tar.gz",
+      "binaries": {
+        "tiny-ping": {
+          "path": "tiny-ping-0.7.1-x86_64-apple-darwin/tiny-ping",
+          "sha256": "cb8708f1041ccf15a649f2304c32ab0553a8655ef1bed605df5e13d74a9ee79b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Fierthraix/tiny-ping/releases/download/v0.7.1/tiny-ping-0.7.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "311e4a6be09940eb640eb8d9ed200add38fe64efb9f6f00d3c2f360f2df4ca62",
+      "size": 281505,
+      "format": "tar.gz",
+      "binaries": {
+        "tiny-ping": {
+          "path": "tiny-ping-0.7.1-aarch64-apple-darwin/tiny-ping",
+          "sha256": "26bf1fd54ce1732de2badca2ae759e93bfafa8958de253fb0b6c89dad7495a61"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Fierthraix/tiny-ping/releases/download/v0.7.1/tiny-ping-0.7.1-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "e03808f05ff9ea7f14e4be2eaca2de60db9e0cc5479af285c52f28b24dd65e64",
+      "size": 600065,
+      "format": "zip",
+      "binaries": {
+        "tiny-ping.exe": {
+          "path": "tiny-ping-0.7.1-x86_64-pc-windows-gnu/tiny-ping.exe",
+          "sha256": "82609838143ee93a4d7a564996a44b729e44841cb7f1908069dc507f4bd36c19"
+        }
+      }
+    }
+  }
+}
