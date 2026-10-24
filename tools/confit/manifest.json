@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "confit",
+  "version": "1.3.2",
+  "repository": "nyarly/confit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nyarly/confit/releases/download/1.3.2/confit-1.3.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.3.2",
+      "sha256": "c21efe4242e1238317d08656799508a4cdf0a9bfa4c21ea62e330fee268eb6e3",
+      "size": 2795344,
+      "format": "tar.gz",
+      "binaries": {
+        "confit": {
+          "path": "confit-1.3.2-x86_64-unknown-linux-musl/confit",
+          "sha256": "be50772601aa98f2d066706068bc48e699aa27a13a5698b7fdbe6220e7a5485c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nyarly/confit/releases/download/1.3.2/confit-1.3.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.3.2",
+      "sha256": "7e99707789950086c8b7edba7ef3271911085807948f83da5e03f56485836578",
+      "size": 1867764,
+      "format": "tar.gz",
+      "binaries": {
+        "confit": {
+          "path": "confit-1.3.2-x86_64-apple-darwin/confit",
+          "sha256": "56f2b35ca5d0102e13273ef0af80784676a5b058a5a8e60a0a9e51bb8818c728"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nyarly/confit/releases/download/1.3.2/confit-1.3.2-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "1.3.2",
+      "sha256": "8134a4c7fc4dfa69c654114f8d27a02bae2834cd880c2a3cf4ff4d894141c915",
+      "size": 3838035,
+      "format": "tar.gz",
+      "binaries": {
+        "confit.exe": {
+          "path": "confit-1.3.2-x86_64-pc-windows-gnu/confit.exe",
+          "sha256": "7ca0c27cce48e7985453296c5eb8aad81735bd33858be0901f68dea5599603d9"
+        }
+      }
+    }
+  }
+}
