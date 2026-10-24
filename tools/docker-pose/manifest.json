@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "docker-pose",
+  "version": "0.5.0",
+  "repository": "mrsarm/pose",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mrsarm/pose/releases/download/0.5.0/pose-0.5.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.5.0",
+      "sha256": "877f6c956cc222e68e6948cddf31723e9c9de499dd8edcd5b547637d2324e485",
+      "size": 2633701,
+      "format": "tar.gz",
+      "binaries": {
+        "pose": {
+          "path": "pose",
+          "sha256": "a1e3d7c3776fc005ad76537b80b6ba94a77652cbe5dcd036a6eb3c1207f490ad"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mrsarm/pose/releases/download/0.5.0/pose-0.5.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.5.0",
+      "sha256": "2f18a70ff32980809dda4344506abc2401b1b45fc4a67e856fb8cb78681bbeab",
+      "size": 2284329,
+      "format": "tar.gz",
+      "binaries": {
+        "pose": {
+          "path": "pose",
+          "sha256": "022f468474b155d6f3d4ab65423ee2397cc8a2e83bf85a2822ccdcced5b062a6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mrsarm/pose/releases/download/0.5.0/pose-0.5.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.5.0",
+      "sha256": "028ebac8f198274ded25d6818eea36f926ed70ad44a5c72867d119f6695674e8",
+      "size": 2436896,
+      "format": "tar.gz",
+      "binaries": {
+        "pose": {
+          "path": "pose",
+          "sha256": "3da8dbbc56231876eafd8db1b78ce55aebb4cc0676b89c66ddfe63c5503601f6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mrsarm/pose/releases/download/0.5.0/pose-0.5.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.5.0",
+      "sha256": "ffe25dc06074cb43bb1eff9451d2d8a5757f2f8098c055e2552783faa096d792",
+      "size": 2352980,
+      "format": "tar.gz",
+      "binaries": {
+        "pose": {
+          "path": "pose",
+          "sha256": "aee3305d2ab4ed2cf94ad4fee6bc5b23437f866833234b640cc79f6b540e42d1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mrsarm/pose/releases/download/0.5.0/pose-0.5.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.5.0",
+      "sha256": "5b617a349da1346514be30dc2ce2ea6b0741799ba7ee67e455f80e54380877eb",
+      "size": 2177061,
+      "format": "zip",
+      "binaries": {
+        "pose.exe": {
+          "path": "pose.exe",
+          "sha256": "c0aa42ea9c48834e634fd0bd8c0039a465737f7f3b45a586024597345839c5ca"
+        }
+      }
+    }
+  }
+}
