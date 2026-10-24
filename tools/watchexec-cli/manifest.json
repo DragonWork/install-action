@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "watchexec-cli",
+  "version": "2.8.0",
+  "repository": "watchexec/watchexec",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v2.8.0",
+      "sha256": "35ea667cbe4bc96c23ba2a1f46c94c46bc385b67165e3bf621c0e7e4959aa99b",
+      "size": 3068756,
+      "format": "tar.xz",
+      "binaries": {
+        "watchexec": {
+          "path": "watchexec-2.8.0-x86_64-unknown-linux-musl/watchexec",
+          "sha256": "74c1004a62052b3785ab1267a2270671185d16f33e60d092c4e1c4f41678e0c2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v2.8.0",
+      "sha256": "3961878b21e3c1729279322f4007dd5bbf0032110fbcb5e7b983946a9ceb3bf6",
+      "size": 2608148,
+      "format": "tar.xz",
+      "binaries": {
+        "watchexec": {
+          "path": "watchexec-2.8.0-aarch64-unknown-linux-musl/watchexec",
+          "sha256": "9a8c8fc90e9d6a44814ca86d1401f5d3dcf8ab984bcecfb2f29c84dae304a3c3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v2.8.0",
+      "sha256": "b7f694ad19c1cf168388f3295a5e825425f7dac5cd27cffd2d89a51ed4ab0f22",
+      "size": 2441852,
+      "format": "tar.xz",
+      "binaries": {
+        "watchexec": {
+          "path": "watchexec-2.8.0-x86_64-apple-darwin/watchexec",
+          "sha256": "ee3e1fc92044e9808c39556c65be59ce25d134fa3c24f55a0452c121d2a35cca"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2.8.0",
+      "sha256": "8da8bdbfb8568138616a082c05a87224e08d5cb2994feb956426291cf0c6fe10",
+      "size": 2069904,
+      "format": "tar.xz",
+      "binaries": {
+        "watchexec": {
+          "path": "watchexec-2.8.0-aarch64-apple-darwin/watchexec",
+          "sha256": "bab1509880d6a75677edab406637dc54d6d3a2e5d869fe99c29917851a6ce372"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.8.0",
+      "sha256": "0c872fc18c8e801f21614c6daf2504a5826d5c705bb67f7a583d879f5410d9ea",
+      "size": 3574886,
+      "format": "zip",
+      "binaries": {
+        "watchexec.exe": {
+          "path": "watchexec-2.8.0-x86_64-pc-windows-msvc/watchexec.exe",
+          "sha256": "0a362aa3bb944337f9d2e8d37f8a4fdc4aba2f3a6d83e5d69df43a7eedfbfd14"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v2.8.0",
+      "sha256": "a000915bba72226fc9cebb028f28fb407a333cafcb99856428e79555eab483af",
+      "size": 3238522,
+      "format": "zip",
+      "binaries": {
+        "watchexec.exe": {
+          "path": "watchexec-2.8.0-aarch64-pc-windows-msvc/watchexec.exe",
+          "sha256": "612674865cd62e0efedc7b557bb7b148e02e4b09f4e8ea60ecc931c10d7800ef"
+        }
+      }
+    }
+  }
+}
