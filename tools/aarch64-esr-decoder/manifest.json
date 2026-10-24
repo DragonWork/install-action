@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "aarch64-esr-decoder",
+  "version": "0.2.5",
+  "repository": "google/aarch64-esr-decoder",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/google/aarch64-esr-decoder/releases/download/0.2.5/aarch64-esr-decoder_0.2.5-1_amd64.deb",
+      "sha256": "a218c9a0cd72539c9b1c037de648c1a5a38f17fd8875926cf4da3382bca8b87f",
+      "size": 185368,
+      "format": "deb",
+      "releaseTag": "0.2.5",
+      "binaries": {
+        "aarch64-esr-decoder": {
+          "path": "./usr/bin/aarch64-esr-decoder",
+          "sha256": "3fb61e11ad60ba4b07227d1954cb9d437298449cbb524c10f2d367a796e9649b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/google/aarch64-esr-decoder/releases/download/0.2.5/aarch64-esr-decoder_0.2.5-1_arm64.deb",
+      "sha256": "d3f0f316feb694880511d13e01ea17d5a1ee221445e655aa7a12a6467d622c5b",
+      "size": 161912,
+      "format": "deb",
+      "releaseTag": "0.2.5",
+      "binaries": {
+        "aarch64-esr-decoder": {
+          "path": "./usr/bin/aarch64-esr-decoder",
+          "sha256": "3cac4530dc72a06aaee36d5643e1132a17a3ffbd24da2a07b88861f44898ae4e"
+        }
+      }
+    }
+  }
+}
