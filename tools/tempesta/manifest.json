@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tempesta",
+  "version": "0.4.3",
+  "repository": "x71c9/tempesta",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/x71c9/tempesta/releases/download/v0.4.3/tempesta-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "8c37f7726a5f738b4776b45e6ad88c9c4dc21ba74a480275fded17209874a77d",
+      "size": 1441051,
+      "format": "tar.gz",
+      "binaries": {
+        "tempesta": {
+          "path": "tempesta",
+          "sha256": "6084e45ca4301e77a6f5f4b3afd5e3acac93a31ab6983a5f391d53afef895724"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/x71c9/tempesta/releases/download/v0.4.3/tempesta-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "d14180633c961bdd57f3dd0c891ceffa540f8480130f6a3e13d1a7558a0af70c",
+      "size": 1327559,
+      "format": "tar.gz",
+      "binaries": {
+        "tempesta": {
+          "path": "tempesta",
+          "sha256": "30695b3716789f5f2b12f05c9042fb048cfe925ec29a0036afda1ba005aec761"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/x71c9/tempesta/releases/download/v0.4.3/tempesta-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "a72e8b0c87c42aadf1ab54f5d8e16aa92c7cd9497f1bbc7d86b1343c15c0eefc",
+      "size": 1254788,
+      "format": "tar.gz",
+      "binaries": {
+        "tempesta": {
+          "path": "tempesta",
+          "sha256": "09a71f69fbdc65fc0071fe485fac7ba3758852bd3cfd0512c24ca76437a86e5a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/x71c9/tempesta/releases/download/v0.4.3/tempesta-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "7964bd300c2bddf09fa8a514bdee989e3fa97bf8fbd57ee87d3dd60caa02145f",
+      "size": 1192304,
+      "format": "tar.gz",
+      "binaries": {
+        "tempesta": {
+          "path": "tempesta",
+          "sha256": "297bbcaaa810754bc2b4b759d7fe53310559cb8a9d1df1ab6ec160d20d308d2a"
+        }
+      }
+    }
+  }
+}
