@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "name": "flawz",
+  "version": "0.4.1",
+  "repository": "orhun/flawz",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/orhun/flawz/releases/download/v0.4.1/flawz-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.1",
+      "sha256": "f714a83fd235de9646a25822cba249178e16cae2e0296d347b3f864e6bd000f2",
+      "size": 1776336,
+      "format": "tar.xz",
+      "binaries": {
+        "flawz": {
+          "path": "flawz-x86_64-apple-darwin/flawz",
+          "sha256": "a300f50181ce82b5420422aec93a36b26de8b68b7c0412dd6415730b24b8d91c"
+        },
+        "flawz-completions": {
+          "path": "flawz-x86_64-apple-darwin/flawz-completions",
+          "sha256": "d7c41c7e825a66f60ef958a8e992f0a41fb1f3145522816050a297263cb72e4b"
+        },
+        "flawz-mangen": {
+          "path": "flawz-x86_64-apple-darwin/flawz-mangen",
+          "sha256": "5bb9a29e3300bb14cf5ccecaa98908106df3124d081571579198cae3c6c08e30"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/orhun/flawz/releases/download/v0.4.1/flawz-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.1",
+      "sha256": "a7741e8210db3c3c1a5d645cdedaf7d35c4ae0ac082b3b556e878be98cc15c92",
+      "size": 1593572,
+      "format": "tar.xz",
+      "binaries": {
+        "flawz": {
+          "path": "flawz-aarch64-apple-darwin/flawz",
+          "sha256": "f8488186868007151b119204917308b6ffd0933280b80894fe7a49767c045b81"
+        },
+        "flawz-completions": {
+          "path": "flawz-aarch64-apple-darwin/flawz-completions",
+          "sha256": "9c7925048973a567afdfc3153919d5556dbc4e771cfdaac61bef7135dadb4cce"
+        },
+        "flawz-mangen": {
+          "path": "flawz-aarch64-apple-darwin/flawz-mangen",
+          "sha256": "754f04fa1fb1125ec2b66081297f7f97ed47c8037c28da74bcaf11aa06299a5d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orhun/flawz/releases/download/v0.4.1/flawz-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.1",
+      "sha256": "06211cd87e3159955f01628a9494250f9f32154dd78759d77e8ba76cc3f11f99",
+      "size": 3598454,
+      "format": "zip",
+      "binaries": {
+        "flawz.exe": {
+          "path": "flawz.exe",
+          "sha256": "8b67121de89dadf541d002d87963921e58fa13a743048669bf535c3f137ae5da"
+        },
+        "flawz-completions.exe": {
+          "path": "flawz-completions.exe",
+          "sha256": "ecce6095b9c2e274ea1f74952d3953fa677d64d0e598f8af1289b7279cbdfb76"
+        },
+        "flawz-mangen.exe": {
+          "path": "flawz-mangen.exe",
+          "sha256": "d19f5525bf3cc79deb127c07f801d22586089079a3ad5f9bdb824e3000b90a2a"
+        }
+      }
+    }
+  }
+}
