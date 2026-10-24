@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "speedtest-rs",
+  "version": "0.2.0",
+  "repository": "nelsonjchen/speedtest-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nelsonjchen/speedtest-rs/releases/download/v0.2.0/speedtest-rs-linux-x86_64.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "436032ff77846ff8c0001adb90d167861321e10b43f72a93549216cbe7118122",
+      "size": 3199644,
+      "format": "tar.gz",
+      "binaries": {
+        "speedtest-rs": {
+          "path": "speedtest-rs",
+          "sha256": "262d22929914639b62973897424d1a8bc0fa9f7fd8165346df07b119f9f94e53"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nelsonjchen/speedtest-rs/releases/download/v0.2.0/speedtest-rs-windows-x86_64.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "e4a99286e906d9d744aad7a1860658ef4f27a6404fc031ded7eb63b0ad81da91",
+      "size": 2552802,
+      "format": "zip",
+      "binaries": {
+        "speedtest-rs.exe": {
+          "path": "speedtest-rs.exe",
+          "sha256": "80a2a0652eb682a5a593d55af1852ca34ee7f90b4940ebd9bf977e72ad714a3c"
+        }
+      }
+    }
+  }
+}
