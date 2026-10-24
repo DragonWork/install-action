@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "protols",
+  "version": "0.14.1",
+  "repository": "coder3101/protols",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/coder3101/protols/releases/download/0.14.1/protols-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.14.1",
+      "sha256": "722f844f46a3b07b1d6d8b75c25a04475cab9022f5d933b3fb646c5a69f8cc5d",
+      "size": 1914663,
+      "format": "tar.gz",
+      "binaries": {
+        "protols": {
+          "path": "protols",
+          "sha256": "7c461f6f1510f2a3bf12d8985eb8aa599b8c3a19cd704c1571ced58494887815"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/coder3101/protols/releases/download/0.14.1/protols-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.14.1",
+      "sha256": "0e9ce291a05d5d89286689e9013111a4ce91f5f20b694e96e3862abf9f4669dd",
+      "size": 1822218,
+      "format": "tar.gz",
+      "binaries": {
+        "protols": {
+          "path": "protols",
+          "sha256": "6fd5a0d76df4fa30f4f4e223cc3292f6ce2d4fba6c76c25857ae9eef665963ed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/coder3101/protols/releases/download/0.14.1/protols-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.14.1",
+      "sha256": "b568d90b8cad304ca82d9a50ae23b3834f4ef5d742d71aee8fc8149a31aa8589",
+      "size": 1835381,
+      "format": "tar.gz",
+      "binaries": {
+        "protols": {
+          "path": "protols",
+          "sha256": "2e2f763f887110e685d9fb9522e0bd3bd23d751c06c31cf527a9a1c88498c4b3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/coder3101/protols/releases/download/0.14.1/protols-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.14.1",
+      "sha256": "1d1345864055fac1cbdfc1f38bc60b417d925649f710fb5c628e93168f8bde81",
+      "size": 1737496,
+      "format": "tar.gz",
+      "binaries": {
+        "protols": {
+          "path": "protols",
+          "sha256": "6260e1d187dca1c88108fa90a332874977e9059f466276974b03f19a66c9e794"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/coder3101/protols/releases/download/0.14.1/protols-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.14.1",
+      "sha256": "e8b185abf56c813a44521df3045ae0893a1ff7608fa8735769e50bc3b4fb8b5a",
+      "size": 1756261,
+      "format": "zip",
+      "binaries": {
+        "protols.exe": {
+          "path": "protols.exe",
+          "sha256": "dcc72168ac51442fe65431b97e38e30937d221db1688a9f068fa23c7cc2a17ae"
+        }
+      }
+    }
+  }
+}
