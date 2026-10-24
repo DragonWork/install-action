@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "forc-index",
+  "version": "0.25.0",
+  "repository": "FuelLabs/fuel-indexer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/forc-index-0.25.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "035ef67ec2b10c5c627c0d1b5b10c47ddc21dc23e34e6b37b2f3e4d8934ed1d0",
+      "size": 5730989,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-index": {
+          "path": "forc-index-0.25.0-x86_64-unknown-linux-gnu/forc-index",
+          "sha256": "74baf31fd1375c182c0dfd1cb866a32813721d96062af0246bb4e96f34e1b7b4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/forc-index-0.25.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "14345cdbab67e24226626fe17fd5fee9e6a817a0d979ef3adee7c2dc9b1ad7af",
+      "size": 5826336,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-index": {
+          "path": "forc-index-0.25.0-aarch64-unknown-linux-gnu/forc-index",
+          "sha256": "976a375ae9d62179b9e2d99bf070504a27088b549c00ed4266a5320e723f7850"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/forc-index-0.25.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "a57e355c71250d928183472172dd5ccb6c7ecc1b863ba12ef0c988497e655d0a",
+      "size": 3675975,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-index": {
+          "path": "forc-index-0.25.0-x86_64-apple-darwin/forc-index",
+          "sha256": "5947bb25aec9e6235c9c9bcddf3e004ff89aff1faa9b0a6f1c8964a86fe2ac39"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/forc-index-0.25.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "62fbce45705acd508a73042588c116ffe745bd250390335425c31bee167875fb",
+      "size": 3370081,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-index": {
+          "path": "forc-index-0.25.0-aarch64-apple-darwin/forc-index",
+          "sha256": "cafea20514f50d9c17d3b2f849caa31381a98254d9b1bd5128fcf3947b64cac1"
+        }
+      }
+    }
+  }
+}
