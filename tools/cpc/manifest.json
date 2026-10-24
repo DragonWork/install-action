@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cpc",
+  "version": "5.0.0",
+  "repository": "kasper9n/cpc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kasper9n/cpc/releases/download/v5.0.0/cpc-v5.0.0-linux-x64.zip",
+      "releaseTag": "v5.0.0",
+      "sha256": "3edbfd0c39a418ab40f8b09f5af2639332ae52321b77d4be4677e19260016ca3",
+      "size": 2702977,
+      "format": "zip",
+      "binaries": {
+        "cpc": {
+          "path": "cpc",
+          "sha256": "6a85a5b47498854ca52405ffa833af5f41a4f61c3c877fe880f3c30fe2b6e4a2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kasper9n/cpc/releases/download/v5.0.0/cpc-v5.0.0-linux-aarch64.zip",
+      "releaseTag": "v5.0.0",
+      "sha256": "3619c94b8906e6493ea93428fad7d1bfd27a75215103962ed352336ffa1cb71e",
+      "size": 2664609,
+      "format": "zip",
+      "binaries": {
+        "cpc": {
+          "path": "cpc",
+          "sha256": "9449017317ca480b3b8da666c7d4d110f0c138e45c75fb01300c7d1fb157383c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kasper9n/cpc/releases/download/v5.0.0/cpc-v5.0.0-macos-x64.zip",
+      "releaseTag": "v5.0.0",
+      "sha256": "c12f6414372a1afd818420541ff95429a8b3d98ba21340148a50b3e2b2a282d2",
+      "size": 2564217,
+      "format": "zip",
+      "binaries": {
+        "cpc": {
+          "path": "cpc",
+          "sha256": "6d7d42e7d52c9fa990a5a5c1da1b1c88d37be76d52862735f35d68d904f0237f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kasper9n/cpc/releases/download/v5.0.0/cpc-v5.0.0-macos-aarch64.zip",
+      "releaseTag": "v5.0.0",
+      "sha256": "4a7f9cc042b9bb0f0656bbc45bf1ddda6b07de2ca84f0f762a4163df4e2a22c3",
+      "size": 2501309,
+      "format": "zip",
+      "binaries": {
+        "cpc": {
+          "path": "cpc",
+          "sha256": "7d41b86d7bfdc33735bbab29f6312f34198cc5664e79e06a4a65cf0bbfb6da50"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kasper9n/cpc/releases/download/v5.0.0/cpc-v5.0.0-windows-x64.zip",
+      "releaseTag": "v5.0.0",
+      "sha256": "ebc4a49225aa6c0f8e01eaa886a0e751e05c7d832194c161105a9e03eacfd324",
+      "size": 2488091,
+      "format": "zip",
+      "binaries": {
+        "cpc.exe": {
+          "path": "cpc.exe",
+          "sha256": "3dde9eb4fead8b3c2065bed79ded90ede65271270a3ab7eae4a58ab475d14914"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/kasper9n/cpc/releases/download/v5.0.0/cpc-v5.0.0-windows-aarch64.zip",
+      "releaseTag": "v5.0.0",
+      "sha256": "272442b83a38809c3d78aa6bb3bbb758731fcd01409a37e9d6ab529ac61169ea",
+      "size": 2016368,
+      "format": "zip",
+      "binaries": {
+        "cpc.exe": {
+          "path": "cpc.exe",
+          "sha256": "59aabc3e9948e7a4210ea2d2b79c0958263827ba8370b2b306152cd016650d6d"
+        }
+      }
+    }
+  }
+}
