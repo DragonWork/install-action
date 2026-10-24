@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "kibi",
+  "version": "0.3.3",
+  "repository": "ilai-deutel/kibi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "04e8c9c1deb404316a311929e8a32d5a9a531800f3a95a8cc0bfeccf33946212",
+      "size": 265921,
+      "format": "tar.gz",
+      "binaries": {
+        "kibi": {
+          "path": "kibi-v0.3.3-x86_64-unknown-linux-musl/kibi",
+          "sha256": "d61d744c40888fc8501a9c055affbdd92f6e560a701284c969e442746a9c7c61"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "3a919c30cb13bd1d45886fcbb5aa99e26ab8c0d452081fe8deba0c3a158af96e",
+      "size": 243525,
+      "format": "tar.gz",
+      "binaries": {
+        "kibi": {
+          "path": "kibi-v0.3.3-aarch64-unknown-linux-musl/kibi",
+          "sha256": "169967f2d8dba72598c51a4117b59bb281055316a355a234aa11866d5623009c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "71f124685ec22826e9dd742a568580ba8d4a85386d3f7a11e1bf0faaab9dc24e",
+      "size": 262516,
+      "format": "tar.gz",
+      "binaries": {
+        "kibi": {
+          "path": "kibi-v0.3.3-x86_64-apple-darwin/kibi",
+          "sha256": "6dd01c4b7b64f365740c7101ef37f902ab88e33f42fcba9056e391da9d153abc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "5bbccef73b5a4939bc02c4576e97bb31a4e74ad7c1e9eb541f8b9caf04cd218d",
+      "size": 246098,
+      "format": "tar.gz",
+      "binaries": {
+        "kibi": {
+          "path": "kibi-v0.3.3-aarch64-apple-darwin/kibi",
+          "sha256": "a17b4591b069acea7d72313f3a2120e3d57ad485bc9d648f6420456238258bcd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.3",
+      "sha256": "445668835d0fbbd0b9f014374768990c356914b74778352718fb676703513b42",
+      "size": 192488,
+      "format": "zip",
+      "binaries": {
+        "kibi.exe": {
+          "path": "kibi-v0.3.3-x86_64-pc-windows-msvc/kibi.exe",
+          "sha256": "213ab140faf36ee640803b595791b1065c2820d706ce9ca09685671f2a63cfce"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.3",
+      "sha256": "6a7c58aaa6a2a16a3fcdd405f9b4cd36796c093d45b0f7ff98603bfa5156e8b2",
+      "size": 206179,
+      "format": "zip",
+      "binaries": {
+        "kibi.exe": {
+          "path": "kibi-v0.3.3-aarch64-pc-windows-msvc/kibi.exe",
+          "sha256": "02966fc9d26215f224d38e5f572b89fe76254972150a6706e7e33360a379dca9"
+        }
+      }
+    }
+  }
+}
