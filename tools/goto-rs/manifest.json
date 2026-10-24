@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "goto-rs",
+  "version": "0.3.0",
+  "repository": "slai11/goto",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/slai11/goto/releases/download/v0.3.0/goto-rs-v0.3.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "22f6d6f62f2acf58265fae7560b27bd2125a54bc8756ae9fb2831d2fc86e91b2",
+      "size": 448765,
+      "format": "tar.gz",
+      "binaries": {
+        "goto-rs": {
+          "path": "goto-rs-v0.3.0-x86_64-unknown-linux-musl/goto-rs",
+          "sha256": "994da8aa4f2a1ce544f45ecd97e031c13bbcfba72c40d97c1789811172e65b46"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/slai11/goto/releases/download/v0.3.0/goto-rs-v0.3.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "b903f79853eacf38e514d1608a807fe74927d13f558db7d7cacf388d77ce9d3c",
+      "size": 362125,
+      "format": "tar.gz",
+      "binaries": {
+        "goto-rs": {
+          "path": "goto-rs-v0.3.0-x86_64-apple-darwin/goto-rs",
+          "sha256": "0b2cfb1285e943c6b9611e7ea544480f834a66d718f61757feec8b1781f80358"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/slai11/goto/releases/download/v0.3.0/goto-rs-v0.3.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "fbcdabde0b8d15a9e6c5764a30e7e3c098fa26c6056058134844b2369eda59a0",
+      "size": 358181,
+      "format": "zip",
+      "binaries": {
+        "goto-rs.exe": {
+          "path": "goto-rs-v0.3.0-x86_64-pc-windows-msvc/goto-rs.exe",
+          "sha256": "ee36e82dacd34e75f235553dd04812646f895a9251977ba4ab80986d2bf746ee"
+        }
+      }
+    }
+  }
+}
