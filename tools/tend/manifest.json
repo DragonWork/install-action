@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "tend",
+  "version": "1.0.1",
+  "repository": "lkurcak/tend",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lkurcak/tend/releases/download/v1.0.1/tend-v1.0.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "8f0c2adb285d93788aa482396383ce8a676e1c9272383c7a2c3d15df74fed2f2",
+      "size": 621363,
+      "format": "tar.gz",
+      "binaries": {
+        "tend": {
+          "path": "tend-v1.0.1-x86_64-unknown-linux-musl/tend",
+          "sha256": "97e0c426a71e0dd86c98604f0994d4800b107c545d438ceff202c0d0ccc2222f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lkurcak/tend/releases/download/v1.0.1/tend-v1.0.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "b7b06181668acacbde2fb162e6059aec99f43ff8e4e442d41fd5de20f5b968d9",
+      "size": 621362,
+      "format": "tar.gz",
+      "binaries": {
+        "tend": {
+          "path": "tend-v1.0.1-aarch64-unknown-linux-gnu/tend",
+          "sha256": "97e0c426a71e0dd86c98604f0994d4800b107c545d438ceff202c0d0ccc2222f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lkurcak/tend/releases/download/v1.0.1/tend-v1.0.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "8863329037aa4d414c51ffc403144464ced5f6abbd3d562fdf211c997251eb78",
+      "size": 533166,
+      "format": "tar.gz",
+      "binaries": {
+        "tend": {
+          "path": "tend-v1.0.1-x86_64-apple-darwin/tend",
+          "sha256": "300f69dbf468717ad5f622bbac86bee1f840e1c28a3b1b9c559bb41626c8e300"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lkurcak/tend/releases/download/v1.0.1/tend-v1.0.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "0e73a8b4982aa5a8d32db6f2d1e146a61d1b2d04f02fd2f95e19d8ed5e4b15ea",
+      "size": 533168,
+      "format": "tar.gz",
+      "binaries": {
+        "tend": {
+          "path": "tend-v1.0.1-aarch64-apple-darwin/tend",
+          "sha256": "300f69dbf468717ad5f622bbac86bee1f840e1c28a3b1b9c559bb41626c8e300"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lkurcak/tend/releases/download/v1.0.1/tend-v1.0.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.1",
+      "sha256": "f33ac31dcf0dc7bfc0bb57a3089dab8c415bf1c9200b5bfde4d40235e23654ff",
+      "size": 581826,
+      "format": "zip",
+      "binaries": {
+        "tend.exe": {
+          "path": "tend.exe",
+          "sha256": "fa36f8c1686a2951fe4dd48bf721baa8df78c603081b9cf6e2ca0e69c1a5ebba"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/lkurcak/tend/releases/download/v1.0.1/tend-v1.0.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.1",
+      "sha256": "5c444f83834a7be7a8e513fad94e437d794885a0a6eee72ccdd14eef76217d0f",
+      "size": 581825,
+      "format": "zip",
+      "binaries": {
+        "tend.exe": {
+          "path": "tend.exe",
+          "sha256": "08328cb9112feccc490789a4cf73fe7849d8f85458c60af5b9cc30ffc965d389"
+        }
+      }
+    }
+  }
+}
