@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "portablemc-cli",
+  "version": "5.0.6",
+  "repository": "theorzr/portablemc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/theorzr/portablemc/releases/download/v5.0.6/portablemc-5.0.6-linux-x86_64-gnu.tar.gz",
+      "releaseTag": "v5.0.6",
+      "sha256": "9b55d0d75b4e5a30d697109869a301009c5927883d34746ce212605e8a61ecad",
+      "size": 3873145,
+      "format": "tar.gz",
+      "binaries": {
+        "portablemc": {
+          "path": "portablemc-5.0.6-linux-x86_64-gnu/portablemc",
+          "sha256": "9bb595854abda8e316742ee99fefe90f87dc7826115bc8b387bad6aeb23295c9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/theorzr/portablemc/releases/download/v5.0.6/portablemc-5.0.6-linux-aarch64-gnu.tar.gz",
+      "releaseTag": "v5.0.6",
+      "sha256": "7be0cd0060d1516b97a6398196a372d5e23f41be2e4a28667c3ddef5b6150c02",
+      "size": 3688076,
+      "format": "tar.gz",
+      "binaries": {
+        "portablemc": {
+          "path": "portablemc-5.0.6-linux-aarch64-gnu/portablemc",
+          "sha256": "d58b332e9d31a04e33c99a93b1679f0da755612da2372baa885b7b527b74bd75"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/theorzr/portablemc/releases/download/v5.0.6/portablemc-5.0.6-macos-x86_64.tar.gz",
+      "releaseTag": "v5.0.6",
+      "sha256": "725fc01f85795882b1231ed0445d866250b4e5bb87f91410fda74562a334f183",
+      "size": 3677313,
+      "format": "tar.gz",
+      "binaries": {
+        "portablemc": {
+          "path": "portablemc-5.0.6-macos-x86_64/portablemc",
+          "sha256": "816e70ce3b8dd26c46157455a3c0f164c1c3bf89f5a9517eaac63361209e8184"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/theorzr/portablemc/releases/download/v5.0.6/portablemc-5.0.6-macos-aarch64.tar.gz",
+      "releaseTag": "v5.0.6",
+      "sha256": "be8c181a0292bce7e61f3de25af1cc17c2a5b75d71b0b7c96af6342ca234037a",
+      "size": 3450365,
+      "format": "tar.gz",
+      "binaries": {
+        "portablemc": {
+          "path": "portablemc-5.0.6-macos-aarch64/portablemc",
+          "sha256": "966b3f3e935d1e7b71bf9cd62c23cfc94232bf51874e9b8fec900b5b03345b9c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/theorzr/portablemc/releases/download/v5.0.6/portablemc-5.0.6-windows-x86_64-msvc.zip",
+      "releaseTag": "v5.0.6",
+      "sha256": "e693a0d05bbf87411ae5c0967e04c2f461ec2005cbbdf6536e4195ff3fafac89",
+      "size": 4361156,
+      "format": "zip",
+      "binaries": {
+        "portablemc.exe": {
+          "path": "portablemc.exe",
+          "sha256": "9a325707f8498e8870b0491b14d078607e9d53f68b7487ef2240a04af5af020e"
+        }
+      }
+    }
+  }
+}
