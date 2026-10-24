@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "fs_rs",
+  "version": "0.5.5",
+  "repository": "akshaybabloo/fs_rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/akshaybabloo/fs_rs/releases/download/0.5.5/fs_rs-linux-amd64.tar.gz",
+      "releaseTag": "0.5.5",
+      "sha256": "e68832993a45965f4c7282341872b90910095a30360099d49c2e1e8e73bf2241",
+      "size": 711082,
+      "format": "tar.gz",
+      "binaries": {
+        "fs_rs": {
+          "path": "fs_rs",
+          "sha256": "b1d22db5a018eddaad6c4e7af6fb0294214120290b8f578cb44b90ff953a8657"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/akshaybabloo/fs_rs/releases/download/0.5.5/fs_rs-linux-arm64.tar.gz",
+      "releaseTag": "0.5.5",
+      "sha256": "cc6d03768620be204f621a2138c834039c1b0f06a242477d1df2780e1b983986",
+      "size": 685866,
+      "format": "tar.gz",
+      "binaries": {
+        "fs_rs": {
+          "path": "fs_rs",
+          "sha256": "a86eda6d88336dfec70f9636a3553012adb0fc02c6ae50df329f4581b90e4743"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/akshaybabloo/fs_rs/releases/download/0.5.5/fs_rs-macos-arm64.tar.gz",
+      "releaseTag": "0.5.5",
+      "sha256": "52537c99e5847687b403c111235f50ee9b68bf5d3dd352bd05d684f515a113b1",
+      "size": 623392,
+      "format": "tar.gz",
+      "binaries": {
+        "fs_rs": {
+          "path": "fs_rs",
+          "sha256": "bf132b631d0991419b9b851398f703f5808374fe53573228579875cdb4c8db23"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/akshaybabloo/fs_rs/releases/download/0.5.5/fs_rs-windows-amd64.zip",
+      "releaseTag": "0.5.5",
+      "sha256": "59d09b53f5daffd76cb5b9c600b87a3ab448bc0e884c2e3773453d35aad5c866",
+      "size": 507712,
+      "format": "zip",
+      "binaries": {
+        "fs_rs.exe": {
+          "path": "fs_rs.exe",
+          "sha256": "b2a4f03e9e24a23169e1f41c60818c8b50a2861eee42f0659328996edb1b8843"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/akshaybabloo/fs_rs/releases/download/0.5.5/fs_rs-windows-arm64.zip",
+      "releaseTag": "0.5.5",
+      "sha256": "06554167275ef26c74e939ec82fbae31ff32c4c4a75b63a6cd1167c5dd9f444a",
+      "size": 485367,
+      "format": "zip",
+      "binaries": {
+        "fs_rs.exe": {
+          "path": "fs_rs.exe",
+          "sha256": "fb1e02353d6fa267e0405256220cf01d7f8bf4de2537f83663a3a3895dbb0304"
+        }
+      }
+    }
+  }
+}
