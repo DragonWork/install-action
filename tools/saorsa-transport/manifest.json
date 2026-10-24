@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "saorsa-transport",
+  "version": "0.38.2",
+  "repository": "WithAutonomi/saorsa-transport",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/WithAutonomi/saorsa-transport/releases/download/v0.38.2/saorsa-transport-x86_64-linux.tar.gz",
+      "sha256": "1c6cefc33e3ce0af5a1816270502246cb7c6155936c482a44f8b4586c3c6682a",
+      "size": 6441281,
+      "format": "tar.gz",
+      "releaseTag": "v0.38.2",
+      "binaries": {
+        "saorsa-transport": {
+          "path": "saorsa-transport",
+          "sha256": "4466e8d9f844558599a08004a6745f35f0cb24d0e0ca2d535c3ce1389bf6f7b5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/WithAutonomi/saorsa-transport/releases/download/v0.38.2/saorsa-transport-aarch64-linux.tar.gz",
+      "sha256": "72b30ed76a3488ffd0d6e50b991cf9961b7fe8061942539a990191e6abadd745",
+      "size": 6075390,
+      "format": "tar.gz",
+      "releaseTag": "v0.38.2",
+      "binaries": {
+        "saorsa-transport": {
+          "path": "saorsa-transport",
+          "sha256": "9fc217978f5e3d4435bf3d46825954d7a3f5ed1c9c763cd071b85f9d79acdfef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/WithAutonomi/saorsa-transport/releases/download/v0.38.2/saorsa-transport-x86_64-macos.tar.gz",
+      "sha256": "da0244a414d533ac2cbb059d960fb445c277d13525c138f81376a60742b49eb3",
+      "size": 6346003,
+      "format": "tar.gz",
+      "releaseTag": "v0.38.2",
+      "binaries": {
+        "saorsa-transport": {
+          "path": "saorsa-transport",
+          "sha256": "191b30f30b553742a40ad7f9bdf3b5ebae02e014c34b577467ada86232475cb0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/WithAutonomi/saorsa-transport/releases/download/v0.38.2/saorsa-transport-aarch64-macos.tar.gz",
+      "sha256": "2416e1214e0476c297ddac1ae36a2df1d116962c2e8c52f8c15a762a921b3999",
+      "size": 5898898,
+      "format": "tar.gz",
+      "releaseTag": "v0.38.2",
+      "binaries": {
+        "saorsa-transport": {
+          "path": "saorsa-transport",
+          "sha256": "d9d151bb46943bd094a18b4c217a56998021892f959e27941dcccdc728b77260"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/WithAutonomi/saorsa-transport/releases/download/v0.38.2/saorsa-transport-x86_64-windows.zip",
+      "sha256": "7ad2ff10565307216a29e91ad2b8f32c427a64be0401c252a526f1e7869b73eb",
+      "size": 5888998,
+      "format": "zip",
+      "releaseTag": "v0.38.2",
+      "binaries": {
+        "saorsa-transport.exe": {
+          "path": "saorsa-transport.exe",
+          "sha256": "e38bd3b6ab885dd38de76e0b62d89b7a0924430f4efcdaf68a4dbffc60bacd02"
+        }
+      }
+    }
+  }
+}
