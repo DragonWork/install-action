@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "germinate",
+  "version": "0.7.0",
+  "repository": "itmecho/germinate",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/itmecho/germinate/releases/download/0.7.0/germinate-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.7.0",
+      "sha256": "0f4c72f6351f403923bc656265da94c0139e156e7898adab2757637e670e6966",
+      "size": 4432769,
+      "format": "tar.gz",
+      "binaries": {
+        "germinate": {
+          "path": "germinate",
+          "sha256": "fcf9e38e923d79699294c11aedf573a7d216410ce39cb5264a5d889339724337"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/itmecho/germinate/releases/download/0.7.0/germinate-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.7.0",
+      "sha256": "edb4bcb4504edc3000a2de3d645ce4ab919d11f998e103433828b4b44bacf07f",
+      "size": 2664132,
+      "format": "tar.gz",
+      "binaries": {
+        "germinate": {
+          "path": "germinate",
+          "sha256": "220dcc0faa38de6b09f5bcf3dbd400f8f6d1de142e509b94cc7303ee674acebe"
+        }
+      }
+    }
+  }
+}
