@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "os-checker",
+  "version": "0.8.1",
+  "repository": "os-checker/os-checker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/os-checker/os-checker/releases/download/v0.8.1/os-checker-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.1",
+      "sha256": "122aee6ac9fa9e8e707d05fb9cac4b53e0fcfc45cb3f28211bf2266fe93a5efd",
+      "size": 2630100,
+      "format": "tar.xz",
+      "binaries": {
+        "os-checker": {
+          "path": "os-checker-x86_64-unknown-linux-gnu/os-checker",
+          "sha256": "6530ca7992a920dc355cf756b7e49f8f70bb408f3466aaf518b23065fae6610b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/os-checker/os-checker/releases/download/v0.8.1/os-checker-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.1",
+      "sha256": "9635c9c858412fb42121dbb0cc67c47ffdaafeb2e5b1a656134a1e019d9529e0",
+      "size": 2409844,
+      "format": "tar.xz",
+      "binaries": {
+        "os-checker": {
+          "path": "os-checker-aarch64-unknown-linux-gnu/os-checker",
+          "sha256": "9697b75c4a6416fb0a18e161c3514f710a3bd21fdef6e1d4cc511084b5564b45"
+        }
+      }
+    }
+  }
+}
