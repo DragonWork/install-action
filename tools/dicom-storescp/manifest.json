@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dicom-storescp",
+  "version": "0.10.0",
+  "repository": "Enet4/dicom-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Enet4/dicom-rs/releases/download/v0.10.0/dicom-rs-tools-v0.10.0-x86_64-linux-musl.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "5045570c6605feaefd2455eac0230c17abf4a1fafeb4d9f4bf1f20bfd0b55c3a",
+      "size": 33543565,
+      "format": "zip",
+      "binaries": {
+        "dicom-storescp": {
+          "path": "dicom-storescp",
+          "sha256": "a70df76b37c566a54c94e56b9a7dae859b49e7b6530b5bce009ca7807a2b50ef"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Enet4/dicom-rs/releases/download/v0.10.0/dicom-rs-tools-v0.10.0-x86_64-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "d22dd9e3644d6f8c84a156b176253660e449b91ab7f6db6114b99c1c58955250",
+      "size": 27221792,
+      "format": "zip",
+      "binaries": {
+        "dicom-storescp.exe": {
+          "path": "dicom-storescp.exe",
+          "sha256": "43954e17f6de98003566b943d1a749252ab9bfca6f2d58dd68774be9236350da"
+        }
+      }
+    }
+  }
+}
