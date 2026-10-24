@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cfn-guard",
+  "version": "3.2.1",
+  "repository": "aws-cloudformation/cloudformation-guard",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aws-cloudformation/cloudformation-guard/releases/download/3.2.1/cfn-guard-v3-x86_64-linux-latest.tar.gz",
+      "releaseTag": "3.2.1",
+      "sha256": "8c66efb19c63e6c2bf26b9a41bbcf2f85baa8a937b01d350940194faaf64cf1d",
+      "size": 3365672,
+      "format": "tar.gz",
+      "binaries": {
+        "cfn-guard": {
+          "path": "cfn-guard-v3-x86_64-linux-latest/cfn-guard",
+          "sha256": "75109d136e80060bee5572a23d0c1110949c02a8cebb2a56284866ab906b3978"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/aws-cloudformation/cloudformation-guard/releases/download/3.2.1/cfn-guard-v3-aarch64-linux-latest.tar.gz",
+      "releaseTag": "3.2.1",
+      "sha256": "cd378026dad0f865926ab1d1c082e2faf825f7fd888a9fe6b5c142cdf175c129",
+      "size": 3257741,
+      "format": "tar.gz",
+      "binaries": {
+        "cfn-guard": {
+          "path": "cfn-guard-v3-aarch64-linux-latest/cfn-guard",
+          "sha256": "9f8d9a7bc483b39468595b91e99369e8bdbfb12160182a2e2c64ba758892bb79"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aws-cloudformation/cloudformation-guard/releases/download/3.2.1/cfn-guard-v3-x86_64-macos-latest.tar.gz",
+      "releaseTag": "3.2.1",
+      "sha256": "5089dfaa05a766cf118a020518e62f77eddbd43acf3a0b69d36b23175c6c6fda",
+      "size": 2327193,
+      "format": "tar.gz",
+      "binaries": {
+        "cfn-guard": {
+          "path": "cfn-guard-v3-x86_64-macos-latest/cfn-guard",
+          "sha256": "d4e79468a54262b4bf4e963da661bb0e610db9ffb97f378c3588e8d57c2a5e7d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aws-cloudformation/cloudformation-guard/releases/download/3.2.1/cfn-guard-v3-aarch64-macos-latest.tar.gz",
+      "releaseTag": "3.2.1",
+      "sha256": "4c1eb10c061731159eaaf0e7dbd465db9fa4b767b82186a4ab489671cc00b7d0",
+      "size": 2220260,
+      "format": "tar.gz",
+      "binaries": {
+        "cfn-guard": {
+          "path": "cfn-guard-v3-aarch64-macos-latest/cfn-guard",
+          "sha256": "09601e53649b8ca352800d0578e1c810a322a38d8c75fa7b8cbdbfb0c7e32be3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aws-cloudformation/cloudformation-guard/releases/download/3.2.1/cfn-guard-v3-x86_64-windows-latest.tar.gz",
+      "releaseTag": "3.2.1",
+      "sha256": "52af28c02081f1067c6710c08619d359899734ec59d51f17f68e1b4b396a1203",
+      "size": 2070728,
+      "format": "tar.gz",
+      "binaries": {
+        "cfn-guard.exe": {
+          "path": "cfn-guard-v3-x86_64-windows-latest/cfn-guard.exe",
+          "sha256": "a8d57b739b6ac02dbf9ab20e3e91d6761abff706eb5ea01674ff430c2aa179f9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/aws-cloudformation/cloudformation-guard/releases/download/3.2.1/cfn-guard-v3-aarch64-windows-latest.tar.gz",
+      "releaseTag": "3.2.1",
+      "sha256": "faa9a14382314cd2c3ce6adc21388e0422280ab33ded3c8b1321877efd761300",
+      "size": 1991523,
+      "format": "tar.gz",
+      "binaries": {
+        "cfn-guard.exe": {
+          "path": "cfn-guard-v3-aarch64-windows-latest/cfn-guard.exe",
+          "sha256": "c163f76f71af20c9437daec7af0ef9705bb2adadeef29bdeacf45938331d5722"
+        }
+      }
+    }
+  }
+}
