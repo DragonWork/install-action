@@ -1,32 +1,45 @@
 {
   "schema": 1,
   "name": "tycho-client",
-  "version": "0.482.0",
+  "version": "0.482.2",
   "repository": "propeller-heads/tycho",
   "artifacts": {
-    "darwin-x64": {
-      "url": "https://github.com/propeller-heads/tycho/releases/download/0.482.0/tycho-client-x86_64-apple-darwin-0.482.0.tar.gz",
-      "releaseTag": "0.482.0",
-      "sha256": "20fb86bbc5312f8fad8009fe07fb25bf001fb933bc3218d6ce08e78d69b7ffab",
-      "size": 5360100,
+    "linux-x64": {
+      "url": "https://github.com/propeller-heads/tycho/releases/download/0.482.2/tycho-client-x86_64-unknown-linux-gnu-0.482.2.tar.gz",
+      "releaseTag": "0.482.2",
+      "sha256": "12b6bd927f8e277c5743dba20253020b9de99f59bf319541de911b64f4261848",
+      "size": 5323618,
       "format": "tar.gz",
       "binaries": {
         "tycho-client": {
           "path": "tycho-client",
-          "sha256": "a1aea810cfddee231060d628092065b6e5fbe03dfa65b50b32473df6ce6f0dc6"
+          "sha256": "0a372860a9b581bce86219b2fed06910631ea246011bfcf6eecc91b854469e72"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/propeller-heads/tycho/releases/download/0.482.2/tycho-client-x86_64-apple-darwin-0.482.2.tar.gz",
+      "releaseTag": "0.482.2",
+      "sha256": "19f48adfe3ccba01688b716864c36e9f608cfced69d8b0ba5d9b9e4107f5f717",
+      "size": 5360267,
+      "format": "tar.gz",
+      "binaries": {
+        "tycho-client": {
+          "path": "tycho-client",
+          "sha256": "e539722b4b134238ee760a6cb865c5fad8865f59e10ce0b987496ad4bc9f44f7"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/propeller-heads/tycho/releases/download/0.482.0/tycho-client-aarch64-apple-darwin-0.482.0.tar.gz",
-      "releaseTag": "0.482.0",
-      "sha256": "1646051457460bbe8fc93b5c3bd4fe555767b2abe05ee9b1bd1462c29d8fff32",
-      "size": 5025724,
+      "url": "https://github.com/propeller-heads/tycho/releases/download/0.482.2/tycho-client-aarch64-apple-darwin-0.482.2.tar.gz",
+      "releaseTag": "0.482.2",
+      "sha256": "69ccae1dfbc33794d75a143c614140430ac8e08147b035f5d2864a6dfe54c531",
+      "size": 5026824,
       "format": "tar.gz",
       "binaries": {
         "tycho-client": {
           "path": "tycho-client",
-          "sha256": "6af5c0a2ae177c4d809c92afd05e62063762bf7658f4a71e20794bef2a214dc9"
+          "sha256": "b83d1ead92920597a64facb4aac53b4ecd86f6d6947fc525b295a2ddd296f625"
         }
       }
     }
