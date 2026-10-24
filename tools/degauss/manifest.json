@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "degauss",
+  "version": "0.1.8",
+  "repository": "vertexclique/degauss",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vertexclique/degauss/releases/download/v0.1.8/degauss-v0.1.8-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "44729d937f0f201c59a9e16a49fdec8aad3f2fb2fd3446bdee6280272bba0738",
+      "size": 2667956,
+      "format": "tar.gz",
+      "binaries": {
+        "degauss": {
+          "path": "degauss-v0.1.8-x86_64-unknown-linux-musl/degauss",
+          "sha256": "dc4e31de7ae10119990e4a473f5baedfae3be1d9cf0044f98e78b0d2da11ad1b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/vertexclique/degauss/releases/download/v0.1.8/degauss-v0.1.8-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "44106d2a4009b43080cd6bb64110bf4d6e557fce9aa86fe4403ea6f236e52123",
+      "size": 2321287,
+      "format": "tar.gz",
+      "binaries": {
+        "degauss": {
+          "path": "degauss-v0.1.8-aarch64-unknown-linux-gnu/degauss",
+          "sha256": "13ec3f7d885a9c59ed73c97644874adae8b6548a2e03e0cc9031c607fc96dcce"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vertexclique/degauss/releases/download/v0.1.8/degauss-v0.1.8-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "abdbe00d0e110e06c7516ad401c1292bc568be9d0d019a4a3faee92fa8c41d1f",
+      "size": 1347336,
+      "format": "tar.gz",
+      "binaries": {
+        "degauss": {
+          "path": "degauss-v0.1.8-x86_64-apple-darwin/degauss",
+          "sha256": "ef84643653a200e05eba81e84a1a1c172a2d9682896d10160b26b9eef325887f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vertexclique/degauss/releases/download/v0.1.8/degauss-v0.1.8-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.8",
+      "sha256": "e53010fed27bbc98cf01233ddfc43f0c7a774528c6bc3f142965c9b662669a7c",
+      "size": 1300303,
+      "format": "zip",
+      "binaries": {
+        "degauss.exe": {
+          "path": "degauss-v0.1.8-x86_64-pc-windows-msvc/degauss.exe",
+          "sha256": "fe75062f62d89a9bd09f740a68e3b3bdbb2d75f31b75623902a1aa1dbba6a0fa"
+        }
+      }
+    }
+  }
+}
