@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "gash",
+  "version": "0.11.0",
+  "repository": "acheronfail/gash",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/acheronfail/gash/releases/download/0.11.0/gash-0.11.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.11.0",
+      "sha256": "85ca8c8bc95be7b801a97d8f060f1149aa23ffc7142a223668370349c5c6ed7e",
+      "size": 848465,
+      "format": "zip",
+      "binaries": {
+        "gash.exe": {
+          "path": "gash.exe",
+          "sha256": "4476d5f5333b9d9e068c7006440f4628a981f4181562f9860a96faba0efdaeea"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/acheronfail/gash/releases/download/0.11.0/gash-0.11.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.11.0",
+      "sha256": "2ace84008a26876bd1ce5c7f15fab4c0bd959e84f68f544d96db8d8e7419e908",
+      "size": 784887,
+      "format": "zip",
+      "binaries": {
+        "gash.exe": {
+          "path": "gash.exe",
+          "sha256": "6454e3afa3d989768feb8d92df900b0651e16faeb50b361e5714ec7b61dbffae"
+        }
+      }
+    }
+  }
+}
