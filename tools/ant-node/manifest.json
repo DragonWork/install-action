@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ant-node",
+  "version": "0.23.1",
+  "repository": "WithAutonomi/ant-node",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/WithAutonomi/ant-node/releases/download/v0.23.1/ant-node-cli-linux-x64.tar.gz",
+      "sha256": "12bd20488c2a8eb4d8107046e6e37e4afb2158a446cc8c15bdfd8645065cd687",
+      "size": 10879531,
+      "format": "tar.gz",
+      "releaseTag": "v0.23.1",
+      "binaries": {
+        "ant-node": {
+          "path": "ant-node",
+          "sha256": "a68cb786f3d4b9cf615285fd51356e8f1d1eef4e18e45f2c73adf0d7c84faf40"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/WithAutonomi/ant-node/releases/download/v0.23.1/ant-node-cli-linux-arm64.tar.gz",
+      "sha256": "4cd7ca866f667332ac785b8fed0af10e78fae1920814c237fc22b82797a18fda",
+      "size": 9841345,
+      "format": "tar.gz",
+      "releaseTag": "v0.23.1",
+      "binaries": {
+        "ant-node": {
+          "path": "ant-node",
+          "sha256": "d3218234a426c4a3d8561c91527e134c17cee9812ef5cb1fea823f86bb6c25aa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/WithAutonomi/ant-node/releases/download/v0.23.1/ant-node-cli-macos-x64.tar.gz",
+      "sha256": "ead8b731162a29f72bb84cd592e74542de88bc999c7f5a56e5f342730490a807",
+      "size": 10353975,
+      "format": "tar.gz",
+      "releaseTag": "v0.23.1",
+      "binaries": {
+        "ant-node": {
+          "path": "ant-node",
+          "sha256": "8b9b2f50bf8927d5c5634497d1dd6db026f167d9beadf5a2ef5b4ee0a2dae97c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/WithAutonomi/ant-node/releases/download/v0.23.1/ant-node-cli-macos-arm64.tar.gz",
+      "sha256": "825d3b87d6abd8c7f5a18d8b54d39aec8e40fbbfd49552548c613d5a1caba0a5",
+      "size": 9214335,
+      "format": "tar.gz",
+      "releaseTag": "v0.23.1",
+      "binaries": {
+        "ant-node": {
+          "path": "ant-node",
+          "sha256": "939fefda1841e01d74862d7c62901f703dc1b4e2c2c373164c2cf7bd4b9dba83"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/WithAutonomi/ant-node/releases/download/v0.23.1/ant-node-cli-windows-x64.zip",
+      "sha256": "15fe5462656dfa0d5b435775238fd7b03c88399418a9d4c04f3df822d885a782",
+      "size": 9425331,
+      "format": "zip",
+      "releaseTag": "v0.23.1",
+      "binaries": {
+        "ant-node.exe": {
+          "path": "ant-node.exe",
+          "sha256": "32a68913b2e9c0ea15b1a968323d0df79e2f39641544682946d72d256a229f90"
+        }
+      }
+    }
+  }
+}
