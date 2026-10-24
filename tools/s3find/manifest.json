@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "s3find",
+  "version": "0.17.0",
+  "repository": "AnderEnder/s3find-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AnderEnder/s3find-rs/releases/download/v0.17.0/s3find-x86_64-linux.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "f3afd5debc60d2cec0d83ef494ff41198e6b116a03410cc77be948275d44f065",
+      "size": 6428066,
+      "format": "tar.gz",
+      "binaries": {
+        "s3find": {
+          "path": "s3find",
+          "sha256": "a6eccd52255479e5728d4d33d95d187b5b6cb9864c63732f1df72e4ea7d64521"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/AnderEnder/s3find-rs/releases/download/v0.17.0/s3find-aarch64-linux.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "c27834afc986a1829a7d8e2d67fd927b925cf7698124a5dfb554d1f5e726577a",
+      "size": 6016226,
+      "format": "tar.gz",
+      "binaries": {
+        "s3find": {
+          "path": "s3find",
+          "sha256": "83d79d37fdf349e26e5f5feb76f68611c174ee70363428eb1470672fdadd1147"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AnderEnder/s3find-rs/releases/download/v0.17.0/s3find-x86_64-osx.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "f946464a441d3339b71997886899a4b973aec9895eb80d3a58503945bae75f5c",
+      "size": 6176535,
+      "format": "tar.gz",
+      "binaries": {
+        "s3find": {
+          "path": "s3find",
+          "sha256": "92fa35e60b15e8d544d79db9e6ef113259c0612a5abbf8a6eb61c529544976e2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AnderEnder/s3find-rs/releases/download/v0.17.0/s3find-aarch64-osx.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "176873e866669bca94def563b1186390e06937cd5dba24d1f2f366c0780de8c5",
+      "size": 5169510,
+      "format": "tar.gz",
+      "binaries": {
+        "s3find": {
+          "path": "s3find",
+          "sha256": "2b16b945f022a967d3bb6fceb6325165816157230ba98fda374a5723d7a508a8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AnderEnder/s3find-rs/releases/download/v0.17.0/s3find-x86_64-windows.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "7d6ef5ec6231521e1f0053cbe3cc9986c0853f67a23ac155c018a19370a5e4fb",
+      "size": 6166749,
+      "format": "tar.gz",
+      "binaries": {
+        "s3find.exe": {
+          "path": "s3find.exe",
+          "sha256": "7b7f2025dd367e5aa100be0615a661e53247313cc1e803f0484d40d6d0845d5a"
+        }
+      }
+    }
+  }
+}
