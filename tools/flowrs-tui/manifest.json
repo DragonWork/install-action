@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "flowrs-tui",
+  "version": "0.16.1",
+  "repository": "jvanbuel/flowrs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jvanbuel/flowrs/releases/download/flowrs-tui-v0.16.1/flowrs-tui-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "flowrs-tui-v0.16.1",
+      "sha256": "ea072c4f78c798c79e3ebbcc605ffd3fa9da9c3d943b08ad089176fecb4927e8",
+      "size": 3812532,
+      "format": "tar.xz",
+      "binaries": {
+        "flowrs": {
+          "path": "flowrs-tui-x86_64-unknown-linux-gnu/flowrs",
+          "sha256": "1ca14a389f20d87addbfafbb03da188aa330c5a0222aef8e6f271ebdd64320c9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jvanbuel/flowrs/releases/download/flowrs-tui-v0.16.1/flowrs-tui-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "flowrs-tui-v0.16.1",
+      "sha256": "c55df7b1715786812dc13efe52ea15d8446ad3ab9a7fcb0d64212a480f874af6",
+      "size": 3502356,
+      "format": "tar.xz",
+      "binaries": {
+        "flowrs": {
+          "path": "flowrs-tui-x86_64-apple-darwin/flowrs",
+          "sha256": "5d4a0e1b25983eb15df135885243d0c2be7bf29a94fd8b01aebc1bc6b27160d9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jvanbuel/flowrs/releases/download/flowrs-tui-v0.16.1/flowrs-tui-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "flowrs-tui-v0.16.1",
+      "sha256": "51c18e3c9a9b604e91a215921d913047e62e88d355f997d49b5c98ca9d7df627",
+      "size": 3361140,
+      "format": "tar.xz",
+      "binaries": {
+        "flowrs": {
+          "path": "flowrs-tui-aarch64-apple-darwin/flowrs",
+          "sha256": "fbbe04046a229c23e76d8cedb092eed5044bab967c2f3eb1e9e371f86f9dcd45"
+        }
+      }
+    }
+  }
+}
