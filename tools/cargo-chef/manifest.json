@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cargo-chef",
+  "version": "0.1.78",
+  "repository": "LukeMathWalker/cargo-chef",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LukeMathWalker/cargo-chef/releases/download/v0.1.78/cargo-chef-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.1.78",
+      "sha256": "aca691abfbfbbe00d482e0ed2249eec3091b65e96a0ce92947fb5b254d48b16d",
+      "size": 1579952,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-chef": {
+          "path": "cargo-chef-x86_64-unknown-linux-musl/cargo-chef",
+          "sha256": "3607ff9b659d0ce57821bc9a78c0e4434adfe55d89156c949d2922aa35f08c2a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/LukeMathWalker/cargo-chef/releases/download/v0.1.78/cargo-chef-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.1.78",
+      "sha256": "cd59b90fce5fa84c4189648fec33404ec5491791eebdb812df5e7fca8336408d",
+      "size": 1392104,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-chef": {
+          "path": "cargo-chef-aarch64-unknown-linux-musl/cargo-chef",
+          "sha256": "08c03c1a5d74aaeacb4b8ec635e81515870a4517944a794d497e53728c51e396"
+        }
+      }
+    }
+  }
+}
