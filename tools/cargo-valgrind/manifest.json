@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-valgrind",
+  "version": "2.4.1",
+  "repository": "jfrimmel/cargo-valgrind",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jfrimmel/cargo-valgrind/releases/download/2.4.1/cargo-valgrind-2.4.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "2.4.1",
+      "sha256": "85f0aba2bdde0d30bafa814a02229a56fd63b27623c25dfba57f49c40eeda762",
+      "size": 430497,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-valgrind": {
+          "path": "cargo-valgrind",
+          "sha256": "c1d603fc2cbd7aad4d8964c28eba93982208c6f55c67bcd55e9375df9f19b4fe"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jfrimmel/cargo-valgrind/releases/download/2.4.1/cargo-valgrind-2.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "2.4.1",
+      "sha256": "80b1477c1eb35410b40b842aa655b37233416f9cad86f6a11c6107b8b97ddc22",
+      "size": 353560,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-valgrind": {
+          "path": "cargo-valgrind",
+          "sha256": "e012ad6540c19f5719d99c8c6ab7778519389381802c9816872e510b9403569c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jfrimmel/cargo-valgrind/releases/download/2.4.1/cargo-valgrind-2.4.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "2.4.1",
+      "sha256": "c9f36f03de6ae0cb773b3796f4dd738ebb85e00a59c1cb72bec49a267d83c5cf",
+      "size": 288433,
+      "format": "zip",
+      "binaries": {
+        "cargo-valgrind.exe": {
+          "path": "cargo-valgrind.exe",
+          "sha256": "52fb720de19e6b001cf62f72d54dfbea50ab2d065eea2ba90664c6568e90e654"
+        }
+      }
+    }
+  }
+}
