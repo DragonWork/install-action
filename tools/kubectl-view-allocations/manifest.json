@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "kubectl-view-allocations",
+  "version": "3.1.0",
+  "repository": "davidB/kubectl-view-allocations",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/3.1.0/kubectl-view-allocations_3.1.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "3.1.0",
+      "sha256": "01d8a5053fe3f61acc7d8631d8c6c7e14c96e84a79f543e3aadf5f8c5d658407",
+      "size": 2810672,
+      "format": "tar.gz",
+      "binaries": {
+        "kubectl-view-allocations": {
+          "path": "kubectl-view-allocations",
+          "sha256": "dbc308b0cd428e4595fef59b2146386e720673f3a43705bc4a5608ffdb139a97"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/3.1.0/kubectl-view-allocations_3.1.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "3.1.0",
+      "sha256": "4441ead7b23ed0d6577b39b91f452149128dbafaabb33d0a9c1ca9228788ed5a",
+      "size": 2649617,
+      "format": "tar.gz",
+      "binaries": {
+        "kubectl-view-allocations": {
+          "path": "kubectl-view-allocations",
+          "sha256": "c89f534b3badb6ff0a50163da3fd4d5b256d6dfcc2e01ec58ffd7db85a10d66f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/3.1.0/kubectl-view-allocations_3.1.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "3.1.0",
+      "sha256": "7317933a92c78f538947a220410d94fc877dba4f1d54dc18350d599787b0865b",
+      "size": 2473215,
+      "format": "tar.gz",
+      "binaries": {
+        "kubectl-view-allocations": {
+          "path": "kubectl-view-allocations",
+          "sha256": "4cc0d5e5acea5b3572d3b322bc1c2aafbf678fd7a80321e1dd00bbed51c6071c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/3.1.0/kubectl-view-allocations_3.1.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "3.1.0",
+      "sha256": "09edd354ae9de580d65a762f8378efc3225a9e3e397485b31710ce81e48783bc",
+      "size": 2344571,
+      "format": "tar.gz",
+      "binaries": {
+        "kubectl-view-allocations": {
+          "path": "kubectl-view-allocations",
+          "sha256": "080630792e8458c69f6e59a73f654874820cc793b5303940a17525a8ee6ea3c5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/3.1.0/kubectl-view-allocations_3.1.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "3.1.0",
+      "sha256": "9815cbf1c3edb1c5118d0248e5bf08d1f409afb74d30bba4fab927ce513ce102",
+      "size": 2366117,
+      "format": "zip",
+      "binaries": {
+        "kubectl-view-allocations.exe": {
+          "path": "kubectl-view-allocations.exe",
+          "sha256": "4eef5fe682d4e794b7d4693b8834675d1e256b5018f336f546d577f59614f905"
+        }
+      }
+    }
+  }
+}
