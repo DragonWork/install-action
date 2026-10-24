@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "iai-callgrind-runner",
+  "version": "0.16.1",
+  "repository": "gungraun/gungraun",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gungraun/gungraun/releases/download/v0.16.1/iai-callgrind-runner-v0.16.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.16.1",
+      "sha256": "91eb9b72dc906a7e65a881975ad05d3847293c264380734b67a81fe0869d6add",
+      "size": 2378195,
+      "format": "tar.gz",
+      "binaries": {
+        "iai-callgrind-runner": {
+          "path": "iai-callgrind-runner-v0.16.1-x86_64-unknown-linux-musl/iai-callgrind-runner",
+          "sha256": "d0b41f03f3e8ad31464b17524bdd43a17187130ce5fa622277619800d9f5e884"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/gungraun/gungraun/releases/download/v0.16.1/iai-callgrind-runner-v0.16.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.16.1",
+      "sha256": "046c854014745a7d26ecc58cd8b8ca99ef39d856a3ab6b933f34503845d5bfe4",
+      "size": 2192591,
+      "format": "tar.gz",
+      "binaries": {
+        "iai-callgrind-runner": {
+          "path": "iai-callgrind-runner-v0.16.1-aarch64-unknown-linux-gnu/iai-callgrind-runner",
+          "sha256": "fceb18702e440d52fd79a2f08bf921fb23fc7c2e34d35c013e2220edc7e37dad"
+        }
+      }
+    }
+  }
+}
