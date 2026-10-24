@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wasm-pack",
+  "version": "0.15.0",
+  "repository": "wasm-bindgen/wasm-pack",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wasm-bindgen/wasm-pack/releases/download/v0.15.0/wasm-pack-v0.15.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "c09f971ecaed9a2efc80fdcea7a00ef6b53c7fadc8c57d1f61b53a6aa66b668a",
+      "size": 2881231,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-pack": {
+          "path": "wasm-pack-v0.15.0-x86_64-unknown-linux-musl/wasm-pack",
+          "sha256": "c6c3d54702f4bae4a1d51e37e19c2c61b130865dc3fabc745eebe8194b87b253"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wasm-bindgen/wasm-pack/releases/download/v0.15.0/wasm-pack-v0.15.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "e17ef0806381c3a0acb9c9ddad643a49facaa5a2ecf657a421d4d8f3357a24b7",
+      "size": 2766439,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-pack": {
+          "path": "wasm-pack-v0.15.0-aarch64-unknown-linux-musl/wasm-pack",
+          "sha256": "c021f9e6c559ac7b4f022ee1b979e1eadcd755a02ebe87a0daabe69ce0b50d5d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wasm-bindgen/wasm-pack/releases/download/v0.15.0/wasm-pack-v0.15.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "d3f1a4a33e95f8f0d7801b024e08624c479999ac96aa150908b2394015cd0363",
+      "size": 2664242,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-pack": {
+          "path": "wasm-pack-v0.15.0-x86_64-apple-darwin/wasm-pack",
+          "sha256": "223757e699b11a6a15d9f70ca4a3831696c7d278dbb61b379a23852e09aed913"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wasm-bindgen/wasm-pack/releases/download/v0.15.0/wasm-pack-v0.15.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "0abff4a03d670b6c00ea31d0e1608a72407e355f3d3765e9c30eb45cd5b7e318",
+      "size": 2479925,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-pack": {
+          "path": "wasm-pack-v0.15.0-aarch64-apple-darwin/wasm-pack",
+          "sha256": "cab15410c87e79c19ecd46043b045a1bef6a5874ae7c5163e055570c21bd8627"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wasm-bindgen/wasm-pack/releases/download/v0.15.0/wasm-pack-v0.15.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "518dc51180c7bc864699c9279b3bc99025bc109123e0249a34ba34d130a509bf",
+      "size": 2290392,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-pack.exe": {
+          "path": "wasm-pack-v0.15.0-x86_64-pc-windows-msvc/wasm-pack.exe",
+          "sha256": "cf62764a253de34c32d5f8c5655e0503f2f7773ee3674189343e339281a9a023"
+        }
+      }
+    }
+  }
+}
