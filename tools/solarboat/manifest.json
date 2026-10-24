@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "solarboat",
+  "version": "0.8.9",
+  "repository": "devqik/solarboat",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/devqik/solarboat/releases/download/v0.8.9/solarboat-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.9",
+      "sha256": "4bdb22bc02a8d897721820ec3fa6b6c4e611bef5275207a869f6f50c5b66b323",
+      "size": 1471077,
+      "format": "tar.gz",
+      "binaries": {
+        "solarboat": {
+          "path": "solarboat",
+          "sha256": "d9bbe562b413b986d6b3fe118f48c2f38e4a16c49b62b1b39490e94b04bfa508"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/devqik/solarboat/releases/download/v0.8.9/solarboat-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.9",
+      "sha256": "14c3e46a4aef5f11940511bbfbca71dd35f5654b1c45bb604d0b58b1980f6278",
+      "size": 1383473,
+      "format": "tar.gz",
+      "binaries": {
+        "solarboat": {
+          "path": "solarboat",
+          "sha256": "2a2f4945fa8072971e678863140b36be48fb33e4baef9d3e3e4689d1f188111b"
+        }
+      }
+    }
+  }
+}
