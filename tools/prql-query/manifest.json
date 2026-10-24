@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "prql-query",
+  "version": "0.0.15",
+  "repository": "PRQL/prql-query",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/PRQL/prql-query/releases/download/v0.0.15/pq-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.0.15",
+      "sha256": "108c1b9beeb32b91f9704de1b5feb82fc53c90e490ae87fa5a994b799d24ac1b",
+      "size": 17508990,
+      "format": "tar.gz",
+      "binaries": {
+        "pq": {
+          "path": "pq",
+          "sha256": "21eb7245379ab801b827d52464c4eaafebafdea832b0710ed35421258fda4e1a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/PRQL/prql-query/releases/download/v0.0.15/pq-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.15",
+      "sha256": "65b29d1fef2d26bff10b39048e1d05125bcbbfbb9acaca97d3189dddf2bca372",
+      "size": 18073281,
+      "format": "tar.gz",
+      "binaries": {
+        "pq": {
+          "path": "pq",
+          "sha256": "57d39d8d151ca38f3cf770ab99e43afab58da384c70514d1302d8d4deac26ab1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/PRQL/prql-query/releases/download/v0.0.15/pq-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.15",
+      "sha256": "219af3cb798af36b9da8e5f1e5943e6ba5055a84ef3231fdbbbba2de4fea401e",
+      "size": 15163370,
+      "format": "zip",
+      "binaries": {
+        "pq.exe": {
+          "path": "pq.exe",
+          "sha256": "e9bf6d4bc8e5674af9cd64f7651c1b6e47e560b4e5f42e5ab559f98368b8ee05"
+        }
+      }
+    }
+  }
+}
