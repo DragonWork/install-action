@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "github-action-runner",
+  "version": "1.0.63",
+  "repository": "s00d/github-action-runner",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/s00d/github-action-runner/releases/download/v1.0.63/gar-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v1.0.63",
+      "sha256": "ce9afec4d061135ac5c88631e726a2bd830f6fbcbc377d2729eae3f4d302ad45",
+      "size": 8388608,
+      "format": "binary",
+      "binaries": {
+        "gar.exe": {
+          "path": "gar-x86_64-pc-windows-msvc.exe",
+          "sha256": "ce9afec4d061135ac5c88631e726a2bd830f6fbcbc377d2729eae3f4d302ad45"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/s00d/github-action-runner/releases/download/v1.0.63/gar-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v1.0.63",
+      "sha256": "d99e79f9821e513a6320fccc6f52a59e51a6c2c4d33cee35c0b84fed56273470",
+      "size": 7468544,
+      "format": "binary",
+      "binaries": {
+        "gar.exe": {
+          "path": "gar-aarch64-pc-windows-msvc.exe",
+          "sha256": "d99e79f9821e513a6320fccc6f52a59e51a6c2c4d33cee35c0b84fed56273470"
+        }
+      }
+    }
+  }
+}
