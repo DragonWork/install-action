@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "shader_language_server",
+  "version": "1.6.2",
+  "repository": "antaalt/shader-sense",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/antaalt/shader-sense/releases/download/v1.6.2/shader-language-server-x86_64-unknown-linux-gnu.zip",
+      "sha256": "5b72418608b61d85dad5dfae54e6bc83f29314114b3af0fea9a3a73ad88b1a89",
+      "size": 17954396,
+      "format": "zip",
+      "releaseTag": "v1.6.2",
+      "binaries": {
+        "shader-language-server": {
+          "path": "shader-language-server",
+          "sha256": "de9574c6d096e2c5069baf4113a1b7bb87d9f50193277f297df9ca948903207c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/antaalt/shader-sense/releases/download/v1.6.2/shader-language-server-x86_64-pc-windows-msvc.zip",
+      "sha256": "df09e2b5de33a03c25e40e592dc03f93f3fcfb7f8a7d2eb2bdf1e5f5cfd96d4e",
+      "size": 12518152,
+      "format": "zip",
+      "releaseTag": "v1.6.2",
+      "binaries": {
+        "shader-language-server.exe": {
+          "path": "shader-language-server.exe",
+          "sha256": "1487e015dbc95e56a301d8f06f9fe3fb745f5af246be9cbc25953b983b7b5b0c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/antaalt/shader-sense/releases/download/v1.6.2/shader-language-server-aarch64-pc-windows-msvc.zip",
+      "sha256": "f3f8aa84cce3047ffb0600eeb1d38bd1fd644b44e086867ead6a95e3f3ffbf97",
+      "size": 13296591,
+      "format": "zip",
+      "releaseTag": "v1.6.2",
+      "binaries": {
+        "shader-language-server.exe": {
+          "path": "shader-language-server.exe",
+          "sha256": "4bff8776af822c17e9a4ed89b22823de68c43a4b8438eee10250219965f465d5"
+        }
+      }
+    }
+  }
+}
