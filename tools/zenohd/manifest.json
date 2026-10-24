@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "zenohd",
+  "version": "1.10.1",
+  "repository": "eclipse-zenoh/zenoh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.1/zenoh-1.10.1-x86_64-unknown-linux-musl-standalone.zip",
+      "releaseTag": "1.10.1",
+      "sha256": "db3d4542cae5ca01ca74cc4acc726891a16d4c573e79b452966b1d5d535b6edc",
+      "size": 9425289,
+      "format": "zip",
+      "binaries": {
+        "zenohd": {
+          "path": "zenohd",
+          "sha256": "4cce63180faf5f2fb5f924022fc16cc1d6c6b86238043d1db5f4ad2dcd1594dd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.1/zenoh-1.10.1-aarch64-unknown-linux-musl-standalone.zip",
+      "releaseTag": "1.10.1",
+      "sha256": "ce03f3ea85b7bee26024e710501a1123ee21367af8fefe4498e36f6e8c55fecb",
+      "size": 9028305,
+      "format": "zip",
+      "binaries": {
+        "zenohd": {
+          "path": "zenohd",
+          "sha256": "3818ff963fb1b74224308555b9d5078ea2ff5163557d7d3d34fbdc1fb003e13a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.1/zenoh-1.10.1-x86_64-apple-darwin-standalone.zip",
+      "releaseTag": "1.10.1",
+      "sha256": "9778edea5464f80a18be8bef3a3a50bc7229d003340c118aa16823a9ed1e659c",
+      "size": 9006551,
+      "format": "zip",
+      "binaries": {
+        "zenohd": {
+          "path": "zenohd",
+          "sha256": "9c046a3e8ab2e33905cfdaea64e6e80c45abbbeb7760ea90862f9c3404a7056e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.1/zenoh-1.10.1-aarch64-apple-darwin-standalone.zip",
+      "releaseTag": "1.10.1",
+      "sha256": "a27a177014fa81bc1bdb9b824373a2a8bce0e0a33c40e6c189d6fc9414b57b8a",
+      "size": 8153627,
+      "format": "zip",
+      "binaries": {
+        "zenohd": {
+          "path": "zenohd",
+          "sha256": "0b794884d333efbddd3be386a7c0d2e54f73e214ec1e39ce73566537bee74301"
+        }
+      }
+    }
+  }
+}
