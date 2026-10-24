@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "petname",
+  "version": "3.2.0",
+  "repository": "allenap/rust-petname",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/allenap/rust-petname/releases/download/v3.2.0/petname-x86_64-unknown-linux-musl",
+      "sha256": "e49b667e371903346a8a2e27675ededf25e760943a297750b09ebecb89be2dc7",
+      "size": 3855064,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "petname": {
+          "path": "petname-x86_64-unknown-linux-musl",
+          "sha256": "e49b667e371903346a8a2e27675ededf25e760943a297750b09ebecb89be2dc7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/allenap/rust-petname/releases/download/v3.2.0/petname-aarch64-unknown-linux-musl",
+      "sha256": "e8ea2fd67489d151c720e8eaf9fbc797e0185103d435af4d3faa63566ad62d4d",
+      "size": 2281664,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "petname": {
+          "path": "petname-aarch64-unknown-linux-musl",
+          "sha256": "e8ea2fd67489d151c720e8eaf9fbc797e0185103d435af4d3faa63566ad62d4d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/allenap/rust-petname/releases/download/v3.2.0/petname-x86_64-apple-darwin",
+      "sha256": "6ef4171a7fabe7f25941ecf1ddfc3f3de9fcb3873edcb493244c471753183daf",
+      "size": 2232048,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "petname": {
+          "path": "petname-x86_64-apple-darwin",
+          "sha256": "6ef4171a7fabe7f25941ecf1ddfc3f3de9fcb3873edcb493244c471753183daf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/allenap/rust-petname/releases/download/v3.2.0/petname-aarch64-apple-darwin",
+      "sha256": "d5d09f911f0f7dc91d2d73015179938ff349ba4350a09656b6bfeb4bf171d2a0",
+      "size": 2188544,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "petname": {
+          "path": "petname-aarch64-apple-darwin",
+          "sha256": "d5d09f911f0f7dc91d2d73015179938ff349ba4350a09656b6bfeb4bf171d2a0"
+        }
+      }
+    }
+  }
+}
