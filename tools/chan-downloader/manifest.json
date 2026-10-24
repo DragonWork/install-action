@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "chan-downloader",
+  "version": "0.3.0",
+  "repository": "mariot/chan-downloader",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/mariot/chan-downloader/releases/download/v0.3.0/chan-downloader_v0.3.0_x86_64-apple-darwin.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "3c882a25a37f158fba2a357bbe326695b7d06e39b6602fe73741c5e1fb646c14",
+      "size": 2328382,
+      "format": "zip",
+      "binaries": {
+        "chan-downloader": {
+          "path": "chan-downloader",
+          "sha256": "bd2e050b42e1aa010a66c501fda0408308cc9f543ca0ab49a8d443ab3209a744"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mariot/chan-downloader/releases/download/v0.3.0/chan-downloader_v0.3.0_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "0e4e4daf28ca54426b7f68de23346a6a1305e6b0e0324e20836e463a059b539d",
+      "size": 4755859,
+      "format": "zip",
+      "binaries": {
+        "chan-downloader.exe": {
+          "path": "chan-downloader.exe",
+          "sha256": "3ec93ce1a5cfc6b36bffed48016f746e71e8aa59a7dd4952deb93d74e0850932"
+        }
+      }
+    }
+  }
+}
