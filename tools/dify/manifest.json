@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dify",
+  "version": "0.8.0",
+  "repository": "jihchi/dify",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jihchi/dify/releases/download/v0.8.0/dify-x86_64-unknown-linux-musl-v0.8.0.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "b739b89151ffc698c7af68629b6aacb0ef4e8fcf4962cfc3752b192973805435",
+      "size": 2564418,
+      "format": "tar.gz",
+      "binaries": {
+        "dify": {
+          "path": "dify",
+          "sha256": "d331c59baeda13dff312f1b3a799ad32e5b0cf1540d71cf065e5fddefe2e5401"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jihchi/dify/releases/download/v0.8.0/dify-aarch64-unknown-linux-musl-v0.8.0.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "17cf8679baad6c03b99fb10012e0d0da5b6cd443e1179c642cf6468a196669c3",
+      "size": 2414851,
+      "format": "tar.gz",
+      "binaries": {
+        "dify": {
+          "path": "dify",
+          "sha256": "2d1534017d349cdd7ea439ae49cd973c82821ac0aa41992d2ce90c3fb5e9ac36"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jihchi/dify/releases/download/v0.8.0/dify-x86_64-apple-darwin-v0.8.0.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "35c741567231ecfa05f784fd66346549d421f2a8cb8a974108d4b62dcebfaaea",
+      "size": 2392467,
+      "format": "tar.gz",
+      "binaries": {
+        "dify": {
+          "path": "dify",
+          "sha256": "d1bb4c830cb7f8cfe803a22e598640436928c6f1cc3809a793fc64dadc7ea2d9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jihchi/dify/releases/download/v0.8.0/dify-aarch64-apple-darwin-v0.8.0.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "7cd46ad27c5dff66bd1ef95c22e7c43be2b8d1d9a79393cd98f9b86be7e52aea",
+      "size": 2256717,
+      "format": "tar.gz",
+      "binaries": {
+        "dify": {
+          "path": "dify",
+          "sha256": "23c778d38c72768224d20801ef4325699b02b34ea3d2e236b9f480c46e33fafb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jihchi/dify/releases/download/v0.8.0/dify-x86_64-pc-windows-gnu-v0.8.0.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "d94bb63347952c0d8e2646bc2b5a08ad514af39a686b0208ffcca91ced3cf485",
+      "size": 3429917,
+      "format": "tar.gz",
+      "binaries": {
+        "dify.exe": {
+          "path": "dify.exe",
+          "sha256": "1492716e35456f6effab8f072acd2df06b5bde66976f1adc233282e2bcc2f3d3"
+        }
+      }
+    }
+  }
+}
