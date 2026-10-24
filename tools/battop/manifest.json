@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "battop",
+  "version": "0.2.4",
+  "repository": "svartalf/rust-battop",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/svartalf/rust-battop/releases/download/v0.2.4/battop-v0.2.4-x86_64-unknown-linux-gnu",
+      "sha256": "8b601903d550a2efe3825c57720cff17a89783828885d99d3b9519895cd10de5",
+      "size": 3077275,
+      "format": "binary",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "battop": {
+          "path": "battop-v0.2.4-x86_64-unknown-linux-gnu",
+          "sha256": "8b601903d550a2efe3825c57720cff17a89783828885d99d3b9519895cd10de5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/svartalf/rust-battop/releases/download/v0.2.4/battop-v0.2.4-x86_64-apple-darwin",
+      "sha256": "05d6290c641f46ad980e8b9d2c0d90a7a5490e4c891ef774c42adc3605953462",
+      "size": 1303296,
+      "format": "binary",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "battop": {
+          "path": "battop-v0.2.4-x86_64-apple-darwin",
+          "sha256": "05d6290c641f46ad980e8b9d2c0d90a7a5490e4c891ef774c42adc3605953462"
+        }
+      }
+    }
+  }
+}
