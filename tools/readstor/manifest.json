@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "readstor",
+  "version": "0.6.0",
+  "repository": "tnahs/readstor",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/tnahs/readstor/releases/download/v0.6.0/readstor-0.6.0-darwin-amd64.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "771c554711cc3058ec4bdc5c312f866af996b482364fb483d4d4afbeaf66323f",
+      "size": 3978651,
+      "format": "tar.gz",
+      "binaries": {
+        "readstor": {
+          "path": "readstor",
+          "sha256": "9323a29745d1c2493495103f6184e9a42fbb2ccf46c5e10fb3ace00122607d7c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tnahs/readstor/releases/download/v0.6.0/readstor-0.6.0-darwin-arm64.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "27a663800fb17ee938ef8a76a9d6c5a87771ee9403ea3296015bffd0835df28c",
+      "size": 3810917,
+      "format": "tar.gz",
+      "binaries": {
+        "readstor": {
+          "path": "readstor",
+          "sha256": "e15a5a718445b54fc6ff581b084317db273004a685537ed75b29ec697801855e"
+        }
+      }
+    }
+  }
+}
