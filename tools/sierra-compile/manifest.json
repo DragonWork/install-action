@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "sierra-compile",
+  "version": "2.21.0",
+  "repository": "starkware-libs/cairo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v2.21.0/release-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.21.0",
+      "sha256": "bddfff44fdc9eeceb7010374ee61dbdea349850c3a284357b7c9c7b9d1a22058",
+      "size": 53136131,
+      "format": "tar.gz",
+      "binaries": {
+        "sierra-compile": {
+          "path": "cairo/bin/sierra-compile",
+          "sha256": "b91f5924cdc5df4605b80f497db84cb413a32891d73e93867d3c7f47bf26b7d5"
+        }
+      }
+    }
+  }
+}
