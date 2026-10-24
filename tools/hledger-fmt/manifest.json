@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "hledger-fmt",
+  "version": "0.3.9",
+  "repository": "mondeja/hledger-fmt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mondeja/hledger-fmt/releases/download/v0.3.9/hledger-fmt-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.9",
+      "sha256": "1aa2723fa264e74c3ef34aa615c40bf56e9da9f0fb6f9cd68c57a9290ef07078",
+      "size": 138986,
+      "format": "tar.gz",
+      "binaries": {
+        "hledger-fmt": {
+          "path": "hledger-fmt",
+          "sha256": "04702566411dda8b81b878e572ba40ef81005c901598ca2f33ae8c3d11c329a9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mondeja/hledger-fmt/releases/download/v0.3.9/hledger-fmt-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.9",
+      "sha256": "306bae3c72c738de8a92f7b75369bfbb5514d68852d07de9bbde64b5c125878a",
+      "size": 156956,
+      "format": "tar.gz",
+      "binaries": {
+        "hledger-fmt": {
+          "path": "hledger-fmt",
+          "sha256": "f32cf1e5ecd014032d141d6b88587be3fc8ccbcd3ccf9caf187bb5ae44c576dc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mondeja/hledger-fmt/releases/download/v0.3.9/hledger-fmt-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.9",
+      "sha256": "b46502de9e430affd74afd56c97532e1f54bb8351a00159556936d64b15635b9",
+      "size": 145294,
+      "format": "tar.gz",
+      "binaries": {
+        "hledger-fmt": {
+          "path": "hledger-fmt",
+          "sha256": "b1f7323931813b1e0c78a71017ee85b331c86d05a846a6c6130dbb93ce3702d4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mondeja/hledger-fmt/releases/download/v0.3.9/hledger-fmt-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.9",
+      "sha256": "3ea00cbf176ab7d0e2ec332eb2114ed36d254a1823cf2cb993fc56eb4e0b95c9",
+      "size": 151686,
+      "format": "zip",
+      "binaries": {
+        "hledger-fmt.exe": {
+          "path": "hledger-fmt.exe",
+          "sha256": "9b88ad33696d601ec98de4f68471006b5631d912da43b2b08380af7bf45a359c"
+        }
+      }
+    }
+  }
+}
