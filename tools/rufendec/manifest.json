@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rufendec",
+  "version": "0.10.2",
+  "repository": "omkarium/rufendec",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/omkarium/rufendec/releases/download/v0.10.2/rufendec-v0.10.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.2",
+      "sha256": "4bd65b8a139688aa4d084a07da296de8458d6163bc30e6d8a9859106ada25b8a",
+      "size": 502826,
+      "format": "tar.gz",
+      "binaries": {
+        "rufendec": {
+          "path": "rufendec-v0.10.2-x86_64-unknown-linux-gnu/rufendec",
+          "sha256": "8f6eae94c03a18e97b5a05a8d4283a4ace928050fb7ebcaf8459381030fb4b07"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/omkarium/rufendec/releases/download/v0.10.2/rufendec-v0.10.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.2",
+      "sha256": "49bf1eb7f4af582bb51f0c8c6eca64b9110c8573047c788319d39dbfb87d52b7",
+      "size": 472558,
+      "format": "tar.gz",
+      "binaries": {
+        "rufendec": {
+          "path": "rufendec-v0.10.2-aarch64-unknown-linux-gnu/rufendec",
+          "sha256": "6335ff1f381721a6d3babacc00417adf879718359c84d22583169c6c40e1f86e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/omkarium/rufendec/releases/download/v0.10.2/rufendec-v0.10.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.2",
+      "sha256": "47600486bd431e8a13c291a0318ff0e1219eaef9db4b902747e31cbb5641415f",
+      "size": 367954,
+      "format": "zip",
+      "binaries": {
+        "rufendec.exe": {
+          "path": "rufendec-v0.10.2-x86_64-pc-windows-msvc/rufendec.exe",
+          "sha256": "7bb423563f3513b20cf2571be7da9120c9511ce7222ebce3c633338691f7ca77"
+        }
+      }
+    }
+  }
+}
