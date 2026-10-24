@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "oura",
+  "version": "2.2.1",
+  "repository": "txpipe/oura",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/txpipe/oura/releases/download/v2.2.1/oura-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.2.1",
+      "sha256": "8ce5a84dcb1669b7c86d4858295d52b185ab99ed999477e123bb41e7a32fb78c",
+      "size": 10944220,
+      "format": "tar.xz",
+      "binaries": {
+        "oura": {
+          "path": "oura-x86_64-unknown-linux-gnu/oura",
+          "sha256": "c626c814615fd75be1699c5e9e0992756bc3af71938d7866eab6c276230327c7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/txpipe/oura/releases/download/v2.2.1/oura-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.2.1",
+      "sha256": "6c18511f604ca1894663962cc658516cf9d2ce5819597419bd31888bcaa4ac67",
+      "size": 10096296,
+      "format": "tar.xz",
+      "binaries": {
+        "oura": {
+          "path": "oura-aarch64-unknown-linux-gnu/oura",
+          "sha256": "65f4ec895d2c79436adeda5b21964a62829f0fb2dfc273b06544c9cf6c9fc65c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/txpipe/oura/releases/download/v2.2.1/oura-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2.2.1",
+      "sha256": "7419168c509f409e90f84d35ba932772d6e4f2a01f330d49abf2865ec7c47b60",
+      "size": 9345356,
+      "format": "tar.xz",
+      "binaries": {
+        "oura": {
+          "path": "oura-aarch64-apple-darwin/oura",
+          "sha256": "2eaa875ddc1767d9b36a42d1052a23fc8c06bd80f6142f73fb9f1f49e99478dc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/txpipe/oura/releases/download/v2.2.1/oura-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.2.1",
+      "sha256": "9350956162c560c2602f10ab087799bf8befddbdd16111bf057fc332b16363eb",
+      "size": 15822208,
+      "format": "zip",
+      "binaries": {
+        "oura.exe": {
+          "path": "oura.exe",
+          "sha256": "4ace81dd6f2437b188204f87699687e73df41eccbaa62c96a89fd2c18d1f8628"
+        }
+      }
+    }
+  }
+}
