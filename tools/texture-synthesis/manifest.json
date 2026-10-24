@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "texture-synthesis",
+  "version": "0.1.0",
+  "repository": "EmbarkStudios/texture-synthesis",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EmbarkStudios/texture-synthesis/releases/download/0.1.0/texture-synthesis-0.1.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.1.0",
+      "sha256": "bd6b37d490c7ae9e9a807bfcbc7ba3a4110fe4e5ada4229f581f639938ae1df1",
+      "size": 1610944,
+      "format": "tar.gz",
+      "binaries": {
+        "texture-synthesis": {
+          "path": "texture-synthesis-0.1.0-x86_64-unknown-linux-musl/texture-synthesis",
+          "sha256": "d07d2c37f075fc81191d7430528f4404dc4ef825bb30cc2f05c4c63b88cb999d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EmbarkStudios/texture-synthesis/releases/download/0.1.0/texture-synthesis-0.1.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.1.0",
+      "sha256": "3fdabfcc30317a2140867f8e6227c257ceffcea7796f5489f914d71549af5be1",
+      "size": 977720,
+      "format": "tar.gz",
+      "binaries": {
+        "texture-synthesis": {
+          "path": "texture-synthesis-0.1.0-x86_64-apple-darwin/texture-synthesis",
+          "sha256": "f89efe10c3d05b11eb4800e91eb88cff4f6977453623364ed19412ce7308df75"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EmbarkStudios/texture-synthesis/releases/download/0.1.0/texture-synthesis-0.1.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.1.0",
+      "sha256": "7e4db0b0c96b254fa11e1ba703a9898aa9df902ee606a4ebc8bfbb91332ef5ba",
+      "size": 1098740,
+      "format": "tar.gz",
+      "binaries": {
+        "texture-synthesis.exe": {
+          "path": "texture-synthesis-0.1.0-x86_64-pc-windows-msvc/texture-synthesis.exe",
+          "sha256": "4467ce1835fb82a3f18b72e0991a7706299c35090ab6b233e3ac0b9e6e020a75"
+        }
+      }
+    }
+  }
+}
