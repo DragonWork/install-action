@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "fresh-editor",
+  "version": "0.5.4",
+  "repository": "sinelaw/fresh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "27495dfd093b41e56ca3d9a73476df2c90ac4864dc36e2c6a8a7c98e6f9f969a",
+      "size": 15340702,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.4",
+      "binaries": {
+        "fresh": {
+          "path": "fresh-editor-x86_64-unknown-linux-musl/fresh",
+          "sha256": "fba23aedc92e07975a136800a7ad2b58209e57e53c94ba20131a82e4398f6726"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "5897dd4af0845b442621eb4c740d5d39edbca873c8caab27a457fe0480ea72b4",
+      "size": 15623370,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.4",
+      "binaries": {
+        "fresh": {
+          "path": "fresh-editor-aarch64-unknown-linux-musl/fresh",
+          "sha256": "7755ebfafe41d517005a0b6cdcd350c2085e9a9ab8aa6b2ac2de7af6852cef67"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-x86_64-apple-darwin.tar.xz",
+      "sha256": "a75833fed2288c9e6bf7657221ce5026e44cbc3b141b1b27a36e9c16084e8bac",
+      "size": 10283532,
+      "format": "tar.xz",
+      "releaseTag": "v0.5.4",
+      "binaries": {
+        "fresh": {
+          "path": "fresh-editor-x86_64-apple-darwin/fresh",
+          "sha256": "930c26ae61d42a8f435fe1775d35ed34c3c8926a4a8d709ebf610f2ff7c5f369"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-aarch64-apple-darwin.tar.xz",
+      "sha256": "c722ce9ae6f92f9c4f5ba112f187296ba5bbb53d53e0c82478249becc9859cc4",
+      "size": 10290884,
+      "format": "tar.xz",
+      "releaseTag": "v0.5.4",
+      "binaries": {
+        "fresh": {
+          "path": "fresh-editor-aarch64-apple-darwin/fresh",
+          "sha256": "cb0a1e21f9a4c227b4ee1692e28ec884872e86e368cbb049ba45bd0d11493410"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-x86_64-pc-windows-msvc.zip",
+      "sha256": "8db606d9328709ba07d65f52e3e5d46b345cb535d5d74227facd6f5c6da03ad1",
+      "size": 14103201,
+      "format": "zip",
+      "releaseTag": "v0.5.4",
+      "binaries": {
+        "fresh.exe": {
+          "path": "fresh.exe",
+          "sha256": "b412f8153bd87866a0506a1af803f732b94a13cb05f949fe594e0bc54dc9a5d5"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-aarch64-pc-windows-msvc.zip",
+      "sha256": "8f433388eac7fd02823b53c66439645d1a2e648fe883f9b820c95d415c990f3e",
+      "size": 13655831,
+      "format": "zip",
+      "releaseTag": "v0.5.4",
+      "binaries": {
+        "fresh.exe": {
+          "path": "fresh.exe",
+          "sha256": "ccb6603f039f0ad6b3af10789cae192f79bb18904442423d157ff70970b9bcc4"
+        }
+      }
+    }
+  }
+}
