@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "git-sumi",
+  "version": "0.3.0",
+  "repository": "welpo/git-sumi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/welpo/git-sumi/releases/download/v0.3.0/git-sumi-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "06b4ffd2f27800de6ba73b4d56be54abad26b27fca89cd77f61f6d2d2cb16606",
+      "size": 838068,
+      "format": "tar.xz",
+      "binaries": {
+        "git-sumi": {
+          "path": "git-sumi-x86_64-unknown-linux-musl/git-sumi",
+          "sha256": "c5b43005525d3dd9c4676160e7fcc0fa209348f85a956323d26763727d492d93"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/welpo/git-sumi/releases/download/v0.3.0/git-sumi-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "2b2c5bc92dc14248124d348c18ef75b68fc51a61661424dd314dc50ba4b27d41",
+      "size": 674984,
+      "format": "tar.xz",
+      "binaries": {
+        "git-sumi": {
+          "path": "git-sumi-aarch64-unknown-linux-gnu/git-sumi",
+          "sha256": "81bf499c81e4d265e2be886f56563964bca06f49ac85a958845207eac8d9309f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/welpo/git-sumi/releases/download/v0.3.0/git-sumi-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "9477ec4c2db83dd0336785e368967bc1755a0a320b283cdbcd71c751835f5199",
+      "size": 784360,
+      "format": "tar.xz",
+      "binaries": {
+        "git-sumi": {
+          "path": "git-sumi-x86_64-apple-darwin/git-sumi",
+          "sha256": "5e7a71b03834e5ae214f72d32e248c4b06cbcb53709d8e35c2cb759aa1e580e4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/welpo/git-sumi/releases/download/v0.3.0/git-sumi-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "1a3b06f8f05e138f1db496646e6e9148669f6139b00663c46bf6aa2bf97b397a",
+      "size": 677520,
+      "format": "tar.xz",
+      "binaries": {
+        "git-sumi": {
+          "path": "git-sumi-aarch64-apple-darwin/git-sumi",
+          "sha256": "c1a2ab9fed31b053e46a0b1a78e58484d3328b44cf531500fd0edc34fa69c2c7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/welpo/git-sumi/releases/download/v0.3.0/git-sumi-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "2f91c1643e1f40dc5a413c134f96e82131165332cfea69d722a672806bf5ab55",
+      "size": 1003152,
+      "format": "zip",
+      "binaries": {
+        "git-sumi.exe": {
+          "path": "git-sumi.exe",
+          "sha256": "296b3fee2ac472e05d2ea7a3a78bfaa918c6359883b611aef9840aa3cfa18f63"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/welpo/git-sumi/releases/download/v0.3.0/git-sumi-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "68f43bc291be585b928367b6a5d8f2c8cfea4bf018b6a4fa0af5a03836cc35f2",
+      "size": 991373,
+      "format": "zip",
+      "binaries": {
+        "git-sumi.exe": {
+          "path": "git-sumi.exe",
+          "sha256": "0d66a5a6b379708d2330b39fd1ad1db98f9059275731d18ef2bb47dfb2a5be37"
+        }
+      }
+    }
+  }
+}
