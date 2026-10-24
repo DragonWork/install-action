@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "nostr-commander",
+  "version": "0.3.1",
+  "repository": "8go/nostr-commander-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/8go/nostr-commander-rs/releases/download/v0.3.1/nostr-commander-rs_v0.3.1_x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "9043f28baca4bfebe839cc5e32c2817b3b5b4c353692d2c520aab49d9166f884",
+      "size": 6922905,
+      "format": "zip",
+      "binaries": {
+        "nostr-commander-rs": {
+          "path": "nostr-commander-rs",
+          "sha256": "99d9484f9cbb2f8fe38b12fb4562395c4d6360306736c4b5bfedfc9a984e1a22"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/8go/nostr-commander-rs/releases/download/v0.3.1/nostr-commander-rs_v0.3.1_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "550126f7af43d9ca403abf17c0b703cb73f71acc0a8b9ed210f3a5beeadbae28",
+      "size": 6950233,
+      "format": "zip",
+      "binaries": {
+        "nostr-commander-rs.exe": {
+          "path": "nostr-commander-rs.exe",
+          "sha256": "2465053a1e2ea4fb5423657215711150b2c3c2f1a52f8a8e4c652c8cfd9d1d7d"
+        }
+      }
+    }
+  }
+}
