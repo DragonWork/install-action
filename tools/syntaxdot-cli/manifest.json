@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "syntaxdot-cli",
+  "version": "0.5.0",
+  "repository": "tensordot/syntaxdot",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tensordot/syntaxdot/releases/download/v0.5.0/syntaxdot-v0.5.0-cpu-x86_64-linux-gnu-gcc.tar.zst",
+      "releaseTag": "v0.5.0",
+      "sha256": "a32fffa39090a8a6ef73f43fbf732b5807074d6af70f9a96ab4c535af6a11ff4",
+      "size": 119452159,
+      "format": "tar.zst",
+      "binaries": {
+        "syntaxdot": {
+          "path": "syntaxdot-v0.5.0-cpu-x86_64-linux-gnu-gcc/syntaxdot",
+          "sha256": "62d61df938617f6e7d84262246b5252df6f7a401c56d4bc599f7b349ca45623c"
+        }
+      }
+    }
+  }
+}
