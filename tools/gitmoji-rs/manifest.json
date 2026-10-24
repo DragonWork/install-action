@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "gitmoji-rs",
+  "version": "3.1.0",
+  "repository": "ilaborie/gitmoji-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ilaborie/gitmoji-rs/releases/download/v3.1.0/gitmoji-rs-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v3.1.0",
+      "sha256": "c6d9274e30087c9401b0e28b60453d79b9bbb1b621353f3f1c2227880534f6fb",
+      "size": 2399500,
+      "format": "tar.xz",
+      "binaries": {
+        "gitmoji": {
+          "path": "gitmoji-rs-x86_64-unknown-linux-gnu/gitmoji",
+          "sha256": "562308c43e1dfa1cc8c7ac1fb5ec3f2355717d8ad94a18eb49a69ef6cfd5067b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ilaborie/gitmoji-rs/releases/download/v3.1.0/gitmoji-rs-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v3.1.0",
+      "sha256": "9ef8d159d2888161c2a714e018af03045edc030e7f88679974c51927a1dee379",
+      "size": 2337056,
+      "format": "tar.xz",
+      "binaries": {
+        "gitmoji": {
+          "path": "gitmoji-rs-x86_64-apple-darwin/gitmoji",
+          "sha256": "2d3e023dddc0c24ccb035d008171f05742e1ea7723614dc4a3c80260ebd71a25"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ilaborie/gitmoji-rs/releases/download/v3.1.0/gitmoji-rs-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v3.1.0",
+      "sha256": "65316366edb80633b9dcfffeb921945f8872b8a5d7f73f3031bf30d7e52d7f0f",
+      "size": 2109088,
+      "format": "tar.xz",
+      "binaries": {
+        "gitmoji": {
+          "path": "gitmoji-rs-aarch64-apple-darwin/gitmoji",
+          "sha256": "583f0e1836dfc934f501c5e639e7e9cacf87155f326099f40b4097ee20ba2e04"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ilaborie/gitmoji-rs/releases/download/v3.1.0/gitmoji-rs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.1.0",
+      "sha256": "c52bbdc5683077e0ad00acfd1875028ca4188f264d4361ba15a77b284f87f25b",
+      "size": 2935799,
+      "format": "zip",
+      "binaries": {
+        "gitmoji.exe": {
+          "path": "gitmoji.exe",
+          "sha256": "b7d92c5bcde1c2e9039a5ee847c59d50e7cf0cb722598e0209d3f98a1a6d10ec"
+        }
+      }
+    }
+  }
+}
