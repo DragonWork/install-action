@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "dlm",
+  "version": "0.8.0",
+  "repository": "agourlay/dlm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/agourlay/dlm/releases/download/v0.8.0/dlm-v0.8.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "dd0e5e521d8751b043cc913e46e6b84dcb5df76fdb4d4035fecc064882febf80",
+      "size": 2898263,
+      "format": "tar.gz",
+      "binaries": {
+        "dlm": {
+          "path": "dlm",
+          "sha256": "290b89925e411b4f2aa1249aba184a3b80d48ca501e6d5195a30781ac965abcf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/agourlay/dlm/releases/download/v0.8.0/dlm-v0.8.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "d499ed2daec4b133d3f45a41ed9728de12cacfc3ae190e1cce72fbbfbc6af32a",
+      "size": 2693827,
+      "format": "tar.gz",
+      "binaries": {
+        "dlm": {
+          "path": "dlm",
+          "sha256": "1168c773ded50cfb52946a4d1fdd53b48b9418b91dd60bf14718704120d95914"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/agourlay/dlm/releases/download/v0.8.0/dlm-v0.8.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "92ccdcee295373f36f48ae7a1ed3f95f2d0676679ff9b3df24da34cfb2c384ae",
+      "size": 2845623,
+      "format": "tar.gz",
+      "binaries": {
+        "dlm": {
+          "path": "dlm",
+          "sha256": "ea9979c5975f4088059f037ee04178f75a1c0ac92d187bfaa71b7a6c41ab823f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/agourlay/dlm/releases/download/v0.8.0/dlm-v0.8.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "6d681f1177306653b644a3af0d65d39220fb5843af1f97e687f255640e0dd522",
+      "size": 2624626,
+      "format": "tar.gz",
+      "binaries": {
+        "dlm": {
+          "path": "dlm",
+          "sha256": "b4e33cacb783243a63c38292ba6b1bb875b5c83353fa3a14bc1761529b611a0e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/agourlay/dlm/releases/download/v0.8.0/dlm-v0.8.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.0",
+      "sha256": "b7ae95dc9bc0eb7346b36cae0cba3ba765ab45920589dd2edb947d3be743999d",
+      "size": 2457238,
+      "format": "zip",
+      "binaries": {
+        "dlm.exe": {
+          "path": "dlm.exe",
+          "sha256": "0626b3e70dc7c284d0d81b4a9eac2744b0f34b3c96faddb942b6fc36a60aa8c4"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/agourlay/dlm/releases/download/v0.8.0/dlm-v0.8.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.0",
+      "sha256": "3a1c4802867c25876b60eb9b81fddd8b1c551a6e19becab7da7aba0303ab2223",
+      "size": 2435107,
+      "format": "zip",
+      "binaries": {
+        "dlm.exe": {
+          "path": "dlm.exe",
+          "sha256": "c9d92b9cc7cd5eba62e3ddf062f528105948e765f99c7ff61df2ef25685108b6"
+        }
+      }
+    }
+  }
+}
