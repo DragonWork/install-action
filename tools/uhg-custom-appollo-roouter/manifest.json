@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "uhg-custom-appollo-roouter",
+  "version": "1.61.10",
+  "repository": "apollographql/router",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/apollographql/router/releases/download/v1.61.10/router-v1.61.10-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.61.10",
+      "sha256": "8637cbcf4091a83a37e464c40bd8413cea3bf06a701335cd78b106e0b6ab8b73",
+      "size": 24306208,
+      "format": "tar.gz",
+      "binaries": {
+        "router": {
+          "path": "dist/router",
+          "sha256": "c9f347d3e3072a6805229920a0028fdbfc7047e1384ca7e8547cb1bdda7da6b7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/apollographql/router/releases/download/v1.61.10/router-v1.61.10-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.61.10",
+      "sha256": "d4b29b70953c71dbaa5800c39c862e2fc23b1d23326f10febef6d1fcb7d7258f",
+      "size": 23747237,
+      "format": "tar.gz",
+      "binaries": {
+        "router": {
+          "path": "dist/router",
+          "sha256": "907e68d95a5d79080d892faed29a9e79a21d95bcba4076ddbe23f94fc0c4fd70"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/apollographql/router/releases/download/v1.61.10/router-v1.61.10-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.61.10",
+      "sha256": "37f0d320e55afa1ea421566a203c6ac2783fbd99180bd8d1fc2e87addda76b46",
+      "size": 23058656,
+      "format": "tar.gz",
+      "binaries": {
+        "router": {
+          "path": "dist/router",
+          "sha256": "d61a9ac5104b01657fe435ab598bfcc415ac6124e656afeae3ac766144ec2f81"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/apollographql/router/releases/download/v1.61.10/router-v1.61.10-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.61.10",
+      "sha256": "0274e181e2fced8fb69afdfe75cc0da4ddc4a8b3860148b62030171548054ba5",
+      "size": 21672792,
+      "format": "tar.gz",
+      "binaries": {
+        "router": {
+          "path": "dist/router",
+          "sha256": "381a771805eedfa105b67a7ecc2139fcb2b57ef4616e14a6d11977ef338d59e3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/apollographql/router/releases/download/v1.61.10/router-v1.61.10-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.61.10",
+      "sha256": "d13d9c25e066b71bb87a5c3474dafbc38deeb7ce30980b7b31518397b2141356",
+      "size": 19923395,
+      "format": "tar.gz",
+      "binaries": {
+        "router.exe": {
+          "path": "dist/router.exe",
+          "sha256": "ae61bbf51449a9595436b2dc846592c376adfb834ea5c560291c082b7f605e8d"
+        }
+      }
+    }
+  }
+}
