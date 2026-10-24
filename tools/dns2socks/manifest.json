@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dns2socks",
+  "version": "0.2.7",
+  "repository": "tun2proxy/dns2socks",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tun2proxy/dns2socks/releases/download/v0.2.7/dns2socks-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.2.7",
+      "sha256": "4cf3c96d5c0a6c8bfe3787f67f3036c564beacc8b5e28249c1d77d154c3883a5",
+      "size": 1826925,
+      "format": "zip",
+      "binaries": {
+        "dns2socks": {
+          "path": "dns2socks",
+          "sha256": "8b8a5cb0cfee59938258ca0c4f8c83c9345770330e0092954449f41d5626952e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tun2proxy/dns2socks/releases/download/v0.2.7/dns2socks-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.2.7",
+      "sha256": "9b10b59f0810bec75a42b06c0a9563626f914b74f55602656c58b7e93122c6c2",
+      "size": 2643158,
+      "format": "zip",
+      "binaries": {
+        "dns2socks": {
+          "path": "dns2socks",
+          "sha256": "919935b0db5d5da2a3dd9a1eee5a35f54a8b05bfe3f301f956773aabee6ed4bf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tun2proxy/dns2socks/releases/download/v0.2.7/dns2socks-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.2.7",
+      "sha256": "7fd224fd64f805a79deaf590bcc034c374a6c9fe953d3ee633e4694fd9b6a12f",
+      "size": 2491105,
+      "format": "zip",
+      "binaries": {
+        "dns2socks": {
+          "path": "dns2socks",
+          "sha256": "448e23b2f5152a906f26cd0aa26251902f53ab605331df8ce1b5454a68b34b72"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tun2proxy/dns2socks/releases/download/v0.2.7/dns2socks-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.2.7",
+      "sha256": "553a79a1b3b7087f39234280b16b566eb8a13a9bcf6d512e8bfbbc463b93ccf2",
+      "size": 2398189,
+      "format": "zip",
+      "binaries": {
+        "dns2socks": {
+          "path": "dns2socks",
+          "sha256": "af647af82cb76c5703b29fe771748aa9696a52d41448872e5db19938e998c36c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tun2proxy/dns2socks/releases/download/v0.2.7/dns2socks-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.7",
+      "sha256": "709cef21645ba5d6e590725b200e3961ad6882616245a7c3de7412b219f095c4",
+      "size": 2129452,
+      "format": "zip",
+      "binaries": {
+        "dns2socks.exe": {
+          "path": "dns2socks.exe",
+          "sha256": "d04da000699d9b8aba8b294cb86d0b27ef64879217adce202de05413ca4a0c07"
+        }
+      }
+    }
+  }
+}
