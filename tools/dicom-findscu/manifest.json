@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dicom-findscu",
+  "version": "0.10.0",
+  "repository": "Enet4/dicom-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Enet4/dicom-rs/releases/download/v0.10.0/dicom-rs-tools-v0.10.0-x86_64-linux-musl.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "5045570c6605feaefd2455eac0230c17abf4a1fafeb4d9f4bf1f20bfd0b55c3a",
+      "size": 33543565,
+      "format": "zip",
+      "binaries": {
+        "dicom-findscu": {
+          "path": "dicom-findscu",
+          "sha256": "c6c1395f11570c59e28c4c110691716e3c1d034ac980f2db23565d2ea820075c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Enet4/dicom-rs/releases/download/v0.10.0/dicom-rs-tools-v0.10.0-x86_64-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "d22dd9e3644d6f8c84a156b176253660e449b91ab7f6db6114b99c1c58955250",
+      "size": 27221792,
+      "format": "zip",
+      "binaries": {
+        "dicom-findscu.exe": {
+          "path": "dicom-findscu.exe",
+          "sha256": "6fea1065f6f08b735ea405c4a64ec6ec21c5e66cc76e8c81d7dab0e6f4f7dc64"
+        }
+      }
+    }
+  }
+}
