@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mdbook-linkcheck",
+  "version": "0.7.7",
+  "repository": "Michael-F-Bryan/mdbook-linkcheck",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v0.7.7/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.7.7",
+      "sha256": "18cebca9493804b307b39a44af2664cdfa881e84b8d92a94205d6c51572318ef",
+      "size": 5228777,
+      "format": "zip",
+      "binaries": {
+        "mdbook-linkcheck": {
+          "path": "mdbook-linkcheck",
+          "sha256": "2d7232e448f77f2534e3e047c7c3085b1bd8a68535cf230efed8611c9a201fc0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v0.7.7/mdbook-linkcheck.x86_64-apple-darwin.zip",
+      "releaseTag": "v0.7.7",
+      "sha256": "13f83555d63d730ca28e92db2bea4d81f815f26af3db7dadc4f27cab83007947",
+      "size": 3824139,
+      "format": "zip",
+      "binaries": {
+        "mdbook-linkcheck": {
+          "path": "mdbook-linkcheck",
+          "sha256": "b7f0d881cca5bf64eca954f5787f9260e05178db4c2d413104002d71ee3f9032"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v0.7.7/mdbook-linkcheck.x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.7",
+      "sha256": "b19f03e7c4fb38f936e118ae5dca5eb67c26614b202c42b2eec27fb260f625f0",
+      "size": 3886380,
+      "format": "zip",
+      "binaries": {
+        "mdbook-linkcheck.exe": {
+          "path": "mdbook-linkcheck.exe",
+          "sha256": "e06e4d77d038deb188e8611d7efb0e378207ed36d15240c6fd8fa69670153169"
+        }
+      }
+    }
+  }
+}
