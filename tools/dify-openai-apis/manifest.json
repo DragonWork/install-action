@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "dify-openai-apis",
+  "version": "0.1.8",
+  "repository": "12kv/dify-openai-apis",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/12kv/dify-openai-apis/releases/download/v0.1.8/dify-openai-apis-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "d7b56a679fa57390f1cfe751a09b781e699f89ea8db349c68318ee40a64fc999",
+      "size": 2966515,
+      "format": "tar.gz",
+      "binaries": {
+        "dify-openai-apis": {
+          "path": "dify-openai-apis",
+          "sha256": "502c362c632d02717f4dd214be7d7bd00c8019817f92ad74a235a832b77f2097"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/12kv/dify-openai-apis/releases/download/v0.1.8/dify-openai-apis-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "cf1a8903143d68faaf78ebcef16fc40f0a1f983f77b00da70165190ae972bdf2",
+      "size": 2922613,
+      "format": "tar.gz",
+      "binaries": {
+        "dify-openai-apis": {
+          "path": "dify-openai-apis",
+          "sha256": "115df5e4400fb243bf007a939b6b272c37da537c9767d2e31114a813685614ae"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/12kv/dify-openai-apis/releases/download/v0.1.8/dify-openai-apis-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "7851428ded6522d5cd26dc86cc3be11a5e3df19b83a4c69209a28e9f10d551e2",
+      "size": 2771108,
+      "format": "tar.gz",
+      "binaries": {
+        "dify-openai-apis": {
+          "path": "dify-openai-apis",
+          "sha256": "ee9df24534617ced368c6152709677e35430606ce87d1a0ce72e34eff977c8fa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/12kv/dify-openai-apis/releases/download/v0.1.8/dify-openai-apis-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "6ef98f767e2d2bed51ec75944db398e54500f06c308e85f784213322df68519c",
+      "size": 2643758,
+      "format": "tar.gz",
+      "binaries": {
+        "dify-openai-apis": {
+          "path": "dify-openai-apis",
+          "sha256": "74aed2a2a32eb85cbe0ed12d3fb70cbaa0825670a65da146ef11dc41d2a93f60"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/12kv/dify-openai-apis/releases/download/v0.1.8/dify-openai-apis-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.8",
+      "sha256": "75870906c1809785bb85f74cd78c96d2a10b52570ee44fcb98eff5cf75b5f7f9",
+      "size": 2388274,
+      "format": "zip",
+      "binaries": {
+        "dify-openai-apis.exe": {
+          "path": "dify-openai-apis.exe",
+          "sha256": "2041937ece6676bdf678253e91d520906ba433e7ce8c32774bab1f6b932ec156"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/12kv/dify-openai-apis/releases/download/v0.1.8/dify-openai-apis-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.8",
+      "sha256": "3b2dac656a19612a86cc043ead81e210b19db8d2db62827d9b661c6e1f0a0d35",
+      "size": 2244989,
+      "format": "zip",
+      "binaries": {
+        "dify-openai-apis.exe": {
+          "path": "dify-openai-apis.exe",
+          "sha256": "a4edc7b3e608de4238825c7f5a0360f72135358197f2310bb21ba3e524a32f8d"
+        }
+      }
+    }
+  }
+}
