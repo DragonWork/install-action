@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cargo-xwin",
+  "version": "0.23.1",
+  "repository": "rust-cross/cargo-xwin",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.23.1/cargo-xwin-v0.23.1.x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.23.1",
+      "sha256": "c492c6dfb7e5ac0eee586b796e0fc950ba13077e7f0bbb046f445d71790d5360",
+      "size": 3850667,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-xwin": {
+          "path": "cargo-xwin",
+          "sha256": "5436ddb00b07ad567e2b90087cf1da2a2fc68c27edea71041b8d76704b576ae8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.23.1/cargo-xwin-v0.23.1.aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.23.1",
+      "sha256": "dc0a0fb28fdd90405f69e7365bce91d2504ea7491eb4d79d5655ffa106358925",
+      "size": 3619655,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-xwin": {
+          "path": "cargo-xwin",
+          "sha256": "054055bf3cdfd5328797993a538151e945473434a3a6eef9860c60b04affcbdd"
+        }
+      }
+    }
+  }
+}
