@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "junit2json",
+  "version": "0.2.14",
+  "repository": "Kesin11/junit2json-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Kesin11/junit2json-rs/releases/download/v0.2.14/junit2json-rs-0.2.14-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.14",
+      "sha256": "761934cbcf1fb6c0610e0e4d4ee382a29a57c71ed34ed1ee39f66464235e60cf",
+      "size": 568922,
+      "format": "tar.gz",
+      "binaries": {
+        "junit2json": {
+          "path": "junit2json",
+          "sha256": "4e1b0f4660f60307a335f30e62670520e79cac5047153c70377da798ebf1d44c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Kesin11/junit2json-rs/releases/download/v0.2.14/junit2json-rs-0.2.14-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.14",
+      "sha256": "62bf8bd19183a60d7c237b95abdf88d7510664cf8168db915de64e8c0eda174c",
+      "size": 545116,
+      "format": "tar.gz",
+      "binaries": {
+        "junit2json": {
+          "path": "junit2json",
+          "sha256": "27506173c7a9ef5d0a6ded29eb693b03a5d6c2a03e0e79702ba37eee4362b8e5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Kesin11/junit2json-rs/releases/download/v0.2.14/junit2json-rs-0.2.14-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.14",
+      "sha256": "f3eef05de582ab1fc5ac6ed84f35f857fb52b578e9691c2bb524ca6c43724a69",
+      "size": 518125,
+      "format": "tar.gz",
+      "binaries": {
+        "junit2json": {
+          "path": "junit2json",
+          "sha256": "3c9b9a67a3efddb685de00b4f4d38ea3486f108146a2f1ca2f5afe237f1f5632"
+        }
+      }
+    }
+  }
+}
