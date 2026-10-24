@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "run-clang-format",
+  "version": "1.5.2",
+  "repository": "lmapii/run-clang-format",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lmapii/run-clang-format/releases/download/v1.5.2/run-clang-format-v1.5.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "8e1484e325d1870432859e4da2ac2c67720d3679e860a505d139ca11ea0063b5",
+      "size": 1590118,
+      "format": "tar.gz",
+      "binaries": {
+        "run-clang-format": {
+          "path": "run-clang-format-v1.5.2-x86_64-unknown-linux-gnu/run-clang-format",
+          "sha256": "39de0121198032da44a78aea1546bcb34b3ac0ac6b72283abab44177bf6e3f4d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lmapii/run-clang-format/releases/download/v1.5.2/run-clang-format-v1.5.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "ebb80168ebbd0843177a12e529868ff242c1e8ed008bfea6ff7a3be3e98a9e23",
+      "size": 1459335,
+      "format": "tar.gz",
+      "binaries": {
+        "run-clang-format": {
+          "path": "run-clang-format-v1.5.2-aarch64-unknown-linux-musl/run-clang-format",
+          "sha256": "3654997069434e125c0669c8eddbe3365e5fc7f22ca1c640d8ee4e444ca49ff9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lmapii/run-clang-format/releases/download/v1.5.2/run-clang-format-v1.5.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "cc7e7af349b63986bdbbfc1f18cf8c86acf39ab00558ac5cc39791b2b84a7b80",
+      "size": 1513923,
+      "format": "tar.gz",
+      "binaries": {
+        "run-clang-format": {
+          "path": "run-clang-format-v1.5.2-x86_64-apple-darwin/run-clang-format",
+          "sha256": "85f4516176a2efa1cb86c8bf9fdc32bf9f0864b947165bb66e1ade1f6bf18ed1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lmapii/run-clang-format/releases/download/v1.5.2/run-clang-format-v1.5.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.5.2",
+      "sha256": "0988c58a99072524fbe79c50a243127421e3b963534c7a0c53270ffde754fb2a",
+      "size": 1371343,
+      "format": "zip",
+      "binaries": {
+        "run-clang-format.exe": {
+          "path": "run-clang-format-v1.5.2-x86_64-pc-windows-msvc/run-clang-format.exe",
+          "sha256": "7f3be1ff5e8b3826a14029e491f5a4b18eb063a5f9320a02b797d5f4a6c18b00"
+        }
+      }
+    }
+  }
+}
