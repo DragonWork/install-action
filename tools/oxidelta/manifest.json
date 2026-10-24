@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "oxidelta",
+  "version": "0.1.4",
+  "repository": "sockudo/oxidelta",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/sockudo/oxidelta/releases/download/v0.1.4/oxidelta-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.1.4",
+      "sha256": "2f0383a5d549cd9410bb4ea57232458e496ce86fa9894520b667a162e585e9b8",
+      "size": 1683968,
+      "format": "binary",
+      "binaries": {
+        "oxidelta.exe": {
+          "path": "oxidelta-x86_64-pc-windows-msvc.exe",
+          "sha256": "2f0383a5d549cd9410bb4ea57232458e496ce86fa9894520b667a162e585e9b8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sockudo/oxidelta/releases/download/v0.1.4/oxidelta-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.1.4",
+      "sha256": "1d3704bf6c261861563652b8bd628a7bab32ba9a974bac85e1f6a12c1ac575cd",
+      "size": 1356800,
+      "format": "binary",
+      "binaries": {
+        "oxidelta.exe": {
+          "path": "oxidelta-aarch64-pc-windows-msvc.exe",
+          "sha256": "1d3704bf6c261861563652b8bd628a7bab32ba9a974bac85e1f6a12c1ac575cd"
+        }
+      }
+    }
+  }
+}
