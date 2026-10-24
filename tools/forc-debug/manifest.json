@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "forc-debug",
+  "version": "0.72.1",
+  "repository": "FuelLabs/sway",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "1d90387e69ccce595c552654316318975525e89a6d30f86580886aedb1cef517",
+      "size": 78395148,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-debug": {
+          "path": "./forc-binaries/forc-debug",
+          "sha256": "9d61b6df084ffef21a6d8bb13f0f4d126768b249d9fc9ab7ad54602ba3ea9c5b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "8eabdb0a1487b6ec96fa94acbf861f5034084dbf9a2503c47190dc86f3f615fe",
+      "size": 74480414,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-debug": {
+          "path": "./forc-binaries/forc-debug",
+          "sha256": "1a607fdcc255f116790d4c7ece804e2e3e456f76fe17cccacfffff83084ed37e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "c80ae1cc740f2418c308e2398162c6f051585d7ab81fc2d970a6b16a146b05b3",
+      "size": 78364396,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-debug": {
+          "path": "./forc-binaries/forc-debug",
+          "sha256": "4c3f30921ff772b8bbde79673d0da93572544cf3812d178e7be2e4b05cace4e0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "11f122e1c86927de13e6dd719946571e65bcfa0a1467507efbd6676f7c33fa0d",
+      "size": 74199231,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-debug": {
+          "path": "./forc-binaries/forc-debug",
+          "sha256": "e8fbc58f307638fb248c07455c914e82c62e4b93987c03c7ffe1d6eeb2a5f70b"
+        }
+      }
+    }
+  }
+}
