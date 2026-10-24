@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "name": "zoog",
+  "version": "0.9.0",
+  "repository": "FrancisRussell/zoog",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/FrancisRussell/zoog/releases/download/v0.9.0/zoog-v0.9.0-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "6d97dcc4d4d3bfba95061e7390c168f5e06fe8899ec5b13ec5bdc7f38a8802b2",
+      "size": 1230165,
+      "format": "zip",
+      "binaries": {
+        "opusgain": {
+          "path": "zoog-v0.9.0-x86_64-apple-darwin/opusgain",
+          "sha256": "faa6300d2d53f6b6f7f4a62fa233123e5251ca7b029609e0a77793bf85663b05"
+        },
+        "zoogcomment": {
+          "path": "zoog-v0.9.0-x86_64-apple-darwin/zoogcomment",
+          "sha256": "c254468d673491fdf3b9b8dce4f691077784b185af4a1948848918a267203335"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FrancisRussell/zoog/releases/download/v0.9.0/zoog-v0.9.0-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "914d8ff6d116a54c4c790b2b9c24b4241a25e3729592265754ce947712fbb620",
+      "size": 1187101,
+      "format": "zip",
+      "binaries": {
+        "opusgain": {
+          "path": "zoog-v0.9.0-aarch64-apple-darwin/opusgain",
+          "sha256": "301f92f55df3f1e9e3a3e652e0b0e81d8c896a4bcb98da5b0f6a934469b8f2e0"
+        },
+        "zoogcomment": {
+          "path": "zoog-v0.9.0-aarch64-apple-darwin/zoogcomment",
+          "sha256": "d4064d0c8f02febb1f45b78408d8a137e648191c8a46fe48cb54c5586671b21d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/FrancisRussell/zoog/releases/download/v0.9.0/zoog-v0.9.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "f873ec49a3780b2119a92c52f6c6d96b766b0a74ba32d5c8a5b0643c0cfcf818",
+      "size": 1111161,
+      "format": "zip",
+      "binaries": {
+        "opusgain.exe": {
+          "path": "zoog-v0.9.0-x86_64-pc-windows-msvc/opusgain.exe",
+          "sha256": "804a7ea5fd032e48605df633bf2669439d2438702dac25bdbd6cb2456e679414"
+        },
+        "zoogcomment.exe": {
+          "path": "zoog-v0.9.0-x86_64-pc-windows-msvc/zoogcomment.exe",
+          "sha256": "fa7608d0434ef63c9f71f60f425824d614f978de42c5ee0490060500c63b4738"
+        }
+      }
+    }
+  }
+}
