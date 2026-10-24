@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rust-web-server",
+  "version": "17.112.0",
+  "repository": "bohdaq/rust-web-server",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/17.112.0/rws-17.112.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "17.112.0",
+      "sha256": "6ab8b13273386d916adfca6c1857dadee6e2f4672914097e291c8d0cc2b1ebab",
+      "size": 4382274,
+      "format": "tar.gz",
+      "binaries": {
+        "rws": {
+          "path": "rws-17.112.0-x86_64-unknown-linux-musl/rws",
+          "sha256": "47bd26a2d483fffad8b230268de6c1b614e0861084276b749445c903271911e1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/17.112.0/rws-17.112.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "17.112.0",
+      "sha256": "c80b4d40af58fee4a0848a9e267e6a1766cf2c80f384236e264a9b45cfd25d48",
+      "size": 4160077,
+      "format": "tar.gz",
+      "binaries": {
+        "rws": {
+          "path": "rws-17.112.0-aarch64-unknown-linux-musl/rws",
+          "sha256": "bfc1ac1b0259bdd0717458f1d17c7e18792b810e8dd2accdb2e27c2d1e4d3cd4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/17.112.0/rws-17.112.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "17.112.0",
+      "sha256": "7cb2329fed7751dafc7ee08e43ad78eaf661f2e2a9dfad9f32498393abda3bd2",
+      "size": 4107715,
+      "format": "tar.gz",
+      "binaries": {
+        "rws": {
+          "path": "rws-17.112.0-x86_64-apple-darwin/rws",
+          "sha256": "ecefff4e22ddd7b924dc35bac9f8eab5e47f9598b0b7aa9cc5299589cdb3c7e4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/17.112.0/rws-17.112.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "17.112.0",
+      "sha256": "643deda035bd58e63d5340099fab88b357c102bd456027bb54616960cd38ffac",
+      "size": 3859920,
+      "format": "tar.gz",
+      "binaries": {
+        "rws": {
+          "path": "rws-17.112.0-aarch64-apple-darwin/rws",
+          "sha256": "e9633b3b90570f5218c87d59bf9da60c478efb39452993e1bb453036d4bd89cf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/17.112.0/rws-17.112.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "17.112.0",
+      "sha256": "ecf5d76df4e6a65121887a367bf16311dd07fcee70c1011a8132cd50c59fd8fc",
+      "size": 3625708,
+      "format": "zip",
+      "binaries": {
+        "rws.exe": {
+          "path": "rws-17.112.0-x86_64-pc-windows-msvc/rws.exe",
+          "sha256": "5a2be1d12627591c490057cf14920a9baa978994a8aa6b7463ef98604324d6ae"
+        }
+      }
+    }
+  }
+}
