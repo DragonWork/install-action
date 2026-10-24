@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "parallel-disk-usage",
+  "version": "0.24.0",
+  "repository": "KSXGitHub/parallel-disk-usage",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KSXGitHub/parallel-disk-usage/releases/download/0.24.0/pdu-x86_64-unknown-linux-musl",
+      "sha256": "b991a68c1555d9144ea8ef2dd8cab91efb0b90ec8be53fdec4d0b2dd0e596f56",
+      "size": 2253632,
+      "format": "binary",
+      "releaseTag": "0.24.0",
+      "binaries": {
+        "pdu": {
+          "path": "pdu-x86_64-unknown-linux-musl",
+          "sha256": "b991a68c1555d9144ea8ef2dd8cab91efb0b90ec8be53fdec4d0b2dd0e596f56"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KSXGitHub/parallel-disk-usage/releases/download/0.24.0/pdu-x86_64-apple-darwin",
+      "sha256": "43f0e13932e4a28231e322f228f0f7bd8dae53773f24ba5ffa2f548bf4627972",
+      "size": 2039996,
+      "format": "binary",
+      "releaseTag": "0.24.0",
+      "binaries": {
+        "pdu": {
+          "path": "pdu-x86_64-apple-darwin",
+          "sha256": "43f0e13932e4a28231e322f228f0f7bd8dae53773f24ba5ffa2f548bf4627972"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KSXGitHub/parallel-disk-usage/releases/download/0.24.0/pdu-x86_64-pc-windows-msvc.exe",
+      "sha256": "1133cde2e4cf3448b5fa6facd2883391d88957057da625a5ab910e7d7c15c36e",
+      "size": 1464320,
+      "format": "binary",
+      "releaseTag": "0.24.0",
+      "binaries": {
+        "pdu.exe": {
+          "path": "pdu-x86_64-pc-windows-msvc.exe",
+          "sha256": "1133cde2e4cf3448b5fa6facd2883391d88957057da625a5ab910e7d7c15c36e"
+        }
+      }
+    }
+  }
+}
