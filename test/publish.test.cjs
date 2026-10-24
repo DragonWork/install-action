@@ -7,7 +7,8 @@ const os = require('node:os');
 const path = require('node:path');
 const { signedCommit, release } = require('../scripts/github.cjs');
 const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget,
-  prepareShard, mergePrepared, catalogProgress, assetCandidates, assetFormat, nativeBinary } = require('../scripts/update-tools.cjs');
+  prepareShard, mergePrepared, catalogProgress, assetCandidates, assetFormat, nativeBinary,
+  generate, planUpdate } = require('../scripts/update-tools.cjs');
 const { main: publishTools } = require('../scripts/publish-tools.cjs');
 const { sample } = require('./fixtures.cjs');
 
@@ -53,6 +54,7 @@ test('multiple release variants select the ordinary package and platform archive
   assert.equal(assetFormat('b3sum_windows_x64_bin.exe'), 'binary');
   assert.equal(assetFormat('tool-installer.exe'), null);
   assert.equal(nativeBinary(Buffer.from('not an executable'), 'linux-x64'), false);
+  assert.deepEqual(assetCandidates(assets(['tool-x86_64-linux-android.tar.gz']), 'linux-x64', 'tool', ['tool']), []);
 });
 
 test('bulk discovery batches release lookups and records unavailable repositories', async t => {
@@ -63,7 +65,7 @@ test('bulk discovery batches release lookups and records unavailable repositorie
     calls++;
     assert.match(JSON.parse(options.body).query, /release\(tagName:"v1.0.0"\)/);
     return Response.json({ data: {
-      r0: { t0: { tagName: 'v1.0.0', isDraft: false, isPrerelease: false,
+      r0: { nameWithOwner: 'example/tool', t0: { tagName: 'v1.0.0', isDraft: false, isPrerelease: false,
         releaseAssets: { nodes: [{ name: 'tool-x86_64-unknown-linux-musl.tar.gz', downloadUrl: 'https://github.com/example/tool/releases/download/v1.0.0/tool.tar.gz', size: 10, digest: null }] } } },
       rateLimit: { remaining: 900 },
     } });
@@ -75,7 +77,68 @@ test('bulk discovery batches release lookups and records unavailable repositorie
   } }, state, {});
   assert.equal(calls, 1);
   assert.equal(state.cli.release.tag_name, 'v1.0.0');
+  assert.equal(state.cli.release.repository, 'example/tool');
   assert.match(state.other.reason, /No GitHub/);
+});
+
+test('renamed repositories and canonical capitalization produce valid manifests', async t => {
+  const original = global.fetch;
+  t.after(() => { global.fetch = original; });
+  const binary = Buffer.concat([Buffer.from([127, 69, 76, 70]), Buffer.alloc(60)]);
+  const url = 'https://github.com/Canonical/sample-cli/releases/download/v1.0.0/sample-cli_linux_x64_bin';
+  const release = { tag_name: 'v1.0.0', draft: false, prerelease: false, assets: [{
+    name: 'sample-cli_linux_x64_bin', browser_download_url: url, size: binary.length, state: 'uploaded',
+  }] };
+  let lookups = 0;
+  global.fetch = async (request, options) => {
+    if (request === 'https://api.github.com/graphql') {
+      lookups++;
+      assert.match(JSON.parse(options.body).query, /owner:"old-owner"/);
+      return Response.json({ data: { repository: { nameWithOwner: 'Canonical/sample-cli' } } });
+    }
+    if (request === 'https://api.github.com/repos/Canonical/sample-cli/releases/tags/v1.0.0') return Response.json(release);
+    assert.equal(request, url);
+    return new Response(binary);
+  };
+  const record = { version: '1.0.0', binaries: ['sample-cli'], downloads: 10000,
+    repository: 'https://github.com/old-owner/sample-cli' };
+  for (const cached of [undefined, release, { ...release, repository: 'Canonical/sample-cli' }]) {
+    const { manifest } = await generate('sample-cli', null, { record, release: cached });
+    assert.equal(manifest.repository, 'Canonical/sample-cli');
+    assert.equal(manifest.artifacts['linux-x64'].url, url);
+  }
+  assert.equal(lookups, 2);
+});
+
+test('previous URL validation misses are automatically resolved again', async t => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-repository-'));
+  const originalFetch = global.fetch;
+  const originalEnv = { ...process.env };
+  t.after(async () => {
+    global.fetch = originalFetch;
+    for (const key of Object.keys(process.env)) if (!(key in originalEnv)) delete process.env[key];
+    Object.assign(process.env, originalEnv);
+    await fs.rm(root, { recursive: true, force: true });
+  });
+  for (const key of ['CRATE_NAMES', 'DISCOVER_RELEASES', 'CRATE_PROBE_SIZE', 'CRATE_BATCH_SIZE', 'GITHUB_OUTPUT']) delete process.env[key];
+  await fs.writeFile(path.join(root, 'catalog.json'), JSON.stringify({ minimumDownloads: 10000, crates: {
+    cli: { version: '1.0.0', downloads: 10000, binaries: ['cli'], repository: 'https://github.com/old-owner/cli' },
+  } }));
+  await fs.writeFile(path.join(root, 'catalog-state.json'), JSON.stringify({ cli: {
+    version: '1.0.0', resolverRevision: 2, reason: 'Invalid release asset URL.', retryable: false,
+    retryAfter: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(),
+  } }));
+  global.fetch = async request => {
+    if (request.endsWith('/rate_limit')) return Response.json({ resources: { core: { remaining: 1000 } } });
+    assert.equal(request, 'https://api.github.com/graphql');
+    return Response.json({ data: { r0: { nameWithOwner: 'Canonical/cli', t0: {
+      tagName: 'v1.0.0', isDraft: false, isPrerelease: false,
+      releaseAssets: { nodes: [{ name: 'cli_linux_x64_bin', downloadUrl: 'https://github.com/Canonical/cli/releases/download/v1.0.0/cli_linux_x64_bin', size: 64 }] },
+    } }, rateLimit: { remaining: 900 } } });
+  };
+  const plan = await planUpdate(root);
+  assert.deepEqual(plan.names, ['cli']);
+  assert.equal(plan.candidates.cli.release.repository, 'Canonical/cli');
 });
 
 test('publication requests a signed Conventional Commit only on the selected branch', async t => {

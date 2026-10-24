@@ -54,6 +54,7 @@ function assetCandidates(assets, platform, name, binaries) {
   };
   const stem = asset => asset.name.replace(/\.(?:tar\.(?:gz|xz|zst)|tgz|zip|exe)$/, '');
   return assets.filter(asset => asset.state === 'uploaded' && assetFormat(asset.name)
+    && !/(?:^|[-_.])(?:android|androideabi|ios)(?:[-_.]|$)/i.test(asset.name)
     && (targets.some(target => asset.name.includes(target)) || (arch.test(asset.name) && os.test(asset.name))))
     .sort((a, b) => rank(a) - rank(b) || prefix(a) - prefix(b)
       || Number(assetFormat(a.name) === 'binary') - Number(assetFormat(b.name) === 'binary')
@@ -88,7 +89,7 @@ async function probeReleases(catalog, state, current, limit = 2000) {
     const fields = block.map(({ name, entry, repository }, index) => {
       const [owner, repo] = repository.split('/');
       const tags = [`v${entry.version}`, `${name}-v${entry.version}`, `${name}-${entry.version}`, entry.version];
-      return `r${index}: repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(repo)}) {` +
+      return `r${index}: repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(repo)}) { nameWithOwner ` +
         tags.map((tag, j) => `t${j}: release(tagName:${JSON.stringify(tag)}) {
           tagName isDraft isPrerelease releaseAssets(first:100) { nodes { name downloadUrl size digest } }
         }`).join('\n') + '}';
@@ -106,11 +107,13 @@ async function probeReleases(catalog, state, current, limit = 2000) {
     assert(response.data, `Release discovery failed: ${response.errors?.[0]?.message || 'empty response'}`);
     for (let index = 0; index < block.length; index++) {
       const { name, entry } = block[index];
-      const releases = Object.values(response.data[`r${index}`] || {}).filter(Boolean);
+      const upstream = response.data[`r${index}`];
+      const releases = Object.entries(upstream || {}).filter(([key, value]) => /^t\d+$/.test(key) && value).map(([, value]) => value);
       const found = releases.find(r => !r.isDraft && !r.isPrerelease
         && r.releaseAssets.nodes.some(a => assetFormat(a.name)));
       state[name] = { version: entry.version, resolverRevision: RESOLVER_REVISION, retryAfter, ...(found ? { release: {
-        tag_name: found.tagName, assets: found.releaseAssets.nodes.filter(a => assetFormat(a.name)).map(a => ({ name: a.name,
+        repository: upstream.nameWithOwner, tag_name: found.tagName,
+        assets: found.releaseAssets.nodes.filter(a => assetFormat(a.name)).map(a => ({ name: a.name,
           browser_download_url: a.downloadUrl, size: a.size, digest: a.digest, state: 'uploaded' })),
       } } : { reason: 'No matching upstream binary release.' }) };
     }
@@ -168,6 +171,17 @@ async function cratesApi(endpoint) {
 function repositoryOf(value) {
   const match = /^https:\/\/github\.com\/([a-zA-Z0-9_.-]+\/[a-zA-Z0-9_.-]+?)(?:\.git)?\/?$/.exec(value || '');
   return match?.[1];
+}
+
+async function canonicalRepository(repository) {
+  const [owner, name] = repository.split('/');
+  const response = await api('/graphql', { method: 'POST', body: {
+    query: `{ repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(name)}) { nameWithOwner } }`,
+  } });
+  assert(!response.errors, `Repository lookup failed: ${response.errors?.[0]?.message}`);
+  const canonical = response.data?.repository?.nameWithOwner;
+  assert(canonical && repositoryOf(`https://github.com/${canonical}`) === canonical, 'No supported upstream release repository.');
+  return canonical;
 }
 
 async function prebuilts(name, version, repository, binaries, temporary, knownRelease) {
@@ -238,8 +252,9 @@ async function generate(name, previous, { record, release: knownRelease } = {}) 
   try {
     const binaries = selected.bin_names || [];
     assert(binaries.length, `${name} has no CLI binaries.`);
-    const repository = repositoryOf(selected.repository);
-    assert(repository, `No supported upstream release repository for ${name}.`);
+    const upstream = repositoryOf(selected.repository);
+    assert(upstream, `No supported upstream release repository for ${name}.`);
+    const repository = knownRelease?.repository || await canonicalRepository(upstream);
     const manifest = validateManifest({ schema: 1, name, version,
       ...(repository ? { repository } : {}),
       artifacts: await prebuilts(name, version, repository, binaries, temporary, knownRelease),
@@ -291,6 +306,10 @@ async function planUpdate(directory) {
   const catalog = await readJson(path.join(directory, 'catalog.json'), { crates: {}, unknown: [] });
   const state = await readJson(path.join(directory, 'catalog-state.json'), {});
   for (const entry of Object.values(state)) {
+    if (entry.reason === 'Invalid release asset URL.' && !entry.repositoryResolved) {
+      entry.retryable = true;
+      entry.retryAfter = new Date(0).toISOString();
+    }
     if (entry.retryable === undefined && /HTTP (403|408|429|5\d\d)|fetch failed|timeout|timed out|aborted|ECONN|ENOTFOUND/i.test(entry.reason || '')) {
       entry.retryable = true;
       entry.retryAfter = new Date(Math.min(Date.parse(entry.retryAfter) || Infinity, Date.now() + 15 * 60 * 1000)).toISOString();
@@ -354,7 +373,8 @@ async function prepareShard(directory, output, shard, generator = generate) {
       const message = String(error.message).replace(/[\r\n]/g, ' ').slice(0, 300);
       const retryable = /HTTP (403|408|429|5\d\d)|fetch failed|timeout|timed out|aborted|ECONN|ENOTFOUND/i.test(message);
       console.log(`${name}: ${message}`);
-      report.failures[name] = { version: candidate.targetVersion, resolverRevision: RESOLVER_REVISION, reason: message, retryable,
+      report.failures[name] = { version: candidate.targetVersion, resolverRevision: RESOLVER_REVISION,
+        repositoryResolved: true, reason: message, retryable,
         retryAfter: new Date(Date.now() + (retryable ? 15 * 60 * 1000 : 7 * 24 * 60 * 60 * 1000)).toISOString(),
         ...(retryable && candidate.release ? { release: candidate.release } : {}),
       };
