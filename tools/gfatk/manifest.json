@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gfatk",
+  "version": "0.6.2",
+  "repository": "tolkit/gfatk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tolkit/gfatk/releases/download/0.6.2/gfatk_0.6.2_x86_64-unknown-linux-musl.tar.zst",
+      "releaseTag": "0.6.2",
+      "sha256": "4f50f5c6def5623f5f37f481f863132a9d4b1cd3f19f49ae1260130aef928071",
+      "size": 1274278,
+      "format": "tar.zst",
+      "binaries": {
+        "gfatk": {
+          "path": "gfatk",
+          "sha256": "b4ac4691c70eac2d30efebb4cfb3d6e0fa567cbe7b8d89c2d0f601ad87dc0e23"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tolkit/gfatk/releases/download/0.6.2/gfatk_0.6.2_x86_64-apple-darwin.zip",
+      "releaseTag": "0.6.2",
+      "sha256": "3b7e25968b0f596b7b9cea2e533af1cb4a077b90b7c531fc5b8c7f0a8f54e42f",
+      "size": 1176195,
+      "format": "zip",
+      "binaries": {
+        "gfatk": {
+          "path": "gfatk",
+          "sha256": "f14953730d0397f91522cc2cf40e0beab7c97ca2cbe77b6e3b6779ec1f2f591c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tolkit/gfatk/releases/download/0.6.2/gfatk_0.6.2_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "0.6.2",
+      "sha256": "ec0871cccdfb2b8ebac4519664cdfdf159a8deedf2d0249f8a43774a13bdcbbe",
+      "size": 1782640,
+      "format": "zip",
+      "binaries": {
+        "gfatk.exe": {
+          "path": "gfatk.exe",
+          "sha256": "07402c584e5df752ff62d47004850112dc6aa5d669b72ced0309d7da5ea49960"
+        }
+      }
+    }
+  }
+}
