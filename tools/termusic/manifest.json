@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "termusic",
+  "version": "0.13.2",
+  "repository": "tramhao/termusic",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tramhao/termusic/releases/download/v0.13.2/termusic-v0.13.2-x86_64-linux.tar.xz",
+      "releaseTag": "v0.13.2",
+      "sha256": "e3be68fae4e04aaba2949f5ecab5d76a760a145802d645028587e1fe97b1d884",
+      "size": 12753500,
+      "format": "tar.xz",
+      "binaries": {
+        "termusic": {
+          "path": "termusic-v0.13.2-x86_64-linux/termusic",
+          "sha256": "43d5aaf1b3eaa868c3f5075604c9fbc3ff90df8b034f7604e95bdadd1f80009a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tramhao/termusic/releases/download/v0.13.2/termusic-v0.13.2-aarch64-linux.tar.xz",
+      "releaseTag": "v0.13.2",
+      "sha256": "992a6750a14e718ccbec4795b218596767e20a7665eb1ca7e40b46c668e926d1",
+      "size": 11308744,
+      "format": "tar.xz",
+      "binaries": {
+        "termusic": {
+          "path": "termusic-v0.13.2-aarch64-linux/termusic",
+          "sha256": "d366b0c4ca92df167f78ff1b994fb942af95b649308120d4a5dfe38d9c8df022"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tramhao/termusic/releases/download/v0.13.2/termusic-v0.13.2-x86_64-macos.tar.xz",
+      "releaseTag": "v0.13.2",
+      "sha256": "5a9f084777f3c1f257a1b3fc2e0da87f8d3e28020a95efeb8b508fed7c7fbbdc",
+      "size": 10883128,
+      "format": "tar.xz",
+      "binaries": {
+        "termusic": {
+          "path": "termusic-v0.13.2-x86_64-macos/termusic",
+          "sha256": "182c027338e952001a0d7426306b9c1d120fd1b164572a4417597c7954837009"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tramhao/termusic/releases/download/v0.13.2/termusic-v0.13.2-aarch64-macos.tar.xz",
+      "releaseTag": "v0.13.2",
+      "sha256": "1fc32e2b961f1f495291edb210f7fdfb36eb916ad00f5c183ed45e0ad14906fd",
+      "size": 9439768,
+      "format": "tar.xz",
+      "binaries": {
+        "termusic": {
+          "path": "termusic-v0.13.2-aarch64-macos/termusic",
+          "sha256": "d934b9f4d15e811684bb4d382399e6b52bedffacf09d061a588cb61a1c5cca3a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tramhao/termusic/releases/download/v0.13.2/termusic-v0.13.2-x86_64-windows.zip",
+      "releaseTag": "v0.13.2",
+      "sha256": "496b953b94a8ec39e3d9448e79beaec0b9502de8d6fd2752b899dacb6af22244",
+      "size": 14124246,
+      "format": "zip",
+      "binaries": {
+        "termusic.exe": {
+          "path": "termusic-v0.13.2-x86_64-windows/termusic.exe",
+          "sha256": "003479fe28a7ecb609a278c172513e7dec0dead7a72a9aa8162e2f52996d6a66"
+        }
+      }
+    }
+  }
+}
