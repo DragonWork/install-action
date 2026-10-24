@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "all-smi",
+  "version": "0.28.1",
+  "repository": "lablup/all-smi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-linux-x86_64.tar.gz",
+      "sha256": "e1f67795c49f5271b71a18ffb70b1e519ebf0eab732ec0e3d42e2d2185d39369",
+      "size": 4779683,
+      "format": "tar.gz",
+      "releaseTag": "v0.28.1",
+      "binaries": {
+        "all-smi": {
+          "path": "./all-smi",
+          "sha256": "6502edcb2bb987f90e71c7fb902ad183adbd85a2042068759b209c93f33e227d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-linux-aarch64.tar.gz",
+      "sha256": "655642f211678c9e64a8d51d4dfd58651cb6e745de0b7e25becb1700bf6a5979",
+      "size": 4496587,
+      "format": "tar.gz",
+      "releaseTag": "v0.28.1",
+      "binaries": {
+        "all-smi": {
+          "path": "./all-smi",
+          "sha256": "f09051f93dc3df92fd8a4afefb7aff86f9f867bd4880f20dd5988fe92483354d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-macos-x86_64.zip",
+      "sha256": "3983371efe02b1a0e1ec0e991bd5e2ac96d6253134f8fd046cb621bfc55eeadf",
+      "size": 3702841,
+      "format": "zip",
+      "releaseTag": "v0.28.1",
+      "binaries": {
+        "all-smi": {
+          "path": "all-smi",
+          "sha256": "8fb5b8482b0f4f7c6d0d514170100ed8aecba34e58dd8f13f5e3ba345c7f8532"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-macos-aarch64.zip",
+      "sha256": "54b837e62bfda3e566b70f6d1a2c670d0ad52a4e52ce02df4ae3bac18b8a06f9",
+      "size": 3309136,
+      "format": "zip",
+      "releaseTag": "v0.28.1",
+      "binaries": {
+        "all-smi": {
+          "path": "all-smi",
+          "sha256": "e47c027d2476d8f46000d2b705c1e4d4b033fa734d209eef045ef7ba5a72828b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-windows-aarch64.zip",
+      "sha256": "b061a7e4d40f411e5982c34f64c8060a0274c6cacf216b51d190b507fcca972b",
+      "size": 3365843,
+      "format": "zip",
+      "releaseTag": "v0.28.1",
+      "binaries": {
+        "all-smi.exe": {
+          "path": "all-smi.exe",
+          "sha256": "18c14081f7302796147e9fc6b7698dc0d272f4cdb0a23797e0753dff387bf27f"
+        }
+      }
+    }
+  }
+}
