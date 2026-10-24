@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "powerpack",
+  "version": "0.8.0",
+  "repository": "rossmacarthur/powerpack",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/rossmacarthur/powerpack/releases/download/0.8.0/powerpack-0.8.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.8.0",
+      "sha256": "81000ad4085c31a6646f6439f3377a628b2d7a42f00b2674b5f05a16ab9ac707",
+      "size": 921976,
+      "format": "tar.gz",
+      "binaries": {
+        "powerpack": {
+          "path": "powerpack",
+          "sha256": "d57cf0c915bfb08817d6ca9244a940658654fe2adbe098bead6b891b97b3a5b0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rossmacarthur/powerpack/releases/download/0.8.0/powerpack-0.8.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.8.0",
+      "sha256": "d728e9b680d4960013b0f363b8494c6453c8e5d07dda79a4f817a1054da02f2d",
+      "size": 892998,
+      "format": "tar.gz",
+      "binaries": {
+        "powerpack": {
+          "path": "powerpack",
+          "sha256": "d0258d9444aaa10d22f2f0928f211df7d1ce9553f17d9a1935011d906d54c942"
+        }
+      }
+    }
+  }
+}
