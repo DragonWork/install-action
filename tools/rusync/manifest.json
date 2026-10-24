@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rusync",
+  "version": "0.7.2",
+  "repository": "your-tools/rusync",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/your-tools/rusync/releases/download/v0.7.2/rusync-linux",
+      "sha256": "d247e303ad932a1d34785a004e30fa692403531e02cca52ec8f76a5621718ab4",
+      "size": 4715872,
+      "format": "binary",
+      "releaseTag": "v0.7.2",
+      "binaries": {
+        "rusync": {
+          "path": "rusync-linux",
+          "sha256": "d247e303ad932a1d34785a004e30fa692403531e02cca52ec8f76a5621718ab4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/your-tools/rusync/releases/download/v0.7.2/rusync-osx",
+      "sha256": "7ee8ef70c26cb8bff6d967d5a01dc211c2125232deb4aa0b71d543b0479fd8e8",
+      "size": 1374392,
+      "format": "binary",
+      "releaseTag": "v0.7.2",
+      "binaries": {
+        "rusync": {
+          "path": "rusync-osx",
+          "sha256": "7ee8ef70c26cb8bff6d967d5a01dc211c2125232deb4aa0b71d543b0479fd8e8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/your-tools/rusync/releases/download/v0.7.2/rusync-windows.exe",
+      "sha256": "5eda2e2166a7119fbe8594211c668d5c1fb7f21d7ebac83c1560f97f754cb848",
+      "size": 996864,
+      "format": "binary",
+      "releaseTag": "v0.7.2",
+      "binaries": {
+        "rusync.exe": {
+          "path": "rusync-windows.exe",
+          "sha256": "5eda2e2166a7119fbe8594211c668d5c1fb7f21d7ebac83c1560f97f754cb848"
+        }
+      }
+    }
+  }
+}
