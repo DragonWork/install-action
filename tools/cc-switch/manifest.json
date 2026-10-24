@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cc-switch",
+  "version": "0.3.1",
+  "repository": "Linuxdazhao/cc_auto_switch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Linuxdazhao/cc_auto_switch/releases/download/v0.3.1/cc-switch-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "bbcb062135878e9fbfa54ff7b6ddc5430cf13b6d4a09ea35cfb5de16c5049634",
+      "size": 1114812,
+      "format": "tar.gz",
+      "binaries": {
+        "cc-switch": {
+          "path": "cc-switch",
+          "sha256": "3cad308954c8ba5fa49efec43514e85c549e3f88467cf81f3f2e7a6518152322"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Linuxdazhao/cc_auto_switch/releases/download/v0.3.1/cc-switch-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "49e9cf25984ba4ce75d25e7444ea0a1833b3c99fdc7b175e375ad228e26b3cad",
+      "size": 1056030,
+      "format": "tar.gz",
+      "binaries": {
+        "cc-switch": {
+          "path": "cc-switch",
+          "sha256": "9342ffd3031029f29b1cda162bae5bc809f6709e6c02c02280bb23b769261dff"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Linuxdazhao/cc_auto_switch/releases/download/v0.3.1/cc-switch-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "41b249290e8672b44d6c966379e2073e9adca8721ebe8e649d94d19c0a7b8c4f",
+      "size": 1053196,
+      "format": "tar.gz",
+      "binaries": {
+        "cc-switch": {
+          "path": "cc-switch",
+          "sha256": "94de016629c75f5fe56b82140115876595ee5f3da2ceb634c0ebfb217d60f189"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Linuxdazhao/cc_auto_switch/releases/download/v0.3.1/cc-switch-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "41ec463eb803be8da7924d5cdb410acc0a4049dfaacd1507e71fa263267b5707",
+      "size": 977775,
+      "format": "tar.gz",
+      "binaries": {
+        "cc-switch": {
+          "path": "cc-switch",
+          "sha256": "a2bbf20bb5ef43d34cf2b60188512c0fd3fb05adeebf317866a446e9988eb371"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Linuxdazhao/cc_auto_switch/releases/download/v0.3.1/cc-switch-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "151870208afed0fa3adb017fbbac9d04b1a9e435b2dd70444b7a8973351377cc",
+      "size": 1039327,
+      "format": "zip",
+      "binaries": {
+        "cc-switch.exe": {
+          "path": "cc-switch.exe",
+          "sha256": "8c3b85c5e5359e0cae68bbba0677feec16ed1198ee12c2237c7e1340caaf530a"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Linuxdazhao/cc_auto_switch/releases/download/v0.3.1/cc-switch-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "0c013c26d7ebde66412221a148672640c402ff80c9750c367d0b306a4e9dfbba",
+      "size": 976782,
+      "format": "zip",
+      "binaries": {
+        "cc-switch.exe": {
+          "path": "cc-switch.exe",
+          "sha256": "83b73aef5c6dbe402e7091c817fd41399ba0486a26b15a5055abb98ac88820f1"
+        }
+      }
+    }
+  }
+}
