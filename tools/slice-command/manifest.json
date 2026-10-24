@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "slice-command",
+  "version": "0.6.0",
+  "repository": "ChanTsune/slice",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ChanTsune/slice/releases/download/0.6.0/slice-0.6.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "37654d24d0589740e6f34c64bef4376c3f1a8b6caeba43fc7cd8020f474b25c3",
+      "size": 717931,
+      "format": "tar.gz",
+      "binaries": {
+        "slice": {
+          "path": "slice-0.6.0-x86_64-unknown-linux-musl/slice",
+          "sha256": "804420299646328f0b7d0d2346e95b64fc3647a8260f46954b293994f933adf3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ChanTsune/slice/releases/download/0.6.0/slice-0.6.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "730a5db914fa395076e580ccc81f3a060a9126c5fc3a98f9244f56e95c5864ae",
+      "size": 685569,
+      "format": "tar.gz",
+      "binaries": {
+        "slice": {
+          "path": "slice-0.6.0-aarch64-unknown-linux-musl/slice",
+          "sha256": "918ad00a6a00244cc03e25ef2063c458f199e159be5dbcb6c01279be3ded2b9b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ChanTsune/slice/releases/download/0.6.0/slice-0.6.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "08f45a8d0b553695776478ab02f1caa2b09ca1f1914a586f44a245de7ceb5506",
+      "size": 628239,
+      "format": "tar.gz",
+      "binaries": {
+        "slice": {
+          "path": "slice-0.6.0-x86_64-apple-darwin/slice",
+          "sha256": "feaf8d0e3fa33ee9a40f4d30020fa2fb27568dc9519b5e7ee35ccc5e17ad3a02"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ChanTsune/slice/releases/download/0.6.0/slice-0.6.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "85ba58d37699259418a142fe575af5a670247d0242b281b12d962620e8ae425e",
+      "size": 595812,
+      "format": "tar.gz",
+      "binaries": {
+        "slice": {
+          "path": "slice-0.6.0-aarch64-apple-darwin/slice",
+          "sha256": "6770b5cfce4fdb9ca0afb2bbc6a49358c3f5afeab0a43191bc3ce145b3b411ad"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ChanTsune/slice/releases/download/0.6.0/slice-0.6.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.6.0",
+      "sha256": "571ab12e02276ea0fa62f54d3cb5f82920ff9bd43c7656faca87f11e44985741",
+      "size": 479271,
+      "format": "zip",
+      "binaries": {
+        "slice.exe": {
+          "path": "slice-0.6.0-x86_64-pc-windows-msvc/slice.exe",
+          "sha256": "dafdc040febf78eb263e9ecc41323fa8f306f47fcf4b93e911ad1e69b0e2efff"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ChanTsune/slice/releases/download/0.6.0/slice-0.6.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.6.0",
+      "sha256": "705c4d79971314b55c2651061c2da1afbaf83cf2a98e24dbec968dc6afe4992f",
+      "size": 452212,
+      "format": "zip",
+      "binaries": {
+        "slice.exe": {
+          "path": "slice-0.6.0-aarch64-pc-windows-msvc/slice.exe",
+          "sha256": "ecfac8d1bce7e343b95fc21b94ee1d25308f0dafb9f3a8a32d8b40ef640abb81"
+        }
+      }
+    }
+  }
+}
