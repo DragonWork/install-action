@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "sozu",
+  "version": "2.3.3",
+  "repository": "sozu-proxy/sozu",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.3/sozu-2.3.3-x86_64-unknown-linux-musl-crypto-ring.tar.gz",
+      "releaseTag": "2.3.3",
+      "sha256": "ddc0827a9c9ba580f2f6230f5692edcbcc4520a296cebbd61284dd7f287e8816",
+      "size": 7327403,
+      "format": "tar.gz",
+      "binaries": {
+        "sozu": {
+          "path": "sozu-2.3.3-x86_64-unknown-linux-musl-crypto-ring/sozu",
+          "sha256": "042e088186f370f0e14af6941a20730f3ab9d8faa8050c6663f4de6d48c61e5d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.3/sozu-2.3.3-aarch64-unknown-linux-gnu-fips.tar.gz",
+      "releaseTag": "2.3.3",
+      "sha256": "74e196289fc955cca1d2aea7975b97ce98aff5d56111c5d0959d0958c865a9c6",
+      "size": 7303616,
+      "format": "tar.gz",
+      "binaries": {
+        "sozu": {
+          "path": "sozu-2.3.3-aarch64-unknown-linux-gnu-fips/sozu",
+          "sha256": "09a8a2645432b8cdc752f223b1bdf7ec716a684d0a20cc655391e12b3a12e168"
+        }
+      }
+    }
+  }
+}
