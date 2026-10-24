@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "image-to-ascii",
+  "version": "0.7.2",
+  "repository": "kpberry/image-to-ascii",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/kpberry/image-to-ascii/releases/download/0.7.2/macos.executable.zip",
+      "sha256": "f1e039f76d95bd32b5e0ccf55fede52f18148bee042f440de8645fc378d857ef",
+      "size": 2101362,
+      "format": "zip",
+      "releaseTag": "0.7.2",
+      "binaries": {
+        "image-to-ascii": {
+          "path": "image-to-ascii",
+          "sha256": "bc2a2451bcc74b172ded8e7ec0be6e54eb7abf91c4fbdd0778bece9a12a2e604"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kpberry/image-to-ascii/releases/download/0.7.2/windows.executable.zip",
+      "sha256": "5853763be0c4b9aef14a7eab2065e80708b67b8665551088881c5a390825ae7d",
+      "size": 1934943,
+      "format": "zip",
+      "releaseTag": "0.7.2",
+      "binaries": {
+        "image-to-ascii.exe": {
+          "path": "image-to-ascii.exe",
+          "sha256": "6d3d1cd0c0e9b630e9d812c6cea018588017d4f117e802c81953c086586c228b"
+        }
+      }
+    }
+  }
+}
