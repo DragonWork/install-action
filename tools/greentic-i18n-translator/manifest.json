@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "greentic-i18n-translator",
+  "version": "1.2.1",
+  "repository": "greenticai/greentic-i18n",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/greenticai/greentic-i18n/releases/download/v1.2.1/greentic-i18n-translator-x86_64-unknown-linux-gnu-v1.2.1.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "fc552334d815e12a02a280e096b18edf053fdf2b6619ac50f4d33ceb91f7dbe8",
+      "size": 669381,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-i18n-translator": {
+          "path": "greentic-i18n-translator-x86_64-unknown-linux-gnu-v1.2.1/greentic-i18n-translator",
+          "sha256": "a480cf109b77f9c4ab394ed550c8f11fe4e9ce24af76722f3e5681ad58a65db1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/greenticai/greentic-i18n/releases/download/v1.2.1/greentic-i18n-translator-aarch64-unknown-linux-gnu-v1.2.1.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "ff391cbfed35a85095a9e6df17bb4c5c3c3eca12051be30412b277bf2d7a2225",
+      "size": 630606,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-i18n-translator": {
+          "path": "greentic-i18n-translator-aarch64-unknown-linux-gnu-v1.2.1/greentic-i18n-translator",
+          "sha256": "5858c1df292b12abb1f2dd66b938c015650147abd87137a82a82b13b48a4bf24"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/greenticai/greentic-i18n/releases/download/v1.2.1/greentic-i18n-translator-aarch64-apple-darwin-v1.2.1.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "3e96e1a367d2a29f3fee0b0016af856b57a2fd5d17a1df71ccc0b8a380e72c62",
+      "size": 602191,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-i18n-translator": {
+          "path": "greentic-i18n-translator-aarch64-apple-darwin-v1.2.1/greentic-i18n-translator",
+          "sha256": "4d75eacb95e44a4e9328253d1471ba02e0a7c70a6690b56d1443b760da94e3b6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/greenticai/greentic-i18n/releases/download/v1.2.1/greentic-i18n-translator-x86_64-pc-windows-msvc-v1.2.1.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "8cf3a7e39ce538ea75ec2ec9ef6a0f136d6c40cc340f7127d392224233e8e95a",
+      "size": 519354,
+      "format": "zip",
+      "binaries": {
+        "greentic-i18n-translator.exe": {
+          "path": "greentic-i18n-translator-x86_64-pc-windows-msvc-v1.2.1/greentic-i18n-translator.exe",
+          "sha256": "594a248de67715b9cd3ba0b2329819e4751237ea650328da89c106a70a59589e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/greenticai/greentic-i18n/releases/download/v1.2.1/greentic-i18n-translator-aarch64-pc-windows-msvc-v1.2.1.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "46c81dcf8829c5c2ee2dd09b899faf64399349a95d85106cbfd2a83821825910",
+      "size": 486932,
+      "format": "zip",
+      "binaries": {
+        "greentic-i18n-translator.exe": {
+          "path": "greentic-i18n-translator-aarch64-pc-windows-msvc-v1.2.1/greentic-i18n-translator.exe",
+          "sha256": "18a751d072c0cb8736173c2fa440c1659c3f3fad2846f669bf11da39859009da"
+        }
+      }
+    }
+  }
+}
