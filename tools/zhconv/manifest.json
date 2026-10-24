@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "zhconv",
+  "version": "0.4.2",
+  "repository": "Gowee/zhconv-rs",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/Gowee/zhconv-rs/releases/download/v0.4.2/zhconv-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.4.2",
+      "sha256": "f4bc0bf92b5cd4dc40eb098d8bb0f74f97877acce8206a890cd85e9fccc2b6c0",
+      "size": 5076480,
+      "format": "binary",
+      "binaries": {
+        "zhconv.exe": {
+          "path": "zhconv-x86_64-pc-windows-msvc.exe",
+          "sha256": "f4bc0bf92b5cd4dc40eb098d8bb0f74f97877acce8206a890cd85e9fccc2b6c0"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Gowee/zhconv-rs/releases/download/v0.4.2/zhconv-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.4.2",
+      "sha256": "5d945bdfd6269af83d4ad64611c3fba7bd26797769405de891f8db5c5c22c593",
+      "size": 4766208,
+      "format": "binary",
+      "binaries": {
+        "zhconv.exe": {
+          "path": "zhconv-aarch64-pc-windows-msvc.exe",
+          "sha256": "5d945bdfd6269af83d4ad64611c3fba7bd26797769405de891f8db5c5c22c593"
+        }
+      }
+    }
+  }
+}
