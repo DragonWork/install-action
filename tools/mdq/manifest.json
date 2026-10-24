@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mdq",
+  "version": "0.10.0",
+  "repository": "yshavit/mdq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yshavit/mdq/releases/download/v0.10.0/mdq-linux-x64.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "de00a4dcbfb4cc2f59152b52ae774702343fdc82e6cd4f87a2a40c7be09935d7",
+      "size": 1535914,
+      "format": "tar.gz",
+      "binaries": {
+        "mdq": {
+          "path": "mdq",
+          "sha256": "455038e937a65856b693c7e4cccb87bef3e79f01430d232b971623744bfe40b7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yshavit/mdq/releases/download/v0.10.0/mdq-macos-arm64.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "e5bcc6ec66c01b6cdda68e15dc8d4fcbc5d6c6d8cf417fb25b0d75d0a660360f",
+      "size": 1360690,
+      "format": "tar.gz",
+      "binaries": {
+        "mdq": {
+          "path": "mdq",
+          "sha256": "b224636d8c9572d2aacbd629c64b428c8df17694807c5cbf9e65c41895d527bf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yshavit/mdq/releases/download/v0.10.0/mdq-windows-x64.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "5df1bb8b31be594faea2ecea8195c981800acd5753203a25bed332c3dbdf3811",
+      "size": 1468045,
+      "format": "zip",
+      "binaries": {
+        "mdq.exe": {
+          "path": "mdq.exe",
+          "sha256": "93221683c9e5f6bee0d67ffbb01bed1820c1185d3531c15f15f61c4c45d62115"
+        }
+      }
+    }
+  }
+}
