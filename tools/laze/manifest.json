@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "laze",
+  "version": "0.1.39",
+  "repository": "kaspar030/laze",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kaspar030/laze/releases/download/0.1.39/laze-0.1.39-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.1.39",
+      "sha256": "9d62a2314660762735bc3f2e7197bb5ce2b5b77173c6a5df143d863b47283fa4",
+      "size": 1698556,
+      "format": "tar.gz",
+      "binaries": {
+        "laze": {
+          "path": "laze-0.1.39-x86_64-unknown-linux-musl/laze",
+          "sha256": "abcbfce06e0831e7402e318a6d3ad96aa7fb953aaa5226aa7d014bb304ee7c0b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kaspar030/laze/releases/download/0.1.39/laze-0.1.39-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.1.39",
+      "sha256": "dcee5101c6bee353ea4265baefae56943ec91d35b52c74afe4151994e15dd3e0",
+      "size": 1554602,
+      "format": "tar.gz",
+      "binaries": {
+        "laze": {
+          "path": "laze-0.1.39-x86_64-apple-darwin/laze",
+          "sha256": "b0f0578d2974bfad97353ef745a67b620d5e23b564a1defcf12ebeb5c3b036f8"
+        }
+      }
+    }
+  }
+}
