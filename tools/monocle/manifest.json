@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "monocle",
+  "version": "1.6.0",
+  "repository": "bgpkit/monocle",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bgpkit/monocle/releases/download/v1.6.0/monocle-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.6.0",
+      "sha256": "06af4f8caf627b632d0c334768ac45698a9fc7ff8857ffb1c809dd089b449fe5",
+      "size": 10017844,
+      "format": "tar.gz",
+      "binaries": {
+        "monocle": {
+          "path": "monocle",
+          "sha256": "e3f91992e60bee48343526671f1683f76f69a823e84b606da9858e2752ed29f0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bgpkit/monocle/releases/download/v1.6.0/monocle-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.6.0",
+      "sha256": "f57bf1c89ffdb0e6d46d20b7345af4f97311fbf580c1cc587feef3d3c5026cf3",
+      "size": 9614606,
+      "format": "tar.gz",
+      "binaries": {
+        "monocle": {
+          "path": "monocle",
+          "sha256": "8eb5d1c7f68c57f9bd509f0465218be3c50f6614e9794519015b9d9779a3f023"
+        }
+      }
+    }
+  }
+}
