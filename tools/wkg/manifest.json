@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wkg",
+  "version": "0.16.1",
+  "repository": "bytecodealliance/wasm-pkg-tools",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-x86_64-unknown-linux-gnu",
+      "sha256": "235ecf455e11b8b146e00f24f24c95b573cfe6a432f332358463b229311cec57",
+      "size": 28861352,
+      "format": "binary",
+      "releaseTag": "v0.16.1",
+      "binaries": {
+        "wkg": {
+          "path": "wkg-x86_64-unknown-linux-gnu",
+          "sha256": "235ecf455e11b8b146e00f24f24c95b573cfe6a432f332358463b229311cec57"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-aarch64-unknown-linux-gnu",
+      "sha256": "1b897312b55a3586a91e7ceb7e14224f815b6a5ddeee903ffeca58735716d1be",
+      "size": 27064712,
+      "format": "binary",
+      "releaseTag": "v0.16.1",
+      "binaries": {
+        "wkg": {
+          "path": "wkg-aarch64-unknown-linux-gnu",
+          "sha256": "1b897312b55a3586a91e7ceb7e14224f815b6a5ddeee903ffeca58735716d1be"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-x86_64-apple-darwin",
+      "sha256": "ce1ea6f3aab7756009c523ff68bc973dc4479c744f227a7f087df284143fbe2d",
+      "size": 25166296,
+      "format": "binary",
+      "releaseTag": "v0.16.1",
+      "binaries": {
+        "wkg": {
+          "path": "wkg-x86_64-apple-darwin",
+          "sha256": "ce1ea6f3aab7756009c523ff68bc973dc4479c744f227a7f087df284143fbe2d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-aarch64-apple-darwin",
+      "sha256": "3ad0e1d2698607bffe4900fd2320f7d359ec672d8c8a359c77ae4c5e0c7fb3b7",
+      "size": 23662224,
+      "format": "binary",
+      "releaseTag": "v0.16.1",
+      "binaries": {
+        "wkg": {
+          "path": "wkg-aarch64-apple-darwin",
+          "sha256": "3ad0e1d2698607bffe4900fd2320f7d359ec672d8c8a359c77ae4c5e0c7fb3b7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-x86_64-pc-windows-gnu",
+      "sha256": "c5249b4a45d3ea3c3c87fb9029e47ee5b834fed19acdd6e91fff602b145b0dec",
+      "size": 41827477,
+      "format": "binary",
+      "releaseTag": "v0.16.1",
+      "binaries": {
+        "wkg.exe": {
+          "path": "wkg-x86_64-pc-windows-gnu",
+          "sha256": "c5249b4a45d3ea3c3c87fb9029e47ee5b834fed19acdd6e91fff602b145b0dec"
+        }
+      }
+    }
+  }
+}
