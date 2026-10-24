@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "name": "rudof_cli",
+  "version": "0.3.35",
+  "repository": "rudof-project/rudof",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rudof-project/rudof/releases/download/0.3.35/rudof_0.3.35_amd64.deb",
+      "sha256": "65b4c28d83ea566b750662908c041370a4801f5ffcc785ab51bfdf2a2ebda011",
+      "size": 23490888,
+      "format": "deb",
+      "releaseTag": "0.3.35",
+      "binaries": {
+        "rudof": {
+          "path": "./usr/bin/rudof",
+          "sha256": "9206208f4d2d2ad92dbe0414607ff712b46783251a741d2279c8047095864c25"
+        },
+        "rudof-completions": {
+          "path": "./usr/bin/rudof-completions",
+          "sha256": "c1c70af9a62a75cdb168c3e66234c374c4a8f2332ef94300cc8aa75d005cd871"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rudof-project/rudof/releases/download/0.3.35/rudof_0.3.35_x86_64_windows_msvc.exe",
+      "sha256": "70139e49da16058372381651eae42240639557edd6cec11dbe3af9661cd8a8c9",
+      "size": 57638912,
+      "format": "binary",
+      "releaseTag": "0.3.35",
+      "binaries": {
+        "rudof.exe": {
+          "path": "rudof_0.3.35_x86_64_windows_msvc.exe",
+          "sha256": "70139e49da16058372381651eae42240639557edd6cec11dbe3af9661cd8a8c9"
+        }
+      }
+    }
+  }
+}
