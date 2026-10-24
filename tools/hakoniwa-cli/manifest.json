@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "hakoniwa-cli",
+  "version": "1.8.0",
+  "repository": "souk4711/hakoniwa",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/souk4711/hakoniwa/releases/download/v1.8.0/hakoniwa-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "82b041fcb5986d6835fbf120f7157348e9c937b9fb405594c6eb79b0fd6774d3",
+      "size": 3158220,
+      "format": "tar.gz",
+      "releaseTag": "v1.8.0",
+      "binaries": {
+        "hakoniwa": {
+          "path": "./hakoniwa",
+          "sha256": "a7a7b91d8beb05a2e8effd1304c624b6d55637568611ff12e7fe2e93d1c2b890"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/souk4711/hakoniwa/releases/download/v1.8.0/hakoniwa-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "a4d0aa242a82c7d919dd949e5dc0f230371794e41969149e479be24179c4470b",
+      "size": 2978345,
+      "format": "tar.gz",
+      "releaseTag": "v1.8.0",
+      "binaries": {
+        "hakoniwa": {
+          "path": "./hakoniwa",
+          "sha256": "c1612e05b301ab86966dee894555db30160405a1ea48234b03fb4c05f970095d"
+        }
+      }
+    }
+  }
+}
