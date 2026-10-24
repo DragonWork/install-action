@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pingall",
+  "version": "2.1.7",
+  "repository": "Fierthraix/pingall",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Fierthraix/pingall/releases/download/v2.1.7/pingall-2.1.7-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.1.7",
+      "sha256": "503483d38d5cc01ef798197fae38b45d11bb68fe112920840af8aeb3ca669bb1",
+      "size": 430355,
+      "format": "tar.gz",
+      "binaries": {
+        "pingall": {
+          "path": "pingall-2.1.7-x86_64-unknown-linux-gnu/pingall",
+          "sha256": "601285e176e897cc239ffac3c269b118abb66dbc43e5cc245a4db1973f00a8f9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Fierthraix/pingall/releases/download/v2.1.7/pingall-2.1.7-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.1.7",
+      "sha256": "90e1e815c7c91e8bd136faeb9e78e36b5dd11518fa0aa1ccad63c1c0ccf33ecc",
+      "size": 417801,
+      "format": "tar.gz",
+      "binaries": {
+        "pingall": {
+          "path": "pingall-2.1.7-aarch64-unknown-linux-gnu/pingall",
+          "sha256": "d118711226ef8a7380bafec5f9d6eb4337ebcda6cd94e1c667b0cb2798ae6b29"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Fierthraix/pingall/releases/download/v2.1.7/pingall-2.1.7-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.1.7",
+      "sha256": "b1e5bc844e8ffc5d62e579ab803bd3dfed941030efc674984227208b47980cf1",
+      "size": 452445,
+      "format": "tar.gz",
+      "binaries": {
+        "pingall": {
+          "path": "pingall-2.1.7-x86_64-apple-darwin/pingall",
+          "sha256": "3dc391fecd7a417c8ee12be8894426e3b689e3a51e9199768c0f164d2a9e5d3c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Fierthraix/pingall/releases/download/v2.1.7/pingall-2.1.7-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.1.7",
+      "sha256": "78a1beb4853c1fe0758c9b449cc6a91f1d95ee8424b5e6609584d82ee2673d48",
+      "size": 447093,
+      "format": "tar.gz",
+      "binaries": {
+        "pingall": {
+          "path": "pingall-2.1.7-aarch64-apple-darwin/pingall",
+          "sha256": "fae18f868eb068d2573acea9e96fd127221488336867d579c067bb403a80b6ac"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Fierthraix/pingall/releases/download/v2.1.7/pingall-2.1.7-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v2.1.7",
+      "sha256": "d319c1e5890947cee8d077f999a6388924c8343b3a2236d6a920707d2df76099",
+      "size": 723240,
+      "format": "zip",
+      "binaries": {
+        "pingall.exe": {
+          "path": "pingall-2.1.7-x86_64-pc-windows-gnu/pingall.exe",
+          "sha256": "bbb23cc173cfac6a20cf84b358ebe8ee5820ebdb625ce86cff60de2c078897fb"
+        }
+      }
+    }
+  }
+}
