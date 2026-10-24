@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "name": "forest-filecoin",
+  "version": "0.39.0",
+  "repository": "ChainSafe/forest",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ChainSafe/forest/releases/download/v0.39.0/forest-v0.39.0-linux-amd64.zip",
+      "releaseTag": "v0.39.0",
+      "sha256": "81224a9efed00353ec3c6cc5197f26abfdf48ed9458c1ce72b612e825d5bb64a",
+      "size": 93653701,
+      "format": "zip",
+      "binaries": {
+        "forest": {
+          "path": "forest-v0.39.0/forest",
+          "sha256": "c37e892132b04569c53909c7314956bdd41dbe3bbbcf14966619b2266213e968"
+        },
+        "forest-cli": {
+          "path": "forest-v0.39.0/forest-cli",
+          "sha256": "1a9a273777bbca8b2ef394354734dccd453a2dc5148bffe3bbe6d704eea02c22"
+        },
+        "forest-dev": {
+          "path": "forest-v0.39.0/forest-dev",
+          "sha256": "635149c4d0a3d2d3dc3a987da01d845d33b852abfa614dcab0621e7d03928fc5"
+        },
+        "forest-tool": {
+          "path": "forest-v0.39.0/forest-tool",
+          "sha256": "7af03845db7324da80c5bc2848fe6897303b39cbac8bb701675e57ad82033ba0"
+        },
+        "forest-wallet": {
+          "path": "forest-v0.39.0/forest-wallet",
+          "sha256": "1c5309b3fe77936747b24b5b1686e7475d326bbe8ff747f83446c786ecfa41c3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ChainSafe/forest/releases/download/v0.39.0/forest-v0.39.0-macos-arm64.zip",
+      "releaseTag": "v0.39.0",
+      "sha256": "a6bc8dac35e3e77b1768fa9b24b4955603f29b5383d705c04fb2bc926483ff69",
+      "size": 79341205,
+      "format": "zip",
+      "binaries": {
+        "forest": {
+          "path": "forest-v0.39.0/forest",
+          "sha256": "ff15af051775b8cbb7eddb36ff084590aa0ce2278aa1edd8acdf15ef987d391a"
+        },
+        "forest-cli": {
+          "path": "forest-v0.39.0/forest-cli",
+          "sha256": "a44d59c6d8c94eec9bde970a92cda5a4fed56458c570cebfa386335de1095c29"
+        },
+        "forest-dev": {
+          "path": "forest-v0.39.0/forest-dev",
+          "sha256": "7e21e7c895fbb225bc06a76bf8a5e5550c005637ef5f5188fc4fc265c1605b74"
+        },
+        "forest-tool": {
+          "path": "forest-v0.39.0/forest-tool",
+          "sha256": "e5fb23076a46c055142b3dbf3efa1ad5a68532d14419ad9994785986719b205f"
+        },
+        "forest-wallet": {
+          "path": "forest-v0.39.0/forest-wallet",
+          "sha256": "09f54af10d8482e0f1d2c35d83992f9b59afa26a672c673cd777855d7ad4454d"
+        }
+      }
+    }
+  }
+}
