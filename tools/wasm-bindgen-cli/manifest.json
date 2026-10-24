@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "name": "wasm-bindgen-cli",
+  "version": "0.2.129",
+  "repository": "wasm-bindgen/wasm-bindgen",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wasm-bindgen/wasm-bindgen/releases/download/0.2.129/wasm-bindgen-0.2.129-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "82d12bb940e2d4e72e0d5605387fc1b8ca179044e012b620f0ce4e7440e8320e",
+      "size": 11695824,
+      "format": "tar.gz",
+      "releaseTag": "0.2.129",
+      "binaries": {
+        "wasm-bindgen": {
+          "path": "wasm-bindgen-0.2.129-x86_64-unknown-linux-musl/wasm-bindgen",
+          "sha256": "fb59da714982a04273e9e4b09a85e523e5dd04de35b1a4a8b1641785ee7a71cf"
+        },
+        "wasm-bindgen-test-runner": {
+          "path": "wasm-bindgen-0.2.129-x86_64-unknown-linux-musl/wasm-bindgen-test-runner",
+          "sha256": "fc3146e83e932e0a239b58021bfd7cc804ff7d1a24b7e7509a1608a50f4f86f8"
+        },
+        "wasm2es6js": {
+          "path": "wasm-bindgen-0.2.129-x86_64-unknown-linux-musl/wasm2es6js",
+          "sha256": "a84a0558661a569d3ad0fe730e8a7f9727a87859072cd3213d8272aa584aaa5f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wasm-bindgen/wasm-bindgen/releases/download/0.2.129/wasm-bindgen-0.2.129-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "2ed4351c35dd9440308bbb02767d47ea278efe851a52465300f3c94f5b6c2a87",
+      "size": 11620255,
+      "format": "tar.gz",
+      "releaseTag": "0.2.129",
+      "binaries": {
+        "wasm-bindgen": {
+          "path": "wasm-bindgen-0.2.129-aarch64-unknown-linux-musl/wasm-bindgen",
+          "sha256": "3eca0c124bce4a136d451fa0498faac33370bf72b504e63697c847b536ef7c62"
+        },
+        "wasm-bindgen-test-runner": {
+          "path": "wasm-bindgen-0.2.129-aarch64-unknown-linux-musl/wasm-bindgen-test-runner",
+          "sha256": "6db69f9878fec7a90fd9da44dbeed0edcd4c10ef5f0606823832794894f9d27f"
+        },
+        "wasm2es6js": {
+          "path": "wasm-bindgen-0.2.129-aarch64-unknown-linux-musl/wasm2es6js",
+          "sha256": "fadda4aa3d0e323dc2e4a207d213998927f9e000d0ec08abf6085414baa0c817"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wasm-bindgen/wasm-bindgen/releases/download/0.2.129/wasm-bindgen-0.2.129-x86_64-apple-darwin.tar.gz",
+      "sha256": "7e028879a68ec53dae14048b55cc5215f6df75b17a9c1426fac8fa086d3202fd",
+      "size": 8374457,
+      "format": "tar.gz",
+      "releaseTag": "0.2.129",
+      "binaries": {
+        "wasm-bindgen": {
+          "path": "wasm-bindgen-0.2.129-x86_64-apple-darwin/wasm-bindgen",
+          "sha256": "79df2660c5f4d5d4ae79120eb0e8b06344996c9a4723ea6c50724d38d3edd377"
+        },
+        "wasm-bindgen-test-runner": {
+          "path": "wasm-bindgen-0.2.129-x86_64-apple-darwin/wasm-bindgen-test-runner",
+          "sha256": "1bc73f93d3e8cf2d0c7c49533eeb1e6db1c0353e57bd44d753181a6445cc1096"
+        },
+        "wasm2es6js": {
+          "path": "wasm-bindgen-0.2.129-x86_64-apple-darwin/wasm2es6js",
+          "sha256": "12f892a913b26ffa221b39776041e755dcb5e34e6ca97897b9fe878b8afeee11"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wasm-bindgen/wasm-bindgen/releases/download/0.2.129/wasm-bindgen-0.2.129-aarch64-apple-darwin.tar.gz",
+      "sha256": "81d4a23d56b3c3eb8187658329116d50e0b228a93b343825fb71f70179051cd1",
+      "size": 7925587,
+      "format": "tar.gz",
+      "releaseTag": "0.2.129",
+      "binaries": {
+        "wasm-bindgen": {
+          "path": "wasm-bindgen-0.2.129-aarch64-apple-darwin/wasm-bindgen",
+          "sha256": "6ad2f953d8abcb36d6b084df221fb2f0716217854c1b8df938aa2f5678d1b948"
+        },
+        "wasm-bindgen-test-runner": {
+          "path": "wasm-bindgen-0.2.129-aarch64-apple-darwin/wasm-bindgen-test-runner",
+          "sha256": "c134932534107763adc55be43cc682aade190ba1a312717ebc526c51c49180c2"
+        },
+        "wasm2es6js": {
+          "path": "wasm-bindgen-0.2.129-aarch64-apple-darwin/wasm2es6js",
+          "sha256": "8ca6b1eccefea253b910b46063a6ec6b920c3c154a368085af9bb77d4431c3c0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wasm-bindgen/wasm-bindgen/releases/download/0.2.129/wasm-bindgen-0.2.129-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "79e348c169d0c10c0b287647f1e753d0985353ca96800bc29be8f4261baf13e6",
+      "size": 7845552,
+      "format": "tar.gz",
+      "releaseTag": "0.2.129",
+      "binaries": {
+        "wasm-bindgen.exe": {
+          "path": "wasm-bindgen-0.2.129-x86_64-pc-windows-msvc/wasm-bindgen.exe",
+          "sha256": "7923ed91d8ece7a2986dc5de9395bff2a8e5cae483330b13d0ec97a955b0e351"
+        },
+        "wasm-bindgen-test-runner.exe": {
+          "path": "wasm-bindgen-0.2.129-x86_64-pc-windows-msvc/wasm-bindgen-test-runner.exe",
+          "sha256": "e7a3673cce9bec332f93d9d962f07052418df78dd807bc13b377a072f454fedb"
+        },
+        "wasm2es6js.exe": {
+          "path": "wasm-bindgen-0.2.129-x86_64-pc-windows-msvc/wasm2es6js.exe",
+          "sha256": "1b4e8e71a7c4af1dea305db3887918f3abe043b75560b809b1618c184f99e3f7"
+        }
+      }
+    }
+  }
+}
