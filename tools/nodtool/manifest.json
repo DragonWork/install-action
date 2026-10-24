@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "nodtool",
+  "version": "1.4.4",
+  "repository": "encounter/nod",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/encounter/nod/releases/download/v1.4.4/nodtool-windows-x86_64.exe",
+      "releaseTag": "v1.4.4",
+      "sha256": "fb3203a68a59fa19ba9de0aa2f8c339396b6e4c5f9274d0858d302074cdedf8b",
+      "size": 3342848,
+      "format": "binary",
+      "binaries": {
+        "nodtool.exe": {
+          "path": "nodtool-windows-x86_64.exe",
+          "sha256": "fb3203a68a59fa19ba9de0aa2f8c339396b6e4c5f9274d0858d302074cdedf8b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/encounter/nod/releases/download/v1.4.4/nodtool-windows-arm64.exe",
+      "releaseTag": "v1.4.4",
+      "sha256": "983ba86c671b5e80d9616649c6d705d9d4108a1badc726533dfbc98290ca483b",
+      "size": 3068928,
+      "format": "binary",
+      "binaries": {
+        "nodtool.exe": {
+          "path": "nodtool-windows-arm64.exe",
+          "sha256": "983ba86c671b5e80d9616649c6d705d9d4108a1badc726533dfbc98290ca483b"
+        }
+      }
+    }
+  }
+}
