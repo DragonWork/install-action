@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mdbook",
+  "version": "0.5.4",
+  "repository": "rust-lang/mdBook",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-lang/mdBook/releases/download/v0.5.4/mdbook-v0.5.4-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.4",
+      "sha256": "5222beabd3e37dc5be0d18ff99b79058469354db5c220153a1b92db5ba12be89",
+      "size": 4944048,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook": {
+          "path": "mdbook",
+          "sha256": "ef05511c54795f5641c94017495b9e61df9a95652cd7f6e301a135e6e7e7dd9e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rust-lang/mdBook/releases/download/v0.5.4/mdbook-v0.5.4-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.4",
+      "sha256": "753e5c5c363ee8a56972344dcf91466f005a51db84a7aeffe427ae3ef83d6d44",
+      "size": 4758117,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook": {
+          "path": "mdbook",
+          "sha256": "c3526481bf31515c75019ddeb2ac49bec1ed24b53f1b4d7c169e140f5d770c92"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-lang/mdBook/releases/download/v0.5.4/mdbook-v0.5.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.4",
+      "sha256": "a47d7bf0d5d670cff9ee6cce95537cbeb62dc10704d9e7131ffbd13e2b59a5de",
+      "size": 4609728,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook": {
+          "path": "mdbook",
+          "sha256": "6cc7ce68fa024898a93bbf038785759f1f0eb11d1cf48b00985d9c9fdc273103"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-lang/mdBook/releases/download/v0.5.4/mdbook-v0.5.4-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.4",
+      "sha256": "03e8a6d8b13a2971e0b3280affd03b388373c1485e26f73407c3a76b0b1838df",
+      "size": 4420902,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook": {
+          "path": "mdbook",
+          "sha256": "49f163c7a5a9d0a4fc9cacf34bd0b96b11801458effddb1b7e951377af909d8e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-lang/mdBook/releases/download/v0.5.4/mdbook-v0.5.4-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.4",
+      "sha256": "8a6b2421aa522de06d746871d2b8fff9c8d71773467e310a4516d2566e7f2de4",
+      "size": 4407719,
+      "format": "zip",
+      "binaries": {
+        "mdbook.exe": {
+          "path": "mdbook.exe",
+          "sha256": "ffa917c9b6b608aa8b6189dcb38a548ff2615832113ad6c6e26f6ef9c8d77a44"
+        }
+      }
+    }
+  }
+}
