@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "lunatic-runtime",
+  "version": "0.13.2",
+  "repository": "lunatic-solutions/lunatic",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-linux-amd64.tar.gz",
+      "sha256": "9f46947b5d7865f67cd58efb5e732ae1472cc9c808a1f0152c588353299676e3",
+      "size": 11054558,
+      "format": "tar.gz",
+      "releaseTag": "v0.13.2",
+      "binaries": {
+        "lunatic": {
+          "path": "lunatic",
+          "sha256": "8e9eb31a92ecc9a16225b864648947f1d253ef086eca2239ea5f289303b4afcd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-macos-universal.tar.gz",
+      "sha256": "b88299a9ba9044c461810d1f1ce3bf98a49b4a5a2f5261ab0b3857cf62a1d310",
+      "size": 17745208,
+      "format": "tar.gz",
+      "releaseTag": "v0.13.2",
+      "binaries": {
+        "lunatic": {
+          "path": "lunatic",
+          "sha256": "fd97339f3a815880341f5c68cb23b298821cdef0c29fa19d0785fce752273b90"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-macos-universal.tar.gz",
+      "sha256": "b88299a9ba9044c461810d1f1ce3bf98a49b4a5a2f5261ab0b3857cf62a1d310",
+      "size": 17745208,
+      "format": "tar.gz",
+      "releaseTag": "v0.13.2",
+      "binaries": {
+        "lunatic": {
+          "path": "lunatic",
+          "sha256": "fd97339f3a815880341f5c68cb23b298821cdef0c29fa19d0785fce752273b90"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-windows-amd64.zip",
+      "sha256": "f3f52405c8f0b887cf755bd129f24bb31e67e063917bdc5d16f63d24da2ee279",
+      "size": 7930279,
+      "format": "zip",
+      "releaseTag": "v0.13.2",
+      "binaries": {
+        "lunatic.exe": {
+          "path": "lunatic.exe",
+          "sha256": "2e39c1393238e43d56368ec4e1735e20a98500a9ccd6ccc5d702694d55b8e368"
+        }
+      }
+    }
+  }
+}
