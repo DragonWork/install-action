@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "html-query",
+  "version": "1.2.2",
+  "repository": "orf/html-query",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orf/html-query/releases/download/html-query-v1.2.2/hq-Linux-x86_64.tar.gz",
+      "releaseTag": "html-query-v1.2.2",
+      "sha256": "9d31fd9ead50ddcb15bcd4cae1dbca5064678b69cfc98cec33ad7d18ac583ca3",
+      "size": 791499,
+      "format": "tar.gz",
+      "binaries": {
+        "hq": {
+          "path": "hq",
+          "sha256": "5aeb827028b1b40910e30162a24c60485f58a95850ddf0ff2f02de51fdee4fc3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orf/html-query/releases/download/html-query-v1.2.2/hq-Darwin-x86_64.tar.gz",
+      "releaseTag": "html-query-v1.2.2",
+      "sha256": "7105fb2c0aff1e04c88007ec26d390a5e0dd20dd94d64a040283d50bccdba544",
+      "size": 696856,
+      "format": "tar.gz",
+      "binaries": {
+        "hq": {
+          "path": "hq",
+          "sha256": "df48d88b0b79f3ca7d8d9a2abfc2a6f9899f102d3b441ea3ff828ad4210175c0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orf/html-query/releases/download/html-query-v1.2.2/hq-Windows-x86_64.zip",
+      "releaseTag": "html-query-v1.2.2",
+      "sha256": "afbba11d2059079a237f35461a31462c74217c24caa8bb402fa3376d61ba8a40",
+      "size": 630896,
+      "format": "zip",
+      "binaries": {
+        "hq.exe": {
+          "path": "hq.exe",
+          "sha256": "76aa31ea95170a876bd0827668d42c1959268852b9022830e931688ad1ef3db8"
+        }
+      }
+    }
+  }
+}
