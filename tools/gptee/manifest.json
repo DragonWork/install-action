@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gptee",
+  "version": "0.3.10",
+  "repository": "zurawiki/gptee",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zurawiki/gptee/releases/download/v0.3.10/gptee-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.10",
+      "sha256": "d518f850258aa19b385347c35e6f61542ed57f13fc7c36377fe06cb811da1573",
+      "size": 4285162,
+      "format": "tar.gz",
+      "binaries": {
+        "gptee": {
+          "path": "gptee",
+          "sha256": "cfa1deb19ff5ca12574f14f5fea5c6e62f1af052fa7f74d1fed39632a0f3b547"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zurawiki/gptee/releases/download/v0.3.10/gptee-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.10",
+      "sha256": "f23ae5b4e526d89bb11036b018d1acc45d66f67382dd8addb231b9273d84ec33",
+      "size": 4136277,
+      "format": "tar.gz",
+      "binaries": {
+        "gptee": {
+          "path": "gptee",
+          "sha256": "ee11cda8fa4b0906e73c54901017c712bfaafe7d6518084b656c6b4cf251c204"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zurawiki/gptee/releases/download/v0.3.10/gptee-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.10",
+      "sha256": "a689552a00caac96a3bf3cfa4e23fb858e9f2a8cf749af88480302524d248f85",
+      "size": 4499625,
+      "format": "tar.gz",
+      "binaries": {
+        "gptee": {
+          "path": "gptee",
+          "sha256": "525e2fc6eefef3a2368b587e7eebeb49daf9e71c38ea70756ebdf2c7fdcb84ed"
+        }
+      }
+    }
+  }
+}
