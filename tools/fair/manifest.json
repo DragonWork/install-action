@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "fair",
+  "version": "0.0.13",
+  "repository": "lucasholder/fair",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lucasholder/fair/releases/download/v0.0.13/fair-v0.0.13-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.0.13",
+      "sha256": "e64fcee48af6e1bda2f00d4c7777c8b02e701bf556e4714ae3260bc62fdea136",
+      "size": 604565,
+      "format": "tar.gz",
+      "binaries": {
+        "fair": {
+          "path": "fair",
+          "sha256": "8648f6c2a42a57139d8b8201af9f033489cc1207ff55dee991e0efdf31779af7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lucasholder/fair/releases/download/v0.0.13/fair-v0.0.13-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.13",
+      "sha256": "c495e290cff3ffa8898716df13fd05407ea45109a26af13d9b754981c67076b9",
+      "size": 364287,
+      "format": "tar.gz",
+      "binaries": {
+        "fair": {
+          "path": "fair",
+          "sha256": "d4e351d62b03904e2c928485da278cd63901af07ecaa12cee3dc550fe2ce7f59"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lucasholder/fair/releases/download/v0.0.13/fair-v0.0.13-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.13",
+      "sha256": "1eb6687ef7b7d393ac62140929866accedc89027cb490954e1d08ad89f173398",
+      "size": 273769,
+      "format": "zip",
+      "binaries": {
+        "fair.exe": {
+          "path": "fair.exe",
+          "sha256": "850c3f6d81adb564b6e4f06025509be3bfca4806e6e46e828c5998e669edb73c"
+        }
+      }
+    }
+  }
+}
