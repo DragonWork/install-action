@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "onepass",
+  "version": "3.3.1",
+  "repository": "mrdomino/onepass",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mrdomino/onepass/releases/download/v3.3.1/onepass-x86_64-unknown-linux-musl",
+      "sha256": "fc93809398e0db27e12900eb068a668cc72b9053f49210e862ac0f5cf751ff09",
+      "size": 1794864,
+      "format": "binary",
+      "releaseTag": "v3.3.1",
+      "binaries": {
+        "onepass": {
+          "path": "onepass-x86_64-unknown-linux-musl",
+          "sha256": "fc93809398e0db27e12900eb068a668cc72b9053f49210e862ac0f5cf751ff09"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mrdomino/onepass/releases/download/v3.3.1/onepass-aarch64-unknown-linux-musl",
+      "sha256": "3406204a0c372923c3d92a1d629537a34f81e4d40ef424a44b7b634ab4a4e810",
+      "size": 1446160,
+      "format": "binary",
+      "releaseTag": "v3.3.1",
+      "binaries": {
+        "onepass": {
+          "path": "onepass-aarch64-unknown-linux-musl",
+          "sha256": "3406204a0c372923c3d92a1d629537a34f81e4d40ef424a44b7b634ab4a4e810"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mrdomino/onepass/releases/download/v3.3.1/onepass-aarch64-apple-darwin",
+      "sha256": "7184759407e2f01ab7e5ee29593353326df46a26d358c2a5ca088efd7ed6c240",
+      "size": 1300016,
+      "format": "binary",
+      "releaseTag": "v3.3.1",
+      "binaries": {
+        "onepass": {
+          "path": "onepass-aarch64-apple-darwin",
+          "sha256": "7184759407e2f01ab7e5ee29593353326df46a26d358c2a5ca088efd7ed6c240"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mrdomino/onepass/releases/download/v3.3.1/onepass-x86_64-pc-windows-msvc",
+      "sha256": "6bcad2956b1abb3497a7fd9f1d7e38533c7f7ffdcdd4073aad10eca4a334f6b8",
+      "size": 2479616,
+      "format": "binary",
+      "releaseTag": "v3.3.1",
+      "binaries": {
+        "onepass.exe": {
+          "path": "onepass-x86_64-pc-windows-msvc",
+          "sha256": "6bcad2956b1abb3497a7fd9f1d7e38533c7f7ffdcdd4073aad10eca4a334f6b8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/mrdomino/onepass/releases/download/v3.3.1/onepass-aarch64-pc-windows-msvc",
+      "sha256": "55fb48483f826f782833c78554a91dbeb0627b855d07557e368c5b9043a1c776",
+      "size": 2284544,
+      "format": "binary",
+      "releaseTag": "v3.3.1",
+      "binaries": {
+        "onepass.exe": {
+          "path": "onepass-aarch64-pc-windows-msvc",
+          "sha256": "55fb48483f826f782833c78554a91dbeb0627b855d07557e368c5b9043a1c776"
+        }
+      }
+    }
+  }
+}
