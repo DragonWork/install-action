@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "forc-wallet",
+  "version": "0.16.4",
+  "repository": "FuelLabs/forc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-wallet-0.16.4/forc-wallet-0.16.4-linux_amd64.tar.gz",
+      "releaseTag": "forc-wallet-0.16.4",
+      "sha256": "601241161a5326600ea3f250a3dff34fe4f80bb9cc5d2866803f5e12599a83ae",
+      "size": 9730675,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-wallet": {
+          "path": "forc-wallet-0.16.4-linux_amd64/forc-wallet",
+          "sha256": "a311dbf3744d6214921dc343a09710b5225e96bb3660b36c3115473db954a7a6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-wallet-0.16.4/forc-wallet-0.16.4-linux_arm64.tar.gz",
+      "releaseTag": "forc-wallet-0.16.4",
+      "sha256": "db9496dd3a20574006644e431017f353cc2b11fa60e9b617ab49e073a062363b",
+      "size": 9612295,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-wallet": {
+          "path": "forc-wallet-0.16.4-linux_arm64/forc-wallet",
+          "sha256": "e45b03ba9389754ceb271399a4b3e811cc5ad7e77af5acac3c80535830410ea5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-wallet-0.16.4/forc-wallet-0.16.4-darwin_amd64.tar.gz",
+      "releaseTag": "forc-wallet-0.16.4",
+      "sha256": "a9b181a5b5f68219027c73e9753fb2432d59c73b434d0ba7065b9808028fd281",
+      "size": 7674722,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-wallet": {
+          "path": "forc-wallet-0.16.4-darwin_amd64/forc-wallet",
+          "sha256": "739ac2ab46a9306469b9a6eeba97055d34b7b2e84c3c05c2d7e2e0ebd5d69c9e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-wallet-0.16.4/forc-wallet-0.16.4-darwin_arm64.tar.gz",
+      "releaseTag": "forc-wallet-0.16.4",
+      "sha256": "8fd078c2fdcd6dc14e1573053b5f9fdd703ee0b63d2251532f2917b23a00ce87",
+      "size": 7351957,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-wallet": {
+          "path": "forc-wallet-0.16.4-darwin_arm64/forc-wallet",
+          "sha256": "7bc7026e9f5cc3067f20c03130ad40fdeb1030c52249c3dfa58f19f87851bc27"
+        }
+      }
+    }
+  }
+}
