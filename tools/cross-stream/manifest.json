@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cross-stream",
+  "version": "0.14.1",
+  "repository": "cablehead/xs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cablehead/xs/releases/download/v0.14.1/cross-stream-v0.14.1-linux-amd64.tar.gz",
+      "sha256": "a166eaefc41dab706c17090e3823f515ea4dd49c445dad677c75e8bde786e4d4",
+      "size": 24895451,
+      "format": "tar.gz",
+      "releaseTag": "v0.14.1",
+      "binaries": {
+        "xs": {
+          "path": "cross-stream-v0.14.1/xs",
+          "sha256": "76e8f2970799e834378750c80df06736fbed72f36b3a4a6e44d7866326e84b45"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cablehead/xs/releases/download/v0.14.1/cross-stream-v0.14.1-linux-arm64.tar.gz",
+      "sha256": "59b366dc41a1f2b74d922b0961db0ee2b3717160f0bdc43b8f136e6fd71609b0",
+      "size": 22078525,
+      "format": "tar.gz",
+      "releaseTag": "v0.14.1",
+      "binaries": {
+        "xs": {
+          "path": "cross-stream-v0.14.1/xs",
+          "sha256": "942a0eacf941cbd162bcc6cc5eec5cb3ed342d0edb0210a9e77279cc9c612793"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cablehead/xs/releases/download/v0.14.1/cross-stream-v0.14.1-macos.tar.gz",
+      "sha256": "0f0d74b26b34090e1a4f119dd64aa198248888b202676e81ffcbf6bcce8dfbf4",
+      "size": 19678602,
+      "format": "tar.gz",
+      "releaseTag": "v0.14.1",
+      "binaries": {
+        "xs": {
+          "path": "cross-stream-v0.14.1/xs",
+          "sha256": "245b770b42a577554864b70656b3dabcb2acb8921cc6d3bbd910483e94bb0db5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cablehead/xs/releases/download/v0.14.1/cross-stream-v0.14.1-windows-amd64.tar.gz",
+      "sha256": "be160fabe0840b73e2b34bfbbea20c0228f2e6bf75407ee342ae0076e5a85a90",
+      "size": 23021845,
+      "format": "tar.gz",
+      "releaseTag": "v0.14.1",
+      "binaries": {
+        "xs.exe": {
+          "path": "cross-stream-v0.14.1/xs.exe",
+          "sha256": "8550b4c1b298f2826284022199a479bf409cfe49412dd176e0078874a70167af"
+        }
+      }
+    }
+  }
+}
