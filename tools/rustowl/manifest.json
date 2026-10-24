@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "rustowl",
+  "version": "0.4.0",
+  "repository": "cordx56/rustowl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cordx56/rustowl/releases/download/v0.4.0/rustowl-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "054c8947babf38b9868e20431b109204ff22864ae49673d0e0967847d6d7679a",
+      "size": 5642527,
+      "format": "tar.gz",
+      "binaries": {
+        "rustowl": {
+          "path": "rustowl",
+          "sha256": "0326a22ea1f4755b81542681b2f20ca8c8976050002987555b2d7fdc09117e02"
+        },
+        "rustowlc": {
+          "path": "sysroot/1.95.0-x86_64-unknown-linux-gnu/bin/rustowlc",
+          "sha256": "705be945d4215acebf01eaf87d82ccf0010d1346c9573863adfcb51094e8c6ae"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cordx56/rustowl/releases/download/v0.4.0/rustowl-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "e374c80724065b007c54868bb5b870588244e34f36e7807d68c578b5c1dead2a",
+      "size": 5189179,
+      "format": "tar.gz",
+      "binaries": {
+        "rustowl": {
+          "path": "rustowl",
+          "sha256": "1f657cbc127aaeeb5ba037cc58c215f20a497eab869014cef6fa22fb9688f075"
+        },
+        "rustowlc": {
+          "path": "sysroot/1.95.0-aarch64-unknown-linux-gnu/bin/rustowlc",
+          "sha256": "eed7e2b110d32378aba184593758907eb3ef8e964d9437c75c07d7aa3ba900e3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cordx56/rustowl/releases/download/v0.4.0/rustowl-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "1619e535d7fa39c626f53679f94f1da93463fd0cfe6294902afa3fa965e843c8",
+      "size": 5890991,
+      "format": "tar.gz",
+      "binaries": {
+        "rustowl": {
+          "path": "rustowl",
+          "sha256": "9fa46d1cbe3a59227cecd0e0b3e03476d1955d6ac7cf774449d6ffd2530b333a"
+        },
+        "rustowlc": {
+          "path": "sysroot/1.95.0-x86_64-apple-darwin/bin/rustowlc",
+          "sha256": "3f09066a8cc04f128684b8344c6f89dbcc1e05dc32f1188c576f83834e7316b9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cordx56/rustowl/releases/download/v0.4.0/rustowl-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "42aec5ac581199d8c59210ea9a4be77d3a15864eef01c6fa99987aca9bbeb78c",
+      "size": 5477616,
+      "format": "tar.gz",
+      "binaries": {
+        "rustowl": {
+          "path": "rustowl",
+          "sha256": "364a3f9a0d0c41425a59fc44c8a8c8ff7a5e8f48acf428f0f47d7bdcc531c85b"
+        },
+        "rustowlc": {
+          "path": "sysroot/1.95.0-aarch64-apple-darwin/bin/rustowlc",
+          "sha256": "0158e186eecf0348f6eb5b846dc1dde3c9c99490766f57e72996c26d7c595cb8"
+        }
+      }
+    }
+  }
+}
