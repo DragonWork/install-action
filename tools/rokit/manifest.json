@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "rokit",
+  "version": "1.2.0",
+  "repository": "rojo-rbx/rokit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rojo-rbx/rokit/releases/download/v1.2.0/rokit-1.2.0-linux-x86_64.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "951a7f3ec3d2a5e021fd1867d32f69f010ee4c2927f644b759578afc59c65fc0",
+      "size": 3837151,
+      "format": "zip",
+      "binaries": {
+        "rokit": {
+          "path": "rokit",
+          "sha256": "1866140fc5fbf9078ebe209cd990676c27e49949ffd8f233431c73245b8bd9c8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rojo-rbx/rokit/releases/download/v1.2.0/rokit-1.2.0-linux-aarch64.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "b9ba200dd70620d9dbc11bbb0b368a62c6891328e6bc5fab4b7f68200089553a",
+      "size": 3722981,
+      "format": "zip",
+      "binaries": {
+        "rokit": {
+          "path": "rokit",
+          "sha256": "05f5b4e876caf17edccfdb85419b18536c9b32523faf41687846737a31b053d4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rojo-rbx/rokit/releases/download/v1.2.0/rokit-1.2.0-macos-x86_64.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "9643ca30421e9c3dda1f4996bb03b3a43b08dfdc17c28198843e2233e446ba10",
+      "size": 3635141,
+      "format": "zip",
+      "binaries": {
+        "rokit": {
+          "path": "rokit",
+          "sha256": "7d2843bbe07ed8dd2b7ee2a7285cee62192393870a2b30af77dd2e3e6a5cacf9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rojo-rbx/rokit/releases/download/v1.2.0/rokit-1.2.0-macos-aarch64.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "eb8e6b4f8026db2b80ad0887c50f342958ecdbacbdeda2fd6028b3c4f774a3ee",
+      "size": 3478204,
+      "format": "zip",
+      "binaries": {
+        "rokit": {
+          "path": "rokit",
+          "sha256": "301f8b739807da72e42c4b594002fb14bf72c1ffa64131de62a4959213c33227"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rojo-rbx/rokit/releases/download/v1.2.0/rokit-1.2.0-windows-x86_64.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "f9ba1704014ff67d51e8005f605955c7c26d2429a5312a9419dc477fc310e96d",
+      "size": 3638436,
+      "format": "zip",
+      "binaries": {
+        "rokit.exe": {
+          "path": "rokit.exe",
+          "sha256": "925f50de46771529dd1064c867c7679aad0c80e99c688fd906d0e83ae16ef917"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/rojo-rbx/rokit/releases/download/v1.2.0/rokit-1.2.0-windows-aarch64.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "aff0e76e304fdc938cffa5b7ee1e183a052acac541868b4271192f20c734282a",
+      "size": 3485402,
+      "format": "zip",
+      "binaries": {
+        "rokit.exe": {
+          "path": "rokit.exe",
+          "sha256": "6c58ba203c1fe25c462e0c944994cdb2738f8d3b17f4760615a43248f74f04ea"
+        }
+      }
+    }
+  }
+}
