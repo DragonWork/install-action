@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "jlcpcb-to-parquet",
+  "version": "0.4.2",
+  "repository": "tvijverb/jlcpcb-to-parquet",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tvijverb/jlcpcb-to-parquet/releases/download/v0.4.2/jlcpcb-to-parquet-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "7316170cd3e6192df8b7764757bb1d6614e88532ae4db529a8cdb055b945df52",
+      "size": 11382904,
+      "format": "tar.gz",
+      "binaries": {
+        "jlcpcb-to-parquet": {
+          "path": "jlcpcb-to-parquet",
+          "sha256": "0c9f7f6fd8aebf1347fa0f424b8565d8b7144b5db077a0455c9a15508cfc9c68"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tvijverb/jlcpcb-to-parquet/releases/download/v0.4.2/jlcpcb-to-parquet-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "bede0f65e7c714c9665c3106098a17239696c5af580ad95816d799d04af341fe",
+      "size": 13823701,
+      "format": "tar.gz",
+      "binaries": {
+        "jlcpcb-to-parquet": {
+          "path": "jlcpcb-to-parquet",
+          "sha256": "c58f116b69edca2f9a33a75858f34920e1f03cbcb344e7b8cfc1cd74c59ebf83"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tvijverb/jlcpcb-to-parquet/releases/download/v0.4.2/jlcpcb-to-parquet-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "16de4685d66f3022cba85824027a2e8fcfce849f4430f48cd9fd125c9ef0ffd3",
+      "size": 10092171,
+      "format": "tar.gz",
+      "binaries": {
+        "jlcpcb-to-parquet": {
+          "path": "jlcpcb-to-parquet",
+          "sha256": "dbf8ae8c6d15d86d5acb73926b8b60cae049571b9bc715ec5831d782c3218f13"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tvijverb/jlcpcb-to-parquet/releases/download/v0.4.2/jlcpcb-to-parquet-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.2",
+      "sha256": "ce29aea31246d663704f8d9c253a761d04e9610ac72e522698eb768bcb603431",
+      "size": 10908761,
+      "format": "zip",
+      "binaries": {
+        "jlcpcb-to-parquet.exe": {
+          "path": "jlcpcb-to-parquet.exe",
+          "sha256": "981ae480b167c9c0dbe37342c4336352353c3e1cb406111dc8bb6311b2c44e3f"
+        }
+      }
+    }
+  }
+}
