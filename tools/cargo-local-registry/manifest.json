@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-local-registry",
+  "version": "0.2.12",
+  "repository": "dhovart/cargo-local-registry",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dhovart/cargo-local-registry/releases/download/v0.2.12/cargo-local-registry-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.12",
+      "sha256": "9fd77a7333bdd963868890991112020a032b769abefce3c9cde620fae16bf322",
+      "size": 11954649,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-local-registry": {
+          "path": "cargo-local-registry",
+          "sha256": "100c97f6eebd9b1e45854b2b54acf1619ed2d6a060b89506e52db819519d3c0c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dhovart/cargo-local-registry/releases/download/v0.2.12/cargo-local-registry-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.12",
+      "sha256": "5bc9c405f6f0d19c79c3a19ec4f5a4972339d9b621834b1d8fd55f9669c5f887",
+      "size": 9927106,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-local-registry": {
+          "path": "cargo-local-registry",
+          "sha256": "2faff5fa3a148c403ddeebb5172cdf0adcd9075dab860bc037da45f6b8bccbfd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dhovart/cargo-local-registry/releases/download/v0.2.12/cargo-local-registry-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.12",
+      "sha256": "0b66da18c7c102ba0c676aec798782421d2932ac3917e5f37c6b6829525b749b",
+      "size": 9883812,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-local-registry": {
+          "path": "cargo-local-registry",
+          "sha256": "ed25d4aac51eaee88654f1a0b08519882b5f647f7c09e1362e71af2b9b8710ba"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dhovart/cargo-local-registry/releases/download/v0.2.12/cargo-local-registry-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.12",
+      "sha256": "2aaf307b96d0b58061877cb33aebda797835925eb8eacc2795868404e2a7b3f9",
+      "size": 7976829,
+      "format": "zip",
+      "binaries": {
+        "cargo-local-registry.exe": {
+          "path": "dist/cargo-local-registry.exe",
+          "sha256": "05da6e89d2030ba48c221b5cc6cb186cdaf37c3177fe6913156100084820285e"
+        }
+      }
+    }
+  }
+}
