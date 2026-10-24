@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "kmon",
+  "version": "1.7.1",
+  "repository": "orhun/kmon",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orhun/kmon/releases/download/v1.7.1/kmon-1.7.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.7.1",
+      "sha256": "2d8ba69d000f5f5a01ba9cb6d135aec5b323478f0dcb7f670766314ad306d565",
+      "size": 765185,
+      "format": "tar.gz",
+      "binaries": {
+        "kmon": {
+          "path": "kmon-1.7.1/kmon",
+          "sha256": "4a884528dee571ba934b573b0f5e28b5e1fe287497b5bc89affb6b07a6eead5d"
+        }
+      }
+    }
+  }
+}
