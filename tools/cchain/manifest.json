@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cchain",
+  "version": "0.3.42",
+  "repository": "AspadaX/cchain",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AspadaX/cchain/releases/download/v0.3.42/cchain-Linux-musl-x86_64.tar.gz",
+      "releaseTag": "v0.3.42",
+      "sha256": "0cc0d4c1de4292d317a243e9531982c60658e2a4a3fe4033e1747c06471a1384",
+      "size": 6283705,
+      "format": "tar.gz",
+      "binaries": {
+        "cchain": {
+          "path": "cchain",
+          "sha256": "ca1283ae924f8c9dd17f7f0321f9548514305c6bb98a216dd38a5590139ab81f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/AspadaX/cchain/releases/download/v0.3.42/cchain-Linux-musl-arm64.tar.gz",
+      "releaseTag": "v0.3.42",
+      "sha256": "3f24777e4e1bdeb6a2e19b9d8e76a25128e76c8263514f1891e02c3792aed850",
+      "size": 6340365,
+      "format": "tar.gz",
+      "binaries": {
+        "cchain": {
+          "path": "cchain",
+          "sha256": "0a131e61595e07185465f6ec85a55d85d11e2913611fefbc9c472f3c97c6b5f0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AspadaX/cchain/releases/download/v0.3.42/cchain-macOS-x86_64.tar.gz",
+      "releaseTag": "v0.3.42",
+      "sha256": "2aa2539090e3fc69a4c288f0db00b674d9c24f3bd68ed34a54f1ee5ab16eb236",
+      "size": 5092687,
+      "format": "tar.gz",
+      "binaries": {
+        "cchain": {
+          "path": "cchain",
+          "sha256": "735f431cdc479e0d46cae86aeb98bdab1b409c3d7b6d4e1340409a79e453f74e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AspadaX/cchain/releases/download/v0.3.42/cchain-macOS-arm64.tar.gz",
+      "releaseTag": "v0.3.42",
+      "sha256": "2253f0718689631232aa132e76767aa24cc0d6730d6f2b89edb968c876160173",
+      "size": 5242760,
+      "format": "tar.gz",
+      "binaries": {
+        "cchain": {
+          "path": "cchain",
+          "sha256": "b35aa5c28b10794bee1f6255251ca4f29173141e838a93124053ee33396db1c3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AspadaX/cchain/releases/download/v0.3.42/cchain-Windows-msvc-x86_64.zip",
+      "releaseTag": "v0.3.42",
+      "sha256": "65ef66f86aa6c2d8937dcdf415d47153c37e0f11e43c30463b26ff425bccbefc",
+      "size": 3254385,
+      "format": "zip",
+      "binaries": {
+        "cchain.exe": {
+          "path": "cchain.exe",
+          "sha256": "25b51d487114d7e3703d7fdf4599346ba51954b87d50f9c3c5cb343327999336"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/AspadaX/cchain/releases/download/v0.3.42/cchain-Windows-msvc-arm64.zip",
+      "releaseTag": "v0.3.42",
+      "sha256": "2172029516c483947976f3f2af3e7e038bd6e2592a3ca95dcf16995ccb50f63a",
+      "size": 3055294,
+      "format": "zip",
+      "binaries": {
+        "cchain.exe": {
+          "path": "cchain.exe",
+          "sha256": "ff9ad7727f05ed8088a98a8c1a1cb902b06bbc724f58d3100e7addedf6bff1b0"
+        }
+      }
+    }
+  }
+}
