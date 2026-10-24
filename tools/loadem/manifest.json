@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "loadem",
+  "version": "0.2.11",
+  "repository": "pjoe/loadem",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pjoe/loadem/releases/download/0.2.11/loadem-0.2.11-linux-amd64.tar.gz",
+      "releaseTag": "0.2.11",
+      "sha256": "c860666dcae99b58d9d2505053ae36e40d782736bdff96a0af04416649e026ad",
+      "size": 2981577,
+      "format": "tar.gz",
+      "binaries": {
+        "loadem": {
+          "path": "loadem",
+          "sha256": "814d5409b93e67b0db26a6c5d9e8d236ffa3075bd88c80f97fe6be7c80bd4f22"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pjoe/loadem/releases/download/0.2.11/loadem-0.2.11-darwin-amd64.tar.gz",
+      "releaseTag": "0.2.11",
+      "sha256": "9707054ad9c9c02328f166bc963311df3b79e010d95b14011bfe81032a6b3e6b",
+      "size": 1898887,
+      "format": "tar.gz",
+      "binaries": {
+        "loadem": {
+          "path": "loadem",
+          "sha256": "516e5007437749a4ec6b3d6b5256faf840bbc6d0289030b2eccf2967eb3be016"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pjoe/loadem/releases/download/0.2.11/loadem-0.2.11-windows-amd64.zip",
+      "releaseTag": "0.2.11",
+      "sha256": "53e33bc54b492fb2fd061ca1457661d8acdd365c27dbc44977a17303c7930a4f",
+      "size": 1493972,
+      "format": "zip",
+      "binaries": {
+        "loadem.exe": {
+          "path": "loadem.exe",
+          "sha256": "5ed51629dfecb491d6e6228071118aec089f659607e37f66544989fce3e42fb9"
+        }
+      }
+    }
+  }
+}
