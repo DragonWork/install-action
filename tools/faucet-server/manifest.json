@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "faucet-server",
+  "version": "2.1.0",
+  "repository": "ixpantia/faucet",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/ixpantia/faucet/releases/download/v2.1.0/faucet-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v2.1.0",
+      "sha256": "cc6a82e0dd195cd35118f9d75b1f3c1fe5e6de1a151e7d9f5a93df798157bdf1",
+      "size": 9432576,
+      "format": "binary",
+      "binaries": {
+        "faucet.exe": {
+          "path": "faucet-x86_64-pc-windows-msvc.exe",
+          "sha256": "cc6a82e0dd195cd35118f9d75b1f3c1fe5e6de1a151e7d9f5a93df798157bdf1"
+        }
+      }
+    }
+  }
+}
