@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "zamm",
+  "version": "0.2.1",
+  "repository": "zamm-dev/zamm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zamm-dev/zamm/releases/download/v0.2.1/zamm_0.2.1_amd64.deb",
+      "sha256": "c558eb2f0b14ab695c589a2788311a029f94cc5d6ab5533458efa4eb8b210c6a",
+      "size": 14416214,
+      "format": "deb",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "zamm": {
+          "path": "usr/bin/zamm",
+          "sha256": "ddb67e659346878c0e2af5eac2c8500b436ed629dff007978b05b161b107fa30"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zamm-dev/zamm/releases/download/v0.2.1/zamm_universal.app.tar.gz",
+      "sha256": "026ac5123e6566f01687e5e732fb89bfef9e41212b77867419d7319fa1bf9b83",
+      "size": 27834734,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "zamm": {
+          "path": "zamm.app/Contents/MacOS/zamm",
+          "sha256": "4731cb381781176ca55a991f717dfdbf9353a003ad8244d02b747b2700327b7c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zamm-dev/zamm/releases/download/v0.2.1/zamm_universal.app.tar.gz",
+      "sha256": "026ac5123e6566f01687e5e732fb89bfef9e41212b77867419d7319fa1bf9b83",
+      "size": 27834734,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "zamm": {
+          "path": "zamm.app/Contents/MacOS/zamm",
+          "sha256": "4731cb381781176ca55a991f717dfdbf9353a003ad8244d02b747b2700327b7c"
+        }
+      }
+    }
+  }
+}
