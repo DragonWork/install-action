@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "container-device-interface",
+  "version": "1.1.1",
+  "repository": "cncf-tags/container-device-interface-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cncf-tags/container-device-interface-rs/releases/download/v1.1.1/container-device-interface-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.1.1",
+      "sha256": "71b20a1068e2da80ede1503004ae018f559b2f41778fd498992a6285a0905a78",
+      "size": 2617128,
+      "format": "tar.xz",
+      "binaries": {
+        "cdi": {
+          "path": "cdi",
+          "sha256": "fa3b24b6cc259fa7796b79b07c55ae7579800912cd89850ded6c977ee34c1add"
+        },
+        "validate": {
+          "path": "validate",
+          "sha256": "d87d753406ac83b8da4f591f4ff6ddd7bcdc7745d9baf2805dacbcbb0ff585b7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cncf-tags/container-device-interface-rs/releases/download/v1.1.1/container-device-interface-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.1.1",
+      "sha256": "a8eb4f7a51015de88375bc342091ee4d35c5dcf8f1f2177561e1c5ac0e961177",
+      "size": 2530556,
+      "format": "tar.xz",
+      "binaries": {
+        "cdi": {
+          "path": "cdi",
+          "sha256": "c13ed99c384095db8d175aec2f69ed37e0f62e88cf9224a52326853722a40d45"
+        },
+        "validate": {
+          "path": "validate",
+          "sha256": "5a589a5f838f3944c6c0d201d50eac29119355f4bc1698bf2fc4df292d98278a"
+        }
+      }
+    }
+  }
+}
