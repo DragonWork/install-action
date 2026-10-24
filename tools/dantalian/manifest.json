@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dantalian",
+  "version": "0.4.6",
+  "repository": "nanozuki/dantalian",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nanozuki/dantalian/releases/download/v0.4.6/dantalian-v0.4.6-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "cef8fd9c26d9f245af05e4055765f8ab10f2f0e68093d2b241555cd6fee2ec52",
+      "size": 4282204,
+      "format": "tar.gz",
+      "binaries": {
+        "dantalian": {
+          "path": "dantalian-v0.4.6-x86_64-unknown-linux-musl/dantalian",
+          "sha256": "13a3a69953996f9c1530db08cee3eba49b8c7d73563c7ee4b968d21e7abd4831"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nanozuki/dantalian/releases/download/v0.4.6/dantalian-v0.4.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "c136c7553920e68499a7bf539e8380b33b3697ae9853b8b12e9ce984c1db058a",
+      "size": 2194694,
+      "format": "tar.gz",
+      "binaries": {
+        "dantalian": {
+          "path": "dantalian-v0.4.6-x86_64-apple-darwin/dantalian",
+          "sha256": "2e111632b3e858000ad3aedadc8bcdbd4db24707273bf0dc5e9a2050ae339a4f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nanozuki/dantalian/releases/download/v0.4.6/dantalian-v0.4.6-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.6",
+      "sha256": "f0b8f910defce8c012fb27012d83177782f20f1000502b279942d1ba9cb1fe1b",
+      "size": 2142885,
+      "format": "zip",
+      "binaries": {
+        "dantalian.exe": {
+          "path": "dantalian-v0.4.6-x86_64-pc-windows-msvc/dantalian.exe",
+          "sha256": "c8a049a36664a55ccb33b7035a6e6b2ac423fa560f7c1ed833bce24139b2e96f"
+        }
+      }
+    }
+  }
+}
