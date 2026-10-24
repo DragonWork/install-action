@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "name": "icann-rdap-srv",
+  "version": "1.0.1",
+  "repository": "icann/icann-rdap",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/icann/icann-rdap/releases/download/v1.0.1/icann-rdap-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "3be04caab9d70b7047df1d5d76478cbea9d3192b284d73abe04ca850bfe9e34f",
+      "size": 26325749,
+      "format": "tar.gz",
+      "binaries": {
+        "rdap-srv": {
+          "path": "rdap-srv",
+          "sha256": "7f2d770cea85aeaf3dad38043146d5172e486cdd7b9268be2585fd6e2df001dc"
+        },
+        "rdap-srv-data": {
+          "path": "rdap-srv-data",
+          "sha256": "95cf4036227df67ca6944818f5db578a41a711727ab03e70c0eb2c460c7f417c"
+        },
+        "rdap-srv-store": {
+          "path": "rdap-srv-store",
+          "sha256": "c573af1eec9501c3277cf2842a9a609f1843b31069aa937f1f6aadf182eb4636"
+        },
+        "rdap-srv-test-data": {
+          "path": "rdap-srv-test-data",
+          "sha256": "127f7d8eb2e1fc3a523f6ac982106e310e421570db03362dd228d1bc43b4f54c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/icann/icann-rdap/releases/download/v1.0.1/icann-rdap-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "7815dfca55d253f7a12a15d8b4fba3eaf40835b62de5550075be37f66a623b09",
+      "size": 25597103,
+      "format": "tar.gz",
+      "binaries": {
+        "rdap-srv": {
+          "path": "rdap-srv",
+          "sha256": "23bae7847f7cc9e60e1825cfea07559d12e396aa1a53161176a1d02884a7e821"
+        },
+        "rdap-srv-data": {
+          "path": "rdap-srv-data",
+          "sha256": "d7a5414a8df740e531c66f7130d090f88964d776fe3f69ecf2bd8dad068fec17"
+        },
+        "rdap-srv-store": {
+          "path": "rdap-srv-store",
+          "sha256": "55a452d9da69750ba9a1970dccbadb31370849ab29970feae648aeed621c3770"
+        },
+        "rdap-srv-test-data": {
+          "path": "rdap-srv-test-data",
+          "sha256": "17bf75e1d3f66b6434e748f18fdba84af6079e2f5fe46e9adfa82330a0d1e774"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/icann/icann-rdap/releases/download/v1.0.1/icann-rdap-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "3607531575616c2df4be490bcadd11c00f69418b073798af651d4beaee7d8025",
+      "size": 17768830,
+      "format": "tar.gz",
+      "binaries": {
+        "rdap-srv": {
+          "path": "rdap-srv",
+          "sha256": "d3214cff7803133b149c1fd8286700f643ca92157a314af433008aaa2eb9c16c"
+        },
+        "rdap-srv-data": {
+          "path": "rdap-srv-data",
+          "sha256": "a89ae23be76c1b5160e24b9864466ccef2337b26b30bedfff15e009163721c6d"
+        },
+        "rdap-srv-store": {
+          "path": "rdap-srv-store",
+          "sha256": "263b9854c1c5b438e08d00297fe62044f3137f476f7dae0a2c755d3301e69f88"
+        },
+        "rdap-srv-test-data": {
+          "path": "rdap-srv-test-data",
+          "sha256": "e112f2376a9d5d96b3dd0f1820c4f04ebcfec03c773564cb14be523566eb7b38"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/icann/icann-rdap/releases/download/v1.0.1/icann-rdap-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "c2002a3f81f129b46cbc4793308088d5f002bb15f230eb676c8d913b3526e4a9",
+      "size": 18088527,
+      "format": "tar.gz",
+      "binaries": {
+        "rdap-srv.exe": {
+          "path": "rdap-srv.exe",
+          "sha256": "49b271b44dbbdc8e8b217a031fde54d0f856695d8cd3bddd7d4cbbb1078a95b7"
+        },
+        "rdap-srv-data.exe": {
+          "path": "rdap-srv-data.exe",
+          "sha256": "a7063cf0117ef95a11d271e7314c627aa6b46f12cc214856cb7a6c7c8b9c4ff0"
+        },
+        "rdap-srv-store.exe": {
+          "path": "rdap-srv-store.exe",
+          "sha256": "c62b1158399be01363dfc414596d291d2d2ddbbab6e67e1312ee10124e34bb8e"
+        },
+        "rdap-srv-test-data.exe": {
+          "path": "rdap-srv-test-data.exe",
+          "sha256": "596e6fcfafd708a9a0d8be6bb4ea217e601fc385b57cab56475a8f7d88f41b79"
+        }
+      }
+    }
+  }
+}
