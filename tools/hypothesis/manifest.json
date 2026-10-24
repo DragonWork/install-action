@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "hypothesis",
+  "version": "0.12.0",
+  "repository": "out-of-cheese-error/rust-hypothesis",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/out-of-cheese-error/rust-hypothesis/releases/download/0.12.0/hypothesis-linux.tar.gz",
+      "sha256": "7cc353866cd9d12bf197271568fac8f015134e84f3455f867722f5653f7cb79a",
+      "size": 2979447,
+      "format": "tar.gz",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "hypothesis": {
+          "path": "hypothesis",
+          "sha256": "d4e8c7fdf7636327a187a6c0863f444cc8e723e50e5cb01c16d64dd761d6b254"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/out-of-cheese-error/rust-hypothesis/releases/download/0.12.0/hypothesis-macos.tar.gz",
+      "sha256": "09da24c299a06d5a244055cd02b23ddd3cd6fad9e4e792625988b293650f3562",
+      "size": 2836475,
+      "format": "tar.gz",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "hypothesis": {
+          "path": "hypothesis",
+          "sha256": "542b188ac52505e31cf57f1567e3ed1aa57346c102902c5fbc4bc6cd4f2139c9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/out-of-cheese-error/rust-hypothesis/releases/download/0.12.0/hypothesis-windows.tar.gz",
+      "sha256": "af2d5e6a7b477a11d76a583eaca18d8e3df54950bfa5238afc21ac51795b26d0",
+      "size": 2771816,
+      "format": "tar.gz",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "hypothesis.exe": {
+          "path": "hypothesis.exe",
+          "sha256": "4d39e78a9802ea1e6acd135be4a74db90d53ebd5339c3a14958f93a11997e0d4"
+        }
+      }
+    }
+  }
+}
