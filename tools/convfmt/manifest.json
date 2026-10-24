@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "convfmt",
+  "version": "2.4.0",
+  "repository": "oriontvv/convfmt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/oriontvv/convfmt/releases/download/2.4.0/convfmt-linux-musl.tar.gz",
+      "sha256": "16f08fcfba4e0b1d24a6f5893d7ca5f129f4d13f8106196b8f4412646a230366",
+      "size": 2428478,
+      "format": "tar.gz",
+      "releaseTag": "2.4.0",
+      "binaries": {
+        "convfmt": {
+          "path": "./convfmt",
+          "sha256": "6951c7d5e44f36e496f18f3b1a49df834774865eb9ab581766e4e16c60e9c245"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/oriontvv/convfmt/releases/download/2.4.0/convfmt-mac.tar.gz",
+      "sha256": "b3f17641e1129bc594d0402e72fd557dcbec1341992648b07c720746da756d1a",
+      "size": 2155563,
+      "format": "tar.gz",
+      "releaseTag": "2.4.0",
+      "binaries": {
+        "convfmt": {
+          "path": "./convfmt",
+          "sha256": "691ac7224cd1b8a8a6eab994a2382d3db2c2cf8692c44dd38775e3d2a8b5cd6c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/oriontvv/convfmt/releases/download/2.4.0/convfmt-win.tar.gz",
+      "sha256": "144380a2ef25c6fc895592ddcdc45c2389425a1b26e51cce45259d2d6a67e067",
+      "size": 2247543,
+      "format": "tar.gz",
+      "releaseTag": "2.4.0",
+      "binaries": {
+        "convfmt.exe": {
+          "path": "./convfmt.exe",
+          "sha256": "37de69b691d42d0ccddf348e7bf3b29af555feead1e2a3f448f65c0dfe6c3962"
+        }
+      }
+    }
+  }
+}
