@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cargo-hakari",
+  "version": "0.9.39",
+  "repository": "guppy-rs/guppy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/guppy-rs/guppy/releases/download/cargo-hakari-0.9.39/cargo-hakari-0.9.39-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "cargo-hakari-0.9.39",
+      "sha256": "6437e3dede815ff68b7671c15ad65240a7c80118e5a6a07d68ff85d29e78d017",
+      "size": 2513107,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-hakari": {
+          "path": "cargo-hakari",
+          "sha256": "f4db8980e76d5acdf3d07430c4910092c1906ba41e91e40b1976d15c1b299893"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/guppy-rs/guppy/releases/download/cargo-hakari-0.9.39/cargo-hakari-0.9.39-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "cargo-hakari-0.9.39",
+      "sha256": "c92f6c556e84f00da1ea0a26217eea5be3d701f1ee9d24a04066a46b65886fbc",
+      "size": 2281137,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-hakari": {
+          "path": "cargo-hakari",
+          "sha256": "21aed204ad7a0eba39928ab5321d32fd670fd74073281b5aa8fef74680945e53"
+        }
+      }
+    }
+  }
+}
