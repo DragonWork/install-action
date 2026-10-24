@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "inlyne",
+  "version": "0.5.3",
+  "repository": "Inlyne-Project/inlyne",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Inlyne-Project/inlyne/releases/download/v0.5.3/inlyne-v0.5.3-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.3",
+      "sha256": "498d497db7bfa7769df76de3516f1db07be51c49c75136d57d0c23dba3ec47dd",
+      "size": 10733867,
+      "format": "tar.gz",
+      "binaries": {
+        "inlyne": {
+          "path": "inlyne-v0.5.3-x86_64-unknown-linux-gnu/inlyne",
+          "sha256": "928ca5ee354ed374637ab06c541614efc3bd25f90ecd4a7e6acc08b8d7b3ffed"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Inlyne-Project/inlyne/releases/download/v0.5.3/inlyne-v0.5.3-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.3",
+      "sha256": "68bba3c88ed7bad1d5d78b1a42d11aff1e15cc441642741854c272c0ba63c7f7",
+      "size": 10264760,
+      "format": "tar.gz",
+      "binaries": {
+        "inlyne": {
+          "path": "inlyne-v0.5.3-aarch64-unknown-linux-gnu/inlyne",
+          "sha256": "692a495b1a230b2d3bffea22f5fa355ef3b263252653974efe101bc9e111de5f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Inlyne-Project/inlyne/releases/download/v0.5.3/inlyne-v0.5.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.3",
+      "sha256": "138e65bd90d639e21039a649ed0ca7a885d3390d6c8e8f10f2faa8f03b948fbe",
+      "size": 8576308,
+      "format": "tar.gz",
+      "binaries": {
+        "inlyne": {
+          "path": "inlyne-v0.5.3-x86_64-apple-darwin/inlyne",
+          "sha256": "1471343b6a9846303475b24aa941991e53c169ca8007d4923b978f1da97a1ecf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Inlyne-Project/inlyne/releases/download/v0.5.3/inlyne-v0.5.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.3",
+      "sha256": "dbd36f6bff192757a471c672bda0aa77ef5c0c619b8e30c212086928444ce6f5",
+      "size": 8171437,
+      "format": "tar.gz",
+      "binaries": {
+        "inlyne": {
+          "path": "inlyne-v0.5.3-aarch64-apple-darwin/inlyne",
+          "sha256": "c2d26402ce6639b23a3663652b40aa8cafece4891c33f7c1abb8b1c9cbd86837"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Inlyne-Project/inlyne/releases/download/v0.5.3/inlyne-v0.5.3-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.3",
+      "sha256": "3be217e1dd28be7250dc1403e63901f022babeed338c26a67e5a4280777c57d8",
+      "size": 9024004,
+      "format": "zip",
+      "binaries": {
+        "inlyne.exe": {
+          "path": "inlyne-v0.5.3-x86_64-pc-windows-msvc/inlyne.exe",
+          "sha256": "14b55ec65432f4ae943765dace31da4d53e8cd8371f393dcf13ebd348562bae2"
+        }
+      }
+    }
+  }
+}
