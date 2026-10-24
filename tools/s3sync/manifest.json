@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "s3sync",
+  "version": "1.62.4",
+  "repository": "nidor1998/s3sync",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nidor1998/s3sync/releases/download/v1.62.4/s3sync-1.62.4-linux-musl-x86_64.tar.gz",
+      "releaseTag": "v1.62.4",
+      "sha256": "2454c02c34a909e7bf1a62e75425f8d5e2a621334f29a2aa0c95853d27b0b018",
+      "size": 4951047,
+      "format": "tar.gz",
+      "binaries": {
+        "s3sync": {
+          "path": "s3sync",
+          "sha256": "d68d6bb1660d2d7aaf17fac9e725c8243756cdf46291f8058e2571b8dcd0fe62"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nidor1998/s3sync/releases/download/v1.62.4/s3sync-1.62.4-linux-musl-aarch64.tar.gz",
+      "releaseTag": "v1.62.4",
+      "sha256": "d916b5a8fef989d7e3d986936101fad4265311cd9c3cf01b2475af2ec241d8c4",
+      "size": 4544535,
+      "format": "tar.gz",
+      "binaries": {
+        "s3sync": {
+          "path": "s3sync",
+          "sha256": "62e91b33e16557b229ea38059b94881e975aef685aa8ec806ee138d52b13523d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nidor1998/s3sync/releases/download/v1.62.4/s3sync-1.62.4-macos-aarch64.tar.gz",
+      "releaseTag": "v1.62.4",
+      "sha256": "24d65e4457e55edb6bdb7c60fbce7fe22e0c4ab776b73d59cf6550404c23dd86",
+      "size": 6556582,
+      "format": "tar.gz",
+      "binaries": {
+        "s3sync": {
+          "path": "s3sync",
+          "sha256": "1dc008abb25091c366e928f0c04b85eb059134233923328c311b888afce9ec4f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nidor1998/s3sync/releases/download/v1.62.4/s3sync-1.62.4-windows-x86_64.tar.gz",
+      "releaseTag": "v1.62.4",
+      "sha256": "84e1ac6d5454c13cdd4ca3901e3e4a90fb695b7701939a666a995526bb6ac7f0",
+      "size": 8080508,
+      "format": "tar.gz",
+      "binaries": {
+        "s3sync.exe": {
+          "path": "s3sync.exe",
+          "sha256": "77ee12eb1fa8def418deef8b78169b6894728197571d34f4e0cb05635baf2662"
+        }
+      }
+    }
+  }
+}
