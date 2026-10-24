@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "jet1090",
+  "version": "0.7.0",
+  "repository": "xoolive/jet1090",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/jet1090-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "98d175f458807848c4f9959e408f46efacfe573b1dd8c02130519534afb53e9d",
+      "size": 5957636,
+      "format": "tar.xz",
+      "binaries": {
+        "jet1090": {
+          "path": "jet1090-x86_64-unknown-linux-gnu/jet1090",
+          "sha256": "fffc8f38a066a4b9d139949287ec61acb65bd9ccce36d1510812d37bcefa878d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/jet1090-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "75b6652ddae3abbe2bcb5dd96c5f13c7fae14339aa17d021239c39fe4df6bf3e",
+      "size": 5258072,
+      "format": "tar.xz",
+      "binaries": {
+        "jet1090": {
+          "path": "jet1090-aarch64-unknown-linux-gnu/jet1090",
+          "sha256": "776226fb2b1ecf68dee11d32e08b57cef17ad35f7f707b18fd73647879211c37"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/jet1090-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "a70726425c50ea67d669a6a46da6f9fd6ed13f75ebae991cdd75dad9e0d81079",
+      "size": 5212792,
+      "format": "tar.xz",
+      "binaries": {
+        "jet1090": {
+          "path": "jet1090-x86_64-apple-darwin/jet1090",
+          "sha256": "fb404a2996acb70a1c918e5d43b3970cc05fe3ed5af22f321d590cc29ba67cb8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/jet1090-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "87bb760e6e4f0d6596ca98f04b26e03e56e43f9de94453e2dfd819ec02a6bb23",
+      "size": 4459672,
+      "format": "tar.xz",
+      "binaries": {
+        "jet1090": {
+          "path": "jet1090-aarch64-apple-darwin/jet1090",
+          "sha256": "09d66339c2a7079009b1d49101f6c5a9312bcde921a5ce00ab5b3e44a4860acf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/jet1090-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "dfee02d01ce246cf17dad345f5124bffcb53b26a95890c599f7797b980a8d449",
+      "size": 7680615,
+      "format": "zip",
+      "binaries": {
+        "jet1090.exe": {
+          "path": "jet1090.exe",
+          "sha256": "09c8ffaddca9d7eacae7114135ce202001f0c3e63c613c6cb03b1bcf681afd00"
+        }
+      }
+    }
+  }
+}
