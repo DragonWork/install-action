@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rss-forwarder",
+  "version": "0.7.1",
+  "repository": "morphy2k/rss-forwarder",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/morphy2k/rss-forwarder/releases/download/v0.7.1/x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "2907ca4dc3c9f00151c246deedfdbe69ddfdfda82ee91a6b368b8d5370bedf0d",
+      "size": 4204158,
+      "format": "tar.gz",
+      "binaries": {
+        "rss-forwarder": {
+          "path": "./rss-forwarder",
+          "sha256": "c9ed8c11a482d5670af9f68c1e95235259be21f5f48c441c5a35d5b545afeca3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/morphy2k/rss-forwarder/releases/download/v0.7.1/aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "168075fdd54f70895330157019af07205e553358def5bf2737ce80daf1f98468",
+      "size": 4263942,
+      "format": "tar.gz",
+      "binaries": {
+        "rss-forwarder": {
+          "path": "./rss-forwarder",
+          "sha256": "b8218d574e7df959b88c7bf34c3d274511ec4caf842ed5ba8fdfe110e2ed8c2b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/morphy2k/rss-forwarder/releases/download/v0.7.1/x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "0573b68ed2f7c1ac6646812c8ce6703b0449af32c898138521bc6cf695b0de6c",
+      "size": 3927729,
+      "format": "tar.gz",
+      "binaries": {
+        "rss-forwarder": {
+          "path": "./rss-forwarder",
+          "sha256": "7d9f0252b31e1fdaca303827e70863dfb44946e27c297af6c043602359ff0f4c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/morphy2k/rss-forwarder/releases/download/v0.7.1/aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "04daaa190ab1998712ff7de9fad022ecfe92f65d02f607ffba9c9f5da98a1e4b",
+      "size": 3747119,
+      "format": "tar.gz",
+      "binaries": {
+        "rss-forwarder": {
+          "path": "./rss-forwarder",
+          "sha256": "16b33d2658ff0a4db960f0647e663a3e44005ae4c17c87687896033b9f7a25d4"
+        }
+      }
+    }
+  }
+}
