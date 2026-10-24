@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pagebreak",
+  "version": "0.9.2",
+  "repository": "CloudCannon/pagebreak",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/CloudCannon/pagebreak/releases/download/v0.9.2/pagebreak-v0.9.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.2",
+      "sha256": "4dfdaa64212134aee1263dec8a3727ab200b5e1a157d13aa56edb3bb6a419a34",
+      "size": 2297324,
+      "format": "tar.gz",
+      "binaries": {
+        "pagebreak": {
+          "path": "pagebreak",
+          "sha256": "86ff49b1a167db44248385299699a2a63bd9307548304261b9e7a66a943d6f4e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/CloudCannon/pagebreak/releases/download/v0.9.2/pagebreak-v0.9.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.2",
+      "sha256": "52f8880cd5db6d1dcc8658f51adb8500f7c6b6423494349441e7b7b667f6bc93",
+      "size": 1294858,
+      "format": "tar.gz",
+      "binaries": {
+        "pagebreak": {
+          "path": "pagebreak",
+          "sha256": "fc908624a1818dc98ed819c8ef79d41a21213ad96d1c0b7ceaab7fddfcd7e56f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/CloudCannon/pagebreak/releases/download/v0.9.2/pagebreak-v0.9.2-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.9.2",
+      "sha256": "61ff1aafca87fadb0c2f952fe0a3a684b5f3ddbf69da50b8743425b11f54ab7b",
+      "size": 1085403,
+      "format": "tar.gz",
+      "binaries": {
+        "pagebreak.exe": {
+          "path": "pagebreak.exe",
+          "sha256": "2764e9986bb0f6d9dda45b62cae44c8efcb76c3f49d2aa553838ef9727dba8ca"
+        }
+      }
+    }
+  }
+}
