@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mprocs",
+  "version": "0.9.6",
+  "repository": "pvolok/dekit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pvolok/dekit/releases/download/v0.9.6/mprocs-0.9.6-linux-x86_64-musl.tar.gz",
+      "sha256": "52591a9aab797a5e164fa37a5f81b516fa3c25f125b59a60724e38ae98bfe77b",
+      "size": 1081292,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.6",
+      "binaries": {
+        "mprocs": {
+          "path": "mprocs",
+          "sha256": "b06bf52d4642cadde7019f2a2776a276ae2b92044d7463d06bc5f9721089f7e6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pvolok/dekit/releases/download/v0.9.6/mprocs-0.9.6-linux-aarch64-musl.tar.gz",
+      "sha256": "ebe73f04e02e2134df463c8f0a0e1c293aa3b41dd7909180687529b21780adb0",
+      "size": 1045175,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.6",
+      "binaries": {
+        "mprocs": {
+          "path": "mprocs",
+          "sha256": "213f6ecda4bacb4a177ccd76cedb03663e83e8d3e2d5453c072a1f32cff07436"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pvolok/dekit/releases/download/v0.9.6/mprocs-0.9.6-darwin-x86_64.tar.gz",
+      "sha256": "51c3b363d5a2d32ae50a5307954b8d5aa336379aa986be580e9fe27682392545",
+      "size": 902555,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.6",
+      "binaries": {
+        "mprocs": {
+          "path": "mprocs",
+          "sha256": "26a6e27a266aa2ea710988a0b2b86dc771c901de3ec7d1071be2dedac704e40e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pvolok/dekit/releases/download/v0.9.6/mprocs-0.9.6-darwin-aarch64.tar.gz",
+      "sha256": "6b557dc4d446009105f2ae1a33206f54f97cea72f9674af513a7279572350641",
+      "size": 863109,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.6",
+      "binaries": {
+        "mprocs": {
+          "path": "mprocs",
+          "sha256": "d3ad8ddefd8bd4e6d9a2882acef536bbfb7bd51542c062bb2ba5472a6b8e0e62"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pvolok/dekit/releases/download/v0.9.6/mprocs-0.9.6-windows-x86_64.zip",
+      "sha256": "9dc6e49ef47c7aa2e6a2844503d6cfa34e51a4d15dd78abef6e6de2fc10e5765",
+      "size": 864389,
+      "format": "zip",
+      "releaseTag": "v0.9.6",
+      "binaries": {
+        "mprocs.exe": {
+          "path": "mprocs.exe",
+          "sha256": "d88c1054e42e4ad23a41d45d6c89c90209d57dc1a3cad0d703ef504d3e28b766"
+        }
+      }
+    }
+  }
+}
