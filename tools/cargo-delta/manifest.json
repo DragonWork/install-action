@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "cargo-delta",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "repository": "tekian/cargo-delta",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.4.0/cargo-delta-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.4.0",
-      "sha256": "2699b6806d7c0bd9ed6a3d03e4964d7115d17b734de5e540edeeab8c28f863dd",
-      "size": 1665766,
+      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.5.0/cargo-delta-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "d1d330bf209a494145bd19a62fe59d97767b593415e1c41d160307dad2dde75f",
+      "size": 1675132,
       "format": "tar.gz",
       "binaries": {
         "cargo-delta": {
           "path": "cargo-delta",
-          "sha256": "dbafbd2b85a710a1023cb51b3e14f274c9a882a569ba0d688adac1d019b45e83"
+          "sha256": "218ac3d1c0882039bfa944010caca88fef1f6be2c0ad2209f136d72fbc47c145"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.4.0/cargo-delta-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.4.0",
-      "sha256": "5666ecb5b8e033b509d785ee57c5b2e9e549f5e40c476f06c70c17ef59a22b24",
-      "size": 1557273,
+      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.5.0/cargo-delta-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "61e648999b954036ea64bc74baeaddb9ecd0641f800094248d540f182adb67ff",
+      "size": 1567009,
       "format": "tar.gz",
       "binaries": {
         "cargo-delta": {
           "path": "cargo-delta",
-          "sha256": "5f960eced0225c3ccf3a9b39766561ffa243ee6596455be233156a182ac88f5e"
+          "sha256": "b2225180322939df22e15e33898f95f5c66f00a4f551ec6822a0228a8a54b15f"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.4.0/cargo-delta-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.4.0",
-      "sha256": "b464119d802ce7f0c6f12e976dc7684ddab3be2a8d4ca9ada2515f0c46fe1118",
-      "size": 1608068,
+      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.5.0/cargo-delta-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "1fefc4536c55ca8bea45fd3c51eacf348a00e82b946b6d1eed1bb06a43f3c235",
+      "size": 1614745,
       "format": "tar.gz",
       "binaries": {
         "cargo-delta": {
           "path": "cargo-delta",
-          "sha256": "3b3725540f9bad43d4c52942f20add6a4ecf11ca235b6d3525537c230fbe9e18"
+          "sha256": "20a3d517d82fc9b227799296d3bc55fe608ffdb7db9df80e02be50a077bca3b2"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.4.0/cargo-delta-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.4.0",
-      "sha256": "aa07a58035250b044aa0de9f6df090763af7bef3c3e97452de27a7154f8d5ddc",
-      "size": 1501680,
+      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.5.0/cargo-delta-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "67ca698cb6bf6cdac9f2d087182a3ce60012973e2b968d49f7081555cf510279",
+      "size": 1509613,
       "format": "tar.gz",
       "binaries": {
         "cargo-delta": {
           "path": "cargo-delta",
-          "sha256": "302f5a22916c51bb861509ed11bbd80cc6ea821fbc02f1d9428b9fe216fa963b"
+          "sha256": "5dd94b76dd656d2e00c4fca25e70054e038d7c566e3189f667dc391db34324de"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.4.0/cargo-delta-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.4.0",
-      "sha256": "d772d8642e5cfb13ae8b3503a9513c3886e57e2814ed7fdaa420ccc3d3d65ae1",
-      "size": 1464601,
+      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.5.0/cargo-delta-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "0be6345c2c85c300779367b85f6c9115a7fdb132578b6fe5966a9d1cfae82d35",
+      "size": 1460676,
       "format": "zip",
       "binaries": {
         "cargo-delta.exe": {
           "path": "cargo-delta.exe",
-          "sha256": "b9b31e212e6ce7d511cc36aaca8f3326d348262022beea525e2e3565c501f98e"
+          "sha256": "3d8f32abfcd1bcf892d52832cefa9ae8825d5a14cda74cf354909e5a07868eb4"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.4.0/cargo-delta-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v0.4.0",
-      "sha256": "403158b9fec76bf01ead2636a3d71eeaf87a6c9575724508e3ea78a68db13e4c",
-      "size": 1354252,
+      "url": "https://github.com/tekian/cargo-delta/releases/download/v0.5.0/cargo-delta-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "9b1015432de8c2a172077c50a5b8549b0d5c093eb462b72088b948d4747efeef",
+      "size": 1357734,
       "format": "zip",
       "binaries": {
         "cargo-delta.exe": {
           "path": "cargo-delta.exe",
-          "sha256": "553d6061fa44ae6f21e8794144564f04fc13d210e794f5a378c4a75d440e64fb"
+          "sha256": "520786166d85f6ec0de86056fd6247a9d443af0c157efa94a2b8a6dbe24f8d62"
         }
       }
     }
