@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "typescript_tools",
+  "version": "8.0.57",
+  "repository": "typescript-tools/monorepo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/typescript-tools/monorepo/releases/download/v8.0.57/monorepo-x86_64-unknown-linux-musl",
+      "sha256": "6d44290720cf9c9514960594d24db66439646044cb95d9b999df51adcbc5ad38",
+      "size": 2726200,
+      "format": "binary",
+      "releaseTag": "v8.0.57",
+      "binaries": {
+        "monorepo": {
+          "path": "monorepo-x86_64-unknown-linux-musl",
+          "sha256": "6d44290720cf9c9514960594d24db66439646044cb95d9b999df51adcbc5ad38"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/typescript-tools/monorepo/releases/download/v8.0.57/monorepo-aarch64-unknown-linux-musl",
+      "sha256": "53d4204ba0f584197c33568d5e744348c7fba9985dfe18ccd26e3ce0ed52afd0",
+      "size": 2123464,
+      "format": "binary",
+      "releaseTag": "v8.0.57",
+      "binaries": {
+        "monorepo": {
+          "path": "monorepo-aarch64-unknown-linux-musl",
+          "sha256": "53d4204ba0f584197c33568d5e744348c7fba9985dfe18ccd26e3ce0ed52afd0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/typescript-tools/monorepo/releases/download/v8.0.57/monorepo-x86_64-apple-darwin",
+      "sha256": "8e5c1cef1e78068f8789e1f5bb162688c1919f7eb114ee49bf3be17881cc6935",
+      "size": 2290336,
+      "format": "binary",
+      "releaseTag": "v8.0.57",
+      "binaries": {
+        "monorepo": {
+          "path": "monorepo-x86_64-apple-darwin",
+          "sha256": "8e5c1cef1e78068f8789e1f5bb162688c1919f7eb114ee49bf3be17881cc6935"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/typescript-tools/monorepo/releases/download/v8.0.57/monorepo-aarch64-apple-darwin",
+      "sha256": "b8a62055c581d765db990fb821e524584ef1b42ef842fe31e3bbfa094069d40c",
+      "size": 2073256,
+      "format": "binary",
+      "releaseTag": "v8.0.57",
+      "binaries": {
+        "monorepo": {
+          "path": "monorepo-aarch64-apple-darwin",
+          "sha256": "b8a62055c581d765db990fb821e524584ef1b42ef842fe31e3bbfa094069d40c"
+        }
+      }
+    }
+  }
+}
