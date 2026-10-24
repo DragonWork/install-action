@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "nixpacks",
+  "version": "1.41.0",
+  "repository": "railwayapp/nixpacks",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/railwayapp/nixpacks/releases/download/v1.41.0/nixpacks-v1.41.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.41.0",
+      "sha256": "0f55de7874507b9cf7502113120bd96f2ab6979f78d10eaf2eb2ade9207b3af6",
+      "size": 3717141,
+      "format": "tar.gz",
+      "binaries": {
+        "nixpacks": {
+          "path": "nixpacks",
+          "sha256": "c3b5165797767ba461ffdf10628913a3459f0331ba887e1a514cc0ef8dce3512"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/railwayapp/nixpacks/releases/download/v1.41.0/nixpacks-v1.41.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.41.0",
+      "sha256": "912bd02dd2bb6f9c3a9ed965fe8a68b4aa318dc7a2546e2eca6f2806a894ba39",
+      "size": 4111227,
+      "format": "tar.gz",
+      "binaries": {
+        "nixpacks": {
+          "path": "nixpacks",
+          "sha256": "e528215fc8e1a15672cdeb19734fca4432d085f353d9d77712adc41ace980316"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/railwayapp/nixpacks/releases/download/v1.41.0/nixpacks-v1.41.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.41.0",
+      "sha256": "56bf48d4defe652368eaa39573e8d09fc1dd518ad414d63f8d30d3df05c6e421",
+      "size": 3511891,
+      "format": "tar.gz",
+      "binaries": {
+        "nixpacks": {
+          "path": "nixpacks",
+          "sha256": "6cfc3b469a14bbc70599bca8d80a8a2f4eddfdb4dcb37829cb20945ec08caba0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/railwayapp/nixpacks/releases/download/v1.41.0/nixpacks-v1.41.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.41.0",
+      "sha256": "0c6799690ad0b7328691fe3e457ec93ddc250ab229b7422fe8d8cb6ecc72a70c",
+      "size": 3299388,
+      "format": "tar.gz",
+      "binaries": {
+        "nixpacks": {
+          "path": "nixpacks",
+          "sha256": "412128c77876b8c96bdde0c01c0fa411d935ae80bea8bec523d65692904a14fc"
+        }
+      }
+    }
+  }
+}
