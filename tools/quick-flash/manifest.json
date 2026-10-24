@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "quick-flash",
+  "version": "0.3.2",
+  "repository": "manakjiri/quick-flash",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/manakjiri/quick-flash/releases/download/v0.3.2/quick-flash-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.3.2",
+      "sha256": "89055702a7090960de6d45d942e099735dba75237e9099f78c6eeef0db8eff60",
+      "size": 4951292,
+      "format": "tar.xz",
+      "binaries": {
+        "quick-flash": {
+          "path": "quick-flash-x86_64-unknown-linux-gnu/quick-flash",
+          "sha256": "df429d7772ba2e461b46394555f5a639049e679cb5899f7b59bbf02166083b4e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/manakjiri/quick-flash/releases/download/v0.3.2/quick-flash-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.2",
+      "sha256": "5077dd02a5fb26dc9fa716a20dc21ad504cd73822f26ce1bef1b1466026efce3",
+      "size": 3154132,
+      "format": "tar.xz",
+      "binaries": {
+        "quick-flash": {
+          "path": "quick-flash-x86_64-apple-darwin/quick-flash",
+          "sha256": "c0a40cadd4f3e149be91b8f5510541f821eb51c0f186fea7360f6a185338d580"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/manakjiri/quick-flash/releases/download/v0.3.2/quick-flash-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.2",
+      "sha256": "12c0dd55d7099ad03bd852c83c3cb69700d116baf3fc5f1197f3f41087698aec",
+      "size": 2921296,
+      "format": "tar.xz",
+      "binaries": {
+        "quick-flash": {
+          "path": "quick-flash-aarch64-apple-darwin/quick-flash",
+          "sha256": "719ba58de82827c022884aae506e862a1e56d75df33d8315063be01db5f4a296"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/manakjiri/quick-flash/releases/download/v0.3.2/quick-flash-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "567d9f5ba04a64818c95bace35b52144af01e914e999b40a023a8ebb5dfdda80",
+      "size": 13580346,
+      "format": "zip",
+      "binaries": {
+        "quick-flash.exe": {
+          "path": "quick-flash.exe",
+          "sha256": "4bcc76d0861f7136a83ed60a3dd24a68ebb73fed51f1a3bb58310130b024da24"
+        }
+      }
+    }
+  }
+}
