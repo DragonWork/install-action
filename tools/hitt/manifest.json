@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "hitt",
+  "version": "0.0.22",
+  "repository": "hougesen/hitt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hougesen/hitt/releases/download/v0.0.22/hitt-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.22",
+      "sha256": "965b065a9c24b8d8ec3d7bf5b48ce356ef9987e297392459f7f5f44bc65c0edc",
+      "size": 4435665,
+      "format": "tar.gz",
+      "binaries": {
+        "hitt": {
+          "path": "hitt-x86_64-unknown-linux-musl/hitt",
+          "sha256": "f8404ff2243c0da9b6b343e06321ab1ec8075a943791f443b346b52ba76fdd19"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hougesen/hitt/releases/download/v0.0.22/hitt-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.22",
+      "sha256": "a5cf48d3ff991b1ea6554db03cff519368cea166bf37b2f070946a14b8e0c4e4",
+      "size": 4119422,
+      "format": "tar.gz",
+      "binaries": {
+        "hitt": {
+          "path": "hitt-x86_64-apple-darwin/hitt",
+          "sha256": "81dff11097b0754aeb334c9f118c0cdbf8c04981f1e9dc3a837cb1a760eef9ba"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hougesen/hitt/releases/download/v0.0.22/hitt-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.22",
+      "sha256": "8af7d86bed07aad2a8b2f44be788746a59ee4d6cf96fec703e2ef60598ab8125",
+      "size": 3819850,
+      "format": "tar.gz",
+      "binaries": {
+        "hitt": {
+          "path": "hitt-aarch64-apple-darwin/hitt",
+          "sha256": "5a85ba34f1fc629ad7082ffbc1483a3d32f742ed5ff0028b67d5c8020a8f2069"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hougesen/hitt/releases/download/v0.0.22/hitt-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.0.22",
+      "sha256": "42f9d3c4d9c0c7dae21b4028ac246e0330f95978d24e415ca880dffb258981a8",
+      "size": 3449918,
+      "format": "tar.gz",
+      "binaries": {
+        "hitt.exe": {
+          "path": "hitt-x86_64-pc-windows-msvc/hitt.exe",
+          "sha256": "2525a55f8a04a37ee4b1b16ccd23ee25d89018815ab666d58c924d167e6e9a1e"
+        }
+      }
+    }
+  }
+}
