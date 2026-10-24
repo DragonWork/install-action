@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "xml_schema_generator",
+  "version": "0.6.24",
+  "repository": "Thomblin/xml_schema_generator",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Thomblin/xml_schema_generator/releases/download/0.6.24/xml_schema_generator-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.24",
+      "sha256": "0eed4f9fb12c04cebf50dc84b1669d5211880bcd49ae4db2b5008258b9dd3863",
+      "size": 1242682,
+      "format": "tar.gz",
+      "binaries": {
+        "xml_schema_generator": {
+          "path": "xml_schema_generator",
+          "sha256": "813b1816fe1ec43f43863a8c72429cce0dff83700937f6078d3622911b04f350"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Thomblin/xml_schema_generator/releases/download/0.6.24/xml_schema_generator-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.6.24",
+      "sha256": "2a84393e798170018f59a4154d1c71ed1dbe2f6f56c3ff1b2a9bc88127b3747b",
+      "size": 1128022,
+      "format": "tar.gz",
+      "binaries": {
+        "xml_schema_generator": {
+          "path": "xml_schema_generator",
+          "sha256": "64cc9112edfcdb5d9d231e63ccb8e753d0991417dfb05cf670d52bffd5d442d2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Thomblin/xml_schema_generator/releases/download/0.6.24/xml_schema_generator-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.24",
+      "sha256": "823ba2da0e94d9a98132a591194f39fe7a67cc47948e419aacfe97fd2a2b5e3a",
+      "size": 1128464,
+      "format": "tar.gz",
+      "binaries": {
+        "xml_schema_generator": {
+          "path": "xml_schema_generator",
+          "sha256": "02e025cb4d5078992edae483a957493ced05fa0a88d1e53a110b8d095bfc4118"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Thomblin/xml_schema_generator/releases/download/0.6.24/xml_schema_generator-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.24",
+      "sha256": "106638ca1b728af15d9df0c002e4a9dfb385318c7cf4b001ae7f3465193d4899",
+      "size": 1067969,
+      "format": "tar.gz",
+      "binaries": {
+        "xml_schema_generator": {
+          "path": "xml_schema_generator",
+          "sha256": "e9974862c2d8a9cdacfc2fef382f32138308137edc321cabbe67380c01530560"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Thomblin/xml_schema_generator/releases/download/0.6.24/xml_schema_generator-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.6.24",
+      "sha256": "b84ccffad33711abd01ab280f39ef77d13335682c60672e4b8f664bfb46c92a2",
+      "size": 913720,
+      "format": "zip",
+      "binaries": {
+        "xml_schema_generator.exe": {
+          "path": "xml_schema_generator.exe",
+          "sha256": "62743b8fc734808333fdf0f43be21da6f0d08fae6742b8c8f808507f097b270a"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Thomblin/xml_schema_generator/releases/download/0.6.24/xml_schema_generator-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.6.24",
+      "sha256": "f64c604a3e78c0deb888ed7d31733c25aa021ac547c5aacbc981f85f2065c244",
+      "size": 851601,
+      "format": "zip",
+      "binaries": {
+        "xml_schema_generator.exe": {
+          "path": "xml_schema_generator.exe",
+          "sha256": "03ecd97a01b4690957e5ce1236ff3e4091d4f142cce494dad4259eb8d52c3bf8"
+        }
+      }
+    }
+  }
+}
