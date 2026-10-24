@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tac-k",
+  "version": "0.3.3",
+  "repository": "my4ng/tack",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/my4ng/tack/releases/download/v0.3.3/tac-k_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "97ed78d285fadc15f470156d7bc0c0da3d5df51c965f45d79178c60f2b81b756",
+      "size": 352635,
+      "format": "tar.gz",
+      "binaries": {
+        "tac": {
+          "path": "tac",
+          "sha256": "0395e4cadcaf02012761c0929e340025bfdb696b0183a9b5b8953892aa94a86f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/my4ng/tack/releases/download/v0.3.3/tac-k_aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "4b0b40e4a75155cf088b5e18a7ed93c530eb6f7765a5565be2c684798c3625d8",
+      "size": 285747,
+      "format": "tar.gz",
+      "binaries": {
+        "tac": {
+          "path": "tac",
+          "sha256": "dc32dc2ceb10ead76620474d8901f2b308db2578664fc3c6ab786db891e1b3f9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/my4ng/tack/releases/download/v0.3.3/tac-k_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "f03ab1b83d234d0836dbae44896afb39e5cd140ce17ec306953d0a75666aa30c",
+      "size": 284379,
+      "format": "tar.gz",
+      "binaries": {
+        "tac": {
+          "path": "tac",
+          "sha256": "54c722e5dbe9f3abe0ec040b83c7a75096d21f18a24e59721d0d2ac6cdb8a9b5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/my4ng/tack/releases/download/v0.3.3/tac-k_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "89054ada991443feb48c271f31f85f54a257359f877bc0f69f7400112a555fbf",
+      "size": 266266,
+      "format": "tar.gz",
+      "binaries": {
+        "tac": {
+          "path": "tac",
+          "sha256": "d1e9a7bb4f5be01b669df02f37dc748140f5b5bc6ffea16a4b2c97edd54b7e34"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/my4ng/tack/releases/download/v0.3.3/tac-k_x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.3",
+      "sha256": "1333c6d875b6aa5e0683126082d656aa8a7ee3bc7c453c91ba1f7f15e03c120e",
+      "size": 209109,
+      "format": "zip",
+      "binaries": {
+        "tac.exe": {
+          "path": "tac.exe",
+          "sha256": "f95c47a3152ccd8ca060941ca70e462cd529a0e8feb42241528d55bfb1330587"
+        }
+      }
+    }
+  }
+}
