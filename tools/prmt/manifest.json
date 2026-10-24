@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "prmt",
+  "version": "0.7.0",
+  "repository": "3axap4eHko/prmt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/3axap4eHko/prmt/releases/download/v0.7.0/prmt-x86_64-unknown-linux-musl-ubuntu-24.04.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "e4eed99dbab6b60ec5b812cefa1af069798994dd59e8a5863504e4f7f4c20ca1",
+      "size": 1639982,
+      "format": "tar.gz",
+      "binaries": {
+        "prmt": {
+          "path": "prmt-x86_64-unknown-linux-musl-ubuntu-24.04/prmt",
+          "sha256": "452d1094302a46e73e8074e2e92a945dad2aa67023576a32a35e83a80457ae21"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/3axap4eHko/prmt/releases/download/v0.7.0/prmt-aarch64-unknown-linux-musl-ubuntu-24.04.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "9a71e49819aec872647ff2d7f5de1e9923efb5cda60094ab4eb6a416474d4c84",
+      "size": 1578273,
+      "format": "tar.gz",
+      "binaries": {
+        "prmt": {
+          "path": "prmt-aarch64-unknown-linux-musl-ubuntu-24.04/prmt",
+          "sha256": "d9680b3245929c5703b7283c945540f586afe7bae97aa14b7b3420ca22491b58"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/3axap4eHko/prmt/releases/download/v0.7.0/prmt-x86_64-apple-darwin-macos-15-intel.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "4c079bda390f76e02795e8f33f3401a2bfd5b51f327dde509d5d705df9a365ad",
+      "size": 1529867,
+      "format": "tar.gz",
+      "binaries": {
+        "prmt": {
+          "path": "prmt-x86_64-apple-darwin-macos-15-intel/prmt",
+          "sha256": "fb9bbe745d81512e65b0cc5d3375c1775ab24a1fdfd5d8cdc6b8c3b430bd392c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/3axap4eHko/prmt/releases/download/v0.7.0/prmt-x86_64-pc-windows-msvc-windows-2022.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "e0bb4eceec7f7d9028c0cdae7afc11ffd412dcf2de185309bec347b2ba678593",
+      "size": 1538946,
+      "format": "zip",
+      "binaries": {
+        "prmt.exe": {
+          "path": "prmt.exe",
+          "sha256": "bcb589c2a99e0d1475c6bf61c57772361595c10d58c30a70ff0b091182921716"
+        }
+      }
+    }
+  }
+}
