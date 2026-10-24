@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "dbgen",
+  "version": "0.8.0",
+  "repository": "kennytm/dbgen",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kennytm/dbgen/releases/download/v0.8.0/dbgen-v0.8.0-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "f41cad76d156bed37b4c8a890b2075056d494c83f1b9ff11003da1f1dec33e23",
+      "size": 952784,
+      "format": "tar.xz",
+      "binaries": {
+        "dbgen": {
+          "path": "bin/dbgen",
+          "sha256": "cccf3fe45045d5b710fe03b290094a3bb4efe2ff9c5cea481f13cf0b51e3a38b"
+        },
+        "dbschemagen": {
+          "path": "bin/dbschemagen",
+          "sha256": "a9f00282b6de0f5b260a2dcac0b1044c516654267ebfc7f4f91dbfde32edb675"
+        }
+      }
+    }
+  }
+}
