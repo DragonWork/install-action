@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rust-tuya-mqtt",
+  "version": "0.8.8",
+  "repository": "EmilSodergren/rust-tuya-mqtt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EmilSodergren/rust-tuya-mqtt/releases/download/v0.8.8/rust-tuya-mqtt-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.8",
+      "sha256": "208f63f8bd7cd2a733e4c14179b9cb06aeab73ace0f14f3e4be40e437e198188",
+      "size": 3868146,
+      "format": "tar.gz",
+      "binaries": {
+        "rust-tuya-mqtt": {
+          "path": "rust-tuya-mqtt",
+          "sha256": "dc5909e0b41fbe466bd9102bdd135aaf94e85e1412721331c7e2a06b176a59a6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EmilSodergren/rust-tuya-mqtt/releases/download/v0.8.8/rust-tuya-mqtt-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.8",
+      "sha256": "306d77e362ca1d08a31c85888025ebddbea05b714b36a286f846fd824d577d7c",
+      "size": 3726705,
+      "format": "tar.gz",
+      "binaries": {
+        "rust-tuya-mqtt": {
+          "path": "rust-tuya-mqtt",
+          "sha256": "e95c801c2e5c086ba56203a892975ec183a8ab7d7e5018736a9c9809a4c1062e"
+        }
+      }
+    }
+  }
+}
