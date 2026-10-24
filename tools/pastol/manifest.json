@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "pastol",
+  "version": "2.0.2",
+  "repository": "M1n-74316D65/Pastol",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/M1n-74316D65/Pastol/releases/download/v2.0.2/pastol-v2.0.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "b2b4bf71694e65cb04f0b1e5f31af34cf47156c5b499a82b1bdd5eda72edbb2d",
+      "size": 2729574,
+      "format": "tar.gz",
+      "binaries": {
+        "pastol": {
+          "path": "pastol",
+          "sha256": "dd8228612f10b6d32a5319ea597214e552418db01a39a07d3e7b794350eb10fc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/M1n-74316D65/Pastol/releases/download/v2.0.2/pastol-v2.0.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "99a5884290c2aaa904f07af64211ca9be4a751f48162613432df2b2425bb1c95",
+      "size": 2509076,
+      "format": "tar.gz",
+      "binaries": {
+        "pastol": {
+          "path": "pastol",
+          "sha256": "df29de14f92ba13f91085423d3e71d0f74ace271bf6cda9e7217adc5f0fa9a60"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/M1n-74316D65/Pastol/releases/download/v2.0.2/pastol-v2.0.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "96a244efd1a9cd6e6dce577613f21fd2ac8cbfd4728eff40b4a4fc0e3ffd902a",
+      "size": 2422293,
+      "format": "tar.gz",
+      "binaries": {
+        "pastol": {
+          "path": "pastol",
+          "sha256": "083a9918b0990b173cdcb097d1f0c1998bbd793db460c66c6e64d6120180cbf5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/M1n-74316D65/Pastol/releases/download/v2.0.2/pastol-v2.0.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.0.2",
+      "sha256": "24abf494f141247a1c136f4dd8e87391e1cdde13217dbe660e58036f1e38f250",
+      "size": 2046068,
+      "format": "zip",
+      "binaries": {
+        "pastol.exe": {
+          "path": "pastol.exe",
+          "sha256": "9430fc8ba8adc55bd1e5e7002540cb7f4c485678c5d77875b476c6af52a9c4ff"
+        }
+      }
+    }
+  }
+}
