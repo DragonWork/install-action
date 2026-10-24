@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "qrcode-rs",
+  "version": "2.2.0",
+  "repository": "houseme/qrcode-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/houseme/qrcode-rs/releases/download/v2.2.0/qrcode-rs-v2.2.0-cli-linux-x86_64.tar.gz",
+      "releaseTag": "v2.2.0",
+      "sha256": "5ddcc86875095900c84a5e6d67a2a8da5c04b170b856aa79be67b496b2814aa6",
+      "size": 1200133,
+      "format": "tar.gz",
+      "binaries": {
+        "qrencodes": {
+          "path": "qrencodes",
+          "sha256": "91783133697c46a743654390e23ae2e7dc2fe3b6006a0a1f802b2b404f1b69be"
+        }
+      }
+    }
+  }
+}
