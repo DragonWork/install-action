@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "monolith",
+  "version": "2.11.6",
+  "repository": "Y2Z/monolith",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.6/monolith-cli-linux-x86_64",
+      "sha256": "680f11831e5e0de4be6a17cbb1ce2542b8536bc50f7dd83a12cfd2a4e63c25c7",
+      "size": 8216768,
+      "format": "binary",
+      "releaseTag": "v2.11.6",
+      "binaries": {
+        "monolith": {
+          "path": "monolith-cli-linux-x86_64",
+          "sha256": "680f11831e5e0de4be6a17cbb1ce2542b8536bc50f7dd83a12cfd2a4e63c25c7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.6/monolith-cli-linux-aarch64",
+      "sha256": "f7275341ec2d9bcb9f4b23d8ea1bc2c618222f4d3b4c24e752d6cb4b3d56c1ac",
+      "size": 7294640,
+      "format": "binary",
+      "releaseTag": "v2.11.6",
+      "binaries": {
+        "monolith": {
+          "path": "monolith-cli-linux-aarch64",
+          "sha256": "f7275341ec2d9bcb9f4b23d8ea1bc2c618222f4d3b4c24e752d6cb4b3d56c1ac"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.6/monolith-cli.exe",
+      "sha256": "af9a6e1c6e245f94397b1544c89041f837b79b45bad93454c1f7a658cac68383",
+      "size": 5486592,
+      "format": "binary",
+      "releaseTag": "v2.11.6",
+      "binaries": {
+        "monolith.exe": {
+          "path": "monolith-cli.exe",
+          "sha256": "af9a6e1c6e245f94397b1544c89041f837b79b45bad93454c1f7a658cac68383"
+        }
+      }
+    }
+  }
+}
