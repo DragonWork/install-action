@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "csvlens",
+  "version": "0.15.1",
+  "repository": "YS-L/csvlens",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.15.1",
+      "sha256": "ab086b420e453618fd1544eb4e09cc98279e8570b739725592feb241cd1bef4b",
+      "size": 2287892,
+      "format": "tar.xz",
+      "binaries": {
+        "csvlens": {
+          "path": "csvlens-x86_64-unknown-linux-musl/csvlens",
+          "sha256": "80bc64657900d5780a962790a214d8ca2b5f294a6eb9e37a5618fca271538d1d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.15.1",
+      "sha256": "7671466036ebc22b1b9b958890a638fd21a06452137fb9ca1321448e5afea7ad",
+      "size": 1596420,
+      "format": "tar.xz",
+      "binaries": {
+        "csvlens": {
+          "path": "csvlens-aarch64-unknown-linux-gnu/csvlens",
+          "sha256": "9f54d3a2fe0fb1b6efb4c59aff6a01702742c3a3feedc72dad4bed01323fc197"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.15.1",
+      "sha256": "26374c1d11fd628475e26d7ecbc8e6f4c4bbd76b15f48f31dd8609fdbbdd0137",
+      "size": 1838260,
+      "format": "tar.xz",
+      "binaries": {
+        "csvlens": {
+          "path": "csvlens-x86_64-apple-darwin/csvlens",
+          "sha256": "e021712b2af8323c53ab66dac148d973f4b20143e9fe9b94e20259b4843cd3d5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.15.1",
+      "sha256": "d227c0acee1ac49956eacf12f301e7ce2e20ab36aa863d4c44b8bca93ec8e7b3",
+      "size": 1615132,
+      "format": "tar.xz",
+      "binaries": {
+        "csvlens": {
+          "path": "csvlens-aarch64-apple-darwin/csvlens",
+          "sha256": "52d5546bfd4e4388de056255585d92a458b1753e93477d6baa674320abf49c9e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.15.1",
+      "sha256": "2b7cf7818288b98571382f0b65b8d03139ab2a1d71d2505ecdeb06a33186bf7d",
+      "size": 2482539,
+      "format": "zip",
+      "binaries": {
+        "csvlens.exe": {
+          "path": "csvlens.exe",
+          "sha256": "7ae6e8dd1e0b619ca09bbd35038227a9d106d128305976414ce9c994a762bea4"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/YS-L/csvlens/releases/download/v0.15.1/csvlens-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.15.1",
+      "sha256": "4ab4c02d025ada4d23a9818b9a76b521832e45b7412ef04f88dd20fea191d21a",
+      "size": 2235307,
+      "format": "zip",
+      "binaries": {
+        "csvlens.exe": {
+          "path": "csvlens.exe",
+          "sha256": "e526e53e86d862472a88021da980b701c481550fb5ce6d327346c6e913a7eee8"
+        }
+      }
+    }
+  }
+}
