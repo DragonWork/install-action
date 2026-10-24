@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "sigi",
+  "version": "3.8.0",
+  "repository": "so-dang-cool/sigi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/so-dang-cool/sigi/releases/download/v3.8.0/sigi_v3.8.0_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.8.0",
+      "sha256": "462d4e1ce8a99ee68259aaa3b794bf03a9028c329a4cd2503f9dad0e65fb38bf",
+      "size": 684784,
+      "format": "tar.gz",
+      "binaries": {
+        "sigi": {
+          "path": "sigi",
+          "sha256": "c0f93d124203ef44838780f9de452197f3027f5428208c6ea8457db669f1fc68"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/so-dang-cool/sigi/releases/download/v3.8.0/sigi_v3.8.0_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.8.0",
+      "sha256": "b9b352020e7ada936d2a4e4c382014a6f77dca97206cb3eb3485c88222d3a61c",
+      "size": 574507,
+      "format": "tar.gz",
+      "binaries": {
+        "sigi": {
+          "path": "sigi",
+          "sha256": "f07a1bfc042b7e220ca698a3782f394f2162494098f6dcc6cf918ef8e39de649"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/so-dang-cool/sigi/releases/download/v3.8.0/sigi_v3.8.0_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.8.0",
+      "sha256": "0602af63038fc7a3064e9e92b41151d3d966a896a49e3caf00f4dae6e59c72b0",
+      "size": 567931,
+      "format": "tar.gz",
+      "binaries": {
+        "sigi": {
+          "path": "sigi",
+          "sha256": "6e2d1f5782139603b5764060d802d797467fd2228047054da2c3e625c008593b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/so-dang-cool/sigi/releases/download/v3.8.0/sigi_v3.8.0_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v3.8.0",
+      "sha256": "372bd8e819a08d490b90f070211514a76a208cbe5cbf0b4386662cc7dd32ff95",
+      "size": 578209,
+      "format": "zip",
+      "binaries": {
+        "sigi.exe": {
+          "path": "sigi.exe",
+          "sha256": "79eff2adb6b96bb4b805c6515d79ce1bb0440bc64213a2f695cafdfdd486e9b3"
+        }
+      }
+    }
+  }
+}
