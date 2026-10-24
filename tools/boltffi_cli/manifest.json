@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "boltffi_cli",
+  "version": "0.31.1",
+  "repository": "boltffi/boltffi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/boltffi/boltffi/releases/download/v0.31.1/boltffi-linux-x86_64.tar.gz",
+      "releaseTag": "v0.31.1",
+      "sha256": "ae02515544f6553e72b2fd5ea99ed604b047d163dfb7fa2e1534dda92756cc28",
+      "size": 6160859,
+      "format": "tar.gz",
+      "binaries": {
+        "boltffi": {
+          "path": "boltffi",
+          "sha256": "f99c0e304f159a10d6b7cb7937c8a3728252516b0fcd3006fe1bd27828e4842a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/boltffi/boltffi/releases/download/v0.31.1/boltffi-linux-aarch64.tar.gz",
+      "releaseTag": "v0.31.1",
+      "sha256": "419acc2c4087ef5dc3d9fc8886d849a418349a58f9aa71ac67168e5eb79ddce7",
+      "size": 5611592,
+      "format": "tar.gz",
+      "binaries": {
+        "boltffi": {
+          "path": "boltffi",
+          "sha256": "7bbeeaf4df0e2e0625f5fd6fce42dfa02af3bc486f3357ae7e58974459cf8de2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/boltffi/boltffi/releases/download/v0.31.1/boltffi-darwin-x86_64.tar.gz",
+      "releaseTag": "v0.31.1",
+      "sha256": "a2d180c6eef4bdd40535e7535a5627032e9d0d92a63c6fed302ebfd17ddddbc7",
+      "size": 5974938,
+      "format": "tar.gz",
+      "binaries": {
+        "boltffi": {
+          "path": "boltffi",
+          "sha256": "f929d76d69edf696db15d8f4ea5c70b0784b004c83609b6bc75560449355fcb1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/boltffi/boltffi/releases/download/v0.31.1/boltffi-darwin-aarch64.tar.gz",
+      "releaseTag": "v0.31.1",
+      "sha256": "3837df80dae7d8d1d84f6b9c73890b9b6f79b3b74360d9b5a788524740b7bfdf",
+      "size": 5265676,
+      "format": "tar.gz",
+      "binaries": {
+        "boltffi": {
+          "path": "boltffi",
+          "sha256": "235cd6ff2352f7cd2b8664f922db48d93083d975cf87e4b50874bf725735a8df"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/boltffi/boltffi/releases/download/v0.31.1/boltffi-windows-x86_64.zip",
+      "releaseTag": "v0.31.1",
+      "sha256": "8a5cd4e01114432f40b80b90f5a7fe3e892e39f6a717a056595c41f0483b8e60",
+      "size": 6080185,
+      "format": "zip",
+      "binaries": {
+        "boltffi.exe": {
+          "path": "boltffi.exe",
+          "sha256": "1ec57e67e4b98b87e9f08c8903eefacaa45cc4fa039620d9927ae42df7247b0f"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/boltffi/boltffi/releases/download/v0.31.1/boltffi-windows-arm64.zip",
+      "releaseTag": "v0.31.1",
+      "sha256": "f1969450859c78c7185a7ddeb7b0cd035c0fc00356ce49fb435ea405d437be00",
+      "size": 5580176,
+      "format": "zip",
+      "binaries": {
+        "boltffi.exe": {
+          "path": "boltffi.exe",
+          "sha256": "4c97df5b3302cb57d9110aab2e45fbc85827e58ec056b10c2aeee4ae7c9b1bf9"
+        }
+      }
+    }
+  }
+}
