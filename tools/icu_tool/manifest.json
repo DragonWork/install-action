@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "icu_tool",
+  "version": "0.11.1",
+  "repository": "W-Mai/icu",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/W-Mai/icu/releases/download/v0.11.1/icu_tool-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.11.1",
+      "sha256": "5c3fc0d92f0a4cc07b383fe6fc89478b02fb6d38b4b8d11bf190cf53aa6587b0",
+      "size": 11853880,
+      "format": "tar.xz",
+      "binaries": {
+        "icu": {
+          "path": "icu_tool-x86_64-unknown-linux-musl/icu",
+          "sha256": "e31ff680b1450a4cc750ff486bc3d57cd3722de3299cf36360ecf20fe0d3d498"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/W-Mai/icu/releases/download/v0.11.1/icu_tool-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.11.1",
+      "sha256": "2254b4813db9b141231f2d8db4e99ac22b22b87f080f859575ace468a2c2ddf0",
+      "size": 10666036,
+      "format": "tar.xz",
+      "binaries": {
+        "icu": {
+          "path": "icu_tool-aarch64-unknown-linux-musl/icu",
+          "sha256": "2232fedcdf0afe7439fee88c4ab556219e4dada8314f39cf5ad6abc0ff0cbb33"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/W-Mai/icu/releases/download/v0.11.1/icu_tool-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.1",
+      "sha256": "93fed3ade0f7248f84cc79179341ba7cfa13a57ccad221cf4b93dfec095f0f18",
+      "size": 8204720,
+      "format": "tar.xz",
+      "binaries": {
+        "icu": {
+          "path": "icu_tool-x86_64-apple-darwin/icu",
+          "sha256": "bdf216a607e90b6146d2b802cde9b043e8cc4042ffce83fba94fd81adaf2eb81"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/W-Mai/icu/releases/download/v0.11.1/icu_tool-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.1",
+      "sha256": "397106d314fee020821bc25a3cf594007ee769b5776cf13d9761c865fe921202",
+      "size": 7308132,
+      "format": "tar.xz",
+      "binaries": {
+        "icu": {
+          "path": "icu_tool-aarch64-apple-darwin/icu",
+          "sha256": "bc007b7280202780246fe8093731dc4ae5b70356d5f1e9f05595cef2aa7daec4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/W-Mai/icu/releases/download/v0.11.1/icu_tool-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.1",
+      "sha256": "30888c21ca0265801376bbb9bc612c2801464eaa4e6552dcf2fdc07ec62492bd",
+      "size": 14568689,
+      "format": "zip",
+      "binaries": {
+        "icu.exe": {
+          "path": "icu.exe",
+          "sha256": "b281fc4530499900ba954bda6502c0f7863604b5cb25036021ae5d2e9967266f"
+        }
+      }
+    }
+  }
+}
