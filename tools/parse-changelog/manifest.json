@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "parse-changelog",
+  "version": "0.6.17",
+  "repository": "taiki-e/parse-changelog",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.17/parse-changelog-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.17",
+      "sha256": "d78fe1527b14d55328e3e8e130123cdbb3606d4055ca207f7e03ae51fc3c7e03",
+      "size": 812870,
+      "format": "tar.gz",
+      "binaries": {
+        "parse-changelog": {
+          "path": "parse-changelog",
+          "sha256": "c934f917a2669dbb02771f96262a55aa6343753ab856ee82ce49c9d754fa8fb3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.17/parse-changelog-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.17",
+      "sha256": "bff12e434d13ef150e27c0494a0486ed4b3e85ba9e204fff06dfdfb19329f940",
+      "size": 740161,
+      "format": "tar.gz",
+      "binaries": {
+        "parse-changelog": {
+          "path": "parse-changelog",
+          "sha256": "81d2835bc9bd72d7651fc5f50996ecdd0aa1dd54854bc49e4a517ed776292da8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.17/parse-changelog-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.17",
+      "sha256": "f252807a41d5b10839e63c5c39b342586b5ccdba2d61373e40356f4cf03a8369",
+      "size": 710278,
+      "format": "tar.gz",
+      "binaries": {
+        "parse-changelog": {
+          "path": "parse-changelog",
+          "sha256": "cf93c0a0a0ea2430a7f98f747cb73d1f6a4710df38d5cd81e0c85f502e743198"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.17/parse-changelog-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.17",
+      "sha256": "282d25dc8a8c2e667e22de70df284edfa5e24a6f3308b2a9b74557dbaaed4d9b",
+      "size": 662440,
+      "format": "tar.gz",
+      "binaries": {
+        "parse-changelog": {
+          "path": "parse-changelog",
+          "sha256": "28a8e73567d8f76fa0f74cc28eab53fa427ae916a096d932d6a32a6643ed127e"
+        }
+      }
+    }
+  }
+}
