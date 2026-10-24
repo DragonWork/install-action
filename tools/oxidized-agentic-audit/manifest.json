@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "oxidized-agentic-audit",
+  "version": "0.6.0",
+  "repository": "jbovet/oxidized-agentic-audit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jbovet/oxidized-agentic-audit/releases/download/v0.6.0/oxidized-agentic-audit-linux-x86_64.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "711eccf9d3380ef51640dee84bc427bf9df1d1f5f6688e1b5506c948be1a017c",
+      "size": 1723118,
+      "format": "tar.gz",
+      "binaries": {
+        "oxidized-agentic-audit": {
+          "path": "oxidized-agentic-audit",
+          "sha256": "a5b635dee92394785ccf9081b3c7b64dea8427912c6a728e649a956813b52726"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jbovet/oxidized-agentic-audit/releases/download/v0.6.0/oxidized-agentic-audit-macos-x86_64.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "e158586f9b88e7971dabb7f2c1f18658fbe11e97748cb2fbe398ea372fabee22",
+      "size": 1609987,
+      "format": "tar.gz",
+      "binaries": {
+        "oxidized-agentic-audit": {
+          "path": "oxidized-agentic-audit",
+          "sha256": "f31f7f1b19e0dcba04a666798ab8bfe7b54159b8c8f5ad522be9d62c2c4cac45"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jbovet/oxidized-agentic-audit/releases/download/v0.6.0/oxidized-agentic-audit-macos-aarch64.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "03d03f41555dd9f84d2a74f57ac304747d01347973add4dbbc77e7b93b0debf4",
+      "size": 1527164,
+      "format": "tar.gz",
+      "binaries": {
+        "oxidized-agentic-audit": {
+          "path": "oxidized-agentic-audit",
+          "sha256": "c0a849db3a5ff4dabc1b7d1494b740d065037e4243df3f0fd9b394552db23353"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jbovet/oxidized-agentic-audit/releases/download/v0.6.0/oxidized-agentic-audit-windows-x86_64.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "876a0f1e81552642b58f0cd461f650f80a27c65908e41255bfc5df3b42d1491c",
+      "size": 1401588,
+      "format": "zip",
+      "binaries": {
+        "oxidized-agentic-audit.exe": {
+          "path": "oxidized-agentic-audit.exe",
+          "sha256": "c306d4c079e7da499c85503237921f576647dddab7db67126b258f08fedd3c8c"
+        }
+      }
+    }
+  }
+}
