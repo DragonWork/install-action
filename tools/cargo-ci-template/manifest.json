@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-ci-template",
+  "version": "1.1.3",
+  "repository": "linrongbin16/cargo-ci-template.rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/linrongbin16/cargo-ci-template.rs/releases/download/v1.1.3/cargo-ci-template-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.3",
+      "sha256": "0c87b45d9206bf7d7d0143aa75026fe7d03ae293b9cc5c79d9a568176c95832e",
+      "size": 241155,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ci-template": {
+          "path": "cargo-ci-template",
+          "sha256": "34053e5fcb562d634d5e08dc88708d89bb4925e4d0cf61c1a54f1cecfd0cc1af"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/linrongbin16/cargo-ci-template.rs/releases/download/v1.1.3/cargo-ci-template-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.3",
+      "sha256": "c0ab16c8fde7c5faa108d03fe0f6842a6ac70794b6e38ce90dc7058d6ef47ebe",
+      "size": 236607,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ci-template": {
+          "path": "cargo-ci-template",
+          "sha256": "77822b47edfca57c33824f49c7ae3a31f58b486842bd07ef8bbf6f16501627c3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/linrongbin16/cargo-ci-template.rs/releases/download/v1.1.3/cargo-ci-template-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.3",
+      "sha256": "1be306981f84e8685300a021bab35be2ba1ed7ef127880e0ba1df96b608387af",
+      "size": 175207,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ci-template": {
+          "path": "cargo-ci-template",
+          "sha256": "1ead341e7be61623c970c909db412e057fc194a7946c4d478783e0b92eb7b5cb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/linrongbin16/cargo-ci-template.rs/releases/download/v1.1.3/cargo-ci-template-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.3",
+      "sha256": "ed699c103740e2014906f3d6b1c9f1cd0fb29de7ec92035fcc189fb5d97823f0",
+      "size": 170613,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ci-template": {
+          "path": "cargo-ci-template",
+          "sha256": "8943e6fd13690e97f77fd13e67720f7009947e8428e3d81e7720ce17c202f023"
+        }
+      }
+    }
+  }
+}
