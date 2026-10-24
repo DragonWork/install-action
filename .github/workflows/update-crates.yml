@@ -34,16 +34,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
 
-  prepare:
+  plan:
     needs: initialize
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     outputs:
       head: ${{ steps.base.outputs.head }}
       artifact: ${{ steps.upload.outputs.artifact-id }}
-      changed: ${{ steps.update.outputs.changed }}
-      names: ${{ steps.update.outputs.names }}
-      remaining: ${{ steps.update.outputs.remaining }}
+      work: ${{ steps.update.outputs.work }}
+      matrix: ${{ steps.update.outputs.matrix }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -65,10 +64,84 @@ jobs:
         run: python3 -B scripts/discover-crates.py
       - name: Resolve crate updates
         id: update
-        run: node scripts/update-tools.cjs
+        run: node scripts/update-tools.cjs plan
         env:
           CRATE_NAMES: ${{ inputs.crates }}
           GH_TOKEN: ${{ github.token }}
+      - run: npm run check
+      - id: upload
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: crate-plan
+          path: |
+            registry/tools
+            registry/catalog.json
+            registry/catalog-state.json
+            registry/update-plan.json
+          if-no-files-found: error
+          retention-days: 3
+
+  prepare:
+    needs: plan
+    if: needs.plan.outputs.work == 'true'
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        shard: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          artifact-ids: ${{ needs.plan.outputs.artifact }}
+          path: registry
+          merge-multiple: true
+      - run: node scripts/update-tools.cjs prepare
+        env:
+          SHARD_INDEX: ${{ matrix.shard }}
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: prepared-${{ matrix.shard }}
+          path: prepared
+          if-no-files-found: error
+          retention-days: 3
+
+  merge:
+    needs: [plan, prepare]
+    if: always() && needs.plan.result == 'success' && (needs.prepare.result == 'success' || needs.prepare.result == 'skipped')
+    runs-on: ubuntu-24.04
+    outputs:
+      artifact: ${{ steps.upload.outputs.artifact-id }}
+      changed: ${{ steps.merge.outputs.changed }}
+      names: ${{ steps.merge.outputs.names }}
+      remaining: ${{ steps.merge.outputs.remaining }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          artifact-ids: ${{ needs.plan.outputs.artifact }}
+          path: registry
+          merge-multiple: true
+      - if: needs.plan.outputs.work == 'true'
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          pattern: prepared-*
+          path: prepared
+          merge-multiple: true
+      - id: merge
+        run: node scripts/update-tools.cjs merge
       - run: npm run check
       - id: upload
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -83,8 +156,8 @@ jobs:
           retention-days: 3
 
   validate:
-    needs: prepare
-    if: needs.prepare.outputs.changed == 'true'
+    needs: merge
+    if: needs.merge.outputs.changed == 'true'
     strategy:
       fail-fast: false
       matrix:
@@ -99,17 +172,42 @@ jobs:
           node-version: '24'
       - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
-          artifact-ids: ${{ needs.prepare.outputs.artifact }}
+          artifact-ids: ${{ needs.merge.outputs.artifact }}
           path: registry
           merge-multiple: true
       - run: npm run check
       - run: node scripts/smoke.cjs
         env:
-          CHANGED_CRATES: ${{ needs.prepare.outputs.names }}
+          CHANGED_CRATES: ${{ needs.merge.outputs.names }}
+
+  publish:
+    needs: [plan, merge, validate]
+    if: always() && needs.merge.result == 'success' && (needs.validate.result == 'success' || needs.validate.result == 'skipped')
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          artifact-ids: ${{ needs.merge.outputs.artifact }}
+          path: registry
+          merge-multiple: true
+      - run: node scripts/publish-tools.cjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CRATES_HEAD: ${{ needs.plan.outputs.head }}
+          CHANGED_CRATES: ${{ needs.merge.outputs.names }}
 
   continue:
-    needs: [prepare, publish]
-    if: always() && needs.publish.result == 'success' && needs.prepare.outputs.remaining != '0'
+    needs: [merge, publish]
+    if: always() && needs.publish.result == 'success' && needs.merge.outputs.remaining != '0'
     runs-on: ubuntu-24.04
     permissions:
       actions: write
@@ -124,29 +222,3 @@ jobs:
       - run: node scripts/continue-catalog.cjs
         env:
           GH_TOKEN: ${{ github.token }}
-
-  publish:
-    needs: [prepare, validate]
-    if: always() && needs.prepare.result == 'success' && (needs.validate.result == 'success' || needs.validate.result == 'skipped')
-    runs-on: ubuntu-24.04
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
-        with:
-          node-version: '24'
-      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
-        with:
-          artifact-ids: ${{ needs.prepare.outputs.artifact }}
-          path: registry
-          merge-multiple: true
-      - name: Publish signed crate commits and tags
-        run: node scripts/publish-tools.cjs
-        env:
-          GH_TOKEN: ${{ github.token }}
-          CRATES_HEAD: ${{ needs.prepare.outputs.head }}
-          CHANGED_CRATES: ${{ needs.prepare.outputs.names }}

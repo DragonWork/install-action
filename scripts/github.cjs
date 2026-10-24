@@ -50,6 +50,7 @@ async function release(repository, tag, commit, body, latest = false) {
     assert(object.sha === commit, `Tag ${tag} already points to a different commit.`);
   } else await api(`${base}/git/refs`, { method: 'POST', body: { ref: `refs/tags/${tag}`, sha: commit } });
   const existing = await api(`${base}/releases/tags/${tag}`, { optional: true });
+  assert(!existing?.draft, `Release ${tag} is still a draft.`);
   if (!existing) await api(`${base}/releases`, { method: 'POST', body: {
     tag_name: tag, target_commitish: commit, name: tag, body,
     draft: false, prerelease: false, make_latest: latest ? 'true' : 'false',

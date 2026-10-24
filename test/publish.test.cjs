@@ -6,7 +6,8 @@ const fs = require('node:fs/promises');
 const os = require('node:os');
 const path = require('node:path');
 const { signedCommit, release } = require('../scripts/github.cjs');
-const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget } = require('../scripts/update-tools.cjs');
+const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget,
+  prepareShard, mergePrepared, catalogProgress } = require('../scripts/update-tools.cjs');
 const { main: publishTools } = require('../scripts/publish-tools.cjs');
 const { sample } = require('./fixtures.cjs');
 
@@ -133,7 +134,60 @@ test('unchanged namespaces do not create commits or tags', async t => {
     if (url.includes('/releases/tags/')) return Response.json({ id: 1 });
     throw new Error(`Unexpected API request: ${url}`);
   };
-  await publishTools({ tags: new Set() });
+  await publishTools({ tags: new Set(), released: new Set() });
   assert(calls.length > 0);
   assert(calls.every(method => method === 'GET'));
+});
+
+test('preparation workers merge distinct tools and defer temporary failures', async t => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-matrix-'));
+  t.after(() => fs.rm(root, { recursive: true, force: true }));
+  const directory = path.join(root, 'registry');
+  const output = path.join(root, 'prepared');
+  await fs.mkdir(directory);
+  const names = ['alpha', 'constructor', 'broken'];
+  const record = { version: '1.0.0', downloads: 10000 };
+  const catalog = { minimumDownloads: 10000, crates: Object.fromEntries(names.map(name => [name, record])) };
+  const plan = { names, shards: 3, candidates: Object.fromEntries(names.map(name => [name, {
+    previous: null, targetVersion: '1.0.0', record,
+  }])) };
+  for (const [file, data] of Object.entries({ 'catalog.json': catalog, 'catalog-state.json': {}, 'update-plan.json': plan })) {
+    await fs.writeFile(path.join(directory, file), JSON.stringify(data));
+  }
+  const generator = async name => {
+    if (name === 'broken') throw new Error('fetch failed');
+    const manifest = sample().manifest;
+    manifest.name = name;
+    return { manifest };
+  };
+  await Promise.all([0, 1, 2].map(shard => prepareShard(directory, output, shard, generator)));
+  const progress = await mergePrepared(directory, output);
+  assert.deepEqual((await fs.readdir(path.join(directory, 'tools'))).sort(), ['alpha', 'constructor']);
+  assert.equal(progress.remaining, 1);
+  assert.equal(progress.runnable, 0);
+  assert(Date.parse(progress.nextRetryAt) > Date.now());
+  const state = JSON.parse(await fs.readFile(path.join(directory, 'catalog-state.json')));
+  assert.equal(state.broken.retryable, true);
+  const later = catalogProgress(catalog, state, { alpha: record, constructor: record }, Date.parse(progress.nextRetryAt) + 1);
+  assert.equal(later.runnable, 1);
+  const bad = JSON.parse(await fs.readFile(path.join(output, 'worker-1.json')));
+  bad.attempted.push('alpha');
+  await fs.writeFile(path.join(output, 'worker-1.json'), JSON.stringify(bad));
+  await assert.rejects(mergePrepared(directory, output), /overlap|unplanned/);
+});
+
+test('a committed tag without a release is completed without moving the tag', async t => {
+  const original = global.fetch;
+  t.after(() => { global.fetch = original; });
+  const writes = [];
+  global.fetch = async (url, options) => {
+    if (url.includes('/git/ref/tags/')) return Response.json({ object: { type: 'commit', sha: 'a'.repeat(40) } });
+    if (url.includes('/releases/tags/')) return Response.json({}, { status: 404 });
+    writes.push({ url, method: options.method });
+    return Response.json({ id: 1 });
+  };
+  await release('DragonWork/install-action', 'sample-cli/v1.0.0', 'a'.repeat(40), 'notes');
+  assert.equal(writes.length, 1);
+  assert(writes[0].url.endsWith('/releases'));
+  assert.equal(writes[0].method, 'POST');
 });

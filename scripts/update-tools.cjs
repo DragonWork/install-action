@@ -208,73 +208,172 @@ async function registered(directory) {
   catch (error) { if (error.code === 'ENOENT') return []; throw error; }
 }
 
-async function main() {
-  const directory = path.resolve(process.env.CRATES_DIR || 'registry');
+async function readJson(file, fallback) {
+  try { return JSON.parse(await fs.readFile(file, 'utf8')); }
+  catch (error) { if (error.code === 'ENOENT') return fallback; throw error; }
+}
+
+async function currentManifests(directory) {
+  const current = Object.create(null);
+  for (const name of await registered(directory)) current[name] = await readJson(path.join(directory, 'tools', name, 'manifest.json'));
+  return current;
+}
+
+function duePreparation(entry, version, now = Date.now()) {
+  return entry?.version === version && entry.release
+    && (!entry.retryable || Date.parse(entry.retryAfter) <= now);
+}
+
+function catalogProgress(catalog, state, current, now = Date.now()) {
+  let remaining = 0, runnable = 0;
+  const deferred = [];
+  for (const [name, entry] of Object.entries(catalog.crates)) {
+    if (current[name] && compareVersions(current[name].version, entry.version) >= 0) continue;
+    const status = state[name];
+    if (!status || status.version !== entry.version) { remaining++; runnable++; continue; }
+    if (status.release || status.retryable) {
+      remaining++;
+      if (!status.retryable || Date.parse(status.retryAfter) <= now) runnable++;
+      else deferred.push(status.retryAfter);
+    }
+  }
+  return { eligible: Object.keys(catalog.crates).length, remaining, runnable,
+    ...(deferred.length ? { nextRetryAt: deferred.sort()[0] } : {}) };
+}
+
+async function planUpdate(directory) {
   const extra = (process.env.CRATE_NAMES || '').split(/[\s,]+/).filter(Boolean);
-  const readJson = async (file, fallback) => {
-    try { return JSON.parse(await fs.readFile(path.join(directory, file), 'utf8')); }
-    catch (error) { if (error.code === 'ENOENT') return fallback; throw error; }
-  };
-  const catalog = await readJson('catalog.json', { crates: {}, unknown: [] });
-  const state = await readJson('catalog-state.json', {});
-  const current = {};
-  for (const name of await registered(directory)) current[name] = await readJson(`tools/${name}/manifest.json`);
+  const catalog = await readJson(path.join(directory, 'catalog.json'), { crates: {}, unknown: [] });
+  const state = await readJson(path.join(directory, 'catalog-state.json'), {});
+  for (const entry of Object.values(state)) {
+    if (entry.retryable === undefined && /HTTP (403|408|429|5\d\d)|fetch failed|timeout|timed out|aborted|ECONN|ENOTFOUND/i.test(entry.reason || '')) {
+      entry.retryable = true;
+      entry.retryAfter = new Date(Math.min(Date.parse(entry.retryAfter) || Infinity, Date.now() + 15 * 60 * 1000)).toISOString();
+    }
+  }
+  const current = await currentManifests(directory);
   assert(catalog.minimumDownloads === 10000 || !Object.keys(catalog.crates).length, 'Refresh the catalog with the 10,000-download threshold.');
-  const now = Date.now();
   const requested = Number(process.env.CRATE_BATCH_SIZE || 100);
   assert(Number.isSafeInteger(requested) && requested >= 1 && requested <= 100, 'Crate batch size must be between 1 and 100.');
   const limits = await api('/rate_limit');
   const batch = publicationBudget(limits.resources.core.remaining, requested, extra.length > 0);
-  const ready = Object.keys(state).filter(name => state[name].release && !current[name]).length;
+  const ready = Object.keys(state).filter(name => !current[name]
+    && duePreparation(state[name], catalog.crates[name]?.version)).length;
   if (!extra.length && ready < batch && Object.keys(catalog.crates).length && process.env.DISCOVER_RELEASES !== 'false') {
     await probeReleases(catalog, state, current, Number(process.env.CRATE_PROBE_SIZE || 5000));
   }
   const pending = Object.keys(catalog.crates).filter(name => {
     const version = catalog.crates[name].version;
     if (current[name] && compareVersions(current[name].version, version) >= 0) return false;
-    return state[name]?.version === version && state[name].release;
+    return duePreparation(state[name], version);
   });
-  pending.sort((a, b) => Number(Boolean(current[b])) - Number(Boolean(current[a])) || a.localeCompare(b));
+  pending.sort((a, b) => Number(Boolean(current[b])) - Number(Boolean(current[a]))
+    || catalog.crates[b].downloads - catalog.crates[a].downloads || a.localeCompare(b));
   const names = [...new Set([...extra, ...pending])].slice(0, batch);
-  let changed = 0;
-  const changedNames = [];
-  for (const name of names) {
+  for (const name of names) assert(NAME.test(name), 'Invalid crate name.');
+  const plan = { names, shards: Math.min(3, names.length) || 1, candidates: Object.fromEntries(names.map(name => [name, {
+    previous: current[name] || null,
+    targetVersion: catalog.crates[name]?.version || null,
+    ...(extra.includes(name) ? {} : { record: catalog.crates[name], release: state[name]?.release }),
+  }])) };
+  await fs.mkdir(directory, { recursive: true });
+  await fs.writeFile(path.join(directory, 'catalog-state.json'), JSON.stringify(state, null, 2) + '\n');
+  await fs.writeFile(path.join(directory, 'update-plan.json'), JSON.stringify(plan) + '\n');
+  if (process.env.GITHUB_OUTPUT) {
+    await writeCommand(process.env.GITHUB_OUTPUT, 'work', String(names.length > 0));
+    await writeCommand(process.env.GITHUB_OUTPUT, 'matrix', JSON.stringify(Array.from({ length: plan.shards }, (_, index) => index)));
+  }
+  console.log(`Planned ${names.length} tools across ${plan.shards} workers.`);
+  return plan;
+}
+
+async function prepareShard(directory, output, shard, generator = generate) {
+  const plan = await readJson(path.join(directory, 'update-plan.json'));
+  assert(Number.isInteger(shard) && shard >= 0 && shard < plan.shards, 'Invalid preparation worker.');
+  const report = { shard, attempted: [], changed: [], failures: {} };
+  for (const [index, name] of plan.names.entries()) {
+    if (index % plan.shards !== shard) continue;
     assert(NAME.test(name), 'Invalid crate name.');
-    const folder = path.join(directory, 'tools', name);
+    const candidate = plan.candidates[name];
+    const folder = path.join(output, 'tools', name);
+    report.attempted.push(name);
     try {
-      const update = await generate(name, current[name], { record: extra.includes(name) ? undefined : catalog.crates[name],
-        release: extra.includes(name) ? undefined : state[name]?.release });
+      const update = await generator(name, candidate.previous, candidate);
       if (!update) { console.log(`${name} is current.`); continue; }
       await fs.mkdir(folder, { recursive: true });
       await fs.writeFile(path.join(folder, 'manifest.json'), JSON.stringify(update.manifest, null, 2) + '\n');
       await fs.writeFile(path.join(folder, 'action.yml'), wrapper(name));
-      delete state[name];
-      console.log(`${name}: ${current[name]?.version || 'new'} -> ${update.manifest.version}`);
-      changed++;
-      changedNames.push(name);
+      console.log(`${name}: ${candidate.previous?.version || 'new'} -> ${update.manifest.version}`);
+      report.changed.push(name);
     } catch (error) {
       const message = String(error.message).replace(/[\r\n]/g, ' ').slice(0, 300);
+      const retryable = /HTTP (403|408|429|5\d\d)|fetch failed|timeout|timed out|aborted|ECONN|ENOTFOUND/i.test(message);
       console.log(`${name}: ${message}`);
-      state[name] = { version: catalog.crates[name]?.version || null, reason: message,
-        retryAfter: new Date(now + 24 * 60 * 60 * 1000).toISOString() };
+      report.failures[name] = { version: candidate.targetVersion, reason: message, retryable,
+        retryAfter: new Date(Date.now() + (retryable ? 15 * 60 * 1000 : 7 * 24 * 60 * 60 * 1000)).toISOString(),
+        ...(retryable && candidate.release ? { release: candidate.release } : {}),
+      };
       if (/HTTP (403|429)/.test(message)) break;
     }
   }
-  await fs.mkdir(directory, { recursive: true });
-  await fs.writeFile(path.join(directory, 'catalog-state.json'), JSON.stringify(state, null, 2) + '\n');
-  const unprobed = Object.keys(catalog.crates).filter(name => !current[name]
-    && state[name]?.version !== catalog.crates[name].version).length;
-  const remaining = Math.max(0, pending.length - names.length) + unprobed;
-  await fs.writeFile(path.join(directory, 'catalog-progress.json'), JSON.stringify({
-    eligible: Object.keys(catalog.crates).length, remaining,
-  }, null, 2) + '\n');
-  console.log(`${Object.keys(catalog.crates).length} discovered; ${remaining} queued; ${changed} published candidates.`);
-  if (process.env.GITHUB_OUTPUT) {
-    await writeCommand(process.env.GITHUB_OUTPUT, 'changed', String(changed > 0));
-    await writeCommand(process.env.GITHUB_OUTPUT, 'names', changedNames.join(' '));
-    await writeCommand(process.env.GITHUB_OUTPUT, 'remaining', String(remaining));
+  await fs.mkdir(output, { recursive: true });
+  await fs.writeFile(path.join(output, `worker-${shard}.json`), JSON.stringify(report) + '\n');
+  return report;
+}
+
+async function mergePrepared(directory, output) {
+  const plan = await readJson(path.join(directory, 'update-plan.json'));
+  const catalog = await readJson(path.join(directory, 'catalog.json'));
+  const state = await readJson(path.join(directory, 'catalog-state.json'), {});
+  const attempted = new Set(), changed = [];
+  for (let shard = 0; plan.names.length && shard < plan.shards; shard++) {
+    const report = await readJson(path.join(output, `worker-${shard}.json`));
+    assert(report?.shard === shard, 'Missing preparation report.');
+    for (const name of report.attempted) {
+      const index = plan.names.indexOf(name);
+      assert(index >= 0 && index % plan.shards === shard && !attempted.has(name), 'Preparation workers overlap or changed an unplanned tool.');
+      attempted.add(name);
+      if (Object.hasOwn(report.failures, name)) state[name] = report.failures[name];
+      else delete state[name];
+    }
+    for (const name of report.changed) {
+      assert(report.attempted.includes(name) && !Object.hasOwn(report.failures, name), 'Invalid prepared result.');
+      const source = path.join(output, 'tools', name);
+      const manifest = validateManifest(await readJson(path.join(source, 'manifest.json')));
+      assert(manifest.name === name, 'Prepared manifest has the wrong crate name.');
+      if (plan.candidates[name].record) assert(manifest.version === plan.candidates[name].record.version, 'Prepared manifest has the wrong crate version.');
+      const destination = path.join(directory, 'tools', name);
+      await fs.mkdir(destination, { recursive: true });
+      for (const file of ['manifest.json', 'action.yml']) await fs.copyFile(path.join(source, file), path.join(destination, file));
+      changed.push(name);
+    }
   }
+  await require('./check.cjs').checkRegistry(directory);
+  const progress = catalogProgress(catalog, state, await currentManifests(directory));
+  await fs.writeFile(path.join(directory, 'catalog-state.json'), JSON.stringify(state, null, 2) + '\n');
+  await fs.writeFile(path.join(directory, 'catalog-progress.json'), JSON.stringify(progress, null, 2) + '\n');
+  console.log(`${progress.eligible} eligible; ${progress.remaining} remaining; ${changed.length} prepared.`);
+  if (process.env.GITHUB_OUTPUT) {
+    await writeCommand(process.env.GITHUB_OUTPUT, 'changed', String(changed.length > 0));
+    await writeCommand(process.env.GITHUB_OUTPUT, 'names', changed.join(' '));
+    await writeCommand(process.env.GITHUB_OUTPUT, 'remaining', String(progress.remaining));
+  }
+  return progress;
+}
+
+async function main() {
+  const directory = path.resolve(process.env.CRATES_DIR || 'registry');
+  const output = path.resolve(process.env.PREPARED_DIR || 'prepared');
+  const phase = process.argv[2] || 'all';
+  if (phase === 'plan') return planUpdate(directory);
+  if (phase === 'prepare') return prepareShard(directory, output, Number(process.env.SHARD_INDEX));
+  if (phase === 'merge') return mergePrepared(directory, output);
+  assert(phase === 'all', 'Unknown update phase.');
+  const plan = await planUpdate(directory);
+  for (let shard = 0; shard < plan.shards; shard++) await prepareShard(directory, output, shard);
+  return mergePrepared(directory, output);
 }
 
 if (require.main === module) main().catch(failure);
-module.exports = { wrapper, compareVersions, repositoryOf, generate, registered, probeReleases, publicationBudget, main };
+module.exports = { wrapper, compareVersions, repositoryOf, generate, registered, probeReleases, publicationBudget,
+  catalogProgress, planUpdate, prepareShard, mergePrepared, main };

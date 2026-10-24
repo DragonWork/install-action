@@ -15,12 +15,30 @@ async function contents(repository, file, ref) {
   return result ? Buffer.from(result.content, 'base64').toString('utf8') : null;
 }
 
-async function main({ tags } = {}) {
+async function publishedTags(repository, manifests) {
+  const [owner, name] = repository.split('/');
+  const result = new Set();
+  for (let offset = 0; offset < manifests.length; offset += 100) {
+    const block = manifests.slice(offset, offset + 100);
+    const fields = block.map((manifest, index) => `r${index}: release(tagName:${JSON.stringify(`${manifest.name}/v${manifest.version}`)}) { tagName isDraft }`);
+    const response = await api('/graphql', { method: 'POST', body: {
+      query: `{ repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(name)}) { ${fields.join(' ')} } }`,
+    } });
+    assert(response.data?.repository && !response.errors, 'Could not verify published tool releases.');
+    for (const release of Object.values(response.data.repository)) if (release && !release.isDraft) result.add(release.tagName);
+  }
+  return result;
+}
+
+async function main({ tags, released } = {}) {
   assert(process.env.GITHUB_REF === 'refs/heads/main', 'Publish only from main.');
   const repository = process.env.GITHUB_REPOSITORY;
   assert(repository === 'DragonWork/install-action', 'Unexpected publication repository.');
   const directory = path.resolve(process.env.CRATES_DIR || 'registry');
   const names = await checkRegistry(directory);
+  const manifests = [];
+  for (const name of names) manifests.push(JSON.parse(await fs.readFile(path.join(directory, 'tools', name, 'manifest.json'), 'utf8')));
+  released ||= await publishedTags(repository, manifests);
   tags ||= new Set((await promisify(execFile)('git', ['tag', '--list'])).stdout.trim().split('\n'));
   const changed = new Set((process.env.CHANGED_CRATES || '').split(' '));
   let head = process.env.CRATES_HEAD;
@@ -29,10 +47,10 @@ async function main({ tags } = {}) {
   assert(live.object.sha === head, 'Crates branch changed during validation; rerun the workflow.');
   const engine = await api(`/repos/${repository}/git/ref/heads/main`);
   assert(engine.object.sha === process.env.GITHUB_SHA, 'Main changed during validation; rerun the workflow.');
-  for (const name of names) {
+  for (const manifest of manifests) {
+    const name = manifest.name;
     const prefix = `tools/${name}/`;
-    const manifest = JSON.parse(await fs.readFile(path.join(directory, prefix, 'manifest.json'), 'utf8'));
-    if (tags.has(`${name}/v${manifest.version}`) && !changed.has(name)) continue;
+    if (tags.has(`${name}/v${manifest.version}`) && released.has(`${name}/v${manifest.version}`) && !changed.has(name)) continue;
     const changes = {};
     for (const file of ['manifest.json', 'action.yml']) {
       const relative = prefix + file;
@@ -78,4 +96,4 @@ async function main({ tags } = {}) {
 }
 
 if (require.main === module) main().catch(failure);
-module.exports = { contents, main };
+module.exports = { contents, publishedTags, main };

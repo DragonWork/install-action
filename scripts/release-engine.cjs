@@ -8,12 +8,12 @@ async function main() {
   assert(process.env.GITHUB_REF === 'refs/heads/main', 'Release only from main.');
   const repository = process.env.GITHUB_REPOSITORY;
   assert(repository === 'DragonWork/install-action', 'Unexpected publication repository.');
-  const version = process.env.RELEASE_VERSION;
-  assert(VERSION.test(version), 'Provide a semantic version such as 1.0.1.');
   const current = JSON.parse(await fs.readFile('package.json', 'utf8'));
+  const version = process.env.RELEASE_VERSION || current.version;
+  assert(VERSION.test(version), 'Provide a semantic installer version.');
   assert(version === current.version, 'Commit the requested version in package.json before releasing.');
   const existing = await api(`/repos/${repository}/git/ref/tags/v${version}`, { optional: true });
-  assert(!existing, 'This engine tag already exists.');
+  if (existing) { console.log(`v${version} is already released.`); return; }
   const head = process.env.GITHUB_SHA;
   const commit = await api(`/repos/${repository}/commits/${head}`);
   assert(commit.commit.verification.verified, 'The installer commit must have a verified signature.');

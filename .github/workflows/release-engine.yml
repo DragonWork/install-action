@@ -1,12 +1,15 @@
 name: Release installer
 
 on:
+  push:
+    branches: [main]
+    paths: [package.json]
   workflow_dispatch:
     inputs:
       version:
-        description: New installer version (for example 1.0.1).
+        description: Installer version from package.json.
         type: string
-        required: true
+        default: ''
 
 permissions:
   contents: read
