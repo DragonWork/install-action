@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_cut",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "cut.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/cut.exe",
+          "sha256": "8788bb01f68d36bda0c600b2978c981db64a08852259a3c2d617bf96e4c1d15c"
+        }
+      }
+    }
+  }
+}
