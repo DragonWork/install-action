@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "jstime",
+  "version": "0.69.0",
+  "repository": "jstime/jstime",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jstime/jstime/releases/download/v0.69.0/jstime-linux-v0.69.0.tar.gz",
+      "sha256": "a9aab737416b892a4069a598550619d774fb0aadeefd5db2d579861c05222f5a",
+      "size": 21182632,
+      "format": "tar.gz",
+      "releaseTag": "v0.69.0",
+      "binaries": {
+        "jstime": {
+          "path": "jstime",
+          "sha256": "463fa5064fdbd89774dfd2e772181c563fd700f51cc9a3c174384fe6fb7174cf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jstime/jstime/releases/download/v0.69.0/jstime-macos-v0.69.0.tar.gz",
+      "sha256": "0b941818bd18c4fe3d393368b49dc0517c7dea1d4e00d3d05b96025f1dc81c54",
+      "size": 19380790,
+      "format": "tar.gz",
+      "releaseTag": "v0.69.0",
+      "binaries": {
+        "jstime": {
+          "path": "jstime",
+          "sha256": "98571c885c024204923a9c162ca0190b952d9e77b4c4a96161eaeb23e44b3f97"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jstime/jstime/releases/download/v0.69.0/jstime-windows-v0.69.0.zip",
+      "sha256": "c4d402bf931f85e0f3e64d64e0359f81fb62932a4fec57d97b3ca12506108200",
+      "size": 19758916,
+      "format": "zip",
+      "releaseTag": "v0.69.0",
+      "binaries": {
+        "jstime.exe": {
+          "path": "jstime.exe",
+          "sha256": "18c767614b9285c9ffa3d274f1f3e11427719b63d94ff88d3dd10d885b6e473d"
+        }
+      }
+    }
+  }
+}
