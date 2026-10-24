@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mdbook-d2",
+  "version": "0.3.9",
+  "repository": "danieleades/mdbook-d2",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.9/mdbook-d2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.9",
+      "sha256": "01a408b45108783d1e6e14bedbbdb478a122ead09babff248d39577edcdcdef0",
+      "size": 908673,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-d2": {
+          "path": "mdbook-d2",
+          "sha256": "65b20ca532fc1b25d51628a6f9bf1be4502aca53931f06c978a40a6b5bd3490f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.9/mdbook-d2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.9",
+      "sha256": "9bfc69c9684a14bd203cd43eef43722c48f62a8a9c84711fb94ce598c44ae8b3",
+      "size": 869568,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-d2": {
+          "path": "mdbook-d2",
+          "sha256": "3a894dbd763f5e974c1efad4ad0fc4be2306fe8e2041e45c453ce6ecd26b443c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.9/mdbook-d2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.9",
+      "sha256": "d9db9991176984727298458d4890459d72d1c7f5c2636db95b2c1ee2694d6f81",
+      "size": 778809,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-d2": {
+          "path": "mdbook-d2",
+          "sha256": "b82f5e60ad3567c81bdb99b8eed8761f17ea9db128267153d9a819296cc78bfb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.9/mdbook-d2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.9",
+      "sha256": "cab1c82d61d68f20b2a3eedc1ee5c04253a2254864f73984100c7d3f277f6212",
+      "size": 758584,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-d2": {
+          "path": "mdbook-d2",
+          "sha256": "a18139db0fc19649609125b9520ecd0b97503a52170539cede6b4cdd4e5611a7"
+        }
+      }
+    }
+  }
+}
