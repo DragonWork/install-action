@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "fedimint-dbtool",
+  "version": "0.12.0",
+  "repository": "fedimint/fedimint",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/fedimint/fedimint/releases/download/v0.12.0/fedimint-pkgs-v0.12.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "a4138456c28195e08bce0b6b2cc65f3ff3cce10642e983a45ce820288b9a31d7",
+      "size": 97350616,
+      "format": "tar.gz",
+      "binaries": {
+        "fedimint-dbtool": {
+          "path": "./bin/fedimint-dbtool",
+          "sha256": "b208fb7b77c1056b95a6709b1bd2424c8aa12bbf1fcd7b62a6ad4c10a204351b"
+        }
+      }
+    }
+  }
+}
