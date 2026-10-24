@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "http-stat",
+  "version": "0.9.0",
+  "repository": "vicanso/http-stat-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-linux-musl-x86_64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "7db36eb57c2f53b52b41a7e14281c783f5a3707f50615ff548ab6225e38d895a",
+      "size": 2212868,
+      "format": "tar.gz",
+      "binaries": {
+        "httpstat": {
+          "path": "httpstat",
+          "sha256": "4825e9b4d5868e32dccd8c62722ec273f9d137dd8665734766f08fd8bd0cc3d6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-linux-musl-aarch64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "50574f6108bb86a97d968c8c72e189526f1bef39f91c6212f61d84456b93a744",
+      "size": 2084515,
+      "format": "tar.gz",
+      "binaries": {
+        "httpstat": {
+          "path": "httpstat",
+          "sha256": "09a7d37f0ddef17a643aef3925ba3a85d545da12d23bd18d6fa6aedd86e1e942"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-darwin-x86_64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "a2d0aef9f89904722bf39ac22fa7ebda8803200dd2c23502e601678e4362bc50",
+      "size": 1917681,
+      "format": "tar.gz",
+      "binaries": {
+        "httpstat": {
+          "path": "httpstat",
+          "sha256": "97ab60594a3aa1308e609d28c5d0675510fe6219c1b57b8dc79a8ecf78a2ffba"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-darwin-arm64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "dbfb08574784c3033c03fad15440d3bd878c74b805987636bbfd855d216f1daa",
+      "size": 1797064,
+      "format": "tar.gz",
+      "binaries": {
+        "httpstat": {
+          "path": "httpstat",
+          "sha256": "aff0610c4ea84b34f4ed432b280a646ab577ad35d8202941a65ec0b9c8d55c42"
+        }
+      }
+    }
+  }
+}
