@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "kumono",
+  "version": "0.77.1",
+  "repository": "APT37/kumono",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/APT37/kumono/releases/download/0.77.1/kumono-windows-x64.exe",
+      "releaseTag": "0.77.1",
+      "sha256": "933e8467dc498db3465ccf16e56ad2fc3ac34921a35890dfc7422d7fed8b65f9",
+      "size": 8062464,
+      "format": "binary",
+      "binaries": {
+        "kumono.exe": {
+          "path": "kumono-windows-x64.exe",
+          "sha256": "933e8467dc498db3465ccf16e56ad2fc3ac34921a35890dfc7422d7fed8b65f9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/APT37/kumono/releases/download/0.77.1/kumono-windows-arm64.exe",
+      "releaseTag": "0.77.1",
+      "sha256": "5dd7296d0599e19902add7cdcf5b61cd4c6869ac708ac431032c00ff851de34c",
+      "size": 7190016,
+      "format": "binary",
+      "binaries": {
+        "kumono.exe": {
+          "path": "kumono-windows-arm64.exe",
+          "sha256": "5dd7296d0599e19902add7cdcf5b61cd4c6869ac708ac431032c00ff851de34c"
+        }
+      }
+    }
+  }
+}
