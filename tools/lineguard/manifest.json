@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "lineguard",
+  "version": "0.2.1",
+  "repository": "hydai/lineguard",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hydai/lineguard/releases/download/v0.2.1/lineguard-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "215d0f54ef097edffccd4b6b554b62222e36652919db915d0ebd8a33addfabf1",
+      "size": 1331035,
+      "format": "tar.gz",
+      "binaries": {
+        "lineguard": {
+          "path": "lineguard",
+          "sha256": "d95e63a846b034657feb4ed85946edc194423b4d74f47daaec444e99ded803e0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hydai/lineguard/releases/download/v0.2.1/lineguard-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "7e367b1e290ff1ce9c8ba1dcc41e835b121b31645e0610e7bbb1425b316cd35e",
+      "size": 1236910,
+      "format": "tar.gz",
+      "binaries": {
+        "lineguard": {
+          "path": "lineguard",
+          "sha256": "0434b752192f29bdaf00daad62f91d6770f368c575d6f19971b79e7137077594"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hydai/lineguard/releases/download/v0.2.1/lineguard-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "e47b140bb9acae5294755a34be1bb3ad1c15bb11579021784c2fe990e22341bf",
+      "size": 1121964,
+      "format": "tar.gz",
+      "binaries": {
+        "lineguard": {
+          "path": "lineguard",
+          "sha256": "8ba491bd5dece8e696b1092a190979f31f85397fde1d2fb3ff18823b8ea27394"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hydai/lineguard/releases/download/v0.2.1/lineguard-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "ad13d0b1d8350ca5e02fe22ec2a17f3efa7e6b9cf830aacf0d225354e6cbe2b7",
+      "size": 1025367,
+      "format": "tar.gz",
+      "binaries": {
+        "lineguard": {
+          "path": "lineguard",
+          "sha256": "5d57c4b9a4e25e74024998ed6b362f19c72864237da82af8d388baef2930f45b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hydai/lineguard/releases/download/v0.2.1/lineguard-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.1",
+      "sha256": "0ff795d672d7ac630453b970442648c1fdcbca9398f33c20d39ccdc255d053e2",
+      "size": 1177620,
+      "format": "zip",
+      "binaries": {
+        "lineguard.exe": {
+          "path": "lineguard.exe",
+          "sha256": "7e9d6940316945eb800411ebd38a5e7e508922cf1dfda9b715ed45cf5d0cfb21"
+        }
+      }
+    }
+  }
+}
