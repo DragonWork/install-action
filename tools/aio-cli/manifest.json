@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "aio-cli",
+  "version": "0.9.0",
+  "repository": "glcraft/aio",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/glcraft/aio/releases/download/v0.9.0/aio-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.9.0",
+      "sha256": "2f804dfc70241bd2fcf35bfee3f1325e80b517a550e7a98849f7c10b17851eb8",
+      "size": 7358976,
+      "format": "binary",
+      "binaries": {
+        "aio.exe": {
+          "path": "aio-x86_64-pc-windows-msvc.exe",
+          "sha256": "2f804dfc70241bd2fcf35bfee3f1325e80b517a550e7a98849f7c10b17851eb8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/glcraft/aio/releases/download/v0.9.0/aio-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.9.0",
+      "sha256": "ed9853b7453ee7e8450c5d5a71b8aacfb1601b7775372baa142f22dbe15a86e0",
+      "size": 6536192,
+      "format": "binary",
+      "binaries": {
+        "aio.exe": {
+          "path": "aio-aarch64-pc-windows-msvc.exe",
+          "sha256": "ed9853b7453ee7e8450c5d5a71b8aacfb1601b7775372baa142f22dbe15a86e0"
+        }
+      }
+    }
+  }
+}
