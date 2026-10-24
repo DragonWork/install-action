@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "geocode-csv",
+  "version": "1.4.0",
+  "repository": "faradayio/geocode-csv",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/faradayio/geocode-csv/releases/download/v1.4.0/geocode-csv_1.4.0_x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "0de557546c0633c1ecf2f9c3f10a87538e1289a7634c22767141cc0a385cba0d",
+      "size": 10573492,
+      "format": "zip",
+      "binaries": {
+        "geocode-csv": {
+          "path": "geocode-csv",
+          "sha256": "0f54bdb3f784cffd1807a2c7d2ed06e099cda967a6c821b594cdaf880a7d4d4f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/faradayio/geocode-csv/releases/download/v1.4.0/geocode-csv_1.4.0_x86_64-apple-darwin.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "9e6399580cb5bb1b4e697ecc9360bbf8163303c3232d083f1c2670c0da94e6d1",
+      "size": 7557443,
+      "format": "zip",
+      "binaries": {
+        "geocode-csv": {
+          "path": "geocode-csv",
+          "sha256": "50054db3278af266629e92421cd823a02cbfd7408ad3eb416863c714a3025e85"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/faradayio/geocode-csv/releases/download/v1.4.0/geocode-csv_1.4.0_aarch64-apple-darwin.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "f7dcf02a907dae7fc08366fbc1014b14b3085078cfc46326df5c64a142dc6593",
+      "size": 7294875,
+      "format": "zip",
+      "binaries": {
+        "geocode-csv": {
+          "path": "geocode-csv",
+          "sha256": "5c85a02d6062d72d47bdf7900b9eea8e0605d4067c0c567782361257d6ba9106"
+        }
+      }
+    }
+  }
+}
