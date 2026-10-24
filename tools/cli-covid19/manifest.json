@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cli-covid19",
+  "version": "0.2.5",
+  "repository": "adiatma/cli-covid19",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/adiatma/cli-covid19/releases/download/v0.2.5/cli-covid19-v0.2.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.5",
+      "sha256": "acb1d9bab747c1e9054a016fc2b733a401ae6c1c47f99c40766913f2824bad96",
+      "size": 3866797,
+      "format": "tar.gz",
+      "binaries": {
+        "cli-covid19": {
+          "path": "cli-covid19-v0.2.5-x86_64-unknown-linux-musl/cli-covid19",
+          "sha256": "f618ebb423fe2554d23ef0f9eb4c53e84e5ba192d338b28eb30f8c9b534e0583"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/adiatma/cli-covid19/releases/download/v0.2.5/cli-covid19-v0.2.5-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.5",
+      "sha256": "976e8ab672441f4a0c9b1e49f54bc817b045688aa533ef525cb4d5d7bfb7da74",
+      "size": 1909605,
+      "format": "tar.gz",
+      "binaries": {
+        "cli-covid19": {
+          "path": "cli-covid19-v0.2.5-x86_64-apple-darwin/cli-covid19",
+          "sha256": "629181f6a946a7304e08fa3877111a66ef6b874d9df470349969c0e628d338a4"
+        }
+      }
+    }
+  }
+}
