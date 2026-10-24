@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "lsp-ai",
+  "version": "0.7.0",
+  "repository": "SilasMarvin/lsp-ai",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/SilasMarvin/lsp-ai/releases/download/v0.7.0/lsp-ai-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "bf5dcfad41a2431c9dc126b213d71e72ea388b8a6d8f1c951e2eb517a357cafa",
+      "size": 10776187,
+      "format": "zip",
+      "binaries": {
+        "lsp-ai.exe": {
+          "path": "lsp-ai.exe",
+          "sha256": "879a9355f93429b1b753b9d8ce561bde23c0a766e46373db2b4486531ccd6ad7"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/SilasMarvin/lsp-ai/releases/download/v0.7.0/lsp-ai-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "e39819539831fe908b22e1926ccdc879d60182b1575a0c285ab2c4be3df60d82",
+      "size": 10287442,
+      "format": "zip",
+      "binaries": {
+        "lsp-ai.exe": {
+          "path": "lsp-ai.exe",
+          "sha256": "a0bdb003d528785c43cde7c18fc30c24cd2dc832b541fade4cebacfec119cc41"
+        }
+      }
+    }
+  }
+}
