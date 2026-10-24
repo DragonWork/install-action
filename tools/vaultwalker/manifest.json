@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "vaultwalker",
+  "version": "0.4.4",
+  "repository": "millotp/vaultwalker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/millotp/vaultwalker/releases/download/0.4.4/vaultwalker-0.4.4-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.4.4",
+      "sha256": "6724192660acaaf06a61f6ebb8d063846ca2290a45b5d06ae6b8c9a120dbfa96",
+      "size": 2781086,
+      "format": "tar.gz",
+      "binaries": {
+        "vw": {
+          "path": "vaultwalker-0.4.4-x86_64-unknown-linux-gnu/vw",
+          "sha256": "1e2f1637318d7830e8d00f3f6818a292926f830b72863ff93f2fb6f8d9e6794e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/millotp/vaultwalker/releases/download/0.4.4/vaultwalker-0.4.4-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.4",
+      "sha256": "49c5f26b7309a75df7de60a11f62cade64ffed8606ef1998d31ad7229e6839ce",
+      "size": 1152293,
+      "format": "tar.gz",
+      "binaries": {
+        "vw": {
+          "path": "vaultwalker-0.4.4-aarch64-apple-darwin/vw",
+          "sha256": "93f73f59731931ddcca639865f9038d34c33f8a3787320c4822b398213690493"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/millotp/vaultwalker/releases/download/0.4.4/vaultwalker-0.4.4-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.4.4",
+      "sha256": "ff1076253929dd4df67c34d1a243d9e03d94e806ae35a99307b63ea6e3650e5e",
+      "size": 1085567,
+      "format": "zip",
+      "binaries": {
+        "vw.exe": {
+          "path": "vaultwalker-0.4.4-x86_64-pc-windows-msvc/vw.exe",
+          "sha256": "0a4652b216db0900396f8af938c71b37abe37a81b5fc370c93f61e72ee5d5471"
+        }
+      }
+    }
+  }
+}
