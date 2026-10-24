@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "the-septa-times",
+  "version": "0.12.2",
+  "repository": "dotzenith/TheSeptaTimes.rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dotzenith/TheSeptaTimes.rs/releases/download/v0.12.2/the-septa-times-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.12.2",
+      "sha256": "23a4153d3c04ad17ae4ec7c21455b3ff1018de3e40a556fae919d2537926353a",
+      "size": 1266372,
+      "format": "tar.xz",
+      "binaries": {
+        "tst": {
+          "path": "the-septa-times-x86_64-unknown-linux-musl/tst",
+          "sha256": "949902a3807b21ef1c3f0498136ff078126521891536366d8eda0cc4f71b6d9c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dotzenith/TheSeptaTimes.rs/releases/download/v0.12.2/the-septa-times-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.12.2",
+      "sha256": "6870e463c9b8caacb8159be8db5a9b3b57c1bfad47e4a5e8dc7a1fc088ed3616",
+      "size": 1083380,
+      "format": "tar.xz",
+      "binaries": {
+        "tst": {
+          "path": "the-septa-times-aarch64-unknown-linux-gnu/tst",
+          "sha256": "9c463d42e3b435518eb9a572075f91e4ff651b329e6f1a0a63e9224c02cf4812"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dotzenith/TheSeptaTimes.rs/releases/download/v0.12.2/the-septa-times-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.2",
+      "sha256": "83842d75598408b00708ed59e066df95349132d858e69a09043ed18812705b4e",
+      "size": 1139624,
+      "format": "tar.xz",
+      "binaries": {
+        "tst": {
+          "path": "the-septa-times-x86_64-apple-darwin/tst",
+          "sha256": "a1ef7d1a65324f29d2aaa4e30e8e815d0862ad2f65cbafb5042aead9617c2804"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dotzenith/TheSeptaTimes.rs/releases/download/v0.12.2/the-septa-times-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.2",
+      "sha256": "03511ca912ba32ddb4fdd2e4e2f40502ca3324ec7cacd85bce45f0e208e7a8d1",
+      "size": 995192,
+      "format": "tar.xz",
+      "binaries": {
+        "tst": {
+          "path": "the-septa-times-aarch64-apple-darwin/tst",
+          "sha256": "218582d51c0e2d602e25beeff9e6fccbb77ff9d62549358d19489cf24897c130"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dotzenith/TheSeptaTimes.rs/releases/download/v0.12.2/the-septa-times-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.2",
+      "sha256": "6f024d863812c7f960ac72b7e2b0577c17435e801fb04a16a4d9a4effe1fabe7",
+      "size": 1438275,
+      "format": "zip",
+      "binaries": {
+        "tst.exe": {
+          "path": "tst.exe",
+          "sha256": "ac16f21fff5310b1d71ec4836f7f2e5b8d301ae5582d645d760d5cc0ae1bc6fc"
+        }
+      }
+    }
+  }
+}
