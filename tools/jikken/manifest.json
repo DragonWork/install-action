@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "jikken",
+  "version": "0.8.4",
+  "repository": "jikkenio/jikken",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jikkenio/jikken/releases/download/v0.8.4/jikken-v0.8.4-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.4",
+      "sha256": "379486a52a4a22e464df6317d8b48c65fad1855bb22d66e0a3f265af08e10243",
+      "size": 6311877,
+      "format": "tar.gz",
+      "binaries": {
+        "jk": {
+          "path": "jk",
+          "sha256": "b735c14e75882337866a2ece3681d6a8e607f6237c12d162a4105e4a9fa62445"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jikkenio/jikken/releases/download/v0.8.4/jikken-v0.8.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.4",
+      "sha256": "4c1d9e4eb55d0189283af8ecfd816991ee9c27cb403730ff20c52720127d2f3d",
+      "size": 5964518,
+      "format": "tar.gz",
+      "binaries": {
+        "jk": {
+          "path": "jk",
+          "sha256": "edc915601b3386c86459c05ef083fdbf6caf17c1a6f39173f12496fc2535d9ff"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jikkenio/jikken/releases/download/v0.8.4/jikken-v0.8.4-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.4",
+      "sha256": "80776d7a69923cb3e48f3c9af595661a44e545bd3f3111200f50e0adbada305d",
+      "size": 5548496,
+      "format": "tar.gz",
+      "binaries": {
+        "jk": {
+          "path": "jk",
+          "sha256": "4975e6d7532cf6ec71c70f8e79aa45a30eb1953def5e0918d5f82fa6d803230f"
+        }
+      }
+    }
+  }
+}
