@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "cargo-update",
+  "version": "22.1.1",
+  "repository": "nabijaczleweli/cargo-update",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/nabijaczleweli/cargo-update/releases/download/v22.1.1/cargo-update-v22.1.1.zip",
+      "sha256": "2ff2dc5df3babf9d4d7be585a730ea3c685ac0535558d52cc0c54342b4e635fb",
+      "size": 6260324,
+      "format": "zip",
+      "releaseTag": "v22.1.1",
+      "binaries": {
+        "cargo-install-update.exe": {
+          "path": "cargo-update-v22.1.1/cargo-install-update.exe",
+          "sha256": "b72c61e32b3ce4db0724ef5b8fb15f9f0b603f913dcf3060e1f92d816d909d8c"
+        },
+        "cargo-install-update-config.exe": {
+          "path": "cargo-update-v22.1.1/cargo-install-update-config.exe",
+          "sha256": "31c6547d6367a1b7035cc72041afb69d66c544621749ac0a5c64c2e44b9635e3"
+        }
+      }
+    }
+  }
+}
