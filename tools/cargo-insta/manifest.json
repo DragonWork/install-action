@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-insta",
+  "version": "1.49.0",
+  "repository": "mitsuhiko/insta",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mitsuhiko/insta/releases/download/1.49.0/cargo-insta-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "1.49.0",
+      "sha256": "cc64ead688107cdf2577101e26b6323795c9850456b9c62846bab30ff6db23d8",
+      "size": 1735524,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-insta": {
+          "path": "cargo-insta-x86_64-unknown-linux-musl/cargo-insta",
+          "sha256": "d815f46d27653809099d4b4b90be7f10f519173c539fabbf4cf633e271f05486"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mitsuhiko/insta/releases/download/1.49.0/cargo-insta-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "1.49.0",
+      "sha256": "fcaeb86785736e009862daa5df6598c85792276d2de047273c31c8951b783f85",
+      "size": 1486060,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-insta": {
+          "path": "cargo-insta-aarch64-unknown-linux-gnu/cargo-insta",
+          "sha256": "1ca39e83275fc9cde0794fac690f3299ae862059a1972379aa2afb17f9b1e3b5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mitsuhiko/insta/releases/download/1.49.0/cargo-insta-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "1.49.0",
+      "sha256": "e47d3d529de4eaf85c074b718af38be49a04578ff07ef0aa5765f22688095273",
+      "size": 1584404,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-insta": {
+          "path": "cargo-insta-x86_64-apple-darwin/cargo-insta",
+          "sha256": "c2cb158d0e80cfa30ade06454c3bf9080b28b3d94f0a86ec6218aa779e30675e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mitsuhiko/insta/releases/download/1.49.0/cargo-insta-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "1.49.0",
+      "sha256": "e596702d36313dbbc2f168ca9db447a9e259e666cd9cae9ab94eb712ca1d89e5",
+      "size": 1396216,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-insta": {
+          "path": "cargo-insta-aarch64-apple-darwin/cargo-insta",
+          "sha256": "6abb76589813999786cb16f25d015419b8d8df524d9c9021e0fa12f28e541abb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mitsuhiko/insta/releases/download/1.49.0/cargo-insta-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.49.0",
+      "sha256": "bf6374b054f596d75b5bb203010394a340cdb44d4150cd03560564fbc35d8156",
+      "size": 2324920,
+      "format": "zip",
+      "binaries": {
+        "cargo-insta.exe": {
+          "path": "cargo-insta.exe",
+          "sha256": "bebda97a7dd9af7f207e41df138cd5c1214fb97be2c611cac9372a93df63fd15"
+        }
+      }
+    }
+  }
+}
