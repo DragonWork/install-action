@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "kak-lsp",
+  "version": "22.0.0",
+  "repository": "kakoune-lsp/kakoune-lsp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kakoune-lsp/kakoune-lsp/releases/download/v22.0.0/kakoune-lsp-v22.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v22.0.0",
+      "sha256": "cedc3057c853542553e6a70b66b20b81aab7f5c8731cf819e0c95fa33a61f465",
+      "size": 3631319,
+      "format": "tar.gz",
+      "binaries": {
+        "kak-lsp": {
+          "path": "kak-lsp",
+          "sha256": "dccfc2d6f541db585611f54d5b29eb85556188051a9fce226297636ee548207a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kakoune-lsp/kakoune-lsp/releases/download/v22.0.0/kakoune-lsp-v22.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v22.0.0",
+      "sha256": "de1fe467256e6bf37a1e7cff18f34e74481ce10b5693e824e892bb0fd7378f56",
+      "size": 3469154,
+      "format": "tar.gz",
+      "binaries": {
+        "kak-lsp": {
+          "path": "kak-lsp",
+          "sha256": "62504b45d194136f8c89677ca0ba144668b35554483b02ead35e0b8926026a6d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kakoune-lsp/kakoune-lsp/releases/download/v22.0.0/kakoune-lsp-v22.0.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v22.0.0",
+      "sha256": "93b39d655a47658b32c01c10c8fa125c594587dcb29cf22bf8a3138ef41e584b",
+      "size": 3221464,
+      "format": "tar.gz",
+      "binaries": {
+        "kak-lsp": {
+          "path": "kak-lsp",
+          "sha256": "fb1afd862d2547360ce7e9ea73dcbecd285400d0f04edbf23d5e8a24c3c38355"
+        }
+      }
+    }
+  }
+}
