@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gxt-cli",
+  "version": "4.1.0",
+  "repository": "game-exchange-token/gxt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/game-exchange-token/gxt/releases/download/v4.1.0/gxt-linux.tar.gz",
+      "sha256": "490dd5755b2c2dbeacd7d6e042da302c35a27827a626b2be9c9c7172222d43af",
+      "size": 8884189,
+      "format": "tar.gz",
+      "releaseTag": "v4.1.0",
+      "binaries": {
+        "gxt": {
+          "path": "assets/gxt",
+          "sha256": "a02736b45f2d17b7c1d1e95f1e293112030a99a4169f83bc4815b81a589c3e92"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/game-exchange-token/gxt/releases/download/v4.1.0/gxt-macos.tar.gz",
+      "sha256": "7080c8756d1d4d52b4df9c6ea455dc5f264fefcae55519ba6f11fefec8ec3590",
+      "size": 5648974,
+      "format": "tar.gz",
+      "releaseTag": "v4.1.0",
+      "binaries": {
+        "gxt": {
+          "path": "assets/gxt",
+          "sha256": "030436869ba4b6a79010e040d694e2f82cf96d6bb7ad455fda965c30bbe397ae"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/game-exchange-token/gxt/releases/download/v4.1.0/gxt-win.zip",
+      "sha256": "349798fd6006c48ba105586ba740e1895e1818cc972f72a6c610b5ec8f722b83",
+      "size": 5924998,
+      "format": "zip",
+      "releaseTag": "v4.1.0",
+      "binaries": {
+        "gxt.exe": {
+          "path": "gxt.exe",
+          "sha256": "50da206995c72427293d0d19c65cfe1abc2cd416b5e06b88ddddc3dc581950d6"
+        }
+      }
+    }
+  }
+}
