@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "codanna",
+  "version": "0.16.0",
+  "repository": "bartolli/codanna",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bartolli/codanna/releases/download/v0.16.0/codanna-0.16.0-linux-x64.tar.xz",
+      "releaseTag": "v0.16.0",
+      "sha256": "d032476c99bc5dbcc11e82bbb8b435251e2d583f7921a3a18a16eac4a31479af",
+      "size": 16993456,
+      "format": "tar.xz",
+      "binaries": {
+        "codanna": {
+          "path": "codanna-0.16.0-linux-x64/codanna",
+          "sha256": "36aeebed2971ae0fc9cbbc2db63365d5daf9f356c3d466c9ffc046b8aca4c1f2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bartolli/codanna/releases/download/v0.16.0/codanna-0.16.0-macos-x64.tar.xz",
+      "releaseTag": "v0.16.0",
+      "sha256": "f3252fad2d844029a74c277b0e175318ad2c00033e553cc1e074bbe1d0699e20",
+      "size": 15513432,
+      "format": "tar.xz",
+      "binaries": {
+        "codanna": {
+          "path": "codanna-0.16.0-macos-x64/codanna",
+          "sha256": "d0217ae1fdf2194925cc120f349c2da10adfb59f2bc970b649f87570f4eb15fe"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bartolli/codanna/releases/download/v0.16.0/codanna-0.16.0-macos-arm64.tar.xz",
+      "releaseTag": "v0.16.0",
+      "sha256": "3e6c92cff05a69cdce4c242aea734a0d32935de45dff95e88d06e591d7f73595",
+      "size": 13696064,
+      "format": "tar.xz",
+      "binaries": {
+        "codanna": {
+          "path": "codanna-0.16.0-macos-arm64/codanna",
+          "sha256": "b974aee66f9ef1d4ca73f8bb7fd1632f07e4ef8ea9c01eec537548c4bfebc08d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bartolli/codanna/releases/download/v0.16.0/codanna-0.16.0-windows-x64.zip",
+      "releaseTag": "v0.16.0",
+      "sha256": "2359f3fff4f27efa107aac89d64ae6033922888e782fd441139e473a5f0558fb",
+      "size": 20313066,
+      "format": "zip",
+      "binaries": {
+        "codanna.exe": {
+          "path": "codanna-0.16.0-windows-x64/codanna.exe",
+          "sha256": "d9f67c9912626f51c30631631c538267f54d6f61cd5e878897691879999d61c8"
+        }
+      }
+    }
+  }
+}
