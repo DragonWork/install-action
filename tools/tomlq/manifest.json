@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tomlq",
+  "version": "0.2.2",
+  "repository": "cryptaliagy/tomlq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cryptaliagy/tomlq/releases/download/0.2.2/tomlq.amd64.tgz",
+      "sha256": "0a4d41836e215e1d9b0a23d8b95291062c28b2a37f2d4736983ae4e0e308dd27",
+      "size": 2191888,
+      "format": "tar.gz",
+      "releaseTag": "0.2.2",
+      "binaries": {
+        "tq": {
+          "path": "tq",
+          "sha256": "96ad86c5f7d90de17bf08c8bc033ff4985de99d425b01fc9026a9e6fef5641d9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cryptaliagy/tomlq/releases/download/0.2.2/tomlq.arm64.tgz",
+      "sha256": "aef9816f27896fea492191b3b7b32f73a12ea3980343aca83d65e3ed048f9dc8",
+      "size": 2094207,
+      "format": "tar.gz",
+      "releaseTag": "0.2.2",
+      "binaries": {
+        "tq": {
+          "path": "tq",
+          "sha256": "0c8ccd801fd04ae76cf4c817db8c95dc24bd0d30bd84242098b0969d06462c07"
+        }
+      }
+    }
+  }
+}
