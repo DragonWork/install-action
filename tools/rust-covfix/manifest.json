@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rust-covfix",
+  "version": "0.2.1",
+  "repository": "Kogia-sima/rust-covfix",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Kogia-sima/rust-covfix/releases/download/v0.2.1/rust-covfix-linux-x86_64.tar.xz",
+      "releaseTag": "v0.2.1",
+      "sha256": "662fe97b67e4ccba9821b951335e11b2e87b26b5a963f1a06e820ecc903cb3ce",
+      "size": 645112,
+      "format": "tar.xz",
+      "binaries": {
+        "rust-covfix": {
+          "path": "rust-covfix-linux-x86_64/rust-covfix",
+          "sha256": "478507493ed16aa2732483bcdf749d748b37ca7f5299532d1669b4c1f5eae827"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Kogia-sima/rust-covfix/releases/download/v0.2.1/rust-covfix-osx-x86_64.tar.xz",
+      "releaseTag": "v0.2.1",
+      "sha256": "c90f29a1a8aca7c012545eeead91d96c05ac7bf6f557e92ecad61e1f32848452",
+      "size": 589448,
+      "format": "tar.xz",
+      "binaries": {
+        "rust-covfix": {
+          "path": "rust-covfix-osx-x86_64/rust-covfix",
+          "sha256": "67fe500d822633add584659c742b0a88b499ed97bab8301b9d4cc030b856b300"
+        }
+      }
+    }
+  }
+}
