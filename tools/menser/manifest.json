@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "menser",
+  "version": "0.1.40",
+  "repository": "FlareFlo/menser",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FlareFlo/menser/releases/download/0.1.40/menser-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.1.40",
+      "sha256": "718f5a0f9d13475c2fb679a6113d964b385cf9e688f0415fc72d946d106f7ccc",
+      "size": 2282468,
+      "format": "tar.xz",
+      "binaries": {
+        "menser": {
+          "path": "menser-x86_64-unknown-linux-musl/menser",
+          "sha256": "053a48bb8956924c63204b7690649ee947bbccd86502d39f79013af7a56ae713"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FlareFlo/menser/releases/download/0.1.40/menser-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.1.40",
+      "sha256": "e74c30bd6ae2aef79ac8c59f8df01dd6be3df3dd0df5543d8508ae54d1357f94",
+      "size": 401364,
+      "format": "tar.xz",
+      "binaries": {
+        "menser": {
+          "path": "menser-x86_64-apple-darwin/menser",
+          "sha256": "87033aca12f49a2b01023dd88ab0c2b0caf2dd8d054cb503cbabaacdea684978"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FlareFlo/menser/releases/download/0.1.40/menser-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.1.40",
+      "sha256": "a94c80d56338e6d398777b6fac7c5537b1f7ff877643774e8a656caf7b2590d8",
+      "size": 368176,
+      "format": "tar.xz",
+      "binaries": {
+        "menser": {
+          "path": "menser-aarch64-apple-darwin/menser",
+          "sha256": "613b5487463e476f92ef1faa579b2362a9bad0488f95b75b0795fe8f916ea07d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/FlareFlo/menser/releases/download/0.1.40/menser-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.1.40",
+      "sha256": "28df9c34ed058eefcf283be7c32d706dea7a39ccee3d85d821104226695dc71d",
+      "size": 802953,
+      "format": "zip",
+      "binaries": {
+        "menser.exe": {
+          "path": "menser.exe",
+          "sha256": "f109a136ec1253451c5a63e0e855cfdb44aa37bddb7db06855877f3b320762e2"
+        }
+      }
+    }
+  }
+}
