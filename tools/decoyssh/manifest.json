@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "decoyssh",
+  "version": "1.1.0",
+  "repository": "Aeron/decoyssh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Aeron/decoyssh/releases/download/1.1.0/decoyssh-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.1.0",
+      "sha256": "eb19aff13223ba4da384115a7739573c056f9b71150cfc4b17f8a5dfa479e6cb",
+      "size": 608782,
+      "format": "tar.gz",
+      "binaries": {
+        "decoyssh": {
+          "path": "decoyssh",
+          "sha256": "4085d0216505544179cdbe3ba7b269516faa2b486994178b10df9c06d31a9604"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Aeron/decoyssh/releases/download/1.1.0/decoyssh-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.1.0",
+      "sha256": "405c7408b55dfcd8e6e7acde20763fb3705a6830f01d1eeb7cf8e971389eafc5",
+      "size": 575372,
+      "format": "tar.gz",
+      "binaries": {
+        "decoyssh": {
+          "path": "decoyssh",
+          "sha256": "e6d57b7bfce8268bd4e68629a1b8c18f60166cc4f6a4dcd52c0c1150d18f3c91"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Aeron/decoyssh/releases/download/1.1.0/decoyssh-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.1.0",
+      "sha256": "5f94b5221f999a823fa5be18e4d61b8bb1da0337992a0f2f7e2f7f6092ccfe44",
+      "size": 489666,
+      "format": "tar.gz",
+      "binaries": {
+        "decoyssh": {
+          "path": "decoyssh",
+          "sha256": "8657bee6cf0bc2fb5e38a0c76d597f7b9b4a90c99d868ff00c436f0d58daa2f0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Aeron/decoyssh/releases/download/1.1.0/decoyssh-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "1.1.0",
+      "sha256": "c082f9572fcc12b18bedb0d99835f5e0176769853e19a777b4a0c6fa5a8845d3",
+      "size": 458994,
+      "format": "tar.gz",
+      "binaries": {
+        "decoyssh": {
+          "path": "decoyssh",
+          "sha256": "2eb2808fb2ea5dbcf913917c067189edf60fd27b9f3c09671bc2c7cc895beee1"
+        }
+      }
+    }
+  }
+}
