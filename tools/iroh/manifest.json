@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "iroh",
+  "version": "0.12.0",
+  "repository": "n0-computer/iroh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.12.0/iroh-linux-amd64.zip",
+      "releaseTag": "v0.12.0",
+      "sha256": "a1241d7afe58fe0fb8f53bca145c02d14099870992ebce7b45fff6231298e61f",
+      "size": 29557386,
+      "format": "zip",
+      "binaries": {
+        "iroh": {
+          "path": "iroh",
+          "sha256": "e58bfb7a38d427270e02cb2e7b5c4f0f355fa99887fbad541bac6475b94607ef"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.12.0/iroh-linux-aarch64.zip",
+      "releaseTag": "v0.12.0",
+      "sha256": "3f5ec2e3e9b5248b03fe14e5677790c55b90f0d43097efb651f54bad190535f1",
+      "size": 27158138,
+      "format": "zip",
+      "binaries": {
+        "iroh": {
+          "path": "iroh",
+          "sha256": "0dbc13eac6b70dbfb06a843c985f0355a95e9b2c73e03d7f1d6da40cc8fd6484"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.12.0/iroh-darwin-x86_64.zip",
+      "releaseTag": "v0.12.0",
+      "sha256": "bf66e38396d02384022986039d30d2a0b22d056d754f75cd09c87e1a3f4ae1a4",
+      "size": 24561538,
+      "format": "zip",
+      "binaries": {
+        "iroh": {
+          "path": "iroh",
+          "sha256": "e9b27ea11da23cb9951b6e00bb6178018c66e0d0a0e560f3ab8212997498ed12"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.12.0/iroh-darwin-aarch64.zip",
+      "releaseTag": "v0.12.0",
+      "sha256": "045daa361615e047d89e24be902dac68d4c4c0b55e7accb8d5060afff90ef7d9",
+      "size": 21316028,
+      "format": "zip",
+      "binaries": {
+        "iroh": {
+          "path": "iroh",
+          "sha256": "68ea2b6d6011368e788d932a3befebd80b17fe75cc169f561eecca3072733475"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.12.0/iroh-windows-amd64.zip",
+      "releaseTag": "v0.12.0",
+      "sha256": "9fb2c1abbb364309c3aa03d051aa6e4c488317ed0a29e691fa73e58c7fa51683",
+      "size": 19287170,
+      "format": "zip",
+      "binaries": {
+        "iroh.exe": {
+          "path": "iroh.exe",
+          "sha256": "958d6d3603948639f047c075898e9dcbce223328583299a102dee7939bbbd49f"
+        }
+      }
+    }
+  }
+}
