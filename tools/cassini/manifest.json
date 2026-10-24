@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cassini",
+  "version": "0.12.6",
+  "repository": "NicoRio42/cassini",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/NicoRio42/cassini/releases/download/0.12.6/cassini-x86_64-linux.tar.gz",
+      "releaseTag": "0.12.6",
+      "sha256": "fb2e169d5f03f50413c584e33f0995264faa9a1cecc88fd349c32bcecc1f5309",
+      "size": 9203404,
+      "format": "tar.gz",
+      "binaries": {
+        "cassini": {
+          "path": "cassini",
+          "sha256": "c3b94fc96c6d604f5c7628d033038485755130397c09c40af9d1d49171f50b9d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/NicoRio42/cassini/releases/download/0.12.6/cassini-x86_64-macos.tar.gz",
+      "releaseTag": "0.12.6",
+      "sha256": "bf287114c3b2bfeca768befe80c4cfeb5cb0b7f075dafc6febee0f3ce287b98c",
+      "size": 5636986,
+      "format": "tar.gz",
+      "binaries": {
+        "cassini": {
+          "path": "cassini",
+          "sha256": "60052972049bbf6e77a49a09ad702690f94e7af3ced2bb279ee77803b188dd87"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/NicoRio42/cassini/releases/download/0.12.6/cassini-arm64-macos.tar.gz",
+      "releaseTag": "0.12.6",
+      "sha256": "38f92b6b4947187c9d2eb92ad766b2d9993cd85879108b96362c53c8ac5d5f4b",
+      "size": 5430893,
+      "format": "tar.gz",
+      "binaries": {
+        "cassini": {
+          "path": "cassini",
+          "sha256": "a4e293bbc0e627ee35bc1bb0ad49a598ff64960f499ed0befc2a12684613e638"
+        }
+      }
+    }
+  }
+}
