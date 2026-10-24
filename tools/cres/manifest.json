@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "name": "cres",
+  "version": "0.9.1",
+  "repository": "a-maier/cres",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/a-maier/cres/releases/download/0.9.1/cres-0.9.1-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "72741d031c1098705a62ba39d712e70cfefae202cef3673fea9f34bb25f0e52f",
+      "size": 15371447,
+      "format": "tar.gz",
+      "releaseTag": "0.9.1",
+      "binaries": {
+        "cres": {
+          "path": "cres/bin/cres",
+          "sha256": "945ebbaeaf25cff3915b9c66e445d5a34a0603d5936132fdd9bbcfcb8e3a9eeb"
+        },
+        "cres-generate-shell-completions": {
+          "path": "cres/bin/cres-generate-shell-completions",
+          "sha256": "60daca972abe587b8d1dbf613cd0d6b6fb1ad20a6bf41a34764f7cc7dfc862d3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/a-maier/cres/releases/download/0.9.1/cres-0.9.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "ad57c1578d56508e75f4652f5fd27e52f9e67c4af3b6c32ea6bbfb68feb933f2",
+      "size": 16068643,
+      "format": "tar.gz",
+      "releaseTag": "0.9.1",
+      "binaries": {
+        "cres": {
+          "path": "cres/bin/cres",
+          "sha256": "e09fb50f203b45434889debc1c2c7818fa4e50a85569333e97baf29cdfb2f187"
+        },
+        "cres-generate-shell-completions": {
+          "path": "cres/bin/cres-generate-shell-completions",
+          "sha256": "053cba24a246d054fec4f6b74e07ac40da7db109fd1bab09e97dd86752716464"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/a-maier/cres/releases/download/0.9.1/cres-0.9.1-x86_64-pc-windows-msvc.zip",
+      "sha256": "92b751961b2d943c798f05eecfe009a02dced0f62eb6df83de18c16131045179",
+      "size": 1798141,
+      "format": "zip",
+      "releaseTag": "0.9.1",
+      "binaries": {
+        "cres.exe": {
+          "path": "cres.exe",
+          "sha256": "d3f82a75a115b09eed9af0384b5b7ebad222e534bd6ad52ec799fbcef2bdb83f"
+        }
+      }
+    }
+  }
+}
