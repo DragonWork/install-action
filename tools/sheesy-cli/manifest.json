@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "name": "sheesy-cli",
+  "version": "4.0.11",
+  "repository": "share-secrets-safely/cli",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/share-secrets-safely/cli/releases/download/4.0.11/sy-cli-Darwin-x86_64.tar.gz",
+      "releaseTag": "4.0.11",
+      "sha256": "2a3b697d41c79ba20599b2a6093cb54b00d31a200c3e4fb250526a0c298dc5bc",
+      "size": 5186466,
+      "format": "tar.gz",
+      "binaries": {
+        "sy": {
+          "path": "sy",
+          "sha256": "b15ce81420cb8259d2dd8d32e477887c43a7ed1f305e2eddf2ea1269331c8b2d"
+        },
+        "syv": {
+          "path": "syv",
+          "sha256": "80bc0c40a30c6fc23e0a09f99f1f9e860a601160e43c428bdb59bb71bf7ee47d"
+        },
+        "syp": {
+          "path": "syp",
+          "sha256": "375a07e934e8723034b891dfb563fa213bdb16b5bb43cc986030bf86adc3521c"
+        },
+        "sye": {
+          "path": "sye",
+          "sha256": "a86ae9bf66a5499ab2e35b35a5646b249def8be0f059d6249d5bff0678dc221b"
+        },
+        "sys": {
+          "path": "sys",
+          "sha256": "c312814f45406b2d0ac4bd84ae05a5af8ce502adeaa61340d30c9f09611647a9"
+        }
+      }
+    }
+  }
+}
