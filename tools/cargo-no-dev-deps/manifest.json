@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-no-dev-deps",
+  "version": "0.2.24",
+  "repository": "taiki-e/cargo-no-dev-deps",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/taiki-e/cargo-no-dev-deps/releases/download/v0.2.24/cargo-no-dev-deps-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.24",
+      "sha256": "2b149df2f2a4aec27122c0a5de7640378085c7d6cddc9fee46da28fb15a3b261",
+      "size": 528590,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-no-dev-deps": {
+          "path": "cargo-no-dev-deps",
+          "sha256": "37c71f09e4ce2ab72b77c8513568aafe67fbd79d0d0f3a4356d0340efedf20d1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/taiki-e/cargo-no-dev-deps/releases/download/v0.2.24/cargo-no-dev-deps-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.24",
+      "sha256": "61fe1afc1618173530bbe0b2a6f6221ae975a6102dc4d26803e375696e7abcb9",
+      "size": 509846,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-no-dev-deps": {
+          "path": "cargo-no-dev-deps",
+          "sha256": "86c907a9712d7794316bc1463d8f74bd0a2cbbf4deceec672808b54c938f1fec"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/taiki-e/cargo-no-dev-deps/releases/download/v0.2.24/cargo-no-dev-deps-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.24",
+      "sha256": "bf020f98b8bade3295d00e1e2fd2e95f6e9ef83644de7610c8aa49952bbc0fdb",
+      "size": 437897,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-no-dev-deps": {
+          "path": "cargo-no-dev-deps",
+          "sha256": "16a4fb9e2604ba58ccfe48a3ef9d9153ed79abae3edc7c37b000c313cd22a12e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/taiki-e/cargo-no-dev-deps/releases/download/v0.2.24/cargo-no-dev-deps-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.24",
+      "sha256": "283c0fbe4c9aa0709d2883e83773d077586ee68dc5e57dbf56d0b91b2c0ab8c0",
+      "size": 417805,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-no-dev-deps": {
+          "path": "cargo-no-dev-deps",
+          "sha256": "8c1f170c8edd43de86135ca004182973525e12302e44578d78d9c86564ab7c4d"
+        }
+      }
+    }
+  }
+}
