@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "vopono",
+  "version": "1.0.2",
+  "repository": "jamesmcm/vopono",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jamesmcm/vopono/releases/download/1.0.2/vopono_1.0.2_amd64.deb",
+      "sha256": "9249ca58db008d5b25fe63fd3190b653cefa486e9c56cf94e5c2b6c9ae017356",
+      "size": 4324400,
+      "format": "deb",
+      "releaseTag": "1.0.2",
+      "binaries": {
+        "vopono": {
+          "path": "./usr/bin/vopono",
+          "sha256": "013bc424c47ab9437ed03709bcf0812768b54bbdbcf00e8d122e32c7e98ee755"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jamesmcm/vopono/releases/download/1.0.2/vopono_1.0.2_arm64.deb",
+      "sha256": "8a1085282e65501cdae8741b80b25791b83ce12e93bba8046713bdde747fe9b0",
+      "size": 3700588,
+      "format": "deb",
+      "releaseTag": "1.0.2",
+      "binaries": {
+        "vopono": {
+          "path": "./usr/bin/vopono",
+          "sha256": "cdbdd24b899d0cdd37cf81486aec7850155d1d5d0871067cbf5b2547bc546527"
+        }
+      }
+    }
+  }
+}
