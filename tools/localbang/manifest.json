@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "localbang",
+  "version": "0.4.0",
+  "repository": "jakob-kruse/localbang",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jakob-kruse/localbang/releases/download/0.4.0/localbang_0.4.0_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.0",
+      "sha256": "44ee90fff1ea2a331d38cf981de543495e3142da24c7e383120a4694bfaf7c69",
+      "size": 2337568,
+      "format": "tar.gz",
+      "binaries": {
+        "localbang": {
+          "path": "localbang",
+          "sha256": "979c2882a89da3bc43a541023c3485005f0a91c5e05c6fc7751f0d0ee47f90e9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jakob-kruse/localbang/releases/download/0.4.0/localbang_0.4.0_x86_64-apple-darwin.zip",
+      "releaseTag": "0.4.0",
+      "sha256": "7900d129037fda5a4719b4f7290fd22012f080cc80ce25565a3aa959bd94b86e",
+      "size": 1369777,
+      "format": "zip",
+      "binaries": {
+        "localbang": {
+          "path": "localbang",
+          "sha256": "8a12c820dad29374926e2cbc8d6fbacd05167fafc7ff965b41c4b1b44b6e697c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jakob-kruse/localbang/releases/download/0.4.0/localbang_0.4.0_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "0.4.0",
+      "sha256": "f844d21ea29e7cb5dd639c2a6ccd86f63ff5aa73d914bc0a056def0ca7678619",
+      "size": 3411783,
+      "format": "zip",
+      "binaries": {
+        "localbang.exe": {
+          "path": "localbang.exe",
+          "sha256": "02ff707d1b2a7b933b9061108410f792326abd6af5ff76465fc5b84e294af874"
+        }
+      }
+    }
+  }
+}
