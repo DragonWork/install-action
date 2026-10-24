@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "downapk",
+  "version": "0.6.4",
+  "repository": "rabilrbl/downapk",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/rabilrbl/downapk/releases/download/v0.6.4/downapk-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.6.4",
+      "sha256": "857789a26654773652c7b7aec1a13c14e11ac422156aa85ae3be5d19fe5cafba",
+      "size": 5180928,
+      "format": "binary",
+      "binaries": {
+        "downapk.exe": {
+          "path": "downapk-x86_64-pc-windows-msvc.exe",
+          "sha256": "857789a26654773652c7b7aec1a13c14e11ac422156aa85ae3be5d19fe5cafba"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/rabilrbl/downapk/releases/download/v0.6.4/downapk-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.6.4",
+      "sha256": "c8da537a28eac01c4ec1be80c7e4d0e1bfcc704cd383c0d70ea8552e5f16ed0d",
+      "size": 4598784,
+      "format": "binary",
+      "binaries": {
+        "downapk.exe": {
+          "path": "downapk-aarch64-pc-windows-msvc.exe",
+          "sha256": "c8da537a28eac01c4ec1be80c7e4d0e1bfcc704cd383c0d70ea8552e5f16ed0d"
+        }
+      }
+    }
+  }
+}
