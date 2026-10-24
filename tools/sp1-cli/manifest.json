@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "sp1-cli",
+  "version": "6.10.0",
+  "repository": "succinctlabs/sp1",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/succinctlabs/sp1/releases/download/v6.10.0/cargo_prove_v6.10.0_linux_amd64.tar.gz",
+      "releaseTag": "v6.10.0",
+      "sha256": "10394a834a0ab325b3736a74d0b7087274f2c6a66e2b38f96ecf3e9ecdf9e7b5",
+      "size": 21138096,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-prove": {
+          "path": "cargo-prove",
+          "sha256": "b015a9bfc0114814f9a12735d6c4b13b78f2cad59e5e804160734156a3207759"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/succinctlabs/sp1/releases/download/v6.10.0/cargo_prove_v6.10.0_linux_arm64.tar.gz",
+      "releaseTag": "v6.10.0",
+      "sha256": "d8cf8d08a78e21729f3f86ffc2f20d9af3ecf4bc33ac281befde28942266b38a",
+      "size": 19932290,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-prove": {
+          "path": "cargo-prove",
+          "sha256": "376f7a910376f3dd290de530bb71ad4eeec6245653053f25f838ff199828ce9a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/succinctlabs/sp1/releases/download/v6.10.0/cargo_prove_v6.10.0_darwin_amd64.tar.gz",
+      "releaseTag": "v6.10.0",
+      "sha256": "3d2c73d9edf8106e18788fa1cb17cabf79d74ec7cced03c1f5432aca21f3396a",
+      "size": 18834547,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-prove": {
+          "path": "cargo-prove",
+          "sha256": "3e81b50a0719d65b69818dcc6acb9accabd925e4cf283fe16fbcf02a480b3ad6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/succinctlabs/sp1/releases/download/v6.10.0/cargo_prove_v6.10.0_darwin_arm64.tar.gz",
+      "releaseTag": "v6.10.0",
+      "sha256": "250cb4ff9f62f849995e939b3b501d394159fe2dedd9caaf9e73dba19004a462",
+      "size": 18135238,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-prove": {
+          "path": "cargo-prove",
+          "sha256": "a2ae8c8c226e59e85aeeaef1677b22b02aa1fcf80a146a105bc302118d03eb09"
+        }
+      }
+    }
+  }
+}
