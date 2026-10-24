@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "htmlq",
+  "version": "0.4.0",
+  "repository": "mgdm/htmlq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mgdm/htmlq/releases/download/v0.4.0/htmlq-x86_64-linux.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "4f63c8d9d835aa1f18f472da2eb5fc88295ede6aebcc7949fd428403707fc74a",
+      "size": 1828687,
+      "format": "tar.gz",
+      "binaries": {
+        "htmlq": {
+          "path": "htmlq",
+          "sha256": "dcf0419fe64ba99809ec49b78b1c5a2c72cec627ce8dc4deedb5c3b914035085"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mgdm/htmlq/releases/download/v0.4.0/htmlq-x86_64-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "2df22ac78faa315388855b1341974f84265f283ef409d2b40ce04f222513addf",
+      "size": 957416,
+      "format": "tar.gz",
+      "binaries": {
+        "htmlq": {
+          "path": "htmlq",
+          "sha256": "bc9ef8eacbbb32f7def4b03d09f4af26c383c71564f74bcdc46398c3ab24badc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mgdm/htmlq/releases/download/v0.4.0/htmlq-x86_64-windows.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "58b9bb55279da2a58acd1465e0448cc9556e280f8208f60a5f669b2bd4617005",
+      "size": 750092,
+      "format": "zip",
+      "binaries": {
+        "htmlq.exe": {
+          "path": "htmlq.exe",
+          "sha256": "af32d90d2704248cc8a29b077612023a72088e973d6ecb96f64f940dae15a1d3"
+        }
+      }
+    }
+  }
+}
