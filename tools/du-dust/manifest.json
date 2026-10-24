@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "du-dust",
+  "version": "1.2.6",
+  "repository": "bootandy/dust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.6",
+      "sha256": "cbf2cb5c9d6227e46fc4b29c03dc43b8632020dfc5cf269d263d6e29c399e044",
+      "size": 1256184,
+      "format": "tar.gz",
+      "binaries": {
+        "dust": {
+          "path": "dust-v1.2.6-x86_64-unknown-linux-musl/dust",
+          "sha256": "27dfc49595ee4ad0970f06ea5a21f6fe3ee857fffa0b786105531f03a91a0a3a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.6",
+      "sha256": "a51cf42a4654864837cc116eaca914271d7a09a9c2a60de90ecc2187b8d855a7",
+      "size": 1132997,
+      "format": "tar.gz",
+      "binaries": {
+        "dust": {
+          "path": "dust-v1.2.6-aarch64-unknown-linux-musl/dust",
+          "sha256": "8eeb14d287faf02e8a254276a238324b03ca9e45fef00c307ed6367d82344984"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.6",
+      "sha256": "7603c92462bd56305847732eb25d70ab06386d7bcfbce7532b7cf3937fd9684f",
+      "size": 1125641,
+      "format": "tar.gz",
+      "binaries": {
+        "dust": {
+          "path": "dust-v1.2.6-x86_64-apple-darwin/dust",
+          "sha256": "49b56f76047749931d600adfd910a139bbdedd60da5dcdc689ef51bd5091bbb3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.6",
+      "sha256": "5c37ee0d353165c73aedd6b21b9133182221efe08f9a5e76c082d9d6d5a0935d",
+      "size": 1044402,
+      "format": "tar.gz",
+      "binaries": {
+        "dust": {
+          "path": "dust-v1.2.6-aarch64-apple-darwin/dust",
+          "sha256": "9dc30575d39ca866b6d5c2b37fc79d541189c1834417c48935c64f1d2f096b9b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.6",
+      "sha256": "6a73222902d6960ce7183cd833a5d3ea99a3e3ff3cfb33720c1939a41cb7744d",
+      "size": 1087936,
+      "format": "zip",
+      "binaries": {
+        "dust.exe": {
+          "path": "dust-v1.2.6-x86_64-pc-windows-msvc/dust.exe",
+          "sha256": "a5808da05fba9a5ea11019d6692f66b7447a2e517ca6c7c950087d5eeb04d682"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.6",
+      "sha256": "43b14b97245452e8dd5506ab5fdc996ddd51c2f820c936d45210d3253b613062",
+      "size": 993034,
+      "format": "zip",
+      "binaries": {
+        "dust.exe": {
+          "path": "dust-v1.2.6-aarch64-pc-windows-msvc/dust.exe",
+          "sha256": "f1c353f879bd93b69220631b6983cf666b0c56dae67ea1492cc5c43be043b778"
+        }
+      }
+    }
+  }
+}
