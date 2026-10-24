@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "hg-git-fast-import",
+  "version": "1.5.0",
+  "repository": "kilork/hg-git-fast-import",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kilork/hg-git-fast-import/releases/download/v1.5.0/hg-git-fast-import-Linux-x86_64-musl.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "9234f6a18d5aeff036efdedf6b59b4e50b301a2731a722c70746c9e39085710a",
+      "size": 1660229,
+      "format": "tar.gz",
+      "binaries": {
+        "hg-git-fast-import": {
+          "path": "hg-git-fast-import",
+          "sha256": "04e4d270ba905ec5030ec3af000ba5f8643e78d94b4f1009d0c6100867d2b2e1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kilork/hg-git-fast-import/releases/download/v1.5.0/hg-git-fast-import-Linux-aarch64-musl.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "b1caf956d844f82b8acae0ed9ad9a7dbaea4147512c9cb3d0c589223d2432714",
+      "size": 1708544,
+      "format": "tar.gz",
+      "binaries": {
+        "hg-git-fast-import": {
+          "path": "hg-git-fast-import",
+          "sha256": "49b8ae42cf0a1766a5331451dd16055d6e23a5a2b8b4ce2db3d716beb94f04a0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kilork/hg-git-fast-import/releases/download/v1.5.0/hg-git-fast-import-Darwin-x86_64.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "b8723182780a70463e2f59f96a02584098271c8797378f180e68709dd8b8f981",
+      "size": 1517807,
+      "format": "tar.gz",
+      "binaries": {
+        "hg-git-fast-import": {
+          "path": "hg-git-fast-import",
+          "sha256": "df32bbaaa9447b1e3be9b4b93e67e3e0369c5bbeb04f94f9c3153e977292e9fd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kilork/hg-git-fast-import/releases/download/v1.5.0/hg-git-fast-import-Darwin-aarch64.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "55ea82cec23e349bf497765241d4fd2edd8665e5055e5f762da35fb6ba6dc07b",
+      "size": 1392790,
+      "format": "tar.gz",
+      "binaries": {
+        "hg-git-fast-import": {
+          "path": "hg-git-fast-import",
+          "sha256": "217914d3f6d3a3d24b03eaf5096afe0a1743256b092fdfe1ef339bfdeb1e95c0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kilork/hg-git-fast-import/releases/download/v1.5.0/hg-git-fast-import-Windows-x86_64.zip",
+      "releaseTag": "v1.5.0",
+      "sha256": "8ae6788a6ce9b56bc4af091a6deafd8e7807f0ab8fdedafdd572730d81972a9a",
+      "size": 1496951,
+      "format": "zip",
+      "binaries": {
+        "hg-git-fast-import.exe": {
+          "path": "hg-git-fast-import.exe",
+          "sha256": "f5cf4d45f4331a2b5a88aed6f0fb3c3a4393911a37d99c08e7489a5c1977ae18"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/kilork/hg-git-fast-import/releases/download/v1.5.0/hg-git-fast-import-Windows-aarch64.zip",
+      "releaseTag": "v1.5.0",
+      "sha256": "b3905b96035ced3ad382c42b19b2b51aaa9b98db5f2f152d6ed9836b444fa7ee",
+      "size": 1371703,
+      "format": "zip",
+      "binaries": {
+        "hg-git-fast-import.exe": {
+          "path": "hg-git-fast-import.exe",
+          "sha256": "f27b18179156b191c1221389d6e0c309a0d8ef3b728b5f97d18758c0f93d68fb"
+        }
+      }
+    }
+  }
+}
