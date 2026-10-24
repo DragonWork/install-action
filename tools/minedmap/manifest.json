@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "minedmap",
+  "version": "2.8.0",
+  "repository": "neocturne/MinedMap",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/neocturne/MinedMap/releases/download/v2.8.0/MinedMap-2.8.0-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v2.8.0",
+      "sha256": "e508a37dbb622a72690da059e3773bd93d3485eca70d455ddfd0a02ba684be22",
+      "size": 2494831,
+      "format": "zip",
+      "binaries": {
+        "minedmap": {
+          "path": "MinedMap-2.8.0-x86_64-unknown-linux-gnu/minedmap",
+          "sha256": "0a5dc49cc667bb4b5ad00af76f22734da76e795e24a8528a904021e5d0f1c7da"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/neocturne/MinedMap/releases/download/v2.8.0/MinedMap-2.8.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.8.0",
+      "sha256": "10dd1aa4e7875628e27847081f6fa81cf5022d4f949518bbcff9ded72b41ed17",
+      "size": 2163357,
+      "format": "zip",
+      "binaries": {
+        "minedmap.exe": {
+          "path": "MinedMap-2.8.0-x86_64-pc-windows-msvc/minedmap.exe",
+          "sha256": "e0dc0b58cf9fb46d9510743b868445733c6bea20824d7df13eadd4430ea6a80c"
+        }
+      }
+    }
+  }
+}
