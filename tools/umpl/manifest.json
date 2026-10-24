@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "umpl",
+  "version": "1.1.1",
+  "repository": "mendelsshop/UMPL",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mendelsshop/UMPL/releases/download/v1.1.1/umpl_linux",
+      "sha256": "ec7cca80ab2a4df9e69d9a7d940b687a84f038fa1dea841653ac12ab21682503",
+      "size": 6851976,
+      "format": "binary",
+      "releaseTag": "v1.1.1",
+      "binaries": {
+        "umpl": {
+          "path": "umpl_linux",
+          "sha256": "ec7cca80ab2a4df9e69d9a7d940b687a84f038fa1dea841653ac12ab21682503"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mendelsshop/UMPL/releases/download/v1.1.1/umpl_macos",
+      "sha256": "7b3a1b2f45afc655f0cfc66ab7e7ecd435d61d61358621fd659ecb65090d5d9c",
+      "size": 2702640,
+      "format": "binary",
+      "releaseTag": "v1.1.1",
+      "binaries": {
+        "umpl": {
+          "path": "umpl_macos",
+          "sha256": "7b3a1b2f45afc655f0cfc66ab7e7ecd435d61d61358621fd659ecb65090d5d9c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mendelsshop/UMPL/releases/download/v1.1.1/umpl_windows.exe",
+      "sha256": "081f876dcd5bf636a401424b359e62b412d60636dd3755922669196484679872",
+      "size": 2008576,
+      "format": "binary",
+      "releaseTag": "v1.1.1",
+      "binaries": {
+        "umpl.exe": {
+          "path": "umpl_windows.exe",
+          "sha256": "081f876dcd5bf636a401424b359e62b412d60636dd3755922669196484679872"
+        }
+      }
+    }
+  }
+}
