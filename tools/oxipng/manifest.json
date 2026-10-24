@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "oxipng",
+  "version": "10.2.1",
+  "repository": "oxipng/oxipng",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/oxipng/oxipng/releases/download/v10.2.1/oxipng-10.2.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v10.2.1",
+      "sha256": "1813750ef592c5350ca79c88f98b2c0876d05c826dc7156245256d4255c1ad17",
+      "size": 528412,
+      "format": "tar.gz",
+      "binaries": {
+        "oxipng": {
+          "path": "oxipng-10.2.1-x86_64-unknown-linux-musl/oxipng",
+          "sha256": "df8f3e79e6ef06d8515d4949d19d872ae4e82fe16bc1fe6ad1efe181e3a21780"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/oxipng/oxipng/releases/download/v10.2.1/oxipng-10.2.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v10.2.1",
+      "sha256": "ff21aa2a005b324c8dfbdf13cd2f469fb6728b27dacded82635824ecd12e3b35",
+      "size": 492703,
+      "format": "tar.gz",
+      "binaries": {
+        "oxipng": {
+          "path": "oxipng-10.2.1-aarch64-unknown-linux-musl/oxipng",
+          "sha256": "80d7955f81ee1c0279116b528a1675200717568e456d0ad2cf983882ff351fab"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/oxipng/oxipng/releases/download/v10.2.1/oxipng-10.2.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v10.2.1",
+      "sha256": "111883bbe42b25e01cb1ca41f39f8094e4830b173f0e42be342ecc4ca48f3131",
+      "size": 465586,
+      "format": "tar.gz",
+      "binaries": {
+        "oxipng": {
+          "path": "oxipng-10.2.1-x86_64-apple-darwin/oxipng",
+          "sha256": "b9f6bace13541441cd6dc9f3f80695f9dbf94db89c4f51209214d14936ae71c6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/oxipng/oxipng/releases/download/v10.2.1/oxipng-10.2.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v10.2.1",
+      "sha256": "7039fcfc78e8aa1ed2b57d848057a0296f082e92b3e1807ac65402d10d926764",
+      "size": 413379,
+      "format": "tar.gz",
+      "binaries": {
+        "oxipng": {
+          "path": "oxipng-10.2.1-aarch64-apple-darwin/oxipng",
+          "sha256": "275a2049091caf576be74b838df4675fbb179c9f2d118cec44ea1521e54fc45e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/oxipng/oxipng/releases/download/v10.2.1/oxipng-10.2.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v10.2.1",
+      "sha256": "7e940f83ee46874b73f53031f96a15834cb70b220af27391fb06fe7b4dd798e1",
+      "size": 497302,
+      "format": "zip",
+      "binaries": {
+        "oxipng.exe": {
+          "path": "oxipng-10.2.1-x86_64-pc-windows-msvc/oxipng.exe",
+          "sha256": "35ae3980ab831af64f4aecc98f69b81bfa146fa750a61d17ebbb12520128cbc8"
+        }
+      }
+    }
+  }
+}
