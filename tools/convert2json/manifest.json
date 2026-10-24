@@ -1,0 +1,275 @@
+{
+  "schema": 1,
+  "name": "convert2json",
+  "version": "2.6.4",
+  "repository": "simonrupf/convert2json",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/simonrupf/convert2json/releases/download/2.6.4/convert2json-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "2.6.4",
+      "sha256": "dd6f4475eb545a6139ef690f792bb2c324380f7ef5ffcceac5f6cc7a46b3e89e",
+      "size": 5550984,
+      "format": "tar.gz",
+      "binaries": {
+        "bson2json": {
+          "path": "bson2json",
+          "sha256": "c89f614995cbb47d38fc2a64b39cfb31b4e5f13a6e239e26550fc25cd8879050"
+        },
+        "bsonq": {
+          "path": "bsonq",
+          "sha256": "b9c8d6356af60955ca71bbfc99629f37303ec247d7980eb28a246e578964873c"
+        },
+        "cbor2json": {
+          "path": "cbor2json",
+          "sha256": "29c47df4be7ee924c6a1e0517f9e0648c91a16432004b9504d728db2355c927a"
+        },
+        "cborq": {
+          "path": "cborq",
+          "sha256": "037e6da1bba0e942dc20acd577bcecd627b3e082e3ac2b06d59bd52dda64ea0e"
+        },
+        "cq": {
+          "path": "cq",
+          "sha256": "9fe67a12f111dbe453537e54ab871a48b78feb7ae722ff5d5ea62b60b8c68322"
+        },
+        "csv2json": {
+          "path": "csv2json",
+          "sha256": "d30f69aa6df318c8d6c3cb74e894b99e554d945325104f64173d69639005e34a"
+        },
+        "ini2json": {
+          "path": "ini2json",
+          "sha256": "964beb8dbfff6ff953ad81b7ac79ca539dbfee25a5f95e65ccf9b9993ee9deeb"
+        },
+        "iq": {
+          "path": "iq",
+          "sha256": "e1e3b4a24e982bbb25d658ff4599c7af18ad67206313234f17ffe3e156efdb10"
+        },
+        "msg2json": {
+          "path": "msg2json",
+          "sha256": "5b79557abc9b1e50575bd532e3c6f896a67553a5ac413f70c20af04879e08fe7"
+        },
+        "msgq": {
+          "path": "msgq",
+          "sha256": "82c1b476b9f5ce1331ea252aa7eb19b1c94ef3bcdf13ffa3b5db8f306f36dfc6"
+        },
+        "plist2json": {
+          "path": "plist2json",
+          "sha256": "16706be837ce6df1845c1130be13c677e3e2abde5fb3ce0f2cb22948a21f2090"
+        },
+        "plistq": {
+          "path": "plistq",
+          "sha256": "78a948049e4f85a9fd2a0fa38de8d878bd652bf663b86a599d4d1f941b96f066"
+        },
+        "rq": {
+          "path": "rq",
+          "sha256": "a3668f7a3f4434c803a788a72c0b7bbd7f9175ff0699f74d560b76de6b08b555"
+        },
+        "rsv2json": {
+          "path": "rsv2json",
+          "sha256": "ae50a072af2d6217eb59713839ce23a37d5a4a58d30957ce6bffe7349f2f9b91"
+        },
+        "toml2json": {
+          "path": "toml2json",
+          "sha256": "8c2ebfb66f1d03ea1dac3c1d1d613e244ec5dcebe203ec5ffcd51610944f17b4"
+        },
+        "tq": {
+          "path": "tq",
+          "sha256": "c964588aaad36c3cf182d7e3cc34ca8eb094e9d54983ea275a2468324f676379"
+        },
+        "xml2json": {
+          "path": "xml2json",
+          "sha256": "db8980a493334c6b9cb4fdf6846c14d183c8e0e1a11f0f42de7ba135e4ebac7f"
+        },
+        "xq": {
+          "path": "xq",
+          "sha256": "01640d888bdbd1adc86695946d60b87560eea9214f14ad6f9f47e0396f4c7c9e"
+        },
+        "yaml2json": {
+          "path": "yaml2json",
+          "sha256": "1d920405cfc66ccaff8f62d7112eaca0819ed7ee7d84dbf9f9dcedcb92a5a644"
+        },
+        "yq": {
+          "path": "yq",
+          "sha256": "c79a7184a16b5e51106c9d8e37883be42258f8371da47ee15375eedac4450cf3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/simonrupf/convert2json/releases/download/2.6.4/convert2json-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "2.6.4",
+      "sha256": "a8cccf575f11ecdc40468b739041002bb89dbdbb34a64bf83a99a33e5eaa9f8b",
+      "size": 5244903,
+      "format": "tar.gz",
+      "binaries": {
+        "bson2json": {
+          "path": "bson2json",
+          "sha256": "da206c8a7d34af488f5e8755c09a97a17414bd7d24e589d1d9ed6d49250c14f8"
+        },
+        "bsonq": {
+          "path": "bsonq",
+          "sha256": "0e6b9d55aad9815e9fc0618a814813c3e41362644f725e23f72dfb93eefe39c6"
+        },
+        "cbor2json": {
+          "path": "cbor2json",
+          "sha256": "2ff04e84a9492b8d9a3225a35c06ffbfdeb5869be5a2b6c9d590fa0d76d52734"
+        },
+        "cborq": {
+          "path": "cborq",
+          "sha256": "2b406a4d132e4d89258b24f252ce2eedfdc7e02a24c54298511bdb625dcc99d9"
+        },
+        "cq": {
+          "path": "cq",
+          "sha256": "d2d5ddbce73172afa15a8ed5e50a2747996140de8bc294b1f168141b3c5f9fb3"
+        },
+        "csv2json": {
+          "path": "csv2json",
+          "sha256": "9730b9ce0fadf4958eaf73cfcceaabdc2f903e98c1fd2119e11a3dff689405a9"
+        },
+        "ini2json": {
+          "path": "ini2json",
+          "sha256": "3d0c383c9574c868488790b73a4b702668b8ad7f0815bcc51f60e615e7684c8c"
+        },
+        "iq": {
+          "path": "iq",
+          "sha256": "aead51b2263379bf972e332edc8343616c6fe378b6f1cd4fb180af663a0aa830"
+        },
+        "msg2json": {
+          "path": "msg2json",
+          "sha256": "c790922706d4ee43a31e46020ec2727225626d2de667c10c847a44bec2b12026"
+        },
+        "msgq": {
+          "path": "msgq",
+          "sha256": "db1bb7457ccc356adae8bd6cc0ac13c071533aa52bab5e97c61c8da9672f7d6f"
+        },
+        "plist2json": {
+          "path": "plist2json",
+          "sha256": "cc567775c4260875bcf4a58b537706838b900a60731c474e96c46dc0359a3002"
+        },
+        "plistq": {
+          "path": "plistq",
+          "sha256": "86b15629f61526c2c4a172003531825530f05310eea4a5394f33d7610c202089"
+        },
+        "rq": {
+          "path": "rq",
+          "sha256": "cce898a2dedfd112a53de5a73517126aaecd6d21ae5f5b952d973cebe81155de"
+        },
+        "rsv2json": {
+          "path": "rsv2json",
+          "sha256": "81b98c4edf44e49ae84035c3ebc325fd164b6afa084e42ac9b37c978ed9510a0"
+        },
+        "toml2json": {
+          "path": "toml2json",
+          "sha256": "228fc9a8ee34534abf098e1aa97b0df7313f723f2492412b32a2dec68c56f17d"
+        },
+        "tq": {
+          "path": "tq",
+          "sha256": "2afad16ea9224566d3a8165d9ff201399d8bf51b03c0b3e46d35e3865eb1778f"
+        },
+        "xml2json": {
+          "path": "xml2json",
+          "sha256": "3c8e774343d417077619677c6c72dc5f139cb9573d95d72d23d73e639a0616e8"
+        },
+        "xq": {
+          "path": "xq",
+          "sha256": "ed18c25de9cb04905b13155f582578a34185949e7887a882dc61af5cb25b52d0"
+        },
+        "yaml2json": {
+          "path": "yaml2json",
+          "sha256": "94440d6a100cfe445ed939c8563cbb867099fc6afffe505c34e41aae657be569"
+        },
+        "yq": {
+          "path": "yq",
+          "sha256": "9f94abdc208d30cfb91366f90f344f864c4df18898d7d56180f908b6b46ae241"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/simonrupf/convert2json/releases/download/2.6.4/convert2json-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "2.6.4",
+      "sha256": "05cea0f2ba0ae2d8c6f93521c55774f5d723bb9dbb6dc07cba2abc6ed9398abc",
+      "size": 3671826,
+      "format": "zip",
+      "binaries": {
+        "bson2json.exe": {
+          "path": "bson2json.exe",
+          "sha256": "b5f152b8b0dc2835a76a52cdad83b9d7d6a987517c5ec8bbb4ab41d32079e503"
+        },
+        "bsonq.exe": {
+          "path": "bsonq.exe",
+          "sha256": "97af958f940c00a68ae57f4f88e733905b775e06f65a2655b6fc66916237a1a2"
+        },
+        "cbor2json.exe": {
+          "path": "cbor2json.exe",
+          "sha256": "3137e0738c60cb7a96656dd9cd99b2b7b8a055cbb66febab8c55c417aa6fe40e"
+        },
+        "cborq.exe": {
+          "path": "cborq.exe",
+          "sha256": "849f79c70e6077af3bc7d4597ae85889988ea61a0e50e271332a8215b91c86c8"
+        },
+        "cq.exe": {
+          "path": "cq.exe",
+          "sha256": "810524fb526619ac683c5f87ad11f45cd2739a9c83d5f601344424b19c9848a9"
+        },
+        "csv2json.exe": {
+          "path": "csv2json.exe",
+          "sha256": "36409f2c32a5b1a4080368c7cce1fd80ea61712bd3b39d2ce93f335c76fe10fd"
+        },
+        "ini2json.exe": {
+          "path": "ini2json.exe",
+          "sha256": "034d6677ab2313edd47a8839ef791091f9fc0d1652caae0e63bfc19fe1d7f549"
+        },
+        "iq.exe": {
+          "path": "iq.exe",
+          "sha256": "cb0dbac6b3b2f328b2a41be506e6f98fad35546ac079b7ca8f0de3d4f004feaf"
+        },
+        "msg2json.exe": {
+          "path": "msg2json.exe",
+          "sha256": "492624646b135be16275110913eaba21480a437d26f6cf4ad1bb61dfcbbaa41c"
+        },
+        "msgq.exe": {
+          "path": "msgq.exe",
+          "sha256": "8d7b19aac1031e6f04f9534868a972949eb93c939a66956e7bf687f4ebdd95d0"
+        },
+        "plist2json.exe": {
+          "path": "plist2json.exe",
+          "sha256": "f875cb8e6264fe2dc5d83d7e1ff18779bc15bd4f2920140a0bdda5a772c98827"
+        },
+        "plistq.exe": {
+          "path": "plistq.exe",
+          "sha256": "31140d528ff29de86c6bf89764838a35b6082cc386a0e5ab37e1cac54e29bb7e"
+        },
+        "rq.exe": {
+          "path": "rq.exe",
+          "sha256": "a277c5e410b031c72f6f01e1a7498f7bff6663c3fbcb77acd5bd5dbb7531c60b"
+        },
+        "rsv2json.exe": {
+          "path": "rsv2json.exe",
+          "sha256": "c17b576b42dfe9a42144e1850463b1cebae1df450f2560bfe25c7f2547e7b402"
+        },
+        "toml2json.exe": {
+          "path": "toml2json.exe",
+          "sha256": "a3892915bfd1b22b1764e9a0ae529b98c4e61fd72b5d077c61db095b8cf7dbd6"
+        },
+        "tq.exe": {
+          "path": "tq.exe",
+          "sha256": "8dd06521d49196c8ebca7db86f2817dc1078a4046709a14bd2a4d247b9f627bc"
+        },
+        "xml2json.exe": {
+          "path": "xml2json.exe",
+          "sha256": "5c6057a4918b1f364ef36f4a03dc3c99aaa264210ee4dba77aa254cbb6b4a368"
+        },
+        "xq.exe": {
+          "path": "xq.exe",
+          "sha256": "d4f288250d91a3590811283c6e1004df5b80c74f7879e105aea9350bd90b2975"
+        },
+        "yaml2json.exe": {
+          "path": "yaml2json.exe",
+          "sha256": "ac9c62027dbc750681664c618ea70106d2f53a8b37cc27b942d937b3ee3f9085"
+        },
+        "yq.exe": {
+          "path": "yq.exe",
+          "sha256": "7e1e0320f7e84c8c84734262905a5b45f357a9572017c7ed98c7c82b82dda9a3"
+        }
+      }
+    }
+  }
+}
