@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_stdbuf",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "stdbuf.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/stdbuf.exe",
+          "sha256": "e6ac6d1bd27e057b70c9b9dd4b500c2bf8b56d5b2ec8b959bebc5e7baa0c1c97"
+        }
+      }
+    }
+  }
+}
