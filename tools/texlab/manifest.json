@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "texlab",
+  "version": "4.3.2",
+  "repository": "latex-lsp/texlab",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/latex-lsp/texlab/releases/download/v4.3.2/texlab-x86_64-linux.tar.gz",
+      "releaseTag": "v4.3.2",
+      "sha256": "60fe87dfc93bfb11e16c73213c965d91a7fa33772e97eefb99b2738e66ab3ce0",
+      "size": 10484355,
+      "format": "tar.gz",
+      "binaries": {
+        "texlab": {
+          "path": "texlab",
+          "sha256": "f61984b4c2babed649770b6c45c34dd92ccc398034242a510ad85f59970962c6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/latex-lsp/texlab/releases/download/v4.3.2/texlab-aarch64-linux.tar.gz",
+      "releaseTag": "v4.3.2",
+      "sha256": "467d06d94bfead6a8d5cc07542b9b0296571de73fe78a7caeef3705c2ea94cf6",
+      "size": 10441513,
+      "format": "tar.gz",
+      "binaries": {
+        "texlab": {
+          "path": "texlab",
+          "sha256": "7a4ebe66cc77f6b23e184817cceb6f385868d654e6bf02df02b3786a0bddb314"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/latex-lsp/texlab/releases/download/v4.3.2/texlab-x86_64-macos.tar.gz",
+      "releaseTag": "v4.3.2",
+      "sha256": "7f6a80c00e1b8b498b4b5b11b99cb368f06d487cbc85692033771bcd5ab0eb64",
+      "size": 9577257,
+      "format": "tar.gz",
+      "binaries": {
+        "texlab": {
+          "path": "texlab",
+          "sha256": "3382d4a0bbb36711526f380f6dddd4945448c93debd11c914c9a58f1ed2ef7c1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/latex-lsp/texlab/releases/download/v4.3.2/texlab-aarch64-macos.tar.gz",
+      "releaseTag": "v4.3.2",
+      "sha256": "8eace25b191016ec650841aa9b11b62d6d4e322849e4828827a2e73602fd0d72",
+      "size": 9593754,
+      "format": "tar.gz",
+      "binaries": {
+        "texlab": {
+          "path": "texlab",
+          "sha256": "71855f56db17ece4919724be78b917f59e0e793ff54d0dd7c11644215f69a96b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/latex-lsp/texlab/releases/download/v4.3.2/texlab-x86_64-windows.zip",
+      "releaseTag": "v4.3.2",
+      "sha256": "103f6ab875d1709e961ff2631ac0d5fd9ec69b539dd6a34467f718123c9fe1dc",
+      "size": 9393403,
+      "format": "zip",
+      "binaries": {
+        "texlab.exe": {
+          "path": "texlab.exe",
+          "sha256": "99d2c7410dfef67cfbb0aeb6dd503297b27e4ad5935a0c9e2cb9710c3dc11643"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/latex-lsp/texlab/releases/download/v4.3.2/texlab-aarch64-windows.zip",
+      "releaseTag": "v4.3.2",
+      "sha256": "edecd1beef83d9e7af231c64c4ebb75ec7a6741169bd0a4b0bb2175d1c8e272f",
+      "size": 9287226,
+      "format": "zip",
+      "binaries": {
+        "texlab.exe": {
+          "path": "texlab.exe",
+          "sha256": "6b789d2c64d9730c759c51014569689b83945fad37ea2dc3844f2c96ed2de358"
+        }
+      }
+    }
+  }
+}
