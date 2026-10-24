@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tagref",
+  "version": "1.14.0",
+  "repository": "stepchowfun/tagref",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/stepchowfun/tagref/releases/download/v1.14.0/tagref-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v1.14.0",
+      "sha256": "df2c395fe092a1c8806bb20fbc6dba16e6e737502e14d340152d2a1aed69994d",
+      "size": 3079680,
+      "format": "binary",
+      "binaries": {
+        "tagref.exe": {
+          "path": "tagref-x86_64-pc-windows-msvc.exe",
+          "sha256": "df2c395fe092a1c8806bb20fbc6dba16e6e737502e14d340152d2a1aed69994d"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/stepchowfun/tagref/releases/download/v1.14.0/tagref-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v1.14.0",
+      "sha256": "4b2b34b36d53ca10b20e5149535e92e7bb50ac44cdcad8ced270f1d548bf22e5",
+      "size": 2659840,
+      "format": "binary",
+      "binaries": {
+        "tagref.exe": {
+          "path": "tagref-aarch64-pc-windows-msvc.exe",
+          "sha256": "4b2b34b36d53ca10b20e5149535e92e7bb50ac44cdcad8ced270f1d548bf22e5"
+        }
+      }
+    }
+  }
+}
