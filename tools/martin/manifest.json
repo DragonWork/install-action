@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "martin",
+  "version": "1.16.1",
+  "repository": "maplibre/martin",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/maplibre/martin/releases/download/martin-v1.16.1/martin-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "831df5399bb573a8b6bc01dbb38be5938c0e95501e715403d9eacd9143b33348",
+      "size": 39784027,
+      "format": "tar.gz",
+      "releaseTag": "martin-v1.16.1",
+      "binaries": {
+        "martin": {
+          "path": "martin",
+          "sha256": "869ffc2146f9f3dc201ced72e4d249fe176b3fe515b230fd49f9afc6df34aee1"
+        },
+        "martin-cp": {
+          "path": "martin-cp",
+          "sha256": "9d4cc7292ff7b6c61381c051f3ca337eaae8ca33dd7f60234774161d75c9fa43"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/maplibre/martin/releases/download/martin-v1.16.1/martin-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "6802b55c378d6a38180d881d306f53c17ac4ebbb35893aa94204907b0f08fd1c",
+      "size": 36967295,
+      "format": "tar.gz",
+      "releaseTag": "martin-v1.16.1",
+      "binaries": {
+        "martin": {
+          "path": "martin",
+          "sha256": "f233c74b29198986aa29287c4841f9d8cd99c8c82cab191f401a25df774539f0"
+        },
+        "martin-cp": {
+          "path": "martin-cp",
+          "sha256": "3340c32cea6b46300d64699c10e51e1eb6db7965a9a0d3346307a352207c5019"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/maplibre/martin/releases/download/martin-v1.16.1/martin-aarch64-apple-darwin.tar.gz",
+      "sha256": "bed1b880a818f301b0f5964ea5114c84fc3ca6987e228f538838134b33ba85c3",
+      "size": 36767755,
+      "format": "tar.gz",
+      "releaseTag": "martin-v1.16.1",
+      "binaries": {
+        "martin": {
+          "path": "martin",
+          "sha256": "19f1ee26c73697323cf91851350f90907d88e3bf436e142f28d197758d318720"
+        },
+        "martin-cp": {
+          "path": "martin-cp",
+          "sha256": "0a7880f8f0f8a9e00403616195074540105233f3b941bb482dfb8edaed57fe48"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/maplibre/martin/releases/download/martin-v1.16.1/martin-x86_64-pc-windows-msvc.zip",
+      "sha256": "cbe4f7f78361e27b7f77973c6b2f487fe6fdd466900d9e50811d707e3c6fe206",
+      "size": 39083287,
+      "format": "zip",
+      "releaseTag": "martin-v1.16.1",
+      "binaries": {
+        "martin.exe": {
+          "path": "martin.exe",
+          "sha256": "a4f358a52b55c7e6c6e2a7fff95596d394877fa971039b0fd446359835e52c16"
+        },
+        "martin-cp.exe": {
+          "path": "martin-cp.exe",
+          "sha256": "34c643e75e650f0e3c6cfecfb489a56158cd28da21d5502c156d86aac08e1f15"
+        }
+      }
+    }
+  }
+}
