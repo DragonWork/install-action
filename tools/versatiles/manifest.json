@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "versatiles",
+  "version": "5.4.0",
+  "repository": "versatiles-org/versatiles-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.4.0/versatiles-linux-gnu-x86_64.tar.gz",
+      "releaseTag": "v5.4.0",
+      "sha256": "153f7aff8987cb50903c5e96c509c9d37b40251f1cc2e4f2eccd22bd32aac288",
+      "size": 13777157,
+      "format": "tar.gz",
+      "binaries": {
+        "versatiles": {
+          "path": "versatiles",
+          "sha256": "ffd580ba5fdc7f5c0f0234c4c76507679ecf418a63f00606f6bd2bbaf07d1474"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.4.0/versatiles-linux-gnu-aarch64.tar.gz",
+      "releaseTag": "v5.4.0",
+      "sha256": "ccd5389b5dc198ff82d6a00599d448de6aa6f9dbb55cd22901e5bfbb8ee361d7",
+      "size": 12838505,
+      "format": "tar.gz",
+      "binaries": {
+        "versatiles": {
+          "path": "versatiles",
+          "sha256": "9178a3a370d32cedaeae1bbdc2e9543d7a2584bb33e17abc5a7b50f730ac97b7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.4.0/versatiles-macos-x86_64.tar.gz",
+      "releaseTag": "v5.4.0",
+      "sha256": "16bb26fab1f332f4318381fe4d6e4780d8511220d769de5f2b264a3a15f593ff",
+      "size": 13350571,
+      "format": "tar.gz",
+      "binaries": {
+        "versatiles": {
+          "path": "versatiles",
+          "sha256": "df837d08ad9f880f331bd5d741b2cc8ee42c2ce7c470bb538161771a722887be"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.4.0/versatiles-macos-aarch64.tar.gz",
+      "releaseTag": "v5.4.0",
+      "sha256": "1bd60d25f769cfaf46aa1df5775788b02486fae2a90203dd87c2335f136edbe8",
+      "size": 12228254,
+      "format": "tar.gz",
+      "binaries": {
+        "versatiles": {
+          "path": "versatiles",
+          "sha256": "51dd57d4ed65fa38094ab43cb45afbf4b254bfc73451384cd9fa8a47b10fbb93"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.4.0/versatiles-windows-x86_64.tar.gz",
+      "releaseTag": "v5.4.0",
+      "sha256": "37845be69beff9f17fa35431d271847231169dd398e2c594484d1fd229c4142c",
+      "size": 13553242,
+      "format": "tar.gz",
+      "binaries": {
+        "versatiles.exe": {
+          "path": "versatiles.exe",
+          "sha256": "c0d5e9e1f5107f5761cdc7bc56d6f502cfa1e7f80eab4c4cc12c3a7bf6e8df28"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.4.0/versatiles-windows-aarch64.tar.gz",
+      "releaseTag": "v5.4.0",
+      "sha256": "15515f783bfeb60a1a93984fda75f110879bfbec16d610687077ef5b9f6ac909",
+      "size": 12533372,
+      "format": "tar.gz",
+      "binaries": {
+        "versatiles.exe": {
+          "path": "versatiles.exe",
+          "sha256": "ea387ee52fb33f9931a865c0cac9aede4b032dec446d59d50b40c55cca4c1bf0"
+        }
+      }
+    }
+  }
+}
