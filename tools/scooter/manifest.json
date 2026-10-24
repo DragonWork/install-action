@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "scooter",
+  "version": "0.10.0",
+  "repository": "thomasschafer/scooter",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thomasschafer/scooter/releases/download/v0.10.0/scooter-v0.10.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "9cee6b97cfc1c7afd663244fb6a06c32a5fe14f999f7cc88407ae2dc7fbd2464",
+      "size": 4150633,
+      "format": "tar.gz",
+      "binaries": {
+        "scooter": {
+          "path": "scooter",
+          "sha256": "4f750363c2a589ef8536b6b777293748af02a19b31a8ece2b01c4e1dc8bd6878"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/thomasschafer/scooter/releases/download/v0.10.0/scooter-v0.10.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "0f929cde5c1896762fed4a6f5495af2398a52f23d7c6a7f631964400aa6a776d",
+      "size": 3970763,
+      "format": "tar.gz",
+      "binaries": {
+        "scooter": {
+          "path": "scooter",
+          "sha256": "d9f1504b478166fe90f54839e4d3e905713df599e7a831cb2adb50aa6f20f5a1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thomasschafer/scooter/releases/download/v0.10.0/scooter-v0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "5467ee9cfeaa124f9bd91f8fbf0b1e9daf5cd0f25c17fdd201fe6e9855dc9d34",
+      "size": 3934731,
+      "format": "tar.gz",
+      "binaries": {
+        "scooter": {
+          "path": "scooter",
+          "sha256": "f96a2a547699efcc1d8412f98f3acfcad62aca918e24261b67ba5ef228e3e850"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/thomasschafer/scooter/releases/download/v0.10.0/scooter-v0.10.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "8903344ce77558b9cd1f75a4971f525df1585b1e53916fba015010f729ec1a87",
+      "size": 3780484,
+      "format": "tar.gz",
+      "binaries": {
+        "scooter": {
+          "path": "scooter",
+          "sha256": "69afd2eb7e67cef0411d6a01d539928c892624a6438e135026c1f98a0168efbe"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/thomasschafer/scooter/releases/download/v0.10.0/scooter-v0.10.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "a721360286ddbe045bbe4efdf73f40a1d1f25d35bad26bf2cc49080d53a9f505",
+      "size": 3709507,
+      "format": "zip",
+      "binaries": {
+        "scooter.exe": {
+          "path": "scooter.exe",
+          "sha256": "77136384fc8a84080ddfa46cfda7ed8d6a17f0f7085f5b982002e71dc59bf344"
+        }
+      }
+    }
+  }
+}
