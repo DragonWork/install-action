@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "yexp",
+  "version": "0.2.2",
+  "repository": "fixcik/yexp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fixcik/yexp/releases/download/v0.2.2/yexp-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "a83627e32f99dc36fbc3647eb9fcbbe25de58672bce84fc234bfb3e5e49c34ce",
+      "size": 665188,
+      "format": "tar.gz",
+      "binaries": {
+        "yexp": {
+          "path": "yexp",
+          "sha256": "238ab274ef050c60cec652d8843e155c54aa23147a39b7d65554adb4c3b2a555"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/fixcik/yexp/releases/download/v0.2.2/yexp-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "3b5e53bddaf41d67581bb6b1fcc2244c296bceba02b7d222c7505a3de1ec91ea",
+      "size": 623180,
+      "format": "tar.gz",
+      "binaries": {
+        "yexp": {
+          "path": "yexp",
+          "sha256": "544e1f5977a63046a28bf7fbf6c55a5d2fd737aa37be6a6ef8dcdbe0503ca3c2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/fixcik/yexp/releases/download/v0.2.2/yexp-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.2",
+      "sha256": "b492e819e4c2eadfd25eb02107c04b370a6e96e766884389fa1fe78feb5a60ea",
+      "size": 479650,
+      "format": "zip",
+      "binaries": {
+        "yexp.exe": {
+          "path": "yexp.exe",
+          "sha256": "5de61df9434d3027770a912436e0529488eb932089f59f819662d491e13fab1d"
+        }
+      }
+    }
+  }
+}
