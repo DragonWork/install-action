@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "name": "cargo-docs",
+  "version": "0.1.35",
+  "repository": "btwiuse/cargo-docs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/btwiuse/cargo-docs/releases/download/v0.1.35/cargo-docs-v0.1.35-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.35",
+      "sha256": "d74a009c9442fcbf4c402c327df577f73eec184808a67af64af918d26e5304dc",
+      "size": 24050899,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-book": {
+          "path": "cargo-book",
+          "sha256": "337b9276b1446f21b0677f3dc1a94e6165c98a900b6ad6a4e583c5e499b8855d"
+        },
+        "cargo-docs": {
+          "path": "cargo-docs",
+          "sha256": "0d21ba92ddc9d4d395b58dc7489876900de87fe0ca149679ad42d39f3d443be0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/btwiuse/cargo-docs/releases/download/v0.1.35/cargo-docs-v0.1.35-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.35",
+      "sha256": "db33b9040e131b78452d83b3b7b47b97c1e77cae2c9f7477eeea8f762fb5c358",
+      "size": 23671129,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-book": {
+          "path": "cargo-book",
+          "sha256": "6a8f0c783cd69a6c6760e27b1970fd9103f133d816f68290132b3039b40f541c"
+        },
+        "cargo-docs": {
+          "path": "cargo-docs",
+          "sha256": "7d31dbcfa8d594a2db017c085abe9763705ead55893d1ebd27e074278d9e13e7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/btwiuse/cargo-docs/releases/download/v0.1.35/cargo-docs-v0.1.35-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.1.35",
+      "sha256": "6f1f9b29cb3c1011d066c2d0455ad6f7b42c1a0148160aec88f22eee232ab9f5",
+      "size": 30400666,
+      "format": "zip",
+      "binaries": {
+        "cargo-book.exe": {
+          "path": "cargo-book.exe",
+          "sha256": "c7c68cfb289c125f9e976e497df76b1e640e79c8e71e6ca972ff5ff42c4da610"
+        },
+        "cargo-docs.exe": {
+          "path": "cargo-docs.exe",
+          "sha256": "9d41f84d59691e6d386907c92587130bb312dda6c644bf938d9a4d3c57836a46"
+        }
+      }
+    }
+  }
+}
