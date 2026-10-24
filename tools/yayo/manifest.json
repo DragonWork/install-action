@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "yayo",
+  "version": "0.2.7",
+  "repository": "nickjer/yayo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nickjer/yayo/releases/download/v0.2.7/yayo-v0.2.7-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.7",
+      "sha256": "afbc563d68302774164f3c224b5259108bfe1969818f6051b0ceaf2f9b714a7f",
+      "size": 932048,
+      "format": "tar.gz",
+      "binaries": {
+        "yayo": {
+          "path": "yayo",
+          "sha256": "7dd56cf83d85bd30e34ff0c2f85adfe9051e46df8bff445e781d98b2473bd0d4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nickjer/yayo/releases/download/v0.2.7/yayo-v0.2.7-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.7",
+      "sha256": "91bc22df4f7fb2149aa0925fa4639d21a81c4b521eac406b698a33d40f6efe5d",
+      "size": 494541,
+      "format": "tar.gz",
+      "binaries": {
+        "yayo": {
+          "path": "yayo",
+          "sha256": "e92bbe16f31c4bf95abe900eb8f77ca472bf2cabd165cb4b7cda4ec40cc8971c"
+        }
+      }
+    }
+  }
+}
