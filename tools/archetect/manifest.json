@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "archetect",
+  "version": "0.7.3",
+  "repository": "archetect/archetect",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/archetect/archetect/releases/download/v0.7.3/archetect_v0.7.3_linux-x64.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "0420c06b57fe3c090a2e98fa992c6e76f8e5ddf10258ac29facf176c7e2098bb",
+      "size": 2093506,
+      "format": "tar.gz",
+      "binaries": {
+        "archetect": {
+          "path": "archetect_v0.7.3_linux-x64/archetect",
+          "sha256": "c4732dfa56718f361677a9a8a45cac9df7e94da6b12e06ad5ae75b9b17dd4ca2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/archetect/archetect/releases/download/v0.7.3/archetect_v0.7.3_osx-x64.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "2ea12a36279c88e45a3aa9a073f3c256e6936ca2ca2db5d21bcffe86560bbf31",
+      "size": 2133082,
+      "format": "tar.gz",
+      "binaries": {
+        "archetect": {
+          "path": "archetect_v0.7.3_osx-x64/archetect",
+          "sha256": "ad3b314330d93af58ab2fd0801707140aad0cdab500aad66963c677bb857651f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/archetect/archetect/releases/download/v0.7.3/archetect_v0.7.3_windows-x64.zip",
+      "releaseTag": "v0.7.3",
+      "sha256": "95ccc533216209047ff371797db74cb28c6bf80a8d5afc6762078f7cfda4db7c",
+      "size": 1805334,
+      "format": "zip",
+      "binaries": {
+        "archetect.exe": {
+          "path": "archetect_v0.7.3_windows-x64/archetect.exe",
+          "sha256": "99ac9764d91cae2333a0371399d56b217d0849bd14b8a29a3a1faabf08a8e182"
+        }
+      }
+    }
+  }
+}
