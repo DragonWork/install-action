@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rexturl",
+  "version": "0.5.0",
+  "repository": "vschwaberow/rexturl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vschwaberow/rexturl/releases/download/v0.5.0/rexturl-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "09e842a5183f60b43853415ab7fc090e31d14236de36dcd3c7de7fdaefbc6e3a",
+      "size": 432609,
+      "format": "tar.gz",
+      "binaries": {
+        "rexturl": {
+          "path": "rexturl",
+          "sha256": "b1d7752f9220aaf49f960b94eebb33b112d10b52b6f51b85ca56c902e190f1b7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vschwaberow/rexturl/releases/download/v0.5.0/rexturl-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "4e211d1c3df06a22650ce972af137bd57f73584fd12d5ff05bdc28462bcbe8b7",
+      "size": 358600,
+      "format": "tar.gz",
+      "binaries": {
+        "rexturl": {
+          "path": "rexturl",
+          "sha256": "34b694e897853b37f5c5bb3237910ef51b484637cad9eb5beee080357133bd52"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vschwaberow/rexturl/releases/download/v0.5.0/rexturl-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "2082a9fb4c6443bbdcadc96f0543be4323f31de5c91c8d556deb70a4d64597a7",
+      "size": 296061,
+      "format": "zip",
+      "binaries": {
+        "rexturl.exe": {
+          "path": "rexturl.exe",
+          "sha256": "36c95ed8d11bb6f2ceb18f55744e252d3279fbcec04eab0d351158b44d49d4f4"
+        }
+      }
+    }
+  }
+}
