@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "paperclip",
+  "version": "0.9.7",
+  "repository": "paperclip-rs/paperclip",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/paperclip-rs/paperclip/releases/download/v0.9.7/paperclip-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.7",
+      "sha256": "75eab13d5d118cea7f1f7dd0b4c8cc00bae2e3689baad02c82e219748a278fdd",
+      "size": 4844045,
+      "format": "tar.gz",
+      "binaries": {
+        "paperclip": {
+          "path": "paperclip",
+          "sha256": "2ab0503988590131ab946b0ea636a295e60e51221a3b82a5d3b1331af1c7c830"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/paperclip-rs/paperclip/releases/download/v0.9.7/paperclip-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.7",
+      "sha256": "b88befdf0e62dfaf23b520d4512fb00d6abf7e3076ab3cf46c41d5dfa243d278",
+      "size": 4504908,
+      "format": "tar.gz",
+      "binaries": {
+        "paperclip": {
+          "path": "paperclip",
+          "sha256": "043017fc97aa20419a589d0a1fe916026aedddc6086066be237aecbd75686187"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/paperclip-rs/paperclip/releases/download/v0.9.7/paperclip-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.7",
+      "sha256": "9281fb11746ba83f6a03604b3202a72bba2ee93ddbd7c59ecdd8675c03c26ef1",
+      "size": 4377912,
+      "format": "tar.gz",
+      "binaries": {
+        "paperclip": {
+          "path": "paperclip",
+          "sha256": "e441920ad16ffd04e01afa1b4163d54d53ff4d933b3ed36eee5e94852625fb39"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/paperclip-rs/paperclip/releases/download/v0.9.7/paperclip-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.7",
+      "sha256": "fd994f7d41ff7600606dc5353fb41c7c8fe077245deda3ec95da6726dd1b14cd",
+      "size": 4094357,
+      "format": "tar.gz",
+      "binaries": {
+        "paperclip": {
+          "path": "paperclip",
+          "sha256": "a24daa7214b4f0aac2970b19d1a67ee698087c17b7a9ce7c1ee873a1c2f6842a"
+        }
+      }
+    }
+  }
+}
