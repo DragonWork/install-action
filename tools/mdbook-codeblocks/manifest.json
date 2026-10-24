@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mdbook-codeblocks",
+  "version": "0.2.1",
+  "repository": "Roms1383/mdbook-codeblocks",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Roms1383/mdbook-codeblocks/releases/download/v0.2.1/mdbook-codeblocks-v0.2.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "ff76054f45a6a14417a9e0931f0b57adfee177f802e39a61aa6b4fcdf2430268",
+      "size": 1588827,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-codeblocks": {
+          "path": "mdbook-codeblocks",
+          "sha256": "c3681740a8e1d89997553e768e3864b426900f4a18f55b43459b763a8adb568f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Roms1383/mdbook-codeblocks/releases/download/v0.2.1/mdbook-codeblocks-v0.2.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "7b0ed85f89a2ad2b44940030dfdfe6fca2411863307cd6520665e3c7f4571a43",
+      "size": 1380605,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-codeblocks": {
+          "path": "mdbook-codeblocks",
+          "sha256": "cff584cfd5067821c5b56e5cd07f4e27e82879db6733dd5dcfc10f35b328c2ca"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Roms1383/mdbook-codeblocks/releases/download/v0.2.1/mdbook-codeblocks-v0.2.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "2bd50d1ece4b41fa1e396118863ad849f70efe3c1359c6bd5f47ee7cb10ef12f",
+      "size": 1319943,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-codeblocks": {
+          "path": "mdbook-codeblocks",
+          "sha256": "37614f971f9af0887846ff9168a1eb966d09c612c863eebfac61728cefcb8574"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Roms1383/mdbook-codeblocks/releases/download/v0.2.1/mdbook-codeblocks-v0.2.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.1",
+      "sha256": "99d5e212ccb56132b0e1e17d374ac79de00cae75fe508db6e520499820f1496a",
+      "size": 1162921,
+      "format": "zip",
+      "binaries": {
+        "mdbook-codeblocks.exe": {
+          "path": "mdbook-codeblocks.exe",
+          "sha256": "f31efa1fa077974a70b338213b6a22dbe2190c139f460954d75ba676e1fe032e"
+        }
+      }
+    }
+  }
+}
