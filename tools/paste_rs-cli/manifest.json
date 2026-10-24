@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "paste_rs-cli",
+  "version": "0.7.1",
+  "repository": "Canvas02/paste_rs-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Canvas02/paste_rs-cli/releases/download/v0.7.1/paste_rs-cli_v0.7.1_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "3e006af9a38497e1fb892b003c6fce76b599e617cb558e67a2e692706ee6a86e",
+      "size": 1384597,
+      "format": "tar.gz",
+      "binaries": {
+        "paste_rs-cli": {
+          "path": "paste_rs-cli",
+          "sha256": "8b95b2385120e45ddfabbfeed5d7df88bff19fb5e4d0858e33774a2fe39561f4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Canvas02/paste_rs-cli/releases/download/v0.7.1/paste_rs-cli_v0.7.1_x86_64-apple-darwin.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "a99678826b8d2b2d03b4d3f656542956a0bf137613163dcd614f324b4fd22f8b",
+      "size": 1358031,
+      "format": "zip",
+      "binaries": {
+        "paste_rs-cli": {
+          "path": "paste_rs-cli",
+          "sha256": "5b0756552c44fc23cb33be3785d8243ae430666ff12af9bc515fbbc2d8f689e5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Canvas02/paste_rs-cli/releases/download/v0.7.1/paste_rs-cli_v0.7.1_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "416eff905429bed4181cff9c432df5a37bdcc31809e93ecb6a2c0a5745874b17",
+      "size": 1205635,
+      "format": "zip",
+      "binaries": {
+        "paste_rs-cli.exe": {
+          "path": "paste_rs-cli.exe",
+          "sha256": "c46719f0f0083f5fd9f576eb090836dda5a9269d16227bb03df45fa27dfb32fc"
+        }
+      }
+    }
+  }
+}
