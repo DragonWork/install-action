@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "zoxide",
+  "version": "0.10.0",
+  "repository": "ajeetdsouza/zoxide",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "2d93385b99f3e82cf2701609a1bffcad863fbeb75aa3fe7eb6be4d29be68b1ae",
+      "size": 591384,
+      "format": "tar.gz",
+      "binaries": {
+        "zoxide": {
+          "path": "zoxide",
+          "sha256": "0959b169db9adac07187ab99b0d9806f616fbe7938cf84f9f4e2422d8de16e6c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "f1f16c5d6298d63dee467eedea1cdcd8490e43e493bea43acd416dc9033ef641",
+      "size": 551084,
+      "format": "tar.gz",
+      "binaries": {
+        "zoxide": {
+          "path": "zoxide",
+          "sha256": "1864ef686a652b9db90901c72dbb8bd3da45d98738d12f94b4f85729448f2dde"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "18ab7ae2633ad6e2ab79a4e665cbba1e95b7c872d44523326efb793202451dad",
+      "size": 517384,
+      "format": "tar.gz",
+      "binaries": {
+        "zoxide": {
+          "path": "zoxide",
+          "sha256": "df95aa58615d551ce6793a2be3f0ae0702ed2ffab7aa0f882ee18cb5f512711b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "b55ae6f2f5f23d0a6ccb3bd4eeb2af9c7e0a6556e5255c82100e40305129bbb0",
+      "size": 482696,
+      "format": "tar.gz",
+      "binaries": {
+        "zoxide": {
+          "path": "zoxide",
+          "sha256": "10164141fc2d49a12ca9434e3a5b9ca6206d0d30e17ca7b6f573bd63cfc70bb6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "f465ae548f8754c8e7edbc60b45fbf58c92bfe123db83d790252d6810fa5daf1",
+      "size": 545663,
+      "format": "zip",
+      "binaries": {
+        "zoxide.exe": {
+          "path": "zoxide.exe",
+          "sha256": "a999a0a7bbf37db5b2ff19c9c46da3d5fe89d3ddc67c793d31e9a9e0dca1eb2b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "b0e6eb62b11ebf168d5c65c5d23c635e81848cc4a88ae6b9caee64cf1e35d12b",
+      "size": 508951,
+      "format": "zip",
+      "binaries": {
+        "zoxide.exe": {
+          "path": "zoxide.exe",
+          "sha256": "464382eddd2550a25e79424c45b7047ab5e247e6d0f291e4f1275088736990ae"
+        }
+      }
+    }
+  }
+}
