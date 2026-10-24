@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dlphn",
+  "version": "0.5.1",
+  "repository": "toddtreece/dlphn-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/toddtreece/dlphn-rs/releases/download/0.5.1/dlphn-0.5.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.5.1",
+      "sha256": "b8a22c436e2dfe6a58190055b3a7e1b46ca5cb015c8222cd9c896ea78d0c80b3",
+      "size": 7800811,
+      "format": "tar.gz",
+      "binaries": {
+        "dlphn": {
+          "path": "dlphn",
+          "sha256": "d07812369933568fd4c57f25476f1d32ee8d53c1b6bb1d020bdea8493fc9ef18"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/toddtreece/dlphn-rs/releases/download/0.5.1/dlphn-0.5.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.5.1",
+      "sha256": "c46deeaad994ad73b6d7f5099f4e5763d5b90078a96718d1d90284b64a07a15d",
+      "size": 7118143,
+      "format": "tar.gz",
+      "binaries": {
+        "dlphn": {
+          "path": "dlphn",
+          "sha256": "a97ab39ef12c0485759ef130480ac3d0e1543217d8f29acea6d07c4bf81c270a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/toddtreece/dlphn-rs/releases/download/0.5.1/dlphn-0.5.1-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "0.5.1",
+      "sha256": "7e019e39dc3b9d2849149948241396ac2a87f4a98f1922d134889d03d896fb55",
+      "size": 11004096,
+      "format": "zip",
+      "binaries": {
+        "dlphn.exe": {
+          "path": "dlphn.exe",
+          "sha256": "caa5a6a9d05d1d712ca00e3628ec8305d0d73953e7d629b631d7d41a7b5a6829"
+        }
+      }
+    }
+  }
+}
