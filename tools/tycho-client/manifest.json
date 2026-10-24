@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tycho-client",
+  "version": "0.482.0",
+  "repository": "propeller-heads/tycho",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/propeller-heads/tycho/releases/download/0.482.0/tycho-client-x86_64-apple-darwin-0.482.0.tar.gz",
+      "releaseTag": "0.482.0",
+      "sha256": "20fb86bbc5312f8fad8009fe07fb25bf001fb933bc3218d6ce08e78d69b7ffab",
+      "size": 5360100,
+      "format": "tar.gz",
+      "binaries": {
+        "tycho-client": {
+          "path": "tycho-client",
+          "sha256": "a1aea810cfddee231060d628092065b6e5fbe03dfa65b50b32473df6ce6f0dc6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/propeller-heads/tycho/releases/download/0.482.0/tycho-client-aarch64-apple-darwin-0.482.0.tar.gz",
+      "releaseTag": "0.482.0",
+      "sha256": "1646051457460bbe8fc93b5c3bd4fe555767b2abe05ee9b1bd1462c29d8fff32",
+      "size": 5025724,
+      "format": "tar.gz",
+      "binaries": {
+        "tycho-client": {
+          "path": "tycho-client",
+          "sha256": "6af5c0a2ae177c4d809c92afd05e62063762bf7658f4a71e20794bef2a214dc9"
+        }
+      }
+    }
+  }
+}
