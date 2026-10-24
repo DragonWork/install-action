@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "paketkoll",
+  "version": "0.3.16",
+  "repository": "VorpalBlade/paketkoll",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/VorpalBlade/paketkoll/releases/download/paketkoll-v0.3.16/paketkoll-v0.3.16-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "paketkoll-v0.3.16",
+      "sha256": "4edee55e63c5d43851abcfa2a057efc870f72b171c68bdc1af37e6ddca385675",
+      "size": 2371455,
+      "format": "tar.gz",
+      "binaries": {
+        "paketkoll": {
+          "path": "paketkoll",
+          "sha256": "a37fa6c0ed82faf8f2fcf4d213b051d7939c73a7a20018a1d0cf74699a4ed7a8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/VorpalBlade/paketkoll/releases/download/paketkoll-v0.3.16/paketkoll-v0.3.16-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "paketkoll-v0.3.16",
+      "sha256": "23a44764ce641f686120afdf97e450c9e0eea7d36b94bf4411f6e3beaf2c2eda",
+      "size": 2199859,
+      "format": "tar.gz",
+      "binaries": {
+        "paketkoll": {
+          "path": "paketkoll",
+          "sha256": "3bcbea3bcc2a9e50599a6d3b5f47d2775e8974a9fcab1045df89a7965c993302"
+        }
+      }
+    }
+  }
+}
