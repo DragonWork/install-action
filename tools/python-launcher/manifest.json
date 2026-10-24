@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "python-launcher",
+  "version": "1.0.1",
+  "repository": "brettcannon/python-launcher",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/brettcannon/python-launcher/releases/download/v1.0.1/python_launcher-1.0.1-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "b04ffc65d4acce2a39e72c041566808f0e3dfc4e4103a58361c359d126ef77c7",
+      "size": 385548,
+      "format": "tar.xz",
+      "binaries": {
+        "py": {
+          "path": "python_launcher-1.0.1/bin/py",
+          "sha256": "b934baebe5065ad1207926a2469447df9aa143f0275f616304259bbfcf6d9656"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/brettcannon/python-launcher/releases/download/v1.0.1/python_launcher-1.0.1-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "1b3a0df54be01f69a6e40c358fcfdcb3e7096a288ceb4485914290f1abe22cd3",
+      "size": 319168,
+      "format": "tar.xz",
+      "binaries": {
+        "py": {
+          "path": "python_launcher-1.0.1/bin/py",
+          "sha256": "8541cfeec6a86ba43f57ace791e57da7b85b6d485e093dcbeb03e3f4ac225cac"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/brettcannon/python-launcher/releases/download/v1.0.1/python_launcher-1.0.1-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "8c7953bac6e52ac2243c2f742f171527010cde337eda17600ff388f42f586f0d",
+      "size": 324608,
+      "format": "tar.xz",
+      "binaries": {
+        "py": {
+          "path": "python_launcher-1.0.1/bin/py",
+          "sha256": "8832229f277857bf599bab2aabb547e6a50bccfc54fe9f7aa74d7b49fb665f73"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/brettcannon/python-launcher/releases/download/v1.0.1/python_launcher-1.0.1-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "538be5c37f67dfa384ffe05a1a37d2cd02849b0a5d53275c0a0b1ae6e9872843",
+      "size": 285832,
+      "format": "tar.xz",
+      "binaries": {
+        "py": {
+          "path": "python_launcher-1.0.1/bin/py",
+          "sha256": "2123026dbc407f7471b041984043e95da89cd5f2ba55b0af047c29eeb8967893"
+        }
+      }
+    }
+  }
+}
