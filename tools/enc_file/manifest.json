@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "name": "enc_file",
+  "version": "0.6.6",
+  "repository": "ArdentEmpiricist/enc_file",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ArdentEmpiricist/enc_file/releases/download/0.6.6/enc-file-0.6.6-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.6",
+      "sha256": "cc9d85e3622063911fd262c7473bc8ed04e869c83593f5b64d5226e3b67edd6d",
+      "size": 9421838,
+      "format": "tar.gz",
+      "binaries": {
+        "enc-file": {
+          "path": "enc-file-0.6.6-x86_64-unknown-linux-musl/enc-file",
+          "sha256": "ac686bf7e4a7059693cc476ebd45171943527ee6ade087cdf4657869ee2cbce7"
+        },
+        "enc-file-gui": {
+          "path": "enc-file-0.6.6-x86_64-unknown-linux-musl/enc-file-gui",
+          "sha256": "18867d1d2354437230c676e3b9ae89c8f7d59ec3a70f9340e47a9d8d113569eb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ArdentEmpiricist/enc_file/releases/download/0.6.6/enc-file-0.6.6-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.6",
+      "sha256": "2501a4194b6e9a13218693f2a74886c66e99ab1df6339197fcd4e309f72f8f23",
+      "size": 5673304,
+      "format": "tar.gz",
+      "binaries": {
+        "enc-file": {
+          "path": "enc-file-0.6.6-aarch64-apple-darwin/enc-file",
+          "sha256": "03b89db897425d79b9e8fee376701b155a8fbc3faa7314ec773b5baebb07d028"
+        },
+        "enc-file-gui": {
+          "path": "enc-file-0.6.6-aarch64-apple-darwin/enc-file-gui",
+          "sha256": "e4c5b838ec297702ee57810585d754ec111dc98f3787f753ee5e68b849bf6713"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ArdentEmpiricist/enc_file/releases/download/0.6.6/enc-file-0.6.6-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.6.6",
+      "sha256": "2c3caa4a7e9d2181a7674d6a60a6d0f724efa210a4b7706090105f7885c7b5da",
+      "size": 6497054,
+      "format": "zip",
+      "binaries": {
+        "enc-file.exe": {
+          "path": "enc-file-0.6.6-x86_64-pc-windows-msvc/enc-file.exe",
+          "sha256": "231e360a272febee01c5d0834740c9779d1dcedb0c74d0048f6a9a27bdb3da31"
+        },
+        "enc-file-gui.exe": {
+          "path": "enc-file-0.6.6-x86_64-pc-windows-msvc/enc-file-gui.exe",
+          "sha256": "67c3a4d07d0dffa0e6150008587d24faf87effc46377946158d1fc158ffb9595"
+        }
+      }
+    }
+  }
+}
