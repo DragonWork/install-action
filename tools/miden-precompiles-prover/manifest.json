@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "miden-precompiles-prover",
+  "version": "0.30.0",
+  "repository": "0xMiden/miden-vm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/0xMiden/miden-vm/releases/download/v0.30.0/miden-vm-x86_64-unknown-linux-gnu",
+      "sha256": "7b2cac568c6eadd326ef3f2d17456574747d908aa5f79236d60d3ad8f2a304cc",
+      "size": 22170184,
+      "format": "binary",
+      "releaseTag": "v0.30.0",
+      "binaries": {
+        "pvm-registry-regen": {
+          "path": "miden-vm-x86_64-unknown-linux-gnu",
+          "sha256": "7b2cac568c6eadd326ef3f2d17456574747d908aa5f79236d60d3ad8f2a304cc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/0xMiden/miden-vm/releases/download/v0.30.0/miden-vm-aarch64-apple-darwin",
+      "sha256": "45bc005fa6d679d60fd7f56e05674cec5e1991ae6d92753fb4a3a4cac7dba37d",
+      "size": 22113440,
+      "format": "binary",
+      "releaseTag": "v0.30.0",
+      "binaries": {
+        "pvm-registry-regen": {
+          "path": "miden-vm-aarch64-apple-darwin",
+          "sha256": "45bc005fa6d679d60fd7f56e05674cec5e1991ae6d92753fb4a3a4cac7dba37d"
+        }
+      }
+    }
+  }
+}
