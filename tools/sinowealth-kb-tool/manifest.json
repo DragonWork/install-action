@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "sinowealth-kb-tool",
+  "version": "1.0.1",
+  "repository": "karstx/sinowisp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/karstx/sinowisp/releases/download/v1.0.1/sinowealth-kb-tool-x86_64-unknown-linux-gnu-v1.0.1.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "3514de786247bec58e149d2ba20974d18a851186981a1b4737d703ee55fafbc6",
+      "size": 690033,
+      "format": "tar.gz",
+      "binaries": {
+        "sinowealth-kb-tool": {
+          "path": "sinowealth-kb-tool",
+          "sha256": "218e8efff6af7a5bb370abe4c119d912de098a6ff1256a4515c5b65ffc0b354d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/karstx/sinowisp/releases/download/v1.0.1/sinowealth-kb-tool-x86_64-apple-darwin-v1.0.1.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "2e2932dc11f6904020462bc8ec9be531b2a3c428b1c6f7fe297f700bb10b6408",
+      "size": 657551,
+      "format": "tar.gz",
+      "binaries": {
+        "sinowealth-kb-tool": {
+          "path": "sinowealth-kb-tool",
+          "sha256": "678d56e60321f4833dd0ab65349297a9a43228d7a0be0eb0a1a5d2b3c239e475"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/karstx/sinowisp/releases/download/v1.0.1/sinowealth-kb-tool-x86_64-pc-windows-msvc-v1.0.1.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "4fce8728fbd9eb22b1a4a9bab72a3b7849cf69787805183fc0865bac8b680ff0",
+      "size": 515911,
+      "format": "tar.gz",
+      "binaries": {
+        "sinowealth-kb-tool.exe": {
+          "path": "sinowealth-kb-tool.exe",
+          "sha256": "bbc967e6141fdfc8dddfa0de0855b68e05749f00ea574ccad67d8161d9ba9e17"
+        }
+      }
+    }
+  }
+}
