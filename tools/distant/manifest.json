@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "distant",
+  "version": "0.20.0",
+  "repository": "chipsenkbeil/distant",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/chipsenkbeil/distant/releases/download/v0.20.0/distant-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.20.0",
+      "sha256": "7d18271d2f737da0fd6baa523edcabb33a8360089abb652801476b99c408bf6b",
+      "size": 13553152,
+      "format": "binary",
+      "binaries": {
+        "distant.exe": {
+          "path": "distant-x86_64-pc-windows-msvc.exe",
+          "sha256": "7d18271d2f737da0fd6baa523edcabb33a8360089abb652801476b99c408bf6b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/chipsenkbeil/distant/releases/download/v0.20.0/distant-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.20.0",
+      "sha256": "67923d405ac06b15e3214890392fd0fbf7acf7f08407ecdcf4099878ebe2178c",
+      "size": 12180992,
+      "format": "binary",
+      "binaries": {
+        "distant.exe": {
+          "path": "distant-aarch64-pc-windows-msvc.exe",
+          "sha256": "67923d405ac06b15e3214890392fd0fbf7acf7f08407ecdcf4099878ebe2178c"
+        }
+      }
+    }
+  }
+}
