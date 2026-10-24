@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mtrack",
+  "version": "0.17.1",
+  "repository": "mdwn/mtrack",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mdwn/mtrack/releases/download/v0.17.1/mtrack-0.17.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.17.1",
+      "sha256": "fe42833c623c3a421633b41f146f531f5e078113079f5346c68919557b4a4520",
+      "size": 13311806,
+      "format": "tar.gz",
+      "binaries": {
+        "mtrack": {
+          "path": "mtrack-0.17.1-x86_64-unknown-linux-gnu/mtrack",
+          "sha256": "edbfa48762c835330d61ca1e29f603817f1e5fe73ca50a33fa7b1242b161ffae"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mdwn/mtrack/releases/download/v0.17.1/mtrack-0.17.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.17.1",
+      "sha256": "7a9bdd51e13754b69fe7a4a4458d5225e3e3b0d789b75363c24e5bf0f51d12a1",
+      "size": 13184358,
+      "format": "tar.gz",
+      "binaries": {
+        "mtrack": {
+          "path": "mtrack-0.17.1-aarch64-unknown-linux-gnu/mtrack",
+          "sha256": "a60954e92d440f9751bfd42e56acd7d3f112f499cccca4ee2b9aa32c90e0b0ef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mdwn/mtrack/releases/download/v0.17.1/mtrack-0.17.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.17.1",
+      "sha256": "95ad0cd92cefdb763405ac34167f0f81b1c86a54733c1593585866000422c537",
+      "size": 12804204,
+      "format": "tar.gz",
+      "binaries": {
+        "mtrack": {
+          "path": "mtrack-0.17.1-x86_64-apple-darwin/mtrack",
+          "sha256": "ddc9f72b4683b219e1f0d46d566adb21a4f568621f6289373a018bd0b31294d3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mdwn/mtrack/releases/download/v0.17.1/mtrack-0.17.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.17.1",
+      "sha256": "c28e2266489b9e15763f383a7ea5a7a7583617db6c3948e220e16663792074fc",
+      "size": 12005191,
+      "format": "tar.gz",
+      "binaries": {
+        "mtrack": {
+          "path": "mtrack-0.17.1-aarch64-apple-darwin/mtrack",
+          "sha256": "9f1aa79338d2f243c6fcd5737adbeca87d95321aa470ef79802d822f2505da79"
+        }
+      }
+    }
+  }
+}
