@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "am-fs-ext4",
+  "version": "0.7.2",
+  "repository": "antimatter-studios/rust-fs-ext4",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/antimatter-studios/rust-fs-ext4/releases/download/v0.7.2/am-fs-ext4-0.7.2-linux-x86_64.tar.gz",
+      "sha256": "d3917e00c98f8ba6815666dbd70af1d2ccdc819f2dd6b50ac776dbd2eeccb829",
+      "size": 887059,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.2",
+      "binaries": {
+        "rust-fs-ext4": {
+          "path": "bin/rust-fs-ext4",
+          "sha256": "1271daaa9abcc10a051a8513156971c3448940128589237a76aacdfdf446dd11"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/antimatter-studios/rust-fs-ext4/releases/download/v0.7.2/am-fs-ext4-0.7.2-darwin-arm64.tar.gz",
+      "sha256": "07995a229b3e636301dbad4c6fbcd20d58d5f741bc8092a1d9b93c92a14d48dc",
+      "size": 776529,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.2",
+      "binaries": {
+        "rust-fs-ext4": {
+          "path": "bin/rust-fs-ext4",
+          "sha256": "210b6fd41de583cd7ccf5c959a36346fac654a88fd42835d48a8f0c1c23519ab"
+        }
+      }
+    }
+  }
+}
