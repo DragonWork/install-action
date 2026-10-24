@@ -1,0 +1,203 @@
+{
+  "schema": 1,
+  "name": "casr",
+  "version": "2.13.1",
+  "repository": "ispras/casr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ispras/casr/releases/download/v2.13.1/casr-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.13.1",
+      "sha256": "4a8cafc51aa68a1bff8be92b886c20c66dd4924d41ac30d9b29ac76b3f324ad4",
+      "size": 5990480,
+      "format": "tar.xz",
+      "binaries": {
+        "casr-afl": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-afl",
+          "sha256": "b4f2633dffad0f32b766ba0a219aec2b2b86aeedf5665230e6855c2a1e2165a5"
+        },
+        "casr-cli": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-cli",
+          "sha256": "91e525133c953fde1d3a25015f43b4a426f20d8648980c8f8d14d830abae7040"
+        },
+        "casr-cluster": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-cluster",
+          "sha256": "41ec1d4ae3b661b686214ef8a5855960df5c316e1a4a0a7e4a4aa41088c020c7"
+        },
+        "casr-core": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-core",
+          "sha256": "b8efe7b2628501b00cd8673e0b94001ec7065e22c8a9d7cb221982e9e3e69930"
+        },
+        "casr-csharp": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-csharp",
+          "sha256": "51a50198bacab95fc574d665b1ee09ceb0dbb1f93d55b079640f28ad4261b22d"
+        },
+        "casr-dojo": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-dojo",
+          "sha256": "b4b2ce781d7355bbb59130d255d827e96754ee1f30df27e1739cb5113d398c27"
+        },
+        "casr-gdb": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-gdb",
+          "sha256": "2e7f4e215f3776590537e002c400f8574b12a7ef74c890b0a409d9cfddfa70fd"
+        },
+        "casr-java": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-java",
+          "sha256": "d6e297fd8116b02f6b80d4397115151b8acbaef3581552298d977f22c10c0883"
+        },
+        "casr-js": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-js",
+          "sha256": "e9afdf6acf7446185c055090cef5015929799177aac3a48eca63e8d3e99e123f"
+        },
+        "casr-libfuzzer": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-libfuzzer",
+          "sha256": "97fcf6d0f6152babad8a75e012d9a86bcbc4084025b143b4cc8a765fe222e4ee"
+        },
+        "casr-lua": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-lua",
+          "sha256": "3190dfba4ff02a766f9155b1261c7f01da5c404fe90ed43ff3252096401b7fb7"
+        },
+        "casr-python": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-python",
+          "sha256": "79a379c40dd87fcfddb047b078c69607046ffacb45171c0c981a47381e4a417a"
+        },
+        "casr-san": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-san",
+          "sha256": "a505954d4e5f4642c2518c653d7f5c39447ae8fcdd233012bf5d626f6e8cc8aa"
+        },
+        "casr-ubsan": {
+          "path": "casr-x86_64-unknown-linux-gnu/casr-ubsan",
+          "sha256": "9b3ae5a95a94c7983fe6db259bd41cf15fd4eff90dee629cc8c4e58339646ecb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ispras/casr/releases/download/v2.13.1/casr-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.13.1",
+      "sha256": "3faafd13628e020969d7c0ed659fb7eeaecfd2e6d3d7e6649d71ebd6940b57d2",
+      "size": 4852216,
+      "format": "tar.xz",
+      "binaries": {
+        "casr-afl": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-afl",
+          "sha256": "ad8a81292f078183daa5c87562fb7955b63a66acf5bd6d77caf487ab0dacdc7f"
+        },
+        "casr-cli": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-cli",
+          "sha256": "fe5b87e1a47a119021c8d6b0824d2f58761d976b676dbd92db0b0b3d790356c7"
+        },
+        "casr-cluster": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-cluster",
+          "sha256": "5f5b0d6d7d42d99cfb3f81041590c351289a33dbf85944e2f1015de41ab94fb5"
+        },
+        "casr-core": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-core",
+          "sha256": "1fd204e58faad9fa865ea306705ba6ef3cab51defc0da15b80303bbd453381d8"
+        },
+        "casr-csharp": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-csharp",
+          "sha256": "fbf427d55405e40916c8fe77a0b74eab3ba66253974df8815f730e9376d7ff12"
+        },
+        "casr-dojo": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-dojo",
+          "sha256": "95b51d341d0f3d0be40cc2625425a2e02d9f1fcd56d1962231a3b48abfd94996"
+        },
+        "casr-gdb": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-gdb",
+          "sha256": "d10f42fee7637b899751ba929087772de9d7189adf73d8c66e0275f32c1c5a45"
+        },
+        "casr-java": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-java",
+          "sha256": "3927c45afedfb7c089dd4c77f435966d9b8a95ca04ffa698ed2e09905f90c2b4"
+        },
+        "casr-js": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-js",
+          "sha256": "dfcc2ad50995f49de48179d0d46251d8facd91938fa03bb4560ffcd1de75ce88"
+        },
+        "casr-libfuzzer": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-libfuzzer",
+          "sha256": "4fd772a9c448848e59ee50270c22ff8c107c0e294e7bf9f999bc6ea9706d7771"
+        },
+        "casr-lua": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-lua",
+          "sha256": "2223789493b41342f4e2889423b9dee4afc89ca2c8418616988c39818d838157"
+        },
+        "casr-python": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-python",
+          "sha256": "b69f634e39832dae0da5c67f0de52e28904ffcd6b637e75c1edbbc431795f89a"
+        },
+        "casr-san": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-san",
+          "sha256": "384012a826403b8a55bd6fa1f73179967584749b7650c599c22bd553eed307fa"
+        },
+        "casr-ubsan": {
+          "path": "casr-aarch64-unknown-linux-gnu/casr-ubsan",
+          "sha256": "b74e284bd84e5d47ef48c7536c12fb7516e43c114b1c19219d801363bd947dff"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ispras/casr/releases/download/v2.13.1/casr-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2.13.1",
+      "sha256": "e791b06d1f02fda3688900d55405957632f1566cd02300a4db33315580db97e0",
+      "size": 5212668,
+      "format": "tar.xz",
+      "binaries": {
+        "casr-afl": {
+          "path": "casr-aarch64-apple-darwin/casr-afl",
+          "sha256": "03a993e703d5d234be039f39080eb039a835cf6a3b153c3a10b1d411f64323dd"
+        },
+        "casr-cli": {
+          "path": "casr-aarch64-apple-darwin/casr-cli",
+          "sha256": "e56da39ef4fff18b6529a58861cfcb9131345d4158db0884215099069744277d"
+        },
+        "casr-cluster": {
+          "path": "casr-aarch64-apple-darwin/casr-cluster",
+          "sha256": "961cf4623cacddc95707a7f2a434f609aea1cecc5fae085383c3ea3756097c2a"
+        },
+        "casr-core": {
+          "path": "casr-aarch64-apple-darwin/casr-core",
+          "sha256": "993346c215cc091b731bfd40ec359ca3e2e55959b7a9b0cdd4baf8200ac225ee"
+        },
+        "casr-csharp": {
+          "path": "casr-aarch64-apple-darwin/casr-csharp",
+          "sha256": "56745fae1cb1d9788fc34f69ed6d1f524cf65012f445a31bb0403913ba692663"
+        },
+        "casr-dojo": {
+          "path": "casr-aarch64-apple-darwin/casr-dojo",
+          "sha256": "55f8b8e7ca3240e00cfd2579cad77d24674811d6952084f5d21c05b898b87a51"
+        },
+        "casr-gdb": {
+          "path": "casr-aarch64-apple-darwin/casr-gdb",
+          "sha256": "a14ae55f340b9738d1c698b58c4a0e008c7b6d8748eeda8fd4a3f3d87612e6e3"
+        },
+        "casr-java": {
+          "path": "casr-aarch64-apple-darwin/casr-java",
+          "sha256": "12adc56f87232ee4fea951a71062123bbd6864e00287fb5f946f0fb9b767d56a"
+        },
+        "casr-js": {
+          "path": "casr-aarch64-apple-darwin/casr-js",
+          "sha256": "f4f33ccdc96e1ca7047d583ed2d5da1e8cdc88121030fe825b482b2f81151757"
+        },
+        "casr-libfuzzer": {
+          "path": "casr-aarch64-apple-darwin/casr-libfuzzer",
+          "sha256": "1582366eefb896996a5ba05b85f3f252d24461196be24a9da1e5531181a5ee52"
+        },
+        "casr-lua": {
+          "path": "casr-aarch64-apple-darwin/casr-lua",
+          "sha256": "a3759b20c7cb9e75e7276331f4ce795ebd7c4755fc3f00e5d0fb90e33e1135b6"
+        },
+        "casr-python": {
+          "path": "casr-aarch64-apple-darwin/casr-python",
+          "sha256": "2800e572ac1e344a6e50e27ccdc5f8f210d12d4eba52862785ad60139d2487f3"
+        },
+        "casr-san": {
+          "path": "casr-aarch64-apple-darwin/casr-san",
+          "sha256": "f3fbc2810435a100a6355c035a62e9e1846dc5f4f7bf1a2cf0d77ca0fe9244b2"
+        },
+        "casr-ubsan": {
+          "path": "casr-aarch64-apple-darwin/casr-ubsan",
+          "sha256": "8c07ea812a7275b962a18d68b20033238bb592015f62c693eac3148226f8877d"
+        }
+      }
+    }
+  }
+}
