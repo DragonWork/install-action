@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tinty",
+  "version": "0.35.0",
+  "repository": "tinted-theming/tinty",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tinted-theming/tinty/releases/download/v0.35.0/tinty-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.35.0",
+      "sha256": "153c6c5b302acc73947aae00ae5efd30459180497b9c3861fd02b77d9eb30f49",
+      "size": 3902694,
+      "format": "tar.gz",
+      "binaries": {
+        "tinty": {
+          "path": "tinty",
+          "sha256": "f6c824f5b98351b4d3bde8baec88059b5cf932d2105208893481ec13fbfe1bc4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tinted-theming/tinty/releases/download/v0.35.0/tinty-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.35.0",
+      "sha256": "48c9def00b37330a811c76750711a9e375d4cba8305175413eea6f2c576c1468",
+      "size": 3642135,
+      "format": "tar.gz",
+      "binaries": {
+        "tinty": {
+          "path": "tinty",
+          "sha256": "3853390d541a032a50ffef26ce34b567042b7f588c661325d7250d36a2a07c15"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tinted-theming/tinty/releases/download/v0.35.0/tinty-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.35.0",
+      "sha256": "1be6f3143858118646eca79fc7d8906d6a8dcba7992e29eafafb41d871c5072a",
+      "size": 3568183,
+      "format": "tar.gz",
+      "binaries": {
+        "tinty": {
+          "path": "tinty",
+          "sha256": "1d7b32bd46be7f9232a16b92f6136364f086bfba7feb13ed98d42463119ddfca"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tinted-theming/tinty/releases/download/v0.35.0/tinty-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.35.0",
+      "sha256": "7b852eae947059e08b11f3437c4ceb58cada5b6e22b74f2f7ed83456d87f3178",
+      "size": 3434438,
+      "format": "tar.gz",
+      "binaries": {
+        "tinty": {
+          "path": "tinty",
+          "sha256": "2703cd4d750db5693ac89b01a0599fb62e4ac1cca8979338eb660b96b91b6872"
+        }
+      }
+    }
+  }
+}
