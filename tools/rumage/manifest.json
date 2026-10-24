@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rumage",
+  "version": "0.5.9",
+  "repository": "m4rocks/rumage",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/m4rocks/rumage/releases/download/0.5.9/rumage-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.5.9",
+      "sha256": "5dee610dbd218d80b985189b0e25eb286c6e3d68cc72c18b5fd7a0c503a2b0b8",
+      "size": 1271582,
+      "format": "tar.gz",
+      "binaries": {
+        "rumage": {
+          "path": "rumage",
+          "sha256": "d399b7e5cfe11bd6099a6777bbf7b1c7fb071c8d9076191dc612502f5b249368"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/m4rocks/rumage/releases/download/0.5.9/rumage-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.5.9",
+      "sha256": "85a26a04114086f05923ad9e680200b9f8111dbc0e20a3f5c7b86c1862b038e8",
+      "size": 1153829,
+      "format": "tar.gz",
+      "binaries": {
+        "rumage": {
+          "path": "rumage",
+          "sha256": "b948dbbf5234bacc707f6664285ea1ecb24263a2fad78606af94a4c1bac21831"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/m4rocks/rumage/releases/download/0.5.9/rumage-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.5.9",
+      "sha256": "6877b6f3efd49e29930d605294cfae08d609cfaa433752a8df9fc9b164a12586",
+      "size": 1263489,
+      "format": "zip",
+      "binaries": {
+        "rumage.exe": {
+          "path": "rumage.exe",
+          "sha256": "b8c459b1e65c9559b892fcffa3437d03d6fe84395ae281c146459be0e3dad24b"
+        }
+      }
+    }
+  }
+}
