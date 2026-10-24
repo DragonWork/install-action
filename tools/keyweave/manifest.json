@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "keyweave",
+  "version": "0.3.1",
+  "repository": "bartvdbraak/keyweave",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bartvdbraak/keyweave/releases/download/v0.3.1/keyweave-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.3.1",
+      "sha256": "bfbf28a5ad33ba4169a1a2fdcf3eb8fb73700645e136f0b0fbbfda93c38ec257",
+      "size": 2654656,
+      "format": "tar.xz",
+      "binaries": {
+        "keyweave": {
+          "path": "keyweave-x86_64-unknown-linux-musl/keyweave",
+          "sha256": "f380a0150485c5a0d62619ebafef5e71c1c56870399a35d4916c6d3831b21c0c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bartvdbraak/keyweave/releases/download/v0.3.1/keyweave-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.3.1",
+      "sha256": "23a6f41d55abf39d591f5d6e0b2c6e1e83f296f1a84ee24c34b0348b4f73daff",
+      "size": 3282704,
+      "format": "tar.xz",
+      "binaries": {
+        "keyweave": {
+          "path": "keyweave-aarch64-unknown-linux-gnu/keyweave",
+          "sha256": "3a1885d7aad06402791158c81b5dffb7da257fbc3606efb01abadb8420178471"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bartvdbraak/keyweave/releases/download/v0.3.1/keyweave-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.1",
+      "sha256": "2d3738c3c0df880f6fee1a178ad6f62136e129436f5ee53210509b6a9131c461",
+      "size": 1100936,
+      "format": "tar.xz",
+      "binaries": {
+        "keyweave": {
+          "path": "keyweave-x86_64-apple-darwin/keyweave",
+          "sha256": "3e045029fbf0434214e3e941a9c28249850f0fab863d1554cc75746b72e6d041"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bartvdbraak/keyweave/releases/download/v0.3.1/keyweave-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.1",
+      "sha256": "e69401eb3ae3da6552b18597c39d4c6e3e478e2fbd885635baa5d9b1c21f18b2",
+      "size": 1006060,
+      "format": "tar.xz",
+      "binaries": {
+        "keyweave": {
+          "path": "keyweave-aarch64-apple-darwin/keyweave",
+          "sha256": "281c6838e943d18d547287902d938cfd5c05c617a61bcd00a513336b980749d2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bartvdbraak/keyweave/releases/download/v0.3.1/keyweave-x86_64-pc-windows-gnu.exe",
+      "releaseTag": "v0.3.1",
+      "sha256": "68bb4e2e194bda16278df406d9831f6eb918f4c17c389b62e586840242cdecf6",
+      "size": 6150656,
+      "format": "binary",
+      "binaries": {
+        "keyweave.exe": {
+          "path": "keyweave-x86_64-pc-windows-gnu.exe",
+          "sha256": "68bb4e2e194bda16278df406d9831f6eb918f4c17c389b62e586840242cdecf6"
+        }
+      }
+    }
+  }
+}
