@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-vet",
+  "version": "0.10.3",
+  "repository": "mozilla/cargo-vet",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mozilla/cargo-vet/releases/download/v0.10.3/cargo-vet-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "e83878b80913fbe43629c28768e14ab51f4e86a4ba8f9dd08cc25b8dbc503c19",
+      "size": 3615888,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-vet": {
+          "path": "cargo-vet-x86_64-unknown-linux-gnu/cargo-vet",
+          "sha256": "a268514d8d4bb62cfe6e11a26686d92fdf2ff5c9e320414afa01cda05e2417cb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mozilla/cargo-vet/releases/download/v0.10.3/cargo-vet-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "d06a5078c3f4c589211ce011dc9329a5849c8153a41b6624112e7318d93c0b6d",
+      "size": 3448456,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-vet": {
+          "path": "cargo-vet-x86_64-apple-darwin/cargo-vet",
+          "sha256": "3390682754ecd5aae87e78c8c167e89910a721a4ae99644881a3ddc6776b386b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mozilla/cargo-vet/releases/download/v0.10.3/cargo-vet-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "a83f7d6f48a069890743ba61f7637660c8577f263efd64fee47e673632f0e423",
+      "size": 3084620,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-vet": {
+          "path": "cargo-vet-aarch64-apple-darwin/cargo-vet",
+          "sha256": "bc8d963023f8a8a9102d2261922a817d59ceeabf41c55f1c9d7fa8ee8382ea82"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mozilla/cargo-vet/releases/download/v0.10.3/cargo-vet-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.3",
+      "sha256": "855fda4724dada8ba235aec7c0da7d3b28d1697c946627733143fe37444dd510",
+      "size": 4786932,
+      "format": "zip",
+      "binaries": {
+        "cargo-vet.exe": {
+          "path": "cargo-vet.exe",
+          "sha256": "08d373877e7a7cae253e208c98ebbf12de66ed1f39670c80a9d217568bd11e82"
+        }
+      }
+    }
+  }
+}
