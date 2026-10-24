@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tls-xb",
+  "version": "0.4.1",
+  "repository": "hey2022/tls-xb",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hey2022/tls-xb/releases/download/v0.4.1/tls-xb-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.4.1",
+      "sha256": "803b3bb6331f66dc4ed9ed3575147fc305a3e28786225650106923610f6047cc",
+      "size": 2543648,
+      "format": "tar.xz",
+      "binaries": {
+        "tls-xb": {
+          "path": "tls-xb-x86_64-unknown-linux-gnu/tls-xb",
+          "sha256": "bde5aa95f0f86e6244b923b449e719ba44f784b5d802c4823ae195c50688a9b2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hey2022/tls-xb/releases/download/v0.4.1/tls-xb-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.1",
+      "sha256": "957d08a2d64172be105b72f28a5b9dd18351ded9758854350e8a9fb48ad9b5dd",
+      "size": 2393516,
+      "format": "tar.xz",
+      "binaries": {
+        "tls-xb": {
+          "path": "tls-xb-x86_64-apple-darwin/tls-xb",
+          "sha256": "7f516f244826c2dc4fe1b1bfba80aaf282d0771fa206d962ff8d34189b135daa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hey2022/tls-xb/releases/download/v0.4.1/tls-xb-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.1",
+      "sha256": "acc8753d20e8333bf22b5b9e7671d7370da930e670f5ef53fec2305c7ebfe78e",
+      "size": 2149148,
+      "format": "tar.xz",
+      "binaries": {
+        "tls-xb": {
+          "path": "tls-xb-aarch64-apple-darwin/tls-xb",
+          "sha256": "5b452a475320d502a9804f373cf780522441cbf86d1bf88e9ec8a8577f9aab9e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hey2022/tls-xb/releases/download/v0.4.1/tls-xb-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.1",
+      "sha256": "7dd27d23697db4c4bc9b095bf2d37f07b8fa4ee40b77fe5f9837d16a76bc753d",
+      "size": 7080278,
+      "format": "zip",
+      "binaries": {
+        "tls-xb.exe": {
+          "path": "tls-xb.exe",
+          "sha256": "434c7951e0ca56fff7804b7cdc35d888632fee7762da6139b9499e1bba1abed4"
+        }
+      }
+    }
+  }
+}
