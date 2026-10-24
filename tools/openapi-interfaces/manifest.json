@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "openapi-interfaces",
+  "version": "0.4.0",
+  "repository": "faradayio/openapi-interfaces",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/faradayio/openapi-interfaces/releases/download/v0.4.0/openapi-interfaces_0.4.0_x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "76da681c570565268557bb81ed20badbb5d453df4d882630af2b49676f8cb5ed",
+      "size": 2143452,
+      "format": "zip",
+      "binaries": {
+        "openapi-interfaces": {
+          "path": "openapi-interfaces",
+          "sha256": "e63a8bfd0b0e4dd0d0718bf8898f80ff625413265fa38a59ad335dc2f07b0020"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/faradayio/openapi-interfaces/releases/download/v0.4.0/openapi-interfaces_0.4.0_x86_64-apple-darwin.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "9fb1c9383e2c9c21b4c88d631f5b61dc6b0a688c3ebbf2ce600d21805717dc86",
+      "size": 1239316,
+      "format": "zip",
+      "binaries": {
+        "openapi-interfaces": {
+          "path": "openapi-interfaces",
+          "sha256": "216f226ed635661ca3211e4627080eb0e5e9e910d94faae84f2bc13a7515fe47"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/faradayio/openapi-interfaces/releases/download/v0.4.0/openapi-interfaces_0.4.0_aarch64-apple-darwin.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "d0a3ea3e3b60e56adf0ace3f89454dc9b7a2395c94f3539a880b5814b405638e",
+      "size": 1140801,
+      "format": "zip",
+      "binaries": {
+        "openapi-interfaces": {
+          "path": "openapi-interfaces",
+          "sha256": "4669ab14625224b2c83677167223c22027adf1eb0c458b3ee389a7a249561589"
+        }
+      }
+    }
+  }
+}
