@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cranko",
+  "version": "0.17.3",
+  "repository": "pkgw/cranko",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pkgw/cranko/releases/download/cranko%400.17.3/cranko-0.17.3-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0144245842ba4e3d13d7538292919bea7e9266b6a1afc0b213f781aab7e7ef08",
+      "size": 5943663,
+      "format": "tar.gz",
+      "releaseTag": "cranko@0.17.3",
+      "binaries": {
+        "cranko": {
+          "path": "cranko",
+          "sha256": "20c4f487d5a63809635c4ac25a17464a7fb4285ff5692a99ed4a367ce41902cc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pkgw/cranko/releases/download/cranko%400.17.3/cranko-0.17.3-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "2d92e47a9baf60e7853512ad2c7093157d781478849b34908540ed7813098ffb",
+      "size": 8166196,
+      "format": "tar.gz",
+      "releaseTag": "cranko@0.17.3",
+      "binaries": {
+        "cranko": {
+          "path": "cranko",
+          "sha256": "1d1d0fcbaed034e7e333e7c25f38bd69e2225e382278b034aa15ce6a5b70cdbd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pkgw/cranko/releases/download/cranko%400.17.3/cranko-0.17.3-x86_64-apple-darwin.tar.gz",
+      "sha256": "4bc853c6ef26aaad1e1af70bf450471fb888ee0f81513d420df21b3878319714",
+      "size": 5678419,
+      "format": "tar.gz",
+      "releaseTag": "cranko@0.17.3",
+      "binaries": {
+        "cranko": {
+          "path": "cranko",
+          "sha256": "a0e234a9ab0d7f044b2db107c8abd2f527bf4a3a2d747eebb5ddff3ea57507ae"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pkgw/cranko/releases/download/cranko%400.17.3/cranko-0.17.3-aarch64-apple-darwin.tar.gz",
+      "sha256": "e08e55ce8198c8affd9f8466eddebce236727011a25faa94252122bd843e9a5a",
+      "size": 7282419,
+      "format": "tar.gz",
+      "releaseTag": "cranko@0.17.3",
+      "binaries": {
+        "cranko": {
+          "path": "cranko",
+          "sha256": "869e8ac6157ebfe5027fde57ffe9e39fe5b94468b428e941fca2db2ee517ea9a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pkgw/cranko/releases/download/cranko%400.17.3/cranko-0.17.3-x86_64-pc-windows-msvc.zip",
+      "sha256": "a7fc5431373cd875b30c32052e145e3752dc6546a097430bb108c31e7596a09f",
+      "size": 5143590,
+      "format": "zip",
+      "releaseTag": "cranko@0.17.3",
+      "binaries": {
+        "cranko.exe": {
+          "path": "cranko.exe",
+          "sha256": "8bbdd5068a7f0e3824ddacdcb5d0ff8548f2416d2122403bc77dcebcf420bc5f"
+        }
+      }
+    }
+  }
+}
