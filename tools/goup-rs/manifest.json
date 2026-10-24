@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "goup-rs",
+  "version": "0.16.12",
+  "repository": "thinkgos/goup-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thinkgos/goup-rs/releases/download/v0.16.12/goup-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.16.12",
+      "sha256": "0daaf4464cb9cdd8e06b0fcc471a2ca7049dba9cd93df3abfd20f278eb18ae49",
+      "size": 3172516,
+      "format": "tar.gz",
+      "binaries": {
+        "goup": {
+          "path": "goup",
+          "sha256": "f6e0b1ffa6c73219fe2cea5d1fee66a80006f4579961bda640484f3e298dcfed"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/thinkgos/goup-rs/releases/download/v0.16.12/goup-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.16.12",
+      "sha256": "b22039ec3ee90ac04ae11929c0b51033e542ee68591666a0ad4ee1ec3eaa0677",
+      "size": 2859600,
+      "format": "tar.gz",
+      "binaries": {
+        "goup": {
+          "path": "goup",
+          "sha256": "6439a7275ffd22f6ff52cd568c5cc9dc66e24835383eb15db997a0ef0b217f89"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thinkgos/goup-rs/releases/download/v0.16.12/goup-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.16.12",
+      "sha256": "0e16de333d1e1e452160e3a8f5ce59421d452dfc1af3813ce2d3eb4323c1879e",
+      "size": 2822183,
+      "format": "tar.gz",
+      "binaries": {
+        "goup": {
+          "path": "goup",
+          "sha256": "7ba0331f5e9dfc1fc7d542de019a127db1e75005d748d1330d1a76e0217ca3f7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/thinkgos/goup-rs/releases/download/v0.16.12/goup-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.16.12",
+      "sha256": "994986a260580ca81640e2037bcc1d79b8d3dae96591a77b680335e29e5320fb",
+      "size": 2600268,
+      "format": "tar.gz",
+      "binaries": {
+        "goup": {
+          "path": "goup",
+          "sha256": "2d7cc758c3fa6818593014e4b1b5a725fb353ec77ea718340ec2dae28eeb4a60"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/thinkgos/goup-rs/releases/download/v0.16.12/goup-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.16.12",
+      "sha256": "bd709001e967de486c9b623493135210235ca0262b8789b1730d19486747f6e4",
+      "size": 2640426,
+      "format": "zip",
+      "binaries": {
+        "goup.exe": {
+          "path": "goup.exe",
+          "sha256": "c5cc960a798c0504a0bf4a5744f080aa8f8915afc58c369dadf2af4353a1d71c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/thinkgos/goup-rs/releases/download/v0.16.12/goup-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.16.12",
+      "sha256": "5416491605ead822172a19ce9619ff100de71465d15f8e08c4a66c395c419efe",
+      "size": 2489009,
+      "format": "zip",
+      "binaries": {
+        "goup.exe": {
+          "path": "goup.exe",
+          "sha256": "9c6c7ad26d7452838c36ac26d74ce7edabad851717e877c3ba6e9294ffe1f354"
+        }
+      }
+    }
+  }
+}
