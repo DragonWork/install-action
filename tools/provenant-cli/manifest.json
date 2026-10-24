@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "provenant-cli",
+  "version": "1.0.15",
+  "repository": "getprovenant/provenant",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/getprovenant/provenant/releases/download/v1.0.15/provenant-linux-x86_64.tar.gz",
+      "releaseTag": "v1.0.15",
+      "sha256": "914119da2621cbfbb4debd6c5938f9c966d6fe4a5dc7795e64a3d40007e0565b",
+      "size": 24441495,
+      "format": "tar.gz",
+      "binaries": {
+        "provenant": {
+          "path": "provenant",
+          "sha256": "509654fcb3b1ffd57aa88bd2ea33132a1dffbd8c750d90b6c9123a86ab67ae7a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/getprovenant/provenant/releases/download/v1.0.15/provenant-linux-aarch64.tar.gz",
+      "releaseTag": "v1.0.15",
+      "sha256": "a6c551ceb1c7e19fb5a1bc3ff3c6f6b19db2f9fb32d8f9418607c3de12418c2a",
+      "size": 22924277,
+      "format": "tar.gz",
+      "binaries": {
+        "provenant": {
+          "path": "provenant",
+          "sha256": "a9feeed30e22e4a2546ecc08d3f8dd6a53437adf3b487c9b9836472dc87420cf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/getprovenant/provenant/releases/download/v1.0.15/provenant-macos-x86_64.tar.gz",
+      "releaseTag": "v1.0.15",
+      "sha256": "55ecf16fa88346456d8db1d14fbc054543572bebb1bce32e7070aea3110abc3e",
+      "size": 23724848,
+      "format": "tar.gz",
+      "binaries": {
+        "provenant": {
+          "path": "provenant",
+          "sha256": "ec025cedc9e56b6bda8d61ff8f130879b627171c48beece41c92f2018fb36444"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/getprovenant/provenant/releases/download/v1.0.15/provenant-macos-aarch64.tar.gz",
+      "releaseTag": "v1.0.15",
+      "sha256": "63ab38d44928d1180f1e3c667b013a2ae7c6b8290d7d8a91ae3b09924254c2ce",
+      "size": 22474845,
+      "format": "tar.gz",
+      "binaries": {
+        "provenant": {
+          "path": "provenant",
+          "sha256": "26282839b71402e56cb5aa028e37c49e5cc46e38a295c652058d3ebb1c62b0b7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/getprovenant/provenant/releases/download/v1.0.15/provenant-windows-x86_64.zip",
+      "releaseTag": "v1.0.15",
+      "sha256": "b8b22a355cd5238eca0924708d2dc1fef9a10d5e5e7f6860a4cb590fa36d8f5c",
+      "size": 23886079,
+      "format": "zip",
+      "binaries": {
+        "provenant.exe": {
+          "path": "provenant.exe",
+          "sha256": "5b83b8d140a414608a9b5e42810502df994d4098f5d6c189c76267d30284423c"
+        }
+      }
+    }
+  }
+}
