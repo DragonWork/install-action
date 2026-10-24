@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "findlargedir",
+  "version": "0.14.0",
+  "repository": "dkorunic/findlargedir",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dkorunic/findlargedir/releases/download/0.14.0/findlargedir-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.14.0",
+      "sha256": "94d38970bce8974b5753c48815d7262ec58008cfe7be1e69e7859115f1036e97",
+      "size": 367948,
+      "format": "tar.xz",
+      "binaries": {
+        "findlargedir": {
+          "path": "findlargedir-x86_64-unknown-linux-musl/findlargedir",
+          "sha256": "f059944eaf6c75c1e60b64d4bd960143806c8ac389fb14a0a88c7eb5a0d569d4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dkorunic/findlargedir/releases/download/0.14.0/findlargedir-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.14.0",
+      "sha256": "3b0c3c8e70c9e5e3072b85d51c685ad1883dbe458ee9359ee9c8d447468b6245",
+      "size": 284956,
+      "format": "tar.xz",
+      "binaries": {
+        "findlargedir": {
+          "path": "findlargedir-aarch64-unknown-linux-gnu/findlargedir",
+          "sha256": "219c602df056a3bfbf553bfa7d80ed229729015eaf3cb77bb4f6ded4c88d58e5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dkorunic/findlargedir/releases/download/0.14.0/findlargedir-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.14.0",
+      "sha256": "6c26b953b3fa68ec2d78d0e8bc9285c32441afbcaf5e54cd71f20d03f019d939",
+      "size": 291508,
+      "format": "tar.xz",
+      "binaries": {
+        "findlargedir": {
+          "path": "findlargedir-x86_64-apple-darwin/findlargedir",
+          "sha256": "20d77ec8795e756f79207f86b44c4d0adbf8f9f18a248d7b5e16e6e02a65a8be"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dkorunic/findlargedir/releases/download/0.14.0/findlargedir-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.14.0",
+      "sha256": "ea3883934f069f4f285581157f6b337a3d9412f08b9ca59df6330b608a99ddb3",
+      "size": 252836,
+      "format": "tar.xz",
+      "binaries": {
+        "findlargedir": {
+          "path": "findlargedir-aarch64-apple-darwin/findlargedir",
+          "sha256": "63d6e9442342f3120965f0cc88cc05a149ccd253b233548016b7d8e86242dc98"
+        }
+      }
+    }
+  }
+}
