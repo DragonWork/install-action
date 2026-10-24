@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "shimmy",
+  "version": "2.6.5",
+  "repository": "Michael-A-Kuykendall/shimmy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Michael-A-Kuykendall/shimmy/releases/download/v2.6.5/shimmy-linux-x86_64",
+      "sha256": "5fd24f0c978e85cf5af044b37384b636d515f32b7e0bbdb5bec0f4c9c4ac3330",
+      "size": 9704040,
+      "format": "binary",
+      "releaseTag": "v2.6.5",
+      "binaries": {
+        "shimmy": {
+          "path": "shimmy-linux-x86_64",
+          "sha256": "5fd24f0c978e85cf5af044b37384b636d515f32b7e0bbdb5bec0f4c9c4ac3330"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Michael-A-Kuykendall/shimmy/releases/download/v2.6.5/shimmy-linux-arm64",
+      "sha256": "33b67a25e0b69310f32d38646b79e620fe98791992422239dc6ab5191c9b93db",
+      "size": 10518944,
+      "format": "binary",
+      "releaseTag": "v2.6.5",
+      "binaries": {
+        "shimmy": {
+          "path": "shimmy-linux-arm64",
+          "sha256": "33b67a25e0b69310f32d38646b79e620fe98791992422239dc6ab5191c9b93db"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Michael-A-Kuykendall/shimmy/releases/download/v2.6.5/shimmy-macos-arm64",
+      "sha256": "f68193dc9d2baab45a683e99c9c571247fd730b97554e8d6e1715981f7eeb1db",
+      "size": 7408144,
+      "format": "binary",
+      "releaseTag": "v2.6.5",
+      "binaries": {
+        "shimmy": {
+          "path": "shimmy-macos-arm64",
+          "sha256": "f68193dc9d2baab45a683e99c9c571247fd730b97554e8d6e1715981f7eeb1db"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Michael-A-Kuykendall/shimmy/releases/download/v2.6.5/shimmy-windows-x86_64.exe",
+      "sha256": "f9cbfcc01e4f4e86a88a5b93607c5de3b8a81c2ecde86133c3d49af711c850ed",
+      "size": 8184320,
+      "format": "binary",
+      "releaseTag": "v2.6.5",
+      "binaries": {
+        "shimmy.exe": {
+          "path": "shimmy-windows-x86_64.exe",
+          "sha256": "f9cbfcc01e4f4e86a88a5b93607c5de3b8a81c2ecde86133c3d49af711c850ed"
+        }
+      }
+    }
+  }
+}
