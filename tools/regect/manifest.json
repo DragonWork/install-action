@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "regect",
+  "version": "1.3.0",
+  "repository": "kloki/regect",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kloki/regect/releases/download/v1.3.0/regect-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "95cfbb77aef744b2bee2886be928b9acb54ccdf1da6e06217b32f8457a5d5a17",
+      "size": 821596,
+      "format": "tar.xz",
+      "binaries": {
+        "regect": {
+          "path": "regect-x86_64-unknown-linux-gnu/regect",
+          "sha256": "3877cb0df454c2f1b93b128351fadba2c372132e00cb0fbd37257ab7f2386fe1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kloki/regect/releases/download/v1.3.0/regect-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "541cb75981ab64016eca15e1a2e7395014248cb78f9a8983326074de5a35675e",
+      "size": 737928,
+      "format": "tar.xz",
+      "binaries": {
+        "regect": {
+          "path": "regect-aarch64-unknown-linux-gnu/regect",
+          "sha256": "1d8511b1df57de4a56f7b5672c90ca01d5ae3a61db82519a5eb9aa14ecbede03"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kloki/regect/releases/download/v1.3.0/regect-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "219609e4f0d576d0911d9906f94a9982d73f5d9e45b64db6c715de7230d7491f",
+      "size": 766496,
+      "format": "tar.xz",
+      "binaries": {
+        "regect": {
+          "path": "regect-x86_64-apple-darwin/regect",
+          "sha256": "c393199164722a0a3e4042e9df424086cf3034dfe39410af916afccb110dcacf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kloki/regect/releases/download/v1.3.0/regect-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "9fa14783a2e100f861ca43f06445d83356db64d5066a8b93ab8b58571352c17e",
+      "size": 676412,
+      "format": "tar.xz",
+      "binaries": {
+        "regect": {
+          "path": "regect-aarch64-apple-darwin/regect",
+          "sha256": "38b3835b035a8e9bb16a0c71f7f812e2255bc006e44acc954702116cdbed672b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kloki/regect/releases/download/v1.3.0/regect-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.3.0",
+      "sha256": "4d36985eb9862ef5e2f40eb3f4fa2a0de41134f20949445f176cb6c2dd996484",
+      "size": 958044,
+      "format": "zip",
+      "binaries": {
+        "regect.exe": {
+          "path": "regect.exe",
+          "sha256": "c570f47b9aa59c5e01f9885499cd5c475008177bb86c8be3fcef1fdce85292f4"
+        }
+      }
+    }
+  }
+}
