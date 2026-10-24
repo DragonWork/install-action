@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dicom-toimage",
+  "version": "0.10.0",
+  "repository": "Enet4/dicom-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Enet4/dicom-rs/releases/download/v0.10.0/dicom-rs-tools-v0.10.0-x86_64-linux-musl.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "5045570c6605feaefd2455eac0230c17abf4a1fafeb4d9f4bf1f20bfd0b55c3a",
+      "size": 33543565,
+      "format": "zip",
+      "binaries": {
+        "dicom-toimage": {
+          "path": "dicom-toimage",
+          "sha256": "d6cd7fb346bd08e19c9084ae512137e039461cf2656ac9048f3e33a8797b6928"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Enet4/dicom-rs/releases/download/v0.10.0/dicom-rs-tools-v0.10.0-x86_64-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "d22dd9e3644d6f8c84a156b176253660e449b91ab7f6db6114b99c1c58955250",
+      "size": 27221792,
+      "format": "zip",
+      "binaries": {
+        "dicom-toimage.exe": {
+          "path": "dicom-toimage.exe",
+          "sha256": "29bd476bbee66caad65a220d070e442ecc1bb20b7e3a84850c2a2cc645d52d4b"
+        }
+      }
+    }
+  }
+}
