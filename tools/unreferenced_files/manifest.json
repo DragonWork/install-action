@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "unreferenced_files",
+  "version": "2.2.0",
+  "repository": "DeveloperC286/unreferenced_files",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DeveloperC286/unreferenced_files/releases/download/v2.2.0/x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.2.0",
+      "sha256": "8bfa5c6852465fca5118a01f49d8c79aa624aff5622a7b0e9e1cc3f24e76103e",
+      "size": 1281029,
+      "format": "tar.gz",
+      "binaries": {
+        "unreferenced_files": {
+          "path": "unreferenced_files",
+          "sha256": "ce810ac08c1ed22c0c6f7ad9429cdafc6023bcb9a75d830f8fe35c7c76f5187a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/DeveloperC286/unreferenced_files/releases/download/v2.2.0/aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.2.0",
+      "sha256": "a828654b2674978ea9f0016361c31576012ff23d0b089a828e7812c692c922ef",
+      "size": 1164814,
+      "format": "tar.gz",
+      "binaries": {
+        "unreferenced_files": {
+          "path": "unreferenced_files",
+          "sha256": "1feafd4bc87417222785805634e337f0e7b3d7e0976e4011f225acac2866495d"
+        }
+      }
+    }
+  }
+}
