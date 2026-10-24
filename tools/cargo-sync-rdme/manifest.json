@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-sync-rdme",
+  "version": "0.8.4",
+  "repository": "gifnksm/cargo-sync-rdme",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gifnksm/cargo-sync-rdme/releases/download/v0.8.4/cargo-sync-rdme-v0.8.4-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.4",
+      "sha256": "b8ee2b353ca20fad19fde10840f40c5a92360010ef641f525299ef92eb9139a8",
+      "size": 4425807,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-sync-rdme": {
+          "path": "cargo-sync-rdme",
+          "sha256": "2e72ee9c163b1cb93b18beab006ef7be54fe717026e6cffbd15a0bbc41533dba"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/gifnksm/cargo-sync-rdme/releases/download/v0.8.4/cargo-sync-rdme-v0.8.4-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.4",
+      "sha256": "73300923560b3a7deadc8f0fc3318020468998523d4f854b7decf2fd47aec0c8",
+      "size": 4099886,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-sync-rdme": {
+          "path": "cargo-sync-rdme",
+          "sha256": "877b47253eaecbb29630805e6035edfd360b2734debb7c5f7e63473aada3c5f5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/gifnksm/cargo-sync-rdme/releases/download/v0.8.4/cargo-sync-rdme-v0.8.4-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.4",
+      "sha256": "e4b1b921c7c737a5a5e5ec097176e0399a9647ce4b09cac9943e8ca15b87d0f2",
+      "size": 4024320,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-sync-rdme": {
+          "path": "cargo-sync-rdme",
+          "sha256": "b336e2ca4859c0fb6a94ebf0b0d09c328681a36194400872c4afe039896180ad"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/gifnksm/cargo-sync-rdme/releases/download/v0.8.4/cargo-sync-rdme-v0.8.4-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.4",
+      "sha256": "15acb0e0b209a1310350c3a9ab1e98bf91a684721763e2c9fac2e38a1798e798",
+      "size": 4138725,
+      "format": "zip",
+      "binaries": {
+        "cargo-sync-rdme.exe": {
+          "path": "cargo-sync-rdme.exe",
+          "sha256": "783b4593b1f18b878249d23a573d243651c4c1a432f7c3ce020eea5e4549c52e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/gifnksm/cargo-sync-rdme/releases/download/v0.8.4/cargo-sync-rdme-v0.8.4-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.4",
+      "sha256": "370d38c38b311bc41d72ad8f4291e8f13121254686a9354d645cf04c03255b04",
+      "size": 3911496,
+      "format": "zip",
+      "binaries": {
+        "cargo-sync-rdme.exe": {
+          "path": "cargo-sync-rdme.exe",
+          "sha256": "2f164dd4e9abf162080eb46d70acc4405c5c6f5a3d559c6eb06b7f3b7232dcbf"
+        }
+      }
+    }
+  }
+}
