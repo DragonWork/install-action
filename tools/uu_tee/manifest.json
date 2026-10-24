@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_tee",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "tee.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/tee.exe",
+          "sha256": "e8fae02417d6b020c5f86e85f945d06872e6c139bd6217d861c5d79a64960ab7"
+        }
+      }
+    }
+  }
+}
