@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "squill",
+  "version": "0.8.0",
+  "repository": "jdkaplan/squill",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jdkaplan/squill/releases/download/v0.8.0/squill-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "5050d2de2e69b565d95b57f49553fcf409ad323b5fe9f080e4e599fd91272d61",
+      "size": 3283880,
+      "format": "tar.xz",
+      "binaries": {
+        "squill": {
+          "path": "squill-x86_64-unknown-linux-gnu/squill",
+          "sha256": "2277667edfe165102a264e98a725bf85d254172a772e3195eca1a302530abf24"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jdkaplan/squill/releases/download/v0.8.0/squill-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "b3ba189bfd7f08ef2dd67e7d2a40f95dbca0522c4f23a9f68a5788859d17dccc",
+      "size": 2542164,
+      "format": "tar.xz",
+      "binaries": {
+        "squill": {
+          "path": "squill-x86_64-apple-darwin/squill",
+          "sha256": "cf791607cd743b8df7f90eb6879c8b39f45d4812cd291d414c4dbcc931308dac"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jdkaplan/squill/releases/download/v0.8.0/squill-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "65a3f0e5e9ae26137685dadd2bfac164fd8e2bb5d9793b8469a0d4e3671507b6",
+      "size": 2288244,
+      "format": "tar.xz",
+      "binaries": {
+        "squill": {
+          "path": "squill-aarch64-apple-darwin/squill",
+          "sha256": "fc4e43762fac2899c46aff42d2ed0c75f23d79cf94a87e0c2eabe702ab79fac0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jdkaplan/squill/releases/download/v0.8.0/squill-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.0",
+      "sha256": "3ac811d9a084e1b7ec2eb55ee3ab98370d4fae6c3f43716c4384eb3c40967848",
+      "size": 8565686,
+      "format": "zip",
+      "binaries": {
+        "squill.exe": {
+          "path": "squill.exe",
+          "sha256": "274265a310c2de8710fdc21b28bb05d930d8e937410c7b966c8d20129600e29f"
+        }
+      }
+    }
+  }
+}
