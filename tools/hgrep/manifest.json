@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "hgrep",
+  "version": "0.3.9",
+  "repository": "rhysd/hgrep",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rhysd/hgrep/releases/download/v0.3.9/hgrep-v0.3.9-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.3.9",
+      "sha256": "5b8c2a1a77bce2cb4fd42c0c9a6779a52f824086a8113833406e425fc6573be5",
+      "size": 4667597,
+      "format": "zip",
+      "binaries": {
+        "hgrep": {
+          "path": "hgrep-v0.3.9-x86_64-unknown-linux-musl/hgrep",
+          "sha256": "674086e6535a46c09af3591e875df4fc151888738f84742dbe48109910e9eb91"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rhysd/hgrep/releases/download/v0.3.9/hgrep-v0.3.9-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.3.9",
+      "sha256": "e532a9b06674ffccd4b7d2bd7f33c7f1460ff52a4127fea0fcd29252143015c1",
+      "size": 4492645,
+      "format": "zip",
+      "binaries": {
+        "hgrep": {
+          "path": "hgrep-v0.3.9-aarch64-unknown-linux-gnu/hgrep",
+          "sha256": "921ba267e5e600cccab8e4ea2582592f789911af6ff8ddd730dbf962ee867a0a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rhysd/hgrep/releases/download/v0.3.9/hgrep-v0.3.9-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.3.9",
+      "sha256": "231030a389af67c3f36f273a73f5161d215be531e96aa613a67d252d5a590bb3",
+      "size": 4424231,
+      "format": "zip",
+      "binaries": {
+        "hgrep": {
+          "path": "hgrep-v0.3.9-x86_64-apple-darwin/hgrep",
+          "sha256": "6bd1d80abe14ad8e9e7b824d0a1d04cffbf5972f00db6eebd1b07bbc37a3ac31"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rhysd/hgrep/releases/download/v0.3.9/hgrep-v0.3.9-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.3.9",
+      "sha256": "6ad3cceba4268ee2aa8c69ba4fea02fff9b2c268eaa12ba8358d7632e045d133",
+      "size": 4343633,
+      "format": "zip",
+      "binaries": {
+        "hgrep": {
+          "path": "hgrep-v0.3.9-aarch64-apple-darwin/hgrep",
+          "sha256": "0c3b037218dcc22d74561eaafdfcb2f622f00e7bcd33a690cdf0c985bab6db83"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rhysd/hgrep/releases/download/v0.3.9/hgrep-v0.3.9-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.9",
+      "sha256": "a562dc6305f1082a8854ae971f5c5a7bfd20edf7ac835750799f3ae0c3a5a21e",
+      "size": 4114938,
+      "format": "zip",
+      "binaries": {
+        "hgrep.exe": {
+          "path": "hgrep-v0.3.9-x86_64-pc-windows-msvc/hgrep.exe",
+          "sha256": "4ceb22a8fc2c0611890bce332c101d926ba5232fd61fb43168fdc26163636910"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/rhysd/hgrep/releases/download/v0.3.9/hgrep-v0.3.9-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.9",
+      "sha256": "5ca0d7d622c9d66a4e7a5ed31d83c4a273e840c0479515e5c1f1ea1e371b8c1c",
+      "size": 3906878,
+      "format": "zip",
+      "binaries": {
+        "hgrep.exe": {
+          "path": "hgrep-v0.3.9-aarch64-pc-windows-msvc/hgrep.exe",
+          "sha256": "1793cfdb01f20ac201a6090a784ff252f724e417022558e1fd0746321fac6b2f"
+        }
+      }
+    }
+  }
+}
