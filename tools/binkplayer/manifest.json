@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "binkplayer",
+  "version": "1.2.1",
+  "repository": "bladecoder/blade-ink-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bladecoder/blade-ink-rs/releases/download/v1.2.1/binkplayer-v1.2.1-x86_64-linux.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "4f0e37b40b17f17f6c78d7e38321fff5b509d0f305a5edbe35e10453d4f69fcd",
+      "size": 802783,
+      "format": "tar.gz",
+      "binaries": {
+        "binkplayer": {
+          "path": "binkplayer-v1.2.1-x86_64-linux/binkplayer",
+          "sha256": "1eb53dc6c513579e22bf0204486d756e308891fc441fe4d7dbb1eb2f6c97f92f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bladecoder/blade-ink-rs/releases/download/v1.2.1/binkplayer-v1.2.1-x86_64-macos.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "4ff3fd93d59f87d8eb46fdc87416987e1008b52c62e35feeec3f09cd342ae8b1",
+      "size": 734551,
+      "format": "tar.gz",
+      "binaries": {
+        "binkplayer": {
+          "path": "binkplayer-v1.2.1-x86_64-macos/binkplayer",
+          "sha256": "76fd7d4cf5c9b9985feb77470d13bf3d390c38f0ffd839719ed71dc43d32c43f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bladecoder/blade-ink-rs/releases/download/v1.2.1/binkplayer-v1.2.1-x86_64-windows.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "94c489e7d0c07d6c7368ecada3aba08f4c31a9ed0923ad6f159bff32acad6118",
+      "size": 582967,
+      "format": "zip",
+      "binaries": {
+        "binkplayer.exe": {
+          "path": "binkplayer-v1.2.1-x86_64-windows/binkplayer.exe",
+          "sha256": "36dd3497387f2763179a8086c779895ae74249106f90824a1446ddd79bed1ca3"
+        }
+      }
+    }
+  }
+}
