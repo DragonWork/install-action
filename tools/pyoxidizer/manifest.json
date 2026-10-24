@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pyoxidizer",
+  "version": "0.24.0",
+  "repository": "indygreg/PyOxidizer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/indygreg/PyOxidizer/releases/download/pyoxidizer/0.24.0/pyoxidizer-0.24.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "a7847f7b8111f0d73edc3d2594c5dd4dd853006360a9e7f5e91565257fef5c3e",
+      "size": 12421155,
+      "format": "tar.gz",
+      "releaseTag": "pyoxidizer/0.24.0",
+      "binaries": {
+        "pyoxidizer": {
+          "path": "pyoxidizer-0.24.0-x86_64-unknown-linux-musl/pyoxidizer",
+          "sha256": "fbb9ffbc4d668591041e15ffd8ba35a52542e4ce08b02432a5b0b33baadb5831"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/indygreg/PyOxidizer/releases/download/pyoxidizer/0.24.0/pyoxidizer-0.24.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "74593cd552a0ec512350499068081ac4e78d8d96352155f1aa18111e129207dc",
+      "size": 12038219,
+      "format": "tar.gz",
+      "releaseTag": "pyoxidizer/0.24.0",
+      "binaries": {
+        "pyoxidizer": {
+          "path": "pyoxidizer-0.24.0-aarch64-unknown-linux-musl/pyoxidizer",
+          "sha256": "08da72747e43991ac1b271dd1d7c083e4a6ae4c5246971b46b5184119eac660b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/indygreg/PyOxidizer/releases/download/pyoxidizer/0.24.0/pyoxidizer-0.24.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "389ffd4477136c8e473dd6287ef4e8c96d31fde9a11a1cb690a245ba65643976",
+      "size": 10429138,
+      "format": "tar.gz",
+      "releaseTag": "pyoxidizer/0.24.0",
+      "binaries": {
+        "pyoxidizer": {
+          "path": "pyoxidizer-0.24.0-x86_64-apple-darwin/pyoxidizer",
+          "sha256": "8e180a47db36708bddc311a6fad3237cfab089bfeb1c5868178b88250cfb3c56"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/indygreg/PyOxidizer/releases/download/pyoxidizer/0.24.0/pyoxidizer-0.24.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "65976b0b505857f7f43ea30de35ef6305383e54ddfae90086fd641ca14d0487f",
+      "size": 9748094,
+      "format": "tar.gz",
+      "releaseTag": "pyoxidizer/0.24.0",
+      "binaries": {
+        "pyoxidizer": {
+          "path": "pyoxidizer-0.24.0-aarch64-apple-darwin/pyoxidizer",
+          "sha256": "231d4f063de4c2410ab7257f0ebcc0d7cfc599dc4ab536366b71ac80c5844a79"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/indygreg/PyOxidizer/releases/download/pyoxidizer/0.24.0/pyoxidizer-0.24.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "c1b757bc7c64921b38bf5fd70d2a2e2f591d36fe1cae3b5722822c08f651ba7b",
+      "size": 9069672,
+      "format": "zip",
+      "releaseTag": "pyoxidizer/0.24.0",
+      "binaries": {
+        "pyoxidizer.exe": {
+          "path": "pyoxidizer-0.24.0-x86_64-pc-windows-msvc/pyoxidizer.exe",
+          "sha256": "ee4daf31293411747794097bc42750816f097bb7fbde40a8f130b1f4ee402710"
+        }
+      }
+    }
+  }
+}
