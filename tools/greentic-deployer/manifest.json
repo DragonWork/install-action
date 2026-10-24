@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "greentic-deployer",
+  "version": "1.2.0",
+  "repository": "greenticai/greentic-deployer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/greenticai/greentic-deployer/releases/download/v1.2.0/greentic-deployer-v1.2.0-x86_64-unknown-linux-gnu.tgz",
+      "sha256": "36fa8c5d9dbbe510cdbdcc97e60c137d211f3b4b0847cbdf627b107afdcd8272",
+      "size": 27126113,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "greentic-deployer": {
+          "path": "greentic-deployer-v1.2.0-x86_64-unknown-linux-gnu/greentic-deployer",
+          "sha256": "b40228eb917623cd03e10c1496255c16c1051ca3d98e31aeb18856a8d2bf5f5b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/greenticai/greentic-deployer/releases/download/v1.2.0/greentic-deployer-v1.2.0-aarch64-unknown-linux-gnu.tgz",
+      "sha256": "21e9b352e477f7b445de24e8ee220aa297a1fcaa5a541e192bc927894427bace",
+      "size": 26412962,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "greentic-deployer": {
+          "path": "greentic-deployer-v1.2.0-aarch64-unknown-linux-gnu/greentic-deployer",
+          "sha256": "7b9701f6c3b2933381a7a850505cf585acd58a34494211782cbbc6bbe0edbc8c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/greenticai/greentic-deployer/releases/download/v1.2.0/greentic-deployer-v1.2.0-x86_64-apple-darwin.tgz",
+      "sha256": "1a2c4b78679bf2d637e331995bd0ba70e5cb4863227f135b1eb17f2a54589c2e",
+      "size": 25821795,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "greentic-deployer": {
+          "path": "greentic-deployer-v1.2.0-x86_64-apple-darwin/greentic-deployer",
+          "sha256": "92ecc35249076d84b3385720c41d58ad3cc779c82490784f3f65d3c548030a2b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/greenticai/greentic-deployer/releases/download/v1.2.0/greentic-deployer-v1.2.0-aarch64-apple-darwin.tgz",
+      "sha256": "981a5cd1e1f904fc9d8c527d14bcc1b40d9e6476653ee3c47b734a90d1a8379f",
+      "size": 23951037,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "greentic-deployer": {
+          "path": "greentic-deployer-v1.2.0-aarch64-apple-darwin/greentic-deployer",
+          "sha256": "28cf962b309b4240c3831e84d4b40a05ff607ce0d31b77ace93ba2ca18e9bb1d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/greenticai/greentic-deployer/releases/download/v1.2.0/greentic-deployer-v1.2.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "e17dcf1c2de58df4fdc5aa34ba6f7b11c5d481b71ac33b4fa2dfe8d8305a40cb",
+      "size": 23166447,
+      "format": "zip",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "greentic-deployer.exe": {
+          "path": "greentic-deployer-v1.2.0-x86_64-pc-windows-msvc/greentic-deployer.exe",
+          "sha256": "db358b31ea87b0484d7ec38c19bd1aafed2c41620128f33aac256ad099ada919"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/greenticai/greentic-deployer/releases/download/v1.2.0/greentic-deployer-v1.2.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "9f65efed38f937e1d24b1223ea8de5d7761bd3d79ad4eba02576ca8e32595105",
+      "size": 21838510,
+      "format": "zip",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "greentic-deployer.exe": {
+          "path": "greentic-deployer-v1.2.0-aarch64-pc-windows-msvc/greentic-deployer.exe",
+          "sha256": "6001242629e25f5b3218e421404af257eb9cdc12dd58143dd34e69fdd0181144"
+        }
+      }
+    }
+  }
+}
