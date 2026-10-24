@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ic-wasm",
+  "version": "0.11.1",
+  "repository": "dfinity/ic-wasm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dfinity/ic-wasm/releases/download/0.11.1/ic-wasm-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.11.1",
+      "sha256": "86d784f95c74284d8748aec6ebc6c15d57992dae74b53902f64cc01b727cd2be",
+      "size": 1855916,
+      "format": "tar.xz",
+      "binaries": {
+        "ic-wasm": {
+          "path": "ic-wasm-x86_64-unknown-linux-musl/ic-wasm",
+          "sha256": "b8229e578271474dfacb8ce4561318b1c50f25a9ec84d165b0cf0e4907331940"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dfinity/ic-wasm/releases/download/0.11.1/ic-wasm-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.11.1",
+      "sha256": "49d5992ee5f050f8869b6b4b8357eceb1cb3b84f79fbd2de37ed8166c5dc5e30",
+      "size": 1937228,
+      "format": "tar.xz",
+      "binaries": {
+        "ic-wasm": {
+          "path": "ic-wasm-aarch64-unknown-linux-gnu/ic-wasm",
+          "sha256": "98bbbe6a4fd641bf41ee286a22b8ad4ff3d0c7feef74c5b94c9e58037f81a1d6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dfinity/ic-wasm/releases/download/0.11.1/ic-wasm-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.11.1",
+      "sha256": "9bf63f9daaee8d812207807435a1bff23d7b7e50c573b7c2a36b8aa50974e99a",
+      "size": 1969704,
+      "format": "tar.xz",
+      "binaries": {
+        "ic-wasm": {
+          "path": "ic-wasm-x86_64-apple-darwin/ic-wasm",
+          "sha256": "e873dc8daf826c37b7d637c8b3729a16117a6294a5388485a3ec599fae0210b6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dfinity/ic-wasm/releases/download/0.11.1/ic-wasm-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.11.1",
+      "sha256": "1feeb253498b783ce19e9e166d4f205ed35a8ab7fa679173aaa4b41fb78c852d",
+      "size": 1903040,
+      "format": "tar.xz",
+      "binaries": {
+        "ic-wasm": {
+          "path": "ic-wasm-aarch64-apple-darwin/ic-wasm",
+          "sha256": "6302042e27d51cdf8a49c36e850e3582a942e192dab663053a3eee6b410cd041"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dfinity/ic-wasm/releases/download/0.11.1/ic-wasm-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.11.1",
+      "sha256": "75e0d3619f1f480a86d21b0422e4093e1f99eb3c0a5b464e8ab78fea62a28381",
+      "size": 2764444,
+      "format": "zip",
+      "binaries": {
+        "ic-wasm.exe": {
+          "path": "ic-wasm.exe",
+          "sha256": "d818a1796cc1d9233ddd07c5cd53a66113bf13dbfc5220b3159cb47c38a3e198"
+        }
+      }
+    }
+  }
+}
