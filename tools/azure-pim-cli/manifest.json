@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "name": "azure-pim-cli",
+  "version": "0.17.0",
+  "repository": "demoray/azure-pim-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/demoray/azure-pim-cli/releases/download/0.17.0/azure-pim-cli_0.17.0-1_amd64_24.04.deb",
+      "sha256": "55a4b4a3d9a9216df1da8df5ceab9ccd65b5c42c219184b6c97909f1393bc57b",
+      "size": 2187932,
+      "format": "deb",
+      "releaseTag": "0.17.0",
+      "binaries": {
+        "az-pim": {
+          "path": "./usr/bin/az-pim",
+          "sha256": "2b0a207fd45b74482f49ade6f8e03746abfa9c72632d4e9a5e616c093cf92fb2"
+        },
+        "dump-roles": {
+          "path": "./usr/bin/dump-roles",
+          "sha256": "186a03bab9034dfa21510a7474649ba343453f03705e005c107835d1d074acd6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/demoray/azure-pim-cli/releases/download/0.17.0/az-pim-macos-0.17.0",
+      "sha256": "33334c7e310b300433e15886f1d9e20ecdad2bc5d43cc2596d5604bdd92e261e",
+      "size": 7096336,
+      "format": "binary",
+      "releaseTag": "0.17.0",
+      "binaries": {
+        "az-pim": {
+          "path": "az-pim-macos-0.17.0",
+          "sha256": "33334c7e310b300433e15886f1d9e20ecdad2bc5d43cc2596d5604bdd92e261e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/demoray/azure-pim-cli/releases/download/0.17.0/az-pim-windows-0.17.0.exe",
+      "sha256": "db8f3b086e37cd48c702279d5d0e440f2d29d5ffb279fd8435278350fadbbb32",
+      "size": 6555136,
+      "format": "binary",
+      "releaseTag": "0.17.0",
+      "binaries": {
+        "az-pim.exe": {
+          "path": "az-pim-windows-0.17.0.exe",
+          "sha256": "db8f3b086e37cd48c702279d5d0e440f2d29d5ffb279fd8435278350fadbbb32"
+        }
+      }
+    }
+  }
+}
