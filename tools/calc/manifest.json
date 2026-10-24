@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "calc",
+  "version": "0.5.0",
+  "repository": "coriolinus/calc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/coriolinus/calc/releases/download/v0.5.0/calc-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "d2d664437c49d0c6af127339e76808801717fc8ec5b653c4ce8b878edf66585c",
+      "size": 1047100,
+      "format": "tar.xz",
+      "binaries": {
+        "calc": {
+          "path": "calc-x86_64-unknown-linux-gnu/calc",
+          "sha256": "0b4c7c3f534de529d518b874425d7281a3b4d8bb3438d459c208d36bd1f824a1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/coriolinus/calc/releases/download/v0.5.0/calc-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "0bdcb92c5fb20dd4a21c083b2332b51049b590d8cd0a9d542f60f4cba9377218",
+      "size": 950848,
+      "format": "tar.xz",
+      "binaries": {
+        "calc": {
+          "path": "calc-aarch64-unknown-linux-gnu/calc",
+          "sha256": "b2f4b402e5a095a86820ddfeb529eb02c7d88aa93e39a4bf1a419b443831ed13"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/coriolinus/calc/releases/download/v0.5.0/calc-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "2eda0da954ab491885fb875d8f651c30ae73d7ae3951bd9990796500e206733a",
+      "size": 877192,
+      "format": "tar.xz",
+      "binaries": {
+        "calc": {
+          "path": "calc-aarch64-apple-darwin/calc",
+          "sha256": "a856abf622867d224370b8a92ca0cd9e41b3767f044d18cbb4949692550619a0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/coriolinus/calc/releases/download/v0.5.0/calc-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "661e966819b06b1c928b800c5ef86f573ab117005099e99895e95fd7f3b8d8bd",
+      "size": 1309467,
+      "format": "zip",
+      "binaries": {
+        "calc.exe": {
+          "path": "calc.exe",
+          "sha256": "171ad0b7c3b5c2c0541cb241074592995de0868c4c9afb47ecc03045965a269a"
+        }
+      }
+    }
+  }
+}
