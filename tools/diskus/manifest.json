@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "diskus",
+  "version": "0.9.0",
+  "repository": "sharkdp/diskus",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "6ed6fbbd8b14c9daf2e56e690ee16761ceea5bf73b48813b3d723d8498146dc4",
+      "size": 479191,
+      "format": "tar.gz",
+      "binaries": {
+        "diskus": {
+          "path": "diskus-v0.9.0-x86_64-unknown-linux-musl/diskus",
+          "sha256": "0a8caa3cc5853f0410f1d79a627105b9ea5e36bc51a5e7064108afe660589635"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "de8d7b4147911ed228fffeb49e4d19bc42c23a65eb4e3db98058ad9778a835cb",
+      "size": 397643,
+      "format": "tar.gz",
+      "binaries": {
+        "diskus": {
+          "path": "diskus-v0.9.0-aarch64-unknown-linux-gnu/diskus",
+          "sha256": "ee4a784f8f99436711656425b2d7b1e11ba1216606e19dc6bab1ab34dad63b5c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "6f83be20575ad8227758681f0b0021d5fbbf1019867ba418a43177e18a0152cb",
+      "size": 403678,
+      "format": "tar.gz",
+      "binaries": {
+        "diskus": {
+          "path": "diskus-v0.9.0-x86_64-apple-darwin/diskus",
+          "sha256": "d7bedf2da4c8349eb69fd9bf27379882255413edfba7216bac647252e6602ebe"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "85d5b4f79c0986e1c25ce35b4df5376c9d4a40ce178b94f7a4962ed629999a7a",
+      "size": 373767,
+      "format": "tar.gz",
+      "binaries": {
+        "diskus": {
+          "path": "diskus-v0.9.0-aarch64-apple-darwin/diskus",
+          "sha256": "14c0132c54ff618e204cb77041840229d764adc471ae4a20795bc335b337892e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "61f595b5b360e6689eee3a1913ecd1e7d266afceed0a6ad792d7df75c8bf3fde",
+      "size": 342993,
+      "format": "zip",
+      "binaries": {
+        "diskus.exe": {
+          "path": "diskus-v0.9.0-x86_64-pc-windows-msvc/diskus.exe",
+          "sha256": "bffa52a98ba28208d1bc3c6569438d478db424b4931abb1d28878c6ad2d143f4"
+        }
+      }
+    }
+  }
+}
