@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "zip-password-finder",
+  "version": "0.12.1",
+  "repository": "agourlay/zip-password-finder",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/agourlay/zip-password-finder/releases/download/v0.12.1/zip-password-finder-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "8fcc3b112179f8ee5510c20552fb073361fe774371a08a06b755062749027c9d",
+      "size": 940843,
+      "format": "tar.gz",
+      "binaries": {
+        "zip-password-finder": {
+          "path": "zip-password-finder",
+          "sha256": "6717f407dee8a6578dac33240485f12d779812dc4d13521290fcfeb4e1f04961"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/agourlay/zip-password-finder/releases/download/v0.12.1/zip-password-finder-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "47d3ca907263fed2eff796ff265dc41b9ca51c998d26f7432820a88a6a044f42",
+      "size": 877864,
+      "format": "tar.gz",
+      "binaries": {
+        "zip-password-finder": {
+          "path": "zip-password-finder",
+          "sha256": "0be989d944aff624e0e2fe6cf079ba9d75a8167065e2fb0be5ff07a4e264f950"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/agourlay/zip-password-finder/releases/download/v0.12.1/zip-password-finder-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "6c2131d2962c83b5b05733949ef012601b484353b6dfabc701a0815425d51cc0",
+      "size": 887205,
+      "format": "tar.gz",
+      "binaries": {
+        "zip-password-finder": {
+          "path": "zip-password-finder",
+          "sha256": "5a53fe083294d851036e0e9fb3f9a5cf9dfed297288e98f63c846c5ee14a17cb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/agourlay/zip-password-finder/releases/download/v0.12.1/zip-password-finder-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "967628ce84c0ffd01ba4b05359c9cf192bb22f31971299442a50b95c56ef0781",
+      "size": 791842,
+      "format": "tar.gz",
+      "binaries": {
+        "zip-password-finder": {
+          "path": "zip-password-finder",
+          "sha256": "c7c0f34f4a4e3dd3aa06eb0d55ceff708c48c31e8fdba1fb1cc9423c1c6223ea"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/agourlay/zip-password-finder/releases/download/v0.12.1/zip-password-finder-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.1",
+      "sha256": "86d425d055f6bacb652c11794de93b0e511505b400b9f769671420288705b406",
+      "size": 757120,
+      "format": "zip",
+      "binaries": {
+        "zip-password-finder.exe": {
+          "path": "zip-password-finder.exe",
+          "sha256": "bba519da97ed8272f4f3aa36942d2a781f0aa5a73cfa12b1fe90095ab48956ac"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/agourlay/zip-password-finder/releases/download/v0.12.1/zip-password-finder-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.1",
+      "sha256": "642d24bf616282ab05af1d7d95f87f90c964d09041e194e2d8fc0f5a2de2be4d",
+      "size": 709356,
+      "format": "zip",
+      "binaries": {
+        "zip-password-finder.exe": {
+          "path": "zip-password-finder.exe",
+          "sha256": "cd8005e386f623b5aba36c87cf91f84817baea9c9cf7cb528ba62ac4f95f420d"
+        }
+      }
+    }
+  }
+}
