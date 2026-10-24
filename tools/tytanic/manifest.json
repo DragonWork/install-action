@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "tytanic",
+  "version": "0.4.1",
+  "repository": "typst-community/tytanic",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/typst-community/tytanic/releases/download/v0.4.1/tytanic-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.4.1",
+      "sha256": "cf262206b2c89f4d74690b5c825d5ffce1f633eb2900948b50cc006dccebe32c",
+      "size": 19022740,
+      "format": "tar.xz",
+      "binaries": {
+        "tt": {
+          "path": "tytanic-x86_64-unknown-linux-musl/tt",
+          "sha256": "415ae1ab3cbc7425d24d6bad48f87e0f595810e7905040cda3ca08c6283738af"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/typst-community/tytanic/releases/download/v0.4.1/tytanic-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.4.1",
+      "sha256": "5d3ccd7b58fe0d60717df50ce429fc39dc8be0abfc166817bdce1b2b7722190e",
+      "size": 18081120,
+      "format": "tar.xz",
+      "binaries": {
+        "tt": {
+          "path": "tytanic-aarch64-unknown-linux-musl/tt",
+          "sha256": "c10fb4702dad7a73c4da15c859d6f1f94a2ee56bac0d1b42059333aa4fcf764e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/typst-community/tytanic/releases/download/v0.4.1/tytanic-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.1",
+      "sha256": "408611e1774019cc50fa097e453133506cf8b8dde27e8c15fe2466d1ea659954",
+      "size": 16369000,
+      "format": "tar.xz",
+      "binaries": {
+        "tt": {
+          "path": "tytanic-x86_64-apple-darwin/tt",
+          "sha256": "599b1752f3916e71fec2c3f0a5daf750335663351c4ef99f5c52f98f1f641c8d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/typst-community/tytanic/releases/download/v0.4.1/tytanic-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.1",
+      "sha256": "157ac83b7d91998e7c675fc360a3bdd89de81e55f206072c052b1446129ea9bf",
+      "size": 15461992,
+      "format": "tar.xz",
+      "binaries": {
+        "tt": {
+          "path": "tytanic-aarch64-apple-darwin/tt",
+          "sha256": "a8710046e8983b578bac4e65be2001ac38e648cbdfeedec61b8103f37a21fb26"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/typst-community/tytanic/releases/download/v0.4.1/tytanic-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.1",
+      "sha256": "1a37406a25c720f4338fdb6fb63c9525987b760356540e7ebd7c0d5e393168d2",
+      "size": 21509118,
+      "format": "zip",
+      "binaries": {
+        "tt.exe": {
+          "path": "tytanic-x86_64-pc-windows-msvc/tt.exe",
+          "sha256": "ec150e3fe35ab6d2388111349a7fe94e20541544a6ea274842a6cf8e5e21b0d2"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/typst-community/tytanic/releases/download/v0.4.1/tytanic-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.1",
+      "sha256": "a83c2311070f251fe648ff51ac60b78fde8fd4e2db898d815ead55f4985f232b",
+      "size": 20548232,
+      "format": "zip",
+      "binaries": {
+        "tt.exe": {
+          "path": "tytanic-aarch64-pc-windows-msvc/tt.exe",
+          "sha256": "7d03118006a8e41b71789c35ae14bef4d862001a5c5859cb820c7c7fbde67470"
+        }
+      }
+    }
+  }
+}
