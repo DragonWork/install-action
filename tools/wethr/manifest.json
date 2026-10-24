@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "wethr",
+  "version": "0.6.0",
+  "repository": "risoflora/wethr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/risoflora/wethr/releases/download/v0.6.0/wethr-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "1d30fdf8bc0c0bc2e7008e66fd77469c7b89bb74270c3a4323a0b92386dd3e10",
+      "size": 1388271,
+      "format": "zip",
+      "binaries": {
+        "wethr": {
+          "path": "wethr",
+          "sha256": "df94d59e786b7a4a6da0c4538769ad713add5c3c825f1b8e6bf82a62c6833696"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/risoflora/wethr/releases/download/v0.6.0/wethr-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "e52626e611daeda8df5dd2a1c683c7ffb995f5dee3bfc7906ee6105c902e371b",
+      "size": 1253354,
+      "format": "zip",
+      "binaries": {
+        "wethr": {
+          "path": "wethr",
+          "sha256": "b3a5da566cdf3ee57fa7a8314af7f0da1a650f7e8c31659d1af451ec6d05e376"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/risoflora/wethr/releases/download/v0.6.0/wethr-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "dc6a2620bbf43cdad4119c852cbd135a5121b31969473c2484b24d23f5e65b3f",
+      "size": 1210257,
+      "format": "zip",
+      "binaries": {
+        "wethr.exe": {
+          "path": "wethr.exe",
+          "sha256": "26c3342432a215ce41ef958645f46f5f59ddcd723855f868dbc8da6aa3cd1dbe"
+        }
+      }
+    }
+  }
+}
