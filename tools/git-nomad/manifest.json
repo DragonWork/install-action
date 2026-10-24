@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "git-nomad",
+  "version": "0.8.0",
+  "repository": "rraval/git-nomad",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rraval/git-nomad/releases/download/v0.8.0/git-nomad_v0.8.0_x86_64-unknown-linux-musl",
+      "sha256": "7c50462705f7f2fb7def18cd20b231808215619f5f3c1302bad9c2bbea9278ed",
+      "size": 1722656,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "git-nomad": {
+          "path": "git-nomad_v0.8.0_x86_64-unknown-linux-musl",
+          "sha256": "7c50462705f7f2fb7def18cd20b231808215619f5f3c1302bad9c2bbea9278ed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rraval/git-nomad/releases/download/v0.8.0/git-nomad_v0.8.0_x86_64-apple-darwin",
+      "sha256": "c5f7924bcc58ead7dd5624a1bd6a48878ea56642efcb21f34b524ca485fb6b71",
+      "size": 1470688,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "git-nomad": {
+          "path": "git-nomad_v0.8.0_x86_64-apple-darwin",
+          "sha256": "c5f7924bcc58ead7dd5624a1bd6a48878ea56642efcb21f34b524ca485fb6b71"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rraval/git-nomad/releases/download/v0.8.0/git-nomad_v0.8.0_aarch64-apple-darwin",
+      "sha256": "1c31f915854f675cb7cbf4336f7e15297b4eb38582868bacc030ad3f75bf92d9",
+      "size": 1420312,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "git-nomad": {
+          "path": "git-nomad_v0.8.0_aarch64-apple-darwin",
+          "sha256": "1c31f915854f675cb7cbf4336f7e15297b4eb38582868bacc030ad3f75bf92d9"
+        }
+      }
+    }
+  }
+}
