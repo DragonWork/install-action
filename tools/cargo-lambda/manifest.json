@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-lambda",
+  "version": "1.9.2",
+  "repository": "cargo-lambda/cargo-lambda",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cargo-lambda/cargo-lambda/releases/download/v1.9.2/cargo-lambda-v1.9.2.x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.9.2",
+      "sha256": "b5c258c424ebaef39541c3641f33c51137ee6c426016f365628fedb2c737271d",
+      "size": 14391998,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-lambda": {
+          "path": "cargo-lambda",
+          "sha256": "1e1ec19ded407865a1491db3f5e7ef8a1f3b0ac9a78b199e743384ca8916b53b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cargo-lambda/cargo-lambda/releases/download/v1.9.2/cargo-lambda-v1.9.2.aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.9.2",
+      "sha256": "c3fd0a352bb439e4e84a09e5361ea333f7cdc58b0894105e93a33c43b867bc2d",
+      "size": 13205992,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-lambda": {
+          "path": "cargo-lambda",
+          "sha256": "16b8efd094492ba24dd2b4777cb28937ec946cc6fb63d644aa8bd168102f79b8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cargo-lambda/cargo-lambda/releases/download/v1.9.2/cargo-lambda-v1.9.2.x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.9.2",
+      "sha256": "fac46c099aa1427a0f596846b10a7b6345dff8661ca22e10448925cc63e91091",
+      "size": 13598492,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-lambda": {
+          "path": "cargo-lambda",
+          "sha256": "f77d254433fdb289711e7122831e630a61bc683c1d1a7e4149813c282b4e0d72"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cargo-lambda/cargo-lambda/releases/download/v1.9.2/cargo-lambda-v1.9.2.aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.9.2",
+      "sha256": "6c3eac6957c2acdc0bcded6451ccecf6083f116e71d0f7f2b525866e3bcc1083",
+      "size": 12616969,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-lambda": {
+          "path": "cargo-lambda",
+          "sha256": "2c1b6a98db50670612e6ad3757fd68264817bae145553ce5c7c39f06c72f5f56"
+        }
+      }
+    }
+  }
+}
