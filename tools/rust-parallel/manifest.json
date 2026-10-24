@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rust-parallel",
+  "version": "1.24.0",
+  "repository": "aaronriekenberg/rust-parallel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aaronriekenberg/rust-parallel/releases/download/v1.24.0/rust-parallel-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.24.0",
+      "sha256": "9b9c82e4ba7fb485ff0a2d8ba77a1f697b8eefdf712039cd37cb63000a9c2268",
+      "size": 1517757,
+      "format": "tar.gz",
+      "binaries": {
+        "rust-parallel": {
+          "path": "rust-parallel",
+          "sha256": "86ad5641991ff2f1e30e445a3399bf260c0492a120947f38b534b72d4630ba78"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/aaronriekenberg/rust-parallel/releases/download/v1.24.0/rust-parallel-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.24.0",
+      "sha256": "ee14bb113d576608d2c3183b966051bb03d5144da05abd9000c3d6e6130708ea",
+      "size": 1444628,
+      "format": "tar.gz",
+      "binaries": {
+        "rust-parallel": {
+          "path": "rust-parallel",
+          "sha256": "c3991e3ba1699e1183e1f79c1e9718959ce901e74b61bd7aab6d95ae96726321"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aaronriekenberg/rust-parallel/releases/download/v1.24.0/rust-parallel-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.24.0",
+      "sha256": "1c3cb846841895b83a267f3ef8223ea835b9d2acc62376c77676513ba6fde025",
+      "size": 1328750,
+      "format": "tar.gz",
+      "binaries": {
+        "rust-parallel": {
+          "path": "rust-parallel",
+          "sha256": "3befa4562bbee9bb44bd416e1d7bd67afa4fb162b70dae1f4ce5968a3472a5f5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aaronriekenberg/rust-parallel/releases/download/v1.24.0/rust-parallel-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.24.0",
+      "sha256": "40ec1bc713f39f149d3391dd1fee6b0888cd2c3e18bbaf859d446733ce1e9b01",
+      "size": 1317968,
+      "format": "zip",
+      "binaries": {
+        "rust-parallel.exe": {
+          "path": "rust-parallel.exe",
+          "sha256": "44d7aa5b7f106ac01df20504f87e9b68499e6ee8fc27b0050f0f9cd55ac49ec2"
+        }
+      }
+    }
+  }
+}
