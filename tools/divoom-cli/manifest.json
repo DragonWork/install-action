@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "divoom-cli",
+  "version": "0.1.42",
+  "repository": "r12f/divoom",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/r12f/divoom/releases/download/0.1.42/divoom-cli.0.1.42.linux.x64.tar.gz",
+      "releaseTag": "0.1.42",
+      "sha256": "fdb0934dd82581e78c3ef332b85cba9de54581bb66a0306ea2fe456958b3f5a7",
+      "size": 3092654,
+      "format": "tar.gz",
+      "binaries": {
+        "divoom-cli": {
+          "path": "divoom-cli",
+          "sha256": "4f0d246036bac10782c3df6bba3fa107acfeb271e3eeca1704aef980149c6f3b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/r12f/divoom/releases/download/0.1.42/divoom-cli.0.1.42.linux.arm64.tar.gz",
+      "releaseTag": "0.1.42",
+      "sha256": "8d02f25373f39c2b6e98b967b3b998e654022027f8a0d758efb68cab3b650ba9",
+      "size": 2770546,
+      "format": "tar.gz",
+      "binaries": {
+        "divoom-cli": {
+          "path": "divoom-cli",
+          "sha256": "7e9fc977387016280e65f9fbe9ea05b06302019fb1b16db7f2623d39882c8a2e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/r12f/divoom/releases/download/0.1.42/divoom-cli.0.1.42.macos.x64.tar.gz",
+      "releaseTag": "0.1.42",
+      "sha256": "923126a40ca151b8398fce1f7516f295db96f77e22f65dce5e85e061c9ec5d24",
+      "size": 1536482,
+      "format": "tar.gz",
+      "binaries": {
+        "divoom-cli": {
+          "path": "divoom-cli",
+          "sha256": "eea982b454a64faea3b26f298904f1ccdfcbafa086a7e6584c0f3468ae432bc2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/r12f/divoom/releases/download/0.1.42/divoom-cli.0.1.42.windows.x64.zip",
+      "releaseTag": "0.1.42",
+      "sha256": "4823f97041444d8791c12a8d33257020e601b53e1f2a1faf03c402c88c089b6c",
+      "size": 1301378,
+      "format": "zip",
+      "binaries": {
+        "divoom-cli.exe": {
+          "path": "divoom-cli.exe",
+          "sha256": "fb118fe030ebfa72f32b95a2475526e781de6f0270a68105e77a3733b7e6c4b0"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/r12f/divoom/releases/download/0.1.42/divoom-cli.0.1.42.windows.arm64.zip",
+      "releaseTag": "0.1.42",
+      "sha256": "a3f90f218af8f38e79e367676fc2242be3a641e17683a992040f6da23e7e4c0e",
+      "size": 1293696,
+      "format": "zip",
+      "binaries": {
+        "divoom-cli.exe": {
+          "path": "divoom-cli.exe",
+          "sha256": "6fb07b70a8d14396ab146bd2d276aa50a710c46f8a332f4c24d3330ec1fc7038"
+        }
+      }
+    }
+  }
+}
