@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "name": "dtn7",
+  "version": "0.21.0",
+  "repository": "dtn7/dtn7-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dtn7/dtn7-rs/releases/download/v0.21.0/dtn7-0.21.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.21.0",
+      "sha256": "5c2682385eed7ff3f404b831d038f3fa3a02965fd59e214d31004360e30beb49",
+      "size": 10111124,
+      "format": "tar.gz",
+      "binaries": {
+        "dtnd": {
+          "path": "dtn7-0.21.0/bin/dtnd",
+          "sha256": "503d8d5659d75c2a6c02762141722bc91b683f3c6a19bf46aeb058bd930514a6"
+        },
+        "dtnquery": {
+          "path": "dtn7-0.21.0/bin/dtnquery",
+          "sha256": "da3134a9ba78d83e5289319bc52764ec216551074bac5de6926e725c659c92f3"
+        },
+        "dtnrecv": {
+          "path": "dtn7-0.21.0/bin/dtnrecv",
+          "sha256": "aa2add7d7b66b756d98cfda816668d4a46e82dc2e145beb90a899fb0e3ae5757"
+        },
+        "dtnsend": {
+          "path": "dtn7-0.21.0/bin/dtnsend",
+          "sha256": "47d5c55ba78d484c57646317cf57f035bf9b6aa01518a385a0825ff52514a3f0"
+        },
+        "dtntrigger": {
+          "path": "dtn7-0.21.0/bin/dtntrigger",
+          "sha256": "d680190aa1963d7c48ce125886d2ce33e924a97ade12a9a675b268933232b15d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dtn7/dtn7-rs/releases/download/v0.21.0/dtn7-0.21.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.21.0",
+      "sha256": "af7bff89f8b5ebd48d6d53daa4666640ecfe5c58155e54e7e23e2371ca500056",
+      "size": 9177075,
+      "format": "tar.gz",
+      "binaries": {
+        "dtnd": {
+          "path": "dtn7-0.21.0/bin/dtnd",
+          "sha256": "b235a9a1a77c11036425bcf86938f9986f4532a0610120300efd4b195ea03af0"
+        },
+        "dtnquery": {
+          "path": "dtn7-0.21.0/bin/dtnquery",
+          "sha256": "abe64109da6ff44cf617397c6d7d748d1f7ac4eaa81cbcd218c1f8d10d1f684e"
+        },
+        "dtnrecv": {
+          "path": "dtn7-0.21.0/bin/dtnrecv",
+          "sha256": "377fd0dafe2c56bb34abb62f3b2ae8662ddfc455ca9ce2857403926553fc3998"
+        },
+        "dtnsend": {
+          "path": "dtn7-0.21.0/bin/dtnsend",
+          "sha256": "802d24e49c76b58f088b83cf10777555a9ce4776e74b9fe5187933bdb8dbfb14"
+        },
+        "dtntrigger": {
+          "path": "dtn7-0.21.0/bin/dtntrigger",
+          "sha256": "6365ff38ccb64d8e8b9bb474fe9da0692d8bef3fcdff78a05059bb8b22d3f22f"
+        }
+      }
+    }
+  }
+}
