@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "amber",
+  "version": "0.6.1",
+  "repository": "dalance/amber",
+  "artifacts": {
+    "linux-arm64": {
+      "url": "https://github.com/dalance/amber/releases/download/v0.6.1/amber-v0.6.1-aarch64-linux.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "e4425d1249101c568f5490b1b20e87407937b52af7d7aa8d64d5a1f8892e1b05",
+      "size": 2439084,
+      "format": "zip",
+      "binaries": {
+        "ambr": {
+          "path": "ambr",
+          "sha256": "ab0414ed8777a119e4367ed075878592d326026506867059105c71ad52c5b6a4"
+        },
+        "ambs": {
+          "path": "ambs",
+          "sha256": "37b1db81c603ab2c28225f803bad87c94dc1b5eb751a10ef9824e8f5c3671d85"
+        }
+      }
+    }
+  }
+}
