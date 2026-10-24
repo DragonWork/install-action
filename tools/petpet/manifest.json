@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "petpet",
+  "version": "2.4.3",
+  "repository": "mokurin000/petpet-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mokurin000/petpet-rs/releases/download/v2.4.3/x86_64-unknown-linux-musl.tar",
+      "sha256": "76d5c2125894c9d1f0575d8ea8663bf1920f14c56d592503421812daa06e6e26",
+      "size": 1402880,
+      "format": "tar",
+      "releaseTag": "v2.4.3",
+      "binaries": {
+        "petpet": {
+          "path": "petpet",
+          "sha256": "070207b11f4421ba75f15936488fa76c3f198580ea94a07066778091f4cdbde0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mokurin000/petpet-rs/releases/download/v2.4.3/x86_64-apple-darwin.tar",
+      "sha256": "17efaa9f1c26feef74c26bad1d7a422530881d9a0181e0d4de0b01c1f53669be",
+      "size": 1216000,
+      "format": "tar",
+      "releaseTag": "v2.4.3",
+      "binaries": {
+        "petpet": {
+          "path": "petpet",
+          "sha256": "bfb1ad164aeacfa7c9e7cbbc410d921fb14e59425a8ae0cb1f4dac192b68adc4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mokurin000/petpet-rs/releases/download/v2.4.3/x86_64-pc-windows-msvc.tar",
+      "sha256": "1f0cf2924a2618cc9c394ad3372ab4ee2ca72bf5a63cf68c62ce183f7d004d0a",
+      "size": 1044480,
+      "format": "tar",
+      "releaseTag": "v2.4.3",
+      "binaries": {
+        "petpet.exe": {
+          "path": "petpet.exe",
+          "sha256": "1af3be7e4fb492b818f967230f20ea3f8ef5e5c3932899135d1a12f3b4a5715d"
+        }
+      }
+    }
+  }
+}
