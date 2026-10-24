@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rst_app",
+  "version": "0.3.7",
+  "repository": "vitiral/artifact",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vitiral/artifact/releases/download/v0.3.7/rst-v0.3.7-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.7",
+      "sha256": "fe55e6dfd9d34bef7adb689f7732075c1bf168bfb43f49be0c919400df01ddf1",
+      "size": 2286462,
+      "format": "tar.gz",
+      "binaries": {
+        "rst": {
+          "path": "rst",
+          "sha256": "f880d7a26b9141ecf7afe64d959c3868ff1d7c3a62e5b39e625ee2955bb4cd6d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vitiral/artifact/releases/download/v0.3.7/rst-v0.3.7-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.7",
+      "sha256": "4a57fd85e3f708ec3736b4824d20d7b8b74d6f0efd2c90062b01cdad9fc85884",
+      "size": 2048907,
+      "format": "tar.gz",
+      "binaries": {
+        "rst": {
+          "path": "rst",
+          "sha256": "742295ebddd2c9a2d8e96b4d7f0c292de492b6ea9de46476298450917daa7597"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vitiral/artifact/releases/download/v0.3.7/rst-v0.3.7-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.7",
+      "sha256": "afd9133972b897593515bf96c8405814f8a38e6177ecee53c888a82ad5813a51",
+      "size": 1733404,
+      "format": "zip",
+      "binaries": {
+        "rst.exe": {
+          "path": "rst.exe",
+          "sha256": "617b9171a4ed5336a245140528500a5f02fb2289714a6c5a912ae6f012b16f2e"
+        }
+      }
+    }
+  }
+}
