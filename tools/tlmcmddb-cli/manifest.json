@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tlmcmddb-cli",
+  "version": "2.6.1",
+  "repository": "arkedge/c2a-tlmcmddb",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/arkedge/c2a-tlmcmddb/releases/download/v2.6.1/tlmcmddb-cli-x86_64-unknown-linux-musl",
+      "sha256": "f7185dec5a715d5478ddfe5ca40980071e5ea0d780186cd927dd7cb32e702879",
+      "size": 6370104,
+      "format": "binary",
+      "releaseTag": "v2.6.1",
+      "binaries": {
+        "tlmcmddb-cli": {
+          "path": "tlmcmddb-cli-x86_64-unknown-linux-musl",
+          "sha256": "f7185dec5a715d5478ddfe5ca40980071e5ea0d780186cd927dd7cb32e702879"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/arkedge/c2a-tlmcmddb/releases/download/v2.6.1/tlmcmddb-cli-aarch64-unknown-linux-musl",
+      "sha256": "b34455acf5d36cfb7f15ffb7e69332bc4d4fdf85fe5cd86c26efb6a961228027",
+      "size": 6618320,
+      "format": "binary",
+      "releaseTag": "v2.6.1",
+      "binaries": {
+        "tlmcmddb-cli": {
+          "path": "tlmcmddb-cli-aarch64-unknown-linux-musl",
+          "sha256": "b34455acf5d36cfb7f15ffb7e69332bc4d4fdf85fe5cd86c26efb6a961228027"
+        }
+      }
+    }
+  }
+}
