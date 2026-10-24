@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "gw-bin",
+  "version": "0.4.2",
+  "repository": "daniel7grant/gw",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/daniel7grant/gw/releases/download/v0.4.2/gw-bin_aarch64-apple-darwin.zip",
+      "releaseTag": "v0.4.2",
+      "sha256": "8b011eecf5a7a3b45cd6054eb33160f6daceea748e0d24f1158b83faeb283341",
+      "size": 2781572,
+      "format": "zip",
+      "binaries": {
+        "gw": {
+          "path": "gw",
+          "sha256": "2d954441ad9ebdd4216ba48d4cce558d508d627484415eaedf07253a50a6238d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/daniel7grant/gw/releases/download/v0.4.2/gw-bin_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.4.2",
+      "sha256": "9856d940ef6ed3d760e7d30e3864715587d4d64a59dbe7165c081dd8549192e8",
+      "size": 2027360,
+      "format": "zip",
+      "binaries": {
+        "gw.exe": {
+          "path": "gw.exe",
+          "sha256": "a15c4b213bd5745561104ce7dc42bb77a9f5d09dbf5f9103115dd55ce69e3e8a"
+        }
+      }
+    }
+  }
+}
