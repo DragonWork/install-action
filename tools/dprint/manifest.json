@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "dprint",
+  "version": "0.64.3",
+  "repository": "dprint/dprint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dprint/dprint/releases/download/0.64.3/dprint-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "0.64.3",
+      "sha256": "f105dbc2b0bc0d83c644fcabc3e7bd8779469c0d9faeda48365c58b389d5a443",
+      "size": 12537874,
+      "format": "zip",
+      "binaries": {
+        "dprint": {
+          "path": "dprint",
+          "sha256": "51a3715e51a690b8e5ebdc7cb2d0cda72e6bd5bcbd1c8e625cd1eff151901405"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dprint/dprint/releases/download/0.64.3/dprint-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "0.64.3",
+      "sha256": "61c8936368ff4030a615ce43853adc5a0707ff77973743d0a691aee2cbf64723",
+      "size": 11507539,
+      "format": "zip",
+      "binaries": {
+        "dprint": {
+          "path": "dprint",
+          "sha256": "d668991fbb846f54ef7a57a54421191d0fea7ea36063921201379a13ac113d4f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dprint/dprint/releases/download/0.64.3/dprint-x86_64-apple-darwin.zip",
+      "releaseTag": "0.64.3",
+      "sha256": "b868e1e87d2ed23217e5ea9521989c167ce8392090088bf0e1fb43be727ea752",
+      "size": 11216795,
+      "format": "zip",
+      "binaries": {
+        "dprint": {
+          "path": "dprint",
+          "sha256": "63e0466f5fb7abf9031da616b59ad1392d7072206cf546b0b95cc061c94f95c7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dprint/dprint/releases/download/0.64.3/dprint-aarch64-apple-darwin.zip",
+      "releaseTag": "0.64.3",
+      "sha256": "94b48820945602fb113a34343db0a9e653a8346c60966f790556dc9ce4084a92",
+      "size": 10261177,
+      "format": "zip",
+      "binaries": {
+        "dprint": {
+          "path": "dprint",
+          "sha256": "de19b9ad9d2a70b541183f041bffa96947bc68ea7e1572dfaa634ee5735f6613"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dprint/dprint/releases/download/0.64.3/dprint-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.64.3",
+      "sha256": "3beb87a2582f1e43a301efd0840565518484e53f8c7b0ad27b857eee08e0745f",
+      "size": 10182043,
+      "format": "zip",
+      "binaries": {
+        "dprint.exe": {
+          "path": "dprint.exe",
+          "sha256": "358bfc595fb36c9871df208d672f233e74a077aa378eb7b1a8f10f30696934d6"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/dprint/dprint/releases/download/0.64.3/dprint-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.64.3",
+      "sha256": "a6bfe3d9146634d73fbc43d827c8793a1e09fff4e7c4ce4992048f31767499b1",
+      "size": 8999170,
+      "format": "zip",
+      "binaries": {
+        "dprint.exe": {
+          "path": "dprint.exe",
+          "sha256": "ecfd554a393fd77833caf877d8b256eb99e6f3180d748d5093d8bafb0a5485a3"
+        }
+      }
+    }
+  }
+}
