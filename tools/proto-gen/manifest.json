@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "proto-gen",
+  "version": "0.4.0",
+  "repository": "EmbarkStudios/proto-gen",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EmbarkStudios/proto-gen/releases/download/0.4.0/proto-gen-0.4.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.0",
+      "sha256": "204b4b2001590c97a1a78ad358fbe01d1c535a65865b0b16d24c8038f3b1817f",
+      "size": 1619949,
+      "format": "tar.gz",
+      "binaries": {
+        "proto-gen": {
+          "path": "proto-gen-0.4.0-x86_64-unknown-linux-musl/proto-gen",
+          "sha256": "ac14040a6e94f88cf0a6b45d5c3af660e79d315365838b103bbe026d6a962f3c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EmbarkStudios/proto-gen/releases/download/0.4.0/proto-gen-0.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.0",
+      "sha256": "9d68d4d689ae6efe21336aefdce86756484ba126a2838c1f550bd89fa07922b5",
+      "size": 1514584,
+      "format": "tar.gz",
+      "binaries": {
+        "proto-gen": {
+          "path": "proto-gen-0.4.0-x86_64-apple-darwin/proto-gen",
+          "sha256": "cb5751af11283c36c3a735f23cc09f121878fb66f26f7e8e5eb0a13539bc11af"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EmbarkStudios/proto-gen/releases/download/0.4.0/proto-gen-0.4.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.4.0",
+      "sha256": "b6afd0f014a1ea80e736e41f26888f3927c60cf11024954cd523e9e476de334b",
+      "size": 1628838,
+      "format": "tar.gz",
+      "binaries": {
+        "proto-gen.exe": {
+          "path": "proto-gen-0.4.0-x86_64-pc-windows-msvc/proto-gen.exe",
+          "sha256": "88f58c5b46cc8227a0d0dace7d8d1a2fe85529a15429248c50f1e3db9c61a9aa"
+        }
+      }
+    }
+  }
+}
