@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "temprs",
+  "version": "2.9.12",
+  "repository": "MenkeTechnologies/temprs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MenkeTechnologies/temprs/releases/download/v2.9.12/temprs-v2.9.12-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.9.12",
+      "sha256": "bbd14c4de180331d14aeec0bf93e653f87d048cfe57a820831bfab0b9d4b7f31",
+      "size": 915004,
+      "format": "tar.gz",
+      "binaries": {
+        "temprs": {
+          "path": "temprs",
+          "sha256": "f735e041c26b9328ab5aab3030f576753801857fb45410d242fbd60ad2b8a840"
+        },
+        "tp": {
+          "path": "tp",
+          "sha256": "75857d73c1a14e3ae71714fc59487d4b91ff48f60cb60c428d97a785b67683f4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MenkeTechnologies/temprs/releases/download/v2.9.12/temprs-v2.9.12-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.9.12",
+      "sha256": "fc7fb0c368100b24ff44c74168a549506678599046f59c0c6f6bc3f6053e6e5d",
+      "size": 857912,
+      "format": "tar.gz",
+      "binaries": {
+        "temprs": {
+          "path": "temprs",
+          "sha256": "7132a809bf67d202848f3e246b8dbc764f0297b50d79e06aef04b3c6270a0203"
+        },
+        "tp": {
+          "path": "tp",
+          "sha256": "eed91e855ad19fbe03afd5d8c0710b5fc340627cf0fc2c35187a7c779e8b7323"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MenkeTechnologies/temprs/releases/download/v2.9.12/temprs-v2.9.12-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.9.12",
+      "sha256": "f3708592a968dac57bc18b07ef0eefdc062943bc0be93d05c3adb912652d2984",
+      "size": 784868,
+      "format": "tar.gz",
+      "binaries": {
+        "temprs": {
+          "path": "temprs",
+          "sha256": "eeb5ecb9c3f43d9dce05b7af062b493ed89c530c3ab0b97eb539baf623de863e"
+        },
+        "tp": {
+          "path": "tp",
+          "sha256": "fb056d8f521a8e2de7dfe4c5f08149b455cab8d65b56d38578bc4fd8d775f04f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MenkeTechnologies/temprs/releases/download/v2.9.12/temprs-v2.9.12-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.9.12",
+      "sha256": "f21332841bb22222d5bfad6c36dd800394bd0ed05ca86be8e94eed1ee903c762",
+      "size": 724904,
+      "format": "tar.gz",
+      "binaries": {
+        "temprs": {
+          "path": "temprs",
+          "sha256": "1304d44d001ea58a39d14498756a763e987e96c1dd09dba103ba0216c66e08a8"
+        },
+        "tp": {
+          "path": "tp",
+          "sha256": "ba1cbd1a61638d065bd6acc79e5ee30fa91a79c3be979ae79f17f742dbe0ce4a"
+        }
+      }
+    }
+  }
+}
