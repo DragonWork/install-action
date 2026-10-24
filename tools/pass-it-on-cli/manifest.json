@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pass-it-on-cli",
+  "version": "0.7.1",
+  "repository": "kwheelans/pass-it-on-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kwheelans/pass-it-on-cli/releases/download/v0.7.1/pass-it-on-cli-v0.7.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "f1688d74a422d56316707a99089d974a3d39803d65ee9b90bcb609ecfa0cc9db",
+      "size": 3154386,
+      "format": "tar.gz",
+      "binaries": {
+        "pass-it-on-cli": {
+          "path": "pass-it-on-cli-v0.7.1-x86_64-unknown-linux-musl/pass-it-on-cli",
+          "sha256": "d4bd2b5a45203b4c9f5e9eca67b61226588a4bd41ed7c977fbb22e52f72f0dab"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kwheelans/pass-it-on-cli/releases/download/v0.7.1/pass-it-on-cli-v0.7.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "ac0d5988212fdad3ab095cf7416d82fd84ff2d1f2e74f41b32950330db1a7cbc",
+      "size": 2914481,
+      "format": "tar.gz",
+      "binaries": {
+        "pass-it-on-cli": {
+          "path": "pass-it-on-cli-v0.7.1-aarch64-unknown-linux-musl/pass-it-on-cli",
+          "sha256": "43ee053ed2d50dc3990a32c6828d9ace7e7fdc3b62a3d5b22bb4eed36d4967f9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kwheelans/pass-it-on-cli/releases/download/v0.7.1/pass-it-on-cli-v0.7.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "7cd4f25da0d6f58941ea2fe555a97c1440155c1ca62c1e5e2e5f9224029dfcbd",
+      "size": 2458658,
+      "format": "zip",
+      "binaries": {
+        "pass-it-on-cli.exe": {
+          "path": "pass-it-on-cli.exe",
+          "sha256": "2aebe4342d9615d9886adc9affc4023a98c4b28fcc4ba54314effe489cf5ffb9"
+        }
+      }
+    }
+  }
+}
