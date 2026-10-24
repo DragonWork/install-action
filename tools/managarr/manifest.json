@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "managarr",
+  "version": "0.8.2",
+  "repository": "Dark-Alex-17/managarr",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/Dark-Alex-17/managarr/releases/download/v0.8.2/managarr-macos-arm64.tar.gz",
+      "releaseTag": "v0.8.2",
+      "sha256": "ca6d5df79ed9f376d4cb63226885d0c0fc689ebe111f36af2af38a688fc3d26d",
+      "size": 4868837,
+      "format": "tar.gz",
+      "binaries": {
+        "managarr": {
+          "path": "managarr",
+          "sha256": "fa0baccdb21e400c5bcbd4814a462770b20cffb6ee0d7af4aa48faa7b16196ab"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Dark-Alex-17/managarr/releases/download/v0.8.2/managarr-windows-aarch64.tar.gz",
+      "releaseTag": "v0.8.2",
+      "sha256": "f9661a402a89b608e51b10313575869a890b036fed221979c527c7cacd1fc45a",
+      "size": 5050987,
+      "format": "tar.gz",
+      "binaries": {
+        "managarr.exe": {
+          "path": "managarr.exe",
+          "sha256": "aeb9fa293d2694761f88b174c46be346ac4c0e391bb10d2026e39c17be5fc95d"
+        }
+      }
+    }
+  }
+}
