@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "krabby",
+  "version": "0.3.0",
+  "repository": "yannjor/krabby",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yannjor/krabby/releases/download/v0.3.0/krabby_0.3.0_amd64.deb",
+      "sha256": "3c50322ffcfe6d67dad73bab2680b8763ce530bd9499636e3000a205bb52d4b8",
+      "size": 2313204,
+      "format": "deb",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "krabby": {
+          "path": "usr/bin/krabby",
+          "sha256": "3c26bfe3ec5420b25f07f233a47f8231564e4e56a8b5c6c6e5b881ae03f00a21"
+        }
+      }
+    }
+  }
+}
