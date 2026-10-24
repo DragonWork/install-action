@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-attribution",
+  "version": "0.8.13",
+  "repository": "ameknite/cargo-attribution",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ameknite/cargo-attribution/releases/download/v0.8.13/cargo-attribution-v0.8.13-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.13",
+      "sha256": "b9e72019832e69d58b813bc2339afc1faee3586bda52e3c7a38c6a72c1504df1",
+      "size": 2114939,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-attribution": {
+          "path": "cargo-attribution",
+          "sha256": "de89d3cbae74629c23032e87336d65ce658bd896ce2f755343f360d3e29258b5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ameknite/cargo-attribution/releases/download/v0.8.13/cargo-attribution-v0.8.13-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.13",
+      "sha256": "8c09d01961b50045b37fa01ef07ec2f225cc30c9c24f8757dce68a24fc153d57",
+      "size": 1946124,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-attribution": {
+          "path": "cargo-attribution",
+          "sha256": "df3d4a902bf482e48ecb471fb145da52962516492dee49b0e7a722142bbac677"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ameknite/cargo-attribution/releases/download/v0.8.13/cargo-attribution-v0.8.13-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.13",
+      "sha256": "a0ed4010a33867b3d17be9536b4af7dc362b98ed44d1e2376f427bae5fcc5f2a",
+      "size": 1829525,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-attribution": {
+          "path": "cargo-attribution",
+          "sha256": "9df4a65de178051fb59d9a0a71b482c2ce46b4fdbb874d124ed83bcf0c945d9c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ameknite/cargo-attribution/releases/download/v0.8.13/cargo-attribution-v0.8.13-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.13",
+      "sha256": "54e59e82e058d7d03b5b52e1bdb5b5dc335c6a20513ef29f9da7e8aa9018451b",
+      "size": 1739559,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-attribution": {
+          "path": "cargo-attribution",
+          "sha256": "a7f1249efd02f8a528a4552fae8e91c62ea18a17afab0bfcf369ba1ad06de16b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ameknite/cargo-attribution/releases/download/v0.8.13/cargo-attribution-v0.8.13-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.13",
+      "sha256": "438f56669b7bb7c813e0e658d8a965d3451f11785ebdacb4dcbd488bf1022526",
+      "size": 1713965,
+      "format": "zip",
+      "binaries": {
+        "cargo-attribution.exe": {
+          "path": "cargo-attribution.exe",
+          "sha256": "e9e1722beed8ba6a448e4461d5c75ec4765472d961c2cf96b47b650343323747"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ameknite/cargo-attribution/releases/download/v0.8.13/cargo-attribution-v0.8.13-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.13",
+      "sha256": "23d6f13d69d674c0af1e1eee07c41fcda2026758a303a68188a69750777a9f79",
+      "size": 1601500,
+      "format": "zip",
+      "binaries": {
+        "cargo-attribution.exe": {
+          "path": "cargo-attribution.exe",
+          "sha256": "3d3b7e955ce62c3988c0875cb3b2a801deaa484aaa6e7879143e030d18c11d34"
+        }
+      }
+    }
+  }
+}
