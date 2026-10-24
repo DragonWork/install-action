@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "upt",
+  "version": "0.9.0",
+  "repository": "sigoden/upt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sigoden/upt/releases/download/v0.9.0/upt-v0.9.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "3051a30e23a2c5167bdd48d98fea2bf8fedec328bf2f570b3c4d42fdb92a674e",
+      "size": 279389,
+      "format": "tar.gz",
+      "binaries": {
+        "upt": {
+          "path": "upt",
+          "sha256": "deb97a30c1f7c8b95f65243a8fb3211175bc5391b8ae5543fee19886ecb48457"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sigoden/upt/releases/download/v0.9.0/upt-v0.9.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "bd1092508fdcc2b8cff42b60575fd9c2862786f91fbb75828c6781980022062e",
+      "size": 261846,
+      "format": "tar.gz",
+      "binaries": {
+        "upt": {
+          "path": "upt",
+          "sha256": "f0a69399bc62818eaf651ce5d03d20252014e8214d51defd4cffcd1c3f4e316b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sigoden/upt/releases/download/v0.9.0/upt-v0.9.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "122a17e05d9a92431704d6095adb2cd5303bf975728306e8853fb3d59a41fb7c",
+      "size": 205262,
+      "format": "tar.gz",
+      "binaries": {
+        "upt": {
+          "path": "upt",
+          "sha256": "3b4cac64be3c688805223c3a3f233b905c29fb99b2b28cf6ae22ce5228096537"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sigoden/upt/releases/download/v0.9.0/upt-v0.9.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "368eb718941ed32174ff16eb59711d5fad965373664d41bda5685845fc0c5bee",
+      "size": 192198,
+      "format": "tar.gz",
+      "binaries": {
+        "upt": {
+          "path": "upt",
+          "sha256": "956038a27363d1189ac5042b4afc784b88f5828257d29de12dcbcd19d340b475"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sigoden/upt/releases/download/v0.9.0/upt-v0.9.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "7d79594d4517d5e984d8f11c0b3b9ba46c8d3b26a496a77fee32fa43df4706d9",
+      "size": 160363,
+      "format": "zip",
+      "binaries": {
+        "upt.exe": {
+          "path": "upt.exe",
+          "sha256": "89e6a9225dc6c99a9024b4861690c54b04825980058b560c5cc15e1cd35d3659"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sigoden/upt/releases/download/v0.9.0/upt-v0.9.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "0a62f4ab57fb75e0c71449b9767cc5f943cce836f70cef3ed2bd2759511f3d28",
+      "size": 150217,
+      "format": "zip",
+      "binaries": {
+        "upt.exe": {
+          "path": "upt.exe",
+          "sha256": "557898184e819bda1524b8feeea9752fe7a4d44b256962791a5d579587bef79e"
+        }
+      }
+    }
+  }
+}
