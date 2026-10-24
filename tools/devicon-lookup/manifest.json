@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "devicon-lookup",
+  "version": "0.10.2",
+  "repository": "coreyja/devicon-lookup",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/coreyja/devicon-lookup/releases/download/v0.10.2/devicon-lookup-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.10.2",
+      "sha256": "fa1ad0c3946a97ced83c32686e30aa851e4dc6ceca1711456e66e2f6674334ed",
+      "size": 2871976,
+      "format": "tar.xz",
+      "binaries": {
+        "devicon-lookup": {
+          "path": "devicon-lookup-x86_64-unknown-linux-musl/devicon-lookup",
+          "sha256": "424675bebfbc6085949c9b3bcf3ee8e0d06d843ff64e49673b1e09261bc812e6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/coreyja/devicon-lookup/releases/download/v0.10.2/devicon-lookup-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.2",
+      "sha256": "25196f719fbdb12e60c8e45f1e4d9f22e6348eeb9998cdc35c4bd758c57b629b",
+      "size": 803296,
+      "format": "tar.xz",
+      "binaries": {
+        "devicon-lookup": {
+          "path": "devicon-lookup-x86_64-apple-darwin/devicon-lookup",
+          "sha256": "af97de064cc75aab874389376b6c6ca2e1ea0e0c33b286c0e215001e9400771d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/coreyja/devicon-lookup/releases/download/v0.10.2/devicon-lookup-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.2",
+      "sha256": "20786785173b8e49814bb700896fe3ed54b54d33f1b9c462d76835a546929865",
+      "size": 724868,
+      "format": "tar.xz",
+      "binaries": {
+        "devicon-lookup": {
+          "path": "devicon-lookup-aarch64-apple-darwin/devicon-lookup",
+          "sha256": "f739b1e7c33cd88bf4c5fb7a21b3798ce62f4d263db940c11f2a5724f7b27a86"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/coreyja/devicon-lookup/releases/download/v0.10.2/devicon-lookup-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.2",
+      "sha256": "f97ec82433d408c36c6472c3b4630dc645ad0dc2f7a2cea15d79d2d4e528af72",
+      "size": 2546520,
+      "format": "zip",
+      "binaries": {
+        "devicon-lookup.exe": {
+          "path": "devicon-lookup.exe",
+          "sha256": "9632b424fb8e0fb6536a1f60e222c0e0f96a50472d4097069bcb4f12f2a17b6c"
+        }
+      }
+    }
+  }
+}
