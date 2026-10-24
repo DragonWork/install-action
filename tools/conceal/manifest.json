@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "name": "conceal",
+  "version": "0.7.0",
+  "repository": "TD-Sky/conceal",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.0/conceal-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "cb66cb7d7ba4203a8042fe7392c34cf7e4189255868a19e05205570e4794e26a",
+      "size": 734546,
+      "format": "zip",
+      "binaries": {
+        "cnc": {
+          "path": "conceal-x86_64-apple-darwin/cnc",
+          "sha256": "43e50547687b1ee77bedc62ef54f29625561e36c4f478c3e96ba05a217a03253"
+        },
+        "conceal": {
+          "path": "conceal-x86_64-apple-darwin/conceal",
+          "sha256": "3a501c14946fd8404f23f9e57c483981a7fa878a8859ffe9be326a124c74ab36"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.0/conceal-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "1cd946cfd21768132517e485392e57f1626201c221d7e4f822905da0c2478a12",
+      "size": 691741,
+      "format": "zip",
+      "binaries": {
+        "cnc": {
+          "path": "conceal-aarch64-apple-darwin/cnc",
+          "sha256": "9400c0b749062b74f74442a08adb53b05960a5d794c2aab501a742d31c09f261"
+        },
+        "conceal": {
+          "path": "conceal-aarch64-apple-darwin/conceal",
+          "sha256": "2315152006f80d7bf62be72aa3391888e80088c50ef5530bd7440481e22b3d99"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.0/conceal-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "f1f9fa87c9da141fd1c3cc829ef7df8ea996b0c6fabe29a7a1981a20cdc7103d",
+      "size": 912669,
+      "format": "zip",
+      "binaries": {
+        "cnc.exe": {
+          "path": "conceal-x86_64-pc-windows-msvc/cnc.exe",
+          "sha256": "0ba552e42e2c67d4a9fce624309814e5c599fa3475aef5f6ff3b3c3e8f538960"
+        },
+        "conceal.exe": {
+          "path": "conceal-x86_64-pc-windows-msvc/conceal.exe",
+          "sha256": "9238ef77d5eeec713986dca3138f876179862ebec1eb4bb2e3448017879933cc"
+        }
+      }
+    }
+  }
+}
