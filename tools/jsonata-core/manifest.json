@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "jsonata-core",
+  "version": "2.2.12",
+  "repository": "txjmb/jsonata-core",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/txjmb/jsonata-core/releases/download/v2.2.12/jsonata-v2.2.12-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.2.12",
+      "sha256": "787164ce173d19e531d41514d1aa8d6f9192e145f4a91434d81b84bc4d31bf4e",
+      "size": 1485214,
+      "format": "tar.gz",
+      "binaries": {
+        "jsonata": {
+          "path": "jsonata",
+          "sha256": "f617c054f814c53ecdb41f69c97d08d3760ac96ac566667ea61daa7cc455450c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/txjmb/jsonata-core/releases/download/v2.2.12/jsonata-v2.2.12-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.2.12",
+      "sha256": "01c8d8fb013c517e07c71781f5136f8a526ac64e0f91f75bcce6f0415eed5d12",
+      "size": 1348400,
+      "format": "tar.gz",
+      "binaries": {
+        "jsonata": {
+          "path": "jsonata",
+          "sha256": "7034affa0cbcd045b2874f1368d7154c27fbbfde0996df78f41c3c49a409fed4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/txjmb/jsonata-core/releases/download/v2.2.12/jsonata-v2.2.12-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.2.12",
+      "sha256": "3e8cac6ca1ddde0457dffbd8e3de9a6bc11bbcbf38dfda544d854fbcef522fe5",
+      "size": 1298434,
+      "format": "tar.gz",
+      "binaries": {
+        "jsonata": {
+          "path": "jsonata",
+          "sha256": "c9561fd1d20649f27d0f881fab8bf17a0e3aefcd0731008a2b6cc6de1df28229"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/txjmb/jsonata-core/releases/download/v2.2.12/jsonata-v2.2.12-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.2.12",
+      "sha256": "960f1ee92c1307f1b8af1532bd6dfbb52a3e49ad4f36c0c1037610bb7aacb3a4",
+      "size": 1530630,
+      "format": "zip",
+      "binaries": {
+        "jsonata.exe": {
+          "path": "jsonata.exe",
+          "sha256": "b67fe50e0a986f9b53e1b3cdddb74e4ef90fe3609f0dda1667e8790faacb83c1"
+        }
+      }
+    }
+  }
+}
