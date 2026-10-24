@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "neaten",
+  "version": "0.1.20",
+  "repository": "abhinath84/neaten",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/abhinath84/neaten/releases/download/v0.1.20/linux-amd64.zip",
+      "releaseTag": "v0.1.20",
+      "sha256": "ad0d8dd51e92edc46b524973c44d4c2b1fa824e94bc7ce6204fe8b0d8a9e57c4",
+      "size": 525944,
+      "format": "zip",
+      "binaries": {
+        "neaten": {
+          "path": "linux-amd64/neaten",
+          "sha256": "d4880efc2bc00c93eff4c5c9a6e080e2150d224472ca103d6f665959aab86804"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/abhinath84/neaten/releases/download/v0.1.20/macos-amd64.zip",
+      "releaseTag": "v0.1.20",
+      "sha256": "1599636eb7cc466ae17098a4e22756d848b6fc5ba461ecd39f6d18bb3e0f12bd",
+      "size": 481706,
+      "format": "zip",
+      "binaries": {
+        "neaten": {
+          "path": "macos-amd64/neaten",
+          "sha256": "5f05c646ad784474302217a1eb31c92b0a51a8f682f7bf5a52c4f69f4a17b050"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/abhinath84/neaten/releases/download/v0.1.20/windows-amd64.zip",
+      "releaseTag": "v0.1.20",
+      "sha256": "80c504aaa1e6d1ea35b0942465ee806072f352512585ade65cd5ce3cb38a3169",
+      "size": 363125,
+      "format": "zip",
+      "binaries": {
+        "neaten.exe": {
+          "path": "windows-amd64/neaten.exe",
+          "sha256": "5edbaa9edc8ef96cc32406655d00aeffb69de68fd016d00693fbb1276bbb81a6"
+        }
+      }
+    }
+  }
+}
