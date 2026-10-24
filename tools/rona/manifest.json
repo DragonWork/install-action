@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rona",
+  "version": "2.35.1",
+  "repository": "rona-rs/rona",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rona-rs/rona/releases/download/v2.35.1/rona-x86_64-unknown-linux-musl-v2.35.1.tar.gz",
+      "releaseTag": "v2.35.1",
+      "sha256": "311a2df115985c3b8a36ad657349b926068765d08f4b5f1202a94c9316f7c400",
+      "size": 2432546,
+      "format": "tar.gz",
+      "binaries": {
+        "rona": {
+          "path": "rona",
+          "sha256": "748eeb20a215fd0dc89ec0e65fb123a96a2221f7e0a620bbd38c6e8a48a20ac2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rona-rs/rona/releases/download/v2.35.1/rona-aarch64-unknown-linux-gnu-v2.35.1.tar.gz",
+      "releaseTag": "v2.35.1",
+      "sha256": "385c1bdf184c52c56e2f18518eb2283bf11f1b041c9a2b6908c866ad5fd61b97",
+      "size": 2256786,
+      "format": "tar.gz",
+      "binaries": {
+        "rona": {
+          "path": "rona",
+          "sha256": "928079a6ddef3881cac76886edafbd29f3f8f66534b26f11676dda5ba7f14477"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rona-rs/rona/releases/download/v2.35.1/rona-x86_64-apple-darwin-v2.35.1.tar.gz",
+      "releaseTag": "v2.35.1",
+      "sha256": "12df87fc9775d75f5e0ea65996731683025f877923737236b35b8f623cdc4a29",
+      "size": 2044950,
+      "format": "tar.gz",
+      "binaries": {
+        "rona": {
+          "path": "rona",
+          "sha256": "6e07872f73430a4d4b46699fc39614857c9d4dbb56c8a3613e25c4202e028d7c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rona-rs/rona/releases/download/v2.35.1/rona-aarch64-apple-darwin-v2.35.1.tar.gz",
+      "releaseTag": "v2.35.1",
+      "sha256": "88b4bbced568a73cf425c03275910d893bd27c4b595e26486b98712b9aa4a04b",
+      "size": 1956701,
+      "format": "tar.gz",
+      "binaries": {
+        "rona": {
+          "path": "rona",
+          "sha256": "9c03208f111d1462b18fb39f0dfcbdb7502c5f8f1ae4d43777678321b219ad92"
+        }
+      }
+    }
+  }
+}
