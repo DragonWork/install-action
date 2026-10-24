@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "signify",
+  "version": "0.6.0",
+  "repository": "badboy/signify-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/badboy/signify-rs/releases/download/v0.6.0/signify-v0.6.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "3f9a63e108ef2a6290b0b03b064329eedea2fe439671ea1f8c3962241e6aa898",
+      "size": 419141,
+      "format": "tar.gz",
+      "binaries": {
+        "signify": {
+          "path": "signify",
+          "sha256": "553650af2907794c0d6e527524a83610d53ff3d0a71421747dffc2d8192b8b7d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/badboy/signify-rs/releases/download/v0.6.0/signify-v0.6.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "37fa0e7e3c24a8d9f38ec56a5514e634769b79c4b6c7bb0dc64c90b7d9f75d51",
+      "size": 345017,
+      "format": "tar.gz",
+      "binaries": {
+        "signify": {
+          "path": "signify",
+          "sha256": "19f9b61376bbcf2234697345261ad6e5f596981a5630de1316f9351070c06a2e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/badboy/signify-rs/releases/download/v0.6.0/signify-v0.6.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "7b90d10ce26db05658000e1ef61fea69836b48485fdd60aff28829b800470085",
+      "size": 278256,
+      "format": "zip",
+      "binaries": {
+        "signify.exe": {
+          "path": "signify.exe",
+          "sha256": "e4fd51c1305046448639bdc0d2aaa099a5cbce329056042433e22e3b8ee64ed3"
+        }
+      }
+    }
+  }
+}
