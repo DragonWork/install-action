@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-deadlinks",
+  "version": "0.8.1",
+  "repository": "deadlinks/cargo-deadlinks",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/deadlinks/cargo-deadlinks/releases/download/0.8.1/cargo-deadlinks-linux",
+      "sha256": "e7a91627a0c7ca6dc13acacdf919d42c5e8f8b83335e1cef40099033418e5775",
+      "size": 11273392,
+      "format": "binary",
+      "releaseTag": "0.8.1",
+      "binaries": {
+        "cargo-deadlinks": {
+          "path": "cargo-deadlinks-linux",
+          "sha256": "e7a91627a0c7ca6dc13acacdf919d42c5e8f8b83335e1cef40099033418e5775"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/deadlinks/cargo-deadlinks/releases/download/0.8.1/cargo-deadlinks-macos",
+      "sha256": "59b62815867394d063a6fc9b790a51341cf55d0ecc0cb67c771a09f1b6d86783",
+      "size": 5616456,
+      "format": "binary",
+      "releaseTag": "0.8.1",
+      "binaries": {
+        "cargo-deadlinks": {
+          "path": "cargo-deadlinks-macos",
+          "sha256": "59b62815867394d063a6fc9b790a51341cf55d0ecc0cb67c771a09f1b6d86783"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/deadlinks/cargo-deadlinks/releases/download/0.8.1/cargo-deadlinks-windows",
+      "sha256": "e739cad916e877f4c93c43e163a09c35b5d3af63dede917b5630226049b1f4f3",
+      "size": 4387328,
+      "format": "binary",
+      "releaseTag": "0.8.1",
+      "binaries": {
+        "cargo-deadlinks.exe": {
+          "path": "cargo-deadlinks-windows",
+          "sha256": "e739cad916e877f4c93c43e163a09c35b5d3af63dede917b5630226049b1f4f3"
+        }
+      }
+    }
+  }
+}
