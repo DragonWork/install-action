@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "xwin",
+  "version": "0.10.0",
+  "repository": "Jake-Shadle/xwin",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Jake-Shadle/xwin/releases/download/0.10.0/xwin-0.10.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "d870eb4b2f390878af6da1ccd3cf321d22fcb72720984853b4be732ae597fc88",
+      "size": 3416863,
+      "format": "tar.gz",
+      "binaries": {
+        "xwin": {
+          "path": "xwin-0.10.0-x86_64-unknown-linux-musl/xwin",
+          "sha256": "0cb5d482ccf9364d0e8f3349c96ec9d781a15cfd8b0c100f364c796599190415"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Jake-Shadle/xwin/releases/download/0.10.0/xwin-0.10.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "6d56d28537a86f37aa3d041318898f25ee3100c6b6ec332ad873c28faf37be23",
+      "size": 3062263,
+      "format": "tar.gz",
+      "binaries": {
+        "xwin": {
+          "path": "xwin-0.10.0-aarch64-unknown-linux-musl/xwin",
+          "sha256": "baaa22eba459ff913790d74a3a1d018eec2b68f00457face67a84eeb5c9938bd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Jake-Shadle/xwin/releases/download/0.10.0/xwin-0.10.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "96e83665ef5c1406aabd0be603a8d08e67e604f36fda630b6807ee948a614e26",
+      "size": 3074443,
+      "format": "tar.gz",
+      "binaries": {
+        "xwin.exe": {
+          "path": "xwin-0.10.0-x86_64-pc-windows-msvc/xwin.exe",
+          "sha256": "1e611e167e4cd79478c523229e49f97dbeb0f5f9e2ae373cc360c5075a48690a"
+        }
+      }
+    }
+  }
+}
