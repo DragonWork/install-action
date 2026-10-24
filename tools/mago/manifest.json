@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mago",
+  "version": "1.58.1",
+  "repository": "carthage-software/mago",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/carthage-software/mago/releases/download/1.58.1/mago-1.58.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.58.1",
+      "sha256": "c702f1dbbe7dee7d1c39880d7971540f23153b046c746e5507c7d97a04e5e46d",
+      "size": 11413529,
+      "format": "tar.gz",
+      "binaries": {
+        "mago": {
+          "path": "mago-1.58.1-x86_64-unknown-linux-musl/mago",
+          "sha256": "c943c0769e7547b157c814ab600728c69951853db2dd16d913d2f17b0bcf39e6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/carthage-software/mago/releases/download/1.58.1/mago-1.58.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.58.1",
+      "sha256": "73783a54995db1318c16dc55e26834b866131761d6e06e52ea367e4e811d485a",
+      "size": 10013690,
+      "format": "tar.gz",
+      "binaries": {
+        "mago": {
+          "path": "mago-1.58.1-aarch64-unknown-linux-musl/mago",
+          "sha256": "c8cce753b9eae65922211280e1b941f95bb35f5d395953cfc7c9c55813f1a6a5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/carthage-software/mago/releases/download/1.58.1/mago-1.58.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.58.1",
+      "sha256": "16bc8a37a4b52d2e637bf71ca6f18231794baea878d7f71057a5d11582d0a04e",
+      "size": 11237788,
+      "format": "tar.gz",
+      "binaries": {
+        "mago": {
+          "path": "mago-1.58.1-x86_64-apple-darwin/mago",
+          "sha256": "14e65f0524261c2cb52576c9bbc5e5829a04232a871d3add3e81ba622e7e887d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/carthage-software/mago/releases/download/1.58.1/mago-1.58.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "1.58.1",
+      "sha256": "4a300e942beea720e0e354a3cab895db0a6508cd1ba5b3e8dcd1cf5c2a6b140b",
+      "size": 10095140,
+      "format": "tar.gz",
+      "binaries": {
+        "mago": {
+          "path": "mago-1.58.1-aarch64-apple-darwin/mago",
+          "sha256": "841f75287940078fad8264ac4984e00bf7ed9322512ccd6b135e3df284537c46"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/carthage-software/mago/releases/download/1.58.1/mago-1.58.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.58.1",
+      "sha256": "ac0347bf3bf9567a6c79f7ad19268220697d9429273b4232591558703ecb0811",
+      "size": 10512429,
+      "format": "zip",
+      "binaries": {
+        "mago.exe": {
+          "path": "mago-1.58.1-x86_64-pc-windows-msvc/mago.exe",
+          "sha256": "0b7378fb288a3ff271ec18e7276d8f48bbb62b98b3101fc98256e106b5d8297e"
+        }
+      }
+    }
+  }
+}
