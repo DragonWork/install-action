@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "miden-debug",
+  "version": "0.19.0",
+  "repository": "0xMiden/miden-debug",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/0xMiden/miden-debug/releases/download/v0.19.0/miden-debug-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "8e774536ab96b6f1e3d2f2c93f7f71406aca969b68081c023d5080d49fa8f0e4",
+      "size": 4671626,
+      "format": "tar.gz",
+      "releaseTag": "v0.19.0",
+      "binaries": {
+        "miden-debug": {
+          "path": "miden-debug",
+          "sha256": "377b97dc193e96cb0a9e149de5a491a7db760b79945c32cccdd2103420ba9eae"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/0xMiden/miden-debug/releases/download/v0.19.0/miden-debug-aarch64-apple-darwin.tar.gz",
+      "sha256": "3af238dd62f4f539632ddcadbc5004d63f9f55b365ae132d9e74cb9ce2069ba1",
+      "size": 4084859,
+      "format": "tar.gz",
+      "releaseTag": "v0.19.0",
+      "binaries": {
+        "miden-debug": {
+          "path": "miden-debug",
+          "sha256": "8e2521995351f57b53d2e93cfaef3289c60ecaff9adbbd2b8cdd94e467901246"
+        }
+      }
+    }
+  }
+}
