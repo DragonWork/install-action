@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cyme",
+  "version": "3.0.2",
+  "repository": "tuna-f1sh/cyme",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.0.2",
+      "sha256": "72407562dc044652b502050580d7dc34aed1dd2acfcc4d3932bbb29df9f4b707",
+      "size": 3185720,
+      "format": "tar.gz",
+      "binaries": {
+        "cyme": {
+          "path": "cyme-v3.0.2-x86_64-unknown-linux-gnu/cyme",
+          "sha256": "e41764221b95e8a049fd95da72b7f0cd539da14bdc6d14e947e468e2e9bd493c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.0.2",
+      "sha256": "317ec4f6952cfd467105cfe8e09a1f4a1df9a17e539d3ccc2315ef92590e7435",
+      "size": 3195142,
+      "format": "tar.gz",
+      "binaries": {
+        "cyme": {
+          "path": "cyme-v3.0.2-aarch64-unknown-linux-gnu/cyme",
+          "sha256": "7dab63bed4a9a499941d262f6a19d89b7f54d57fe4bce8b48d04703055f559dd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tuna-f1sh/cyme/releases/download/v3.0.2/cyme-v3.0.2-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v3.0.2",
+      "sha256": "e40d3d77bec7c42378ece627be832ce0d2fd6b1a571cbab5317a3fa76c5e7944",
+      "size": 2889747,
+      "format": "zip",
+      "binaries": {
+        "cyme.exe": {
+          "path": "cyme-v3.0.2-x86_64-pc-windows-gnu/cyme.exe",
+          "sha256": "0086a0a3fbc63106f3ad7a1f18dc79fa61df5b510ce2fe7d01cdb090b75d73d9"
+        }
+      }
+    }
+  }
+}
