@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "cairo-lang-sierra-to-casm",
+  "version": "1.1.1",
+  "repository": "starkware-libs/cairo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v1.1.1/release-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.1",
+      "sha256": "ac1bd0a5c5acecb92d824eb448e3bb4e31eb0c055c86586160a6427beb6bf81d",
+      "size": 42705271,
+      "format": "tar.gz",
+      "binaries": {
+        "sierra-compile": {
+          "path": "cairo/bin/sierra-compile",
+          "sha256": "14ad3a3abb5e50b3479d0f3c0cb7236cf49685053c721dc627eca39a1cb4df7a"
+        }
+      }
+    }
+  }
+}
