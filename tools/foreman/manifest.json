@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "foreman",
+  "version": "1.7.0",
+  "repository": "Roblox/foreman",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Roblox/foreman/releases/download/v1.7.0/foreman-linux-x86_64.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "7060ccfa15dfeed5232d48f2d8df4405223e82a107f3ad7a2a8e83710e3d63e7",
+      "size": 4880428,
+      "format": "zip",
+      "binaries": {
+        "foreman": {
+          "path": "foreman",
+          "sha256": "5298fe1362e40a53514b4fe51e6f1754632b8c9f3ce6e1f74339f4bf117fee75"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Roblox/foreman/releases/download/v1.7.0/foreman-linux-arm64.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "cbc118e059a6e753dae95ea34f3ae6cce242a4a493f58be75db39ce6e3d87421",
+      "size": 4776119,
+      "format": "zip",
+      "binaries": {
+        "foreman": {
+          "path": "foreman",
+          "sha256": "c8c3941dbe54620c2f02b80d66d17b438d4c31b5db46cb9f29dc7fa7931f6a6e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Roblox/foreman/releases/download/v1.7.0/foreman-macos-x86_64.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "c779fcb4c883b7a5d84b3cb73d2da28925364ad2822fade62523e1b6c4202578",
+      "size": 2939519,
+      "format": "zip",
+      "binaries": {
+        "foreman": {
+          "path": "foreman",
+          "sha256": "003de0f45a449ec054d0e030a9407e10f4daafa2e65b64c0270c1ce5791923e0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Roblox/foreman/releases/download/v1.7.0/foreman-macos-arm64.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "8d17d203eea9fa39f48dcb09f69066ffe9428da972bb0ff262308d25fd7ab42c",
+      "size": 2811099,
+      "format": "zip",
+      "binaries": {
+        "foreman": {
+          "path": "foreman",
+          "sha256": "9afb228c1c79701802e4a9241363287a657231c4be6872ac2afc9fcb3acf8e95"
+        }
+      }
+    }
+  }
+}
