@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "leakguard",
+  "version": "1.0.0",
+  "repository": "ptukovar/leakguard",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ptukovar/leakguard/releases/download/v1.0.0/leakguard-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "9f2cefea7e049516f89c8935115099b8776e61669cf45e77b8fff4b3f0aca1b8",
+      "size": 259599,
+      "format": "tar.gz",
+      "binaries": {
+        "leakguard": {
+          "path": "leakguard",
+          "sha256": "32c24f96c59598eadc623b9852c22d55e078423758c9ccbaad5faa68bfc6dcf7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ptukovar/leakguard/releases/download/v1.0.0/leakguard-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "1f38b21fb96f6fcbf44b73d5297f51335aa03cc107056c52b869d1e35224ec9c",
+      "size": 245949,
+      "format": "tar.gz",
+      "binaries": {
+        "leakguard": {
+          "path": "leakguard",
+          "sha256": "8c6010094e9e2728c2bf225be6af53f646488d7847edf432642fd3f91bd22f8c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ptukovar/leakguard/releases/download/v1.0.0/leakguard-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "7ee996b7e32196a3ef0ea6c70208ace9e79ffaa167cb410df0f489db131f081c",
+      "size": 239377,
+      "format": "tar.gz",
+      "binaries": {
+        "leakguard": {
+          "path": "leakguard",
+          "sha256": "03455137b90ef43214ca61a068f27bab590139e9bfc8fba2d8b82bd89429d54f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ptukovar/leakguard/releases/download/v1.0.0/leakguard-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "5ddad244ae548e246ace325b3fce8b75457a9e6e341ef576f0e68d0a0a416411",
+      "size": 133970,
+      "format": "zip",
+      "binaries": {
+        "leakguard.exe": {
+          "path": "leakguard.exe",
+          "sha256": "78027bd28be1789d493d9ab24287050a09ac27559f4f8b2805303c40adb2f6f9"
+        }
+      }
+    }
+  }
+}
