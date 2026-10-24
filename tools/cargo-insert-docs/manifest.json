@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-insert-docs",
+  "version": "1.14.0",
+  "repository": "bluurryy/cargo-insert-docs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bluurryy/cargo-insert-docs/releases/download/v1.14.0/cargo-insert-docs-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.14.0",
+      "sha256": "d1dbcde3f74a3c12d07d544ab1d6f52a946d31d638bf01fb2c7de02ac4e7c0cc",
+      "size": 3871479,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-insert-docs": {
+          "path": "cargo-insert-docs",
+          "sha256": "9ad09a8e6d98aa4edb92e7451f0977843ffdbb88decbc8f89fa6ba47af58c898"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bluurryy/cargo-insert-docs/releases/download/v1.14.0/cargo-insert-docs-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.14.0",
+      "sha256": "9d21fbe2fbe30a5b7140bd86813e3c7964253467d2142bbb4d4311eb0df84dc1",
+      "size": 3624211,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-insert-docs": {
+          "path": "cargo-insert-docs",
+          "sha256": "182890fe44e6d9ce9ba1866d7f6267c16d27b17e699b6e144e6afb10131ef26f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bluurryy/cargo-insert-docs/releases/download/v1.14.0/cargo-insert-docs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.14.0",
+      "sha256": "1cebc4e24bdc8ff81e440bf9e811e79258dcdb015bea1d1e2c5a3a387eebbcab",
+      "size": 3383446,
+      "format": "zip",
+      "binaries": {
+        "cargo-insert-docs.exe": {
+          "path": "cargo-insert-docs.exe",
+          "sha256": "c81cb272c7775b9030cb27bfd0487c127917e68d39ba909d81d3b73f404339b0"
+        }
+      }
+    }
+  }
+}
