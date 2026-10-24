@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "jwt-cli",
+  "version": "6.2.0",
+  "repository": "mike-engel/jwt-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mike-engel/jwt-cli/releases/download/6.2.0/jwt-linux.tar.gz",
+      "sha256": "a7bdea2f9f53495e94bdd34048d2cb6cee2137220cf1818f8510f569ad5c7171",
+      "size": 1507733,
+      "format": "tar.gz",
+      "releaseTag": "6.2.0",
+      "binaries": {
+        "jwt": {
+          "path": "jwt",
+          "sha256": "99a472e1c997c3fab1ccb99ae992949b643252eec2248c1ac607e26c11d6e412"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mike-engel/jwt-cli/releases/download/6.2.0/jwt-macOS.tar.gz",
+      "sha256": "c277a113e2fc89d44e70cf38786e7da8b0cbfe59e77e23b37033cc4e2bd8aad6",
+      "size": 2745127,
+      "format": "tar.gz",
+      "releaseTag": "6.2.0",
+      "binaries": {
+        "jwt": {
+          "path": "jwt",
+          "sha256": "f88a364a74f7a2cf2416c0d60e0fb3869e2b920afc460f2dbf10346b9d7546cd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mike-engel/jwt-cli/releases/download/6.2.0/jwt-macOS.tar.gz",
+      "sha256": "c277a113e2fc89d44e70cf38786e7da8b0cbfe59e77e23b37033cc4e2bd8aad6",
+      "size": 2745127,
+      "format": "tar.gz",
+      "releaseTag": "6.2.0",
+      "binaries": {
+        "jwt": {
+          "path": "jwt",
+          "sha256": "f88a364a74f7a2cf2416c0d60e0fb3869e2b920afc460f2dbf10346b9d7546cd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mike-engel/jwt-cli/releases/download/6.2.0/jwt-windows.tar.gz",
+      "sha256": "f8dc93223cf7f778e1d8c2787832b4a5f70511ad0073424d27bbdb3f071ddd4f",
+      "size": 1361998,
+      "format": "tar.gz",
+      "releaseTag": "6.2.0",
+      "binaries": {
+        "jwt.exe": {
+          "path": "jwt.exe",
+          "sha256": "3ce53fa9413714a1b3c27da1da7346f1cd18a09a7b2b8e52032912d5de3409b5"
+        }
+      }
+    }
+  }
+}
