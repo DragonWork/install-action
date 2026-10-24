@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "lgm",
+  "version": "1.17.0",
+  "repository": "bloznelis/lgm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bloznelis/lgm/releases/download/1.17.0/lgm-1.17.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.17.0",
+      "sha256": "44e7772cf6f721971dd1aeb8ac958e1c4baab149c18a1e6de6c9011e504a709b",
+      "size": 6310302,
+      "format": "tar.gz",
+      "binaries": {
+        "lgm": {
+          "path": "lgm-1.17.0-x86_64-unknown-linux-gnu/lgm",
+          "sha256": "b6ecb94847cc27fdae23a9646f45422c8f98c02af2922dade215c334c326cd7d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bloznelis/lgm/releases/download/1.17.0/lgm-1.17.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.17.0",
+      "sha256": "ef102f93dd6c8e1e08966e2aee088e512127cff2fc0ed3340772ba09b76488e0",
+      "size": 5905845,
+      "format": "tar.gz",
+      "binaries": {
+        "lgm": {
+          "path": "lgm-1.17.0-x86_64-apple-darwin/lgm",
+          "sha256": "3b60a84fd42d7e20ec85f0650451614d6cc08d93ab7343b781b17d793fbd7e82"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bloznelis/lgm/releases/download/1.17.0/lgm-1.17.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "1.17.0",
+      "sha256": "0908e2d7f9294a7ab340aa4fbd2eefe9fb7d7faf79abfd97a1ec39b25775bcae",
+      "size": 5631514,
+      "format": "tar.gz",
+      "binaries": {
+        "lgm": {
+          "path": "lgm-1.17.0-aarch64-apple-darwin/lgm",
+          "sha256": "ac9a989b979357717212239965f783b4ff73c6a0957891e6170e6ebf1fc2eb97"
+        }
+      }
+    }
+  }
+}
