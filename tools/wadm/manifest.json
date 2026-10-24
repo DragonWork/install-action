@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wadm",
+  "version": "0.11.2",
+  "repository": "wasmCloud/wadm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wasmCloud/wadm/releases/download/v0.11.2/wadm-v0.11.2-linux-amd64.tar.gz",
+      "releaseTag": "v0.11.2",
+      "sha256": "6c4cf75354bdda1456ff18979c834e8f830c2a5c1df5b9e1ffcf43229ac05231",
+      "size": 8842793,
+      "format": "tar.gz",
+      "binaries": {
+        "wadm": {
+          "path": "wadm-v0.11.2-linux-amd64/wadm",
+          "sha256": "00aba5a175948e7c2675dd8d910116b7d95aa4b6aaecf8b1badeecefb313bfcb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wasmCloud/wadm/releases/download/v0.11.2/wadm-v0.11.2-linux-aarch64.tar.gz",
+      "releaseTag": "v0.11.2",
+      "sha256": "a5cae553d57b841ced4ed489892f5671fe426379e4f95a924d53a195b042e3ad",
+      "size": 9741494,
+      "format": "tar.gz",
+      "binaries": {
+        "wadm": {
+          "path": "wadm-v0.11.2-linux-aarch64/wadm",
+          "sha256": "b250fe80b710be1276c1311ff5a8016603ddca5ead2ed31c04bc11ad6256f744"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wasmCloud/wadm/releases/download/v0.11.2/wadm-v0.11.2-macos-amd64.tar.gz",
+      "releaseTag": "v0.11.2",
+      "sha256": "ec9fbd8403c887310ae71c678c8978fd54e81e8aa60db890ced0fd1db63df255",
+      "size": 8282909,
+      "format": "tar.gz",
+      "binaries": {
+        "wadm": {
+          "path": "wadm-v0.11.2-macos-amd64/wadm",
+          "sha256": "e5814666979c003925c804680164efb1266ea3e75279de779b4d38f55d205c1b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wasmCloud/wadm/releases/download/v0.11.2/wadm-v0.11.2-macos-aarch64.tar.gz",
+      "releaseTag": "v0.11.2",
+      "sha256": "14bce2adb72caa82967ec6c9169f59ec0c67c0a53517436d72ca46e4a4ce7973",
+      "size": 7850040,
+      "format": "tar.gz",
+      "binaries": {
+        "wadm": {
+          "path": "wadm-v0.11.2-macos-aarch64/wadm",
+          "sha256": "46c93c5fe1eb2eabbd15a9c855d4353f4d2104374b9d9544fc56cfbffe0752b3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wasmCloud/wadm/releases/download/v0.11.2/wadm-v0.11.2-windows-amd64.tar.gz",
+      "releaseTag": "v0.11.2",
+      "sha256": "d00a5929e63969f5d109bcadfd2e86979ba3e7502bb03046809fcead0b48864f",
+      "size": 7394841,
+      "format": "tar.gz",
+      "binaries": {
+        "wadm.exe": {
+          "path": "wadm-v0.11.2-windows-amd64/wadm.exe",
+          "sha256": "cca5df14360b279050469d35c393857eb17e3cec509a9819cb4af61769bc16b3"
+        }
+      }
+    }
+  }
+}
