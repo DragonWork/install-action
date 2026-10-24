@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "thumbs",
+  "version": "0.7.1",
+  "repository": "fcsonline/tmux-thumbs",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/fcsonline/tmux-thumbs/releases/download/0.7.1/tmux-thumbs_0.7.1_x86_64-apple-darwin.zip",
+      "releaseTag": "0.7.1",
+      "sha256": "cba93815292a3a4bf604722b7cb31d0bc50ef309f703b4fd6455434251c8d4ad",
+      "size": 1784440,
+      "format": "zip",
+      "binaries": {
+        "thumbs": {
+          "path": "thumbs",
+          "sha256": "576fca3b0bb21c49a95a7bfe4a015e39281eee51f1bbdabcd13d0abe7f268f12"
+        },
+        "tmux-thumbs": {
+          "path": "tmux-thumbs",
+          "sha256": "f3a1497fbf6d8a8aba926e44f94e87fa19e489f653a52a848aa2a00db5d5fdd1"
+        }
+      }
+    }
+  }
+}
