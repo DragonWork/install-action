@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "starknet-devnet",
+  "version": "0.10.1",
+  "repository": "starknet-io/starknet-devnet",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/starknet-io/starknet-devnet/releases/download/v0.10.1/starknet-devnet-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "1488c2e51dd12d3b223e2907e45da406530b4820bc3ec1bc6abe76f6c579ce4c",
+      "size": 22020597,
+      "format": "tar.gz",
+      "binaries": {
+        "starknet-devnet": {
+          "path": "starknet-devnet",
+          "sha256": "29956050344d224092176d8ffc4d99d737e6ea4fd9b404264bce004691b75771"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/starknet-io/starknet-devnet/releases/download/v0.10.1/starknet-devnet-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "8711ce50ae37336ceb789b1d4d866ec372ddecdb73d901a46cce506f7fd5520e",
+      "size": 21294759,
+      "format": "tar.gz",
+      "binaries": {
+        "starknet-devnet": {
+          "path": "starknet-devnet",
+          "sha256": "44394aeef1b6956ed022d8a4e2e2097b26cfad48f0703f456e1ab11ab0449bb2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/starknet-io/starknet-devnet/releases/download/v0.10.1/starknet-devnet-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "7b45628484675a8aa5d77487b23353166cabcdda2a77f641e144c7942feec1ba",
+      "size": 20969705,
+      "format": "tar.gz",
+      "binaries": {
+        "starknet-devnet": {
+          "path": "starknet-devnet",
+          "sha256": "ceca5022e41cf9d5745c1e80b6e120f4d47bd1bdaa2f83a4b14265cf5621a2fb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/starknet-io/starknet-devnet/releases/download/v0.10.1/starknet-devnet-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "181091481f375055baa18799b4ac78872f9971aca8af475967ce3ea1593f55c4",
+      "size": 20318228,
+      "format": "tar.gz",
+      "binaries": {
+        "starknet-devnet": {
+          "path": "starknet-devnet",
+          "sha256": "93a067f913ae672486101519eebf582702f563f253affd07e89bbdbfe7bd8252"
+        }
+      }
+    }
+  }
+}
