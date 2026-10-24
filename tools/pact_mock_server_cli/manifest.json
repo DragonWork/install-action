@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "pact_mock_server_cli",
+  "version": "2.0.1",
+  "repository": "pact-foundation/pact-core-mock-server",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pact-foundation/pact-core-mock-server/releases/download/pact_mock_server_cli-v2.0.1/pact_mock_server_cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "pact_mock_server_cli-v2.0.1",
+      "sha256": "80e2c8e584e83f261455a8da9acd5a614720d7e1147773ac9be208b5ef2c97fc",
+      "size": 4965108,
+      "format": "tar.xz",
+      "binaries": {
+        "pact-mock-server": {
+          "path": "pact_mock_server_cli-x86_64-unknown-linux-musl/pact-mock-server",
+          "sha256": "ac27399321671e3f78dc9671dde15e08f20d17fc45e9dc024ff158376fd19067"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pact-foundation/pact-core-mock-server/releases/download/pact_mock_server_cli-v2.0.1/pact_mock_server_cli-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "pact_mock_server_cli-v2.0.1",
+      "sha256": "72404c280abdb67f7de7ee96b3b10c8cdb5f4c4b24d4dbfd5ab2ef0635a4500a",
+      "size": 4471948,
+      "format": "tar.xz",
+      "binaries": {
+        "pact-mock-server": {
+          "path": "pact_mock_server_cli-aarch64-unknown-linux-musl/pact-mock-server",
+          "sha256": "0526524efc4a9c53f297fcf424bcbce1d90769625731d67f590c37450f8943c5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pact-foundation/pact-core-mock-server/releases/download/pact_mock_server_cli-v2.0.1/pact_mock_server_cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "pact_mock_server_cli-v2.0.1",
+      "sha256": "7d384aa031ffc6bcd9b23b6e54b56bc48f058082b847456a413a91db7902affc",
+      "size": 4564452,
+      "format": "tar.xz",
+      "binaries": {
+        "pact-mock-server": {
+          "path": "pact_mock_server_cli-x86_64-apple-darwin/pact-mock-server",
+          "sha256": "830773de64c1541c448774942f7e8abfbf45fe4b47bd6a17282022e8f6fc61dd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pact-foundation/pact-core-mock-server/releases/download/pact_mock_server_cli-v2.0.1/pact_mock_server_cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "pact_mock_server_cli-v2.0.1",
+      "sha256": "9abe7a3bc5ce5c5d26fa3087dcb4b7d5023ca56f2a335bdd86914c6a497c6d24",
+      "size": 4142240,
+      "format": "tar.xz",
+      "binaries": {
+        "pact-mock-server": {
+          "path": "pact_mock_server_cli-aarch64-apple-darwin/pact-mock-server",
+          "sha256": "6693381c50818021b8e312491f4a8ffed3e5772930fa0387cbeaf8c3a46bb676"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pact-foundation/pact-core-mock-server/releases/download/pact_mock_server_cli-v2.0.1/pact_mock_server_cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "pact_mock_server_cli-v2.0.1",
+      "sha256": "28bf3c708390da3ce2ef973c099ae27f8cdc3ccac457105f6d22857d3c6b6a45",
+      "size": 6614263,
+      "format": "zip",
+      "binaries": {
+        "pact-mock-server.exe": {
+          "path": "pact-mock-server.exe",
+          "sha256": "dfa598b37af1cc50d2eb432f5797a338a64822232bae736a8558b9264c02e78e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/pact-foundation/pact-core-mock-server/releases/download/pact_mock_server_cli-v2.0.1/pact_mock_server_cli-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "pact_mock_server_cli-v2.0.1",
+      "sha256": "edaf2c4068e30e9ebb9ab466c71c4fba5439a4e04c509cb2d7ad97b7c664aa2c",
+      "size": 6220732,
+      "format": "zip",
+      "binaries": {
+        "pact-mock-server.exe": {
+          "path": "pact-mock-server.exe",
+          "sha256": "f6d41aecad9fc3cb02e26b242b20cc39d2b5358c6eaa2c17d6a719ee4f4a3fc4"
+        }
+      }
+    }
+  }
+}
