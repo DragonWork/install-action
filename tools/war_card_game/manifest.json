@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "war_card_game",
+  "version": "0.3.9",
+  "repository": "BartoszCiesla/war_card_game",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/BartoszCiesla/war_card_game/releases/download/0.3.9/war_card_game-x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "0.3.9",
+      "sha256": "3f2f035b788bc12091dd152f31aa6787ca4e589699fcbf5af11233f42a0ded88",
+      "size": 366460,
+      "format": "tar.gz",
+      "binaries": {
+        "war_card_game": {
+          "path": "war_card_game",
+          "sha256": "b7cd14365e458f93dae21309e0e66ec02a661d80588961dd59efd7c14c8aa907"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/BartoszCiesla/war_card_game/releases/download/0.3.9/war_card_game-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.3.9",
+      "sha256": "698aa09f07382a6810d7415e9957f49736188aa1855ed3b2278cc88cf54483e2",
+      "size": 234486,
+      "format": "zip",
+      "binaries": {
+        "war_card_game.exe": {
+          "path": "war_card_game.exe",
+          "sha256": "ae997a9e7aaa2dcbe481af51120006632dfa39951a057ceeced9425613cbb5b4"
+        }
+      }
+    }
+  }
+}
