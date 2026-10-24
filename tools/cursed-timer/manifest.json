@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cursed-timer",
+  "version": "0.3.3",
+  "repository": "dhruvasagar/cursed-timer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dhruvasagar/cursed-timer/releases/download/v0.3.3/cursed-timer-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "f9fba4f8f9da3bd307a19a5d897621254870c3a82c0f2f06588ec23211ec8967",
+      "size": 537164,
+      "format": "tar.gz",
+      "binaries": {
+        "cursed-timer": {
+          "path": "cursed-timer",
+          "sha256": "f711a4f9ac0269d501396e0884d0f5fd242b928b634dc932c20fc8927311792c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dhruvasagar/cursed-timer/releases/download/v0.3.3/cursed-timer-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.3",
+      "sha256": "66e7b6849caffafe18648b11f3442c980dc68411feb38ad1fd706c4bc820b040",
+      "size": 495617,
+      "format": "tar.gz",
+      "binaries": {
+        "cursed-timer": {
+          "path": "cursed-timer",
+          "sha256": "00cc249df299a6bae74707824b5f7b9d678eaac838692041f80939bb3628b9d6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dhruvasagar/cursed-timer/releases/download/v0.3.3/cursed-timer-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.3",
+      "sha256": "f7f4087516ac8116c414893cc74a89f6b1db0f78a50d34609e20e9a46f47ab29",
+      "size": 400896,
+      "format": "zip",
+      "binaries": {
+        "cursed-timer.exe": {
+          "path": "cursed-timer.exe",
+          "sha256": "a144356513a09e7417ff1115215c825d553037efc8156a45e256d4dbc6efae18"
+        }
+      }
+    }
+  }
+}
