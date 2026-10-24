@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "swordfish-rs",
+  "version": "0.6.0",
+  "repository": "vim-zz/swordfish-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vim-zz/swordfish-rs/releases/download/0.6.0/swordfish-rs_0.6.0_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "df39493ea32646a642ddaecdc8f0eaef812e81b8eb467e7f0574a24f6359e24c",
+      "size": 725876,
+      "format": "tar.gz",
+      "binaries": {
+        "swordfish": {
+          "path": "swordfish",
+          "sha256": "ee0ba030119aa8423ea3d22b06b3a49a3bed2f5a3188e14d944c0e3aad55eb97"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vim-zz/swordfish-rs/releases/download/0.6.0/swordfish-rs_0.6.0_x86_64-apple-darwin.zip",
+      "releaseTag": "0.6.0",
+      "sha256": "6a9356708775c4f1e80054d295a9e1c634da536db283035aa17eab9dab22c9b3",
+      "size": 825429,
+      "format": "zip",
+      "binaries": {
+        "swordfish": {
+          "path": "swordfish",
+          "sha256": "ce8b3a3de1f87da1385ec8fc46f42f648f8fae240bd47854b06185543a1366ff"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vim-zz/swordfish-rs/releases/download/0.6.0/swordfish-rs_0.6.0_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "0.6.0",
+      "sha256": "a960d9d71f409c0c491b4e1bec49733f078c99c710f0bc524f17eeff654f2cec",
+      "size": 621753,
+      "format": "zip",
+      "binaries": {
+        "swordfish.exe": {
+          "path": "swordfish.exe",
+          "sha256": "21c0d3e892d659a0636d1661232d50115637493de92945ff455f6ed767fd9ce8"
+        }
+      }
+    }
+  }
+}
