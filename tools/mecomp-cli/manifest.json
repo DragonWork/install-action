@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mecomp-cli",
+  "version": "0.7.2",
+  "repository": "AnthonyMichaelTDM/mecomp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AnthonyMichaelTDM/mecomp/releases/download/v0.7.2/mecomp-cli-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.2",
+      "sha256": "cbf91022c821877382f3f51a7dab35285c668959c877fc44288051231ffa9b70",
+      "size": 1854576,
+      "format": "tar.xz",
+      "binaries": {
+        "mecomp-cli": {
+          "path": "mecomp-cli-x86_64-unknown-linux-gnu/mecomp-cli",
+          "sha256": "3a7a43daf8129e135e1b863f34ed6ac5c10543af7eaf435911c578c9109ef8de"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AnthonyMichaelTDM/mecomp/releases/download/v0.7.2/mecomp-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.2",
+      "sha256": "8b8961062ce1b170950d334c954566303a0118a9819653aa5936f6673d118b2f",
+      "size": 1242616,
+      "format": "tar.xz",
+      "binaries": {
+        "mecomp-cli": {
+          "path": "mecomp-cli-aarch64-apple-darwin/mecomp-cli",
+          "sha256": "102a3272b3583e01bd4c0cb04493e35afa73fd78c361bdc3822d3d8aac2a5dd8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AnthonyMichaelTDM/mecomp/releases/download/v0.7.2/mecomp-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.2",
+      "sha256": "ac220cf9863288fa34ba5f188ce4ead50ca9835bc0c22601a12f538fd7a31db9",
+      "size": 1925298,
+      "format": "zip",
+      "binaries": {
+        "mecomp-cli.exe": {
+          "path": "mecomp-cli.exe",
+          "sha256": "d1ab1a0f9f1e47ae5ea2a36c491bce9a051e5f17c81c43262efeeceaa425bcda"
+        }
+      }
+    }
+  }
+}
