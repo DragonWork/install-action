@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "lmml-cli",
+  "version": "0.6.11",
+  "repository": "yuma140902/lmml",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yuma140902/lmml/releases/download/lmml-cli-v0.6.11/lmml-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "lmml-cli-v0.6.11",
+      "sha256": "692b857699e017def0a59f29bda745dcb4d8a185c54c5de984ecf1204dc92496",
+      "size": 641736,
+      "format": "tar.gz",
+      "binaries": {
+        "lmml": {
+          "path": "lmml",
+          "sha256": "953dff1d42e05d1de134afcaffa13cde8be817e4451dbbb2a1158ee02dcbedf2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yuma140902/lmml/releases/download/lmml-cli-v0.6.11/lmml-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "lmml-cli-v0.6.11",
+      "sha256": "0f1ae919e4e47cffb98a535e6b76b8f7ceed13f51468eb77c3485eeb63d77826",
+      "size": 473026,
+      "format": "zip",
+      "binaries": {
+        "lmml.exe": {
+          "path": "lmml.exe",
+          "sha256": "dfbe7cada2c4cdde07bd0d77be328ebbf0289d25ff86365616b6f110e56b7056"
+        }
+      }
+    }
+  }
+}
