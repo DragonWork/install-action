@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "dora-cli",
+  "version": "1.1.0",
+  "repository": "dora-rs/dora",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v1.1.0/dora-cli-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "2b1600f33187c552f98e52f7280318808e1e2ed491c6a8340dea104dbba0c85b",
+      "size": 30143706,
+      "format": "tar.gz",
+      "binaries": {
+        "dora": {
+          "path": "dora-cli-x86_64-unknown-linux-gnu/dora",
+          "sha256": "a9302f28562b5ca14c247bb82269dcd58b2c663075907d84bfcc6d5605e127bd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v1.1.0/dora-cli-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "77fe85ff1eaf2cac2bf9e0d46d1efe00cad5076b5a0cf4e42b2cf2c646b4752f",
+      "size": 31459500,
+      "format": "tar.gz",
+      "binaries": {
+        "dora": {
+          "path": "dora-cli-aarch64-unknown-linux-gnu/dora",
+          "sha256": "ca31bc9180779cc5d80e4836da4d78af733c17f5e38fe120311b53c29df35cbd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v1.1.0/dora-cli-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "367ea2457324a95cff49634dca52fd51e58b79c5ffd6847fe630b2a53c1ec2a1",
+      "size": 26917577,
+      "format": "tar.gz",
+      "binaries": {
+        "dora": {
+          "path": "dora-cli-aarch64-apple-darwin/dora",
+          "sha256": "fed0b5e0a36172172e6340c973d0e679852d41337dbd733e6df3f865b7a1ddae"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v1.1.0/dora-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.0",
+      "sha256": "098ec54ce5c13e54b890c8e712918e22a7be3c801fa09b26152663bbe37546f4",
+      "size": 25469770,
+      "format": "zip",
+      "binaries": {
+        "dora.exe": {
+          "path": "dora.exe",
+          "sha256": "53b181ac809d1334d562641161f403b19cfa258b7b2750cabef27f2aa63c0e1b"
+        }
+      }
+    }
+  }
+}
