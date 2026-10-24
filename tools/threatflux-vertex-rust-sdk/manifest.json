@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "threatflux-vertex-rust-sdk",
+  "version": "0.10.3",
+  "repository": "ThreatFlux/vertex_rust_sdk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ThreatFlux/vertex_rust_sdk/releases/download/v0.10.3/vertex-linux-amd64.tar.gz",
+      "sha256": "07f68d81be0992948d7f0aed0e32eb39232896c907188765070dcca278f16d32",
+      "size": 6862051,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.3",
+      "binaries": {
+        "vertex": {
+          "path": "./vertex",
+          "sha256": "1ce51ead277ba8f4ff885d9df39e8a11ddf488313817326c0aa724bbbb6fe2ff"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ThreatFlux/vertex_rust_sdk/releases/download/v0.10.3/vertex-linux-arm64.tar.gz",
+      "sha256": "295890d6278034a8057657cfbf8516f01813438955fcf357eddb22680a941bd6",
+      "size": 6904014,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.3",
+      "binaries": {
+        "vertex": {
+          "path": "./vertex",
+          "sha256": "410438c0c51f0cd9a23319285578126694978f7ffe4dbb3b66bceabff92cfb43"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ThreatFlux/vertex_rust_sdk/releases/download/v0.10.3/vertex-macos-amd64.tar.gz",
+      "sha256": "4776c27d4eaa1924c5f9530ab00fa18dcd78203145ae48848f0b90d5894fdf67",
+      "size": 4454935,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.3",
+      "binaries": {
+        "vertex": {
+          "path": "./vertex",
+          "sha256": "5d23f2086bfd23cc2132cf8adf9f63e5046f7cb948de8ec60e2f5ceb90920264"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ThreatFlux/vertex_rust_sdk/releases/download/v0.10.3/vertex-macos-arm64.tar.gz",
+      "sha256": "d87e5a09d03dcf8f0b7073ecfb968e3ff25dbbc7d7e798f010c30c20120876cd",
+      "size": 4217561,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.3",
+      "binaries": {
+        "vertex": {
+          "path": "./vertex",
+          "sha256": "91b66f47d6c03fe5ba43c0549474a1078bd927d54ac7fc1217c314c76daee148"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ThreatFlux/vertex_rust_sdk/releases/download/v0.10.3/vertex-windows-amd64.zip",
+      "sha256": "fb1754a58c812523d0f745751d148f1e83a2d425ea6041e3f20b209acd868983",
+      "size": 4139211,
+      "format": "zip",
+      "releaseTag": "v0.10.3",
+      "binaries": {
+        "vertex.exe": {
+          "path": "vertex.exe",
+          "sha256": "9c70a8d349251faefbe316bcab9bdab0e0650e13c7e918b1ba2ed2c3d8fd0145"
+        }
+      }
+    }
+  }
+}
