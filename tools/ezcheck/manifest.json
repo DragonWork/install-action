@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "ezcheck",
+  "version": "0.1.7",
+  "repository": "Metaphorme/ezcheck",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/Metaphorme/ezcheck/releases/download/0.1.7/ezcheck-x86_64-pc-windows-msvc-mix_backend.zip",
+      "releaseTag": "0.1.7",
+      "sha256": "c08cdbde8e8e3c2ac922f1f18a3fcfa6543e652de8792e614dac79e9496cd5bc",
+      "size": 565567,
+      "format": "zip",
+      "binaries": {
+        "ezcheck.exe": {
+          "path": "ezcheck.exe",
+          "sha256": "e28d5d69420ef5c4c171e24a10e0ad8a0b81f5f6de51609b67d8c3f6ae16a1a0"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Metaphorme/ezcheck/releases/download/0.1.7/ezcheck-aarch64-pc-windows-msvc-mix_backend.zip",
+      "releaseTag": "0.1.7",
+      "sha256": "b9cdc485ff982770ae769b845588d08e2b8b69839a8c2d4362e4c792b2d92555",
+      "size": 356410,
+      "format": "zip",
+      "binaries": {
+        "ezcheck.exe": {
+          "path": "ezcheck.exe",
+          "sha256": "66e94d93552eaf45788e4177ceaf2bf548e7b32a2b85f7c0842b5c4a1b330cc1"
+        }
+      }
+    }
+  }
+}
