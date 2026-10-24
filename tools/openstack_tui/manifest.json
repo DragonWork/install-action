@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "openstack_tui",
+  "version": "0.13.8",
+  "repository": "gtema/openstack",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_tui-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.13.8",
+      "sha256": "758b16be7a2355e202ec68bf13aa0b33286747f96297d44460f1a7899cc6ae67",
+      "size": 6389880,
+      "format": "tar.xz",
+      "binaries": {
+        "ostui": {
+          "path": "openstack_tui-x86_64-unknown-linux-musl/ostui",
+          "sha256": "69103b9a9de363e19e228665252a605b205f113f4623ac72f2026be96cd2e2c3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_tui-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.13.8",
+      "sha256": "353a8784c14bea385eed4b80fc5e61567a1feb3ec3b96025c77638670035fd61",
+      "size": 5761960,
+      "format": "tar.xz",
+      "binaries": {
+        "ostui": {
+          "path": "openstack_tui-aarch64-unknown-linux-gnu/ostui",
+          "sha256": "0e3c2ccec5bfb70f6aafba5aab5c097442de4c9461529c87ba02f7b1dc55ace2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_tui-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.13.8",
+      "sha256": "c3446fec111c643760a6258a02899b67158453f71c4ea6ad0f034ab8da97756c",
+      "size": 5934052,
+      "format": "tar.xz",
+      "binaries": {
+        "ostui": {
+          "path": "openstack_tui-x86_64-apple-darwin/ostui",
+          "sha256": "6f055749e8eac5dc40b65b9cc99cbe0aaa41db42ce9fd056079c29d1538de80d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_tui-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.13.8",
+      "sha256": "c2793c6dc8e0201d117bdc6fb11c6f028a686b29fc17d52fd2e0442d13e763bf",
+      "size": 5418784,
+      "format": "tar.xz",
+      "binaries": {
+        "ostui": {
+          "path": "openstack_tui-aarch64-apple-darwin/ostui",
+          "sha256": "85ac810c0588f30f6402f8f2aaa8700b6dd5dfee779a895224dee84f0dd98d52"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_tui-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.13.8",
+      "sha256": "41272559f2ea488d0e56c7fe8dd88bafca726c408bc7d11640a5c3f70b961db9",
+      "size": 8784413,
+      "format": "zip",
+      "binaries": {
+        "ostui.exe": {
+          "path": "ostui.exe",
+          "sha256": "e91e979fce7c5677cb2f3b734f14077cd7a453c3ca2bd807f8cd4e61da551ceb"
+        }
+      }
+    }
+  }
+}
