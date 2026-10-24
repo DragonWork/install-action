@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rualdi",
+  "version": "0.2.3",
+  "repository": "Jarsop/rualdi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Jarsop/rualdi/releases/download/v0.2.3/rualdi-0.2.3_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "9e40f92e347e00a6c18541a7c628231d8bbb7a39b5136f299828303ba6ca64f2",
+      "size": 1012785,
+      "format": "tar.gz",
+      "binaries": {
+        "rualdi": {
+          "path": "rualdi",
+          "sha256": "c66a8eb5cbd8472d3348005cf2d678f71d52b1ee818a2b3c6050dd90c62750fb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Jarsop/rualdi/releases/download/v0.2.3/rualdi-0.2.3_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "c190e1b02a39e137d56f181d603dced8b2d85afc796e9aaceb903228c1830d8b",
+      "size": 880960,
+      "format": "tar.gz",
+      "binaries": {
+        "rualdi": {
+          "path": "rualdi",
+          "sha256": "e841d8aee90336f5000320bbce5cba9a815dd44d4b8b1bf9a2ecc627ea3cc1d4"
+        }
+      }
+    }
+  }
+}
