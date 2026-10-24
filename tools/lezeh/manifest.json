@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "lezeh",
+  "version": "0.8.6",
+  "repository": "sendyhalim/lezeh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sendyhalim/lezeh/releases/download/0.8.6/lezeh-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "0.8.6",
+      "sha256": "4d76add876677fe2f7014a7447f0bd0393d748e6cc20cf1ddec882cecfa2e286",
+      "size": 8089443,
+      "format": "zip",
+      "binaries": {
+        "lezeh": {
+          "path": "lezeh",
+          "sha256": "e4f71b972763d4ad7e59bb4d475e0c9f0e630840ff69093c77b86f3fe5751f0e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sendyhalim/lezeh/releases/download/0.8.6/lezeh-x86_64-apple-darwin.zip",
+      "releaseTag": "0.8.6",
+      "sha256": "b33abe7c1c0640fb921c014837b4baaf40cef727e22ec5558b3d5506fa2a558a",
+      "size": 4256655,
+      "format": "zip",
+      "binaries": {
+        "lezeh": {
+          "path": "lezeh",
+          "sha256": "ab9e4344ef594e620efdf263c42d42f5e41fe26c6f132f08a8949c179cf7af7b"
+        }
+      }
+    }
+  }
+}
