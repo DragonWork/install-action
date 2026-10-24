@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "lumen",
+  "version": "2.32.0",
+  "repository": "jnsahaj/lumen",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jnsahaj/lumen/releases/download/v2.32.0/lumen-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.32.0",
+      "sha256": "60caee48278762d017b66264b6b015c706c956e06230a74b681063c9cfa56fd4",
+      "size": 12007900,
+      "format": "tar.gz",
+      "binaries": {
+        "lumen": {
+          "path": "lumen",
+          "sha256": "b9b2a66fdda8a1b1256194894a689772da038c390834c133a78383cb3c1c7c41"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jnsahaj/lumen/releases/download/v2.32.0/lumen-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.32.0",
+      "sha256": "cd7d4c46249e85192b7621f927b68311b0e1ec8e9d40a7fbee18c287f438f045",
+      "size": 11822332,
+      "format": "tar.gz",
+      "binaries": {
+        "lumen": {
+          "path": "lumen",
+          "sha256": "fc1978ae64b1aac2aedfb78c5ba2201e0b0548f379369f4c38e1bf5797b0b07b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jnsahaj/lumen/releases/download/v2.32.0/lumen-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.32.0",
+      "sha256": "254010a118fb225565589c56411d51b27521fcc5a9b94a5dcf9a2fe706d92e96",
+      "size": 10581462,
+      "format": "tar.gz",
+      "binaries": {
+        "lumen": {
+          "path": "lumen",
+          "sha256": "b1e380445053945b7758bf1fbf079bb0c9d2fb55861af162e96b22cd8ce24844"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jnsahaj/lumen/releases/download/v2.32.0/lumen-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.32.0",
+      "sha256": "45377ec96f28f9b9c1831cb52fd5d21e3f8bc58c2f1dd8abb79ba44d3ef33537",
+      "size": 10600637,
+      "format": "tar.gz",
+      "binaries": {
+        "lumen": {
+          "path": "lumen",
+          "sha256": "2ef0a22152d3d04482fd0e106587e18a6434c68c3584b6986bdeaeb63f08595b"
+        }
+      }
+    }
+  }
+}
