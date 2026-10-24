@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "oatmeal",
+  "version": "0.13.0",
+  "repository": "dustinblackman/oatmeal",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dustinblackman/oatmeal/releases/download/v0.13.0/oatmeal_0.13.0_linux_amd64.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "dc595601213a8cc733c5d7e3a81ca6f70443583fcb8d19fa5c319592927326a4",
+      "size": 4933360,
+      "format": "tar.gz",
+      "binaries": {
+        "oatmeal": {
+          "path": "oatmeal",
+          "sha256": "28aa33827c1956957d519ddbd2d14fa8016fb9f38107fdb0cf347ba8b953c5f4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dustinblackman/oatmeal/releases/download/v0.13.0/oatmeal_0.13.0_linux_arm64.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "0bb3742c3068a799f9b04d7d1d2dc4ff33072691374664eca907cebdd610d6db",
+      "size": 4707563,
+      "format": "tar.gz",
+      "binaries": {
+        "oatmeal": {
+          "path": "oatmeal",
+          "sha256": "e8ba1f26ad496aceafe6abe0bd6c6289a43f188162efe47c4bf6fcb6bd44c93e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dustinblackman/oatmeal/releases/download/v0.13.0/oatmeal_0.13.0_darwin_amd64.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "6ccb3c24ed79138988aa2045d5a2ac7e833ef2e13bff162cda7fe0a8217706f7",
+      "size": 4518737,
+      "format": "tar.gz",
+      "binaries": {
+        "oatmeal": {
+          "path": "oatmeal",
+          "sha256": "2c6e7be80d1e5400037734070c426f0918929785c817e76265652c3bd0c1ce58"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dustinblackman/oatmeal/releases/download/v0.13.0/oatmeal_0.13.0_darwin_arm64.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "b152f5137256bee5f0189165de83484a78cd6891f5e856114c723a7a7644f607",
+      "size": 4345491,
+      "format": "tar.gz",
+      "binaries": {
+        "oatmeal": {
+          "path": "oatmeal",
+          "sha256": "cc637297aec64c60860dae4456286e45274e6bda54129eb0621a5461a11c9b03"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dustinblackman/oatmeal/releases/download/v0.13.0/oatmeal_0.13.0_windows_amd64.zip",
+      "releaseTag": "v0.13.0",
+      "sha256": "bf207b202538dbbd4f97a8c535cbd676267393d5ea2737e32f8be97e6585f5a8",
+      "size": 4621566,
+      "format": "zip",
+      "binaries": {
+        "oatmeal.exe": {
+          "path": "oatmeal.exe",
+          "sha256": "a81709b7fbf178a5cd78008b7d8910d224372278bdfcb02c119efdb4be987fa1"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/dustinblackman/oatmeal/releases/download/v0.13.0/oatmeal_0.13.0_windows_arm64.zip",
+      "releaseTag": "v0.13.0",
+      "sha256": "3dd0962b4425fdc626122052559feb4ffe47d6245829c59303c913dca54a49b4",
+      "size": 4463196,
+      "format": "zip",
+      "binaries": {
+        "oatmeal.exe": {
+          "path": "oatmeal.exe",
+          "sha256": "6adf3f3dbd228916f582d87fc13fe5e5595b2131a33a31cf78428e375f660d60"
+        }
+      }
+    }
+  }
+}
