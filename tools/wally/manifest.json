@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "wally",
+  "version": "0.3.2",
+  "repository": "UpliftGames/wally",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/UpliftGames/wally/releases/download/v0.3.2/wally-v0.3.2-linux.zip",
+      "sha256": "21fdbb53dfee397fd21ca7fdd208db65cff0f87f0fd045cdb594b951981bd73f",
+      "size": 6281066,
+      "format": "zip",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "wally": {
+          "path": "wally",
+          "sha256": "97aac6fe084b6594d8c37875f19920a19e13b085184b33f988c66cc01973470d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/UpliftGames/wally/releases/download/v0.3.2/wally-v0.3.2-macos.zip",
+      "sha256": "f743afd894bd41f285fd45f638f368af6f01f77078ae140f2991a3fb4612d2f0",
+      "size": 5746140,
+      "format": "zip",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "wally": {
+          "path": "wally",
+          "sha256": "fe32f4efcf13bbc7ed3e0772e337571de87b0bf0bbe0162dd66502698ab6205b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/UpliftGames/wally/releases/download/v0.3.2/wally-v0.3.2-win64.zip",
+      "sha256": "957dd85c1f0626007018a252cf099b75e1e23d9a181c4830b66cf298707d8fb7",
+      "size": 4151168,
+      "format": "zip",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "wally.exe": {
+          "path": "wally.exe",
+          "sha256": "3c758cc15d67b96e71d6b53eed5510502a470ee12d9083954d98ded5f0b3cbf9"
+        }
+      }
+    }
+  }
+}
