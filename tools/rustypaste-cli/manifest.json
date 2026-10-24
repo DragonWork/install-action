@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rustypaste-cli",
+  "version": "0.10.0",
+  "repository": "orhun/rustypaste-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.10.0/rustypaste-cli-0.10.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "35faba92f6550cc0c6d41c1208140368f18ff4ef0224ef70d25b93bc24d25573",
+      "size": 1630639,
+      "format": "tar.gz",
+      "binaries": {
+        "rpaste": {
+          "path": "rustypaste-cli-0.10.0/rpaste",
+          "sha256": "e3dbf27d11e4828b183a113b4bb385c1c9616134e3ba79d3bcc77d680439a284"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.10.0/rustypaste-cli-0.10.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "cf012ad319c8ff02634cd8578909dc8d06ca59a74392823045d0d5a2ea59b31b",
+      "size": 1557383,
+      "format": "tar.gz",
+      "binaries": {
+        "rpaste": {
+          "path": "rustypaste-cli-0.10.0/rpaste",
+          "sha256": "d157660fac344e73667b1cf0735bf0060f54dde747f92ae53870f2462beab0fe"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.10.0/rustypaste-cli-0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "7acbdb6e65801d56232d9f3d57722b67cf93d56cfcb63848661cd030cd32f86b",
+      "size": 1469225,
+      "format": "tar.gz",
+      "binaries": {
+        "rpaste": {
+          "path": "rustypaste-cli-0.10.0/rpaste",
+          "sha256": "f924058e6e392e278cb08e4dce323a651ba2d77379fa86e7167f90d3dd98e892"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.10.0/rustypaste-cli-0.10.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "bd5ae32f4e239445daa2df9435e841c0a6d72d4ff3e63eb4690f981509442fc4",
+      "size": 1383548,
+      "format": "tar.gz",
+      "binaries": {
+        "rpaste": {
+          "path": "rustypaste-cli-0.10.0/rpaste",
+          "sha256": "5e8d925bce97319fd972e6adf9d4bf881ce16d064539f6613cbbbd9a49dd86a0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.10.0/rustypaste-cli-0.10.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "e104cb393f7bb61ab2fa0a7b2dc7222f47dc9b3cfa14d61aa2d302f01e8c08cd",
+      "size": 1324894,
+      "format": "zip",
+      "binaries": {
+        "rpaste.exe": {
+          "path": "rustypaste-cli-0.10.0/rpaste.exe",
+          "sha256": "c27ce1ea0d40db7f027d72123d2117263ffa9543717f77410d76ba03b0ba86fb"
+        }
+      }
+    }
+  }
+}
