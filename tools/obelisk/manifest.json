@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "obelisk",
+  "version": "0.41.5",
+  "repository": "obeli-sk/obelisk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/obeli-sk/obelisk/releases/download/v0.41.5/obelisk-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.41.5",
+      "sha256": "3ebeb1b18abb82b91f5001c27d391e3d15a0818726f9c961306ece2f304c4b49",
+      "size": 16680226,
+      "format": "tar.gz",
+      "binaries": {
+        "obelisk": {
+          "path": "obelisk",
+          "sha256": "a60e514e6c4af523ef3800bc8ac3fb865fb635fecc85422432e66fe962ca44d3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/obeli-sk/obelisk/releases/download/v0.41.5/obelisk-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.41.5",
+      "sha256": "8e2855ae05860a96da6b7603a885f1676bd9eb2d193c68407aafac7813d8404c",
+      "size": 15392579,
+      "format": "tar.gz",
+      "binaries": {
+        "obelisk": {
+          "path": "obelisk",
+          "sha256": "f6c39118c3b9f8b8f58b1e1cb17a9ad26db8d39339036ea1de9daf0bd5474f1a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/obeli-sk/obelisk/releases/download/v0.41.5/obelisk-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.41.5",
+      "sha256": "3f23684f0ec140a67210f79f30b182b0c9c6addcaf8226f9f96f14f7ed022d17",
+      "size": 18462906,
+      "format": "tar.gz",
+      "binaries": {
+        "obelisk": {
+          "path": "obelisk",
+          "sha256": "b565deb315e0220f6d38a2be3859322a8e9d29b17b4bb2d09f319d4eeeaafa76"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/obeli-sk/obelisk/releases/download/v0.41.5/obelisk-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.41.5",
+      "sha256": "60cde55c96fb43bdc082fa57d83365e927ac93d9ad6dc5235b338217a99223e6",
+      "size": 17237426,
+      "format": "tar.gz",
+      "binaries": {
+        "obelisk": {
+          "path": "obelisk",
+          "sha256": "126f639caf6ce436eca81c9135311c0eb09d7b6831f7127701ea20704cb5df2c"
+        }
+      }
+    }
+  }
+}
