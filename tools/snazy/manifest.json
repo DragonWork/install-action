@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "snazy",
+  "version": "0.59.0",
+  "repository": "chmouel/snazy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/chmouel/snazy/releases/download/0.59.0/snazy-v0.59.0-linux-amd64.tar.gz",
+      "releaseTag": "0.59.0",
+      "sha256": "f33c069c973e325f2db55477f20c4a5f5bdc9421e2821db11a3dca5b3268b164",
+      "size": 1643325,
+      "format": "tar.gz",
+      "binaries": {
+        "snazy": {
+          "path": "snazy",
+          "sha256": "7a0d6d09fbe69f14671f3b53e06fd6c8b94035a4e7ae66c6954eb03d6229cfb7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/chmouel/snazy/releases/download/0.59.0/snazy-v0.59.0-linux-arm64.tar.gz",
+      "releaseTag": "0.59.0",
+      "sha256": "55a75f5e9ea50ecedd902c24f2f604d6f57afdcfcf715eb4709d0c55e8022bf2",
+      "size": 1568507,
+      "format": "tar.gz",
+      "binaries": {
+        "snazy": {
+          "path": "snazy",
+          "sha256": "bfc24e2e9408369c7a475bde23fba081e6b8d4a4ac9ffb1dfdc11ca347c3c2fc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/chmouel/snazy/releases/download/0.59.0/snazy-v0.59.0-macos-arm64.tar.gz",
+      "releaseTag": "0.59.0",
+      "sha256": "1b8b34a9ed65ed56ae56a2c548277bd1f7bcba997d16b445ca1b0e8110f10b63",
+      "size": 1410013,
+      "format": "tar.gz",
+      "binaries": {
+        "snazy": {
+          "path": "snazy",
+          "sha256": "c8e36ebb72efb11d83805aaa67aa832cbc43078389b32afdf5f71df34cb7e2de"
+        }
+      }
+    }
+  }
+}
