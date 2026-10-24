@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "scoob",
+  "version": "0.6.5",
+  "repository": "HostyHosting/scoob",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/HostyHosting/scoob/releases/download/v0.6.5/scoob-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.6.5",
+      "sha256": "b13f5196f37591db46e4462680090cd7cff9f23ff5ed6a8355068a45b47c2682",
+      "size": 2675370,
+      "format": "zip",
+      "binaries": {
+        "scoob": {
+          "path": "scoob",
+          "sha256": "5cfd6de3753ec786885268ca6208781bcd843693edd1409eb622a581df437a2b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/HostyHosting/scoob/releases/download/v0.6.5/scoob-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.6.5",
+      "sha256": "f31b9f68bc6b05068e8ab2e3dde86ab8e57b9d55636c921cb95976734c1abee1",
+      "size": 2540418,
+      "format": "zip",
+      "binaries": {
+        "scoob": {
+          "path": "scoob",
+          "sha256": "d2a7703b840958f89b2a744c4019d30d2655a311cf0e16d4a8d91fafc3baf847"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/HostyHosting/scoob/releases/download/v0.6.5/scoob-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.6.5",
+      "sha256": "578e585d31c1254343814be9a02ae5baf7020f095f00902a7bc4d77eac289655",
+      "size": 1096583,
+      "format": "zip",
+      "binaries": {
+        "scoob": {
+          "path": "scoob",
+          "sha256": "44287d4a3ed4c660213d96ec6a5738f190dfe347c087edf9e746165cf3d7ab58"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/HostyHosting/scoob/releases/download/v0.6.5/scoob-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.6.5",
+      "sha256": "d62909400c4b359f0c7bcc0b18d0b0e468bf828110843cb999a687c50c1b0d3b",
+      "size": 1093515,
+      "format": "zip",
+      "binaries": {
+        "scoob": {
+          "path": "scoob",
+          "sha256": "3de27f5bda84c106234123f8f80e1ea1d0e6d059d8ed3d80755d4fe009f9574a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/HostyHosting/scoob/releases/download/v0.6.5/scoob-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.5",
+      "sha256": "8c95c4ae8a18829b75f3fd74e567f25f8adf5de338fad27193a570b6290c423e",
+      "size": 717192,
+      "format": "zip",
+      "binaries": {
+        "scoob.exe": {
+          "path": "scoob.exe",
+          "sha256": "22c027aa6b61ea21efcdedb6226726a7997f61718a628a057c41e9c6d2835d41"
+        }
+      }
+    }
+  }
+}
