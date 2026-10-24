@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "jira-terminal",
+  "version": "2.5.0",
+  "repository": "amritghimire/jira-terminal",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/amritghimire/jira-terminal/releases/download/v2.5.0/jira-terminal-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.5.0",
+      "sha256": "ce5d4e4baf274ed52c7f761f5a815c87d37057b5f240a9126286129e6cea6bd6",
+      "size": 2218812,
+      "format": "tar.gz",
+      "binaries": {
+        "jira-terminal": {
+          "path": "jira-terminal-x86_64-unknown-linux-musl/jira-terminal",
+          "sha256": "86a6541d79bc6849961febc65c465575bf0badcca3ac9dc7c120fb1f2fa910b0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/amritghimire/jira-terminal/releases/download/v2.5.0/jira-terminal-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.5.0",
+      "sha256": "df31287ff9d69392dfd341edd5ee23d1e4b983f9d9315bd79415608172b80f51",
+      "size": 1976399,
+      "format": "tar.gz",
+      "binaries": {
+        "jira-terminal": {
+          "path": "jira-terminal-x86_64-apple-darwin/jira-terminal",
+          "sha256": "f98f1bd68aefb6fa489d197706b674981c86095525e24035251d3b02d7cee3a3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/amritghimire/jira-terminal/releases/download/v2.5.0/jira-terminal-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.5.0",
+      "sha256": "e668befa66c708969b90ca78564d5e5f12c97f15468c2a7750fd739efcf7dee7",
+      "size": 1878238,
+      "format": "tar.gz",
+      "binaries": {
+        "jira-terminal": {
+          "path": "jira-terminal-aarch64-apple-darwin/jira-terminal",
+          "sha256": "07239c1bbab83149af6ece4bad7ec50c01c043196cea04fca9491d4e0e9c872a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/amritghimire/jira-terminal/releases/download/v2.5.0/jira-terminal-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v2.5.0",
+      "sha256": "3af69e0967e31825d46aaae44986a00b65f5da228c3485570e6518a9bfedfd92",
+      "size": 1782843,
+      "format": "tar.gz",
+      "binaries": {
+        "jira-terminal.exe": {
+          "path": "jira-terminal-x86_64-pc-windows-msvc/jira-terminal.exe",
+          "sha256": "4e1cc25068d62654a2acfbda16fd76383f845a704b3395c152c63ad37f4fb4d1"
+        }
+      }
+    }
+  }
+}
