@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "minidump-stackwalk",
+  "version": "0.27.0",
+  "repository": "rust-minidump/rust-minidump",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-minidump/rust-minidump/releases/download/v0.27.0/minidump-stackwalk-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.27.0",
+      "sha256": "bfaf97804965c87155b91765f4042440a38bb002f20a62fc4da9b6b6bcb20faf",
+      "size": 3764800,
+      "format": "tar.xz",
+      "binaries": {
+        "minidump-stackwalk": {
+          "path": "minidump-stackwalk-x86_64-unknown-linux-musl/minidump-stackwalk",
+          "sha256": "3e0f407bea23422c8a5facf72bca0a52290410289e360cdd5c8e823a0293c8a0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-minidump/rust-minidump/releases/download/v0.27.0/minidump-stackwalk-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.27.0",
+      "sha256": "801fa500d159fe474260ef1aad80706bed822434aced7fdb21c1b2c7a06afe6f",
+      "size": 3490260,
+      "format": "tar.xz",
+      "binaries": {
+        "minidump-stackwalk": {
+          "path": "minidump-stackwalk-x86_64-apple-darwin/minidump-stackwalk",
+          "sha256": "52968a24d2a1bc66d472605ef8b414410106b1f73364ac3a6f17035b6dce76d6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-minidump/rust-minidump/releases/download/v0.27.0/minidump-stackwalk-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.27.0",
+      "sha256": "5fcd4d25a5b0bbdc8faac6f4f81629bc67483c3eb458b86a8304733a7c6a2ca9",
+      "size": 3255444,
+      "format": "tar.xz",
+      "binaries": {
+        "minidump-stackwalk": {
+          "path": "minidump-stackwalk-aarch64-apple-darwin/minidump-stackwalk",
+          "sha256": "a66bfb752f3ed0b37d5c4a395588eff21125ec24ccea9434c4931af24c949012"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-minidump/rust-minidump/releases/download/v0.27.0/minidump-stackwalk-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.27.0",
+      "sha256": "f6f2d7f1665843c4a270cd13fcd1458fed3b19013ea5dd909e12bc3599b959f4",
+      "size": 4779081,
+      "format": "zip",
+      "binaries": {
+        "minidump-stackwalk.exe": {
+          "path": "minidump-stackwalk.exe",
+          "sha256": "4f315e9d47d872879084b14968e97f6e0c162e700b60d02c10d3bf90bb5dd12e"
+        }
+      }
+    }
+  }
+}
