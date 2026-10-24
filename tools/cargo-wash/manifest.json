@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-wash",
+  "version": "1.8.1",
+  "repository": "bircni/cargo-wash",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bircni/cargo-wash/releases/download/1.8.1/cargo-wash-1.8.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.8.1",
+      "sha256": "22340fd33c3f74a52fe8a20228623cac9394a8a8bf9fd466f26f6aea055a900a",
+      "size": 740921,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-wash": {
+          "path": "cargo-wash",
+          "sha256": "a4cbbc28d60115d625a449fc4108eafb89a3570d90ea827bafe692cc4bb8a073"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bircni/cargo-wash/releases/download/1.8.1/cargo-wash-1.8.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.8.1",
+      "sha256": "22168b296f3b7f8a25c7029b5f2c8deaf4c790ec0d997789ec65f8943ffdcc2c",
+      "size": 660119,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-wash": {
+          "path": "cargo-wash",
+          "sha256": "2ffc5283312c98f8f0d4e5ae3fc990f13ccb809950355b7315fdf6f644f1a322"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bircni/cargo-wash/releases/download/1.8.1/cargo-wash-1.8.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.8.1",
+      "sha256": "7eccc84104b79b38508661ea1beec65a064f642af04321ae71831be7388ab93f",
+      "size": 580892,
+      "format": "zip",
+      "binaries": {
+        "cargo-wash.exe": {
+          "path": "cargo-wash.exe",
+          "sha256": "b0577fda318a6932e4dd9bf8b49d84668f078724cd86e5f32884eaa007aee766"
+        }
+      }
+    }
+  }
+}
