@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "tlrc",
+  "version": "1.13.1",
+  "repository": "tldr-pages/tlrc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tldr-pages/tlrc/releases/download/v1.13.1/tlrc-v1.13.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.13.1",
+      "sha256": "e63b80e180b956ae2114c39d7fb10e607ffaa46b6d8c370d90868389a228584d",
+      "size": 1533200,
+      "format": "tar.gz",
+      "binaries": {
+        "tldr": {
+          "path": "tldr",
+          "sha256": "6cb0db7e7a95dce06eb19de9efdc21baf2260d3a7f6b159e15a3c70436d4d685"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tldr-pages/tlrc/releases/download/v1.13.1/tlrc-v1.13.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.13.1",
+      "sha256": "f2e52e567d22301ea926095eef97daefe2a60c2bea6222ecc27136a9c338e9f7",
+      "size": 1434600,
+      "format": "tar.gz",
+      "binaries": {
+        "tldr": {
+          "path": "tldr",
+          "sha256": "c0785bf1e13ed561ff23cff4d7868772a223efa15673bd5a764ed40a56353076"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tldr-pages/tlrc/releases/download/v1.13.1/tlrc-v1.13.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.13.1",
+      "sha256": "2db4a3c772ae30243cd6bb4231cc43eff005d311618666af91e49662310b8e8b",
+      "size": 1385960,
+      "format": "tar.gz",
+      "binaries": {
+        "tldr": {
+          "path": "tldr",
+          "sha256": "5cea75bd3004a56178c96ba5be449ded9c33692ac70f8eaadac291cba2df7da8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tldr-pages/tlrc/releases/download/v1.13.1/tlrc-v1.13.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.13.1",
+      "sha256": "7dd8c585da66c9977ecff5d50a93c4c77a946322668b7ab2e0082dd07d11eddf",
+      "size": 1244009,
+      "format": "tar.gz",
+      "binaries": {
+        "tldr": {
+          "path": "tldr",
+          "sha256": "e3b61e368ce8ff00879d1a82351b6aa04d98ef4aa30d087b5ceee487c6a882c1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tldr-pages/tlrc/releases/download/v1.13.1/tlrc-v1.13.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.13.1",
+      "sha256": "8b85477c935365008214be7a5fd319c56855175ff0c4e8cc2d01fa94accdd210",
+      "size": 1278261,
+      "format": "zip",
+      "binaries": {
+        "tldr.exe": {
+          "path": "tldr.exe",
+          "sha256": "ee85efddcae88fdd4e4f778b0a0aa7efb09e88835ca437acec81202f46ec21ce"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/tldr-pages/tlrc/releases/download/v1.13.1/tlrc-v1.13.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.13.1",
+      "sha256": "67dbb87db89fc0b862702192d37bb1d9272e395ab258d900262ca3978206770f",
+      "size": 1203277,
+      "format": "zip",
+      "binaries": {
+        "tldr.exe": {
+          "path": "tldr.exe",
+          "sha256": "8f03e00a4ef81369cfbfb83ed5fda859e5cfdf5e60d61881caf0cbc11094f035"
+        }
+      }
+    }
+  }
+}
