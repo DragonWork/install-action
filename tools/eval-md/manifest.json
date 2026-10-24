@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "eval-md",
+  "version": "1.1.0",
+  "repository": "yitsushi/eval-md",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yitsushi/eval-md/releases/download/v1.1.0/eval-md-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.1.0",
+      "sha256": "a21d7c70873f21053c90b23da845b7e06a1070308febfeeab365fa6d1a6e6789",
+      "size": 785728,
+      "format": "tar.xz",
+      "binaries": {
+        "eval-md": {
+          "path": "eval-md-x86_64-unknown-linux-gnu/eval-md",
+          "sha256": "440dbca36bd51d66c958279ddf37caee5feb67e58b2ab12e3bbb8dcb3d095174"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yitsushi/eval-md/releases/download/v1.1.0/eval-md-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.1.0",
+      "sha256": "17bb96a0cb4375f322dcab197666f8e8c2e9d48aafab21c4749e30b8f6545db8",
+      "size": 366216,
+      "format": "tar.xz",
+      "binaries": {
+        "eval-md": {
+          "path": "eval-md-x86_64-apple-darwin/eval-md",
+          "sha256": "71daa5cdae4a2f2bec486ee349e851a81acad5fc12cd4bbdbde0b6509c1d6aa1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yitsushi/eval-md/releases/download/v1.1.0/eval-md-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.1.0",
+      "sha256": "9f8fc6836859b8a6d6df6d7db759105680c5377b88f73c66e9b6f9a20b26b045",
+      "size": 342168,
+      "format": "tar.xz",
+      "binaries": {
+        "eval-md": {
+          "path": "eval-md-aarch64-apple-darwin/eval-md",
+          "sha256": "bcce783f4bc6ed74886b78180b1f367c5b11821a6729feb039c8eae558bbce1f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yitsushi/eval-md/releases/download/v1.1.0/eval-md-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.0",
+      "sha256": "2d55b0fa8d0580904a58a471e02f19ce183239137c96495ce8b5d090b39ef25d",
+      "size": 1021473,
+      "format": "zip",
+      "binaries": {
+        "eval-md.exe": {
+          "path": "eval-md.exe",
+          "sha256": "37d4b0da447050b8fdb8bd0def500d11d3663a29567f6d91dda77aa6430dc832"
+        }
+      }
+    }
+  }
+}
