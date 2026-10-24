@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "biovault",
+  "version": "0.1.133",
+  "repository": "OpenMined/biovault",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/OpenMined/biovault/releases/download/v0.1.133/bv-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.133",
+      "sha256": "52cd9ffb9bbd2dc83424acbc5e8225a116e6da274a044d9a5db9816bf5b5da80",
+      "size": 9572667,
+      "format": "tar.gz",
+      "binaries": {
+        "bv": {
+          "path": "bv",
+          "sha256": "03a6773673f2ea968cfed21e96a51c3978dd486b4aa5f81290cb8b32b9351cb0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/OpenMined/biovault/releases/download/v0.1.133/bv-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.133",
+      "sha256": "a8e522e1843b8126229329365b243851caa518c9970a2227ca89481d9db53c4c",
+      "size": 9200693,
+      "format": "tar.gz",
+      "binaries": {
+        "bv": {
+          "path": "bv",
+          "sha256": "c1a74b3145518a017dcb272f0c0e3a8b8f6601b33b96d01d0e9f3f9436be54a4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/OpenMined/biovault/releases/download/v0.1.133/bv-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.133",
+      "sha256": "399f606b2558ec867796a401ccefcb800c1e9878b312acfff70f6c34b9fe5e08",
+      "size": 8822202,
+      "format": "tar.gz",
+      "binaries": {
+        "bv": {
+          "path": "bv",
+          "sha256": "987e057099c0c45cd162abd05cde9fcff5392090d82dcdec03f94a93abf730ec"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/OpenMined/biovault/releases/download/v0.1.133/bv-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.133",
+      "sha256": "e70cd95ecbbab5f3fc9453edde1a20971de97bd6c1d2852d1ef9d56778120277",
+      "size": 8366484,
+      "format": "tar.gz",
+      "binaries": {
+        "bv": {
+          "path": "bv",
+          "sha256": "90df46f128deccfc1cd6a58305864d7d9d1b52b60e3f1cc863cf54ed4d4dfb6e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/OpenMined/biovault/releases/download/v0.1.133/bv-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.133",
+      "sha256": "65ea0f242f195fd57e69a15a64d4b34e934828a7924feb28da7171c347d928af",
+      "size": 7863658,
+      "format": "zip",
+      "binaries": {
+        "bv.exe": {
+          "path": "bv.exe",
+          "sha256": "5c1a90cdff8a02e1f08ef13d595ffff34fb4afcf3a2423c9ad4047508ccd773d"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/OpenMined/biovault/releases/download/v0.1.133/bv-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.133",
+      "sha256": "3f95d5ce62156858197c9b12e348c3a9585af7c8869caee19a1e99ef24e5fa89",
+      "size": 7277682,
+      "format": "zip",
+      "binaries": {
+        "bv.exe": {
+          "path": "bv.exe",
+          "sha256": "f28462ef0f3caeaeb129116f9161507a828a1ca577a15447eb0573358a468d1f"
+        }
+      }
+    }
+  }
+}
