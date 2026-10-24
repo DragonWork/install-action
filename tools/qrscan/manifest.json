@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "qrscan",
+  "version": "0.1.9",
+  "repository": "sayanarijit/qrscan",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sayanarijit/qrscan/releases/download/v0.1.9/qrscan-0.1.9-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "ef5a778c9746fb96ff32778e8c5521f9330e8d71eb2d2e9325f1469e9c2a2f37",
+      "size": 1424015,
+      "format": "tar.gz",
+      "binaries": {
+        "qrscan": {
+          "path": "qrscan-0.1.9/qrscan",
+          "sha256": "5438a134ca02a982b60c9594909f0ac6b2866c8149e05ee43b9391d48a6988ef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sayanarijit/qrscan/releases/download/v0.1.9/qrscan-0.1.9-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "83e27a8731f17f8b91725435a406e6d165fded314db2b1231f7f39aaf802b782",
+      "size": 1336596,
+      "format": "tar.gz",
+      "binaries": {
+        "qrscan": {
+          "path": "qrscan-0.1.9/qrscan",
+          "sha256": "ab64d5786f3a186cd5fbbef29488b112c9888fff22d9435c3108c59353c048ca"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sayanarijit/qrscan/releases/download/v0.1.9/qrscan-0.1.9-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.9",
+      "sha256": "92c6f42490aa8b18d006dd40e76ce086bb335a8745ab13f824e0907cc01830f1",
+      "size": 1232937,
+      "format": "zip",
+      "binaries": {
+        "qrscan.exe": {
+          "path": "qrscan-0.1.9/qrscan.exe",
+          "sha256": "b0677791881a82c9fda27c071c5762edc875b8542744ab7e86f94fddbb4f1b2f"
+        }
+      }
+    }
+  }
+}
