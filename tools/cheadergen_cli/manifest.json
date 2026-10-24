@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cheadergen_cli",
+  "version": "0.3.3",
+  "repository": "LukeMathWalker/officina",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/cheadergen_cli-v0.3.3/cheadergen_cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "cheadergen_cli-v0.3.3",
+      "sha256": "b82cfa772a98af27567d6bd1f826bd5c065aec700f3ad671f35d09d206162db0",
+      "size": 3454212,
+      "format": "tar.xz",
+      "binaries": {
+        "cheadergen": {
+          "path": "cheadergen_cli-x86_64-unknown-linux-musl/cheadergen",
+          "sha256": "f19596742dfed7f672a086cbccf2a689fb36a0e71f4a8bf101a14764611d95d9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/cheadergen_cli-v0.3.3/cheadergen_cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "cheadergen_cli-v0.3.3",
+      "sha256": "f3edbdd56eaaa1ec9ff6d282bf42ab1491bbe46bc0d6dfc91a15a8d5ef618729",
+      "size": 3132896,
+      "format": "tar.xz",
+      "binaries": {
+        "cheadergen": {
+          "path": "cheadergen_cli-x86_64-apple-darwin/cheadergen",
+          "sha256": "b00caf5f0691ea14ca5633539a7406628209abe3ae69939a41785d829d92cefa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/cheadergen_cli-v0.3.3/cheadergen_cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "cheadergen_cli-v0.3.3",
+      "sha256": "9220a5e3205a517a8a6ecbab7adb81659ca5a494c0b6c9c745eade18877e9eb8",
+      "size": 2739328,
+      "format": "tar.xz",
+      "binaries": {
+        "cheadergen": {
+          "path": "cheadergen_cli-aarch64-apple-darwin/cheadergen",
+          "sha256": "63823ac6b9f132554b1c4a2546e30d967d3055b035b4f41e8937f2d70175671c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/cheadergen_cli-v0.3.3/cheadergen_cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "cheadergen_cli-v0.3.3",
+      "sha256": "f6dd1898bb897704e90ef74ef5a0b79d915966fd78ab82a944ee86c4951479eb",
+      "size": 4345099,
+      "format": "zip",
+      "binaries": {
+        "cheadergen.exe": {
+          "path": "cheadergen.exe",
+          "sha256": "66a73e03255e40eee794d40f0dd54bfde747eca46ff7c5fb9c7f34b03ded5517"
+        }
+      }
+    }
+  }
+}
