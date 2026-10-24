@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mbn-cli",
+  "version": "1.0.0",
+  "repository": "NichtsHsu/mbn-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/NichtsHsu/mbn-rs/releases/download/v1.0.0/mbn-cli-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "4691c57f8026218f3b5ef70d5be860b45adee3ae0edafa023d303b2defb0f83b",
+      "size": 598659,
+      "format": "tar.gz",
+      "binaries": {
+        "mbn-cli": {
+          "path": "mbn-cli",
+          "sha256": "e5b3baff8bbe01c1f5475214ce42551c4318b137b47283b8aa3c863f80d54544"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/NichtsHsu/mbn-rs/releases/download/v1.0.0/mbn-cli-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "3af2c55240d0e8b067e85fdd6f876b097f0160617906fb8c0eec010a0a48b9e7",
+      "size": 602757,
+      "format": "tar.gz",
+      "binaries": {
+        "mbn-cli": {
+          "path": "mbn-cli",
+          "sha256": "2082497404fc4e6e767f76847b88414b7e94793e0146bf7eda1dd18230baecbe"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/NichtsHsu/mbn-rs/releases/download/v1.0.0/mbn-cli-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "c80cad8591431683d39a29eebaea1ffe49c7bb4975c804d914c3f92c7e034a36",
+      "size": 566094,
+      "format": "tar.gz",
+      "binaries": {
+        "mbn-cli": {
+          "path": "mbn-cli",
+          "sha256": "680bb3a8865a4c66acc79b1d12d3486c06cead1012fe1b97c455ac862dcc011c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/NichtsHsu/mbn-rs/releases/download/v1.0.0/mbn-cli-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "b9993b26bca8bc95a216867337ea9ac7cf7a1a934d378a959fb197407889d77c",
+      "size": 548711,
+      "format": "tar.gz",
+      "binaries": {
+        "mbn-cli": {
+          "path": "mbn-cli",
+          "sha256": "7e87823f75f43eb6c90ea7c493116f8794666b849aae116c7ef4e6f28b7d4504"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/NichtsHsu/mbn-rs/releases/download/v1.0.0/mbn-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "94e786a7d6375fec77973ffeb77910eb75adb97c9bf42a36025852fcb2e81852",
+      "size": 420032,
+      "format": "zip",
+      "binaries": {
+        "mbn-cli.exe": {
+          "path": "mbn-cli.exe",
+          "sha256": "3cba30858816b8e79e50a427ce00a236be4ce87bc1ab3b020147e04b8e38ccdb"
+        }
+      }
+    }
+  }
+}
