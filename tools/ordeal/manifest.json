@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ordeal",
+  "version": "0.34.0",
+  "repository": "pulseengine/ordeal",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.34.0/ordeal-v0.34.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.34.0",
+      "sha256": "661bda7a080ea098ae35eac1f32b04f0993851c15c04aa4368297d46dbff764d",
+      "size": 476035,
+      "format": "tar.gz",
+      "binaries": {
+        "ordeal": {
+          "path": "./ordeal",
+          "sha256": "1f548f6d203fdcaf0e4b22070c5c3124d9d6ae9f545c0af54c804c5856da6f79"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.34.0/ordeal-v0.34.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.34.0",
+      "sha256": "02dd003172c797488ea052c9d87e67d77936f0ab399e2a6cb1bf7899797ec4a8",
+      "size": 482663,
+      "format": "tar.gz",
+      "binaries": {
+        "ordeal": {
+          "path": "./ordeal",
+          "sha256": "2e567cd6637832ad6b30cf6490d0370b23c0e0a2d833613af11df2403a7c91b0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.34.0/ordeal-v0.34.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.34.0",
+      "sha256": "1cbe0c627f2bac13188a10caf3327f2e0052b7ba309ee18d43ec3005961ae5a5",
+      "size": 420229,
+      "format": "tar.gz",
+      "binaries": {
+        "ordeal": {
+          "path": "./ordeal",
+          "sha256": "c0866e1da4936d5a2cb93b459f11f3c58f6abdac4769e6af103305efbfe7760a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.34.0/ordeal-v0.34.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.34.0",
+      "sha256": "f024eab5fbc9fe05d0dd42247be03977be9464c8f33d2c49759647fbf2dc5a89",
+      "size": 389796,
+      "format": "tar.gz",
+      "binaries": {
+        "ordeal": {
+          "path": "./ordeal",
+          "sha256": "093b7dd1bfefb47db44f3d2c48ba4eaa8b49ccddf89c76aa9a0b201be5e1b38e"
+        }
+      }
+    }
+  }
+}
