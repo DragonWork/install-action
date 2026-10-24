@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "linkle",
+  "version": "0.2.11",
+  "repository": "MegatonHammer/linkle",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MegatonHammer/linkle/releases/download/v0.2.11/linkle-refs.tags.v0.2.11-x86_64-unknown-linux-musl.zip",
+      "sha256": "18961ca4a42d3382449f2445b972503dbb022383a6d3b2c92eababb47fe9b757",
+      "size": 1851233,
+      "format": "zip",
+      "releaseTag": "v0.2.11",
+      "binaries": {
+        "linkle": {
+          "path": "linkle",
+          "sha256": "e43268530f908ee9df946b9ec82ae175f187b3ac84ed61f126887c70840a2d96"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MegatonHammer/linkle/releases/download/v0.2.11/linkle-refs.tags.v0.2.11-x86_64-apple-darwin.zip",
+      "sha256": "cc7b5eb147cc3445a00ffee8fe5c9d36dff41f5b786eedf76b1db38867c8c0d2",
+      "size": 883435,
+      "format": "zip",
+      "releaseTag": "v0.2.11",
+      "binaries": {
+        "linkle": {
+          "path": "linkle",
+          "sha256": "0d1e24348d681156e3cba5adfd18ae7b96e4430861bd73f6f8780a3e44216dc2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MegatonHammer/linkle/releases/download/v0.2.11/linkle-refs.tags.v0.2.11-x86_64-pc-windows-msvc.zip",
+      "sha256": "a0d49b95450b4b6416bd1a0895fec6fcf1e79c94219afab700c44ec5f36d3d1e",
+      "size": 651138,
+      "format": "zip",
+      "releaseTag": "v0.2.11",
+      "binaries": {
+        "linkle.exe": {
+          "path": "linkle.exe",
+          "sha256": "9e25a14eef5b70225054b2f693a665aa903f1a63e4c76493e6ae3b8d63b72a77"
+        }
+      }
+    }
+  }
+}
