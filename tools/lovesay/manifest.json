@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "lovesay",
+  "version": "1.0.8",
+  "repository": "dotzenith/lovesay.rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dotzenith/lovesay.rs/releases/download/v1.0.8/lovesay-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v1.0.8",
+      "sha256": "8c429cbc2b191ca2ea0fd4daa992f3b7f76a1835af7f603ab32f32f93aa87b91",
+      "size": 362672,
+      "format": "tar.xz",
+      "binaries": {
+        "lovesay": {
+          "path": "lovesay-x86_64-unknown-linux-musl/lovesay",
+          "sha256": "f5b00e60ae5d9741c376d71126d7d346da3df48e2df714c92465ee43c2c27cdb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dotzenith/lovesay.rs/releases/download/v1.0.8/lovesay-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.8",
+      "sha256": "9f60d688919568d8c866ebffc6832254f177a9af1c8a701fb6ce39f852acf08d",
+      "size": 276516,
+      "format": "tar.xz",
+      "binaries": {
+        "lovesay": {
+          "path": "lovesay-aarch64-unknown-linux-gnu/lovesay",
+          "sha256": "9e5bc25b385340630e90999602c6d50b3e5367133b4b5f9e076a661fe0226d1c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dotzenith/lovesay.rs/releases/download/v1.0.8/lovesay-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.8",
+      "sha256": "214cd3d1de41d3a72771ed7a8ed8736609e18eaf4451f134475278ce46321974",
+      "size": 304824,
+      "format": "tar.xz",
+      "binaries": {
+        "lovesay": {
+          "path": "lovesay-x86_64-apple-darwin/lovesay",
+          "sha256": "7725826df79769524f059bd7c2e6e0ce5a8f84953ad1109159d2a57a0c374cc8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dotzenith/lovesay.rs/releases/download/v1.0.8/lovesay-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.8",
+      "sha256": "ddc5985a958501f39a89720fec82673b92ec240d9c18fad47886b8da4f522712",
+      "size": 265048,
+      "format": "tar.xz",
+      "binaries": {
+        "lovesay": {
+          "path": "lovesay-aarch64-apple-darwin/lovesay",
+          "sha256": "464ba009ab83c8f25162cb1a9faf728df885205bf7d4a962ea374751187858f0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dotzenith/lovesay.rs/releases/download/v1.0.8/lovesay-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.8",
+      "sha256": "fa1c40a8db60aca94c9b2a38ba0251a4c79f26fcaf8075cd2b359dc31cbd98f0",
+      "size": 328823,
+      "format": "zip",
+      "binaries": {
+        "lovesay.exe": {
+          "path": "lovesay.exe",
+          "sha256": "af17ff22ed0678d2be2c79b6bfcd92c2a599fdc6f8626e815a4bb459426ab756"
+        }
+      }
+    }
+  }
+}
