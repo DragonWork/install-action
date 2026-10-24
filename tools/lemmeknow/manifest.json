@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "lemmeknow",
+  "version": "0.8.0",
+  "repository": "swanandx/lemmeknow",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/swanandx/lemmeknow/releases/download/v0.8.0/lemmeknow-linux",
+      "sha256": "f6d6943780fb328b13847a367b0f8aee8077dfb1993c9cde7f04911bd9469a9f",
+      "size": 2456328,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "lemmeknow": {
+          "path": "lemmeknow-linux",
+          "sha256": "f6d6943780fb328b13847a367b0f8aee8077dfb1993c9cde7f04911bd9469a9f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/swanandx/lemmeknow/releases/download/v0.8.0/lemmeknow-macos",
+      "sha256": "bb7f86e8689766d763d5656115d433f487c6f99e2e6b4c1f7f66af9fc6b2071d",
+      "size": 2077472,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "lemmeknow": {
+          "path": "lemmeknow-macos",
+          "sha256": "bb7f86e8689766d763d5656115d433f487c6f99e2e6b4c1f7f66af9fc6b2071d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/swanandx/lemmeknow/releases/download/v0.8.0/lemmeknow-windows.exe",
+      "sha256": "6983af87d102bfe6fb00ed67ee64e7968908cb3242f8dee9e2eb981c297e6c66",
+      "size": 1963520,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "lemmeknow.exe": {
+          "path": "lemmeknow-windows.exe",
+          "sha256": "6983af87d102bfe6fb00ed67ee64e7968908cb3242f8dee9e2eb981c297e6c66"
+        }
+      }
+    }
+  }
+}
