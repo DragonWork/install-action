@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "name": "intspan",
+  "version": "0.8.7",
+  "repository": "wang-q/intspan",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wang-q/intspan/releases/download/v0.8.7/intspan-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.7",
+      "sha256": "13ccb37a62daf35751ff26acfdadd4f130c5201f183cd6fade712f065d8ca786",
+      "size": 4200469,
+      "format": "tar.gz",
+      "binaries": {
+        "linkr": {
+          "path": "linkr",
+          "sha256": "ef1077945f05165ded2c2e5cb1421b8fb38b29729ad776cdcdf5faf2002110c4"
+        },
+        "rgr": {
+          "path": "rgr",
+          "sha256": "2cb3dd44e1b962569af825da7720d456da83c0d6c8b3a17b92f2bfe979b7b3ee"
+        },
+        "spanr": {
+          "path": "spanr",
+          "sha256": "3a5d3899d2b8f9af62ef29b481af6853553259aff9507fcc931ad1cd54b7ab7f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wang-q/intspan/releases/download/v0.8.7/intspan-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.7",
+      "sha256": "cfdc34f142b3ed4578bdac2f7db254c5eb63a776f620c68ab9a4b70a20c91ce9",
+      "size": 3502751,
+      "format": "tar.gz",
+      "binaries": {
+        "linkr": {
+          "path": "linkr",
+          "sha256": "cce7a8c1bb33b82d286f13c276a364daf65f976df8b351a501f1039fa799c786"
+        },
+        "rgr": {
+          "path": "rgr",
+          "sha256": "74d55bcc40443ae375e1bd891c3b63914a5b446c38591787978e926e19c874ea"
+        },
+        "spanr": {
+          "path": "spanr",
+          "sha256": "ea554295992d2eb9c1ff238789a55615ecf61300584f4d2e43b2bc7c9eb73844"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wang-q/intspan/releases/download/v0.8.7/intspan-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.7",
+      "sha256": "8cf1c9cd126950885d9fda9a5662a17bca46a95f17805f11fb3f01e1f4c18ed9",
+      "size": 3697977,
+      "format": "zip",
+      "binaries": {
+        "linkr.exe": {
+          "path": "linkr.exe",
+          "sha256": "a4ac6538a32526487b8f8268a8abb2092687772512924b79a3beb75860004d51"
+        },
+        "rgr.exe": {
+          "path": "rgr.exe",
+          "sha256": "8e6842a6cf52e6b9c753f2e921b36223a81dfe832a7ea6ba9eacef0561323707"
+        },
+        "spanr.exe": {
+          "path": "spanr.exe",
+          "sha256": "ca0eeb72cf6ec3d56bdce7ef962e33fd1aa996418781b39e94e872e7aba9e972"
+        }
+      }
+    }
+  }
+}
