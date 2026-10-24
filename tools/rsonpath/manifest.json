@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rsonpath",
+  "version": "0.10.1",
+  "repository": "rsonquery/rsonpath",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/rsonquery/rsonpath/releases/download/v0.10.1/rq-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.10.1",
+      "sha256": "6e474cb71bfa7d3167d546350a93a36948d5242d971def2067628f1a59fb0b26",
+      "size": 4484096,
+      "format": "binary",
+      "binaries": {
+        "rq.exe": {
+          "path": "rq-x86_64-pc-windows-msvc.exe",
+          "sha256": "6e474cb71bfa7d3167d546350a93a36948d5242d971def2067628f1a59fb0b26"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/rsonquery/rsonpath/releases/download/v0.10.1/rq-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.10.1",
+      "sha256": "1378a572e55a781ed27c59b06edf8e59d8ea165855fb3c296caa0b4d6c5a577a",
+      "size": 1844224,
+      "format": "binary",
+      "binaries": {
+        "rq.exe": {
+          "path": "rq-aarch64-pc-windows-msvc.exe",
+          "sha256": "1378a572e55a781ed27c59b06edf8e59d8ea165855fb3c296caa0b4d6c5a577a"
+        }
+      }
+    }
+  }
+}
