@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "pgxn_meta",
+  "version": "0.7.0",
+  "repository": "pgxn/meta",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pgxn/meta/releases/download/v0.7.0/pgxn_meta-v0.7.0-linux-amd64.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "5588aee7620cafeaf62df06acccae96b1b065164461c02d4e5950dce71ed0dd7",
+      "size": 950746,
+      "format": "tar.gz",
+      "binaries": {
+        "pgxn_meta": {
+          "path": "pgxn_meta-v0.7.0-linux-amd64/pgxn_meta",
+          "sha256": "5aa1578e3ba9684a54d805738e742754ceeca7b34be114b5d22896a8b8ddd736"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pgxn/meta/releases/download/v0.7.0/pgxn_meta-v0.7.0-linux-arm64.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "ca7182fc1701f85a18e8a73957964ed9be6ed60c9295a6371e3c93a019c7b83f",
+      "size": 866912,
+      "format": "tar.gz",
+      "binaries": {
+        "pgxn_meta": {
+          "path": "pgxn_meta-v0.7.0-linux-arm64/pgxn_meta",
+          "sha256": "ed8ab41fa8298f2e57811d0331ea9f6df501d7f0c9faa42efdf2d496d6404e2b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pgxn/meta/releases/download/v0.7.0/pgxn_meta-v0.7.0-darwin-amd64.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "0f25e6e9b2e7c395de69775a8f27f7d8d84d7e2e099f7aab41a3404f01946664",
+      "size": 807613,
+      "format": "tar.gz",
+      "binaries": {
+        "pgxn_meta": {
+          "path": "pgxn_meta-v0.7.0-darwin-amd64/pgxn_meta",
+          "sha256": "ecaac04bf2d251e76b2ffb30a290d4abef37c9a5d96e84d8b3817346c8c87da1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pgxn/meta/releases/download/v0.7.0/pgxn_meta-v0.7.0-darwin-arm64.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "e5f827badb1d2bfa148cb6bd5136315815a347812ea71830c8f6c521450eb1da",
+      "size": 769943,
+      "format": "tar.gz",
+      "binaries": {
+        "pgxn_meta": {
+          "path": "pgxn_meta-v0.7.0-darwin-arm64/pgxn_meta",
+          "sha256": "d689a24f77422f107c8d75227b8ab464a9145d045c66835926c6fc6a094512cf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pgxn/meta/releases/download/v0.7.0/pgxn_meta-v0.7.0-windows-amd64.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "fdc0471a681cc348d1c1912e8b752fef40ac8f8e5709ec7775f76dacb4324946",
+      "size": 712694,
+      "format": "zip",
+      "binaries": {
+        "pgxn_meta.exe": {
+          "path": "pgxn_meta-v0.7.0-windows-amd64/pgxn_meta.exe",
+          "sha256": "ae42891704932a773af4952ccc2891c726aff1bf720f710eee0b5a8d504fc127"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/pgxn/meta/releases/download/v0.7.0/pgxn_meta-v0.7.0-windows-arm64.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "95b1a5331d603ab1e0bd21bab4b2544702196693970e2513c7d9449580a7527f",
+      "size": 665864,
+      "format": "zip",
+      "binaries": {
+        "pgxn_meta.exe": {
+          "path": "pgxn_meta-v0.7.0-windows-arm64/pgxn_meta.exe",
+          "sha256": "e5b7f792a24e90b73d2cdfcba7618265bb24868fe3dde7aa8ca3774d8cceedb7"
+        }
+      }
+    }
+  }
+}
