@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tui-banner",
+  "version": "0.2.0",
+  "repository": "coolbeevip/tui-banner",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/coolbeevip/tui-banner/releases/download/v0.2.0/tui-banner-v0.2.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "18e22286d9df7b91da274f11ea59afbff17fefca95308b69771feca9378fa9af",
+      "size": 293480,
+      "format": "tar.gz",
+      "binaries": {
+        "tui-banner": {
+          "path": "tui-banner-v0.2.0-x86_64-unknown-linux-gnu/tui-banner",
+          "sha256": "555057a844d78c0bc7f6492a7798315888e21c5a9f31ae5b27516a9b57443210"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/coolbeevip/tui-banner/releases/download/v0.2.0/tui-banner-v0.2.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "aa4b70c3129daeb2e661adb22e5658552f80bbbd0956e808528ddf9f54d10c57",
+      "size": 285766,
+      "format": "tar.gz",
+      "binaries": {
+        "tui-banner": {
+          "path": "tui-banner-v0.2.0-aarch64-unknown-linux-gnu/tui-banner",
+          "sha256": "feb0b1c03fb728d26b581ca036c3e457b895dfffe0b2fe6c99aad36208c321db"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/coolbeevip/tui-banner/releases/download/v0.2.0/tui-banner-v0.2.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "7728b012a1ad26e8d32a836de9797f008aa2d9130a4de04f7e6369cd407e05ba",
+      "size": 268437,
+      "format": "tar.gz",
+      "binaries": {
+        "tui-banner": {
+          "path": "tui-banner-v0.2.0-aarch64-apple-darwin/tui-banner",
+          "sha256": "2672a4a7340f5480cbdb88a5e4a0c5c9cdc3fef0b16da1e072c414d7db6e7b84"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/coolbeevip/tui-banner/releases/download/v0.2.0/tui-banner-v0.2.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "8ee6f13f8acb8264691c96824c99abb512a9fb8682deab452c9e58315e85a11f",
+      "size": 156880,
+      "format": "zip",
+      "binaries": {
+        "tui-banner.exe": {
+          "path": "tui-banner.exe",
+          "sha256": "ee50bf021b7be3d4570b3557cfe1c77b7fb4ce273c7b4fcb4bbfba7436672223"
+        }
+      }
+    }
+  }
+}
