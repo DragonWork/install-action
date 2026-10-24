@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "filterx",
+  "version": "0.4.1",
+  "repository": "dwpeng/filterx",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/dwpeng/filterx/releases/download/0.4.1/filterx-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.4.1",
+      "sha256": "36dc62d32adb507f6353ce4e554f2d693c92e331ec88a2da7488ae8f7c944ea1",
+      "size": 5316656,
+      "format": "tar.xz",
+      "binaries": {
+        "filterx": {
+          "path": "filterx-x86_64-apple-darwin/filterx",
+          "sha256": "1dc650984cb6747f2fb7eb46015d77e5121b88215bc0dd25cd330c062a5735d5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dwpeng/filterx/releases/download/0.4.1/filterx-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.4.1",
+      "sha256": "2c67c1fbf4019d63ae8adedb51db2477a0f2097751205505c3447248572e61e7",
+      "size": 5182116,
+      "format": "tar.xz",
+      "binaries": {
+        "filterx": {
+          "path": "filterx-aarch64-apple-darwin/filterx",
+          "sha256": "eb0b9035e4b5aa0f47a94207361cf404de77b64139c47e8fd6bb0d7f8369ec5e"
+        }
+      }
+    }
+  }
+}
