@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "endbasic",
+  "version": "0.14.1",
+  "repository": "endbasic/endbasic",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/endbasic/endbasic/releases/download/endbasic-0.14.1/endbasic-0.14.1-linux-x86_64-sdl.zip",
+      "releaseTag": "endbasic-0.14.1",
+      "sha256": "b0c67bd04e7f0333ebb2fbb7c4c8ba37459e1e1b5d62ab62667082d5954b2e79",
+      "size": 2845358,
+      "format": "zip",
+      "binaries": {
+        "endbasic": {
+          "path": "endbasic-0.14.1-linux-x86_64-sdl/endbasic",
+          "sha256": "366695f25a78155c1a243e31153f3845c9da1bd9f085831d02d8eef6ad323ab4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/endbasic/endbasic/releases/download/endbasic-0.14.1/endbasic-0.14.1-linux-aarch64-rpi-sdl.zip",
+      "releaseTag": "endbasic-0.14.1",
+      "sha256": "65ba85ec8a9af9229f9e1554b534e44c3a10d434fdf414d73c8ca73f5313b359",
+      "size": 3659083,
+      "format": "zip",
+      "binaries": {
+        "endbasic": {
+          "path": "endbasic-0.14.1-linux-aarch64-rpi-sdl/endbasic",
+          "sha256": "0e9fbd5091af9d9a3268db2b7066b9270e211d027d0293f2cec14a72f99d2efd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/endbasic/endbasic/releases/download/endbasic-0.14.1/endbasic-0.14.1-macos-arm64-sdl.zip",
+      "releaseTag": "endbasic-0.14.1",
+      "sha256": "213227ade9110240f60878993ce44439f3ba82a7ac38f24662e6542bc5fa5044",
+      "size": 4840993,
+      "format": "zip",
+      "binaries": {
+        "endbasic": {
+          "path": "endbasic-0.14.1-macos-arm64-sdl/endbasic",
+          "sha256": "09029d07148d09ee6dab7e152d1507b3a47fbeb2315dc5a7fe069fdd85054be7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/endbasic/endbasic/releases/download/endbasic-0.14.1/endbasic-0.14.1-windows-x86_64-sdl.zip",
+      "releaseTag": "endbasic-0.14.1",
+      "sha256": "df66351c7765f4512fb9842186a2c53ab05cb16ad0440c07d1b486aae47d4d4b",
+      "size": 3162808,
+      "format": "zip",
+      "binaries": {
+        "endbasic.exe": {
+          "path": "endbasic-0.14.1-windows-x86_64-sdl/endbasic.exe",
+          "sha256": "632592080803bc7ba5d379b172dc551813ba0a6ba6e1d303c8e293cc18cbb52f"
+        }
+      }
+    }
+  }
+}
