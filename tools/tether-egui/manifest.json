@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tether-egui",
+  "version": "0.10.5",
+  "repository": "RandomStudio/tether-egui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RandomStudio/tether-egui/releases/download/v0.10.5/tether-egui-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.10.5",
+      "sha256": "c6d6066eec92e2873d753f8d4fbf016b6ec3e6bdaa8d3008be5fb8885c41e144",
+      "size": 5165080,
+      "format": "tar.xz",
+      "binaries": {
+        "tether-egui": {
+          "path": "tether-egui-x86_64-unknown-linux-gnu/tether-egui",
+          "sha256": "cb970beda5a3dba37ffacd697992745b48985e5f3035baadd7971690a5eace84"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/RandomStudio/tether-egui/releases/download/v0.10.5/tether-egui-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.5",
+      "sha256": "bebd9c040e40245d270bcde8f5b405d437367763ab3bba1d575b26c6ebcac830",
+      "size": 3331028,
+      "format": "tar.xz",
+      "binaries": {
+        "tether-egui": {
+          "path": "tether-egui-x86_64-apple-darwin/tether-egui",
+          "sha256": "74348af77a7ebd43ee65cc4fa919491d3e5dc4b5e7a47151f9dab04b869c3ffc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/RandomStudio/tether-egui/releases/download/v0.10.5/tether-egui-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.5",
+      "sha256": "65a6d9912cc09828448692b26d97cb8cc0bb394f5a1f539bd6fac832be38ad95",
+      "size": 3071508,
+      "format": "tar.xz",
+      "binaries": {
+        "tether-egui": {
+          "path": "tether-egui-aarch64-apple-darwin/tether-egui",
+          "sha256": "c243019e7ab8d7c308056f06039532e6cdd73419db059bdd18ac148ce7ac7059"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RandomStudio/tether-egui/releases/download/v0.10.5/tether-egui-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.5",
+      "sha256": "462925fed79b30348ccc12918fa729de33b4673922b98363d9cee1316e20ed39",
+      "size": 10007527,
+      "format": "zip",
+      "binaries": {
+        "tether-egui.exe": {
+          "path": "tether-egui.exe",
+          "sha256": "23650691e0a6e19b9dcf0333e0ee660d11d0d585854a43791de1ae002f28c9ca"
+        }
+      }
+    }
+  }
+}
