@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "hive-router",
+  "version": "0.3.5",
+  "repository": "graphql-hive/router",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/graphql-hive/router/releases/download/hive-router/v0.3.5/hive_router_linux_amd64",
+      "sha256": "15ce74ef4dcc9541b0f3945184b4884c84744cd1eea4c40fe7084c442a79186a",
+      "size": 70281784,
+      "format": "binary",
+      "releaseTag": "hive-router/v0.3.5",
+      "binaries": {
+        "hive_router": {
+          "path": "hive_router_linux_amd64",
+          "sha256": "15ce74ef4dcc9541b0f3945184b4884c84744cd1eea4c40fe7084c442a79186a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/graphql-hive/router/releases/download/hive-router/v0.3.5/hive_router_linux_arm64",
+      "sha256": "2d368489c4a040b1f3757b96ec0762bfe73c408565358ca955da99fef3b587ff",
+      "size": 63574640,
+      "format": "binary",
+      "releaseTag": "hive-router/v0.3.5",
+      "binaries": {
+        "hive_router": {
+          "path": "hive_router_linux_arm64",
+          "sha256": "2d368489c4a040b1f3757b96ec0762bfe73c408565358ca955da99fef3b587ff"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/graphql-hive/router/releases/download/hive-router/v0.3.5/hive_router_macos_amd64",
+      "sha256": "c36fbefa6fdc3c1ee4195ef0246e23e6cd495d3bd9e37a423bbd65ae6d117522",
+      "size": 75101584,
+      "format": "binary",
+      "releaseTag": "hive-router/v0.3.5",
+      "binaries": {
+        "hive_router": {
+          "path": "hive_router_macos_amd64",
+          "sha256": "c36fbefa6fdc3c1ee4195ef0246e23e6cd495d3bd9e37a423bbd65ae6d117522"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/graphql-hive/router/releases/download/hive-router/v0.3.5/hive_router_macos_arm64",
+      "sha256": "2958a59ae20ef81323651290dff1e5e22fe6107ba068d4fba40c8100cc906c44",
+      "size": 70088832,
+      "format": "binary",
+      "releaseTag": "hive-router/v0.3.5",
+      "binaries": {
+        "hive_router": {
+          "path": "hive_router_macos_arm64",
+          "sha256": "2958a59ae20ef81323651290dff1e5e22fe6107ba068d4fba40c8100cc906c44"
+        }
+      }
+    }
+  }
+}
