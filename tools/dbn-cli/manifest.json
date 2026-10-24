@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dbn-cli",
+  "version": "0.72.0",
+  "repository": "databento/dbn",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/databento/dbn/releases/download/v0.72.0/dbn-0.72.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.72.0",
+      "sha256": "c9710f4a86a5ef874730eed9fc0a5d3374d89f3cf4d5a59f2f9cc2953295f4aa",
+      "size": 1491135,
+      "format": "tar.gz",
+      "binaries": {
+        "dbn": {
+          "path": "dbn-0.72.0-x86_64-unknown-linux-musl/dbn",
+          "sha256": "c507ba65f99a677ebdbe123386415aa1d09af601bb5ee42e0f2f29e888a06397"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/databento/dbn/releases/download/v0.72.0/dbn-0.72.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.72.0",
+      "sha256": "bbf405c5bf7e434b7fac2cb3f675d82e9d12a596d6d88ded43c47c6e0ad02b0d",
+      "size": 1412440,
+      "format": "tar.gz",
+      "binaries": {
+        "dbn": {
+          "path": "dbn-0.72.0-aarch64-unknown-linux-musl/dbn",
+          "sha256": "70ee750c4066bda50f0351f019e45bb50c4f62a88403d546325504911737ec08"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/databento/dbn/releases/download/v0.72.0/dbn-0.72.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.72.0",
+      "sha256": "8e46baf4074c5eba22c70fd005d9d2877d344cad07685e409b5a5037ba9033d4",
+      "size": 929399,
+      "format": "zip",
+      "binaries": {
+        "dbn.exe": {
+          "path": "dbn-0.72.0-aarch64-pc-windows-msvc/dbn.exe",
+          "sha256": "c8777d93c71b077c71c67cb0ef07e0bbeca36eaeb9fcbcb6e6411e4a8fb8e4d0"
+        }
+      }
+    }
+  }
+}
