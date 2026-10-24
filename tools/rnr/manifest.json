@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rnr",
+  "version": "0.5.1",
+  "repository": "ismaelgv/rnr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ismaelgv/rnr/releases/download/v0.5.1/rnr-v0.5.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "a5be544fcb9f3f28c86d7f74a23807511303d4d28a29b20a8a9c1547ba165588",
+      "size": 1764861,
+      "format": "tar.gz",
+      "binaries": {
+        "rnr": {
+          "path": "rnr-v0.5.1-x86_64-unknown-linux-musl/rnr",
+          "sha256": "aa82a233103e1361af5beb0ae00ab09285db06911c0bc47e3fd801864cbe491f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ismaelgv/rnr/releases/download/v0.5.1/rnr-v0.5.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "afb0f150c393cde74f06f26853caeaaec49c4fea7a7f10c764d91643e886a23d",
+      "size": 1612114,
+      "format": "tar.gz",
+      "binaries": {
+        "rnr": {
+          "path": "rnr-v0.5.1-aarch64-unknown-linux-gnu/rnr",
+          "sha256": "6f3e96b1b3f6220c7038381ab1fdb8cab48d3ad3785b77e408b567590c78ca03"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ismaelgv/rnr/releases/download/v0.5.1/rnr-v0.5.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "22343cb69662d2455c0ee22184b187b528a142a634ca8e162afbde68b44e80cd",
+      "size": 1594701,
+      "format": "tar.gz",
+      "binaries": {
+        "rnr": {
+          "path": "rnr-v0.5.1-x86_64-apple-darwin/rnr",
+          "sha256": "15cdfe34bb97f5aa4bf87a78bb3d939330a1539f61042499feb9c7e58530aee2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ismaelgv/rnr/releases/download/v0.5.1/rnr-v0.5.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "667c5082a041d85a6b80b68473c7eb8cffe18a37224a79efc53fda7276302b0e",
+      "size": 1316195,
+      "format": "zip",
+      "binaries": {
+        "rnr.exe": {
+          "path": "rnr-v0.5.1-x86_64-pc-windows-msvc/rnr.exe",
+          "sha256": "bc5ff122c44654ce9bc33b3e91131b518c83199f97bb402db510fbfbf3d5e857"
+        }
+      }
+    }
+  }
+}
