@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "kdlfmt",
+  "version": "0.1.7",
+  "repository": "hougesen/kdlfmt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hougesen/kdlfmt/releases/download/v0.1.7/kdlfmt-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.1.7",
+      "sha256": "4ce87b6bdef4bd7925f62148f6f6189354ab7eaabe7f1e16894c6c529e8b4388",
+      "size": 1329996,
+      "format": "tar.xz",
+      "binaries": {
+        "kdlfmt": {
+          "path": "kdlfmt-x86_64-unknown-linux-musl/kdlfmt",
+          "sha256": "e52f0a1884fa8dc8f6657145419893675bf41d9ad30a4d906d00034bac8b3a77"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hougesen/kdlfmt/releases/download/v0.1.7/kdlfmt-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.7",
+      "sha256": "2ddbcc630e6a8d93b900fb5252b5182736064fc03f3876fbf8544b9d94f0fb70",
+      "size": 1127432,
+      "format": "tar.xz",
+      "binaries": {
+        "kdlfmt": {
+          "path": "kdlfmt-aarch64-unknown-linux-gnu/kdlfmt",
+          "sha256": "162f2b8f7b2ebf064f3b1fd9ae204ce34d538863cbe5bec1a7826caf701c06bc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hougesen/kdlfmt/releases/download/v0.1.7/kdlfmt-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.7",
+      "sha256": "5254b7b5e0f13c02929c9463d8cfbc195b06bca170611fac404e7c56bc03845f",
+      "size": 1214152,
+      "format": "tar.xz",
+      "binaries": {
+        "kdlfmt": {
+          "path": "kdlfmt-x86_64-apple-darwin/kdlfmt",
+          "sha256": "0f61bb7b76e526c2f5d6c358b5f3783404269c41f48d6349f450643a0c2deb8d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hougesen/kdlfmt/releases/download/v0.1.7/kdlfmt-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.7",
+      "sha256": "286170db398d3d2bb35eac0dc02d0585a56b05427b65ebb1a38835ab3a51663e",
+      "size": 1073420,
+      "format": "tar.xz",
+      "binaries": {
+        "kdlfmt": {
+          "path": "kdlfmt-aarch64-apple-darwin/kdlfmt",
+          "sha256": "3051095fee06df91ac2bff8b0733711ba4fe2626f4104d82b3ec6899dc7467e5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hougesen/kdlfmt/releases/download/v0.1.7/kdlfmt-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.7",
+      "sha256": "39137b98fc32c205a7fc7da98a809c61ac510565569befb5948348f2023b16a5",
+      "size": 1561438,
+      "format": "zip",
+      "binaries": {
+        "kdlfmt.exe": {
+          "path": "kdlfmt.exe",
+          "sha256": "ebfa5cf70a105035d8ffc3db4dfe6387c5e7eff09aee69709650c142221ee752"
+        }
+      }
+    }
+  }
+}
