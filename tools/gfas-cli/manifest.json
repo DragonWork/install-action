@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "gfas-cli",
+  "version": "0.9.14",
+  "repository": "Resonaa/gfas",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Resonaa/gfas/releases/download/v0.9.14/gfas-v0.9.14-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.14",
+      "sha256": "730a9f8032d65c34bea6d1e808040f582ca114867bdf1c67ae5ad55d7089a4a0",
+      "size": 2343765,
+      "format": "tar.gz",
+      "binaries": {
+        "gfas": {
+          "path": "gfas-v0.9.14-x86_64-unknown-linux-musl/gfas",
+          "sha256": "6b8c122dedc630772015ad2ac4f94996e3155fa3d7eb9e6059714a30bcb2637f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Resonaa/gfas/releases/download/v0.9.14/gfas-v0.9.14-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.9.14",
+      "sha256": "d17fb592a88cddf8de5eb73356ea789b06ed125d657c627c0aee6242c43cc5ec",
+      "size": 2120089,
+      "format": "tar.gz",
+      "binaries": {
+        "gfas": {
+          "path": "gfas-v0.9.14-aarch64-unknown-linux-gnu/gfas",
+          "sha256": "5075e018d72bddb56078fe74107280c0b218a94035b941829aa5cad045c82616"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Resonaa/gfas/releases/download/v0.9.14/gfas-v0.9.14-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.14",
+      "sha256": "5b4f4690cbbf12303faeefec9fd5779507d31018a485dd429d9c8119c9b861f2",
+      "size": 2128556,
+      "format": "tar.gz",
+      "binaries": {
+        "gfas": {
+          "path": "gfas-v0.9.14-x86_64-apple-darwin/gfas",
+          "sha256": "7c4a4a44b01b78af16e9aa146e3e359bfb7076bad397625cf9835af637e54cd2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Resonaa/gfas/releases/download/v0.9.14/gfas-v0.9.14-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.14",
+      "sha256": "06fbed0ee5d1c7c2b36754539d6f8e5a55f819fd33d6e643f6253470beb3c4f2",
+      "size": 1984762,
+      "format": "zip",
+      "binaries": {
+        "gfas.exe": {
+          "path": "gfas-v0.9.14-x86_64-pc-windows-msvc/gfas.exe",
+          "sha256": "f503472fa03e8fc489be4cf7617bcd0f1e9594c0e2e2f2b45548fce16a8c1fc5"
+        }
+      }
+    }
+  }
+}
