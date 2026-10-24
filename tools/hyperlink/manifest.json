@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "hyperlink",
+  "version": "0.3.2",
+  "repository": "untitaker/hyperlink",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/untitaker/hyperlink/releases/download/0.3.2/hyperlink-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.3.2",
+      "sha256": "6288d997456128908905074663b8494617798547a511185a2a9cd8b7d3e32af1",
+      "size": 570524,
+      "format": "tar.xz",
+      "binaries": {
+        "hyperlink": {
+          "path": "hyperlink-x86_64-unknown-linux-gnu/hyperlink",
+          "sha256": "1de538772a852d29d39a1dc388bff43afb5b52df040614117a25afafaac04b36"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/untitaker/hyperlink/releases/download/0.3.2/hyperlink-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.3.2",
+      "sha256": "a2ebc36b85248e6d4b6d2e8c93e7a6637509a3322cd2b7fa24d4cd803948fbaf",
+      "size": 526328,
+      "format": "tar.xz",
+      "binaries": {
+        "hyperlink": {
+          "path": "hyperlink-x86_64-apple-darwin/hyperlink",
+          "sha256": "98f82c84d930cbe66fcb32e8fd824b7bb7d6289fe3f5181689af0cfe160a1604"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/untitaker/hyperlink/releases/download/0.3.2/hyperlink-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.3.2",
+      "sha256": "f71302ed3a3b3d6da84fdb0ea6bc9da3f216434a534d52b95504c79205b7698b",
+      "size": 448492,
+      "format": "tar.xz",
+      "binaries": {
+        "hyperlink": {
+          "path": "hyperlink-aarch64-apple-darwin/hyperlink",
+          "sha256": "7b1435da663f162f4142eb0cbe04303d3ae9f07fd206e520915ebba85ed5fc73"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/untitaker/hyperlink/releases/download/0.3.2/hyperlink-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.3.2",
+      "sha256": "37cf5a4aa0fcad86d2fec7d6c288a0963691fe060517d30ebf332884f185436f",
+      "size": 674365,
+      "format": "zip",
+      "binaries": {
+        "hyperlink.exe": {
+          "path": "hyperlink.exe",
+          "sha256": "2a5bfe880138ea39fd7cba7849da0b12ace726bb384545b242ba213ec119aed1"
+        }
+      }
+    }
+  }
+}
