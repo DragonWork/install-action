@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "juxr",
+  "version": "0.1.22",
+  "repository": "cloudbees-oss/juxr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cloudbees-oss/juxr/releases/download/0.1.22/juxr-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.1.22",
+      "sha256": "24ae497eab65a402eb62e6aa189104e7f7195454a031768bdc73593347c91f57",
+      "size": 2234510,
+      "format": "tar.gz",
+      "binaries": {
+        "juxr": {
+          "path": "juxr",
+          "sha256": "219cbded10988632477e0c21ca290df45bba7de0c31ce48417f3466986878c62"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cloudbees-oss/juxr/releases/download/0.1.22/juxr-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.1.22",
+      "sha256": "27e958700f1bc8af870e6fa0127884e85a7363a23d93fbda77264ba20a10d402",
+      "size": 1113575,
+      "format": "zip",
+      "binaries": {
+        "juxr.exe": {
+          "path": "juxr.exe",
+          "sha256": "493d41992cd15726029456d619d10a0bd76e3cc3730c345f71559d78c5ee6703"
+        }
+      }
+    }
+  }
+}
