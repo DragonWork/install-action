@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "name": "forc-client",
+  "version": "0.71.6",
+  "repository": "FuelLabs/forc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-client-0.71.6/forc-client-0.71.6-linux_amd64.tar.gz",
+      "releaseTag": "forc-client-0.71.6",
+      "sha256": "af6a229f91b7d88375fa100644f921fec400f2959470ef03b29447adbabd2162",
+      "size": 63844557,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-call": {
+          "path": "forc-client-0.71.6-linux_amd64/forc-call",
+          "sha256": "3fac858e2971dbd60971552fdb084451bb674417eb41ebc01ce0fb7ec2c133f3"
+        },
+        "forc-deploy": {
+          "path": "forc-client-0.71.6-linux_amd64/forc-deploy",
+          "sha256": "f48782bacad35fbe1f1b8e380ae2bf9e8a4999df34fe462197369b5f8bb9158b"
+        },
+        "forc-run": {
+          "path": "forc-client-0.71.6-linux_amd64/forc-run",
+          "sha256": "779f774e918cb5a06560d109c92ddae338ad779ac4f9bfdd99eca8c8501c583b"
+        },
+        "forc-submit": {
+          "path": "forc-client-0.71.6-linux_amd64/forc-submit",
+          "sha256": "36442d4c61a229b85158ce7f68847ad9cde5480a9103c67829152c7c82dcc97c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-client-0.71.6/forc-client-0.71.6-linux_arm64.tar.gz",
+      "releaseTag": "forc-client-0.71.6",
+      "sha256": "ff0ec2626a1a2ecd5a3eecca5f896e925d88beba33e975d0a86aba84408fcbec",
+      "size": 60126183,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-call": {
+          "path": "forc-client-0.71.6-linux_arm64/forc-call",
+          "sha256": "bbef5d967cb05a019a16d8597f37628b9eba461020b10fe9887616fde45f4292"
+        },
+        "forc-deploy": {
+          "path": "forc-client-0.71.6-linux_arm64/forc-deploy",
+          "sha256": "1400acd4dc609dc0b0f5d2004b48c34def035d9389a87789a5019d66fd4c3f06"
+        },
+        "forc-run": {
+          "path": "forc-client-0.71.6-linux_arm64/forc-run",
+          "sha256": "bf51328eadb249140de29e1a903ef17909c5eb85d753ccf62ae754bc11e09311"
+        },
+        "forc-submit": {
+          "path": "forc-client-0.71.6-linux_arm64/forc-submit",
+          "sha256": "830f1e864a7d17b7c4ebb944c4c4c43f2204b274f3795b9f469fad0941d346ff"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-client-0.71.6/forc-client-0.71.6-darwin_amd64.tar.gz",
+      "releaseTag": "forc-client-0.71.6",
+      "sha256": "053939bdfd8ee706765d708c6ae68b77f11062cdf071e4ca458593e740a96a9b",
+      "size": 56392792,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-call": {
+          "path": "forc-client-0.71.6-darwin_amd64/forc-call",
+          "sha256": "5b7ca9e9f1a660248ea0279d4261bb6f819839467fe04a3e4dad53c4160a2e9b"
+        },
+        "forc-deploy": {
+          "path": "forc-client-0.71.6-darwin_amd64/forc-deploy",
+          "sha256": "87b09f15f4c0d547197a7418e839318d57d04c948d35d2413fbc94223100bac8"
+        },
+        "forc-run": {
+          "path": "forc-client-0.71.6-darwin_amd64/forc-run",
+          "sha256": "abb4dfbff4677bc1d14e167bdb1dcd4e83a792c0ece562c357474f9dbbd170d5"
+        },
+        "forc-submit": {
+          "path": "forc-client-0.71.6-darwin_amd64/forc-submit",
+          "sha256": "02a783b8992f044e8e49c457b204c831e325a7631c7b640d8b02cb20f6796c43"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-client-0.71.6/forc-client-0.71.6-darwin_arm64.tar.gz",
+      "releaseTag": "forc-client-0.71.6",
+      "sha256": "10069332bca20caba85fbc947f0dda52330711234b0f9666d43bd58fd5c196e7",
+      "size": 54236616,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-call": {
+          "path": "forc-client-0.71.6-darwin_arm64/forc-call",
+          "sha256": "d7ec2b1c3b4a7716995f0ef1e93615f6302d8fa3c07a28bf8ce9300b4195d058"
+        },
+        "forc-deploy": {
+          "path": "forc-client-0.71.6-darwin_arm64/forc-deploy",
+          "sha256": "f85b460fb444e11a2e3427e4a99d80df23673d53cdae1223536d4c2910b93447"
+        },
+        "forc-run": {
+          "path": "forc-client-0.71.6-darwin_arm64/forc-run",
+          "sha256": "a6d006894431090c204a28d4ddfa23a7e2b45c658db170a132fc3d723de57ac1"
+        },
+        "forc-submit": {
+          "path": "forc-client-0.71.6-darwin_arm64/forc-submit",
+          "sha256": "3d15364de4697928844b2fba541bebccbfeb6ecf015c1ea019ca2c300dc67570"
+        }
+      }
+    }
+  }
+}
