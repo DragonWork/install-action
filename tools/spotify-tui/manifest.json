@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "spotify-tui",
+  "version": "0.25.0",
+  "repository": "Rigellute/spotify-tui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Rigellute/spotify-tui/releases/download/v0.25.0/spotify-tui-linux.tar.gz",
+      "sha256": "3fa282ac4fb4c4555ef05baeec99ca4fe0dbcfe42f5a7c3bea12f6893b88d1e0",
+      "size": 3639800,
+      "format": "tar.gz",
+      "releaseTag": "v0.25.0",
+      "binaries": {
+        "spt": {
+          "path": "spt",
+          "sha256": "b1df994b2edb12f5ae43af065345c43a356ebc14840c5f6b67c6490ee53ebcee"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Rigellute/spotify-tui/releases/download/v0.25.0/spotify-tui-macos.tar.gz",
+      "sha256": "d94c0d13252d2926589f15e436c69dfe2be8256e263e4de38ec23076a8fc1737",
+      "size": 3168213,
+      "format": "tar.gz",
+      "releaseTag": "v0.25.0",
+      "binaries": {
+        "spt": {
+          "path": "spt",
+          "sha256": "e8d4a6ea70b468c5dd2ea3ef41d350146d22ca1ecf32672433720fbb6d5b53e3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Rigellute/spotify-tui/releases/download/v0.25.0/spotify-tui-windows.tar.gz",
+      "sha256": "423b7c1a842bb4cd847b492cad2d1c724e00f92ed913226e9ac1ab0925b0b639",
+      "size": 3189023,
+      "format": "tar.gz",
+      "releaseTag": "v0.25.0",
+      "binaries": {
+        "spt.exe": {
+          "path": "spt.exe",
+          "sha256": "0ba6a3f824935df6611cac1af77897f612fb2c4adc9fd4da7979d90c3af50bd4"
+        }
+      }
+    }
+  }
+}
