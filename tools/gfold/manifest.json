@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "gfold",
+  "version": "2026.9.0",
+  "repository": "nickgerace/gfold",
+  "artifacts": {
+    "linux-arm64": {
+      "url": "https://github.com/nickgerace/gfold/releases/download/2026.9.0/gfold-linux-gnu-aarch64",
+      "sha256": "6e5e9422608bb1b8508ad202c9e3533931767e3a76b323f93e843a835d88eb56",
+      "size": 1963584,
+      "format": "binary",
+      "releaseTag": "2026.9.0",
+      "binaries": {
+        "gfold": {
+          "path": "gfold-linux-gnu-aarch64",
+          "sha256": "6e5e9422608bb1b8508ad202c9e3533931767e3a76b323f93e843a835d88eb56"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nickgerace/gfold/releases/download/2026.9.0/gfold-darwin-aarch64",
+      "sha256": "141904919a7603044f44d907ee94c08e5c78ec744a8e75051c40d2e160db42e6",
+      "size": 1751696,
+      "format": "binary",
+      "releaseTag": "2026.9.0",
+      "binaries": {
+        "gfold": {
+          "path": "gfold-darwin-aarch64",
+          "sha256": "141904919a7603044f44d907ee94c08e5c78ec744a8e75051c40d2e160db42e6"
+        }
+      }
+    }
+  }
+}
