@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "iroh-relay",
+  "version": "1.4.1",
+  "repository": "n0-computer/iroh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "75254641e3fad7fcbac6dee4d485556fbe06ef708340a9d8810469270ba626b8",
+      "size": 4016160,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh-relay": {
+          "path": "./iroh-relay",
+          "sha256": "9b9804c768503f3b4840ee011c1c796c26683d0f2496c9d29a2ab3c3bcac71b3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "3fc0c2d67c1cd66250bf82f3e2f17a985b7081a3d272186bad9d63e3f2347b38",
+      "size": 3952836,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh-relay": {
+          "path": "./iroh-relay",
+          "sha256": "39880ec57e472ffea0079fc9ecbe09f019e17383ba9d5f8857a6ad47ceaa1c1c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "b78c6c17af57fc67c0136507952c05e15f27559c7d7ebb085411a45e263ab597",
+      "size": 3887599,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh-relay": {
+          "path": "./iroh-relay",
+          "sha256": "38f1b07f6f346a65d462641706db62267c32fb9c5c833c86a81a2282e3fca5c8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "4f099f834c9ea84d05b9ba0d1e44ec3443794f7aea41e2d03c429d6334ea9303",
+      "size": 3509728,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh-relay": {
+          "path": "./iroh-relay",
+          "sha256": "e28c50fa7c43997306631523542438b6dcc8f100255e35cf93b2c53e49abc861"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.4.1",
+      "sha256": "bc1b6bb62fa8a32b6dcf0496e2632c1ac1f5eefa31e8d6787f3246b155e4fca7",
+      "size": 3670011,
+      "format": "zip",
+      "binaries": {
+        "iroh-relay.exe": {
+          "path": "iroh-relay.exe",
+          "sha256": "93e4e81e8215005f03d5901f81ec89e5553dff837479fdf9ee818f71ca5abf8d"
+        }
+      }
+    }
+  }
+}
