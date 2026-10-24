@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "clyde",
+  "version": "0.10.0",
+  "repository": "agateau/clyde",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/agateau/clyde/releases/download/0.10.0/clyde-0.10.0-x86_64-linux.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "149d84556d6fa956160250fa7fd54b6b9029c4c6b992465ee0ca4cdc9b8b1897",
+      "size": 11937706,
+      "format": "tar.gz",
+      "binaries": {
+        "clyde": {
+          "path": "clyde-0.10.0/clyde",
+          "sha256": "d5f84d0905c0d3d4411d0122137d60a078c05fddb8a39031e3cf5a63ac20a994"
+        },
+        "clydetools": {
+          "path": "clyde-0.10.0/clydetools",
+          "sha256": "6d6ba459a45645b03757facc9e6a14bb32929984108a09ef05c5da7b6c620b8f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/agateau/clyde/releases/download/0.10.0/clyde-0.10.0-x86_64-macos.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "b46abe1d9b3bf0f1e20663a5b428b7b0521b9a1adebd5df7e16405365a93094c",
+      "size": 11449592,
+      "format": "tar.gz",
+      "binaries": {
+        "clyde": {
+          "path": "clyde-0.10.0/clyde",
+          "sha256": "756b79c53e260e70c37896964fc9726f33ed302166b35afba20377d2aee1c505"
+        },
+        "clydetools": {
+          "path": "clyde-0.10.0/clydetools",
+          "sha256": "1524b89b9df11cd00e69870995970c51f84f09b4246afb75f0eecb704951fbe7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/agateau/clyde/releases/download/0.10.0/clyde-0.10.0-aarch64-macos.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "cc08afc2a05e536e6ce2e93b23dddcaab22b139b8cb8feb19002e19a6931534b",
+      "size": 10408449,
+      "format": "tar.gz",
+      "binaries": {
+        "clyde": {
+          "path": "clyde-0.10.0/clyde",
+          "sha256": "0e7c9740f112706563db2c79941770929bdc53359aa96d8ec2a0b0ba9ea8a146"
+        },
+        "clydetools": {
+          "path": "clyde-0.10.0/clydetools",
+          "sha256": "a3052fbaf5db73ec48cb1f7e7663fdc4420d619f3bc98bc4bb7c823a2c483451"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/agateau/clyde/releases/download/0.10.0/clyde-0.10.0-x86_64-windows.zip",
+      "releaseTag": "0.10.0",
+      "sha256": "f04af86c5076752feac8bc2bbafe731daf30876e69ed2d980a30efe22a15ba52",
+      "size": 11099004,
+      "format": "zip",
+      "binaries": {
+        "clyde.exe": {
+          "path": "clyde-0.10.0/clyde.exe",
+          "sha256": "148ec2de8db3c3d08017e1ca7b3890d0fba03b764d2f911c6bbe0816856c8720"
+        },
+        "clydetools.exe": {
+          "path": "clyde-0.10.0/clydetools.exe",
+          "sha256": "9ef78f6dd2af93b5223b59483fd32e00fb6ebfd6d325bac9638fc3b3939a7ee0"
+        }
+      }
+    }
+  }
+}
