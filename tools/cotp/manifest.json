@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cotp",
+  "version": "1.9.10",
+  "repository": "replydev/cotp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/replydev/cotp/releases/download/v1.9.10/cotp-1.9.10-x86_64-linux.tar.xz",
+      "releaseTag": "v1.9.10",
+      "sha256": "0437b5b7cb0f8a361d70bbdf30f7dd9aba497804f84c3d42b23440de7ac182b2",
+      "size": 943056,
+      "format": "tar.xz",
+      "binaries": {
+        "cotp": {
+          "path": "cotp-1.9.10-x86_64-linux/cotp",
+          "sha256": "e21354448a7a35699425f5ce85d5f025d280b1e1d81c9ee68ba32459b4999259"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/replydev/cotp/releases/download/v1.9.10/cotp-1.9.10-aarch64-linux.tar.xz",
+      "releaseTag": "v1.9.10",
+      "sha256": "cd739bcbf7a886a7105e8be0f81c587ca65f0fdb15c1ab3f87dc2940b18f34ca",
+      "size": 813040,
+      "format": "tar.xz",
+      "binaries": {
+        "cotp": {
+          "path": "cotp-1.9.10-aarch64-linux/cotp",
+          "sha256": "31d86f2174ba30eb7bc6dc1a0996e6e7b6c24e5884c0450e598674750eb53d0d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/replydev/cotp/releases/download/v1.9.10/cotp-1.9.10-x86_64-macos.tar.xz",
+      "releaseTag": "v1.9.10",
+      "sha256": "bc5d73771132c6ae7d1fb4b588c6d37cdd5809de4f316af473ffe12880955c99",
+      "size": 844304,
+      "format": "tar.xz",
+      "binaries": {
+        "cotp": {
+          "path": "cotp-1.9.10-x86_64-macos/cotp",
+          "sha256": "c0541e39f0bbf8cf302edb2c4d6fd1468d2dabbd8efd64657e8445e5232c09aa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/replydev/cotp/releases/download/v1.9.10/cotp-1.9.10-aarch64-macos.tar.xz",
+      "releaseTag": "v1.9.10",
+      "sha256": "19c83a7bf30546647222db4e75adb9679cad8ba039d6ada8bd5361271dbfcfda",
+      "size": 711288,
+      "format": "tar.xz",
+      "binaries": {
+        "cotp": {
+          "path": "cotp-1.9.10-aarch64-macos/cotp",
+          "sha256": "8a47f7c30e5d8eed48231a71518cd6b411c5233d9b77b9afc287de316acd5102"
+        }
+      }
+    }
+  }
+}
