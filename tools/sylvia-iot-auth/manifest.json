@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "sylvia-iot-auth",
+  "version": "0.4.7",
+  "repository": "woofdogtw/sylvia-iot-core",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/woofdogtw/sylvia-iot-core/releases/download/v0.4.7/sylvia-iot-auth-x86_64.tar.xz",
+      "sha256": "c68fc641f34b05255fcdd86ce0d627df9c3d9cd14346391f6ff78164534a4063",
+      "size": 6612116,
+      "format": "tar.xz",
+      "releaseTag": "v0.4.7",
+      "binaries": {
+        "sylvia-iot-auth": {
+          "path": "sylvia-iot-auth",
+          "sha256": "789b565db65dc97206bbb3ef37dfda68bcc51c37c2f563f71b449eabc66a662b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/woofdogtw/sylvia-iot-core/releases/download/v0.4.7/sylvia-iot-auth-arm64.tar.xz",
+      "sha256": "896db6a419db8e7e0060a7cc328c20dd591de59a3afd0a5fb486b46f7e85bb2f",
+      "size": 5743884,
+      "format": "tar.xz",
+      "releaseTag": "v0.4.7",
+      "binaries": {
+        "sylvia-iot-auth": {
+          "path": "sylvia-iot-auth",
+          "sha256": "cd2e6efa0fe28c972b2308203bc937d9190ccae6bf92787b712e939dac05f53b"
+        }
+      }
+    }
+  }
+}
