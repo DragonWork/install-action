@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "ruuvitag-listener",
+  "version": "0.8.0",
+  "repository": "lautis/ruuvitag-listener",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lautis/ruuvitag-listener/releases/download/v0.8.0/ruuvitag-listener-v0.8.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "1dee788ed1e5f1feef45859599f9bbd62a964acf79f35663dd5ff9788eba028f",
+      "size": 768083,
+      "format": "tar.gz",
+      "binaries": {
+        "ruuvitag-listener": {
+          "path": "ruuvitag-listener",
+          "sha256": "7582435d226026965da06dbe364c1031024b9a84ff339f43af9c62216b106da5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lautis/ruuvitag-listener/releases/download/v0.8.0/ruuvitag-listener-v0.8.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "36fa791eb88ee7a5be73cadbbc020b94041e6d9088b590cabc509c6f1121d909",
+      "size": 745484,
+      "format": "tar.gz",
+      "binaries": {
+        "ruuvitag-listener": {
+          "path": "ruuvitag-listener",
+          "sha256": "2d9748fe3599d01d8faf814498664e71ed94fc4457c5d04b516c85fca7e1d49e"
+        }
+      }
+    }
+  }
+}
