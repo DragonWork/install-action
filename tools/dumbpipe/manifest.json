@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dumbpipe",
+  "version": "0.40.1",
+  "repository": "n0-computer/dumbpipe",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/n0-computer/dumbpipe/releases/download/v0.40.1/dumbpipe-v0.40.1-linux-x86_64.tar.gz",
+      "releaseTag": "v0.40.1",
+      "sha256": "66aee1e249890ee63678dfc8f18ce3671e691673c83bbd72bf9a54c4d32da85c",
+      "size": 3449033,
+      "format": "tar.gz",
+      "binaries": {
+        "dumbpipe": {
+          "path": "./dumbpipe",
+          "sha256": "b479516e39aac0bf9572273164a2f0214f8211e9d3d4311da99e6c0ef00b9bca"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/n0-computer/dumbpipe/releases/download/v0.40.1/dumbpipe-v0.40.1-linux-aarch64.tar.gz",
+      "releaseTag": "v0.40.1",
+      "sha256": "1529c49598ac15d9413bf7f29a09c04cf2f5dc3af1b9080a1b50855a77846c47",
+      "size": 3151709,
+      "format": "tar.gz",
+      "binaries": {
+        "dumbpipe": {
+          "path": "./dumbpipe",
+          "sha256": "bc1c72e2745a3b0d1aeb75bca4a16ed026068a08304370470bdcb504732dbaa5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/n0-computer/dumbpipe/releases/download/v0.40.1/dumbpipe-v0.40.1-darwin-x86_64.tar.gz",
+      "releaseTag": "v0.40.1",
+      "sha256": "eaa35e228528cbf5fc2a8a07646570f49af6ab1acd35c8f539f150a0cb5d4b0e",
+      "size": 2840409,
+      "format": "tar.gz",
+      "binaries": {
+        "dumbpipe": {
+          "path": "./dumbpipe",
+          "sha256": "80ac998ee716ae4f1160f371d6110c8c449667f95820c9791f90ec2374166d4e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/n0-computer/dumbpipe/releases/download/v0.40.1/dumbpipe-v0.40.1-darwin-aarch64.tar.gz",
+      "releaseTag": "v0.40.1",
+      "sha256": "e6bd3c9a98ba22e8233ae1f8ba5e2dceb4cbf132dc4d4332589295b702902a27",
+      "size": 2562804,
+      "format": "tar.gz",
+      "binaries": {
+        "dumbpipe": {
+          "path": "./dumbpipe",
+          "sha256": "ef81d48f03cf828b9f98b085cd6dc46601594c40b1fc1cc5005b561f3926f5ac"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/n0-computer/dumbpipe/releases/download/v0.40.1/dumbpipe-v0.40.1-windows-x86_64.zip",
+      "releaseTag": "v0.40.1",
+      "sha256": "ffee0f811526e486992a12d3255ed26a84e932c76743009c50858ef15e4b046a",
+      "size": 2616018,
+      "format": "zip",
+      "binaries": {
+        "dumbpipe.exe": {
+          "path": "dumbpipe.exe",
+          "sha256": "820189a25dcfaa25629376569f75bc4f94dbec29df66902fdf512ffd572bb979"
+        }
+      }
+    }
+  }
+}
