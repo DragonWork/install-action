@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "fzf-make",
+  "version": "0.76.0",
+  "repository": "kyu08/fzf-make",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kyu08/fzf-make/releases/download/v0.76.0/fzf-make_v0.76.0_linux_amd64.tar.gz",
+      "releaseTag": "v0.76.0",
+      "sha256": "051c3bc840c3da4961ac596f8282aec223bc609eb75dd6e6b9c577229c538ec7",
+      "size": 3757654,
+      "format": "tar.gz",
+      "binaries": {
+        "fzf-make": {
+          "path": "fzf-make",
+          "sha256": "1731a89596ddf12ee41e20d4265dc55d76176f60c7ac5e4bf61cbc7ef03ed780"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kyu08/fzf-make/releases/download/v0.76.0/fzf-make_v0.76.0_linux_arm64.tar.gz",
+      "releaseTag": "v0.76.0",
+      "sha256": "f7f188e5f466de54cbbe020b43fef3358a4a1706f3405d2b1f43cd998f442cc2",
+      "size": 3626612,
+      "format": "tar.gz",
+      "binaries": {
+        "fzf-make": {
+          "path": "fzf-make",
+          "sha256": "e72f024f33bd2beddcc181f3350107d49318b45bb39a202cd352ed0321c24acc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kyu08/fzf-make/releases/download/v0.76.0/fzf-make_v0.76.0_macos_arm64.tar.gz",
+      "releaseTag": "v0.76.0",
+      "sha256": "5fba8cb5cc44a6724e585c8f1f236c3db4a2d69a40769f7978e814908fa1e02e",
+      "size": 3302508,
+      "format": "tar.gz",
+      "binaries": {
+        "fzf-make": {
+          "path": "fzf-make",
+          "sha256": "69f6342421836b8702cfda3f6d7fadcf0c9970a2fd29b1954a8f4bf855341eaf"
+        }
+      }
+    }
+  }
+}
