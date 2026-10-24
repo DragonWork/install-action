@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "litellm-rs",
+  "version": "0.9.0",
+  "repository": "majiayu000/litellm-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/majiayu000/litellm-rs/releases/download/v0.9.0/rust-litellm-gateway-v0.9.0-linux-x86_64.tar.gz",
+      "sha256": "97d00fc29119264d29c6b96ea15e0c0046ebebca1a1160913d04affcbfbc9218",
+      "size": 19073759,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "gateway": {
+          "path": "gateway",
+          "sha256": "04d35cf43a88701fed0102beb3d1d911a4d174439971344cc4783167b9f9c35f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/majiayu000/litellm-rs/releases/download/v0.9.0/rust-litellm-gateway-v0.9.0-macos-x86_64.tar.gz",
+      "sha256": "cd387f9a2762b8f88df9bff8506645252879220bd0b750febec259a163a53def",
+      "size": 18388061,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "gateway": {
+          "path": "gateway",
+          "sha256": "98f7d366b9c147d68eb4d4a50d8f6775ea6489778421023775950a6ae44f8196"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/majiayu000/litellm-rs/releases/download/v0.9.0/rust-litellm-gateway-v0.9.0-macos-aarch64.tar.gz",
+      "sha256": "c107bb5e8abc9a28ce8ce6e593474998c06f50bf5543a7d81aff2b88e9e9d9d9",
+      "size": 16469607,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "gateway": {
+          "path": "gateway",
+          "sha256": "1b8279e38c164c504cc68705d28701d301679c4ac9713688f7c39284a0479a1a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/majiayu000/litellm-rs/releases/download/v0.9.0/rust-litellm-gateway-v0.9.0-windows-x86_64.zip",
+      "sha256": "f3d6fda5065296ae4b48891272970972a9573cf540354e60553e6019676463d3",
+      "size": 17141414,
+      "format": "zip",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "gateway.exe": {
+          "path": "gateway.exe",
+          "sha256": "8b2f9fa2e04dbec73cae7a00b63fbff8bc8a9f4744d036cc165801b4662f2172"
+        }
+      }
+    }
+  }
+}
