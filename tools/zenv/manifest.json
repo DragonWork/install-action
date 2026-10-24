@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "zenv",
+  "version": "0.8.0",
+  "repository": "numToStr/zenv",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/numToStr/zenv/releases/download/0.8.0/zenv-0.8.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.8.0",
+      "sha256": "726080710ea0710b2afeb63609e69201b08273e1cad54cecece124d3c6356928",
+      "size": 171464,
+      "format": "tar.gz",
+      "binaries": {
+        "zenv": {
+          "path": "zenv",
+          "sha256": "2f3d15306fbc61639f7904e8c6fb316fd22c6457dd1c26073f83ba15105db33e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/numToStr/zenv/releases/download/0.8.0/zenv-0.8.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.8.0",
+      "sha256": "357eb5e3477b4a8337d0b236482de7a184798ecaea563e9817abcd2d72d6c099",
+      "size": 156355,
+      "format": "tar.gz",
+      "binaries": {
+        "zenv": {
+          "path": "zenv",
+          "sha256": "e3b07e8454af4e53123840bc1e14d7f202bdaf2423cdcf6c8e91392de1ad3639"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/numToStr/zenv/releases/download/0.8.0/zenv-0.8.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.8.0",
+      "sha256": "7196e14e32b08278c76fd1c349b3bbb93d3813e4a98b38478c32e60c4058db5f",
+      "size": 161688,
+      "format": "tar.gz",
+      "binaries": {
+        "zenv": {
+          "path": "zenv",
+          "sha256": "129ad71117b00c5941580577ee39cd0db0d5c91d7aef8f98ad63f2da639e85fd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/numToStr/zenv/releases/download/0.8.0/zenv-0.8.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.8.0",
+      "sha256": "38d265232a15b69746da72c90a2493db5a82581d1db85d701671b3dcc6aaf1af",
+      "size": 158350,
+      "format": "zip",
+      "binaries": {
+        "zenv.exe": {
+          "path": "zenv.exe",
+          "sha256": "8d5be5a741559a74e4471335dd42b80c15dffe7d6b8822b9e043a1ede0db2a06"
+        }
+      }
+    }
+  }
+}
