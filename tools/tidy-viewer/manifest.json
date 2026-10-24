@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tidy-viewer",
+  "version": "1.8.93",
+  "repository": "alexhallam/tv",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/alexhallam/tv/releases/download/1.8.93/tidy-viewer-1.8.93-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.8.93",
+      "sha256": "ced78ae7c4fc7d4becb01a8212c0df86fbca27dea3302f92af809f9999ac7b1a",
+      "size": 2951394,
+      "format": "tar.gz",
+      "binaries": {
+        "tidy-viewer": {
+          "path": "tidy-viewer",
+          "sha256": "ac04097164c1c1c1979f1f558345acbb8dd33eeb4763a4e738be7265eb487f6a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/alexhallam/tv/releases/download/1.8.93/tidy-viewer-1.8.93-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.8.93",
+      "sha256": "afaad9e7bb169b1e4439f4521506614af963a1ed22bdae439ab08f3e7d0e3030",
+      "size": 2514597,
+      "format": "zip",
+      "binaries": {
+        "tidy-viewer.exe": {
+          "path": "tidy-viewer.exe",
+          "sha256": "5351bc401d7257c23c98fa6328a2b8948e3f852af65d8bb9fb166fd3246ac465"
+        }
+      }
+    }
+  }
+}
