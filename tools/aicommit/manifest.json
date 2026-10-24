@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "aicommit",
+  "version": "0.1.143",
+  "repository": "suenot/aicommit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/suenot/aicommit/releases/download/v0.1.143/aicommit-linux-x86_64",
+      "sha256": "6f3680c8678c5f353525c52919e71f7fc45f7db05035ef53ac5895001b7d22dd",
+      "size": 8963904,
+      "format": "binary",
+      "releaseTag": "v0.1.143",
+      "binaries": {
+        "aicommit": {
+          "path": "aicommit-linux-x86_64",
+          "sha256": "6f3680c8678c5f353525c52919e71f7fc45f7db05035ef53ac5895001b7d22dd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/suenot/aicommit/releases/download/v0.1.143/aicommit-macos-x86_64",
+      "sha256": "a8e5efc5f0d2d68d8584a612715d63a4ca2f3fc6ac358378064bc4342144e9bb",
+      "size": 7527940,
+      "format": "binary",
+      "releaseTag": "v0.1.143",
+      "binaries": {
+        "aicommit": {
+          "path": "aicommit-macos-x86_64",
+          "sha256": "a8e5efc5f0d2d68d8584a612715d63a4ca2f3fc6ac358378064bc4342144e9bb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/suenot/aicommit/releases/download/v0.1.143/aicommit-macos-aarch64",
+      "sha256": "521f9f36ebdd878497612ecfdca5679771a5ec2762dd450536ebc5da14995073",
+      "size": 7340288,
+      "format": "binary",
+      "releaseTag": "v0.1.143",
+      "binaries": {
+        "aicommit": {
+          "path": "aicommit-macos-aarch64",
+          "sha256": "521f9f36ebdd878497612ecfdca5679771a5ec2762dd450536ebc5da14995073"
+        }
+      }
+    }
+  }
+}
