@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "onevcs",
+  "version": "0.56.6",
+  "repository": "nickderobertis/onevcs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nickderobertis/onevcs/releases/download/v0.56.6/onevcs-v0.56.6-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.56.6",
+      "sha256": "46cff65a17eae61c5db71ffe49d843ebb6e5c050e771362ed5a74bd7a3d2bc7f",
+      "size": 5029571,
+      "format": "tar.gz",
+      "binaries": {
+        "onevcs": {
+          "path": "onevcs",
+          "sha256": "808e4e9cb6202a724150ece6e1836f022adf96a01768f9464d7a0c3e5b697fce"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nickderobertis/onevcs/releases/download/v0.56.6/onevcs-v0.56.6-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.56.6",
+      "sha256": "c73a9f0051700434e27c379dcd69fa2111064260729342736d7e11dcc7dd85cb",
+      "size": 4584615,
+      "format": "tar.gz",
+      "binaries": {
+        "onevcs": {
+          "path": "onevcs",
+          "sha256": "87e7bfec34b2850b5e28f8ff30fea56da25f2f21b7e258d44a1134e09481a4e2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nickderobertis/onevcs/releases/download/v0.56.6/onevcs-v0.56.6-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.56.6",
+      "sha256": "0ba52b5abc1c9580ea837b49b98a6d640752f3c0b99fba9560a4924ca64c7b40",
+      "size": 4448097,
+      "format": "tar.gz",
+      "binaries": {
+        "onevcs": {
+          "path": "onevcs",
+          "sha256": "850961ef10d2051b1a3afa16b51426437fc204dcf4d520e5194c1b9c0d1ae065"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nickderobertis/onevcs/releases/download/v0.56.6/onevcs-v0.56.6-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.56.6",
+      "sha256": "970c3a05b81bd64e4753f1c1a2043b6057d7454d8bb5f6ce17a55553fb08071b",
+      "size": 5050131,
+      "format": "zip",
+      "binaries": {
+        "onevcs.exe": {
+          "path": "onevcs.exe",
+          "sha256": "1ddf096a9f29127e2293e40cefd705f8dadf08eb32f9f612f6ce92bf34f6545b"
+        }
+      }
+    }
+  }
+}
