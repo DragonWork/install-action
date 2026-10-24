@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "favico",
+  "version": "0.1.12",
+  "repository": "sorairolake/favico",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sorairolake/favico/releases/download/v0.1.12/favico-v0.1.12-x86_64-unknown-linux-musl.tar.zst",
+      "releaseTag": "v0.1.12",
+      "sha256": "fe767d86b93fe705935aee22470feb3afdd265606110f7f249d5f57507d724c3",
+      "size": 2793484,
+      "format": "tar.zst",
+      "binaries": {
+        "favico": {
+          "path": "favico-v0.1.12-x86_64-unknown-linux-musl/favico",
+          "sha256": "96b0931cf2e7ed3e9437efc28c42f2d4eaaed970871c870e580c140ac95263d1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sorairolake/favico/releases/download/v0.1.12/favico-v0.1.12-aarch64-unknown-linux-musl.tar.zst",
+      "releaseTag": "v0.1.12",
+      "sha256": "4ef2178c50c9f01ac82a9a6fbcb557784c7bed64babd307e2d3db0d0c954fb8f",
+      "size": 2616485,
+      "format": "tar.zst",
+      "binaries": {
+        "favico": {
+          "path": "favico-v0.1.12-aarch64-unknown-linux-musl/favico",
+          "sha256": "cf5ea981025aa5fc0590d317421302d9f8ce600988105683e019461f766949e8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sorairolake/favico/releases/download/v0.1.12/favico-v0.1.12-x86_64-apple-darwin.tar.zst",
+      "releaseTag": "v0.1.12",
+      "sha256": "b8dc9b74f90156f9a2ce9d85c4f612967742e43d9035f5dd7ed1e931e59c5bde",
+      "size": 2637744,
+      "format": "tar.zst",
+      "binaries": {
+        "favico": {
+          "path": "favico-v0.1.12-x86_64-apple-darwin/favico",
+          "sha256": "90179046a6e40d1c40223fcef3901d8b621b731c64ccac21ad57fb0d7e184279"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sorairolake/favico/releases/download/v0.1.12/favico-v0.1.12-aarch64-apple-darwin.tar.zst",
+      "releaseTag": "v0.1.12",
+      "sha256": "1bcb89bbd224cfbfeffbf35c1ade36222e1b9c6222959cb6138509c51e16778f",
+      "size": 2492182,
+      "format": "tar.zst",
+      "binaries": {
+        "favico": {
+          "path": "favico-v0.1.12-aarch64-apple-darwin/favico",
+          "sha256": "411b9719a6130442fbb5cdc98a1e6594cf192dfb93e67ea9201eba97619aa9f6"
+        }
+      }
+    }
+  }
+}
