@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "heliocron",
+  "version": "1.0.0",
+  "repository": "mfreeborn/heliocron",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mfreeborn/heliocron/releases/download/v1.0.0/heliocron-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.0",
+      "sha256": "40e31a2ad5389653bd2ae9b8aeefffe095323e9fb0c0f95f84da1736861aaa18",
+      "size": 539024,
+      "format": "tar.xz",
+      "binaries": {
+        "heliocron": {
+          "path": "heliocron-x86_64-unknown-linux-gnu/heliocron",
+          "sha256": "9b58b0d5fd29a1d040ffb3e1c2e4426c0294c0de5b2e39b26dc122cb5e836834"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mfreeborn/heliocron/releases/download/v1.0.0/heliocron-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.0",
+      "sha256": "d8a25c994ef0aa8c415d6e72a94e7c836ae98ba06079cb543a87d48bbdf469d7",
+      "size": 486292,
+      "format": "tar.xz",
+      "binaries": {
+        "heliocron": {
+          "path": "heliocron-aarch64-unknown-linux-gnu/heliocron",
+          "sha256": "2436930520c171bebfb0daa3b36ebc683b6dcfc77fa6bcfaa2c2559fa9151e5c"
+        }
+      }
+    }
+  }
+}
