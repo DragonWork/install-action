@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "vdot",
+  "version": "0.4.14",
+  "repository": "sjparkinson/vdot",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sjparkinson/vdot/releases/download/v0.4.14/vdot-v0.4.14-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.4.14",
+      "sha256": "bd4eb4bd223368cda5a9f0ce245c5dc186076f0484fa1cb63e91e70e6fa8bae6",
+      "size": 2065124,
+      "format": "zip",
+      "binaries": {
+        "vdot": {
+          "path": "vdot",
+          "sha256": "0fbe9510c6fe56919b4332660cf0751c14ca81652354a0ad20a3c178459a1354"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sjparkinson/vdot/releases/download/v0.4.14/vdot-v0.4.14-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.4.14",
+      "sha256": "583680519d577d446ddfdb0ed6081a462682bde3b61aa18ea2cb1b323a88af41",
+      "size": 1478058,
+      "format": "zip",
+      "binaries": {
+        "vdot": {
+          "path": "vdot",
+          "sha256": "e35118328090b1a2eccebbe755a9070f280f80152bef911fa171853bf6c26f76"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sjparkinson/vdot/releases/download/v0.4.14/vdot-v0.4.14-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.14",
+      "sha256": "e4c8a70e3cf27073dacec395b6ea515ff53ee6ccf4fa23761f460573f50e1fcc",
+      "size": 1178647,
+      "format": "zip",
+      "binaries": {
+        "vdot.exe": {
+          "path": "vdot.exe",
+          "sha256": "2cbc8678cfb1dc86f56904bdd3926684d94404d6df5d5e26b44c3ab7cd9c0cd6"
+        }
+      }
+    }
+  }
+}
