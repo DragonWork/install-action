@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "wchisp",
+  "version": "0.3.0",
+  "repository": "ch32-rs/wchisp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-linux-x64.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "67e3d4eb0ffd3cc610d8927e3c3f452e2110531a3f14405dcaef87df219f200d",
+      "size": 883953,
+      "format": "tar.gz",
+      "binaries": {
+        "wchisp": {
+          "path": "wchisp-linux-x64/wchisp",
+          "sha256": "eda3507dd0600aa6ded170bbc254cbca8ba12f7d83048761f42ae516301206f9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-linux-aarch64.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "3d7477c05c65f69091d041623a06c558c549dc27bfe2a043d9325f310f2ee40f",
+      "size": 883441,
+      "format": "tar.gz",
+      "binaries": {
+        "wchisp": {
+          "path": "wchisp-linux-aarch64/wchisp",
+          "sha256": "08561aafe186968c11e7adcb4a6e0ef69559b940c23239cce5f5588fb1ba65ac"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-macos-x64.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "ebbf46b0c64bb356cd58da2683c8809c50bdfe2181969f544933d24c8846f608",
+      "size": 830611,
+      "format": "tar.gz",
+      "binaries": {
+        "wchisp": {
+          "path": "wchisp-macos-x64/wchisp",
+          "sha256": "e429f053b0f393e3a4fc827a89be9b7d230ce63e85d14dd893b45e311d8396a4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-macos-arm64.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "a17dd422f7697bfe35c7c837c16bf99a7193300bcdc276c1253332b3a023e936",
+      "size": 804543,
+      "format": "tar.gz",
+      "binaries": {
+        "wchisp": {
+          "path": "wchisp-macos-arm64/wchisp",
+          "sha256": "0b0f19b6b398ec6d62afa1752643286ca7fb36188c19d7c64c5ead473a69e09a"
+        }
+      }
+    }
+  }
+}
