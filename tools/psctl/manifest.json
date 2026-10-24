@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "psctl",
+  "version": "0.8.4",
+  "repository": "bww/psctl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bww/psctl/releases/download/v0.8.4/psctl-v0.8.4-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.8.4",
+      "sha256": "a0065fa18d527ce6c889b0e0e723fa3a71d15b5c2a9f1978548d2471c4c65ee8",
+      "size": 1884387,
+      "format": "tar.gz",
+      "binaries": {
+        "psctl": {
+          "path": "target/psctl-dea327f51d7a16f17e0bc8799fd15cc13aa92334/bin/psctl",
+          "sha256": "2978c772f9e3729e904953ff457bf513b74b37861812e5a3838bc61e0b0393ab"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bww/psctl/releases/download/v0.8.4/psctl-v0.8.4-x86_64-apple-darwin.tgz",
+      "releaseTag": "v0.8.4",
+      "sha256": "b7969ffe9038eaefa235ea2d97062587715701e6078fbf075b197fe3fa677904",
+      "size": 1793917,
+      "format": "tar.gz",
+      "binaries": {
+        "psctl": {
+          "path": "psctl-dea327f51d7a16f17e0bc8799fd15cc13aa92334/bin/psctl",
+          "sha256": "f6c1fc113b8b3efd7f98e82698754540c6c0eae4d128699e6b55becc1e8aa232"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bww/psctl/releases/download/v0.8.4/psctl-v0.8.4-aarch64-apple-darwin.tgz",
+      "releaseTag": "v0.8.4",
+      "sha256": "facde3104006534fcada5da9e29bddfd4559a8133a5c4cccb278e799091c7289",
+      "size": 1755281,
+      "format": "tar.gz",
+      "binaries": {
+        "psctl": {
+          "path": "psctl-dea327f51d7a16f17e0bc8799fd15cc13aa92334/bin/psctl",
+          "sha256": "e7b740f11ec255e33fad5268af4b3de8869b79a9c66573867d5a9df4c4b888d4"
+        }
+      }
+    }
+  }
+}
