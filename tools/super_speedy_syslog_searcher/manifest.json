@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "super_speedy_syslog_searcher",
+  "version": "0.10.83",
+  "repository": "jtmoon79/super-speedy-syslog-searcher",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jtmoon79/super-speedy-syslog-searcher/releases/download/0.10.83/s4_x86_64-unknown-linux-musl_v0.10.83.zip",
+      "releaseTag": "0.10.83",
+      "sha256": "95103fb439b5d3490e38e6f2a69b3298a3a4485fc32bee971b57b06f194384e5",
+      "size": 5530298,
+      "format": "zip",
+      "binaries": {
+        "s4": {
+          "path": "s4",
+          "sha256": "5cb9c49c072adb312411b19daa0c8a39039973b34878a1b11b43a70f412d6426"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jtmoon79/super-speedy-syslog-searcher/releases/download/0.10.83/s4_aarch64-unknown-linux-musl_v0.10.83.zip",
+      "releaseTag": "0.10.83",
+      "sha256": "5ecd99107bb13cbf885c2a06bef8d97ab81315dcec772576ec922b2593c5144a",
+      "size": 5208721,
+      "format": "zip",
+      "binaries": {
+        "s4": {
+          "path": "s4",
+          "sha256": "3b542a93a05dca57b5695e0bae447521bac55166dcd7ff05c07c70cb710201a1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jtmoon79/super-speedy-syslog-searcher/releases/download/0.10.83/s4_x86_64-apple-darwin_v0.10.83.zip",
+      "releaseTag": "0.10.83",
+      "sha256": "f291becc9b2c94e1d8054b61f867a5199d6e93962ca177999a6c08846275de87",
+      "size": 5380494,
+      "format": "zip",
+      "binaries": {
+        "s4": {
+          "path": "s4",
+          "sha256": "4d04a1c6cddad9b26388c207b779b5a3e90d92413e97c079d15bb190355aa193"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jtmoon79/super-speedy-syslog-searcher/releases/download/0.10.83/s4_aarch64-apple-darwin_v0.10.83.zip",
+      "releaseTag": "0.10.83",
+      "sha256": "0591861a0d458f8597da2f20acd54751d96a4781f1b3db46a64115db8006cbde",
+      "size": 5243003,
+      "format": "zip",
+      "binaries": {
+        "s4": {
+          "path": "s4",
+          "sha256": "fb40964c82e873393a8b0b0cea08f498949b9b790a904cbc9d4425017f23cd49"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jtmoon79/super-speedy-syslog-searcher/releases/download/0.10.83/s4_x86_64-pc-windows-msvc_v0.10.83.zip",
+      "releaseTag": "0.10.83",
+      "sha256": "936d58a5cd17a2d632966bcec5836e1a4fdd7689c1f07b64b4abddc18be05679",
+      "size": 5537267,
+      "format": "zip",
+      "binaries": {
+        "s4.exe": {
+          "path": "s4.exe",
+          "sha256": "ed728d92ab4f5afcbd5e410524cdd232112aec92940b905c8a4aa216c2a31b37"
+        }
+      }
+    }
+  }
+}
