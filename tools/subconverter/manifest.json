@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "subconverter",
+  "version": "0.2.36",
+  "repository": "lonelam/subconverter-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lonelam/subconverter-rs/releases/download/v0.2.36/subconverter-linux-amd64-0.2.36.tar.gz",
+      "releaseTag": "v0.2.36",
+      "sha256": "bb6f2fa84a040ebfb37ce1e37bad7f98a2e676a5c70df5ba2f63ac0a314acad0",
+      "size": 7655151,
+      "format": "tar.gz",
+      "binaries": {
+        "subconverter": {
+          "path": "subconverter/subconverter",
+          "sha256": "7d51bae5f3fe6ad0cdce4e5e46f4da66113468f1f3b280398a31f1ddf2c7ef47"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lonelam/subconverter-rs/releases/download/v0.2.36/subconverter-linux-aarch64-0.2.36.tar.gz",
+      "releaseTag": "v0.2.36",
+      "sha256": "dfc1974695e13ce557c10cbbed397339a602a420792f52fd400bf4a4bff81509",
+      "size": 6999027,
+      "format": "tar.gz",
+      "binaries": {
+        "subconverter": {
+          "path": "subconverter/subconverter",
+          "sha256": "c8d302b5cfb0e1cca2976ae40e6b2d3b844258933d88733ccbf90b66f0ada3f5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lonelam/subconverter-rs/releases/download/v0.2.36/subconverter-macos-x86_64-0.2.36.tar.gz",
+      "releaseTag": "v0.2.36",
+      "sha256": "b73b4c8a98f2e8f4bc9a68e9d71f665be8cfea6facb4a2917733c43a73e85d7b",
+      "size": 7048500,
+      "format": "tar.gz",
+      "binaries": {
+        "subconverter": {
+          "path": "subconverter/subconverter",
+          "sha256": "7d3c54bd2731cb508c6982f6029d989c7ead6d1b1198b154e6d86d41d859f26c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lonelam/subconverter-rs/releases/download/v0.2.36/subconverter-macos-aarch64-0.2.36.tar.gz",
+      "releaseTag": "v0.2.36",
+      "sha256": "869732f49cd92e5da7a2c4302049f1313858031ed6a534fc9b8510e2367220d4",
+      "size": 6695410,
+      "format": "tar.gz",
+      "binaries": {
+        "subconverter": {
+          "path": "subconverter/subconverter",
+          "sha256": "f0637b858087c1aae0119007c3e2d1e59dde61ed906bc909c957ed1f2647a464"
+        }
+      }
+    }
+  }
+}
