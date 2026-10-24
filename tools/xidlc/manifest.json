@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "xidlc",
+  "version": "0.106.0",
+  "repository": "xidl/xidl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xidl/xidl/releases/download/v0.106.0/xidlc-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.106.0",
+      "sha256": "f0eda424257f5fbf59192a5615c0e54a1d75caa45de2a1f90556999bdcb7c9e6",
+      "size": 6087780,
+      "format": "tar.gz",
+      "binaries": {
+        "xidlc": {
+          "path": "xidlc",
+          "sha256": "cf394a8f7d3848fb3792a485e0fe094f73ad3788edf5ff46c3a64d94f3a7fc2c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/xidl/xidl/releases/download/v0.106.0/xidlc-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.106.0",
+      "sha256": "dbbccf8880a3f030a41a56c7593d2998d03f252e2eeb1d878aea29c09d8ffaf0",
+      "size": 5485021,
+      "format": "tar.gz",
+      "binaries": {
+        "xidlc": {
+          "path": "xidlc",
+          "sha256": "10a98777f5a7f5572800b60e948fec1ec997bd5fc8e219a1baea713c45828f70"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xidl/xidl/releases/download/v0.106.0/xidlc-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.106.0",
+      "sha256": "0f09ec7320347ade71a973a0b86df7e377a557c1594b4ca6d31dba9ecef3b0a1",
+      "size": 5821210,
+      "format": "tar.gz",
+      "binaries": {
+        "xidlc": {
+          "path": "xidlc",
+          "sha256": "b73b956b15d5d92262367e571a4fc8e84631427d33349a2067e45b28b75db704"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xidl/xidl/releases/download/v0.106.0/xidlc-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.106.0",
+      "sha256": "f345eca4033c351de3dba36db6978299d03b8b9d78711432517a404a2a05f4cc",
+      "size": 5469228,
+      "format": "tar.gz",
+      "binaries": {
+        "xidlc": {
+          "path": "xidlc",
+          "sha256": "09e28c423a592c83281d811c73d921a235e7c58a0728db3321d06b88d543400f"
+        }
+      }
+    }
+  }
+}
