@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cloudformatious-cli",
+  "version": "0.6.1",
+  "repository": "connec/cloudformatious-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/connec/cloudformatious-cli/releases/download/0.6.1/cloudformatious-cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.6.1",
+      "sha256": "8aa1a319d775c1c2604486639bc6a2ef502d317efacb2eec04728b70e543c853",
+      "size": 4539652,
+      "format": "tar.xz",
+      "binaries": {
+        "cloudformatious": {
+          "path": "cloudformatious-cli-x86_64-unknown-linux-musl/cloudformatious",
+          "sha256": "8f9b9e3aa2442b75e6973c8b6c2b7c11d75cfaef74abc20a7eb16d5f494dafef"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/connec/cloudformatious-cli/releases/download/0.6.1/cloudformatious-cli-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.6.1",
+      "sha256": "52020f93c278c03effd882690a1d04f030ea24e472af016cf55eca29bbf55c9f",
+      "size": 4111444,
+      "format": "tar.xz",
+      "binaries": {
+        "cloudformatious": {
+          "path": "cloudformatious-cli-aarch64-unknown-linux-musl/cloudformatious",
+          "sha256": "82c535715444d99d0cd9aa76b3bdfea7645761e722a60bc4d9ea16c0750bb003"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/connec/cloudformatious-cli/releases/download/0.6.1/cloudformatious-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.6.1",
+      "sha256": "79911de60962d03f1b9596757c716158f683b7610bb388158ecbbc1c123b26d6",
+      "size": 4163252,
+      "format": "tar.xz",
+      "binaries": {
+        "cloudformatious": {
+          "path": "cloudformatious-cli-x86_64-apple-darwin/cloudformatious",
+          "sha256": "62dfb8468953232e135ebadad3c22af36d01cf3778f3cf4b7257eebead4afe91"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/connec/cloudformatious-cli/releases/download/0.6.1/cloudformatious-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.6.1",
+      "sha256": "e2b619eda37781474d340c2dee2025da53afda926f40358c6a75eda7b4ce4731",
+      "size": 3863052,
+      "format": "tar.xz",
+      "binaries": {
+        "cloudformatious": {
+          "path": "cloudformatious-cli-aarch64-apple-darwin/cloudformatious",
+          "sha256": "a0c1b5aac5b9701575deca39039ff0f2250cd3310a21c766800885c8f4f4e132"
+        }
+      }
+    }
+  }
+}
