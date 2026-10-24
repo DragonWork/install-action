@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cooklang-chef",
+  "version": "0.10.0",
+  "repository": "Zheoni/cooklang-chef",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Zheoni/cooklang-chef/releases/download/v0.10.0/chef-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "c66793d7a2fc5bec78c071a0b3ff5068ef2cdaa008e8277ade970d1e19c046f7",
+      "size": 4867964,
+      "format": "tar.gz",
+      "binaries": {
+        "chef": {
+          "path": "chef",
+          "sha256": "4521eed7f4d853f6ddf7c664f59ea4f552ec9295ee74e72f270e6f5eecc3b48e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Zheoni/cooklang-chef/releases/download/v0.10.0/chef-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "1800baa5c9baa0ab4dadf5f01d9a721cdb624c8440dce79afe56065168bc7f79",
+      "size": 4303365,
+      "format": "tar.gz",
+      "binaries": {
+        "chef": {
+          "path": "chef",
+          "sha256": "01dbed07a0e5db7f636fe0cbf9539f1a5442c541144db5da1c0c7e6745e986ef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Zheoni/cooklang-chef/releases/download/v0.10.0/chef-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "e078dc12786065a32bfe2e880f5cc1cb0064ed4e71737fb44512e006f4f70dd8",
+      "size": 4403611,
+      "format": "tar.gz",
+      "binaries": {
+        "chef": {
+          "path": "chef",
+          "sha256": "639de09d95c3de6e027d5700405c6b0b938ccead3d2961f4822fc1954e15df5d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Zheoni/cooklang-chef/releases/download/v0.10.0/chef-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "fe052c5e79361e915b05dd09289af4a6d796cfcfc57013fa2373e6c152400708",
+      "size": 4103363,
+      "format": "tar.gz",
+      "binaries": {
+        "chef": {
+          "path": "chef",
+          "sha256": "f98f9f8fb1f58992149ffda641d3276a81c9817490536026bc4d43d0edf1849a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Zheoni/cooklang-chef/releases/download/v0.10.0/chef-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "6d12cbe8ceaf3175d0d82076eb8ed969895e6e5f114577e6f8dab90a948e67aa",
+      "size": 4413584,
+      "format": "zip",
+      "binaries": {
+        "chef.exe": {
+          "path": "chef.exe",
+          "sha256": "d943f064e7935b742469747c3da6df84b12d513ac8a1c438e4919f80728a2918"
+        }
+      }
+    }
+  }
+}
