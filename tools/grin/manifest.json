@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "grin",
+  "version": "5.5.2",
+  "repository": "mimblewimble/grin",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mimblewimble/grin/releases/download/v5.5.2/grin-v5.5.2-linux-x86_64.tar.gz",
+      "releaseTag": "v5.5.2",
+      "sha256": "d3162df65d31870323fae28ad07f46b377e58552609dae4b78f8c0be2aa92569",
+      "size": 5193966,
+      "format": "tar.gz",
+      "binaries": {
+        "grin": {
+          "path": "grin",
+          "sha256": "7821f068a598b5345a9f53314e5f2892b93e7953d5572b926a5b85a528510949"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mimblewimble/grin/releases/download/v5.5.2/grin-v5.5.2-macos-x86_64.tar.gz",
+      "releaseTag": "v5.5.2",
+      "sha256": "4a175c31d01559f923b179b1da1dc70db7efa1cdaa750339f6fc5a9d0283452c",
+      "size": 4897082,
+      "format": "tar.gz",
+      "binaries": {
+        "grin": {
+          "path": "grin",
+          "sha256": "8fb87feb111c16a213011ce4acc4dd41ed7f6cb8b267b2df3b3fa149a3aab2bb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mimblewimble/grin/releases/download/v5.5.2/grin-v5.5.2-macos-arm64.tar.gz",
+      "releaseTag": "v5.5.2",
+      "sha256": "4527ce9fcc5a6161a44ac157e6f2ea7025bf7cfd9830e28911f8d8fae1c4fbee",
+      "size": 4687123,
+      "format": "tar.gz",
+      "binaries": {
+        "grin": {
+          "path": "grin",
+          "sha256": "aae2d95a43bbc6fd00d195a574e795eb863e84f1def7d7a5458a0b80cd335dfe"
+        }
+      }
+    }
+  }
+}
