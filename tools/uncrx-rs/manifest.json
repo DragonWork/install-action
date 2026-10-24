@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "uncrx-rs",
+  "version": "0.3.0",
+  "repository": "iltumio/uncrx-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/iltumio/uncrx-rs/releases/download/v0.3.0/uncrx-rs-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "1253cf094f01dd293ed597cb907aa4f23b8b369d9c206572b553835810865776",
+      "size": 612720,
+      "format": "tar.xz",
+      "binaries": {
+        "uncrx": {
+          "path": "uncrx-rs-x86_64-unknown-linux-gnu/uncrx",
+          "sha256": "72f306836c0fb79164c00b8a463ca28e00b4714cbb8e67e0d36c27c2b788a539"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/iltumio/uncrx-rs/releases/download/v0.3.0/uncrx-rs-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "841b2cbacb6fc81fcc4374d2a2c3b8851ea1f1b0984d317fd9cd10aa6cb77354",
+      "size": 576728,
+      "format": "tar.xz",
+      "binaries": {
+        "uncrx": {
+          "path": "uncrx-rs-x86_64-apple-darwin/uncrx",
+          "sha256": "7947077cbfb2064f3f9a9c21cbf4569bf9299522213b44c9c3e3cd521a3b933a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/iltumio/uncrx-rs/releases/download/v0.3.0/uncrx-rs-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "94c325140e9a7f9c18a6a591e4ea9de8dd9121ef3c7c77ed695e91623621af29",
+      "size": 521776,
+      "format": "tar.xz",
+      "binaries": {
+        "uncrx": {
+          "path": "uncrx-rs-aarch64-apple-darwin/uncrx",
+          "sha256": "e32f24d8ed5d13c0120b905ec3a73a9628c8a8ff7ee33c138061abbfb20d8143"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/iltumio/uncrx-rs/releases/download/v0.3.0/uncrx-rs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "23fed3c04fb5a8d35099c01b46cfc1c1e7f67f3cb7c51a9aea61e0ee6cd1359d",
+      "size": 661278,
+      "format": "zip",
+      "binaries": {
+        "uncrx.exe": {
+          "path": "uncrx.exe",
+          "sha256": "6d428e11cd07497bd3aa18973c8b90a633bfa83a645f9ec47e916a8d95f80a69"
+        }
+      }
+    }
+  }
+}
