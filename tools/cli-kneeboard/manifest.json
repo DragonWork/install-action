@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cli-kneeboard",
+  "version": "0.4.0",
+  "repository": "chimbosonic/cli-kneeboard",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/chimbosonic/cli-kneeboard/releases/download/v0.4.0/kneeboard-stable-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "4e649830b1aa8d1a77fb743b66a01df2934e55b0c076cc02590423f749c16544",
+      "size": 891364,
+      "format": "tar.gz",
+      "binaries": {
+        "kneeboard": {
+          "path": "kneeboard",
+          "sha256": "b94be73494f03d7b507a28a90064b383479e4abcb97f3116d9fa42c7315ecb7e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/chimbosonic/cli-kneeboard/releases/download/v0.4.0/kneeboard-stable-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "534cc6c1e38fe8c793398f934f4b53a0f8e485121cc93ef943dccdd4207564ee",
+      "size": 843144,
+      "format": "tar.gz",
+      "binaries": {
+        "kneeboard": {
+          "path": "kneeboard",
+          "sha256": "c9bc99bd2071deb2cc37ffbe322477345ec40123a9224bae25ccebded75fc614"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/chimbosonic/cli-kneeboard/releases/download/v0.4.0/kneeboard-stable-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "47126c6cc917591972d5554fd1e92e7723fb09149fcbd79a865bc74b92e08773",
+      "size": 787330,
+      "format": "tar.gz",
+      "binaries": {
+        "kneeboard": {
+          "path": "kneeboard",
+          "sha256": "cba490035957d7762be90357a9b58ec73f411f4b1739b12b5b4e29d70405d886"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/chimbosonic/cli-kneeboard/releases/download/v0.4.0/kneeboard-stable-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "4c143f2d920e1e81b64f9e1a6c3b0e9d06225572d982652c03d864ffeb54e2ae",
+      "size": 730558,
+      "format": "tar.gz",
+      "binaries": {
+        "kneeboard": {
+          "path": "kneeboard",
+          "sha256": "c170b8bd2e1bd974c84a85606fdd7cb985093917fc91d629f78c462f26d379fb"
+        }
+      }
+    }
+  }
+}
