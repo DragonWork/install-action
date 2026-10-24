@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "evcxr_repl",
+  "version": "0.22.0",
+  "repository": "evcxr/evcxr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/evcxr/evcxr/releases/download/v0.22.0/evcxr-v0.22.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.22.0",
+      "sha256": "f557d543aa6c47ee45e4bb0e0fd752440792bed58c6023abf60be6ca95f9de33",
+      "size": 9284266,
+      "format": "tar.gz",
+      "binaries": {
+        "evcxr": {
+          "path": "evcxr-v0.22.0-x86_64-unknown-linux-gnu/evcxr",
+          "sha256": "44ce1c1087f6dc1c476c906e7ca3a93bd29a7a010d964fb1278e8929730c55dd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/evcxr/evcxr/releases/download/v0.22.0/evcxr-v0.22.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.22.0",
+      "sha256": "0896e890a20a51fb821b1b1cdf47c609a2704a55ad5c3c13c1909ef6d66d5d7a",
+      "size": 8259410,
+      "format": "tar.gz",
+      "binaries": {
+        "evcxr": {
+          "path": "evcxr-v0.22.0-aarch64-apple-darwin/evcxr",
+          "sha256": "7478e31454089604a27ccbf10215a45ff84f4bf49340fb2c5ea6ca7991ef15e7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/evcxr/evcxr/releases/download/v0.22.0/evcxr-v0.22.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.22.0",
+      "sha256": "788c1d38914edb332e71f63a4901488979f95150cf93e9f9fc3bc94b90ec2426",
+      "size": 8380716,
+      "format": "zip",
+      "binaries": {
+        "evcxr.exe": {
+          "path": "evcxr-v0.22.0-x86_64-pc-windows-msvc/evcxr.exe",
+          "sha256": "6bde9ca5868b80a51f285f3b68450a574eaaa8f41ee0ae07f636dcc5adec207c"
+        }
+      }
+    }
+  }
+}
