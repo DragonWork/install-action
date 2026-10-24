@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "uuinfo",
+  "version": "0.7.5",
+  "repository": "Racum/uuinfo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Racum/uuinfo/releases/download/v0.7.5/uuinfo-linux-x86_64.tar.gz",
+      "releaseTag": "v0.7.5",
+      "sha256": "b4837dbe4b49fc038b8cab3f7d15d0a80869d7b5d97eec131ec46285118b066a",
+      "size": 966120,
+      "format": "tar.gz",
+      "binaries": {
+        "uuinfo": {
+          "path": "uuinfo",
+          "sha256": "3b357707b413d0b07325cc4a7bb89d1271c8832c6442b93523783effed17b407"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Racum/uuinfo/releases/download/v0.7.5/uuinfo-linux-aarch64.tar.gz",
+      "releaseTag": "v0.7.5",
+      "sha256": "d8a09bd903e6e67a6ad4254cf7ff30a28ea217b1d123737c9fc1a5fa1fa3686e",
+      "size": 885252,
+      "format": "tar.gz",
+      "binaries": {
+        "uuinfo": {
+          "path": "uuinfo",
+          "sha256": "0102e8ebd0f441d3a18cbe3dfb184c8487b92086cba6718433dc8435e5438c99"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Racum/uuinfo/releases/download/v0.7.5/uuinfo-windows-x86_64.zip",
+      "releaseTag": "v0.7.5",
+      "sha256": "9e6a5295e059c090f25cfc2fd4dd4fe9da53c7a9700bb4112bb6e97d787345ef",
+      "size": 907544,
+      "format": "zip",
+      "binaries": {
+        "uuinfo.exe": {
+          "path": "uuinfo.exe",
+          "sha256": "d241b5df43340816849a791a1c8c9be0f48484ebb4571a568f9ce1f5821caf5e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Racum/uuinfo/releases/download/v0.7.5/uuinfo-windows-aarch64.zip",
+      "releaseTag": "v0.7.5",
+      "sha256": "98b6d44cdf589124ffb84d1ce8f43ed02afa4e5b6caa76469df687745047f9c3",
+      "size": 849168,
+      "format": "zip",
+      "binaries": {
+        "uuinfo.exe": {
+          "path": "uuinfo.exe",
+          "sha256": "22bbcd7977dd978ccd450a307e1404db5f58d238d10ad72c2e2b805d18429262"
+        }
+      }
+    }
+  }
+}
