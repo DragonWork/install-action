@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "carrier",
+  "version": "0.12.2",
+  "repository": "devguardio/carrier",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/devguardio/carrier/releases/download/0.12.2/carrier-0.12.2-x86_64-pc-linux-gnu",
+      "sha256": "f0f175c542ff2a4609fcd24ae14b2c8c8be88ca1e0b7b7137d26d4e6a7be7160",
+      "size": 3825552,
+      "format": "binary",
+      "releaseTag": "0.12.2",
+      "binaries": {
+        "carrier": {
+          "path": "carrier-0.12.2-x86_64-pc-linux-gnu",
+          "sha256": "f0f175c542ff2a4609fcd24ae14b2c8c8be88ca1e0b7b7137d26d4e6a7be7160"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/devguardio/carrier/releases/download/0.12.2/carrier-0.12.2-x86_64-pc-osx",
+      "sha256": "df01b63c4fbe4b1ebdecf57dfef95d851c65b9fb1c2a3f2f44282a4ec84d7c9f",
+      "size": 2858756,
+      "format": "binary",
+      "releaseTag": "0.12.2",
+      "binaries": {
+        "carrier": {
+          "path": "carrier-0.12.2-x86_64-pc-osx",
+          "sha256": "df01b63c4fbe4b1ebdecf57dfef95d851c65b9fb1c2a3f2f44282a4ec84d7c9f"
+        }
+      }
+    }
+  }
+}
