@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "n5gest",
+  "version": "0.4.0",
+  "repository": "aschampion/n5gest",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aschampion/n5gest/releases/download/v0.4.0/n5gest-x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "v0.4.0",
+      "sha256": "e50442b052e1c00beb190c178eb2c353f684f9843d796452740243596ce0a159",
+      "size": 2711076,
+      "format": "tar.gz",
+      "binaries": {
+        "n5gest": {
+          "path": "target/x86_64-unknown-linux-musl/release/n5gest",
+          "sha256": "61f0c176198da5941d0bc116d7d8b4396a42d3d2e05a4359f17b6192c3f5c17e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aschampion/n5gest/releases/download/v0.4.0/n5gest-x86_64-apple-darwin.tgz",
+      "releaseTag": "v0.4.0",
+      "sha256": "4c0fb75a6a7c93d2f345f2ac98da8ea40dabf52cd3cf1faa8699edd10552537f",
+      "size": 2209749,
+      "format": "tar.gz",
+      "binaries": {
+        "n5gest": {
+          "path": "target/x86_64-apple-darwin/release/n5gest",
+          "sha256": "6d55b2b614f76115094ad99e85b624e22eaa7c150345f17dbffb0975d05921e5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aschampion/n5gest/releases/download/v0.4.0/n5gest-aarch64-apple-darwin.tgz",
+      "releaseTag": "v0.4.0",
+      "sha256": "d01ad2d45914c8c486ec54cc6d0da60d0c4366b099033d3c6506a11e1820092d",
+      "size": 2149067,
+      "format": "tar.gz",
+      "binaries": {
+        "n5gest": {
+          "path": "target/aarch64-apple-darwin/release/n5gest",
+          "sha256": "4dae0afad6d1edaeefd6bbfada4db5ede9b011dccd2f22818169628a74759457"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aschampion/n5gest/releases/download/v0.4.0/n5gest-x86_64-pc-windows-msvc.tgz",
+      "releaseTag": "v0.4.0",
+      "sha256": "bf22979850e3d5ac65d144268272d71d0623bf91138cb44159b38d09e1007b3c",
+      "size": 2050211,
+      "format": "tar.gz",
+      "binaries": {
+        "n5gest.exe": {
+          "path": "target/x86_64-pc-windows-msvc/release/n5gest.exe",
+          "sha256": "d49ba9e316bb7d9809f3e2e6537d4060a31aeb4751f9839c06006f2661871d21"
+        }
+      }
+    }
+  }
+}
