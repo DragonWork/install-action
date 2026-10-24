@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "unleash-edge",
+  "version": "20.1.0",
+  "repository": "Unleash/unleash-edge",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Unleash/unleash-edge/releases/download/unleash-edge-v20.1.0/unleash-edge-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "unleash-edge-v20.1.0",
+      "sha256": "6c4d1da5a3257a4be2852fe38f002d95ff49dd435419a7e086bdd4b9c6eab8e4",
+      "size": 9522228,
+      "format": "tar.xz",
+      "binaries": {
+        "unleash-edge": {
+          "path": "unleash-edge-x86_64-unknown-linux-gnu/unleash-edge",
+          "sha256": "6a3d940552f389ad0131f1587825c3d951eed47594f9f0fccad1655033cb0326"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Unleash/unleash-edge/releases/download/unleash-edge-v20.1.0/unleash-edge-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "unleash-edge-v20.1.0",
+      "sha256": "e14690ee80c7fde01d743c182a6762f2edb5fbb079bfdcdcf0207b7c05d6f5e6",
+      "size": 8834292,
+      "format": "tar.xz",
+      "binaries": {
+        "unleash-edge": {
+          "path": "unleash-edge-aarch64-unknown-linux-gnu/unleash-edge",
+          "sha256": "5f22da3994d6c461ee7b5851812bc2fc5bdd72bf0ad863f201a62ddc70bacca7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Unleash/unleash-edge/releases/download/unleash-edge-v20.1.0/unleash-edge-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "unleash-edge-v20.1.0",
+      "sha256": "ff7b8a9a35ef10ae41357b0be38cc1138fe3f36deda59b9b27d90530ff191383",
+      "size": 8244316,
+      "format": "tar.xz",
+      "binaries": {
+        "unleash-edge": {
+          "path": "unleash-edge-aarch64-apple-darwin/unleash-edge",
+          "sha256": "cfdfa3f984230982fac50547980b22caa3f5b67cc7a8e0cf23383c6f73fbbfd7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Unleash/unleash-edge/releases/download/unleash-edge-v20.1.0/unleash-edge-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "unleash-edge-v20.1.0",
+      "sha256": "ca05dce0a996f87a07f20661d3e50e049f9335f5801fcf8f0b85c9fa10c808f5",
+      "size": 13667138,
+      "format": "zip",
+      "binaries": {
+        "unleash-edge.exe": {
+          "path": "unleash-edge.exe",
+          "sha256": "7dab58ca52e11abae660bab022d20702e7b1bbd55ea1824d936a6e43eedf9ff3"
+        }
+      }
+    }
+  }
+}
