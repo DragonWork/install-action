@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "chrs",
+  "version": "0.3.1",
+  "repository": "FNNDSC/chrs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FNNDSC/chrs/releases/download/v0.3.1/chrs-x86_64-unknown-linux-musl-v0.3.1.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "3b39fa7c4b7910c8454defa8b76efdbcdf62b48c00afc14447d7b268d850573e",
+      "size": 4079969,
+      "format": "tar.gz",
+      "binaries": {
+        "chrs": {
+          "path": "chrs",
+          "sha256": "934e847d74894f224d76d41495ac07f39330603eba720b74865bf9dbbca8f5e2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FNNDSC/chrs/releases/download/v0.3.1/chrs-aarch64-unknown-linux-musl-v0.3.1.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "9db0bc364083a5046ae85eac965e7a2b660f55d97e7bdb66635cff9e3a925388",
+      "size": 3821783,
+      "format": "tar.gz",
+      "binaries": {
+        "chrs": {
+          "path": "chrs",
+          "sha256": "85b31b5418c2f40242f70e0854bab44fdf85d08968de0501039a34ada325496a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FNNDSC/chrs/releases/download/v0.3.1/chrs-x86_64-apple-darwin-v0.3.1.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "b56a8332a59a0ccf017cdc9217deab0312f91164687c7355685b628acf674a6b",
+      "size": 3001703,
+      "format": "tar.gz",
+      "binaries": {
+        "chrs": {
+          "path": "chrs",
+          "sha256": "93a3e26eca5f1315067331da37fa62cf4a8bc442f3a790461a09bb169aef9a46"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FNNDSC/chrs/releases/download/v0.3.1/chrs-aarch64-apple-darwin-v0.3.1.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "6ade4fe005fac5f758a34557a208880f4452b23341dc7fad4cb19577f05d68b1",
+      "size": 2840681,
+      "format": "tar.gz",
+      "binaries": {
+        "chrs": {
+          "path": "chrs",
+          "sha256": "445c7eebf1156dc0ed1de82c78b8add49ab35227d1b1b77a81d1d6f86fa27055"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/FNNDSC/chrs/releases/download/v0.3.1/chrs-x86_64-pc-windows-msvc-v0.3.1.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "43b303042e8be3737ca66022ff3dfb29eb316919e6741aeea69786cf16d6a6ac",
+      "size": 3010346,
+      "format": "zip",
+      "binaries": {
+        "chrs.exe": {
+          "path": "chrs.exe",
+          "sha256": "5d9d2133393703c5b27caf019a2e6a25187af0cfef6c5a2e9b3df83408f8b858"
+        }
+      }
+    }
+  }
+}
