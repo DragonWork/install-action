@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "lemmy-help",
+  "version": "0.11.0",
+  "repository": "numToStr/lemmy-help",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/numToStr/lemmy-help/releases/download/v0.11.0/lemmy-help-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "bc2021625f6c191eda7ef5f7c5ba034383011657d8ccbf09d2ae2cd49e3a5b7f",
+      "size": 561797,
+      "format": "tar.gz",
+      "binaries": {
+        "lemmy-help": {
+          "path": "lemmy-help",
+          "sha256": "8b9fa4b7de175cbf21c49dd986b484c6bc8c0cdd3decf7c99a939b8e84c235dc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/numToStr/lemmy-help/releases/download/v0.11.0/lemmy-help-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "6dfff60f5dccb67bc17838241be880227bf02ec4c32793516dff8ffee3b29e4d",
+      "size": 546013,
+      "format": "tar.gz",
+      "binaries": {
+        "lemmy-help": {
+          "path": "lemmy-help",
+          "sha256": "72bbbf425e83fa3c95c6f84f795a4ecc2a7329ea31b85124c3475df638be18bd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/numToStr/lemmy-help/releases/download/v0.11.0/lemmy-help-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "bb9898832f10ab8219781e4c86d52d4b51ac5f30cc8a59d07feb74c7ede17550",
+      "size": 485936,
+      "format": "tar.gz",
+      "binaries": {
+        "lemmy-help": {
+          "path": "lemmy-help",
+          "sha256": "2d379817276a62af08c8bdda6ded6c11f705b7b5886e60e1b3dd8ce7b530cf2c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/numToStr/lemmy-help/releases/download/v0.11.0/lemmy-help-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "0e745b411687567b12ff4ee8c99471608404b6bccf9d64fe1311c15941e4d82a",
+      "size": 484374,
+      "format": "zip",
+      "binaries": {
+        "lemmy-help.exe": {
+          "path": "lemmy-help.exe",
+          "sha256": "130a4060ca86a088282c1dd8f49852d59fd9006659fd18cf028dbe0f48385d35"
+        }
+      }
+    }
+  }
+}
