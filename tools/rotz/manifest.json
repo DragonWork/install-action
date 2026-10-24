@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "rotz",
+  "version": "1.2.1",
+  "repository": "volllly/rotz",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/volllly/rotz/releases/download/v1.2.1/rotz-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "ff11ac59319cc0e54e388e81afb3b86a1ee7b887e651c2029bc417ba418aad02",
+      "size": 4332054,
+      "format": "zip",
+      "binaries": {
+        "rotz": {
+          "path": "rotz",
+          "sha256": "ff5a4dc3b679d8f727727212e7d6a2bcfb5671445c017bdd8f4edc4bddd0db3b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/volllly/rotz/releases/download/v1.2.1/rotz-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "f497178db6be23bf0d610fa0cb564a85cf7d1c63603739a35d3ab0fbd096dd54",
+      "size": 4085974,
+      "format": "zip",
+      "binaries": {
+        "rotz": {
+          "path": "rotz",
+          "sha256": "ccfc8d7720b72ae6e113a60b856ec9c586c31fab0019c6540f616530c5cd3c87"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/volllly/rotz/releases/download/v1.2.1/rotz-x86_64-apple-darwin.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "6283dd4e90b9ad77b1c1e04eba51b72d7e992a33f043b665ab0f28763ec28531",
+      "size": 4010854,
+      "format": "zip",
+      "binaries": {
+        "rotz": {
+          "path": "rotz",
+          "sha256": "cc905fab2da26164170d7297122d58f750bfd8ceaabbedfaabd7eb156a2dbc82"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/volllly/rotz/releases/download/v1.2.1/rotz-aarch64-apple-darwin.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "8d8fccf7bc376613c22c682a6f16944385f80037a3b0d66f99871b676285444c",
+      "size": 3781852,
+      "format": "zip",
+      "binaries": {
+        "rotz": {
+          "path": "rotz",
+          "sha256": "450b1c052a98779b921d2b3f0ca5614d4b95c305face71ee66f721fdb997a15c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/volllly/rotz/releases/download/v1.2.1/rotz-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "ed6d95e46e13ff502da4c405493ea8b3b86b38b5d33b55e5c1e98fe5eda978ab",
+      "size": 3581514,
+      "format": "zip",
+      "binaries": {
+        "rotz.exe": {
+          "path": "rotz.exe",
+          "sha256": "8f7150edbc874649d416132bc4e06b22d775d12bac95af24866233c44068746e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/volllly/rotz/releases/download/v1.2.1/rotz-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "7a8d2be6b3188ed5dfbf1c0e7b0ae805e4279a07bf5fb1a82bf85741cb73a273",
+      "size": 2403435,
+      "format": "zip",
+      "binaries": {
+        "rotz.exe": {
+          "path": "rotz.exe",
+          "sha256": "6c0578a8ce73a85551b4dabbed42af0870df33f3df90e0fa6096a17c291171d5"
+        }
+      }
+    }
+  }
+}
