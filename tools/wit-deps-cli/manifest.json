@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wit-deps-cli",
+  "version": "0.6.0",
+  "repository": "bytecodealliance/wit-deps",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/wit-deps/releases/download/v0.6.0/wit-deps-x86_64-unknown-linux-musl",
+      "sha256": "0d28c03f192210e6d6a19cde0506a6127bc1a931135e1062449fea0b8db40291",
+      "size": 10246032,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "wit-deps": {
+          "path": "wit-deps-x86_64-unknown-linux-musl",
+          "sha256": "0d28c03f192210e6d6a19cde0506a6127bc1a931135e1062449fea0b8db40291"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/wit-deps/releases/download/v0.6.0/wit-deps-aarch64-unknown-linux-musl",
+      "sha256": "2f1892f3d7fb2cb827d58fe9e548e988a4743685083aceebb8d8ad3647386a2a",
+      "size": 10079448,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "wit-deps": {
+          "path": "wit-deps-aarch64-unknown-linux-musl",
+          "sha256": "2f1892f3d7fb2cb827d58fe9e548e988a4743685083aceebb8d8ad3647386a2a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/wit-deps/releases/download/v0.6.0/wit-deps-x86_64-apple-darwin",
+      "sha256": "a92361aaf538483b8a68cc46898ad2a0da11ef0468f8d736c0b3e7f4924ca8d3",
+      "size": 9365552,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "wit-deps": {
+          "path": "wit-deps-x86_64-apple-darwin",
+          "sha256": "a92361aaf538483b8a68cc46898ad2a0da11ef0468f8d736c0b3e7f4924ca8d3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/wit-deps/releases/download/v0.6.0/wit-deps-aarch64-apple-darwin",
+      "sha256": "2e2d61bd68b324b0a349932f29496fd94f3032f3893163f3a2843d9748b0d41f",
+      "size": 9011216,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "wit-deps": {
+          "path": "wit-deps-aarch64-apple-darwin",
+          "sha256": "2e2d61bd68b324b0a349932f29496fd94f3032f3893163f3a2843d9748b0d41f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/wit-deps/releases/download/v0.6.0/wit-deps-x86_64-pc-windows-gnu",
+      "sha256": "fbb9d87a8bd38badeecb2db56a725352da5dc3bb42925f5a11bf782a8ff59ffd",
+      "size": 14720746,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "wit-deps.exe": {
+          "path": "wit-deps-x86_64-pc-windows-gnu",
+          "sha256": "fbb9d87a8bd38badeecb2db56a725352da5dc3bb42925f5a11bf782a8ff59ffd"
+        }
+      }
+    }
+  }
+}
