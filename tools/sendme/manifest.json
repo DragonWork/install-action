@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "sendme",
+  "version": "0.37.1",
+  "repository": "n0-computer/sendme",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/n0-computer/sendme/releases/download/v0.37.1/sendme-v0.37.1-linux-x86_64.tar.gz",
+      "releaseTag": "v0.37.1",
+      "sha256": "6250f28ccf082a2f77a5bb2244c821783c8746b6cff4539be32cbcc03ef7d0a0",
+      "size": 4900226,
+      "format": "tar.gz",
+      "binaries": {
+        "sendme": {
+          "path": "./sendme",
+          "sha256": "5203634d8688495e972c7f8a988ff5a371619ace78d93d7eb9dcb062f269be71"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/n0-computer/sendme/releases/download/v0.37.1/sendme-v0.37.1-linux-aarch64.tar.gz",
+      "releaseTag": "v0.37.1",
+      "sha256": "8dcf195435ca1465b801f4f08923faf34a7f98e7700280d870f1a83093173f64",
+      "size": 4474724,
+      "format": "tar.gz",
+      "binaries": {
+        "sendme": {
+          "path": "./sendme",
+          "sha256": "af1f668857cb37fe35d21dcaeb6a18c3ffe916be4ed124c1dcecabed1f591d3d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/n0-computer/sendme/releases/download/v0.37.1/sendme-v0.37.1-darwin-x86_64.tar.gz",
+      "releaseTag": "v0.37.1",
+      "sha256": "955c653546cf2b939528fe89ea24c2ea2021777774f58b18f47954a88169e3ee",
+      "size": 4235749,
+      "format": "tar.gz",
+      "binaries": {
+        "sendme": {
+          "path": "./sendme",
+          "sha256": "66f500ce717a994e5ecda70edc3f9568b3f9afe09a2303ba80a92e012917ad5a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/n0-computer/sendme/releases/download/v0.37.1/sendme-v0.37.1-darwin-aarch64.tar.gz",
+      "releaseTag": "v0.37.1",
+      "sha256": "3c2502860b87cd2500a3295dbad6fbff3355318122e17f1a1f9638086e4a2bcd",
+      "size": 3802426,
+      "format": "tar.gz",
+      "binaries": {
+        "sendme": {
+          "path": "./sendme",
+          "sha256": "422eda74d65e70bdf4c772c1a3a2abcfdf19f477a3e88c7ba92d652e745ad2b4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/n0-computer/sendme/releases/download/v0.37.1/sendme-v0.37.1-windows-x86_64.zip",
+      "releaseTag": "v0.37.1",
+      "sha256": "fcf37ac1ebfff164f0a8e0cd0bd592531a028dac364ef6b05bff277b3d11faf5",
+      "size": 3924449,
+      "format": "zip",
+      "binaries": {
+        "sendme.exe": {
+          "path": "sendme.exe",
+          "sha256": "f83055bcbc6e6ac35731385e7126cd5653375cc498b571018bfeae38096af50d"
+        }
+      }
+    }
+  }
+}
