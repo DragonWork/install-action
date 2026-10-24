@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "jwtinfo",
+  "version": "0.7.0",
+  "repository": "lmammino/jwtinfo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.7.0/jwtinfo-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "9c2b6808bdb72aefb839f4a9d8b311b272fa868f634607496a8edb3c267189f2",
+      "size": 686728,
+      "format": "tar.xz",
+      "binaries": {
+        "jwtinfo": {
+          "path": "jwtinfo-x86_64-unknown-linux-musl/jwtinfo",
+          "sha256": "15919fa1e62dc64c1aa80ab376e1aaf0e74b85cfe7b174da19854b7a15fb041a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.7.0/jwtinfo-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "e38e7a076560c8c7b2b121e8e3924a3a3979e0a5e560c669f1f25064a7531ab4",
+      "size": 561292,
+      "format": "tar.xz",
+      "binaries": {
+        "jwtinfo": {
+          "path": "jwtinfo-aarch64-unknown-linux-gnu/jwtinfo",
+          "sha256": "658773bd9ebac209ed620a01e4fb2c5f955ba4f0561e5cb38c537bc804f1d2d8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.7.0/jwtinfo-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "e133454c1cb519b7e7832f105d9199c1c8d164a97e03c4e36de5754d4875a09f",
+      "size": 603228,
+      "format": "tar.xz",
+      "binaries": {
+        "jwtinfo": {
+          "path": "jwtinfo-x86_64-apple-darwin/jwtinfo",
+          "sha256": "017f68ee7debe10c302df132626866e1a8cce8eea88692bd7652baaa76b96136"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.7.0/jwtinfo-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "efc12b7e14de597046fde2202a625568d61b62684f9a4dc0996a80aa74190a74",
+      "size": 515536,
+      "format": "tar.xz",
+      "binaries": {
+        "jwtinfo": {
+          "path": "jwtinfo-aarch64-apple-darwin/jwtinfo",
+          "sha256": "33c7c6c82c4535d29fc9cab8371d535c09aadfc1a42c35d1e18b3da44e9193de"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.7.0/jwtinfo-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "60e535fac89a64a76764c9b80d4ceed2ead0cb5286bd4eb649ca0441a639014c",
+      "size": 739551,
+      "format": "zip",
+      "binaries": {
+        "jwtinfo.exe": {
+          "path": "jwtinfo.exe",
+          "sha256": "82092093c79081fd8b4bff9a0177701dce68223415ecc6fbef375207ab9d0276"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.7.0/jwtinfo-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "ab37771beb97d803c08145b678a34decb2abc63c8855d15edb2d65c53f670a6e",
+      "size": 690974,
+      "format": "zip",
+      "binaries": {
+        "jwtinfo.exe": {
+          "path": "jwtinfo.exe",
+          "sha256": "9f5b5d36a3e2b267832ade7f9deab50c2b6edf179bdb70b3e0f0704d53fb88a6"
+        }
+      }
+    }
+  }
+}
