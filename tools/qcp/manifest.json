@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "qcp",
+  "version": "0.9.0",
+  "repository": "crazyscot/qcp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-linux-x86_64-musl.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "7a7545a43812121739e809fe5e2c59ba1a4e397487f775dfe7441e90185d0af5",
+      "size": 3541031,
+      "format": "tar.gz",
+      "binaries": {
+        "qcp": {
+          "path": "qcp-linux-x86_64-musl/qcp",
+          "sha256": "f9752bb7fbb6fe2c12f08339d2574ec9e84eb471037dd5587b071b465324537f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-linux-aarch64-musl.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "95e6b637cc00babac605f6b50147ef9a3adb41fa0ba6264258cfbc0e67cde24a",
+      "size": 3290191,
+      "format": "tar.gz",
+      "binaries": {
+        "qcp": {
+          "path": "qcp-linux-aarch64-musl/qcp",
+          "sha256": "2d948bcaffa9900f3a96e07b3412498e054ca527df9983ac4ece66368e1e053b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-osx-x86_64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "3a5e7702a4ec58f7b920d51f12564f9c4501f59ac66660ae1d98bf04e813b589",
+      "size": 3349569,
+      "format": "tar.gz",
+      "binaries": {
+        "qcp": {
+          "path": "qcp-osx-x86_64/qcp",
+          "sha256": "736d138f2862b372cb8f835cabbb1f6c6e9ef24edaf4befd9a1a86bbcad9a015"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-osx-aarch64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "57403574c06085366b5675bc172db54a159330861c8e3cfcd0b6a25a77aef432",
+      "size": 3162827,
+      "format": "tar.gz",
+      "binaries": {
+        "qcp": {
+          "path": "qcp-osx-aarch64/qcp",
+          "sha256": "3237d0d4e540ca0c7fab98311aabb77fb8dd431cf01f884b85268c7af3b5b889"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-windows-x86_64-mingw.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "1a840f75bb540b30be20dd4930407a0cbaaddcf2d15e4788cbc25baa7db0ca39",
+      "size": 3607216,
+      "format": "zip",
+      "binaries": {
+        "qcp.exe": {
+          "path": "qcp-windows-x86_64-mingw/qcp.exe",
+          "sha256": "c22ea2b6a2c76dc9ecf48fc9fbeff6120d6af5558da49fb3f0d1e918030e14c0"
+        }
+      }
+    }
+  }
+}
