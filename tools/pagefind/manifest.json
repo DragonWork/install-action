@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "pagefind",
+  "version": "1.5.2",
+  "repository": "Pagefind/pagefind",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "afb824a9e7f64905a934900481cea5be679c03975e527329e0e5e6cc70f5feda",
+      "size": 5401609,
+      "format": "tar.gz",
+      "binaries": {
+        "pagefind": {
+          "path": "pagefind",
+          "sha256": "c4b86009ce5420dc2a1748ab2705bef6ba730ed883f684fd52ef6008bd600532"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "f50ec608bcbf431cebd84e0efa3a5b041ee63df2ad81f138023e0cfd2f509424",
+      "size": 5137339,
+      "format": "tar.gz",
+      "binaries": {
+        "pagefind": {
+          "path": "pagefind",
+          "sha256": "91b45c26c08ab9c974de9e2b3f2a37cefc627d0f0b9f5b0baefbf1f4738cca9b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "26f51b4ba921897142338fb13b836420696e251fe197b1782ea7981de311156d",
+      "size": 5055406,
+      "format": "tar.gz",
+      "binaries": {
+        "pagefind": {
+          "path": "pagefind",
+          "sha256": "2637f6445c013d08092abbaf532ccf51ceb49c380181afb16aa0f3f462021f68"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "7286f394a349bd37677d44a65a20078a02b1747da0b0814d83403bf86be17abe",
+      "size": 4977764,
+      "format": "tar.gz",
+      "binaries": {
+        "pagefind": {
+          "path": "pagefind",
+          "sha256": "868ed02b2cbba891f924e48ed8438d3ec8c4140cb1725f5b56c92bc3caad1c7e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "fab125d5e8e2d3481ffe7d36dec6e101f54a6581cd51cf5e2e09220d4bc78e9c",
+      "size": 5192993,
+      "format": "tar.gz",
+      "binaries": {
+        "pagefind.exe": {
+          "path": "pagefind.exe",
+          "sha256": "e1cceb1301f4018390bed013856b8d7da6d522fcf3913ea6a67c3e86cb2601a1"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "c4d869293a9cd5c14c2dff7e7f568b27a5f4acb1124a2097b638cffc0d82b840",
+      "size": 5065876,
+      "format": "tar.gz",
+      "binaries": {
+        "pagefind.exe": {
+          "path": "pagefind.exe",
+          "sha256": "9a767a736fa1cfc8930fb95f6710cdb030ec251180c3815b772c3688f5538f04"
+        }
+      }
+    }
+  }
+}
