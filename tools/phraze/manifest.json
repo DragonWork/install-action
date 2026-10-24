@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "phraze",
+  "version": "0.3.28",
+  "repository": "sts10/phraze",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sts10/phraze/releases/download/v0.3.28/phraze-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.3.28",
+      "sha256": "8fef370f33c026b63f8fa11850ecd9d98f5578c42365226376626b0e122f09f1",
+      "size": 657984,
+      "format": "tar.xz",
+      "binaries": {
+        "phraze": {
+          "path": "phraze-x86_64-unknown-linux-musl/phraze",
+          "sha256": "bc7fc28dfd18853cf42c1d629dfae37e5843177d7e24aec6a9713cd29113ffe3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sts10/phraze/releases/download/v0.3.28/phraze-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.3.28",
+      "sha256": "986a42a9bb97670a4280c7cfcc1ed95a5ded4f90cbaf9b7c7863f03576d0ee86",
+      "size": 585656,
+      "format": "tar.xz",
+      "binaries": {
+        "phraze": {
+          "path": "phraze-aarch64-unknown-linux-gnu/phraze",
+          "sha256": "57e80c18e9a2d8bd9ae780d04cc0dcb617b56ae112924da07ed8904a32f3488d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sts10/phraze/releases/download/v0.3.28/phraze-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.28",
+      "sha256": "ede4536e4c1ae957a209ac93a3f9acb3a232507e01a28b332bf420a3d4373896",
+      "size": 490564,
+      "format": "tar.xz",
+      "binaries": {
+        "phraze": {
+          "path": "phraze-x86_64-apple-darwin/phraze",
+          "sha256": "4e701fc106226754403c0e031ae5fb8381aa64ae0f5453f7e49ba71045a115fc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sts10/phraze/releases/download/v0.3.28/phraze-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.28",
+      "sha256": "2e3649c51a9f4590f13cf62b07fd187ef8a79122ac0838fd08cc21fc56bba542",
+      "size": 460608,
+      "format": "tar.xz",
+      "binaries": {
+        "phraze": {
+          "path": "phraze-aarch64-apple-darwin/phraze",
+          "sha256": "1922acc0e3d6a720457d66c6a0efd05cb39a98436d260188410e1d07013f0709"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sts10/phraze/releases/download/v0.3.28/phraze-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.28",
+      "sha256": "2a1d04789896c9332966e0cf12b76ccea570b5f68c73b5277c658f9e1474a058",
+      "size": 612194,
+      "format": "zip",
+      "binaries": {
+        "phraze.exe": {
+          "path": "phraze.exe",
+          "sha256": "21a24ced72aa425f80472a5d49683a2408e46cb3dacb2c4a19ec410dc45faf5b"
+        }
+      }
+    }
+  }
+}
