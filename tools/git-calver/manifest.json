@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "git-calver",
+  "version": "24.1.1",
+  "repository": "takebayashi/git-calver",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/takebayashi/git-calver/releases/download/24.1.1/git-calver-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "24.1.1",
+      "sha256": "e2e39a0a67520feefd2339d736a2fc1d36a8bb9187aa476c05fea898ff953f1a",
+      "size": 1583405,
+      "format": "zip",
+      "binaries": {
+        "git-calver": {
+          "path": "git-calver",
+          "sha256": "04ab9aa94a0e32d4d7173e303ebf67b659fc981e4f025bbe703aefe099811414"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/takebayashi/git-calver/releases/download/24.1.1/git-calver-x86_64-apple-darwin.zip",
+      "releaseTag": "24.1.1",
+      "sha256": "2d0592b0328de308f2f1f2e89626c4221ac07529a846819422320d040569b6ae",
+      "size": 694620,
+      "format": "zip",
+      "binaries": {
+        "git-calver": {
+          "path": "git-calver",
+          "sha256": "6f947a2c01e37a715350c14889fb5334e3d8691d5b8d1251aec1f653b3ae961e"
+        }
+      }
+    }
+  }
+}
