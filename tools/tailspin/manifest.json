@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tailspin",
+  "version": "7.0.0",
+  "repository": "bensadeh/tailspin",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bensadeh/tailspin/releases/download/7.0.0/tailspin-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "7.0.0",
+      "sha256": "f2de9268dc24811908e63a170507d860ac90c7f6a2f1937f59e5cca78cef21a2",
+      "size": 1407130,
+      "format": "tar.gz",
+      "binaries": {
+        "tspin": {
+          "path": "tspin",
+          "sha256": "c5209425adc366db114b174fb353a04b04b57371524583e382fa18a38f32c0d2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bensadeh/tailspin/releases/download/7.0.0/tailspin-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "7.0.0",
+      "sha256": "de78d9e9204af6817cc3dae342e92d41c41975c2bb11ae1abeabf30c43bc86ad",
+      "size": 1259162,
+      "format": "tar.gz",
+      "binaries": {
+        "tspin": {
+          "path": "tspin",
+          "sha256": "d2849b281177bffc22e732dc493aa1d6ac988005f90379f560cd8ef67125c852"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bensadeh/tailspin/releases/download/7.0.0/tailspin-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "7.0.0",
+      "sha256": "27e38a1e132234a208cf228b0671b27d59a0484b54d4b4fe356d2cd4ed78f41e",
+      "size": 1264283,
+      "format": "tar.gz",
+      "binaries": {
+        "tspin": {
+          "path": "tspin",
+          "sha256": "74e8f89ce7feb8a5728eaa6fcd824ee5d4ba6b8039e0d4f19f290c454d7c3af2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bensadeh/tailspin/releases/download/7.0.0/tailspin-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "7.0.0",
+      "sha256": "8a815e7c2449c8ba3d25a475cdd92d9d9127b991d7b46e73623d2992e4bb9ce4",
+      "size": 1168679,
+      "format": "tar.gz",
+      "binaries": {
+        "tspin": {
+          "path": "tspin",
+          "sha256": "96175303f3be405f2631a2d4ebdf6affa924b189a8da3d5371bc98b59bcc2471"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bensadeh/tailspin/releases/download/7.0.0/tailspin-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "7.0.0",
+      "sha256": "69f6301c93288a17806a7ddbf46bb0f33f400bc4059bf12bb7b94d38b2aa9bd9",
+      "size": 1264779,
+      "format": "zip",
+      "binaries": {
+        "tspin.exe": {
+          "path": "tspin.exe",
+          "sha256": "5387fb2f2082b0d130390bec913b73f9d198169af6918d0d50cc37c87e392f41"
+        }
+      }
+    }
+  }
+}
