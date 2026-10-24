@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "packslip",
+  "version": "1.11.0",
+  "repository": "jdx/packslip",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jdx/packslip/releases/download/v1.11.0/packslip-v1.11.0-linux-x64.tar.xz",
+      "releaseTag": "v1.11.0",
+      "sha256": "0ddf1c710c05a03a0a7f2717233500f0745501723d3c699881f7f6e643b40dd4",
+      "size": 3896820,
+      "format": "tar.xz",
+      "binaries": {
+        "packslip": {
+          "path": "packslip-v1.11.0-linux-x64/packslip",
+          "sha256": "4988a8bba0d62c8c53b58e41dff98af0e38001bf214311ea52b759166b7506fe"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jdx/packslip/releases/download/v1.11.0/packslip-v1.11.0-linux-arm64.tar.xz",
+      "releaseTag": "v1.11.0",
+      "sha256": "42574c6cbb44483ba57ce6ce22069be827c5f2ea37246eae5f47a398200fb155",
+      "size": 3342124,
+      "format": "tar.xz",
+      "binaries": {
+        "packslip": {
+          "path": "packslip-v1.11.0-linux-arm64/packslip",
+          "sha256": "f44fb91798680c9089ea2401d8edc320e43bcea27073e15f610c3bb0a0253196"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jdx/packslip/releases/download/v1.11.0/packslip-v1.11.0-darwin-arm64.tar.xz",
+      "releaseTag": "v1.11.0",
+      "sha256": "4031d37e8aecd0c72668a080b0ca63d4c27f534955512f1bbd0f84f234e6bb28",
+      "size": 3221896,
+      "format": "tar.xz",
+      "binaries": {
+        "packslip": {
+          "path": "packslip-v1.11.0-darwin-arm64/packslip",
+          "sha256": "66385c5e9fab715c816632c7b09ba0da6ccd636142534af0ba6ab663edce9b44"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jdx/packslip/releases/download/v1.11.0/packslip-v1.11.0-windows-x64.zip",
+      "releaseTag": "v1.11.0",
+      "sha256": "88e90a7ba0a8000b9953d22658ea9e51c7daa09fa620c123ec05f6f262b3d9b7",
+      "size": 5143380,
+      "format": "zip",
+      "binaries": {
+        "packslip.exe": {
+          "path": "packslip-v1.11.0-windows-x64/packslip.exe",
+          "sha256": "4cb264c0a144d8ce19b0bdb27f4e31c369faf6a7ee26f05313d8449f767acc54"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/jdx/packslip/releases/download/v1.11.0/packslip-v1.11.0-windows-arm64.zip",
+      "releaseTag": "v1.11.0",
+      "sha256": "d5e2c034464de668946a5e28e08b69de5b01adff30c0215a06171e734a9e70b2",
+      "size": 4853967,
+      "format": "zip",
+      "binaries": {
+        "packslip.exe": {
+          "path": "packslip-v1.11.0-windows-arm64/packslip.exe",
+          "sha256": "b1b97d6491d5c44cb61b5b1365fc19393640509364c854b90b8788a3611fd6ff"
+        }
+      }
+    }
+  }
+}
