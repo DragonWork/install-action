@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "clouddns-nat-helper",
+  "version": "0.2.18",
+  "repository": "spacebird-dev/clouddns-nat-helper",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/spacebird-dev/clouddns-nat-helper/releases/download/v0.2.18/clouddns-nat-helper-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.18",
+      "sha256": "d0035a01e126c6c15ff32032ee891addf0fcfbecc2b1423f230a19a8b43135b2",
+      "size": 2485399,
+      "format": "tar.gz",
+      "binaries": {
+        "clouddns-nat-helper": {
+          "path": "clouddns-nat-helper/clouddns-nat-helper",
+          "sha256": "13bc550f18f38eb611ca7d8d9fc2e2afc18cc693c5b99da2681cdf2b48d1120d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/spacebird-dev/clouddns-nat-helper/releases/download/v0.2.18/clouddns-nat-helper-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.18",
+      "sha256": "e12af8a9e2e0a7ceae28197c327570f4eb7cc49fdd6c845e856943b9c1d5795e",
+      "size": 2358396,
+      "format": "tar.gz",
+      "binaries": {
+        "clouddns-nat-helper": {
+          "path": "clouddns-nat-helper/clouddns-nat-helper",
+          "sha256": "a3d0a454e4adc10944e204e238bfccd90f818bfa2f503897259dd2adc05712f5"
+        }
+      }
+    }
+  }
+}
