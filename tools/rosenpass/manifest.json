@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rosenpass",
+  "version": "0.2.3",
+  "repository": "rosenpass/rosenpass",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rosenpass/rosenpass/releases/download/v0.2.3/rosenpass-x86_64-linux-0.2.3.tar",
+      "sha256": "53158a8c339e3be1a9520b91c33a9e83eab05ea49af346cdb7e6eec522f2318b",
+      "size": 4802560,
+      "format": "tar",
+      "releaseTag": "v0.2.3",
+      "binaries": {
+        "rosenpass": {
+          "path": "bin/rosenpass",
+          "sha256": "76eab37359084d11c4abd4f3ed9d0e1994db5b6b3bdf7b4744f082ec410a103b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rosenpass/rosenpass/releases/download/v0.2.3/rosenpass-aarch64-darwin-0.2.3.tar",
+      "sha256": "e542b8c2677570f605010c18eea9d564ba0aee4cefed37f4aca1d439dead4f33",
+      "size": 3543040,
+      "format": "tar",
+      "releaseTag": "v0.2.3",
+      "binaries": {
+        "rosenpass": {
+          "path": "bin/rosenpass",
+          "sha256": "f83cede2f939c074f97ecb928213edc0e10a786c9853ea7bc01c9d9e0fc81529"
+        }
+      }
+    }
+  }
+}
