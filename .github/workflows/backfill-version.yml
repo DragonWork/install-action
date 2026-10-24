@@ -17,6 +17,7 @@ permissions:
 
 concurrency:
   group: crate-publication
+  queue: max
   cancel-in-progress: false
 
 env:
