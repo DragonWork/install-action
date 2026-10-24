@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "upnp-daemon",
+  "version": "0.7.2",
+  "repository": "FloGa/upnp-daemon",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FloGa/upnp-daemon/releases/download/0.7.2/upnp-daemon-x86_64-unknown-linux-musl-0.7.2.tar.gz",
+      "releaseTag": "0.7.2",
+      "sha256": "881f7c99027566d0cd709487087ee9afa9346810f28bedd9afabeb97cb6acb62",
+      "size": 1392130,
+      "format": "tar.gz",
+      "binaries": {
+        "upnp-daemon": {
+          "path": "upnp-daemon",
+          "sha256": "8ca67cc9aa3ef3bf9be77aea67d8844b613c483289416ea8cf5fc522eaa7ab43"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FloGa/upnp-daemon/releases/download/0.7.2/upnp-daemon-aarch64-unknown-linux-gnu-0.7.2.tar.gz",
+      "releaseTag": "0.7.2",
+      "sha256": "d36a3671eeefd537cd30a3439c035d9278245e08df473d9ed432a27e2ad359a3",
+      "size": 1215016,
+      "format": "tar.gz",
+      "binaries": {
+        "upnp-daemon": {
+          "path": "upnp-daemon",
+          "sha256": "d2ceb47b454af288372cf8d09e3be2e7e970f7c449e9c5b32968b50a1527d8a1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FloGa/upnp-daemon/releases/download/0.7.2/upnp-daemon-x86_64-apple-darwin-0.7.2.tar.gz",
+      "releaseTag": "0.7.2",
+      "sha256": "22fb19847ad2e1b34549197c1304ca544236eaa293b34d9f181e5aa5387573a8",
+      "size": 1280084,
+      "format": "tar.gz",
+      "binaries": {
+        "upnp-daemon": {
+          "path": "upnp-daemon",
+          "sha256": "53d2ac307b3948c87b95d6326abfa8ab5cda7a6c7459ad0a6a60c5950c6fbf40"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FloGa/upnp-daemon/releases/download/0.7.2/upnp-daemon-aarch64-apple-darwin-0.7.2.tar.gz",
+      "releaseTag": "0.7.2",
+      "sha256": "de48a9876c9401ede399ab1006745cf173054900d4c58ebe81db4d9cdcfcd6be",
+      "size": 1202294,
+      "format": "tar.gz",
+      "binaries": {
+        "upnp-daemon": {
+          "path": "upnp-daemon",
+          "sha256": "11dd7f667aa3619e1991a54555d6bbf979b7cbb35cb2b050bbd9dd5f222cc339"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/FloGa/upnp-daemon/releases/download/0.7.2/upnp-daemon-x86_64-pc-windows-msvc-0.7.2.zip",
+      "releaseTag": "0.7.2",
+      "sha256": "a315ddaeebc328bb0bca1fd8bc3af945926b11ddff62a88e6fa13e47115411c8",
+      "size": 1150698,
+      "format": "zip",
+      "binaries": {
+        "upnp-daemon.exe": {
+          "path": "upnp-daemon.exe",
+          "sha256": "56a165fe3daf6402070487cbc5a61e4fe44be6ad7c819299a4decc698e709ecd"
+        }
+      }
+    }
+  }
+}
