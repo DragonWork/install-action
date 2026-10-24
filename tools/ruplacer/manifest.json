@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ruplacer",
+  "version": "0.10.0",
+  "repository": "your-tools/ruplacer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/your-tools/ruplacer/releases/download/v0.10.0/ruplacer-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.10.0",
+      "sha256": "74a513ef870cd5ac50d05494962c92b5e08ad695c56e670fbed2565bbabafed4",
+      "size": 1011500,
+      "format": "tar.xz",
+      "binaries": {
+        "ruplacer": {
+          "path": "ruplacer-x86_64-unknown-linux-gnu/ruplacer",
+          "sha256": "03ef4b18ea97500c4fe3c981988a8e82c2a1c4157ed4f6d5b68393f0e7db1a7c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/your-tools/ruplacer/releases/download/v0.10.0/ruplacer-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.0",
+      "sha256": "fda67888412076febf0daa731d2478f37bb8b0bb1ebb9eb43b3f00346d592c5d",
+      "size": 917964,
+      "format": "tar.xz",
+      "binaries": {
+        "ruplacer": {
+          "path": "ruplacer-x86_64-apple-darwin/ruplacer",
+          "sha256": "7257b58fa646e89efbb5dece1eedab206cedf68bc968e909d0b68acf8eb000cb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/your-tools/ruplacer/releases/download/v0.10.0/ruplacer-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.0",
+      "sha256": "3c1be72733790ec584a0be4b3aa54cdc3288f87244124d0b72b85315e96832f0",
+      "size": 821592,
+      "format": "tar.xz",
+      "binaries": {
+        "ruplacer": {
+          "path": "ruplacer-aarch64-apple-darwin/ruplacer",
+          "sha256": "5884755649eee7822d96e74e70f293f0557a894eb1905ac7288531dcc1f9ac88"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/your-tools/ruplacer/releases/download/v0.10.0/ruplacer-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "87fe8c5eb15f34161623e9f96354d2e0da92ad927b8340ce97462e2852ee62ec",
+      "size": 3129901,
+      "format": "zip",
+      "binaries": {
+        "ruplacer.exe": {
+          "path": "ruplacer.exe",
+          "sha256": "0ab04fcc248ca9ab84f5004e01b2091d160b3a61e7f7420422a85cd47d591fdd"
+        }
+      }
+    }
+  }
+}
