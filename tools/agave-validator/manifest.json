@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "agave-validator",
+  "version": "4.3.2",
+  "repository": "anza-xyz/agave",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/anza-xyz/agave/releases/download/v4.3.2/solana-release-x86_64-pc-windows-msvc.tar.bz2",
+      "sha256": "ce29128589045fe1964e9d5c064ea5f2a58151f707bae4d5bab345a3725e0f09",
+      "size": 110665327,
+      "format": "tar.bz2",
+      "releaseTag": "v4.3.2",
+      "binaries": {
+        "agave-validator.exe": {
+          "path": "solana-release/bin/agave-validator.exe",
+          "sha256": "d2c3ea34d1f2aee350eaa4d54871a7f9d3a43ce169cf83f2cbebe02d679f55ac"
+        },
+        "solana-test-validator.exe": {
+          "path": "solana-release/bin/solana-test-validator.exe",
+          "sha256": "23611fe37c72cbfabb68e39443509f180eb70dc56a299d50274653eebc5ecab5"
+        }
+      }
+    }
+  }
+}
