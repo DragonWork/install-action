@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "daily_strip",
+  "version": "0.1.16",
+  "repository": "newfla/daily-strip",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/newfla/daily-strip/releases/download/v0.1.16/daily_strip-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.16",
+      "sha256": "64c18cc5bb3e3ce88e47b5fab22d67f8a9b92f5efb8700da069dc2ffdbc4c395",
+      "size": 7767212,
+      "format": "tar.xz",
+      "binaries": {
+        "daily_strip": {
+          "path": "daily_strip-x86_64-unknown-linux-gnu/daily_strip",
+          "sha256": "5887c6547116643c6e1acb5c3a471e72436844926aa8ab3fcb378e9828357ab4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/newfla/daily-strip/releases/download/v0.1.16/daily_strip-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.16",
+      "sha256": "69f5605e7f1609f2b10fdc4eee2051db92ca0c92ac7f2074b13050faf1b0cc92",
+      "size": 5802440,
+      "format": "tar.xz",
+      "binaries": {
+        "daily_strip": {
+          "path": "daily_strip-x86_64-apple-darwin/daily_strip",
+          "sha256": "6d5f7366e8261f2bab8962b3a48f4bd67fa15f3db6433d1a0de714d4131a7e2e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/newfla/daily-strip/releases/download/v0.1.16/daily_strip-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.16",
+      "sha256": "924eb52947216dd40f769308cebb52b28d54d31f5e5bd6fa0e4e5e987d9a2c6a",
+      "size": 5234008,
+      "format": "tar.xz",
+      "binaries": {
+        "daily_strip": {
+          "path": "daily_strip-aarch64-apple-darwin/daily_strip",
+          "sha256": "1f5ea7966f95e1a0fecd021f245d5ac2f733507875062365b566a1cf30d6cf1d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/newfla/daily-strip/releases/download/v0.1.16/daily_strip-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.16",
+      "sha256": "963a178ec7fcf2ffd5306a0e4fff6433dd6b71cf1141363f25f8dd5e1b652083",
+      "size": 8245706,
+      "format": "zip",
+      "binaries": {
+        "daily_strip.exe": {
+          "path": "daily_strip.exe",
+          "sha256": "b4fcf2bd786cd4977b28d649a89ac652297b72c5d42fcb39586f80b3b3a6358b"
+        }
+      }
+    }
+  }
+}
