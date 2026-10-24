@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "diffedit3",
+  "version": "0.6.1",
+  "repository": "ilyagr/diffedit3",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ilyagr/diffedit3/releases/download/v0.6.1/diffedit3-v0.6.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "c5bd3c1af9f9eed936194397270447ff48cd645842a76b3f0bf2cda4bb69f6d1",
+      "size": 2783719,
+      "format": "tar.gz",
+      "binaries": {
+        "diffedit3": {
+          "path": "diffedit3",
+          "sha256": "71a2ddfbf4c91d376058ca555e734c4b0971233018624a7a8303cabf92c33d22"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ilyagr/diffedit3/releases/download/v0.6.1/diffedit3-v0.6.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "2274db1aa0f6e251365283cfe42a985f3dd966d7a84e7cea480fb79d4dd595fb",
+      "size": 2514327,
+      "format": "tar.gz",
+      "binaries": {
+        "diffedit3": {
+          "path": "diffedit3",
+          "sha256": "c90c984c466770671a28f94c5e553844565b28310b2d610342391b9a29c5ddf6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ilyagr/diffedit3/releases/download/v0.6.1/diffedit3-v0.6.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "28bdec508b96d842ebc2c316723d36c1e09b6619ca1abaf8af3b13b21b5d837c",
+      "size": 2410084,
+      "format": "tar.gz",
+      "binaries": {
+        "diffedit3": {
+          "path": "diffedit3",
+          "sha256": "7ecdc1d9d9fe53462c33008fc5284d9817f22c69c85c247d7115f4ba1bfeebea"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ilyagr/diffedit3/releases/download/v0.6.1/diffedit3-v0.6.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "d2ff623fc9307bd3001a620822ce0715474db1257bda1d81243e314745deed24",
+      "size": 2037933,
+      "format": "zip",
+      "binaries": {
+        "diffedit3.exe": {
+          "path": "diffedit3.exe",
+          "sha256": "acbeb89d0d1969317bebd0897119ca352ca8704a2904e059e7998d192554e505"
+        }
+      }
+    }
+  }
+}
