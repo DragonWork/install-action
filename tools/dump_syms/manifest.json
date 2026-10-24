@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dump_syms",
+  "version": "2.3.9",
+  "repository": "mozilla/dump_syms",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mozilla/dump_syms/releases/download/v2.3.9/dump_syms-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.3.9",
+      "sha256": "0fc852a86b00337407d9d423cc388a24c3b489ccaaedcf92623cad57af5ca8ad",
+      "size": 3595000,
+      "format": "tar.xz",
+      "binaries": {
+        "dump_syms": {
+          "path": "dump_syms-x86_64-unknown-linux-gnu/dump_syms",
+          "sha256": "7c8de6b07be9e3260a947fe428f3b19ef200d8c939c3c9d9e1462f028281de74"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mozilla/dump_syms/releases/download/v2.3.9/dump_syms-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.3.9",
+      "sha256": "1b8d6ab436fbfeb9820d4a21413cc77c50c6a4221cff25a830f5d53ba0aaa732",
+      "size": 3329416,
+      "format": "tar.xz",
+      "binaries": {
+        "dump_syms": {
+          "path": "dump_syms-aarch64-unknown-linux-gnu/dump_syms",
+          "sha256": "5bb65968a1d30db09f9c0a20bc80651fdef3e6c6e10ed9e47b283d710b312066"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mozilla/dump_syms/releases/download/v2.3.9/dump_syms-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v2.3.9",
+      "sha256": "e255caf99e403b31613c756babcead8463f6e600c1a9e1e5531fbe27a7e29cf2",
+      "size": 3388248,
+      "format": "tar.xz",
+      "binaries": {
+        "dump_syms": {
+          "path": "dump_syms-x86_64-apple-darwin/dump_syms",
+          "sha256": "65ae29e5626d48ffde7a2f93aa50524f86cbd53aabad78ae36bbc6c4e8e4aca2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mozilla/dump_syms/releases/download/v2.3.9/dump_syms-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2.3.9",
+      "sha256": "4945b7e5de0d7ad403822635f0fb912b69990fc412741ff2b7b512e168c40a32",
+      "size": 3130060,
+      "format": "tar.xz",
+      "binaries": {
+        "dump_syms": {
+          "path": "dump_syms-aarch64-apple-darwin/dump_syms",
+          "sha256": "177d6d978cb7fef0e5f7e7f7cbafbfb93e540c92c40d619ddac85cbc33b2c6b6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mozilla/dump_syms/releases/download/v2.3.9/dump_syms-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.3.9",
+      "sha256": "bdf48486220708808a3e00aec78856ee1cce096189d47a1e2cb1c635f93bacc7",
+      "size": 4465848,
+      "format": "zip",
+      "binaries": {
+        "dump_syms.exe": {
+          "path": "dump_syms.exe",
+          "sha256": "6a7a1fb7e71e7bb55d85e3548fc1e2126440e488290acb0fb3c66f7307d48f91"
+        }
+      }
+    }
+  }
+}
