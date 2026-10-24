@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "croque",
+  "version": "0.10.0",
+  "repository": "Ryooooooga/croque",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Ryooooooga/croque/releases/download/v0.10.0/croque-v0.10.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "1d54a58790c413a6b5dc81b64747b32b1323dc18021dc7665d64cd94beea5838",
+      "size": 1276807,
+      "format": "tar.gz",
+      "binaries": {
+        "croque": {
+          "path": "croque",
+          "sha256": "06c0d96e7c78b66bde50cb6aa250aece31381f575a91d43ca8cfb039caecb06a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Ryooooooga/croque/releases/download/v0.10.0/croque-v0.10.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "39562df34656171b299c7457d7ed39beb0deb074d7366ef0d92f83b1d9d64c2d",
+      "size": 1357515,
+      "format": "tar.gz",
+      "binaries": {
+        "croque": {
+          "path": "croque",
+          "sha256": "176bff51d15952b4922e22aa9b56da3a6e77ff6b2906d8d5091d8d43bcdb3e56"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Ryooooooga/croque/releases/download/v0.10.0/croque-v0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "fcf5a748094aedb40f5ad49448d3f4eee2a771376db0e24b6ae13cce5af2bda4",
+      "size": 1169364,
+      "format": "tar.gz",
+      "binaries": {
+        "croque": {
+          "path": "croque",
+          "sha256": "29dadf4c7eea39899e274e1cc8e4ba2d8e53181808890e4945403737a0dc2b3b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Ryooooooga/croque/releases/download/v0.10.0/croque-v0.10.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "f344a180940b35a5a420d261b2a07f589342c81b029fc18733aab746297e307e",
+      "size": 1086369,
+      "format": "tar.gz",
+      "binaries": {
+        "croque": {
+          "path": "croque",
+          "sha256": "79e72fc5bdd19450d69657d87b0f6a299f63dcf9e1f36a167c54322be977ffb0"
+        }
+      }
+    }
+  }
+}
