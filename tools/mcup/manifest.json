@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mcup",
+  "version": "0.2.9",
+  "repository": "hpehl/mcup",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hpehl/mcup/releases/download/v0.2.9/mcup-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.9",
+      "sha256": "2c8ebdc74b7c03ffbff33c32dcbf70f3a688197b5ca0a0729be8f29c7d771ca6",
+      "size": 604984,
+      "format": "tar.gz",
+      "binaries": {
+        "mcup": {
+          "path": "mcup",
+          "sha256": "bf4e5d5d26f88fa054c3a15dea99e1f4a0a09d9c68f9efb85a2753cb5115412c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hpehl/mcup/releases/download/v0.2.9/mcup-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.9",
+      "sha256": "441a754534a9a327770e748ec0b10b1b33e6bd12f2f980b840d6d7cb9f3e22d2",
+      "size": 572862,
+      "format": "tar.gz",
+      "binaries": {
+        "mcup": {
+          "path": "mcup",
+          "sha256": "b070e16622380f68756f58d25efcc25d74d0e6cea30715d2033071eadd5c2dc1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hpehl/mcup/releases/download/v0.2.9/mcup-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.9",
+      "sha256": "beec1c24a388c4dc2721665482ad4903eb0f32be4dc922515948d964de63462b",
+      "size": 482629,
+      "format": "zip",
+      "binaries": {
+        "mcup.exe": {
+          "path": "mcup.exe",
+          "sha256": "4f839c0d9246668aaae1262d7db678bf0e44abf6eb44cc6ddc9ef8bf385d2cae"
+        }
+      }
+    }
+  }
+}
