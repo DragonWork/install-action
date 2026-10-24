@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "odoo-lsp",
+  "version": "0.6.2",
+  "repository": "Desdaemon/odoo-lsp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Desdaemon/odoo-lsp/releases/download/v0.6.2/odoo-lsp-x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "v0.6.2",
+      "sha256": "b543a80cd9eab93fc567160f368015af89a3574e41c62ef8b9f6a9c84befdec3",
+      "size": 18658660,
+      "format": "tar.gz",
+      "binaries": {
+        "odoo-lsp": {
+          "path": "odoo-lsp",
+          "sha256": "575ab0d04f4d852534ad266a0d33075a5531aed5c1bae7ca9f2235d92823483b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Desdaemon/odoo-lsp/releases/download/v0.6.2/odoo-lsp-x86_64-apple-darwin.tgz",
+      "releaseTag": "v0.6.2",
+      "sha256": "26d802b4ded176f5d004e3a9203487fd9be43ea34e87f9494039c2b1313753dc",
+      "size": 3584159,
+      "format": "tar.gz",
+      "binaries": {
+        "odoo-lsp": {
+          "path": "odoo-lsp",
+          "sha256": "716efca16b7edde6daf94f3232bab3551823239a48bc92ffe3fcdd03d4dea54a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Desdaemon/odoo-lsp/releases/download/v0.6.2/odoo-lsp-aarch64-apple-darwin.tgz",
+      "releaseTag": "v0.6.2",
+      "sha256": "9c56b3c36cd352c75b7f2abd825e878fb56b905779607d252d0991b31585830c",
+      "size": 3376710,
+      "format": "tar.gz",
+      "binaries": {
+        "odoo-lsp": {
+          "path": "odoo-lsp",
+          "sha256": "7b6505567c4361798a9c0857d11a05eab4653942b70fc033bfdfe082c9a8148c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Desdaemon/odoo-lsp/releases/download/v0.6.2/odoo-lsp-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.2",
+      "sha256": "dbd293c84be3cba0f91e9e03aa7cc12c56b2083fcb276fbb441458e81baeb2e2",
+      "size": 23049068,
+      "format": "zip",
+      "binaries": {
+        "odoo-lsp.exe": {
+          "path": "odoo-lsp.exe",
+          "sha256": "83d499b3ee7235b9c91e165af5e4c7551bf1fd604d8bf093747827ce5d68cac0"
+        }
+      }
+    }
+  }
+}
