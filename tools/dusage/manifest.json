@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dusage",
+  "version": "0.4.1",
+  "repository": "mihaigalos/dusage",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mihaigalos/dusage/releases/download/0.4.1/dusage-0.4.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.1",
+      "sha256": "633da4a2dd6a5e5ca073e410d774002705a078a6a41ca380f9ff8a87af96ee3d",
+      "size": 464063,
+      "format": "tar.gz",
+      "binaries": {
+        "dusage": {
+          "path": "dusage",
+          "sha256": "5c398ccb16b37d1bfaf0fecf402a223f12f89be5c87b007f249507f10c002a94"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mihaigalos/dusage/releases/download/0.4.1/dusage-0.4.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.4.1",
+      "sha256": "e466e9d3857436f08bf62e402e9bff625534cc944723832918fbe454daef867a",
+      "size": 384359,
+      "format": "tar.gz",
+      "binaries": {
+        "dusage": {
+          "path": "dusage",
+          "sha256": "0382278b7e5089c2059eff19f8efb1d42f02e7b68429b6afa7d9895b53f2d6da"
+        }
+      }
+    }
+  }
+}
