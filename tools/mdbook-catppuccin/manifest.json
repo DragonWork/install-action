@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mdbook-catppuccin",
+  "version": "3.0.0",
+  "repository": "catppuccin/mdBook",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/catppuccin/mdBook/releases/download/v3.0.0/mdbook-catppuccin-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "8d49fcb3fef32ec3c6db0de15cf88aed85a03c67ae98fd5d5d14b389cee0c35f",
+      "size": 614872,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-catppuccin": {
+          "path": "mdbook-catppuccin-x86_64-unknown-linux-gnu/mdbook-catppuccin",
+          "sha256": "a1b8488beecf3a4029a54c81534cfd8f40afd31772b92248e3b36b66c37c9ce3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/catppuccin/mdBook/releases/download/v3.0.0/mdbook-catppuccin-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "acc696d5b8e4bccb38c5c6e1a91091b6414a8ee4b390846173b21d3282e9f865",
+      "size": 571927,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-catppuccin": {
+          "path": "mdbook-catppuccin-x86_64-apple-darwin/mdbook-catppuccin",
+          "sha256": "ea3c15fd3ca97cfd3fc6b12962cd180df448578b8a8a8d185c6d93eae02e0e12"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/catppuccin/mdBook/releases/download/v3.0.0/mdbook-catppuccin-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.0.0",
+      "sha256": "8b723335400d4366430db98b70ba4185c64c74f8263fd26e22c36464e9d8c78e",
+      "size": 507702,
+      "format": "zip",
+      "binaries": {
+        "mdbook-catppuccin.exe": {
+          "path": "mdbook-catppuccin-x86_64-pc-windows-msvc/mdbook-catppuccin.exe",
+          "sha256": "9a64a3b7e8630ca604eb661b7ec47303383ccaecd22458b6c62ce4a6ea535c57"
+        }
+      }
+    }
+  }
+}
