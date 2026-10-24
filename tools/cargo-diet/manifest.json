@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-diet",
+  "version": "1.4.1",
+  "repository": "the-lean-crate/cargo-diet",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/the-lean-crate/cargo-diet/releases/download/v1.4.1/cargo-diet-v1.4.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "4eba5abf73093ba530154ef718f3acbccbaf4b20672f5ce10fd574a52a15e18b",
+      "size": 1149529,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-diet": {
+          "path": "cargo-diet-v1.4.1-x86_64-unknown-linux-musl/cargo-diet",
+          "sha256": "9472c8dd87688f4483cae3b7c8b50561a3d22453aa4a0af83aefdb9d7f61943d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/the-lean-crate/cargo-diet/releases/download/v1.4.1/cargo-diet-v1.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "05e9f43ac927ffe9a15a4d3a590b809428d991fd05a884831aabd3aaf98fa6c6",
+      "size": 1016716,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-diet": {
+          "path": "cargo-diet-v1.4.1-x86_64-apple-darwin/cargo-diet",
+          "sha256": "e68d89c6ea61e0125676ae54ba999ccc3251d76da1a2d4fb23abdb808406ba6b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/the-lean-crate/cargo-diet/releases/download/v1.4.1/cargo-diet-v1.4.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.4.1",
+      "sha256": "6bc49d1b728acc04f8bc18ab79161c97e803c434bcc3a7f399a90675c018e864",
+      "size": 917682,
+      "format": "zip",
+      "binaries": {
+        "cargo-diet.exe": {
+          "path": "cargo-diet-v1.4.1-x86_64-pc-windows-msvc/cargo-diet.exe",
+          "sha256": "8acb49eadf6cb319f09a8ec051b29c23525ed2a8168a46a5157f1413c4fc6776"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/the-lean-crate/cargo-diet/releases/download/v1.4.1/cargo-diet-v1.4.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.4.1",
+      "sha256": "19b69975a14bec633fecf770d8671775119cd672458a023392c82ce5e0e08fc7",
+      "size": 917693,
+      "format": "zip",
+      "binaries": {
+        "cargo-diet.exe": {
+          "path": "cargo-diet-v1.4.1-aarch64-pc-windows-msvc/cargo-diet.exe",
+          "sha256": "40b04bdb556719187de2f7217a945847f20bb7f961f40382528653e3b210fad4"
+        }
+      }
+    }
+  }
+}
