@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "wacker-cli",
+  "version": "0.10.0",
+  "repository": "wacker-dev/wacker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wacker-dev/wacker/releases/download/v0.10.0/wacker-v0.10.0-x86_64-linux.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "a0de43f7d53ba5074cb2fdfb96c2ac110cb63998e91df00b2a95c918063ddafb",
+      "size": 3304584,
+      "format": "tar.gz",
+      "binaries": {
+        "wacker": {
+          "path": "wacker",
+          "sha256": "d8f040433d11f275f2dcabb91f76a12d318be0a01821ceb9abe2b7f2b91b8a0d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wacker-dev/wacker/releases/download/v0.10.0/wacker-v0.10.0-aarch64-linux.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "88730973619df2f3a6f643a1eca567c6261046ad9975d39c08eaea66d62e1610",
+      "size": 3040358,
+      "format": "tar.gz",
+      "binaries": {
+        "wacker": {
+          "path": "wacker",
+          "sha256": "9e1c758d1efc4256cf9a43054f06ac5857bb043f383c2e0af00a7c5c9e7875c2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wacker-dev/wacker/releases/download/v0.10.0/wacker-v0.10.0-x86_64-macos.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "302eaf8f02a47368fcf0b6d1800e379786fc6ec78ca206569852333b2e07efe9",
+      "size": 1999054,
+      "format": "tar.gz",
+      "binaries": {
+        "wacker": {
+          "path": "wacker",
+          "sha256": "a0265feeedc5ba2dbd58c83a0681cb523c79a4111c580d4b08d5a01fe80f2287"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wacker-dev/wacker/releases/download/v0.10.0/wacker-v0.10.0-aarch64-macos.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "3c542383dc00887df9a98e7c2b74c31e0541c5fb39bf8e65a7876ecaa09ad177",
+      "size": 1846462,
+      "format": "tar.gz",
+      "binaries": {
+        "wacker": {
+          "path": "wacker",
+          "sha256": "ee13c8ad446aac8fef0a1d9342bb1446a81b491bdbcfcc7c2510b27647a34191"
+        }
+      }
+    }
+  }
+}
