@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "hipcheck",
+  "version": "3.7.0",
+  "repository": "mitre/hipcheck",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mitre/hipcheck/releases/download/hipcheck-v3.7.0/hipcheck-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "hipcheck-v3.7.0",
+      "sha256": "1af499a8c00cd6fc38b27af09863b3fb49d505133be8f269b9f9ea9a72f63d6e",
+      "size": 7338192,
+      "format": "tar.xz",
+      "binaries": {
+        "hc": {
+          "path": "hipcheck-x86_64-unknown-linux-gnu/hc",
+          "sha256": "00d0f3a9049856ad6184b311ef49d9f80d13083cd5ad46afca4f5d1eb59e554d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mitre/hipcheck/releases/download/hipcheck-v3.7.0/hipcheck-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "hipcheck-v3.7.0",
+      "sha256": "0cb13ea3496d1a922978d0050e1f670ef717d7a1a7ae7faa7a3b71704712ad1a",
+      "size": 6414848,
+      "format": "tar.xz",
+      "binaries": {
+        "hc": {
+          "path": "hipcheck-x86_64-apple-darwin/hc",
+          "sha256": "4957041f6f245bc78232773c51388bca8ef2241f33fbd67c262253d0d990ddaa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mitre/hipcheck/releases/download/hipcheck-v3.7.0/hipcheck-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "hipcheck-v3.7.0",
+      "sha256": "f16ac268cae4807a76cfa181b7c36452dbaf5fd98273c700bee81514ef20fe4d",
+      "size": 6365180,
+      "format": "tar.xz",
+      "binaries": {
+        "hc": {
+          "path": "hipcheck-aarch64-apple-darwin/hc",
+          "sha256": "366d3d14b4ff13b885cc2ac5f4d6a0f967c9a68907da9494da2d7fc58b731ab9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mitre/hipcheck/releases/download/hipcheck-v3.7.0/hipcheck-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "hipcheck-v3.7.0",
+      "sha256": "8d0cdfb2c2f7138b76b316bc03f783e0a7cf8ba55ce86aabe4d9b3ab5b4682dc",
+      "size": 22345504,
+      "format": "zip",
+      "binaries": {
+        "hc.exe": {
+          "path": "hc.exe",
+          "sha256": "66951d7de246a5a9a283b5e7f3d1d27da2783bf96656730e1fa283245d45a287"
+        }
+      }
+    }
+  }
+}
