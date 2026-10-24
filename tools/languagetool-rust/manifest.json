@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "languagetool-rust",
+  "version": "3.0.1",
+  "repository": "jeertmans/languagetool-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jeertmans/languagetool-rust/releases/download/v3.0.1/ltrs-v3.0.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.0.1",
+      "sha256": "d1566b0354752e1d689a594c5fc22201246cea836f4fa02da5c528ce72d65fff",
+      "size": 4123468,
+      "format": "tar.gz",
+      "binaries": {
+        "ltrs": {
+          "path": "ltrs-v3.0.1-x86_64-unknown-linux-musl/ltrs",
+          "sha256": "4e0c2ea7996ba8e693bd2f3e8ec4afe9b23b410e93c9167ebfc2c03b11955319"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jeertmans/languagetool-rust/releases/download/v3.0.1/ltrs-v3.0.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.0.1",
+      "sha256": "988208c91e5cbf6ce320ea9f75c653ae84f173694f34f24ac9b7b89f17339eff",
+      "size": 1984069,
+      "format": "tar.gz",
+      "binaries": {
+        "ltrs": {
+          "path": "ltrs-v3.0.1-x86_64-apple-darwin/ltrs",
+          "sha256": "5ac77731619bbf5a5751c23df84f229b430f65d0629a386ff2940f68c1adb87f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jeertmans/languagetool-rust/releases/download/v3.0.1/ltrs-v3.0.1-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v3.0.1",
+      "sha256": "ba50403188f559e940f6f5ad44c0687a4d541f3e026961b837a6ed3957caddc8",
+      "size": 1908073,
+      "format": "tar.gz",
+      "binaries": {
+        "ltrs.exe": {
+          "path": "ltrs-v3.0.1-x86_64-pc-windows-msvc/ltrs.exe",
+          "sha256": "9e3c625e2d5043a203c393b5aad9ef770d44cada41f68d7a8f53e056d04054a1"
+        }
+      }
+    }
+  }
+}
