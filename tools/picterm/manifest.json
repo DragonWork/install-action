@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "picterm",
+  "version": "0.0.13",
+  "repository": "ksk001100/picterm",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/ksk001100/picterm/releases/download/v0.0.13/picterm_v0.0.13_x86_64-apple-darwin.zip",
+      "releaseTag": "v0.0.13",
+      "sha256": "3b5b7d73599eb9ba9ff57389e0300618f32a5f4342d8e745fd70cabb9a280134",
+      "size": 1272561,
+      "format": "zip",
+      "binaries": {
+        "picterm": {
+          "path": "picterm",
+          "sha256": "38b2f8dda2d8a36839f3ac2645eb35e7d7a8a5f84615394e845cd994116a0c2b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ksk001100/picterm/releases/download/v0.0.13/picterm_v0.0.13_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.0.13",
+      "sha256": "b11376801bd35fadcdd459f72cfd71ec707bf8de5fcd8c3b7583801c90f90b4b",
+      "size": 3530375,
+      "format": "zip",
+      "binaries": {
+        "picterm.exe": {
+          "path": "picterm.exe",
+          "sha256": "79ab6d0149e4cf307fb486235b628805f77994f4eac19b81221598df238f5f22"
+        }
+      }
+    }
+  }
+}
