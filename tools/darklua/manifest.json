@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "darklua",
+  "version": "0.19.0",
+  "repository": "seaofvoices/darklua",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/seaofvoices/darklua/releases/download/v0.19.0/darklua-linux-x86_64.zip",
+      "releaseTag": "v0.19.0",
+      "sha256": "353b7a7772cec97994fd991fb3c143b39654ff154bd6dabfd7abf9fbe9ab7ea8",
+      "size": 3543649,
+      "format": "zip",
+      "binaries": {
+        "darklua": {
+          "path": "darklua",
+          "sha256": "ebcc549436a9cbfdebe1b23b08c365acd7732625fe7680b90bac1d897b962bf9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/seaofvoices/darklua/releases/download/v0.19.0/darklua-linux-aarch64.zip",
+      "releaseTag": "v0.19.0",
+      "sha256": "b308a5724b4781e89fbac42bd5906342d9ea0374961d64b8b5f0681bba2cdcac",
+      "size": 3453240,
+      "format": "zip",
+      "binaries": {
+        "darklua": {
+          "path": "darklua",
+          "sha256": "0eca96a5956489d8fd49159443e7b598e8e2f3a5ce74fe73e43ee03f4d3f7559"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/seaofvoices/darklua/releases/download/v0.19.0/darklua-macos-x86_64.zip",
+      "releaseTag": "v0.19.0",
+      "sha256": "bb364f898e83e8204d56b6d6d9e6edd8c391300dd4a82cd06e4d36d1f0a66b1a",
+      "size": 3289505,
+      "format": "zip",
+      "binaries": {
+        "darklua": {
+          "path": "darklua",
+          "sha256": "d6be54276b8faa9a9ce8bb4ee67190782be4b0872b4fbcef8484606b5082e9a1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/seaofvoices/darklua/releases/download/v0.19.0/darklua-macos-aarch64.zip",
+      "releaseTag": "v0.19.0",
+      "sha256": "b97be3d771dd82c11134af96fb8ed48f4163740eacc1f32eeda735074f51e59b",
+      "size": 3137645,
+      "format": "zip",
+      "binaries": {
+        "darklua": {
+          "path": "darklua",
+          "sha256": "c2895f780443b3b13e476c085094a1637e0a34b263827adb26a503e4466c7fed"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/seaofvoices/darklua/releases/download/v0.19.0/darklua-windows-x86_64.zip",
+      "releaseTag": "v0.19.0",
+      "sha256": "e099313a768a0628bce861123dff6959f0c7dc49b5c353d9523a144c1fa2124e",
+      "size": 2912241,
+      "format": "zip",
+      "binaries": {
+        "darklua.exe": {
+          "path": "darklua.exe",
+          "sha256": "0c8df78d9d99e21f0a095e975bb7449e49155398d3f7cae46a9b0527fa491bd2"
+        }
+      }
+    }
+  }
+}
