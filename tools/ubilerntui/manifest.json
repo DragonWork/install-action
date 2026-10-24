@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ubilerntui",
+  "version": "0.1.11",
+  "repository": "WyvernIXTL/ubilerntui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v0.1.11/ubilerntui-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "5cb9bcd5d89047459783064be0b9d367d7899de1db9487203a7ce0d679216864",
+      "size": 3139368,
+      "format": "tar.xz",
+      "binaries": {
+        "ubilerntui": {
+          "path": "./target/x86_64-unknown-linux-gnu/release/ubilerntui",
+          "sha256": "9609397f1a6303a047d3849854093aab7a7e122ed37e82b0e8fd7d95ff929083"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v0.1.11/ubilerntui-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "aa712c0a4624111c92593b2d8c09674e32cff1eb6ba40b7afdf0298e3be69677",
+      "size": 2875568,
+      "format": "tar.xz",
+      "binaries": {
+        "ubilerntui": {
+          "path": "./target/aarch64-unknown-linux-gnu/release/ubilerntui",
+          "sha256": "c2d6d17a9ba5016a45b3ea13d52dc3215ea19cd37ccd0f125e980eceec8f7957"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v0.1.11/ubilerntui-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "ee20500b3520ff05617fde1eba2e82f0a2c3ced76bd198b3e791bb57949d0bf8",
+      "size": 2934776,
+      "format": "tar.xz",
+      "binaries": {
+        "ubilerntui": {
+          "path": "./target/x86_64-apple-darwin/release/ubilerntui",
+          "sha256": "14f097cb9665106d0ae54bee42a065ed2513c449d541a57b3f21ea64fc230c0a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v0.1.11/ubilerntui-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "b5526b8dd83c653b4ff2c80a425bd1c25c23c10aaea802c0b9df460ff979232c",
+      "size": 2644588,
+      "format": "tar.xz",
+      "binaries": {
+        "ubilerntui": {
+          "path": "./target/aarch64-apple-darwin/release/ubilerntui",
+          "sha256": "6b6b30ce09159047ace333cc579493da41473f9b167995c7630a6a5c2a83d595"
+        }
+      }
+    }
+  }
+}
