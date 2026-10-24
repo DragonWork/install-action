@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-espflash",
+  "version": "4.6.0",
+  "repository": "esp-rs/espflash",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/cargo-espflash-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "ae79542649f091638a2bc9d5479f75e40afc34363b5c4689ac631092089d2a78",
+      "size": 8391145,
+      "format": "zip",
+      "binaries": {
+        "cargo-espflash": {
+          "path": "cargo-espflash",
+          "sha256": "e33dbca07ca65bf41c727ade12b7f72de93bef84e5c01d0b8d2f99ed25c702dd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/cargo-espflash-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "e86038b2cf8bcbc5122ac06775a5efcd5f95d236473d31ee6149fe9306553517",
+      "size": 8053648,
+      "format": "zip",
+      "binaries": {
+        "cargo-espflash": {
+          "path": "cargo-espflash",
+          "sha256": "8f74d421104ded72186dac38a58b0f08ad83347e4e5dbaab9b9cee3903a7b8fa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/cargo-espflash-x86_64-apple-darwin.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "401c92f5e8f31c41d24af5f46da93eb4dd8a200f96f822b3a7478dcbecb522b7",
+      "size": 8139213,
+      "format": "zip",
+      "binaries": {
+        "cargo-espflash": {
+          "path": "cargo-espflash",
+          "sha256": "cbfc603affbb0cae5d63150fe67f94af14ddd4028899bac70795d017959f9d90"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/cargo-espflash-aarch64-apple-darwin.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "27bfed85cd48792c78d5cacda7119b444cbaf427ea1c367d8fd43dd4ea716dfa",
+      "size": 8000704,
+      "format": "zip",
+      "binaries": {
+        "cargo-espflash": {
+          "path": "cargo-espflash",
+          "sha256": "df63490284b4b1e6234fb8459db3779c0752be04f26da20b199dcb60b46a9cd5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/cargo-espflash-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "060417e2882dda9e5399031a4c76b495ca785bc29de9a564d41603136d45cd5a",
+      "size": 7863655,
+      "format": "zip",
+      "binaries": {
+        "cargo-espflash.exe": {
+          "path": "cargo-espflash.exe",
+          "sha256": "0aeaf29b9f0f620b66aff8dfef2db828f82121cd3ef31ec5cded3e2149b65b31"
+        }
+      }
+    }
+  }
+}
