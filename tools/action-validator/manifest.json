@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "action-validator",
+  "version": "0.9.0",
+  "repository": "mpalmer/action-validator",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mpalmer/action-validator/releases/download/v0.9.0/action-validator_linux_amd64",
+      "sha256": "9f42f94fca5b8d04c13bccfbb331104b37a9250650d89ae58dc888d46206f9b9",
+      "size": 5763696,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "action-validator": {
+          "path": "action-validator_linux_amd64",
+          "sha256": "9f42f94fca5b8d04c13bccfbb331104b37a9250650d89ae58dc888d46206f9b9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mpalmer/action-validator/releases/download/v0.9.0/action-validator_linux_arm64",
+      "sha256": "0fe137986e838c68f760d9a60569cf6749192fa6315915f19ba0c7d11d8e3d9a",
+      "size": 5649936,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "action-validator": {
+          "path": "action-validator_linux_arm64",
+          "sha256": "0fe137986e838c68f760d9a60569cf6749192fa6315915f19ba0c7d11d8e3d9a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mpalmer/action-validator/releases/download/v0.9.0/action-validator_darwin_amd64",
+      "sha256": "b64010874b70e7e65e3ccd767d6b1c6e6d3a82a5a43748ddd9be2c817970a41d",
+      "size": 4999264,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "action-validator": {
+          "path": "action-validator_darwin_amd64",
+          "sha256": "b64010874b70e7e65e3ccd767d6b1c6e6d3a82a5a43748ddd9be2c817970a41d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mpalmer/action-validator/releases/download/v0.9.0/action-validator_darwin_arm64",
+      "sha256": "1451a573f8d51ade3d21de7b02cc8a6fcc87b0936e9feb617d197f568b879f6b",
+      "size": 5118352,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "action-validator": {
+          "path": "action-validator_darwin_arm64",
+          "sha256": "1451a573f8d51ade3d21de7b02cc8a6fcc87b0936e9feb617d197f568b879f6b"
+        }
+      }
+    }
+  }
+}
