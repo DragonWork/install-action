@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pokeget",
+  "version": "1.6.7",
+  "repository": "talwat/pokeget-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/talwat/pokeget-rs/releases/download/1.6.7/pokeget-Linux-x86_64.tar.gz",
+      "releaseTag": "1.6.7",
+      "sha256": "4b8765b43ed09b66f664dc86a83d24a658bd221355c917a83e2eca726e61d773",
+      "size": 2717277,
+      "format": "tar.gz",
+      "binaries": {
+        "pokeget": {
+          "path": "pokeget",
+          "sha256": "e1f851d59f5303936d6b13ad8f2fec7a5884b12a49831a1d371701cedbfca4cc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/talwat/pokeget-rs/releases/download/1.6.7/pokeget-Linux-aarch64.tar.gz",
+      "releaseTag": "1.6.7",
+      "sha256": "2b5bb668c27546f55bb5b25d55a8d50a96398956b4d9056338d3a4e763a5f86d",
+      "size": 2644583,
+      "format": "tar.gz",
+      "binaries": {
+        "pokeget": {
+          "path": "pokeget",
+          "sha256": "c1b62af4456de7c8413f909ee8fa430aa557d5615067898c4d9dfa554992ccaa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/talwat/pokeget-rs/releases/download/1.6.7/pokeget-macOS-x86_64.tar.gz",
+      "releaseTag": "1.6.7",
+      "sha256": "f5813f93d131c9d04bc4326dc35198e63fe9b631d024c883d140d00920ddd9d7",
+      "size": 2669221,
+      "format": "tar.gz",
+      "binaries": {
+        "pokeget": {
+          "path": "pokeget",
+          "sha256": "f277e09a03ed982653fd61f2f09b8dbf2e64091ad8b0e8ae3f18b00578a15e1f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/talwat/pokeget-rs/releases/download/1.6.7/pokeget-macOS-aarch64.tar.gz",
+      "releaseTag": "1.6.7",
+      "sha256": "0bf716d188e1d226778568ddd6d9f832a124db4490f0da256d53788634f2e544",
+      "size": 2629551,
+      "format": "tar.gz",
+      "binaries": {
+        "pokeget": {
+          "path": "pokeget",
+          "sha256": "b30b73cafb4a1cf94f4f3d17c6cba1b063268ae7ff8596796db9556198b6fb5f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/talwat/pokeget-rs/releases/download/1.6.7/pokeget-Windows-x86_64.zip",
+      "releaseTag": "1.6.7",
+      "sha256": "dbfb5e3739cb799cd9762304d6780d8d563e19f4764b44b5615631af4e759b36",
+      "size": 2592840,
+      "format": "zip",
+      "binaries": {
+        "pokeget.exe": {
+          "path": "pokeget.exe",
+          "sha256": "557d432a0d9dfe3e14ee27fb10bb9051ce50fb38f87c230990a1637fee5b4644"
+        }
+      }
+    }
+  }
+}
