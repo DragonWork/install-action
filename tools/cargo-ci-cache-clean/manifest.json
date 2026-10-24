@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-ci-cache-clean",
+  "version": "0.0.5",
+  "repository": "x52dev/cargo-ci-cache-clean",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/x52dev/cargo-ci-cache-clean/releases/download/v0.0.5/cargo-ci-cache-clean-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.5",
+      "sha256": "5d3625bc93044dcdfd5aab6e324bf6ee2fd91707e8dccf509314873ff0de269a",
+      "size": 607859,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ci-cache-clean": {
+          "path": "cargo-ci-cache-clean",
+          "sha256": "fce881b8819ca56df1a7bac43da79b724e946e9adfd0b4809f61c855afb8e953"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/x52dev/cargo-ci-cache-clean/releases/download/v0.0.5/cargo-ci-cache-clean-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.5",
+      "sha256": "1833f86e05cb2e908ffb2526946bc12d161186170352fe608dbdc71227c478a1",
+      "size": 585306,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ci-cache-clean": {
+          "path": "cargo-ci-cache-clean",
+          "sha256": "b1cc9683fd528b92266f5afabecb49bbbb4faa0eb07dcfa452311c9fa9a3c82d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/x52dev/cargo-ci-cache-clean/releases/download/v0.0.5/cargo-ci-cache-clean-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.5",
+      "sha256": "606140702bb596439f6fb3c213857660f8b2c7f21fe7429bdeed457382e3fab8",
+      "size": 532976,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ci-cache-clean": {
+          "path": "cargo-ci-cache-clean",
+          "sha256": "9a722f58a5699a82c1091d59b69bffa49f5044d211ec738af61ed46481529f8f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/x52dev/cargo-ci-cache-clean/releases/download/v0.0.5/cargo-ci-cache-clean-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.5",
+      "sha256": "3e17201aa20e35cf8e959a8fa115a14ce1d021670c5ea51bb43a0c496a510d2f",
+      "size": 502569,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ci-cache-clean": {
+          "path": "cargo-ci-cache-clean",
+          "sha256": "34a94b9bdf58fc98c745a293e396fc404e4be091a066071897e1fce6659d4164"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/x52dev/cargo-ci-cache-clean/releases/download/v0.0.5/cargo-ci-cache-clean-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.5",
+      "sha256": "b1b51313d692c2693ca4b61ef439d26a40be8b8298ae7cf9b46bad89168a12b8",
+      "size": 484923,
+      "format": "zip",
+      "binaries": {
+        "cargo-ci-cache-clean.exe": {
+          "path": "cargo-ci-cache-clean.exe",
+          "sha256": "0d82d4e9bf4bad55695ca7aeb5e79bab70f47a9850ef4949c6d2e31b55b64965"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/x52dev/cargo-ci-cache-clean/releases/download/v0.0.5/cargo-ci-cache-clean-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.5",
+      "sha256": "a5fab7f6efdc277e86c64303e5a7611271b236ad21eb6b057d4d0974ff868ca7",
+      "size": 448348,
+      "format": "zip",
+      "binaries": {
+        "cargo-ci-cache-clean.exe": {
+          "path": "cargo-ci-cache-clean.exe",
+          "sha256": "2ecc7fadd8bcd6d4aa5b8fe79b8936048b59d8d5a603aafa8b6e08ca1363cc90"
+        }
+      }
+    }
+  }
+}
