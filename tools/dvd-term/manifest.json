@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dvd-term",
+  "version": "0.1.44",
+  "repository": "alefnull/dvd-term",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-linux-x86_64.tar.gz",
+      "releaseTag": "v0.1.44",
+      "sha256": "6f5fdc362c09691991149b79ea7c04599e7881553592b3dab5050970d923002e",
+      "size": 494815,
+      "format": "tar.gz",
+      "binaries": {
+        "dvd-term": {
+          "path": "dvd-term",
+          "sha256": "a725a32ea0374e6e8dbca33a45fd075bcd2aafc497799e45726fb7d98e03ccc0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-linux-arm64.tar.gz",
+      "releaseTag": "v0.1.44",
+      "sha256": "00ab8897f01c0d64bedb112d911d31780ad416a4a32f685322309c6091ecfbd6",
+      "size": 458402,
+      "format": "tar.gz",
+      "binaries": {
+        "dvd-term": {
+          "path": "dvd-term",
+          "sha256": "ad310454c079c94c4127e862579e9f030369e5e6ffddfe21802b250a41212ca5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-macos-x86_64.tar.gz",
+      "releaseTag": "v0.1.44",
+      "sha256": "7edcd1b6a4e6be218258d2259feea791a371a5f6397e2ca92223a84c779a16ed",
+      "size": 479945,
+      "format": "tar.gz",
+      "binaries": {
+        "dvd-term": {
+          "path": "dvd-term",
+          "sha256": "7dcd28f43263c14c5ae498d7656a9d4731a0ca78e7f164aa6880f397573a5c31"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-macos-arm64.tar.gz",
+      "releaseTag": "v0.1.44",
+      "sha256": "3edf19ec6bbd97d69b4aaaab1967c26e979816a813d2d48378c75aec38024166",
+      "size": 452311,
+      "format": "tar.gz",
+      "binaries": {
+        "dvd-term": {
+          "path": "dvd-term",
+          "sha256": "0bffbf23928c6b2de2e0b4c25a9e2bc199008a23239ae92a75ee63255daffe63"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-windows-x86_64.tar.gz",
+      "releaseTag": "v0.1.44",
+      "sha256": "457ade5f3e28f8edbef8a9f61fecaac19409e7d8f9ffc8efca2e66f443b7e753",
+      "size": 357730,
+      "format": "tar.gz",
+      "binaries": {
+        "dvd-term.exe": {
+          "path": "dvd-term.exe",
+          "sha256": "3b59cc8d5b5a248979c4acc9bd537b9702df0baddc6d8cf149dd3d8b14bd8981"
+        }
+      }
+    }
+  }
+}
