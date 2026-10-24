@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "oauth2-test-server",
+  "version": "0.2.3",
+  "repository": "rust-mcp-stack/oauth2-test-server",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-mcp-stack/oauth2-test-server/releases/download/v0.2.3/oauth2-test-server-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.3",
+      "sha256": "779423c5b7192b445107a87628747bfbbc753a2e07742f80461d8883b3912292",
+      "size": 3033592,
+      "format": "tar.xz",
+      "binaries": {
+        "oauth2-test-server": {
+          "path": "oauth2-test-server-x86_64-unknown-linux-gnu/oauth2-test-server",
+          "sha256": "f73c4a56ddc815f30f55fd41a642c86eb227b6407806a566f1c7b6d7caa32963"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rust-mcp-stack/oauth2-test-server/releases/download/v0.2.3/oauth2-test-server-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.3",
+      "sha256": "209d6084885b1d5bdb2c792cb1573fe032d4ce17ffbe25902a81f17bcd4d15b8",
+      "size": 2798456,
+      "format": "tar.xz",
+      "binaries": {
+        "oauth2-test-server": {
+          "path": "oauth2-test-server-aarch64-unknown-linux-gnu/oauth2-test-server",
+          "sha256": "0849fd7096d26fcb89ddba4f3c651e3efeccadf14e7b1ce0d6d346949ab7163d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-mcp-stack/oauth2-test-server/releases/download/v0.2.3/oauth2-test-server-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.3",
+      "sha256": "111ff7f57120fe8df4a02fe91fc444037acec3d725f6aca945a90f6aabb3687e",
+      "size": 2931000,
+      "format": "tar.xz",
+      "binaries": {
+        "oauth2-test-server": {
+          "path": "oauth2-test-server-x86_64-apple-darwin/oauth2-test-server",
+          "sha256": "07146390a139bdb9c9c42ce16dbdf474f0bee3b8cd5708a558ef66edd95c286d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-mcp-stack/oauth2-test-server/releases/download/v0.2.3/oauth2-test-server-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.3",
+      "sha256": "52401a347fdedbe71dce831ffafd32c61462e17c38af0ca1f439a6e51d64fc9b",
+      "size": 2653612,
+      "format": "tar.xz",
+      "binaries": {
+        "oauth2-test-server": {
+          "path": "oauth2-test-server-aarch64-apple-darwin/oauth2-test-server",
+          "sha256": "93cd92181a4227693c61078bb97743c4294291aad8d63c71f46aabd0cd79df46"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-mcp-stack/oauth2-test-server/releases/download/v0.2.3/oauth2-test-server-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.3",
+      "sha256": "b140006240b885fbe381dbad1081201dfb9d08a3794544549905f1bb6d29eef5",
+      "size": 3919808,
+      "format": "zip",
+      "binaries": {
+        "oauth2-test-server.exe": {
+          "path": "oauth2-test-server.exe",
+          "sha256": "3c386525efbd67f17d269ec2a9a886af417ed7e5bc937eb0fe9e6b7b47806932"
+        }
+      }
+    }
+  }
+}
