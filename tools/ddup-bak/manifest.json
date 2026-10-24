@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ddup-bak",
+  "version": "0.12.0",
+  "repository": "0x7d8/ddup-bak",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/0x7d8/ddup-bak/releases/download/0.12.0/ddup-bak-x86_64-linux.tar.xz",
+      "releaseTag": "0.12.0",
+      "sha256": "3a448250abc6b10ff84b3bd32241e9295e0b4dd10e8703c8880e99410e17f2de",
+      "size": 8690308,
+      "format": "tar.xz",
+      "binaries": {
+        "ddup-bak": {
+          "path": "ddup-bak-x86_64-linux/ddup-bak",
+          "sha256": "91a6a8e65a105e41d43668e8b0e880f96273acb72d62d0cdbb999d6efb13aaf0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/0x7d8/ddup-bak/releases/download/0.12.0/ddup-bak-aarch64-linux.tar.xz",
+      "releaseTag": "0.12.0",
+      "sha256": "d945aa30475641713475c8e91ddf2b34bdfd2a1a846dee1a168b715647b70388",
+      "size": 8423628,
+      "format": "tar.xz",
+      "binaries": {
+        "ddup-bak": {
+          "path": "ddup-bak-aarch64-linux/ddup-bak",
+          "sha256": "5af92d8fea5db8398987597caff3d02b36073fe7d60cac607bdd105b7607934b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/0x7d8/ddup-bak/releases/download/0.12.0/ddup-bak-x86_64-macos.tar.xz",
+      "releaseTag": "0.12.0",
+      "sha256": "c60126acd9c3763cc85ca78dec5467f26fbbf834514abaa341fd860adadb09c0",
+      "size": 7845996,
+      "format": "tar.xz",
+      "binaries": {
+        "ddup-bak": {
+          "path": "ddup-bak-x86_64-macos/ddup-bak",
+          "sha256": "fc29ef2680bb9ca16d956ad70b0d44bf70ce66d4bccfffc12f214c00932a8c8a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/0x7d8/ddup-bak/releases/download/0.12.0/ddup-bak-aarch64-macos.tar.xz",
+      "releaseTag": "0.12.0",
+      "sha256": "d3976130c70239f337f6fb831c007be764234ca055aaae60d2568b3e287090cd",
+      "size": 7915816,
+      "format": "tar.xz",
+      "binaries": {
+        "ddup-bak": {
+          "path": "ddup-bak-aarch64-macos/ddup-bak",
+          "sha256": "b70d901be37bddd6482a7c4488a6c48fecfe133b0d0ffd6c00b8f321e8f042d7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/0x7d8/ddup-bak/releases/download/0.12.0/ddup-bak-x86_64-windows.zip",
+      "releaseTag": "0.12.0",
+      "sha256": "ea9ddb97391954ef2b4ddf77dc75380a95f0882f447a242d930c9127296dbbbc",
+      "size": 12037510,
+      "format": "zip",
+      "binaries": {
+        "ddup-bak.exe": {
+          "path": "ddup-bak-x86_64-windows/ddup-bak.exe",
+          "sha256": "720187bd08f303754254b939a341f150f9e24d70804fb33d726c4682d4815e80"
+        }
+      }
+    }
+  }
+}
