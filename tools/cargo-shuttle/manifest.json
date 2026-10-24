@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "name": "cargo-shuttle",
+  "version": "0.57.3",
+  "repository": "shuttle-hq/shuttle",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shuttle-hq/shuttle/releases/download/v0.57.3/cargo-shuttle-v0.57.3-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.57.3",
+      "sha256": "73f1f98280534bc4d2ea90201506f729e88c218fe56dca5e9f32601f2c721f02",
+      "size": 23853559,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-shuttle": {
+          "path": "cargo-shuttle-x86_64-unknown-linux-musl-v0.57.3/cargo-shuttle",
+          "sha256": "a43e1bf1afd9e7ea9f03feca3b958031ac8c97edff6d0f3c624b8f285345d405"
+        },
+        "shuttle": {
+          "path": "cargo-shuttle-x86_64-unknown-linux-musl-v0.57.3/shuttle",
+          "sha256": "f61e55ba3cf3657c25ff9fe386cd470645ba3b584270c0cf987180f6483abb3d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/shuttle-hq/shuttle/releases/download/v0.57.3/cargo-shuttle-v0.57.3-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.57.3",
+      "sha256": "210128c64e23fdf7522927b73c0ee2b72e3fd55728c1ea3ebabb1b5e913ff220",
+      "size": 22819099,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-shuttle": {
+          "path": "cargo-shuttle-aarch64-unknown-linux-musl-v0.57.3/cargo-shuttle",
+          "sha256": "fcc9a8497df1984fa9eaf9d8aac5f4f89df492a209437cac11a5b8c2b2e5db50"
+        },
+        "shuttle": {
+          "path": "cargo-shuttle-aarch64-unknown-linux-musl-v0.57.3/shuttle",
+          "sha256": "4ad7f72e8a0ace07df72b62b84c312eb9d49c90ab1af5f4b6b03aa7b612bd89b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/shuttle-hq/shuttle/releases/download/v0.57.3/cargo-shuttle-v0.57.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.57.3",
+      "sha256": "802184c6737a397565fe8b0a3b41aceb8167eb9cbe1a658fbc9e0c90dea58ef5",
+      "size": 21882708,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-shuttle": {
+          "path": "cargo-shuttle-x86_64-apple-darwin-v0.57.3/cargo-shuttle",
+          "sha256": "54a49d874c5a5626b9047cfc2122107b85f579e3f9a476efc50f1393076e2e42"
+        },
+        "shuttle": {
+          "path": "cargo-shuttle-x86_64-apple-darwin-v0.57.3/shuttle",
+          "sha256": "ad32108171aa8bfca5b49c3f8872efc419b037ae3439b0d2321a500cc0c7743d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/shuttle-hq/shuttle/releases/download/v0.57.3/cargo-shuttle-v0.57.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.57.3",
+      "sha256": "a76bfee3599397465ae88158852bb43db1a147093cc77ab7849d40a3580bf7ad",
+      "size": 21105209,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-shuttle": {
+          "path": "cargo-shuttle-aarch64-apple-darwin-v0.57.3/cargo-shuttle",
+          "sha256": "2255019edbd892603848d4ba58b31d9d1050ba521a77810d1af9fb0907c0cd6d"
+        },
+        "shuttle": {
+          "path": "cargo-shuttle-aarch64-apple-darwin-v0.57.3/shuttle",
+          "sha256": "b85ffb5bf55b7af98880a8ce98d26311facf47cd2372f8a795a21f560bd2a5fc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/shuttle-hq/shuttle/releases/download/v0.57.3/cargo-shuttle-v0.57.3-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.57.3",
+      "sha256": "f1445449bbbf8f31ad1d44f78dcd16044065aa5cefacb6fd91796756b306a386",
+      "size": 20252070,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-shuttle.exe": {
+          "path": "cargo-shuttle-x86_64-pc-windows-msvc-v0.57.3/cargo-shuttle.exe",
+          "sha256": "e1b2c91008d28630e02391439da7d317f852227a00f5a292142f20b7cd2e48d9"
+        },
+        "shuttle.exe": {
+          "path": "cargo-shuttle-x86_64-pc-windows-msvc-v0.57.3/shuttle.exe",
+          "sha256": "3fc5d78278c2716b41c25200be8afc5618996cd23e0f2bc13c4e3ffa9cb5f288"
+        }
+      }
+    }
+  }
+}
