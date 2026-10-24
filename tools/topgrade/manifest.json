@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "topgrade",
+  "version": "17.14.1",
+  "repository": "topgrade-rs/topgrade",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.14.1/topgrade-v17.14.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v17.14.1",
+      "sha256": "04e9896bb55a36b9232532c7f7f701392fc2169ddf91155a353440198c07e278",
+      "size": 6618197,
+      "format": "tar.gz",
+      "binaries": {
+        "topgrade": {
+          "path": "topgrade",
+          "sha256": "a45c33c33258d3ab705847dced28e5bc505e95a0404251f3c6e8554886f3ac70"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.14.1/topgrade-v17.14.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v17.14.1",
+      "sha256": "3529722b56a2bb0e95cbfcbb74b28f2ee96b48ebbd44a958081891b074d6859a",
+      "size": 6038680,
+      "format": "tar.gz",
+      "binaries": {
+        "topgrade": {
+          "path": "topgrade",
+          "sha256": "79753e63c2f54a695a44c81229fa73562f94c82d3ba9b3018a5f223a289feaad"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.14.1/topgrade-v17.14.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v17.14.1",
+      "sha256": "424cfb3207c90e7d7a715b7dab785c44a22a88c5164a2e70f19ccdf0697af3f6",
+      "size": 5272037,
+      "format": "tar.gz",
+      "binaries": {
+        "topgrade": {
+          "path": "topgrade",
+          "sha256": "fbbd6584911a10db772fae744b3e402cdd70190b6064fefa42306b04f3d81499"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.14.1/topgrade-v17.14.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v17.14.1",
+      "sha256": "c9552341e53a9e6a2ec1f2c270d8a14d8154f352ee384ba68e065550da08ca72",
+      "size": 4811016,
+      "format": "tar.gz",
+      "binaries": {
+        "topgrade": {
+          "path": "topgrade",
+          "sha256": "73fab84eeb1a09a19c5b5feff6e2d95b6def1f22559a55af301fe66962f090e9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.14.1/topgrade-v17.14.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v17.14.1",
+      "sha256": "009401a142d3ca5fdc7221d9e21bf7abb5bf36eaa1295c480a0a48e787886b3a",
+      "size": 4777909,
+      "format": "zip",
+      "binaries": {
+        "topgrade.exe": {
+          "path": "topgrade.exe",
+          "sha256": "da79874475d50aa4a04a82978aa11d46e687b43bc78ec71ad9b377df38b55733"
+        }
+      }
+    }
+  }
+}
