@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "oklch-color-picker",
+  "version": "2.4.2",
+  "repository": "eero-lehtinen/oklch-color-picker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/eero-lehtinen/oklch-color-picker/releases/download/2.4.2/oklch-color-picker-2.4.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "2.4.2",
+      "sha256": "2bacf9bb521e51086236786c11614513dde71cac6f5aa9621dedb3d82ef46344",
+      "size": 7291650,
+      "format": "tar.gz",
+      "binaries": {
+        "oklch-color-picker": {
+          "path": "oklch-color-picker-2.4.2-x86_64-unknown-linux-gnu/oklch-color-picker",
+          "sha256": "1fdea713df0a1bc35b74e58325a58807cd402a6d845f22b0087dc7b637959356"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/eero-lehtinen/oklch-color-picker/releases/download/2.4.2/oklch-color-picker-2.4.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "2.4.2",
+      "sha256": "e10293011c30da4820fb3768a3915328f8b766008854b3a33abf807c6dbd84bc",
+      "size": 7141283,
+      "format": "tar.gz",
+      "binaries": {
+        "oklch-color-picker": {
+          "path": "oklch-color-picker-2.4.2-aarch64-unknown-linux-gnu/oklch-color-picker",
+          "sha256": "6410ccc384691351a02d95d16f57494efeac179cb39fa88314789b0a15aa9242"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/eero-lehtinen/oklch-color-picker/releases/download/2.4.2/oklch-color-picker-2.4.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "2.4.2",
+      "sha256": "d1a0062ecaf1d1457b53f0c6a418961fc1c10ddeb2c1e31bde4e9a751a51f31e",
+      "size": 4440854,
+      "format": "tar.gz",
+      "binaries": {
+        "oklch-color-picker": {
+          "path": "oklch-color-picker-2.4.2-x86_64-apple-darwin/oklch-color-picker",
+          "sha256": "68089fc9fe973dfe0474a19f676bed1b10991261d83832aba26b2bf678195459"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/eero-lehtinen/oklch-color-picker/releases/download/2.4.2/oklch-color-picker-2.4.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "2.4.2",
+      "sha256": "6f94604f6a90b464e15accf29b00face881909683badb53235870956d99ff9d3",
+      "size": 4061679,
+      "format": "tar.gz",
+      "binaries": {
+        "oklch-color-picker": {
+          "path": "oklch-color-picker-2.4.2-aarch64-apple-darwin/oklch-color-picker",
+          "sha256": "45c33da580c7a0f630590a63e51897900afff6b650834d22c2f61fef287f3184"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/eero-lehtinen/oklch-color-picker/releases/download/2.4.2/oklch-color-picker-2.4.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "2.4.2",
+      "sha256": "10f37de7b81e2219e046c6411a4f498fb6f9974680f067e79525c5acd8907173",
+      "size": 3883765,
+      "format": "zip",
+      "binaries": {
+        "oklch-color-picker.exe": {
+          "path": "oklch-color-picker-2.4.2-x86_64-pc-windows-msvc/oklch-color-picker.exe",
+          "sha256": "6bb2e6ad17374b5f99b334fa1a1cd40fce603fe1bc1e2abd6e0fbdbe6f4f6b05"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/eero-lehtinen/oklch-color-picker/releases/download/2.4.2/oklch-color-picker-2.4.2-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "2.4.2",
+      "sha256": "087840097a13c1fbcbd0b23a1c57bf5500010da9b160f6dcaf4a4cbac4bcd0a8",
+      "size": 3487972,
+      "format": "zip",
+      "binaries": {
+        "oklch-color-picker.exe": {
+          "path": "oklch-color-picker-2.4.2-aarch64-pc-windows-msvc/oklch-color-picker.exe",
+          "sha256": "489261b7957e1408dec4455ae18a57891d619676ebf05bef397ce4ba6cade41e"
+        }
+      }
+    }
+  }
+}
