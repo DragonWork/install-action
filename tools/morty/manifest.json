@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "morty",
+  "version": "0.9.0",
+  "repository": "pulp-platform/morty",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/pulp-platform/morty/releases/download/v0.9.0/morty-osx-x86_64.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "921413111b1d3f7868c9bf1db773ce8bc006ead97ec849034358928cbfff8731",
+      "size": 11870618,
+      "format": "zip",
+      "binaries": {
+        "morty": {
+          "path": "morty",
+          "sha256": "42cf7d60405e965972c50f9f0f8f7cd6c625d7c860684685f3451a1151c4c4d0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pulp-platform/morty/releases/download/v0.9.0/morty-windows-x86_64.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "ad14f22615c73e6e9531773f338e74d54e2b0fd41e11f5c02e265aaa26aa4645",
+      "size": 13469011,
+      "format": "zip",
+      "binaries": {
+        "morty.exe": {
+          "path": "morty.exe",
+          "sha256": "0142bdad2d7a6a253b285ffebfb1c94d84535ee4f6ec228b6292a4068cf1fff5"
+        }
+      }
+    }
+  }
+}
