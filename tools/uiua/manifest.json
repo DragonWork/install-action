@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "uiua",
+  "version": "0.19.1",
+  "repository": "uiua-lang/uiua",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/uiua-lang/uiua/releases/download/0.19.1/uiua-bin-x86_64-apple-darwin.zip",
+      "releaseTag": "0.19.1",
+      "sha256": "d0994c9394d5732c26be3b9db48f09c909ff7f830aca87d7d1f9cdcf8251b6c9",
+      "size": 24147184,
+      "format": "zip",
+      "binaries": {
+        "uiua": {
+          "path": "uiua",
+          "sha256": "a209eb8c8a4f8ad20a3eaefd8e0f510bb3903c5bb2c3d0e1d2a2f92eb2a4986a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/uiua-lang/uiua/releases/download/0.19.1/uiua-bin-aarch64-apple-darwin.zip",
+      "releaseTag": "0.19.1",
+      "sha256": "38e2f74488e605f18185d01c45ca05c0a84bf0ca141615f0aa95d409a41e2e19",
+      "size": 22872883,
+      "format": "zip",
+      "binaries": {
+        "uiua": {
+          "path": "uiua",
+          "sha256": "096e8176bcfd4eff1506e86104ad8a618c2c60b5e2cdd1dd4d286963ebec6f3c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/uiua-lang/uiua/releases/download/0.19.1/uiua-bin-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.19.1",
+      "sha256": "76d33594c4acec0f1a3ee749981c0b675e99b70ca7d2523660842ddeca033702",
+      "size": 24288024,
+      "format": "zip",
+      "binaries": {
+        "uiua.exe": {
+          "path": "uiua.exe",
+          "sha256": "915fa8ec7970919c58d37977d513a3ffa43f2040b60aaef47debafa2c3ddc88b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/uiua-lang/uiua/releases/download/0.19.1/uiua-bin-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.19.1",
+      "sha256": "72d8683eab01eae08229368469715da5268fce034b16e27b12cb5179e633218c",
+      "size": 22447459,
+      "format": "zip",
+      "binaries": {
+        "uiua.exe": {
+          "path": "uiua.exe",
+          "sha256": "e9bf7eb28bc24f4c69388684cbbfbb8a34e772aeedb938ed47b45bc669e4b7b0"
+        }
+      }
+    }
+  }
+}
