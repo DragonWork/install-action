@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "konfigkoll",
+  "version": "0.1.18",
+  "repository": "VorpalBlade/paketkoll",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/VorpalBlade/paketkoll/releases/download/konfigkoll-v0.1.18/konfigkoll-v0.1.18-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "konfigkoll-v0.1.18",
+      "sha256": "fbb5d189ca743339abdfd4514c2b27e70b7a040fe13fa06dfaccee6f4b8aa0e3",
+      "size": 13520701,
+      "format": "tar.gz",
+      "binaries": {
+        "konfigkoll": {
+          "path": "konfigkoll",
+          "sha256": "190e6bcf42c91f8d98d3d7d67f66ce2ec0ed8bffa3b2ac61b8c940298f0e8e78"
+        },
+        "konfigkoll-rune": {
+          "path": "konfigkoll-rune",
+          "sha256": "cf837bc4a754875fcd6926fc54ba52e10c7f221195e29f6093817f25bc1de109"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/VorpalBlade/paketkoll/releases/download/konfigkoll-v0.1.18/konfigkoll-v0.1.18-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "konfigkoll-v0.1.18",
+      "sha256": "4d535bac9b2f0c481fd49997c6bfac351c44cd471dc0504deacacb218385aa18",
+      "size": 12710218,
+      "format": "tar.gz",
+      "binaries": {
+        "konfigkoll": {
+          "path": "konfigkoll",
+          "sha256": "749a1879b15a0fa0920bd46f7425d28cbd8964e6e35f2589eb327b8a008a6ac3"
+        },
+        "konfigkoll-rune": {
+          "path": "konfigkoll-rune",
+          "sha256": "86b294099079d92aaedaa3b4b0ec2ee220718fcb3583aed19e8df635f4d1e289"
+        }
+      }
+    }
+  }
+}
