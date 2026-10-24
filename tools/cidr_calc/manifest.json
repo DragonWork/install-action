@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cidr_calc",
+  "version": "0.2.1",
+  "repository": "pitoniak32/cidr_calc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pitoniak32/cidr_calc/releases/download/v0.2.1/cidrc-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "c64447ce6105f9e8a1020754cfcc03b6bf68f0512adb958a1f0de6f2ab2ba64a",
+      "size": 1157479,
+      "format": "tar.gz",
+      "binaries": {
+        "cidrc": {
+          "path": "cidrc",
+          "sha256": "5e57a35f4416466a32f2336eeaa5e3cf6d4ed8ccd15a8b6a8dca0cb9d9ca2bf3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pitoniak32/cidr_calc/releases/download/v0.2.1/cidrc-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "5679028fe214c3f901543c68cdcadf0660a08caa035c3e7b6b7ae2d727abfbfd",
+      "size": 1051474,
+      "format": "tar.gz",
+      "binaries": {
+        "cidrc": {
+          "path": "cidrc",
+          "sha256": "57bf124bf5bb6e2a301795dc7f7412ee4be87b84c5f7cdc54136c83f29384cb3"
+        }
+      }
+    }
+  }
+}
