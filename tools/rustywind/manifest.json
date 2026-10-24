@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rustywind",
+  "version": "0.28.0",
+  "repository": "avencera/rustywind",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/avencera/rustywind/releases/download/v0.28.0/rustywind-v0.28.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.28.0",
+      "sha256": "3bd014e09c4075387ba25e1ab0adc9b8c16f8f21f95983364499de7c8cf4dc34",
+      "size": 2478041,
+      "format": "tar.gz",
+      "binaries": {
+        "rustywind": {
+          "path": "rustywind",
+          "sha256": "fa9745877b171971374bef3081053a4e5fa4b893445fbfe9199d1d200296ed67"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/avencera/rustywind/releases/download/v0.28.0/rustywind-v0.28.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.28.0",
+      "sha256": "ed3fda77ec67193fc43ec9bbec37481e91027e3fdc219c6459e2b1c2a6598b17",
+      "size": 2260299,
+      "format": "tar.gz",
+      "binaries": {
+        "rustywind": {
+          "path": "rustywind",
+          "sha256": "b0d4f4b8d2e0417dfb1810e98e265605d002a903462604365fdf0e11bd8d7aed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/avencera/rustywind/releases/download/v0.28.0/rustywind-v0.28.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.28.0",
+      "sha256": "2aff71f011ec1450761b2e1b54a737bd2503fe5e25069fb3dbef9317fae23285",
+      "size": 2269014,
+      "format": "tar.gz",
+      "binaries": {
+        "rustywind": {
+          "path": "rustywind",
+          "sha256": "62d35ba6731c460fe492443ab2122748949375275717dc0347b759ec4659ae5d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/avencera/rustywind/releases/download/v0.28.0/rustywind-v0.28.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.28.0",
+      "sha256": "415eea6c0924cfcd25e24df914ed6992a4949c5b03c68660a7c545b08e1c80e7",
+      "size": 2103739,
+      "format": "tar.gz",
+      "binaries": {
+        "rustywind": {
+          "path": "rustywind",
+          "sha256": "69b08921741eca6f8c09ac7a17faad4da3302770e50e85dd6e2e6ec86f9a47e6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/avencera/rustywind/releases/download/v0.28.0/rustywind-v0.28.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.28.0",
+      "sha256": "db979e50246bc60d36832c0e37f3921abe0deadf7e00e2bf16bfc9cd175f3458",
+      "size": 2186808,
+      "format": "zip",
+      "binaries": {
+        "rustywind.exe": {
+          "path": "rustywind.exe",
+          "sha256": "499ecda660ab41bdf930e0caecf0c046446dcb521272b69fc7c2b149692fc355"
+        }
+      }
+    }
+  }
+}
