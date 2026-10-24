@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "sql-cli",
+  "version": "1.85.16",
+  "repository": "TimelordUK/sql-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/TimelordUK/sql-cli/releases/download/v1.85.16/sql-cli-linux-x64",
+      "sha256": "874ce8ee1c7157ad1fe3ee50645080a5013395c341539f7f49f7b96ad2549b88",
+      "size": 9345104,
+      "format": "binary",
+      "releaseTag": "v1.85.16",
+      "binaries": {
+        "sql-cli": {
+          "path": "sql-cli-linux-x64",
+          "sha256": "874ce8ee1c7157ad1fe3ee50645080a5013395c341539f7f49f7b96ad2549b88"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/TimelordUK/sql-cli/releases/download/v1.85.16/sql-cli-macos-x64",
+      "sha256": "d5e030c65a2e53f8a7c52717caf232df0769628b4c1b160b647b0dcb0a2789c9",
+      "size": 7864232,
+      "format": "binary",
+      "releaseTag": "v1.85.16",
+      "binaries": {
+        "sql-cli": {
+          "path": "sql-cli-macos-x64",
+          "sha256": "d5e030c65a2e53f8a7c52717caf232df0769628b4c1b160b647b0dcb0a2789c9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/TimelordUK/sql-cli/releases/download/v1.85.16/sql-cli-macos-arm64",
+      "sha256": "2ce701400278370d31268673def7a1b8d16ff6ac66dddebbaba5bb548f537435",
+      "size": 6755552,
+      "format": "binary",
+      "releaseTag": "v1.85.16",
+      "binaries": {
+        "sql-cli": {
+          "path": "sql-cli-macos-arm64",
+          "sha256": "2ce701400278370d31268673def7a1b8d16ff6ac66dddebbaba5bb548f537435"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/TimelordUK/sql-cli/releases/download/v1.85.16/sql-cli-windows-x64.exe",
+      "sha256": "1b72a6b1a2333d24214238617f9f8546c1e11b224641c597ad8035dcef2a953c",
+      "size": 9570304,
+      "format": "binary",
+      "releaseTag": "v1.85.16",
+      "binaries": {
+        "sql-cli.exe": {
+          "path": "sql-cli-windows-x64.exe",
+          "sha256": "1b72a6b1a2333d24214238617f9f8546c1e11b224641c597ad8035dcef2a953c"
+        }
+      }
+    }
+  }
+}
