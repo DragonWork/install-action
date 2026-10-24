@@ -132,6 +132,11 @@ async function probeReleases(catalog, state, current, limit = 1000) {
       const { name, entry } = block[index];
       const errors = response.errors?.filter(error => !error.path || error.path[0] === `r${index}`) || [];
       if (errors.length) {
+        if (errors.every(error => error.type === 'NOT_FOUND' && error.path?.length === 1)) {
+          state[name] = { version: entry.version, resolverRevision: RESOLVER_REVISION, retryAfter,
+            reason: 'No public upstream release repository.' };
+          continue;
+        }
         state[name] = { version: entry.version, resolverRevision: RESOLVER_REVISION, retryable: true,
           retryAfter: new Date(now + 15 * 60 * 1000).toISOString(),
           reason: `Release lookup failed: ${errors[0].message}`.replace(/[\r\n]/g, ' ').slice(0, 300) };
