@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "toggl",
+  "version": "0.5.1",
+  "repository": "watercooler-labs/toggl-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.5.1/toggl-x86_64-unknown-linux-gnu-0.5.1.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "f7349719c66784e23a124cde10aec94ff5d38e256c7b7ab1e246cba164ed7652",
+      "size": 3318118,
+      "format": "zip",
+      "binaries": {
+        "toggl": {
+          "path": "toggl",
+          "sha256": "72aa5c28675fc3aee809b3e29a443c2f7249df601af02034e60befade852e5b7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.5.1/toggl-x86_64-apple-darwin-0.5.1.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "65b5715372dd761313b5b993362a0c64ff086206fe1adc940691b4668001f58c",
+      "size": 3039612,
+      "format": "zip",
+      "binaries": {
+        "toggl": {
+          "path": "toggl",
+          "sha256": "02bb041e0b495bd2b1509d73cb403d06f68cb069ba8a2af7f62580e6efa2f903"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.5.1/toggl-aarch64-apple-darwin-0.5.1.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "10e3603231d3a10be09e02cfa2dbbc08182fa230b88b60c837a30faf5bf54606",
+      "size": 2927107,
+      "format": "zip",
+      "binaries": {
+        "toggl": {
+          "path": "toggl",
+          "sha256": "d40b92ec510e2079437ceddcae1207afde917aaf0dbccb06086afde24574f2ca"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/watercooler-labs/toggl-cli/releases/download/v0.5.1/toggl-x86_64-pc-windows-gnu-0.5.1.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "5ecd40bd4f4f98c7e217401f27c49abfa727d9aa13cb24efdc5452325df2e31f",
+      "size": 3601544,
+      "format": "zip",
+      "binaries": {
+        "toggl.exe": {
+          "path": "toggl.exe",
+          "sha256": "c84c7b3ee9bd084e7b40dc1690b9107998be1d6ca66b1b616f083e9ccb13541b"
+        }
+      }
+    }
+  }
+}
