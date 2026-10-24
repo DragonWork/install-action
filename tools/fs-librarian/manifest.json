@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "fs-librarian",
+  "version": "0.4.9",
+  "repository": "jasonrogena/librarian",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jasonrogena/librarian/releases/download/v0.4.9/fs-librarian-v0.4.9-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.9",
+      "sha256": "40d03e4188484028b23536bcc8da933fbc9b8ce1709b6d24b6faab7de12de13f",
+      "size": 2251121,
+      "format": "tar.gz",
+      "binaries": {
+        "fs-librarian": {
+          "path": "fs-librarian-v0.4.9-x86_64-unknown-linux-gnu/fs-librarian",
+          "sha256": "5e86c90c481808307d2bcd0d999ae4f1364ec4350afe2750bfd213682e41b4c8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jasonrogena/librarian/releases/download/v0.4.9/fs-librarian-v0.4.9-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.9",
+      "sha256": "94e641dfcab4a04f3e406f8a7b40f959496b65c477279dc36404cee5bb3ddad6",
+      "size": 2033629,
+      "format": "tar.gz",
+      "binaries": {
+        "fs-librarian": {
+          "path": "fs-librarian-v0.4.9-x86_64-apple-darwin/fs-librarian",
+          "sha256": "0b8aa72bb3758b7d29103b04feba212def943b96ea5fa039e1f9b86f4210e6ae"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jasonrogena/librarian/releases/download/v0.4.9/fs-librarian-v0.4.9-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.9",
+      "sha256": "44db8b085eaccfa7767b4f0cab1f54cedaf2f384ce29a65ea1f311402f1d82ce",
+      "size": 1927120,
+      "format": "tar.gz",
+      "binaries": {
+        "fs-librarian": {
+          "path": "fs-librarian-v0.4.9-aarch64-apple-darwin/fs-librarian",
+          "sha256": "90b57cb2a07a3da4ddabc7f9f6d7588b8e4e6611d205a3b4963572941ac0c5ae"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jasonrogena/librarian/releases/download/v0.4.9/fs-librarian-v0.4.9-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.9",
+      "sha256": "dba64b083e00bcab4e8d7affe005c36e7e54fce32529ca0f429e210e4145cb9b",
+      "size": 1888216,
+      "format": "zip",
+      "binaries": {
+        "fs-librarian.exe": {
+          "path": "fs-librarian-v0.4.9-x86_64-pc-windows-msvc/fs-librarian.exe",
+          "sha256": "682ce4053aeabf49c86233bd5b212acbf982e02eccafc785d345676cb82765e1"
+        }
+      }
+    }
+  }
+}
