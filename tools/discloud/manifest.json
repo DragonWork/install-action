@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "discloud",
+  "version": "1.1.1",
+  "repository": "discloud/cli-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/discloud/cli-rust/releases/download/v1.1.1/discloud-x86_64-Linux.zip",
+      "releaseTag": "v1.1.1",
+      "sha256": "cdea6528918dd3954ba7aac860f515d2d78740b7b22a34cfe08b03c2d18ca5f6",
+      "size": 8382454,
+      "format": "zip",
+      "binaries": {
+        "discloud": {
+          "path": "discloud",
+          "sha256": "a72c6dfe8d7c530d5132a853708eae428bb9d4f54c48ac86b70ce0d7e916e96b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/discloud/cli-rust/releases/download/v1.1.1/discloud-x86_64-macOS.zip",
+      "releaseTag": "v1.1.1",
+      "sha256": "44f33f4895e83d6dffc7796a710ab957eed6bfdd677a5fc28e78e1d4a1e54f62",
+      "size": 4364653,
+      "format": "zip",
+      "binaries": {
+        "discloud": {
+          "path": "discloud",
+          "sha256": "d120ef1e65c9a498d0c30386844c3029123ff8216c291a2a786f0fe0c756be82"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/discloud/cli-rust/releases/download/v1.1.1/discloud-x86_64-Windows.zip",
+      "releaseTag": "v1.1.1",
+      "sha256": "4dd17db3a5013db6dd777fde3a257fcfd8e0d03f25a94cb556225f29eca25097",
+      "size": 3472975,
+      "format": "zip",
+      "binaries": {
+        "discloud.exe": {
+          "path": "discloud.exe",
+          "sha256": "a8606abeba1685f4e339dc04b9fa31cb8fa29534d8909d66d78c2db754905bfd"
+        }
+      }
+    }
+  }
+}
