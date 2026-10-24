@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "git-kit",
+  "version": "0.0.22",
+  "repository": "xsv24/git-kit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xsv24/git-kit/releases/download/0.0.22/git-kit-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.0.22",
+      "sha256": "b33c74a21244e1ed5ffb84db5ba7240850ff21a38271a98c40abc66079cee0f3",
+      "size": 2192716,
+      "format": "tar.gz",
+      "binaries": {
+        "git-kit": {
+          "path": "git-kit-x86_64-unknown-linux-musl/git-kit",
+          "sha256": "42db34f1868bd81fbf06261f629dba2178a71332027a4338353f23fe11cbe9b8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/xsv24/git-kit/releases/download/0.0.22/git-kit-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.0.22",
+      "sha256": "5d738db8baae68227dd175af8870ce39c0a22ad3e18f86e2341ca13eabb77cec",
+      "size": 3314487,
+      "format": "tar.gz",
+      "binaries": {
+        "git-kit": {
+          "path": "git-kit-aarch64-unknown-linux-musl/git-kit",
+          "sha256": "6351445a77a2a17e1ab456326671665f7692e42a2dee85935c7c2a0bb1544cf4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xsv24/git-kit/releases/download/0.0.22/git-kit-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.0.22",
+      "sha256": "b80d7e74a55507b4d2bec9d39e87bdaadcf601b512f37683ed482686fa0a2d11",
+      "size": 2067552,
+      "format": "tar.gz",
+      "binaries": {
+        "git-kit": {
+          "path": "git-kit-x86_64-apple-darwin/git-kit",
+          "sha256": "d265f5933a6dde3d3251185ea7a17403c84749f3bd6962d4b7723f0252fc1092"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xsv24/git-kit/releases/download/0.0.22/git-kit-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.0.22",
+      "sha256": "b52af6be0262265ac52308caac91614c20bf908f6db75ebeade5978f771414e4",
+      "size": 1958059,
+      "format": "tar.gz",
+      "binaries": {
+        "git-kit": {
+          "path": "git-kit-aarch64-apple-darwin/git-kit",
+          "sha256": "699b8696012bf173e0e7d699e0eaa2ae75fd7d0e18efc8927cbf487c382ef3f0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/xsv24/git-kit/releases/download/0.0.22/git-kit-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.0.22",
+      "sha256": "06c53559b5c6d6b1bf5de2a267c4aa1bbf69ede6190a5312995061c1ad2c7f1d",
+      "size": 1894023,
+      "format": "zip",
+      "binaries": {
+        "git-kit.exe": {
+          "path": "git-kit-x86_64-pc-windows-msvc/git-kit.exe",
+          "sha256": "826ff41803f64c338c4c3861bb69e37e68ad6cab33805ed61b885baf9fb4aa8c"
+        }
+      }
+    }
+  }
+}
