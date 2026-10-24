@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "html-to-markdown-cli",
+  "version": "3.18.6",
+  "repository": "xberg-io/html-to-markdown",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.18.6/cli-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.18.6",
+      "sha256": "5e4d3266f92db0c38703bd4af1aaa25a6e1a1c0750be540f03db9564030f986b",
+      "size": 5925014,
+      "format": "tar.gz",
+      "binaries": {
+        "html-to-markdown": {
+          "path": "cli-x86_64-unknown-linux-musl/html-to-markdown",
+          "sha256": "62dd3af22dacf95ed6a61aeece9e506569c15c8b7d27d02224ed2e3fa1f2a772"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.18.6/cli-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.18.6",
+      "sha256": "5d36136b4562d743869673e826ce805aef00747c91de74b0e911402e12660722",
+      "size": 5416739,
+      "format": "tar.gz",
+      "binaries": {
+        "html-to-markdown": {
+          "path": "cli-aarch64-unknown-linux-gnu/html-to-markdown",
+          "sha256": "97fa68f2edfda6a10ddb5d8a4c96e321d537800ef2a6f176f47bb03afa50e85e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.18.6/cli-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.18.6",
+      "sha256": "5ce94af8bc8f2e27971b7dec6d301d86e188bc45a1de95705ad1067787b76f09",
+      "size": 5303685,
+      "format": "tar.gz",
+      "binaries": {
+        "html-to-markdown": {
+          "path": "cli-aarch64-apple-darwin/html-to-markdown",
+          "sha256": "79835db4dfeda7c69b24486e18d353b776f9fc8f937660ff61e7e274fe7e1fef"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.18.6/cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.18.6",
+      "sha256": "44e30ef002cb569d543a54b2c900e07651098729846c651caba4669530d813bc",
+      "size": 5367076,
+      "format": "zip",
+      "binaries": {
+        "html-to-markdown.exe": {
+          "path": "cli-x86_64-pc-windows-msvc/html-to-markdown.exe",
+          "sha256": "368b983729a7a1fc6d57092e1fa9772066d3688912caf571608ea3ccbbc9ea3d"
+        }
+      }
+    }
+  }
+}
