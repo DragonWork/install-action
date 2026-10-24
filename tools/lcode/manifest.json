@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "lcode",
+  "version": "0.10.0",
+  "repository": "saying121/lcode",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/saying121/lcode/releases/download/v0.10.0/lcode-v0.10.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "b28e96eebc290cdbdb1b90a98fcdea121ad727abb3a92dec49ceab3dd3e0fe7b",
+      "size": 8085549,
+      "format": "tar.gz",
+      "binaries": {
+        "lcode": {
+          "path": "lcode",
+          "sha256": "b94b795086fbe1ab8b1edbdcb604a9c91a4bf95d7e21f82855e618b8ad81ec08"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/saying121/lcode/releases/download/v0.10.0/lcode-v0.10.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "f05787c366623a8d75be044635767a279272fa1e67db4cb05607b836c23fe9f8",
+      "size": 7323151,
+      "format": "tar.gz",
+      "binaries": {
+        "lcode": {
+          "path": "lcode",
+          "sha256": "3d530366085bd2ae50a7121fd5466fe9ce50e1b336b887ab2849e3fda42bb24a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/saying121/lcode/releases/download/v0.10.0/lcode-v0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "e566eb7802a13fe6f8459e89e10c7b7f35f0dd04e380b0dd150708d1dd426199",
+      "size": 6498892,
+      "format": "tar.gz",
+      "binaries": {
+        "lcode": {
+          "path": "lcode",
+          "sha256": "fe8b1af135d3dd8048065fbd61a7d1a524e4361fb4445f15247f0f414a8bfc69"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/saying121/lcode/releases/download/v0.10.0/lcode-v0.10.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "cd686e0298c77fb1e35a3df1c4cd9813c9bb9668d0c4f0a0363e5d2cf44ba745",
+      "size": 5916063,
+      "format": "tar.gz",
+      "binaries": {
+        "lcode": {
+          "path": "lcode",
+          "sha256": "ab1e4774f15c1ecaf7131f729506f1a95eb2bf61f2ceac0b15cc6343fa6e2213"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/saying121/lcode/releases/download/v0.10.0/lcode-v0.10.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "786183810fe63e06d27991a7b835d593d6eda942fcb9c61501cdef1e11827292",
+      "size": 6195425,
+      "format": "zip",
+      "binaries": {
+        "lcode.exe": {
+          "path": "lcode.exe",
+          "sha256": "856e50214c0b76597e4f20efbd8efb01eeec0437c799c9e2275ac428fb3c548c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/saying121/lcode/releases/download/v0.10.0/lcode-v0.10.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "e187055e7a58d1d77a82dbadc60e03db711e10fc9d9507e658767a8067f10808",
+      "size": 5716067,
+      "format": "zip",
+      "binaries": {
+        "lcode.exe": {
+          "path": "lcode.exe",
+          "sha256": "1e46a0ce028f242fae2abe0f0a55c33d1989e071f0c5d38d59f4685b8e0b93c6"
+        }
+      }
+    }
+  }
+}
