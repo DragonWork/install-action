@@ -1,45 +1,71 @@
 {
   "schema": 1,
   "name": "release-plz",
-  "version": "0.3.174",
+  "version": "0.4.0",
   "repository": "release-plz/release-plz",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.3.174/release-plz-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "release-plz-v0.3.174",
-      "sha256": "8240e953608d40e709d042e9ac0e206d518825de3d88a3da9ebeaf2a3ff57ea9",
-      "size": 19254363,
+      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.4.0/release-plz-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "release-plz-v0.4.0",
+      "sha256": "df611a92b37e55e70b26d8c5622a54c35f2167116731b971e4319ea7425c371f",
+      "size": 19266498,
       "format": "tar.gz",
       "binaries": {
         "release-plz": {
           "path": "release-plz",
-          "sha256": "721b6e76f77b809381dc77c6817aeb84e930c022f49f4d861fd4c36347c50577"
+          "sha256": "cb4cea7a339a6ae7bbb4bd17522eecc79af9de4024b37366b0191109d9f74838"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.3.174/release-plz-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "release-plz-v0.3.174",
-      "sha256": "ab1a5a36d93cc4abedd9474381300a709ea06cd915c88c67c187118dbd9475d1",
-      "size": 18725975,
+      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.4.0/release-plz-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "release-plz-v0.4.0",
+      "sha256": "25615a2c7dc21876eedc7df6e4fef56ad510b50bbf14955b501f625107de50e8",
+      "size": 18730268,
       "format": "tar.gz",
       "binaries": {
         "release-plz": {
           "path": "release-plz",
-          "sha256": "2c9bcf8bcdef756d7d3f4e029857b4dcc0ca03afc48793d5cd7de193abfeee12"
+          "sha256": "46efc347090a34ec508b0add2c3c516b08117ef07b813aaa58d09b4841df8e87"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.3.174/release-plz-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "release-plz-v0.3.174",
-      "sha256": "415494b8540935e4b38f815bd4c3640092313b101323398d641e91b1f7489d80",
-      "size": 16024144,
+      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.4.0/release-plz-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "release-plz-v0.4.0",
+      "sha256": "5f8b160f7483d7902e6e72c8f6746e885cc81dec7ca5967161cb8814d38d2b14",
+      "size": 16038409,
       "format": "tar.gz",
       "binaries": {
         "release-plz": {
           "path": "release-plz",
-          "sha256": "2bc0648584423c0134b1019f24abdbe2809ad12f4ffe0d5199d4756540d06b41"
+          "sha256": "781d1c32374af8bfebddf94973565a7f489301776d9386d24a7203f6a4a16340"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.4.0/release-plz-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "release-plz-v0.4.0",
+      "sha256": "23486f53d3a703fddcf3f210201d538f78a2669b2671bab8156cceed1fd2f898",
+      "size": 13865108,
+      "format": "zip",
+      "binaries": {
+        "release-plz.exe": {
+          "path": "release-plz.exe",
+          "sha256": "361ac306a7085901b9ee470621fb51b855a9791d6b16b3b74e2880ab778d9cf2"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.4.0/release-plz-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "release-plz-v0.4.0",
+      "sha256": "71cba3c5b0ceac94e6609fc32752b9463c2f12213dd468aac1401e43df3d0e41",
+      "size": 12960181,
+      "format": "zip",
+      "binaries": {
+        "release-plz.exe": {
+          "path": "release-plz.exe",
+          "sha256": "a2a38803182fb5c17a4d9053076d7da823e6d5fe3226ef8fc92b138654052bf1"
         }
       }
     }
