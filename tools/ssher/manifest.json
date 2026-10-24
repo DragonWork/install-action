@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ssher",
+  "version": "0.5.2",
+  "repository": "poneding/ssher-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/poneding/ssher-rs/releases/download/v0.5.2/ssher_v0.5.2_linux_amd64.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "9fb0bebb7b84b67b98f67f3a55dfa716a1bdbfc3f59dcf57f1dbc883bfd4f626",
+      "size": 3210547,
+      "format": "tar.gz",
+      "binaries": {
+        "ssher": {
+          "path": "ssher",
+          "sha256": "b1adac178607eac8ea92ef633ba1929283eb12146100969e3e0306b8153c4117"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/poneding/ssher-rs/releases/download/v0.5.2/ssher_v0.5.2_linux_arm64.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "a82ee8e128f47b2c95786049a16808d15bb4c524f394e69059f609c23b2e98c4",
+      "size": 3079680,
+      "format": "tar.gz",
+      "binaries": {
+        "ssher": {
+          "path": "ssher",
+          "sha256": "dc4c393417a8334a4e4af06e363d2fdf64b0f527760838d5feffecc2fb2e391e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/poneding/ssher-rs/releases/download/v0.5.2/ssher_v0.5.2_darwin_amd64.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "0869940dc7cf0ea3004b2fa45ef2123411b668c4777e484f4880c760d390b37f",
+      "size": 3060047,
+      "format": "tar.gz",
+      "binaries": {
+        "ssher": {
+          "path": "ssher",
+          "sha256": "8765e9b64235c498c667cd04335f0213c75eb8538bbc553d4712491265c68bff"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/poneding/ssher-rs/releases/download/v0.5.2/ssher_v0.5.2_darwin_arm64.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "1cd79a3ccab1753f5cd556e0bdd927973ea74db5d0c75fe5697686d1616c8f51",
+      "size": 2914957,
+      "format": "tar.gz",
+      "binaries": {
+        "ssher": {
+          "path": "ssher",
+          "sha256": "ab3e16a54ef561959be6e42cf5834c72a122029a27cc6b2ce6df89855f557142"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/poneding/ssher-rs/releases/download/v0.5.2/ssher_v0.5.2_windows_amd64.zip",
+      "releaseTag": "v0.5.2",
+      "sha256": "967e52faeb527219ad7c59786871b3348fcfbb9285a19a1defafceee7f81e0d5",
+      "size": 2541058,
+      "format": "zip",
+      "binaries": {
+        "ssher.exe": {
+          "path": "ssher.exe",
+          "sha256": "d0bc689df666ac67eb9a195adcdcc3e60e31b53485d40f5edd2048c7875184e7"
+        }
+      }
+    }
+  }
+}
