@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "ripping",
+  "version": "0.6.0",
+  "repository": "joedborg/ripping",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/joedborg/ripping/releases/download/v0.6.0/ripping-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.6.0",
+      "sha256": "9357f4818cd4f17c14f28adf0eaae4520f76c7b250bb798da7afa9bc955caf07",
+      "size": 726528,
+      "format": "binary",
+      "binaries": {
+        "ripping.exe": {
+          "path": "ripping-x86_64-pc-windows-msvc.exe",
+          "sha256": "9357f4818cd4f17c14f28adf0eaae4520f76c7b250bb798da7afa9bc955caf07"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/joedborg/ripping/releases/download/v0.6.0/ripping-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.6.0",
+      "sha256": "a4d0cf2ff6746fb53df1ddbf7fef7b92a6f0034492488ed43be4ebc262e6d5f7",
+      "size": 624128,
+      "format": "binary",
+      "binaries": {
+        "ripping.exe": {
+          "path": "ripping-aarch64-pc-windows-msvc.exe",
+          "sha256": "a4d0cf2ff6746fb53df1ddbf7fef7b92a6f0034492488ed43be4ebc262e6d5f7"
+        }
+      }
+    }
+  }
+}
