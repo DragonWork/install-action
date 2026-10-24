@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "forc-crypto",
+  "version": "0.71.1",
+  "repository": "FuelLabs/forc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-crypto-0.71.1/forc-crypto-0.71.1-linux_amd64.tar.gz",
+      "releaseTag": "forc-crypto-0.71.1",
+      "sha256": "8b455b1fd47b482d4fd8f5d4db5043bdb8f7764f69af09903f21fb840b3d862b",
+      "size": 6525026,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-crypto": {
+          "path": "forc-crypto-0.71.1-linux_amd64/forc-crypto",
+          "sha256": "001e0f45c0d12301896a8fe540f7827711a9a451e3dc267b8309fecc50584c74"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-crypto-0.71.1/forc-crypto-0.71.1-linux_arm64.tar.gz",
+      "releaseTag": "forc-crypto-0.71.1",
+      "sha256": "f4c65cfb6868affa6aad0f6b837e6a688428d2d680b58fac6dd13447a50ce0d7",
+      "size": 6119536,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-crypto": {
+          "path": "forc-crypto-0.71.1-linux_arm64/forc-crypto",
+          "sha256": "64b4733e3ea81a23127328a6dc5d75756b4da6f9894811f33e16b4fd6cfa3302"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-crypto-0.71.1/forc-crypto-0.71.1-darwin_amd64.tar.gz",
+      "releaseTag": "forc-crypto-0.71.1",
+      "sha256": "091303e46e5f40faf94c61a30d042071e5ffe7e26faa964944159a3fed53abc2",
+      "size": 3865799,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-crypto": {
+          "path": "forc-crypto-0.71.1-darwin_amd64/forc-crypto",
+          "sha256": "89186818c6c792043a0ea373be71ae66388b85bf61cbca4518ff08039cea30d2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/forc/releases/download/forc-crypto-0.71.1/forc-crypto-0.71.1-darwin_arm64.tar.gz",
+      "releaseTag": "forc-crypto-0.71.1",
+      "sha256": "7da4702714a32a168c6ae1696af6c14172010463776bd31b6a27f6196d392011",
+      "size": 3754449,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-crypto": {
+          "path": "forc-crypto-0.71.1-darwin_arm64/forc-crypto",
+          "sha256": "310ce714eceadb364e58b4c784fb9ab1702a531a7b7ce290846d0ac884f0b360"
+        }
+      }
+    }
+  }
+}
