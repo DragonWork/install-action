@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gptcommit",
+  "version": "0.6.0",
+  "repository": "zurawiki/gptcommit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zurawiki/gptcommit/releases/download/v0.6.0/gptcommit-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "aa13984f39c6bd26e8d5922587a5821a8c19cea20994f024b79c2ce745323902",
+      "size": 8057569,
+      "format": "tar.gz",
+      "binaries": {
+        "gptcommit": {
+          "path": "gptcommit",
+          "sha256": "807fb1b13914ccbac80568ea48383865fa62c5125ce11d3984f42da44b5a7142"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zurawiki/gptcommit/releases/download/v0.6.0/gptcommit-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "1472bb79c03c7fdaa2d5a3572519f64c10cda9d182e27233d85a7c6b88bf5cfc",
+      "size": 7942668,
+      "format": "tar.gz",
+      "binaries": {
+        "gptcommit": {
+          "path": "gptcommit",
+          "sha256": "dbc06b46338b83b1b650f9eab6385c2699dfeecca9b396f2df73003ab2f37177"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zurawiki/gptcommit/releases/download/v0.6.0/gptcommit-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "6909a1678628e5dd519cd330cd23cfabdc6ae235a9fe71c77525e069930351cb",
+      "size": 7658542,
+      "format": "tar.gz",
+      "binaries": {
+        "gptcommit": {
+          "path": "gptcommit",
+          "sha256": "4ea1c1837847d8510657fa70bc210f2f7a58b56c2d1c523b581fcb463517d5c1"
+        }
+      }
+    }
+  }
+}
