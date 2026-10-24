@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "flip-link",
+  "version": "0.1.12",
+  "repository": "knurling-rs/flip-link",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/knurling-rs/flip-link/releases/download/v0.1.12/flip-link-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.1.12",
+      "sha256": "2cb7be7e25982e087dbe70c113dbdf8c0a489714f192b3b712c71258d8b26b5b",
+      "size": 399412,
+      "format": "tar.xz",
+      "binaries": {
+        "flip-link": {
+          "path": "flip-link-x86_64-unknown-linux-musl/flip-link",
+          "sha256": "be3093f6a436b6813529c9428b9b73c6a86e1d70802dac98165a8452ee0c9bfa"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/knurling-rs/flip-link/releases/download/v0.1.12/flip-link-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.12",
+      "sha256": "1f075a833d0c23ac2b36ba24f2b777c07034ede5c73e3f05b2735f31bfd59471",
+      "size": 298860,
+      "format": "tar.xz",
+      "binaries": {
+        "flip-link": {
+          "path": "flip-link-aarch64-unknown-linux-gnu/flip-link",
+          "sha256": "3878820ee01463befd074522e50f2890fad632389c1fada1776c76efd6ae0ebb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/knurling-rs/flip-link/releases/download/v0.1.12/flip-link-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.12",
+      "sha256": "73abfccdc73b6a7911dfe08a2efc40355f6096a9fc8fbd4d0eb9d5a2c6c3141a",
+      "size": 310208,
+      "format": "tar.xz",
+      "binaries": {
+        "flip-link": {
+          "path": "flip-link-x86_64-apple-darwin/flip-link",
+          "sha256": "fb6418ad778d07a2b75ee2407627a2e5e760d2454e568b4ca3e6f96b358f1e4e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/knurling-rs/flip-link/releases/download/v0.1.12/flip-link-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.12",
+      "sha256": "9e513da55497f0b5450fceec7bc5ca76e5d96916e77533b7c703404c0b080533",
+      "size": 276440,
+      "format": "tar.xz",
+      "binaries": {
+        "flip-link": {
+          "path": "flip-link-aarch64-apple-darwin/flip-link",
+          "sha256": "bea6175ee33386fa27287a33c3f7b381b0093eb7b7bbf3bcfbdd0dea31cf3ddd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/knurling-rs/flip-link/releases/download/v0.1.12/flip-link-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.12",
+      "sha256": "b64d6bed1872d5cd1057b1e1e44ebb1e18d18bf043a7e3479adad7962c5ba1bd",
+      "size": 378154,
+      "format": "zip",
+      "binaries": {
+        "flip-link.exe": {
+          "path": "flip-link.exe",
+          "sha256": "bc9f73e05d525a5280f2a7d9cdf98e05be93455ef7f6237bffdc2fe826e7ae71"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/knurling-rs/flip-link/releases/download/v0.1.12/flip-link-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.12",
+      "sha256": "84a99f2e02d95145bdc42bd47b7bc43dd5acee4ba4f72404f0ba10c6ae06f591",
+      "size": 337463,
+      "format": "zip",
+      "binaries": {
+        "flip-link.exe": {
+          "path": "flip-link.exe",
+          "sha256": "6a9b0c3cd9bc69fbddd888de7bc9d300006893144a330ce1c003df08c58808cc"
+        }
+      }
+    }
+  }
+}
