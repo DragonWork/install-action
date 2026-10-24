@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "bpf-metrics-exporter",
+  "version": "0.6.0",
+  "repository": "bpfman/bpfman",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-x86_64.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "55cd4015226c4c07281824fa8162c5e9478b9c54b54f4e1c67a64de3a7ba1e5c",
+      "size": 19866767,
+      "format": "tar.gz",
+      "binaries": {
+        "bpf-metrics-exporter": {
+          "path": "bpf-metrics-exporter",
+          "sha256": "c123a64472cde79e57029997d57d6463275c901d75fb0edf85976eae1da680e0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-arm64.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "8a94f9f90bde82d82d719a171ff7bf6cf17ec69b0bba6e9e74cea48f77c27de6",
+      "size": 18844127,
+      "format": "tar.gz",
+      "binaries": {
+        "bpf-metrics-exporter": {
+          "path": "bpf-metrics-exporter",
+          "sha256": "22d6872f96b1281d62e6b991c3f22bc6c7af1b1681a80b5bf900a077c135d711"
+        }
+      }
+    }
+  }
+}
