@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "gh-bofh-rs",
+  "version": "1.2.2",
+  "repository": "AliSajid/gh-bofh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AliSajid/gh-bofh/releases/download/v1.2.2/gh-bofh-x86_64-unknown-linux-gnu",
+      "sha256": "00e622b0fff13305c2dd6a2c50c5e71f41e3f5b29b8b9f0481c01aaf8f6786c8",
+      "size": 625144,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "gh-bofh": {
+          "path": "gh-bofh-x86_64-unknown-linux-gnu",
+          "sha256": "00e622b0fff13305c2dd6a2c50c5e71f41e3f5b29b8b9f0481c01aaf8f6786c8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/AliSajid/gh-bofh/releases/download/v1.2.2/gh-bofh-aarch64-unknown-linux-gnu",
+      "sha256": "21e8f3aee33def7dbcebc190cd48a6f1767aaf89c32c21c23f64248e4c20c843",
+      "size": 543296,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "gh-bofh": {
+          "path": "gh-bofh-aarch64-unknown-linux-gnu",
+          "sha256": "21e8f3aee33def7dbcebc190cd48a6f1767aaf89c32c21c23f64248e4c20c843"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AliSajid/gh-bofh/releases/download/v1.2.2/gh-bofh-x86_64-apple-darwin",
+      "sha256": "197c5fdf89df57e5e3230b69578a449aea61c9cf32cb4250b16449642c5d3f5c",
+      "size": 518544,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "gh-bofh": {
+          "path": "gh-bofh-x86_64-apple-darwin",
+          "sha256": "197c5fdf89df57e5e3230b69578a449aea61c9cf32cb4250b16449642c5d3f5c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AliSajid/gh-bofh/releases/download/v1.2.2/gh-bofh-aarch64-apple-darwin",
+      "sha256": "21de5fc7226d8f2cdad7150a83e906bfc215e6146234f639a128ccb6166baf8d",
+      "size": 486032,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "gh-bofh": {
+          "path": "gh-bofh-aarch64-apple-darwin",
+          "sha256": "21de5fc7226d8f2cdad7150a83e906bfc215e6146234f639a128ccb6166baf8d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AliSajid/gh-bofh/releases/download/v1.2.2/gh-bofh-x86_64-pc-windows-gnu",
+      "sha256": "9564f6e0b396da39d375d87e560df3f47c85ff93caea870d01578fe0cfda3780",
+      "size": 538624,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "gh-bofh.exe": {
+          "path": "gh-bofh-x86_64-pc-windows-gnu",
+          "sha256": "9564f6e0b396da39d375d87e560df3f47c85ff93caea870d01578fe0cfda3780"
+        }
+      }
+    }
+  }
+}
