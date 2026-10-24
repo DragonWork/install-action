@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "git-acm",
+  "version": "2.0.0",
+  "repository": "shivamhwp/git-acm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shivamhwp/git-acm/releases/download/v2.0.0/git-acm-linux-x86_64.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "2268d3b137644dffda5c201aeaa690b73cd650296d3a38d4ba2901831aa05cb7",
+      "size": 1578904,
+      "format": "tar.gz",
+      "binaries": {
+        "git-acm": {
+          "path": "git-acm-linux-x86_64/git-acm",
+          "sha256": "300d0944dc7effa612687eae0013ddeabdf59309892f976fcdacecd1d474bea6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/shivamhwp/git-acm/releases/download/v2.0.0/git-acm-linux-aarch64.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "03f2aa1d3539da71a9dd09657d564935f143bd22d0c3fb293b1cda995ded216d",
+      "size": 1507501,
+      "format": "tar.gz",
+      "binaries": {
+        "git-acm": {
+          "path": "git-acm-linux-aarch64/git-acm",
+          "sha256": "dd7284f7b18cea5dca217b3e4f2e21d1e487fafffcabefb85a885b5d613b0660"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/shivamhwp/git-acm/releases/download/v2.0.0/git-acm-darwin-x86_64.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "c84cbe9efd3ae6f1da50237590c994be26d6100ef43ed5fe2fd00b02846d441e",
+      "size": 1113323,
+      "format": "tar.gz",
+      "binaries": {
+        "git-acm": {
+          "path": "git-acm-darwin-x86_64/git-acm",
+          "sha256": "7918bf67e01f7f64a339fb8d585a2d45fbdcccf0a3ac0ff854fe94901798cdd3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/shivamhwp/git-acm/releases/download/v2.0.0/git-acm-darwin-arm64.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "c449b3a7ac1232cce6d65a725028a752cfdffe4627a000d3bb7e372f6cf418ca",
+      "size": 1059956,
+      "format": "tar.gz",
+      "binaries": {
+        "git-acm": {
+          "path": "git-acm-darwin-arm64/git-acm",
+          "sha256": "64ae9b05d17a7ea84bf9139ccd65f44bc8082f9a116b6d02536b5c2f8f58fb29"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/shivamhwp/git-acm/releases/download/v2.0.0/git-acm-windows-x86_64.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "75354177be4c9422c0eec1e1276e680550acf3a6d61d1d9cdbb8b703d114d3cb",
+      "size": 1426417,
+      "format": "zip",
+      "binaries": {
+        "git-acm.exe": {
+          "path": "git-acm-windows-x86_64/git-acm.exe",
+          "sha256": "1b5e800cb5a799863b043d894157e0641679d111536f7bf7567ad2483bcf5245"
+        }
+      }
+    }
+  }
+}
