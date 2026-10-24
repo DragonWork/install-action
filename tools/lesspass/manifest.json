@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "lesspass",
+  "version": "0.5.0",
+  "repository": "71/lesspass.rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/71/lesspass.rs/releases/download/v0.5.0/lesspass-0.5.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "d745ab0edf195d2b811a6952862221055f44a1ec70fdab063272c0f231641280",
+      "size": 446416,
+      "format": "tar.gz",
+      "binaries": {
+        "lesspass": {
+          "path": "lesspass-0.5.0-x86_64-unknown-linux-gnu/lesspass",
+          "sha256": "1d93911b5ed6bf73f58e445f43608c570966236271efce2d42f7847b0a9a3fed"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/71/lesspass.rs/releases/download/v0.5.0/lesspass-0.5.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "fe2b48b48896de47419443326ae60a568a37c4f13d7a0ce96088ded1495a3561",
+      "size": 468334,
+      "format": "tar.gz",
+      "binaries": {
+        "lesspass": {
+          "path": "lesspass-0.5.0-aarch64-unknown-linux-gnu/lesspass",
+          "sha256": "7ca8b16d3c884a19f4dea3a54935366dff16bd2ecdfc93408388cd1bbde69abc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/71/lesspass.rs/releases/download/v0.5.0/lesspass-0.5.0-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "7a505a750b05ea527b70d90d9f05a85cd935f61353bbb7a994580ef71aa526c5",
+      "size": 838690,
+      "format": "zip",
+      "binaries": {
+        "lesspass.exe": {
+          "path": "lesspass-0.5.0-x86_64-pc-windows-gnu/lesspass.exe",
+          "sha256": "7c1ecccc9850120b15e7ff3e246a05d81b0cf8543438a644aacdd873ca6b0ca6"
+        }
+      }
+    }
+  }
+}
