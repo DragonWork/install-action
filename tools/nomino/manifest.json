@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "nomino",
+  "version": "1.6.4",
+  "repository": "yaa110/nomino",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yaa110/nomino/releases/download/v1.6.4/nomino-linux-64bit",
+      "sha256": "12c89f5c59f35d97f5d686daa5dfe87a852c51468797af7dc61a0b19f9af6976",
+      "size": 2511584,
+      "format": "binary",
+      "releaseTag": "v1.6.4",
+      "binaries": {
+        "nomino": {
+          "path": "nomino-linux-64bit",
+          "sha256": "12c89f5c59f35d97f5d686daa5dfe87a852c51468797af7dc61a0b19f9af6976"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yaa110/nomino/releases/download/v1.6.4/nomino-macos-64bit",
+      "sha256": "e67257bb8877ddb079269016ca5161d6a09dd74d9ef239dc319b1b3a350b05fb",
+      "size": 1876208,
+      "format": "binary",
+      "releaseTag": "v1.6.4",
+      "binaries": {
+        "nomino": {
+          "path": "nomino-macos-64bit",
+          "sha256": "e67257bb8877ddb079269016ca5161d6a09dd74d9ef239dc319b1b3a350b05fb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yaa110/nomino/releases/download/v1.6.4/nomino-windows-64bit.exe",
+      "sha256": "ea77b987adb4d802983ed73ada32e026cf92f8dfde23a35e2cc547e622b283b8",
+      "size": 2079232,
+      "format": "binary",
+      "releaseTag": "v1.6.4",
+      "binaries": {
+        "nomino.exe": {
+          "path": "nomino-windows-64bit.exe",
+          "sha256": "ea77b987adb4d802983ed73ada32e026cf92f8dfde23a35e2cc547e622b283b8"
+        }
+      }
+    }
+  }
+}
