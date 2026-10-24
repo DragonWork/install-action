@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "chompbuild",
+  "version": "0.3.1",
+  "repository": "guybedford/chomp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/guybedford/chomp/releases/download/0.3.1/chomp-linux-0.3.1.tar.gz",
+      "sha256": "5cc52758ffc73ee09922c692a7df21ee587283f7749a2e0e619d130a75e07cd8",
+      "size": 13428319,
+      "format": "tar.gz",
+      "releaseTag": "0.3.1",
+      "binaries": {
+        "chomp": {
+          "path": "chomp",
+          "sha256": "6fb2d5ab7a72982a1cd2e2acf2ebb3b016f966208d68204c9b6df79ea41a1269"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/guybedford/chomp/releases/download/0.3.1/chomp-macos-0.3.1.tar.gz",
+      "sha256": "147ee624982ae860f66a5586fdb48e690b09a0c17bed76f9f5ff053c0156271e",
+      "size": 11592357,
+      "format": "tar.gz",
+      "releaseTag": "0.3.1",
+      "binaries": {
+        "chomp": {
+          "path": "chomp",
+          "sha256": "07b4c3f4703293b70aa2e32933afc0a80d0906a1b9367e5a34cf20aa1175ca0b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/guybedford/chomp/releases/download/0.3.1/chomp-windows-0.3.1.zip",
+      "sha256": "aac59c235d7611515800530fa934757a1d147db52a37ac9eba563e9df1040270",
+      "size": 10251130,
+      "format": "zip",
+      "releaseTag": "0.3.1",
+      "binaries": {
+        "chomp.exe": {
+          "path": "chomp.exe",
+          "sha256": "5ae277697fc93692c929532b72b7ef3fab162e5eeafb23c17041434c8ba35211"
+        }
+      }
+    }
+  }
+}
