@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cascade-cli",
+  "version": "0.1.152",
+  "repository": "JAManfredi/cascade-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/JAManfredi/cascade-cli/releases/download/v0.1.152/ca-linux-x64.tar.gz",
+      "releaseTag": "v0.1.152",
+      "sha256": "b8ebbe7af28bbaac037222e5198279dc58a11facdde616bfb41d0874ecbe20b8",
+      "size": 7619318,
+      "format": "tar.gz",
+      "binaries": {
+        "ca": {
+          "path": "ca",
+          "sha256": "768eb11949a68799c657095ba87b1c1d5e972a21d820678fc308bb515dd44eb9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/JAManfredi/cascade-cli/releases/download/v0.1.152/ca-linux-arm64.tar.gz",
+      "releaseTag": "v0.1.152",
+      "sha256": "ac9b720dab85558296787c22eaec173d8918c6e6253c8ad18371c23034a7b242",
+      "size": 7981086,
+      "format": "tar.gz",
+      "binaries": {
+        "ca": {
+          "path": "ca",
+          "sha256": "4dbddcd3723cb9fc91f4d5da96925dec790efec45be959fcca8110827d62e6ce"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/JAManfredi/cascade-cli/releases/download/v0.1.152/ca-macos-x64.tar.gz",
+      "releaseTag": "v0.1.152",
+      "sha256": "e1db300453276f85e54a6d736e280456bc0e6dce4e9cdd68269f47e9c37e55a2",
+      "size": 6599195,
+      "format": "tar.gz",
+      "binaries": {
+        "ca": {
+          "path": "ca",
+          "sha256": "2791357f9fe209f8f902f8d7f50121eb10d521552b495fc25ca018d7c91af70a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/JAManfredi/cascade-cli/releases/download/v0.1.152/ca-macos-arm64.tar.gz",
+      "releaseTag": "v0.1.152",
+      "sha256": "f955e8c9259bc244529242ae5dfa335071b0e5abfab5a0c458ad10f0ecebe402",
+      "size": 6670535,
+      "format": "tar.gz",
+      "binaries": {
+        "ca": {
+          "path": "ca",
+          "sha256": "bb72f85abf4abcff24496916222ac2dffe4876cc76b8ab398dbf2b2f8b2b5995"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/JAManfredi/cascade-cli/releases/download/v0.1.152/ca-windows-x64.exe.zip",
+      "releaseTag": "v0.1.152",
+      "sha256": "4ab0314cd32661e85f1ab3b156e150c8b7449f57c6718831ca5ee3d1eac2170a",
+      "size": 4578061,
+      "format": "zip",
+      "binaries": {
+        "ca.exe": {
+          "path": "ca.exe",
+          "sha256": "909bb381994af3b7166f7733aa53bfbb8b5e169a94c2c3ea824a3c406ac44832"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/JAManfredi/cascade-cli/releases/download/v0.1.152/ca-windows-arm64.exe.zip",
+      "releaseTag": "v0.1.152",
+      "sha256": "5ad32810afc6b885b3b3e55159f0c29eae7c0af992a6baebccc5580dccf2b20b",
+      "size": 4334884,
+      "format": "zip",
+      "binaries": {
+        "ca.exe": {
+          "path": "ca.exe",
+          "sha256": "6b050232dd478936cebda36ebf14f7a339c435fe149f4dc3935c15919d264c9f"
+        }
+      }
+    }
+  }
+}
