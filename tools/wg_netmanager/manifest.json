@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "wg_netmanager",
+  "version": "0.5.1",
+  "repository": "gin66/wg_netmanager",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gin66/wg_netmanager/releases/download/wg_netmanager-v0.5.1/wg_netmanager-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "wg_netmanager-v0.5.1",
+      "sha256": "8d4604d64cc5a1559d6c45aec826856921f9ba857c5171b5da22dc6f6a686516",
+      "size": 1892825,
+      "format": "tar.gz",
+      "binaries": {
+        "wg_netmanager": {
+          "path": "wg_netmanager",
+          "sha256": "3fca61c1a7df58d345176f0ffa098bc4a85039e9493ab915dfe5106533742b16"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/gin66/wg_netmanager/releases/download/wg_netmanager-v0.5.1/wg_netmanager-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "wg_netmanager-v0.5.1",
+      "sha256": "587fa5395e166cb32a93a28322f1c12a0f2537452f65620c1bff4b8349c9ce89",
+      "size": 1871341,
+      "format": "tar.gz",
+      "binaries": {
+        "wg_netmanager": {
+          "path": "wg_netmanager",
+          "sha256": "773fc8c76b40f349d9981ea7970fcdfb4b595097d9ecda1582ed864fb432b78d"
+        }
+      }
+    }
+  }
+}
