@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "goku-bench",
+  "version": "3.0.0",
+  "repository": "jcaromiq/goku",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-Linux-musl-x86_64.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "e12e9bdf0df078cb09f17914ab368b2601b328e7c99e7d56d0c07d9012dcd9b9",
+      "size": 2688644,
+      "format": "tar.gz",
+      "binaries": {
+        "goku": {
+          "path": "goku",
+          "sha256": "048e7c137d9d11c01379948a038255ec760665d5a7c4e52648000d467c9571ef"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-Linux-musl-arm64.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "6f6c2cd91ee77a9fc13034fb71102082b25b0df89a8c1adb0965ba58c8ff873e",
+      "size": 2443731,
+      "format": "tar.gz",
+      "binaries": {
+        "goku": {
+          "path": "goku",
+          "sha256": "3d805111d5810abf9e0633d4618455323bc53886c2a4836a5cfa39b93d613a47"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-macOS-x86_64.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "372a328f0a8034f37bf153207c115b1203f50a32522b299aa1d9b4c065efb3ef",
+      "size": 2547489,
+      "format": "tar.gz",
+      "binaries": {
+        "goku": {
+          "path": "goku",
+          "sha256": "a151a13cb48d60c7bbe0e8edf894c31adda871cac1fe33627ce1169aa92c2b22"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-Windows-msvc-x86_64.zip",
+      "releaseTag": "v3.0.0",
+      "sha256": "a5ada417d292a1e8e098a18d67921ff88299e1426d0d2ce22d07784817f2e5fb",
+      "size": 2092373,
+      "format": "zip",
+      "binaries": {
+        "goku.exe": {
+          "path": "goku.exe",
+          "sha256": "40d56f58ed9a949250764718e2f30cf7e6440256a85ee3826d1823046699f309"
+        }
+      }
+    }
+  }
+}
