@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "pacaptr",
+  "version": "0.23.2",
+  "repository": "rami3l/pacaptr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rami3l/pacaptr/releases/download/v0.23.2/pacaptr-linux-amd64.tar.gz",
+      "releaseTag": "v0.23.2",
+      "sha256": "1c2f9ee938078486437694bab45b1bb79346e8ea8f6905f343de0ac4d3c94eb2",
+      "size": 1079198,
+      "format": "tar.gz",
+      "binaries": {
+        "pacaptr": {
+          "path": "pacaptr",
+          "sha256": "a9b5830831471ed6138744bf2e1d7346e1e53df09cfce94a96b958e3c05239fa"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rami3l/pacaptr/releases/download/v0.23.2/pacaptr-linux-arm64.tar.gz",
+      "releaseTag": "v0.23.2",
+      "sha256": "0e39e3f7b1f3a3b1d1e8c198f639aeb9ca433e6d08197abb28f8eebe9fe8b67f",
+      "size": 1029026,
+      "format": "tar.gz",
+      "binaries": {
+        "pacaptr": {
+          "path": "pacaptr",
+          "sha256": "073e0912d6ae1fb6fbc50ec8fdd10fc4cc0b5d410ec1a8de7b0cd38a296e9aac"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rami3l/pacaptr/releases/download/v0.23.2/pacaptr-windows-amd64.zip",
+      "releaseTag": "v0.23.2",
+      "sha256": "fc01bfb7b0c8a6de9f8f24fb61eb5b08de09c6c5ee5a5761e45b3a8ef28710b2",
+      "size": 812063,
+      "format": "zip",
+      "binaries": {
+        "pacaptr.exe": {
+          "path": "pacaptr.exe",
+          "sha256": "117a1fdf9c5e0b10bc9d1f742970d452fead7cb3bcf64d3f9a03430d9af98db9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/rami3l/pacaptr/releases/download/v0.23.2/pacaptr-windows-arm64.zip",
+      "releaseTag": "v0.23.2",
+      "sha256": "1a6eca57d80cc37bcc0d1d7bdec562d4af512356985ceda990afb0eeb9c595b0",
+      "size": 766393,
+      "format": "zip",
+      "binaries": {
+        "pacaptr.exe": {
+          "path": "pacaptr.exe",
+          "sha256": "3badbc016e6028c776c4462cfee3bbd9d2df384de57a7c3668ebf232d681688d"
+        }
+      }
+    }
+  }
+}
