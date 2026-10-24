@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "spacer",
+  "version": "0.5.0",
+  "repository": "samwho/spacer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/samwho/spacer/releases/download/v0.5.0/spacer-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "08418f854358db92a6b4fa79a1182ac4196090b7654a27b5fcf0af79b68f00bd",
+      "size": 1340567,
+      "format": "tar.gz",
+      "binaries": {
+        "spacer": {
+          "path": "spacer",
+          "sha256": "3a22acdb92ebd92d7478b8d15ebf7cd47f8c2b7eebfc4b6e22d9c79164c02219"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/samwho/spacer/releases/download/v0.5.0/spacer-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "af72736f65c6c31d1a91759ca7093ef62437ec5075602ca9ef0dab0890aaf066",
+      "size": 1280842,
+      "format": "tar.gz",
+      "binaries": {
+        "spacer": {
+          "path": "spacer",
+          "sha256": "631ba08d6def15c1896ee24a99bf8ddb995726c62869986545ae06f7f6529708"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/samwho/spacer/releases/download/v0.5.0/spacer-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "7f88af9bf30e057e452d81658b8063068709fc64de2f7433e6d3ec9c7a30e029",
+      "size": 1154285,
+      "format": "tar.gz",
+      "binaries": {
+        "spacer": {
+          "path": "spacer",
+          "sha256": "3da778e10ba7241a50251f4fe6d660280131db65cd59288b2d258336195368cd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/samwho/spacer/releases/download/v0.5.0/spacer-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "a1da640ef3c5ea1ea490e9c27b4904de50eaf339e0780c4a29fa49f4776ab3d5",
+      "size": 1068021,
+      "format": "tar.gz",
+      "binaries": {
+        "spacer": {
+          "path": "spacer",
+          "sha256": "82f4afddf4ca8f80e0784e4ee138614a9c7609756a4871f4e2059b4c59f9248b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/samwho/spacer/releases/download/v0.5.0/spacer-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "9bc502b79c8c8619693b1fa0d7a92227db5787a874323f1dfb70192c3d051631",
+      "size": 1005656,
+      "format": "zip",
+      "binaries": {
+        "spacer.exe": {
+          "path": "spacer.exe",
+          "sha256": "eb6a6965a8e8151556626e7ed36be3fb72a64bb9c97eb9810dcc3b745adb2a0d"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/samwho/spacer/releases/download/v0.5.0/spacer-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "619d2a637eb01e0668fe75330d5290c4eb0d242bd9e940274139493e41a2fadb",
+      "size": 931878,
+      "format": "zip",
+      "binaries": {
+        "spacer.exe": {
+          "path": "spacer.exe",
+          "sha256": "b59aaf903c15ee7f84999db32e0da121e0949de1eed403656dfb2ea98fa89b10"
+        }
+      }
+    }
+  }
+}
