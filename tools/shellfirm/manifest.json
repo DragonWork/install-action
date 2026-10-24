@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "shellfirm",
+  "version": "0.3.10",
+  "repository": "kaplanelad/shellfirm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.10/shellfirm-v0.3.10-x86_64-linux.tar.xz",
+      "releaseTag": "v0.3.10",
+      "sha256": "70f2ca128cee33f948bbe5b5ed5e8c2076d5e88c8661a02d33f587074d5a8f94",
+      "size": 1680516,
+      "format": "tar.xz",
+      "binaries": {
+        "shellfirm": {
+          "path": "shellfirm-v0.3.10-x86_64-linux/shellfirm",
+          "sha256": "bcd46079067bedf8882260e511536915e8efe8d0f60f751684bd44861f631588"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.10/shellfirm-v0.3.10-x86_64-macos.tar.xz",
+      "releaseTag": "v0.3.10",
+      "sha256": "a9d88fce4bd73f4499ad07cf0e5416d590b233f0df5fa9850332190610106f7f",
+      "size": 1589760,
+      "format": "tar.xz",
+      "binaries": {
+        "shellfirm": {
+          "path": "shellfirm-v0.3.10-x86_64-macos/shellfirm",
+          "sha256": "3ceca7c28798e288416829d7305a79caec075009cf555919a5b56fb5bfb1e286"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.10/shellfirm-v0.3.10-aarch64-macos.tar.xz",
+      "releaseTag": "v0.3.10",
+      "sha256": "66a555b73555fce316981c52e60b5d56dd6e85295485b4186aa1fb6f8279a7c6",
+      "size": 1394876,
+      "format": "tar.xz",
+      "binaries": {
+        "shellfirm": {
+          "path": "shellfirm-v0.3.10-aarch64-macos/shellfirm",
+          "sha256": "d2954b38c9a2763b2a9ee55c1a0d4bbb86722bfa17138f7e742374648cf48d37"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.10/shellfirm-v0.3.10-x86_64-windows.zip",
+      "releaseTag": "v0.3.10",
+      "sha256": "b675e7fb1981776c4b68b5fac23cdeb67518f0ac59aae532fb20aee207520612",
+      "size": 2287870,
+      "format": "zip",
+      "binaries": {
+        "shellfirm.exe": {
+          "path": "shellfirm-v0.3.10-x86_64-windows/shellfirm.exe",
+          "sha256": "3aa2135089828f6e22eaed8b46b4f2b48d9022cb6eec0a9ac952fa62ef471313"
+        }
+      }
+    }
+  }
+}
