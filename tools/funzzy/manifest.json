@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "funzzy",
+  "version": "2.0.1",
+  "repository": "cristianoliveira/funzzy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cristianoliveira/funzzy/releases/download/v2.0.1/funzzy-v2.0.1-x86_64-linux.tar.gz",
+      "releaseTag": "v2.0.1",
+      "sha256": "ff46a0f66abf6a7454d1f09f7f036e0bb2d3e5e34a9895ff71e36176511803f7",
+      "size": 4598588,
+      "format": "tar.gz",
+      "binaries": {
+        "funzzy": {
+          "path": "pkg/funzzy",
+          "sha256": "eac94548238630654eb51ac6be196c175fff45697b4c3ca12656e836b7ecbbf2"
+        },
+        "fzz": {
+          "path": "pkg/fzz",
+          "sha256": "0a920dfafeaaf9a3ffe7742cbf436e6e29da46796f69fa5146bf4b8c3b6e367e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cristianoliveira/funzzy/releases/download/v2.0.1/funzzy-v2.0.1-aarch64-linux.tar.gz",
+      "releaseTag": "v2.0.1",
+      "sha256": "4f8a340342fcd344567d86177ef8187d5a77a38f1f71517200c448ed9fd93e3f",
+      "size": 4281595,
+      "format": "tar.gz",
+      "binaries": {
+        "funzzy": {
+          "path": "pkg/funzzy",
+          "sha256": "20acc5244ccca348b21429ce8d9d019e78fa253bbe54c807a31f7a98d418cfaf"
+        },
+        "fzz": {
+          "path": "pkg/fzz",
+          "sha256": "9648eef0b1763d6e054a90b1b95364a2802fad7b5fadd1810c8bab68d67a03ba"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cristianoliveira/funzzy/releases/download/v2.0.1/funzzy-v2.0.1-x86_64-darwin.tar.gz",
+      "releaseTag": "v2.0.1",
+      "sha256": "162938dd40e0d63347d1991bb094041c6a08add142d7807b9e743a3a64821aae",
+      "size": 3977230,
+      "format": "tar.gz",
+      "binaries": {
+        "funzzy": {
+          "path": "pkg/funzzy",
+          "sha256": "d48d51884597eb196ca6b5c2c1084cf6ac1b119db248ed1814a4ebe3562e2285"
+        },
+        "fzz": {
+          "path": "pkg/fzz",
+          "sha256": "e4c64ec278b129329b7e2148eb1e321f2cc75a5d9eefa8ce6ae8935f6fcd04e3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cristianoliveira/funzzy/releases/download/v2.0.1/funzzy-v2.0.1-aarch64-darwin.tar.gz",
+      "releaseTag": "v2.0.1",
+      "sha256": "ca1119dc13eddc343e9c698fc66dbd8973b9f9a940f88295897d923c43c07b11",
+      "size": 3977272,
+      "format": "tar.gz",
+      "binaries": {
+        "funzzy": {
+          "path": "pkg/funzzy",
+          "sha256": "b67d55e3bc0409ddddc42a496e8d4ceb43824656dda09a20829ab58ac018964a"
+        },
+        "fzz": {
+          "path": "pkg/fzz",
+          "sha256": "2c1c408e07d1b2051ba5d6c48b4b0b4ab6c9a04782bfc07323f9a1d43899ecce"
+        }
+      }
+    }
+  }
+}
