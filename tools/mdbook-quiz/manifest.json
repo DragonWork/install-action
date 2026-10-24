@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mdbook-quiz",
+  "version": "0.5.0",
+  "repository": "cognitive-engineering-lab/mdbook-quiz",
+  "artifacts": {
+    "linux-arm64": {
+      "url": "https://github.com/cognitive-engineering-lab/mdbook-quiz/releases/download/v0.5.0/mdbook-quiz_aarch64-unknown-linux-gnu_bare.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "20a3bd1c95954fb8f77e302d4d7e396614dc3ed5dfa444e8e0033d53650cfdef",
+      "size": 2461133,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-quiz": {
+          "path": "mdbook-quiz",
+          "sha256": "1849597ec8545833da759bc360a53b0fb9a0887a96571e31692695c13a6295d8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cognitive-engineering-lab/mdbook-quiz/releases/download/v0.5.0/mdbook-quiz_x86_64-apple-darwin_bare.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "dc28276807f7f6bd65ba4c1b0fa03787ddca791c79eb82d5d7bd28442cda748f",
+      "size": 2254578,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-quiz": {
+          "path": "mdbook-quiz",
+          "sha256": "74725ddce69465886671a050fe814c5360052dc133a726f3bb3c38a3255bb29c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cognitive-engineering-lab/mdbook-quiz/releases/download/v0.5.0/mdbook-quiz_aarch64-apple-darwin_bare.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "dc28276807f7f6bd65ba4c1b0fa03787ddca791c79eb82d5d7bd28442cda748f",
+      "size": 2254578,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-quiz": {
+          "path": "mdbook-quiz",
+          "sha256": "74725ddce69465886671a050fe814c5360052dc133a726f3bb3c38a3255bb29c"
+        }
+      }
+    }
+  }
+}
