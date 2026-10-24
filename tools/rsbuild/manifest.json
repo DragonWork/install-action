@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rsbuild",
+  "version": "0.5.1",
+  "repository": "JeanMaximilienCadic/rsbuild",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/JeanMaximilienCadic/rsbuild/releases/download/v0.5.1/rsbuild-linux-amd64.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "1c73eb80c4aeb37f92b1f25f78ccac3c505a6fc1c0b096fd5da3fb49167fa48f",
+      "size": 833225,
+      "format": "tar.gz",
+      "binaries": {
+        "rsbuild": {
+          "path": "rsbuild",
+          "sha256": "13a475dce4f071864dc338a70761641c2a42ea6046124d2d0622f2981b0afa2f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/JeanMaximilienCadic/rsbuild/releases/download/v0.5.1/rsbuild-linux-arm64.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "1abd4109ed2e52e1dfb86db5ee1d981cd91a01c5305b899d7bd8e6505f1d5b34",
+      "size": 797873,
+      "format": "tar.gz",
+      "binaries": {
+        "rsbuild": {
+          "path": "rsbuild",
+          "sha256": "961ad87186cc4372462ce39304f8fb82fd956dada8e639e0b061f3c3f4a9498f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/JeanMaximilienCadic/rsbuild/releases/download/v0.5.1/rsbuild-darwin-amd64.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "d6945d3c707a4c1929f3dd109dcf1e644ec7e5f56ce8088162d6091327da047f",
+      "size": 749046,
+      "format": "tar.gz",
+      "binaries": {
+        "rsbuild": {
+          "path": "rsbuild",
+          "sha256": "97e2a4c235b462113a6ceeef4e2ec708b0c0387953acca396ff446e17b6b079a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/JeanMaximilienCadic/rsbuild/releases/download/v0.5.1/rsbuild-darwin-arm64.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "f574ba584aa12e8e0a4e1ac5dc0f34b1d10d336426fdb31ad8cdfb66a325654a",
+      "size": 708187,
+      "format": "tar.gz",
+      "binaries": {
+        "rsbuild": {
+          "path": "rsbuild",
+          "sha256": "82f7b8121d4a169f476fd7eafe30984b58cc41ed8383ba573db327cb23112e83"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/JeanMaximilienCadic/rsbuild/releases/download/v0.5.1/rsbuild-windows-amd64.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "fabc1761b1aed4d83d24aa24bbef38aea1b0ea2886d57ad2238c3870eea6201a",
+      "size": 676486,
+      "format": "zip",
+      "binaries": {
+        "rsbuild.exe": {
+          "path": "rsbuild.exe",
+          "sha256": "5cbd89caaf1f3103e849d02083db352dee8925ebd7420221882707621e452236"
+        }
+      }
+    }
+  }
+}
