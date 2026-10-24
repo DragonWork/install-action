@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "witme",
+  "version": "0.3.1",
+  "repository": "theahaco/witme",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/theahaco/witme/releases/download/v0.3.1/witme-v0.3.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "83b79408f87ef9f237e5048a9cde75853dce391c66dba3d27bbdb9ab8c8d1b25",
+      "size": 2152274,
+      "format": "tar.gz",
+      "binaries": {
+        "witme": {
+          "path": "witme-v0.3.1-x86_64-unknown-linux-gnu/witme",
+          "sha256": "90fb0492c903e51cddd3d280be539d7bf90ebd903b69a4eeed9b11c9647330b2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/theahaco/witme/releases/download/v0.3.1/witme-v0.3.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "0a0869c807957fbccb40c9aa4c3bda90d0645e5987137f4e00c80d50002810be",
+      "size": 3463332,
+      "format": "tar.gz",
+      "binaries": {
+        "witme": {
+          "path": "witme-v0.3.1-aarch64-unknown-linux-gnu/witme",
+          "sha256": "7a18bd9949118f297368291fef4103f71ecb129d46c5e386ae315f8cd86c1355"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/theahaco/witme/releases/download/v0.3.1/witme-v0.3.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "c0dcadffb35ffa3e30c11ebf1a9fc92bbe171771ef0b82a8b02be6a42a31889f",
+      "size": 1952195,
+      "format": "tar.gz",
+      "binaries": {
+        "witme": {
+          "path": "witme-v0.3.1-x86_64-apple-darwin/witme",
+          "sha256": "693a1c48bee5576a8b6f5aa38d74b50b3af0b32e2aa35b56d8ce43b777d74339"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/theahaco/witme/releases/download/v0.3.1/witme-v0.3.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "b9d69ddbba6e1d87670fc2ac618f24beb37445e6be6d8b4b6282eceeb8ff1932",
+      "size": 1748365,
+      "format": "tar.gz",
+      "binaries": {
+        "witme": {
+          "path": "witme-v0.3.1-aarch64-apple-darwin/witme",
+          "sha256": "47ff7dd2c72907e4986da0e6cec41470e70610a50b950af4f27acc96bccd3818"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/theahaco/witme/releases/download/v0.3.1/witme-v0.3.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "7e93647fa9001ea8cd435a10c9ce884ed8e076416c6a1525e6673d639c66aa95",
+      "size": 2098736,
+      "format": "zip",
+      "binaries": {
+        "witme.exe": {
+          "path": "witme-v0.3.1-x86_64-pc-windows-msvc/witme.exe",
+          "sha256": "bda3527d4eac58be8033023091161e8a2356b1d0601b63b32a2be461a02d8149"
+        }
+      }
+    }
+  }
+}
