@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mdbook-yapp",
+  "version": "2.0.2",
+  "repository": "EngosSoftware/mdbook-yapp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EngosSoftware/mdbook-yapp/releases/download/v2.0.2/mdbook-yapp-v2.0.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "cd14e9dbfd425eff6dc04d30428448a55fac6d643d8b58fef7370d99363957ed",
+      "size": 595454,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-yapp": {
+          "path": "mdbook-yapp",
+          "sha256": "301a2856b94a3faaf17875040ba118a7583e3dee3f6f4db583b43e0640a21a74"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EngosSoftware/mdbook-yapp/releases/download/v2.0.2/mdbook-yapp-v2.0.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "79caa962ae38f2b5c8fc55ac0a4c311e0f0f9cb88f84a918a71523343004e057",
+      "size": 509366,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-yapp": {
+          "path": "mdbook-yapp",
+          "sha256": "e2c74ace6a35bfd83f438ddf18687d1162cd2ab967c5ca27fbb723c9c66edb2c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EngosSoftware/mdbook-yapp/releases/download/v2.0.2/mdbook-yapp-v2.0.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "d377364a04891802d2728dfad72505cfd74d6d429d1d806d23219b44c5237a9b",
+      "size": 497099,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-yapp": {
+          "path": "mdbook-yapp",
+          "sha256": "80249669d1a0198fbec12a179fa4fd92f70a578a38b71f0b0a3f73234cb7ace6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EngosSoftware/mdbook-yapp/releases/download/v2.0.2/mdbook-yapp-v2.0.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.0.2",
+      "sha256": "e757b39f639be7395dc1b212cc628903d068ba1c5a4f9be7d0625359e9e0eb57",
+      "size": 379917,
+      "format": "zip",
+      "binaries": {
+        "mdbook-yapp.exe": {
+          "path": "mdbook-yapp.exe",
+          "sha256": "c4cffccce8cf29a767cfbd4fd9baa4bd9ed6f8af056d86de05cf6b64802c3853"
+        }
+      }
+    }
+  }
+}
