@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rpos",
+  "version": "0.7.0",
+  "repository": "kohbis/rpos",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kohbis/rpos/releases/download/v0.7.0/rpos-linux.tar.gz",
+      "sha256": "d40ee2a06a9b53f00688752280c5654921d4ebac63621852c900abf4fd183479",
+      "size": 165075,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "rpos": {
+          "path": "rpos",
+          "sha256": "9b35cc3bc166c97abd9ac387d7d33753e3a6c1af49130ddcddcb4f2450548148"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kohbis/rpos/releases/download/v0.7.0/rpos-macos.tar.gz",
+      "sha256": "bf8bcd08718465d84d7dea28b34d186550e224d531e23b562e040dfb4dcc5eb0",
+      "size": 158177,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "rpos": {
+          "path": "rpos",
+          "sha256": "52135994c55e00a70b975c2d0577239a7f9638d674a12bb3abf4f6b6ba2748af"
+        }
+      }
+    }
+  }
+}
