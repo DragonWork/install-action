@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "knossos",
+  "version": "1.2.0",
+  "repository": "unrenamed/knossos",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/unrenamed/knossos/releases/download/v1.2.0/knossos_1.2.0_amd64.deb",
+      "sha256": "95e7b4358e60fde96bc96fc861e1a920bef30ee99d828ce6f33a6cccc4b99fe1",
+      "size": 1302812,
+      "format": "deb",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "knossos": {
+          "path": "usr/bin/knossos",
+          "sha256": "2d63ce4feb2c57e972e626a9ffb2f6d409efca2a147a2fdc8643dd35d84f56ee"
+        }
+      }
+    }
+  }
+}
