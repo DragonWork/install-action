@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-semver-checks",
+  "version": "0.51.0",
+  "repository": "obi1kenobi/cargo-semver-checks",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/download/v0.51.0/cargo-semver-checks-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.51.0",
+      "sha256": "396c8508d973c83de52660943a057e971b586f7511c3ba695762373452b43d5b",
+      "size": 8470396,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-semver-checks": {
+          "path": "cargo-semver-checks",
+          "sha256": "e585ea7e2c78e00396e1c45498e4b42734d5de232d837429bb6ef4c3ceb27dfe"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/download/v0.51.0/cargo-semver-checks-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.51.0",
+      "sha256": "a7355f6d36edab9f76ea3fe565b9f5727394ca64f6ad751b8be24ac65a902136",
+      "size": 7898523,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-semver-checks": {
+          "path": "cargo-semver-checks",
+          "sha256": "37f51e9909106657a5f7ddeaa073a5205f3af8a2129895933aca43acde8d24fa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/download/v0.51.0/cargo-semver-checks-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.51.0",
+      "sha256": "542f9518fd5360f46c1027a6ac2c9e9ee7431518c42495346df84922a050ce5b",
+      "size": 8113287,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-semver-checks": {
+          "path": "cargo-semver-checks",
+          "sha256": "0a481c71c3addfb3744c89ae776d14334b213c5d6328fa7720f903130cec197c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/download/v0.51.0/cargo-semver-checks-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.51.0",
+      "sha256": "3cec5da41eee9a3336d75ad43d1f30a5c9680818f4ba209024786f452cabab5b",
+      "size": 7525750,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-semver-checks": {
+          "path": "cargo-semver-checks",
+          "sha256": "30493e32d77a4a9f90ea6695cf67765a4c9106c46a7db4603f2026043d469bb8"
+        }
+      }
+    }
+  }
+}
