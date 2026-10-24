@@ -1,32 +1,58 @@
 {
   "schema": 1,
   "name": "fda",
-  "version": "0.368.0",
+  "version": "0.369.0",
   "repository": "feldera/feldera",
   "artifacts": {
-    "darwin-arm64": {
-      "url": "https://github.com/feldera/feldera/releases/download/v0.368.0/fda-aarch64-apple-darwin.zip",
-      "releaseTag": "v0.368.0",
-      "sha256": "425ee47d0d6920659c0148d2d4eec409fd35a3d3491bd1fe6c811006e18e3dc1",
-      "size": 8481202,
+    "linux-x64": {
+      "url": "https://github.com/feldera/feldera/releases/download/v0.369.0/fda-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.369.0",
+      "sha256": "466e64fe53242bbca8f195056fd2997cd9d1764f47a68dc5c0ea285e9dffd74f",
+      "size": 47287448,
       "format": "zip",
       "binaries": {
         "fda": {
           "path": "fda",
-          "sha256": "7680330f8395438fb4369487b0e6b9e44b2ebc80c92db7d82a1468ecb1ff3c07"
+          "sha256": "36215c72131338ded784d0792f58b0c706da03096cc4c9f3a9fc0bfd02650ceb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/feldera/feldera/releases/download/v0.369.0/fda-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.369.0",
+      "sha256": "1807700b209faf2f70be570fc8f3e3dfcf877cd13f26f57f199f0a7cf8a465ed",
+      "size": 46197255,
+      "format": "zip",
+      "binaries": {
+        "fda": {
+          "path": "fda",
+          "sha256": "257e162072dceb10c1e02f12e38417a6343337537ad64d613a2942383256ca96"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/feldera/feldera/releases/download/v0.369.0/fda-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.369.0",
+      "sha256": "f32ad635768cc6dc29e8e4968ca2e24547d8c8157ea07e5f906ce3b0650c7196",
+      "size": 8480643,
+      "format": "zip",
+      "binaries": {
+        "fda": {
+          "path": "fda",
+          "sha256": "9afb9c2b5fea5c5397709198839fedb5aaa62faa18c82d2a81a6271166cb654b"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/feldera/feldera/releases/download/v0.368.0/fda-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.368.0",
-      "sha256": "40c6e60f870cca31d7378211330fc5a61b4ad407070892e8330852fc4a5bf51c",
-      "size": 7816358,
+      "url": "https://github.com/feldera/feldera/releases/download/v0.369.0/fda-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.369.0",
+      "sha256": "ca6e42df3ada8948aa690f5f0fc4588be14cbaa4248b5b32b10c800ebf178659",
+      "size": 7815599,
       "format": "zip",
       "binaries": {
         "fda.exe": {
           "path": "fda.exe",
-          "sha256": "79c6b18fe5f60d504b390868306ee26e58d2f3a7e5c44f6b9baf27c54085db24"
+          "sha256": "928e20c0216b56d66004f2904938de917f850cc64c3e5100287688ca7b6fa143"
         }
       }
     }
