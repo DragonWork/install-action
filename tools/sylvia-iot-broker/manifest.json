@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "sylvia-iot-broker",
+  "version": "0.4.7",
+  "repository": "woofdogtw/sylvia-iot-core",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/woofdogtw/sylvia-iot-core/releases/download/v0.4.7/sylvia-iot-broker-x86_64.tar.xz",
+      "sha256": "c9eefad505694b6e4304f31f5874b7b8da4f322031a827c1f7ac086dae3b4ec8",
+      "size": 7234500,
+      "format": "tar.xz",
+      "releaseTag": "v0.4.7",
+      "binaries": {
+        "sylvia-iot-broker": {
+          "path": "sylvia-iot-broker",
+          "sha256": "00e581866ccfc7eee2a68c0da2dfdfa0e91f8de76f01c884d1cdc5d5ed05b45e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/woofdogtw/sylvia-iot-core/releases/download/v0.4.7/sylvia-iot-broker-arm64.tar.xz",
+      "sha256": "21f6caa5501f55c7cad9918966b091bde1cff1d599f3fc39abd9e1e9119c40bb",
+      "size": 6335124,
+      "format": "tar.xz",
+      "releaseTag": "v0.4.7",
+      "binaries": {
+        "sylvia-iot-broker": {
+          "path": "sylvia-iot-broker",
+          "sha256": "843f6284107b6fba74ccdcf7fabe30ce48179f1d83bf46f70a11f00566577936"
+        }
+      }
+    }
+  }
+}
