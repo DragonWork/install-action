@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "so",
+  "version": "0.4.10",
+  "repository": "samtay/so",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/samtay/so/releases/download/v0.4.10/so-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.10",
+      "sha256": "57dc2fd6b1bf203c0a79a50a068623f45a8fd5f70ff59d4f930e237d950e1d4f",
+      "size": 6329509,
+      "format": "tar.gz",
+      "binaries": {
+        "so": {
+          "path": "so",
+          "sha256": "67c2967eb04f0f8ccb42b1f8c351a72505de8b10726b8735a21f098b3b7de912"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/samtay/so/releases/download/v0.4.10/so-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.10",
+      "sha256": "49445ad17735533570e449033a75db1e5b44d3588091d433698f76f2fdb5d979",
+      "size": 6456573,
+      "format": "tar.gz",
+      "binaries": {
+        "so": {
+          "path": "so",
+          "sha256": "7ce0384b383b24b654562706c31b9fba401c85f84574cf52279c559179493fc8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/samtay/so/releases/download/v0.4.10/so-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.10",
+      "sha256": "c187ad65c1c487a34977baaee6fbf4c186e8c2514e179145cdfa3d5d529cb088",
+      "size": 3812491,
+      "format": "tar.gz",
+      "binaries": {
+        "so": {
+          "path": "so",
+          "sha256": "0cbd7c4489e85046b27e8879eaf32c7fc67bca04cf90761858fca2b0c46a58fa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/samtay/so/releases/download/v0.4.10/so-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.10",
+      "sha256": "ac71c561b7d2ca889d075409f727e4f75efb9ec13aa21ac344d35fbf677fde67",
+      "size": 3697051,
+      "format": "tar.gz",
+      "binaries": {
+        "so": {
+          "path": "so",
+          "sha256": "56c7c2971d017bc78e06ecb415510cf99061f64de6c8ee33f9b2736ce495fbf0"
+        }
+      }
+    }
+  }
+}
