@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tokmd",
+  "version": "1.15.0",
+  "repository": "EffortlessMetrics/tokmd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EffortlessMetrics/tokmd/releases/download/v1.15.0/tokmd-linux-amd64",
+      "sha256": "4819d9531c70aac9efac77ec70cfffd2baed5a9a0b24c6b4a453df55d7985d11",
+      "size": 16239568,
+      "format": "binary",
+      "releaseTag": "v1.15.0",
+      "binaries": {
+        "tokmd": {
+          "path": "tokmd-linux-amd64",
+          "sha256": "4819d9531c70aac9efac77ec70cfffd2baed5a9a0b24c6b4a453df55d7985d11"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EffortlessMetrics/tokmd/releases/download/v1.15.0/tokmd-linux-arm64",
+      "sha256": "f357acafac3718feeec3b7ff29a8cb229a20de0abec527e0fc1b1748f2a5b3fe",
+      "size": 14360936,
+      "format": "binary",
+      "releaseTag": "v1.15.0",
+      "binaries": {
+        "tokmd": {
+          "path": "tokmd-linux-arm64",
+          "sha256": "f357acafac3718feeec3b7ff29a8cb229a20de0abec527e0fc1b1748f2a5b3fe"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EffortlessMetrics/tokmd/releases/download/v1.15.0/tokmd-macos-amd64",
+      "sha256": "40112648a3e577eeb46d0d03d136c2c967104f85a7cd27cb8f5281e9eec4fa7e",
+      "size": 15474156,
+      "format": "binary",
+      "releaseTag": "v1.15.0",
+      "binaries": {
+        "tokmd": {
+          "path": "tokmd-macos-amd64",
+          "sha256": "40112648a3e577eeb46d0d03d136c2c967104f85a7cd27cb8f5281e9eec4fa7e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EffortlessMetrics/tokmd/releases/download/v1.15.0/tokmd-macos-arm64",
+      "sha256": "325857801da8e0ccecc1e9ac4fdae171010443a5678db2daa61a76da15a73746",
+      "size": 14015792,
+      "format": "binary",
+      "releaseTag": "v1.15.0",
+      "binaries": {
+        "tokmd": {
+          "path": "tokmd-macos-arm64",
+          "sha256": "325857801da8e0ccecc1e9ac4fdae171010443a5678db2daa61a76da15a73746"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EffortlessMetrics/tokmd/releases/download/v1.15.0/tokmd-windows-amd64.exe",
+      "sha256": "74907228e9afdc411bb3fe88d6ac422f1f78c2cd10b5634650459f9dde5e0fef",
+      "size": 18132992,
+      "format": "binary",
+      "releaseTag": "v1.15.0",
+      "binaries": {
+        "tokmd.exe": {
+          "path": "tokmd-windows-amd64.exe",
+          "sha256": "74907228e9afdc411bb3fe88d6ac422f1f78c2cd10b5634650459f9dde5e0fef"
+        }
+      }
+    }
+  }
+}
