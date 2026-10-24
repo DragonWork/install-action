@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "openapi-fuzzer",
+  "version": "0.2.0",
+  "repository": "matusf/openapi-fuzzer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/matusf/openapi-fuzzer/releases/download/v0.2.0/openapi-fuzzer-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "7fd6020ef8203d2e8bebf01a532cbeba495e53c8a83a8f4a2c8480cd52d96c28",
+      "size": 2264980,
+      "format": "tar.xz",
+      "binaries": {
+        "openapi-fuzzer": {
+          "path": "openapi-fuzzer-x86_64-unknown-linux-gnu/openapi-fuzzer",
+          "sha256": "448d63c5802a1ba95d01de8fccf84418cd24144bd5cd49b44be0434aaf79f4fa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/matusf/openapi-fuzzer/releases/download/v0.2.0/openapi-fuzzer-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "26117945ab5a4bf3478c4ab563137d7fd8af96cc6f6cfbd52fdf418e8f33465e",
+      "size": 1478172,
+      "format": "tar.xz",
+      "binaries": {
+        "openapi-fuzzer": {
+          "path": "openapi-fuzzer-x86_64-apple-darwin/openapi-fuzzer",
+          "sha256": "1b977488be127178faf8323ef01a9ae931ca30b4c17426b33c1f29b79ed35055"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/matusf/openapi-fuzzer/releases/download/v0.2.0/openapi-fuzzer-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "1fe2a4ead322f6ab2b09748980f1f7067632a7cc27a37a28f9d95297433d0367",
+      "size": 1413916,
+      "format": "tar.xz",
+      "binaries": {
+        "openapi-fuzzer": {
+          "path": "openapi-fuzzer-aarch64-apple-darwin/openapi-fuzzer",
+          "sha256": "bb3a35fae0727978e8e151c2d4b22dbbf6e39a2d824d88c95851db783e875509"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/matusf/openapi-fuzzer/releases/download/v0.2.0/openapi-fuzzer-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "fc8a59c5370a8c63dd165c6c895325941f5fed191860a9b85bbcf88b07e3d143",
+      "size": 4716289,
+      "format": "zip",
+      "binaries": {
+        "openapi-fuzzer.exe": {
+          "path": "openapi-fuzzer.exe",
+          "sha256": "3cbe784b743576a2cb258a65c6ee183a12c2f00ec01d2e29d749aa1ec3d1fc91"
+        }
+      }
+    }
+  }
+}
