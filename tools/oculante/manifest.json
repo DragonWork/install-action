@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "oculante",
+  "version": "0.9.6",
+  "repository": "woelper/oculante",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/woelper/oculante/releases/download/0.9.6/oculante_linux.zip",
+      "sha256": "5bd4a3bff241555ed041f8abd28b53f378a6ab76d7949c3f6a6a032e8ae82a9f",
+      "size": 21348118,
+      "format": "zip",
+      "releaseTag": "0.9.6",
+      "binaries": {
+        "oculante": {
+          "path": "target/release/oculante",
+          "sha256": "71e482f166a6b5910846e151f369616a4942fba7a2080b8b3a9903aa5159653f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/woelper/oculante/releases/download/0.9.6/oculante_mac_intel.zip",
+      "sha256": "e318a582d91da6af8d818fdc6152cff2080e99a64302d198e88678add8be3b53",
+      "size": 24942811,
+      "format": "zip",
+      "releaseTag": "0.9.6",
+      "binaries": {
+        "oculante": {
+          "path": "oculante.app/Contents/MacOS/oculante",
+          "sha256": "33edf047be779ae9a8093e942588d8b5a39eb943b2656976e824dc76c3fdcbed"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/woelper/oculante/releases/download/0.9.6/oculante_mac.zip",
+      "sha256": "8ddf2bf85bd804d6648ea82ded24d7f40e1040e00d78e0863f4ef9c1a9de810a",
+      "size": 22501816,
+      "format": "zip",
+      "releaseTag": "0.9.6",
+      "binaries": {
+        "oculante": {
+          "path": "oculante.app/Contents/MacOS/oculante",
+          "sha256": "0e06b3d234132948fbd69238e5f93428e45c922e92483598fad42602405a145c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/woelper/oculante/releases/download/0.9.6/oculante.exe",
+      "sha256": "85bf65b56faa3f353384a9cafbca83e969d73cf7d6d0e0c10e5cd85c0070a6d9",
+      "size": 49555968,
+      "format": "binary",
+      "releaseTag": "0.9.6",
+      "binaries": {
+        "oculante.exe": {
+          "path": "oculante.exe",
+          "sha256": "85bf65b56faa3f353384a9cafbca83e969d73cf7d6d0e0c10e5cd85c0070a6d9"
+        }
+      }
+    }
+  }
+}
