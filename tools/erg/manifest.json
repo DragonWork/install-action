@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "erg",
+  "version": "0.6.53",
+  "repository": "erg-lang/erg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/erg-lang/erg/releases/download/v0.6.53/erg-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.53",
+      "sha256": "671034889030a68c3557123c3ab51197d820499124e411c301b17d2d32876dfa",
+      "size": 13749400,
+      "format": "tar.gz",
+      "binaries": {
+        "erg": {
+          "path": "erg",
+          "sha256": "d90f388e93dbe99cac5aaa04771ee87620d1a4cd1ab4b3d8da75b27c5d1a46b0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/erg-lang/erg/releases/download/v0.6.53/erg-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.53",
+      "sha256": "d5e8b7525c92c43717bcba18584c508a95a63795941c84e1edadde00a970f642",
+      "size": 12665641,
+      "format": "tar.gz",
+      "binaries": {
+        "erg": {
+          "path": "erg",
+          "sha256": "f88e5d33598157fb803116a0d1dd2e419076fa35ae64c27a5a1c0841ff678932"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/erg-lang/erg/releases/download/v0.6.53/erg-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.53",
+      "sha256": "bbef15189cc5bc60138362a9c78867d4cb9aa3ac99f24b6b0d773e078c06cee8",
+      "size": 12750342,
+      "format": "tar.gz",
+      "binaries": {
+        "erg": {
+          "path": "erg",
+          "sha256": "bbb11cf87a8ad0791631cd8f41494081976509e1ee1b3813f451eeba225416a8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/erg-lang/erg/releases/download/v0.6.53/erg-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.53",
+      "sha256": "fcaec015772281912b3ebd175e54fa3434b0119933d92e21ea2efa002a5d8bdb",
+      "size": 12104180,
+      "format": "tar.gz",
+      "binaries": {
+        "erg": {
+          "path": "erg",
+          "sha256": "4a8a884ffcb0a7c8fa1bbf0deb0240184af4bc6e69e0433f104f370b1cc3cde6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/erg-lang/erg/releases/download/v0.6.53/erg-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.53",
+      "sha256": "efb7bfd5aa1c2643e6f892d627972b4cf00708b62fdaf39420247b47133f1a3b",
+      "size": 15524131,
+      "format": "zip",
+      "binaries": {
+        "erg.exe": {
+          "path": "erg.exe",
+          "sha256": "a693cfe8a5e71d35b78c3027d9356c14ffdabfc57fc9a08968e9d3589744717b"
+        }
+      }
+    }
+  }
+}
