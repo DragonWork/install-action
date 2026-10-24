@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "reduct-cli",
+  "version": "0.13.0",
+  "repository": "reductstore/reduct-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/reductstore/reduct-cli/releases/download/v0.13.0/reduct-cli.x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "6a505e5d44ee73c51c9839e002816f901510662803cd4d6efaf3add4acf6ac99",
+      "size": 5474587,
+      "format": "tar.gz",
+      "binaries": {
+        "reduct-cli": {
+          "path": "reduct-cli",
+          "sha256": "0388b84bb722ded018ffd17728307e63603ce3eb3e4d47a6ee5ff995c9f0db9b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/reductstore/reduct-cli/releases/download/v0.13.0/reduct-cli.aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "71162eb02701796d980fc4d769737f023fabe1ed564c83fdb7b1bdb23edf69a7",
+      "size": 5159046,
+      "format": "tar.gz",
+      "binaries": {
+        "reduct-cli": {
+          "path": "reduct-cli",
+          "sha256": "98eed48f7988fe09053c668e204089bce9e898fe9a337f5dadff907b0f8dcaff"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/reductstore/reduct-cli/releases/download/v0.13.0/reduct-cli.x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "6fb245e52167f1591eb270c55f8d3766d9b9b0d0dfb199cce57519e6b4a85bf9",
+      "size": 4792286,
+      "format": "tar.gz",
+      "binaries": {
+        "reduct-cli": {
+          "path": "reduct-cli",
+          "sha256": "feb91e534c4b6d5194887ca6fd267481b83eb8a9c8d867b2a6c46f3092dd2f7a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/reductstore/reduct-cli/releases/download/v0.13.0/reduct-cli.aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "d452e622cf5ff34b6e5ecfbc50c9b1a20e6cd874b61446a72850d8e8c3f3d080",
+      "size": 4505754,
+      "format": "tar.gz",
+      "binaries": {
+        "reduct-cli": {
+          "path": "reduct-cli",
+          "sha256": "2fc6bc4aa733e9065e42b71ce5cb0be284b20d2e3b98dfe11e19817bb3467bc3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/reductstore/reduct-cli/releases/download/v0.13.0/reduct-cli.x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.13.0",
+      "sha256": "ccab5088a5183cd27e9e006475c596bcc208c4e1a891b37725d78cc2290576db",
+      "size": 6538180,
+      "format": "zip",
+      "binaries": {
+        "reduct-cli.exe": {
+          "path": "reduct-cli.exe",
+          "sha256": "017adfeaa59c20fda655d04c0a869980326a763ca3b5ab3e98f7e01589095e97"
+        }
+      }
+    }
+  }
+}
