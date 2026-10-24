@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "clang-tidy-sarif",
+  "version": "0.8.0",
+  "repository": "psastras/sarif-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/psastras/sarif-rs/releases/download/clang-tidy-sarif-v0.8.0/clang-tidy-sarif-x86_64-unknown-linux-gnu",
+      "sha256": "7198518c1d01830cf368c5f924df5ac177ce5ada4f6f54bcc4a1dd8841d07202",
+      "size": 3003216,
+      "format": "binary",
+      "releaseTag": "clang-tidy-sarif-v0.8.0",
+      "binaries": {
+        "clang-tidy-sarif": {
+          "path": "clang-tidy-sarif-x86_64-unknown-linux-gnu",
+          "sha256": "7198518c1d01830cf368c5f924df5ac177ce5ada4f6f54bcc4a1dd8841d07202"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/psastras/sarif-rs/releases/download/clang-tidy-sarif-v0.8.0/clang-tidy-sarif-aarch64-apple-darwin",
+      "sha256": "a5f6f80608d52cdd1311e79999a12b796d292e33459730b4281ed2abe1064c89",
+      "size": 2474928,
+      "format": "binary",
+      "releaseTag": "clang-tidy-sarif-v0.8.0",
+      "binaries": {
+        "clang-tidy-sarif": {
+          "path": "clang-tidy-sarif-aarch64-apple-darwin",
+          "sha256": "a5f6f80608d52cdd1311e79999a12b796d292e33459730b4281ed2abe1064c89"
+        }
+      }
+    }
+  }
+}
