@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mcfly",
+  "version": "0.9.4",
+  "repository": "cantino/mcfly",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cantino/mcfly/releases/download/v0.9.4/mcfly-v0.9.4-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.4",
+      "sha256": "72d2c6fdaa111ac96c2cf725fc40e313e2856643482be58608911a09440313f1",
+      "size": 2488171,
+      "format": "tar.gz",
+      "binaries": {
+        "mcfly": {
+          "path": "mcfly",
+          "sha256": "8e854e63ecc1b730b0c8183fbbd931739d18d7cf1545752d4436812b112b4ada"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cantino/mcfly/releases/download/v0.9.4/mcfly-v0.9.4-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.4",
+      "sha256": "57eb23c3c40b3a7675dc1fe3b785501a6a41598b9b3cbe35d80f8d65267cf1cd",
+      "size": 2347732,
+      "format": "tar.gz",
+      "binaries": {
+        "mcfly": {
+          "path": "mcfly",
+          "sha256": "30f84132656fb325bd27215009fe8be229fc9b835769ab88c4d042d3672c9571"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cantino/mcfly/releases/download/v0.9.4/mcfly-v0.9.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.4",
+      "sha256": "5ab584300dc6405a4730feb08f44ac4a7cd4a3308a1f9dc28813aa2d36782c7f",
+      "size": 2330147,
+      "format": "tar.gz",
+      "binaries": {
+        "mcfly": {
+          "path": "mcfly",
+          "sha256": "394fc5ab995f6117bd672dfcaa9dc0c6d0f0e97e9f31424343c09d023fddca55"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cantino/mcfly/releases/download/v0.9.4/mcfly-v0.9.4-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.4",
+      "sha256": "a390a094a8dfc324f4e474f8d8eb4eed956386170242adba3eadbe3a298f8193",
+      "size": 2039332,
+      "format": "zip",
+      "binaries": {
+        "mcfly.exe": {
+          "path": "mcfly.exe",
+          "sha256": "dc94a7d9f1673bd45b6866edb70173202b8f824ddbbdb3d2aea231fe192a129e"
+        }
+      }
+    }
+  }
+}
