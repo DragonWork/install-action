@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "msgpack-cli",
+  "version": "0.2.2",
+  "repository": "pluots/mpk",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/pluots/mpk/releases/download/v0.2.2/mpk-v0.2.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "3a8d1a4e2972e2174e4b5476177ebdaa819a02d02d63de6b113c0b876e1c5a9b",
+      "size": 403653,
+      "format": "tar.gz",
+      "binaries": {
+        "mpk": {
+          "path": "mpk-v0.2.2-x86_64-apple-darwin/mpk",
+          "sha256": "58a22af803769f7c6bcb94f47656e3ca54db92598fc2030745906e7da87f720c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pluots/mpk/releases/download/v0.2.2/mpk-v0.2.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "8245fa22d1c803534e974357898126abbe5e7fcefa249047425739eec9da3f11",
+      "size": 383880,
+      "format": "tar.gz",
+      "binaries": {
+        "mpk": {
+          "path": "mpk-v0.2.2-aarch64-apple-darwin/mpk",
+          "sha256": "212b6ecd731d70c8cc2d02c4bc65eb8786c8c483bda2ccbdf0559f6e7a296b57"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pluots/mpk/releases/download/v0.2.2/mpk-v0.2.2-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "79abcc5058bff96029cb91d67cb133d74d9b945cb7b3784259ab997d40f65308",
+      "size": 360019,
+      "format": "tar.gz",
+      "binaries": {
+        "mpk.exe": {
+          "path": "mpk-v0.2.2-x86_64-pc-windows-msvc/mpk.exe",
+          "sha256": "227b1ff8c999fce097cba8b08ae5bd2870dddc5f82e7b2753a61dadaf5f3ba2e"
+        }
+      }
+    }
+  }
+}
