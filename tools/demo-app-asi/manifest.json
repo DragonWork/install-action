@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "demo-app-asi",
+  "version": "1.4.1",
+  "repository": "AliSajid/demo-app-asi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AliSajid/demo-app-asi/releases/download/v1.4.1/demo-app-asi-1.4.1-linux_x86_64.tar.xz",
+      "releaseTag": "v1.4.1",
+      "sha256": "ac0a9b1778b2648e4ec1ccac99382579c9f51bd0b3f4ebeeab9f7e783e2511d3",
+      "size": 187148,
+      "format": "tar.xz",
+      "binaries": {
+        "demo-app-asi": {
+          "path": "demo-app-asi",
+          "sha256": "d05943919310ca8557a1f4a8c49a6bef79b9c8fa9df37f0f07dd1474bb6d5567"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AliSajid/demo-app-asi/releases/download/v1.4.1/demo-app-asi-1.4.1-macos_x86_64.zip",
+      "releaseTag": "v1.4.1",
+      "sha256": "12c5c625fe7579c53088da800e232c5a46f1935e22b0d767a3f4ecafd510cf91",
+      "size": 171105,
+      "format": "zip",
+      "binaries": {
+        "demo-app-asi": {
+          "path": "demo-app-asi",
+          "sha256": "6f11e6da1320d7b667409923b26baf7768bfddccfca14bdce92cc7bf0bc1eef3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AliSajid/demo-app-asi/releases/download/v1.4.1/demo-app-asi-1.4.1-windows_x86_64.zip",
+      "releaseTag": "v1.4.1",
+      "sha256": "63aa5c28b348238c6848b3619d910e4698cd1d44febd06adacdd224f5eb59925",
+      "size": 141029,
+      "format": "zip",
+      "binaries": {
+        "demo-app-asi.exe": {
+          "path": "demo-app-asi.exe",
+          "sha256": "4a7ad0dc0475e0f313b5dea715f421e1f296866d3072642621c6298712fd824c"
+        }
+      }
+    }
+  }
+}
