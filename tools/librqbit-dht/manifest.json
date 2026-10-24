@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "librqbit-dht",
+  "version": "2.2.2",
+  "repository": "ikatson/rqbit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ikatson/rqbit/releases/download/v2.2.2/rqbit-linux-static-x86_64",
+      "sha256": "13a52e07431d90ad6008ff0e8b8e16fb7a69d2a86e09e2707612cf9a9671c094",
+      "size": 18274624,
+      "format": "binary",
+      "releaseTag": "v2.2.2",
+      "binaries": {
+        "librqbit-dht": {
+          "path": "rqbit-linux-static-x86_64",
+          "sha256": "13a52e07431d90ad6008ff0e8b8e16fb7a69d2a86e09e2707612cf9a9671c094"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ikatson/rqbit/releases/download/v2.2.2/rqbit-linux-static-aarch64",
+      "sha256": "66ece04755d2db8efd5f0af272d927c7872fbf9f0d6373f79de1864dedfca006",
+      "size": 18523464,
+      "format": "binary",
+      "releaseTag": "v2.2.2",
+      "binaries": {
+        "librqbit-dht": {
+          "path": "rqbit-linux-static-aarch64",
+          "sha256": "66ece04755d2db8efd5f0af272d927c7872fbf9f0d6373f79de1864dedfca006"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ikatson/rqbit/releases/download/v2.2.2/rqbit-osx-universal",
+      "sha256": "7439c8f7a4b9111027c7bc3cac9394fa7588d0bbf7b5a6979e8cc92d01a4daf7",
+      "size": 16274419,
+      "format": "binary",
+      "releaseTag": "v2.2.2",
+      "binaries": {
+        "librqbit-dht": {
+          "path": "rqbit-osx-universal",
+          "sha256": "7439c8f7a4b9111027c7bc3cac9394fa7588d0bbf7b5a6979e8cc92d01a4daf7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ikatson/rqbit/releases/download/v2.2.2/rqbit-osx-universal",
+      "sha256": "7439c8f7a4b9111027c7bc3cac9394fa7588d0bbf7b5a6979e8cc92d01a4daf7",
+      "size": 16274419,
+      "format": "binary",
+      "releaseTag": "v2.2.2",
+      "binaries": {
+        "librqbit-dht": {
+          "path": "rqbit-osx-universal",
+          "sha256": "7439c8f7a4b9111027c7bc3cac9394fa7588d0bbf7b5a6979e8cc92d01a4daf7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ikatson/rqbit/releases/download/v2.2.2/rqbit.exe",
+      "sha256": "cf03cee6a4cf78170fea4945c2b2bd774a45bf22ac682c6814aea9b8b0daaa4c",
+      "size": 6287872,
+      "format": "binary",
+      "releaseTag": "v2.2.2",
+      "binaries": {
+        "librqbit-dht.exe": {
+          "path": "rqbit.exe",
+          "sha256": "cf03cee6a4cf78170fea4945c2b2bd774a45bf22ac682c6814aea9b8b0daaa4c"
+        }
+      }
+    }
+  }
+}
