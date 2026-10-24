@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "ssd",
+  "version": "0.23.0",
+  "repository": "ssd-codegen/ssd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ssd-codegen/ssd/releases/download/v0.23.0/ssd-linux",
+      "sha256": "641f8d14962bda127daeecf67de4045fb65dc11c6c5d96f785a7403888c39cb6",
+      "size": 27101960,
+      "format": "binary",
+      "releaseTag": "v0.23.0",
+      "binaries": {
+        "ssd": {
+          "path": "ssd-linux",
+          "sha256": "641f8d14962bda127daeecf67de4045fb65dc11c6c5d96f785a7403888c39cb6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ssd-codegen/ssd/releases/download/v0.23.0/ssd-macos",
+      "sha256": "86bab3e2e4ab6fe1a30f9a39147a6b7f133f0d5ef3911212e4e2174be61efef4",
+      "size": 22530304,
+      "format": "binary",
+      "releaseTag": "v0.23.0",
+      "binaries": {
+        "ssd": {
+          "path": "ssd-macos",
+          "sha256": "86bab3e2e4ab6fe1a30f9a39147a6b7f133f0d5ef3911212e4e2174be61efef4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ssd-codegen/ssd/releases/download/v0.23.0/ssd.exe",
+      "sha256": "8360f42f580f4ff2b12d5053150c38e5b00621aae4ee1cbbd33086c42a25a1bb",
+      "size": 41015808,
+      "format": "binary",
+      "releaseTag": "v0.23.0",
+      "binaries": {
+        "ssd.exe": {
+          "path": "ssd.exe",
+          "sha256": "8360f42f580f4ff2b12d5053150c38e5b00621aae4ee1cbbd33086c42a25a1bb"
+        }
+      }
+    }
+  }
+}
