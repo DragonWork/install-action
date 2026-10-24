@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "kbt",
+  "version": "2.1.0",
+  "repository": "bloznelis/kbt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bloznelis/kbt/releases/download/2.1.0/kbt-2.1.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "2.1.0",
+      "sha256": "1dcc2d59c1c534d4af4aca87155aaf514c8ca3163116d5f2a9b03455650cf373",
+      "size": 1479857,
+      "format": "tar.gz",
+      "binaries": {
+        "kbt": {
+          "path": "kbt-2.1.0-x86_64-unknown-linux-gnu/kbt",
+          "sha256": "1b4e62d2705d0a87bdb1121db1870c540b68e5948db48bce3aa612c0aa7552da"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bloznelis/kbt/releases/download/2.1.0/kbt-2.1.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "2.1.0",
+      "sha256": "c9acebb832030cbca6d0d800cdee8cd25dd6d4441304161634830665bf277ad6",
+      "size": 618887,
+      "format": "tar.gz",
+      "binaries": {
+        "kbt": {
+          "path": "kbt-2.1.0-x86_64-apple-darwin/kbt",
+          "sha256": "4837b54e5c3560c8d0e8ea66ae45dcb4bd376da042a268dd8dafe06e737ab42c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bloznelis/kbt/releases/download/2.1.0/kbt-2.1.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "2.1.0",
+      "sha256": "88c1a0076460e1238364c441796816bc416ab8d3dc305de3909f8fd43793328e",
+      "size": 601903,
+      "format": "tar.gz",
+      "binaries": {
+        "kbt": {
+          "path": "kbt-2.1.0-aarch64-apple-darwin/kbt",
+          "sha256": "cee0890e5728125ad801c730a43f21d08f0b7a21d10092ecc60a3f55bd621a25"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bloznelis/kbt/releases/download/2.1.0/kbt-2.1.0-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "2.1.0",
+      "sha256": "429ae0b1caee25b70d6bafcb5ac506b76f3bb430677dec3f86ae26e970656ebb",
+      "size": 2016819,
+      "format": "zip",
+      "binaries": {
+        "kbt.exe": {
+          "path": "kbt-2.1.0-x86_64-pc-windows-gnu/kbt.exe",
+          "sha256": "2da8dcaf659f42a5cab82550ea80caf966c42a89edc9e5ac1a7ba10072ed4612"
+        }
+      }
+    }
+  }
+}
