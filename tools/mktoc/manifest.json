@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mktoc",
+  "version": "5.1.1",
+  "repository": "KevinGimbel/mktoc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v5.1.1",
+      "sha256": "ae800cf945cb59c75ba0df87df62651bd9d91cc70e826012dd732eba94606802",
+      "size": 1176029,
+      "format": "tar.gz",
+      "binaries": {
+        "mktoc": {
+          "path": "mktoc",
+          "sha256": "f96e3ceecd9f283929c4d907a3a7a01273ce03721cfafafc128710bad6271c1a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v5.1.1",
+      "sha256": "95cf8abf7447566baf225fb4baefdb6a2bed6b3440519fd02449b5a4bdf14c48",
+      "size": 1098774,
+      "format": "tar.gz",
+      "binaries": {
+        "mktoc": {
+          "path": "mktoc",
+          "sha256": "bd8d5f7fb51f27790bca831eae95b7ab3b0027dcc305fae1adf5ba6585dcd864"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v5.1.1",
+      "sha256": "56306101e9a24d5cb47d64e320b6af8203ea6f7134cd4f369e13cde3d3ff4c57",
+      "size": 1098244,
+      "format": "tar.gz",
+      "binaries": {
+        "mktoc": {
+          "path": "mktoc",
+          "sha256": "dc8d320620183284bf2c43b707a2dbca5f2482f30b6bba4e1aaa0357b615c451"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/KevinGimbel/mktoc/releases/download/v5.1.1/mktoc-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v5.1.1",
+      "sha256": "0e17561184de84218197be9856c5f4af905d77a652330ef583e948b1194fb0d2",
+      "size": 1020926,
+      "format": "tar.gz",
+      "binaries": {
+        "mktoc": {
+          "path": "mktoc",
+          "sha256": "826371518120415d1db9cced9a752b299f00f6fc8bdf8ac1207ddc1feac9bb24"
+        }
+      }
+    }
+  }
+}
