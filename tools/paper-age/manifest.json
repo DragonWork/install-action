@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "paper-age",
+  "version": "1.5.0",
+  "repository": "matiaskorhonen/paper-age",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.5.0/paper-age-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "89722cb8fb4a13b5b63741c6818aef114ae478e6bf368ad6dc0e9ba50736216c",
+      "size": 2105745,
+      "format": "tar.gz",
+      "binaries": {
+        "paper-age": {
+          "path": "paper-age",
+          "sha256": "505981153f730f6ed0b186779c7fc7238e39cad314db29cdf4a615b14c8fcc82"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.5.0/paper-age-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "4e9d10392aba53944abc17d6747db18cd868282199b498be4514f52fa47b590c",
+      "size": 1796165,
+      "format": "tar.gz",
+      "binaries": {
+        "paper-age": {
+          "path": "paper-age",
+          "sha256": "10fe5c1b4f33afb00cd31c16a1e515bed354668aa3ad5aa7960247f3d70210ac"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.5.0/paper-age-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.5.0",
+      "sha256": "c52477d7a08c13a33102c0eabff72fd3569b2965df7b4349fd4928482d4e1925",
+      "size": 1583423,
+      "format": "zip",
+      "binaries": {
+        "paper-age.exe": {
+          "path": "paper-age.exe",
+          "sha256": "81b61462546a4a6883fc6dab82832bc23812a5ce424588638f6f8a08ad5d78b3"
+        }
+      }
+    }
+  }
+}
