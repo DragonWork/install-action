@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "nanoq",
+  "version": "0.10.0",
+  "repository": "esteinig/nanoq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/esteinig/nanoq/releases/download/0.10.0/nanoq-0.10.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "9bad0be294e1d9a2395037d47ff9c1e931420ab02b7371296dbcef8782a81d00",
+      "size": 912626,
+      "format": "tar.gz",
+      "binaries": {
+        "nanoq": {
+          "path": "nanoq-0.10.0-x86_64-unknown-linux-musl/nanoq",
+          "sha256": "f3ae2859cd8983d2628a536916c9a65d31bb247b8615734aa0945a1a1d0d8b1e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/esteinig/nanoq/releases/download/0.10.0/nanoq-0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "90c61b7d3588cc6e32fd0fd12e7e5414bdb962dc9057a14d0106d1c52d7c3eb0",
+      "size": 895355,
+      "format": "tar.gz",
+      "binaries": {
+        "nanoq": {
+          "path": "nanoq-0.10.0-x86_64-apple-darwin/nanoq",
+          "sha256": "c012898799d8d5f2b3fb73d7bffe15b55a898d46bf524bf43adccf8d8dcad2df"
+        }
+      }
+    }
+  }
+}
