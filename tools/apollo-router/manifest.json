@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "apollo-router",
+  "version": "2.19.0",
+  "repository": "apollographql/router",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/apollographql/router/releases/download/v2.19.0/router-v2.19.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "b606982f3cfe986e01bbde12d8cf5cd0fd783df2fc754998d3bdf0e5d2b9b308",
+      "size": 28853030,
+      "format": "tar.gz",
+      "releaseTag": "v2.19.0",
+      "binaries": {
+        "router": {
+          "path": "dist/router",
+          "sha256": "234b1f49d27ff43c57bfcd8470913f353cdcde42389f6a4629a32011dace5e50"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/apollographql/router/releases/download/v2.19.0/router-v2.19.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "3fe385c9f41ab17ac9e94639523ee456d0d9174f61027dcace0d0231cf70bad0",
+      "size": 29955903,
+      "format": "tar.gz",
+      "releaseTag": "v2.19.0",
+      "binaries": {
+        "router": {
+          "path": "dist/router",
+          "sha256": "ecce353d4371259aa9b8a71562e8c00ca58f01d5bd8dd3ab10cadca1c4e37863"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/apollographql/router/releases/download/v2.19.0/router-v2.19.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "5bdfe75adb1c59212f6f9da61107b02d71a9656b9e4cd800cae2ed7988e2bba7",
+      "size": 28124949,
+      "format": "tar.gz",
+      "releaseTag": "v2.19.0",
+      "binaries": {
+        "router": {
+          "path": "dist/router",
+          "sha256": "66de9f8a6fc9e6e8002d82251a4063da0b2fae9532734b574dfc3c1629a976c9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/apollographql/router/releases/download/v2.19.0/router-v2.19.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "4e64c70f73a58abe01806e2a10bdc89508d51e5aa6195ff48b0190355aca29c4",
+      "size": 25840030,
+      "format": "tar.gz",
+      "releaseTag": "v2.19.0",
+      "binaries": {
+        "router": {
+          "path": "dist/router",
+          "sha256": "9dc1d91461286fbd4bf5b21f56251a573cab99c947c7f6e72afb7f307c8caa45"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/apollographql/router/releases/download/v2.19.0/router-v2.19.0-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "6af9963ca7c03b9556c37b0c123eb0e811c007929ce997c779177b90a6df85e9",
+      "size": 24115406,
+      "format": "tar.gz",
+      "releaseTag": "v2.19.0",
+      "binaries": {
+        "router.exe": {
+          "path": "dist/router.exe",
+          "sha256": "3fa7f25034ab5d277ebd488f46a10be7a76079a08fcebc8abf29635bb066e0a3"
+        }
+      }
+    }
+  }
+}
