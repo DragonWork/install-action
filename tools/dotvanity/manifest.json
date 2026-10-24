@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dotvanity",
+  "version": "1.0.0",
+  "repository": "hukkin/dotvanity",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hukkin/dotvanity/releases/download/v1.0.0/dotvanity-v1.0.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "c4609b880bef03c699d768f44202da4b9ea0212b25b264fcf0bed254c3e24506",
+      "size": 789027,
+      "format": "tar.gz",
+      "binaries": {
+        "dotvanity": {
+          "path": "dotvanity",
+          "sha256": "6b2c3b6c4edc0f55f17c8581b44a7eb5a94bfa82af89277c0a9c777e4565bae4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hukkin/dotvanity/releases/download/v1.0.0/dotvanity-v1.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "1031983a04bb45ef17b923f605ba8eaeefa71f6f891e8d0a682abb613c174b10",
+      "size": 564476,
+      "format": "tar.gz",
+      "binaries": {
+        "dotvanity": {
+          "path": "dotvanity",
+          "sha256": "70e8d23e1f2ab6af96fb6a05af97917313dfedf6de87d66ec70861cbc7989473"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hukkin/dotvanity/releases/download/v1.0.0/dotvanity-v1.0.0-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "26528c6def2c39cdbbeb4bef8efee86fe32d8595e423042f8f09202ebc2bb5bd",
+      "size": 850005,
+      "format": "zip",
+      "binaries": {
+        "dotvanity.exe": {
+          "path": "dotvanity.exe",
+          "sha256": "a4d11fe31c8cf60f046dac7d946d8593ffc28a5a676a8d1c59aeea0f5066e00b"
+        }
+      }
+    }
+  }
+}
