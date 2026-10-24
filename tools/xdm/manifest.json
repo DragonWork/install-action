@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "xdm",
+  "version": "0.4.1",
+  "repository": "XXiaoA/xdm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/XXiaoA/xdm/releases/download/0.4.1/xdm-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.4.1",
+      "sha256": "c6051338c962d38d388b5bcfa13981e0a9116a30006a07c978198cca735aa38e",
+      "size": 414540,
+      "format": "tar.gz",
+      "binaries": {
+        "xdm": {
+          "path": "xdm",
+          "sha256": "83eb9d76218b9263fb935fc4fd6e1dacc14ec2475b78d57b0fc06d332f81698e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/XXiaoA/xdm/releases/download/0.4.1/xdm-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.1",
+      "sha256": "916a631de33922ad9ae84096025ae1e929d4bec886febd87d2ab596f5b13c18f",
+      "size": 382410,
+      "format": "tar.gz",
+      "binaries": {
+        "xdm": {
+          "path": "xdm",
+          "sha256": "1896cf85fce982279bef3225770fc1425fbf287dfafbc0dafb500ff2708829c7"
+        }
+      }
+    }
+  }
+}
