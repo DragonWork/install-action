@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "fast-mvt",
+  "version": "0.7.0",
+  "repository": "nyurik/fast-mvt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "038a7374f24b04522b16477d5ab98cabf08652a10770fd02587d463e3e247124",
+      "size": 452316,
+      "format": "tar.gz",
+      "binaries": {
+        "mvt": {
+          "path": "mvt",
+          "sha256": "655c6c5a63797255531d789a7c05a73aa96747a37ac970c5a6e63b57eca2e2cb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "ec8fb6b9b9340d32b41f07542f2990873b13f1c7462f59f439c263ad70b3dd3b",
+      "size": 425240,
+      "format": "tar.gz",
+      "binaries": {
+        "mvt": {
+          "path": "mvt",
+          "sha256": "e9ea7bbe203c0dbaf705ea7106ddd8444b01c887ebc496bf4965e71a74e4b48d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "b39aff68379083df0d89789c8439140498d83c02434dfe5cadaa57ccf4fb9f32",
+      "size": 421790,
+      "format": "tar.gz",
+      "binaries": {
+        "mvt": {
+          "path": "mvt",
+          "sha256": "3442f3aaea9e95676cf1af7b53d94f7384dc706b6d2f0073484ecb580b4feed7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "c4ff038305558e6d31cd9b8cf97c89af16814747c39929ecb5f37671e5cd68ee",
+      "size": 402591,
+      "format": "tar.gz",
+      "binaries": {
+        "mvt": {
+          "path": "mvt",
+          "sha256": "4dee873815d161d4f9831ac5a9d39796508a163ed5b74d309b02c1dc3d4309a4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "154a7c484cf1679ac42aaa7e9e6c8b1f17e61001cce7eb2f541f8287741d405b",
+      "size": 304219,
+      "format": "tar.gz",
+      "binaries": {
+        "mvt.exe": {
+          "path": "mvt.exe",
+          "sha256": "ef33caf8f6c6002f4dcf6af2d7b577e530bb8aaf7694c50547cbff420a3fe0dc"
+        }
+      }
+    }
+  }
+}
