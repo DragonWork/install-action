@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "click",
+  "version": "0.6.3",
+  "repository": "databricks/click",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/databricks/click/releases/download/v0.6.3/click-v0.6.3-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.3",
+      "sha256": "57ae4ad8d7c0fe2b829ded65990fac87cb26dc4a5379c84391394f82afc842d2",
+      "size": 6505843,
+      "format": "tar.gz",
+      "binaries": {
+        "click": {
+          "path": "click-v0.6.3-x86_64-unknown-linux-musl/click",
+          "sha256": "6da2324386d15c53e5216add865306a603fc0b73958a4b1ce34a6372943663fe"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/databricks/click/releases/download/v0.6.3/click-v0.6.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.3",
+      "sha256": "a43a9ce691596112c785493229ce04079bd695490a5f08e508515e4766972eeb",
+      "size": 5066992,
+      "format": "tar.gz",
+      "binaries": {
+        "click": {
+          "path": "click-v0.6.3-x86_64-apple-darwin/click",
+          "sha256": "51ccb2eac3631b8caddf7d43156b915afca04d6336b6b5b48c1e6c7777d49531"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/databricks/click/releases/download/v0.6.3/click-v0.6.3-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.6.3",
+      "sha256": "d78ddbdf0f9730befa7b5c0a1cc2b238e21444f2a2605b9078b4950b05fd090f",
+      "size": 10768893,
+      "format": "zip",
+      "binaries": {
+        "click.exe": {
+          "path": "click-v0.6.3-x86_64-pc-windows-gnu/click.exe",
+          "sha256": "b606ddfc0da6dd2228dc6574d8b193499f2547c62a687269cfd899e900e8409f"
+        }
+      }
+    }
+  }
+}
