@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "elba",
+  "version": "0.3.0",
+  "repository": "elba/elba",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/elba/elba/releases/download/0.3.0/elba-0.3.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.3.0",
+      "sha256": "38813e155068b07ef94bacb146b6012ac7cd6532bab84ddde23b1094c7826c2f",
+      "size": 5622783,
+      "format": "tar.gz",
+      "binaries": {
+        "elba": {
+          "path": "elba",
+          "sha256": "9c2aaf4f9d82f6ab5ed95c1d8b0639b060c834fd2815923c8984301201c9c4ef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/elba/elba/releases/download/0.3.0/elba-0.3.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.3.0",
+      "sha256": "74102ac8c14c094cd3a495e0a2bf4b05e8a6b56a6ca5365f9041808588ddba1e",
+      "size": 3997416,
+      "format": "tar.gz",
+      "binaries": {
+        "elba": {
+          "path": "elba",
+          "sha256": "bb02f47d661cc49bbddae0804532b4c9e4a7abc687b4a05be7bb2eec92569bbd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/elba/elba/releases/download/0.3.0/elba-0.3.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.3.0",
+      "sha256": "a5d22e75ca41673d4eef3b4fe6a3cd85aadf83ed26f8300dcdd9dd668185ba04",
+      "size": 3792095,
+      "format": "zip",
+      "binaries": {
+        "elba.exe": {
+          "path": "elba.exe",
+          "sha256": "0b89cf1120ea69eaaf8a75b407634868caa8de66159a9b05032568fde95945fa"
+        }
+      }
+    }
+  }
+}
