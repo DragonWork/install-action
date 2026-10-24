@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "parquet2json",
+  "version": "4.4.0",
+  "repository": "jupiter/parquet2json",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jupiter/parquet2json/releases/download/v4.4.0/parquet2json-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v4.4.0",
+      "sha256": "dc21fb7b2bded85b68e6926550bcf4b446faff8e9f8522140a5524c0d9518697",
+      "size": 7842135,
+      "format": "tar.gz",
+      "binaries": {
+        "parquet2json": {
+          "path": "parquet2json",
+          "sha256": "d2db7de4d60ffc93bc5070503a3e1ace452c524a023080d8333f01400083f412"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jupiter/parquet2json/releases/download/v4.4.0/parquet2json-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v4.4.0",
+      "sha256": "adba36938d0b672fe1edd02165f437ec9efbea1c53280befc652b39f70db4366",
+      "size": 8830526,
+      "format": "tar.gz",
+      "binaries": {
+        "parquet2json": {
+          "path": "parquet2json",
+          "sha256": "dd945f2a702201cbafc21786f728c380edd197e12cfeb2f01b3974027c601b69"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jupiter/parquet2json/releases/download/v4.4.0/parquet2json-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v4.4.0",
+      "sha256": "4e259d2abd321ef8ac010c54eee3b8300aadbe8144c39cf97211fa38a5768c1c",
+      "size": 7254811,
+      "format": "tar.gz",
+      "binaries": {
+        "parquet2json": {
+          "path": "parquet2json",
+          "sha256": "e86ef58b55b39f8973b6a1a7f7bdbde18f38f748a0dbd85fcd29cf434454b819"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jupiter/parquet2json/releases/download/v4.4.0/parquet2json-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v4.4.0",
+      "sha256": "499d67e3cb8e64d55b7231f1f3092ff2b3d86049bf45cedb914bfc8465a2c04c",
+      "size": 6798968,
+      "format": "tar.gz",
+      "binaries": {
+        "parquet2json": {
+          "path": "parquet2json",
+          "sha256": "125b7288426a46335b690111f1538ada166ade5c2204858dd9eca6678d529027"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jupiter/parquet2json/releases/download/v4.4.0/parquet2json-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v4.4.0",
+      "sha256": "be7cdaa3dce8d1d4c877b4fed6d8d2034e1a909a5111dc5980211d79dbd58cd6",
+      "size": 7011130,
+      "format": "zip",
+      "binaries": {
+        "parquet2json.exe": {
+          "path": "parquet2json.exe",
+          "sha256": "51d8d842d47bb315c5d76ac093098e32be852fa4b339037b32c7e12cd32e169f"
+        }
+      }
+    }
+  }
+}
