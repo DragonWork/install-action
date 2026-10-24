@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "build-fs-tree",
+  "version": "0.8.1",
+  "repository": "KSXGitHub/build-fs-tree",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KSXGitHub/build-fs-tree/releases/download/0.8.1/build-fs-tree-x86_64-unknown-linux-musl",
+      "sha256": "9667e99786c34b5e34fe6c5ab315bbb4e28268ac84220004436908d8e8bd076e",
+      "size": 1090104,
+      "format": "binary",
+      "releaseTag": "0.8.1",
+      "binaries": {
+        "build-fs-tree": {
+          "path": "build-fs-tree-x86_64-unknown-linux-musl",
+          "sha256": "9667e99786c34b5e34fe6c5ab315bbb4e28268ac84220004436908d8e8bd076e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KSXGitHub/build-fs-tree/releases/download/0.8.1/build-fs-tree-x86_64-apple-darwin",
+      "sha256": "7ae59702aedb21722f39be11cae9a255dc95a8e453de623ecdcaefa582ad01f0",
+      "size": 956504,
+      "format": "binary",
+      "releaseTag": "0.8.1",
+      "binaries": {
+        "build-fs-tree": {
+          "path": "build-fs-tree-x86_64-apple-darwin",
+          "sha256": "7ae59702aedb21722f39be11cae9a255dc95a8e453de623ecdcaefa582ad01f0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KSXGitHub/build-fs-tree/releases/download/0.8.1/build-fs-tree-x86_64-pc-windows-msvc.exe",
+      "sha256": "15871a101c451094e706df8532a718a62ea8352e10a9c6efcb3ecbec1d3acd5b",
+      "size": 811520,
+      "format": "binary",
+      "releaseTag": "0.8.1",
+      "binaries": {
+        "build-fs-tree.exe": {
+          "path": "build-fs-tree-x86_64-pc-windows-msvc.exe",
+          "sha256": "15871a101c451094e706df8532a718a62ea8352e10a9c6efcb3ecbec1d3acd5b"
+        }
+      }
+    }
+  }
+}
