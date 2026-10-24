@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "photo_sort",
+  "version": "0.3.4",
+  "repository": "0xCCF4/PhotoSort",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/0xCCF4/PhotoSort/releases/download/v0.3.4/PhotoSort_v0.3.4_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.4",
+      "sha256": "a0405a20687c0e5128b3cac9a7f5c77deb819b5f6508135427067990ef7e7b34",
+      "size": 1776050,
+      "format": "tar.gz",
+      "binaries": {
+        "photo_sort": {
+          "path": "photo_sort",
+          "sha256": "81d71b3baa158b31c55503f2bcab32c1639cc32ff490df144a6af3e6ea93f95e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/0xCCF4/PhotoSort/releases/download/v0.3.4/PhotoSort_v0.3.4_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.3.4",
+      "sha256": "b192fec0d7db45b9636217d3e74dcae22d8c59f060b40b48212b213300676b29",
+      "size": 2244171,
+      "format": "zip",
+      "binaries": {
+        "photo_sort.exe": {
+          "path": "photo_sort.exe",
+          "sha256": "90e79a5dd8aedbee6d0b580c523dce95c3ca0e38ea5323c308062e977d13687f"
+        }
+      }
+    }
+  }
+}
