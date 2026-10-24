@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "orbiter",
+  "version": "0.9.0",
+  "repository": "orbiter-rs/orbiter",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orbiter-rs/orbiter/releases/download/v0.9.0/orbiter-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "cc7fbe4879210869b7255545f3b3d68944d04090fa6a7af8af5b6029b64236bf",
+      "size": 5026130,
+      "format": "tar.gz",
+      "binaries": {
+        "orbiter": {
+          "path": "orbiter",
+          "sha256": "652752410b50370b306d0d0015d18920567abd6dfc958ae469c86bbb482e0d85"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/orbiter-rs/orbiter/releases/download/v0.9.0/orbiter-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "8905e9c2ea533bbcc7ab053cdb3c316da3904363c2076c7dda004c3130fa38ef",
+      "size": 4634169,
+      "format": "tar.gz",
+      "binaries": {
+        "orbiter": {
+          "path": "orbiter",
+          "sha256": "79bc72a45f36a143d3ee16e60ece3473cce502ea17ed26049aaf82d55b2be871"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orbiter-rs/orbiter/releases/download/v0.9.0/orbiter-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "2a0ffc2001514f4edb2c67ee3a60d7ffa9396218de6ae71b82ae3092a0a1b85f",
+      "size": 3205770,
+      "format": "tar.gz",
+      "binaries": {
+        "orbiter": {
+          "path": "orbiter",
+          "sha256": "7986d12fc531904edaa23b1e68c35a91d9b982f2110de901bd9a8f5f252ea434"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/orbiter-rs/orbiter/releases/download/v0.9.0/orbiter-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "a6ab1d1abbe495ead3a608e9797b39ddc29722996f2bdf7773df585c430a9ff4",
+      "size": 3021954,
+      "format": "tar.gz",
+      "binaries": {
+        "orbiter": {
+          "path": "orbiter",
+          "sha256": "2a10fe1b69061d1eb7845a77d81e67cf59a9bf42957a4dabb92001e31aa68e86"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orbiter-rs/orbiter/releases/download/v0.9.0/orbiter-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "d5058d15f2c5ccb528939069e6bb6ed9942dc37aedfe0e8e0f62bfdc7a183aa5",
+      "size": 2738426,
+      "format": "zip",
+      "binaries": {
+        "orbiter.exe": {
+          "path": "orbiter.exe",
+          "sha256": "5cfc670f61f7999bfe03a2ab56b0bc6df42da699e013fff9570745993a861467"
+        }
+      }
+    }
+  }
+}
