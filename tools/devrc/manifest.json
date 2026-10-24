@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "devrc",
+  "version": "0.6.0",
+  "repository": "devrc-hub/devrc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/devrc-hub/devrc/releases/download/v0.6.0/devrc-x86_64-unknown-linux-musl-base.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "aac1ca95b05a4b5ee81117aeb8530d120311b64909ffd6a6b0736a177893712d",
+      "size": 6701541,
+      "format": "tar.gz",
+      "binaries": {
+        "devrc": {
+          "path": "devrc",
+          "sha256": "427b110d2760dd0863d0df8d06d04ff89baf1b1825c6bae0ba2df12994709f40"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/devrc-hub/devrc/releases/download/v0.6.0/devrc-x86_64-apple-darwin-base.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "0d7b8ecb7fe5f280e394c4726481325c8e4caba6c78df4296f13286d1abef5a3",
+      "size": 3636937,
+      "format": "tar.gz",
+      "binaries": {
+        "devrc": {
+          "path": "devrc",
+          "sha256": "b56cbc4ae342a549822641b67f5dbdac89834265c3c03e473220f749eed8214f"
+        }
+      }
+    }
+  }
+}
