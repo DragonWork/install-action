@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "golem-cli",
+  "version": "1.3.1",
+  "repository": "golemcloud/golem",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/golemcloud/golem/releases/download/v1.3.1/golem-cli-x86_64-unknown-linux-gnu",
+      "sha256": "dd3a67ac7ec8c3505e39ce2a9be697854fc74d9c3ffeea7b3ed3fd72c9c208d9",
+      "size": 130790976,
+      "format": "binary",
+      "releaseTag": "v1.3.1",
+      "binaries": {
+        "golem-cli": {
+          "path": "golem-cli-x86_64-unknown-linux-gnu",
+          "sha256": "dd3a67ac7ec8c3505e39ce2a9be697854fc74d9c3ffeea7b3ed3fd72c9c208d9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/golemcloud/golem/releases/download/v1.3.1/golem-cli-aarch64-unknown-linux-gnu",
+      "sha256": "170bddeefca26b71425299dfcfbd02174d88c5abd20e9629da9c8a4cd29bb423",
+      "size": 129304552,
+      "format": "binary",
+      "releaseTag": "v1.3.1",
+      "binaries": {
+        "golem-cli": {
+          "path": "golem-cli-aarch64-unknown-linux-gnu",
+          "sha256": "170bddeefca26b71425299dfcfbd02174d88c5abd20e9629da9c8a4cd29bb423"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/golemcloud/golem/releases/download/v1.3.1/golem-cli-x86_64-apple-darwin",
+      "sha256": "25e663834d4334a10497a9fb677ed51fd207c6940ea5a13dc8ec27012e336bdc",
+      "size": 116609892,
+      "format": "binary",
+      "releaseTag": "v1.3.1",
+      "binaries": {
+        "golem-cli": {
+          "path": "golem-cli-x86_64-apple-darwin",
+          "sha256": "25e663834d4334a10497a9fb677ed51fd207c6940ea5a13dc8ec27012e336bdc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/golemcloud/golem/releases/download/v1.3.1/golem-cli-aarch64-apple-darwin",
+      "sha256": "b3359cbf6571ca36a93771c9affa04eeb7a20733c8e82635c0495572a533770d",
+      "size": 106732160,
+      "format": "binary",
+      "releaseTag": "v1.3.1",
+      "binaries": {
+        "golem-cli": {
+          "path": "golem-cli-aarch64-apple-darwin",
+          "sha256": "b3359cbf6571ca36a93771c9affa04eeb7a20733c8e82635c0495572a533770d"
+        }
+      }
+    }
+  }
+}
