@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "flowistry",
+  "version": "0.3.19",
+  "repository": "willcrichton/flowistry",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/willcrichton/flowistry/releases/download/v0.3.19/x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.3.19",
+      "sha256": "4825d4460b2557a37c677e959b0e88fdcb0972190b7b1e2d1aa5b9a06180f2c1",
+      "size": 16909513,
+      "format": "zip",
+      "binaries": {
+        "cargo-flowistry": {
+          "path": "cargo-flowistry",
+          "sha256": "c72f0bb419eb6fce3e2e75ca2eb60906a749f542b6681389256e496ddb2887e0"
+        },
+        "flowistry-driver": {
+          "path": "flowistry-driver",
+          "sha256": "f9bb078d1b6abbeb9d2461dc626b7e3bcbf9b1badaa880959e804fa81d8785ef"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/willcrichton/flowistry/releases/download/v0.3.19/aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.3.19",
+      "sha256": "9f9df3b9b1239bf9e8c78f318c304f83e0d1f1503f4fe97a8743275a15e12372",
+      "size": 16909538,
+      "format": "zip",
+      "binaries": {
+        "cargo-flowistry": {
+          "path": "cargo-flowistry",
+          "sha256": "b550cd0acea22a98ee82e955320f52087cb9c68439075f751f0525b49983cabe"
+        },
+        "flowistry-driver": {
+          "path": "flowistry-driver",
+          "sha256": "f9bb078d1b6abbeb9d2461dc626b7e3bcbf9b1badaa880959e804fa81d8785ef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/willcrichton/flowistry/releases/download/v0.3.19/x86_64-apple-darwin.zip",
+      "releaseTag": "v0.3.19",
+      "sha256": "d2b24dfad8bc1ca6329f0978b8b9a8cb2dfeb980a7aefdfc12ba950fd2550e50",
+      "size": 3249018,
+      "format": "zip",
+      "binaries": {
+        "cargo-flowistry": {
+          "path": "cargo-flowistry",
+          "sha256": "96e638edab3a4f1655e6d336a917466c333079f82eb0b25b329f5e4bf1ae1b3a"
+        },
+        "flowistry-driver": {
+          "path": "flowistry-driver",
+          "sha256": "b71e341b62b4c7a4e0387aa7725890e6facc5f1d3291df22b5b9baf6ca879696"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/willcrichton/flowistry/releases/download/v0.3.19/aarch64-apple-darwin.zip",
+      "releaseTag": "v0.3.19",
+      "sha256": "870a1d327ac6e8fb42cd6e438e22d71df714b99d1c3185d6681e42e76148a82e",
+      "size": 3249018,
+      "format": "zip",
+      "binaries": {
+        "cargo-flowistry": {
+          "path": "cargo-flowistry",
+          "sha256": "96e638edab3a4f1655e6d336a917466c333079f82eb0b25b329f5e4bf1ae1b3a"
+        },
+        "flowistry-driver": {
+          "path": "flowistry-driver",
+          "sha256": "b71e341b62b4c7a4e0387aa7725890e6facc5f1d3291df22b5b9baf6ca879696"
+        }
+      }
+    }
+  }
+}
