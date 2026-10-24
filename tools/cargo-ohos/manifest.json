@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-ohos",
+  "version": "0.3.4",
+  "repository": "openharmony-rs/cargo-ohos",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/openharmony-rs/cargo-ohos/releases/download/0.3.4/cargo-ohos-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.3.4",
+      "sha256": "4444bc32e9c053638435069f38d26ccde5e8a21f154ef254453a73aa59bc557c",
+      "size": 2346431,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ohos": {
+          "path": "cargo-ohos",
+          "sha256": "4cf0a863c2e1e665e1a79bf657df209b8ff5481cfe2db50e65d2f32c76473493"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/openharmony-rs/cargo-ohos/releases/download/0.3.4/cargo-ohos-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.3.4",
+      "sha256": "01585e370d5633495073ea0ffbc45beeb41f58af5b114cf2c71b29028d300de3",
+      "size": 2119684,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ohos": {
+          "path": "cargo-ohos",
+          "sha256": "6c3dda2037467400c50f50cc8dd871169b49a9b9bb09a5002da03cb7275ae770"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/openharmony-rs/cargo-ohos/releases/download/0.3.4/cargo-ohos-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.3.4",
+      "sha256": "70fb5e617983808445d776e2d4920f6ac8eabe5fb70cfa01a3de54b9fe39377f",
+      "size": 1993628,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ohos": {
+          "path": "cargo-ohos",
+          "sha256": "c94a74837fa687924bcc13be4515312c3d689022871518548ea2e96e43609ca6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/openharmony-rs/cargo-ohos/releases/download/0.3.4/cargo-ohos-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.3.4",
+      "sha256": "332eb0f4176fa02212a649a9926606f6a70901bfc9a2812ad924cf085ae34a1e",
+      "size": 1993419,
+      "format": "zip",
+      "binaries": {
+        "cargo-ohos.exe": {
+          "path": "cargo-ohos.exe",
+          "sha256": "9c2d8043c9cbb7786498e1b84ffed1940762ea304bd1e1cd6cf82f1db4a84bb7"
+        }
+      }
+    }
+  }
+}
