@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "smartcat",
+  "version": "2.2.0",
+  "repository": "efugier/smartcat",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/efugier/smartcat/releases/download/2.2.0/sc--x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "2.2.0",
+      "sha256": "e0b751dbd4dc11f61a138a222b415cfa6870d13c785e98ebee12177a75a3ff78",
+      "size": 2322540,
+      "format": "tar.gz",
+      "binaries": {
+        "sc": {
+          "path": "sc--x86_64-unknown-linux-gnu/sc",
+          "sha256": "9d96a505f331a1577581a4cfd4eebf7ddc8e5690d2786935712f96edf4079264"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/efugier/smartcat/releases/download/2.2.0/sc--x86_64-apple-darwin.tar.gz",
+      "releaseTag": "2.2.0",
+      "sha256": "4cba09eca5fd92ed52f12d19af1fd1afaf5e4d3208bc1760183ba99558e9d8d3",
+      "size": 2211547,
+      "format": "tar.gz",
+      "binaries": {
+        "sc": {
+          "path": "sc--x86_64-apple-darwin/sc",
+          "sha256": "9c1754fcb52c958cc6ab210678baa2dac2a45ba4b6d460ced7c47efe3d82a4ad"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/efugier/smartcat/releases/download/2.2.0/sc--x86_64-pc-windows-msvc.zip",
+      "releaseTag": "2.2.0",
+      "sha256": "753db309eb9c36c26908627b9d345276d0df3bfe5bb5bf4345e2a37e60bd71ed",
+      "size": 2092395,
+      "format": "zip",
+      "binaries": {
+        "sc.exe": {
+          "path": "sc--x86_64-pc-windows-msvc/sc.exe",
+          "sha256": "b80138f94e0e85fac7ad65402657a7ba3d28f5318e406dd832d97d176550dad1"
+        }
+      }
+    }
+  }
+}
