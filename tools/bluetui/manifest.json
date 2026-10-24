@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "bluetui",
+  "version": "0.8.0",
+  "repository": "pythops/bluetui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pythops/bluetui/releases/download/v0.8.0/bluetui-x86_64-linux-gnu",
+      "sha256": "c82fae498a42ba77740f5965ff9745c04abb518231771233a8208df4762b7496",
+      "size": 3556936,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "bluetui": {
+          "path": "bluetui-x86_64-linux-gnu",
+          "sha256": "c82fae498a42ba77740f5965ff9745c04abb518231771233a8208df4762b7496"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pythops/bluetui/releases/download/v0.8.0/bluetui-aarch64-linux-gnu",
+      "sha256": "02556c718cb321f8444ff5dd1a72eb34ff280ac3d3a635b6509e7860f80aa41a",
+      "size": 3142776,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "bluetui": {
+          "path": "bluetui-aarch64-linux-gnu",
+          "sha256": "02556c718cb321f8444ff5dd1a72eb34ff280ac3d3a635b6509e7860f80aa41a"
+        }
+      }
+    }
+  }
+}
