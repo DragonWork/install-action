@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "safir",
+  "version": "0.11.0",
+  "repository": "Tyrannican/safir",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Tyrannican/safir/releases/download/v0.11.0/safir-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "4971faad42b2084a053279a803f91c0dfb09a65df741faec8c08277f056e3742",
+      "size": 994244,
+      "format": "tar.xz",
+      "binaries": {
+        "safir": {
+          "path": "safir-x86_64-unknown-linux-gnu/safir",
+          "sha256": "373a721cfa477ca9e677ebbd3170c8f578dd374090063011e1a9ddda41e8c14c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Tyrannican/safir/releases/download/v0.11.0/safir-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "c979c58e9faf631b0debe7b9421d410192ade2327efa5623a5a690c397d54190",
+      "size": 985276,
+      "format": "tar.xz",
+      "binaries": {
+        "safir": {
+          "path": "safir-x86_64-apple-darwin/safir",
+          "sha256": "5734561bbfb10c448818023afce12e628ea7e5db9be883479613d90df988629d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Tyrannican/safir/releases/download/v0.11.0/safir-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "09207b8ba2e2ea950402c835daf732be7d2bed9cc8faa1d552a6c3491189ecf9",
+      "size": 906036,
+      "format": "tar.xz",
+      "binaries": {
+        "safir": {
+          "path": "safir-aarch64-apple-darwin/safir",
+          "sha256": "ac217a4edbaa06af8b630cade78c1fe2dc05e8225d846425e812c26097856817"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Tyrannican/safir/releases/download/v0.11.0/safir-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "53a1bbe2386d5012173cbcd2a900a7685e621c3e46a666294e2316c67ed57dbe",
+      "size": 2220757,
+      "format": "zip",
+      "binaries": {
+        "safir.exe": {
+          "path": "safir.exe",
+          "sha256": "a559cac340291f8b08ab1fec6e5bf6c0469572e13c6b0dc0eeff5c64389a8e41"
+        }
+      }
+    }
+  }
+}
