@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "lgit",
+  "version": "0.9.2",
+  "repository": "Luladjiev/lgit-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Luladjiev/lgit-rs/releases/download/0.9.2/lgit-0.9.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.9.2",
+      "sha256": "c9a18b66bb68fba93d58b4e8b2da5dc1eefef7acb4337108fb15b7cca9e3eb3a",
+      "size": 581068,
+      "format": "tar.gz",
+      "binaries": {
+        "lgit": {
+          "path": "lgit-0.9.2-x86_64-unknown-linux-gnu/lgit",
+          "sha256": "415822c5188602f70e8e7d6ca0c8acb68c65e07015380b345ee1b1598b294758"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Luladjiev/lgit-rs/releases/download/0.9.2/lgit-0.9.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.9.2",
+      "sha256": "8fd0f23128e1115570a907e05e08c74c741a12706d91189c71885d55e1fbc928",
+      "size": 538257,
+      "format": "tar.gz",
+      "binaries": {
+        "lgit": {
+          "path": "lgit-0.9.2-x86_64-apple-darwin/lgit",
+          "sha256": "6f3afe68622f1a77763a30735c00805105cebb77072a8d70a768799da9065df1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Luladjiev/lgit-rs/releases/download/0.9.2/lgit-0.9.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.9.2",
+      "sha256": "3edeb3d13c19740b031867b9b5c6a906b408560dc1cc5dbe6c3b4d406f4011a5",
+      "size": 399844,
+      "format": "zip",
+      "binaries": {
+        "lgit.exe": {
+          "path": "lgit-0.9.2-x86_64-pc-windows-msvc/lgit.exe",
+          "sha256": "c94ca787ace70f5779e1d388349c36f9b5bbfe18fd8349888fc5645949a552a3"
+        }
+      }
+    }
+  }
+}
