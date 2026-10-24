@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "vtcode",
+  "version": "0.180.5",
+  "repository": "vinhnx/VTCode",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.180.5/vtcode-0.180.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.180.5",
+      "sha256": "9cf175a60b7211597aca4696ceca0bdbed167557a0916d1b49abf32ed8dfd809",
+      "size": 32252229,
+      "format": "tar.gz",
+      "binaries": {
+        "vtcode": {
+          "path": "./vtcode",
+          "sha256": "4a371b4d71d260cae277c34a2e496b94ec7e9c2679dba3fbcebc35554ec3cb70"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.180.5/vtcode-0.180.5-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.180.5",
+      "sha256": "ed524e32a935474da274514603d4817fe9bf590ddd81a07fe3382d527c9b19b2",
+      "size": 30421482,
+      "format": "tar.gz",
+      "binaries": {
+        "vtcode": {
+          "path": "./vtcode",
+          "sha256": "e27cd7fda78332993b3ad3f78791891580cc26fc14b23b698d61cc98f1659ae2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.180.5/vtcode-0.180.5-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.180.5",
+      "sha256": "be07c913378fc77d08662b7623f9657351b5c2aa807f54963eadba2b7d69a7c2",
+      "size": 19563842,
+      "format": "tar.gz",
+      "binaries": {
+        "vtcode": {
+          "path": "./vtcode",
+          "sha256": "1028575d3ec61905e0da302bd24b7cdb9a764895194fd1dbca5e96983b9287c9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.180.5/vtcode-0.180.5-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.180.5",
+      "sha256": "de8758a12958ffe688dfdefb8fd5c57859ce542de918c11ce9d05170813637ec",
+      "size": 17809733,
+      "format": "tar.gz",
+      "binaries": {
+        "vtcode": {
+          "path": "./vtcode",
+          "sha256": "98d17ae53e59e310a89ffa91419c87e85772e0916826d750ab7ddf68b682cf63"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.180.5/vtcode-0.180.5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.180.5",
+      "sha256": "5de70e9c937f19bbe7de764758731cd5da549bac48daa79927d7b18db47c1ff9",
+      "size": 29159661,
+      "format": "zip",
+      "binaries": {
+        "vtcode.exe": {
+          "path": "vtcode.exe",
+          "sha256": "c781f366604102d0b37f165cb3386b8e4194cb813b14516d4cd54dbe0f77f90a"
+        }
+      }
+    }
+  }
+}
