@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "timestampvm",
+  "version": "0.0.18",
+  "repository": "ava-labs/timestampvm-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ava-labs/timestampvm-rs/releases/download/v0.0.18/timestampvm_x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.0.18",
+      "sha256": "879279ea58f6f96280540e810fda089e52cbc9a3b9de603d6f896a0d712fd4d4",
+      "size": 3393153,
+      "format": "tar.gz",
+      "binaries": {
+        "timestampvm": {
+          "path": "timestampvm",
+          "sha256": "ba7c2e5861609a0d7cc1ef7690df2bb5d6deb99f8bb31be1595268d7aa4f6e2a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ava-labs/timestampvm-rs/releases/download/v0.0.18/timestampvm_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.18",
+      "sha256": "fad1f0a4a51714ed5be5d869cd592baacc6c42f0ff3c6977f446db59731cac75",
+      "size": 3243752,
+      "format": "tar.gz",
+      "binaries": {
+        "timestampvm": {
+          "path": "timestampvm",
+          "sha256": "e4e86fca67d164ebc223304b8853a486028133b2e3bab82b4e560e2b3a3dbb6e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ava-labs/timestampvm-rs/releases/download/v0.0.18/timestampvm_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.18",
+      "sha256": "4b05f416dd358456e22bb0f7b328b7ca27d88c5832de53f4a3d2b3fcad334a0a",
+      "size": 3144900,
+      "format": "tar.gz",
+      "binaries": {
+        "timestampvm": {
+          "path": "timestampvm",
+          "sha256": "21b12a41f1d6385561a777e9e7eb7e0cab6393ba6aa6dd3bcb972e99b90d18e4"
+        }
+      }
+    }
+  }
+}
