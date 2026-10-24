@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "gcsf",
+  "version": "0.4.0",
+  "repository": "harababurel/gcsf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/harababurel/gcsf/releases/download/0.4.0/gcsf-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.4.0",
+      "sha256": "d424c287e3509acd0c76434762e0d08a03b689bdac221d83265d9801661f6f2e",
+      "size": 3874540,
+      "format": "tar.xz",
+      "binaries": {
+        "gcsf": {
+          "path": "gcsf-x86_64-unknown-linux-gnu/gcsf",
+          "sha256": "38efad3860c1154019b2bddbb16dd8cdc9061325244159e45e3659944d04cf2d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/harababurel/gcsf/releases/download/0.4.0/gcsf-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.4.0",
+      "sha256": "13312d77350628b099e30daab3a6eb872169ef1c519c6ddd2bc8b82eceda1437",
+      "size": 3589152,
+      "format": "tar.xz",
+      "binaries": {
+        "gcsf": {
+          "path": "gcsf-aarch64-unknown-linux-gnu/gcsf",
+          "sha256": "190397c0df9bce32af015e6b7f761c2f64de7bbeb93e1d1d6dc6cd866209ee3c"
+        }
+      }
+    }
+  }
+}
