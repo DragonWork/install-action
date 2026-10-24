@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-languagetool",
+  "version": "0.4.2",
+  "repository": "rnbguy/cargo-languagetool",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rnbguy/cargo-languagetool/releases/download/v0.4.2/cargo-languagetool-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "ce07f0f72e692300279224ab9052718b39d26260caa744a0ae50b898ae669484",
+      "size": 5277057,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-languagetool": {
+          "path": "cargo-languagetool",
+          "sha256": "0919fa8042ec0bace8bc955b8f25360596b0ddeebe375489c043b86a3098d7bd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rnbguy/cargo-languagetool/releases/download/v0.4.2/cargo-languagetool-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "3450ec0b79ad878b5b611f445bd74c262f8149878798776ab2069f5cff09cd26",
+      "size": 5515732,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-languagetool": {
+          "path": "cargo-languagetool",
+          "sha256": "cb82e99e214dc842a692ac4d604687cf1817c372dcfff7ea75b4eaa707b0d8ea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rnbguy/cargo-languagetool/releases/download/v0.4.2/cargo-languagetool-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "d26996c1a6b8bd38636afa82f1641e37a5b555f53aa8827e1c2110598099238e",
+      "size": 2982911,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-languagetool": {
+          "path": "cargo-languagetool",
+          "sha256": "0c6a49bc81adec3ffc4565eff7ebb4fc8c8d48c1cdb3c8f9871142dcfe47bb5d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rnbguy/cargo-languagetool/releases/download/v0.4.2/cargo-languagetool-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "bd643d5e71ff962976ba7ee176ad6690834e0b4ad27b7afe9763af33c6273909",
+      "size": 2855041,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-languagetool": {
+          "path": "cargo-languagetool",
+          "sha256": "79aa9f6dcb4e4be823257d6f52ab4e0b1cfa3a2fe0cfb478f015773ef33e0282"
+        }
+      }
+    }
+  }
+}
