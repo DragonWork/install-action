@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "wit-bindgen-cli",
+  "version": "0.63.0",
+  "repository": "bytecodealliance/wit-bindgen",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.63.0/wit-bindgen-0.63.0-x86_64-linux.tar.gz",
+      "releaseTag": "v0.63.0",
+      "sha256": "bf4efe883ab70d34a4740253911dda20caf895d58a003af58369506b04684cbe",
+      "size": 6053010,
+      "format": "tar.gz",
+      "binaries": {
+        "wit-bindgen": {
+          "path": "wit-bindgen-0.63.0-x86_64-linux/wit-bindgen",
+          "sha256": "4a298550d4c88da3387972daaebd0b10f51bf45eed48ae8d5445f58cc2808b78"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.63.0/wit-bindgen-0.63.0-aarch64-linux.tar.gz",
+      "releaseTag": "v0.63.0",
+      "sha256": "1f9b4fb9f3af15374e2a2d026f6a1fcd8b48f37655f59f48a32cb421e169cbe4",
+      "size": 6088271,
+      "format": "tar.gz",
+      "binaries": {
+        "wit-bindgen": {
+          "path": "wit-bindgen-0.63.0-aarch64-linux/wit-bindgen",
+          "sha256": "71e148172b6a908cc8825870bdd32ce739cc4b3012f8271a59e75ef415863552"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.63.0/wit-bindgen-0.63.0-x86_64-macos.tar.gz",
+      "releaseTag": "v0.63.0",
+      "sha256": "d566ac4d3313bf6b524da3f85e82edc165374fb688255f16ddae4bf06aa1bfc2",
+      "size": 5721777,
+      "format": "tar.gz",
+      "binaries": {
+        "wit-bindgen": {
+          "path": "wit-bindgen-0.63.0-x86_64-macos/wit-bindgen",
+          "sha256": "e9477dd6344915f90a1223f48b9606127b1600ce0288aee4bcb61794836c0a96"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.63.0/wit-bindgen-0.63.0-aarch64-macos.tar.gz",
+      "releaseTag": "v0.63.0",
+      "sha256": "cccbf4b17e00c11b020b389ddfcd4d3a214bc072295566263fc8b358b336815a",
+      "size": 5266964,
+      "format": "tar.gz",
+      "binaries": {
+        "wit-bindgen": {
+          "path": "wit-bindgen-0.63.0-aarch64-macos/wit-bindgen",
+          "sha256": "decc23fa0e88aac4d53c1545b346f344717234a7c931cf991694866be221713f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.63.0/wit-bindgen-0.63.0-x86_64-windows.zip",
+      "releaseTag": "v0.63.0",
+      "sha256": "213393e4a8b4875a3f19856e943e43067d0315141fca5743e4cfb7795bc9af14",
+      "size": 4726204,
+      "format": "zip",
+      "binaries": {
+        "wit-bindgen.exe": {
+          "path": "wit-bindgen-0.63.0-x86_64-windows/wit-bindgen.exe",
+          "sha256": "7d8d0e5d0fe407da2e718b964c892affdd0dbd22b8cf8d2507f362f8c57402e3"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.63.0/wit-bindgen-0.63.0-aarch64-windows.zip",
+      "releaseTag": "v0.63.0",
+      "sha256": "b13979082b8a8032b19c3fc55e3be905fd95822062c3ed69b9b5ba2866ae85d9",
+      "size": 4407009,
+      "format": "zip",
+      "binaries": {
+        "wit-bindgen.exe": {
+          "path": "wit-bindgen-0.63.0-aarch64-windows/wit-bindgen.exe",
+          "sha256": "2f9cfc448738018d067d3c48cc8f922de15afd9876d0deb071d5b022b199dcec"
+        }
+      }
+    }
+  }
+}
