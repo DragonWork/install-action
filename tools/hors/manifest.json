@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "hors",
+  "version": "0.8.2",
+  "repository": "WindSoilder/hors",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/WindSoilder/hors/releases/download/v0.8.2/hors-ubuntu.tar.gz",
+      "sha256": "508cb9d34bed84d2b45f59372cafdce0c22827782f13751dbd59d111b0ab3776",
+      "size": 3768473,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.2",
+      "binaries": {
+        "hors": {
+          "path": "./hors",
+          "sha256": "87e21913e4287c79e25293b1b62b7dd1a91b96af429af19fe69c96082fc16e7c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/WindSoilder/hors/releases/download/v0.8.2/hors-mac.tar.gz",
+      "sha256": "7be230a2a0058414ea3a5dce818f78ba289144522a32de21f4216fc650dec4ad",
+      "size": 3448325,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.2",
+      "binaries": {
+        "hors": {
+          "path": "./hors",
+          "sha256": "52bd0834aff32081b0825e58d6c9b34a6e78bf86d14c0bdfb845543ce22ad2d2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/WindSoilder/hors/releases/download/v0.8.2/hors-win.tar.gz",
+      "sha256": "84ed3e755af8c9d5e3bd30847216df045059243cf0010718d49698f888ec91c4",
+      "size": 3555287,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.2",
+      "binaries": {
+        "hors.exe": {
+          "path": "./hors.exe",
+          "sha256": "f8dfe0f199f992a586caa52d2a54161fa5248f45082103dfd8c98bc7a96d52e0"
+        }
+      }
+    }
+  }
+}
