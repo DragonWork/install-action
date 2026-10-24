@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "tvdb-ep-list",
+  "version": "0.4.39",
+  "repository": "bladepoint6969/tvdb-ep-list",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bladepoint6969/tvdb-ep-list/releases/download/v0.4.39/tvdb-ep-list-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.39",
+      "sha256": "242baab8a3aa622b1c6371c048cffbcfea5c38598b2788d6eec6da9b7e670c58",
+      "size": 2720060,
+      "format": "tar.gz",
+      "binaries": {
+        "tvdb-ep-list": {
+          "path": "tvdb-ep-list",
+          "sha256": "b8a18ba34547ecd3e0ec19f27773f2d9c9a8dba54235d175854fa76c124e7540"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bladepoint6969/tvdb-ep-list/releases/download/v0.4.39/tvdb-ep-list-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.39",
+      "sha256": "50c2405dd3a852fef32a7cc37c4524323f16019f3f59cd0cb7aaf3c42ca004f6",
+      "size": 2471645,
+      "format": "tar.gz",
+      "binaries": {
+        "tvdb-ep-list": {
+          "path": "tvdb-ep-list",
+          "sha256": "1e0b626a145c85c960d2cc41f49ebcaea2864273f7323c4725c88d2c3546b8e8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bladepoint6969/tvdb-ep-list/releases/download/v0.4.39/tvdb-ep-list-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.39",
+      "sha256": "5870d9803ef43faa894db305e5b767e0471a2ac45e4edc1dbe344d429d0b678b",
+      "size": 2621834,
+      "format": "tar.gz",
+      "binaries": {
+        "tvdb-ep-list": {
+          "path": "tvdb-ep-list",
+          "sha256": "6b0d54f2bb56fd88e2198992c802b850eda20acec5e01cbc969b3b2898aabdfd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bladepoint6969/tvdb-ep-list/releases/download/v0.4.39/tvdb-ep-list-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.39",
+      "sha256": "e9b3dc237f31e140f9bcdcd605e323739f9885c2c1d2f3488b18244d2bee8218",
+      "size": 2445256,
+      "format": "tar.gz",
+      "binaries": {
+        "tvdb-ep-list": {
+          "path": "tvdb-ep-list",
+          "sha256": "ced0bf0a27f6cece8830ee1d8ec2b2d15c23ca31ca9848485e6a61d55b712713"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bladepoint6969/tvdb-ep-list/releases/download/v0.4.39/tvdb-ep-list-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.4.39",
+      "sha256": "352c2eac83c2983284b14e7e3e980b22ba33017fcdf0a3719f6b5dc60d5ea889",
+      "size": 2271002,
+      "format": "tar.gz",
+      "binaries": {
+        "tvdb-ep-list.exe": {
+          "path": "tvdb-ep-list.exe",
+          "sha256": "a560184d86743f43a3a831725e5b2b9336710a7a33aacdf123de5c58a81007ac"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/bladepoint6969/tvdb-ep-list/releases/download/v0.4.39/tvdb-ep-list-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.4.39",
+      "sha256": "a339ccb2cfdcce846e31cea7a91517e41c8928dce902968815e9b94343433bce",
+      "size": 2243133,
+      "format": "tar.gz",
+      "binaries": {
+        "tvdb-ep-list.exe": {
+          "path": "tvdb-ep-list.exe",
+          "sha256": "138b094a588fed2e3f3cc67743da11dd261ea2033154bdea28cca1c7fe6f7957"
+        }
+      }
+    }
+  }
+}
