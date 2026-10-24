@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "iroh-dns-server",
+  "version": "1.4.1",
+  "repository": "n0-computer/iroh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-dns-server-v1.4.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "7da3727dad3e5b510c7d081c08b7e2a5d03397549500aa6ae8543400e839cd14",
+      "size": 4969034,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh-dns-server": {
+          "path": "./iroh-dns-server",
+          "sha256": "1ee10033e93a2a285e7eaabb7a59459133a4fa47bce1d28a98924819d12442dc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-dns-server-v1.4.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "ea091354094aad5d39d01c71ee75ffa52d59aafd58623d5477172c307ec84490",
+      "size": 4842437,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh-dns-server": {
+          "path": "./iroh-dns-server",
+          "sha256": "e60d0d5dce2cbc7c803dff0fe561788268dce31ac3c24e72ced51526ddc71308"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-dns-server-v1.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "b2ff4cde089870c9c6a0c97273b0a770fd71a3155f1b4e4e3a823731b7e2c02f",
+      "size": 4869647,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh-dns-server": {
+          "path": "./iroh-dns-server",
+          "sha256": "50355c35279469474fad3c3ef6d942af1c1d42925001a7d0d9aeeeccd639864c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-dns-server-v1.4.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "8081e791b099c068745883a7b149a84898c07ca36944e4e24eb346f8f3f5cf13",
+      "size": 4368999,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh-dns-server": {
+          "path": "./iroh-dns-server",
+          "sha256": "228478ce4462ff26a9ec7c7e054da47efb8911e83c0a8f81274368e2f38aecf9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-dns-server-v1.4.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.4.1",
+      "sha256": "e45de592dfc2aa47d5cd603c52be4dff0532d89fd62075f155ebd6c813ce5e4d",
+      "size": 4595004,
+      "format": "zip",
+      "binaries": {
+        "iroh-dns-server.exe": {
+          "path": "iroh-dns-server.exe",
+          "sha256": "3087958784409e7c8027c284555f8cc912cd9490f7fb5c547653e09043a0b3c7"
+        }
+      }
+    }
+  }
+}
