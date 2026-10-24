@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "freenet",
+  "version": "0.2.148",
+  "repository": "freenet/freenet-core",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.148/freenet-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.148",
+      "sha256": "bc5fbe62365001882334a8e5b9a9f31fec502f35baba4a39fcea7d43af1d9049",
+      "size": 22331467,
+      "format": "tar.gz",
+      "binaries": {
+        "freenet": {
+          "path": "freenet",
+          "sha256": "77539404a7c1651d0c8015cf4574b6239ff4d1eeaa132ff33ac01672e7f29ad6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.148/freenet-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.148",
+      "sha256": "4c7d523c239a7a9aa2e6a7b7ec6a3a5315f704cac2db10937afae1e3a88f17d1",
+      "size": 21001401,
+      "format": "tar.gz",
+      "binaries": {
+        "freenet": {
+          "path": "freenet",
+          "sha256": "0fbc0cbd7b3ec9ec02c6c47e3cfe2759f627fc94f201e60031119383049c78c0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.148/freenet-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.148",
+      "sha256": "866cd47254e4f9b3287851a2f57b6372e970770b0da89e6042a1c28ba3d27363",
+      "size": 22054686,
+      "format": "tar.gz",
+      "binaries": {
+        "freenet": {
+          "path": "freenet",
+          "sha256": "ba8252024f2deefbc93f17ed066a97f91cd1d72a76ada347abd5541f30c82fc7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.148/freenet-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.148",
+      "sha256": "4e1188a84bc237afc36947e3e7348dbaba058d29533339bba51abac5fd37355d",
+      "size": 19718028,
+      "format": "tar.gz",
+      "binaries": {
+        "freenet": {
+          "path": "freenet",
+          "sha256": "8dcfceb8e266c055fdb358da2a25307b498cc76902a6c3e5580338b9b199f26e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.148/freenet-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.148",
+      "sha256": "24c9b13957a299c71e2c56cb488c060a2b76be6d7af33aa9e949741734d85bfa",
+      "size": 18910845,
+      "format": "zip",
+      "binaries": {
+        "freenet.exe": {
+          "path": "freenet.exe",
+          "sha256": "cd9fa9c06216d856434c1c45e1dedc577b61f20149bbcf705a7d23b23e991fa1"
+        }
+      }
+    }
+  }
+}
