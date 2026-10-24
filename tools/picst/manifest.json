@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "picst",
+  "version": "2.0.5",
+  "repository": "yamafaktory/picst",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yamafaktory/picst/releases/download/v2.0.5/picst-v2.0.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.0.5",
+      "sha256": "842b03ed0d71bc596f7221e329942073b75090dc52d646c26b573cb7ec885943",
+      "size": 970445,
+      "format": "tar.gz",
+      "binaries": {
+        "picst": {
+          "path": "picst",
+          "sha256": "66c5a6249be0ce58638b65acf65c84980b4e0ff79a01f81fa08e8a7f0d588884"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/yamafaktory/picst/releases/download/v2.0.5/picst-v2.0.5-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.0.5",
+      "sha256": "fff24f4a1ed4f384e85f4fdf7332b1a29ddcc51c7dc0dbabd4d29b44d5f7647f",
+      "size": 926466,
+      "format": "tar.gz",
+      "binaries": {
+        "picst": {
+          "path": "picst",
+          "sha256": "9fd8402a450a3922d975da55c381c19fb1000471a004e9d0b1f1fc821a5d52ce"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yamafaktory/picst/releases/download/v2.0.5/picst-v2.0.5-x86_64-apple-darwin.zip",
+      "releaseTag": "v2.0.5",
+      "sha256": "00eaac9f0c2012ebd66298efa6adae9c9e8db5c6c5e2804bd5877d11267a4cc5",
+      "size": 736370,
+      "format": "zip",
+      "binaries": {
+        "picst": {
+          "path": "picst",
+          "sha256": "0add443a2abe8193597b4ed1662234a9e8e692a03b46100bbbfb7379f4725c77"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yamafaktory/picst/releases/download/v2.0.5/picst-v2.0.5-aarch64-apple-darwin.zip",
+      "releaseTag": "v2.0.5",
+      "sha256": "9044ca87c23fe293b095158b8a65a6b81df39f2860858b4819b01ae541ade4a3",
+      "size": 714342,
+      "format": "zip",
+      "binaries": {
+        "picst": {
+          "path": "picst",
+          "sha256": "84320fdc75a825e1bb88f43a87da5f87ffc7deb38f1ee640daf4929066586d97"
+        }
+      }
+    }
+  }
+}
