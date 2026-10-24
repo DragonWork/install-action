@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "esp-generate",
+  "version": "1.4.0",
+  "repository": "esp-rs/esp-generate",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "06306a25fecc1bd1c1e6b6ea0c05137086fea1f37bd83ba80f57ba5cfebf44f1",
+      "size": 3032115,
+      "format": "zip",
+      "binaries": {
+        "esp-generate": {
+          "path": "esp-generate",
+          "sha256": "a2b174a8882ca5545ec85a2ea8415480d688ed1b9a6733735c9126a58edfbbbd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "64d945754a55564e2bb16622cf03afe7a606db9be7e299326707be320f73839a",
+      "size": 2928098,
+      "format": "zip",
+      "binaries": {
+        "esp-generate": {
+          "path": "esp-generate",
+          "sha256": "930a94c4b4b93f024771ac402e788eeca3e7d71fa7cb20a37f717ea61fc01cc1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-x86_64-apple-darwin.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "23f2250bd6916e1853bd66dbaa412519fdf62666591401b1ec93e875fa775439",
+      "size": 2847081,
+      "format": "zip",
+      "binaries": {
+        "esp-generate": {
+          "path": "esp-generate",
+          "sha256": "a1daf952ebca8e255143edd2cf61753c2b328eee247ff80d74dc26ecfa73f40e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-aarch64-apple-darwin.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "8532d1a6d742128444b977984ee70b8be0b07888d6cddd6b5727fa9146b5dbc6",
+      "size": 2697968,
+      "format": "zip",
+      "binaries": {
+        "esp-generate": {
+          "path": "esp-generate",
+          "sha256": "77ec1a89fdb5a6b39d44a5805ed4fa1c66fb3e93ad57dc119356faf931e77562"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "1728cd077b5517c322402c3e5a89987f59fa1b2da5b6af174d6446a8dd8e9675",
+      "size": 2592966,
+      "format": "zip",
+      "binaries": {
+        "esp-generate.exe": {
+          "path": "esp-generate.exe",
+          "sha256": "94d28baa5596e3f37a6a92871b1d37176e4ad8425aae8669b454ca69710f9a91"
+        }
+      }
+    }
+  }
+}
