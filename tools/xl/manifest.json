@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "xl",
+  "version": "0.1.7",
+  "repository": "xlprotips/xl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xlprotips/xl/releases/download/v0.1.7/xlcat-v0.1.7-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.7",
+      "sha256": "82155824e17bc80b672f48c233251d46a6eb34904d5c0c54db402d6d893fa906",
+      "size": 1078139,
+      "format": "tar.gz",
+      "binaries": {
+        "xlcat": {
+          "path": "xlcat-v0.1.7-x86_64-unknown-linux-musl/xlcat",
+          "sha256": "881cd152065068045a5b23e39cffa76cfbe61db4f1d8bc19e45c610d9f2d66a5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xlprotips/xl/releases/download/v0.1.7/xlcat-v0.1.7-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.7",
+      "sha256": "a89a338fa639cbbb7d2d67de770c85b9da0d306f17781570becaa2c5f6f58fe8",
+      "size": 345718,
+      "format": "tar.gz",
+      "binaries": {
+        "xlcat": {
+          "path": "xlcat-v0.1.7-x86_64-apple-darwin/xlcat",
+          "sha256": "bd900ac402e645519901372efff609dcb3183cf1c29b21de506ab43bed3f0cc9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/xlprotips/xl/releases/download/v0.1.7/xlcat-v0.1.7-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.7",
+      "sha256": "10220eaba85f5f9fce27cba4f345483db5794536488d6f0c2055bd2efb77df12",
+      "size": 219937,
+      "format": "zip",
+      "binaries": {
+        "xlcat.exe": {
+          "path": "xlcat-v0.1.7-x86_64-pc-windows-msvc/xlcat.exe",
+          "sha256": "e62d42a89ed2dbd715a3c8ab97ca1499147d45664126c22837f6b4cb2277b8e0"
+        }
+      }
+    }
+  }
+}
