@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "b3sum",
+  "version": "1.8.7",
+  "repository": "BLAKE3-team/BLAKE3",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/BLAKE3-team/BLAKE3/releases/download/1.8.7/b3sum_linux_x64_bin",
+      "releaseTag": "1.8.7",
+      "sha256": "5519d827b4ac438e2492e0b99e19484fa5191d34fc20b0174ebe41d3dbf9eca1",
+      "size": 1577912,
+      "format": "binary",
+      "binaries": {
+        "b3sum": {
+          "path": "b3sum_linux_x64_bin",
+          "sha256": "5519d827b4ac438e2492e0b99e19484fa5191d34fc20b0174ebe41d3dbf9eca1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/BLAKE3-team/BLAKE3/releases/download/1.8.7/b3sum_macos_x64_bin",
+      "releaseTag": "1.8.7",
+      "sha256": "97017f4477d872b24752a9bdbe48a6e0296fe1a66fc4787906c20c040b15c299",
+      "size": 1361016,
+      "format": "binary",
+      "binaries": {
+        "b3sum": {
+          "path": "b3sum_macos_x64_bin",
+          "sha256": "97017f4477d872b24752a9bdbe48a6e0296fe1a66fc4787906c20c040b15c299"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/BLAKE3-team/BLAKE3/releases/download/1.8.7/b3sum_windows_x64_bin.exe",
+      "releaseTag": "1.8.7",
+      "sha256": "fce0c2406a1e92b49fedd02a48a67dc5ba71c3a85eb80a2f950ed985f90e76e2",
+      "size": 1021440,
+      "format": "binary",
+      "binaries": {
+        "b3sum.exe": {
+          "path": "b3sum_windows_x64_bin.exe",
+          "sha256": "fce0c2406a1e92b49fedd02a48a67dc5ba71c3a85eb80a2f950ed985f90e76e2"
+        }
+      }
+    }
+  }
+}
