@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pastel",
+  "version": "0.12.0",
+  "repository": "sharkdp/pastel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sharkdp/pastel/releases/download/v0.12.0/pastel-v0.12.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "96ddd6593d08fd3868f2423f18ed5c6117a5f1aab335c1fc9e8347db7f219f2a",
+      "size": 629806,
+      "format": "tar.gz",
+      "binaries": {
+        "pastel": {
+          "path": "pastel-v0.12.0-x86_64-unknown-linux-musl/pastel",
+          "sha256": "36896c6eb985dc1b41a298f918a4e647712139a5b09828ebec60571831887c62"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sharkdp/pastel/releases/download/v0.12.0/pastel-v0.12.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "f437e19974399ab7ae99fa52b76a2cdfad4fafafde3b48243100d371894935ba",
+      "size": 521793,
+      "format": "tar.gz",
+      "binaries": {
+        "pastel": {
+          "path": "pastel-v0.12.0-aarch64-unknown-linux-gnu/pastel",
+          "sha256": "10a328186ecb51451d3393648e4a1f212edd672fdf5502b92ca98965363881a0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sharkdp/pastel/releases/download/v0.12.0/pastel-v0.12.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "ea941d276c41285b188cd51ff497145a348fa0f0e955e7c2ddd4ea7ca42e712c",
+      "size": 553752,
+      "format": "tar.gz",
+      "binaries": {
+        "pastel": {
+          "path": "pastel-v0.12.0-x86_64-apple-darwin/pastel",
+          "sha256": "cb0d2f3faef3ad691d3cbcd671e465c522df97eab5a00c8ecd32bea2d1a8dbaa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sharkdp/pastel/releases/download/v0.12.0/pastel-v0.12.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "7fd81518fac1dab7bd60e4759194a942c51bb911ef5de4513f4a9e3fb4b8ac1c",
+      "size": 502248,
+      "format": "tar.gz",
+      "binaries": {
+        "pastel": {
+          "path": "pastel-v0.12.0-aarch64-apple-darwin/pastel",
+          "sha256": "6d28539df11b103ac07fee448d94d3ef9c9cf611e485cb86c032e3067e1ada2d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sharkdp/pastel/releases/download/v0.12.0/pastel-v0.12.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.0",
+      "sha256": "51e914b0308b089f032c481e786d67a9f11d8857f4ffe99405f3452e77582393",
+      "size": 519163,
+      "format": "zip",
+      "binaries": {
+        "pastel.exe": {
+          "path": "pastel-v0.12.0-x86_64-pc-windows-msvc/pastel.exe",
+          "sha256": "9a9274773fa5de94b74cf8209b73d254aba16bbc4db4ba2f176cc324fa467145"
+        }
+      }
+    }
+  }
+}
