@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cargo-udeps",
+  "version": "0.1.61",
+  "repository": "est31/cargo-udeps",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/est31/cargo-udeps/releases/download/v0.1.61/cargo-udeps-v0.1.61-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.61",
+      "sha256": "6920b6f493f0c13a28e32522ccb7efffcc57c8849d887366b19c599dc2238cc0",
+      "size": 7440163,
+      "format": "zip",
+      "binaries": {
+        "cargo-udeps.exe": {
+          "path": "cargo-udeps-v0.1.61-x86_64-pc-windows-msvc/cargo-udeps.exe",
+          "sha256": "be3920456a264c8ff101f1e5d0dda429e8d4d8d4c6dd7ca4e47292d5b4cf17b0"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/est31/cargo-udeps/releases/download/v0.1.61/cargo-udeps-v0.1.61-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.61",
+      "sha256": "56f71b63e24fff67cf5f34e21bf4bcd8b090d80336a629c7b829045b02494718",
+      "size": 6800280,
+      "format": "zip",
+      "binaries": {
+        "cargo-udeps.exe": {
+          "path": "cargo-udeps-v0.1.61-aarch64-pc-windows-msvc/cargo-udeps.exe",
+          "sha256": "8a12bd91316ba7e80a5b777dcf7788aa7a56817f91aed885ab870f651eddec9f"
+        }
+      }
+    }
+  }
+}
