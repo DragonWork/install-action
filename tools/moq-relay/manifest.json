@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "moq-relay",
+  "version": "0.17.7",
+  "repository": "moq-dev/moq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/moq-dev/moq/releases/download/moq-relay-v0.17.7/moq-relay-v0.17.7-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "moq-relay-v0.17.7",
+      "sha256": "2a644213cc9dec7805658f91725e3cfc3624577bc761f8a4171cc47ddd59062d",
+      "size": 14879008,
+      "format": "tar.gz",
+      "binaries": {
+        "moq-relay": {
+          "path": "moq-relay-v0.17.7-x86_64-unknown-linux-gnu/bin/moq-relay",
+          "sha256": "ae8b5f9cdafed5712ca7920dfb927054328dea827d405353e6c9b55c8cedafed"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/moq-dev/moq/releases/download/moq-relay-v0.17.7/moq-relay-v0.17.7-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "moq-relay-v0.17.7",
+      "sha256": "e19ca8b39b001cdd39314c932941c8d47da3efb325db67b5e42c6ca626672ca1",
+      "size": 14085431,
+      "format": "tar.gz",
+      "binaries": {
+        "moq-relay": {
+          "path": "moq-relay-v0.17.7-aarch64-unknown-linux-gnu/bin/moq-relay",
+          "sha256": "3f22036474b0f152049475c9ffcf9ddca7fff1f53c2a6979cc7f15c1b8752313"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/moq-dev/moq/releases/download/moq-relay-v0.17.7/moq-relay-v0.17.7-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "moq-relay-v0.17.7",
+      "sha256": "3e395bb575b1ae1a6200985e63ad8f83e6e26eec549299192d1ef5e9140eba80",
+      "size": 13960701,
+      "format": "tar.gz",
+      "binaries": {
+        "moq-relay": {
+          "path": "moq-relay-v0.17.7-aarch64-apple-darwin/bin/moq-relay",
+          "sha256": "5d6ffb601b8abb889bc3e062bd6d39f685ccb0e61c1f8ac0c642acbf47675a33"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/moq-dev/moq/releases/download/moq-relay-v0.17.7/moq-relay-v0.17.7-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "moq-relay-v0.17.7",
+      "sha256": "5c455abf766cbfd4403ee3ac86e4ca420c0243f8722fe62743e5c98bbfdddd59",
+      "size": 11926535,
+      "format": "zip",
+      "binaries": {
+        "moq-relay.exe": {
+          "path": "moq-relay.exe",
+          "sha256": "686d7852887e2e465a7011070d657b56bc7a985bafdb9619853e67baf2d3db2c"
+        }
+      }
+    }
+  }
+}
