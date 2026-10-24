@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dofigen",
+  "version": "2.9.0",
+  "repository": "lenra-io/dofigen",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/lenra-io/dofigen/releases/download/v2.9.0/dofigen-windows-x86_64.exe",
+      "releaseTag": "v2.9.0",
+      "sha256": "381d20e74251e9947b347ce1c34f6ae7bf238be58d98fd0989a3ff3825abeac8",
+      "size": 3719168,
+      "format": "binary",
+      "binaries": {
+        "dofigen.exe": {
+          "path": "dofigen-windows-x86_64.exe",
+          "sha256": "381d20e74251e9947b347ce1c34f6ae7bf238be58d98fd0989a3ff3825abeac8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/lenra-io/dofigen/releases/download/v2.9.0/dofigen-windows-aarch64.exe",
+      "releaseTag": "v2.9.0",
+      "sha256": "a6d309f32e71a6e5105637ee70cc7e8e425571773c091cd8778722737b9e8d73",
+      "size": 3294208,
+      "format": "binary",
+      "binaries": {
+        "dofigen.exe": {
+          "path": "dofigen-windows-aarch64.exe",
+          "sha256": "a6d309f32e71a6e5105637ee70cc7e8e425571773c091cd8778722737b9e8d73"
+        }
+      }
+    }
+  }
+}
