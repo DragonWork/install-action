@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "plmidi",
+  "version": "0.14.2",
+  "repository": "insomnimus/plmidi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/insomnimus/plmidi/releases/download/v0.14.2/plmidi-x86_64-linux.tar.gz",
+      "releaseTag": "v0.14.2",
+      "sha256": "ee2e2de8cd2b91cd90c9a85ede06ff083548fe196651872b5edd06d155869f63",
+      "size": 681707,
+      "format": "tar.gz",
+      "binaries": {
+        "plmidi": {
+          "path": "plmidi",
+          "sha256": "f1db44291ed3b83af82f30b0d7920cf614c30c7956eab43f3778af9d176c9fbf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/insomnimus/plmidi/releases/download/v0.14.2/plmidi-aarch64-linux.tar.gz",
+      "releaseTag": "v0.14.2",
+      "sha256": "63823470cd5a071726d447e5a6ef0150bf5fd09c4ba14fd7aa57ee7b0ac7b368",
+      "size": 1592137,
+      "format": "tar.gz",
+      "binaries": {
+        "plmidi": {
+          "path": "plmidi",
+          "sha256": "b52efefb773229cc5c8c50f2b750db58b9ffbe4a021305c185ce76e7e9dc32c3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/insomnimus/plmidi/releases/download/v0.14.2/plmidi-x86_64-osx.tar.gz",
+      "releaseTag": "v0.14.2",
+      "sha256": "7f212663785e966a4e395c14b28dbf892187cf3081a0ab3594ffd4b36278d2d0",
+      "size": 594858,
+      "format": "tar.gz",
+      "binaries": {
+        "plmidi": {
+          "path": "plmidi",
+          "sha256": "814668de3514946d68f7292104a21afb7f88be24779f3b7ba9842d4d53069c5c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/insomnimus/plmidi/releases/download/v0.14.2/plmidi-x86_64-windows.zip",
+      "releaseTag": "v0.14.2",
+      "sha256": "5b0fa4968a616831b6e8d2b8798db59feb629a37ba6b3fee359f311b7784bdeb",
+      "size": 551100,
+      "format": "zip",
+      "binaries": {
+        "plmidi.exe": {
+          "path": "plmidi.exe",
+          "sha256": "8a4c173e90a08c75c21af0ebdf7d052aceab7a1cfa502fa0dd3f6c88bfb56802"
+        }
+      }
+    }
+  }
+}
