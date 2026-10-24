@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "if-changed",
+  "version": "0.3.10",
+  "repository": "mathematic-inc/if-changed",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mathematic-inc/if-changed/releases/download/v0.3.10/if-changed-0.3.10-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.10",
+      "sha256": "e69d2b3147919bff400f29d1dc5c714bad4bd02ca314157d980c2f66614c3e8a",
+      "size": 1065866,
+      "format": "tar.gz",
+      "binaries": {
+        "if-changed": {
+          "path": "if-changed",
+          "sha256": "ec12f1604313cd71386d0fdbe8b31aaf22285eddf48b4edeae1ae623628ce5cb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mathematic-inc/if-changed/releases/download/v0.3.10/if-changed-0.3.10-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.10",
+      "sha256": "bd8e291fa8f727528cfb662300ad0f03c5476792997ecdf547c450600ec4c6e5",
+      "size": 1050518,
+      "format": "tar.gz",
+      "binaries": {
+        "if-changed": {
+          "path": "if-changed",
+          "sha256": "795563af8faec15642141ca667f6a2e5d23daa288f80f2d080bed9fa9123b9b3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mathematic-inc/if-changed/releases/download/v0.3.10/if-changed-0.3.10-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.10",
+      "sha256": "2fdf36d8f344122080d3bf6d0368bec00751ebc800aa23742f3a9b9313204b73",
+      "size": 871719,
+      "format": "tar.gz",
+      "binaries": {
+        "if-changed": {
+          "path": "if-changed",
+          "sha256": "0226bf784990efb7aa9198e10dc993c810390d7746f2d5b31b4d31cdb7c14168"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mathematic-inc/if-changed/releases/download/v0.3.10/if-changed-0.3.10-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.10",
+      "sha256": "c22d2bedf5468574a0ba47a7ff7bc46c645d40d8c147f449b7824042cc1a8232",
+      "size": 825842,
+      "format": "tar.gz",
+      "binaries": {
+        "if-changed": {
+          "path": "if-changed",
+          "sha256": "638f74d66fdd66ad541a6afab108a72f9aca639350ffbcf0547c0b7e512e5bba"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mathematic-inc/if-changed/releases/download/v0.3.10/if-changed-0.3.10-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.10",
+      "sha256": "97d12a792b88a88d55e080e5ecff51abcff063e860c8a6a7687db5cf394c240f",
+      "size": 1094336,
+      "format": "zip",
+      "binaries": {
+        "if-changed.exe": {
+          "path": "if-changed.exe",
+          "sha256": "26dcf3df920accc91c81fb638624bcf81e949e3fbd4d396b97c793ed6e8b3243"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/mathematic-inc/if-changed/releases/download/v0.3.10/if-changed-0.3.10-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.10",
+      "sha256": "58b4d2c71ab317b7c56c97aac88c44fc416cfa6014c7712aade6b95bd0f0e22f",
+      "size": 998158,
+      "format": "zip",
+      "binaries": {
+        "if-changed.exe": {
+          "path": "if-changed.exe",
+          "sha256": "0de5c647d1ff162d6dccc67a5b8ac6890df59e490e8820c5ff1b3607f157307f"
+        }
+      }
+    }
+  }
+}
