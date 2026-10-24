@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "decapod",
+  "version": "0.121.1",
+  "repository": "DecapodLabs/decapod",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DecapodLabs/decapod/releases/download/v0.121.1/decapod-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "583a363ba230308afe663ea5a62581f4398a6d52b3c27911e2ca072ee40ebb02",
+      "size": 7758576,
+      "format": "tar.xz",
+      "releaseTag": "v0.121.1",
+      "binaries": {
+        "decapod": {
+          "path": "decapod-x86_64-unknown-linux-gnu/decapod",
+          "sha256": "e5f9dbbc0602cd024f1d4bb8fd0f2e4ffbd96e6e4e0d6873215537acdb9ff723"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/DecapodLabs/decapod/releases/download/v0.121.1/decapod-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "51cc74e440a97550bc3400348ecc2c58cc582adfc07c09933c0cc88b391e9482",
+      "size": 6864248,
+      "format": "tar.xz",
+      "releaseTag": "v0.121.1",
+      "binaries": {
+        "decapod": {
+          "path": "decapod-aarch64-unknown-linux-gnu/decapod",
+          "sha256": "6d404cf5e752494903c636df710831e55eff490e717d43f8dd8f0cca1434af12"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/DecapodLabs/decapod/releases/download/v0.121.1/decapod-x86_64-apple-darwin.tar.xz",
+      "sha256": "22b23523b6861244063eea2839271513845102c0591077447367a1402eba392c",
+      "size": 7612988,
+      "format": "tar.xz",
+      "releaseTag": "v0.121.1",
+      "binaries": {
+        "decapod": {
+          "path": "decapod-x86_64-apple-darwin/decapod",
+          "sha256": "12c9ad83fc22ab80192258dfd8f66c157f65691191a782ad895c5e8cc00c43ab"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/DecapodLabs/decapod/releases/download/v0.121.1/decapod-aarch64-apple-darwin.tar.xz",
+      "sha256": "8ff3d4cf3e1618472567114f406c6c8fe58fbc9418188ef73eeea0d87ccebd4c",
+      "size": 6602264,
+      "format": "tar.xz",
+      "releaseTag": "v0.121.1",
+      "binaries": {
+        "decapod": {
+          "path": "decapod-aarch64-apple-darwin/decapod",
+          "sha256": "59783853d33f7138b2e493432a0e326e5994741ce3f1664a4b4e1f8dd3c008c1"
+        }
+      }
+    }
+  }
+}
