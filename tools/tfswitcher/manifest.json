@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tfswitcher",
+  "version": "0.9.0",
+  "repository": "ASleepyCat/tfswitcher",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ASleepyCat/tfswitcher/releases/download/v0.9.0/tfswitcher-v0.9.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "f8b9c2989e1057b01776c768f6ca0ec3119bcd8064f7a6acf5aebbbedddd27f1",
+      "size": 5126539,
+      "format": "tar.gz",
+      "binaries": {
+        "tfswitcher": {
+          "path": "tfswitcher",
+          "sha256": "2f855fb2e8d424d20faaa838d5dc26df0d0825e772025b696e9c6799f50c92ed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ASleepyCat/tfswitcher/releases/download/v0.9.0/tfswitcher-v0.9.0-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "9d8351ca6ab83d25c42944b69c3a4fef689c07e73f0334f10c18b0b014d2a59e",
+      "size": 4776220,
+      "format": "zip",
+      "binaries": {
+        "tfswitcher": {
+          "path": "tfswitcher",
+          "sha256": "949a59783f7e08b89563f219f1d78d9cdf9ab5f44c3eaf31c64a6c961bb75be0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ASleepyCat/tfswitcher/releases/download/v0.9.0/tfswitcher-v0.9.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "b00b7d4722e81b0537d8f446ccbb9e74f3853424ba0c39779130d4a45ffb82d4",
+      "size": 4147743,
+      "format": "zip",
+      "binaries": {
+        "tfswitcher.exe": {
+          "path": "tfswitcher.exe",
+          "sha256": "775019a9e355d82ab25f0acad6099dcdc73ef492e35420f9ecb4ad57f00a589b"
+        }
+      }
+    }
+  }
+}
