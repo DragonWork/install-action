@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "jless",
+  "version": "0.9.0",
+  "repository": "PaulJuliusMartinez/jless",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "a1e0eb63ef347adc649989ac5c7d2dc896df6d494622b953c86e3a248e733a93",
+      "size": 1136617,
+      "format": "zip",
+      "binaries": {
+        "jless": {
+          "path": "jless",
+          "sha256": "1d25b19fa8e88973370739aaa562b02dbfed46f7d5c71c3ba3e51a9683717d85"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "8228d44b918af7e904a75df10f85dabf29cdedac17156d870c80968e6836b04f",
+      "size": 1002244,
+      "format": "zip",
+      "binaries": {
+        "jless": {
+          "path": "jless",
+          "sha256": "94fee120587a36fae8f8dc84e065858b285da01d1bd92fe8e5b021b4723204ee"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "1967568762e44d3a5a7b09211c55ff9680419878a5a7045876d2cc6870e40390",
+      "size": 1141884,
+      "format": "zip",
+      "binaries": {
+        "jless": {
+          "path": "jless",
+          "sha256": "7f27cf2b698bb68ca082e6be671442d7896719691011652a61460c61c10c04f5"
+        }
+      }
+    }
+  }
+}
