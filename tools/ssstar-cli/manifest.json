@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "ssstar-cli",
+  "version": "0.7.3",
+  "repository": "elastio/ssstar",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/elastio/ssstar/releases/download/v0.7.3/ssstar-v0.7.3-linux-x86_64.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "4d50f276427d65ba2b8302349a949458c9af0c46c07811f0361676cf4361ac69",
+      "size": 6401683,
+      "format": "tar.gz",
+      "binaries": {
+        "ssstar": {
+          "path": "ssstar",
+          "sha256": "8addcca145265763868b66f5efa1605a4c7f8231561f13ff366377576a6fe837"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/elastio/ssstar/releases/download/v0.7.3/ssstar-v0.7.3-macos-x86_64.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "96e7eca7504cc360f19c945d9b5c895d47344250db8af288cce84bac262649d2",
+      "size": 5699827,
+      "format": "tar.gz",
+      "binaries": {
+        "ssstar": {
+          "path": "ssstar",
+          "sha256": "18ac93f0b93e44b7bbadbe39030bbf6c9bfa6320664ab1f040a81e06d15337aa"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/elastio/ssstar/releases/download/v0.7.3/ssstar-v0.7.3-windows-x86_64.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "4823479368d6a408c03354e594f419c72d797920ce425a76ede55d04cb252624",
+      "size": 5803075,
+      "format": "tar.gz",
+      "binaries": {
+        "ssstar.exe": {
+          "path": "ssstar.exe",
+          "sha256": "001089f19abe60cdc691be42287934f38f2c35ac05d9cd0dd3f41b17668d7115"
+        }
+      }
+    }
+  }
+}
