@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "warg-server",
+  "version": "0.10.0",
+  "repository": "bytecodealliance/registry",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/registry/releases/download/v0.10.0/warg-cli-x86_64-unknown-linux-gnu",
+      "sha256": "5cdcbc1c20cdf88a036df50535d407c3ed48307f7af132e549ce85297b41cc4d",
+      "size": 23582280,
+      "format": "binary",
+      "releaseTag": "v0.10.0",
+      "binaries": {
+        "warg-server": {
+          "path": "warg-cli-x86_64-unknown-linux-gnu",
+          "sha256": "5cdcbc1c20cdf88a036df50535d407c3ed48307f7af132e549ce85297b41cc4d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/registry/releases/download/v0.10.0/warg-cli-aarch64-unknown-linux-gnu",
+      "sha256": "6a6a0c78479263b8fb4fffbbed014f978459cf93190923e14514314ecfc5e571",
+      "size": 23133112,
+      "format": "binary",
+      "releaseTag": "v0.10.0",
+      "binaries": {
+        "warg-server": {
+          "path": "warg-cli-aarch64-unknown-linux-gnu",
+          "sha256": "6a6a0c78479263b8fb4fffbbed014f978459cf93190923e14514314ecfc5e571"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/registry/releases/download/v0.10.0/warg-cli-x86_64-apple-darwin",
+      "sha256": "80512f1053efe188e67e933ce2281945910ef23776437b0c9f71dec7297cd103",
+      "size": 17215648,
+      "format": "binary",
+      "releaseTag": "v0.10.0",
+      "binaries": {
+        "warg-server": {
+          "path": "warg-cli-x86_64-apple-darwin",
+          "sha256": "80512f1053efe188e67e933ce2281945910ef23776437b0c9f71dec7297cd103"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/registry/releases/download/v0.10.0/warg-cli-aarch64-apple-darwin",
+      "sha256": "cb4fdff8e8222e6f48cec52259b0496d4567d6a1d56c1585f64f678925175644",
+      "size": 16603680,
+      "format": "binary",
+      "releaseTag": "v0.10.0",
+      "binaries": {
+        "warg-server": {
+          "path": "warg-cli-aarch64-apple-darwin",
+          "sha256": "cb4fdff8e8222e6f48cec52259b0496d4567d6a1d56c1585f64f678925175644"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/registry/releases/download/v0.10.0/warg-cli-x86_64-pc-windows-gnu",
+      "sha256": "0f880c6439512012d259faed0618f7a15d12905a28597333194d05ca0833288b",
+      "size": 27843593,
+      "format": "binary",
+      "releaseTag": "v0.10.0",
+      "binaries": {
+        "warg-server.exe": {
+          "path": "warg-cli-x86_64-pc-windows-gnu",
+          "sha256": "0f880c6439512012d259faed0618f7a15d12905a28597333194d05ca0833288b"
+        }
+      }
+    }
+  }
+}
