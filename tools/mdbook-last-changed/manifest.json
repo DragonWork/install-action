@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mdbook-last-changed",
+  "version": "0.4.0",
+  "repository": "badboy/mdbook-last-changed",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/badboy/mdbook-last-changed/releases/download/v0.4.0/mdbook-last-changed-v0.4.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "4d3ac34bbec1ebf492d52d3bc3938cb47b414e6d65d146a4427311d7dde66c57",
+      "size": 1241535,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-last-changed": {
+          "path": "mdbook-last-changed",
+          "sha256": "b75d6530f8c4cff64a3ddb0a3d950ee2d80b2ff83b71d8bbeca2ca90b8b16d86"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/badboy/mdbook-last-changed/releases/download/v0.4.0/mdbook-last-changed-v0.4.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "19ea4cf6bb0c05f123237dc892e69d22192540e8b68dcf14a8325a9a579cba97",
+      "size": 1341684,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-last-changed": {
+          "path": "mdbook-last-changed",
+          "sha256": "8dcf8c0bdc580d9ea161666f63717eefc38d0ce765aef37ec0d0808032c8b636"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/badboy/mdbook-last-changed/releases/download/v0.4.0/mdbook-last-changed-v0.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "596e707d19093c96e8afc646d9d2e62b9004d9a8101c369fcaeeb87672de2cdb",
+      "size": 1119470,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-last-changed": {
+          "path": "mdbook-last-changed",
+          "sha256": "54c2890e4538cf79e7e3a3971accfcc48d32e7e5b8fe80e407504c249847cb62"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/badboy/mdbook-last-changed/releases/download/v0.4.0/mdbook-last-changed-v0.4.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "577c4dfeb00638905a9374e864d7c938cb9d32a855c1afce62f4ff5e58729bff",
+      "size": 1052323,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-last-changed": {
+          "path": "mdbook-last-changed",
+          "sha256": "eefa9e872df581e9448f6fa6e59aebe54f89707d10fd46ac2b5f07b4d5333975"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/badboy/mdbook-last-changed/releases/download/v0.4.0/mdbook-last-changed-v0.4.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "626df220b0a0a078c91b0862f8fd3b8a80c76265cba5a9ec10345774b2891c43",
+      "size": 1031959,
+      "format": "zip",
+      "binaries": {
+        "mdbook-last-changed.exe": {
+          "path": "mdbook-last-changed.exe",
+          "sha256": "a0821bed39abe051d070aa75efa11ecdbe9032fafe6230ba61aae253df1ba3ab"
+        }
+      }
+    }
+  }
+}
