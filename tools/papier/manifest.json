@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "papier",
+  "version": "0.2.39",
+  "repository": "cestef/papier",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cestef/papier/releases/download/v0.2.39/papier-0.2.39-linux-amd64.tar.gz",
+      "releaseTag": "v0.2.39",
+      "sha256": "321eab7e828557b867820a627051e61cce5e7c13d29314741e4018f462e9be43",
+      "size": 3477505,
+      "format": "tar.gz",
+      "binaries": {
+        "ppr": {
+          "path": "ppr",
+          "sha256": "b734f4229f2ad24385c13847979f58b6a9bd80eefdff399c33aaee805c865460"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cestef/papier/releases/download/v0.2.39/papier-0.2.39-linux-arm64.tar.gz",
+      "releaseTag": "v0.2.39",
+      "sha256": "ceeb79d4f0e1b9f8b50bbabe9cedc77fdbebf3bc32bd985c17ae7b90b42f5ddc",
+      "size": 3426732,
+      "format": "tar.gz",
+      "binaries": {
+        "ppr": {
+          "path": "ppr",
+          "sha256": "1c21cfd29bad7a14d913c73ea247ebb7d93bb8d4ab7d688c9050950b5f5a3b6b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cestef/papier/releases/download/v0.2.39/papier-0.2.39-darwin-amd64.tar.gz",
+      "releaseTag": "v0.2.39",
+      "sha256": "d63a040618fe6de20da9b0ce83a96a7e3ad6cbda8f0ad88c34a03799910aea23",
+      "size": 2980517,
+      "format": "tar.gz",
+      "binaries": {
+        "ppr": {
+          "path": "ppr",
+          "sha256": "552ad39bf003bdecc73c00c0c5ace9fdf00aad5bc74a60faa16f845825860f9c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cestef/papier/releases/download/v0.2.39/papier-0.2.39-darwin-arm64.tar.gz",
+      "releaseTag": "v0.2.39",
+      "sha256": "c04573323ddf7019132e578208e6206ca8de934540a2ae7748e1ee5ff61c6ec8",
+      "size": 2866631,
+      "format": "tar.gz",
+      "binaries": {
+        "ppr": {
+          "path": "ppr",
+          "sha256": "56dda4e5087c6395d2730000c69d0ffdbd3d2975a745a806d13766a7f2a1b41e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cestef/papier/releases/download/v0.2.39/papier-0.2.39-windows-amd64.zip",
+      "releaseTag": "v0.2.39",
+      "sha256": "ab07086c85f7b62a77bfb09c52115483c62c1cd3448885e8394220310f13207c",
+      "size": 2313666,
+      "format": "zip",
+      "binaries": {
+        "ppr.exe": {
+          "path": "ppr.exe",
+          "sha256": "2354cc8b60c1b52c85b9546a7dfa5f94af7d5f2975ca73e1f4ba3ac5ba03c0b7"
+        }
+      }
+    }
+  }
+}
