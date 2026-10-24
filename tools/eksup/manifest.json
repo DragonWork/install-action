@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "eksup",
+  "version": "0.15.1",
+  "repository": "clowdhaus/eksup",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/clowdhaus/eksup/releases/download/v0.15.1/eksup-v0.15.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.15.1",
+      "sha256": "829b4ff1e9631c3c9d8486a736368c5d2ef794a754308793afe6375122419b0b",
+      "size": 6055068,
+      "format": "tar.gz",
+      "binaries": {
+        "eksup": {
+          "path": "eksup-v0.15.1-x86_64-unknown-linux-gnu/eksup",
+          "sha256": "e2c38b10f265091a74f531cb2966306c41d49134ea11e959cb2db70c031cb711"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/clowdhaus/eksup/releases/download/v0.15.1/eksup-v0.15.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.15.1",
+      "sha256": "828e45edec8a7694b9f52e6c9829b4ed0ad67cafc34ec5bcb518f86e2007574f",
+      "size": 5841383,
+      "format": "tar.gz",
+      "binaries": {
+        "eksup": {
+          "path": "eksup-v0.15.1-aarch64-unknown-linux-gnu/eksup",
+          "sha256": "69f495c67acb92c495e6839cacd0edf20f7f976ccdc44d59345f7f896bf662b4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/clowdhaus/eksup/releases/download/v0.15.1/eksup-v0.15.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.1",
+      "sha256": "cdc24b3c07a260d95f4a84c10c2a0a2d6aa9b1bb830a578a5455301af265b894",
+      "size": 5648397,
+      "format": "tar.gz",
+      "binaries": {
+        "eksup": {
+          "path": "eksup-v0.15.1-x86_64-apple-darwin/eksup",
+          "sha256": "9a18bbe443aac759d83b4564cd1e4620b6f107cd61ad5b80a7a384e667b386e5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/clowdhaus/eksup/releases/download/v0.15.1/eksup-v0.15.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.1",
+      "sha256": "18c5ba36de05f50c8289a2024b52b868a5f98a2ca51b66f3b81b406a6f3a4f6e",
+      "size": 5309419,
+      "format": "tar.gz",
+      "binaries": {
+        "eksup": {
+          "path": "eksup-v0.15.1-aarch64-apple-darwin/eksup",
+          "sha256": "daf2eb0e565f92fb684e07c4d89968c84e447053b0fefabc701f868cdd778d4a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/clowdhaus/eksup/releases/download/v0.15.1/eksup-v0.15.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.15.1",
+      "sha256": "fc918a0ae7767399fecabc0768c6f699c0ed5cfc3503448c81c40ae2b34d8f00",
+      "size": 5642849,
+      "format": "zip",
+      "binaries": {
+        "eksup.exe": {
+          "path": "eksup-v0.15.1-x86_64-pc-windows-msvc/eksup.exe",
+          "sha256": "aa1ce8143892ab6b2ea11076b8c10c5c3768af820c4cb2d4ae5fed657ed346e0"
+        }
+      }
+    }
+  }
+}
