@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "wait-for-them",
+  "version": "0.5.1",
+  "repository": "shenek/wait-for-them",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shenek/wait-for-them/releases/download/v0.5.1/wait-for-them-linux",
+      "sha256": "c221ae4d2597bd91943c9fefd60306033d6fe1e5f8380067928ec25cfb00bfa0",
+      "size": 5640744,
+      "format": "binary",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "wait-for-them": {
+          "path": "wait-for-them-linux",
+          "sha256": "c221ae4d2597bd91943c9fefd60306033d6fe1e5f8380067928ec25cfb00bfa0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/shenek/wait-for-them/releases/download/v0.5.1/wait-for-them-macos",
+      "sha256": "7010913065f824cef9c473668d30ca2af0eecca952efeb356b6605d2414cedec",
+      "size": 4715600,
+      "format": "binary",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "wait-for-them": {
+          "path": "wait-for-them-macos",
+          "sha256": "7010913065f824cef9c473668d30ca2af0eecca952efeb356b6605d2414cedec"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/shenek/wait-for-them/releases/download/v0.5.1/wait-for-them-windows.exe",
+      "sha256": "8862ec3f660c08fa058f4af92eb15b38238f122eb0b8542bcbbfe2da54a4ceb4",
+      "size": 3945984,
+      "format": "binary",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "wait-for-them.exe": {
+          "path": "wait-for-them-windows.exe",
+          "sha256": "8862ec3f660c08fa058f4af92eb15b38238f122eb0b8542bcbbfe2da54a4ceb4"
+        }
+      }
+    }
+  }
+}
