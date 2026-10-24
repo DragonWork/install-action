@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dnspod-ddns",
+  "version": "0.1.11",
+  "repository": "yinheli/dnspod-ddns",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yinheli/dnspod-ddns/releases/download/v0.1.11/dnspod-ddns-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.11",
+      "sha256": "a5f0679c0e35005d631d334cc594afe055a7aa2b29c4e951926f6a4d8cd6d660",
+      "size": 1468602,
+      "format": "tar.gz",
+      "binaries": {
+        "dnspod-ddns": {
+          "path": "dnspod-ddns",
+          "sha256": "1b25c5fe868d7ae2b9f69e20d0b7a367048a44e721056639b18b053429fe6dfa"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/yinheli/dnspod-ddns/releases/download/v0.1.11/dnspod-ddns-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.11",
+      "sha256": "e356c21d64b2bee31bfe773e39541068dfa88066ddfb82275dae6f133ff45c89",
+      "size": 2233192,
+      "format": "tar.gz",
+      "binaries": {
+        "dnspod-ddns": {
+          "path": "dnspod-ddns",
+          "sha256": "d18eb94159324d7a66fc5b111d5147bc92065b656e0b9b567d2648b0ca1a3377"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yinheli/dnspod-ddns/releases/download/v0.1.11/dnspod-ddns-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.11",
+      "sha256": "5834ab9758fc3998d8696218553671beef5dfae0a8f20d22d6d3998ab4205db6",
+      "size": 1315465,
+      "format": "tar.gz",
+      "binaries": {
+        "dnspod-ddns": {
+          "path": "dnspod-ddns",
+          "sha256": "c6d9b95c63e1df82fae4b92bdc0c529f679407f845c3781f85e923c5082f07ea"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yinheli/dnspod-ddns/releases/download/v0.1.11/dnspod-ddns-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.11",
+      "sha256": "2a9aff66d7589e24c61610b11cfb05efd864054407d1cd844853f4a94306ab15",
+      "size": 1257468,
+      "format": "tar.gz",
+      "binaries": {
+        "dnspod-ddns": {
+          "path": "dnspod-ddns",
+          "sha256": "3da3ebad6d560b2a3841a5e888ebd4256580637654f76d752fca8f6785a3dc33"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yinheli/dnspod-ddns/releases/download/v0.1.11/dnspod-ddns-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.11",
+      "sha256": "6e544a09bb8d3572b8b911b88ff678331416d7165e6a6ddded5caa789412ffe2",
+      "size": 1238330,
+      "format": "zip",
+      "binaries": {
+        "dnspod-ddns.exe": {
+          "path": "dnspod-ddns.exe",
+          "sha256": "8185e80d3393d71c71fbc95df388a08ebfef32c405ab3e48be2192e3235e51b1"
+        }
+      }
+    }
+  }
+}
