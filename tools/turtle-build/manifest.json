@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "turtle-build",
+  "version": "0.5.15",
+  "repository": "raviqqe/turtle-build",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/raviqqe/turtle-build/releases/download/v0.5.15/turtle-build_0.5.15_linux_amd64.tar.gz",
+      "releaseTag": "v0.5.15",
+      "sha256": "cafdab751657161cc06a74bfde0e675821289bad05ce5c8342be38faf9da85da",
+      "size": 1222289,
+      "format": "tar.gz",
+      "binaries": {
+        "turtle": {
+          "path": "turtle",
+          "sha256": "0238f8bd95ff7a8953ddf057f330ebb7fe75223d6d09e43fac65c77602341434"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/raviqqe/turtle-build/releases/download/v0.5.15/turtle-build_0.5.15_linux_arm64.tar.gz",
+      "releaseTag": "v0.5.15",
+      "sha256": "91b378f05b0bd8ed627c6b032651d8baa26cfaa8480de657841dcf1ea0da2294",
+      "size": 1150655,
+      "format": "tar.gz",
+      "binaries": {
+        "turtle": {
+          "path": "turtle",
+          "sha256": "fbe8daa71f6704458be84b2a69b82c49af8f8ebb5abff4b2ebb10a513d509b79"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/raviqqe/turtle-build/releases/download/v0.5.15/turtle-build_0.5.15_windows_amd64.tar.gz",
+      "releaseTag": "v0.5.15",
+      "sha256": "51426441d285c02dfaf40093719995ce896ec0a5d5ebfdb3ab3670b3211ba764",
+      "size": 1182060,
+      "format": "tar.gz",
+      "binaries": {
+        "turtle.exe": {
+          "path": "turtle.exe",
+          "sha256": "0105a846875115bff9ab71bc1446f2ca314754a7e9c4c04ea2407381dfb6c2eb"
+        }
+      }
+    }
+  }
+}
