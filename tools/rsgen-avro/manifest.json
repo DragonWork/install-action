@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rsgen-avro",
+  "version": "0.19.4",
+  "repository": "lerouxrgd/rsgen-avro",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lerouxrgd/rsgen-avro/releases/download/0.19.4/rsgen-avro-0.19.4-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.19.4",
+      "sha256": "7551d9858a7b9f19a759f085e57a5ba1a48a9e918ca558e8271c8a60fd3f2558",
+      "size": 1309527,
+      "format": "tar.gz",
+      "binaries": {
+        "rsgen-avro": {
+          "path": "rsgen-avro",
+          "sha256": "788bf1f61f49ba22d6a9bdf26a2f996ceaf732515298e1d2ecb8335129016d33"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lerouxrgd/rsgen-avro/releases/download/0.19.4/rsgen-avro-0.19.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.19.4",
+      "sha256": "30c062d4a0f4f9cecaa44f8cd32419297ef30b0127a2fa6e044163473d017c5b",
+      "size": 1160807,
+      "format": "tar.gz",
+      "binaries": {
+        "rsgen-avro": {
+          "path": "rsgen-avro",
+          "sha256": "5277bce6415dbcabf5d040a37de949232842de6258183f166b8e5c86b39f7e47"
+        }
+      }
+    }
+  }
+}
