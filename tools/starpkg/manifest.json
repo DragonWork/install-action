@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "starpkg",
+  "version": "0.5.0",
+  "repository": "bates64/starpkg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bates64/starpkg/releases/download/v0.5.0/starpkg-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "c2da132c8b0ba9a326c67ec47acbbe3dd004c3def9fc8da4720aa9aa56163cb0",
+      "size": 1003142,
+      "format": "tar.gz",
+      "binaries": {
+        "starpkg": {
+          "path": "starpkg",
+          "sha256": "bfd7004e72d2e9caa3ad8ddc8057abfd23e5951920219d635b9f7fb384752f94"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bates64/starpkg/releases/download/v0.5.0/starpkg-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "4d79b702768d29f9fcd44e35921c3a9ddbcf9d482e245b24f8bcf6b24facd0e4",
+      "size": 939233,
+      "format": "tar.gz",
+      "binaries": {
+        "starpkg": {
+          "path": "starpkg",
+          "sha256": "b776950cf739f327707732ef404b942bd43441d68c8639341126d10eb7162cfb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bates64/starpkg/releases/download/v0.5.0/starpkg-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "f6ff19d6839058cce55f8fdb88cdff44fdeb94a0ef7640d117cbdd6fa15acac6",
+      "size": 901175,
+      "format": "zip",
+      "binaries": {
+        "starpkg.exe": {
+          "path": "starpkg.exe",
+          "sha256": "d70983d825b04db0a721c5374d4a402743f549b2dfcaaddb13acbc22793dcc3e"
+        }
+      }
+    }
+  }
+}
