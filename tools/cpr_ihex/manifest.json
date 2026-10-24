@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cpr_ihex",
+  "version": "1.0.1",
+  "repository": "cloone8/cpr_ihex",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cloone8/cpr_ihex/releases/download/v1.0.1/cpr_ihex-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "3e58c0b81d2acea0eb5ed88f268c19220a3e59362a6f250459fc85eb75901ab4",
+      "size": 3865832,
+      "format": "tar.xz",
+      "binaries": {
+        "cpr_ihex": {
+          "path": "cpr_ihex-x86_64-unknown-linux-gnu/cpr_ihex",
+          "sha256": "77fbda001151efd4cea007da46c19befe8bcc3d74de1d15f834efa2108b3d7ca"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cloone8/cpr_ihex/releases/download/v1.0.1/cpr_ihex-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "34a85afc1d4ec15435984cd0c42a0724643c1f23161e5a7a270542266b356cde",
+      "size": 1823388,
+      "format": "tar.xz",
+      "binaries": {
+        "cpr_ihex": {
+          "path": "cpr_ihex-x86_64-apple-darwin/cpr_ihex",
+          "sha256": "85dcc82559c7aeab17d461340f6b1c95b67c3703493cb0b348c72b12b6d636d4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cloone8/cpr_ihex/releases/download/v1.0.1/cpr_ihex-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "39a12869be5f9c096b47ed5b5838aff285070508d9a6acfcf6af86f9c8ec20a9",
+      "size": 1731840,
+      "format": "tar.xz",
+      "binaries": {
+        "cpr_ihex": {
+          "path": "cpr_ihex-aarch64-apple-darwin/cpr_ihex",
+          "sha256": "150793f86db8b9aabd5fd5fcceb34f09fd219f88033105d4b17c9baae12f4c01"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cloone8/cpr_ihex/releases/download/v1.0.1/cpr_ihex-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.1",
+      "sha256": "56a6a0e6861ceefe1a68bcc8483bfb7c0bb05d21356095df20c7855d64dbe4c3",
+      "size": 5297955,
+      "format": "zip",
+      "binaries": {
+        "cpr_ihex.exe": {
+          "path": "cpr_ihex.exe",
+          "sha256": "16b57bf68811a653e8b81f2419e5ee8d62b73e5d674027aeec813193a2f2a109"
+        }
+      }
+    }
+  }
+}
