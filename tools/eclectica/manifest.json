@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "eclectica",
+  "version": "0.9.2",
+  "repository": "markelog/eclectica",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/markelog/eclectica/releases/download/v0.9.2/ec_linux_amd64",
+      "sha256": "0bbe124029c468d0f06091e39760cef88ea8541fbd3afe819e6876ebf041a737",
+      "size": 16745753,
+      "format": "binary",
+      "releaseTag": "v0.9.2",
+      "binaries": {
+        "ec": {
+          "path": "ec_linux_amd64",
+          "sha256": "0bbe124029c468d0f06091e39760cef88ea8541fbd3afe819e6876ebf041a737"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/markelog/eclectica/releases/download/v0.9.2/ec_linux_arm64",
+      "sha256": "6ee2e464326d927d6f8f381acec0f3f1dc7f0bbf2408715acda04c667f808d2e",
+      "size": 15776814,
+      "format": "binary",
+      "releaseTag": "v0.9.2",
+      "binaries": {
+        "ec": {
+          "path": "ec_linux_arm64",
+          "sha256": "6ee2e464326d927d6f8f381acec0f3f1dc7f0bbf2408715acda04c667f808d2e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/markelog/eclectica/releases/download/v0.9.2/ec_darwin_amd64",
+      "sha256": "522d30964649c9060f60ff1f68a12c164ea130eedd9ca9b562569cc5b9e00b6f",
+      "size": 17109488,
+      "format": "binary",
+      "releaseTag": "v0.9.2",
+      "binaries": {
+        "ec": {
+          "path": "ec_darwin_amd64",
+          "sha256": "522d30964649c9060f60ff1f68a12c164ea130eedd9ca9b562569cc5b9e00b6f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/markelog/eclectica/releases/download/v0.9.2/ec_darwin_arm64",
+      "sha256": "b90dc5b44c34ddd08e9bf6e69a072f0349cab8d4b9e46ead0ae624c6fb4b3e62",
+      "size": 16176450,
+      "format": "binary",
+      "releaseTag": "v0.9.2",
+      "binaries": {
+        "ec": {
+          "path": "ec_darwin_arm64",
+          "sha256": "b90dc5b44c34ddd08e9bf6e69a072f0349cab8d4b9e46ead0ae624c6fb4b3e62"
+        }
+      }
+    }
+  }
+}
