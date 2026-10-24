@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "framels",
+  "version": "0.7.7",
+  "repository": "forticheprod/fls",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/forticheprod/fls/releases/download/0.7.7/fls_0.7.7_x86_64-unknown-linux-musl.zip",
+      "releaseTag": "0.7.7",
+      "sha256": "88d8489b8dc44bbed8292a8c3767b9cf4a5b38cee5ba1d43d62d48fb6e20d3cd",
+      "size": 875434,
+      "format": "zip",
+      "binaries": {
+        "fls": {
+          "path": "fls",
+          "sha256": "f8aab78e576d7bef8de75cc909c79f708349efe8e67b69f1131972890d8aa152"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/forticheprod/fls/releases/download/0.7.7/fls_0.7.7_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "0.7.7",
+      "sha256": "9e53d9fc7dab0ab6bab87210f179a57f38005ff5bb4913e484c9a4f534227018",
+      "size": 783176,
+      "format": "zip",
+      "binaries": {
+        "fls.exe": {
+          "path": "fls.exe",
+          "sha256": "92ec3f97bb0414db67039c0645170836cf9e539cbd188054c6ec48e9703c648b"
+        }
+      }
+    }
+  }
+}
