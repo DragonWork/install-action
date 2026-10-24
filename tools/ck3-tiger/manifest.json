@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "ck3-tiger",
+  "version": "1.19.0",
+  "repository": "amtep/tiger",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/amtep/tiger/releases/download/v1.19.0/ck3-tiger-linux-v1.19.0.tar.gz",
+      "sha256": "6d72d276c2b2a953f63221ff8050d1276a085b5a2ffe74977675fdf6e17e9ff3",
+      "size": 9491356,
+      "format": "tar.gz",
+      "releaseTag": "v1.19.0",
+      "binaries": {
+        "ck3-tiger": {
+          "path": "ck3-tiger-linux-v1.19.0/ck3-tiger",
+          "sha256": "6325beb3c8c28457c82d2aff55c59bb02cce2ce7fcfbe6e9d796f2c57f05d6e0"
+        },
+        "ck3-tiger-auto": {
+          "path": "ck3-tiger-linux-v1.19.0/ck3-tiger-auto",
+          "sha256": "633e6e8b193fc8850bc42c9b6df79cb7c570856ae292e33cba3ec2f97d37eaac"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/amtep/tiger/releases/download/v1.19.0/ck3-tiger-windows-v1.19.0.zip",
+      "sha256": "ddafd73abcff8e802b82bf3ae622d02c04dfc8a9dd0cad44b2dbf67568a10505",
+      "size": 8183016,
+      "format": "zip",
+      "releaseTag": "v1.19.0",
+      "binaries": {
+        "ck3-tiger.exe": {
+          "path": "ck3-tiger.exe",
+          "sha256": "bc6b40b2bece61f62efdc7fd1c53efa16f8ecfc7c03decf50cba6ec7038385bb"
+        },
+        "ck3-tiger-auto.exe": {
+          "path": "ck3-tiger-auto.exe",
+          "sha256": "c2bed435d33300e99754a5685e7504fe05f3e5a128accf67168865d52d0c48d6"
+        }
+      }
+    }
+  }
+}
