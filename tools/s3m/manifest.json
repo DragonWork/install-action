@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "s3m",
+  "version": "0.21.0",
+  "repository": "s3m/s3m",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/s3m/s3m/releases/download/0.21.0/s3m-0.21.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.21.0",
+      "sha256": "1ae1d4caa85b79a84e8f6b4151df78351cc31f385276a7a63ecbbabff53ec447",
+      "size": 4709872,
+      "format": "tar.gz",
+      "binaries": {
+        "s3m": {
+          "path": "s3m-0.21.0-x86_64-unknown-linux-musl/s3m",
+          "sha256": "8ddede4d4899a51f826142da279f3e26fb5a818b9a1c0b87b048a2b62baaf157"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/s3m/s3m/releases/download/0.21.0/s3m-0.21.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.21.0",
+      "sha256": "16f639be41b8e0a6f7a33e61d86def33e06e68ac7ed915953a79235fb9f8023b",
+      "size": 4266173,
+      "format": "tar.gz",
+      "binaries": {
+        "s3m": {
+          "path": "s3m-0.21.0-aarch64-unknown-linux-musl/s3m",
+          "sha256": "54b85f863aeb2483aeb5e869e38f847d1cabd9978ae5b7315c393791e871a663"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/s3m/s3m/releases/download/0.21.0/s3m-0.21.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.21.0",
+      "sha256": "544876192d7b2b1536ccdf19196ed4650a945f3c3d22dd12566857edb0e76f2e",
+      "size": 4435808,
+      "format": "tar.gz",
+      "binaries": {
+        "s3m": {
+          "path": "s3m-0.21.0-x86_64-apple-darwin/s3m",
+          "sha256": "8aa2c35c6e6d015a2deed304f9579afc050443ee7bef4572eb51dbb28845fb00"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/s3m/s3m/releases/download/0.21.0/s3m--x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.21.0",
+      "sha256": "fbe2c96be3878e34a89aaee02e234ceb0060d219111fd3ed3999daa0ea98ab97",
+      "size": 3931847,
+      "format": "zip",
+      "binaries": {
+        "s3m.exe": {
+          "path": "s3m--x86_64-pc-windows-msvc/s3m.exe",
+          "sha256": "7133cacc1639eedd06fbd0d20e8dd25f3b7472a093dbf5e3b02443cbec124636"
+        }
+      }
+    }
+  }
+}
