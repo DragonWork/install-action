@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "rustfmt-unstable",
+  "version": "1.0.1",
+  "repository": "JustusFluegel/rustfmt-unstable",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/JustusFluegel/rustfmt-unstable/releases/download/v1.0.1/rustfmt-unstable-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "495a8731165475bf8ffa629d90d18c658c72fdc2ec541d853a7c1a86afb743ef",
+      "size": 655972,
+      "format": "tar.xz",
+      "binaries": {
+        "rustfmt-unstable": {
+          "path": "rustfmt-unstable-x86_64-unknown-linux-musl/rustfmt-unstable",
+          "sha256": "bc1757dc43cce06528c601661fa54df731d6b9fe9e534375c8ad64fa62d887af"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/JustusFluegel/rustfmt-unstable/releases/download/v1.0.1/rustfmt-unstable-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "d6e30da1e3fe2686e1533d7e9b95c5d4068701ae95d4e051ecb3869a13a9dd8d",
+      "size": 547376,
+      "format": "tar.xz",
+      "binaries": {
+        "rustfmt-unstable": {
+          "path": "rustfmt-unstable-aarch64-unknown-linux-gnu/rustfmt-unstable",
+          "sha256": "fd9127a2404c220317f3538fdd26ffb439642eb213ce350ed9abb46c31955224"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/JustusFluegel/rustfmt-unstable/releases/download/v1.0.1/rustfmt-unstable-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "0bc2d822e7fc986a4a5ca26b749973529be9cd02b9294d6d3a86370c17dfbb7d",
+      "size": 587624,
+      "format": "tar.xz",
+      "binaries": {
+        "rustfmt-unstable": {
+          "path": "rustfmt-unstable-x86_64-apple-darwin/rustfmt-unstable",
+          "sha256": "a66350fdb09f16cf56b47e8200185e836bb271c11ebff933c7a4dd4d4b6c6a17"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/JustusFluegel/rustfmt-unstable/releases/download/v1.0.1/rustfmt-unstable-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "ef5a5f40a85e9edff0d1a20110531ee4b760fcae73749a74da9202a281970b8d",
+      "size": 512340,
+      "format": "tar.xz",
+      "binaries": {
+        "rustfmt-unstable": {
+          "path": "rustfmt-unstable-aarch64-apple-darwin/rustfmt-unstable",
+          "sha256": "01df9f80f97aec06ee4d1f8fa0b0bdcfb100de1eb1d31dbdefdf817a2421c688"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/JustusFluegel/rustfmt-unstable/releases/download/v1.0.1/rustfmt-unstable-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.1",
+      "sha256": "6e1ff252ecdd551870a7f91337fe7e90516e5cb89a074f5022df2b1c68ccbc27",
+      "size": 745430,
+      "format": "zip",
+      "binaries": {
+        "rustfmt-unstable.exe": {
+          "path": "rustfmt-unstable.exe",
+          "sha256": "6d5f525552f0072c57e2d4e02206ce687bfb90ff5346987d95a215fda0925c4d"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/JustusFluegel/rustfmt-unstable/releases/download/v1.0.1/rustfmt-unstable-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.1",
+      "sha256": "df0c674399d2ffc3220a1db47f85475cb66dd467dbc707b438bcbb335843e897",
+      "size": 697989,
+      "format": "zip",
+      "binaries": {
+        "rustfmt-unstable.exe": {
+          "path": "rustfmt-unstable.exe",
+          "sha256": "43db53252ce700926e977356a1e1752d89139ebe95ccfb0f0fafc780882b2bc6"
+        }
+      }
+    }
+  }
+}
