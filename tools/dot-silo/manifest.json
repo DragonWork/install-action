@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "dot-silo",
+  "version": "0.6.0",
+  "repository": "Trivernis/silo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Trivernis/silo/releases/download/v0.6.0/dot-silo-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.6.0",
+      "sha256": "ada07550f44eebd19d2f282d9bcf26a2a6a80acda6deb066cf2b326150c4cd34",
+      "size": 5443100,
+      "format": "tar.xz",
+      "binaries": {
+        "silo": {
+          "path": "dot-silo-x86_64-unknown-linux-gnu/silo",
+          "sha256": "2fcd26e9b90307ad503744c3c6da87dc4a5d372b03ded6d27e34e9575edd11d4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Trivernis/silo/releases/download/v0.6.0/dot-silo-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.0",
+      "sha256": "6eb627bf116d617fba397cb5cd3bce37cdadd5e6c209a0c80e603893e9ec8b74",
+      "size": 4270960,
+      "format": "tar.xz",
+      "binaries": {
+        "silo": {
+          "path": "dot-silo-x86_64-apple-darwin/silo",
+          "sha256": "7548122ab694d007905257f4272bcb41563492a0df84312195626a278d63d47e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Trivernis/silo/releases/download/v0.6.0/dot-silo-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.0",
+      "sha256": "37d1f466abdc5555be2f69d46b670136602a20a9db281d6f84ae5f831429416c",
+      "size": 3904440,
+      "format": "tar.xz",
+      "binaries": {
+        "silo": {
+          "path": "dot-silo-aarch64-apple-darwin/silo",
+          "sha256": "02cb1b6601d16f09bd9cf68a48d4f8b6541214cc574e0ead96f510196ac605d1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Trivernis/silo/releases/download/v0.6.0/dot-silo-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "7810bf057ec4a89927219a71b89b8db9b9ee421132fb21ff2503fc389b738ef3",
+      "size": 13863120,
+      "format": "zip",
+      "binaries": {
+        "silo.exe": {
+          "path": "silo.exe",
+          "sha256": "01ce391b58ec60e8ee3870eec022e0e264fc570a334cccd4fdfe8288f60b3a0b"
+        }
+      }
+    }
+  }
+}
