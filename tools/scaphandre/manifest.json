@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "scaphandre",
+  "version": "1.0.0",
+  "repository": "hubblo-org/scaphandre",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hubblo-org/scaphandre/releases/download/v1.0.0/scaphandre_v1.0.0-deb11_amd64.deb",
+      "sha256": "39dbae11e6cea8f0973ecede23b866206dbf1b5e8b4dc4c5d92b11fe1e61f728",
+      "size": 2954548,
+      "format": "deb",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "scaphandre": {
+          "path": "./usr/bin/scaphandre",
+          "sha256": "c4197580404b4868772ab2dc969ed592943510991c99f51dab74e15e74ab98d9"
+        }
+      }
+    }
+  }
+}
