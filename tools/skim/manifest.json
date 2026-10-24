@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "skim",
+  "version": "5.8.0",
+  "repository": "skim-rs/skim",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v5.8.0",
+      "sha256": "2e231ee7651a3908a1e1a0948e4d1e7b3029f5acdb889556680220bf87535984",
+      "size": 2622124,
+      "format": "tar.xz",
+      "binaries": {
+        "sk": {
+          "path": "skim-x86_64-unknown-linux-musl/sk",
+          "sha256": "ff9c82cb5eac7371be21e24626220d5fbb1f929715d6c6181143545c20ba6c75"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v5.8.0",
+      "sha256": "bdff0079dc5bda07eccf850b59f0306982990191c1e7363cbcee897913bcc871",
+      "size": 2018572,
+      "format": "tar.xz",
+      "binaries": {
+        "sk": {
+          "path": "skim-aarch64-unknown-linux-musl/sk",
+          "sha256": "b65db1e4bb2778279e06d789f70069000336069dbd35e196a884cc452208e9d0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v5.8.0",
+      "sha256": "63cb976eea549d0e422f02d4fe9d3f74ecdb9a6b7f1be9596ca0eb8b8899256c",
+      "size": 2454692,
+      "format": "tar.xz",
+      "binaries": {
+        "sk": {
+          "path": "skim-x86_64-apple-darwin/sk",
+          "sha256": "fce691368d6f6db1782ac7d8f4fad996f5e460dd12f7707a37569ec18f95d26c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v5.8.0",
+      "sha256": "df70e190ecaa24c3df651dc9b2ebb679a529909d7f56c625a658c77d4756842d",
+      "size": 1888456,
+      "format": "tar.xz",
+      "binaries": {
+        "sk": {
+          "path": "skim-aarch64-apple-darwin/sk",
+          "sha256": "e43e405886f9a779dbbdfa2e8aa67e7d2147bde1b75400f01767885494234f36"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v5.8.0",
+      "sha256": "d2f0f82bb3500d6c4bf9262f7b31490c249193f021d66c01ceddb46112486310",
+      "size": 3866457,
+      "format": "zip",
+      "binaries": {
+        "sk.exe": {
+          "path": "sk.exe",
+          "sha256": "d793f6b82ea1b8d0d86907ed3e691a09720b0cc87399c3b04a6eeae9b43030a9"
+        }
+      }
+    }
+  }
+}
