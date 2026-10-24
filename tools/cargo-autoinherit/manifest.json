@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-autoinherit",
+  "version": "0.1.6",
+  "repository": "mainmatter/cargo-autoinherit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mainmatter/cargo-autoinherit/releases/download/v0.1.6/cargo-autoinherit-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.6",
+      "sha256": "a8e30546a7f509570c7f46f4f4e4443c6e40d40f12c26c8d5bb001c8ea59615d",
+      "size": 941040,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-autoinherit": {
+          "path": "cargo-autoinherit-x86_64-unknown-linux-gnu/cargo-autoinherit",
+          "sha256": "2d35fa3be2b1db4016b4fb50dce95c59ad05a465c74ba863ff70f44b2c61fc38"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mainmatter/cargo-autoinherit/releases/download/v0.1.6/cargo-autoinherit-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.6",
+      "sha256": "ac93da781aefa57107e15f61e3777a9646b33237853066460a859eaf0f09ed6b",
+      "size": 882800,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-autoinherit": {
+          "path": "cargo-autoinherit-x86_64-apple-darwin/cargo-autoinherit",
+          "sha256": "bf09566c92787648f06d998cbb7f9becda2ba046930bc64b3b067d303b927a54"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mainmatter/cargo-autoinherit/releases/download/v0.1.6/cargo-autoinherit-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.6",
+      "sha256": "efae028d6a96c9ce9e58cd3b85e87c3763418d0f3b1a00b595784ba7b7dc90e3",
+      "size": 797916,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-autoinherit": {
+          "path": "cargo-autoinherit-aarch64-apple-darwin/cargo-autoinherit",
+          "sha256": "cfcb4e0457a2cd1ff3e963f298659af10a6626f4adc91c4dae9ad88752e910c8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mainmatter/cargo-autoinherit/releases/download/v0.1.6/cargo-autoinherit-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.6",
+      "sha256": "403850027c8ab580d72cc000ec5c9f0d7f58a054cc7e9a2748357816e83b2c97",
+      "size": 2979276,
+      "format": "zip",
+      "binaries": {
+        "cargo-autoinherit.exe": {
+          "path": "cargo-autoinherit.exe",
+          "sha256": "f2bee8166d04c5bb3fc0f740d8a617372fb3f5f5fb8a1cbfa13667f640af7b97"
+        }
+      }
+    }
+  }
+}
