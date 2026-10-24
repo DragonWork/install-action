@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   install:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
       - uses: DragonWork/install-action@0aa6a1559d0cdbf5719db9aaa9adc1fe1b438cb8 # v1.1.0
       - id: cliff

@@ -20,7 +20,7 @@ concurrency:
 jobs:
   initialize:
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     permissions:
       contents: write
     steps:
@@ -37,7 +37,7 @@ jobs:
   plan:
     needs: initialize
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     outputs:
       head: ${{ steps.base.outputs.head }}
       artifact: ${{ steps.upload.outputs.artifact-id }}
@@ -89,7 +89,7 @@ jobs:
       max-parallel: 3
       matrix:
         shard: ${{ fromJSON(needs.plan.outputs.matrix) }}
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -116,7 +116,7 @@ jobs:
   merge:
     needs: [plan, prepare]
     if: always() && needs.plan.result == 'success' && (needs.prepare.result == 'success' || needs.prepare.result == 'skipped')
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     outputs:
       artifact: ${{ steps.upload.outputs.artifact-id }}
       changed: ${{ steps.merge.outputs.changed }}
@@ -161,7 +161,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-24.04, ubuntu-24.04-arm, macos-15-intel, macos-15, windows-2025, windows-11-arm]
+        os: [ubuntu-26.04, ubuntu-26.04-arm, macos-15-intel, macos-15, windows-2025, windows-11-arm]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -183,7 +183,7 @@ jobs:
   publish:
     needs: [plan, merge, validate]
     if: always() && needs.merge.result == 'success' && (needs.validate.result == 'success' || needs.validate.result == 'skipped')
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     permissions:
       contents: write
     steps:
@@ -208,7 +208,7 @@ jobs:
   continue:
     needs: [merge, publish]
     if: always() && needs.publish.result == 'success' && needs.merge.outputs.remaining != '0'
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     permissions:
       actions: write
       contents: read
