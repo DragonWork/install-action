@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "filesfinder",
+  "version": "0.5.1",
+  "repository": "jeertmans/filesfinder",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jeertmans/filesfinder/releases/download/v0.5.1/filesfinder-x86_64-unknown-linux-musl-v0.5.1.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "ab15776dce6fc6c9e5e76c12846c3b2524cc8277fd5a590a1779627eb3ef4a60",
+      "size": 1113038,
+      "format": "tar.gz",
+      "binaries": {
+        "ff": {
+          "path": "filesfinder-x86_64-unknown-linux-musl-v0.5.1/ff",
+          "sha256": "5cf3d5077b4b630a0dcf11157ef6c904384c6889ee3ce1c7eea8fb8c8fde847f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jeertmans/filesfinder/releases/download/v0.5.1/filesfinder-x86_64-apple-darwin-v0.5.1.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "e20099df8531bd825c82b27d46ee60a995a14e281edf474a84864bf87324f4bc",
+      "size": 987331,
+      "format": "tar.gz",
+      "binaries": {
+        "ff": {
+          "path": "filesfinder-x86_64-apple-darwin-v0.5.1/ff",
+          "sha256": "70885af0510aa9dd1210c963c66544b8ee217b4249c2a4d57fa1d84c124cb055"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jeertmans/filesfinder/releases/download/v0.5.1/filesfinder-x86_64-pc-windows-msvc-v0.5.1.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "d9fea32d7a202a5ba7aee1171485232b48deee00b9985d3d752dfeef86222f40",
+      "size": 966824,
+      "format": "zip",
+      "binaries": {
+        "ff.exe": {
+          "path": "filesfinder-x86_64-pc-windows-msvc-v0.5.1/ff.exe",
+          "sha256": "14b28a7f96143f001d66e2a3bb8743ee3082fe167b8db0f21c8bd42bb3e81df4"
+        }
+      }
+    }
+  }
+}
