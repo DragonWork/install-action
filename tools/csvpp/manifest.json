@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "csvpp",
+  "version": "0.8.0",
+  "repository": "patrickomatic/csv-plus-plus",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/patrickomatic/csv-plus-plus/releases/download/v0.8.0/csvpp-v0.8.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "85515118bc70421d6bbc5bd7e12bda6860356e3c0f67866fad9ae7584b1945ce",
+      "size": 13118725,
+      "format": "tar.gz",
+      "binaries": {
+        "csvpp": {
+          "path": "csvpp-v0.8.0-x86_64-unknown-linux-musl/csvpp",
+          "sha256": "f6ae1b58a3fb2ff0ebcb544da3644658c98bb98eb61b3e84494dfcbacfd566c9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/patrickomatic/csv-plus-plus/releases/download/v0.8.0/csvpp-v0.8.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "1b911f7038d5685a485643c9d12c9926ba91b35440485d353386cf0f2a3ac084",
+      "size": 12570446,
+      "format": "tar.gz",
+      "binaries": {
+        "csvpp": {
+          "path": "csvpp-v0.8.0-aarch64-unknown-linux-musl/csvpp",
+          "sha256": "15c6802eb77354432a5ce1cfce7480b825af82ec9faf4330aba169c5971ca496"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/patrickomatic/csv-plus-plus/releases/download/v0.8.0/csvpp-v0.8.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "638300cb1b925b54bdcab394a899bbd1eacbec4a5f4f907f65786003ac8dec11",
+      "size": 12114258,
+      "format": "tar.gz",
+      "binaries": {
+        "csvpp": {
+          "path": "csvpp-v0.8.0-x86_64-apple-darwin/csvpp",
+          "sha256": "342bc6e2d412a3be1a9510de4bf5b9e20cfb95906b243fd9bd4bc3e73030efee"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/patrickomatic/csv-plus-plus/releases/download/v0.8.0/csvpp-v0.8.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "e18ac83f83e04a5909370f71dacab629e614681fe6aa69423e7c979d55d4e470",
+      "size": 11762196,
+      "format": "tar.gz",
+      "binaries": {
+        "csvpp": {
+          "path": "csvpp-v0.8.0-aarch64-apple-darwin/csvpp",
+          "sha256": "c551de9f78de0dd3c57cb2021eb88780cc8e87ac7262fe40921d85b021428ccb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/patrickomatic/csv-plus-plus/releases/download/v0.8.0/csvpp-v0.8.0-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "c390191b3ef9701c180b58770e103fcabf2e9e3d1e743882dc29b7076eea365f",
+      "size": 11850298,
+      "format": "tar.gz",
+      "binaries": {
+        "csvpp.exe": {
+          "path": "csvpp-v0.8.0-x86_64-pc-windows-gnu/csvpp.exe",
+          "sha256": "e02eb44e651f2e2a9258c306f7e723ff2bbcd2da139c550911b6f7eda660a98e"
+        }
+      }
+    }
+  }
+}
