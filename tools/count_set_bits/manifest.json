@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "count_set_bits",
+  "version": "0.0.18",
+  "repository": "RandyMcMillan/count_set_bits",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RandyMcMillan/count_set_bits/releases/download/v0.0.18/count_set_bits-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.0.18",
+      "sha256": "2e022e05267605f47c44e7691f84f29264bfcb3fd3e04cc898e9c9edbf52ef49",
+      "size": 548344,
+      "format": "tar.xz",
+      "binaries": {
+        "count_set_bits": {
+          "path": "count_set_bits-x86_64-unknown-linux-musl/count_set_bits",
+          "sha256": "5542310f67d8dc3c68fc9c8de51feb05f8fdc48339da767c1ea9335f3ba7b09f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/RandyMcMillan/count_set_bits/releases/download/v0.0.18/count_set_bits-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.0.18",
+      "sha256": "c83489c9ebc267dd496caa55432bd08035b9058a00bb5950b74f9f30e8e62e45",
+      "size": 138736,
+      "format": "tar.xz",
+      "binaries": {
+        "count_set_bits": {
+          "path": "count_set_bits-aarch64-apple-darwin/count_set_bits",
+          "sha256": "54d58d8206c884abbdc9daac88def61b2adfce20b7972bb9d5f7704b1af0db92"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RandyMcMillan/count_set_bits/releases/download/v0.0.18/count_set_bits-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.18",
+      "sha256": "4a060d3d6e4ce84d4115bd2833592fc0bf8f792d693ffe0858e549ce0df146a0",
+      "size": 285228,
+      "format": "zip",
+      "binaries": {
+        "count_set_bits.exe": {
+          "path": "count_set_bits.exe",
+          "sha256": "6d769c3a7cf9ef80880daacce291d07b7c484938c13c2be77ee12757a7d4d304"
+        }
+      }
+    }
+  }
+}
