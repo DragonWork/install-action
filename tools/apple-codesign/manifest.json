@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "apple-codesign",
+  "version": "0.29.0",
+  "repository": "indygreg/apple-platform-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/indygreg/apple-platform-rs/releases/download/apple-codesign/0.29.0/apple-codesign-0.29.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "dbe85cedd8ee4217b64e9a0e4c2aef92ab8bcaaa41f20bde99781ff02e600002",
+      "size": 10704555,
+      "format": "tar.gz",
+      "releaseTag": "apple-codesign/0.29.0",
+      "binaries": {
+        "rcodesign": {
+          "path": "apple-codesign-0.29.0-x86_64-unknown-linux-musl/rcodesign",
+          "sha256": "dab9a7465f96aba3c81e793775510f745b91a46b6418e89f7317b5d8fc7bcea2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/indygreg/apple-platform-rs/releases/download/apple-codesign/0.29.0/apple-codesign-0.29.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "4af92c87ddf52f5f2d1258a3b4e56c7dcb8f1b2468df744976c5f139e031961f",
+      "size": 10274948,
+      "format": "tar.gz",
+      "releaseTag": "apple-codesign/0.29.0",
+      "binaries": {
+        "rcodesign": {
+          "path": "apple-codesign-0.29.0-aarch64-unknown-linux-musl/rcodesign",
+          "sha256": "79e9d9a5e36df464f42d23da5ccb97f041b0ad3207e57c9dc0053198193441f5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/indygreg/apple-platform-rs/releases/download/apple-codesign/0.29.0/apple-codesign-0.29.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "14ef11bedd51a8d95eafd767939ae96d5900e5a61511bef75bb21db6e7c74140",
+      "size": 10030213,
+      "format": "tar.gz",
+      "releaseTag": "apple-codesign/0.29.0",
+      "binaries": {
+        "rcodesign": {
+          "path": "apple-codesign-0.29.0-x86_64-apple-darwin/rcodesign",
+          "sha256": "21588902f0698182c21b14d9623c424eb32595f675ace5b31dc1c3f3b0223ec1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/indygreg/apple-platform-rs/releases/download/apple-codesign/0.29.0/apple-codesign-0.29.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "d1a532150adaf90048260d76359261aa716abafc45c53c5dc18845029184334a",
+      "size": 9435151,
+      "format": "tar.gz",
+      "releaseTag": "apple-codesign/0.29.0",
+      "binaries": {
+        "rcodesign": {
+          "path": "apple-codesign-0.29.0-aarch64-apple-darwin/rcodesign",
+          "sha256": "6c4623db45f1d89af439a2ce42fd65798ef56aaaa3e4ced48879be05f750aacb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/indygreg/apple-platform-rs/releases/download/apple-codesign/0.29.0/apple-codesign-0.29.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "54bb500e2da7a8de02fcae0f331d1cac6e6d7173b4281042ff9c528ba3159aaa",
+      "size": 8552693,
+      "format": "zip",
+      "releaseTag": "apple-codesign/0.29.0",
+      "binaries": {
+        "rcodesign.exe": {
+          "path": "apple-codesign-0.29.0-x86_64-pc-windows-msvc/rcodesign.exe",
+          "sha256": "4763d9e8a66a01a5cff91ad77071ec8a7032f2ebd103ba78fccddab397bb5dea"
+        }
+      }
+    }
+  }
+}
