@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "podlet",
+  "version": "0.3.2",
+  "repository": "containers/podlet",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/containers/podlet/releases/download/v0.3.2/podlet-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.3.2",
+      "sha256": "6c392dc528400da3c74394f19bb520e4295f9009f15a87b9569368b7274cdc75",
+      "size": 2761672,
+      "format": "tar.xz",
+      "binaries": {
+        "podlet": {
+          "path": "podlet-x86_64-unknown-linux-musl/podlet",
+          "sha256": "86804cb9f1d14f435a56536bb68a85ca4b01fc33b7770d02bcdf873db2e9279f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/containers/podlet/releases/download/v0.3.2/podlet-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.3.2",
+      "sha256": "ff9f25b72c4871b0507fe1e6f31c8ef6836dcaf5151bb0d424f81a79832ce2e1",
+      "size": 2511844,
+      "format": "tar.xz",
+      "binaries": {
+        "podlet": {
+          "path": "podlet-aarch64-unknown-linux-gnu/podlet",
+          "sha256": "f694089ea5b9117b8da1ad54313ae4519cb4ceaa95c8dd05c7cd137584a23ac8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/containers/podlet/releases/download/v0.3.2/podlet-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.2",
+      "sha256": "18b6abfca9ad66dad6b8d0e5a88f08cd7175d21c088624ddec31eb216552b60d",
+      "size": 2559916,
+      "format": "tar.xz",
+      "binaries": {
+        "podlet": {
+          "path": "podlet-x86_64-apple-darwin/podlet",
+          "sha256": "b3d928fc707dc796e3c84eb13011134c99dd14c962fa908a128bcd690356108e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/containers/podlet/releases/download/v0.3.2/podlet-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.2",
+      "sha256": "a258637d05a4aa43aab1a68b78a859c4996eb9e57e51497d063b10de042581e4",
+      "size": 2362700,
+      "format": "tar.xz",
+      "binaries": {
+        "podlet": {
+          "path": "podlet-aarch64-apple-darwin/podlet",
+          "sha256": "af609364b22c6a83aea3bba896b68fc3d9e27f2c05d2b5de39c48249672a87cc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/containers/podlet/releases/download/v0.3.2/podlet-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "54505b2c9cf356e5a3cc00381225786fa864730ca87666453aa0e3b1ca983ae8",
+      "size": 2802846,
+      "format": "zip",
+      "binaries": {
+        "podlet.exe": {
+          "path": "podlet.exe",
+          "sha256": "449df936a6f3530d4ca162bb63a5ec1d65bcd5eb09961f54867a9ed6abf5707e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/containers/podlet/releases/download/v0.3.2/podlet-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "50d23f81789b2ffd22367432507ea245e5115694dea9ab9d2ec4ce596d57bc5b",
+      "size": 2633472,
+      "format": "zip",
+      "binaries": {
+        "podlet.exe": {
+          "path": "podlet.exe",
+          "sha256": "cefed38c897d15622ede4486ede61f68cbce20c6c6f961382bf861aa1534f717"
+        }
+      }
+    }
+  }
+}
