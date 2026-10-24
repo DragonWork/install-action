@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "aftman",
+  "version": "0.3.0",
+  "repository": "LPGhatguy/aftman",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LPGhatguy/aftman/releases/download/v0.3.0/aftman-0.3.0-linux-x86_64.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "194fe81e24ae7cc1f3141fd1d42db6cb60f03d42735d12ae865fe2db11ea6f0e",
+      "size": 4986659,
+      "format": "zip",
+      "binaries": {
+        "aftman": {
+          "path": "aftman",
+          "sha256": "3b13b10838fb7f7aafae16a9a01085439c75619bb9b78a1b5b787eab81ddf6e4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/LPGhatguy/aftman/releases/download/v0.3.0/aftman-0.3.0-linux-aarch64.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "feff0c1bf22fabe718b5138fb5e8bb764bd6f52c20282d4a7026c53def64299d",
+      "size": 4672806,
+      "format": "zip",
+      "binaries": {
+        "aftman": {
+          "path": "aftman",
+          "sha256": "99c3f1f7f55defb62ecf7621270a694f3a5894fbba5629bfca3819a12b5e95e6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LPGhatguy/aftman/releases/download/v0.3.0/aftman-0.3.0-macos-x86_64.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "62efe36acf2940756888ff75b34e30bd451bcba498a891f20dfbc98ff8aa35db",
+      "size": 3496871,
+      "format": "zip",
+      "binaries": {
+        "aftman": {
+          "path": "aftman",
+          "sha256": "cd408f8632cba7f610f5e3454349676113f3ea5045124c925eedde753a74b8da"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LPGhatguy/aftman/releases/download/v0.3.0/aftman-0.3.0-macos-aarch64.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "d97dabf7d496e0c0d73c714de987b6a0c441b38e457b06f75502a7e805bd2e84",
+      "size": 3324814,
+      "format": "zip",
+      "binaries": {
+        "aftman": {
+          "path": "aftman",
+          "sha256": "b341ddcce8bbae0f24ffb341a886a0d2d3bebe0da972f3e21f7ee93f19174199"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/LPGhatguy/aftman/releases/download/v0.3.0/aftman-0.3.0-windows-x86_64.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "57f5c55642460b21c4829b6339518fe4cc46bb6660fcf18ce57c49e27be5e286",
+      "size": 2906991,
+      "format": "zip",
+      "binaries": {
+        "aftman.exe": {
+          "path": "aftman.exe",
+          "sha256": "8f01631a2c41c0300731f27b2d0d587edb4dda167f371790bb19f50bfdde7e9c"
+        }
+      }
+    }
+  }
+}
