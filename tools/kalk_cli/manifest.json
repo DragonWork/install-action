@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "kalk_cli",
+  "version": "0.5.4",
+  "repository": "PaddiM8/kalker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/PaddiM8/kalker/releases/download/v0.5.4/kalk-linux",
+      "sha256": "eb39c147c3f6ca8df8cf5bc9434268d1d23e4cc23f84630dae4d09946eac58d3",
+      "size": 6252256,
+      "format": "binary",
+      "releaseTag": "v0.5.4",
+      "binaries": {
+        "kalk": {
+          "path": "kalk-linux",
+          "sha256": "eb39c147c3f6ca8df8cf5bc9434268d1d23e4cc23f84630dae4d09946eac58d3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/PaddiM8/kalker/releases/download/v0.5.4/kalk-macOS.zip",
+      "sha256": "e1def815491d9e351c3ce36607c8a5845f416e1f2d0036899bbf39180446754e",
+      "size": 1115911,
+      "format": "zip",
+      "releaseTag": "v0.5.4",
+      "binaries": {
+        "kalk": {
+          "path": "target/release/kalk",
+          "sha256": "bd3aafa0b770b3a23c6c006bf4ca630aa3fc342b75cc93d93c44f8736f8e6d0e"
+        }
+      }
+    }
+  }
+}
