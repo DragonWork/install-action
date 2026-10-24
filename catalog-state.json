@@ -11505,26 +11505,10 @@
   "ad4m-executor": {
     "version": "0.9.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.9.0",
-      "assets": [
-        {
-          "name": "adam-launcher_0.9.0_amd64.deb.tar.gz",
-          "browser_download_url": "https://github.com/coasys/ad4m/releases/download/v0.9.0/adam-launcher_0.9.0_amd64.deb.tar.gz",
-          "size": 171299782,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "ADAM.Launcher_0.9.0_x64.app.tar.gz",
-          "browser_download_url": "https://github.com/coasys/ad4m/releases/download/v0.9.0/ADAM.Launcher_0.9.0_x64.app.tar.gz",
-          "size": 71427577,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:58.787Z"
   },
   "adafruit_gps": {
     "version": "0.4.1",
@@ -11862,19 +11846,10 @@
   "agb-debug": {
     "version": "0.25.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.25.0",
-      "assets": [
-        {
-          "name": "examples.zip",
-          "browser_download_url": "https://github.com/agbrs/agb/releases/download/v0.25.0/examples.zip",
-          "size": 16289603,
-          "digest": "sha256:5afdb763660c07370211b20770aeed57a8108aa96b7adb3aa8902ddcdd67d67e",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:44.910Z"
   },
   "agb-gbafix": {
     "version": "0.25.0",
@@ -11907,23 +11882,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "agent-browser": {
-    "version": "0.19.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.19.0",
-      "assets": [
-        {
-          "name": "agent-browser-win32-x64.exe",
-          "browser_download_url": "https://github.com/vercel-labs/agent-browser/releases/download/v0.19.0/agent-browser-win32-x64.exe",
-          "size": 6947840,
-          "digest": "sha256:605c674739125744eedb36e8acb350fba2f1331cc18c8acb4b457fdb01140749",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "agent-client-protocol": {
     "version": "0.4.6",
@@ -12405,61 +12363,10 @@
   "all-smi": {
     "version": "0.28.1",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.28.1",
-      "assets": [
-        {
-          "name": "all-smi-macos-x86_64.zip",
-          "browser_download_url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-macos-x86_64.zip",
-          "size": 3702841,
-          "digest": "sha256:3983371efe02b1a0e1ec0e991bd5e2ac96d6253134f8fd046cb621bfc55eeadf",
-          "state": "uploaded"
-        },
-        {
-          "name": "all-smi-linux-aarch64-musl.tar.gz",
-          "browser_download_url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-linux-aarch64-musl.tar.gz",
-          "size": 4163099,
-          "digest": "sha256:7cb07068d888daefdd6a17eebd61e5b32cc6e60e3a9dee763dd83d6e780335a3",
-          "state": "uploaded"
-        },
-        {
-          "name": "all-smi-linux-x86_64-musl.tar.gz",
-          "browser_download_url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-linux-x86_64-musl.tar.gz",
-          "size": 4557207,
-          "digest": "sha256:974fbe31ad15f260feb75a5a1d3c0b10fe3aa0500f83a8c7e95870431267ce81",
-          "state": "uploaded"
-        },
-        {
-          "name": "all-smi-linux-aarch64.tar.gz",
-          "browser_download_url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-linux-aarch64.tar.gz",
-          "size": 4496587,
-          "digest": "sha256:655642f211678c9e64a8d51d4dfd58651cb6e745de0b7e25becb1700bf6a5979",
-          "state": "uploaded"
-        },
-        {
-          "name": "all-smi-linux-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-linux-x86_64.tar.gz",
-          "size": 4779683,
-          "digest": "sha256:e1f67795c49f5271b71a18ffb70b1e519ebf0eab732ec0e3d42e2d2185d39369",
-          "state": "uploaded"
-        },
-        {
-          "name": "all-smi-macos-aarch64.zip",
-          "browser_download_url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-macos-aarch64.zip",
-          "size": 3309136,
-          "digest": "sha256:54b837e62bfda3e566b70f6d1a2c670d0ad52a4e52ce02df4ae3bac18b8a06f9",
-          "state": "uploaded"
-        },
-        {
-          "name": "all-smi-windows-aarch64.zip",
-          "browser_download_url": "https://github.com/lablup/all-smi/releases/download/v0.28.1/all-smi-windows-aarch64.zip",
-          "size": 3365843,
-          "digest": "sha256:b061a7e4d40f411e5982c34f64c8060a0274c6cacf216b51d190b507fcca972b",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:52.694Z"
   },
   "allegro_examples": {
     "version": "0.0.51",
@@ -12476,54 +12383,10 @@
   "alopex-core": {
     "version": "0.8.16",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.8.16",
-      "assets": [
-        {
-          "name": "alopex-windows-x86_64.exe",
-          "browser_download_url": "https://github.com/alopex-db/alopex/releases/download/v0.8.16/alopex-windows-x86_64.exe",
-          "size": 41556480,
-          "digest": "sha256:768f2f0ce17998dc37c728ada6e26573d44edd8bc43d41d602996b431421b552",
-          "state": "uploaded"
-        },
-        {
-          "name": "alopex-0.8.16.tar.gz",
-          "browser_download_url": "https://github.com/alopex-db/alopex/releases/download/v0.8.16/alopex-0.8.16.tar.gz",
-          "size": 1805206,
-          "digest": "sha256:5333c0577b2e7f4d30ef4664ed2f7dfed27f18fd357ca08da35d105e8de8c807",
-          "state": "uploaded"
-        },
-        {
-          "name": "alopex-parser-v0.8.16-contract-0.28.0-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/alopex-db/alopex/releases/download/v0.8.16/alopex-parser-v0.8.16-contract-0.28.0-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 616763,
-          "digest": "sha256:550c7004e991e855524ec33e19da6e490242792f226f87b8fcd826b87612e356",
-          "state": "uploaded"
-        },
-        {
-          "name": "alopex-parser-v0.8.16-contract-0.28.0-aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/alopex-db/alopex/releases/download/v0.8.16/alopex-parser-v0.8.16-contract-0.28.0-aarch64-apple-darwin.tar.gz",
-          "size": 452776,
-          "digest": "sha256:8ac1f708efdfdbf6c85a65aebd34a368de41e798d9441a2785abad011cec038d",
-          "state": "uploaded"
-        },
-        {
-          "name": "alopex-parser-v0.8.16-contract-0.28.0-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/alopex-db/alopex/releases/download/v0.8.16/alopex-parser-v0.8.16-contract-0.28.0-x86_64-apple-darwin.tar.gz",
-          "size": 441449,
-          "digest": "sha256:90305dc21884d4827ac79dff74e130d2c4012802bf96fe24e6c1216cdc842055",
-          "state": "uploaded"
-        },
-        {
-          "name": "alopex-parser-v0.8.16-contract-0.28.0-x86_64-pc-windows-msvc.tar.gz",
-          "browser_download_url": "https://github.com/alopex-db/alopex/releases/download/v0.8.16/alopex-parser-v0.8.16-contract-0.28.0-x86_64-pc-windows-msvc.tar.gz",
-          "size": 780930,
-          "digest": "sha256:bf488a92ac09abd5cf8a108b14435057dd958024d86160db5a537e071556a915",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:25.421Z"
   },
   "alpha-counter-cli": {
     "version": "0.3.5",
@@ -14650,19 +14513,10 @@
   "backdown": {
     "version": "1.1.2",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.1.2",
-      "assets": [
-        {
-          "name": "backdown_1.1.2.zip",
-          "browser_download_url": "https://github.com/Canop/backdown/releases/download/v1.1.2/backdown_1.1.2.zip",
-          "size": 3835875,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:31.082Z"
   },
   "backhand": {
     "version": "0.13.0",
@@ -14767,23 +14621,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "ballistics-engine": {
-    "version": "0.48.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.48.0",
-      "assets": [
-        {
-          "name": "ballistics-0.48.0-windows-x86_64.exe",
-          "browser_download_url": "https://github.com/ajokela/ballistics-engine/releases/download/v0.48.0/ballistics-0.48.0-windows-x86_64.exe",
-          "size": 12815360,
-          "digest": "sha256:83454db01b47afe239ba29867f4ce574850921bc502c82f1275dd4ed90010078",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "bandcamp_recommendations": {
     "version": "0.2.5",
@@ -15193,37 +15030,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "benchmarker": {
-    "version": "0.9.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.9.0",
-      "assets": [
-        {
-          "name": "precipice-v0.9.0-x86_64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/BurntNail/Precipice/releases/download/v0.9.0/precipice-v0.9.0-x86_64-apple-darwin.tar.xz",
-          "size": 3366900,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "precipice-v0.9.0-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/BurntNail/Precipice/releases/download/v0.9.0/precipice-v0.9.0-x86_64-pc-windows-msvc.zip",
-          "size": 10607220,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "precipice-v0.9.0-x86_64-unknown-linux-gnu.tar.xz",
-          "browser_download_url": "https://github.com/BurntNail/Precipice/releases/download/v0.9.0/precipice-v0.9.0-x86_64-unknown-linux-gnu.tar.xz",
-          "size": 16533984,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "benchrs": {
     "version": "0.1.10",
@@ -15800,19 +15606,10 @@
   "blacken": {
     "version": "0.0.1",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.0.1",
-      "assets": [
-        {
-          "name": "blacken.exe",
-          "browser_download_url": "https://github.com/hinaria/blacken/releases/download/v0.0.1/blacken.exe",
-          "size": 230400,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:49.253Z"
   },
   "bladerf-bindings": {
     "version": "0.0.13",
@@ -16392,37 +16189,6 @@
     "retryable": false,
     "retryAfter": "2026-10-31T02:55:40.438Z"
   },
-  "bp": {
-    "version": "0.1.5",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.1.5",
-      "assets": [
-        {
-          "name": "bp-linux-x86_64-gnu.zip",
-          "browser_download_url": "https://github.com/printfn/bp/releases/download/v0.1.5/bp-linux-x86_64-gnu.zip",
-          "size": 378491,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "bp-macos-x86_64.zip",
-          "browser_download_url": "https://github.com/printfn/bp/releases/download/v0.1.5/bp-macos-x86_64.zip",
-          "size": 191053,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "bp-windows-x86_64.zip",
-          "browser_download_url": "https://github.com/printfn/bp/releases/download/v0.1.5/bp-windows-x86_64.zip",
-          "size": 94942,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "bp-core": {
     "version": "0.12.0",
     "resolverRevision": 2,
@@ -16430,120 +16196,6 @@
     "reason": "No matching upstream binary release."
   },
   "bpf-log-exporter": {
-    "version": "0.6.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.6.0",
-      "assets": [
-        {
-          "name": "bpfman-linux-s390x.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-s390x.tar.gz",
-          "size": 19129690,
-          "digest": "sha256:b893825e4602626cb777dcce15933dce61a243c49e561b2f5032d1e630b43f8d",
-          "state": "uploaded"
-        },
-        {
-          "name": "bpfman-linux-ppc64le.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-ppc64le.tar.gz",
-          "size": 27672543,
-          "digest": "sha256:77157fd5769e862830dce5e49f7dffd248e22e913ad998cf7184c09264b3ef7f",
-          "state": "uploaded"
-        },
-        {
-          "name": "bpfman-linux-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-x86_64.tar.gz",
-          "size": 19866767,
-          "digest": "sha256:55cd4015226c4c07281824fa8162c5e9478b9c54b54f4e1c67a64de3a7ba1e5c",
-          "state": "uploaded"
-        },
-        {
-          "name": "bpfman-linux-arm64.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-arm64.tar.gz",
-          "size": 18844127,
-          "digest": "sha256:8a94f9f90bde82d82d719a171ff7bf6cf17ec69b0bba6e9e74cea48f77c27de6",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "bpf-metrics-exporter": {
-    "version": "0.6.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.6.0",
-      "assets": [
-        {
-          "name": "bpfman-linux-s390x.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-s390x.tar.gz",
-          "size": 19129690,
-          "digest": "sha256:b893825e4602626cb777dcce15933dce61a243c49e561b2f5032d1e630b43f8d",
-          "state": "uploaded"
-        },
-        {
-          "name": "bpfman-linux-ppc64le.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-ppc64le.tar.gz",
-          "size": 27672543,
-          "digest": "sha256:77157fd5769e862830dce5e49f7dffd248e22e913ad998cf7184c09264b3ef7f",
-          "state": "uploaded"
-        },
-        {
-          "name": "bpfman-linux-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-x86_64.tar.gz",
-          "size": 19866767,
-          "digest": "sha256:55cd4015226c4c07281824fa8162c5e9478b9c54b54f4e1c67a64de3a7ba1e5c",
-          "state": "uploaded"
-        },
-        {
-          "name": "bpfman-linux-arm64.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-arm64.tar.gz",
-          "size": 18844127,
-          "digest": "sha256:8a94f9f90bde82d82d719a171ff7bf6cf17ec69b0bba6e9e74cea48f77c27de6",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "bpfman": {
-    "version": "0.6.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.6.0",
-      "assets": [
-        {
-          "name": "bpfman-linux-s390x.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-s390x.tar.gz",
-          "size": 19129690,
-          "digest": "sha256:b893825e4602626cb777dcce15933dce61a243c49e561b2f5032d1e630b43f8d",
-          "state": "uploaded"
-        },
-        {
-          "name": "bpfman-linux-ppc64le.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-ppc64le.tar.gz",
-          "size": 27672543,
-          "digest": "sha256:77157fd5769e862830dce5e49f7dffd248e22e913ad998cf7184c09264b3ef7f",
-          "state": "uploaded"
-        },
-        {
-          "name": "bpfman-linux-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-x86_64.tar.gz",
-          "size": 19866767,
-          "digest": "sha256:55cd4015226c4c07281824fa8162c5e9478b9c54b54f4e1c67a64de3a7ba1e5c",
-          "state": "uploaded"
-        },
-        {
-          "name": "bpfman-linux-arm64.tar.gz",
-          "browser_download_url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-arm64.tar.gz",
-          "size": 18844127,
-          "digest": "sha256:8a94f9f90bde82d82d719a171ff7bf6cf17ec69b0bba6e9e74cea48f77c27de6",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "bpfman-api": {
     "version": "0.6.0",
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
@@ -17235,77 +16887,16 @@
   "cadmpeg-codec-freecad": {
     "version": "0.6.5",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.6.5",
-      "assets": [
-        {
-          "name": "cadmpeg-aarch64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/cadmpeg/cadmpeg/releases/download/v0.6.5/cadmpeg-aarch64-apple-darwin.tar.xz",
-          "size": 20806888,
-          "digest": "sha256:7b84007f3c3df0657ba632153a4b3a701b43d465368833adf7d628834c7c5517",
-          "state": "uploaded"
-        },
-        {
-          "name": "cadmpeg-aarch64-unknown-linux-gnu.tar.xz",
-          "browser_download_url": "https://github.com/cadmpeg/cadmpeg/releases/download/v0.6.5/cadmpeg-aarch64-unknown-linux-gnu.tar.xz",
-          "size": 20702860,
-          "digest": "sha256:b08ea962226cdaf730c88d69fbb196ef6c0c53eb706373d12a6f219b150b0442",
-          "state": "uploaded"
-        },
-        {
-          "name": "cadmpeg-x86_64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/cadmpeg/cadmpeg/releases/download/v0.6.5/cadmpeg-x86_64-apple-darwin.tar.xz",
-          "size": 24169620,
-          "digest": "sha256:ea99fef3d5c7338bfa154efa54a21146e951e4ab82dbed4995f3a37d03d55cee",
-          "state": "uploaded"
-        },
-        {
-          "name": "cadmpeg-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/cadmpeg/cadmpeg/releases/download/v0.6.5/cadmpeg-x86_64-pc-windows-msvc.zip",
-          "size": 42314106,
-          "digest": "sha256:654c6126b1acb556a36c05fbca0810ed7ad5899f7baa6cab3215c74c5f696cf5",
-          "state": "uploaded"
-        },
-        {
-          "name": "cadmpeg-x86_64-unknown-linux-gnu.tar.xz",
-          "browser_download_url": "https://github.com/cadmpeg/cadmpeg/releases/download/v0.6.5/cadmpeg-x86_64-unknown-linux-gnu.tar.xz",
-          "size": 24570880,
-          "digest": "sha256:ac3075536819c29974f0d4f14f14f0fe95d84533091e81790daea8c90bfa139f",
-          "state": "uploaded"
-        },
-        {
-          "name": "source.tar.gz",
-          "browser_download_url": "https://github.com/cadmpeg/cadmpeg/releases/download/v0.6.5/source.tar.gz",
-          "size": 15604316,
-          "digest": "sha256:c39a97559b7c66d75ce9a75a893d4b599d014d460734d13c723e1205c88c07eb",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:33.748Z"
   },
   "cadre": {
     "version": "0.5.4",
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "caesar_cipher_enc_dec": {
-    "version": "1.0.10",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.0.10",
-      "assets": [
-        {
-          "name": "caesar_cipher_enc_dec-v1.0.10-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/T3pp31/caesar_cipher_enc_dec/releases/download/v1.0.10/caesar_cipher_enc_dec-v1.0.10-x86_64-pc-windows-msvc.exe",
-          "size": 738304,
-          "digest": "sha256:1409ec458f77ccb0d5780322e6c76c56655098fbf2872d3504f8ab2401470adc",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "caffeinate2": {
     "version": "0.8.0",
@@ -17696,19 +17287,10 @@
   "caretaker": {
     "version": "0.2.4",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.4",
-      "assets": [
-        {
-          "name": "caretaker-0.2.4-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/grego/caretaker/releases/download/v0.2.4/caretaker-0.2.4-x86_64.tar.gz",
-          "size": 624176,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:58.503Z"
   },
   "cargo": {
     "version": "0.100.0",
@@ -17843,44 +17425,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "cargo-bazel": {
-    "version": "0.18.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.18.0",
-      "assets": [
-        {
-          "name": "rules_rust-v0.18.0.tar.gz",
-          "browser_download_url": "https://github.com/bazelbuild/rules_rust/releases/download/0.18.0/rules_rust-v0.18.0.tar.gz",
-          "size": 41041903,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-bazel-aarch64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/bazelbuild/rules_rust/releases/download/0.18.0/cargo-bazel-aarch64-pc-windows-msvc.exe",
-          "size": 10627072,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-bazel-x86_64-pc-windows-gnu.exe",
-          "browser_download_url": "https://github.com/bazelbuild/rules_rust/releases/download/0.18.0/cargo-bazel-x86_64-pc-windows-gnu.exe",
-          "size": 25168996,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-bazel-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/bazelbuild/rules_rust/releases/download/0.18.0/cargo-bazel-x86_64-pc-windows-msvc.exe",
-          "size": 12143616,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "cargo-begin": {
     "version": "1.1.1",
@@ -19870,68 +19414,10 @@
   "cargo-xwinbuild": {
     "version": "0.4.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.4.0",
-      "assets": [
-        {
-          "name": "cargo-xwinbuild-v0.4.0.aarch64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.aarch64-unknown-linux-musl.tar.gz",
-          "size": 4362797,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-xwinbuild-v0.4.0.armv7-unknown-linux-musleabi.tar.gz",
-          "browser_download_url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.armv7-unknown-linux-musleabi.tar.gz",
-          "size": 4490041,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-xwinbuild-v0.4.0.armv7-unknown-linux-musleabihf.tar.gz",
-          "browser_download_url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.armv7-unknown-linux-musleabihf.tar.gz",
-          "size": 4500423,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-xwinbuild-v0.4.0.i686-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.i686-unknown-linux-musl.tar.gz",
-          "size": 4670082,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-xwinbuild-v0.4.0.x86_64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.x86_64-unknown-linux-musl.tar.gz",
-          "size": 4614051,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-xwinbuild-v0.4.0.apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.apple-darwin.tar.gz",
-          "size": 6081508,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-xwinbuild-v0.4.0.windows-x64.zip",
-          "browser_download_url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.windows-x64.zip",
-          "size": 2618703,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-xwinbuild-v0.4.0.windows-x86.zip",
-          "browser_download_url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.windows-x86.zip",
-          "size": 2437291,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:29.466Z"
   },
   "cargo-zng": {
     "version": "0.14.2",
@@ -20018,26 +19504,10 @@
   "casile": {
     "version": "0.14.4",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.14.4",
-      "assets": [
-        {
-          "name": "casile-0.14.4.zip",
-          "browser_download_url": "https://github.com/sile-typesetter/casile/releases/download/v0.14.4/casile-0.14.4.zip",
-          "size": 6663689,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "casile-0.14.4.tar.zst",
-          "browser_download_url": "https://github.com/sile-typesetter/casile/releases/download/v0.14.4/casile-0.14.4.tar.zst",
-          "size": 3884394,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:55.553Z"
   },
   "casper-client": {
     "version": "5.0.1",
@@ -20068,44 +19538,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "cassini": {
-    "version": "0.12.6",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.12.6",
-      "assets": [
-        {
-          "name": "cassini-arm64-macos.tar.gz",
-          "browser_download_url": "https://github.com/NicoRio42/cassini/releases/download/0.12.6/cassini-arm64-macos.tar.gz",
-          "size": 5430893,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cassini-x86_64-macos.tar.gz",
-          "browser_download_url": "https://github.com/NicoRio42/cassini/releases/download/0.12.6/cassini-x86_64-macos.tar.gz",
-          "size": 5636986,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cassini-x86_64-win.tar.gz",
-          "browser_download_url": "https://github.com/NicoRio42/cassini/releases/download/0.12.6/cassini-x86_64-win.tar.gz",
-          "size": 5204507,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cassini-x86_64-linux.tar.gz",
-          "browser_download_url": "https://github.com/NicoRio42/cassini/releases/download/0.12.6/cassini-x86_64-linux.tar.gz",
-          "size": 9203404,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "castle-core": {
     "version": "0.0.12",
@@ -20142,23 +19574,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "catppuccin-catwalk": {
-    "version": "1.3.2",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.3.2",
-      "assets": [
-        {
-          "name": "catwalk-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/catppuccin/catwalk/releases/download/v1.3.2/catwalk-x86_64-pc-windows-msvc.exe",
-          "size": 1474560,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "catppuccin-purr": {
     "version": "1.4.1",
@@ -20373,37 +19788,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "ce-cli": {
-    "version": "0.4.9",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.4.9",
-      "assets": [
-        {
-          "name": "ce-cli-x86_64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/bnheise/ce-cli/releases/download/0.4.9/ce-cli-x86_64-unknown-linux-musl.tar.gz",
-          "size": 5780727,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "ce-cli-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/bnheise/ce-cli/releases/download/0.4.9/ce-cli-x86_64-apple-darwin.tar.gz",
-          "size": 4079842,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "ce-cli-x86_64-pc-windows-gnu.tar.gz",
-          "browser_download_url": "https://github.com/bnheise/ce-cli/releases/download/0.4.9/ce-cli-x86_64-pc-windows-gnu.tar.gz",
-          "size": 7894025,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "cea608-types": {
     "version": "0.1.1",
@@ -20650,19 +20034,10 @@
   "changelog-gen": {
     "version": "0.1.10",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.1.10",
-      "assets": [
-        {
-          "name": "changen-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/wiiznokes/changen/releases/download/0.1.10/changen-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 2703614,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:17.148Z"
   },
   "channel": {
     "version": "0.3.14",
@@ -20881,47 +20256,10 @@
   "chia-tools": {
     "version": "0.52.1",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.52.1",
-      "assets": [
-        {
-          "name": "chia_rs-Windows-3.10-Intel.pdb.zip",
-          "browser_download_url": "https://github.com/Chia-Network/chia_rs/releases/download/0.52.1/chia_rs-Windows-3.10-Intel.pdb.zip",
-          "size": 10786527,
-          "digest": "sha256:51b44c3d6d63c7ad86aee670eea949077913638affa3f7df2d26d0dc8d6b89a7",
-          "state": "uploaded"
-        },
-        {
-          "name": "chia_rs-Windows-3.11-Intel.pdb.zip",
-          "browser_download_url": "https://github.com/Chia-Network/chia_rs/releases/download/0.52.1/chia_rs-Windows-3.11-Intel.pdb.zip",
-          "size": 10737962,
-          "digest": "sha256:5df460f6f447b563bb5734eb6666f0d05e79558fc80bc2b06882e96794ae0512",
-          "state": "uploaded"
-        },
-        {
-          "name": "chia_rs-Windows-3.12-Intel.pdb.zip",
-          "browser_download_url": "https://github.com/Chia-Network/chia_rs/releases/download/0.52.1/chia_rs-Windows-3.12-Intel.pdb.zip",
-          "size": 10882087,
-          "digest": "sha256:52485ea6e337a73fccdca5d1eec728bd8c7f58dfa2329decdd905182c8521ca0",
-          "state": "uploaded"
-        },
-        {
-          "name": "chia_rs-Windows-3.13-Intel.pdb.zip",
-          "browser_download_url": "https://github.com/Chia-Network/chia_rs/releases/download/0.52.1/chia_rs-Windows-3.13-Intel.pdb.zip",
-          "size": 10857608,
-          "digest": "sha256:ae6f50148a093580d6a84f5ce3b4d60a254ce91f308acb88843810237dc1186b",
-          "state": "uploaded"
-        },
-        {
-          "name": "chia_rs-Windows-3.14-Intel.pdb.zip",
-          "browser_download_url": "https://github.com/Chia-Network/chia_rs/releases/download/0.52.1/chia_rs-Windows-3.14-Intel.pdb.zip",
-          "size": 10840389,
-          "digest": "sha256:95c67f872e7b890c16071470601d6a07c79ffd65c76e1288028b48d7a7859135",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:55.369Z"
   },
   "chialisp": {
     "version": "0.6.0",
@@ -21849,44 +21187,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "clyde": {
-    "version": "0.10.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.10.0",
-      "assets": [
-        {
-          "name": "clyde-0.10.0-x86_64-linux.tar.gz",
-          "browser_download_url": "https://github.com/agateau/clyde/releases/download/0.10.0/clyde-0.10.0-x86_64-linux.tar.gz",
-          "size": 11937706,
-          "digest": "sha256:149d84556d6fa956160250fa7fd54b6b9029c4c6b992465ee0ca4cdc9b8b1897",
-          "state": "uploaded"
-        },
-        {
-          "name": "clyde-0.10.0-aarch64-macos.tar.gz",
-          "browser_download_url": "https://github.com/agateau/clyde/releases/download/0.10.0/clyde-0.10.0-aarch64-macos.tar.gz",
-          "size": 10408449,
-          "digest": "sha256:cc08afc2a05e536e6ce2e93b23dddcaab22b139b8cb8feb19002e19a6931534b",
-          "state": "uploaded"
-        },
-        {
-          "name": "clyde-0.10.0-x86_64-windows.zip",
-          "browser_download_url": "https://github.com/agateau/clyde/releases/download/0.10.0/clyde-0.10.0-x86_64-windows.zip",
-          "size": 11099004,
-          "digest": "sha256:f04af86c5076752feac8bc2bbafe731daf30876e69ed2d980a30efe22a15ba52",
-          "state": "uploaded"
-        },
-        {
-          "name": "clyde-0.10.0-x86_64-macos.tar.gz",
-          "browser_download_url": "https://github.com/agateau/clyde/releases/download/0.10.0/clyde-0.10.0-x86_64-macos.tar.gz",
-          "size": 11449592,
-          "digest": "sha256:b46abe1d9b3bf0f1e20663a5b428b7b0521b9a1adebd5df7e16405365a93094c",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "cmake-version-manager": {
     "version": "0.2.4",
     "resolverRevision": 2,
@@ -22021,61 +21321,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "codanna": {
-    "version": "0.16.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.16.0",
-      "assets": [
-        {
-          "name": "codanna-0.16.0-linux-x64.tar.xz",
-          "browser_download_url": "https://github.com/bartolli/codanna/releases/download/v0.16.0/codanna-0.16.0-linux-x64.tar.xz",
-          "size": 16993456,
-          "digest": "sha256:d032476c99bc5dbcc11e82bbb8b435251e2d583f7921a3a18a16eac4a31479af",
-          "state": "uploaded"
-        },
-        {
-          "name": "codanna-0.16.0-macos-arm64.tar.xz",
-          "browser_download_url": "https://github.com/bartolli/codanna/releases/download/v0.16.0/codanna-0.16.0-macos-arm64.tar.xz",
-          "size": 13696064,
-          "digest": "sha256:3e6c92cff05a69cdce4c242aea734a0d32935de45dff95e88d06e591d7f73595",
-          "state": "uploaded"
-        },
-        {
-          "name": "codanna-0.16.0-windows-x64.zip",
-          "browser_download_url": "https://github.com/bartolli/codanna/releases/download/v0.16.0/codanna-0.16.0-windows-x64.zip",
-          "size": 20313066,
-          "digest": "sha256:2359f3fff4f27efa107aac89d64ae6033922888e782fd441139e473a5f0558fb",
-          "state": "uploaded"
-        },
-        {
-          "name": "codanna-0.16.0-macos-x64.tar.xz",
-          "browser_download_url": "https://github.com/bartolli/codanna/releases/download/v0.16.0/codanna-0.16.0-macos-x64.tar.xz",
-          "size": 15513432,
-          "digest": "sha256:f3252fad2d844029a74c277b0e175318ad2c00033e553cc1e074bbe1d0699e20",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "code-blocks-server": {
-    "version": "0.6.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "code-blocks-server-v0.6.0",
-      "assets": [
-        {
-          "name": "x86_64-pc-windows-msvc-code-blocks-cli.exe",
-          "browser_download_url": "https://github.com/selfint/code-blocks/releases/download/code-blocks-server-v0.6.0/x86_64-pc-windows-msvc-code-blocks-cli.exe",
-          "size": 1697792,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "code-it-later-rs": {
     "version": "0.11.0",
@@ -22416,79 +21661,6 @@
       ]
     }
   },
-  "comodoro": {
-    "version": "2.0.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v2.0.0",
-      "assets": [
-        {
-          "name": "comodoro.x86_64-linux.tgz",
-          "browser_download_url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.x86_64-linux.tgz",
-          "size": 1374049,
-          "digest": "sha256:90f846ffd894e940db5df1c9c7bfff08ab58e756aa3e6d12de96b25a6a47fee2",
-          "state": "uploaded"
-        },
-        {
-          "name": "comodoro.i686-linux.tgz",
-          "browser_download_url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.i686-linux.tgz",
-          "size": 1389216,
-          "digest": "sha256:fdbb9aa17c14fc44971c750510cff59e020c093af05c902b517add72a16b5517",
-          "state": "uploaded"
-        },
-        {
-          "name": "comodoro.aarch64-linux.tgz",
-          "browser_download_url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.aarch64-linux.tgz",
-          "size": 1309395,
-          "digest": "sha256:8b782c71ba0a5993315033b4399f1014b8537a8657bc576d0e5d7c3cfa3ff35a",
-          "state": "uploaded"
-        },
-        {
-          "name": "comodoro.armv6l-linux.tgz",
-          "browser_download_url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.armv6l-linux.tgz",
-          "size": 1357575,
-          "digest": "sha256:c534076ead6ffc6282ad0580ee07a51bfdcb0cd75a1b87fcee9f9de762936861",
-          "state": "uploaded"
-        },
-        {
-          "name": "comodoro.x86_64-windows.zip",
-          "browser_download_url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.x86_64-windows.zip",
-          "size": 3333876,
-          "digest": "sha256:77717d21bad798737bd33731ffc19b5d9764f158e737661b8b7bcaf288f45d26",
-          "state": "uploaded"
-        },
-        {
-          "name": "comodoro.x86_64-windows.tgz",
-          "browser_download_url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.x86_64-windows.tgz",
-          "size": 1123082,
-          "digest": "sha256:27cfdda59c3dac638eeeb7f034662973a184ae8558bc04ed472bbb7dd574fc9a",
-          "state": "uploaded"
-        },
-        {
-          "name": "comodoro.armv7l-linux.tgz",
-          "browser_download_url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.armv7l-linux.tgz",
-          "size": 1333923,
-          "digest": "sha256:f09c6fe27c1dbb062581ea391f5d42f3c3f20e55501a99053eda54e9a7feebb3",
-          "state": "uploaded"
-        },
-        {
-          "name": "comodoro.aarch64-darwin.tgz",
-          "browser_download_url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.aarch64-darwin.tgz",
-          "size": 1012210,
-          "digest": "sha256:bcefb26bfb1bb6a7d9ed64ddd93da0e0d0220c4f07d7385b5122c0c4e5cd0f13",
-          "state": "uploaded"
-        },
-        {
-          "name": "comodoro.x86_64-darwin.tgz",
-          "browser_download_url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.x86_64-darwin.tgz",
-          "size": 1134195,
-          "digest": "sha256:2a1210e3fd53dd3bda8991187a0a7edb00b13be846e89e53ff7a9a3cb08b7cba",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "compact-time": {
     "version": "0.10.0",
     "resolverRevision": 2,
@@ -22602,19 +21774,10 @@
   "connectr": {
     "version": "1.1.2",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.1.2",
-      "assets": [
-        {
-          "name": "connectr-1.1.2.zip",
-          "browser_download_url": "https://github.com/mrmekon/connectr/releases/download/v1.1.2/connectr-1.1.2.zip",
-          "size": 895339,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:52.477Z"
   },
   "consalifold": {
     "version": "0.1.17",
@@ -22867,19 +22030,10 @@
   "cork": {
     "version": "0.2.6",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.6",
-      "assets": [
-        {
-          "name": "cork-v0.2.6-portable.exe",
-          "browser_download_url": "https://github.com/RedDocMD/cork/releases/download/v0.2.6/cork-v0.2.6-portable.exe",
-          "size": 1416704,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:54.125Z"
   },
   "corn-cli": {
     "version": "0.10.0",
@@ -23217,142 +22371,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "crab-hole": {
-    "version": "0.2.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.0",
-      "assets": [
-        {
-          "name": "aarch64-unknown-linux-gnu--native-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/aarch64-unknown-linux-gnu--native-roots.zip",
-          "size": 6894017,
-          "digest": "sha256:37073985632ff38b2d5ab23f23ce2973432e510e80feec61ed479ed36ac64627",
-          "state": "uploaded"
-        },
-        {
-          "name": "aarch64-unknown-linux-gnu--webpki-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/aarch64-unknown-linux-gnu--webpki-roots.zip",
-          "size": 6966364,
-          "digest": "sha256:d4b48cff38c12348aefb29c6ad3abf875bd13638d47ab1f9c3d1b5acbad1482c",
-          "state": "uploaded"
-        },
-        {
-          "name": "aarch64-unknown-linux-musl--native-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/aarch64-unknown-linux-musl--native-roots.zip",
-          "size": 6936729,
-          "digest": "sha256:fa28a4dd47310380d7f485da5f549343394396d61a8935ff906aa0b8a2458098",
-          "state": "uploaded"
-        },
-        {
-          "name": "aarch64-unknown-linux-musl--webpki-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/aarch64-unknown-linux-musl--webpki-roots.zip",
-          "size": 7012530,
-          "digest": "sha256:80494ed1c3956e84bab3e5a300a47b5125b91bf774988f5ab37b060e17e15232",
-          "state": "uploaded"
-        },
-        {
-          "name": "arm-unknown-linux-musleabihf--native-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/arm-unknown-linux-musleabihf--native-roots.zip",
-          "size": 6832442,
-          "digest": "sha256:beab4d6c6141d1f291c2aabab71cbaf4ed72bab09d470bda590e68675e73c82f",
-          "state": "uploaded"
-        },
-        {
-          "name": "arm-unknown-linux-musleabihf--webpki-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/arm-unknown-linux-musleabihf--webpki-roots.zip",
-          "size": 6919369,
-          "digest": "sha256:1fada3bd1cbb849330598ffa1aed2c6c0f3bf965c7607c6572aa28e75bde60f5",
-          "state": "uploaded"
-        },
-        {
-          "name": "armv7-unknown-linux-musleabihf--native-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/armv7-unknown-linux-musleabihf--native-roots.zip",
-          "size": 6746700,
-          "digest": "sha256:45e286cb8b252c884406ca357106d88ea2fb95e3bcff209cc900f861ca9b76d4",
-          "state": "uploaded"
-        },
-        {
-          "name": "armv7-unknown-linux-musleabihf--webpki-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/armv7-unknown-linux-musleabihf--webpki-roots.zip",
-          "size": 6826551,
-          "digest": "sha256:3a3c62398d66f5bb17906d4471b9fdcdeec2a63cb1492b3510bb16e2738d5581",
-          "state": "uploaded"
-        },
-        {
-          "name": "i686-unknown-linux-musl--native-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/i686-unknown-linux-musl--native-roots.zip",
-          "size": 7078688,
-          "digest": "sha256:d9eca69e03a233936e62d0997596bfd64fee13d865dd47254d9bbc433b7975e7",
-          "state": "uploaded"
-        },
-        {
-          "name": "i686-unknown-linux-musl--webpki-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/i686-unknown-linux-musl--webpki-roots.zip",
-          "size": 7151573,
-          "digest": "sha256:578bfc478e72de328cb45c0932a1e4be406c5db9b85b0fa94959f6e1d0d9dac7",
-          "state": "uploaded"
-        },
-        {
-          "name": "x86_64-apple-darwin--native-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-apple-darwin--native-roots.zip",
-          "size": 6450432,
-          "digest": "sha256:a35bc9801b2c6cb2af7b94ef94802c530af5fa88a8fe9fb76e5475a494a398e8",
-          "state": "uploaded"
-        },
-        {
-          "name": "x86_64-apple-darwin--webpki-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-apple-darwin--webpki-roots.zip",
-          "size": 6510495,
-          "digest": "sha256:27193c6f19313bf76dba9aceaf7ea2ea0c598ab9455fd749ff75a300681f0049",
-          "state": "uploaded"
-        },
-        {
-          "name": "x86_64-pc-windows-gnu--native-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-pc-windows-gnu--native-roots.zip",
-          "size": 9421954,
-          "digest": "sha256:68233e72c289012bdc754510fd2feae8a532c220b6da5421fbc18c85e8c78106",
-          "state": "uploaded"
-        },
-        {
-          "name": "x86_64-pc-windows-gnu--webpki-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-pc-windows-gnu--webpki-roots.zip",
-          "size": 9553002,
-          "digest": "sha256:71934fa995fa149966773c8140fc0f1a053aa6efc61e0a2d27a76528317042ba",
-          "state": "uploaded"
-        },
-        {
-          "name": "x86_64-unknown-linux-gnu--native-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-unknown-linux-gnu--native-roots.zip",
-          "size": 7215582,
-          "digest": "sha256:bd02d59b0cdbb8fc249f8995a63707e6189de89919bde266fdfc6a47b48ec258",
-          "state": "uploaded"
-        },
-        {
-          "name": "x86_64-unknown-linux-gnu--webpki-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-unknown-linux-gnu--webpki-roots.zip",
-          "size": 7291275,
-          "digest": "sha256:50016b1d2205abc9541e4c500521a8749e989968d90d4564c97db0536f691149",
-          "state": "uploaded"
-        },
-        {
-          "name": "x86_64-unknown-linux-musl--native-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-unknown-linux-musl--native-roots.zip",
-          "size": 7169676,
-          "digest": "sha256:1bdd3a65f7962dfea406f6f59623fc5038f954a154640d47277fe7aab9496ac2",
-          "state": "uploaded"
-        },
-        {
-          "name": "x86_64-unknown-linux-musl--webpki-roots.zip",
-          "browser_download_url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-unknown-linux-musl--webpki-roots.zip",
-          "size": 7244398,
-          "digest": "sha256:58a050e2cb17ead760fb389af2eecbff72f3b103263a401d25bbc77d8c20f4c4",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "crabpicker": {
     "version": "0.2.2",
     "resolverRevision": 2,
@@ -23623,40 +22641,10 @@
   "cross-stream": {
     "version": "0.14.1",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.14.1",
-      "assets": [
-        {
-          "name": "cross-stream-v0.14.1-linux-amd64.tar.gz",
-          "browser_download_url": "https://github.com/cablehead/xs/releases/download/v0.14.1/cross-stream-v0.14.1-linux-amd64.tar.gz",
-          "size": 24895451,
-          "digest": "sha256:a166eaefc41dab706c17090e3823f515ea4dd49c445dad677c75e8bde786e4d4",
-          "state": "uploaded"
-        },
-        {
-          "name": "cross-stream-v0.14.1-windows-amd64.tar.gz",
-          "browser_download_url": "https://github.com/cablehead/xs/releases/download/v0.14.1/cross-stream-v0.14.1-windows-amd64.tar.gz",
-          "size": 23021845,
-          "digest": "sha256:be160fabe0840b73e2b34bfbbea20c0228f2e6bf75407ee342ae0076e5a85a90",
-          "state": "uploaded"
-        },
-        {
-          "name": "cross-stream-v0.14.1-linux-arm64.tar.gz",
-          "browser_download_url": "https://github.com/cablehead/xs/releases/download/v0.14.1/cross-stream-v0.14.1-linux-arm64.tar.gz",
-          "size": 22078525,
-          "digest": "sha256:59b366dc41a1f2b74d922b0961db0ee2b3717160f0bdc43b8f136e6fd71609b0",
-          "state": "uploaded"
-        },
-        {
-          "name": "cross-stream-v0.14.1-macos.tar.gz",
-          "browser_download_url": "https://github.com/cablehead/xs/releases/download/v0.14.1/cross-stream-v0.14.1-macos.tar.gz",
-          "size": 19678602,
-          "digest": "sha256:0f0d74b26b34090e1a4f119dd64aa198248888b202676e81ffcbf6bcce8dfbf4",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:58.465Z"
   },
   "crossref": {
     "version": "0.2.2",
@@ -24267,37 +23255,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "cyberdrop-dl": {
-    "version": "0.3.2",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.3.2",
-      "assets": [
-        {
-          "name": "cyberdrop-dl_linux_amd64.zip",
-          "browser_download_url": "https://github.com/evan-sm/cyberdrop-dl/releases/download/v0.3.2/cyberdrop-dl_linux_amd64.zip",
-          "size": 3172952,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cyberdrop-dl_apple-darwin.zip",
-          "browser_download_url": "https://github.com/evan-sm/cyberdrop-dl/releases/download/v0.3.2/cyberdrop-dl_apple-darwin.zip",
-          "size": 1773206,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cyberdrop-dl_windows.zip",
-          "browser_download_url": "https://github.com/evan-sm/cyberdrop-dl/releases/download/v0.3.2/cyberdrop-dl_windows.zip",
-          "size": 5003430,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "cybergarage": {
     "version": "1.1.6",
     "resolverRevision": 2,
@@ -24478,26 +23435,10 @@
   "danmu2ass": {
     "version": "0.2.1",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.1",
-      "assets": [
-        {
-          "name": "danmu2ass-windows.zip",
-          "browser_download_url": "https://github.com/gwy15/danmu2ass/releases/download/v0.2.1/danmu2ass-windows.zip",
-          "size": 6637575,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "danmu2ass-linux.zip",
-          "browser_download_url": "https://github.com/gwy15/danmu2ass/releases/download/v0.2.1/danmu2ass-linux.zip",
-          "size": 4444714,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:45.090Z"
   },
   "dano": {
     "version": "0.10.1",
@@ -24600,68 +23541,10 @@
   "databend-ttc": {
     "version": "0.34.2",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.34.2",
-      "assets": [
-        {
-          "name": "bendsql-aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-aarch64-apple-darwin.tar.gz",
-          "size": 12821853,
-          "digest": "sha256:098ceeba0f6b91bb43bcafb3bbd2e99160fb28c755e876f34a638b49a190b0f2",
-          "state": "uploaded"
-        },
-        {
-          "name": "bendsql-aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-aarch64-unknown-linux-gnu.tar.gz",
-          "size": 14056155,
-          "digest": "sha256:3ccdb0fdff12acbd076e185eb466f08fb1de826df06e1e2ed77bc9540e044f64",
-          "state": "uploaded"
-        },
-        {
-          "name": "bendsql-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 14829452,
-          "digest": "sha256:ffdda042ffa484ea4158bb54515a2047d61ca6951592c545fc8db8a83a5459d8",
-          "state": "uploaded"
-        },
-        {
-          "name": "bendsql-x86_64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-x86_64-unknown-linux-musl.tar.gz",
-          "size": 14867386,
-          "digest": "sha256:065e5a376265c1d62b0a2b132ebb9b51a70d92490a210d54ad5893ea563c0a72",
-          "state": "uploaded"
-        },
-        {
-          "name": "bendsql-aarch64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-aarch64-unknown-linux-musl.tar.gz",
-          "size": 14280376,
-          "digest": "sha256:5153b44e2af74f7758d8d1dd22bf2f5e59a986afb9039bd69e6647550dcc4387",
-          "state": "uploaded"
-        },
-        {
-          "name": "bendsql-0.34.2-1-x86_64.pkg.tar.zst",
-          "browser_download_url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-0.34.2-1-x86_64.pkg.tar.zst",
-          "size": 13601880,
-          "digest": "sha256:9580f10d7519a4ca0f21e9aa4c94af86bde1ee838943dd5d8613877c9029793f",
-          "state": "uploaded"
-        },
-        {
-          "name": "bendsql-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-x86_64-apple-darwin.tar.gz",
-          "size": 13584611,
-          "digest": "sha256:cb064c00c4f0c09595a83cb97639c6a76d7954542eb4d4debe19ee8928c9aff3",
-          "state": "uploaded"
-        },
-        {
-          "name": "bendsql-0.34.2-1-aarch64.pkg.tar.zst",
-          "browser_download_url": "https://github.com/databendlabs/bendsql/releases/download/v0.34.2/bendsql-0.34.2-1-aarch64.pkg.tar.zst",
-          "size": 12980628,
-          "digest": "sha256:c610d3b78030d6b7060433c1f00a0e6df8416d4f34c2039bdd3134cd1b4b61ac",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:22.118Z"
   },
   "databind": {
     "version": "0.8.0",
@@ -25083,92 +23966,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "deepseek-app-server": {
-    "version": "0.8.40",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.8.40",
-      "assets": [
-        {
-          "name": "deepseek-tui-windows-x64.exe",
-          "browser_download_url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.8.40/deepseek-tui-windows-x64.exe",
-          "size": 39467008,
-          "digest": "sha256:23b5ffd74aa098d8e81ef1d5ee5d55e2169a1afcc67c9ed6182b876874cd3a55",
-          "state": "uploaded"
-        },
-        {
-          "name": "deepseek-windows-x64.exe",
-          "browser_download_url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.8.40/deepseek-windows-x64.exe",
-          "size": 12851200,
-          "digest": "sha256:b612189e3576a701662741e9ec6d21798b15fa7ab1fe9b68da632c2826bbf155",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "deepseek-tui": {
-    "version": "0.8.41",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.8.41",
-      "assets": [
-        {
-          "name": "codewhale-tui-windows-x64.exe",
-          "browser_download_url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.8.41/codewhale-tui-windows-x64.exe",
-          "size": 39643648,
-          "digest": "sha256:fcbb29952fcc3cca130c43dd38df1c3ba31b85c99555ed88d1b5ea19dad38916",
-          "state": "uploaded"
-        },
-        {
-          "name": "codewhale-windows-x64.exe",
-          "browser_download_url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.8.41/codewhale-windows-x64.exe",
-          "size": 12851200,
-          "digest": "sha256:f0c727d1b73618854b9597c87f562dbe564914507b33b830a5360d8a7d741329",
-          "state": "uploaded"
-        },
-        {
-          "name": "deepseek-tui-windows-x64.exe",
-          "browser_download_url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.8.41/deepseek-tui-windows-x64.exe",
-          "size": 228864,
-          "digest": "sha256:6b0f2cf46ef7ffe173826bb0ac9c105ea2ed65849fc44e991cfae0bab979d057",
-          "state": "uploaded"
-        },
-        {
-          "name": "deepseek-windows-x64.exe",
-          "browser_download_url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.8.41/deepseek-windows-x64.exe",
-          "size": 228352,
-          "digest": "sha256:05808f6e37ac23f34cb8921886e91d65bb104e56f4f6f8fbc340c6a8e58d72b7",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "deepseek-tui-cli": {
-    "version": "0.8.40",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.8.40",
-      "assets": [
-        {
-          "name": "deepseek-tui-windows-x64.exe",
-          "browser_download_url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.8.40/deepseek-tui-windows-x64.exe",
-          "size": 39467008,
-          "digest": "sha256:23b5ffd74aa098d8e81ef1d5ee5d55e2169a1afcc67c9ed6182b876874cd3a55",
-          "state": "uploaded"
-        },
-        {
-          "name": "deepseek-windows-x64.exe",
-          "browser_download_url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.8.40/deepseek-windows-x64.exe",
-          "size": 12851200,
-          "digest": "sha256:b612189e3576a701662741e9ec6d21798b15fa7ab1fe9b68da632c2826bbf155",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "deepviewrt": {
     "version": "0.7.3",
     "resolverRevision": 2,
@@ -25396,19 +24193,10 @@
   "desk-exec": {
     "version": "0.1.5",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.1.5",
-      "assets": [
-        {
-          "name": "desk-exec-0.1.5-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/AxerTheAxe/desk-exec/releases/download/v0.1.5/desk-exec-0.1.5-x86_64.tar.gz",
-          "size": 1472132,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:01.308Z"
   },
   "detect-desktop-environment": {
     "version": "1.3.0",
@@ -25459,44 +24247,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "devops-metrics-tools": {
-    "version": "0.0.11",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.0.11",
-      "assets": [
-        {
-          "name": "devops-metrics-tools-v0.0.11-x86_64-unknown-linux-gnu.tar.xz",
-          "browser_download_url": "https://github.com/shwld/devperf/releases/download/v0.0.11/devops-metrics-tools-v0.0.11-x86_64-unknown-linux-gnu.tar.xz",
-          "size": 3773296,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "devops-metrics-tools-v0.0.11-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/shwld/devperf/releases/download/v0.0.11/devops-metrics-tools-v0.0.11-x86_64-pc-windows-msvc.zip",
-          "size": 9740539,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "devops-metrics-tools-v0.0.11-aarch64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/shwld/devperf/releases/download/v0.0.11/devops-metrics-tools-v0.0.11-aarch64-apple-darwin.tar.xz",
-          "size": 2745032,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "devops-metrics-tools-v0.0.11-x86_64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/shwld/devperf/releases/download/v0.0.11/devops-metrics-tools-v0.0.11-x86_64-apple-darwin.tar.xz",
-          "size": 2899820,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "devserver": {
     "version": "0.4.2",
@@ -25691,30 +24441,6 @@
     }
   },
   "dicom-fromimage": {
-    "version": "0.10.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.10.0",
-      "assets": [
-        {
-          "name": "dicom-rs-tools-v0.10.0-x86_64-linux-musl.zip",
-          "browser_download_url": "https://github.com/Enet4/dicom-rs/releases/download/v0.10.0/dicom-rs-tools-v0.10.0-x86_64-linux-musl.zip",
-          "size": 33543565,
-          "digest": "sha256:5045570c6605feaefd2455eac0230c17abf4a1fafeb4d9f4bf1f20bfd0b55c3a",
-          "state": "uploaded"
-        },
-        {
-          "name": "dicom-rs-tools-v0.10.0-x86_64-windows-msvc.zip",
-          "browser_download_url": "https://github.com/Enet4/dicom-rs/releases/download/v0.10.0/dicom-rs-tools-v0.10.0-x86_64-windows-msvc.zip",
-          "size": 27221792,
-          "digest": "sha256:d22dd9e3644d6f8c84a156b176253660e449b91ab7f6db6114b99c1c58955250",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "dicom-scpproxy": {
     "version": "0.10.0",
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
@@ -26004,53 +24730,13 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "dirscan": {
-    "version": "1.4.1",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.4.1",
-      "assets": [
-        {
-          "name": "dirscan-Linux-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/orf/dirscan/releases/download/v1.4.1/dirscan-Linux-x86_64.tar.gz",
-          "size": 770434,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "dirscan-Darwin-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/orf/dirscan/releases/download/v1.4.1/dirscan-Darwin-x86_64.tar.gz",
-          "size": 730163,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "dirscan-Windows-x86_64.zip",
-          "browser_download_url": "https://github.com/orf/dirscan/releases/download/v1.4.1/dirscan-Windows-x86_64.zip",
-          "size": 719149,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "dirstat-rs": {
     "version": "0.3.7",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.3.7",
-      "assets": [
-        {
-          "name": "dirstat-rs-v0.3.7-universal-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/scullionw/dirstat-rs/releases/download/v0.3.7/dirstat-rs-v0.3.7-universal-apple-darwin.tar.gz",
-          "size": 831427,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:39.627Z"
   },
   "dis-rs": {
     "version": "0.13.0",
@@ -26075,37 +24761,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "discloud": {
-    "version": "1.1.1",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.1.1",
-      "assets": [
-        {
-          "name": "discloud-x86_64-Linux.zip",
-          "browser_download_url": "https://github.com/discloud/cli-rust/releases/download/v1.1.1/discloud-x86_64-Linux.zip",
-          "size": 8382454,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "discloud-x86_64-macOS.zip",
-          "browser_download_url": "https://github.com/discloud/cli-rust/releases/download/v1.1.1/discloud-x86_64-macOS.zip",
-          "size": 4364653,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "discloud-x86_64-Windows.zip",
-          "browser_download_url": "https://github.com/discloud/cli-rust/releases/download/v1.1.1/discloud-x86_64-Windows.zip",
-          "size": 3472975,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "discv5-cli": {
     "version": "0.7.1",
@@ -27126,19 +25781,10 @@
   "duckduckgo": {
     "version": "0.3.3",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.3.3",
-      "assets": [
-        {
-          "name": "ddg.exe",
-          "browser_download_url": "https://github.com/wiseaidotdev/duckduckgo/releases/download/v0.3.3/ddg.exe",
-          "size": 10716160,
-          "digest": "sha256:955d36e7a2febe83893afa55058ca0a73181b128fb69e8496e2cf7b89ae944c2",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:52.650Z"
   },
   "ducker": {
     "version": "0.6.5",
@@ -27235,58 +25881,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "dvd-term": {
-    "version": "0.1.44",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.1.44",
-      "assets": [
-        {
-          "name": "dvd-term-v0.1.44-linux-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-linux-x86_64.tar.gz",
-          "size": 494815,
-          "digest": "sha256:6f5fdc362c09691991149b79ea7c04599e7881553592b3dab5050970d923002e",
-          "state": "uploaded"
-        },
-        {
-          "name": "dvd-term-v0.1.44-macos-arm64.tar.gz",
-          "browser_download_url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-macos-arm64.tar.gz",
-          "size": 452311,
-          "digest": "sha256:3edf19ec6bbd97d69b4aaaab1967c26e979816a813d2d48378c75aec38024166",
-          "state": "uploaded"
-        },
-        {
-          "name": "dvd-term-v0.1.44-macos-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-macos-x86_64.tar.gz",
-          "size": 479945,
-          "digest": "sha256:7edcd1b6a4e6be218258d2259feea791a371a5f6397e2ca92223a84c779a16ed",
-          "state": "uploaded"
-        },
-        {
-          "name": "dvd-term-v0.1.44-windows-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-windows-x86_64.tar.gz",
-          "size": 357730,
-          "digest": "sha256:457ade5f3e28f8edbef8a9f61fecaac19409e7d8f9ffc8efca2e66f443b7e753",
-          "state": "uploaded"
-        },
-        {
-          "name": "dvd-term-v0.1.44-linux-i686.tar.gz",
-          "browser_download_url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-linux-i686.tar.gz",
-          "size": 545614,
-          "digest": "sha256:8325ff0a696be35f792448888f0ffb442e27517fffc8716e8eb9aa9acff50f37",
-          "state": "uploaded"
-        },
-        {
-          "name": "dvd-term-v0.1.44-linux-arm64.tar.gz",
-          "browser_download_url": "https://github.com/alefnull/dvd-term/releases/download/v0.1.44/dvd-term-v0.1.44-linux-arm64.tar.gz",
-          "size": 458402,
-          "digest": "sha256:00ab8897f01c0d64bedb112d911d31780ad416a4a32f685322309c6091ecfbd6",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "dvm": {
     "version": "1.11.6",
@@ -27496,100 +26090,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "easytier": {
-    "version": "2.0.3",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v2.0.3",
-      "assets": [
-        {
-          "name": "easytier-macos-x86_64-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-macos-x86_64-v2.0.3.zip",
-          "size": 5417088,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-linux-mips-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-mips-v2.0.3.zip",
-          "size": 3207994,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-linux-mipsel-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-mipsel-v2.0.3.zip",
-          "size": 3250958,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-windows-x86_64-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-windows-x86_64-v2.0.3.zip",
-          "size": 5303454,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-macos-aarch64-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-macos-aarch64-v2.0.3.zip",
-          "size": 4973195,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-linux-x86_64-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-x86_64-v2.0.3.zip",
-          "size": 5384796,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-linux-armv7-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-armv7-v2.0.3.zip",
-          "size": 5117414,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-linux-armhf-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-armhf-v2.0.3.zip",
-          "size": 4866605,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-linux-arm-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-arm-v2.0.3.zip",
-          "size": 4810564,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-linux-aarch64-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-aarch64-v2.0.3.zip",
-          "size": 4650408,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-linux-armv7hf-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-armv7hf-v2.0.3.zip",
-          "size": 5230285,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "easytier-freebsd-13.2-x86_64-v2.0.3.zip",
-          "browser_download_url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-freebsd-13.2-x86_64-v2.0.3.zip",
-          "size": 6843319,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "eb": {
     "version": "0.5.0",
@@ -28088,26 +26588,10 @@
   "emv_tlv_parser": {
     "version": "0.1.11",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.1.11",
-      "assets": [
-        {
-          "name": "emv_tlv_parser_x86-64_linux.tar.gz",
-          "browser_download_url": "https://github.com/HosseinAssaran/TLV-Parser/releases/download/v0.1.11/emv_tlv_parser_x86-64_linux.tar.gz",
-          "size": 348697,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "emv_tlv_parser.exe",
-          "browser_download_url": "https://github.com/HosseinAssaran/TLV-Parser/releases/download/v0.1.11/emv_tlv_parser.exe",
-          "size": 655872,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:40.243Z"
   },
   "enalang": {
     "version": "0.6.1",
@@ -28367,19 +26851,10 @@
   "epitls-pi": {
     "version": "1.5.2",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.5.2",
-      "assets": [
-        {
-          "name": "epitls-pi-1.5.2-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/MBarnulf/epitls-pi/releases/download/v1.5.2/epitls-pi-1.5.2-x86_64.tar.gz",
-          "size": 568494,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:50.392Z"
   },
   "epm": {
     "version": "0.1.8",
@@ -29236,30 +27711,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "fcidr": {
-    "version": "0.10.2",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.10.2",
-      "assets": [
-        {
-          "name": "fcidr-Windows-X64.tar.gz",
-          "browser_download_url": "https://github.com/nicholaschiasson/fcidr/releases/download/0.10.2/fcidr-Windows-X64.tar.gz",
-          "size": 278130,
-          "digest": "sha256:798a6d0523a4b1d1bb25bf3083014c84a0edd8792b1642ca131ac0204a52646b",
-          "state": "uploaded"
-        },
-        {
-          "name": "fcidr-macOS-ARM64.tar.gz",
-          "browser_download_url": "https://github.com/nicholaschiasson/fcidr/releases/download/0.10.2/fcidr-macOS-ARM64.tar.gz",
-          "size": 393189,
-          "digest": "sha256:480ad42bc88a44c52cc6c1db4d4008604557e88d5be689769e278ac35dac0cc8",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "fcm-push-listener": {
     "version": "4.1.2",
     "resolverRevision": 2,
@@ -29428,40 +27879,10 @@
   "feeless": {
     "version": "0.1.11",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.1.11",
-      "assets": [
-        {
-          "name": "feeless-linux-64.tar.gz",
-          "browser_download_url": "https://github.com/feeless/feeless/releases/download/v0.1.11/feeless-linux-64.tar.gz",
-          "size": 2910576,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "feeless-linux-armv7.tar.gz",
-          "browser_download_url": "https://github.com/feeless/feeless/releases/download/v0.1.11/feeless-linux-armv7.tar.gz",
-          "size": 2856697,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "feeless-win-64.zip",
-          "browser_download_url": "https://github.com/feeless/feeless/releases/download/v0.1.11/feeless-win-64.zip",
-          "size": 1533250,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "feeless-macos-64.tar.gz",
-          "browser_download_url": "https://github.com/feeless/feeless/releases/download/v0.1.11/feeless-macos-64.tar.gz",
-          "size": 1910801,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:34.036Z"
   },
   "fekan": {
     "version": "0.6.5",
@@ -29820,19 +28241,10 @@
   "filetool": {
     "version": "0.6.5",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.6.5",
-      "assets": [
-        {
-          "name": "filetool.exe",
-          "browser_download_url": "https://github.com/jeremyje/filetools/releases/download/v0.6.5/filetool.exe",
-          "size": 8037607,
-          "digest": "sha256:ea2fc5bd0ee604f7900d8e0cc8675410608f906aeca41995c26c4dcc207a6b52",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:54.132Z"
   },
   "filetree-traversing": {
     "version": "0.1.10",
@@ -30167,33 +28579,10 @@
   "flexlint": {
     "version": "0.2.7",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.7",
-      "assets": [
-        {
-          "name": "flexlint-v0.2.7-x86_64-lnx.zip",
-          "browser_download_url": "https://github.com/dalance/flexlint/releases/download/v0.2.7/flexlint-v0.2.7-x86_64-lnx.zip",
-          "size": 2437457,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "flexlint-v0.2.7-x86_64-mac.zip",
-          "browser_download_url": "https://github.com/dalance/flexlint/releases/download/v0.2.7/flexlint-v0.2.7-x86_64-mac.zip",
-          "size": 1338611,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "flexlint-v0.2.7-x86_64-win.zip",
-          "browser_download_url": "https://github.com/dalance/flexlint/releases/download/v0.2.7/flexlint-v0.2.7-x86_64-win.zip",
-          "size": 1042034,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:32.701Z"
   },
   "flexpolyline": {
     "version": "1.0.0",
@@ -30900,152 +29289,10 @@
   "fresh-editor": {
     "version": "0.5.4",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.5.4",
-      "assets": [
-        {
-          "name": "fresh-editor-x86_64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-x86_64-apple-darwin.tar.xz",
-          "size": 10283532,
-          "digest": "sha256:a75833fed2288c9e6bf7657221ce5026e44cbc3b141b1b27a36e9c16084e8bac",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-aarch64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-aarch64-apple-darwin.tar.xz",
-          "size": 10290884,
-          "digest": "sha256:c722ce9ae6f92f9c4f5ba112f187296ba5bbb53d53e0c82478249becc9859cc4",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-aarch64-unknown-linux-musl.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-aarch64-unknown-linux-musl.tar.xz",
-          "size": 11516280,
-          "digest": "sha256:423640b2700124affcb6368c8458990e880585d114279c0f4e502f0013a5776f",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-aarch64-unknown-linux-gnu.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-aarch64-unknown-linux-gnu.tar.xz",
-          "size": 11661804,
-          "digest": "sha256:df10f648d81e194f613b975d63d4cdea3ccf3f6177325793701a50ce795ab143",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-x86_64-unknown-freebsd.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-x86_64-unknown-freebsd.tar.xz",
-          "size": 10917488,
-          "digest": "sha256:e35942f2d72588a3be039017c803d032d159e5743643c6a5b5ac16cd95445140",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-x86_64-unknown-linux-musl.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-x86_64-unknown-linux-musl.tar.xz",
-          "size": 11492220,
-          "digest": "sha256:ab3aa0dc7f8e5b5e2836b4e3a7ed457d90ec4954b0271217eb10bf3ba5454142",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor_0.5.4-1.debian.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor_0.5.4-1.debian.tar.xz",
-          "size": 2984,
-          "digest": "sha256:55b620690c8e2a68acd4e77dd5f278764bb57f9d63c2d40dbc9c7459d3aebc48",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-x86_64-unknown-linux-gnu.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-x86_64-unknown-linux-gnu.tar.xz",
-          "size": 11457680,
-          "digest": "sha256:e3599c93b1eece4700d7c30726b461c9b962a91bee5da31cdf44e3dffeb6206c",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-min-size-aarch64-unknown-linux-musl.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-min-size-aarch64-unknown-linux-musl.tar.xz",
-          "size": 4945492,
-          "digest": "sha256:a199905ae2b57b7404fa5d8f375ee2efb23b65fcbfa2986e7cf52742873bd1f2",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-min-size-x86_64-unknown-linux-musl.tar.xz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-min-size-x86_64-unknown-linux-musl.tar.xz",
-          "size": 5311324,
-          "digest": "sha256:dc104950d6a1883b91d6e8344385788b3dab9f2213ef97039794ce64ef76265f",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-0.5.4-source.tar.gz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-0.5.4-source.tar.gz",
-          "size": 52263055,
-          "digest": "sha256:be86a8152a676f211415471405aa5719be2cd0555a1763af11cbb0feb4126668",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-aarch64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-aarch64-unknown-linux-musl.tar.gz",
-          "size": 15623370,
-          "digest": "sha256:5897dd4af0845b442621eb4c740d5d39edbca873c8caab27a457fe0480ea72b4",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-npm-package.tar.gz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-npm-package.tar.gz",
-          "size": 120089,
-          "digest": "sha256:81dbebb9a8bdd28deb2921ed5cd5ff3ef487e1444e397d94c4dd08d4f9d4d45e",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-x86_64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-x86_64-unknown-linux-musl.tar.gz",
-          "size": 15340702,
-          "digest": "sha256:27495dfd093b41e56ca3d9a73476df2c90ac4864dc36e2c6a8a7c98e6f9f969a",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor_0.5.4-1.debian-testing-source.tar.gz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor_0.5.4-1.debian-testing-source.tar.gz",
-          "size": 44738164,
-          "digest": "sha256:76d096e65c2107c476619b8039c5e627b33bffd1f1d12396d6beee7a2124de71",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor_0.5.4.orig.tar.gz",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor_0.5.4.orig.tar.gz",
-          "size": 185978788,
-          "digest": "sha256:91dabf5f21b2327527cf7a18b7afb034239bf0afb411b4557e51939fac2ff8be",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-aarch64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-aarch64-pc-windows-msvc.zip",
-          "size": 13655831,
-          "digest": "sha256:8f433388eac7fd02823b53c66439645d1a2e648fe883f9b820c95d415c990f3e",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-editor-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-editor-x86_64-pc-windows-msvc.zip",
-          "size": 14103201,
-          "digest": "sha256:8db606d9328709ba07d65f52e3e5d46b345cb535d5d74227facd6f5c6da03ad1",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-gui-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-gui-x86_64-pc-windows-msvc.zip",
-          "size": 16264045,
-          "digest": "sha256:ef78f713730a159272380ff33d2bdda166abffdb1c18f632ce1f8a6edf449c46",
-          "state": "uploaded"
-        },
-        {
-          "name": "fresh-gui-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/sinelaw/fresh/releases/download/v0.5.4/fresh-gui-x86_64-pc-windows-msvc.exe",
-          "size": 45262848,
-          "digest": "sha256:55e21ae5aa16fd0b8f8bd77f633d46892a1384e7e4d055da387dd7801784dfcf",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:42.966Z"
   },
   "freta": {
     "version": "0.22.0",
@@ -32062,72 +30309,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "gistit": {
-    "version": "0.2.3",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.3",
-      "assets": [
-        {
-          "name": "gistit-linux-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/demfabris/gistit/releases/download/v0.2.3/gistit-linux-x86_64.tar.gz",
-          "size": 4757526,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gistit-musl-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/demfabris/gistit/releases/download/v0.2.3/gistit-musl-x86_64.tar.gz",
-          "size": 6120796,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gistit-daemon-linux-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/demfabris/gistit/releases/download/v0.2.3/gistit-daemon-linux-x86_64.tar.gz",
-          "size": 4872266,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gistit-daemon-musl-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/demfabris/gistit/releases/download/v0.2.3/gistit-daemon-musl-x86_64.tar.gz",
-          "size": 4990871,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gistit-darwin-arm64.tar.gz",
-          "browser_download_url": "https://github.com/demfabris/gistit/releases/download/v0.2.3/gistit-darwin-arm64.tar.gz",
-          "size": 3421676,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gistit-daemon-darwin-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/demfabris/gistit/releases/download/v0.2.3/gistit-daemon-darwin-x86_64.tar.gz",
-          "size": 170803,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gistit-darwin-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/demfabris/gistit/releases/download/v0.2.3/gistit-darwin-x86_64.tar.gz",
-          "size": 57920,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gistit-daemon-darwin-arm64.tar.gz",
-          "browser_download_url": "https://github.com/demfabris/gistit/releases/download/v0.2.3/gistit-daemon-darwin-arm64.tar.gz",
-          "size": 129264,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "git_flow": {
     "version": "0.0.6",
     "resolverRevision": 2,
@@ -32378,40 +30559,10 @@
   "git-branchless-smartlog": {
     "version": "0.11.1",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.11.1",
-      "assets": [
-        {
-          "name": "git-branchless-v0.11.1-aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/arxanas/git-branchless/releases/download/v0.11.1/git-branchless-v0.11.1-aarch64-apple-darwin.tar.gz",
-          "size": 7855737,
-          "digest": "sha256:1150c869de3e68d670eea82d1622b8d3add1bc086750e89a9343adc44944f1f1",
-          "state": "uploaded"
-        },
-        {
-          "name": "git-branchless-v0.11.1-aarch64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/arxanas/git-branchless/releases/download/v0.11.1/git-branchless-v0.11.1-aarch64-unknown-linux-musl.tar.gz",
-          "size": 8751263,
-          "digest": "sha256:acb104bb91b69acd10ea0c8f9c1281ecce07c1346bee762317147d0fdf8e7463",
-          "state": "uploaded"
-        },
-        {
-          "name": "git-branchless-v0.11.1-x86_64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/arxanas/git-branchless/releases/download/v0.11.1/git-branchless-v0.11.1-x86_64-unknown-linux-musl.tar.gz",
-          "size": 9087503,
-          "digest": "sha256:18e924fba1862ae234651b2b2de40ccf6ee2dd9b068279705a0d242f5d413e00",
-          "state": "uploaded"
-        },
-        {
-          "name": "git-branchless-v0.11.1-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/arxanas/git-branchless/releases/download/v0.11.1/git-branchless-v0.11.1-x86_64-pc-windows-msvc.zip",
-          "size": 6484941,
-          "digest": "sha256:94b3497fa98f0ca3a2bf0a2d089349843bc2a2103096cc008d8b397576bb5325",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:59.796Z"
   },
   "git-branchless-submit": {
     "version": "0.11.1",
@@ -32521,51 +30672,6 @@
           "browser_download_url": "https://github.com/aldrin/git-changelog/releases/download/v0.3.1/git-changelog-v0.3.1-windows.zip",
           "size": 969802,
           "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "git-cinnabar": {
-    "version": "0.7.5",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.7.5",
-      "assets": [
-        {
-          "name": "git-cinnabar.macos.x86_64.tar.xz",
-          "browser_download_url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.macos.x86_64.tar.xz",
-          "size": 2045480,
-          "digest": "sha256:cfa906afb94a835d598e603ae2d4f3b008949bd5130b5e061692ff9c9aaeeb2d",
-          "state": "uploaded"
-        },
-        {
-          "name": "git-cinnabar.linux.x86_64.tar.xz",
-          "browser_download_url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.linux.x86_64.tar.xz",
-          "size": 2103904,
-          "digest": "sha256:bf10216589af63f9470f4d7eaf2e8a78cd0b9400c7c09e8b02e8d590f087fc88",
-          "state": "uploaded"
-        },
-        {
-          "name": "git-cinnabar.linux.arm64.tar.xz",
-          "browser_download_url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.linux.arm64.tar.xz",
-          "size": 1914008,
-          "digest": "sha256:ba6be44962e042b67c6e803c92ff1cee89f8198d3dd1ef8ed747e53f0577b155",
-          "state": "uploaded"
-        },
-        {
-          "name": "git-cinnabar.windows.x86_64.zip",
-          "browser_download_url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.windows.x86_64.zip",
-          "size": 7068230,
-          "digest": "sha256:8b47c6709e62ab65254c76129436cfeb25eae468bdaea9f429b1ae420fcf000a",
-          "state": "uploaded"
-        },
-        {
-          "name": "git-cinnabar.macos.arm64.tar.xz",
-          "browser_download_url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.macos.arm64.tar.xz",
-          "size": 1784244,
-          "digest": "sha256:3a5372f7d96eeba6fdf42e2e9b2d938d84c53eca08ba1d8ac8111c8ceb2aca79",
           "state": "uploaded"
         }
       ]
@@ -33149,47 +31255,10 @@
   "gnostr_qr": {
     "version": "1895.933117.678085",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1895.933117.678085",
-      "assets": [
-        {
-          "name": "gnostr-aarch64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/gnostr-org/gnostr/releases/download/v1895.933117.678085/gnostr-aarch64-apple-darwin.tar.xz",
-          "size": 32223628,
-          "digest": "sha256:ac1b7f94796077c2479bc9fb99b60c8267977dad3ca1e08d577ae86ad61861cb",
-          "state": "uploaded"
-        },
-        {
-          "name": "gnostr-x86_64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/gnostr-org/gnostr/releases/download/v1895.933117.678085/gnostr-x86_64-apple-darwin.tar.xz",
-          "size": 32574408,
-          "digest": "sha256:4ecb772cc476a9568bdb631570093e67e5c48e457d0cd3cc9722e4cab3e19c47",
-          "state": "uploaded"
-        },
-        {
-          "name": "gnostr-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/gnostr-org/gnostr/releases/download/v1895.933117.678085/gnostr-x86_64-pc-windows-msvc.zip",
-          "size": 90907606,
-          "digest": "sha256:de0e1380f5f04b7bcc3630af990265317e0053b227522676a1a88c0b00e00832",
-          "state": "uploaded"
-        },
-        {
-          "name": "gnostr-x86_64-unknown-linux-gnu.tar.xz",
-          "browser_download_url": "https://github.com/gnostr-org/gnostr/releases/download/v1895.933117.678085/gnostr-x86_64-unknown-linux-gnu.tar.xz",
-          "size": 36964264,
-          "digest": "sha256:40aba2fc981b501fc83d21d22b19f5c424e9780709ee4ff92930fb34577c5bc2",
-          "state": "uploaded"
-        },
-        {
-          "name": "source.tar.gz",
-          "browser_download_url": "https://github.com/gnostr-org/gnostr/releases/download/v1895.933117.678085/source.tar.gz",
-          "size": 61633216,
-          "digest": "sha256:a23cae63b26699281e017e27cc283cbd07c9271312a219c9be2f6595f107e4fb",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:11.831Z"
   },
   "gnostr-asyncgit": {
     "version": "1878.945702.534429",
@@ -33298,72 +31367,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "goku-bench": {
-    "version": "3.0.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v3.0.0",
-      "assets": [
-        {
-          "name": "goku-Linux-musl-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-Linux-musl-x86_64.tar.gz",
-          "size": 2688644,
-          "digest": "sha256:e12e9bdf0df078cb09f17914ab368b2601b328e7c99e7d56d0c07d9012dcd9b9",
-          "state": "uploaded"
-        },
-        {
-          "name": "goku-mcp-Linux-musl-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-mcp-Linux-musl-x86_64.tar.gz",
-          "size": 2737200,
-          "digest": "sha256:6778cfd20ef125c8eee71fcd650c5ebb24a5b91de1e278ebfd3ba3b423aee403",
-          "state": "uploaded"
-        },
-        {
-          "name": "goku-Linux-musl-arm64.tar.gz",
-          "browser_download_url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-Linux-musl-arm64.tar.gz",
-          "size": 2443731,
-          "digest": "sha256:6f6c2cd91ee77a9fc13034fb71102082b25b0df89a8c1adb0965ba58c8ff873e",
-          "state": "uploaded"
-        },
-        {
-          "name": "goku-mcp-Linux-musl-arm64.tar.gz",
-          "browser_download_url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-mcp-Linux-musl-arm64.tar.gz",
-          "size": 2478641,
-          "digest": "sha256:f79a26203516c008cbf1a5d58f6d97b0dba9d62a3cd7ccf2d4b3009cca1c9512",
-          "state": "uploaded"
-        },
-        {
-          "name": "goku-macOS-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-macOS-x86_64.tar.gz",
-          "size": 2547489,
-          "digest": "sha256:372a328f0a8034f37bf153207c115b1203f50a32522b299aa1d9b4c065efb3ef",
-          "state": "uploaded"
-        },
-        {
-          "name": "goku-mcp-macOS-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-mcp-macOS-x86_64.tar.gz",
-          "size": 2594405,
-          "digest": "sha256:3de2068d77399e88c6ba78e520bae52854b1c66f123ed10f95924d7afe0a449f",
-          "state": "uploaded"
-        },
-        {
-          "name": "goku-Windows-msvc-x86_64.zip",
-          "browser_download_url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-Windows-msvc-x86_64.zip",
-          "size": 2092373,
-          "digest": "sha256:a5ada417d292a1e8e098a18d67921ff88299e1426d0d2ce22d07784817f2e5fb",
-          "state": "uploaded"
-        },
-        {
-          "name": "goku-mcp-Windows-msvc-x86_64.zip",
-          "browser_download_url": "https://github.com/jcaromiq/goku/releases/download/v3.0.0/goku-mcp-Windows-msvc-x86_64.zip",
-          "size": 2147647,
-          "digest": "sha256:2eb6cda343030e5fa463439438181f5f2cdb233a2bcdb3709a6c315c14a42aa4",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "gokz_rs": {
     "version": "0.1.0",
@@ -33849,51 +31852,6 @@
       ]
     }
   },
-  "gpterm": {
-    "version": "0.1.11",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.1.11",
-      "assets": [
-        {
-          "name": "gpterm_v0.1.11_x86_64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/frikkherding/gpterm/releases/download/v0.1.11/gpterm_v0.1.11_x86_64-unknown-linux-musl.tar.gz",
-          "size": 4110756,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gpterm_v0.1.11_x86_64-unknown-linux-musl.tar.xz",
-          "browser_download_url": "https://github.com/frikkherding/gpterm/releases/download/v0.1.11/gpterm_v0.1.11_x86_64-unknown-linux-musl.tar.xz",
-          "size": 2965764,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gpterm_v0.1.11_x86_64-unknown-linux-musl.tar.zst",
-          "browser_download_url": "https://github.com/frikkherding/gpterm/releases/download/v0.1.11/gpterm_v0.1.11_x86_64-unknown-linux-musl.tar.zst",
-          "size": 3943668,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gpterm_v0.1.11_x86_64-apple-darwin.zip",
-          "browser_download_url": "https://github.com/frikkherding/gpterm/releases/download/v0.1.11/gpterm_v0.1.11_x86_64-apple-darwin.zip",
-          "size": 2700066,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "gpterm_v0.1.11_x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/frikkherding/gpterm/releases/download/v0.1.11/gpterm_v0.1.11_x86_64-apple-darwin.tar.gz",
-          "size": 2718761,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "gptman": {
     "version": "1.1.0",
     "resolverRevision": 2,
@@ -33904,19 +31862,10 @@
   "gpto": {
     "version": "0.2.2",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.2",
-      "assets": [
-        {
-          "name": "gpto-0.2.2-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/alanvardy/gpto/releases/download/v0.2.2/gpto-0.2.2-x86_64.tar.gz",
-          "size": 1732827,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:44.753Z"
   },
   "gptshell": {
     "version": "0.1.11",
@@ -34154,100 +32103,6 @@
       ]
     }
   },
-  "greentic-mcp-exec": {
-    "version": "1.2.1",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.2.1",
-      "assets": [
-        {
-          "name": "greentic-mcp-v1.2.1-aarch64-apple-darwin.tgz",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-v1.2.1-aarch64-apple-darwin.tgz",
-          "size": 697852,
-          "digest": "sha256:49cba62f71e2778b6182f4171594e5ae294f442342fc551536cc1c499769a1e4",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-exec-v1.2.1-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-x86_64-unknown-linux-gnu.tgz",
-          "size": 9611237,
-          "digest": "sha256:7aff48c5a0e0cbbfa63697250489bb1ecadcd418171507355ea5ad9ff0d635c9",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-exec-v1.2.1-x86_64-apple-darwin.tgz",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-x86_64-apple-darwin.tgz",
-          "size": 9489813,
-          "digest": "sha256:559e36a340294b96fd79c1d89973f3b08743fbbca8ac74c90ce25d1c6ec40b24",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-exec-v1.2.1-aarch64-apple-darwin.tgz",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-aarch64-apple-darwin.tgz",
-          "size": 8552607,
-          "digest": "sha256:8db791f50bda0100d5542c435c57cfdb172af2c63323ec4cb4fc7c91a4122fc5",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-exec-v1.2.1-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-aarch64-unknown-linux-gnu.tgz",
-          "size": 8987045,
-          "digest": "sha256:5f592fee8bc9cc8b9311787bcbae157a9828b4e680b5232c39d89482d2b3fc5d",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-v1.2.1-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-v1.2.1-aarch64-unknown-linux-gnu.tgz",
-          "size": 745034,
-          "digest": "sha256:206bbb0364a5bb59a9665546522d78f1e95a3687d7d7eefc7bc8019a1f7b5c28",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-v1.2.1-x86_64-apple-darwin.tgz",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-v1.2.1-x86_64-apple-darwin.tgz",
-          "size": 710838,
-          "digest": "sha256:5b3ee2cd349b85b0529cba82dc4256649e3efd9f177bd7ca32fa2df4da0a2ec5",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-v1.2.1-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-v1.2.1-x86_64-unknown-linux-gnu.tgz",
-          "size": 931735,
-          "digest": "sha256:8a12c1142e2a45a49949b02398f2489a1c575c8d2efd9324d8eb8e2ee17b4641",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-exec-v1.2.1-aarch64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-aarch64-pc-windows-msvc.zip",
-          "size": 7311798,
-          "digest": "sha256:486b5abfbf6d929aba70828fed7ad7016e790881b1027fb14f81a6b71161b1b7",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-exec-v1.2.1-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-x86_64-pc-windows-msvc.zip",
-          "size": 8387317,
-          "digest": "sha256:a55ce3899a5b9d40f6bb5c10c5759b2119bbf9362e2e79c602bd591782f651b2",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-v1.2.1-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-v1.2.1-x86_64-pc-windows-msvc.zip",
-          "size": 594454,
-          "digest": "sha256:ffcdd1eea474ec2e3ed3956d0f2816a0b8c1a83c748015ae811cd9bc09335709",
-          "state": "uploaded"
-        },
-        {
-          "name": "greentic-mcp-v1.2.1-aarch64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-v1.2.1-aarch64-pc-windows-msvc.zip",
-          "size": 572744,
-          "digest": "sha256:45abf0edc9fed7514576f13017717197c1b0d70ec721c80ea4873def31f8ca8f",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "greentic-session": {
     "version": "0.4.0",
     "resolverRevision": 2,
@@ -34301,23 +32156,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "grimoire_css_color_toolkit": {
-    "version": "1.0.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.0.0",
-      "assets": [
-        {
-          "name": "grimoire_css_color_toolkit_windows_x86_64.exe",
-          "browser_download_url": "https://github.com/persevie/grimoire-css-color-toolkit/releases/download/v1.0.0/grimoire_css_color_toolkit_windows_x86_64.exe",
-          "size": 1030144,
-          "digest": "sha256:dc89da190441c8b834ad089176c19626c0dedfba7f702b6d63878190f0bbc0ae",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "gring": {
     "version": "1.10.0",
@@ -34512,40 +32350,10 @@
   "h2n5": {
     "version": "0.1.9",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.1.9",
-      "assets": [
-        {
-          "name": "h2n5-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/aschampion/h2n5/releases/download/v0.1.9/h2n5-x86_64-unknown-linux-gnu.tgz",
-          "size": 2478976,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "h2n5-x86_64-apple-darwin.tgz",
-          "browser_download_url": "https://github.com/aschampion/h2n5/releases/download/v0.1.9/h2n5-x86_64-apple-darwin.tgz",
-          "size": 2139035,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "h2n5-aarch64-apple-darwin.tgz",
-          "browser_download_url": "https://github.com/aschampion/h2n5/releases/download/v0.1.9/h2n5-aarch64-apple-darwin.tgz",
-          "size": 2027472,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "h2n5-x86_64-pc-windows-msvc.tgz",
-          "browser_download_url": "https://github.com/aschampion/h2n5/releases/download/v0.1.9/h2n5-x86_64-pc-windows-msvc.tgz",
-          "size": 1867465,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:44.541Z"
   },
   "h3i": {
     "version": "0.7.0",
@@ -34558,58 +32366,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "h3o-cli": {
-    "version": "0.2.12",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.12",
-      "assets": [
-        {
-          "name": "h3o-cli-v0.2.12-linux-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-linux-x86_64.tar.gz",
-          "size": 1070400,
-          "digest": "sha256:32c4dd07d5eed0843abab65948097a7bec7998ce7fdeb101be94be2c365cbf5b",
-          "state": "uploaded"
-        },
-        {
-          "name": "h3o-cli-v0.2.12-macos-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-macos-x86_64.tar.gz",
-          "size": 1037201,
-          "digest": "sha256:8ff409d7a34979f9f803c2e196912c4c24bfb4cdfa44d7d36e1ffe7eceddd7ba",
-          "state": "uploaded"
-        },
-        {
-          "name": "h3o-cli-v0.2.12-macos-arm64.tar.gz",
-          "browser_download_url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-macos-arm64.tar.gz",
-          "size": 978760,
-          "digest": "sha256:ca0234a40def11ff334cb3b1940bddde91047267d998793d68dc2a8e24ccb2ce",
-          "state": "uploaded"
-        },
-        {
-          "name": "h3o-cli-v0.2.12-windows-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-windows-x86_64.tar.gz",
-          "size": 961468,
-          "digest": "sha256:d3a401b6c1ba6d0f08b9ca3dd4df9652d9fbe79ea5c305c3ab7bf398eb8e224d",
-          "state": "uploaded"
-        },
-        {
-          "name": "h3o-cli-v0.2.12-linux-i686.tar.gz",
-          "browser_download_url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-linux-i686.tar.gz",
-          "size": 1204888,
-          "digest": "sha256:c583da481e055dcccd885992c1110ae287bc1df0738ef1f02961f0e1a787b6d0",
-          "state": "uploaded"
-        },
-        {
-          "name": "h3o-cli-v0.2.12-linux-arm64.tar.gz",
-          "browser_download_url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-linux-arm64.tar.gz",
-          "size": 985191,
-          "digest": "sha256:aa98b748a29f880430ee201506a9767bb278e1d8db4fb9dd813b446497e80667",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "hack_asm": {
     "version": "1.0.2",
@@ -34756,44 +32512,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "hanoi-speedrapp": {
-    "version": "0.5.1",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.5.1",
-      "assets": [
-        {
-          "name": "hanoi-speedrapp-v0.5.1-x86_64-windows.zip",
-          "browser_download_url": "https://github.com/SpeckyYT/hanoi-speedrapp/releases/download/v0.5.1/hanoi-speedrapp-v0.5.1-x86_64-windows.zip",
-          "size": 2211857,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "hanoi-speedrapp-v0.5.1-x86_64-macos.tar.xz",
-          "browser_download_url": "https://github.com/SpeckyYT/hanoi-speedrapp/releases/download/v0.5.1/hanoi-speedrapp-v0.5.1-x86_64-macos.tar.xz",
-          "size": 1928816,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "hanoi-speedrapp-v0.5.1-x86_64-linux.tar.xz",
-          "browser_download_url": "https://github.com/SpeckyYT/hanoi-speedrapp/releases/download/v0.5.1/hanoi-speedrapp-v0.5.1-x86_64-linux.tar.xz",
-          "size": 2889880,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "hanoi-speedrapp-v0.5.1-aarch64-linux.tar.xz",
-          "browser_download_url": "https://github.com/SpeckyYT/hanoi-speedrapp/releases/download/v0.5.1/hanoi-speedrapp-v0.5.1-aarch64-linux.tar.xz",
-          "size": 2555160,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "haqq-indexer-proto": {
     "version": "0.0.22",
@@ -35587,33 +33305,10 @@
   "hmmcli": {
     "version": "0.6.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.6.0",
-      "assets": [
-        {
-          "name": "hmm-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/samwho/hmm/releases/download/v0.6.0/hmm-x86_64-apple-darwin.tar.gz",
-          "size": 2713122,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "hmm-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/samwho/hmm/releases/download/v0.6.0/hmm-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 2914538,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "hmm-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/samwho/hmm/releases/download/v0.6.0/hmm-x86_64-pc-windows-msvc.zip",
-          "size": 2467654,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:53.951Z"
   },
   "hoard": {
     "version": "0.6.1",
@@ -36489,65 +34184,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "http-relay": {
-    "version": "0.7.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.7.0",
-      "assets": [
-        {
-          "name": "http-relay-windows-x64.zip",
-          "browser_download_url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-windows-x64.zip",
-          "size": 2420622,
-          "digest": "sha256:3ddfc666ff7e3e660ec1b72b2969eff950b67a69ca4e6db5d1f1801a261d0d13",
-          "state": "uploaded"
-        },
-        {
-          "name": "http-relay-macos-x64.tar.gz",
-          "browser_download_url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-macos-x64.tar.gz",
-          "size": 2897168,
-          "digest": "sha256:79a770e633b8ea8e214fb1c8a63e5d6b1c199119d6ef16b1faa954b97a74bfc3",
-          "state": "uploaded"
-        },
-        {
-          "name": "http-relay-linux-x64.tar.gz",
-          "browser_download_url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-linux-x64.tar.gz",
-          "size": 3065044,
-          "digest": "sha256:b48829d081984ca9e46b9d893635401ca7509a78658f5f9e9870d5bc2751c147",
-          "state": "uploaded"
-        },
-        {
-          "name": "http-relay-windows-arm64.zip",
-          "browser_download_url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-windows-arm64.zip",
-          "size": 2208404,
-          "digest": "sha256:f8db4c18714b8c726afa2258a36811fbdd0e5a5bf3f9e4900f30a4082aad7162",
-          "state": "uploaded"
-        },
-        {
-          "name": "http-relay-linux-arm64.tar.gz",
-          "browser_download_url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-linux-arm64.tar.gz",
-          "size": 3020820,
-          "digest": "sha256:b349c04843598a1eb3e64db3df72a27a805484ef34516477ce939eab622fb698",
-          "state": "uploaded"
-        },
-        {
-          "name": "http-relay-macos-arm64.tar.gz",
-          "browser_download_url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-macos-arm64.tar.gz",
-          "size": 2763023,
-          "digest": "sha256:6d48ea3a4303dd26b757f2c5463c000818c8e2e442cd1c03fa39294acf8792b2",
-          "state": "uploaded"
-        },
-        {
-          "name": "http-relay-linux-x64-musl.tar.gz",
-          "browser_download_url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-linux-x64-musl.tar.gz",
-          "size": 3157519,
-          "digest": "sha256:51a50af04133a0e836ed539bf1c7c825496e2c98a03f487c825563cbe764bafc",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "http-rest-file": {
     "version": "0.5.1",
     "resolverRevision": 2,
@@ -36565,51 +34201,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "http-stat": {
-    "version": "0.9.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.9.0",
-      "assets": [
-        {
-          "name": "httpstat-linux-musl-aarch64.tar.gz",
-          "browser_download_url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-linux-musl-aarch64.tar.gz",
-          "size": 2084515,
-          "digest": "sha256:50574f6108bb86a97d968c8c72e189526f1bef39f91c6212f61d84456b93a744",
-          "state": "uploaded"
-        },
-        {
-          "name": "httpstat-linux-musl-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-linux-musl-x86_64.tar.gz",
-          "size": 2212868,
-          "digest": "sha256:7db36eb57c2f53b52b41a7e14281c783f5a3707f50615ff548ab6225e38d895a",
-          "state": "uploaded"
-        },
-        {
-          "name": "httpstat-windows.exe.zip",
-          "browser_download_url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-windows.exe.zip",
-          "size": 1865103,
-          "digest": "sha256:89fe28baf379cd1fd4ae6bb4373563639ee23b302b51435a090f56e8aec51ad1",
-          "state": "uploaded"
-        },
-        {
-          "name": "httpstat-darwin-arm64.tar.gz",
-          "browser_download_url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-darwin-arm64.tar.gz",
-          "size": 1797064,
-          "digest": "sha256:dbfb08574784c3033c03fad15440d3bd878c74b805987636bbfd855d216f1daa",
-          "state": "uploaded"
-        },
-        {
-          "name": "httpstat-darwin-x86_64.tar.gz",
-          "browser_download_url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-darwin-x86_64.tar.gz",
-          "size": 1917681,
-          "digest": "sha256:a2d0aef9f89904722bf39ac22fa7ebda8803200dd2c23502e601678e4362bc50",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "http-tunnel": {
     "version": "0.1.11",
@@ -37553,33 +35144,10 @@
   "image-to-ascii": {
     "version": "0.7.2",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.7.2",
-      "assets": [
-        {
-          "name": "windows.executable.zip",
-          "browser_download_url": "https://github.com/kpberry/image-to-ascii/releases/download/0.7.2/windows.executable.zip",
-          "size": 1934943,
-          "digest": "sha256:5853763be0c4b9aef14a7eab2065e80708b67b8665551088881c5a390825ae7d",
-          "state": "uploaded"
-        },
-        {
-          "name": "ubuntu.executable.zip",
-          "browser_download_url": "https://github.com/kpberry/image-to-ascii/releases/download/0.7.2/ubuntu.executable.zip",
-          "size": 2300137,
-          "digest": "sha256:5e8831c11e2bf374aa5167e00e867b539730784ea6e944794099befdef967149",
-          "state": "uploaded"
-        },
-        {
-          "name": "macos.executable.zip",
-          "browser_download_url": "https://github.com/kpberry/image-to-ascii/releases/download/0.7.2/macos.executable.zip",
-          "size": 2101362,
-          "digest": "sha256:f1e039f76d95bd32b5e0ccf55fede52f18148bee042f440de8645fc378d857ef",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:43.790Z"
   },
   "image2emblem": {
     "version": "1.0.0",
@@ -37662,54 +35230,10 @@
   "imperator-tiger": {
     "version": "1.19.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.19.0",
-      "assets": [
-        {
-          "name": "vic3-tiger-windows-v1.19.0.zip",
-          "browser_download_url": "https://github.com/amtep/tiger/releases/download/v1.19.0/vic3-tiger-windows-v1.19.0.zip",
-          "size": 7539143,
-          "digest": "sha256:45022a8fd91ed817f49712f35626d05c142715c8d0dc715c7b5bb7ac926ef8d7",
-          "state": "uploaded"
-        },
-        {
-          "name": "imperator-tiger-windows-v1.19.0.zip",
-          "browser_download_url": "https://github.com/amtep/tiger/releases/download/v1.19.0/imperator-tiger-windows-v1.19.0.zip",
-          "size": 4495375,
-          "digest": "sha256:f5d3537ab05fc590b09997700bddcac80bbcf41986713d2bf9e2a2643e5b9444",
-          "state": "uploaded"
-        },
-        {
-          "name": "ck3-tiger-windows-v1.19.0.zip",
-          "browser_download_url": "https://github.com/amtep/tiger/releases/download/v1.19.0/ck3-tiger-windows-v1.19.0.zip",
-          "size": 8183016,
-          "digest": "sha256:ddafd73abcff8e802b82bf3ae622d02c04dfc8a9dd0cad44b2dbf67568a10505",
-          "state": "uploaded"
-        },
-        {
-          "name": "vic3-tiger-linux-v1.19.0.tar.gz",
-          "browser_download_url": "https://github.com/amtep/tiger/releases/download/v1.19.0/vic3-tiger-linux-v1.19.0.tar.gz",
-          "size": 8749509,
-          "digest": "sha256:eff63a3f74646634f81d0f2fc4e7f631c2b9276055ce3cd0e0cace0866c64ec4",
-          "state": "uploaded"
-        },
-        {
-          "name": "imperator-tiger-linux-v1.19.0.tar.gz",
-          "browser_download_url": "https://github.com/amtep/tiger/releases/download/v1.19.0/imperator-tiger-linux-v1.19.0.tar.gz",
-          "size": 5328894,
-          "digest": "sha256:591a88df9a58f9788cae5b9e47715fa7835949622a6b2a876f85a7b5ac06ddeb",
-          "state": "uploaded"
-        },
-        {
-          "name": "ck3-tiger-linux-v1.19.0.tar.gz",
-          "browser_download_url": "https://github.com/amtep/tiger/releases/download/v1.19.0/ck3-tiger-linux-v1.19.0.tar.gz",
-          "size": 9491356,
-          "digest": "sha256:6d72d276c2b2a953f63221ff8050d1276a085b5a2ffe74977675fdf6e17e9ff3",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:22.106Z"
   },
   "imperium": {
     "version": "0.9.7",
@@ -38520,19 +36044,10 @@
   "jail_exporter": {
     "version": "0.18.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.18.0",
-      "assets": [
-        {
-          "name": "jail_exporter-0.18.0.tar.gz",
-          "browser_download_url": "https://github.com/phyber/jail_exporter/releases/download/v0.18.0/jail_exporter-0.18.0.tar.gz",
-          "size": 42549,
-          "digest": "sha256:b36fa6fc7c7c80b8965f787a5a5e34affbe46b1c8c02d9a8ee1b41c503eaa92c",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:32.890Z"
   },
   "jam-bootstrap-service": {
     "version": "0.1.21",
@@ -38563,58 +36078,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "jango": {
-    "version": "0.2.4",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.4",
-      "assets": [
-        {
-          "name": "source.tar.gz",
-          "browser_download_url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/source.tar.gz",
-          "size": 29574,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "jango-x86_64-unknown-linux-musl.tar.xz",
-          "browser_download_url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/jango-x86_64-unknown-linux-musl.tar.xz",
-          "size": 1333552,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "jango-x86_64-unknown-linux-gnu.tar.xz",
-          "browser_download_url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/jango-x86_64-unknown-linux-gnu.tar.xz",
-          "size": 1296652,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "jango-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/jango-x86_64-pc-windows-msvc.zip",
-          "size": 4836045,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "jango-x86_64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/jango-x86_64-apple-darwin.tar.xz",
-          "size": 1083464,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "jango-aarch64-apple-darwin.tar.xz",
-          "browser_download_url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/jango-aarch64-apple-darwin.tar.xz",
-          "size": 1132704,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "janitor-service": {
     "version": "0.1.40",
@@ -38684,19 +36147,10 @@
   "jellyfin-rpc-cli": {
     "version": "1.3.5",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "1.3.5",
-      "assets": [
-        {
-          "name": "jellyfin-rpc.exe",
-          "browser_download_url": "https://github.com/justradical/jellyfin-rpc/releases/download/1.3.5/jellyfin-rpc.exe",
-          "size": 4279296,
-          "digest": "sha256:d50ab8a6c2c2abbdb06f4777a0b3bfe7f31f45f97dd6f8ab099df7932ebe2d34",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:28.039Z"
   },
   "jen": {
     "version": "1.7.1",
@@ -38925,19 +36379,10 @@
   "jobshell": {
     "version": "2.0.4",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v2.0.4",
-      "assets": [
-        {
-          "name": "jobshell-windows-x86_64.exe",
-          "browser_download_url": "https://github.com/angelplusultra/job-shell/releases/download/v2.0.4/jobshell-windows-x86_64.exe",
-          "size": 25273160,
-          "digest": "sha256:30c7096b8697298ed9a285dc19ef88f34ca1e417302c197597b2c8770e048d2d",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:28:14.209Z"
   },
   "johnston": {
     "version": "0.3.0",
@@ -39042,51 +36487,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "json_env": {
-    "version": "1.3.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.3.0",
-      "assets": [
-        {
-          "name": "json_env-v1.3.0-aarch64-linux.tar.gz",
-          "browser_download_url": "https://github.com/brodo/json_env/releases/download/v1.3.0/json_env-v1.3.0-aarch64-linux.tar.gz",
-          "size": 775545,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "json_env-v1.3.0-aarch64-macos.tar.gz",
-          "browser_download_url": "https://github.com/brodo/json_env/releases/download/v1.3.0/json_env-v1.3.0-aarch64-macos.tar.gz",
-          "size": 918118,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "json_env-v1.3.0-x86_64-linux.tar.gz",
-          "browser_download_url": "https://github.com/brodo/json_env/releases/download/v1.3.0/json_env-v1.3.0-x86_64-linux.tar.gz",
-          "size": 860560,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "json_env-v1.3.0-x86_64-macos.tar.gz",
-          "browser_download_url": "https://github.com/brodo/json_env/releases/download/v1.3.0/json_env-v1.3.0-x86_64-macos.tar.gz",
-          "size": 783854,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "json_env-v1.3.0-x86_64-windows.zip",
-          "browser_download_url": "https://github.com/brodo/json_env/releases/download/v1.3.0/json_env-v1.3.0-x86_64-windows.zip",
-          "size": 777319,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "json_in_type": {
     "version": "1.1.1",
@@ -39796,19 +37196,10 @@
   "kelpdot": {
     "version": "2.1.9",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "2.1.9",
-      "assets": [
-        {
-          "name": "kelpdot-aur.tar.gz",
-          "browser_download_url": "https://github.com/Woomymy/kelp/releases/download/2.1.9/kelpdot-aur.tar.gz",
-          "size": 331233,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:42.910Z"
   },
   "kerblam": {
     "version": "1.2.1",
@@ -40527,37 +37918,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "krata-guest": {
-    "version": "0.0.12",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.0.12",
-      "assets": [
-        {
-          "name": "kratactl_v0.0.12_windows-x86_64.exe",
-          "browser_download_url": "https://github.com/edera-dev/krata/releases/download/v0.0.12/kratactl_v0.0.12_windows-x86_64.exe",
-          "size": 9761280,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "krata-systemd_v0.0.12_x86_64.tgz",
-          "browser_download_url": "https://github.com/edera-dev/krata/releases/download/v0.0.12/krata-systemd_v0.0.12_x86_64.tgz",
-          "size": 40194641,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "krata-systemd_v0.0.12_aarch64.tgz",
-          "browser_download_url": "https://github.com/edera-dev/krata/releases/download/v0.0.12/krata-systemd_v0.0.12_aarch64.tgz",
-          "size": 21093180,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "krata-zone": {
     "version": "0.0.21",
     "resolverRevision": 2,
@@ -40679,23 +38039,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "kubetui": {
-    "version": "1.14.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v1.14.0",
-      "assets": [
-        {
-          "name": "kubetui-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/sarub0b0/kubetui/releases/download/v1.14.0/kubetui-x86_64-pc-windows-msvc.exe",
-          "size": 20089856,
-          "digest": "sha256:fefe58e9dad6ce262e7c04bff7e4f1788088ed1efd26591f39cc2c20de9467b9",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "kubie": {
     "version": "0.28.0",
@@ -41434,23 +38777,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "letsencrypt-inwx": {
-    "version": "2.0.2",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "2.0.2",
-      "assets": [
-        {
-          "name": "letsencrypt-inwx-x86_64-linux.zip",
-          "browser_download_url": "https://github.com/ciphax/letsencrypt-inwx/releases/download/2.0.2/letsencrypt-inwx-x86_64-linux.zip",
-          "size": 3663705,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "letsencrypt-rs": {
     "version": "0.3.0",
@@ -42543,19 +39869,10 @@
   "lnk_parser": {
     "version": "0.4.3",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.4.3",
-      "assets": [
-        {
-          "name": "lnk_parser_v0.4.3.exe",
-          "browser_download_url": "https://github.com/AbdulRhmanAlfaifi/lnk_parser/releases/download/v0.4.3/lnk_parser_v0.4.3.exe",
-          "size": 1102848,
-          "digest": "sha256:d647b635dba8fc671596b9b3332e807eafce515d915767037bb33759d44fe2e7",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:48.169Z"
   },
   "lnpbp": {
     "version": "0.9.0",
@@ -43051,72 +40368,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "lua-astra": {
-    "version": "0.51.2",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.51.2",
-      "assets": [
-        {
-          "name": "astra-luajit-windows-amd64.exe",
-          "browser_download_url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.51.2/astra-luajit-windows-amd64.exe",
-          "size": 15896064,
-          "digest": "sha256:ebd8c307205b45381d692c06499cbc017516256181a740c11ea312372d84d149",
-          "state": "uploaded"
-        },
-        {
-          "name": "astra-luajit52-windows-amd64.exe",
-          "browser_download_url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.51.2/astra-luajit52-windows-amd64.exe",
-          "size": 15897088,
-          "digest": "sha256:89ed7fbdd7abbc184030e364782f467149d418801892cecd72be9b41e1869c7a",
-          "state": "uploaded"
-        },
-        {
-          "name": "astra-luau-windows-amd64.exe",
-          "browser_download_url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.51.2/astra-luau-windows-amd64.exe",
-          "size": 16719360,
-          "digest": "sha256:26aba37f8399a8797beb89e17d31733c3de1bde20f16e7a355c05ef7d411751a",
-          "state": "uploaded"
-        },
-        {
-          "name": "astra-lua51-windows-amd64.exe",
-          "browser_download_url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.51.2/astra-lua51-windows-amd64.exe",
-          "size": 15480320,
-          "digest": "sha256:7a62d88b5611c7a395341f13a2238bdc67e0a606491c2f4e81b45f14f796b2ca",
-          "state": "uploaded"
-        },
-        {
-          "name": "astra-lua52-windows-amd64.exe",
-          "browser_download_url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.51.2/astra-lua52-windows-amd64.exe",
-          "size": 15477760,
-          "digest": "sha256:6b72aee20baf4a72756f8213f4fff68106964a8e14b37e53574fbfb10ce44fb8",
-          "state": "uploaded"
-        },
-        {
-          "name": "astra-lua53-windows-amd64.exe",
-          "browser_download_url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.51.2/astra-lua53-windows-amd64.exe",
-          "size": 15492096,
-          "digest": "sha256:18a6ab7b7c5c05b32a30455908dec428bb78d4f1686039fedaedc0a9554f244f",
-          "state": "uploaded"
-        },
-        {
-          "name": "astra-lua54-windows-amd64.exe",
-          "browser_download_url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.51.2/astra-lua54-windows-amd64.exe",
-          "size": 15515648,
-          "digest": "sha256:d908f30ceab5893f2b2450e5e8206eaeecf3aea1335f9434adb369bee5ac4031",
-          "state": "uploaded"
-        },
-        {
-          "name": "astra-lua55-windows-amd64.exe",
-          "browser_download_url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.51.2/astra-lua55-windows-amd64.exe",
-          "size": 15526400,
-          "digest": "sha256:489ced6eb67f0061ebbc9ddb4eb3d946f7979a1539af64ae0fbc831950a69a16",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "luasocket": {
     "version": "0.1.4",
     "resolverRevision": 2,
@@ -43194,33 +40445,10 @@
   "lunatic-runtime": {
     "version": "0.13.2",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.13.2",
-      "assets": [
-        {
-          "name": "lunatic-linux-amd64.tar.gz",
-          "browser_download_url": "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-linux-amd64.tar.gz",
-          "size": 11054558,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "lunatic-windows-amd64.zip",
-          "browser_download_url": "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-windows-amd64.zip",
-          "size": 7930279,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "lunatic-macos-universal.tar.gz",
-          "browser_download_url": "https://github.com/lunatic-solutions/lunatic/releases/download/v0.13.2/lunatic-macos-universal.tar.gz",
-          "size": 17745208,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:19.384Z"
   },
   "lunesrs": {
     "version": "1.8.1",
@@ -43329,128 +40557,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "maelstrom-broker": {
-    "version": "0.14.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.14.0",
-      "assets": [
-        {
-          "name": "maelstrom-client-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-client-x86_64-unknown-linux-gnu.tgz",
-          "size": 4303889,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-maelstrom-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/cargo-maelstrom-x86_64-unknown-linux-gnu.tgz",
-          "size": 6085742,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-admin-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-admin-x86_64-unknown-linux-gnu.tgz",
-          "size": 2228370,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-broker-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-broker-x86_64-unknown-linux-gnu.tgz",
-          "size": 2537688,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-go-test-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-go-test-x86_64-unknown-linux-gnu.tgz",
-          "size": 5928550,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-pytest-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-pytest-x86_64-unknown-linux-gnu.tgz",
-          "size": 5959409,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-run-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-run-x86_64-unknown-linux-gnu.tgz",
-          "size": 5143907,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-worker-x86_64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-worker-x86_64-unknown-linux-gnu.tgz",
-          "size": 2880204,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-broker-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-broker-aarch64-unknown-linux-gnu.tgz",
-          "size": 2619606,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-client-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-client-aarch64-unknown-linux-gnu.tgz",
-          "size": 4419496,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "cargo-maelstrom-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/cargo-maelstrom-aarch64-unknown-linux-gnu.tgz",
-          "size": 6225951,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-go-test-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-go-test-aarch64-unknown-linux-gnu.tgz",
-          "size": 6070908,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-admin-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-admin-aarch64-unknown-linux-gnu.tgz",
-          "size": 2284985,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-run-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-run-aarch64-unknown-linux-gnu.tgz",
-          "size": 5293963,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-pytest-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-pytest-aarch64-unknown-linux-gnu.tgz",
-          "size": 6097993,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "maelstrom-worker-aarch64-unknown-linux-gnu.tgz",
-          "browser_download_url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-worker-aarch64-unknown-linux-gnu.tgz",
-          "size": 2962978,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "maelstrom-client-process": {
     "version": "0.7.0",
@@ -43683,19 +40789,10 @@
   "magic-school-bus": {
     "version": "0.7.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.7.0",
-      "assets": [
-        {
-          "name": "msb.exe",
-          "browser_download_url": "https://github.com/LPGhatguy/magic-school-bus/releases/download/v0.7.0/msb.exe",
-          "size": 872960,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:52.365Z"
   },
   "magic-wormhole": {
     "version": "0.0.2",
@@ -44645,37 +41742,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "mdbook-bib": {
-    "version": "0.5.3",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.5.3",
-      "assets": [
-        {
-          "name": "mdbook-bib-v0.5.3-linux-amd64.tar.gz",
-          "browser_download_url": "https://github.com/francisco-perez-sorrosal/mdbook-bib/releases/download/v0.5.3/mdbook-bib-v0.5.3-linux-amd64.tar.gz",
-          "size": 4131965,
-          "digest": "sha256:e8785e5dcef6146c70e063fd09ee313898701922bfb615f46089780a57cfb9ad",
-          "state": "uploaded"
-        },
-        {
-          "name": "mdbook-bib-v0.5.3-macos-amd64.tar.gz",
-          "browser_download_url": "https://github.com/francisco-perez-sorrosal/mdbook-bib/releases/download/v0.5.3/mdbook-bib-v0.5.3-macos-amd64.tar.gz",
-          "size": 3816943,
-          "digest": "sha256:dd9b3986835bd886a02c8c3b52a22d76c213534c6e7238d043dda54b3674e884",
-          "state": "uploaded"
-        },
-        {
-          "name": "mdbook-bib-v0.5.3-windows-amd64.tar.gz",
-          "browser_download_url": "https://github.com/francisco-perez-sorrosal/mdbook-bib/releases/download/v0.5.3/mdbook-bib-v0.5.3-windows-amd64.tar.gz",
-          "size": 3424252,
-          "digest": "sha256:6da3d28c7555aaec81548de584b62ccb469aae261f2db5d3c67fd8ba0db168e8",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "mdbook-cat-prep": {
     "version": "1.0.9",
     "resolverRevision": 2,
@@ -44715,47 +41781,10 @@
   "mdbook-infisearch": {
     "version": "0.10.1",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.10.1",
-      "assets": [
-        {
-          "name": "indexer.x86_64-unknown-linux-gnu.zip",
-          "browser_download_url": "https://github.com/ang-zeyu/infisearch/releases/download/v0.10.1/indexer.x86_64-unknown-linux-gnu.zip",
-          "size": 5815777,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "search.infi.zip",
-          "browser_download_url": "https://github.com/ang-zeyu/infisearch/releases/download/v0.10.1/search.infi.zip",
-          "size": 295362,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "indexer.x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/ang-zeyu/infisearch/releases/download/v0.10.1/indexer.x86_64-pc-windows-msvc.zip",
-          "size": 12449792,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "indexer.aarch64-apple-darwin.zip",
-          "browser_download_url": "https://github.com/ang-zeyu/infisearch/releases/download/v0.10.1/indexer.aarch64-apple-darwin.zip",
-          "size": 4723221,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "indexer.x86_64-apple-darwin.zip",
-          "browser_download_url": "https://github.com/ang-zeyu/infisearch/releases/download/v0.10.1/indexer.x86_64-apple-darwin.zip",
-          "size": 4853406,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "Command failed: unzip -Z1 /tmp/install-action-crate-rqEnRb/win32-x64.zip [/tmp/install-action-crate-rqEnRb/win32-x64.zip]   End-of-central-directory signature not found.  Either this file is not   a zipfile, or it constitutes one disk of a multi-part archive.  In the   latter case the central direct",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:24.026Z"
   },
   "mdbook-katex": {
     "version": "0.10.0",
@@ -44911,23 +41940,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "mdmodels": {
-    "version": "0.3.0",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.3.0",
-      "assets": [
-        {
-          "name": "md-models-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/FAIRChemistry/md-models/releases/download/v0.3.0/md-models-x86_64-pc-windows-msvc.exe",
-          "size": 17003008,
-          "digest": "sha256:4eb070d518be00b66d6725af61253c992ac1a9c6bb75c696c4f949d1aab619be",
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "mdplayscript": {
     "version": "0.2.0",
@@ -45418,159 +42430,10 @@
   "meerkat-mob-mcp": {
     "version": "0.9.4",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.9.4",
-      "assets": [
-        {
-          "name": "rkat-rpc-0.9.4-aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rpc-0.9.4-aarch64-unknown-linux-gnu.tar.gz",
-          "size": 110879920,
-          "digest": "sha256:e21c3879d194eb907b082a35aff7827402a3b8baf8e93aef6b03b9b96ebf0b6d",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-rpc-0.9.4-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rpc-0.9.4-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 118226743,
-          "digest": "sha256:00253ea4dd30ff0ca34fb0d57c5e659a43a1d420ab2e0361e876474908e3a188",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-rpc-0.9.4-aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rpc-0.9.4-aarch64-apple-darwin.tar.gz",
-          "size": 104221978,
-          "digest": "sha256:97916114d1f3d39fa1191a1042ff9ea380a70bf499bc5ae3549375adedc27063",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-mcp-0.9.4-aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-mcp-0.9.4-aarch64-apple-darwin.tar.gz",
-          "size": 88650125,
-          "digest": "sha256:e0aac63b3f87697faf60311338d4ff5b99f7fedf87d07f981f594239c278e42f",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-rest-0.9.4-aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rest-0.9.4-aarch64-unknown-linux-gnu.tar.gz",
-          "size": 92980762,
-          "digest": "sha256:c65887f9d97ea2744d4cb56bab3bf69a8a8c7b1560ec2cd788aad299de3a3cc8",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-rest-0.9.4-aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rest-0.9.4-aarch64-apple-darwin.tar.gz",
-          "size": 87723258,
-          "digest": "sha256:b3cf02226ffd826b53d2a739a8393b11bb23b50375453ef6f99319231bb735e7",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-0.9.4-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-0.9.4-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 124948756,
-          "digest": "sha256:dfa812a2f5bcfa2223ac5e53e0c9eafbc1da72e96a27024002911a558b3f51b3",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-0.9.4-aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-0.9.4-aarch64-apple-darwin.tar.gz",
-          "size": 110386010,
-          "digest": "sha256:fe2d99b33bf7c8feb74c07c7032643b15e6648567548fa0a1e2d67b8ac60806d",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-mcp-0.9.4-aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-mcp-0.9.4-aarch64-unknown-linux-gnu.tar.gz",
-          "size": 93889408,
-          "digest": "sha256:dd051b404130c067282411c841cbbb6a00460c1e92b03c1abcb8e1a45554bf55",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-mcp-0.9.4-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-mcp-0.9.4-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 102203131,
-          "digest": "sha256:160430d913ca6425a70c40c3690dc7f5a30a0a2bf36b8c9e829e8cb268ed9a5b",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-rest-0.9.4-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rest-0.9.4-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 101282621,
-          "digest": "sha256:066dd1760e1de5d11563f71b884330dbc7f33c22446a604319aa82813b78962a",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-0.9.4-aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-0.9.4-aarch64-unknown-linux-gnu.tar.gz",
-          "size": 117387485,
-          "digest": "sha256:8825b3b21bfb4bd95eb326e896fb9638c5ffa0a5ff3a200aa9f8532615f44e76",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-rest-0.9.4-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rest-0.9.4-x86_64-apple-darwin.tar.gz",
-          "size": 90643159,
-          "digest": "sha256:ee0cbc0d854b76a5d2159a2c70a195004bcca95d74fc4838670eb91e78e72bd8",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-0.9.4-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-0.9.4-x86_64-apple-darwin.tar.gz",
-          "size": 111061178,
-          "digest": "sha256:d867b720f44c27ae8fca43eb47ee9262e202ffb9bab8a2aae6138cfab94735f1",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-0.9.4-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-0.9.4-x86_64-pc-windows-msvc.zip",
-          "size": 105012241,
-          "digest": "sha256:bcf0e72ff88f698af87f9a1aa789a7b34bd289876ef781f54a6c7e4de89a122c",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-mcp-0.9.4-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-mcp-0.9.4-x86_64-apple-darwin.tar.gz",
-          "size": 90872859,
-          "digest": "sha256:4275ea628ee35016dafc2e4bd0789ad0a93ce80d2c050cf40ea52356cdcfbe69",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-mcp-0.9.4-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-mcp-0.9.4-x86_64-pc-windows-msvc.zip",
-          "size": 85211357,
-          "digest": "sha256:002a90cefd309d458c10bee9c59b69e01dda1af38a9594a39f1ceea0e8d0a431",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-rpc-0.9.4-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rpc-0.9.4-x86_64-pc-windows-msvc.zip",
-          "size": 94800731,
-          "digest": "sha256:c1e7ecd704d684b47536a090cc13174d179863c0b7e60289af73d5b7d16bc4bb",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-rpc-0.9.4-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rpc-0.9.4-x86_64-apple-darwin.tar.gz",
-          "size": 102684146,
-          "digest": "sha256:73919be2248466b2fd0ecef75acf46f2ce8b7930bceed536cdc7a974423ef963",
-          "state": "uploaded"
-        },
-        {
-          "name": "rkat-rest-0.9.4-x86_64-pc-windows-msvc.zip",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/rkat-rest-0.9.4-x86_64-pc-windows-msvc.zip",
-          "size": 83912449,
-          "digest": "sha256:b5748419623c695ac70f2b7b9db522ed775c104e2995e5460db1b94b04461373",
-          "state": "uploaded"
-        },
-        {
-          "name": "semver-rustdoc-0.9.4.tar.zst",
-          "browser_download_url": "https://github.com/lukacf/meerkat/releases/download/v0.9.4/semver-rustdoc-0.9.4.tar.zst",
-          "size": 40128344,
-          "digest": "sha256:5a44c38f35485c1d75ffeee6daaf4669f888b9066fee5df6b4a4b3012682a42a",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:21.830Z"
   },
   "megane": {
     "version": "0.0.8",
@@ -45904,26 +42767,10 @@
   "mfte": {
     "version": "0.3.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.3.0",
-      "assets": [
-        {
-          "name": "mfte-x64.exe",
-          "browser_download_url": "https://github.com/mathphreak/mfte/releases/download/v0.3.0/mfte-x64.exe",
-          "size": 1014784,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "mfte-x86.exe",
-          "browser_download_url": "https://github.com/mathphreak/mfte/releases/download/v0.3.0/mfte-x86.exe",
-          "size": 822272,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:26:38.019Z"
   },
   "mgit": {
     "version": "0.1.10",
@@ -46592,23 +43439,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "minhtml": {
-    "version": "0.18.1",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.18.1",
-      "assets": [
-        {
-          "name": "minhtml-0.18.1-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/wilsonzlin/minify-html/releases/download/v0.18.1/minhtml-0.18.1-x86_64-pc-windows-msvc.exe",
-          "size": 19109376,
-          "digest": "sha256:b777aac097b5a6b7ff374ba0c8c4307fd650c6c4af5cf29d7ad3dd2c07c5f48c",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "mini-c-parser": {
     "version": "0.12.2",
     "resolverRevision": 2,
@@ -47046,135 +43876,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "minrs": {
-    "version": "0.4.1",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.4.1",
-      "assets": [
-        {
-          "name": "minrs-v0.4.1-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 1101653,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-i686-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-i686-unknown-linux-gnu.tar.gz",
-          "size": 1135270,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-x86_64-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-x86_64-unknown-linux-musl.tar.gz",
-          "size": 1213796,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-i686-unknown-linux-musl.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-i686-unknown-linux-musl.tar.gz",
-          "size": 1248649,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-x86_64-apple-darwin.tar.gz",
-          "size": 747257,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-i686-unknown-freebsd.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-i686-unknown-freebsd.tar.gz",
-          "size": 1444156,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-x86_64-unknown-freebsd.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-x86_64-unknown-freebsd.tar.gz",
-          "size": 1472546,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-aarch64-unknown-linux-gnu.tar.gz",
-          "size": 902814,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-armv7-unknown-linux-gnueabihf.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-armv7-unknown-linux-gnueabihf.tar.gz",
-          "size": 1480201,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-mips-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-mips-unknown-linux-gnu.tar.gz",
-          "size": 972984,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-mips64-unknown-linux-gnuabi64.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-mips64-unknown-linux-gnuabi64.tar.gz",
-          "size": 988167,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-mips64el-unknown-linux-gnuabi64.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-mips64el-unknown-linux-gnuabi64.tar.gz",
-          "size": 942358,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-mipsel-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-mipsel-unknown-linux-gnu.tar.gz",
-          "size": 933075,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-powerpc64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-powerpc64-unknown-linux-gnu.tar.gz",
-          "size": 987936,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-powerpc64le-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-powerpc64le-unknown-linux-gnu.tar.gz",
-          "size": 984317,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-powerpc-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-powerpc-unknown-linux-gnu.tar.gz",
-          "size": 931264,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "minrs-v0.4.1-s390x-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-s390x-unknown-linux-gnu.tar.gz",
-          "size": 1445547,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "minver_rs": {
     "version": "0.3.1",
     "resolverRevision": 2,
@@ -47286,19 +43987,10 @@
   "mirrorman": {
     "version": "0.4.2",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.4.2",
-      "assets": [
-        {
-          "name": "mirrorman.exe",
-          "browser_download_url": "https://github.com/LennyPhoenix/mirrorman/releases/download/v0.4.2/mirrorman.exe",
-          "size": 4713305,
-          "digest": "sha256:78894b97434e8905e68403ceda8f459d8852bc7b8d3509a13c38dca8efb5806b",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:11.906Z"
   },
   "misc_ecs": {
     "version": "0.1.14",
@@ -48554,44 +45246,6 @@
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
   },
-  "mtrack": {
-    "version": "0.17.1",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.17.1",
-      "assets": [
-        {
-          "name": "mtrack-0.17.1-x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/mdwn/mtrack/releases/download/v0.17.1/mtrack-0.17.1-x86_64-apple-darwin.tar.gz",
-          "size": 12804204,
-          "digest": "sha256:95ad0cd92cefdb763405ac34167f0f81b1c86a54733c1593585866000422c537",
-          "state": "uploaded"
-        },
-        {
-          "name": "mtrack-0.17.1-aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/mdwn/mtrack/releases/download/v0.17.1/mtrack-0.17.1-aarch64-unknown-linux-gnu.tar.gz",
-          "size": 13184358,
-          "digest": "sha256:7a9bdd51e13754b69fe7a4a4458d5225e3e3b0d789b75363c24e5bf0f51d12a1",
-          "state": "uploaded"
-        },
-        {
-          "name": "mtrack-0.17.1-x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/mdwn/mtrack/releases/download/v0.17.1/mtrack-0.17.1-x86_64-unknown-linux-gnu.tar.gz",
-          "size": 13311806,
-          "digest": "sha256:fe42833c623c3a421633b41f146f531f5e078113079f5346c68919557b4a4520",
-          "state": "uploaded"
-        },
-        {
-          "name": "mtrack-0.17.1-aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/mdwn/mtrack/releases/download/v0.17.1/mtrack-0.17.1-aarch64-apple-darwin.tar.gz",
-          "size": 12005191,
-          "digest": "sha256:c28e2266489b9e15763f383a7ea5a7a7583617db6c3948e220e16663792074fc",
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
   "mtu": {
     "version": "0.4.1",
     "resolverRevision": 2,
@@ -48713,134 +45367,18 @@
   "music-player-discovery": {
     "version": "0.2.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.0",
-      "assets": [
-        {
-          "name": "music-player_v0.2.0_aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_v0.2.0_aarch64-unknown-linux-gnu.tar.gz",
-          "size": 18542100,
-          "digest": "sha256:484fbd55894c81749588c1014644772e4afd1b26f5b5ab04caf23ead0692d598",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player_v0.2.0_x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_v0.2.0_x86_64-apple-darwin.tar.gz",
-          "size": 17218107,
-          "digest": "sha256:cef585fc1d3679a6c78dd9802527dd552e8e32cbf6a20f0e896cd102aacac361",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player_x86_64-pc-windows-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_x86_64-pc-windows-gnu.tar.gz",
-          "size": 32,
-          "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player_v0.2.0_aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_v0.2.0_aarch64-apple-darwin.tar.gz",
-          "size": 16713070,
-          "digest": "sha256:d399479754eaae6808afbcbbc37d536a7ac619441c97090b78bf0dd82486342b",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player_v0.2.0_x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_v0.2.0_x86_64-unknown-linux-gnu.tar.gz",
-          "size": 18489064,
-          "digest": "sha256:5449b3f6fe773f8caaa50ea3bad6eaec8b5a2fbde85fd2893d01364ec062ec1e",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player-desktop_v0.2.0_aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player-desktop_v0.2.0_aarch64-unknown-linux-gnu.tar.gz",
-          "size": 34116129,
-          "digest": "sha256:f785c8600be002817820795c31e7b543bfb139c819c7aa726c9a596bb3dba2a7",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player-desktop_v0.2.0_x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player-desktop_v0.2.0_x86_64-unknown-linux-gnu.tar.gz",
-          "size": 33084014,
-          "digest": "sha256:ca678b670036e533982592a882d6b3016c94dc07433d5e2cad897fe3c15f39fe",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player-desktop_v0.2.0_aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player-desktop_v0.2.0_aarch64-apple-darwin.tar.gz",
-          "size": 27384611,
-          "digest": "sha256:fadb2a952535925f0ea358a43843ff3229ff4da316d44754c258ed5354e5447e",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:10.708Z"
   },
   "music-player-graphql": {
     "version": "0.2.0",
     "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "v0.2.0",
-      "assets": [
-        {
-          "name": "music-player_v0.2.0_aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_v0.2.0_aarch64-unknown-linux-gnu.tar.gz",
-          "size": 18542100,
-          "digest": "sha256:484fbd55894c81749588c1014644772e4afd1b26f5b5ab04caf23ead0692d598",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player_v0.2.0_x86_64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_v0.2.0_x86_64-apple-darwin.tar.gz",
-          "size": 17218107,
-          "digest": "sha256:cef585fc1d3679a6c78dd9802527dd552e8e32cbf6a20f0e896cd102aacac361",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player_x86_64-pc-windows-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_x86_64-pc-windows-gnu.tar.gz",
-          "size": 32,
-          "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player_v0.2.0_aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_v0.2.0_aarch64-apple-darwin.tar.gz",
-          "size": 16713070,
-          "digest": "sha256:d399479754eaae6808afbcbbc37d536a7ac619441c97090b78bf0dd82486342b",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player_v0.2.0_x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player_v0.2.0_x86_64-unknown-linux-gnu.tar.gz",
-          "size": 18489064,
-          "digest": "sha256:5449b3f6fe773f8caaa50ea3bad6eaec8b5a2fbde85fd2893d01364ec062ec1e",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player-desktop_v0.2.0_aarch64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player-desktop_v0.2.0_aarch64-unknown-linux-gnu.tar.gz",
-          "size": 34116129,
-          "digest": "sha256:f785c8600be002817820795c31e7b543bfb139c819c7aa726c9a596bb3dba2a7",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player-desktop_v0.2.0_x86_64-unknown-linux-gnu.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player-desktop_v0.2.0_x86_64-unknown-linux-gnu.tar.gz",
-          "size": 33084014,
-          "digest": "sha256:ca678b670036e533982592a882d6b3016c94dc07433d5e2cad897fe3c15f39fe",
-          "state": "uploaded"
-        },
-        {
-          "name": "music-player-desktop_v0.2.0_aarch64-apple-darwin.tar.gz",
-          "browser_download_url": "https://github.com/tsirysndr/music-player/releases/download/v0.2.0/music-player-desktop_v0.2.0_aarch64-apple-darwin.tar.gz",
-          "size": 27384611,
-          "digest": "sha256:fadb2a952535925f0ea358a43843ff3229ff4da316d44754c258ed5354e5447e",
-          "state": "uploaded"
-        }
-      ]
-    }
+    "repositoryResolved": true,
+    "reason": "No prebuilt platform artifacts.",
+    "retryable": false,
+    "retryAfter": "2026-10-31T03:27:52.217Z"
   },
   "music-player-migration": {
     "version": "0.2.0",
@@ -49209,270 +45747,6 @@
     "resolverRevision": 2,
     "retryAfter": "2026-10-31T02:34:28.896Z",
     "reason": "No matching upstream binary release."
-  },
-  "narrowlink-agent": {
-    "version": "0.2.6",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.2.6",
-      "assets": [
-        {
-          "name": "narrowlink-agent-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-agent-i686-pc-windows-msvc.exe",
-          "size": 1814528,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-agent-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-agent-x86_64-pc-windows-msvc.exe",
-          "size": 2359296,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-gateway-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-gateway-i686-pc-windows-msvc.exe",
-          "size": 3936256,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-gateway-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-gateway-x86_64-pc-windows-msvc.exe",
-          "size": 4881408,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-i686-pc-windows-msvc.exe",
-          "size": 2127360,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-token-generator-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-token-generator-i686-pc-windows-msvc.exe",
-          "size": 526336,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-          "size": 811008,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-x86_64-pc-windows-msvc.exe",
-          "size": 2740736,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "narrowlink-client": {
-    "version": "0.2.6",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.2.6",
-      "assets": [
-        {
-          "name": "narrowlink-agent-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-agent-i686-pc-windows-msvc.exe",
-          "size": 1814528,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-agent-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-agent-x86_64-pc-windows-msvc.exe",
-          "size": 2359296,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-gateway-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-gateway-i686-pc-windows-msvc.exe",
-          "size": 3936256,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-gateway-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-gateway-x86_64-pc-windows-msvc.exe",
-          "size": 4881408,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-i686-pc-windows-msvc.exe",
-          "size": 2127360,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-token-generator-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-token-generator-i686-pc-windows-msvc.exe",
-          "size": 526336,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-          "size": 811008,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-x86_64-pc-windows-msvc.exe",
-          "size": 2740736,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "narrowlink-gateway": {
-    "version": "0.2.6",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.2.6",
-      "assets": [
-        {
-          "name": "narrowlink-agent-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-agent-i686-pc-windows-msvc.exe",
-          "size": 1814528,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-agent-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-agent-x86_64-pc-windows-msvc.exe",
-          "size": 2359296,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-gateway-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-gateway-i686-pc-windows-msvc.exe",
-          "size": 3936256,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-gateway-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-gateway-x86_64-pc-windows-msvc.exe",
-          "size": 4881408,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-i686-pc-windows-msvc.exe",
-          "size": 2127360,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-token-generator-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-token-generator-i686-pc-windows-msvc.exe",
-          "size": 526336,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-          "size": 811008,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-x86_64-pc-windows-msvc.exe",
-          "size": 2740736,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
-  },
-  "narrowlink-token-generator": {
-    "version": "0.2.6",
-    "resolverRevision": 2,
-    "retryAfter": "2026-10-31T02:34:28.896Z",
-    "release": {
-      "tag_name": "0.2.6",
-      "assets": [
-        {
-          "name": "narrowlink-agent-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-agent-i686-pc-windows-msvc.exe",
-          "size": 1814528,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-agent-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-agent-x86_64-pc-windows-msvc.exe",
-          "size": 2359296,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-gateway-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-gateway-i686-pc-windows-msvc.exe",
-          "size": 3936256,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-gateway-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-gateway-x86_64-pc-windows-msvc.exe",
-          "size": 4881408,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-i686-pc-windows-msvc.exe",
-          "size": 2127360,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-token-generator-i686-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-token-generator-i686-pc-windows-msvc.exe",
-          "size": 526336,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-          "size": 811008,
-          "digest": null,
-          "state": "uploaded"
-        },
-        {
-          "name": "narrowlink-x86_64-pc-windows-msvc.exe",
-          "browser_download_url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-x86_64-pc-windows-msvc.exe",
-          "size": 2740736,
-          "digest": null,
-          "state": "uploaded"
-        }
-      ]
-    }
   },
   "narsese": {
     "version": "0.21.3",
