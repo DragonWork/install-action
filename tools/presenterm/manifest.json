@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "presenterm",
+  "version": "0.16.1",
+  "repository": "mfontanini/presenterm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.16.1",
+      "sha256": "87512d7c88c3d961c7687aca3519f83c2b7611a550cf769c67c6f7948e8b8f54",
+      "size": 3800922,
+      "format": "tar.gz",
+      "binaries": {
+        "presenterm": {
+          "path": "presenterm-0.16.1/presenterm",
+          "sha256": "c14cebd833b103ee2511e8d30bc58e5fe665e2e4ac79f10fd34e4b699cdf95be"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.16.1",
+      "sha256": "c03c3744609d61587aac9dda4f431912748bd70d88d4fa6c0440b079001c64c3",
+      "size": 3635120,
+      "format": "tar.gz",
+      "binaries": {
+        "presenterm": {
+          "path": "presenterm-0.16.1/presenterm",
+          "sha256": "7d5eb8eb2791104a9e9b3012b2c62eae971c45a1bbb2757a0a9c453d6c65688b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.16.1",
+      "sha256": "7f923d83349654c560e64dc6d0a4b6ab31d885e8f07e1732d0f60fc9f606e895",
+      "size": 3627654,
+      "format": "tar.gz",
+      "binaries": {
+        "presenterm": {
+          "path": "presenterm-0.16.1/presenterm",
+          "sha256": "93eaef74578db3f1fe6603a80b23a312e4139ffb3cc794c700344beb0111e4d8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.16.1",
+      "sha256": "56f8b25c24f9c37b06ac4b3004a2c70a2c03d81ddf7a8aa8766ae8997eeb4573",
+      "size": 3454533,
+      "format": "tar.gz",
+      "binaries": {
+        "presenterm": {
+          "path": "presenterm-0.16.1/presenterm",
+          "sha256": "ce51bd636d26ac250320d34c35a098f596a14238002296379dd69d765752a3eb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.16.1",
+      "sha256": "301bc9111db499cb79fb305048b1aad56d3fe91b2c713396fed60ec0c1d2c90c",
+      "size": 3429089,
+      "format": "zip",
+      "binaries": {
+        "presenterm.exe": {
+          "path": "presenterm-0.16.1/presenterm.exe",
+          "sha256": "e90951ca981b5f0c52437129f31c6529a5e9111b3c787ee97d6aca4a35ebe0c4"
+        }
+      }
+    }
+  }
+}
