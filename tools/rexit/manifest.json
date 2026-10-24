@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rexit",
+  "version": "2.2.0",
+  "repository": "MPult/Rexit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MPult/Rexit/releases/download/v2.2.0/rexit-v2.2.0-linux-x86_64.tar.gz",
+      "releaseTag": "v2.2.0",
+      "sha256": "0102ef977551978116439d9d4a9f6e19f9d46272a9571fe7653b69d3f749321f",
+      "size": 3217176,
+      "format": "tar.gz",
+      "binaries": {
+        "rexit": {
+          "path": "rexit-v2.2.0-linux-x86_64/rexit",
+          "sha256": "fcc3ae318ba94a76e7a76e94eb7de0f1bc79789f7be0c4b24783ee1f6382bea6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MPult/Rexit/releases/download/v2.2.0/rexit-v2.2.0-linux-arm64.tar.gz",
+      "releaseTag": "v2.2.0",
+      "sha256": "9b6fb8ac21a47fe316de06bc5f22b7440d2ba6ef86a8c8e3f08a66a533e22161",
+      "size": 2946690,
+      "format": "tar.gz",
+      "binaries": {
+        "rexit": {
+          "path": "rexit-v2.2.0-linux-arm64/rexit",
+          "sha256": "82e67939e55d6fa1f948cca490ad5011d6354cf3706ce67c407d849ecaf8e95f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MPult/Rexit/releases/download/v2.2.0/rexit-v2.2.0-macos-x86_64.tar.gz",
+      "releaseTag": "v2.2.0",
+      "sha256": "4ff38b796802ced02ea137f25dfad6051026e51aae462c2f746e9bfa0d732b1a",
+      "size": 2940629,
+      "format": "tar.gz",
+      "binaries": {
+        "rexit": {
+          "path": "rexit-v2.2.0-macos-x86_64/rexit",
+          "sha256": "576e7fdc5add56a40579ecf4ece5167a07d24dde5d7f0313bb32bfd7f3605a05"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MPult/Rexit/releases/download/v2.2.0/rexit-v2.2.0-macos-arm64.tar.gz",
+      "releaseTag": "v2.2.0",
+      "sha256": "2f6046ff80b0ae0e6f57d626d3dea3ca06874612ec53d29ffc722fd641a25b56",
+      "size": 2745055,
+      "format": "tar.gz",
+      "binaries": {
+        "rexit": {
+          "path": "rexit-v2.2.0-macos-arm64/rexit",
+          "sha256": "745b949d585185f3699c71be55003730eeef74663a0ec17f506a0664ee127a87"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MPult/Rexit/releases/download/v2.2.0/rexit-v2.2.0-windows-x86_64.zip",
+      "releaseTag": "v2.2.0",
+      "sha256": "4b6a3179d41f5c83e8d1748887ec9734117e1b3003ccaf392f20623ebe2e7308",
+      "size": 3007095,
+      "format": "zip",
+      "binaries": {
+        "rexit.exe": {
+          "path": "rexit-v2.2.0-windows-x86_64/rexit.exe",
+          "sha256": "a3deef27a0a9c6e257a98e6f420a55bd4a7217a100a2b3a444b8e12afcc39c5a"
+        }
+      }
+    }
+  }
+}
