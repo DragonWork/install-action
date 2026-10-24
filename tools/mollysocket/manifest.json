@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "mollysocket",
+  "version": "1.7.1",
+  "repository": "mollyim/mollysocket",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mollyim/mollysocket/releases/download/1.7.1/mollysocket-linux_amd64",
+      "sha256": "09fa591aa732aac1ad7a16f71107b7a8e7ba9b01abcee25e9c66203818bc7bfd",
+      "size": 8972944,
+      "format": "binary",
+      "releaseTag": "1.7.1",
+      "binaries": {
+        "mollysocket": {
+          "path": "mollysocket-linux_amd64",
+          "sha256": "09fa591aa732aac1ad7a16f71107b7a8e7ba9b01abcee25e9c66203818bc7bfd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mollyim/mollysocket/releases/download/1.7.1/mollysocket-linux_arm64",
+      "sha256": "2503185626d735c2482a71104510fae070f804cff2d4a8b0aaf4022b36047bbd",
+      "size": 7543584,
+      "format": "binary",
+      "releaseTag": "1.7.1",
+      "binaries": {
+        "mollysocket": {
+          "path": "mollysocket-linux_arm64",
+          "sha256": "2503185626d735c2482a71104510fae070f804cff2d4a8b0aaf4022b36047bbd"
+        }
+      }
+    }
+  }
+}
