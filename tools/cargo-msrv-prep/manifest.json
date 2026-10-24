@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "name": "cargo-msrv-prep",
+  "version": "2.1.2",
+  "repository": "clechasseur/msrv-prep",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/clechasseur/msrv-prep/releases/download/v2.1.2/cargo-msrv-prep-x86_64-unknown-linux-musl-v2.1.2.tar.gz",
+      "releaseTag": "v2.1.2",
+      "sha256": "bc8d9b6a7bb875a4be9e7a9afc3ca714178c2c7686619aae68e6fd16afeaa679",
+      "size": 1663197,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-msrv-prep": {
+          "path": "cargo-msrv-prep-x86_64-unknown-linux-musl-v2.1.2/cargo-msrv-prep",
+          "sha256": "6e738bbfb753886823ee4c911f625ba25a7b64e6a1f078d46e88a40fe2b5b7bd"
+        },
+        "cargo-msrv-unprep": {
+          "path": "cargo-msrv-prep-x86_64-unknown-linux-musl-v2.1.2/cargo-msrv-unprep",
+          "sha256": "3a4b9c698d264578d2dd545991e9135ff9c781d8bd6c965cb3f16af238538576"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/clechasseur/msrv-prep/releases/download/v2.1.2/cargo-msrv-prep-aarch64-unknown-linux-musl-v2.1.2.tar.gz",
+      "releaseTag": "v2.1.2",
+      "sha256": "3937f360ee3695e3d4d6897917b4f6517018bea2334a5aef34a053a83e14ed6e",
+      "size": 1592032,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-msrv-prep": {
+          "path": "cargo-msrv-prep-aarch64-unknown-linux-musl-v2.1.2/cargo-msrv-prep",
+          "sha256": "00514edfd2476cfedea290d3202aeae29b9bd573868a7631ee68afcf06c6d048"
+        },
+        "cargo-msrv-unprep": {
+          "path": "cargo-msrv-prep-aarch64-unknown-linux-musl-v2.1.2/cargo-msrv-unprep",
+          "sha256": "0fd6f62f611ec153079463225f053d3b051210cbe0a07ca6e26beec8e2ef6c6b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/clechasseur/msrv-prep/releases/download/v2.1.2/cargo-msrv-prep-x86_64-apple-darwin-v2.1.2.tar.gz",
+      "releaseTag": "v2.1.2",
+      "sha256": "2a1cd7917dbb001dc6b06fbfff01c4f2d3e4b959404587f80eea35b814702772",
+      "size": 1472989,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-msrv-prep": {
+          "path": "cargo-msrv-prep-x86_64-apple-darwin-v2.1.2/cargo-msrv-prep",
+          "sha256": "e82dbb9bdc7cb05768def5678b21da79d401b39580c9cab5ea3bffa95ff3738f"
+        },
+        "cargo-msrv-unprep": {
+          "path": "cargo-msrv-prep-x86_64-apple-darwin-v2.1.2/cargo-msrv-unprep",
+          "sha256": "cee20b98bfc2c2402fc84db234819502642139e1c6c6ba9e8e81ec103a80a051"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/clechasseur/msrv-prep/releases/download/v2.1.2/cargo-msrv-prep-aarch64-apple-darwin-v2.1.2.tar.gz",
+      "releaseTag": "v2.1.2",
+      "sha256": "2a56d40f171f9f48d5d0edc6ded65f3f3655afaeb22a8294bf38011095cd8cae",
+      "size": 1411205,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-msrv-prep": {
+          "path": "cargo-msrv-prep-aarch64-apple-darwin-v2.1.2/cargo-msrv-prep",
+          "sha256": "d5202b17dff1657cb8c21327564d5fce81d1642347ee8daebc082c21788986c2"
+        },
+        "cargo-msrv-unprep": {
+          "path": "cargo-msrv-prep-aarch64-apple-darwin-v2.1.2/cargo-msrv-unprep",
+          "sha256": "6083d7c2efd87cc7bf314e74f917e040d8fcc725812a5e5963093dc0f24eed35"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/clechasseur/msrv-prep/releases/download/v2.1.2/cargo-msrv-prep-x86_64-pc-windows-msvc-v2.1.2.zip",
+      "releaseTag": "v2.1.2",
+      "sha256": "8949d55e58eece8b8ee3b925e13815c14779e8a7474eb09f62ee2cff96678e0a",
+      "size": 1138400,
+      "format": "zip",
+      "binaries": {
+        "cargo-msrv-prep.exe": {
+          "path": "cargo-msrv-prep-x86_64-pc-windows-msvc-v2.1.2/cargo-msrv-prep.exe",
+          "sha256": "43afda9fdbd8d31da5f7e0464828774ef07658b832cbc950091dc10a501eba93"
+        },
+        "cargo-msrv-unprep.exe": {
+          "path": "cargo-msrv-prep-x86_64-pc-windows-msvc-v2.1.2/cargo-msrv-unprep.exe",
+          "sha256": "220e8de58bb4a50a440791ecf125b0f24194963e059bf59ec26bb6a8f584f95f"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/clechasseur/msrv-prep/releases/download/v2.1.2/cargo-msrv-prep-aarch64-pc-windows-msvc-v2.1.2.zip",
+      "releaseTag": "v2.1.2",
+      "sha256": "3247e8b97cc8285df8c57512fa43f2e2dbcfb2add1ca249ed9f593af620516a5",
+      "size": 1071676,
+      "format": "zip",
+      "binaries": {
+        "cargo-msrv-prep.exe": {
+          "path": "cargo-msrv-prep-aarch64-pc-windows-msvc-v2.1.2/cargo-msrv-prep.exe",
+          "sha256": "b1e922312c3d137ecff671d7c70738193209f4487ad3583dda5e2a77d0a35515"
+        },
+        "cargo-msrv-unprep.exe": {
+          "path": "cargo-msrv-prep-aarch64-pc-windows-msvc-v2.1.2/cargo-msrv-unprep.exe",
+          "sha256": "2fca70a2b00135fb703fe77f8d3a57ac88de1fb3714f358a7c71c98404c07a75"
+        }
+      }
+    }
+  }
+}
