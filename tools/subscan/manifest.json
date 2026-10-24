@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "subscan",
+  "version": "1.3.0",
+  "repository": "eredotpkfr/subscan",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/eredotpkfr/subscan/releases/download/v1.3.0/subscan-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "cbd452643d16032f201fd43c0cc281a36ee654cdca773e96da350b2e5fcda1f2",
+      "size": 2947416,
+      "format": "tar.xz",
+      "binaries": {
+        "subscan": {
+          "path": "subscan-x86_64-unknown-linux-gnu/subscan",
+          "sha256": "1513b81036b3b3168a4e5caf79438fe4ba159440159610d25c9c233fcc53c898"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/eredotpkfr/subscan/releases/download/v1.3.0/subscan-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "dbc8218cf3b4217561887a9a5e345b7269c35891c06db06c20bdf1f1a9af141a",
+      "size": 2611700,
+      "format": "tar.xz",
+      "binaries": {
+        "subscan": {
+          "path": "subscan-x86_64-apple-darwin/subscan",
+          "sha256": "172a987fddc347ee623b1b037cdc50216b2c90f69fb97e3af88b6817aaf5a7a0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/eredotpkfr/subscan/releases/download/v1.3.0/subscan-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "7c594d9dfcf36d5e7710a31bc654e3a799ba31647e7a146fcdb74d49763f6133",
+      "size": 2521420,
+      "format": "tar.xz",
+      "binaries": {
+        "subscan": {
+          "path": "subscan-aarch64-apple-darwin/subscan",
+          "sha256": "6e1a8f70d855999e428a6e320a8b1245f66090566f40d03d962f0b45d682ff5a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/eredotpkfr/subscan/releases/download/v1.3.0/subscan-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.3.0",
+      "sha256": "9525710a0cd8bc888fb465ae49de1f8b4c733065e45e8b20e13ebe75fd293edd",
+      "size": 8208261,
+      "format": "zip",
+      "binaries": {
+        "subscan.exe": {
+          "path": "subscan.exe",
+          "sha256": "89a5276b91a9036512b11ba28ae012c6cc284321fb49b85070a5885e6901a193"
+        }
+      }
+    }
+  }
+}
