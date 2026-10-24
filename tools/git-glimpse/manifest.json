@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "git-glimpse",
+  "version": "0.4.7",
+  "repository": "ErichDonGubler/git-glimpse",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ErichDonGubler/git-glimpse/releases/download/v0.4.7/git-glimpse-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.4.7",
+      "sha256": "7c6befca75553198d76089e25f27de4f0db48d126e53088acdec6be7bd7f5ab2",
+      "size": 1116204,
+      "format": "tar.xz",
+      "binaries": {
+        "git-glimpse": {
+          "path": "git-glimpse-x86_64-unknown-linux-gnu/git-glimpse",
+          "sha256": "680d2c61f2976d5ec51f2d53a2858c1d099ff4e8acb1e10e5dc75102461dc8db"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ErichDonGubler/git-glimpse/releases/download/v0.4.7/git-glimpse-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.7",
+      "sha256": "940b6a98a65c8e126fdaf90726bccf5df0928441a2f9e06607ad164228ac368b",
+      "size": 700796,
+      "format": "tar.xz",
+      "binaries": {
+        "git-glimpse": {
+          "path": "git-glimpse-x86_64-apple-darwin/git-glimpse",
+          "sha256": "d9b6e95974aff4b3a8f6cd8ab6428cabe1409aecc831ac4845c1e273e350cfc9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ErichDonGubler/git-glimpse/releases/download/v0.4.7/git-glimpse-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.7",
+      "sha256": "1b5d4f591e32efc75ba298f1b8209568347cf2c8088b4f015fbcd4c912d3070d",
+      "size": 635872,
+      "format": "tar.xz",
+      "binaries": {
+        "git-glimpse": {
+          "path": "git-glimpse-aarch64-apple-darwin/git-glimpse",
+          "sha256": "207d7cca9278fca46613d4f92bec4aa95f769f2ccc8fe4854e5d943d72609e9b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ErichDonGubler/git-glimpse/releases/download/v0.4.7/git-glimpse-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.7",
+      "sha256": "113e17f3e6ca6486b02947951fa45423c783a9abb1592ac8db2aa0241a2e6d8d",
+      "size": 2127052,
+      "format": "zip",
+      "binaries": {
+        "git-glimpse.exe": {
+          "path": "git-glimpse.exe",
+          "sha256": "337bc6f7e17ea663b304050fe66a1bc25428b2dcfeeed0c2039311812dfeeddf"
+        }
+      }
+    }
+  }
+}
