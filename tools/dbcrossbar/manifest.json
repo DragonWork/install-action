@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dbcrossbar",
+  "version": "0.5.7",
+  "repository": "dbcrossbar/dbcrossbar",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dbcrossbar/dbcrossbar/releases/download/v0.5.7/dbcrossbar_0.5.7_x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "cdc9204b54af6cca68a117fad10fc9e4789ec1d04bd2f4109a6757b9125fd157",
+      "size": 10912941,
+      "format": "zip",
+      "binaries": {
+        "dbcrossbar": {
+          "path": "dbcrossbar",
+          "sha256": "e9a1fdc3a53d8674a8ac010f1926a0952fe5d64f805a2ef6b580861e4ffa836a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dbcrossbar/dbcrossbar/releases/download/v0.5.7/dbcrossbar_0.5.7_x86_64-apple-darwin.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "dbb5b8d14d1773f0f3f0f250f96d94785cb02ae4fa6e6f6cc34e64c3c2f5d940",
+      "size": 8893604,
+      "format": "zip",
+      "binaries": {
+        "dbcrossbar": {
+          "path": "dbcrossbar",
+          "sha256": "5a1f52044036cd9f28613dd675bd40d3816c6c2321421433fb6e384e32ccedcb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dbcrossbar/dbcrossbar/releases/download/v0.5.7/dbcrossbar_0.5.7_aarch64-apple-darwin.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "f500f272c7074be1adca1babd8f2a88f26d78e1fb479cf42982559611af748cb",
+      "size": 8552755,
+      "format": "zip",
+      "binaries": {
+        "dbcrossbar": {
+          "path": "dbcrossbar",
+          "sha256": "61a0736513077760e9ec88d029ad7052c680a1844e553cefc7ee66959081b018"
+        }
+      }
+    }
+  }
+}
