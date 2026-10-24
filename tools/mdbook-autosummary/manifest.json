@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mdbook-autosummary",
+  "version": "0.1.9",
+  "repository": "hypergonial/mdbook-autosummary",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hypergonial/mdbook-autosummary/releases/download/v0.1.9/mdbook-autosummary-v0.1.9-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "6232b55c4e9fed325d8566cb955bbcddf23ab2619d3ab2b10bc3b8d8e920e194",
+      "size": 1440479,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-autosummary": {
+          "path": "mdbook-autosummary",
+          "sha256": "f33f5294a2d39fdaa1647297e6753a13ce8a7382cb20f86b102798651f8e3caa"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hypergonial/mdbook-autosummary/releases/download/v0.1.9/mdbook-autosummary-v0.1.9-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "ad371736506d4d9d5e7a5b69bb3280615021dea55364ede73604a23236b1ac01",
+      "size": 1307790,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-autosummary": {
+          "path": "mdbook-autosummary",
+          "sha256": "3958c16da4e2c9669f88deee6691a5f6e8527c16ea420594afce861d9671a3e8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hypergonial/mdbook-autosummary/releases/download/v0.1.9/mdbook-autosummary-v0.1.9-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "280d85a9840626f9e03f6c11189f10168dc242ebdc87d9d88f23f6fbe77f53be",
+      "size": 1296408,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-autosummary": {
+          "path": "mdbook-autosummary",
+          "sha256": "3bb5dccd3dcda5109cf7770a3dd3261394a958db852848504e6b0e5f801a15b3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hypergonial/mdbook-autosummary/releases/download/v0.1.9/mdbook-autosummary-v0.1.9-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.9",
+      "sha256": "e0e60bc4d2969e01be04e93dc221e75bdaf3b3a157a0e0b85f3cfaeb35604c02",
+      "size": 1160404,
+      "format": "zip",
+      "binaries": {
+        "mdbook-autosummary.exe": {
+          "path": "mdbook-autosummary.exe",
+          "sha256": "2eef5aeccf5d11422bbfa348b83b16039ffdf863a3de5791c15580aed20f407d"
+        }
+      }
+    }
+  }
+}
