@@ -7,6 +7,7 @@ const { promisify } = require('node:util');
 const { assert, VERSION, validateManifest, failure } = require('../lib/common.cjs');
 const { checkRegistry } = require('./check.cjs');
 const { compareVersions } = require('./update-tools.cjs');
+const { popularity } = require('./popularity.cjs');
 
 async function tagRefs() {
   const { stdout } = await promisify(execFile)('git', ['for-each-ref',
@@ -18,7 +19,7 @@ async function tagRefs() {
 }
 
 function catalogIndex(manifests, refs, catalog) {
-  assert(catalog.schema === 2 && catalog.yanked && typeof catalog.yanked === 'object'
+  assert([2, 3].includes(catalog.schema) && catalog.yanked && typeof catalog.yanked === 'object'
     && !Array.isArray(catalog.yanked), 'Refresh the catalog with yank metadata before building the site.');
   const versions = [...refs.keys()].filter(tag => tag.startsWith('v') && VERSION.test(tag.slice(1)))
     .sort((a, b) => compareVersions(b.slice(1), a.slice(1)));
@@ -30,6 +31,7 @@ function catalogIndex(manifests, refs, catalog) {
     const sha = refs.get(`${manifest.name}/v${manifest.version}`);
     assert(/^[a-f0-9]{40}$/.test(sha || ''), `Missing version tag for ${manifest.name}.`);
     const yanked = Object.hasOwn(catalog.yanked, manifest.name) ? catalog.yanked[manifest.name] : [];
+    const stats = Object.hasOwn(catalog.crates || {}, manifest.name) ? catalog.crates[manifest.name] : {};
     assert(Array.isArray(yanked) && yanked.every(version => typeof version === 'string' && VERSION.test(version)), 'Invalid yank metadata.');
     return {
       name: manifest.name, version: manifest.version, sha,
@@ -37,8 +39,10 @@ function catalogIndex(manifests, refs, catalog) {
       binaries: [...new Set(Object.values(manifest.artifacts).flatMap(artifact =>
         Object.keys(artifact.binaries).map(name => name.replace(/\.exe$/, ''))))].sort(),
       yanked: yanked.includes(manifest.version),
+      popularity: popularity(stats),
+      recentDownloads: stats.recentDownloads ?? null,
     };
-  }).sort((a, b) => a.name.localeCompare(b.name, 'en'));
+  }).sort((a, b) => b.popularity - a.popularity || a.name.localeCompare(b.name, 'en'));
   assert(new Set(tools.map(tool => tool.name)).size === tools.length, 'Duplicate catalog tool.');
   return { schema: 1, updatedAt: catalog.modified || null, engine, tools };
 }

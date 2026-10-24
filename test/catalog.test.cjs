@@ -4,6 +4,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const { catalogIndex } = require('../scripts/build-catalog.cjs');
 const { sample } = require('./fixtures.cjs');
+const { popularity } = require('../scripts/popularity.cjs');
 
 test('catalog pins come from installer and tool version tags, with yank status retained', () => {
   const { manifest } = sample();
@@ -25,13 +26,32 @@ test('catalog pins come from installer and tool version tags, with yank status r
 test('search combines crate names, executable names, and platform filters', async () => {
   const { filterTools } = await import('../site/catalog.mjs');
   const tools = [
-    { name: 'git-cliff', binaries: ['git-cliff', 'git-cliff-mangen'], platforms: ['linux-x64', 'darwin-arm64'] },
-    { name: 'b3sum', binaries: ['b3sum'], platforms: ['linux-x64'] },
+    { name: 'git-cliff', binaries: ['git-cliff', 'git-cliff-mangen'], platforms: ['linux-x64', 'darwin-arm64'], popularity: 2 },
+    { name: 'b3sum', binaries: ['b3sum'], platforms: ['linux-x64'], popularity: 1 },
   ];
   assert.deepEqual(filterTools(tools, ' GIT cliff ', 'darwin-arm64'), [tools[0]]);
   assert.deepEqual(filterTools(tools, 'mangen', ''), [tools[0]]);
   assert.deepEqual(filterTools(tools, 'b3sum', 'darwin-arm64'), []);
   assert.deepEqual(filterTools(tools, '', ''), tools);
+  assert.deepEqual(filterTools(tools, '', '', 'name'), [tools[1], tools[0]]);
+});
+
+test('popularity favors current use, retains lifetime use, and caps release activity', () => {
+  const active = { recentDownloads: 10000, downloads: 100000, recentVersions: 4 };
+  const dormant = { recentDownloads: 10, downloads: 1000000, recentVersions: 0 };
+  assert(popularity(active) > popularity(dormant));
+  assert(popularity({ ...active, downloads: 200000 }) > popularity(active));
+  assert(popularity(active) > popularity({ ...active, recentVersions: 0 }));
+  assert.equal(popularity({ ...active, recentVersions: 12 }), popularity({ ...active, recentVersions: 10000 }));
+  assert.equal(popularity({ downloads: -1, recentDownloads: NaN }), 0);
+  const { manifest } = sample();
+  const other = { ...manifest, name: 'another-cli' };
+  const refs = new Map([['v1.1.0', 'a'.repeat(40)], ['sample-cli/v1.0.0', 'b'.repeat(40)], ['another-cli/v1.0.0', 'c'.repeat(40)]]);
+  const index = catalogIndex([manifest, other], refs, { schema: 3, yanked: {}, crates: {
+    'sample-cli': active, 'another-cli': dormant,
+  } });
+  assert.deepEqual(index.tools.map(tool => tool.name), ['sample-cli', 'another-cli']);
+  assert.equal(index.tools[0].recentDownloads, active.recentDownloads);
 });
 
 test('copyable steps use independent full SHAs and reject malformed references', async () => {

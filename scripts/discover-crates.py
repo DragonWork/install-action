@@ -4,15 +4,20 @@
 import argparse
 import csv
 import codecs
+import datetime
 import json
 import re
 import tarfile
+import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
 DUMP_URL = "https://static.crates.io/db-dump.tar.gz"
 MIN_DOWNLOADS = 10_000
+SCHEMA = 3
+USER_AGENT = "DragonWork/install-action (https://github.com/DragonWork/install-action)"
 VERSION = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
 
 
@@ -30,8 +35,9 @@ def binary_names(value):
     return next(csv.reader([value[1:-1]], escapechar="\\"))
 
 
-def scan(stream):
-    names, downloads, latest, binaries, yanked = {}, {}, {}, {}, {}
+def scan(stream, today=None):
+    names, downloads, latest, binaries, yanked, activity = {}, {}, {}, {}, {}, {}
+    cutoff = ((today or datetime.date.today()) - datetime.timedelta(days=365)).isoformat()
     required = {"crates.csv", "crate_downloads.csv", "versions.csv"}
     tables = set()
     csv.field_size_limit(16 * 1024 * 1024)
@@ -57,6 +63,8 @@ def scan(stream):
                 if row["yanked"] in {"t", "true", "1"}:
                     yanked.setdefault(crate_id, []).append(row["num"])
                     continue
+                if (row.get("created_at") or "")[:10] >= cutoff:
+                    activity[crate_id] = activity.get(crate_id, 0) + 1
                 bins = binary_names(row["bin_names"])
                 if crate_id not in latest or key > latest[crate_id][0]:
                     latest[crate_id] = (key, bins)
@@ -75,6 +83,7 @@ def scan(stream):
         if crate_id in names and downloads.get(crate_id, 0) >= MIN_DOWNLOADS:
             details["repository"] = details["repository"] or names[crate_id]["repository"]
             details["downloads"] = downloads[crate_id]
+            details["recentVersions"] = min(activity.get(crate_id, 0), 12)
             crates[names[crate_id]["name"]] = details
     unknown = sorted(names[crate_id]["name"] for crate_id, (_, bins) in latest.items()
                      if bins is None and crate_id in names and downloads.get(crate_id, 0) >= MIN_DOWNLOADS)
@@ -85,25 +94,60 @@ def scan(stream):
             "yanked": dict(sorted(yanked_versions.items()))}
 
 
+def refresh_downloads(catalog, previous, opener=urllib.request.urlopen, pause=time.sleep, now=None):
+    now = now or datetime.datetime.now(datetime.timezone.utc)
+    if previous.get("popularityUpdatedAt"):
+        age = now - datetime.datetime.fromisoformat(previous["popularityUpdatedAt"])
+        if datetime.timedelta(0) <= age < datetime.timedelta(hours=12) and all(
+                name in previous.get("crates", {}) and "recentDownloads" in previous["crates"][name]
+                for name in catalog["crates"]):
+            for name, entry in catalog["crates"].items():
+                entry["recentDownloads"] = previous["crates"][name]["recentDownloads"]
+            catalog["popularityUpdatedAt"] = previous["popularityUpdatedAt"]
+            return
+    names = sorted(catalog["crates"])
+    for offset in range(0, len(names), 100):
+        batch = names[offset:offset + 100]
+        query = urllib.parse.urlencode([("per_page", "100")] + [("ids[]", name) for name in batch])
+        request = urllib.request.Request("https://crates.io/api/v1/crates?" + query,
+                                         headers={"User-Agent": USER_AGENT})
+        with opener(request, timeout=60) as response:
+            rows = json.load(response)["crates"]
+        found = set()
+        for row in rows:
+            name, recent = row["id"], row.get("recent_downloads")
+            if name not in batch or name in found or type(recent) is not int or recent < 0:
+                raise ValueError("Invalid recent download statistics from crates.io")
+            catalog["crates"][name]["recentDownloads"] = recent
+            found.add(name)
+        if found != set(batch):
+            raise ValueError("Incomplete recent download statistics from crates.io")
+        print(f"Updated download statistics for {offset + len(batch)} / {len(names)} crates.", flush=True)
+        if offset + 100 < len(names):
+            pause(1)
+    catalog["popularityUpdatedAt"] = now.isoformat()
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default="registry/catalog.json")
     args = parser.parse_args()
     destination = Path(args.output)
     previous = json.loads(destination.read_text()) if destination.exists() else {}
-    headers = {"User-Agent": "DragonWork/install-action (https://github.com/DragonWork/install-action)"}
-    if previous.get("etag") and previous.get("minimumDownloads") == MIN_DOWNLOADS and previous.get("schema") == 2:
+    headers = {"User-Agent": USER_AGENT}
+    if previous.get("etag") and previous.get("minimumDownloads") == MIN_DOWNLOADS and previous.get("schema") == SCHEMA:
         headers["If-None-Match"] = previous["etag"]
     request = urllib.request.Request(DUMP_URL, headers=headers)
     try:
         with urllib.request.urlopen(request, timeout=120) as response:
-            catalog = {"schema": 2, "minimumDownloads": MIN_DOWNLOADS, "source": DUMP_URL, "etag": response.headers.get("ETag"),
+            catalog = {"schema": SCHEMA, "minimumDownloads": MIN_DOWNLOADS, "source": DUMP_URL, "etag": response.headers.get("ETag"),
                        "modified": response.headers.get("Last-Modified"), **scan(response)}
     except urllib.error.HTTPError as error:
         if error.code != 304:
             raise
         catalog = previous
         print("The crates.io dump is unchanged.")
+    refresh_downloads(catalog, previous)
     destination.parent.mkdir(parents=True, exist_ok=True)
     for entry in catalog["crates"].values():
         entry.pop("checksum", None)

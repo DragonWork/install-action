@@ -4,10 +4,12 @@ export const platforms = Object.freeze({
   'win32-x64': 'Windows x64', 'win32-arm64': 'Windows ARM64',
 });
 
-export function filterTools(tools, query, platform) {
+export function filterTools(tools, query, platform, order = 'popular') {
   const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   return tools.filter(tool => (!platform || tool.platforms.includes(platform))
-    && words.every(word => `${tool.name} ${tool.binaries.join(' ')}`.toLowerCase().includes(word)));
+    && words.every(word => `${tool.name} ${tool.binaries.join(' ')}`.toLowerCase().includes(word)))
+    .sort((a, b) => (order === 'name' ? 0 : (b.popularity || 0) - (a.popularity || 0))
+      || a.name.localeCompare(b.name, 'en'));
 }
 
 export function installationSteps(engine, tool) {
@@ -33,6 +35,7 @@ async function start() {
   const catalog = await response.json();
   if (catalog.schema !== 1 || !Array.isArray(catalog.tools)) throw new Error('Invalid catalog.');
   const query = document.querySelector('#query'), platform = document.querySelector('#platform');
+  const order = document.querySelector('#order');
   const list = document.querySelector('#tools'), count = document.querySelector('#count');
   const previous = document.querySelector('#previous'), next = document.querySelector('#next');
   const dialog = document.querySelector('#usage'), snippet = document.querySelector('#snippet');
@@ -41,6 +44,7 @@ async function start() {
   const params = new URLSearchParams(location.search);
   query.value = params.get('q') || '';
   platform.value = Object.hasOwn(platforms, params.get('platform')) ? params.get('platform') : '';
+  order.value = params.get('sort') === 'name' ? 'name' : 'popular';
   const pageSize = 50;
   let page = 0, matches = [];
 
@@ -53,6 +57,10 @@ async function start() {
     metadata.append(element('code', 'version', `v${tool.version}`));
     if (tool.yanked) metadata.append(element('span', 'yanked', 'Yanked'));
     identity.append(name, metadata);
+    if (Number.isSafeInteger(tool.recentDownloads)) {
+      const downloads = element('p', 'commands', `${tool.recentDownloads.toLocaleString()} downloads in 90 days`);
+      identity.append(downloads);
+    }
     if (tool.binaries.length !== 1 || tool.binaries[0] !== tool.name) {
       identity.append(element('p', 'commands', tool.binaries.join(', ')));
     }
@@ -69,7 +77,7 @@ async function start() {
   }
 
   function render() {
-    matches = filterTools(catalog.tools, query.value, platform.value);
+    matches = filterTools(catalog.tools, query.value, platform.value, order.value);
     const pages = Math.ceil(matches.length / pageSize);
     page = Math.max(0, Math.min(page, pages - 1));
     count.textContent = `${matches.length.toLocaleString()} of ${catalog.tools.length.toLocaleString()} tools`;
@@ -80,7 +88,7 @@ async function start() {
     next.disabled = page + 1 >= pages;
     list.replaceChildren(...matches.slice(page * pageSize, (page + 1) * pageSize).map(row));
     const url = new URL(location.href);
-    for (const [key, value] of [['q', query.value], ['platform', platform.value]]) {
+    for (const [key, value] of [['q', query.value], ['platform', platform.value], ['sort', order.value === 'name' ? 'name' : '']]) {
       if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
     }
     history.replaceState(null, '', url);
@@ -88,6 +96,7 @@ async function start() {
 
   query.addEventListener('input', () => { page = 0; render(); });
   platform.addEventListener('change', () => { page = 0; render(); });
+  order.addEventListener('change', () => { page = 0; render(); });
   previous.addEventListener('click', () => { page--; render(); });
   next.addEventListener('click', () => { page++; render(); });
   list.addEventListener('click', event => {

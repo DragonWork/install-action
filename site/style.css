@@ -21,7 +21,7 @@ a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 .intro, .count, footer, .commands { color: var(--muted); }
 .intro { margin: 0; }
-.filters { display: grid; grid-template-columns: 1fr 230px; gap: 20px; }
+.filters { display: grid; grid-template-columns: minmax(0, 1fr) 210px 170px; gap: 20px; }
 label { display: block; font-weight: 600; font-size: .875rem; margin-bottom: 6px; }
 input, select { width: 100%; min-height: 44px; border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; background: var(--surface); color: var(--text); font: inherit; }
 input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }

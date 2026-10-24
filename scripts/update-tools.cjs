@@ -9,6 +9,7 @@ const execute = promisify(execFile);
 const { assert, NAME, VERSION, sha256, download, extractBinary, archivePath, validateManifest,
   writeCommand, failure } = require('../lib/common.cjs');
 const { api } = require('./github.cjs');
+const { popularity } = require('./popularity.cjs');
 
 const TARGETS = {
   'linux-x64': ['x86_64-unknown-linux-musl', 'x86_64-unknown-linux-gnu'],
@@ -72,7 +73,8 @@ async function probeReleases(catalog, state, current, limit = 2000) {
       || Date.parse(state[name].retryAfter || 0) <= now;
   });
   due.sort((a, b) => Number(Boolean(current[b])) - Number(Boolean(current[a]))
-    || Number(Boolean(state[a])) - Number(Boolean(state[b])) || a.localeCompare(b));
+    || Number(Boolean(state[a])) - Number(Boolean(state[b]))
+    || popularity(catalog.crates[b]) - popularity(catalog.crates[a]) || a.localeCompare(b));
   const requests = [];
   const retryAfter = new Date(now + 7 * 24 * 60 * 60 * 1000).toISOString();
   for (const name of due) {
@@ -332,7 +334,7 @@ async function planUpdate(directory) {
     return duePreparation(state[name], version);
   });
   pending.sort((a, b) => Number(Boolean(current[b])) - Number(Boolean(current[a]))
-    || catalog.crates[b].downloads - catalog.crates[a].downloads || a.localeCompare(b));
+    || popularity(catalog.crates[b]) - popularity(catalog.crates[a]) || a.localeCompare(b));
   const names = [...new Set([...extra, ...pending])].slice(0, batch);
   for (const name of names) assert(NAME.test(name), 'Invalid crate name.');
   const plan = { names, shards: Math.min(3, names.length) || 1, candidates: Object.fromEntries(names.map(name => [name, {
