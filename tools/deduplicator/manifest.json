@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "deduplicator",
+  "version": "0.3.1",
+  "repository": "sreedevk/deduplicator",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sreedevk/deduplicator/releases/download/v0.3.1/linux-amd64.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "f4c1f43a2d452fa523ff4d43dca27ba3d2ac914cc56c1bb0bff1f1e776f33af7",
+      "size": 1160765,
+      "format": "tar.gz",
+      "binaries": {
+        "deduplicator": {
+          "path": "deduplicator",
+          "sha256": "0c652b89e5cbcc51caa2448ac301303c3f10f5f7293096676ada6f8e40702d82"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sreedevk/deduplicator/releases/download/v0.3.1/linux-aarch64.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "fa9aa98437ea31929ad3e15eb46037c424eb9cf6791b62b985be1a190f0729f4",
+      "size": 1057023,
+      "format": "tar.gz",
+      "binaries": {
+        "deduplicator": {
+          "path": "deduplicator",
+          "sha256": "0f77b4f6924515569cd77f8d094761e3a876f91080fa178a9076294808e86d10"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sreedevk/deduplicator/releases/download/v0.3.1/macos-amd64.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "d9a5aec3064abbce2160cae47941cee87739b4ccb6e4493b15bb9a6b26d48f59",
+      "size": 1111845,
+      "format": "tar.gz",
+      "binaries": {
+        "deduplicator": {
+          "path": "deduplicator",
+          "sha256": "bbf3bee791723b2cb92a44ae2f5f8143728c5f3dde542a1c59f2520da3226db3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sreedevk/deduplicator/releases/download/v0.3.1/macos-arm64.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "73d5d05abe8765157d04d31f3eafd0f160eb7c385664fe45bd3216fb03d0f1cf",
+      "size": 1034133,
+      "format": "tar.gz",
+      "binaries": {
+        "deduplicator": {
+          "path": "deduplicator",
+          "sha256": "d53b81984a43a9e2460bf28d631b734d9136d3fec8a2aa1e4f80aafae6caf6a9"
+        }
+      }
+    }
+  }
+}
