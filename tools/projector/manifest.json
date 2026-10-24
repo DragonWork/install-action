@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "projector",
+  "version": "1.1.0",
+  "repository": "chasinglogic/projector",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/chasinglogic/projector/releases/download/1.1.0/projector-1.1.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.1.0",
+      "sha256": "be0023901619a049f5c126e605189a2abfb7a9524a7c9b9cd1767198c7232e23",
+      "size": 1071414,
+      "format": "tar.gz",
+      "binaries": {
+        "projector": {
+          "path": "projector-1.1.0-x86_64-unknown-linux-gnu/projector",
+          "sha256": "997a905eeb8bb549d87a7662045557bd87c8260fbae2284321d90969bd602312"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/chasinglogic/projector/releases/download/1.1.0/projector-1.1.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.1.0",
+      "sha256": "f2f96d612c1abbe52915b6186b5d08c4970b3e859a5bb3bd1a9a918fef7c98d2",
+      "size": 998797,
+      "format": "tar.gz",
+      "binaries": {
+        "projector": {
+          "path": "projector-1.1.0-x86_64-apple-darwin/projector",
+          "sha256": "ef6b1929e3857164c383cb22a01e5ce5399fd0730e4b474a1e2b09044ba12f50"
+        }
+      }
+    }
+  }
+}
