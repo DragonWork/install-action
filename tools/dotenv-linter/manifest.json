@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "dotenv-linter",
+  "version": "4.0.0",
+  "repository": "dotenv-linter/dotenv-linter",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dotenv-linter/dotenv-linter/releases/download/v4.0.0/dotenv-linter-linux-x86_64.tar.gz",
+      "releaseTag": "v4.0.0",
+      "sha256": "9e2f1f6eb88a71ac15ef209f78f5a68644db82f132d2677112b4f80ec2bd2127",
+      "size": 1729911,
+      "format": "tar.gz",
+      "binaries": {
+        "dotenv-linter": {
+          "path": "dotenv-linter",
+          "sha256": "d5a4a7e1c455cf9e786ca630080c41824dd1aa0177496a4151a3f4d3562ed7ee"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dotenv-linter/dotenv-linter/releases/download/v4.0.0/dotenv-linter-linux-aarch64.tar.gz",
+      "releaseTag": "v4.0.0",
+      "sha256": "c4113aafd35e5f9095b2f757061d07cc8eb5cc0bcd755249877af08b7ffafb9a",
+      "size": 1753401,
+      "format": "tar.gz",
+      "binaries": {
+        "dotenv-linter": {
+          "path": "dotenv-linter",
+          "sha256": "742407590a6803e77df5d4d013daeb1285d207d0876981deb0194dbc1b8918e9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dotenv-linter/dotenv-linter/releases/download/v4.0.0/dotenv-linter-darwin-x86_64.tar.gz",
+      "releaseTag": "v4.0.0",
+      "sha256": "143361bcd3c859cac0b16a6eaa51f3f69f270f17a55431e2e44d76722a7f0271",
+      "size": 1612403,
+      "format": "tar.gz",
+      "binaries": {
+        "dotenv-linter": {
+          "path": "dotenv-linter",
+          "sha256": "e9829a93ac6ae30520ce0e4bb16d03579f4d8117e97d71ed387f8a17827f2bbf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dotenv-linter/dotenv-linter/releases/download/v4.0.0/dotenv-linter-darwin-arm64.tar.gz",
+      "releaseTag": "v4.0.0",
+      "sha256": "430ed45983cfc1d242cae959ec4b3b2df43fa1aff07d7750cc836d2f6479799a",
+      "size": 1568331,
+      "format": "tar.gz",
+      "binaries": {
+        "dotenv-linter": {
+          "path": "dotenv-linter",
+          "sha256": "2fa7eca5f7379ff713dcd30af991bce3d8e54f4133fcefd53aeb399d31387399"
+        }
+      }
+    }
+  }
+}
