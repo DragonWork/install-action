@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "veryl-ls",
+  "version": "0.22.0",
+  "repository": "veryl-lang/veryl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.0/veryl-x86_64-linux.zip",
+      "releaseTag": "v0.22.0",
+      "sha256": "5a955bd395a09e8a611d70d7e6850ed930fa268e83b6a89238ad2670f616016a",
+      "size": 39036430,
+      "format": "zip",
+      "binaries": {
+        "veryl-ls": {
+          "path": "veryl-ls",
+          "sha256": "5079728c6ce6e35a21d1d2f76c9dd6a5ca8a8075852475b0772ba095fb88e9d6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.0/veryl-aarch64-linux.zip",
+      "releaseTag": "v0.22.0",
+      "sha256": "237388c07e3d0fa9a80907393cadcfbf23b088f05108cb993c7db5bd1b6444d9",
+      "size": 36275378,
+      "format": "zip",
+      "binaries": {
+        "veryl-ls": {
+          "path": "veryl-ls",
+          "sha256": "ca8097d6b8ade8edcdc8f2b83bb63741ca0f87f7154d3ddc562dbb34c8d13a0d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.0/veryl-x86_64-windows.zip",
+      "releaseTag": "v0.22.0",
+      "sha256": "f3f47183fb2c203c7845f2c0d4aa752a7fdbd19e99f6b0618a8c85c6197b8beb",
+      "size": 36542765,
+      "format": "zip",
+      "binaries": {
+        "veryl-ls.exe": {
+          "path": "veryl-ls.exe",
+          "sha256": "62f9fafea806e45f82d3892f644526f54e01c117ae7260ea61e2645908914773"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.0/veryl-aarch64-windows.zip",
+      "releaseTag": "v0.22.0",
+      "sha256": "f35a2720687fea09f6a4aa9b4942dc04236bbd607b81d7f62ea52d9a6ac2eb08",
+      "size": 33736190,
+      "format": "zip",
+      "binaries": {
+        "veryl-ls.exe": {
+          "path": "veryl-ls.exe",
+          "sha256": "ec037bf6b070404e9999cc3fc180bb8a73870d3cf622622497a7ddd724dc9e9b"
+        }
+      }
+    }
+  }
+}
