@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "fselect",
+  "version": "0.10.4",
+  "repository": "jhspetersson/fselect",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jhspetersson/fselect/releases/download/0.10.4/fselect_0.10.4-1_amd64.deb",
+      "sha256": "59ef62e308a1923e6fcc17b0e934e052945389b0aa8165c8e3f439c34159a845",
+      "size": 2935996,
+      "format": "deb",
+      "releaseTag": "0.10.4",
+      "binaries": {
+        "fselect": {
+          "path": "./usr/bin/fselect",
+          "sha256": "f3b3c391b77d14242a8e4acf71cecdd4cf44fe17efb4272979dee5e6a4048b52"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jhspetersson/fselect/releases/download/0.10.4/fselect-x86_64-win.zip",
+      "sha256": "a6eeff2b7d55d44cb6974d387fb925aa16da0db1a4a280888640200ec7cda364",
+      "size": 3747140,
+      "format": "zip",
+      "releaseTag": "0.10.4",
+      "binaries": {
+        "fselect.exe": {
+          "path": "fselect.exe",
+          "sha256": "cce43bfd95fbfbf73f08dc950568515aa1b0311f8bfac27b870ece9afff223a0"
+        }
+      }
+    }
+  }
+}
