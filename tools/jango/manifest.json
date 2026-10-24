@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "jango",
+  "version": "0.2.4",
+  "repository": "DaliaReds/jango",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/jango-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.2.4",
+      "sha256": "c970cfadc954c8d5c947e9f162523e2430fe82534cc9e9c56b8821118959a63b",
+      "size": 1333552,
+      "format": "tar.xz",
+      "binaries": {
+        "jango": {
+          "path": "jango-x86_64-unknown-linux-musl/jango",
+          "sha256": "8a383d14b97110bd5a637f34c9da79d1cd439d70e5764809cf89497ad81ffb62"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/jango-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.4",
+      "sha256": "ac1ae30041fe4582e5b7811d5792de2426cfc9938f9bba0604307c3a17e9b8af",
+      "size": 1083464,
+      "format": "tar.xz",
+      "binaries": {
+        "jango": {
+          "path": "jango-x86_64-apple-darwin/jango",
+          "sha256": "a2c802dffab07d0357dff5dfef138e8e51f50376670019fd339722605729fec6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/jango-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.4",
+      "sha256": "0d68b300f5d1c4d2688125368ce5a57e2be10edff8cf97356b8427ed6568f623",
+      "size": 1132704,
+      "format": "tar.xz",
+      "binaries": {
+        "jango": {
+          "path": "jango-aarch64-apple-darwin/jango",
+          "sha256": "0fd74cafe10838fd41437fe6e920904d01e45dcd727a7db81c4008e6424885c1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/DaliaReds/jango/releases/download/v0.2.4/jango-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.4",
+      "sha256": "1686875759fae9a90b757ef7981e7ec83c28aa0ba618535fefebad2792aa05bd",
+      "size": 4836045,
+      "format": "zip",
+      "binaries": {
+        "jango.exe": {
+          "path": "jango.exe",
+          "sha256": "3c6b4ce937f633950df01d8ac059ac746e51641b520f1ccb98b7cbf43a956005"
+        }
+      }
+    }
+  }
+}
