@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "licensure",
+  "version": "0.8.1",
+  "repository": "chasinglogic/licensure",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/chasinglogic/licensure/releases/download/0.8.1/licensure-0.8.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.8.1",
+      "sha256": "7d5dcb0b52309bfdb4a52cce2cbea4fb711cd6b54e594255e1fc33eda9f8c9e2",
+      "size": 2391180,
+      "format": "tar.gz",
+      "binaries": {
+        "licensure": {
+          "path": "licensure-0.8.1-x86_64-unknown-linux-gnu/licensure",
+          "sha256": "e8ba99973a9443c77d2a05f5663c945b2d612a3e3d0c797a425b87ce80e8ac0e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/chasinglogic/licensure/releases/download/0.8.1/licensure-0.8.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.8.1",
+      "sha256": "d55737183627a54a8963d404376830a1167598a85b5976baee67812466db875b",
+      "size": 2170003,
+      "format": "tar.gz",
+      "binaries": {
+        "licensure": {
+          "path": "licensure-0.8.1-x86_64-apple-darwin/licensure",
+          "sha256": "048c4341aef5df885dd4255636477e71dc1be4300ac2cbf544fea3178bbcdf72"
+        }
+      }
+    }
+  }
+}
