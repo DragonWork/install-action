@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "distrib",
+  "version": "0.0.4",
+  "repository": "artob/distrib",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/artob/distrib/releases/download/0.0.4/distrib-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.0.4",
+      "sha256": "de404c323e519ee2e7a3632275902fd7b7ba483ee131f19c5892c9d9ab102ad2",
+      "size": 1846600,
+      "format": "tar.xz",
+      "binaries": {
+        "distrib": {
+          "path": "distrib-x86_64-unknown-linux-gnu/distrib",
+          "sha256": "c0865e7c49f40f4d8d5095ab17966aed3b799c1e9b4192fec0aa3999beae71c7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/artob/distrib/releases/download/0.0.4/distrib-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.0.4",
+      "sha256": "19f774333b3ef36b4d1ae33a1d2ab0c5d9f8d3f390cbf17ce1265596758b6f78",
+      "size": 1683956,
+      "format": "tar.xz",
+      "binaries": {
+        "distrib": {
+          "path": "distrib-aarch64-unknown-linux-gnu/distrib",
+          "sha256": "b7228f90474cef5149c289fe28aad332bd26b190bcd1823e4edb797c8ccdff87"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/artob/distrib/releases/download/0.0.4/distrib-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.0.4",
+      "sha256": "36a9b1991d3b5de98717271d03a1c1a7ca637e9ee9e544ee1aeae17f1e31fca9",
+      "size": 1745596,
+      "format": "tar.xz",
+      "binaries": {
+        "distrib": {
+          "path": "distrib-x86_64-apple-darwin/distrib",
+          "sha256": "07adda6653f72b0b6bad0ed6a08e6752761092abbff2d50234dab09bfcf5592e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/artob/distrib/releases/download/0.0.4/distrib-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.0.4",
+      "sha256": "8c5577d9ce2db23273193da175b30e702eaf74d2266ab0fd06640460e918fe01",
+      "size": 1609584,
+      "format": "tar.xz",
+      "binaries": {
+        "distrib": {
+          "path": "distrib-aarch64-apple-darwin/distrib",
+          "sha256": "8358bb861157a34286d920ef50e5c5938713233cea488c19fd98bda97c6f9323"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/artob/distrib/releases/download/0.0.4/distrib-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.0.4",
+      "sha256": "f3c62219ce7d486279d9f58c19e436e405ac2160d409ecd3549019399d3a4de8",
+      "size": 2457546,
+      "format": "zip",
+      "binaries": {
+        "distrib.exe": {
+          "path": "distrib.exe",
+          "sha256": "471d1434db14cbdeff5a39d40088ebefba91ac6df535c7167083a59d7c4cc68b"
+        }
+      }
+    }
+  }
+}
