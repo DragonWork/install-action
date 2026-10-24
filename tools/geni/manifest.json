@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "geni",
+  "version": "1.3.3",
+  "repository": "emilpriver/geni",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/emilpriver/geni/releases/download/v1.3.3/geni-linux-386",
+      "sha256": "f307e060dc31c0e22012b7436c7e7502d76ba0b53f6668a686d6e36277037a96",
+      "size": 16010800,
+      "format": "binary",
+      "releaseTag": "v1.3.3",
+      "binaries": {
+        "geni": {
+          "path": "geni-linux-386",
+          "sha256": "f307e060dc31c0e22012b7436c7e7502d76ba0b53f6668a686d6e36277037a96"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/emilpriver/geni/releases/download/v1.3.3/geni-macos-arm64",
+      "sha256": "3befe3f2b5575b9d54b70c430e2bcc2624d7af295756f0ff93881953502284c9",
+      "size": 10319872,
+      "format": "binary",
+      "releaseTag": "v1.3.3",
+      "binaries": {
+        "geni": {
+          "path": "geni-macos-arm64",
+          "sha256": "3befe3f2b5575b9d54b70c430e2bcc2624d7af295756f0ff93881953502284c9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/emilpriver/geni/releases/download/v1.3.3/geni-windows-amd64",
+      "sha256": "476c85b1fb039fa6d5b4bf067d2947225b2d31db166ddd38bd5e1a02141b7d10",
+      "size": 13745664,
+      "format": "binary",
+      "releaseTag": "v1.3.3",
+      "binaries": {
+        "geni.exe": {
+          "path": "geni-windows-amd64",
+          "sha256": "476c85b1fb039fa6d5b4bf067d2947225b2d31db166ddd38bd5e1a02141b7d10"
+        }
+      }
+    }
+  }
+}
