@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "termscp",
+  "version": "1.2.1",
+  "repository": "veeso/termscp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/veeso/termscp/releases/download/v1.2.1/termscp-v1.2.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "fdfb3ea26ab3ed592bfc4bd4eeb54e7e579562f4722aad03937e7f70d6f2ff8d",
+      "size": 25292332,
+      "format": "tar.gz",
+      "binaries": {
+        "termscp": {
+          "path": "termscp",
+          "sha256": "b97b2272fefda55a415231f083dc21750414e755e3cab16032a5821adf87f14c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/veeso/termscp/releases/download/v1.2.1/termscp-v1.2.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "79bbeb31c1bf346e9ac8e0c2e1b5e1f52f2a1ba37757481369bb342570ec0316",
+      "size": 24129840,
+      "format": "tar.gz",
+      "binaries": {
+        "termscp": {
+          "path": "termscp",
+          "sha256": "bb3bd94aa58a29be3d857229f35fc7ec466d84bd35cb99e941d2e0ab583bd6a5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/veeso/termscp/releases/download/v1.2.1/termscp-v1.2.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "839a4bbf2bbf51d276ad1eaa6d15e17e5ae6fdd67035182ddf8ead84946b3a9c",
+      "size": 16906069,
+      "format": "tar.gz",
+      "binaries": {
+        "termscp": {
+          "path": "termscp",
+          "sha256": "8725ac0f11f2a62896c499a072ba519f312da0f2cab9462780a7666ebda276d1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/veeso/termscp/releases/download/v1.2.1/termscp-v1.2.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "b00c4c7ec0c14023a1d765720e47cc376fa35dd6d6b5572521f5140235023a29",
+      "size": 17934954,
+      "format": "tar.gz",
+      "binaries": {
+        "termscp": {
+          "path": "termscp",
+          "sha256": "5b0fdfac3d68d05354144cfa6bc187f6916e623ff9d560ff0d578abee97ad8d6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/veeso/termscp/releases/download/v1.2.1/termscp-v1.2.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "d3c34da7467c8e63f2f6281b6531e1a61429695504a1aacccc5e60bc617f185a",
+      "size": 19658835,
+      "format": "zip",
+      "binaries": {
+        "termscp.exe": {
+          "path": "termscp.exe",
+          "sha256": "cc3231a1be8800672c371e55bd27b1a7135f0e94c6bd4b2c4cf13496ac02bb0c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/veeso/termscp/releases/download/v1.2.1/termscp-v1.2.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "852b5d630eae647ee226de6f7376ce8bc0eaf633e9d48e9a455871c4b79780ab",
+      "size": 18447568,
+      "format": "zip",
+      "binaries": {
+        "termscp.exe": {
+          "path": "termscp.exe",
+          "sha256": "13f02f1587175e84c983cdc25f8a253c903c8a068f391709e40c8f27a726f518"
+        }
+      }
+    }
+  }
+}
