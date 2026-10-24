@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "svlint",
+  "version": "0.9.5",
+  "repository": "dalance/svlint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dalance/svlint/releases/download/v0.9.5/svlint-v0.9.5-x86_64-lnx.zip",
+      "sha256": "0bbb3850b8ef604d7ccf25c2b0d2a751154ac2e18b2a12753ae1648f237a8ceb",
+      "size": 14257098,
+      "format": "zip",
+      "releaseTag": "v0.9.5",
+      "binaries": {
+        "svlint": {
+          "path": "bin/svlint",
+          "sha256": "f921599268e42e38623ac76d240f42b96a9845df89d7d4f28b32270829561e52"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dalance/svlint/releases/download/v0.9.5/svlint-v0.9.5-x86_64-mac.zip",
+      "sha256": "53838f356862b6492777347999ccf44c1b44bc78f51cb032759b9e17bd213519",
+      "size": 14014212,
+      "format": "zip",
+      "releaseTag": "v0.9.5",
+      "binaries": {
+        "svlint": {
+          "path": "bin/svlint",
+          "sha256": "fce51786e443544417406733196f46939804d9b992e09dc0a4c86110a22fda06"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dalance/svlint/releases/download/v0.9.5/svlint-v0.9.5-aarch64-mac.zip",
+      "sha256": "d032be600f0ee04130e0663daa05da3cc562d3d34bbc4305d6b70cb99310c6df",
+      "size": 12968040,
+      "format": "zip",
+      "releaseTag": "v0.9.5",
+      "binaries": {
+        "svlint": {
+          "path": "bin/svlint",
+          "sha256": "1fade5f542774a17567cb6970b3630b2b599c6fb87cdabb11a7ff83e91408f6a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dalance/svlint/releases/download/v0.9.5/svlint-v0.9.5-x86_64-win.zip",
+      "sha256": "7ec5c8a1808ca656ff0b4a2d64e42102d696a71fd9e36b51249804b377cc22d4",
+      "size": 13775298,
+      "format": "zip",
+      "releaseTag": "v0.9.5",
+      "binaries": {
+        "svlint.exe": {
+          "path": "bin/svlint.exe",
+          "sha256": "4b6a3dd3750b5e3eb1b4ea0922ee7b20d41df0f27de5f90c0de6bbbbf4528701"
+        }
+      }
+    }
+  }
+}
