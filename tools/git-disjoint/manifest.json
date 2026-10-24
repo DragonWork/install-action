@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "git-disjoint",
+  "version": "0.16.7",
+  "repository": "EricCrosson/git-disjoint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EricCrosson/git-disjoint/releases/download/v0.16.7/git-disjoint-x86_64-unknown-linux-musl",
+      "sha256": "b402af4d1411597f285d132d11ae7ed17da20a10c97920c719378c6b564dcd16",
+      "size": 8530080,
+      "format": "binary",
+      "releaseTag": "v0.16.7",
+      "binaries": {
+        "git-disjoint": {
+          "path": "git-disjoint-x86_64-unknown-linux-musl",
+          "sha256": "b402af4d1411597f285d132d11ae7ed17da20a10c97920c719378c6b564dcd16"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EricCrosson/git-disjoint/releases/download/v0.16.7/git-disjoint-aarch64-unknown-linux-musl",
+      "sha256": "796722bfc710538c32bf299d9439641a29d4de6a04e3325ee93431f6f54df52e",
+      "size": 6575288,
+      "format": "binary",
+      "releaseTag": "v0.16.7",
+      "binaries": {
+        "git-disjoint": {
+          "path": "git-disjoint-aarch64-unknown-linux-musl",
+          "sha256": "796722bfc710538c32bf299d9439641a29d4de6a04e3325ee93431f6f54df52e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EricCrosson/git-disjoint/releases/download/v0.16.7/git-disjoint-x86_64-apple-darwin",
+      "sha256": "f858923c911a3c7b5822b76fb9adc6786a52fdd59a2e2cfec3bac4b526e24871",
+      "size": 7771596,
+      "format": "binary",
+      "releaseTag": "v0.16.7",
+      "binaries": {
+        "git-disjoint": {
+          "path": "git-disjoint-x86_64-apple-darwin",
+          "sha256": "f858923c911a3c7b5822b76fb9adc6786a52fdd59a2e2cfec3bac4b526e24871"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EricCrosson/git-disjoint/releases/download/v0.16.7/git-disjoint-aarch64-apple-darwin",
+      "sha256": "1f39a60796ab200816c2f5d4abef3b1945d3f57b69be94e7901ff6e1944a01f0",
+      "size": 6527440,
+      "format": "binary",
+      "releaseTag": "v0.16.7",
+      "binaries": {
+        "git-disjoint": {
+          "path": "git-disjoint-aarch64-apple-darwin",
+          "sha256": "1f39a60796ab200816c2f5d4abef3b1945d3f57b69be94e7901ff6e1944a01f0"
+        }
+      }
+    }
+  }
+}
