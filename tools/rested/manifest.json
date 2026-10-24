@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rested",
+  "version": "0.11.0",
+  "repository": "Gnarus-G/rested",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Gnarus-G/rested/releases/download/v0.11.0/rstd_x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "1d365910504261689dbc93989b1c026eec97f3980211544d14d093394d99f535",
+      "size": 3619094,
+      "format": "tar.gz",
+      "binaries": {
+        "rstd": {
+          "path": "rested_v0.11.0/rstd",
+          "sha256": "bdd61d4e16732af3ad904679461e854eb33e3b4e0ae28f9f06e29f35be55a52c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Gnarus-G/rested/releases/download/v0.11.0/rstd_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "1730961adeb493e1c146c33ad2e4b1516f81ffd296fd3cd6ad3122e0722fc270",
+      "size": 3225141,
+      "format": "tar.gz",
+      "binaries": {
+        "rstd": {
+          "path": "rested_v0.11.0/rstd",
+          "sha256": "7658785d3bd42b238583f947aa84b9e7a344a4f448a79aea6a20d3832896e0bc"
+        }
+      }
+    }
+  }
+}
