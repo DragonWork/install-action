@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-pack-docker",
+  "version": "0.5.0",
+  "repository": "KeenS/cargo-pack-docker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KeenS/cargo-pack-docker/releases/download/v0.5.0/cargo-pack-docker-v0.5.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "f518d8251e1b247774ee6e357a9dad0540706c2b50b2533870cb90a02f22f5b0",
+      "size": 2023400,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-pack-docker": {
+          "path": "cargo-pack-docker",
+          "sha256": "1db6979e25d8725ba7fb0f44e2b5bd17a49f8a839d9560148a1f436b5e6ef5f6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KeenS/cargo-pack-docker/releases/download/v0.5.0/cargo-pack-docker-v0.5.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "af0ea8d7e132d4ae7a4cad19d444ba14b04b2d6f4ad7469eb02f04511ecd9fed",
+      "size": 1854228,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-pack-docker": {
+          "path": "cargo-pack-docker",
+          "sha256": "181fd2317907006933b88d92a48b151b6cc436d738b18bdf4f1bdf9b5635ba9b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KeenS/cargo-pack-docker/releases/download/v0.5.0/cargo-pack-docker-v0.5.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "fe58178f02aa84509876962ca7d764bfe4c8775157f5b129db051b146e39bfbc",
+      "size": 1272444,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-pack-docker": {
+          "path": "cargo-pack-docker",
+          "sha256": "ea9892039c849b4e5580fe85e1f0aa15009266c6b8174441e765ef280e827cb0"
+        }
+      }
+    }
+  }
+}
