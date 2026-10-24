@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "treefmt",
+  "version": "0.6.1",
+  "repository": "numtide/treefmt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/numtide/treefmt/releases/download/v0.6.1/treefmt-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "42f4236e4a87fd4ba921db9ce028c18839d9583f39f4bbcedb5fef8f1394f307",
+      "size": 1285619,
+      "format": "tar.gz",
+      "binaries": {
+        "treefmt": {
+          "path": "treefmt",
+          "sha256": "bc086759ee9fa84b26ad66eb6f761ab13f67084ff9415672779375240beeaa94"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/numtide/treefmt/releases/download/v0.6.1/treefmt-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "6d44d272024732c26c42476e7012130f319d344545ff036e853cbeed1310c360",
+      "size": 1888193,
+      "format": "tar.gz",
+      "binaries": {
+        "treefmt": {
+          "path": "treefmt",
+          "sha256": "ebed65008710b92070b28aa740eef8e70af482288732eaf13138ddb9b8cfb757"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/numtide/treefmt/releases/download/v0.6.1/treefmt-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "3e1ebf59c7564e8e8a25e004b194396b2942bc22e7dd7f0534f95f0c3b7543c4",
+      "size": 1131886,
+      "format": "tar.gz",
+      "binaries": {
+        "treefmt": {
+          "path": "treefmt",
+          "sha256": "8302e7275eec6a57b740e63a0c34b6ce0472e1661d3f401514e05aaf2384d8a0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/numtide/treefmt/releases/download/v0.6.1/treefmt-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "050dcdf0e3ffbef4e995d7d0fb26e587fddd86737bf1c07bd4fe90cd32cb9f51",
+      "size": 1018677,
+      "format": "tar.gz",
+      "binaries": {
+        "treefmt": {
+          "path": "treefmt",
+          "sha256": "807216722791a9facc77fc300a1c145fe9579b2bb173022f3f2ed3d62ea21916"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/numtide/treefmt/releases/download/v0.6.1/treefmt-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "2eb2254e8fbf6a1aef348f376bb7bf4e2ead7620b4bca5f8e7462a045d2a2b0b",
+      "size": 1097392,
+      "format": "zip",
+      "binaries": {
+        "treefmt.exe": {
+          "path": "treefmt.exe",
+          "sha256": "e1ce359b7626817d11beaebc1736d950dfdf22f29663fae600a7807ca017c594"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/numtide/treefmt/releases/download/v0.6.1/treefmt-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "ef8f17c4a0007f374c94b5ade94b1b5aa49806cc2a0a4ab1e39347ec00771158",
+      "size": 1012333,
+      "format": "zip",
+      "binaries": {
+        "treefmt.exe": {
+          "path": "treefmt.exe",
+          "sha256": "43756b246298edaa8adc76b8ba63b45cf004ba01a00663c5e88fb672d9e43d10"
+        }
+      }
+    }
+  }
+}
