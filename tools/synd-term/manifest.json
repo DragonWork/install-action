@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "synd-term",
+  "version": "0.3.2",
+  "repository": "ymgyt/syndicationd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ymgyt/syndicationd/releases/download/synd-term-v0.3.2/synd-term-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "synd-term-v0.3.2",
+      "sha256": "d1ba0255f0ddaed4a1eae1c4faf4702c42aebd0debbd1a66fefab9d5bdf4262e",
+      "size": 8005607,
+      "format": "tar.gz",
+      "binaries": {
+        "synd": {
+          "path": "synd-term-x86_64-unknown-linux-musl/synd",
+          "sha256": "283edb0c12e640407ce4db906fb010c0e65ccd972d1bdab2aa4e64a458bd896c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ymgyt/syndicationd/releases/download/synd-term-v0.3.2/synd-term-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "synd-term-v0.3.2",
+      "sha256": "29d0c303986adc368b2561dd28e179b1fc9de94647ac18475caad97b43abb2f5",
+      "size": 7286282,
+      "format": "tar.gz",
+      "binaries": {
+        "synd": {
+          "path": "synd-term-x86_64-apple-darwin/synd",
+          "sha256": "5567b9ab37f975835818213a067324e617da8821da930fe1a24606d19e752fae"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ymgyt/syndicationd/releases/download/synd-term-v0.3.2/synd-term-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "synd-term-v0.3.2",
+      "sha256": "ef9e2ee5955f2324fa0af238c6c434d284c7be22a7dfc049902d0ae848ba852d",
+      "size": 7008671,
+      "format": "tar.gz",
+      "binaries": {
+        "synd": {
+          "path": "synd-term-aarch64-apple-darwin/synd",
+          "sha256": "f715cac37614e8079cb58311ca81760d66568cc5fef61f3e35eace333ee4e0ba"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ymgyt/syndicationd/releases/download/synd-term-v0.3.2/synd-term-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "synd-term-v0.3.2",
+      "sha256": "b5b1ea34448a97a7de14d297dada9ca47072b613f4fd3febdccf96b0b627f731",
+      "size": 6472830,
+      "format": "tar.gz",
+      "binaries": {
+        "synd.exe": {
+          "path": "synd-term-x86_64-pc-windows-msvc/synd.exe",
+          "sha256": "e58949949c60741937ad4f97c8baf19c89a58df52bee9e2a47b8cb0483ca4138"
+        }
+      }
+    }
+  }
+}
