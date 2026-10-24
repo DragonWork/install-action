@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "grin_wallet",
+  "version": "5.5.1",
+  "repository": "mimblewimble/grin-wallet",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mimblewimble/grin-wallet/releases/download/v5.5.1/grin-wallet-v5.5.1-linux-x86_64.tar.gz",
+      "releaseTag": "v5.5.1",
+      "sha256": "b2e9b12e6771c8731bc5c06e097078d51cf9070bd1aeee33a77121115c585716",
+      "size": 15770543,
+      "format": "tar.gz",
+      "binaries": {
+        "grin-wallet": {
+          "path": "grin-wallet",
+          "sha256": "67f066ab839bdc2de4df60cd11a4c5743818ff6d362115a2e22de3b992dcfc91"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mimblewimble/grin-wallet/releases/download/v5.5.1/grin-wallet-v5.5.1-macos-x86_64.tar.gz",
+      "releaseTag": "v5.5.1",
+      "sha256": "ce807ac8b124ae5b7b5d9950a1294a7ad834d9666db783f33a7fe11380b327ee",
+      "size": 12548115,
+      "format": "tar.gz",
+      "binaries": {
+        "grin-wallet": {
+          "path": "grin-wallet",
+          "sha256": "7b6992e546b022efdb64918fcd2fdccb6899d88586f5f7b78aa49a0e54c6a436"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mimblewimble/grin-wallet/releases/download/v5.5.1/grin-wallet-v5.5.1-macos-arm64.tar.gz",
+      "releaseTag": "v5.5.1",
+      "sha256": "449c1f3b40bb52726f8104d8586ff32894fce8bbbc6ba571087e74088d3de561",
+      "size": 12075984,
+      "format": "tar.gz",
+      "binaries": {
+        "grin-wallet": {
+          "path": "grin-wallet",
+          "sha256": "f181a89cbab875675c3377efebe212b571ff83082a01247f536edbbd71de0170"
+        }
+      }
+    }
+  }
+}
