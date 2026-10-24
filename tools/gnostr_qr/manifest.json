@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "gnostr_qr",
+  "version": "1895.933117.678085",
+  "repository": "gnostr-org/gnostr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gnostr-org/gnostr/releases/download/v1895.933117.678085/gnostr-x86_64-unknown-linux-gnu-update",
+      "sha256": "0a1fae2d4323f45068fcc5d731baf8a544c4cd59de52e6d17479afc97a59d5c4",
+      "size": 6912576,
+      "format": "binary",
+      "releaseTag": "v1895.933117.678085",
+      "binaries": {
+        "gnostr-qr": {
+          "path": "gnostr-x86_64-unknown-linux-gnu-update",
+          "sha256": "0a1fae2d4323f45068fcc5d731baf8a544c4cd59de52e6d17479afc97a59d5c4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/gnostr-org/gnostr/releases/download/v1895.933117.678085/gnostr-x86_64-apple-darwin-update",
+      "sha256": "d856c0326d97bce2b40dedb82a92edab30578a062b57deb908990a1335b64cba",
+      "size": 6290864,
+      "format": "binary",
+      "releaseTag": "v1895.933117.678085",
+      "binaries": {
+        "gnostr-qr": {
+          "path": "gnostr-x86_64-apple-darwin-update",
+          "sha256": "d856c0326d97bce2b40dedb82a92edab30578a062b57deb908990a1335b64cba"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/gnostr-org/gnostr/releases/download/v1895.933117.678085/gnostr-aarch64-apple-darwin-update",
+      "sha256": "05995085f64d8402f5e863eba8d4f7aa710a375d7fec25bd5e2fd9c38a90772a",
+      "size": 6077328,
+      "format": "binary",
+      "releaseTag": "v1895.933117.678085",
+      "binaries": {
+        "gnostr-qr": {
+          "path": "gnostr-aarch64-apple-darwin-update",
+          "sha256": "05995085f64d8402f5e863eba8d4f7aa710a375d7fec25bd5e2fd9c38a90772a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/gnostr-org/gnostr/releases/download/v1895.933117.678085/gnostr-x86_64-pc-windows-msvc-update",
+      "sha256": "88bee71a49c52c0613525bc28dcaeee977c9b83f751391335980c9f6264836a1",
+      "size": 5509632,
+      "format": "binary",
+      "releaseTag": "v1895.933117.678085",
+      "binaries": {
+        "gnostr-qr.exe": {
+          "path": "gnostr-x86_64-pc-windows-msvc-update",
+          "sha256": "88bee71a49c52c0613525bc28dcaeee977c9b83f751391335980c9f6264836a1"
+        }
+      }
+    }
+  }
+}
