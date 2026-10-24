@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rustman",
+  "version": "0.6.0",
+  "repository": "sigmaSd/rustman",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sigmaSd/rustman/releases/download/0.6.0/rustman-0.6.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "04e332b49581790a830c4ea5b9e9ae13d56846172551a01ed9f88f5e91ee0a60",
+      "size": 3362162,
+      "format": "tar.gz",
+      "binaries": {
+        "rustman": {
+          "path": "rustman-0.6.0-x86_64-unknown-linux-musl/rustman",
+          "sha256": "5245db9b94c70d3015e5248b15350c8df80b1ff5fa77408b174338c704266119"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sigmaSd/rustman/releases/download/0.6.0/rustman-0.6.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "05eee929b3fa1ddcbf83bb0e5945492eea3cbd9765f13e5f74f76a2e18dcfdb8",
+      "size": 2296518,
+      "format": "tar.gz",
+      "binaries": {
+        "rustman": {
+          "path": "rustman-0.6.0-x86_64-apple-darwin/rustman",
+          "sha256": "12926361f271855a9f2a61a7e2966b5c7d0345c3069dff4930544c0efa87902d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sigmaSd/rustman/releases/download/0.6.0/rustman-0.6.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.6.0",
+      "sha256": "388de7789de03f4dafcdcbbf4c7d626a8b7b0331c52dcbc175cde48a73663e46",
+      "size": 1917274,
+      "format": "zip",
+      "binaries": {
+        "rustman.exe": {
+          "path": "rustman-0.6.0-x86_64-pc-windows-msvc/rustman.exe",
+          "sha256": "4f7b795f51ff21f61264f426cc8fed3224b65bed46ac20da441bebffae3e1528"
+        }
+      }
+    }
+  }
+}
