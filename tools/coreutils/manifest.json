@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "coreutils",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.12.0",
+      "sha256": "e08bd526f3c14717b145dfed4dbff5545848ca67a9b940be7ff7de5afea32786",
+      "size": 15578379,
+      "format": "tar.gz",
+      "binaries": {
+        "coreutils": {
+          "path": "coreutils-0.12.0-x86_64-unknown-linux-gnu/coreutils",
+          "sha256": "0fa6290974c4cbec0bb186a28c13d56681d59fe62d6f51092cb1676039a9a20b"
+        },
+        "uudoc": {
+          "path": "coreutils-0.12.0-x86_64-unknown-linux-gnu/uudoc",
+          "sha256": "f03bdb6b0d53cffef18e89a674b01a755181585a778fb2e60746b3c9f66fd5b7"
+        }
+      }
+    }
+  }
+}
