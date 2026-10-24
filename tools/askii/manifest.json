@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "askii",
+  "version": "0.6.0",
+  "repository": "nytopop/askii",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nytopop/askii/releases/download/v0.6.0/askii",
+      "sha256": "279a48afea9403f33487814f814397f51f6871d26d2fc3d5a28961fb11672660",
+      "size": 4678608,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "askii": {
+          "path": "askii",
+          "sha256": "279a48afea9403f33487814f814397f51f6871d26d2fc3d5a28961fb11672660"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nytopop/askii/releases/download/v0.6.0/askii-osx",
+      "sha256": "023a2ebab2d73a84e942d3b964849eafb9b5ed8eb79e370d49b4bcfb69777540",
+      "size": 2040496,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "askii": {
+          "path": "askii-osx",
+          "sha256": "023a2ebab2d73a84e942d3b964849eafb9b5ed8eb79e370d49b4bcfb69777540"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nytopop/askii/releases/download/v0.6.0/askii.exe",
+      "sha256": "fa2bf8323b4ccc8fe47bcc55e72281bbe6c4770099bdd792c6564bfe310d568e",
+      "size": 6571939,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "askii.exe": {
+          "path": "askii.exe",
+          "sha256": "fa2bf8323b4ccc8fe47bcc55e72281bbe6c4770099bdd792c6564bfe310d568e"
+        }
+      }
+    }
+  }
+}
