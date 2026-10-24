@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tenere",
+  "version": "0.11.3",
+  "repository": "pythops/tenere",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/pythops/tenere/releases/download/v0.11.3/tenere-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.11.3",
+      "sha256": "ec94c87ba8707b5372730805530a933272f1462096d8912079a33fc901499605",
+      "size": 9229824,
+      "format": "binary",
+      "binaries": {
+        "tenere.exe": {
+          "path": "tenere-x86_64-pc-windows-msvc.exe",
+          "sha256": "ec94c87ba8707b5372730805530a933272f1462096d8912079a33fc901499605"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/pythops/tenere/releases/download/v0.11.3/tenere-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.11.3",
+      "sha256": "5dfba4579c5c386f55e54bcc800d23b660da566a97cd9f912b38c93b5a4325f8",
+      "size": 8365568,
+      "format": "binary",
+      "binaries": {
+        "tenere.exe": {
+          "path": "tenere-aarch64-pc-windows-msvc.exe",
+          "sha256": "5dfba4579c5c386f55e54bcc800d23b660da566a97cd9f912b38c93b5a4325f8"
+        }
+      }
+    }
+  }
+}
