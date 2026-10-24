@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "diesel-guard",
+  "version": "0.12.0",
+  "repository": "ayarotsky/diesel-guard",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ayarotsky/diesel-guard/releases/download/v0.12.0/diesel-guard-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.12.0",
+      "sha256": "8f2ada3d3ca806e20bff15a20a46431f736c1a57d23f8bba615dfe1d6262c7a5",
+      "size": 1490160,
+      "format": "tar.xz",
+      "binaries": {
+        "diesel-guard": {
+          "path": "diesel-guard-x86_64-unknown-linux-gnu/diesel-guard",
+          "sha256": "38141364546e1bbb661b5d6bbcbf4939ac6ca36efca7d680b809c0168f50e53a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ayarotsky/diesel-guard/releases/download/v0.12.0/diesel-guard-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.12.0",
+      "sha256": "40c5954e634ff64fa46b7dea52ac2bc0a3e0369535583664f1038a47e8239607",
+      "size": 1383504,
+      "format": "tar.xz",
+      "binaries": {
+        "diesel-guard": {
+          "path": "diesel-guard-aarch64-unknown-linux-gnu/diesel-guard",
+          "sha256": "ad02a036b5601bc887a447a12bc5b68013143019d7d5e9f75745fad0391c9027"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ayarotsky/diesel-guard/releases/download/v0.12.0/diesel-guard-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.0",
+      "sha256": "73d002dd8b6987bd224b613eb6a66d7042e4d67406d70900a7fcec8fb5c7d36d",
+      "size": 1347632,
+      "format": "tar.xz",
+      "binaries": {
+        "diesel-guard": {
+          "path": "diesel-guard-x86_64-apple-darwin/diesel-guard",
+          "sha256": "3512c0e9b8722227b373f986f18c8491518025c6cb30549ff3609a2b31f9bae5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ayarotsky/diesel-guard/releases/download/v0.12.0/diesel-guard-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.0",
+      "sha256": "43070bfe4ec68b3d08cbae5dddd2b11830640d9c98879d7c6f5c6093745d4722",
+      "size": 1248576,
+      "format": "tar.xz",
+      "binaries": {
+        "diesel-guard": {
+          "path": "diesel-guard-aarch64-apple-darwin/diesel-guard",
+          "sha256": "1fba2acead78368bb881d68004d49247a08a4fee14d68e0a10987dc0158718d2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ayarotsky/diesel-guard/releases/download/v0.12.0/diesel-guard-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.0",
+      "sha256": "0638fd0516bf14aeebcd045aef206654b1f27099660769f060bcf0d9a24fedcf",
+      "size": 1875484,
+      "format": "zip",
+      "binaries": {
+        "diesel-guard.exe": {
+          "path": "diesel-guard.exe",
+          "sha256": "097ae77aa6113d6560e3cc736a54996a3f3ae4bad37444b3a91eeb920ab409ac"
+        }
+      }
+    }
+  }
+}
