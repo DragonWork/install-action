@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "workshop-runner",
+  "version": "0.2.5",
+  "repository": "mainmatter/rust-workshop-runner",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mainmatter/rust-workshop-runner/releases/download/v0.2.5/workshop-runner-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.5",
+      "sha256": "3e2de8e745d87f75b2a3740dd302ef9ba2b7aef723f87a9c810ef6d7b493ae77",
+      "size": 1856912,
+      "format": "tar.xz",
+      "binaries": {
+        "wr": {
+          "path": "workshop-runner-x86_64-unknown-linux-gnu/wr",
+          "sha256": "0db3f1881ef7f21e7d59cd85fd31099b3f7265e80aed1beb4f8b824ffb7d6fe0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mainmatter/rust-workshop-runner/releases/download/v0.2.5/workshop-runner-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.5",
+      "sha256": "1ad201c280e7e1a34fbba8988145bf2662478799d3d56fd9dd46391aaccd5b55",
+      "size": 1663616,
+      "format": "tar.xz",
+      "binaries": {
+        "wr": {
+          "path": "workshop-runner-aarch64-unknown-linux-gnu/wr",
+          "sha256": "76158620c15afbf7b354cb43f5bc2883ea183a5c2692aaf2f841009faa084e4d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mainmatter/rust-workshop-runner/releases/download/v0.2.5/workshop-runner-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.5",
+      "sha256": "a388dd2d586dda2d8dc2874778f9becda14e8303a02db165ae0a3e15d516f52f",
+      "size": 1715840,
+      "format": "tar.xz",
+      "binaries": {
+        "wr": {
+          "path": "workshop-runner-x86_64-apple-darwin/wr",
+          "sha256": "9f2fd770d764def13ebc52935478ab0c0f9c7088c68482209e5f1dac5f1d2aa4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mainmatter/rust-workshop-runner/releases/download/v0.2.5/workshop-runner-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.5",
+      "sha256": "2bd8f88a89afdac293112f3466ded4c4e8262b529271d49b86c480864f147c9e",
+      "size": 1481744,
+      "format": "tar.xz",
+      "binaries": {
+        "wr": {
+          "path": "workshop-runner-aarch64-apple-darwin/wr",
+          "sha256": "66553c62f6b9c714dc54c288cf5c66990eb49c331c538f03a17c473ae297fe0c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mainmatter/rust-workshop-runner/releases/download/v0.2.5/workshop-runner-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.5",
+      "sha256": "c60cbbe717edb8c35a0a8fdc3f927fa4c78ae63f7d2179d042272500c7cfa22b",
+      "size": 2186507,
+      "format": "zip",
+      "binaries": {
+        "wr.exe": {
+          "path": "wr.exe",
+          "sha256": "788a3a49778aeb22728d68cc58ff5f2062e2721ecb53471ecf46120730012456"
+        }
+      }
+    }
+  }
+}
