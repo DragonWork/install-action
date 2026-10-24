@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "grcov",
+  "version": "0.10.7",
+  "repository": "mozilla/grcov",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.7/grcov-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.7",
+      "sha256": "a6f3df650509382aa0d10594feccaa0b31aece8af7505c931351a95b4d8ca1a4",
+      "size": 2996300,
+      "format": "zip",
+      "binaries": {
+        "grcov.exe": {
+          "path": "grcov.exe",
+          "sha256": "7fbb7b8b77944c232ee721501fafd5a738b79c465237436e83bd30612096dd69"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.7/grcov-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.7",
+      "sha256": "4b3f35c4159104fae4177caf75b5b1efe1ed69bdb9ed6cad23ac8d729c22e3e7",
+      "size": 2739666,
+      "format": "zip",
+      "binaries": {
+        "grcov.exe": {
+          "path": "grcov.exe",
+          "sha256": "37b0dc3b2ca9b01cf20553096996f40e9e23642759a9061d0085efddf00d5138"
+        }
+      }
+    }
+  }
+}
