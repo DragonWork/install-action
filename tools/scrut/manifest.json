@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "scrut",
+  "version": "0.4.3",
+  "repository": "facebookincubator/scrut",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/facebookincubator/scrut/releases/download/v0.4.3/scrut-v0.4.3-linux-x86_64.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "6aefb0bff29b450fbd1b04083eefeae4388d6c9302e31d1a24b7aa9edd03bb35",
+      "size": 1792535,
+      "format": "tar.gz",
+      "binaries": {
+        "scrut": {
+          "path": "scrut-linux-x86_64/scrut",
+          "sha256": "502d81e2437d47868bfc69e551cc216aba000c09f0e56b178469e36448b7656e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/facebookincubator/scrut/releases/download/v0.4.3/scrut-v0.4.3-linux-aarch64.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "a67117f4320d129c7d7073a5e667dbad25e7a83f31480a633108250fe4069dd5",
+      "size": 1792485,
+      "format": "tar.gz",
+      "binaries": {
+        "scrut": {
+          "path": "scrut-linux-aarch64/scrut",
+          "sha256": "502d81e2437d47868bfc69e551cc216aba000c09f0e56b178469e36448b7656e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/facebookincubator/scrut/releases/download/v0.4.3/scrut-v0.4.3-macos-x86_64.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "2589730051127e114e2014916e51e7eaceb01f59ea7bfb2aa59bf36c8fa2cc9e",
+      "size": 1596578,
+      "format": "tar.gz",
+      "binaries": {
+        "scrut": {
+          "path": "scrut-macos-x86_64/scrut",
+          "sha256": "b369f215ee44a12c39a593197c87be883b1446b2bd4707e8ad6744d0441363eb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/facebookincubator/scrut/releases/download/v0.4.3/scrut-v0.4.3-macos-aarch64.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "3c0bc8d455fddb382e1e9099f5f4a4e0b8e925b19fa588c2176bc046383d9abc",
+      "size": 1596574,
+      "format": "tar.gz",
+      "binaries": {
+        "scrut": {
+          "path": "scrut-macos-aarch64/scrut",
+          "sha256": "b369f215ee44a12c39a593197c87be883b1446b2bd4707e8ad6744d0441363eb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/facebookincubator/scrut/releases/download/v0.4.3/scrut-v0.4.3-windows-x86_64.zip",
+      "releaseTag": "v0.4.3",
+      "sha256": "1592026034764d4654c3ba0cf4f5fe11628cc887b432bd94721d9735d13479fb",
+      "size": 1694009,
+      "format": "zip",
+      "binaries": {
+        "scrut.exe": {
+          "path": "scrut-windows-x86_64/scrut.exe",
+          "sha256": "72f502ceee76619cac6e772e1da6c937d1738bd575bd38b8b3988b030101c916"
+        }
+      }
+    }
+  }
+}
