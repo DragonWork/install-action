@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pubky-homeserver",
+  "version": "0.16.2",
+  "repository": "pubky/pubky-homeserver",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pubky/pubky-homeserver/releases/download/v0.16.2/pubky-homeserver-v0.16.2-linux-amd64.tar.gz",
+      "releaseTag": "v0.16.2",
+      "sha256": "2502dba5a2e06614f1fdfd979c91c212de1a8e75f6f7c9e4bc9066a7dc3dea66",
+      "size": 9621699,
+      "format": "tar.gz",
+      "binaries": {
+        "pubky-homeserver": {
+          "path": "pubky-homeserver-v0.16.2-linux-amd64/pubky-homeserver",
+          "sha256": "ca0f81706a6e30a244b57f2d2570c34d63a4fb75b03a0eda0adf13dd2cb76d11"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pubky/pubky-homeserver/releases/download/v0.16.2/pubky-homeserver-v0.16.2-linux-arm64.tar.gz",
+      "releaseTag": "v0.16.2",
+      "sha256": "8e58362f22a4023712f54cbccb6a86de18a5773178c3a6f465876389f63e32ff",
+      "size": 9633926,
+      "format": "tar.gz",
+      "binaries": {
+        "pubky-homeserver": {
+          "path": "pubky-homeserver-v0.16.2-linux-arm64/pubky-homeserver",
+          "sha256": "5211b3fb4db6f0d67083e58b757dd1248f2ecc2bbb530f87f1e0a47a9a79ee1a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pubky/pubky-homeserver/releases/download/v0.16.2/pubky-homeserver-v0.16.2-osx-amd64.tar.gz",
+      "releaseTag": "v0.16.2",
+      "sha256": "324b04c7db2bebc0c0b6f1c194452e7bc785e3fb8800d7a532353c0f5b1e4e83",
+      "size": 9767955,
+      "format": "tar.gz",
+      "binaries": {
+        "pubky-homeserver": {
+          "path": "pubky-homeserver-v0.16.2-osx-amd64/pubky-homeserver",
+          "sha256": "59640158d5ed99bd67f28805d0308089f1aa9b9fa707052ad4275ce1a20239e0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pubky/pubky-homeserver/releases/download/v0.16.2/pubky-homeserver-v0.16.2-osx-arm64.tar.gz",
+      "releaseTag": "v0.16.2",
+      "sha256": "94187f2f560e3399e6cb4cfa095e447e2ce976e34efd440245d0b559f10a186d",
+      "size": 9851741,
+      "format": "tar.gz",
+      "binaries": {
+        "pubky-homeserver": {
+          "path": "pubky-homeserver-v0.16.2-osx-arm64/pubky-homeserver",
+          "sha256": "2d752d9acefc5898e3ed3a2f15543967aec8e3bc9e19b4509ddef62593b8c3e1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pubky/pubky-homeserver/releases/download/v0.16.2/pubky-homeserver-v0.16.2-windows-amd64.tar.gz",
+      "releaseTag": "v0.16.2",
+      "sha256": "6623137b85f539d4e42110cd1f8fffe17147b0f3238572733fce18db653bc7c4",
+      "size": 8798036,
+      "format": "tar.gz",
+      "binaries": {
+        "pubky-homeserver.exe": {
+          "path": "pubky-homeserver-v0.16.2-windows-amd64/pubky-homeserver.exe",
+          "sha256": "63a36f1cba644afd35d5afa7d21f7d05d5a3b0a82ac6d59773f76fbdb166f569"
+        }
+      }
+    }
+  }
+}
