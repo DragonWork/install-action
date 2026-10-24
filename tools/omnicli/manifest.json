@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "omnicli",
+  "version": "2025.11.0",
+  "repository": "xaf/omni",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xaf/omni/releases/download/v2025.11.0/omni-2025.11.0-x86_64-linux.tar.gz",
+      "releaseTag": "v2025.11.0",
+      "sha256": "f929e093392f0fa61edf94ab9210fa0f75eff25ec65cf9ef0e4b3fe5741f1036",
+      "size": 10490309,
+      "format": "tar.gz",
+      "binaries": {
+        "omni": {
+          "path": "omni",
+          "sha256": "fda7dbcb29df74e8afa523aefb4dc41ede389f7c9666b48b7e9d98f92d559aa3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/xaf/omni/releases/download/v2025.11.0/omni-2025.11.0-arm64-linux.tar.gz",
+      "releaseTag": "v2025.11.0",
+      "sha256": "dba7b9fa56c674cb1883b303dfec280d2c039388f58c8acb1d96a7d295629f29",
+      "size": 11404416,
+      "format": "tar.gz",
+      "binaries": {
+        "omni": {
+          "path": "omni",
+          "sha256": "31f29064341472a3d32938c3a195a751846b7f07f45894ada4bf69f707483c2d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xaf/omni/releases/download/v2025.11.0/omni-2025.11.0-x86_64-darwin.tar.gz",
+      "releaseTag": "v2025.11.0",
+      "sha256": "a4788b27206acf9c8241b167eadb5c413191927df2bd96bc86cd8f71d114ff39",
+      "size": 9292746,
+      "format": "tar.gz",
+      "binaries": {
+        "omni": {
+          "path": "omni",
+          "sha256": "c2065f515ddd98ccb6c1e7fa189c7a8ac536ab86a284697e143aec4e3f5a1ee8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xaf/omni/releases/download/v2025.11.0/omni-2025.11.0-arm64-darwin.tar.gz",
+      "releaseTag": "v2025.11.0",
+      "sha256": "e901089457ccedb6e093a94bddeb04e1b4fc81f80e97520692f8c73e6fb7c9d4",
+      "size": 9027039,
+      "format": "tar.gz",
+      "binaries": {
+        "omni": {
+          "path": "omni",
+          "sha256": "ce5885756b9b2ef934991b651e8fe567f9d36b4634f0b3cad39fd4e41d0da135"
+        }
+      }
+    }
+  }
+}
