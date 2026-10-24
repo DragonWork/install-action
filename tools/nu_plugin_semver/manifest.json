@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "nu_plugin_semver",
+  "version": "0.11.17",
+  "repository": "abusch/nu_plugin_semver",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/abusch/nu_plugin_semver/releases/download/v0.11.17/nu_plugin_semver-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.11.17",
+      "sha256": "56f3a71bf0681e3754cf06863aa8b89af53219af785f57a08b2d9f3a68ec4edd",
+      "size": 2561624,
+      "format": "tar.xz",
+      "binaries": {
+        "nu_plugin_semver": {
+          "path": "nu_plugin_semver-x86_64-unknown-linux-musl/nu_plugin_semver",
+          "sha256": "b5ac633f19fe2ba55361eeac42043959a5fcab5947a5db4d05b895f67ad9e157"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/abusch/nu_plugin_semver/releases/download/v0.11.17/nu_plugin_semver-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.11.17",
+      "sha256": "36b7d416f28158c646ef0d23495de5928e09323e3157739e2491fa7055091839",
+      "size": 2336092,
+      "format": "tar.xz",
+      "binaries": {
+        "nu_plugin_semver": {
+          "path": "nu_plugin_semver-aarch64-unknown-linux-gnu/nu_plugin_semver",
+          "sha256": "7009746eafa3e9daf23b3d5ba4a7a48589670bc10530598145e816c531831571"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/abusch/nu_plugin_semver/releases/download/v0.11.17/nu_plugin_semver-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.17",
+      "sha256": "a8605818e89ca952e38c83f6e5845a88931d5932f71e7f6452f6a83ca3da4402",
+      "size": 2225512,
+      "format": "tar.xz",
+      "binaries": {
+        "nu_plugin_semver": {
+          "path": "nu_plugin_semver-x86_64-apple-darwin/nu_plugin_semver",
+          "sha256": "c1550b37b218b084cd906aadea7daa22f3e13a5276c728051771456f0da64088"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/abusch/nu_plugin_semver/releases/download/v0.11.17/nu_plugin_semver-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.17",
+      "sha256": "bc6517ab68662c72d5a96513a7e3a37eec40eb585ac336f62f30df655c185794",
+      "size": 2106248,
+      "format": "tar.xz",
+      "binaries": {
+        "nu_plugin_semver": {
+          "path": "nu_plugin_semver-aarch64-apple-darwin/nu_plugin_semver",
+          "sha256": "350ef41abd279302f8215b665a643c55ccda75345022d0e994d0f85245b2daee"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/abusch/nu_plugin_semver/releases/download/v0.11.17/nu_plugin_semver-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.17",
+      "sha256": "da33f99bc91eb741f5eea0f7a7d06f1478cd733989c877859858211658ed117c",
+      "size": 3510030,
+      "format": "zip",
+      "binaries": {
+        "nu_plugin_semver.exe": {
+          "path": "nu_plugin_semver.exe",
+          "sha256": "5a57adcb98878ede30710d80625f66548ce2429f4477b9bef331b89af866fd5a"
+        }
+      }
+    }
+  }
+}
