@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "chit",
+  "version": "0.1.15",
+  "repository": "peterheesterman/chit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/peterheesterman/chit/releases/download/0.1.15/x86_64-unknown-linux-musl.zip",
+      "releaseTag": "0.1.15",
+      "sha256": "478aeacaafda87b69b45a35b93148a3eeeb14a64eba1cb760e52cddbec347e7b",
+      "size": 5623148,
+      "format": "zip",
+      "binaries": {
+        "chit": {
+          "path": "chit",
+          "sha256": "cf526e262a2b28b79e97fe5f7a6bc77518a32140f5e29a11449005fbb114e2ac"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/peterheesterman/chit/releases/download/0.1.15/x86_64-apple-darwin.zip",
+      "releaseTag": "0.1.15",
+      "sha256": "e763663e81d43f28daa84f37a5fc53492aeb60a2d18de5f6a0371b1f17e4e730",
+      "size": 3814070,
+      "format": "zip",
+      "binaries": {
+        "chit": {
+          "path": "chit",
+          "sha256": "965dd24d131178bbf1b8d3f14a618fc08b2b4c3cb6fb1122a290282c7ac0ce66"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/peterheesterman/chit/releases/download/0.1.15/x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.1.15",
+      "sha256": "8c461d7e20961058c944af6ff445ecb60cbe1d7640768e4be12a97792d7246b1",
+      "size": 3566494,
+      "format": "zip",
+      "binaries": {
+        "chit.exe": {
+          "path": "chit.exe",
+          "sha256": "1fd7bcfbfa233068a61594e09552ee4880f81b3f77544538417ed170821e8943"
+        }
+      }
+    }
+  }
+}
