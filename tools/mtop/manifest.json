@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "name": "mtop",
+  "version": "0.17.0",
+  "repository": "56quarters/mtop",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/56quarters/mtop/releases/download/v0.17.0/mtop-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "96d0742a7e30daeb481a5fea0e2692fcf453a98d536ac97f3407daed98abff48",
+      "size": 4770777,
+      "format": "tar.gz",
+      "binaries": {
+        "dns": {
+          "path": "mtop-x86_64-unknown-linux-musl/dns",
+          "sha256": "f138e265c04b86be5a593541d4aa7a1b7dd1a90eaa02408097adaacefa30b1a9"
+        },
+        "mc": {
+          "path": "mtop-x86_64-unknown-linux-musl/mc",
+          "sha256": "4c543f8aacbc12d1bb0dce0361e3709f0458103684f4a85457d499b86d8fb3ac"
+        },
+        "mtop": {
+          "path": "mtop-x86_64-unknown-linux-musl/mtop",
+          "sha256": "2757bfecb0d07f2fa59b6d0df4863e2424c9b987620c771e34a99ceac2222ff3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/56quarters/mtop/releases/download/v0.17.0/mtop-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "82e5380fe5356c01185cdb9c7d4ac1c5f5b25c2208e0afa80d13f8b4db61f529",
+      "size": 4294563,
+      "format": "tar.gz",
+      "binaries": {
+        "dns": {
+          "path": "mtop-x86_64-apple-darwin/dns",
+          "sha256": "f1628d67e840c0c04eaf7b85312a4bc3e19bbc1488f17ff4f9f7abeafeabde7c"
+        },
+        "mc": {
+          "path": "mtop-x86_64-apple-darwin/mc",
+          "sha256": "f326535eb279a5f0a4cb1b6d827bce7c466c8e2190eb543a4480dd0d9a4a1ee4"
+        },
+        "mtop": {
+          "path": "mtop-x86_64-apple-darwin/mtop",
+          "sha256": "ee61cd468d6986e8e13dd776c90d49b6b6cbbba305d379dbd4b544cd42fcd7f3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/56quarters/mtop/releases/download/v0.17.0/mtop-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.17.0",
+      "sha256": "4530160efdd3889db599e2cb6140cd2c3e21965ef0f93c8903217e0e7ff165b7",
+      "size": 4004487,
+      "format": "tar.gz",
+      "binaries": {
+        "dns": {
+          "path": "mtop-aarch64-apple-darwin/dns",
+          "sha256": "e1f8eaf17f676a42fd5338093807af2f20b337b9b501f00c52daf2afde51e043"
+        },
+        "mc": {
+          "path": "mtop-aarch64-apple-darwin/mc",
+          "sha256": "21887d90da17b6ef65068e9f0a63cc678af9b555d4fb5175681aa0d6a9e968a9"
+        },
+        "mtop": {
+          "path": "mtop-aarch64-apple-darwin/mtop",
+          "sha256": "b3df62fd0fa379589cf27c278d80a56c04b0950c31bb99b74eef7fe00ecbb24b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/56quarters/mtop/releases/download/v0.17.0/mtop-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.17.0",
+      "sha256": "143af0ef10e90c54470b77efb78e26ef772176e28deb9a24a61a5e91702ffd94",
+      "size": 9987007,
+      "format": "zip",
+      "binaries": {
+        "dns.exe": {
+          "path": "dns.exe",
+          "sha256": "2a29a0d2c28e69392be76ca9b1f22be369cb4721d3ca1b7fe6a5c64a616ea38b"
+        },
+        "mc.exe": {
+          "path": "mc.exe",
+          "sha256": "65ebffa9cd01264834bd8c121ce3abb6090510e72117f29828be4e330df901ce"
+        },
+        "mtop.exe": {
+          "path": "mtop.exe",
+          "sha256": "1c7fafa8738222efb4b233b7501a97bc7b365b6c195bd575044fe016960a5208"
+        }
+      }
+    }
+  }
+}
