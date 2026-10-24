@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "mp-cli",
+  "version": "0.2.1",
+  "repository": "johnallen3d/mp-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/johnallen3d/mp-cli/releases/download/mp-cli-v0.2.1/mp-cli-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "mp-cli-v0.2.1",
+      "sha256": "4efc6ed1938b7ff327724aa6b435a39616d9cb565125abe126987f0606b3214d",
+      "size": 648184,
+      "format": "tar.gz",
+      "binaries": {
+        "mp-cli": {
+          "path": "mp-cli",
+          "sha256": "bce7ee4fbc0692a30eb6cbf7421643ca46be17fa7e65f86a2c82fed34ed0737f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/johnallen3d/mp-cli/releases/download/mp-cli-v0.2.1/mp-cli-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "mp-cli-v0.2.1",
+      "sha256": "d2ada6869377240567cc61f8cf698983ed53f3411643b446399a494b88b004e9",
+      "size": 1626766,
+      "format": "tar.gz",
+      "binaries": {
+        "mp-cli": {
+          "path": "mp-cli",
+          "sha256": "bd9d4dadb940148831d4b058a43ca02d1352916620158c9f0fbdd555556f7c06"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/johnallen3d/mp-cli/releases/download/mp-cli-v0.2.1/mp-cli-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "mp-cli-v0.2.1",
+      "sha256": "cf5654d07f64242abb38ca3834ae615cc77061b850992b8171705d2aef294d67",
+      "size": 549126,
+      "format": "tar.gz",
+      "binaries": {
+        "mp-cli": {
+          "path": "mp-cli",
+          "sha256": "d7a542ef5c50771c37833e548481dda5fff3419996ced6e9307dd87c1a9c9580"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/johnallen3d/mp-cli/releases/download/mp-cli-v0.2.1/mp-cli-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "mp-cli-v0.2.1",
+      "sha256": "4891159784fc785b792f290230d8d9c43e03c00147f12ee2b37f1a2e284d26a8",
+      "size": 642589,
+      "format": "tar.gz",
+      "binaries": {
+        "mp-cli": {
+          "path": "mp-cli",
+          "sha256": "3b6524ccb81b28c1757e0721e14b9a62312a21bdf7b49f058cfe3a1c8fe0fe97"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/johnallen3d/mp-cli/releases/download/mp-cli-v0.2.1/mp-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "mp-cli-v0.2.1",
+      "sha256": "439bb3821ad5cbaa1a8477cd9c67330d78b362d7e058d7aed052abd7ab60d9a8",
+      "size": 539725,
+      "format": "zip",
+      "binaries": {
+        "mp-cli.exe": {
+          "path": "mp-cli.exe",
+          "sha256": "584acda3416d6a9efcb4a751d4503b0cfd10982070232396b8543f367e6e2cd6"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/johnallen3d/mp-cli/releases/download/mp-cli-v0.2.1/mp-cli-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "mp-cli-v0.2.1",
+      "sha256": "9967fc7c6483290d5dab822a0da99155f2dc3a05e139deae3aafc95a492e5c12",
+      "size": 520351,
+      "format": "zip",
+      "binaries": {
+        "mp-cli.exe": {
+          "path": "mp-cli.exe",
+          "sha256": "2cde847f01575271e9989f6e47c931be4869146d1aff8eaf05fe999f72dd5b94"
+        }
+      }
+    }
+  }
+}
