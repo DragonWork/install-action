@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "work-break",
+  "version": "0.7.6",
+  "repository": "ShadoySV/work-break",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ShadoySV/work-break/releases/download/v0.7.6/work-break_0.7.6_amd64.deb",
+      "sha256": "bb9204bfd043c6be43fa5b82f1b04c7145f57c67a1f455145164841363824830",
+      "size": 2080486,
+      "format": "deb",
+      "releaseTag": "v0.7.6",
+      "binaries": {
+        "work-break": {
+          "path": "./usr/bin/work-break",
+          "sha256": "78378899d98ffb4784439cd49bb645655d4329bd87c5e12ea4af0e4c36ed376f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ShadoySV/work-break/releases/download/v0.7.6/Work-break.exe",
+      "sha256": "db9cc88fc8d61d7f0a478aad31cea8f2e42da4a0b5754a38f412fc7f5fe21de6",
+      "size": 1465856,
+      "format": "binary",
+      "releaseTag": "v0.7.6",
+      "binaries": {
+        "work-break.exe": {
+          "path": "Work-break.exe",
+          "sha256": "db9cc88fc8d61d7f0a478aad31cea8f2e42da4a0b5754a38f412fc7f5fe21de6"
+        }
+      }
+    }
+  }
+}
