@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "inspect-cert-chain",
+  "version": "0.0.43",
+  "repository": "x52dev/inspect-cert-chain",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/x52dev/inspect-cert-chain/releases/download/v0.0.43/inspect-cert-chain-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.43",
+      "sha256": "0dad8f0a4044891330a0516684798c0ed72ed453e224124b4e0e644d87d5dd45",
+      "size": 2652970,
+      "format": "tar.gz",
+      "binaries": {
+        "inspect-cert-chain": {
+          "path": "inspect-cert-chain",
+          "sha256": "9dd44c185db76975f7868c19190c412e261f17b88fc8929885a6e3f2e877829a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/x52dev/inspect-cert-chain/releases/download/v0.0.43/inspect-cert-chain-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.43",
+      "sha256": "886341cb49760f0c1fc3dd910d28e73ad268a0a18103cd4c99c0a34d70fa0949",
+      "size": 2441717,
+      "format": "tar.gz",
+      "binaries": {
+        "inspect-cert-chain": {
+          "path": "inspect-cert-chain",
+          "sha256": "1322a9b950d8bd398ca372b4b6f0933d15ddfa3076e7522e9b79628e40722c3b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/x52dev/inspect-cert-chain/releases/download/v0.0.43/inspect-cert-chain-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.43",
+      "sha256": "f9fb4b677ba3f03120a1bed6694349d5e22e71f5458869e9bf5b5a2a1b7227ed",
+      "size": 2394409,
+      "format": "tar.gz",
+      "binaries": {
+        "inspect-cert-chain": {
+          "path": "inspect-cert-chain",
+          "sha256": "a99b16fc7092f3f3b24fdf503aadceee9210998cb258cacf1ad2da9c85892269"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/x52dev/inspect-cert-chain/releases/download/v0.0.43/inspect-cert-chain-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.43",
+      "sha256": "5090835d0ba221234e234cf530c5f8ec2e74b7590e93ed6cc839efd7cdca358e",
+      "size": 2199564,
+      "format": "tar.gz",
+      "binaries": {
+        "inspect-cert-chain": {
+          "path": "inspect-cert-chain",
+          "sha256": "1f38cce83b3f91d6229a9b97a4552fb535781c45b174046bb384ad628ee27010"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/x52dev/inspect-cert-chain/releases/download/v0.0.43/inspect-cert-chain-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.43",
+      "sha256": "5712c12ecd325e051ecf3314674a102cdb4b022a7cd0ba4b43bc4be5cdc4ffc7",
+      "size": 1806106,
+      "format": "zip",
+      "binaries": {
+        "inspect-cert-chain.exe": {
+          "path": "inspect-cert-chain.exe",
+          "sha256": "5bf196f3a77c3d0cd2f9341d9c0040113029f0e8d11c8dd9fc3dc58eafcbd76c"
+        }
+      }
+    }
+  }
+}
