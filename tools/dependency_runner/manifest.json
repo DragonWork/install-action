@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "dependency_runner",
+  "version": "1.5.0",
+  "repository": "marcoesposito1988/dependency_runner",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/marcoesposito1988/dependency_runner/releases/download/v1.5.0/wldd-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "1bc3c2ca83b2e61ea6e7221349c1303eadfc05b5526fcf029f01657963267520",
+      "size": 754073,
+      "format": "tar.gz",
+      "releaseTag": "v1.5.0",
+      "binaries": {
+        "wldd": {
+          "path": "wldd",
+          "sha256": "75cac3345a8dc07ed0f0ef442c0f34a609d3cc591d901e09bd976460e9c1ee8f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/marcoesposito1988/dependency_runner/releases/download/v1.5.0/wldd-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "5a27f373f4bad48954331eb89ea8c1df790f083398c11b60f61140261abe8c49",
+      "size": 732065,
+      "format": "tar.gz",
+      "releaseTag": "v1.5.0",
+      "binaries": {
+        "wldd": {
+          "path": "wldd",
+          "sha256": "03dd6241e32cc9a1fe6e55d98f7585aa018dc01935a36e41d02ec573b427bf90"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/marcoesposito1988/dependency_runner/releases/download/v1.5.0/wldd-x86_64-apple-darwin.tar.gz",
+      "sha256": "445c0dd22e1e35738e9d3010541654838810f670ca94240f9ab5f05b255f454e",
+      "size": 653851,
+      "format": "tar.gz",
+      "releaseTag": "v1.5.0",
+      "binaries": {
+        "wldd": {
+          "path": "wldd",
+          "sha256": "7f281111e688034e0f17d18dd40cc2478e530178a648e1c95d7e5f792895dc76"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/marcoesposito1988/dependency_runner/releases/download/v1.5.0/wldd-x86_64-pc-windows-msvc.zip",
+      "sha256": "2dfb5102a00d5e6a368f2a5e0f78733b9efd7d629b4e90952f3759625971d016",
+      "size": 485623,
+      "format": "zip",
+      "releaseTag": "v1.5.0",
+      "binaries": {
+        "wldd.exe": {
+          "path": "wldd.exe",
+          "sha256": "09504672546b54a5019a3d603192545d05dbf37d996f26320947d6b665e5963f"
+        }
+      }
+    }
+  }
+}
