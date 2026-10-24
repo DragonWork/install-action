@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "razel",
+  "version": "0.5.7",
+  "repository": "reu-dev/razel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/reu-dev/razel/releases/download/v0.5.7/razel-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "9ba37b8c17ce9df71129ce14b484744e44e5e127c270ce1c396150ea43ad6cb9",
+      "size": 6951053,
+      "format": "zip",
+      "binaries": {
+        "razel": {
+          "path": "razel",
+          "sha256": "2766e1f5c5e656195e6f2339f1695fceaad0a1df503284d98661da470527c816"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/reu-dev/razel/releases/download/v0.5.7/razel-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "7a225fc8ed249999754c19def6b415f02fcc4a999344c4e0fbfdf3bb8cff1b5a",
+      "size": 6331772,
+      "format": "zip",
+      "binaries": {
+        "razel": {
+          "path": "razel",
+          "sha256": "1692b5762dc45dd55f3a198dd04e070de68efce945b48f5aff1259cba2dcc245"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/reu-dev/razel/releases/download/v0.5.7/razel-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "2adab79f43a47c1f75eca609e9968d359b4d20fe5201dc9c2da9907f8bc8ac5a",
+      "size": 6652217,
+      "format": "zip",
+      "binaries": {
+        "razel": {
+          "path": "razel",
+          "sha256": "317100c7c2e0af7dd6d33c75800c04cda57afd657d74ccabc4f753b1493a9ef2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/reu-dev/razel/releases/download/v0.5.7/razel-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "6c7c79d8a2c6a63f1804badf2b9c9e3b05644f8b1c910980929c56e924b029a0",
+      "size": 6171068,
+      "format": "zip",
+      "binaries": {
+        "razel": {
+          "path": "razel",
+          "sha256": "d91d2c11c58b8c7325def81d5ebaf089a6155c9072852c5d858b183bb2aa96f7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/reu-dev/razel/releases/download/v0.5.7/razel-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "cde8211cd4de1a8b2d0fc4b2e84920fdc400dc1271006063c67c7b44dd789728",
+      "size": 6681262,
+      "format": "zip",
+      "binaries": {
+        "razel.exe": {
+          "path": "razel.exe",
+          "sha256": "6aef2f00359fd50e86d4dad8039cc7f24ec426a9fad7addddf59712dd5b99b4d"
+        }
+      }
+    }
+  }
+}
