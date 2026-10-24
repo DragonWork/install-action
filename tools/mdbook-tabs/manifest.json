@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mdbook-tabs",
+  "version": "1.0.5",
+  "repository": "RustForWeb/mdbook-plugins",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-tabs-v1.0.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.5",
+      "sha256": "b7072998c522be9a1037b0aaf91a6f3a51ec1ced6acc92008824e0e5517c2dad",
+      "size": 4143431,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-tabs": {
+          "path": "mdbook-tabs",
+          "sha256": "e2f9a440404f0e165bb50384bd0606ba4cf41a231ae36802d4d431d953412b57"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-tabs-v1.0.5-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.5",
+      "sha256": "0cb8fd79a1100d14b4788e245b66e0ab0c236d663de5379806c8de85f2ea9bee",
+      "size": 3995597,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-tabs": {
+          "path": "mdbook-tabs",
+          "sha256": "49d947c5bebffe69028b9cce84e9d92e2c187fa63891b95e9cca282a69f9691c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-tabs-v1.0.5-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.5",
+      "sha256": "9238138fc40bc80a444998f3c266032f89f7790bbe5c1627f4ac373f7e2ee441",
+      "size": 3774081,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-tabs": {
+          "path": "mdbook-tabs",
+          "sha256": "db5e1b425f59466f85be0eb8ea5d95e7f00467727e0ec9cfb7451a4d29411eb0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-tabs-v1.0.5-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.5",
+      "sha256": "40ef3ca7c099ca05d8cfd28444b65246c1ea07389f372aa7df926673179b643b",
+      "size": 3683635,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-tabs": {
+          "path": "mdbook-tabs",
+          "sha256": "6ff6db051269429e718ab2e2a48ea91d1a29cd98c536e1b27ec19890e3efe682"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-tabs-v1.0.5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.5",
+      "sha256": "fdda137e841a27749e96b20ea24ed2ec058c159c0e5cebabce9387df1d29e13d",
+      "size": 3446389,
+      "format": "zip",
+      "binaries": {
+        "mdbook-tabs.exe": {
+          "path": "mdbook-tabs.exe",
+          "sha256": "ef3674c7c2fc9c9488d60a841870697f73a366b0d878ef7047b5884194a00631"
+        }
+      }
+    }
+  }
+}
