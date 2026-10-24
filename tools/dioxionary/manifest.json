@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dioxionary",
+  "version": "1.2.0",
+  "repository": "vaaandark/dioxionary",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vaaandark/dioxionary/releases/download/v1.2.0/dioxionary-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "f85aae32fc4a4cb0b019ecff138c61d727c32c4ad89408932a0cc9d2702a03ae",
+      "size": 5381199,
+      "format": "zip",
+      "binaries": {
+        "dioxionary": {
+          "path": "dioxionary",
+          "sha256": "a1af9ce0dec5159df152bf0622cbada10e87854eee59c342873dd859e706ebc1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/vaaandark/dioxionary/releases/download/v1.2.0/dioxionary-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "cbe5496e7b4b89783763cdd6e7fd3fb30fc6fde76ddadaaf5547e7a1571a5c93",
+      "size": 5669437,
+      "format": "zip",
+      "binaries": {
+        "dioxionary": {
+          "path": "dioxionary",
+          "sha256": "4b2644c7d96788597b058fa35bc1f317a9e3b3262df524412983a887b03de26d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vaaandark/dioxionary/releases/download/v1.2.0/dioxionary-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "0743ad8e523f5a9d3b463b6b35ef179a513f49b9d6c4e61d6f033e905e7435aa",
+      "size": 2615534,
+      "format": "zip",
+      "binaries": {
+        "dioxionary.exe": {
+          "path": "dioxionary.exe",
+          "sha256": "83eb868fabf66ab0aedf0311bcd42e475c5ccaacb5dea0e077e8bd12d0dd2626"
+        }
+      }
+    }
+  }
+}
