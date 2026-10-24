@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dioxus-cli",
+  "version": "0.7.10",
+  "repository": "DioxusLabs/dioxus",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.10/dx-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.10",
+      "sha256": "45eb4f87b7f86fdba8508ee7e0ef1f9e13cf8f2ffcc6a2d5858d0e8ea7dd1531",
+      "size": 29757092,
+      "format": "zip",
+      "binaries": {
+        "dx.exe": {
+          "path": "dx.exe",
+          "sha256": "2ef147c6408c05ea78da1d550ec92a6f5cef6f141f6fc93059c183f4d2b02313"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.10/dx-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.10",
+      "sha256": "77e807cc7e5e036b3283186efd13fc2c2501f085ef93aaf817fd1728392f29a3",
+      "size": 28012082,
+      "format": "zip",
+      "binaries": {
+        "dx.exe": {
+          "path": "dx.exe",
+          "sha256": "26f418859e8555dc7cbf96938daec4d7f4119fa74ba861b45a7a6c6f3a4af08e"
+        }
+      }
+    }
+  }
+}
