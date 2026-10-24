@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "apisnip",
+  "version": "1.4.60",
+  "repository": "Tuurlijk/apisnip",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Tuurlijk/apisnip/releases/download/v1.4.60/apisnip-linux-x86_64.tar.gz",
+      "releaseTag": "v1.4.60",
+      "sha256": "b52560d99a79c13a64c4e07cb53501009ebd45c91b3135e9f3bcbff9eca15df0",
+      "size": 2539209,
+      "format": "tar.gz",
+      "binaries": {
+        "apisnip": {
+          "path": "apisnip",
+          "sha256": "78a81644b1b10b02434529ff031dc4bddb70dfae0b0bb43b0f47201849716902"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Tuurlijk/apisnip/releases/download/v1.4.60/apisnip-linux-arm64.tar.gz",
+      "releaseTag": "v1.4.60",
+      "sha256": "14df3d521b885e984b88b3f18dcde6931c6139e66bdb057481ce7747cc40d62c",
+      "size": 2484519,
+      "format": "tar.gz",
+      "binaries": {
+        "apisnip": {
+          "path": "apisnip",
+          "sha256": "b539c1a00b6cbf5fd8cf875613305a577e867a2409fa5a0272ddf6d333263f7d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Tuurlijk/apisnip/releases/download/v1.4.60/apisnip-macos-x86_64.tar.gz",
+      "releaseTag": "v1.4.60",
+      "sha256": "97a364b4862ea9b26447c0cc9e9aede17a351054c0eadace738fb09b74eff069",
+      "size": 2226029,
+      "format": "tar.gz",
+      "binaries": {
+        "apisnip": {
+          "path": "apisnip",
+          "sha256": "cb439884a8e275cfdf0f95446a0543da583ecaa6769c3f072d809e5e4c908dd3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Tuurlijk/apisnip/releases/download/v1.4.60/apisnip-macos-arm64.tar.gz",
+      "releaseTag": "v1.4.60",
+      "sha256": "316e4d082e0364cd068fe832f277c871c7f6cd1fa686cde6a6608e11315b127f",
+      "size": 2116645,
+      "format": "tar.gz",
+      "binaries": {
+        "apisnip": {
+          "path": "apisnip",
+          "sha256": "617cf16842bd447825f2ff6704fb9826d182ab5caaf6ada6ca9ca910fc24f060"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Tuurlijk/apisnip/releases/download/v1.4.60/apisnip-windows-x86_64.zip",
+      "releaseTag": "v1.4.60",
+      "sha256": "fc3539245c2fab22e9cb134c339908a8af3e8fb678398508df5771a51f6bdc9d",
+      "size": 1978649,
+      "format": "zip",
+      "binaries": {
+        "apisnip.exe": {
+          "path": "apisnip.exe",
+          "sha256": "9787a0dabd0f16f96ff784e33c50abf9e4eaf1d851f64a93a0c8645750991493"
+        }
+      }
+    }
+  }
+}
