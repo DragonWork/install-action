@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "turbo-cdn",
+  "version": "0.8.3",
+  "repository": "loonghao/turbo-cdn",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/loonghao/turbo-cdn/releases/download/v0.8.3/turbo-cdn-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.3",
+      "sha256": "40e943649bd24fb6d47a173e8d736aec4f3a1602021984a6d8347d0fd51453b9",
+      "size": 3390621,
+      "format": "tar.gz",
+      "binaries": {
+        "turbo-cdn": {
+          "path": "turbo-cdn",
+          "sha256": "8130c566b0da47f0f135165eb6797379309503c74d3996d140f11af11ab716bf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/loonghao/turbo-cdn/releases/download/v0.8.3/turbo-cdn-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.3",
+      "sha256": "44773c38dbf56bb3587fb56def9e63a3b9b9c3e8d3fbbd65930770e01fe2be67",
+      "size": 3126694,
+      "format": "tar.gz",
+      "binaries": {
+        "turbo-cdn": {
+          "path": "turbo-cdn",
+          "sha256": "fd1a944d8a2816dd35ed9f87ae6f91f649173e4a3e617a08ac076de57e3578a1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/loonghao/turbo-cdn/releases/download/v0.8.3/turbo-cdn-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.3",
+      "sha256": "43df62bd7a7984639aeec583f28edfec4af1215bb1921f6d57d6682cd1570e56",
+      "size": 3127977,
+      "format": "tar.gz",
+      "binaries": {
+        "turbo-cdn": {
+          "path": "turbo-cdn",
+          "sha256": "410fa4001d56b03d1afac9d1591e28ef299eafceebdfe6542f0b78e9643cee92"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/loonghao/turbo-cdn/releases/download/v0.8.3/turbo-cdn-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.3",
+      "sha256": "2ea26aee778bd5f7cd02af80291b47e02cad4d5999016ec05366b13ced749afe",
+      "size": 2853195,
+      "format": "tar.gz",
+      "binaries": {
+        "turbo-cdn": {
+          "path": "turbo-cdn",
+          "sha256": "f73e98fd64f02ad7e17a9a8b0084f2be3e9a778002ca203a5697f865bdd4a3ac"
+        }
+      }
+    }
+  }
+}
