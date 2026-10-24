@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "brainfoamkit",
+  "version": "1.1.0",
+  "repository": "AliSajid/BrainFoamKit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AliSajid/BrainFoamKit/releases/download/v1.1.0/bfkrun-x86_64-unknown-linux-musl",
+      "sha256": "d3449d2054d122ff3b80e11820166ed1cc4fe6b0d38aae718ceb269633615e1b",
+      "size": 637144,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "bfkrun": {
+          "path": "bfkrun-x86_64-unknown-linux-musl",
+          "sha256": "d3449d2054d122ff3b80e11820166ed1cc4fe6b0d38aae718ceb269633615e1b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/AliSajid/BrainFoamKit/releases/download/v1.1.0/bfkrun-aarch64-unknown-linux-musl",
+      "sha256": "d3b95b69f7a365cb5b8890ffbdbdc60c3ea46478377ceecb06505a0b574ce3ac",
+      "size": 546440,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "bfkrun": {
+          "path": "bfkrun-aarch64-unknown-linux-musl",
+          "sha256": "d3b95b69f7a365cb5b8890ffbdbdc60c3ea46478377ceecb06505a0b574ce3ac"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AliSajid/BrainFoamKit/releases/download/v1.1.0/bfkrun-x86_64-apple-darwin",
+      "sha256": "dcab13e9cdb7f2ab9c0f473ed74fed61c1eab09d635079c1703649dd24c7f3b4",
+      "size": 480648,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "bfkrun": {
+          "path": "bfkrun-x86_64-apple-darwin",
+          "sha256": "dcab13e9cdb7f2ab9c0f473ed74fed61c1eab09d635079c1703649dd24c7f3b4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AliSajid/BrainFoamKit/releases/download/v1.1.0/bfkrun-aarch64-apple-darwin",
+      "sha256": "3b99a9a31bb33826c7d8bd516cf20099df07ffd75f6a1958141e71a514cf6e74",
+      "size": 467992,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "bfkrun": {
+          "path": "bfkrun-aarch64-apple-darwin",
+          "sha256": "3b99a9a31bb33826c7d8bd516cf20099df07ffd75f6a1958141e71a514cf6e74"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AliSajid/BrainFoamKit/releases/download/v1.1.0/bfkrun-x86_64-pc-windows-gnu",
+      "sha256": "17c2ef6080057fb79f2920c51b0d5772f49dfda8c085f6b63cbde167d9e41afd",
+      "size": 471552,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "bfkrun.exe": {
+          "path": "bfkrun-x86_64-pc-windows-gnu",
+          "sha256": "17c2ef6080057fb79f2920c51b0d5772f49dfda8c085f6b63cbde167d9e41afd"
+        }
+      }
+    }
+  }
+}
