@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "remodel",
+  "version": "0.10.0",
+  "repository": "rojo-rbx/remodel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rojo-rbx/remodel/releases/download/v0.10.0/remodel-0.10.0-linux-x86_64.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "a9adf70c4e108a61f8cfd09d5e02304cf125d5ac42b1dee45d290a44282896e4",
+      "size": 3215470,
+      "format": "zip",
+      "binaries": {
+        "remodel": {
+          "path": "remodel",
+          "sha256": "5713480f214a220356ad77ea23ca2c806b98b099ad156a4083cb29d0e4b62156"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rojo-rbx/remodel/releases/download/v0.10.0/remodel-0.10.0-macos-x86_64.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "7e37cc28b1562129803118a8e229cf247048d9e6107aeab37b6e28fe9f642955",
+      "size": 2249568,
+      "format": "zip",
+      "binaries": {
+        "remodel": {
+          "path": "remodel",
+          "sha256": "2c1082bce0638ecd333cdd2d8db9a32509ccfa2346abc608b85aa0d89cfac0a0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rojo-rbx/remodel/releases/download/v0.10.0/remodel-0.10.0-macos-aarch64.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "bb98b30bd423a50092f101207453b2ea7a01548e3759b452204defbfb5ca382c",
+      "size": 2249568,
+      "format": "zip",
+      "binaries": {
+        "remodel": {
+          "path": "remodel",
+          "sha256": "2c1082bce0638ecd333cdd2d8db9a32509ccfa2346abc608b85aa0d89cfac0a0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rojo-rbx/remodel/releases/download/v0.10.0/remodel-0.10.0-windows-x86_64.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "734c8238a978c4f0ec0c60aa0d6eacf5b76a6c4e80052c71d5ab90464a0a4f0b",
+      "size": 1838022,
+      "format": "zip",
+      "binaries": {
+        "remodel.exe": {
+          "path": "remodel.exe",
+          "sha256": "a6232471176e272839b5bee116ee8d9b20837a7ba7d7fc31dade3fa1f6352287"
+        }
+      }
+    }
+  }
+}
