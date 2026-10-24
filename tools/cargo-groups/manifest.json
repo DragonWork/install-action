@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-groups",
+  "version": "0.1.9",
+  "repository": "NicholasLYang/cargo-groups",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/NicholasLYang/cargo-groups/releases/download/v0.1.9/cargo-groups-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "92b8d60c83890525598f28bec8584288683aa234479dc1da21615d19a2790b15",
+      "size": 2542894,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-groups": {
+          "path": "cargo-groups-x86_64-unknown-linux-gnu/cargo-groups",
+          "sha256": "b71d2c38e8dcb6c139d7b57114424cffd5b9977401f96f7b8b43b0c740ff558e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/NicholasLYang/cargo-groups/releases/download/v0.1.9/cargo-groups-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "8bd39975622bac0ac89b94262f9d38e4d00df3821760beefdde6b22f22eec444",
+      "size": 1835786,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-groups": {
+          "path": "cargo-groups-x86_64-apple-darwin/cargo-groups",
+          "sha256": "2f9f970211ae9665c06baf0bb9fefe2e4a1aa75b98015dabf58673f8517fa9be"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/NicholasLYang/cargo-groups/releases/download/v0.1.9/cargo-groups-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "4e03636cf47e306bcccfc24c352f08059f8d570ecf7b107b05814296932d8241",
+      "size": 1755344,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-groups": {
+          "path": "cargo-groups-aarch64-apple-darwin/cargo-groups",
+          "sha256": "a43e8cfeaa0f5682f599a5a98b8a8cf9ccc8e283dd9319e0e7487f24dda0a0d7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/NicholasLYang/cargo-groups/releases/download/v0.1.9/cargo-groups-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "0098784322ef341e8cca89de841768b87efc41f39464e816bc2368eddc192bdf",
+      "size": 1652828,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-groups.exe": {
+          "path": "cargo-groups-x86_64-pc-windows-msvc/cargo-groups.exe",
+          "sha256": "5be8dff087f5b896a0ed4745d2d5878435226e403b711c787e968ea503f8e4b4"
+        }
+      }
+    }
+  }
+}
