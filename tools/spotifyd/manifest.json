@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "spotifyd",
+  "version": "0.4.2",
+  "repository": "Spotifyd/spotifyd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Spotifyd/spotifyd/releases/download/v0.4.2/spotifyd-linux-x86_64-full.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "0c0657c61245355dc37e522f19cb1d73b947dbbc430d491aa9303e23c825c089",
+      "size": 5778549,
+      "format": "tar.gz",
+      "binaries": {
+        "spotifyd": {
+          "path": "spotifyd",
+          "sha256": "0faa6ddd1a4f38b7dd35b6e2c8db28b2a89518b8e8b8b38e54dac6ba864b58f3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Spotifyd/spotifyd/releases/download/v0.4.2/spotifyd-linux-aarch64-full.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "723872217c92ce9f10692caf4e96ddd8791b373ebd6dfb2eb42152a9cb56eda2",
+      "size": 5541430,
+      "format": "tar.gz",
+      "binaries": {
+        "spotifyd": {
+          "path": "spotifyd",
+          "sha256": "48652b0e2f7b8f7a42818d3849cf8ca837e10760ee31450f5efe5dfb0470f4bd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Spotifyd/spotifyd/releases/download/v0.4.2/spotifyd-macos-x86_64-slim.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "6db5409951cea808bef1e1debb6371f5521091f52f29204d9d1d2014ecbb797c",
+      "size": 5068718,
+      "format": "tar.gz",
+      "binaries": {
+        "spotifyd": {
+          "path": "spotifyd",
+          "sha256": "1afd0b39f5943b86460fd66fbd3140acc0cd444f606fde0de1bd35e2dced067d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Spotifyd/spotifyd/releases/download/v0.4.2/spotifyd-macos-aarch64-slim.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "c6ecfaccf1b621a120e072ee9ecd24c824a5c56945ab1750860e5c88b66b6628",
+      "size": 4821623,
+      "format": "tar.gz",
+      "binaries": {
+        "spotifyd": {
+          "path": "spotifyd",
+          "sha256": "3ead08ba3b49d6ef83259dcacc7a2f04aaa60090da22aa2eaf4e42ec3c725560"
+        }
+      }
+    }
+  }
+}
