@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "solv",
+  "version": "0.23.1",
+  "repository": "aegoroff/solv",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aegoroff/solv/releases/download/0.23.1/solv-0.23.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.23.1",
+      "sha256": "7b19c8724d0623f87160e1a4efd89bba6ccd179a5919aaa5f86735e7428ffb6c",
+      "size": 1132444,
+      "format": "tar.gz",
+      "binaries": {
+        "solv": {
+          "path": "solv",
+          "sha256": "25ea08bae2a969bbf666f5f8ee6177b8f700ea42e46a3b80b80abb4c42ab54ec"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/aegoroff/solv/releases/download/0.23.1/solv-0.23.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.23.1",
+      "sha256": "699bdb3087501bf9c62e9de0b0dce217b4d49d654e647c7a8504f81dd38bbbf9",
+      "size": 1035537,
+      "format": "tar.gz",
+      "binaries": {
+        "solv": {
+          "path": "solv",
+          "sha256": "77254d6474e75b9bd39be75adf98134702c6386b4fc8bd10e7ee021ebf6894ba"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aegoroff/solv/releases/download/0.23.1/solv-0.23.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.23.1",
+      "sha256": "fe954d93f1e4e10eeb368951aeb3253df9d86217f5d0e7c6fa4a40e25c4521ec",
+      "size": 971279,
+      "format": "tar.gz",
+      "binaries": {
+        "solv": {
+          "path": "solv",
+          "sha256": "cde4971aac4051ef7ed0ecfd712a78ab2b068a868cce02a12380080961ce18b2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aegoroff/solv/releases/download/0.23.1/solv-0.23.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.23.1",
+      "sha256": "460d3435f7cd10e35915cc1dbd6bf3e88708c73bc8b6d3e1b0ebec1548c8de1f",
+      "size": 877316,
+      "format": "tar.gz",
+      "binaries": {
+        "solv": {
+          "path": "solv",
+          "sha256": "697c377957e4079b266ef71752c70a3ed52a977932e6922c96edd61d454c9894"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aegoroff/solv/releases/download/0.23.1/solv-0.23.1-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.23.1",
+      "sha256": "23b88a6e59e9ba0cf419490f4d3d350001091f23ed08f649b1b9ed27eae92294",
+      "size": 957760,
+      "format": "tar.gz",
+      "binaries": {
+        "solv.exe": {
+          "path": "solv.exe",
+          "sha256": "39c0cbf8d5630abfb2f4700e9799463eb81ed4224fb8de6813d5a889486478a5"
+        }
+      }
+    }
+  }
+}
