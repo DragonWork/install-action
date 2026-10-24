@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mni2mz3",
+  "version": "1.0.0",
+  "repository": "FNNDSC/mni2mz3",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FNNDSC/mni2mz3/releases/download/v1.0.0/mni2mz3-x86_64-unknown-linux-musl-v1.0.0.tgz",
+      "releaseTag": "v1.0.0",
+      "sha256": "faa92185df63b0502d616a0c34743ab8180f72cec2e8a2bb4b98eac328444a74",
+      "size": 283483,
+      "format": "tar.gz",
+      "binaries": {
+        "mni2mz3": {
+          "path": "mni2mz3-x86_64-unknown-linux-musl-v1.0.0/mni2mz3",
+          "sha256": "8372c331de0f869680d8bad7fc6d4b54253c777cb87f2b7eb795a6665ba914c1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FNNDSC/mni2mz3/releases/download/v1.0.0/mni2mz3-aarch64-unknown-linux-musl-v1.0.0.tgz",
+      "releaseTag": "v1.0.0",
+      "sha256": "fb23acd07b51b67aa866f7138a3a6e1d4cbbde3f55ea20c178a7e52fdd116d45",
+      "size": 271679,
+      "format": "tar.gz",
+      "binaries": {
+        "mni2mz3": {
+          "path": "mni2mz3-aarch64-unknown-linux-musl-v1.0.0/mni2mz3",
+          "sha256": "0f6b3e7e3d26c8d36f9e584f5dbc55ac24cd1f0c7ab64292832f2da83075d302"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FNNDSC/mni2mz3/releases/download/v1.0.0/mni2mz3-x86_64-apple-darwin-v1.0.0.tgz",
+      "releaseTag": "v1.0.0",
+      "sha256": "0be57fc3d6a224784b8a7e8226f0bbb2f228e27002c8267698f7ae17f4d9257a",
+      "size": 213780,
+      "format": "tar.gz",
+      "binaries": {
+        "mni2mz3": {
+          "path": "mni2mz3-x86_64-apple-darwin-v1.0.0/mni2mz3",
+          "sha256": "d3fef344610ffd884c12af2c27466f32f666b8ef2e208b8caf81bee58c2a89b5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FNNDSC/mni2mz3/releases/download/v1.0.0/mni2mz3-aarch64-apple-darwin-v1.0.0.tgz",
+      "releaseTag": "v1.0.0",
+      "sha256": "1fd2a970a8a6050e0563dfc5a1131db3176e79986df52c754546e361d01eb4a9",
+      "size": 205838,
+      "format": "tar.gz",
+      "binaries": {
+        "mni2mz3": {
+          "path": "mni2mz3-aarch64-apple-darwin-v1.0.0/mni2mz3",
+          "sha256": "1ff62cc06f0d91d2969b05c77195b04f2b10e9e8ffb1174334cf174e6c524a42"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/FNNDSC/mni2mz3/releases/download/v1.0.0/mni2mz3-x86_64-pc-windows-msvc-v1.0.0.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "4f82bdcb70e76306670a4f1da5db1f7eb578d3963f2e3a4d68763d78488d20dc",
+      "size": 148083,
+      "format": "zip",
+      "binaries": {
+        "mni2mz3.exe": {
+          "path": "mni2mz3-x86_64-pc-windows-msvc-v1.0.0/mni2mz3.exe",
+          "sha256": "fab29fc6040f466b297d0aedc834641533f276d7bf1029569a639b15db34f365"
+        }
+      }
+    }
+  }
+}
