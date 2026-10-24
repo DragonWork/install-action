@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "efmt",
+  "version": "0.21.1",
+  "repository": "sile/efmt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sile/efmt/releases/download/v0.21.1/efmt-0.21.1.x86_64-unknown-linux-musl",
+      "sha256": "7aed92c87dae1ec81a95fbf1bc7035a26e5549f48a1b277a5741338cb4885f21",
+      "size": 5716024,
+      "format": "binary",
+      "releaseTag": "v0.21.1",
+      "binaries": {
+        "efmt": {
+          "path": "efmt-0.21.1.x86_64-unknown-linux-musl",
+          "sha256": "7aed92c87dae1ec81a95fbf1bc7035a26e5549f48a1b277a5741338cb4885f21"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sile/efmt/releases/download/v0.21.1/efmt-0.21.1.aarch64-unknown-linux-musl",
+      "sha256": "423ca4eaeb767490afbce4f06c381e2adf5d17ddb55fd9c7d2d9e1b8f4c00aa9",
+      "size": 5265200,
+      "format": "binary",
+      "releaseTag": "v0.21.1",
+      "binaries": {
+        "efmt": {
+          "path": "efmt-0.21.1.aarch64-unknown-linux-musl",
+          "sha256": "423ca4eaeb767490afbce4f06c381e2adf5d17ddb55fd9c7d2d9e1b8f4c00aa9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sile/efmt/releases/download/v0.21.1/efmt-0.21.1.aarch64-apple-darwin",
+      "sha256": "621ec1bd7e316c6bb65d843c3a8dacd625cd249d29789536097755f05d9c9366",
+      "size": 4679152,
+      "format": "binary",
+      "releaseTag": "v0.21.1",
+      "binaries": {
+        "efmt": {
+          "path": "efmt-0.21.1.aarch64-apple-darwin",
+          "sha256": "621ec1bd7e316c6bb65d843c3a8dacd625cd249d29789536097755f05d9c9366"
+        }
+      }
+    }
+  }
+}
