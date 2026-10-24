@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "isotarp",
+  "version": "0.1.12",
+  "repository": "lmmx/isotarp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lmmx/isotarp/releases/download/v0.1.12/isotarp-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.12",
+      "sha256": "b2d22396223999b0efcb78501a55bd8b1f73487d86ed7e73d433fabcd3cd2826",
+      "size": 802836,
+      "format": "tar.gz",
+      "binaries": {
+        "isotarp": {
+          "path": "isotarp",
+          "sha256": "290c7cfca744104d3e7df0c53f7a660caa52251624718a74fef4c770a53e801c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lmmx/isotarp/releases/download/v0.1.12/isotarp-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.12",
+      "sha256": "673a5405e8ffe6a757d3407c8869b8d4c86908dbfa6bc414945af4d1725205d0",
+      "size": 770075,
+      "format": "tar.gz",
+      "binaries": {
+        "isotarp": {
+          "path": "isotarp",
+          "sha256": "8d4f626fb09c6808229f3e676ee5f83dbcff9d1a8a2bf7df266e51423ae550f3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lmmx/isotarp/releases/download/v0.1.12/isotarp-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.12",
+      "sha256": "028637c8730d3a0a85dd54e5d6c52ffe38dc4dce015935fb0691aa25d804862a",
+      "size": 700067,
+      "format": "tar.gz",
+      "binaries": {
+        "isotarp": {
+          "path": "isotarp",
+          "sha256": "dc0042d2dd0366489a30143f70ec354abe5fcd42dbe03a033361d9adf2a308d5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lmmx/isotarp/releases/download/v0.1.12/isotarp-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.12",
+      "sha256": "1f019bf71cca76ec226d8881afed008f49853102551b29c064c7b0730544f308",
+      "size": 665813,
+      "format": "tar.gz",
+      "binaries": {
+        "isotarp": {
+          "path": "isotarp",
+          "sha256": "25201857de7cfa9c8c460ee845477bbeff58c1ea6fee7956cc68d759d94d3af3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lmmx/isotarp/releases/download/v0.1.12/isotarp-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.12",
+      "sha256": "cf5724d3c6614c2308ffacdb92bd83018be12c60b106b1454b7847579e6ac486",
+      "size": 588383,
+      "format": "zip",
+      "binaries": {
+        "isotarp.exe": {
+          "path": "isotarp.exe",
+          "sha256": "bbbff88a09c5c8022ba2c619df23b5e7f2305466ec6fbd35c73fab0c953cf2eb"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/lmmx/isotarp/releases/download/v0.1.12/isotarp-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.12",
+      "sha256": "26837e9dcdb8f7e7393495e6556cd2336d24c939f43fe5633e850556fff77606",
+      "size": 555138,
+      "format": "zip",
+      "binaries": {
+        "isotarp.exe": {
+          "path": "isotarp.exe",
+          "sha256": "67542da256158ab25abed62eca3eb2208a3b9451bd01d941502992a5343113bf"
+        }
+      }
+    }
+  }
+}
