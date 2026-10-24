@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-get",
+  "version": "1.4.0",
+  "repository": "nicolaiunrein/cargo-get",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nicolaiunrein/cargo-get/releases/download/v1.4.0/cargo-get-x86_64-unknown-linux-musl",
+      "sha256": "9d72b501d43d8e3d87a8f3cbfbe7d2efb9cfb584cf7bd49031f4ed936d37a463",
+      "size": 2994184,
+      "format": "binary",
+      "releaseTag": "v1.4.0",
+      "binaries": {
+        "cargo-get": {
+          "path": "cargo-get-x86_64-unknown-linux-musl",
+          "sha256": "9d72b501d43d8e3d87a8f3cbfbe7d2efb9cfb584cf7bd49031f4ed936d37a463"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nicolaiunrein/cargo-get/releases/download/v1.4.0/cargo-get-aarch64-unknown-linux-musl",
+      "sha256": "423c17a22c1a7f1335cf82e9ea7b9d409bfecce31ec5a3e804cf8e107e12ae2c",
+      "size": 2788536,
+      "format": "binary",
+      "releaseTag": "v1.4.0",
+      "binaries": {
+        "cargo-get": {
+          "path": "cargo-get-aarch64-unknown-linux-musl",
+          "sha256": "423c17a22c1a7f1335cf82e9ea7b9d409bfecce31ec5a3e804cf8e107e12ae2c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nicolaiunrein/cargo-get/releases/download/v1.4.0/cargo-get-x86_64-apple-darwin",
+      "sha256": "61ae01dd653ac861f25267d851e8db110c96af3f04ad19de55670f0d9f301b2d",
+      "size": 2612648,
+      "format": "binary",
+      "releaseTag": "v1.4.0",
+      "binaries": {
+        "cargo-get": {
+          "path": "cargo-get-x86_64-apple-darwin",
+          "sha256": "61ae01dd653ac861f25267d851e8db110c96af3f04ad19de55670f0d9f301b2d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nicolaiunrein/cargo-get/releases/download/v1.4.0/cargo-get-x86_64-pc-windows-gnu",
+      "sha256": "f108ddfb51b85410a5bef54f2bcd57ce35d49bcc722be1b96f082328653c9c6d",
+      "size": 4498120,
+      "format": "binary",
+      "releaseTag": "v1.4.0",
+      "binaries": {
+        "cargo-get.exe": {
+          "path": "cargo-get-x86_64-pc-windows-gnu",
+          "sha256": "f108ddfb51b85410a5bef54f2bcd57ce35d49bcc722be1b96f082328653c9c6d"
+        }
+      }
+    }
+  }
+}
