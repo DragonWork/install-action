@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "gungraun-runner",
+  "version": "0.20.0",
+  "repository": "gungraun/gungraun",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gungraun/gungraun/releases/download/v0.20.0/gungraun-runner-v0.20.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.20.0",
+      "sha256": "f6dcbd5af550c199b23ba258eb69d5444af8299c0c49309aa785599f60f9ec8b",
+      "size": 2831939,
+      "format": "tar.gz",
+      "binaries": {
+        "gungraun-runner": {
+          "path": "gungraun-runner-v0.20.0-x86_64-unknown-linux-musl/gungraun-runner",
+          "sha256": "7299da51b72661ffee874b19528536d02c03231ea9550d56daf9b1fa977ddeac"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/gungraun/gungraun/releases/download/v0.20.0/gungraun-runner-v0.20.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.20.0",
+      "sha256": "30ddf6737e486d1d3c11746eb603d8a228afeb1614dcf84ebe9ee1442f59d2f3",
+      "size": 2618889,
+      "format": "tar.gz",
+      "binaries": {
+        "gungraun-runner": {
+          "path": "gungraun-runner-v0.20.0-aarch64-unknown-linux-gnu/gungraun-runner",
+          "sha256": "b99980ff83f0548554fa7bf86b49f19b15a2d1b59184748d6e3b260e4349f6e8"
+        }
+      }
+    }
+  }
+}
