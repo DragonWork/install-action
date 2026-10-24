@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "shellharden",
+  "version": "4.3.2",
+  "repository": "anordal/shellharden",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/anordal/shellharden/releases/download/v4.3.2/shellharden-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v4.3.2",
+      "sha256": "270527e7cb76f39d980914d93b235ff056bfda22bb85de53469c7f2d42bf3751",
+      "size": 270176,
+      "format": "tar.gz",
+      "binaries": {
+        "shellharden": {
+          "path": "shellharden",
+          "sha256": "199719ece438c50b351f6fe47978d350667efbe7412a75b763ee2e7526b55bc2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/anordal/shellharden/releases/download/v4.3.2/shellharden-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v4.3.2",
+      "sha256": "299a1922ab716e23f960024aca1cdacaf485d3d932b6d65033deb6ea3606fe26",
+      "size": 268795,
+      "format": "tar.gz",
+      "binaries": {
+        "shellharden": {
+          "path": "shellharden",
+          "sha256": "fe1cbc29155438fc59af310cdb64ef120ab11974828be32d2d6034485130664a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/anordal/shellharden/releases/download/v4.3.2/shellharden-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v4.3.2",
+      "sha256": "6996f9d05fcc4fccfba3aac068552d38b2b08c99e51e5e15c3f8beab207e4baf",
+      "size": 204036,
+      "format": "tar.gz",
+      "binaries": {
+        "shellharden": {
+          "path": "shellharden",
+          "sha256": "d69e77395e5b15b2768b02a48d79d9e641f408907a39ed2058f5a486cb18fc61"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/anordal/shellharden/releases/download/v4.3.2/shellharden-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v4.3.2",
+      "sha256": "4279643d791619f7ce4a3fbdedb0cefd51916cd5d64b2956cb1e69df744678ec",
+      "size": 198918,
+      "format": "tar.gz",
+      "binaries": {
+        "shellharden": {
+          "path": "shellharden",
+          "sha256": "34c382ccc9f5226611218a872065f58e42a791d7b3112aa6b48b4569bc4fa009"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/anordal/shellharden/releases/download/v4.3.2/shellharden-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v4.3.2",
+      "sha256": "cf08b4d13b1a3b34046d83ea8cf13b4fcf8a99b103a83d74283921c9c45a2e9f",
+      "size": 92259,
+      "format": "zip",
+      "binaries": {
+        "shellharden.exe": {
+          "path": "shellharden.exe",
+          "sha256": "ee1effe24aec5081ded021ab31d8a52d4048e3f246fcfcf4419c46bd41bc9b5f"
+        }
+      }
+    }
+  }
+}
