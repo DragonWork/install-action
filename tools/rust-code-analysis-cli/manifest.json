@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "rust-code-analysis-cli",
+  "version": "0.0.25",
+  "repository": "mozilla/rust-code-analysis",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mozilla/rust-code-analysis/releases/download/v0.0.25/rust-code-analysis-linux-cli-x86_64.tar.gz",
+      "sha256": "9ec2a217b8ff191e02dab5d5f2eee6158b63fd975c532b2c5d67c2e6c7249894",
+      "size": 2039529,
+      "format": "tar.gz",
+      "releaseTag": "v0.0.25",
+      "binaries": {
+        "rust-code-analysis-cli": {
+          "path": "rust-code-analysis-cli",
+          "sha256": "59eb8762ccd0dc18fc08d1aa8ef34a43c3e650993bca51ec58e642bb38cb41ee"
+        }
+      }
+    }
+  }
+}
