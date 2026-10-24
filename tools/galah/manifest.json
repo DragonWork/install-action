@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "galah",
+  "version": "0.6.2",
+  "repository": "wwood/galah",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.6.2",
+      "sha256": "6314831fcc442e78441b4884154c2d2f4f7c5f4fe6cc057e5c48b8781a67ebb0",
+      "size": 1560976,
+      "format": "tar.xz",
+      "binaries": {
+        "galah": {
+          "path": "galah-x86_64-unknown-linux-musl/galah",
+          "sha256": "b89783b1ebdb96245fe776c6766b126cb6684fd4d9080c06c7b0db0ff2062b43"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.6.2",
+      "sha256": "95fb6a33d677c2bebdd50610ed93d5a1dda14d2dc402e8b2d4bdf1966cd0dc6c",
+      "size": 1318388,
+      "format": "tar.xz",
+      "binaries": {
+        "galah": {
+          "path": "galah-aarch64-unknown-linux-gnu/galah",
+          "sha256": "c72904c775cbdc3e663c1cbef6778dd8b0851b7c23a99361654fdfe5092a3a32"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.2",
+      "sha256": "d60539f81fc3e1dc4196b6e30e7545fbe43fed4f02ca8a494cdb0c9f9494ee6b",
+      "size": 1372128,
+      "format": "tar.xz",
+      "binaries": {
+        "galah": {
+          "path": "galah-x86_64-apple-darwin/galah",
+          "sha256": "8267a42f122cb932b3abb41f07664331cfcb7eab453aeb7a61c2f4c5043e6c45"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.2",
+      "sha256": "db6121c663e7ddf8238e72a44531550c0eae9a3f1d1d9d9f10258f30055596c3",
+      "size": 1197916,
+      "format": "tar.xz",
+      "binaries": {
+        "galah": {
+          "path": "galah-aarch64-apple-darwin/galah",
+          "sha256": "5ded00b8df6e2f3c44aceb08bb6eb31a296a87780d36795bd687a62536db4f27"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.2",
+      "sha256": "a2572e5989635f8b131849807a551c7a01eb329c5d24ecec45f2d00e21b18188",
+      "size": 1826329,
+      "format": "zip",
+      "binaries": {
+        "galah.exe": {
+          "path": "galah.exe",
+          "sha256": "47ee21f80fef2d2b82841293508532e4211c6153f6e5638f80584d8ce009937e"
+        }
+      }
+    }
+  }
+}
