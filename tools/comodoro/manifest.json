@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "comodoro",
+  "version": "2.0.0",
+  "repository": "pimalaya/comodoro",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.x86_64-linux.tgz",
+      "releaseTag": "v2.0.0",
+      "sha256": "90f846ffd894e940db5df1c9c7bfff08ab58e756aa3e6d12de96b25a6a47fee2",
+      "size": 1374049,
+      "format": "tar.gz",
+      "binaries": {
+        "comodoro": {
+          "path": "comodoro",
+          "sha256": "5d5d98c0305c0675d37d54b7360236c791b724574b08ecf6af5cbb911eae4fd0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.aarch64-linux.tgz",
+      "releaseTag": "v2.0.0",
+      "sha256": "8b782c71ba0a5993315033b4399f1014b8537a8657bc576d0e5d7c3cfa3ff35a",
+      "size": 1309395,
+      "format": "tar.gz",
+      "binaries": {
+        "comodoro": {
+          "path": "comodoro",
+          "sha256": "55de92c5c9d62f5a5dcb0cf6d2c5ceae09b967e62681940885553a49de87a6b0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.x86_64-darwin.tgz",
+      "releaseTag": "v2.0.0",
+      "sha256": "2a1210e3fd53dd3bda8991187a0a7edb00b13be846e89e53ff7a9a3cb08b7cba",
+      "size": 1134195,
+      "format": "tar.gz",
+      "binaries": {
+        "comodoro": {
+          "path": "comodoro",
+          "sha256": "d3658a80d11a3077272a5796e866feba9edc5db629b31224209b9af99edad61d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.aarch64-darwin.tgz",
+      "releaseTag": "v2.0.0",
+      "sha256": "bcefb26bfb1bb6a7d9ed64ddd93da0e0d0220c4f07d7385b5122c0c4e5cd0f13",
+      "size": 1012210,
+      "format": "tar.gz",
+      "binaries": {
+        "comodoro": {
+          "path": "comodoro",
+          "sha256": "b3f3084e8069a786ae6966c5d10198f05d213e807c014bbccc2e1824184e94b6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pimalaya/comodoro/releases/download/v2.0.0/comodoro.x86_64-windows.tgz",
+      "releaseTag": "v2.0.0",
+      "sha256": "27cfdda59c3dac638eeeb7f034662973a184ae8558bc04ed472bbb7dd574fc9a",
+      "size": 1123082,
+      "format": "tar.gz",
+      "binaries": {
+        "comodoro.exe": {
+          "path": "comodoro.exe",
+          "sha256": "567e068e6c526f9a4d4382656bfec324e21d0789747c0782b2556bc55d20c871"
+        }
+      }
+    }
+  }
+}
