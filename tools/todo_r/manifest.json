@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "todo_r",
+  "version": "0.7.2",
+  "repository": "lavifb/todo_r",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lavifb/todo_r/releases/download/v0.7.2/todor-v0.7.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.2",
+      "sha256": "fe64b859bc23ab34ac7a1849e32b3787a2fb399906dca672361c9e119ee5c717",
+      "size": 1688484,
+      "format": "tar.gz",
+      "binaries": {
+        "todor": {
+          "path": "todor",
+          "sha256": "069e1751520ea5b70544c25de230ee4dca97ffdc2600137bf664b2ff86768215"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lavifb/todo_r/releases/download/v0.7.2/todor-v0.7.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.2",
+      "sha256": "e33c3389fc9893c6b1caa83c73b9fb00ecf6a56ed076b34dcb4f2e7f1c3c089e",
+      "size": 1390653,
+      "format": "tar.gz",
+      "binaries": {
+        "todor": {
+          "path": "todor",
+          "sha256": "ea652ae1514369a95062babba012b03b5cce286575a2507c44f933bdf16b8cbb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lavifb/todo_r/releases/download/v0.7.2/todor-v0.7.2-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.7.2",
+      "sha256": "3f696d847634458c767c93c1e883bfaf811c3bf29408fb7e4bc999dea6c92a5e",
+      "size": 1248616,
+      "format": "tar.gz",
+      "binaries": {
+        "todor.exe": {
+          "path": "todor.exe",
+          "sha256": "06792e9d7d7cd49a95d6ffeeda91af70513e22574b2fe1f2d2062e6b5f706ed1"
+        }
+      }
+    }
+  }
+}
