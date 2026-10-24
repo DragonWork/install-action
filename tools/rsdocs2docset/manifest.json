@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rsdocs2docset",
+  "version": "0.4.1",
+  "repository": "kesselborn/rsdocs2docset",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kesselborn/rsdocs2docset/releases/download/v0.4.1/rsdocs2docset-v0.4.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "137c9591487df6b24954559d5e79efa08b11b187f4b67a62b795ea19ae746866",
+      "size": 1624774,
+      "format": "tar.gz",
+      "binaries": {
+        "rsdocs2docset": {
+          "path": "rsdocs2docset",
+          "sha256": "fa8ece0dc0ebecd30d39aa37fbbdb82e026b5067846efabb0c4d3161a61ed7e3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kesselborn/rsdocs2docset/releases/download/v0.4.1/rsdocs2docset-v0.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "15692bc43488fa5af1e428eaedd93fa50d18bbf942e980a5769df3c895753231",
+      "size": 889145,
+      "format": "tar.gz",
+      "binaries": {
+        "rsdocs2docset": {
+          "path": "rsdocs2docset",
+          "sha256": "3f79586ac3393a087f45d8ff395d3f3d3546fb3b46c4090ad6937fbdd49807b2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kesselborn/rsdocs2docset/releases/download/v0.4.1/rsdocs2docset-v0.4.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.1",
+      "sha256": "7d4a0efe4006996462eedd923512715a65c42194dd077a0cd2f454d10cd76d9e",
+      "size": 887872,
+      "format": "zip",
+      "binaries": {
+        "rsdocs2docset.exe": {
+          "path": "rsdocs2docset.exe",
+          "sha256": "bc7c3549d5f2730993eeeb0018b5ea4f2d9674b6a688969fb6cfd01b3ceb70cf"
+        }
+      }
+    }
+  }
+}
