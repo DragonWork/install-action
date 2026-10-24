@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "mpatch",
+  "version": "1.7.0",
+  "repository": "Romelium/mpatch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Romelium/mpatch/releases/download/v1.7.0/mpatch-x86_64-unknown-linux-musl-v1.7.0.tar.gz",
+      "releaseTag": "v1.7.0",
+      "sha256": "8f2c45a5abb6469cddeaf4308b95720be34d4b2b6bcd9769f0c8c7f004f0e25e",
+      "size": 1182454,
+      "format": "tar.gz",
+      "binaries": {
+        "mpatch": {
+          "path": "mpatch-x86_64-unknown-linux-musl-v1.7.0/mpatch",
+          "sha256": "425c80dccb49ec1bf6e8f56941f70d7b8f7e90c00c9bf67ac9416bc336db9ec0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Romelium/mpatch/releases/download/v1.7.0/mpatch-aarch64-unknown-linux-musl-v1.7.0.tar.gz",
+      "releaseTag": "v1.7.0",
+      "sha256": "4203b31b2d0d3264d01398af395353e21cf44c0a523f44f9aefb997dd8691897",
+      "size": 1659455,
+      "format": "tar.gz",
+      "binaries": {
+        "mpatch": {
+          "path": "mpatch-aarch64-unknown-linux-musl-v1.7.0/mpatch",
+          "sha256": "1af1aaeb7fa0d41ee5e7dd06ed73594fb62103e2c1236a534fd7f8e646c12248"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Romelium/mpatch/releases/download/v1.7.0/mpatch-x86_64-apple-darwin-v1.7.0.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "a538907839fd8d521a3263b384a665f10c1aea8c15a001605966e799cf39a1eb",
+      "size": 998413,
+      "format": "zip",
+      "binaries": {
+        "mpatch": {
+          "path": "mpatch-x86_64-apple-darwin-v1.7.0/mpatch",
+          "sha256": "6592a0b67aef8bac6aa47134322586e46ca6ca813ef74efe1c678744fffd0143"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Romelium/mpatch/releases/download/v1.7.0/mpatch-aarch64-apple-darwin-v1.7.0.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "27803e9fa36d18a138ab6c4501597c174246781e17718fe29efcc5806ed342c2",
+      "size": 867277,
+      "format": "zip",
+      "binaries": {
+        "mpatch": {
+          "path": "mpatch-aarch64-apple-darwin-v1.7.0/mpatch",
+          "sha256": "d65dad9e9b90d07e2885513fcfe4e20c0c4bf58657fe045c103fe7874b557cb2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Romelium/mpatch/releases/download/v1.7.0/mpatch-x86_64-pc-windows-msvc-v1.7.0.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "35f579708fede38f08acf26ea5bc21cf46ef390a9cfe4af6af82e1af700d62b7",
+      "size": 883792,
+      "format": "zip",
+      "binaries": {
+        "mpatch.exe": {
+          "path": "mpatch-x86_64-pc-windows-msvc-v1.7.0/mpatch.exe",
+          "sha256": "f07309236be1484eec21980dc5f45268841ea453b5915e0c4a1ccd9958948968"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Romelium/mpatch/releases/download/v1.7.0/mpatch-aarch64-pc-windows-msvc-v1.7.0.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "18f3bf8b38b972588b9b0fcf9f71c23529f628decab469c88e925e007c3a517b",
+      "size": 799405,
+      "format": "zip",
+      "binaries": {
+        "mpatch.exe": {
+          "path": "mpatch-aarch64-pc-windows-msvc-v1.7.0/mpatch.exe",
+          "sha256": "c0ac3bacfbb9c1cf2bb90b16f374172ce5c0a41eb3079b7acd48d5613dc78627"
+        }
+      }
+    }
+  }
+}
