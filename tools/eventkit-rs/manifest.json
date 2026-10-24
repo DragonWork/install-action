@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "eventkit-rs",
+  "version": "0.9.0",
+  "repository": "Weekendsuperhero-io/eventkit-rs",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/Weekendsuperhero-io/eventkit-rs/releases/download/v0.9.0/eventkit-macos-x86_64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "7566421729f00884c8629197b5c2585111f356874bde410f057d8a60a46b780d",
+      "size": 2692184,
+      "format": "tar.gz",
+      "binaries": {
+        "eventkit": {
+          "path": "eventkit",
+          "sha256": "4a85669369965f2b998671ed675400022323b03adec7c2e662fd6abdfd315a96"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Weekendsuperhero-io/eventkit-rs/releases/download/v0.9.0/eventkit-macos-aarch64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "801cec2a446d000dbf40aa47d761c48fc5813df3039e887f679c5b69fba37c65",
+      "size": 2605397,
+      "format": "tar.gz",
+      "binaries": {
+        "eventkit": {
+          "path": "eventkit",
+          "sha256": "ca821214e31b0d20caaad0058b2de9508c366788f3c0d456010e06b3a889a27d"
+        }
+      }
+    }
+  }
+}
