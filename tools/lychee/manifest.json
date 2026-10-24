@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "lychee",
+  "version": "0.24.2",
+  "repository": "lycheeverse/lychee",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "lychee-v0.24.2",
+      "sha256": "73657a111819a30c47c08352896796f23d64e4eb2b3ed39b6d32149241566fc5",
+      "size": 7705781,
+      "format": "tar.gz",
+      "binaries": {
+        "lychee": {
+          "path": "lychee-x86_64-unknown-linux-musl/lychee",
+          "sha256": "5c44b077feb43359fb7ad0fd60452e33e1ed8a7bfdbfe6fdad029a020252943b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "lychee-v0.24.2",
+      "sha256": "5d0b0e3aeab240f41920c633a6eaf97599be6eedda034b36e858ede7dba5e535",
+      "size": 6962068,
+      "format": "tar.gz",
+      "binaries": {
+        "lychee": {
+          "path": "lychee-aarch64-unknown-linux-musl/lychee",
+          "sha256": "29bc0ac5c5ac3cfe9c312a5783a94f8fca33118d1a7bb687323eab0b52735f79"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "lychee-v0.24.2",
+      "sha256": "887503a9cff667d322b8d0892b40bf49976eb9507af8483220a3706cdad55978",
+      "size": 7338545,
+      "format": "tar.gz",
+      "binaries": {
+        "lychee": {
+          "path": "lychee-x86_64-apple-darwin/lychee",
+          "sha256": "db236f940ad0dbe02b8c3e12ac0f7b7dcae15be02bb5fb1868def5026b5e01e7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "lychee-v0.24.2",
+      "sha256": "c9d3740ea2d891854d37116c9fba840f37b6e7c89d330e7db84ac333631c4977",
+      "size": 6992530,
+      "format": "tar.gz",
+      "binaries": {
+        "lychee": {
+          "path": "lychee-aarch64-apple-darwin/lychee",
+          "sha256": "af111b5890746a863e60b4929720ab383337843ed15b701515871aa6e8817c2b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "lychee-v0.24.2",
+      "sha256": "32975d1493ee1a975d6bb41e4fb56fe419cb442ded628bb772ba2e614acfacad",
+      "size": 6868524,
+      "format": "zip",
+      "binaries": {
+        "lychee.exe": {
+          "path": "lychee-x86_64-pc-windows-msvc/lychee.exe",
+          "sha256": "2d15a3f78ac680103720b0c59667dc6f1da7de35f7e9c95171bdf4b76fb6829b"
+        }
+      }
+    }
+  }
+}
