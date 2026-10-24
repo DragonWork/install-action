@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "objtalk",
+  "version": "0.3.0",
+  "repository": "objtalk/objtalk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/objtalk/objtalk/releases/download/v0.3.0/objtalk-linux-x86_64.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "931a5c8d7ffac996b3d4f460301135a60c9e71b3a513d5e636075fea78855c2e",
+      "size": 2747718,
+      "format": "tar.gz",
+      "binaries": {
+        "objtalk-server": {
+          "path": "objtalk-server",
+          "sha256": "dc8ea633d2959d8edea5819e7bd0b6faa477d57731e30023cc6119cfc501d34a"
+        },
+        "objtalk-cli": {
+          "path": "objtalk-cli",
+          "sha256": "023eb5a4723f5dc144134bb0797819d09042eaaf9f66b2fa854fd21210ea1994"
+        }
+      }
+    }
+  }
+}
