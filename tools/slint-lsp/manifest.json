@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "slint-lsp",
+  "version": "1.18.1",
+  "repository": "slint-ui/slint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-lsp-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.18.1",
+      "sha256": "62735d2b1908ae8a33b35dcdc71fd0c713f44ef8a4a9b57e8dfa07319903eefa",
+      "size": 20753605,
+      "format": "tar.gz",
+      "binaries": {
+        "slint-lsp": {
+          "path": "slint-lsp/slint-lsp",
+          "sha256": "eb1614e28e57cc38c67a663e039f953adf0df000dcccbb06b93e01e20b49b93e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-lsp-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.18.1",
+      "sha256": "ac7ef43bf51b47f55b9220b471d5ae444baf1d8f6dae90c35edbfb57512985ee",
+      "size": 20011968,
+      "format": "tar.gz",
+      "binaries": {
+        "slint-lsp": {
+          "path": "slint-lsp-aarch64-unknown-linux-gnu/slint-lsp",
+          "sha256": "77fb4811b02a2cbbc79d047f462bc3545e8ab3f309a02d3e913e2dadb4ab189b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-lsp-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.18.1",
+      "sha256": "4dc30c4b2024c5676092c647cb7471a1419a843fae46e632b50b68e2732fa912",
+      "size": 17013187,
+      "format": "zip",
+      "binaries": {
+        "slint-lsp.exe": {
+          "path": "slint-lsp.exe",
+          "sha256": "b8fa9db40e39f866c61ca5ca81b9ee653f5775408fc89fc0756cb86333d4b333"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-lsp-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.18.1",
+      "sha256": "60bc5840c4c943c1dd0ddfc3767a05fa5c9284ad7b8199f56545cd17ebb2ccef",
+      "size": 15954822,
+      "format": "zip",
+      "binaries": {
+        "slint-lsp.exe": {
+          "path": "slint-lsp.exe",
+          "sha256": "677fe81e9e1d8522fd10b18188bcb2c6929f520d1eb687ca273b1a1c2daad8f5"
+        }
+      }
+    }
+  }
+}
