@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "markdown2pdf",
+  "version": "1.6.2",
+  "repository": "theiskaa/markdown2pdf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/theiskaa/markdown2pdf/releases/download/v1.6.2/markdown2pdf-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.6.2",
+      "sha256": "ab7fe0e38cfc1fcf8637b18da01f49097c9c99f20c4dac08bb014f16be150de4",
+      "size": 2975344,
+      "format": "tar.xz",
+      "binaries": {
+        "markdown2pdf": {
+          "path": "markdown2pdf-x86_64-unknown-linux-gnu/markdown2pdf",
+          "sha256": "d6fce2dc64f192e2b43d689bc9d385f1a40d0a8c969e1a4227bbdbdc6530fce7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/theiskaa/markdown2pdf/releases/download/v1.6.2/markdown2pdf-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.6.2",
+      "sha256": "101d54911d83096709e5abecde0557c2bee2e4644cded7aa8a7292007a52a6ee",
+      "size": 2786672,
+      "format": "tar.xz",
+      "binaries": {
+        "markdown2pdf": {
+          "path": "markdown2pdf-aarch64-unknown-linux-gnu/markdown2pdf",
+          "sha256": "4d135366fa7e705697dacb6031a20b6fa411dae76db1f484e7193567f5b33e3e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/theiskaa/markdown2pdf/releases/download/v1.6.2/markdown2pdf-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.6.2",
+      "sha256": "faa7241a8e54fb74fd3b5069749aea2b6383f2d4ddb833fa08630db1bb83ff25",
+      "size": 2941744,
+      "format": "tar.xz",
+      "binaries": {
+        "markdown2pdf": {
+          "path": "markdown2pdf-x86_64-apple-darwin/markdown2pdf",
+          "sha256": "ca0e28408c14d7bf391ea984a60e0ba7d002b3db6166fc19f56959588a3c667d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/theiskaa/markdown2pdf/releases/download/v1.6.2/markdown2pdf-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.6.2",
+      "sha256": "77a7e2e7decad1f59a6a86b3b3ab7b2cd5a8332dab33d479245a6af8afebd169",
+      "size": 2756224,
+      "format": "tar.xz",
+      "binaries": {
+        "markdown2pdf": {
+          "path": "markdown2pdf-aarch64-apple-darwin/markdown2pdf",
+          "sha256": "be2eddcb3bf58e60af918f25e7e1a7232899cdd27ae483757a2cc76658e4a5e4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/theiskaa/markdown2pdf/releases/download/v1.6.2/markdown2pdf-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.6.2",
+      "sha256": "11acbebd6fd7e19a1f56580473b3a5187057049a8b9db5fe4c6bfb496503506c",
+      "size": 3754129,
+      "format": "zip",
+      "binaries": {
+        "markdown2pdf.exe": {
+          "path": "markdown2pdf.exe",
+          "sha256": "0afe8d8533b71659f3157ab39fa8e6e613c21e93f43640d8187d45079895e108"
+        }
+      }
+    }
+  }
+}
