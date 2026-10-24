@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "timer_core",
+  "version": "0.7.6",
+  "repository": "pando85/timer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pando85/timer/releases/download/v0.7.6/timer-0.7.6-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "e552d64ec5cf7da5bb4af72b55211b38ec0bd56cf069d67a0915240ff253fcd6",
+      "size": 1510455,
+      "format": "tar.gz",
+      "binaries": {
+        "timer": {
+          "path": "timer",
+          "sha256": "d973e3acc2b1a4477c4a4970ada6593869ba642f2228b2dc838068a61187072c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pando85/timer/releases/download/v0.7.6/timer-0.7.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "23b6b96f46da42c48e46ea2befdb2e21ad3ad46bb6f394089a27879f04748e78",
+      "size": 1349656,
+      "format": "tar.gz",
+      "binaries": {
+        "timer": {
+          "path": "timer",
+          "sha256": "ba220dd61f60086b600fc0a7ff3c8e1309c44f9087a8ff23822c9f194c9db983"
+        }
+      }
+    }
+  }
+}
