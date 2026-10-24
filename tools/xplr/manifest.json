@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "xplr",
+  "version": "1.2.1",
+  "repository": "sayanarijit/xplr",
+  "artifacts": {
+    "linux-arm64": {
+      "url": "https://github.com/sayanarijit/xplr/releases/download/v1.2.1/xplr-linux-aarch64.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "ea2abf9b06117006d40c14e177d625a00b8e6f548b2ea51c013843c33d1ca434",
+      "size": 3754954,
+      "format": "tar.gz",
+      "binaries": {
+        "xplr": {
+          "path": "xplr",
+          "sha256": "e4a73c0115c297dbf1da3fce1eaf44a5a1941dd26abb6be5f969894dc7f83d0b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sayanarijit/xplr/releases/download/v1.2.1/xplr-macos-aarch64.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "8834773041c11b3f215499c070eab825f3e84d230775c85ed436526cd8f7566a",
+      "size": 3482880,
+      "format": "tar.gz",
+      "binaries": {
+        "xplr": {
+          "path": "xplr",
+          "sha256": "2ae66372c7993886633ba42d8a61e95996f4ab876a8f0c0ddb23f5b449bcb16d"
+        }
+      }
+    }
+  }
+}
