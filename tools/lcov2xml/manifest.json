@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "lcov2xml",
+  "version": "1.0.10",
+  "repository": "mike-kfed/lcov2cobertura",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mike-kfed/lcov2cobertura/releases/download/1.0.10/lcov2xml-x86_64-unknown-linux-musl",
+      "sha256": "52c2a35f91acd137a58e6a5500ba7994f84dd251fe2a8bc842a75c94416c19b4",
+      "size": 2205848,
+      "format": "binary",
+      "releaseTag": "1.0.10",
+      "binaries": {
+        "lcov2xml": {
+          "path": "lcov2xml-x86_64-unknown-linux-musl",
+          "sha256": "52c2a35f91acd137a58e6a5500ba7994f84dd251fe2a8bc842a75c94416c19b4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mike-kfed/lcov2cobertura/releases/download/1.0.10/lcov2xml-aarch64-unknown-linux-musl",
+      "sha256": "cb97c124c73b17af4979e6029645d8650fda88d3c50d826347b89a9cc5ceb777",
+      "size": 1807416,
+      "format": "binary",
+      "releaseTag": "1.0.10",
+      "binaries": {
+        "lcov2xml": {
+          "path": "lcov2xml-aarch64-unknown-linux-musl",
+          "sha256": "cb97c124c73b17af4979e6029645d8650fda88d3c50d826347b89a9cc5ceb777"
+        }
+      }
+    }
+  }
+}
