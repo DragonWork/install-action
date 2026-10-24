@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "oarfish",
+  "version": "0.10.3",
+  "repository": "COMBINE-lab/oarfish",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/COMBINE-lab/oarfish/releases/download/v0.10.3/oarfish-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "ad23cd748ad306ea736e76670d40298ee66704bbcbcb4ddeedb301bfaee57461",
+      "size": 2308336,
+      "format": "tar.xz",
+      "binaries": {
+        "oarfish": {
+          "path": "oarfish-x86_64-unknown-linux-gnu/oarfish",
+          "sha256": "5d8116b4b2a6c55db29648119a11fd4959cfaafd7da4d5567f78802b65489e13"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/COMBINE-lab/oarfish/releases/download/v0.10.3/oarfish-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "57e8cbcc125821b2f3f00ec9e2a572d4ccd909007ee4a705a0dae4a7372367d5",
+      "size": 2077428,
+      "format": "tar.xz",
+      "binaries": {
+        "oarfish": {
+          "path": "oarfish-aarch64-unknown-linux-gnu/oarfish",
+          "sha256": "86b76f277c50d5e1811677d7f4534c35bdf8a5230a8bade92380c2af3199b91e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/COMBINE-lab/oarfish/releases/download/v0.10.3/oarfish-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "3c637ef596b88093bc23813903bd036e523ad701822756dcec9bfa81ceac6ace",
+      "size": 2103844,
+      "format": "tar.xz",
+      "binaries": {
+        "oarfish": {
+          "path": "oarfish-x86_64-apple-darwin/oarfish",
+          "sha256": "7bf9440e7190b83d6be421abd3ce6b0b3b259e81ebbfb55eba3b7b198bbc2db2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/COMBINE-lab/oarfish/releases/download/v0.10.3/oarfish-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "4a07181d6ed9682cd41dcfe0c3b47d0cc88150f3581bacbbe4479eff207243e9",
+      "size": 1745032,
+      "format": "tar.xz",
+      "binaries": {
+        "oarfish": {
+          "path": "oarfish-aarch64-apple-darwin/oarfish",
+          "sha256": "6b815cc2e3b03b2ef2ed3f2309d325c38a287ab90686827e0db57004304b101e"
+        }
+      }
+    }
+  }
+}
