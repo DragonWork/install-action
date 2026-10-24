@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "stu",
+  "version": "0.7.6",
+  "repository": "lusingander/stu",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lusingander/stu/releases/download/v0.7.6/stu-0.7.6-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "ae608bd9cd39779ab722ebc10978ebd4dbc8ad523c8b0f1e175065cd8f7f1084",
+      "size": 9743135,
+      "format": "tar.gz",
+      "binaries": {
+        "stu": {
+          "path": "stu",
+          "sha256": "7776fa9e9bc5adae4687bd5d9462893e20d0f14b789fc17be0301f44cb8724ad"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lusingander/stu/releases/download/v0.7.6/stu-0.7.6-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "2a9b498b561e38a4cf686b65c5151064742aeada8e79afbeb38db88f15b978df",
+      "size": 9157795,
+      "format": "tar.gz",
+      "binaries": {
+        "stu": {
+          "path": "stu",
+          "sha256": "206abd1b4adce8d4db41d5a366694eaea28746db8eb47ede3083888906132691"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lusingander/stu/releases/download/v0.7.6/stu-0.7.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "9797b99d5c82eb976211f4093b9c913a4c16802d3fe3b8d0a27297732c0f24ef",
+      "size": 9206574,
+      "format": "tar.gz",
+      "binaries": {
+        "stu": {
+          "path": "stu",
+          "sha256": "00e48e68f2fec29c248c415324a6c6abf1ebec906564ba49aa0bcd67978b163d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lusingander/stu/releases/download/v0.7.6/stu-0.7.6-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "37ccee93b4f38c0224990674aa0f84410abfb79e071e94b8b6d9f15c39fae8f3",
+      "size": 8088581,
+      "format": "tar.gz",
+      "binaries": {
+        "stu": {
+          "path": "stu",
+          "sha256": "488a090d3c0261cc05dc8b3427286ed002e94712731efa07caf338cf4d767382"
+        }
+      }
+    }
+  }
+}
