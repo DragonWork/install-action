@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tasker-cli",
+  "version": "2.2.1",
+  "repository": "DaliaReds/tasker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DaliaReds/tasker/releases/download/v2.2.1/tasker-cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v2.2.1",
+      "sha256": "816e9aaf318a41977bc9ea9d9dec04a24f336c4656093c2b4435f4a3a3dc5723",
+      "size": 578272,
+      "format": "tar.xz",
+      "binaries": {
+        "tasker-cli": {
+          "path": "tasker-cli-x86_64-unknown-linux-musl/tasker-cli",
+          "sha256": "b3ae53ea900c422e47bcd6917ad7251cfd4a042682b42cdaabc71abfc01cae97"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/DaliaReds/tasker/releases/download/v2.2.1/tasker-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v2.2.1",
+      "sha256": "1accf245b866f3cc5eca0b56aefaf7187ace98b4013f93447af9dfd49df6eebb",
+      "size": 477768,
+      "format": "tar.xz",
+      "binaries": {
+        "tasker-cli": {
+          "path": "tasker-cli-x86_64-apple-darwin/tasker-cli",
+          "sha256": "e5c008294c87e5b34246029be231a1ef571a2cd98e2bdf13f9341b8b185d2052"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/DaliaReds/tasker/releases/download/v2.2.1/tasker-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2.2.1",
+      "sha256": "2ecb3f44546bc2e1ccdeff0f60e2630df389571f83a05684a73242b02524c918",
+      "size": 501688,
+      "format": "tar.xz",
+      "binaries": {
+        "tasker-cli": {
+          "path": "tasker-cli-aarch64-apple-darwin/tasker-cli",
+          "sha256": "6045d54452309d257ccda2f47795b1b4bf9539f3d17c4eba69e0fc35872b91d2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/DaliaReds/tasker/releases/download/v2.2.1/tasker-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.2.1",
+      "sha256": "40fe71a88c7bde6f1cf182165710f022dbf115b1a4cc853739856cee2ddd1d2a",
+      "size": 1407856,
+      "format": "zip",
+      "binaries": {
+        "tasker-cli.exe": {
+          "path": "tasker-cli.exe",
+          "sha256": "ddda46d9c56f130adc68816efd6ec01e0c3b83c4b046355a93dd0bebb1f6f9e7"
+        }
+      }
+    }
+  }
+}
