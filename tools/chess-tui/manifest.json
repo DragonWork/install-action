@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "chess-tui",
+  "version": "2.8.0",
+  "repository": "thomas-mauran/chess-tui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.0/chess-tui-2.8.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "2.8.0",
+      "sha256": "239844d36725cf6606331a00c20230676f1f20cf724df1411ac97b0587faf438",
+      "size": 3194472,
+      "format": "tar.gz",
+      "binaries": {
+        "chess-tui": {
+          "path": "./chess-tui",
+          "sha256": "17c55157c8e37222cca75eebc02c1b0f585a2d70d8c40e377dcdadafd18406e6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.0/chess-tui-2.8.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "2.8.0",
+      "sha256": "9ba39c897ede6cd44d961a0dc31afa0583923abe8a122e32a78509e3c4b9f2e3",
+      "size": 3036484,
+      "format": "tar.gz",
+      "binaries": {
+        "chess-tui": {
+          "path": "./chess-tui",
+          "sha256": "b3af0b7cbe497b5a13548e74c30c57398ccbc400698386ad384a08c679791ac7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.0/chess-tui-2.8.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "2.8.0",
+      "sha256": "2816c7486d8b00f4b0d20e5e5ad9ca057e8d1d04733d541296762be1f045df32",
+      "size": 3027255,
+      "format": "tar.gz",
+      "binaries": {
+        "chess-tui": {
+          "path": "./chess-tui",
+          "sha256": "1be8e28637e1fabc5d5b230ebe0b91c65fa11ab588f401907e8216cac79340f8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.0/chess-tui-2.8.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "2.8.0",
+      "sha256": "f199e818030e32e6c9f7f260d489839920abf7d0529cb920461e9c3bbe24d7ae",
+      "size": 2871070,
+      "format": "tar.gz",
+      "binaries": {
+        "chess-tui": {
+          "path": "./chess-tui",
+          "sha256": "47deb205a3e33df766f8ff029d06dfb29b2f9ae313a0d09393f563cc6d7afbaa"
+        }
+      }
+    }
+  }
+}
