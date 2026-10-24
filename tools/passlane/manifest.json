@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "passlane",
+  "version": "4.0.0",
+  "repository": "anssip/passlane",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/anssip/passlane/releases/download/v4.0.0/passlane-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v4.0.0",
+      "sha256": "f32dc2cb8aa596505135de4895e9c41ebd701197d1bc44a5698305a2635a2b8b",
+      "size": 2933937,
+      "format": "tar.gz",
+      "binaries": {
+        "passlane": {
+          "path": "passlane",
+          "sha256": "fadb6f28c9382f1f1943cfa90f4f818fa09b8c73f5a271b187650ebd2b5b3bc1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/anssip/passlane/releases/download/v4.0.0/passlane-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v4.0.0",
+      "sha256": "1b44d6257f7f2cc145bc99fa0a47684421389b86496616e823f45197a4136d7f",
+      "size": 2497567,
+      "format": "tar.gz",
+      "binaries": {
+        "passlane": {
+          "path": "passlane",
+          "sha256": "ab7dd63f99db8cf32eb30b96d566aeea3ae4e35f3657a484df13da6e876d555a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/anssip/passlane/releases/download/v4.0.0/passlane-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v4.0.0",
+      "sha256": "1d2aa0f1b57c87510f030f02a6d69a83df2f61ecc70a50400b6cafc12ede1a95",
+      "size": 2264213,
+      "format": "zip",
+      "binaries": {
+        "passlane.exe": {
+          "path": "passlane.exe",
+          "sha256": "788b73eed56279d6a807b32c7d8ee23aede48d29bfddd6ff7561afc1b972f0da"
+        }
+      }
+    }
+  }
+}
