@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "nscan",
+  "version": "1.6.0",
+  "repository": "shellrow/nscan",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shellrow/nscan/releases/download/v1.6.0/nscan-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.6.0",
+      "sha256": "a918c33a7a06f2b32beaa8e5bf8e9389752b5d1c828f0b17f7c8a11d21710cda",
+      "size": 4144132,
+      "format": "tar.xz",
+      "binaries": {
+        "nscan": {
+          "path": "nscan-x86_64-unknown-linux-gnu/nscan",
+          "sha256": "f65aabff6425ecf6742a4a1d1023308da4827116bed043284b6555d4cdcf4b0c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/shellrow/nscan/releases/download/v1.6.0/nscan-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.6.0",
+      "sha256": "2480e452c663385b145176c516fe9b809c2834a6a94d7a13892697f3e980001b",
+      "size": 3798412,
+      "format": "tar.xz",
+      "binaries": {
+        "nscan": {
+          "path": "nscan-x86_64-apple-darwin/nscan",
+          "sha256": "b72870e32e3339c7be79bfb37ebea2016ab5255e01eff93e68733578d0519845"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/shellrow/nscan/releases/download/v1.6.0/nscan-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.6.0",
+      "sha256": "6293eb9ae8603af1b3b72288450a703446c04d96fcdf2792abea5a02671aa7bb",
+      "size": 3537600,
+      "format": "tar.xz",
+      "binaries": {
+        "nscan": {
+          "path": "nscan-aarch64-apple-darwin/nscan",
+          "sha256": "150b5d0b2767d320c0f4c9a6bc379cabd1a608d07d7a43b5304ddd66c49855c0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/shellrow/nscan/releases/download/v1.6.0/nscan-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.6.0",
+      "sha256": "a64488acc716f96a7f679d8fff738702aea9ca3740a6ad5cf400dd9f09ef1ed3",
+      "size": 5263687,
+      "format": "zip",
+      "binaries": {
+        "nscan.exe": {
+          "path": "nscan.exe",
+          "sha256": "5280f46c4ca63637d39726dc0ac24c9c86fcee9a39997633f54840a8a937e868"
+        }
+      }
+    }
+  }
+}
