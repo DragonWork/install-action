@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "none-shall-pass",
+  "version": "0.2.3",
+  "repository": "thevickypedia/none-shall-pass-rustic",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thevickypedia/none-shall-pass-rustic/releases/download/v0.2.3/none-shall-pass-linux-amd64.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "a826e7ae51ce8f781acb37a3e585617810d60dc875b48411df09aece2a8fd177",
+      "size": 3934559,
+      "format": "tar.gz",
+      "binaries": {
+        "none-shall-pass": {
+          "path": "none-shall-pass-linux-amd64/none-shall-pass",
+          "sha256": "55155e927d9b980f7e84aa085d471e97bfeee3ec1df495b578a3a1a09d1adaf0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thevickypedia/none-shall-pass-rustic/releases/download/v0.2.3/none-shall-pass-darwin-amd64.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "07718ba0e63ddff94e7670b9a57187b94112633037afb5afb6f156ef79122c7a",
+      "size": 2107545,
+      "format": "tar.gz",
+      "binaries": {
+        "none-shall-pass": {
+          "path": "none-shall-pass-darwin-amd64/none-shall-pass",
+          "sha256": "29eaa15d7011c4e2953755c9e2e86c061cf06e7ac9d8615b6e90b78ccc84bce3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/thevickypedia/none-shall-pass-rustic/releases/download/v0.2.3/none-shall-pass-darwin-arm64.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "ac94c869824c5a47dcab09d896569605f8a234e7581d2367a6098f6d35c58e8f",
+      "size": 2011529,
+      "format": "tar.gz",
+      "binaries": {
+        "none-shall-pass": {
+          "path": "none-shall-pass-darwin-arm64/none-shall-pass",
+          "sha256": "3314868c14c2ba45b89be8e7faa610c0c2f897367ee5006271aa4bfccf2f39b9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/thevickypedia/none-shall-pass-rustic/releases/download/v0.2.3/none-shall-pass-windows-amd64.zip",
+      "releaseTag": "v0.2.3",
+      "sha256": "728e9f10ca96ec4d39cdd74927c5c242f9e2a9f576740b5bb707808db3fee76d",
+      "size": 1838245,
+      "format": "zip",
+      "binaries": {
+        "none-shall-pass.exe": {
+          "path": "none-shall-pass-windows-amd64/none-shall-pass.exe",
+          "sha256": "647f86f48aa594796d1bcf9cc16d229c3747b5335dbef7b4f080e02518aefa62"
+        }
+      }
+    }
+  }
+}
