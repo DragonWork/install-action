@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "stgit",
+  "version": "2.7.0",
+  "repository": "stacked-git/stgit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/stacked-git/stgit/releases/download/v2.7.0/stgit_2.7.0-1_amd64.deb",
+      "sha256": "6b60ef90629bd2bb3ce23f5728c16267ed720ba824ec0b5a2c6b73423a9b8171",
+      "size": 2810484,
+      "format": "deb",
+      "releaseTag": "v2.7.0",
+      "binaries": {
+        "stg": {
+          "path": "./usr/bin/stg",
+          "sha256": "b8542cebee0f8187758e17089f468298cd916a06d59ccfc06e47e665ad3f9697"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/stacked-git/stgit/releases/download/v2.7.0/stgit_2.7.0-1_arm64.deb",
+      "sha256": "69d473945f17097655289a9c45d47875d0c7a3638d9f05d1e77bb025c14cd692",
+      "size": 2569356,
+      "format": "deb",
+      "releaseTag": "v2.7.0",
+      "binaries": {
+        "stg": {
+          "path": "./usr/bin/stg",
+          "sha256": "0e8e442cdecc87c7d40144c70698f6ca45e39ac0b9b655355465a4e781ecd6c2"
+        }
+      }
+    }
+  }
+}
