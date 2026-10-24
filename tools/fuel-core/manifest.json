@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "fuel-core",
+  "version": "0.15.3",
+  "repository": "FuelLabs/fuel-core",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/fuel-core/releases/download/v0.15.3/fuel-core-0.15.3-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.15.3",
+      "sha256": "74797a20ddfb8bcfcc25452caf29bbbbc60ee379d4c7542943238d2c4a49bfb3",
+      "size": 8054990,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-core": {
+          "path": "fuel-core-0.15.3-x86_64-unknown-linux-gnu/fuel-core",
+          "sha256": "c268871d4ee6ca736769289d999bfcb8fc3ec9f2baf57aacca6f6d147f786293"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-core/releases/download/v0.15.3/fuel-core-0.15.3-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.15.3",
+      "sha256": "84cc94f86f83707ec73c78d26ad043dbcb0588c425a6ccc172434c6da94bd32c",
+      "size": 7440845,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-core": {
+          "path": "fuel-core-0.15.3-aarch64-unknown-linux-gnu/fuel-core",
+          "sha256": "12fd80bef5743b6206e05247fecf05b016eaf579d0086e3b19e18b93eb0ba347"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/fuel-core/releases/download/v0.15.3/fuel-core-0.15.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.3",
+      "sha256": "c177aa4a09ad6e17cc654905a401f0e7a5962876c81be56be37ddaa40d761a1d",
+      "size": 7593868,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-core": {
+          "path": "fuel-core-0.15.3-x86_64-apple-darwin/fuel-core",
+          "sha256": "a054b3d88eef7fe57e9b69a5506d3e6ec47d2d77a37d940ad1e29075f8813a91"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-core/releases/download/v0.15.3/fuel-core-0.15.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.3",
+      "sha256": "514b24f7a6c1b02e6b4f7925bf456806d06256e77f89a6b72931edd4be35fa07",
+      "size": 6797618,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-core": {
+          "path": "fuel-core-0.15.3-aarch64-apple-darwin/fuel-core",
+          "sha256": "b97422cc68ad4905c2d7f77b91dae0634fccc2676e683ac6c27d61d2b09a0979"
+        }
+      }
+    }
+  }
+}
