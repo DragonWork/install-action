@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hx-lsp",
+  "version": "0.3.0",
+  "repository": "erasin/hx-lsp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/erasin/hx-lsp/releases/download/0.3.0/hx-lsp-0.3.0-x86_64-linux.tar.xz",
+      "releaseTag": "0.3.0",
+      "sha256": "0e1682639b440ff5e377fc6fe97610d6d42bd9a870878e6aee1caf9153112ee2",
+      "size": 1169704,
+      "format": "tar.xz",
+      "binaries": {
+        "hx-lsp": {
+          "path": "hx-lsp-0.3.0-x86_64-linux/hx-lsp",
+          "sha256": "32356a6f001899473d9535f1f919dcfa8ef7e840619669a8c9452862c17a2623"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/erasin/hx-lsp/releases/download/0.3.0/hx-lsp-0.3.0-aarch64-linux.tar.xz",
+      "releaseTag": "0.3.0",
+      "sha256": "f5a20867da9a081ee3abf75830703152621e45f3900ae9fb22d31b664606618e",
+      "size": 993408,
+      "format": "tar.xz",
+      "binaries": {
+        "hx-lsp": {
+          "path": "hx-lsp-0.3.0-aarch64-linux/hx-lsp",
+          "sha256": "16f0e60be64b093c7592460738520eaad95e7e1a088be4b64e8bb05cec6988ca"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/erasin/hx-lsp/releases/download/0.3.0/hx-lsp-0.3.0-x86_64-macos.tar.xz",
+      "releaseTag": "0.3.0",
+      "sha256": "e8d2296e216845ffee8f8caa00bfe15ed6bae288735e89c32cf5625274bfdc17",
+      "size": 1055760,
+      "format": "tar.xz",
+      "binaries": {
+        "hx-lsp": {
+          "path": "hx-lsp-0.3.0-x86_64-macos/hx-lsp",
+          "sha256": "85a897f3987e364e8ef0cc4ccc6297ca74a4817c98bea4bcd0373d606ccdfe0a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/erasin/hx-lsp/releases/download/0.3.0/hx-lsp-0.3.0-aarch64-macos.tar.xz",
+      "releaseTag": "0.3.0",
+      "sha256": "27ee4ef2ea272cd19d6fa5d25c941124f6855171f9645830b8c86350ce82ba04",
+      "size": 877192,
+      "format": "tar.xz",
+      "binaries": {
+        "hx-lsp": {
+          "path": "hx-lsp-0.3.0-aarch64-macos/hx-lsp",
+          "sha256": "33165ad7dbcf58020f677d786cbac0da09dd92c9691be142aa32ccc35a1c7ffc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/erasin/hx-lsp/releases/download/0.3.0/hx-lsp-0.3.0-x86_64-windows.zip",
+      "releaseTag": "0.3.0",
+      "sha256": "77c3151d49356bff42a570cd4b17de390b5424daff9d386bbd2decd0b5b75882",
+      "size": 1343484,
+      "format": "zip",
+      "binaries": {
+        "hx-lsp.exe": {
+          "path": "hx-lsp-0.3.0-x86_64-windows/hx-lsp.exe",
+          "sha256": "fe200bb4d08254fe3d286e62c7faa1b2a2d300c1efabc56e9fd7e6cedcb4b1d4"
+        }
+      }
+    }
+  }
+}
