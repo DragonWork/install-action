@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "edky",
+  "version": "0.1.1",
+  "repository": "artob/edky",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/artob/edky/releases/download/0.1.1/edky-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.1.1",
+      "sha256": "ba4b095e0430eb01c34dea915e93fd8f659bcfaf1e3037986fa675a9877ce24c",
+      "size": 406872,
+      "format": "tar.xz",
+      "binaries": {
+        "edky": {
+          "path": "edky-x86_64-unknown-linux-gnu/edky",
+          "sha256": "dd9d3a04fdfab5d5f0c3f88d5dc0af5ea4ae6d18e9bd0c952a9c676b29baa045"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/artob/edky/releases/download/0.1.1/edky-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.1.1",
+      "sha256": "518b516c127192ae5c27cb496339c7b9a54e587e70fb6218b52741245a032879",
+      "size": 362420,
+      "format": "tar.xz",
+      "binaries": {
+        "edky": {
+          "path": "edky-aarch64-unknown-linux-gnu/edky",
+          "sha256": "b5c937844a03723a3c62105f82d38ada31f083fdae45566c8c281d030abf78b6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/artob/edky/releases/download/0.1.1/edky-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.1.1",
+      "sha256": "d7dcd50d3f130489d10cd6aff2ba3b2332bddbca420f879fe223266ad176a09c",
+      "size": 386028,
+      "format": "tar.xz",
+      "binaries": {
+        "edky": {
+          "path": "edky-x86_64-apple-darwin/edky",
+          "sha256": "ecc36cca2ea9913a02badbcd89eeafced7ccbc57c3ec88c6b20fbd727a493b92"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/artob/edky/releases/download/0.1.1/edky-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.1.1",
+      "sha256": "b1a8a89678451937ee495e00f94163c8d4550dae1fcf5a842cd8d3fd516769bf",
+      "size": 344684,
+      "format": "tar.xz",
+      "binaries": {
+        "edky": {
+          "path": "edky-aarch64-apple-darwin/edky",
+          "sha256": "affe5e0e9be2ee32a8b21ff8217be8761d49d1f9044780df89576d575f2b82d1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/artob/edky/releases/download/0.1.1/edky-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.1.1",
+      "sha256": "13126bdd9f55a12776df8d66432c09484d5735b7f4c941e27e44dddc45f6030e",
+      "size": 472434,
+      "format": "zip",
+      "binaries": {
+        "edky.exe": {
+          "path": "edky.exe",
+          "sha256": "90e25f7fb077ee187d0fdcf55aa95050121110c4987430f7b2dd536651f89aa4"
+        }
+      }
+    }
+  }
+}
