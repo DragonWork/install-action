@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-near",
+  "version": "0.22.0",
+  "repository": "near/cargo-near",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/near/cargo-near/releases/download/cargo-near-v0.22.0/cargo-near-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "cargo-near-v0.22.0",
+      "sha256": "9429064e30a427e96523f539cb255f3688d2345e5000d7d4e4873a8247247d1a",
+      "size": 18000991,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-near": {
+          "path": "cargo-near-x86_64-unknown-linux-gnu/cargo-near",
+          "sha256": "0ddc244102c76adee2bcd858bec512a423c950aa23fbfe22e63678a3a2eb19b6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/near/cargo-near/releases/download/cargo-near-v0.22.0/cargo-near-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "cargo-near-v0.22.0",
+      "sha256": "cf7987c98985c42968d04238324f1b4890c988dbe3509b68be58fae07a96c688",
+      "size": 18954867,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-near": {
+          "path": "cargo-near-aarch64-unknown-linux-gnu/cargo-near",
+          "sha256": "f50c4783248e15c4577b57782d2c9b70c5996ef99d791bc9cc632ec97f0d5629"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/near/cargo-near/releases/download/cargo-near-v0.22.0/cargo-near-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "cargo-near-v0.22.0",
+      "sha256": "50899ccfc3492530ded7cebf191365b732ed29bfe62a1a13a661f126cff3ce65",
+      "size": 15059693,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-near": {
+          "path": "cargo-near-x86_64-apple-darwin/cargo-near",
+          "sha256": "6983f297f941b13e29b6aea9cb163f70d4733cf467faa98c68c69f6bca49687c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/near/cargo-near/releases/download/cargo-near-v0.22.0/cargo-near-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "cargo-near-v0.22.0",
+      "sha256": "55bd219c28c6996512a7c3836519f160b27b73a723f087634bf16f8a0bd48c8a",
+      "size": 14849534,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-near": {
+          "path": "cargo-near-aarch64-apple-darwin/cargo-near",
+          "sha256": "e7a54362d4eeb85ad8dcbe4103e1d62ebf38892ab80d7e3fe6cc09ee1ab994e8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/near/cargo-near/releases/download/cargo-near-v0.22.0/cargo-near-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "cargo-near-v0.22.0",
+      "sha256": "c50ad7e3e220923db006c43668f25bdbe0c4612ca6d6b48d08e3c0b7532bf122",
+      "size": 12716971,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-near.exe": {
+          "path": "cargo-near-x86_64-pc-windows-msvc/cargo-near.exe",
+          "sha256": "d020e8443f161262b7ba0dc35043a50607f93a915c55e18dd6b59cca01be4518"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/near/cargo-near/releases/download/cargo-near-v0.22.0/cargo-near-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "cargo-near-v0.22.0",
+      "sha256": "18351f830fc619c767c54cc92a4c51636fd4861dd081cba14b6ec84b438eae7a",
+      "size": 12082055,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-near.exe": {
+          "path": "cargo-near-aarch64-pc-windows-msvc/cargo-near.exe",
+          "sha256": "0853649261b62df7a68580f485b3f4d7fb2de6dabc4889c460b74c6db83f549d"
+        }
+      }
+    }
+  }
+}
