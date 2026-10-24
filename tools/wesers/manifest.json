@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "wesers",
+  "version": "0.4.1",
+  "repository": "wdv4758h/wesers",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wdv4758h/wesers/releases/download/v0.4.1/wesers-v0.4.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "b80bb2b4665bd4f8acf8afce43e4f7e7ad4fe593af149dd848f62ca34f63fc9e",
+      "size": 1197636,
+      "format": "tar.gz",
+      "binaries": {
+        "wesers": {
+          "path": "wesers",
+          "sha256": "ec828fb5359363621b7909fe9cb46cfd99646e58c1dee05fa3764643e47249f0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wdv4758h/wesers/releases/download/v0.4.1/wesers-v0.4.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "6762401abe8fb047849144f1f75bdb35e2fe19a2709f3cd9be38b856b3bac048",
+      "size": 1502059,
+      "format": "tar.gz",
+      "binaries": {
+        "wesers": {
+          "path": "wesers",
+          "sha256": "4c7d5b65afca899eec66d3cac0e455789f9a4b6fafcc1d8f1b3265edbd982430"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wdv4758h/wesers/releases/download/v0.4.1/wesers-v0.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "76b34e9b0cd1d25390902984bc33c2c3cdfb20bf8eb7e5762836b48f232a3643",
+      "size": 1031986,
+      "format": "tar.gz",
+      "binaries": {
+        "wesers": {
+          "path": "wesers",
+          "sha256": "309df933ac826b7c234a5f6dacc09c2d663963ca4f5b17cc49622326366940db"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wdv4758h/wesers/releases/download/v0.4.1/wesers-v0.4.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.1",
+      "sha256": "0d9a33be66d4afa13a6cc19bb790ddc763df5e0b2065633662252fd98fa32dc5",
+      "size": 852653,
+      "format": "zip",
+      "binaries": {
+        "wesers.exe": {
+          "path": "wesers.exe",
+          "sha256": "0178d5ffec099dd6b2c1db2b8da0f2156e9d628fe967a9591bf2581de582bf07"
+        }
+      }
+    }
+  }
+}
