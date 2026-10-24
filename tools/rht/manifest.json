@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rht",
+  "version": "0.0.1",
+  "repository": "misterjoshua/rht",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/misterjoshua/rht/releases/download/v0.0.1/rht-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.0.1",
+      "sha256": "5ccdd690a9232b84f06e24a7b2786fcff031e9659cea6edf94292062bdf30e53",
+      "size": 4790218,
+      "format": "zip",
+      "binaries": {
+        "rht": {
+          "path": "rht",
+          "sha256": "f09e04e6105cea4d51e53a92ef68440db4144df44f752e0da33d52afb23db997"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/misterjoshua/rht/releases/download/v0.0.1/rht-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "v0.0.1",
+      "sha256": "812ece82bd248ec7c8a7cc9e63a101966c0628d061410662bde7d6d94452f5aa",
+      "size": 4590468,
+      "format": "zip",
+      "binaries": {
+        "rht": {
+          "path": "rht",
+          "sha256": "61dcafe351c76e8c141f5c4919e614460f16454228f43f1ab60cddf99b21a8e3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/misterjoshua/rht/releases/download/v0.0.1/rht-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.0.1",
+      "sha256": "603ce8bf7aca0d8744bd42ece9b5d71f7d3608190b4f9b434a0b43f200839acd",
+      "size": 6300206,
+      "format": "zip",
+      "binaries": {
+        "rht.exe": {
+          "path": "rht.exe",
+          "sha256": "77ca406fd7163c50c81a84e3938c41e2758af5c6258ef0635804269f3a57fdf9"
+        }
+      }
+    }
+  }
+}
