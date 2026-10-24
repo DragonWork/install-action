@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "perseus-cli",
+  "version": "0.4.2",
+  "repository": "framesurge/perseus",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/framesurge/perseus/releases/download/v0.4.2/perseus-linux-amd64",
+      "sha256": "cfa6d3433401477cd93d0a1b4c8447818ea2669af0507c35dca62a53bf57674c",
+      "size": 8831440,
+      "format": "binary",
+      "releaseTag": "v0.4.2",
+      "binaries": {
+        "perseus": {
+          "path": "perseus-linux-amd64",
+          "sha256": "cfa6d3433401477cd93d0a1b4c8447818ea2669af0507c35dca62a53bf57674c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/framesurge/perseus/releases/download/v0.4.2/perseus-macos-amd64",
+      "sha256": "20c27d2880f17e02492fa1c3773d8761926d7e0b73e25ba6e1f90e905876a80e",
+      "size": 7668232,
+      "format": "binary",
+      "releaseTag": "v0.4.2",
+      "binaries": {
+        "perseus": {
+          "path": "perseus-macos-amd64",
+          "sha256": "20c27d2880f17e02492fa1c3773d8761926d7e0b73e25ba6e1f90e905876a80e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/framesurge/perseus/releases/download/v0.4.2/perseus-windows-amd64",
+      "sha256": "3ad08e946137c8af30ba595e116bb8bdb20cf3cc645de23845ced53345a81045",
+      "size": 5252608,
+      "format": "binary",
+      "releaseTag": "v0.4.2",
+      "binaries": {
+        "perseus.exe": {
+          "path": "perseus-windows-amd64",
+          "sha256": "3ad08e946137c8af30ba595e116bb8bdb20cf3cc645de23845ced53345a81045"
+        }
+      }
+    }
+  }
+}
