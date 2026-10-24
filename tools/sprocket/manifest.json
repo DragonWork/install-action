@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "sprocket",
+  "version": "0.32.0",
+  "repository": "stjude-rust-labs/sprocket",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/stjude-rust-labs/sprocket/releases/download/v0.32.0/sprocket-v0.32.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.32.0",
+      "sha256": "27dbf45e3ceaad9e13d416fdf44e8741af1a98c6a516723b27057e695cab0756",
+      "size": 25059269,
+      "format": "tar.gz",
+      "binaries": {
+        "sprocket": {
+          "path": "sprocket",
+          "sha256": "cbd1ad94032efcc754eeb352a69a3e14eb59bc320390788e8c2aa66184eef1f5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/stjude-rust-labs/sprocket/releases/download/v0.32.0/sprocket-v0.32.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.32.0",
+      "sha256": "75a1c85aadd13e6c37fa99335da11ee2bca9f04b967f862e6d88b3d80b78cf86",
+      "size": 25467485,
+      "format": "tar.gz",
+      "binaries": {
+        "sprocket": {
+          "path": "sprocket",
+          "sha256": "b0c35d56aa9d250cf1e5b68e8c28957837eb5a58bc52229c8f60ec179a105251"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/stjude-rust-labs/sprocket/releases/download/v0.32.0/sprocket-v0.32.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.32.0",
+      "sha256": "d2be868a8082b0e15736698fb6679cd7cc6cdd4a5fd8e444554b5f53f1b0a441",
+      "size": 25211257,
+      "format": "tar.gz",
+      "binaries": {
+        "sprocket": {
+          "path": "sprocket",
+          "sha256": "9c1062ea74f23270b0e94470136fe4a1116986d90f6d80630134e9fa05fca5e2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/stjude-rust-labs/sprocket/releases/download/v0.32.0/sprocket-v0.32.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.32.0",
+      "sha256": "a1e16e10caf7a34dbd5a83ab78c68b6c724e722cf4f45d34815ef64f6dfb0201",
+      "size": 22888847,
+      "format": "tar.gz",
+      "binaries": {
+        "sprocket": {
+          "path": "sprocket",
+          "sha256": "bfdae917127fd4882043980184d3996664e8adf6844d92bd48eec0a172186bcf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/stjude-rust-labs/sprocket/releases/download/v0.32.0/sprocket-v0.32.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.32.0",
+      "sha256": "5e10b8f250bc995286312ce32442114067151cd378fcb00aae99780332689340",
+      "size": 21641939,
+      "format": "zip",
+      "binaries": {
+        "sprocket.exe": {
+          "path": "sprocket.exe",
+          "sha256": "f579ddd4074092de136af62ca4a37b68d328a8f9434ad992a23087803076c3f3"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/stjude-rust-labs/sprocket/releases/download/v0.32.0/sprocket-v0.32.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.32.0",
+      "sha256": "1c3390c64e89eb6f8544ac30730a4de7c7525206f03adc6f28d036b27ec86a2d",
+      "size": 20501421,
+      "format": "zip",
+      "binaries": {
+        "sprocket.exe": {
+          "path": "sprocket.exe",
+          "sha256": "8ea674ddeb4aa105f82278e2bc59b779faca726b9bb9206ae7527743b9da583e"
+        }
+      }
+    }
+  }
+}
