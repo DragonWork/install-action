@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "riverctl",
+  "version": "0.2.24",
+  "repository": "freenet/river",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/freenet/river/releases/download/riverctl-v0.2.24/riverctl-0.2.24-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "riverctl-v0.2.24",
+      "sha256": "d0af9815c6b5fd65eede16fc1c6073f38e7dfe53b0500d1b16584090760b56ac",
+      "size": 2506294,
+      "format": "tar.gz",
+      "binaries": {
+        "riverctl": {
+          "path": "riverctl",
+          "sha256": "76b9df5dd7371137939a2adea7b416a0c6ceb82fa9d40790b3876a4bdc6c500e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/freenet/river/releases/download/riverctl-v0.2.24/riverctl-0.2.24-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "riverctl-v0.2.24",
+      "sha256": "93423a5fdce6e5befa25efbb465afe154093a0e3a9976ee081a30f078778b980",
+      "size": 2330370,
+      "format": "tar.gz",
+      "binaries": {
+        "riverctl": {
+          "path": "riverctl",
+          "sha256": "7895b8bd75ab25ae03b8fd2637413dff195d4bb9a95f1948dee07fd78a5c4aa0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/freenet/river/releases/download/riverctl-v0.2.24/riverctl-0.2.24-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "riverctl-v0.2.24",
+      "sha256": "eaa046eaa92e4c9ddfe853959ea11bced43d6734afeb853a85bbe05fcc36e855",
+      "size": 2213176,
+      "format": "tar.gz",
+      "binaries": {
+        "riverctl": {
+          "path": "riverctl",
+          "sha256": "6be5aae15b95a02a565aeccb22ecb5b22a6a6d65b4aa914a56d719a4b83b6cf0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/freenet/river/releases/download/riverctl-v0.2.24/riverctl-0.2.24-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "riverctl-v0.2.24",
+      "sha256": "ced157e06bf7c82a7993370fcc4eaace6d081e402a5615d24b7e50a597548105",
+      "size": 2293199,
+      "format": "zip",
+      "binaries": {
+        "riverctl.exe": {
+          "path": "riverctl.exe",
+          "sha256": "741b02a1f7075380b3c89174a23e30e5abf32224ef240b2e9bd0fe73e4efa26a"
+        }
+      }
+    }
+  }
+}
