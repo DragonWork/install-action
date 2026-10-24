@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "yazi-fm",
+  "version": "26.5.6",
+  "repository": "sxyazi/yazi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sxyazi/yazi/releases/download/v26.5.6/yazi-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v26.5.6",
+      "sha256": "1031a02560d053301537195a6661d227c15cb4ce5c30481050b31e2b88681bff",
+      "size": 11394377,
+      "format": "zip",
+      "binaries": {
+        "yazi": {
+          "path": "yazi-x86_64-unknown-linux-musl/yazi",
+          "sha256": "ca84c59e327fe3bb85180c57fcb656c094aed89776f5b5e8b80065d45c7c052e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sxyazi/yazi/releases/download/v26.5.6/yazi-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "v26.5.6",
+      "sha256": "dff4a6774069bdde616c3cd145275b462a5887229cd9bf6341e78063da37e84f",
+      "size": 10570424,
+      "format": "zip",
+      "binaries": {
+        "yazi": {
+          "path": "yazi-aarch64-unknown-linux-musl/yazi",
+          "sha256": "0a293bc813bd1abefd167ee0d35d2f455c66c2d2d834208ed0234dfd842b3023"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sxyazi/yazi/releases/download/v26.5.6/yazi-x86_64-apple-darwin.zip",
+      "releaseTag": "v26.5.6",
+      "sha256": "6846066f992c1688d8ec77431a3ab53f5ef268019fcef86e5649b8c27010868d",
+      "size": 10605436,
+      "format": "zip",
+      "binaries": {
+        "yazi": {
+          "path": "yazi-x86_64-apple-darwin/yazi",
+          "sha256": "036e47e0238deb3b5c17a6246f739c386191e3c1ead06707726e803967f3bdc5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sxyazi/yazi/releases/download/v26.5.6/yazi-aarch64-apple-darwin.zip",
+      "releaseTag": "v26.5.6",
+      "sha256": "7abd71725e2fe27bed036becbf6ce79fa17964eb68491d34190011c94b8c7ca8",
+      "size": 9511933,
+      "format": "zip",
+      "binaries": {
+        "yazi": {
+          "path": "yazi-aarch64-apple-darwin/yazi",
+          "sha256": "6c3b9354117d4e5fbdeed98bd033300a4939bb192ff665184f14d3cbcf495e4c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sxyazi/yazi/releases/download/v26.5.6/yazi-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v26.5.6",
+      "sha256": "6c6c52a4b2648e179f917bdaa7c57e793d18561b380a8bfa025f10cd1b9b2ad1",
+      "size": 13493257,
+      "format": "zip",
+      "binaries": {
+        "yazi.exe": {
+          "path": "yazi-x86_64-pc-windows-msvc/yazi.exe",
+          "sha256": "00dccdaea899f15511849a47acb08f81ee4f187e5debd182f6805c35615907ac"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sxyazi/yazi/releases/download/v26.5.6/yazi-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v26.5.6",
+      "sha256": "797abc8965c07d903f3cd263512fe4114b2fc36f03fc62011300787f28a48f1e",
+      "size": 12416494,
+      "format": "zip",
+      "binaries": {
+        "yazi.exe": {
+          "path": "yazi-aarch64-pc-windows-msvc/yazi.exe",
+          "sha256": "541c8b300c6325428bca9b393d5a5d2934a17bfbe1df9831eb4c8f4ebdbde038"
+        }
+      }
+    }
+  }
+}
