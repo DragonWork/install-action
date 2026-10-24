@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mdzk",
+  "version": "0.5.2",
+  "repository": "mdzk-rs/mdzk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mdzk-rs/mdzk/releases/download/0.5.2/mdzk-0.5.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.5.2",
+      "sha256": "8339a3a6363909b382e61a459c9e363061a9d0da53815eddba2254fef82bb53a",
+      "size": 7763574,
+      "format": "tar.gz",
+      "binaries": {
+        "mdzk": {
+          "path": "mdzk",
+          "sha256": "9d10d9315ee30aa2697ef5ba5a4dfe060d693a83e13faaeac8d9c3fb4b41a81b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mdzk-rs/mdzk/releases/download/0.5.2/mdzk-0.5.2-x86_64-apple-darwin.zip",
+      "releaseTag": "0.5.2",
+      "sha256": "acb5b34ca5510a4a772ecade2f81628e1e6c044f4729fd07ac2a76bb49866971",
+      "size": 6364512,
+      "format": "zip",
+      "binaries": {
+        "mdzk": {
+          "path": "mdzk",
+          "sha256": "330897ecbdd4f4d654e24d65edfbe100c349e0b86c73ed816e0db3b36b88b640"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mdzk-rs/mdzk/releases/download/0.5.2/mdzk-0.5.2-aarch64-apple-darwin.zip",
+      "releaseTag": "0.5.2",
+      "sha256": "77b00680a8c42fdf028bc27b437c4a3de97db54f5708ad374dbb31473a63c146",
+      "size": 6130607,
+      "format": "zip",
+      "binaries": {
+        "mdzk": {
+          "path": "mdzk",
+          "sha256": "081216e5ad0706bd88773d782066363f4c1c4405f4e1db38f8dc5c550eb7601a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mdzk-rs/mdzk/releases/download/0.5.2/mdzk-0.5.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.5.2",
+      "sha256": "c59838f5e4bf5472d9ea6b31aa1d49eac17ed39167da3bd2cb7da06965c5742b",
+      "size": 5694719,
+      "format": "zip",
+      "binaries": {
+        "mdzk.exe": {
+          "path": "mdzk.exe",
+          "sha256": "ea4067fea9601159ab2739d6ef0e1d665f317d03cdabb8fe0a421e5f476ab57c"
+        }
+      }
+    }
+  }
+}
