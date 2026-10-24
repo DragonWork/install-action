@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tealdeer",
+  "version": "1.9.0",
+  "repository": "tealdeer-rs/tealdeer",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-windows-x86_64-msvc.exe",
+      "releaseTag": "v1.9.0",
+      "sha256": "23fb76fb683d76dd413cb470b1a3c32157e585edec7d740e73da1aa9c6406dfe",
+      "size": 3605504,
+      "format": "binary",
+      "binaries": {
+        "tldr.exe": {
+          "path": "tealdeer-windows-x86_64-msvc.exe",
+          "sha256": "23fb76fb683d76dd413cb470b1a3c32157e585edec7d740e73da1aa9c6406dfe"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-windows-aarch64-msvc.exe",
+      "releaseTag": "v1.9.0",
+      "sha256": "8df2ce54a89be40f5d6636cd1d984423353c035bf335739026ead56b2153e3dd",
+      "size": 3030016,
+      "format": "binary",
+      "binaries": {
+        "tldr.exe": {
+          "path": "tealdeer-windows-aarch64-msvc.exe",
+          "sha256": "8df2ce54a89be40f5d6636cd1d984423353c035bf335739026ead56b2153e3dd"
+        }
+      }
+    }
+  }
+}
