@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "pay-respects",
+  "version": "0.8.8",
+  "repository": "iffse/pay-respects",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/iffse/pay-respects/releases/download/v0.8.8/pay-respects-0.8.8-x86_64-unknown-linux-musl.tar.zst",
+      "releaseTag": "v0.8.8",
+      "sha256": "20bb89e9fa114b20ce78b57ece77134e79e314fd0d5086e9695c0de7f98ccaaf",
+      "size": 2459006,
+      "format": "tar.zst",
+      "binaries": {
+        "pay-respects": {
+          "path": "pay-respects",
+          "sha256": "1256278bf51db3671555c6380cde21f2f616d9afe3d2b4b6907a735c38855908"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/iffse/pay-respects/releases/download/v0.8.8/pay-respects-0.8.8-aarch64-unknown-linux-musl.tar.zst",
+      "releaseTag": "v0.8.8",
+      "sha256": "c63ce37f25f4b8f7fc8ffd46955a22cb05314991560822f7de77e8190d3d9ca4",
+      "size": 2321130,
+      "format": "tar.zst",
+      "binaries": {
+        "pay-respects": {
+          "path": "pay-respects",
+          "sha256": "5a66c6d453c6ecfd49fa90aa33bdb259193ec39315f89fec256c0faff2f09c8e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/iffse/pay-respects/releases/download/v0.8.8/pay-respects-0.8.8-x86_64-apple-darwin.tar.zst",
+      "releaseTag": "v0.8.8",
+      "sha256": "64c30e1a62605279abf219193c53bf251687ea419a0c99d2e15ae8b5b6a58587",
+      "size": 2160762,
+      "format": "tar.zst",
+      "binaries": {
+        "pay-respects": {
+          "path": "pay-respects",
+          "sha256": "c7c248b9b3de0d469d10835a9cf157bc6e6a0f20d733827c3e708e5d119b86c7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/iffse/pay-respects/releases/download/v0.8.8/pay-respects-0.8.8-aarch64-apple-darwin.tar.zst",
+      "releaseTag": "v0.8.8",
+      "sha256": "e834e928dcaf9cd72a99478bb61e0630ba76e32c7b228eb3a7be9c5f404cd548",
+      "size": 2065495,
+      "format": "tar.zst",
+      "binaries": {
+        "pay-respects": {
+          "path": "pay-respects",
+          "sha256": "14097860297ef35603cac2478c2ed2890356a8464ced40b3513ed9c83dac766f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/iffse/pay-respects/releases/download/v0.8.8/pay-respects-0.8.8-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.8",
+      "sha256": "1f6e4c6c06feb31e636ce386201d536f3de4dd35eb30ecc9e078f5b201d19d57",
+      "size": 2338806,
+      "format": "zip",
+      "binaries": {
+        "pay-respects.exe": {
+          "path": "pay-respects.exe",
+          "sha256": "1392af7402d74bce6ea6749af35b24f17ae2de1997814197c8747ee7144e4809"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/iffse/pay-respects/releases/download/v0.8.8/pay-respects-0.8.8-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.8",
+      "sha256": "f9b2260186217c9edccb7af0dadb25947566d496f4aad1b345b832a7c9faecf0",
+      "size": 2203180,
+      "format": "zip",
+      "binaries": {
+        "pay-respects.exe": {
+          "path": "pay-respects.exe",
+          "sha256": "b3c77438cae54938ae3b79886a5cc7738b49274fe83b7c8db042f993c9437610"
+        }
+      }
+    }
+  }
+}
