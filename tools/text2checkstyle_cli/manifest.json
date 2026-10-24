@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "text2checkstyle_cli",
+  "version": "1.1.1",
+  "repository": "packsaddle/rust-text2checkstyle_cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/packsaddle/rust-text2checkstyle_cli/releases/download/v1.1.1/text2checkstyle_cli-v1.1.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.1",
+      "sha256": "4c4f078ba6676d31e58bb216b29b22be9a97cfad140322e8875436fb2ede8751",
+      "size": 1178243,
+      "format": "tar.gz",
+      "binaries": {
+        "text2checkstyle": {
+          "path": "text2checkstyle",
+          "sha256": "fd20406932e91dc7cad3506b16acce5603b9611958a3f12d34f7cf882f2908f4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/packsaddle/rust-text2checkstyle_cli/releases/download/v1.1.1/text2checkstyle_cli-v1.1.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.1",
+      "sha256": "97fc188f90eae506450acd0e227e5ec1b1db1e270dee3cd4a38dac59835d1193",
+      "size": 458137,
+      "format": "tar.gz",
+      "binaries": {
+        "text2checkstyle": {
+          "path": "text2checkstyle",
+          "sha256": "93e23fd659a893143f6d78a3078a401e17a642e0890aad7e2d870793084f1809"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/packsaddle/rust-text2checkstyle_cli/releases/download/v1.1.1/text2checkstyle_cli-v1.1.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.1",
+      "sha256": "88c21939efe5d956287caba60971208567d0a1ffa0fe6a351a295d543816470c",
+      "size": 315628,
+      "format": "zip",
+      "binaries": {
+        "text2checkstyle.exe": {
+          "path": "text2checkstyle.exe",
+          "sha256": "e5dd045ef1e400b55f57f3930b6a5059150440ac2489a9c060854f0b077e857f"
+        }
+      }
+    }
+  }
+}
