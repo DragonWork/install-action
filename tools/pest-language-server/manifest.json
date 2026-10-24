@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pest-language-server",
+  "version": "0.3.14",
+  "repository": "pest-parser/pest-ide-tools",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pest-parser/pest-ide-tools/releases/download/v0.3.14/pest-language-server-linux-x86_64.tar.gz",
+      "releaseTag": "v0.3.14",
+      "sha256": "4f13a4e06f460b5ebc075bc0acc3bd8b192d9f0b873823597ab6b641942f3d83",
+      "size": 1760521,
+      "format": "tar.gz",
+      "binaries": {
+        "pest-language-server": {
+          "path": "pest-language-server",
+          "sha256": "38d1b27a9f2bf4969963755b50385d3d58ab1c4f5a350a49ba2685c257e62f7e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pest-parser/pest-ide-tools/releases/download/v0.3.14/pest-language-server-darwin-aarch64.tar.gz",
+      "releaseTag": "v0.3.14",
+      "sha256": "f5fa9e3eb131ad068f3a47130e294a37418ab227ff1ff2cdccef6282fff7aced",
+      "size": 1637021,
+      "format": "tar.gz",
+      "binaries": {
+        "pest-language-server": {
+          "path": "pest-language-server",
+          "sha256": "80ce23359736326ca8a829e439a451412b6647d277af8430aacdf6511f21bf3c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pest-parser/pest-ide-tools/releases/download/v0.3.14/pest-language-server-windows-x86_64.tar.gz",
+      "releaseTag": "v0.3.14",
+      "sha256": "c3cd270abc3d38b187fd174002ff7fda90267ebb19378436633a7cceb797e2c8",
+      "size": 2668799,
+      "format": "tar.gz",
+      "binaries": {
+        "pest-language-server.exe": {
+          "path": "pest-language-server.exe",
+          "sha256": "e4ebe39a85c4bca992c317991eabe40408aca08e7f04c8157ecd7562b123cae1"
+        }
+      }
+    }
+  }
+}
