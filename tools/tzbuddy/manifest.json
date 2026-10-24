@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tzbuddy",
+  "version": "0.5.6",
+  "repository": "gbagnoli/tzbuddy.rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gbagnoli/tzbuddy.rs/releases/download/v0.5.6/tzbuddy-linux-amd64.tar.gz",
+      "releaseTag": "v0.5.6",
+      "sha256": "1f7ae601a07dd74f6b77cf96f776b0f659810f8f18f7c61f20587eca4d9696c6",
+      "size": 995872,
+      "format": "tar.gz",
+      "binaries": {
+        "tzbuddy": {
+          "path": "tzbuddy",
+          "sha256": "9d90dd0648693d9ba6d9f6006f0349741a107a42cc0799e811d69c32b55ad417"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/gbagnoli/tzbuddy.rs/releases/download/v0.5.6/tzbuddy-macos-arm64.tar.gz",
+      "releaseTag": "v0.5.6",
+      "sha256": "aaad2e1d2310affa49a74d1ab3de2ec5b244ba8b89a12ce1abc43be0b0844fd5",
+      "size": 855372,
+      "format": "tar.gz",
+      "binaries": {
+        "tzbuddy": {
+          "path": "tzbuddy",
+          "sha256": "19412e16056c812f09e799dcecb1b0a9b5fd51eff55ccc70f5f93c73c7999e6f"
+        }
+      }
+    }
+  }
+}
