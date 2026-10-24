@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-zigbuild",
+  "version": "0.24.0",
+  "repository": "rust-cross/cargo-zigbuild",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/download/v0.24.0/cargo-zigbuild-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.24.0",
+      "sha256": "52be2cb85ad3875682564a29bac1832b2ab3db68b1c504765c92d5249cc9b96f",
+      "size": 1230784,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-zigbuild": {
+          "path": "cargo-zigbuild-x86_64-unknown-linux-musl/cargo-zigbuild",
+          "sha256": "2e6b044c090aea6f6db5271ae40fc88af807366c26f8e2919041c0e62c7d803a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/download/v0.24.0/cargo-zigbuild-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.24.0",
+      "sha256": "de42626985f428033078dfc12ac8a59ee713f8e5627235ec883b1c899bee895c",
+      "size": 1076852,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-zigbuild": {
+          "path": "cargo-zigbuild-aarch64-unknown-linux-gnu/cargo-zigbuild",
+          "sha256": "e252b261b4f19d530eb828df519f9a9c4ab612217491e49c43238c6789f5c013"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/download/v0.24.0/cargo-zigbuild-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.24.0",
+      "sha256": "09ec54ffa7e73f393ed60102b984238d4027147423e36da17fb18d66c56f8dcb",
+      "size": 1108440,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-zigbuild": {
+          "path": "cargo-zigbuild-x86_64-apple-darwin/cargo-zigbuild",
+          "sha256": "c460acf1647c060ba9096488f4c3ea457e5295cd7c650635f553960aa0a75475"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/download/v0.24.0/cargo-zigbuild-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.24.0",
+      "sha256": "c88f9b9da35cb67b151dad4384614f769b1b2b5d30630e381c4e9c2b28ed349e",
+      "size": 1011372,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-zigbuild": {
+          "path": "cargo-zigbuild-aarch64-apple-darwin/cargo-zigbuild",
+          "sha256": "90327866c932260d78df502de3a9bd8afc9ec6515567938355f819ae1898e7ba"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/download/v0.24.0/cargo-zigbuild-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.24.0",
+      "sha256": "2f1637f56e2f59ee980fe548650e874c381a664803ce94f146808e5b9a5e2adf",
+      "size": 1638935,
+      "format": "zip",
+      "binaries": {
+        "cargo-zigbuild.exe": {
+          "path": "cargo-zigbuild.exe",
+          "sha256": "86adf8519125b2b1cf6ba46d02bd1e5752b0360b71c0293f9beb33888c2b0663"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/download/v0.24.0/cargo-zigbuild-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.24.0",
+      "sha256": "c031663c9324463c5f5b45a8c94197816c7a98807a8bdbdf127542b8fe81b9fe",
+      "size": 1591767,
+      "format": "zip",
+      "binaries": {
+        "cargo-zigbuild.exe": {
+          "path": "cargo-zigbuild.exe",
+          "sha256": "79c2370e918e920643245170a66171d29f97c077ddb6f11f069a55cae3d0f2d8"
+        }
+      }
+    }
+  }
+}
