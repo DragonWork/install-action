@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-px",
+  "version": "0.1.21",
+  "repository": "LukeMathWalker/officina",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/cargo-px-v0.1.21/cargo-px-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "cargo-px-v0.1.21",
+      "sha256": "79ba32fde1c8f47fdce4ecfbc26ab9174f3f7fd529742360d390e22519d223ce",
+      "size": 1393208,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-px": {
+          "path": "cargo-px-x86_64-unknown-linux-musl/cargo-px",
+          "sha256": "9193d39b4182cee765544d9b87c946b159965958d3bacf868c9a5162ff740eb3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/cargo-px-v0.1.21/cargo-px-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "cargo-px-v0.1.21",
+      "sha256": "f6dbb4d50fdf1df98e4dfdfda56ae29a3fb4616e747dfdd9f9f65b967e76bf9d",
+      "size": 1227952,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-px": {
+          "path": "cargo-px-x86_64-apple-darwin/cargo-px",
+          "sha256": "f240a30e64a310ee3f45427ef477e7665ad62ed271ef595601d0698700794a87"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/cargo-px-v0.1.21/cargo-px-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "cargo-px-v0.1.21",
+      "sha256": "5bb854de49d9b6db5c083ccc81a033427e35afeca36e258790a2cc1e07749280",
+      "size": 1104328,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-px": {
+          "path": "cargo-px-aarch64-apple-darwin/cargo-px",
+          "sha256": "03792e2bbb37c8004985d7200294672f275f7e54f8b6387c46f219e2a86b11b7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/LukeMathWalker/officina/releases/download/cargo-px-v0.1.21/cargo-px-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "cargo-px-v0.1.21",
+      "sha256": "777736f8b40efe4081b37662291c0cf8f683a9be2ad78a7b1c887d1b3a089adb",
+      "size": 1747703,
+      "format": "zip",
+      "binaries": {
+        "cargo-px.exe": {
+          "path": "cargo-px.exe",
+          "sha256": "ee171f20b6e0981af566b8404938fe3e8fbea196bf64d5fd6892d943a573cbb1"
+        }
+      }
+    }
+  }
+}
