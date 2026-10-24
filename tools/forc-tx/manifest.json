@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "forc-tx",
+  "version": "0.72.1",
+  "repository": "FuelLabs/sway",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "1d90387e69ccce595c552654316318975525e89a6d30f86580886aedb1cef517",
+      "size": 78395148,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-tx": {
+          "path": "./forc-binaries/forc-tx",
+          "sha256": "1226f716236ce0977a0efcd8c54db3a21df229ead165f79943c04aaa004cd981"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "8eabdb0a1487b6ec96fa94acbf861f5034084dbf9a2503c47190dc86f3f615fe",
+      "size": 74480414,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-tx": {
+          "path": "./forc-binaries/forc-tx",
+          "sha256": "b069a3c2b3fa8b6651d2fb55b3c19f6ec9e9c9b661b6125480ff55e5f3b413f9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "c80ae1cc740f2418c308e2398162c6f051585d7ab81fc2d970a6b16a146b05b3",
+      "size": 78364396,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-tx": {
+          "path": "./forc-binaries/forc-tx",
+          "sha256": "a5c1f1f40de4c5bef12db007d1ce8613fccea5396b9c0873e864e8337744ef43"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "11f122e1c86927de13e6dd719946571e65bcfa0a1467507efbd6676f7c33fa0d",
+      "size": 74199231,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-tx": {
+          "path": "./forc-binaries/forc-tx",
+          "sha256": "0fe22ab37e57a81051b6899b528a174f1575d16ddbb2a2d3dd6488f29db5243c"
+        }
+      }
+    }
+  }
+}
