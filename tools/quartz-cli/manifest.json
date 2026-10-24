@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "quartz-cli",
+  "version": "1.3.1",
+  "repository": "EduardoRodriguesF/quartz",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EduardoRodriguesF/quartz/releases/download/v1.3.1/quartz-v1.3.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.3.1",
+      "sha256": "f86c5f3ea894a231c4bfb96ead255d6b5b9b27784c277cb1107b151167dc2afa",
+      "size": 2843105,
+      "format": "tar.gz",
+      "binaries": {
+        "quartz": {
+          "path": "quartz-v1.3.1-x86_64-unknown-linux-musl/quartz",
+          "sha256": "cda36c7a459e17e08451c3e96e16f4102a6972e5e4aa460a337271bf9ee270ca"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EduardoRodriguesF/quartz/releases/download/v1.3.1/quartz-v1.3.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.3.1",
+      "sha256": "87b8420852709b74e38d4c4a53a19f3d940ccf69ce1d0316ea0746e4b7a5179e",
+      "size": 3067732,
+      "format": "tar.gz",
+      "binaries": {
+        "quartz": {
+          "path": "quartz-v1.3.1-aarch64-unknown-linux-musl/quartz",
+          "sha256": "82ce0929a8511b3a438eec5a51c267c665b9621590496da7250d6bd647a8af57"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EduardoRodriguesF/quartz/releases/download/v1.3.1/quartz-v1.3.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.3.1",
+      "sha256": "f2a390ffeedaf479f708a3b0c78c7b1953f76ac7438fe09ad9187563dee5a155",
+      "size": 924485,
+      "format": "tar.gz",
+      "binaries": {
+        "quartz": {
+          "path": "quartz-v1.3.1-x86_64-apple-darwin/quartz",
+          "sha256": "234c13a98cd6dfc94c0affbbc93165ebb1f32174dd63235de3280802aab6e78c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EduardoRodriguesF/quartz/releases/download/v1.3.1/quartz-v1.3.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.3.1",
+      "sha256": "5ff250087992b919d13f94305412b26c48337cbce0da309b3bd3c240dc11f7eb",
+      "size": 894011,
+      "format": "tar.gz",
+      "binaries": {
+        "quartz": {
+          "path": "quartz-v1.3.1-aarch64-apple-darwin/quartz",
+          "sha256": "c2870ebb8b970e2eba6bd13bb98248aa91c95719c3772257db8d854b69ea6571"
+        }
+      }
+    }
+  }
+}
