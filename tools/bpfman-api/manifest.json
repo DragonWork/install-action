@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "bpfman-api",
+  "version": "0.6.0",
+  "repository": "bpfman/bpfman",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-x86_64.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "55cd4015226c4c07281824fa8162c5e9478b9c54b54f4e1c67a64de3a7ba1e5c",
+      "size": 19866767,
+      "format": "tar.gz",
+      "binaries": {
+        "bpfman-rpc": {
+          "path": "bpfman-rpc",
+          "sha256": "591603b713d753fa55cee8930401556bca6ebdae4409a59f31e9ea7cba76e3d3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bpfman/bpfman/releases/download/v0.6.0/bpfman-linux-arm64.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "8a94f9f90bde82d82d719a171ff7bf6cf17ec69b0bba6e9e74cea48f77c27de6",
+      "size": 18844127,
+      "format": "tar.gz",
+      "binaries": {
+        "bpfman-rpc": {
+          "path": "bpfman-rpc",
+          "sha256": "e49be71cfc565c7301d003d962b74bb316ff67d54764bd3dad3cf6e418c1a323"
+        }
+      }
+    }
+  }
+}
