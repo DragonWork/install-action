@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "chema",
+  "version": "0.0.9",
+  "repository": "KeenS/chema",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KeenS/chema/releases/download/v0.0.9/chema-v0.0.9-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.9",
+      "sha256": "3e81ecd0064c0e924c27ce282a30dcc18eaad4542b47e974ffd2548bf23dad12",
+      "size": 1895142,
+      "format": "tar.gz",
+      "binaries": {
+        "chema": {
+          "path": "chema",
+          "sha256": "fa2468df84148b3bca3a87fe25e7622ee686c0321d0a24617b57d5f914f192c8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KeenS/chema/releases/download/v0.0.9/chema-v0.0.9-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.0.9",
+      "sha256": "2ca174a059bff9a6bd28b89a068587ab25cd8e4c3ba9aa4e190c7b63dd008429",
+      "size": 1687156,
+      "format": "tar.gz",
+      "binaries": {
+        "chema": {
+          "path": "chema",
+          "sha256": "96c3fe160e36366dc6cf26c587100edaa0aee54cba88a73e09025ef87600d8e2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KeenS/chema/releases/download/v0.0.9/chema-v0.0.9-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.9",
+      "sha256": "bf5f628e860ae17a232a2c284d0bd7da1f31aea879465e1da3c5b7bc82d861c9",
+      "size": 1035372,
+      "format": "tar.gz",
+      "binaries": {
+        "chema": {
+          "path": "chema",
+          "sha256": "ccfac7133dce2f4597040e5e6392634919a687ae96a9c04c93458489dd8099b9"
+        }
+      }
+    }
+  }
+}
