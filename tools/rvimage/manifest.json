@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rvimage",
+  "version": "0.9.4",
+  "repository": "bertiqwerty/rvimage",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/bertiqwerty/rvimage/releases/download/v0.9.4/rvimage-v0.9.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.4",
+      "sha256": "701087a5ff65eed308e779bc765d8c08450a4bcd1f4bb037a7d1a84ca3c79004",
+      "size": 17261375,
+      "format": "tar.gz",
+      "binaries": {
+        "rvimage": {
+          "path": "rvimage-v0.9.4-x86_64-apple-darwin/rvimage",
+          "sha256": "13e36c4a91412ce51ac0a206d91b58e6451b5baa13abcf0f73db3532794ac85e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bertiqwerty/rvimage/releases/download/v0.9.4/rvimage-v0.9.4-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.4",
+      "sha256": "11e54d003978122fce3d1ab1c0b6edda121f126a0abe9815aad69752f0656634",
+      "size": 16719701,
+      "format": "tar.gz",
+      "binaries": {
+        "rvimage": {
+          "path": "rvimage-v0.9.4-aarch64-apple-darwin/rvimage",
+          "sha256": "2117e993c9741f6a3db4bf04fef32e827f98c413f7c801d657f6570fdb5c688c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bertiqwerty/rvimage/releases/download/v0.9.4/rvimage-v0.9.4-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.4",
+      "sha256": "57f232e52d3cf93dd77a923709003bd531b73e717cf8d577a3f3df66e4b87572",
+      "size": 15907911,
+      "format": "zip",
+      "binaries": {
+        "rvimage.exe": {
+          "path": "rvimage-v0.9.4-x86_64-pc-windows-msvc/rvimage.exe",
+          "sha256": "775ce6c5cd06b6553306d2d127b4db1cd5923724c07e2e1c973bbf89c489853a"
+        }
+      }
+    }
+  }
+}
