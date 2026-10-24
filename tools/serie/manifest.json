@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "serie",
+  "version": "0.10.0",
+  "repository": "lusingander/serie",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lusingander/serie/releases/download/v0.10.0/serie-0.10.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "13ac34abaa644dcecc11934f028dec4ecc3a3a55a47ad7e925631563a2f0783f",
+      "size": 1698481,
+      "format": "tar.gz",
+      "binaries": {
+        "serie": {
+          "path": "serie",
+          "sha256": "9bd174003b4769d6afc52f8c7db2c93a241a8b48bb8b8ba194e1991df97ed46d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lusingander/serie/releases/download/v0.10.0/serie-0.10.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "7621974e69108e7f51db0e51d40992b4d48584470f13873802832eb637789ab6",
+      "size": 1605425,
+      "format": "tar.gz",
+      "binaries": {
+        "serie": {
+          "path": "serie",
+          "sha256": "6e63c44b1280a93ac384b11ade63d22480b689e3474ac47f95c270949120834a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lusingander/serie/releases/download/v0.10.0/serie-0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "248dbffb31166e63b43cc68f099f7422470315b21618e5c11932fde251445a2e",
+      "size": 1329295,
+      "format": "tar.gz",
+      "binaries": {
+        "serie": {
+          "path": "serie",
+          "sha256": "c7a3e175eb56667737bb871dcab352870e19b1bcc946ce9724301f6394afc4b4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lusingander/serie/releases/download/v0.10.0/serie-0.10.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "6bba3a666560d58dd754027ac611894168ff5194fb982f9cd5d06c1e1935345b",
+      "size": 1235506,
+      "format": "tar.gz",
+      "binaries": {
+        "serie": {
+          "path": "serie",
+          "sha256": "73d608d65d76c5cb6bc3b473bd58ad4d49cc479f5cd859aad4b89dec84e7af3a"
+        }
+      }
+    }
+  }
+}
