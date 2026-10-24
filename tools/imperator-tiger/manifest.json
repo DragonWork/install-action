@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "imperator-tiger",
+  "version": "1.19.0",
+  "repository": "amtep/tiger",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/amtep/tiger/releases/download/v1.19.0/imperator-tiger-linux-v1.19.0.tar.gz",
+      "sha256": "591a88df9a58f9788cae5b9e47715fa7835949622a6b2a876f85a7b5ac06ddeb",
+      "size": 5328894,
+      "format": "tar.gz",
+      "releaseTag": "v1.19.0",
+      "binaries": {
+        "imperator-tiger": {
+          "path": "imperator-tiger-linux-v1.19.0/imperator-tiger",
+          "sha256": "9f5a11cad97dac008cbf2450509b8ea0d8d5bb876c1022a4e1a075396ae481e3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/amtep/tiger/releases/download/v1.19.0/imperator-tiger-windows-v1.19.0.zip",
+      "sha256": "f5d3537ab05fc590b09997700bddcac80bbcf41986713d2bf9e2a2643e5b9444",
+      "size": 4495375,
+      "format": "zip",
+      "releaseTag": "v1.19.0",
+      "binaries": {
+        "imperator-tiger.exe": {
+          "path": "imperator-tiger.exe",
+          "sha256": "f6cdbae9f050e0ebcb85d15c7f9b87784f9c7f159e2b9ee1ac9a628d58b8784f"
+        }
+      }
+    }
+  }
+}
