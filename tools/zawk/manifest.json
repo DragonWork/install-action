@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "zawk",
+  "version": "0.6.3",
+  "repository": "linux-china/zawk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.6.3/zawk-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.6.3",
+      "sha256": "751ae2bd45f8645f4ae573e8963f2bf7260d01679521fdb0d4bb85575bf884b1",
+      "size": 11065548,
+      "format": "tar.xz",
+      "binaries": {
+        "zawk": {
+          "path": "zawk-x86_64-unknown-linux-musl/zawk",
+          "sha256": "3902462013086de8368c9075c765ea2a27509d9c9e92473e8e70b79a9e4df93e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.6.3/zawk-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.6.3",
+      "sha256": "68b7cce1063ba37fa57ab8477c61a16f47dcd8f7a041895d7e8f3dd411baf008",
+      "size": 9347380,
+      "format": "tar.xz",
+      "binaries": {
+        "zawk": {
+          "path": "zawk-aarch64-unknown-linux-musl/zawk",
+          "sha256": "afeb0fb08f7da240f41f4ba935bca0b57075c8bd2943b8f83ce526b8d5866feb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.6.3/zawk-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.3",
+      "sha256": "59f3b7ba043e876934b9346bd86c0cbbd4831b0903deefea5bfdcc9a99032092",
+      "size": 10077124,
+      "format": "tar.xz",
+      "binaries": {
+        "zawk": {
+          "path": "zawk-x86_64-apple-darwin/zawk",
+          "sha256": "e720f3148fa10b77706827f2550c17af481a8467ca3820baac97dee7f243dece"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.6.3/zawk-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.3",
+      "sha256": "aeb7bf0b5a2baad75a7aaf14b4db8d710921c9819e7d1f9171bb5845e18486b7",
+      "size": 8028508,
+      "format": "tar.xz",
+      "binaries": {
+        "zawk": {
+          "path": "zawk-aarch64-apple-darwin/zawk",
+          "sha256": "62dc626ba093bcf0ff066e64e4b849b74e6f112b1134bfb44abf0b7cfd38fc9c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.6.3/zawk-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.3",
+      "sha256": "57d931020cd0875231375a80ce35cb21e8527b26579597417fd901418c4b19fb",
+      "size": 15468572,
+      "format": "zip",
+      "binaries": {
+        "zawk.exe": {
+          "path": "zawk.exe",
+          "sha256": "d94a93e96fd62a4cc85e50495702b4ce27aa665d7be4433c71c1036f47639515"
+        }
+      }
+    }
+  }
+}
