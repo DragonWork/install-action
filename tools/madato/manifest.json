@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "madato",
+  "version": "0.8.0",
+  "repository": "inosion/madato",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/inosion/madato/releases/download/v0.8.0/madato-linux-amd64",
+      "sha256": "504a3004f6c7a85e1ff6b1be060f8f11dfad5f1b15cc157ed9720a189bbdeaab",
+      "size": 4497880,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "madato": {
+          "path": "madato-linux-amd64",
+          "sha256": "504a3004f6c7a85e1ff6b1be060f8f11dfad5f1b15cc157ed9720a189bbdeaab"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/inosion/madato/releases/download/v0.8.0/madato-macos-arm64",
+      "sha256": "6f7725d99f073a47a0e34c567cee609e3a058dbc938acbf84a93e6634eb7fd92",
+      "size": 3600976,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "madato": {
+          "path": "madato-macos-arm64",
+          "sha256": "6f7725d99f073a47a0e34c567cee609e3a058dbc938acbf84a93e6634eb7fd92"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/inosion/madato/releases/download/v0.8.0/madato-windows-amd64",
+      "sha256": "c8d6cd183b9ff1c35e9b250e97699245602d60c2acee5eadf3aaa3cca8794ed8",
+      "size": 3161088,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "madato.exe": {
+          "path": "madato-windows-amd64",
+          "sha256": "c8d6cd183b9ff1c35e9b250e97699245602d60c2acee5eadf3aaa3cca8794ed8"
+        }
+      }
+    }
+  }
+}
