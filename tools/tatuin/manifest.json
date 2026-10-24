@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "tatuin",
+  "version": "0.27.0",
+  "repository": "panter-dsd/tatuin",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/panter-dsd/tatuin/releases/download/v0.27.0/tatuin-Linux-gnu-x86_64.tar.gz",
+      "releaseTag": "v0.27.0",
+      "sha256": "13d28e5dee5510b3827acb751ba21a8fbdc8e2113be4f9d6e7e4032b46b233f3",
+      "size": 5792764,
+      "format": "tar.gz",
+      "binaries": {
+        "tatuin": {
+          "path": "tatuin",
+          "sha256": "64dc1dd6388aa53ab7a6ca90c3a4cf483b6e23cf1359df850db703200ce79e7b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/panter-dsd/tatuin/releases/download/v0.27.0/tatuin-Linux-gnu-arm64.tar.gz",
+      "releaseTag": "v0.27.0",
+      "sha256": "33060b29c69cdd9dc1278f8657839485f89cf6829a122794b6790a5a85a9ccc2",
+      "size": 5341664,
+      "format": "tar.gz",
+      "binaries": {
+        "tatuin": {
+          "path": "tatuin",
+          "sha256": "479f2d0bfddbd56bd5ffd5ebafcae56e7a2661b00d94f56d357169c3a8c3f7c8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/panter-dsd/tatuin/releases/download/v0.27.0/tatuin-macOS-x86_64.tar.gz",
+      "releaseTag": "v0.27.0",
+      "sha256": "1c78ec9e04fa907810bde4950529c0656f51a14c43e9acec7d0fc71338d8d1a0",
+      "size": 5494488,
+      "format": "tar.gz",
+      "binaries": {
+        "tatuin": {
+          "path": "tatuin",
+          "sha256": "29aeb6b1b56cb22d984d8577d2df05ff4a7ce4883f2da1728fc58cb27571795a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/panter-dsd/tatuin/releases/download/v0.27.0/tatuin-macOS-arm64.tar.gz",
+      "releaseTag": "v0.27.0",
+      "sha256": "9984824b22b8307e7ffcb0c0d59bf4f84e49f99b14e755a10be576acd00b3090",
+      "size": 5021857,
+      "format": "tar.gz",
+      "binaries": {
+        "tatuin": {
+          "path": "tatuin",
+          "sha256": "e8b5d23ba341f52f0efdb9caa4b6d9e7a59216004e78f6d268b291bdbff296f3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/panter-dsd/tatuin/releases/download/v0.27.0/tatuin-Windows-msvc-x86_64.zip",
+      "releaseTag": "v0.27.0",
+      "sha256": "0a98f50996d4dba88b3d47ff3e2ebffe66e2f0f211135b17a992a7df50b1fba8",
+      "size": 4871154,
+      "format": "zip",
+      "binaries": {
+        "tatuin.exe": {
+          "path": "tatuin.exe",
+          "sha256": "f8065f28f5905b17e4b2edabe52d1307c1625c0526fe5d18e2ea59802311ebd7"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/panter-dsd/tatuin/releases/download/v0.27.0/tatuin-Windows-msvc-arm64.zip",
+      "releaseTag": "v0.27.0",
+      "sha256": "d5aa3a93216dc68d6531a17fb4a3866ab124ed1a9fa9b53fef7d821e2f19b807",
+      "size": 4682883,
+      "format": "zip",
+      "binaries": {
+        "tatuin.exe": {
+          "path": "tatuin.exe",
+          "sha256": "7dc62d1b5d14e83e85cd93f722aadc6ab0be32c0fe8fd9a31555d270f42731bb"
+        }
+      }
+    }
+  }
+}
