@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mk",
+  "version": "0.7.19",
+  "repository": "ffimnsr/mk-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ffimnsr/mk-rs/releases/download/0.7.19/mk-0.7.19-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "6f7da9051107a06eb26d178494fc73e90768008e9b6b01f5c10897b4748e3a17",
+      "size": 8496888,
+      "format": "tar.gz",
+      "releaseTag": "0.7.19",
+      "binaries": {
+        "mk": {
+          "path": "mk-0.7.19-x86_64-unknown-linux-musl/mk",
+          "sha256": "6de6072a065dbfef24785be3c11b75f0295989510ad9da7b0f52d13f8cf26f56"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ffimnsr/mk-rs/releases/download/0.7.19/mk-0.7.19-aarch64-apple-darwin.tar.gz",
+      "sha256": "cba9a8e6c6faa6135920760c9defe69e05ed3d52612c7d64133862f83e8d72e8",
+      "size": 5521421,
+      "format": "tar.gz",
+      "releaseTag": "0.7.19",
+      "binaries": {
+        "mk": {
+          "path": "mk-0.7.19-aarch64-apple-darwin/mk",
+          "sha256": "ba100e0909e5650bc6e95a907270135015b2f2a3238aa56ecf50ecb6a97f1db6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ffimnsr/mk-rs/releases/download/0.7.19/mk-0.7.19-x86_64-pc-windows-msvc.zip",
+      "sha256": "9bec27a29f2f757456c8376fd5dedd917aeb5133e48329be80f39cb7eb04ad98",
+      "size": 6361693,
+      "format": "zip",
+      "releaseTag": "0.7.19",
+      "binaries": {
+        "mk.exe": {
+          "path": "mk-0.7.19-x86_64-pc-windows-msvc/mk.exe",
+          "sha256": "a99d5939a88137ed3131c5fa9925081ea82c5a18ad0e2f436456620b59f520dd"
+        }
+      }
+    }
+  }
+}
