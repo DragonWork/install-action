@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ludtwig",
+  "version": "0.14.0",
+  "repository": "MalteJanz/ludtwig",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MalteJanz/ludtwig/releases/download/v0.14.0/ludtwig-0.14.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.14.0",
+      "sha256": "467e8802293a96b18777dfc64c19602969ac84589312eb526d2070a7583097c1",
+      "size": 1716920,
+      "format": "tar.gz",
+      "binaries": {
+        "ludtwig": {
+          "path": "ludtwig",
+          "sha256": "b2c29edf6545bc8963ed0e7f73d998b43502dd191c121c398353fa74b567b48a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MalteJanz/ludtwig/releases/download/v0.14.0/ludtwig-0.14.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.14.0",
+      "sha256": "d8277f138bed766069dc41431dfe91aa5fe5ae4738d1f84f5accc691cf94a078",
+      "size": 1551295,
+      "format": "tar.gz",
+      "binaries": {
+        "ludtwig": {
+          "path": "ludtwig",
+          "sha256": "8f136e9d79dbf09cb153d2d7171f013b9241e232038ebd72667820ff5d615d7b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MalteJanz/ludtwig/releases/download/v0.14.0/ludtwig-0.14.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.14.0",
+      "sha256": "34f365fe74d99c1bfd14306dd6959d2d7b9e5e9331f201974aaa83f5166c31d7",
+      "size": 1550981,
+      "format": "tar.gz",
+      "binaries": {
+        "ludtwig": {
+          "path": "ludtwig",
+          "sha256": "13798a9e0e6522891859c6886fcf064d75aec55aa8e65a31104e42b28c63e7c3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MalteJanz/ludtwig/releases/download/v0.14.0/ludtwig-0.14.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.14.0",
+      "sha256": "273790d599d8c5215a823f2623ea453c541b0467a4035fe217b8f10b8c8e417f",
+      "size": 1613385,
+      "format": "zip",
+      "binaries": {
+        "ludtwig.exe": {
+          "path": "ludtwig.exe",
+          "sha256": "b10ca187adf7026b23722af579a2cd0a1fd6345f4396529929ae91b6285cb399"
+        }
+      }
+    }
+  }
+}
