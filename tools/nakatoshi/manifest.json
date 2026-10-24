@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "nakatoshi",
+  "version": "0.2.8",
+  "repository": "ndelvalle/nakatoshi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ndelvalle/nakatoshi/releases/download/v0.2.8/nakatoshi-linux-amd64.tar.gz",
+      "releaseTag": "v0.2.8",
+      "sha256": "f1ab45d6f07a69c45507b1ff8d4909afe31cdb1a3377ffac669cca3a9146a1e8",
+      "size": 737283,
+      "format": "tar.gz",
+      "binaries": {
+        "nakatoshi": {
+          "path": "nakatoshi",
+          "sha256": "540754f0dbb3b8e05e95c35ead85dcaa206956db6072c0ddf60cac6fc6a41441"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ndelvalle/nakatoshi/releases/download/v0.2.8/nakatoshi-macos-amd64.tar.gz",
+      "releaseTag": "v0.2.8",
+      "sha256": "c20bc79afdea5dc0b184b520f26adc6fdf790462bf1c80142969559fe7ced37d",
+      "size": 677500,
+      "format": "tar.gz",
+      "binaries": {
+        "nakatoshi": {
+          "path": "nakatoshi",
+          "sha256": "88638c360dfd998441ba843fe403aac8e19131b43520b0de8b5b457cb818fb80"
+        }
+      }
+    }
+  }
+}
