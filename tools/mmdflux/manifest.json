@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mmdflux",
+  "version": "2.6.1",
+  "repository": "kevinswiber/mmdflux",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.6.1/mmdflux-v2.6.1-linux-x86_64.tar.gz",
+      "releaseTag": "mmdflux-v2.6.1",
+      "sha256": "e83ff7efb3c739b20fa66f1a829cf00d95a58faf744c5584ff921d929226ba91",
+      "size": 2674643,
+      "format": "tar.gz",
+      "binaries": {
+        "mmdflux": {
+          "path": "mmdflux",
+          "sha256": "75a6ef44f6d55c68f9f1f8d8ee6dba37e50c16d0c56498cef7244704e30cb265"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.6.1/mmdflux-v2.6.1-darwin-x86_64.tar.gz",
+      "releaseTag": "mmdflux-v2.6.1",
+      "sha256": "9d7ed85ca6a3aef7bf56c7cb43f7dd2211b1658ed8328fadf294580009944c8b",
+      "size": 2591197,
+      "format": "tar.gz",
+      "binaries": {
+        "mmdflux": {
+          "path": "mmdflux",
+          "sha256": "34322dcd3e0b27fe45331fd639965bbfff841476ff11c0b99f57bdf34bd9a352"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.6.1/mmdflux-v2.6.1-darwin-arm64.tar.gz",
+      "releaseTag": "mmdflux-v2.6.1",
+      "sha256": "4f09097e024d6d17f110c85bd6e97929080c43eb8808fa22ff51b8721122a780",
+      "size": 2352882,
+      "format": "tar.gz",
+      "binaries": {
+        "mmdflux": {
+          "path": "mmdflux",
+          "sha256": "021bc99c4c76e43fd430b3646936ca25f1b257a4798d8d747bab3feba4fcf3f7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kevinswiber/mmdflux/releases/download/mmdflux-v2.6.1/mmdflux-v2.6.1-windows-x86_64.zip",
+      "releaseTag": "mmdflux-v2.6.1",
+      "sha256": "02b5b586ed062b9e990e4ad92bfdcf7abe98ea11a8a18253b99e683c584fb2a4",
+      "size": 2436708,
+      "format": "zip",
+      "binaries": {
+        "mmdflux.exe": {
+          "path": "mmdflux.exe",
+          "sha256": "fcc610e4f07161736bdcb1fff36c8b230a1b0a0771a0d6b478fd233c591e88a0"
+        }
+      }
+    }
+  }
+}
