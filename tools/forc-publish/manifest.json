@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "forc-publish",
+  "version": "0.72.1",
+  "repository": "FuelLabs/sway",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "1d90387e69ccce595c552654316318975525e89a6d30f86580886aedb1cef517",
+      "size": 78395148,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-publish": {
+          "path": "./forc-binaries/forc-publish",
+          "sha256": "4b853aba9c063c99af52d8cd7d0ca31e69eb1ce7313ad054131ed75075eb3db2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "8eabdb0a1487b6ec96fa94acbf861f5034084dbf9a2503c47190dc86f3f615fe",
+      "size": 74480414,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-publish": {
+          "path": "./forc-binaries/forc-publish",
+          "sha256": "abdbb8c6a54f97acce08a0b6888eb9dee9cee39158d560f0e59a6f3fc89053fb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "c80ae1cc740f2418c308e2398162c6f051585d7ab81fc2d970a6b16a146b05b3",
+      "size": 78364396,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-publish": {
+          "path": "./forc-binaries/forc-publish",
+          "sha256": "b683692cfd01061b78eabf07747c9805d9cec048d9f0ff8a386b20e37fce2e1c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "11f122e1c86927de13e6dd719946571e65bcfa0a1467507efbd6676f7c33fa0d",
+      "size": 74199231,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-publish": {
+          "path": "./forc-binaries/forc-publish",
+          "sha256": "f8b89020303862268610b50725ad66bbb9c717c4c79b1cc60e94d113481ee000"
+        }
+      }
+    }
+  }
+}
