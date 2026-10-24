@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "io-pim-discovery",
+  "version": "0.9.0",
+  "repository": "pimalaya/io-pim-discovery",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pimalaya/io-pim-discovery/releases/download/v0.9.0/pim-discovery.x86_64-linux.tgz",
+      "releaseTag": "v0.9.0",
+      "sha256": "89be07e6131c1b228acbc7d95e6b20ad4b43a559ff2ee02a2e24d3583d93aca6",
+      "size": 1923911,
+      "format": "tar.gz",
+      "binaries": {
+        "pim-discovery": {
+          "path": "pim-discovery",
+          "sha256": "639b1cac69643dbfd65838f39224cf0f6668a570fa07cb5d7e25f64af5d842d4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pimalaya/io-pim-discovery/releases/download/v0.9.0/pim-discovery.aarch64-linux.tgz",
+      "releaseTag": "v0.9.0",
+      "sha256": "a1b1863cc22009908cf8b7a5207e89a0e4673b1cf8f89bb637b0cb6e3327dfbd",
+      "size": 1822321,
+      "format": "tar.gz",
+      "binaries": {
+        "pim-discovery": {
+          "path": "pim-discovery",
+          "sha256": "2dcf8303150e0a8e3252627f515bf9c65e64401240f5f46a06cbfd827c2204db"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pimalaya/io-pim-discovery/releases/download/v0.9.0/pim-discovery.x86_64-darwin.tgz",
+      "releaseTag": "v0.9.0",
+      "sha256": "7bb905a92942e68782da203277a36fce80023e93ae613912c5b398f16a1196c8",
+      "size": 1740562,
+      "format": "tar.gz",
+      "binaries": {
+        "pim-discovery": {
+          "path": "pim-discovery",
+          "sha256": "e14b5fab3705277c3b7cb126b946a83b6a01d121e864bc44d1a0b5facdc34ca7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pimalaya/io-pim-discovery/releases/download/v0.9.0/pim-discovery.aarch64-darwin.tgz",
+      "releaseTag": "v0.9.0",
+      "sha256": "0232f1da28ec2085ab705ccea62eacfb6aa9edcd967a6468792ad7103cefd29b",
+      "size": 1564093,
+      "format": "tar.gz",
+      "binaries": {
+        "pim-discovery": {
+          "path": "pim-discovery",
+          "sha256": "5a345fa22d58ba0b2183fad429cda0af3fe46a2f231c06e06eb4adbb268c7b74"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pimalaya/io-pim-discovery/releases/download/v0.9.0/pim-discovery.x86_64-windows.tgz",
+      "releaseTag": "v0.9.0",
+      "sha256": "7e65c18c7d3658271831e90d6b5a59b62835626aa863c30f706cc152f1ebb0ed",
+      "size": 1748590,
+      "format": "tar.gz",
+      "binaries": {
+        "pim-discovery.exe": {
+          "path": "pim-discovery.exe",
+          "sha256": "9c815d8a01ce16e1eb5607650097ca1e1eb45393afab298effe114a92cc5d05f"
+        }
+      }
+    }
+  }
+}
