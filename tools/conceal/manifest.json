@@ -1,57 +1,108 @@
 {
   "schema": 1,
   "name": "conceal",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "repository": "TD-Sky/conceal",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.1/conceal-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "81836ffa7fa7df0f1b0e89eaefe470e318454d10d7c5abcdd30496c88e67ea27",
+      "size": 1189534,
+      "format": "zip",
+      "binaries": {
+        "cnc": {
+          "path": "conceal-x86_64-unknown-linux-musl/cnc",
+          "sha256": "c0009b7e75290469e302c598d96d91dfd8ba3568e28b625ad87b9d0675ca7fda"
+        },
+        "conceal": {
+          "path": "conceal-x86_64-unknown-linux-musl/conceal",
+          "sha256": "4ba2a550c5f826d8fc1c65e06813ab318cec493859fd6b6ce6dace36476fc7f5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.1/conceal-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "953c327c29198914750e26d555cd6c193878168b2e6a3ab0e7e81b2eac42def7",
+      "size": 1153684,
+      "format": "zip",
+      "binaries": {
+        "cnc": {
+          "path": "conceal-aarch64-unknown-linux-musl/cnc",
+          "sha256": "6b841d5377bf25daeb2d7f113f78f2b927664ba33b6d4324c38e59e409e25adb"
+        },
+        "conceal": {
+          "path": "conceal-aarch64-unknown-linux-musl/conceal",
+          "sha256": "75e8c3cb59637d7ca5808d4a84ce288607b6b0b42eaba55311a4790abab91c4b"
+        }
+      }
+    },
     "darwin-x64": {
-      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.0/conceal-x86_64-apple-darwin.zip",
-      "releaseTag": "v0.7.0",
-      "sha256": "cb66cb7d7ba4203a8042fe7392c34cf7e4189255868a19e05205570e4794e26a",
-      "size": 734546,
+      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.1/conceal-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "e0df8fc37f3c94935c28c81eb72a9e786a7dc0c1e116d2f18c6c8f2c29377830",
+      "size": 571461,
       "format": "zip",
       "binaries": {
         "cnc": {
           "path": "conceal-x86_64-apple-darwin/cnc",
-          "sha256": "43e50547687b1ee77bedc62ef54f29625561e36c4f478c3e96ba05a217a03253"
+          "sha256": "bcb00557d84e702501cc516c9f745d8ad60a4ebcc3bc9a871f3bdd03f58c75ee"
         },
         "conceal": {
           "path": "conceal-x86_64-apple-darwin/conceal",
-          "sha256": "3a501c14946fd8404f23f9e57c483981a7fa878a8859ffe9be326a124c74ab36"
+          "sha256": "cae0eaf173bc5a8bb7d2e78e5efcd42b00d20b711e836bac5bd3ca0e591f641f"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.0/conceal-aarch64-apple-darwin.zip",
-      "releaseTag": "v0.7.0",
-      "sha256": "1cd946cfd21768132517e485392e57f1626201c221d7e4f822905da0c2478a12",
-      "size": 691741,
+      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.1/conceal-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "be03f306eeecc860d6a8ddee0563c8c84e5289c13c015517b0e86ec1ec542131",
+      "size": 544955,
       "format": "zip",
       "binaries": {
         "cnc": {
           "path": "conceal-aarch64-apple-darwin/cnc",
-          "sha256": "9400c0b749062b74f74442a08adb53b05960a5d794c2aab501a742d31c09f261"
+          "sha256": "35d83504d30f86d927ab20b78af80f57f9520513076f2a96977ca8da4e3a7927"
         },
         "conceal": {
           "path": "conceal-aarch64-apple-darwin/conceal",
-          "sha256": "2315152006f80d7bf62be72aa3391888e80088c50ef5530bd7440481e22b3d99"
+          "sha256": "45930c6ec0ac8994554f19d46a36d5bb658ce36f55f2d961a737ba472616293f"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.0/conceal-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.7.0",
-      "sha256": "f1f9fa87c9da141fd1c3cc829ef7df8ea996b0c6fabe29a7a1981a20cdc7103d",
-      "size": 912669,
+      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.1/conceal-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "aeb267b9877af751f1cbeda326201b466aef3a6f99cc7c07593dfc0a7a90653f",
+      "size": 765281,
       "format": "zip",
       "binaries": {
         "cnc.exe": {
           "path": "conceal-x86_64-pc-windows-msvc/cnc.exe",
-          "sha256": "0ba552e42e2c67d4a9fce624309814e5c599fa3475aef5f6ff3b3c3e8f538960"
+          "sha256": "5a2577e83cdd7efd44f9009b2fdce495f6c0925a95627390a690da986aaa91a2"
         },
         "conceal.exe": {
           "path": "conceal-x86_64-pc-windows-msvc/conceal.exe",
-          "sha256": "9238ef77d5eeec713986dca3138f876179862ebec1eb4bb2e3448017879933cc"
+          "sha256": "82bd2e2f7616c50cf43e6c724b259257b9e0c3761c2e5641ab2b9d9cddf11be8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/TD-Sky/conceal/releases/download/v0.7.1/conceal-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "d5a52829532a34a877c5a1e93ab9ce335128d6287e545cce185533e6d1a70e52",
+      "size": 721196,
+      "format": "zip",
+      "binaries": {
+        "cnc.exe": {
+          "path": "conceal-aarch64-pc-windows-msvc/cnc.exe",
+          "sha256": "6c292f5de3bd8d36b5b24a438e61bded2574f9a297925f25ad941cdb9ece4198"
+        },
+        "conceal.exe": {
+          "path": "conceal-aarch64-pc-windows-msvc/conceal.exe",
+          "sha256": "0ab74641589202a26820742d55fcf70118cbc6480cfcd61c73b33989465215b5"
         }
       }
     }
