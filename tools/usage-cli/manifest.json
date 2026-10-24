@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "usage-cli",
+  "version": "7.1.1",
+  "repository": "jdx/usage",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jdx/usage/releases/download/v7.1.1/usage-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v7.1.1",
+      "sha256": "afea9fb0636305e011860ce2f3de26b5702c7bc8ffce8eb32aa9c95ff7f5804f",
+      "size": 4033793,
+      "format": "tar.gz",
+      "binaries": {
+        "usage": {
+          "path": "usage",
+          "sha256": "cb03ba2d87e625df4eab1f495e1177a80816e59e8aab7c22a0e05ab6bf3cc7af"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jdx/usage/releases/download/v7.1.1/usage-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v7.1.1",
+      "sha256": "5f5d8ed6295130fb82df9a5ee0fabb226c80a7085eda849c18edb561b76f4d97",
+      "size": 3703465,
+      "format": "tar.gz",
+      "binaries": {
+        "usage": {
+          "path": "usage",
+          "sha256": "c617a874590d52c0f3d5be41026ce8d62da2ae50e83be83f3b2286f2ae06cd6a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jdx/usage/releases/download/v7.1.1/usage-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v7.1.1",
+      "sha256": "75659545f16f84474c32cebb6ee3e304aedf63286c31ec73c3cab695fb56a6aa",
+      "size": 3771608,
+      "format": "zip",
+      "binaries": {
+        "usage.exe": {
+          "path": "usage.exe",
+          "sha256": "f62f0d6d062c72b3ff1b2a5f8eb6d9f0d5ba03fdbf72dcd71a83a238d7e7e31c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/jdx/usage/releases/download/v7.1.1/usage-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v7.1.1",
+      "sha256": "b4a36cecabe8bffeb2a5191a7c415dad32b65aa3af15fca9e0abb43bb91b0cd6",
+      "size": 3417657,
+      "format": "zip",
+      "binaries": {
+        "usage.exe": {
+          "path": "usage.exe",
+          "sha256": "79123f515d2f7faf9fc305ce0ec0ea2b645a82312b5d769c036d653cee7114ec"
+        }
+      }
+    }
+  }
+}
