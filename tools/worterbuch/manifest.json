@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "worterbuch",
+  "version": "1.6.0",
+  "repository": "babymotte/worterbuch",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/babymotte/worterbuch/releases/download/v1.6.0/worterbuch-x86_64-apple-darwin.zip",
+      "releaseTag": "v1.6.0",
+      "sha256": "7b462b688e2750d65e663a7718c081b5641630541e262adce06efe34625e5ea4",
+      "size": 31175535,
+      "format": "zip",
+      "binaries": {
+        "worterbuch": {
+          "path": "worterbuch",
+          "sha256": "f03dbc134b1d05e8093a7d172c6f691cca44f39fd2691b9d82375019d7c437d7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/babymotte/worterbuch/releases/download/v1.6.0/worterbuch-aarch64-apple-darwin.zip",
+      "releaseTag": "v1.6.0",
+      "sha256": "ca5345eb474e7741cae07913bfe47fcaa3b62d3ec729b9b8256f4f2ba541c2ce",
+      "size": 29741190,
+      "format": "zip",
+      "binaries": {
+        "worterbuch": {
+          "path": "worterbuch",
+          "sha256": "a05118c1c1b2639837a0b5aa4d1c806c6ecea24bb97edbc10d8019523983a10d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/babymotte/worterbuch/releases/download/v1.6.0/worterbuch-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.6.0",
+      "sha256": "70c4503383eec9d313d65d637cf1e3858e77f71b6bd7fc542413f337115f496d",
+      "size": 30184260,
+      "format": "zip",
+      "binaries": {
+        "worterbuch.exe": {
+          "path": "worterbuch.exe",
+          "sha256": "7fbabd90743ad3acea8d14ac4bf873265aeecfeadb55051b84db6a731e676362"
+        }
+      }
+    }
+  }
+}
