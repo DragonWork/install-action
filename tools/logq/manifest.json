@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "logq",
+  "version": "0.3.0",
+  "repository": "MnO2/logq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MnO2/logq/releases/download/v0.3.0/logq-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "9a00ac542bfad25eae9e921af43e4886bbe49a24ba2c25f4dbbb68b194b33207",
+      "size": 1873776,
+      "format": "tar.xz",
+      "binaries": {
+        "logq": {
+          "path": "logq-x86_64-unknown-linux-musl/logq",
+          "sha256": "210e125f92c76798a4e62359de4a87c204f6e7a1b75634252a6addb495015141"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MnO2/logq/releases/download/v0.3.0/logq-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "cef55b8ff85a8f058fff7746ff1781a2017c6f9a6d609b2ba7a09aa08e40b504",
+      "size": 1692896,
+      "format": "tar.xz",
+      "binaries": {
+        "logq": {
+          "path": "logq-x86_64-apple-darwin/logq",
+          "sha256": "4b2eb2b4b34efa72007d1d293bfc94230ac5d023eb1aa79338469f6ca9a3a5fd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MnO2/logq/releases/download/v0.3.0/logq-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.0",
+      "sha256": "163ea0c5956aa4caa32b5d2afe0b4592a21fe1ede25060d4f6ecf708c516aef1",
+      "size": 1494548,
+      "format": "tar.xz",
+      "binaries": {
+        "logq": {
+          "path": "logq-aarch64-apple-darwin/logq",
+          "sha256": "3bf7b68180e53fdf8a7e707ea3d69b3e4767e7aef579270849fd7938f3230fc9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MnO2/logq/releases/download/v0.3.0/logq-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "4affe6f45cd139bd6adfc670c5196af2187e307140463b16908f653c0a429bea",
+      "size": 2417444,
+      "format": "zip",
+      "binaries": {
+        "logq.exe": {
+          "path": "logq.exe",
+          "sha256": "8de80167be927b1e3f42b8741fd2598407b7af92f572b7ee142188d04d208616"
+        }
+      }
+    }
+  }
+}
