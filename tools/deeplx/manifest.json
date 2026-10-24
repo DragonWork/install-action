@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "deeplx",
+  "version": "2.2.6",
+  "repository": "hominsu/deeplx-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hominsu/deeplx-rs/releases/download/v2.2.6/deeplx-2.2.6-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.2.6",
+      "sha256": "77087aa0b5438b8ae34d8826660dfbeada7f54778b0daae7d824370d61b1b208",
+      "size": 3401114,
+      "format": "tar.gz",
+      "binaries": {
+        "deeplx": {
+          "path": "deeplx",
+          "sha256": "3802d93db782de9d6fd7355efe5a374adea129ee559fa136147c7f138b3997b9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hominsu/deeplx-rs/releases/download/v2.2.6/deeplx-2.2.6-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.2.6",
+      "sha256": "22938cfbe3f91c18d402c282fe2fb735e2010c2ac2215af2a389c56c02310aea",
+      "size": 3185251,
+      "format": "tar.gz",
+      "binaries": {
+        "deeplx": {
+          "path": "deeplx",
+          "sha256": "d8a8b155459bc26f82b91d1e6a8e31ce5c26a291dad635b293dce93312a94f2b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hominsu/deeplx-rs/releases/download/v2.2.6/deeplx-2.2.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.2.6",
+      "sha256": "166583c20d74d71c9ebfe7f62545a9876aa2250d094f87cf23dc818bebf8fe60",
+      "size": 3187729,
+      "format": "tar.gz",
+      "binaries": {
+        "deeplx": {
+          "path": "deeplx",
+          "sha256": "43357bfc0a2811ced26c01abbb87c2f48f39a59055937d04b52fdc4d46aa43b9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hominsu/deeplx-rs/releases/download/v2.2.6/deeplx-2.2.6-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.2.6",
+      "sha256": "259ef4d34512ab98b5657b5bd8f70bce2f91c63c2bb2824b49b69617b012af78",
+      "size": 2936754,
+      "format": "tar.gz",
+      "binaries": {
+        "deeplx": {
+          "path": "deeplx",
+          "sha256": "53997053d26082d9dfb9b95211c9875f310550f82088a54e0f6d0400db5ba5d8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hominsu/deeplx-rs/releases/download/v2.2.6/deeplx-2.2.6-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "v2.2.6",
+      "sha256": "bce06bee3e15b481b862a1cbc72d17e3f09fe0ea602cec3f87a2d96b55002993",
+      "size": 3268754,
+      "format": "tar.gz",
+      "binaries": {
+        "deeplx.exe": {
+          "path": "deeplx.exe",
+          "sha256": "169a4bb0f04fb9fd06633e3df11b1d61caf61ebccea0187c08b176cd515f2bb3"
+        }
+      }
+    }
+  }
+}
