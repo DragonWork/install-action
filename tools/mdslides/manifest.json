@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mdslides",
+  "version": "0.7.2",
+  "repository": "ferrous-systems/mdslides",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ferrous-systems/mdslides/releases/download/v0.7.2/mdslides-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.7.2",
+      "sha256": "30d23f22249b12c3e9c4661518fc8e9cc87be5c23b0ef955c399c9c0c396c14f",
+      "size": 1042664,
+      "format": "tar.xz",
+      "binaries": {
+        "mdslides": {
+          "path": "mdslides-x86_64-unknown-linux-musl/mdslides",
+          "sha256": "b3247ea2bdd7950c0d6c117cc5dd0999e55487ea3aeeb485abfae1fda7f21485"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ferrous-systems/mdslides/releases/download/v0.7.2/mdslides-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.2",
+      "sha256": "98d5f7eed67ea9e012ab6c986e8031674f814c132e6178bad61b62d2d8d5db5a",
+      "size": 871956,
+      "format": "tar.xz",
+      "binaries": {
+        "mdslides": {
+          "path": "mdslides-aarch64-unknown-linux-gnu/mdslides",
+          "sha256": "90453b23b8c42c87509d6d074d7fd5dbb83009b95fe4a65bb5c30b53e39047e8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ferrous-systems/mdslides/releases/download/v0.7.2/mdslides-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.2",
+      "sha256": "23170758002172e7a440ed6cbc1d61a4f43a9f28ea675dabb50b627d54d6adee",
+      "size": 935020,
+      "format": "tar.xz",
+      "binaries": {
+        "mdslides": {
+          "path": "mdslides-x86_64-apple-darwin/mdslides",
+          "sha256": "8e66d005eba595d414082ead9e2af9b5bd1c9a1c8d164c703a331252fbeb7bbe"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ferrous-systems/mdslides/releases/download/v0.7.2/mdslides-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.2",
+      "sha256": "708ca913a91126e6ea6d16010210b8b304888679ef426b186f5e196b21b5d7a4",
+      "size": 816148,
+      "format": "tar.xz",
+      "binaries": {
+        "mdslides": {
+          "path": "mdslides-aarch64-apple-darwin/mdslides",
+          "sha256": "225d8fd6efdfe0357d3a06eb4b1254ad4cb80f29dfc5e6cc5dffa6f94a6e2229"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ferrous-systems/mdslides/releases/download/v0.7.2/mdslides-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.2",
+      "sha256": "7aefe24c98ec7c799455db55ed326bd9c4cf7b8f1b15d309f23c7533320f8aee",
+      "size": 1163363,
+      "format": "zip",
+      "binaries": {
+        "mdslides.exe": {
+          "path": "mdslides.exe",
+          "sha256": "16726886afc259dd737bbff5dafe695e3c9c1a11187c13bd6eab3da999452d20"
+        }
+      }
+    }
+  }
+}
