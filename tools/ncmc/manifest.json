@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ncmc",
+  "version": "0.2.11",
+  "repository": "magic-akari/ncmc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/magic-akari/ncmc/releases/download/v0.2.11/ncmc-x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "v0.2.11",
+      "sha256": "2578a4a7b63236be79478179fc2f83a6188440bcbae043fb091a8c6e0316257f",
+      "size": 411694,
+      "format": "tar.gz",
+      "binaries": {
+        "ncmc": {
+          "path": "ncmc",
+          "sha256": "b8539a9e87a340994aac3ac5bcf07a14e07ac3ee2131245e648c17f3ca92844b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/magic-akari/ncmc/releases/download/v0.2.11/ncmc-aarch64-unknown-linux-musl.tgz",
+      "releaseTag": "v0.2.11",
+      "sha256": "9318e3161e6493b1f7951fc145229926d5c34ad9bf3ee90a2ed740ea4aa7f17d",
+      "size": 391588,
+      "format": "tar.gz",
+      "binaries": {
+        "ncmc": {
+          "path": "ncmc",
+          "sha256": "f210b24e1911d5f141864bbe892f57b304ed126fa0a2a625c93b30b3c694950a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/magic-akari/ncmc/releases/download/v0.2.11/ncmc-x86_64-apple-darwin.tgz",
+      "releaseTag": "v0.2.11",
+      "sha256": "7886314da93f2101398cfa7827d624e682d7fe22efa9c58a381307a97c4efea2",
+      "size": 394108,
+      "format": "tar.gz",
+      "binaries": {
+        "ncmc": {
+          "path": "ncmc",
+          "sha256": "0b0d658d3061c313bd38bc16ba1f8c7b9b13079a5b2b156b7de0e537b44fb794"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/magic-akari/ncmc/releases/download/v0.2.11/ncmc-aarch64-apple-darwin.tgz",
+      "releaseTag": "v0.2.11",
+      "sha256": "e941daa9cb727dbb8d05ec2608da3863d6f7411d70fa1c97cd942df1d65921a4",
+      "size": 371456,
+      "format": "tar.gz",
+      "binaries": {
+        "ncmc": {
+          "path": "ncmc",
+          "sha256": "e24c903dd76f13ab713ded1290fefdc0f0e9ea2a945db04cbe8149ca365b54cd"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/magic-akari/ncmc/releases/download/v0.2.11/ncmc-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.11",
+      "sha256": "ffd0a5eb3235e33530b83febd7420731e79de0ecf526869652d86a6f51f951d0",
+      "size": 268434,
+      "format": "zip",
+      "binaries": {
+        "ncmc.exe": {
+          "path": "ncmc.exe",
+          "sha256": "c6b7a317c46c9eb640c08764a74b0de70988f46f8c8f6e4971810241daeb6fdd"
+        }
+      }
+    }
+  }
+}
