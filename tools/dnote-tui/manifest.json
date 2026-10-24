@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dnote-tui",
+  "version": "0.5.10",
+  "repository": "deepanchal/dnote-tui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/deepanchal/dnote-tui/releases/download/v0.5.10/dnote-tui-0.5.10-linux-x86_64.tar.gz",
+      "releaseTag": "v0.5.10",
+      "sha256": "0ce408e6d9383c86902a8a330439bb4bf6b56ba673a12e85b3785c2505e5bd75",
+      "size": 2219570,
+      "format": "tar.gz",
+      "binaries": {
+        "dnote-tui": {
+          "path": "dnote-tui",
+          "sha256": "f4b8df12f2c5679adc33d22240b02c314e2d68d892611f9ab42918c8206985de"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/deepanchal/dnote-tui/releases/download/v0.5.10/dnote-tui-0.5.10-linux-arm64.tar.gz",
+      "releaseTag": "v0.5.10",
+      "sha256": "5401d201b7c7cebe29659641c36de82e5e3c881dbe03022798587c43fe12b27a",
+      "size": 2054476,
+      "format": "tar.gz",
+      "binaries": {
+        "dnote-tui": {
+          "path": "dnote-tui",
+          "sha256": "d628186b2aefbf8cd091d6764bd900bc7f2a83c685bafca0e19b607fc727708c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/deepanchal/dnote-tui/releases/download/v0.5.10/dnote-tui-0.5.10-macos-x86_64.tar.gz",
+      "releaseTag": "v0.5.10",
+      "sha256": "16447e8ba6b30509dd10ca561aca9d4933b278dac1da8f6881c14ed14ea0085c",
+      "size": 2065973,
+      "format": "tar.gz",
+      "binaries": {
+        "dnote-tui": {
+          "path": "dnote-tui",
+          "sha256": "f427b5b21ed02edffb6afd093b73dc50c5852514c68014e12ae62b9f92fcc0c1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/deepanchal/dnote-tui/releases/download/v0.5.10/dnote-tui-0.5.10-macos-arm64.tar.gz",
+      "releaseTag": "v0.5.10",
+      "sha256": "16e9448c7c073b3701227160b14046ee6b1e09567a7912a05cfeb9e645eb836c",
+      "size": 1970391,
+      "format": "tar.gz",
+      "binaries": {
+        "dnote-tui": {
+          "path": "dnote-tui",
+          "sha256": "6f550247a186b3803cb50974888eb4071c079b4f9ef2b29f594e3ce946bf8310"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/deepanchal/dnote-tui/releases/download/v0.5.10/dnote-tui-0.5.10-windows-x86_64.tar.gz",
+      "releaseTag": "v0.5.10",
+      "sha256": "b8023eac40167f36187bb3e952654997479ee6cbada156bcb4fa035f88c450b4",
+      "size": 1959042,
+      "format": "tar.gz",
+      "binaries": {
+        "dnote-tui.exe": {
+          "path": "dnote-tui.exe",
+          "sha256": "fade3c945101e80c915f5b88a5bac9ac8b223fa70e35a5e3ee55bd203d7b100b"
+        }
+      }
+    }
+  }
+}
