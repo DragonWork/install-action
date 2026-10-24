@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wrkflw",
+  "version": "0.8.0",
+  "repository": "bahdotsh/wrkflw",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bahdotsh/wrkflw/releases/download/v0.8.0/wrkflw-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "7606fecdc6816f8d1503929f41f1a9d57b25362b13193aaef2732df061a4de30",
+      "size": 5789735,
+      "format": "tar.gz",
+      "binaries": {
+        "wrkflw": {
+          "path": "wrkflw",
+          "sha256": "608063e6640df968ebcdf1a1611974f2fdefd610866d1f534fa10f30d9f6501d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bahdotsh/wrkflw/releases/download/v0.8.0/wrkflw-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "44b9d02e3624aa808dfab22bbcc12f65564079e30bc5b7d82a3f32e1f0830234",
+      "size": 5442022,
+      "format": "tar.gz",
+      "binaries": {
+        "wrkflw": {
+          "path": "wrkflw",
+          "sha256": "c32968af6bee466ef09ede0bd3691bb052dbab9c5e556683240df6fcc114cf49"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bahdotsh/wrkflw/releases/download/v0.8.0/wrkflw-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "a7b9603c09932f3cc783cb529b18a98cc323069e34db6e897dac011266fbb982",
+      "size": 5507899,
+      "format": "tar.gz",
+      "binaries": {
+        "wrkflw": {
+          "path": "wrkflw",
+          "sha256": "7290e65d1aa4b9fa46c38b31d588ab21d5df49afc4ae560b0255867ac0a6f58a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bahdotsh/wrkflw/releases/download/v0.8.0/wrkflw-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "119932dc5c27e146a9ca88247a600a20054b7a243f790615057c81b5aca2bc78",
+      "size": 5155119,
+      "format": "tar.gz",
+      "binaries": {
+        "wrkflw": {
+          "path": "wrkflw",
+          "sha256": "77468db6c8d0b5999d898b55be8964f03c18e62e5f5e18d4201113f5d20418ee"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bahdotsh/wrkflw/releases/download/v0.8.0/wrkflw-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.0",
+      "sha256": "4ef968a5164402dd8284fe250a363a0a6d2e66e6c1b34f7e27b4b71a2554f369",
+      "size": 5488607,
+      "format": "zip",
+      "binaries": {
+        "wrkflw.exe": {
+          "path": "wrkflw.exe",
+          "sha256": "071b2b2e9c80d5cb9e7b5eefb5218ee74234bbe4d198ed9235d8e8434d5ca0e9"
+        }
+      }
+    }
+  }
+}
