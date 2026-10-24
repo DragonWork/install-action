@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dezoomify-rs",
+  "version": "2.18.1",
+  "repository": "lovasoa/dezoomify-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lovasoa/dezoomify-rs/releases/download/v2.18.1/dezoomify-rs-linux.tgz",
+      "sha256": "ef8964c57b19f583d21abc89baa1cf56e03d7756e844ba7062c4d089dadbc9d1",
+      "size": 6456160,
+      "format": "tar.gz",
+      "releaseTag": "v2.18.1",
+      "binaries": {
+        "dezoomify-rs": {
+          "path": "dezoomify-rs",
+          "sha256": "90d5e7f04bc427660aecc0e69070efd1edbf0eb677a41308d784ae406b654878"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lovasoa/dezoomify-rs/releases/download/v2.18.1/dezoomify-rs-macos.tgz",
+      "sha256": "d1ad426f0d699372d6a7a3baebe6142c4d124c746f0b92cffc51da61a238c2b1",
+      "size": 5790238,
+      "format": "tar.gz",
+      "releaseTag": "v2.18.1",
+      "binaries": {
+        "dezoomify-rs": {
+          "path": "dezoomify-rs",
+          "sha256": "8df35a3f5982a0696c425cf5982d3445d676d20079a09a23321b78303905b8a6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lovasoa/dezoomify-rs/releases/download/v2.18.1/dezoomify-rs.exe",
+      "sha256": "aed4fb2053efe76aacef762ff1defcd38054f5d53440f12f72d228c65e57996b",
+      "size": 15591936,
+      "format": "binary",
+      "releaseTag": "v2.18.1",
+      "binaries": {
+        "dezoomify-rs.exe": {
+          "path": "dezoomify-rs.exe",
+          "sha256": "aed4fb2053efe76aacef762ff1defcd38054f5d53440f12f72d228c65e57996b"
+        }
+      }
+    }
+  }
+}
