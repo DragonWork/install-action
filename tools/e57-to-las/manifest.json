@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "e57-to-las",
+  "version": "0.8.0",
+  "repository": "nivalis-studio/e57-to-las",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nivalis-studio/e57-to-las/releases/download/v0.8.0/e57-to-las-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "b09cb069e2c18bfa6860812cc46ca47c8ccf032846a1329e246d2071780e80cd",
+      "size": 640268,
+      "format": "tar.gz",
+      "binaries": {
+        "e57-to-las": {
+          "path": "e57-to-las",
+          "sha256": "5705c9c913be0a55548d9995480b1b8594677584a35632ab797a619ab93bad94"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nivalis-studio/e57-to-las/releases/download/v0.8.0/e57-to-las-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "b012ac752c7e75717d6818951af62c60565079e8359748b729db98d23902b6af",
+      "size": 573340,
+      "format": "tar.gz",
+      "binaries": {
+        "e57-to-las": {
+          "path": "e57-to-las",
+          "sha256": "43545ee7feaab0f520859835cc92169bb070b042651a7393e5e685cbee76f3fe"
+        }
+      }
+    }
+  }
+}
