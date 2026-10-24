@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "mocks",
+  "version": "1.0.9",
+  "repository": "mocks-rs/mocks",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/mocks-rs/mocks/releases/download/1.0.9/mocks-1.0.9-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "1.0.9",
+      "sha256": "c259de151930959e4254393a819f2de936e99e7722bb3c04c9fead87bcfe131c",
+      "size": 559259,
+      "format": "zip",
+      "binaries": {
+        "mocks.exe": {
+          "path": "mocks.exe",
+          "sha256": "c3c037507f3a7c7fe75ad52f8a9e9d2e0049a31443e9d1c5206514dec228600f"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/mocks-rs/mocks/releases/download/1.0.9/mocks-1.0.9-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "1.0.9",
+      "sha256": "e96ad877a455802a59bfd6078c1afd2c194c2f4b077a41b41e0d563309e83065",
+      "size": 466580,
+      "format": "zip",
+      "binaries": {
+        "mocks.exe": {
+          "path": "mocks.exe",
+          "sha256": "7606f0bd0bb944d669ac4ade2fd824f5f844d18fe4c2d821faccf7cc5a66c9fa"
+        }
+      }
+    }
+  }
+}
