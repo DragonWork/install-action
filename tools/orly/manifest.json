@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "orly",
+  "version": "0.1.7",
+  "repository": "hurlenko/orly",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hurlenko/orly/releases/download/0.1.7/orly-0.1.7-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.1.7",
+      "sha256": "12082469c1c6b0eaafc87b2fd2c0deee63d0a5997dc7659ebf77ae9587f2a79c",
+      "size": 4283956,
+      "format": "tar.gz",
+      "binaries": {
+        "orly": {
+          "path": "orly",
+          "sha256": "118eaf90240a6b78ccd0a476d7d80e17f949cf9dfdde6fe54a7f1ee513853998"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hurlenko/orly/releases/download/0.1.7/orly-0.1.7-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.1.7",
+      "sha256": "2199a83ac54054e4ec9bb936f31d58ac154b3178af540611cef08689c8f4646a",
+      "size": 3464134,
+      "format": "tar.gz",
+      "binaries": {
+        "orly": {
+          "path": "orly",
+          "sha256": "740926c226d872c9c0f56b2cabdd98a205990af279f0ade1cd0ede8d68715f60"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hurlenko/orly/releases/download/0.1.7/orly-0.1.7-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.1.7",
+      "sha256": "8fc2e7d347f04097ef4ecb155f9230aab6182541c072d83bf17290dc405e95f5",
+      "size": 4665807,
+      "format": "zip",
+      "binaries": {
+        "orly.exe": {
+          "path": "orly.exe",
+          "sha256": "134b31b9fdfc97bb30839d4004d12705e835718f9024288c0d441515e1be9a52"
+        }
+      }
+    }
+  }
+}
