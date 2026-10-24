@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "prqlc",
+  "version": "0.13.14",
+  "repository": "PRQL/prql",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/PRQL/prql/releases/download/0.13.14/prqlc-0.13.14-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.13.14",
+      "sha256": "3eef70514df6e13cf157225bb549c651ed32de05e5379b43d5d1c4c02248d53b",
+      "size": 4577838,
+      "format": "tar.gz",
+      "binaries": {
+        "prqlc": {
+          "path": "./prqlc",
+          "sha256": "224ceb9913f16fbe6924c7ff27510e536b0eeae97509f78ed2af54a5cd38a92b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/PRQL/prql/releases/download/0.13.14/prqlc-0.13.14-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.13.14",
+      "sha256": "8b7befd415bd169be83e575ee6988e569fe485150b83b2d76e35d544c81df3dd",
+      "size": 4325908,
+      "format": "tar.gz",
+      "binaries": {
+        "prqlc": {
+          "path": "./prqlc",
+          "sha256": "b250dbd46350da1455b4c1132186bde7d3326031bd27a889b4f67c5419e6bab8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/PRQL/prql/releases/download/0.13.14/prqlc-0.13.14-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.13.14",
+      "sha256": "0719fb2db18ae20cddaf7a1aa753b8d17371f7e74ff466b4dd6190f7356fabcb",
+      "size": 4479338,
+      "format": "tar.gz",
+      "binaries": {
+        "prqlc": {
+          "path": "./prqlc",
+          "sha256": "470b146909d3c367f08b36e9e76daff7c683c0311396067ddee87867c773f475"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/PRQL/prql/releases/download/0.13.14/prqlc-0.13.14-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.13.14",
+      "sha256": "6d9bdfd4681bdfa9981e375be5a87b75a3d6f8d180521b8bd7a7f56307db6687",
+      "size": 4243417,
+      "format": "tar.gz",
+      "binaries": {
+        "prqlc": {
+          "path": "./prqlc",
+          "sha256": "df9a7feea6b99aa9896d2d62b8a8940abfb9279ee2850b7582d1468e7924f3b2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/PRQL/prql/releases/download/0.13.14/prqlc-0.13.14-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.13.14",
+      "sha256": "fa8cb13b3871842c65de5f4101e7371b03191f0ddcb7a9d0c0e5feceff9b3f3c",
+      "size": 3998932,
+      "format": "zip",
+      "binaries": {
+        "prqlc.exe": {
+          "path": "prqlc.exe",
+          "sha256": "4ef3184514ba2f5598e84acc63a7987c2cc5645aa8a4ce09d829fe2214fc6d23"
+        }
+      }
+    }
+  }
+}
