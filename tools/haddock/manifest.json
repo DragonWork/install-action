@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "haddock",
+  "version": "0.2.1",
+  "repository": "seowalex/haddock",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/seowalex/haddock/releases/download/v0.2.1/haddock-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "01883223eaeb51185f8743b61d74e3011a1d3b8783fabe2c7f23eed4e8ab4fb7",
+      "size": 2802838,
+      "format": "tar.gz",
+      "binaries": {
+        "haddock": {
+          "path": "haddock",
+          "sha256": "624c67a848f82402a355534348800289a26374a63c8afd8e55be845fdeed485f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/seowalex/haddock/releases/download/v0.2.1/haddock-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "d6c895a864fe78d180645ca3af77d050e890fa81efed6e8f4523b867805e446f",
+      "size": 4228840,
+      "format": "tar.gz",
+      "binaries": {
+        "haddock": {
+          "path": "haddock",
+          "sha256": "3441f0c5c5271b4a250c1a9a2f8630f14f166d06cf1318a85bb367dca2e4cab3"
+        }
+      }
+    }
+  }
+}
