@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rash_core",
+  "version": "3.0.0",
+  "repository": "rash-sh/rash",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rash-sh/rash/releases/download/v3.0.0/rash-3.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "ad0735a9febb24177f66356ea9474afd61b18bd2823a4bf3dd305523f762a280",
+      "size": 8887292,
+      "format": "tar.gz",
+      "binaries": {
+        "rash": {
+          "path": "rash",
+          "sha256": "b7b9459262a892118cda35b3b4d95bca23cc520c98132a5096a11db475f13a0f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rash-sh/rash/releases/download/v3.0.0/rash-3.0.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "b67f5f363133af3b4ef8715fa6970e076c968a8b7bfaa0ecde45219dbc891fda",
+      "size": 7484529,
+      "format": "tar.gz",
+      "binaries": {
+        "rash": {
+          "path": "rash",
+          "sha256": "e27acd63f6eb9455df9ac477cceeda90e1e8d7a42705d8cf6e3068b9b92ed67b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rash-sh/rash/releases/download/v3.0.0/rash-3.0.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.0.0",
+      "sha256": "dfcf07d34217169c89f28a1f1ee5deb7452121dcfe074c29b3c814b443c6d180",
+      "size": 8914313,
+      "format": "tar.gz",
+      "binaries": {
+        "rash": {
+          "path": "rash",
+          "sha256": "6c519ab76f0b03035c2bae45887ba32da72e72f249fe9137a626a3aaf6f0fd9e"
+        }
+      }
+    }
+  }
+}
