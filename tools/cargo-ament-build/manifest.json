@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-ament-build",
+  "version": "0.1.11",
+  "repository": "ros2-rust/cargo-ament-build",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ros2-rust/cargo-ament-build/releases/download/v0.1.11/cargo-ament-build-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "4486b3f65d20f5f88b039a5f0cca21db603785094d371dc1474dce922d4c53f0",
+      "size": 599216,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-ament-build": {
+          "path": "cargo-ament-build-x86_64-unknown-linux-musl/cargo-ament-build",
+          "sha256": "5c5e16c13dc30e9a927693cb9086ed8e3168e1f7d593a023f1d506cfae3edf09"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ros2-rust/cargo-ament-build/releases/download/v0.1.11/cargo-ament-build-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "a84fb5e9120b00d824dfcd7a4963b7c15217b5d79c939cf6df5c9fad9e74f7c1",
+      "size": 541792,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-ament-build": {
+          "path": "cargo-ament-build-aarch64-unknown-linux-musl/cargo-ament-build",
+          "sha256": "57054f55fd9a2a6da864cfd3006b1b206f6ca137aba7c7c5623cc18c588d1667"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ros2-rust/cargo-ament-build/releases/download/v0.1.11/cargo-ament-build-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "f39a17bf2ca03cc0b81694db64122bde1153b27dba89414fd7c011ff30b410bb",
+      "size": 517056,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-ament-build": {
+          "path": "cargo-ament-build-x86_64-apple-darwin/cargo-ament-build",
+          "sha256": "33b933d28124c00c8fcc692bf89bfe37e23483710371ace3328e155159204432"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ros2-rust/cargo-ament-build/releases/download/v0.1.11/cargo-ament-build-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "59e5433757cd9f29cb174499e349ab84c1f8985b6116c4f600fe8b1488adc56d",
+      "size": 464140,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-ament-build": {
+          "path": "cargo-ament-build-aarch64-apple-darwin/cargo-ament-build",
+          "sha256": "6dee38412adbfa049f843bbf8c5124fa6b147771abaec4c53c7d0357e699ae17"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ros2-rust/cargo-ament-build/releases/download/v0.1.11/cargo-ament-build-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.11",
+      "sha256": "76e7f0ea698f71a5d496e83d4ac1d5c3b1456c974d2530201cab58e6b4cfbc5c",
+      "size": 637817,
+      "format": "zip",
+      "binaries": {
+        "cargo-ament-build.exe": {
+          "path": "cargo-ament-build.exe",
+          "sha256": "cf1d47ff5f94a4ee7a98b48c2142f48df853b4e5c6ff63e57f00c84b0340c811"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ros2-rust/cargo-ament-build/releases/download/v0.1.11/cargo-ament-build-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.11",
+      "sha256": "872d1fd642ad8680e1f9df81a64b2d6408e849e6d41f7d6d0acd0a805916da2e",
+      "size": 628553,
+      "format": "zip",
+      "binaries": {
+        "cargo-ament-build.exe": {
+          "path": "cargo-ament-build.exe",
+          "sha256": "39baddf75f59d304e0af4ad037a5513411b11b95356e66dfa8f4aa3e45177b24"
+        }
+      }
+    }
+  }
+}
