@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tru",
+  "version": "0.2.5",
+  "repository": "Dicklesworthstone/toon_rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Dicklesworthstone/toon_rust/releases/download/v0.2.5/toon-linux-amd64.tar.xz",
+      "releaseTag": "v0.2.5",
+      "sha256": "585dcae65d56a30f93ce06cf4952ce60b94d45a7808a223241eff7bb9100ecc7",
+      "size": 327372,
+      "format": "tar.xz",
+      "binaries": {
+        "toon": {
+          "path": "toon",
+          "sha256": "2c0ddf0cae4a6cd64e119ff79c16009b891afb8283a54aa5d1f2cbeee8f314b3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Dicklesworthstone/toon_rust/releases/download/v0.2.5/toon-linux-arm64.tar.xz",
+      "releaseTag": "v0.2.5",
+      "sha256": "c593477387d0381ad8cb00aaf3e94dfce7840f515a0e4ae1c064badc0fd182f2",
+      "size": 281212,
+      "format": "tar.xz",
+      "binaries": {
+        "toon": {
+          "path": "toon",
+          "sha256": "0755cf7e77861647ea8ae712cb69b27ada206b8bf430991de6925142a98bdc40"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Dicklesworthstone/toon_rust/releases/download/v0.2.5/toon-darwin-amd64.tar.xz",
+      "releaseTag": "v0.2.5",
+      "sha256": "52dea87af5f6665b776eb1ebb302b4c8e896acc653ecdf6fe7400ab71df5b66f",
+      "size": 270352,
+      "format": "tar.xz",
+      "binaries": {
+        "toon": {
+          "path": "toon",
+          "sha256": "284536bd5468aa79d6ea77d77d7fed89f0596ec7825cfc98493e2ba9f8223029"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Dicklesworthstone/toon_rust/releases/download/v0.2.5/toon-darwin-arm64.tar.xz",
+      "releaseTag": "v0.2.5",
+      "sha256": "901662e3a07ddb4c31507ad750ddd0ab413e100c980d4ae86f0ecd9c645db49f",
+      "size": 240628,
+      "format": "tar.xz",
+      "binaries": {
+        "toon": {
+          "path": "toon",
+          "sha256": "aea7b48d25ff26744dd20c7658022107895c051bb537e6ab2dd3dbde52d627a7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Dicklesworthstone/toon_rust/releases/download/v0.2.5/toon-windows-amd64.zip",
+      "releaseTag": "v0.2.5",
+      "sha256": "69e19e85a3dbb7ed92084a280f34fec65c881caeb4c1e8ab97dcd940a5405518",
+      "size": 251608,
+      "format": "zip",
+      "binaries": {
+        "toon.exe": {
+          "path": "toon.exe",
+          "sha256": "d7225116e623884feff5b6d35f6e52fb05def012d3a39f10a727705e175ecdcc"
+        }
+      }
+    }
+  }
+}
