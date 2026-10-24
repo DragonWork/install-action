@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "stegano-cli",
+  "version": "0.6.1",
+  "repository": "steganogram/stegano-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/steganogram/stegano-rs/releases/download/stegano-cli-v0.6.1/stegano-stegano-cli-v0.6.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "stegano-cli-v0.6.1",
+      "sha256": "79310a92d451c3f34bbb436adae20089ef520ecc15373034353dfe03f1c9298f",
+      "size": 1491415,
+      "format": "tar.gz",
+      "binaries": {
+        "stegano": {
+          "path": "stegano",
+          "sha256": "5ef26587faeff4b0585bb79f136c11fc49bef28a15916e5fd8488f7e26451ec1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/steganogram/stegano-rs/releases/download/stegano-cli-v0.6.1/stegano-stegano-cli-v0.6.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "stegano-cli-v0.6.1",
+      "sha256": "9ab9c2ef67a4057769a11ca89eef9dd0549b40d31f386978cb7f15f9d03a81e2",
+      "size": 1367447,
+      "format": "tar.gz",
+      "binaries": {
+        "stegano": {
+          "path": "stegano",
+          "sha256": "d2ff0b13817b5d6bd6f1a0572eb20942b79db07c3cdedc3e5c97afbca404d7ef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/steganogram/stegano-rs/releases/download/stegano-cli-v0.6.1/stegano-stegano-cli-v0.6.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "stegano-cli-v0.6.1",
+      "sha256": "8f3fd7322df9257eb16c9ad3c2e5a7e4e180d91060950c7ba2fd5267c4638e6a",
+      "size": 1392086,
+      "format": "tar.gz",
+      "binaries": {
+        "stegano": {
+          "path": "stegano",
+          "sha256": "369a1a4ebedc8eb2de813c2c8195272d27dfc983e12b7eb25c5f77360fdc9998"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/steganogram/stegano-rs/releases/download/stegano-cli-v0.6.1/stegano-stegano-cli-v0.6.1-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "stegano-cli-v0.6.1",
+      "sha256": "e05e805a3674e4b9d63d0fa3d0a176bedd0c27183b1179226a9865c2055f82bb",
+      "size": 1275273,
+      "format": "tar.gz",
+      "binaries": {
+        "stegano.exe": {
+          "path": "stegano.exe",
+          "sha256": "8aca47bc22b45db4e7652b8e675d50bfd70e02d7635afc205403bc728eb1f795"
+        }
+      }
+    }
+  }
+}
