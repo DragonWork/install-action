@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "openfare-js",
+  "version": "0.6.2",
+  "repository": "openfare/openfare-js",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/openfare/openfare-js/releases/download/v0.6.2/openfare-js-v0.6.2-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.6.2",
+      "sha256": "bb3dd512b1672ae22fb3e073a57fbaf81dd7c62797d37f179e118a62698f4cab",
+      "size": 5045370,
+      "format": "zip",
+      "binaries": {
+        "openfare-js": {
+          "path": "openfare-js",
+          "sha256": "8c85bbb8c92b5f301097b6d62c1f7cc2c2e24097557aab2f518a04d1ec57baf4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/openfare/openfare-js/releases/download/v0.6.2/openfare-js-v0.6.2-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.6.2",
+      "sha256": "46b949c94c5ffc669e3700c29cc1ad93c3a5a7215751fb8957b093f831353b45",
+      "size": 2319044,
+      "format": "zip",
+      "binaries": {
+        "openfare-js": {
+          "path": "openfare-js",
+          "sha256": "26e54b47417a1dac6e3df3e35eda086b91b46a1ed80a5527581273a00d482e27"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/openfare/openfare-js/releases/download/v0.6.2/openfare-js-v0.6.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.2",
+      "sha256": "af0fad0335db2316f7c64b54360c9ae7aa608214876f321847df908ff358d215",
+      "size": 1994226,
+      "format": "zip",
+      "binaries": {
+        "openfare-js.exe": {
+          "path": "openfare-js.exe",
+          "sha256": "1bf93590ec4ee7d7d1fde975a53e854bf621073a97c2bd6a6ee8ca3032749f90"
+        }
+      }
+    }
+  }
+}
