@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "safecloset",
+  "version": "1.5.0",
+  "repository": "Canop/safecloset",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/Canop/safecloset/releases/download/v1.5.0/safecloset_1.5.0.zip",
+      "sha256": "285eaa835397f8567304d6230a45129ea480acccb246ee04d878ff1a9d00c997",
+      "size": 7799678,
+      "format": "zip",
+      "releaseTag": "v1.5.0",
+      "binaries": {
+        "safecloset": {
+          "path": "build/aarch64-apple-darwin/safecloset",
+          "sha256": "ed75adc57980801ddb92405396540299cc2c738134c98b51b2188aa0a8d1c558"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Canop/safecloset/releases/download/v1.5.0/safecloset_1.5.0.zip",
+      "sha256": "285eaa835397f8567304d6230a45129ea480acccb246ee04d878ff1a9d00c997",
+      "size": 7799678,
+      "format": "zip",
+      "releaseTag": "v1.5.0",
+      "binaries": {
+        "safecloset.exe": {
+          "path": "build/x86_64-pc-windows-gnu/safecloset.exe",
+          "sha256": "653015686446fd4d655a492bda1a6f85eca2e9a528b3c1e876bf22ae11954d38"
+        }
+      }
+    }
+  }
+}
