@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "forc-migrate",
+  "version": "0.72.1",
+  "repository": "FuelLabs/sway",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "1d90387e69ccce595c552654316318975525e89a6d30f86580886aedb1cef517",
+      "size": 78395148,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-migrate": {
+          "path": "./forc-binaries/forc-migrate",
+          "sha256": "8f6b3fcc028ba32a5e2d6c5c1200317f4a5e9362302962393e5c21637643df80"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "8eabdb0a1487b6ec96fa94acbf861f5034084dbf9a2503c47190dc86f3f615fe",
+      "size": 74480414,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-migrate": {
+          "path": "./forc-binaries/forc-migrate",
+          "sha256": "ef0f3453a2a5e24fdfbb77c7b416d93bb6bd6e103330d63f5b29bdf5b36e28f9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "c80ae1cc740f2418c308e2398162c6f051585d7ab81fc2d970a6b16a146b05b3",
+      "size": 78364396,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-migrate": {
+          "path": "./forc-binaries/forc-migrate",
+          "sha256": "fbf3c6c77457f723366045d51d7e644cb9249161740ee4eaea6cb7d217a909d2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "11f122e1c86927de13e6dd719946571e65bcfa0a1467507efbd6676f7c33fa0d",
+      "size": 74199231,
+      "format": "tar.gz",
+      "binaries": {
+        "forc-migrate": {
+          "path": "./forc-binaries/forc-migrate",
+          "sha256": "fc6c72ff17cfd191b2560f254665d82df35221d5badb5409342d2cd481fff3d5"
+        }
+      }
+    }
+  }
+}
