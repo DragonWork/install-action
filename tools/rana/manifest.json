@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rana",
+  "version": "0.5.5",
+  "repository": "grunch/rana",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/grunch/rana/releases/download/v0.5.5/rana-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.5",
+      "sha256": "2ce9a2de7aed2d5257d7a45c0f3cee4c58cd4f5366391b28626bc72a646a0a5b",
+      "size": 1140697,
+      "format": "tar.gz",
+      "binaries": {
+        "rana": {
+          "path": "x86_64-unknown-linux-musl/rana",
+          "sha256": "3ab4269140f5aec6ccb14c27d0a1b825a8d85c27ae07721de12e04f9620bae5e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/grunch/rana/releases/download/v0.5.5/rana-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.5",
+      "sha256": "518cad7ad41061b6dc6a51d12dbdc14243b9131bad60419012e7502500bf68ae",
+      "size": 1033143,
+      "format": "tar.gz",
+      "binaries": {
+        "rana": {
+          "path": "aarch64-unknown-linux-musl/rana",
+          "sha256": "8c20bd6b54765167b8e6bf23dd675cd92363009d08eddd7a5339b499ae7408a5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/grunch/rana/releases/download/v0.5.5/rana-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "v0.5.5",
+      "sha256": "29e58d02a3500d957a4dca8445cced01e2e3b8316f2811b6777120e5728e0e14",
+      "size": 2130917,
+      "format": "tar.gz",
+      "binaries": {
+        "rana.exe": {
+          "path": "x86_64-pc-windows-gnu/rana.exe",
+          "sha256": "cbe4e0da263772d2292f8c4bb95f70d685ab8662872bd6d88557c0258f9f5531"
+        }
+      }
+    }
+  }
+}
