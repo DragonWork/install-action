@@ -168,10 +168,11 @@ test('partial API failures remain retryable instead of becoming missing releases
   global.fetch = async () => Response.json({ data: { r0: null, rateLimit: { remaining: 900 } }, errors: [{
     type: 'NOT_FOUND', message: 'Could not resolve to a Repository', path: ['r0'],
   }] });
-  await probeReleases(catalog, state, {});
-  assert.equal(state.cli.retryable, undefined);
-  assert.match(state.cli.reason, /No public upstream/);
-  assert.equal(catalogProgress(catalog, state, {}).remaining, 0);
+  const missing = {};
+  await probeReleases(catalog, missing, {});
+  assert.equal(missing.cli.retryable, undefined);
+  assert.match(missing.cli.reason, /No public upstream/);
+  assert.equal(catalogProgress(catalog, missing, {}).remaining, 0);
 });
 
 test('large discovery sets use bounded queries instead of exceeding GitHub resource limits', async t => {
