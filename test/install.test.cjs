@@ -8,7 +8,7 @@ const os = require('node:os');
 const { download, validateManifest, ownedDirectory, writeCommand, sha256, archivePath } = require('../lib/common.cjs');
 const { install, main } = require('../lib/install.cjs');
 const { checkYanked } = require('../lib/yank.cjs');
-const { sample, tar } = require('./fixtures.cjs');
+const { sample, tar, ar } = require('./fixtures.cjs');
 
 async function temporary(t) {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-test-'));
@@ -49,6 +49,37 @@ test('relative archive prefixes work without permitting parent traversal', async
   assert.deepEqual(await fs.readFile(path.join(result.bin, 'sample-cli')), binary);
   assert.equal(archivePath('./../escape'), false);
   assert.equal(archivePath('.//absolute'), false);
+});
+
+test('Debian packages install only the pinned binary without running package scripts', async t => {
+  const root = await temporary(t);
+  const { manifest, binary } = sample();
+  const bytes = ar({
+    'debian-binary': Buffer.from('2.0\n'),
+    'control.tar.gz': tar({ postinst: '#!/bin/sh\nexit 99\n' }),
+    'data.tar.gz': tar({ './usr/bin/sample-cli': binary }),
+  });
+  const artifact = manifest.artifacts['linux-x64'];
+  Object.assign(artifact, { format: 'deb', sha256: sha256(bytes), size: bytes.length });
+  artifact.binaries['sample-cli'].path = './usr/bin/sample-cli';
+  const result = await install(manifest, root, { platform: 'linux-x64', fetcher: async () => new Response(bytes) });
+  assert.deepEqual(await fs.readFile(path.join(result.bin, 'sample-cli')), binary);
+  assert.deepEqual(await fs.readdir(path.dirname(result.bin)), ['bin']);
+  const broken = bytes.subarray(0, bytes.length - 1);
+  Object.assign(artifact, { sha256: sha256(broken), size: broken.length });
+  await assert.rejects(install(manifest, root, { platform: 'linux-x64', fetcher: async () => new Response(broken) }), /Truncated Debian/);
+});
+
+test('namespaced and zero-patch upstream tags keep the exact crate version', () => {
+  const { manifest } = sample();
+  const artifact = manifest.artifacts['linux-x64'];
+  for (const tag of ['sample-cli/v1.0.0', 'sample-cli@1.0.0', 'v1.0']) {
+    artifact.releaseTag = tag;
+    artifact.url = `https://github.com/example/sample-cli/releases/download/${encodeURIComponent(tag)}/sample-cli.tar.gz`;
+    assert.equal(validateManifest(manifest).version, '1.0.0');
+  }
+  artifact.releaseTag = 'sample-cli/v2.0.0';
+  assert.throws(() => validateManifest(manifest), /release tag/);
 });
 
 test('an archive checksum failure never installs an executable', async t => {

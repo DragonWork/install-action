@@ -11,7 +11,8 @@ const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget
   generate, planUpdate } = require('../scripts/update-tools.cjs');
 const { main: publishTools } = require('../scripts/publish-tools.cjs');
 const { publish: publishHistorical } = require('../scripts/backfill-version.cjs');
-const { sample } = require('./fixtures.cjs');
+const { sample, executable, universal, tar } = require('./fixtures.cjs');
+const { binaryPlatforms } = require('../scripts/binaries.cjs');
 
 test('crate wrappers call the selected engine without embedding its version', () => {
   const text = wrapper('cargo_example');
@@ -25,6 +26,8 @@ test('release selection compares semantic versions and constrains repository URL
   assert(compareVersions('2.10.0', '3.0.0') < 0);
   assert.equal(repositoryOf('https://github.com/orhun/git-cliff.git'), 'orhun/git-cliff');
   assert.equal(repositoryOf('https://github.com.evil.test/orhun/git-cliff'), undefined);
+  assert.equal(repositoryOf('https://github.com/example/project/tree/main/crates/cli'), 'example/project');
+  assert.equal(repositoryOf('https://github.com/example/project?url=other'), undefined);
 });
 
 test('publication batches leave room for API checks and priority lookups', () => {
@@ -58,6 +61,66 @@ test('multiple release variants select the ordinary package and platform archive
   assert.deepEqual(assetCandidates(assets(['tool-x86_64-linux-android.tar.gz']), 'linux-x64', 'tool', ['tool']), []);
   assert.equal(select('android-tools', ['android-tools-x86_64-unknown-linux-musl.tar.gz']),
     'android-tools-x86_64-unknown-linux-musl.tar.gz');
+  assert.equal(select('tool', ['tool-linux-1.0.0.tgz']), 'tool-linux-1.0.0.tgz');
+  assert.equal(select('tool', ['tool-macos-1.0.0.tgz'], 'darwin-arm64'), 'tool-macos-1.0.0.tgz');
+  assert.equal(select('tool', ['tool_1.0.0_amd64.deb']), 'tool_1.0.0_amd64.deb');
+  assert.equal(assetFormat('tool-x86_64-unknown-linux-musl'), 'binary');
+  assert.equal(assetFormat('tool-linux'), 'binary');
+  assert.equal(assetFormat('tool-linux.sha256'), null);
+  for (const [extension, format] of Object.entries({ tbz2: 'tar.bz2', 'tar.bz': 'tar.bz2', txz: 'tar.xz', tzst: 'tar.zst', tzstd: 'tar.zst', tar: 'tar' })) {
+    assert.equal(assetFormat(`tool-linux-x64.${extension}`), format);
+  }
+  assert.deepEqual(assetCandidates(assets(['tool-armv7-linux.tar.gz']), 'linux-x64', 'tool', ['tool']), []);
+});
+
+test('native headers determine supported CPUs, including both universal macOS slices', () => {
+  for (const platform of ['linux-x64', 'linux-arm64', 'darwin-x64', 'darwin-arm64', 'win32-x64', 'win32-arm64']) {
+    assert.deepEqual(binaryPlatforms(executable(platform)), [platform]);
+  }
+  for (const wide of [false, true]) assert.deepEqual(binaryPlatforms(universal(wide)), ['darwin-x64', 'darwin-arm64']);
+  const truncated = universal();
+  truncated.writeUInt32BE(truncated.length + 1, 16);
+  assert.deepEqual(binaryPlatforms(truncated), []);
+  const object = executable('linux-x64');
+  object.writeUInt16LE(1, 16);
+  assert.deepEqual(binaryPlatforms(object), []);
+  assert.deepEqual(binaryPlatforms(Buffer.from('cafebabe00000034', 'hex')), []);
+  assert.equal(nativeBinary(executable('linux-arm64'), 'linux-x64'), false);
+});
+
+test('unlabelled CPUs and optional binaries are resolved from executable contents', async t => {
+  const original = global.fetch;
+  t.after(() => { global.fetch = original; });
+  const data = new Map([
+    ['sample-cli-linux-1.0.0.tgz', tar({ 'sample-cli': executable('linux-x64') })],
+    ['sample-cli-macos-1.0.0.tgz', tar({ 'sample-cli': universal() })],
+  ]);
+  let downloads = 0;
+  global.fetch = async url => {
+    downloads++;
+    return new Response(data.get(url.split('/').at(-1)));
+  };
+  const release = { repository: 'example/sample-cli', tag_name: 'v1.0.0', assets: [...data].map(([name, bytes]) => ({
+    name, state: 'uploaded', size: bytes.length, browser_download_url: `https://github.com/example/sample-cli/releases/download/v1.0.0/${name}`,
+  })) };
+  const record = { downloads: 10000, version: '1.0.0', repository: 'https://github.com/example/sample-cli', binaries: ['sample-cli', 'optional-server'] };
+  const { manifest } = await generate('sample-cli', null, { record, release });
+  assert.deepEqual(Object.keys(manifest.artifacts), ['linux-x64', 'darwin-x64', 'darwin-arm64']);
+  assert.deepEqual(Object.keys(manifest.artifacts['linux-x64'].binaries), ['sample-cli']);
+  assert.equal(downloads, 2);
+  assert.equal(manifest.artifacts['darwin-x64'].sha256, manifest.artifacts['darwin-arm64'].sha256);
+});
+
+test('a misleading CPU filename cannot publish the wrong architecture', async t => {
+  const original = global.fetch;
+  t.after(() => { global.fetch = original; });
+  const bytes = executable('linux-arm64');
+  global.fetch = async () => new Response(bytes);
+  await assert.rejects(generate('sample-cli', null, {
+    record: { downloads: 10000, version: '1.0.0', repository: 'https://github.com/example/sample-cli', binaries: ['sample-cli'] },
+    release: { repository: 'example/sample-cli', tag_name: 'v1.0.0', assets: [{ name: 'sample-cli-linux-x64', state: 'uploaded',
+      size: bytes.length, browser_download_url: 'https://github.com/example/sample-cli/releases/download/v1.0.0/sample-cli-linux-x64' }] },
+  }), /No prebuilt platform artifacts/);
 });
 
 test('bulk discovery batches release lookups and records unavailable repositories', async t => {
@@ -87,7 +150,7 @@ test('bulk discovery batches release lookups and records unavailable repositorie
 test('renamed repositories and canonical capitalization produce valid manifests', async t => {
   const original = global.fetch;
   t.after(() => { global.fetch = original; });
-  const binary = Buffer.concat([Buffer.from([127, 69, 76, 70]), Buffer.alloc(60)]);
+  const binary = executable('linux-x64');
   const url = 'https://github.com/Canonical/sample-cli/releases/download/v1.0.0/sample-cli_linux_x64_bin';
   const release = { tag_name: 'v1.0.0', draft: false, prerelease: false, assets: [{
     name: 'sample-cli_linux_x64_bin', browser_download_url: url, size: binary.length, state: 'uploaded',

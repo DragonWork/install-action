@@ -41,4 +41,52 @@ function sample() {
   return { binary, archive, manifest, fetcher };
 }
 
-module.exports = { tar, sample };
+function executable(platform) {
+  const bytes = Buffer.alloc(128);
+  if (platform.startsWith('linux-')) {
+    bytes.set([127, 69, 76, 70, 2, 1, 1]);
+    bytes.writeUInt16LE(2, 16);
+    bytes.writeUInt16LE(platform.endsWith('x64') ? 62 : 183, 18);
+  } else if (platform.startsWith('darwin-')) {
+    bytes.set([207, 250, 237, 254]);
+    bytes.writeUInt32LE(platform.endsWith('x64') ? 0x1000007 : 0x100000c, 4);
+    bytes.writeUInt32LE(2, 12);
+  } else {
+    bytes.write('MZ');
+    bytes.writeUInt32LE(64, 60);
+    bytes.write('PE\0\0', 64);
+    bytes.writeUInt16LE(platform.endsWith('x64') ? 0x8664 : 0xaa64, 68);
+    bytes.writeUInt16LE(2, 86);
+  }
+  return bytes;
+}
+
+function universal(wide = false) {
+  const width = wide ? 32 : 20, start = 8 + width * 2;
+  const bytes = Buffer.alloc(start + 256);
+  bytes.writeUInt32BE(wide ? 0xcafebabf : 0xcafebabe, 0);
+  bytes.writeUInt32BE(2, 4);
+  for (const [index, platform] of ['darwin-x64', 'darwin-arm64'].entries()) {
+    const entry = 8 + width * index, offset = start + index * 128;
+    bytes.writeUInt32BE(index ? 0x100000c : 0x1000007, entry);
+    if (wide) {
+      bytes.writeBigUInt64BE(BigInt(offset), entry + 8);
+      bytes.writeBigUInt64BE(128n, entry + 16);
+    } else {
+      bytes.writeUInt32BE(offset, entry + 8);
+      bytes.writeUInt32BE(128, entry + 12);
+    }
+    executable(platform).copy(bytes, offset);
+  }
+  return bytes;
+}
+
+function ar(files) {
+  return Buffer.concat([Buffer.from('!<arch>\n'), ...Object.entries(files).flatMap(([name, bytes]) => [
+    Buffer.from(name.padEnd(16) + '0'.padEnd(12) + '0'.padEnd(6) + '0'.padEnd(6)
+      + '100644'.padEnd(8) + String(bytes.length).padEnd(10) + '`\n'),
+    bytes, Buffer.alloc(bytes.length % 2, 10),
+  ])]);
+}
+
+module.exports = { tar, sample, executable, universal, ar };

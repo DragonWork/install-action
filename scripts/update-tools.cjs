@@ -3,13 +3,11 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const os = require('node:os');
-const { execFile } = require('node:child_process');
-const { promisify } = require('node:util');
-const execute = promisify(execFile);
 const { assert, NAME, VERSION, sha256, download, extractBinary, archivePath, validateManifest,
-  writeCommand, failure } = require('../lib/common.cjs');
+  archiveEntries, releaseTags, writeCommand, failure } = require('../lib/common.cjs');
 const { api } = require('./github.cjs');
 const { popularity } = require('./popularity.cjs');
+const { nativeBinary, binaryPlatforms } = require('./binaries.cjs');
 
 const TARGETS = {
   'linux-x64': ['x86_64-unknown-linux-musl', 'x86_64-unknown-linux-gnu'],
@@ -19,22 +17,20 @@ const TARGETS = {
   'win32-x64': ['x86_64-pc-windows-msvc', 'x86_64-pc-windows-gnu'],
   'win32-arm64': ['aarch64-pc-windows-msvc'],
 };
-const RESOLVER_REVISION = 2;
+const RESOLVER_REVISION = 3;
 
-function assetFormat(name) {
+function assetFormat(name, binaries = []) {
   if (name.endsWith('.zip')) return 'zip';
-  if (name.endsWith('.tar.xz')) return 'tar.xz';
-  if (name.endsWith('.tar.zst')) return 'tar.zst';
+  if (/\.(tar\.xz|txz)$/.test(name)) return 'tar.xz';
+  if (/\.(tar\.zst|tzst|tzstd)$/.test(name)) return 'tar.zst';
+  if (/\.(tar\.bz2?|tbz2?)$/.test(name)) return 'tar.bz2';
   if (/\.(tar\.gz|tgz)$/.test(name)) return 'tar.gz';
+  if (name.endsWith('.tar')) return 'tar';
+  if (name.endsWith('.deb')) return 'deb';
   if (!/installer|setup/i.test(name) && /(?:\.exe|[_.]bin)$/i.test(name)) return 'binary';
+  if (!/installer|setup/i.test(name) && !/\.[a-z][a-z0-9]*$/i.test(name)
+    && (binaries.includes(name) || /(?:^|[-_.])(?:linux|darwin|macos|osx|windows|win32|win64)(?:[-_.]|$)/i.test(name))) return 'binary';
   return null;
-}
-
-function nativeBinary(bytes, platform) {
-  if (bytes.length < 32) return false;
-  if (platform.startsWith('linux-')) return bytes.subarray(0, 4).equals(Buffer.from([127, 69, 76, 70]));
-  if (platform.startsWith('win32-')) return bytes.subarray(0, 2).toString() === 'MZ';
-  return ['cffaedfe', 'feedfacf', 'cafebabe', 'bebafeca', 'cafebabf', 'bfbafeca'].includes(bytes.subarray(0, 4).toString('hex'));
 }
 
 function assetCandidates(assets, platform, name, binaries) {
@@ -46,17 +42,23 @@ function assetCandidates(assets, platform, name, binaries) {
       : /(?:^|[-_.])(windows|win32|win64)(?:[-_.]|$)/i;
   const names = [...new Set([name, ...binaries])];
   const prefix = asset => names.some(binary => asset.name.startsWith(binary + '-')
-    || asset.name.startsWith(binary + '_') || asset.name.startsWith(binary + '.')) ? 0 : 1;
-  const order = platform.startsWith('win32-') ? ['zip', 'tar.gz', 'tar.xz', 'tar.zst', 'binary']
-    : ['tar.gz', 'tar.xz', 'tar.zst', 'zip', 'binary'];
+    || asset.name.startsWith(binary + '_') || asset.name.startsWith(binary + '.') || asset.name === binary) ? 0 : 1;
+  const explicitArch = /(?:^|[-_.])(?:x86_64|amd64|x64|aarch64|arm64|armv[0-9a-z]*|arm|i[3-6]86|x86|ppc[0-9a-z]*|powerpc[0-9a-z]*|s390x|riscv[0-9a-z]*|mips[0-9a-z]*|loongarch[0-9a-z]*)(?:[-_.]|$)/i;
+  const explicitOS = /(?:^|[-_.])(?:linux|darwin|macos|osx|windows|win32|win64|freebsd|openbsd|netbsd|android|ios|tvos|watchos|illumos|solaris|wasm32|wasm64)(?:[-_.]|$)/i;
+  const order = platform.startsWith('win32-') ? ['zip', 'tar.gz', 'tar.xz', 'tar.zst', 'tar.bz2', 'tar', 'binary']
+    : ['tar.gz', 'tar.xz', 'tar.zst', 'zip', 'tar.bz2', 'tar', 'deb', 'binary'];
   const rank = asset => {
     const target = targets.findIndex(value => asset.name.includes(value));
     return target >= 0 ? target : targets.length;
   };
-  const stem = asset => asset.name.replace(/\.(?:tar\.(?:gz|xz|zst)|tgz|zip|exe)$/, '');
-  return assets.filter(asset => asset.state === 'uploaded' && assetFormat(asset.name)
+  const stem = asset => asset.name.replace(/\.(?:tar(?:\.(?:gz|xz|zst|bz2?))?|tgz|txz|tzst|tzstd|tbz2?|zip|exe|deb)$/, '');
+  return assets.filter(asset => asset.state === 'uploaded' && assetFormat(asset.name, binaries)
     && !/linux[-_.](?:android|androideabi)(?:[-_.]|$)/i.test(asset.name)
-    && (targets.some(target => asset.name.includes(target)) || (arch.test(asset.name) && os.test(asset.name))))
+    && (targets.some(target => asset.name.includes(target)) || (
+      (!explicitArch.test(asset.name) || arch.test(asset.name))
+      && (os.test(asset.name) || (asset.name.endsWith('.deb') && platform.startsWith('linux-'))
+        || (asset.name.endsWith('.exe') && platform.startsWith('win32-'))
+        || (!explicitOS.test(asset.name) && !/\.(?:deb|exe)$/.test(asset.name) && prefix(asset) === 0)))))
     .sort((a, b) => rank(a) - rank(b) || prefix(a) - prefix(b)
       || Number(assetFormat(a.name) === 'binary') - Number(assetFormat(b.name) === 'binary')
       || stem(a).length - stem(b).length
@@ -90,7 +92,7 @@ async function probeReleases(catalog, state, current, limit = 2000) {
     const block = requests.slice(offset, offset + 50);
     const fields = block.map(({ name, entry, repository }, index) => {
       const [owner, repo] = repository.split('/');
-      const tags = [`v${entry.version}`, `${name}-v${entry.version}`, `${name}-${entry.version}`, entry.version];
+      const tags = releaseTags(name, entry.version);
       return `r${index}: repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(repo)}) { nameWithOwner ` +
         tags.map((tag, j) => `t${j}: release(tagName:${JSON.stringify(tag)}) {
           tagName isDraft isPrerelease releaseAssets(first:100) { nodes { name downloadUrl size digest } }
@@ -112,10 +114,10 @@ async function probeReleases(catalog, state, current, limit = 2000) {
       const upstream = response.data[`r${index}`];
       const releases = Object.entries(upstream || {}).filter(([key, value]) => /^t\d+$/.test(key) && value).map(([, value]) => value);
       const found = releases.find(r => !r.isDraft && !r.isPrerelease
-        && r.releaseAssets.nodes.some(a => assetFormat(a.name)));
+        && r.releaseAssets.nodes.some(a => assetFormat(a.name, entry.binaries)));
       state[name] = { version: entry.version, resolverRevision: RESOLVER_REVISION, retryAfter, ...(found ? { release: {
         repository: upstream.nameWithOwner, tag_name: found.tagName,
-        assets: found.releaseAssets.nodes.filter(a => assetFormat(a.name)).map(a => ({ name: a.name,
+        assets: found.releaseAssets.nodes.filter(a => assetFormat(a.name, entry.binaries)).map(a => ({ name: a.name,
           browser_download_url: a.downloadUrl, size: a.size, digest: a.digest, state: 'uploaded' })),
       } } : { reason: 'No matching upstream binary release.' }) };
     }
@@ -171,7 +173,7 @@ async function cratesApi(endpoint) {
 }
 
 function repositoryOf(value) {
-  const match = /^https:\/\/github\.com\/([a-zA-Z0-9_.-]+\/[a-zA-Z0-9_.-]+?)(?:\.git)?\/?$/.exec(value || '');
+  const match = /^https:\/\/github\.com\/([a-zA-Z0-9_.-]+\/[a-zA-Z0-9_.-]+?)(?:\.git)?\/?(?:\/(?:tree|blob)\/[a-zA-Z0-9_.\/-]+)?$/.exec(value || '');
   return match?.[1];
 }
 
@@ -186,45 +188,58 @@ async function canonicalRepository(repository) {
   return canonical;
 }
 
+async function inspectAsset(asset, binaries, temporary) {
+  const format = assetFormat(asset.name, binaries);
+  const expected = /^sha256:[a-f0-9]{64}$/.test(asset.digest || '') ? asset.digest.slice(7) : undefined;
+  const bytes = await download(asset.browser_download_url, { expected, size: asset.size });
+  const files = [];
+  if (format === 'binary') {
+    const matches = binaries.filter(binary => asset.name === binary || asset.name.startsWith(binary + '-')
+      || asset.name.startsWith(binary + '_') || asset.name.startsWith(binary + '.')).sort((a, b) => b.length - a.length);
+    const binary = matches[0] || (binaries.length === 1 ? binaries[0] : null);
+    if (binary) files.push({ name: binary, path: asset.name, sha256: sha256(bytes), platforms: binaryPlatforms(bytes) });
+  } else {
+    const archive = path.join(temporary, `asset-${sha256(bytes)}.${format}`);
+    await fs.writeFile(archive, bytes, { flag: 'wx' });
+    try {
+      const paths = await archiveEntries(archive, format);
+      for (const binary of binaries) {
+        const matches = paths.filter(member => archivePath(member)
+          && [binary, binary + '.exe'].includes(path.posix.basename(member)));
+        for (const member of matches) {
+          const executable = await extractBinary(archive, { format, executable: member });
+          files.push({ name: binary, path: member, sha256: sha256(executable), platforms: binaryPlatforms(executable) });
+        }
+      }
+    } finally { await fs.unlink(archive); }
+  }
+  return { url: asset.browser_download_url, sha256: sha256(bytes), size: bytes.length, format, files };
+}
+
 async function prebuilts(name, version, repository, binaries, temporary, knownRelease) {
   if (!repository) return {};
   let release = knownRelease;
-  for (const tag of knownRelease ? [] : [`v${version}`, `${name}-v${version}`, `${name}-${version}`, version]) {
-    release = await api(`/repos/${repository}/releases/tags/${tag}`, { optional: true });
+  for (const tag of knownRelease ? [] : releaseTags(name, version)) {
+    release = await api(`/repos/${repository}/releases/tags/${encodeURIComponent(tag)}`, { optional: true });
     if (release && !release.draft && !release.prerelease) break;
     release = undefined;
   }
   if (!release) return {};
-  const artifacts = {};
+  const artifacts = {}, inspected = new Map();
   for (const platform of Object.keys(TARGETS)) {
     for (const asset of assetCandidates(release.assets, platform, name, binaries)) {
-      const format = assetFormat(asset.name);
-      if (format === 'binary' && binaries.length !== 1) continue;
-      const archive = path.join(temporary, `${platform}.${format}`);
-      const expected = /^sha256:[a-f0-9]{64}$/.test(asset.digest || '') ? asset.digest.slice(7) : undefined;
-      const bytes = await download(asset.browser_download_url, { expected, size: asset.size });
+      if (!inspected.has(asset.browser_download_url)) inspected.set(asset.browser_download_url, await inspectAsset(asset, binaries, temporary));
+      const { files, ...archive } = inspected.get(asset.browser_download_url);
       const found = {};
-      if (format === 'binary') {
-        if (!nativeBinary(bytes, platform)) continue;
-        const filename = binaries[0] + (platform.startsWith('win32-') ? '.exe' : '');
-        found[filename] = { path: asset.name, sha256: sha256(bytes) };
-      } else {
-        await fs.writeFile(archive, bytes, { flag: 'wx' });
-        try {
-          const { stdout } = await execute(format === 'zip' ? 'unzip' : 'tar',
-            format === 'zip' ? ['-Z1', archive] : ['-tf', archive], { maxBuffer: 8 * 1024 * 1024 });
-          const paths = stdout.trim().split(/\r?\n/);
-          for (const binary of binaries) {
-            const filename = binary + (platform.startsWith('win32-') ? '.exe' : '');
-            const matches = paths.filter(member => archivePath(member) && path.posix.basename(member) === filename);
-            if (matches.length !== 1) break;
-            found[filename] = { path: matches[0], sha256: sha256(await extractBinary(archive, { format, executable: matches[0] })) };
-          }
-        } finally { await fs.unlink(archive); }
+      for (const binary of binaries) {
+        const matches = files.filter(file => file.name === binary && file.platforms.includes(platform));
+        if (matches.length !== 1) continue;
+        const filename = binary + (platform.startsWith('win32-') ? '.exe' : '');
+        found[filename] = { path: matches[0].path, sha256: matches[0].sha256 };
       }
-      if (Object.keys(found).length !== binaries.length) continue;
-      artifacts[platform] = { url: asset.browser_download_url, releaseTag: release.tag_name,
-        sha256: sha256(bytes), size: bytes.length, format, binaries: found };
+      const primary = binaries.includes(name) ? name + (platform.startsWith('win32-') ? '.exe' : '') : null;
+      if (!Object.keys(found).length || (primary && !Object.hasOwn(found, primary))) continue;
+      artifacts[platform] = { ...archive, releaseTag: release.tag_name, binaries: found };
       break;
     }
   }
