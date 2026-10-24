@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "viceroy",
+  "version": "0.21.1",
+  "repository": "fastly/Viceroy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_linux-amd64.tar.gz",
+      "releaseTag": "v0.21.1",
+      "sha256": "54a5b46ab05ce1492f4df136728b2eb81b350cb42da5d9f2eec66558ddc1e233",
+      "size": 13772277,
+      "format": "tar.gz",
+      "binaries": {
+        "viceroy": {
+          "path": "viceroy",
+          "sha256": "881dc618935b9d8c2f04bb8e3c2f2199d77f2a1415be141755fbe0cd7682e5b9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_linux-arm64.tar.gz",
+      "releaseTag": "v0.21.1",
+      "sha256": "145ad45e5f42d640e1d02ab7313890a518fce92e14826599ef3cf9a6bb59f427",
+      "size": 12272786,
+      "format": "tar.gz",
+      "binaries": {
+        "viceroy": {
+          "path": "viceroy",
+          "sha256": "fe41e4f3cc17de08ec68248665e41e12e9b8f353440730e460e4fe0647f2d912"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_darwin-amd64.tar.gz",
+      "releaseTag": "v0.21.1",
+      "sha256": "dbdca091ccce3c71c91f0245065afd5effc1e83abb3c7588d0167c68d24be867",
+      "size": 13194416,
+      "format": "tar.gz",
+      "binaries": {
+        "viceroy": {
+          "path": "viceroy",
+          "sha256": "e71b27d042a42541cbcc7de167f27885bbc5135125d464da11e84328730c2735"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_darwin-arm64.tar.gz",
+      "releaseTag": "v0.21.1",
+      "sha256": "6b51aae210a6f875df6344b45a4310b0f913478a1747c63f39c13f364a5a99e9",
+      "size": 11718969,
+      "format": "tar.gz",
+      "binaries": {
+        "viceroy": {
+          "path": "viceroy",
+          "sha256": "fc300629a866d53351cdddd8d49c1847cb54f1b44d52cfdd864b69801e8770e4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_windows-amd64.tar.gz",
+      "releaseTag": "v0.21.1",
+      "sha256": "a145592a1d9fabd555368402765ae075c4796ff38c18c176928a9edf6adb18b2",
+      "size": 14353748,
+      "format": "tar.gz",
+      "binaries": {
+        "viceroy.exe": {
+          "path": "viceroy.exe",
+          "sha256": "966debddadcf357f955f451c0d917c4b1dd8bd07399fea849c8421bef5ae8cc6"
+        }
+      }
+    }
+  }
+}
