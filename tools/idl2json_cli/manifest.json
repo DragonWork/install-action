@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "idl2json_cli",
+  "version": "0.10.1",
+  "repository": "dfinity/idl2json",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dfinity/idl2json/releases/download/v0.10.1/idl2json_cli-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "0b42ba646e5ca1baf77c8a3bdeed61aa048809e62f8541e1fca0df8178a0be21",
+      "size": 4063968,
+      "format": "tar.gz",
+      "binaries": {
+        "idl2json": {
+          "path": "idl2json",
+          "sha256": "03642cfd8f8302bb8fffc4bcb3d0f20c87e7d8b71873fc87232d84f50be14931"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dfinity/idl2json/releases/download/v0.10.1/idl2json_cli-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.10.1",
+      "sha256": "c9f33dcfa1973c6974607803e063f4f7cd8ea0691001664d80e0d529ebfccac1",
+      "size": 1979090,
+      "format": "zip",
+      "binaries": {
+        "idl2json": {
+          "path": "idl2json",
+          "sha256": "f5ed0249c1a5893d83b1bd5de01a874a2a27d658d28be4cffda6955cc6e2bcae"
+        }
+      }
+    }
+  }
+}
