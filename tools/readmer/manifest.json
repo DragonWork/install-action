@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "readmer",
+  "version": "0.1.0",
+  "repository": "artob/readmer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/artob/readmer/releases/download/0.1.0/readmer-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.1.0",
+      "sha256": "68725ea8fe6794167084b1c2ec8c6e94458a351aedbdd57f890bb08282898978",
+      "size": 2446152,
+      "format": "tar.xz",
+      "binaries": {
+        "readmer": {
+          "path": "readmer-x86_64-unknown-linux-gnu/readmer",
+          "sha256": "cbd3824ef6cf17deec845b17329176e56c5817698d7d9c5e0784187377191a56"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/artob/readmer/releases/download/0.1.0/readmer-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.1.0",
+      "sha256": "f439e54746b7db6610fb12b4bad7213db3c18fb7f88e374c4e98907127d783bc",
+      "size": 2242644,
+      "format": "tar.xz",
+      "binaries": {
+        "readmer": {
+          "path": "readmer-aarch64-unknown-linux-gnu/readmer",
+          "sha256": "d0d61c66fbe518fa997326d10d3944a108cc0e9a99821f54fce0533a345a9844"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/artob/readmer/releases/download/0.1.0/readmer-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.1.0",
+      "sha256": "0ce9419f3386d396e1f761b9148227206648ddea05fd968f45d6a2be3552fc93",
+      "size": 2310936,
+      "format": "tar.xz",
+      "binaries": {
+        "readmer": {
+          "path": "readmer-x86_64-apple-darwin/readmer",
+          "sha256": "ab5d89417fcd1d96b5991d1299f88a888d745c1be6cfde0b3544052b15ee42f9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/artob/readmer/releases/download/0.1.0/readmer-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.1.0",
+      "sha256": "18a24f568d83a6dc581ae8a28b15c71db82ce031bed6ff7651a1cdb47b9eb535",
+      "size": 2143924,
+      "format": "tar.xz",
+      "binaries": {
+        "readmer": {
+          "path": "readmer-aarch64-apple-darwin/readmer",
+          "sha256": "71d35a62a9937a11a8f41ca15c7f259f0d497371f9e9500e9728d2f7ececc8cd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/artob/readmer/releases/download/0.1.0/readmer-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.1.0",
+      "sha256": "20abe9df2cc37d5789048813bf72dd1472481f58933c7cecbabfa19472ea36c4",
+      "size": 3320368,
+      "format": "zip",
+      "binaries": {
+        "readmer.exe": {
+          "path": "readmer.exe",
+          "sha256": "9c00aa51b6d719bd4d22a6dedcbb28e860619945e176ccfe4218c8bd543d2f94"
+        }
+      }
+    }
+  }
+}
