@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo_marker",
+  "version": "0.5.0",
+  "repository": "rust-marker/marker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/cargo-marker-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "f223c7e73db3f044a8317bf818dedf6e34f3eea0690f9a435f4c7ffb917f6652",
+      "size": 2528614,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-marker": {
+          "path": "cargo-marker",
+          "sha256": "87999538f33e02d2f537a89628884de549e62969b05b118e3e36083a7d38eaa5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/cargo-marker-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "68901cf9bd1450a93483823c4fd70d45046720839efcd47e93170c474e17af3c",
+      "size": 2832845,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-marker": {
+          "path": "cargo-marker",
+          "sha256": "3f8fa7eba1f2d5ed8039c757d920220eb407d628eea1b577c61289a69cb63e2f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/cargo-marker-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "7068db370e293430577f6b346ac73ce682440d1be4b7ba826219d4c81cc93368",
+      "size": 1504177,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-marker": {
+          "path": "cargo-marker",
+          "sha256": "27e6dcfb2362b50df24f420c535437fe0eca8fe7f088957264506932f80f0a8a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/cargo-marker-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "6518e51a1eb7aff19c12230ffd0a1359cff0fd00b0ed097e6011e7b589098933",
+      "size": 1467002,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-marker": {
+          "path": "cargo-marker",
+          "sha256": "9d7821cb12667171a74f06a1a0efd480102f37bb66dc6d85489af4d80ffb0231"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/cargo-marker-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "9ef014476bb8420f947ac89f9a0f7113e27278deb70ad1544c04ba1ed8966361",
+      "size": 1304232,
+      "format": "zip",
+      "binaries": {
+        "cargo-marker.exe": {
+          "path": "cargo-marker.exe",
+          "sha256": "8f467f0bd279d929f2a32b26ffc65fc054d30e07ef73ae3f23f013884222d4e6"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/cargo-marker-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "eb3d32c82ff338d505e54435acff75ae6db193ca47884d1c4f8e9f3265a855a3",
+      "size": 1268394,
+      "format": "zip",
+      "binaries": {
+        "cargo-marker.exe": {
+          "path": "cargo-marker.exe",
+          "sha256": "aa27aa457a5b6fc8abedc1e19668c6a549ea7596e3b21494ee00dbc4b648b755"
+        }
+      }
+    }
+  }
+}
