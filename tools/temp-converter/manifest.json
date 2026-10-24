@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "temp-converter",
+  "version": "3.1.4",
+  "repository": "DaliaReds/temp-converter",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DaliaReds/temp-converter/releases/download/v3.1.4/temp-converter-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v3.1.4",
+      "sha256": "1ab9d258545165cc96e95a785d03536a0ca0e55c92e03c0283d4aa97ca8ccf1c",
+      "size": 306772,
+      "format": "tar.xz",
+      "binaries": {
+        "temp-converter": {
+          "path": "temp-converter-x86_64-unknown-linux-musl/temp-converter",
+          "sha256": "94f3221cc7886aaf5121162c0e35b252061e87a0abd8b777e8fb1ad1224caef7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/DaliaReds/temp-converter/releases/download/v3.1.4/temp-converter-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v3.1.4",
+      "sha256": "5325abd0738c0421bf159becadf51ac8e6ef6f70fab871e22e53fddab5a60fd7",
+      "size": 235536,
+      "format": "tar.xz",
+      "binaries": {
+        "temp-converter": {
+          "path": "temp-converter-x86_64-apple-darwin/temp-converter",
+          "sha256": "bad569e92a7c398fc2af293c793e2539682b048297c396a67462b0e3fd8195e8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/DaliaReds/temp-converter/releases/download/v3.1.4/temp-converter-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v3.1.4",
+      "sha256": "e2d8e56935a09cb84349cafb8a2eaf23d2d579f73b2e521aa2280b832a8b8c04",
+      "size": 233988,
+      "format": "tar.xz",
+      "binaries": {
+        "temp-converter": {
+          "path": "temp-converter-aarch64-apple-darwin/temp-converter",
+          "sha256": "804795c29462225acb00ee14764bef3e2cc2ad0930a2463435e4b418d0efad3c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/DaliaReds/temp-converter/releases/download/v3.1.4/temp-converter-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.1.4",
+      "sha256": "1723fd4eb4363827dcdac23e244eb506a9ce93182535d2585a02e5c86973c8ef",
+      "size": 564136,
+      "format": "zip",
+      "binaries": {
+        "temp-converter.exe": {
+          "path": "temp-converter.exe",
+          "sha256": "4bffa530a01f2b58df6449788f36267a3a15eae77339a41f873c59d5f724a376"
+        }
+      }
+    }
+  }
+}
