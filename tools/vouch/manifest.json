@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "vouch",
+  "version": "0.3.2",
+  "repository": "thirdpass-org/thirdpass",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thirdpass-org/thirdpass/releases/download/v0.3.2/vouch-v0.3.2-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "6289cc264e8414d550811a8ef8b8b34e23b2317e10c35262a80722c42f2d65c8",
+      "size": 8649576,
+      "format": "zip",
+      "binaries": {
+        "vouch": {
+          "path": "vouch",
+          "sha256": "d2c3a9db00d32b407ccf88aeeaf4bfc6e9b1786420c7e8033adcad0e78073e81"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thirdpass-org/thirdpass/releases/download/v0.3.2/vouch-v0.3.2-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "d9c89802eb9a9161865db8266f6e3e8d06c6c08493044d7b9edde5afc1214187",
+      "size": 6472716,
+      "format": "zip",
+      "binaries": {
+        "vouch": {
+          "path": "vouch",
+          "sha256": "cfb4736618c1a9e8b82d03164c86d6653cb41eced6c5295346d1eaea4b09865c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/thirdpass-org/thirdpass/releases/download/v0.3.2/vouch-v0.3.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "16a2290de846c2e245f4fcd5926e6a083de9bfa1df5e0bd68faf3877448ae742",
+      "size": 7404147,
+      "format": "zip",
+      "binaries": {
+        "vouch.exe": {
+          "path": "vouch.exe",
+          "sha256": "ae8f8659c84c8cf9c41b7f3049d14d79993be558703750398f662ae9e1670c24"
+        }
+      }
+    }
+  }
+}
