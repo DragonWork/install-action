@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tether-utils",
+  "version": "0.11.4",
+  "repository": "RandomStudio/tether",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RandomStudio/tether/releases/download/tether-utils-v0.11.4/tether-utils-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "tether-utils-v0.11.4",
+      "sha256": "64235b8a89624f568e061d9d3930e9271eaea137f7fb16d9ca5985db510eb95e",
+      "size": 1958340,
+      "format": "tar.xz",
+      "binaries": {
+        "tether": {
+          "path": "tether-utils-x86_64-unknown-linux-gnu/tether",
+          "sha256": "69f3bb0c6e28d373f4d423dbe695470cd2a57ed750081fa07c3d209b9c6eba60"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/RandomStudio/tether/releases/download/tether-utils-v0.11.4/tether-utils-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "tether-utils-v0.11.4",
+      "sha256": "a896e0d1cd3d1512be4899baf9ea936f79fa092c4489d4ea38edb15a2d8c01e2",
+      "size": 1818868,
+      "format": "tar.xz",
+      "binaries": {
+        "tether": {
+          "path": "tether-utils-x86_64-apple-darwin/tether",
+          "sha256": "cc8fd6bd841e3f074368c22dfd5ed2a0bd661706df4067e46a33f21f071053a6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/RandomStudio/tether/releases/download/tether-utils-v0.11.4/tether-utils-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "tether-utils-v0.11.4",
+      "sha256": "c60f2fdb7dd685c6836ec778b452c9d62b72001a285b1f71468f893220db42a1",
+      "size": 1642576,
+      "format": "tar.xz",
+      "binaries": {
+        "tether": {
+          "path": "tether-utils-aarch64-apple-darwin/tether",
+          "sha256": "94d5ad08c9f310f984e2e7b4cd64ab20d02b0efdd2c29f79f42a2db6d38b0a5c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RandomStudio/tether/releases/download/tether-utils-v0.11.4/tether-utils-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "tether-utils-v0.11.4",
+      "sha256": "874f8d84547fc85753112f5b49907c57a158d9091c0c6fc1f92732c0cdff85b1",
+      "size": 5704307,
+      "format": "zip",
+      "binaries": {
+        "tether.exe": {
+          "path": "tether.exe",
+          "sha256": "27facff37174291dc35913476d7f806187a544f55da4a583e287c55d7349c601"
+        }
+      }
+    }
+  }
+}
