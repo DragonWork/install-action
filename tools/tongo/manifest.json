@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tongo",
+  "version": "0.15.6",
+  "repository": "drewzemke/tongo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/drewzemke/tongo/releases/download/v0.15.6/tongo-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.15.6",
+      "sha256": "c8df2027343544d77f681f3bf9b973db92c964ba02ce4a893f8e5b43d379b00f",
+      "size": 7337259,
+      "format": "tar.gz",
+      "binaries": {
+        "tongo": {
+          "path": "tongo",
+          "sha256": "692a3b0f0a93b928974698d17130e73fa54902924045b871eeea7ef57fee9f4a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/drewzemke/tongo/releases/download/v0.15.6/tongo-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.15.6",
+      "sha256": "9c4971c5db12757e3247537983cca734f0374e6a328339382681d22ca37a4b51",
+      "size": 7000156,
+      "format": "tar.gz",
+      "binaries": {
+        "tongo": {
+          "path": "tongo",
+          "sha256": "0ae4b0cd37f038c7a502a112ad3e159bab4041fd7dd1237adf1933558a9bbc7c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/drewzemke/tongo/releases/download/v0.15.6/tongo-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.6",
+      "sha256": "e9e8fd6722e6c28e5ffd3b67bb33bf7e0d850c85bffd82111321d613ba541712",
+      "size": 6551721,
+      "format": "tar.gz",
+      "binaries": {
+        "tongo": {
+          "path": "tongo",
+          "sha256": "1f6957698787a0264f136073bc04eb1d189ddb6d5b9650dbdd8ad6e11dc29eb0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/drewzemke/tongo/releases/download/v0.15.6/tongo-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.6",
+      "sha256": "1ba2e459d4f43acfdd08513d79ee05bb536bbd430f5795330307d0411e3756b2",
+      "size": 6280369,
+      "format": "tar.gz",
+      "binaries": {
+        "tongo": {
+          "path": "tongo",
+          "sha256": "d1b56aaf37c54c16da15284d60cbd293b6cf864f6446af35d4ebc8c5ea6ad87f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/drewzemke/tongo/releases/download/v0.15.6/tongo-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.15.6",
+      "sha256": "15d3b2fcd54141d7ccaeee4871c63e9824f3fa218b5716f67cb64b2ce66ecfb8",
+      "size": 5939464,
+      "format": "zip",
+      "binaries": {
+        "tongo.exe": {
+          "path": "tongo.exe",
+          "sha256": "66b355c33c667d5042f828e295fdcc02e34652f209e5981e761f321e5d159e56"
+        }
+      }
+    }
+  }
+}
