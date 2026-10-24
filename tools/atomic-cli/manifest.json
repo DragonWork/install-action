@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "atomic-cli",
+  "version": "0.40.0",
+  "repository": "ontola/atomic-server",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ontola/atomic-server/releases/download/v0.40.0/atomic-server-x86_64-unknown-linux-musl",
+      "sha256": "8b9ab27527cbfde5864baf379b9126b6b6ac3c27f91e14f51e0feabd16ff169b",
+      "size": 58283576,
+      "format": "binary",
+      "releaseTag": "v0.40.0",
+      "binaries": {
+        "atomic-cli": {
+          "path": "atomic-server-x86_64-unknown-linux-musl",
+          "sha256": "8b9ab27527cbfde5864baf379b9126b6b6ac3c27f91e14f51e0feabd16ff169b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ontola/atomic-server/releases/download/v0.40.0/atomic-server-macos-m1",
+      "sha256": "d664af746a5c523100eb60b989b420828805f1db171c8f293f1c6f5c99009510",
+      "size": 52150784,
+      "format": "binary",
+      "releaseTag": "v0.40.0",
+      "binaries": {
+        "atomic-cli": {
+          "path": "atomic-server-macos-m1",
+          "sha256": "d664af746a5c523100eb60b989b420828805f1db171c8f293f1c6f5c99009510"
+        }
+      }
+    }
+  }
+}
