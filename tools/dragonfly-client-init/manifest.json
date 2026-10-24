@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dragonfly-client-init",
+  "version": "1.5.9",
+  "repository": "dragonflyoss/client",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.9/dragonfly-client-v1.5.9-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.5.9",
+      "sha256": "1beae2ebb00d2e480e6dea8a3b122c1571caf5943282beeadb28140dd86bf94e",
+      "size": 34597404,
+      "format": "tar.gz",
+      "binaries": {
+        "dfinit": {
+          "path": "dragonfly-client-v1.5.9-x86_64-unknown-linux-musl/dfinit",
+          "sha256": "4fddac554d2b2654bfb8e2b1823f73930ad9b28637eec356c0f92d87abbb794a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.9/dragonfly-client-v1.5.9-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.5.9",
+      "sha256": "190ce568df554eb9ea960935e65ab24462d96f6c459203650a0cd0fe8c880f4e",
+      "size": 31035024,
+      "format": "tar.gz",
+      "binaries": {
+        "dfinit": {
+          "path": "dragonfly-client-v1.5.9-aarch64-unknown-linux-musl/dfinit",
+          "sha256": "eea2134538ac3dfd186a0c5cf2d01808b31a354a85fae9d4436fc339237f01fc"
+        }
+      }
+    }
+  }
+}
