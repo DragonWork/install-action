@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tvrank",
+  "version": "0.8.0",
+  "repository": "fredmorcos/tvrank",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fredmorcos/tvrank/releases/download/0.8.0/tvrank-0.8.0-linux.tar.bz2",
+      "sha256": "1d8038e34b09e9750c44e185bc777be25b7af396d57c86116701f3a2165d0bc5",
+      "size": 7475200,
+      "format": "tar.bz2",
+      "releaseTag": "0.8.0",
+      "binaries": {
+        "tvrank": {
+          "path": "tvrank-0.8.0-linux/tvrank",
+          "sha256": "d482d0aae39aeedc768144bca2f76e6fbee313582f1cdf1579545c9773eb2961"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/fredmorcos/tvrank/releases/download/0.8.0/tvrank-0.8.0-windows.zip",
+      "sha256": "9ca9731fa8f5452ff0fda8556e864db1d9180242f887707f2aa856a8fd46ce43",
+      "size": 2023236,
+      "format": "zip",
+      "releaseTag": "0.8.0",
+      "binaries": {
+        "tvrank.exe": {
+          "path": "tvrank-0.8.0-windows/tvrank.exe",
+          "sha256": "7cff84df4c7cdc9013225ab7764d1961cd2c620f5cbcc0737c1208f7cdd68c1b"
+        }
+      }
+    }
+  }
+}
