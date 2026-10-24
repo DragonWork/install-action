@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cambridge-asm",
+  "version": "0.11.1",
+  "repository": "SaadiSave/cambridge-asm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/SaadiSave/cambridge-asm/releases/download/v0.11.1/cambridge-asm-x64-linux.zip",
+      "releaseTag": "v0.11.1",
+      "sha256": "77657d443dcba96c0a046d2bd3703f02ba6fdfde756fac4a3f77c10c1fe85628",
+      "size": 1188802,
+      "format": "zip",
+      "binaries": {
+        "casm": {
+          "path": "casm",
+          "sha256": "dfef0f7cda3375192ad78844c68b6897f27c55b807e94e2f1586fd59e4b8d056"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/SaadiSave/cambridge-asm/releases/download/v0.11.1/cambridge-asm-arm64-linux.zip",
+      "releaseTag": "v0.11.1",
+      "sha256": "e4c6a351ebe3d001af0404a0136c2d8fd9893b22c8e631f803b54ce5a54e5dc2",
+      "size": 1142357,
+      "format": "zip",
+      "binaries": {
+        "casm": {
+          "path": "casm",
+          "sha256": "81adcdac2dad5503dd9420df9bd55bbf9de02816cf874753e22ff27ad0e657e6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/SaadiSave/cambridge-asm/releases/download/v0.11.1/cambridge-asm-x64-windows.zip",
+      "releaseTag": "v0.11.1",
+      "sha256": "759fdbb33eafc4728415d324db68abb745f8120c19b74d71451847c404ed7242",
+      "size": 1199136,
+      "format": "zip",
+      "binaries": {
+        "casm.exe": {
+          "path": "casm.exe",
+          "sha256": "a2da876b51f2b43e1361cbfcf8995cbda03d66a18dd41ccd8e04f448f04f6c38"
+        }
+      }
+    }
+  }
+}
