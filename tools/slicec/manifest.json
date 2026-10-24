@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "slicec",
+  "version": "0.4.1",
+  "repository": "icerpc/slicec",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/icerpc/slicec/releases/download/slicec-0.4.1/slicec-0.4.1-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "slicec-0.4.1",
+      "sha256": "7496fb38dbc8113152470cddb160eaac2839e80f1c26a2d413fb37586a491647",
+      "size": 963979,
+      "format": "zip",
+      "binaries": {
+        "slicec": {
+          "path": "slicec",
+          "sha256": "bcca2398e8e8233851c9502ce1eaa64bea20f36d704839641afec7be3f798aac"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/icerpc/slicec/releases/download/slicec-0.4.1/slicec-0.4.1-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "slicec-0.4.1",
+      "sha256": "8a9a0d1e271818404e1557e7af349a204c5fdb3cd73dc26f64d4119512f36aa9",
+      "size": 962331,
+      "format": "zip",
+      "binaries": {
+        "slicec": {
+          "path": "slicec",
+          "sha256": "0d6ebe81aebc5285b3cfbed2f8c0acaf58698073cea38e35e53b8ebc9d0954c9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/icerpc/slicec/releases/download/slicec-0.4.1/slicec-0.4.1-aarch64-apple-darwin.zip",
+      "releaseTag": "slicec-0.4.1",
+      "sha256": "e396b5d5a617a2e35ecf0033ebbd7bd80c76e61e192370ebeae41e04d1eb694c",
+      "size": 892143,
+      "format": "zip",
+      "binaries": {
+        "slicec": {
+          "path": "slicec",
+          "sha256": "5e97a73f2e009cbaedd7ff30d989b006dde1ef96e55a38e4855b90bd6587776b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/icerpc/slicec/releases/download/slicec-0.4.1/slicec-0.4.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "slicec-0.4.1",
+      "sha256": "088fa5090feba50d89be856ba549c82273e1bc5227bafa69dfd5a0e78eec1942",
+      "size": 787474,
+      "format": "zip",
+      "binaries": {
+        "slicec.exe": {
+          "path": "slicec.exe",
+          "sha256": "cbc6a12eb1bae4d49a7277d159e69e0f5c6e52a4fd863691330a89dc7ae610be"
+        }
+      }
+    }
+  }
+}
