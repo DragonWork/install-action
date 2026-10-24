@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "compare-changes",
+  "version": "0.13.7",
+  "repository": "anttiharju/compare-changes",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/anttiharju/compare-changes/releases/download/v0.13.7/compare-changes-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.13.7",
+      "sha256": "0a33cdb063226e5f9543e604e7ebae438d740d45675e529fbb2140701168414f",
+      "size": 1534060,
+      "format": "tar.gz",
+      "binaries": {
+        "compare-changes": {
+          "path": "compare-changes",
+          "sha256": "870046d4f77f47015cbcde2b3cdc5fe41b8ae8151d93539eeedf480e0d678210"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/anttiharju/compare-changes/releases/download/v0.13.7/compare-changes-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.13.7",
+      "sha256": "ff8f6c159e781902e574cfdae8dfab71bbb69b32b58a6429349944ac348b8425",
+      "size": 1406839,
+      "format": "tar.gz",
+      "binaries": {
+        "compare-changes": {
+          "path": "compare-changes",
+          "sha256": "7508d3d8fe57eecbbd05ec834d0cfd72f7db68491b09cb99d4817726b7da49fa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/anttiharju/compare-changes/releases/download/v0.13.7/compare-changes-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.7",
+      "sha256": "bd6951afa0907ae1c96ced4f17855c63c0aed146f0258431e6284be8ab32d5d7",
+      "size": 1499245,
+      "format": "tar.gz",
+      "binaries": {
+        "compare-changes": {
+          "path": "compare-changes",
+          "sha256": "341d2e74814a7a41632f83a13d142e43bbfc04af633d1052be2e24d01c69e4cd"
+        }
+      }
+    }
+  }
+}
