@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "compcol",
+  "version": "0.7.6",
+  "repository": "KarpelesLab/compcol",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.6/compcol-v0.7.6-linux-x86_64.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "bab320a70e88619b7e9d8686245151289c68f23f6296f7acf08727d12d89002f",
+      "size": 907630,
+      "format": "tar.gz",
+      "binaries": {
+        "compcol": {
+          "path": "./bin/compcol",
+          "sha256": "ff1ef7c06c3b724a6feda8b0d9403382aa01b9bed8a1af1902a5a40f09b50fd6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.6/compcol-v0.7.6-linux-aarch64.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "2d85b0e6b34d6703998d4e3b7a0703d3b830f75b4b53e42d8563f2d32950220f",
+      "size": 887320,
+      "format": "tar.gz",
+      "binaries": {
+        "compcol": {
+          "path": "./bin/compcol",
+          "sha256": "df712591d998b25a935f15060f3ce0bcfce1af714cbb999c28c6e6b597fa9354"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.6/compcol-v0.7.6-windows-x86_64.zip",
+      "releaseTag": "v0.7.6",
+      "sha256": "c6e1c57f63ab53e3b62d567608bf61c744523e7085ef92af732facfce230d20a",
+      "size": 725037,
+      "format": "zip",
+      "binaries": {
+        "compcol.exe": {
+          "path": "bin/compcol.exe",
+          "sha256": "ac03aa8227c076e6da7c2d82eec04042480a24a2d27eaaa40251108b56078fb7"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.6/compcol-v0.7.6-windows-aarch64.zip",
+      "releaseTag": "v0.7.6",
+      "sha256": "30a3a35ffb8ed6210a5b0998f0022120f7941851a57d97f452bd501d96fd8ddb",
+      "size": 696930,
+      "format": "zip",
+      "binaries": {
+        "compcol.exe": {
+          "path": "bin/compcol.exe",
+          "sha256": "74986eca3f606edcc4b19bb7b83fef83bba802d34c98a3e1a61a716525ad94bb"
+        }
+      }
+    }
+  }
+}
