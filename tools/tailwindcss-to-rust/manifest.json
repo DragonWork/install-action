@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tailwindcss-to-rust",
+  "version": "0.3.2",
+  "repository": "houseabsolute/tailwindcss-to-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/houseabsolute/tailwindcss-to-rust/releases/download/tailwindcss-to-rust-v0.3.2/tailwindcss-to-rust-Linux-x86_64-musl.tar.gz",
+      "releaseTag": "tailwindcss-to-rust-v0.3.2",
+      "sha256": "bbec0be827714e5c5d43f899c4a1f6e349008e7679db5dd024bdec548cb6ad54",
+      "size": 2083113,
+      "format": "tar.gz",
+      "binaries": {
+        "tailwindcss-to-rust": {
+          "path": "tailwindcss-to-rust",
+          "sha256": "f45fa6fb2f2374a63930f99bc427a444a867218bc528425ea676226b9152c27f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/houseabsolute/tailwindcss-to-rust/releases/download/tailwindcss-to-rust-v0.3.2/tailwindcss-to-rust-Darwin-x86_64.tar.gz",
+      "releaseTag": "tailwindcss-to-rust-v0.3.2",
+      "sha256": "0ba5d4f13281b733fdd08bf276e0ac381a311f2869933e9a6f840ab61616dc3a",
+      "size": 921334,
+      "format": "tar.gz",
+      "binaries": {
+        "tailwindcss-to-rust": {
+          "path": "tailwindcss-to-rust",
+          "sha256": "30e5fcc973ec5d92fa89c7ede43a81c208d2bcd667e95d8b6a57a743749a0be6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/houseabsolute/tailwindcss-to-rust/releases/download/tailwindcss-to-rust-v0.3.2/tailwindcss-to-rust-Darwin-aarch64.tar.gz",
+      "releaseTag": "tailwindcss-to-rust-v0.3.2",
+      "sha256": "1180362ca81542f3d30f16ed276bac1e2295b7b4ecd7dc65b692a69537eaf32c",
+      "size": 862638,
+      "format": "tar.gz",
+      "binaries": {
+        "tailwindcss-to-rust": {
+          "path": "tailwindcss-to-rust",
+          "sha256": "c98c7c0e642f6d764d65e1e3cc7ae53642bae6924cdb9a37dc5f5d1d1189a95a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/houseabsolute/tailwindcss-to-rust/releases/download/tailwindcss-to-rust-v0.3.2/tailwindcss-to-rust-Windows-x86_64.zip",
+      "releaseTag": "tailwindcss-to-rust-v0.3.2",
+      "sha256": "d1857c3a759675c16c3da63074940f232ee883d91d7d0593fbdbbe0c64b1c8c9",
+      "size": 885467,
+      "format": "zip",
+      "binaries": {
+        "tailwindcss-to-rust.exe": {
+          "path": "tailwindcss-to-rust.exe",
+          "sha256": "df95d6a1c411fa85e23e9bec8003911adc04d81e5d856064a7ad3033183b9a69"
+        }
+      }
+    }
+  }
+}
