@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "name": "feedyourai",
+  "version": "3.3.0",
+  "repository": "alexandretrotel/feedyourai",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alexandretrotel/feedyourai/releases/download/v3.3.0/feedyourai-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.3.0",
+      "sha256": "50c439577129ffb8bb5a3b5e85b4f3156c62c72e9c24143d2effd4f40310fe6d",
+      "size": 3886675,
+      "format": "tar.gz",
+      "binaries": {
+        "feedyourai": {
+          "path": "feedyourai",
+          "sha256": "c770e1fd1ea096b6549baccf5818231f4bdc0a9f872b3296684b6e7083673595"
+        },
+        "fyai": {
+          "path": "fyai",
+          "sha256": "b06ca1458a8f01be4e821b75b9e8830475cb9ec2552e9418eff8e15fce8a1fbf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/alexandretrotel/feedyourai/releases/download/v3.3.0/feedyourai-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.3.0",
+      "sha256": "fd565ecebfff8af5b946e29c943b7289eae6887e1a41df8f5d0a79911cc54ad0",
+      "size": 3216747,
+      "format": "tar.gz",
+      "binaries": {
+        "feedyourai": {
+          "path": "feedyourai",
+          "sha256": "deff766b22e4e7acfbba6d9fd381155c3e84385c5d00fc20d64d865469852874"
+        },
+        "fyai": {
+          "path": "fyai",
+          "sha256": "abdd179f38a00645f8d6febf3e2e46f32ea2db6911332ab782c5c7a2c6890d49"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/alexandretrotel/feedyourai/releases/download/v3.3.0/feedyourai-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.3.0",
+      "sha256": "d45053e2dbb21a4ec0cccb984eb4d5e8ec2b1bb4132102920af6e77a50c556ea",
+      "size": 2684734,
+      "format": "zip",
+      "binaries": {
+        "feedyourai.exe": {
+          "path": "feedyourai.exe",
+          "sha256": "541ef0763d6563211da0e5913fb82a3e3d9dd736ca7507d967bd6a653133208b"
+        },
+        "fyai.exe": {
+          "path": "fyai.exe",
+          "sha256": "229bad88ad00a768f18008929f1a82b53a8e9acc8dcb1606047c21adb93a5971"
+        }
+      }
+    }
+  }
+}
