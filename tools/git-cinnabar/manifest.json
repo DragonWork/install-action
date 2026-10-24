@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "git-cinnabar",
+  "version": "0.7.5",
+  "repository": "glandium/git-cinnabar",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.linux.x86_64.tar.xz",
+      "releaseTag": "0.7.5",
+      "sha256": "bf10216589af63f9470f4d7eaf2e8a78cd0b9400c7c09e8b02e8d590f087fc88",
+      "size": 2103904,
+      "format": "tar.xz",
+      "binaries": {
+        "git-cinnabar": {
+          "path": "git-cinnabar/git-cinnabar",
+          "sha256": "ee08fd151fce56cf86b4bad4602fb6a1b4b0e47228ba08a70460e3a52f21f22c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.linux.arm64.tar.xz",
+      "releaseTag": "0.7.5",
+      "sha256": "ba6be44962e042b67c6e803c92ff1cee89f8198d3dd1ef8ed747e53f0577b155",
+      "size": 1914008,
+      "format": "tar.xz",
+      "binaries": {
+        "git-cinnabar": {
+          "path": "git-cinnabar/git-cinnabar",
+          "sha256": "2d58f7191c9cc92aac83fd8a9540b63b88c10d438a92e20ba05963d4b23b84db"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.macos.x86_64.tar.xz",
+      "releaseTag": "0.7.5",
+      "sha256": "cfa906afb94a835d598e603ae2d4f3b008949bd5130b5e061692ff9c9aaeeb2d",
+      "size": 2045480,
+      "format": "tar.xz",
+      "binaries": {
+        "git-cinnabar": {
+          "path": "git-cinnabar/git-cinnabar",
+          "sha256": "37c7abc25627476b1e64f810b97c2690d01891f6b29dbd4f3a03cb6f7d4028ba"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.macos.arm64.tar.xz",
+      "releaseTag": "0.7.5",
+      "sha256": "3a5372f7d96eeba6fdf42e2e9b2d938d84c53eca08ba1d8ac8111c8ceb2aca79",
+      "size": 1784244,
+      "format": "tar.xz",
+      "binaries": {
+        "git-cinnabar": {
+          "path": "git-cinnabar/git-cinnabar",
+          "sha256": "5f8a6b5cc71effc0cdf3b00f66d629d031e90498b6ba6f9fddfbd62cf273f142"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/glandium/git-cinnabar/releases/download/0.7.5/git-cinnabar.windows.x86_64.zip",
+      "releaseTag": "0.7.5",
+      "sha256": "8b47c6709e62ab65254c76129436cfeb25eae468bdaea9f429b1ae420fcf000a",
+      "size": 7068230,
+      "format": "zip",
+      "binaries": {
+        "git-cinnabar.exe": {
+          "path": "git-cinnabar/git-cinnabar.exe",
+          "sha256": "5d1b5e153cc4500f438801faadf44c6f25daf2b977192f2368e894ca12969634"
+        }
+      }
+    }
+  }
+}
