@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "scraps",
+  "version": "5.1.1",
+  "repository": "boykush/scraps",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/boykush/scraps/releases/download/v5.1.1/scraps-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v5.1.1",
+      "sha256": "ab298a8f8afaadb6d57b87e126736986f7bd47e560be73b74d037e3c95970ca0",
+      "size": 13860966,
+      "format": "tar.gz",
+      "binaries": {
+        "scraps": {
+          "path": "scraps",
+          "sha256": "3f0cc11297e16968f7388a66bea07688df185c844f72f658a93624fd1a84a005"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/boykush/scraps/releases/download/v5.1.1/scraps-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v5.1.1",
+      "sha256": "94a144148181606de1f2aaddaa9d6b429407bc3edc93f4e0a50320f982870bcb",
+      "size": 13441736,
+      "format": "tar.gz",
+      "binaries": {
+        "scraps": {
+          "path": "scraps",
+          "sha256": "c14b88384544b7cf6306393d16c3fb8e657d14f6ec8d37c7f78d85113c40cb33"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/boykush/scraps/releases/download/v5.1.1/scraps-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v5.1.1",
+      "sha256": "5996764b4adee4af1dbb5f6268380787641695a1efb7b932711e97087b1b168e",
+      "size": 13067672,
+      "format": "tar.gz",
+      "binaries": {
+        "scraps": {
+          "path": "scraps",
+          "sha256": "da2785b0766142137497f3e038a79d62d59c118eb695a72d7bbdcbb9dbb11750"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/boykush/scraps/releases/download/v5.1.1/scraps-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v5.1.1",
+      "sha256": "bb91e775373769f838669cbcac4ebf77610c8ab4b43f58725fc81c58e9d7fe5c",
+      "size": 12844210,
+      "format": "tar.gz",
+      "binaries": {
+        "scraps": {
+          "path": "scraps",
+          "sha256": "28d4e9773ad223f88935b538186746e344ccd19ff181928d86039a8b0c02fc3e"
+        }
+      }
+    }
+  }
+}
