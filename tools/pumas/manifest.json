@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "pumas",
+  "version": "0.5.0",
+  "repository": "graelo/pumas",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/graelo/pumas/releases/download/v0.5.0/pumas-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "445c9405bee094188b75b2cd3f35ea33c246f3bbc12da3fa5ae7c4f6dc3c58e9",
+      "size": 613645,
+      "format": "zip",
+      "binaries": {
+        "pumas": {
+          "path": "target/release/pumas",
+          "sha256": "5e46299c2af621939741fa8b24d0403163783691cb1a841d486390e185195e13"
+        }
+      }
+    }
+  }
+}
