@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mecomp-daemon",
+  "version": "0.7.2",
+  "repository": "AnthonyMichaelTDM/mecomp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AnthonyMichaelTDM/mecomp/releases/download/v0.7.2/mecomp-daemon-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.2",
+      "sha256": "2d93e056956f643ef6820d4a3d4d57a8fcbddadbacad89403a36e979eb7c79ed",
+      "size": 18454020,
+      "format": "tar.xz",
+      "binaries": {
+        "mecomp-daemon": {
+          "path": "mecomp-daemon-x86_64-unknown-linux-gnu/mecomp-daemon",
+          "sha256": "5be5fdf4db08201b0d93b975bf75af56e7901d409f8cf9f6ba79402d70693533"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AnthonyMichaelTDM/mecomp/releases/download/v0.7.2/mecomp-daemon-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.2",
+      "sha256": "ea37668b38baffdb038c9b4ef535c2bd4f399f0c80ff3002f065be72ca1b476f",
+      "size": 14766240,
+      "format": "tar.xz",
+      "binaries": {
+        "mecomp-daemon": {
+          "path": "mecomp-daemon-aarch64-apple-darwin/mecomp-daemon",
+          "sha256": "63430412275b495b8d7eccb8e21f9998a062273fc76b203eececa95f5ef4a46f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AnthonyMichaelTDM/mecomp/releases/download/v0.7.2/mecomp-daemon-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.2",
+      "sha256": "7bef03ded994504ff17c7ea3fad3d40748dd6a9df47c100f29042c2aa8f52ba3",
+      "size": 25875532,
+      "format": "zip",
+      "binaries": {
+        "mecomp-daemon.exe": {
+          "path": "mecomp-daemon.exe",
+          "sha256": "eef818e6ac1a366320a450a29d4d844e3e339795ea927455e8034f0200d4539b"
+        }
+      }
+    }
+  }
+}
