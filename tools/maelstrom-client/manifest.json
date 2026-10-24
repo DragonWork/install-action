@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "maelstrom-client",
+  "version": "0.14.0",
+  "repository": "maelstrom-software/maelstrom",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-client-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.14.0",
+      "sha256": "0b15219ffdd98c884edc4cc275bcfe21671caef0ec42e94179e2a1167770b058",
+      "size": 4303889,
+      "format": "tar.gz",
+      "binaries": {
+        "maelstrom-client": {
+          "path": "maelstrom-client",
+          "sha256": "62d26572c9e93811a34347a9fc9008ab549f80186a2b9299d3f5d46fc6a7dcdb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-client-aarch64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.14.0",
+      "sha256": "0290560818a52e43ef5b88b1819cf0269138d18d2bf2bd79530735f505d14c9a",
+      "size": 4419496,
+      "format": "tar.gz",
+      "binaries": {
+        "maelstrom-client": {
+          "path": "maelstrom-client",
+          "sha256": "e8b6024c119a58b97dcd71e08471291329f0d6758ff1d434f89098e4e3a0ecef"
+        }
+      }
+    }
+  }
+}
