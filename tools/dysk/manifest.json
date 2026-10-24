@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dysk",
+  "version": "3.8.1",
+  "repository": "Canop/dysk",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/Canop/dysk/releases/download/v3.8.1/dysk_3.8.1.zip",
+      "sha256": "e983c4863d370ba143cab95abeb520c56a22b98c83b647db828614592a9939a4",
+      "size": 12388651,
+      "format": "zip",
+      "releaseTag": "v3.8.1",
+      "binaries": {
+        "dysk": {
+          "path": "x86_64-apple-darwin/dysk",
+          "sha256": "a3b13cb3bae90b4845be4317e07c141a3ea0a611b67641d39e197154c1c44254"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Canop/dysk/releases/download/v3.8.1/dysk_3.8.1.zip",
+      "sha256": "e983c4863d370ba143cab95abeb520c56a22b98c83b647db828614592a9939a4",
+      "size": 12388651,
+      "format": "zip",
+      "releaseTag": "v3.8.1",
+      "binaries": {
+        "dysk": {
+          "path": "aarch64-apple-darwin/dysk",
+          "sha256": "5168f4e791898b8704080cb60b18ad0129405ce7355b5e3f2526bc606f2e88ce"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Canop/dysk/releases/download/v3.8.1/dysk_3.8.1.zip",
+      "sha256": "e983c4863d370ba143cab95abeb520c56a22b98c83b647db828614592a9939a4",
+      "size": 12388651,
+      "format": "zip",
+      "releaseTag": "v3.8.1",
+      "binaries": {
+        "dysk.exe": {
+          "path": "x86_64-pc-windows-gnu/dysk.exe",
+          "sha256": "a425ccb252f6d7145ab2628e749a255fc84abea2f53ae5a3dbaa6e9e8620e5a9"
+        }
+      }
+    }
+  }
+}
