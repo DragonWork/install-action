@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "bwt",
+  "version": "0.2.4",
+  "repository": "bwt-dev/bwt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bwt-dev/bwt/releases/download/v0.2.4/bwt-0.2.4-x86_64-linux.tar.gz",
+      "releaseTag": "v0.2.4",
+      "sha256": "a98fc1820e53d928d58253c9e45327deb6339f30afe443350d29662937095c0f",
+      "size": 3811126,
+      "format": "tar.gz",
+      "binaries": {
+        "bwt": {
+          "path": "bwt-0.2.4-x86_64-linux/bwt",
+          "sha256": "b82cb5101a0b9564eb639363ec57abceb6ef76f7b857c088e84981c9b4b3a0d2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bwt-dev/bwt/releases/download/v0.2.4/bwt-0.2.4-x86_64-osx.zip",
+      "releaseTag": "v0.2.4",
+      "sha256": "57d26bb00d0683d2d5877b6cd2b4d56e2baf593da6ac21583fba55131ccd8e1d",
+      "size": 3716971,
+      "format": "zip",
+      "binaries": {
+        "bwt": {
+          "path": "bwt-0.2.4-x86_64-osx/bwt",
+          "sha256": "afa817985e99cb1ec75ced921f0afd151fd4cade1afb293f75d8ea3e0ce6877e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bwt-dev/bwt/releases/download/v0.2.4/bwt-0.2.4-x86_64-windows.zip",
+      "releaseTag": "v0.2.4",
+      "sha256": "0cdc6467fc89d0f4c9ec4c9346d46dafeec92c9127887d49b24cc892d82cadf1",
+      "size": 5686217,
+      "format": "zip",
+      "binaries": {
+        "bwt.exe": {
+          "path": "bwt-0.2.4-x86_64-windows/bwt.exe",
+          "sha256": "d80b010f5b86668d289fc7554bb863b76598341b727afa8a00d64ffec017f574"
+        }
+      }
+    }
+  }
+}
