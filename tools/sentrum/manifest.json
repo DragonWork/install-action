@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "sentrum",
+  "version": "0.1.9",
+  "repository": "sommerfelddev/sentrum",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sommerfelddev/sentrum/releases/download/v0.1.9/sentrum-v0.1.9-linux-x86_64.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "c662d9b4dc8170aaab80422a34bc167d28c5ab437be6812ae2d74f1ab11400c5",
+      "size": 11165536,
+      "format": "tar.gz",
+      "binaries": {
+        "sentrum": {
+          "path": "sentrum-v0.1.9-linux-x86_64/sentrum",
+          "sha256": "735b527f601c9d713752968bc74be6e6d2df906d85d91416cd6a51e371c1155c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sommerfelddev/sentrum/releases/download/v0.1.9/sentrum-v0.1.9-linux-aarch64.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "b9e572b5d7e75312a83a59cf72b1e5dc8699c1c9b400feeea2013d36656f0e4d",
+      "size": 15901761,
+      "format": "tar.gz",
+      "binaries": {
+        "sentrum": {
+          "path": "sentrum-v0.1.9-linux-aarch64/sentrum",
+          "sha256": "488f864ae66759507f35f66e41732bca54fe54564edd8d0795c14f4e03a2e478"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sommerfelddev/sentrum/releases/download/v0.1.9/sentrum-v0.1.9-darwin-x86_64.tar.gz",
+      "releaseTag": "v0.1.9",
+      "sha256": "021972ef1c192a68b28c2939b7f5b55907eea45f6859ac90c6f311522c6f2971",
+      "size": 9818306,
+      "format": "tar.gz",
+      "binaries": {
+        "sentrum": {
+          "path": "sentrum-v0.1.9-darwin-x86_64/sentrum",
+          "sha256": "7c7db739f2fb4a7fb8a97f207c739840055a2a59480d108350c91506a8640e6f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sommerfelddev/sentrum/releases/download/v0.1.9/sentrum-v0.1.9-windows-x86_64.zip",
+      "releaseTag": "v0.1.9",
+      "sha256": "41709638cd4a47026301dfdd3e65fa7a6ae9277761c81a20e84bb78e151eeb2c",
+      "size": 9641609,
+      "format": "zip",
+      "binaries": {
+        "sentrum.exe": {
+          "path": "sentrum-v0.1.9-windows-x86_64/sentrum.exe",
+          "sha256": "09803b01e88f47ab62bd9afbf9c28dac22cc52c19a83ee968a0506405d5a4a7a"
+        }
+      }
+    }
+  }
+}
