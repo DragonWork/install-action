@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-v5",
+  "version": "0.12.1",
+  "repository": "vexide/cargo-v5",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vexide/cargo-v5/releases/download/v0.12.1/cargo-v5-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.12.1",
+      "sha256": "bc17a3c61c426e5186dc79029c271fc6503b6c0e6527f762695db1b680bb3803",
+      "size": 4390124,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-v5": {
+          "path": "cargo-v5-x86_64-unknown-linux-gnu/cargo-v5",
+          "sha256": "35028c9e562c11aa2992e70dee390e532ba58496960cd3ef487a9d8d040b12ef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vexide/cargo-v5/releases/download/v0.12.1/cargo-v5-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.1",
+      "sha256": "763b4409c0ea832304a88352629c9b5adc19334edc62fa6b0487c64235a65543",
+      "size": 4125048,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-v5": {
+          "path": "cargo-v5-x86_64-apple-darwin/cargo-v5",
+          "sha256": "d71c4d5528724039c40accedf19ef6f589a30880291f3cd0d7cab21b22a39a79"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vexide/cargo-v5/releases/download/v0.12.1/cargo-v5-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.1",
+      "sha256": "d0c1253989fdd7c515c725eb37946de805f18b59a6757b10029c2c2edbe24e96",
+      "size": 3773360,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-v5": {
+          "path": "cargo-v5-aarch64-apple-darwin/cargo-v5",
+          "sha256": "fd9e18543ff513683c6ffe7afe0fbd621e41c676b32e1bc2393ac8a8d130df15"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vexide/cargo-v5/releases/download/v0.12.1/cargo-v5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.1",
+      "sha256": "dc61f41be0ab94f59c86ae92a8c1b9b46c8382caa75d2f2da6dec9fe8a183efa",
+      "size": 13557835,
+      "format": "zip",
+      "binaries": {
+        "cargo-v5.exe": {
+          "path": "cargo-v5.exe",
+          "sha256": "f042ba82308ed5aad8e924fb3bce8a8031bcec0011dddf0f5019c5c0011dcbd5"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/vexide/cargo-v5/releases/download/v0.12.1/cargo-v5-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.1",
+      "sha256": "f86bb0e2196b9dad5927daf0b8c63e6b3dfac0af96b82ae1ec2b1eedca61dfe3",
+      "size": 11872331,
+      "format": "zip",
+      "binaries": {
+        "cargo-v5.exe": {
+          "path": "cargo-v5.exe",
+          "sha256": "c14c5c5cd7b29427c2beb24fec15748c674cd99bce166cf2ba77c9f75c3d6613"
+        }
+      }
+    }
+  }
+}
