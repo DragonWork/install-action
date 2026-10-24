@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "vouch-js",
+  "version": "0.3.1",
+  "repository": "thirdpass-org/thirdpass-js",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thirdpass-org/thirdpass-js/releases/download/v0.3.1/vouch-js-v0.3.1-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "ea8c50eec51b0d3bdcd64374ee969f129a97b63c6b6c45719617ccc2a44483ac",
+      "size": 4334456,
+      "format": "zip",
+      "binaries": {
+        "vouch-js": {
+          "path": "vouch-js",
+          "sha256": "d8ae88be82d4fa63b4dcbfe125748566db2ad972311e389581078d02d6a6ff8b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thirdpass-org/thirdpass-js/releases/download/v0.3.1/vouch-js-v0.3.1-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "98ce05b79062ef47fb61565d32f968a715d1a071fa1221e3c5da3409a437566e",
+      "size": 1823903,
+      "format": "zip",
+      "binaries": {
+        "vouch-js": {
+          "path": "vouch-js",
+          "sha256": "474680d721c96e31ca4c429c51401d6f8cd51d72fa29917731674ee0f0f65f70"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/thirdpass-org/thirdpass-js/releases/download/v0.3.1/vouch-js-v0.3.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "eda1c176370ac572d8aeca9b57b91a7dd76a1d618f8913f6113884c3361190ed",
+      "size": 1536975,
+      "format": "zip",
+      "binaries": {
+        "vouch-js.exe": {
+          "path": "vouch-js.exe",
+          "sha256": "7b5e25fe4a5adb5f9cbdb43fc94799e0304764e71a9a16ceafcb822a9354ffa8"
+        }
+      }
+    }
+  }
+}
