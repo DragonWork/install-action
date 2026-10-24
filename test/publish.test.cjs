@@ -5,7 +5,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const os = require('node:os');
 const path = require('node:path');
-const { signedCommit, release } = require('../scripts/github.cjs');
+const { signedCommit, tagCommit, release } = require('../scripts/github.cjs');
 const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget,
   prepareShard, mergePrepared, catalogProgress, assetCandidates, assetFormat, nativeBinary,
   generate, planUpdate } = require('../scripts/update-tools.cjs');
@@ -170,7 +170,7 @@ test('publication refuses an unverified commit', async t => {
   await assert.rejects(signedCommit('DragonWork/install-action', 'crates.io', 'a'.repeat(40), 'chore: update', {}), /not verified/);
 });
 
-test('release recovery never moves an existing tag', async t => {
+test('tag publication never moves an existing tag', async t => {
   const original = global.fetch;
   t.after(() => { global.fetch = original; });
   const methods = [];
@@ -178,11 +178,11 @@ test('release recovery never moves an existing tag', async t => {
     methods.push(options.method);
     return Response.json({ object: { type: 'commit', sha: 'b'.repeat(40) } });
   };
-  await assert.rejects(release('DragonWork/install-action', 'git-cliff/v1.0.0', 'a'.repeat(40), 'notes'), /different commit/);
+  await assert.rejects(tagCommit('DragonWork/install-action', 'git-cliff/v1.0.0', 'a'.repeat(40)), /different commit/);
   assert.deepEqual(methods, ['GET']);
 });
 
-test('unchanged namespaces do not create commits or tags', async t => {
+test('tool publication skips existing tags and recovers missing tags without GitHub Releases', async t => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-publish-'));
   const originalFetch = global.fetch;
   const originalEnv = { ...process.env };
@@ -205,8 +205,16 @@ test('unchanged namespaces do not create commits or tags', async t => {
     CRATES_HEAD: 'a'.repeat(40), GITHUB_SHA: 'c'.repeat(40),
   });
   const calls = [];
+  let existingTag = true;
   global.fetch = async (url, options) => {
-    calls.push(options.method);
+    calls.push({ url, method: options.method });
+    assert(!url.includes('/releases'), 'Tool publication must not require GitHub Releases.');
+    if (options.method === 'POST') {
+      assert.equal(url, 'https://api.github.com/repos/DragonWork/install-action/git/refs');
+      assert.deepEqual(JSON.parse(options.body), { ref: 'refs/tags/sample-cli/v1.0.0', sha: 'b'.repeat(40) });
+      existingTag = true;
+      return Response.json({ ref: 'refs/tags/sample-cli/v1.0.0' });
+    }
     assert.equal(options.method, 'GET');
     if (url.includes('/contents/')) {
       const name = new URL(url).pathname.split('/').at(-1);
@@ -218,13 +226,18 @@ test('unchanged namespaces do not create commits or tags', async t => {
     if (url.includes('/commits?')) return Response.json([{ sha: 'b'.repeat(40) }]);
     if (url.includes('/commits/')) return Response.json({ commit: { verification: { verified: true } },
       files: [{ filename: 'tools/sample-cli/manifest.json' }] });
-    if (url.includes('/git/ref/tags/')) return Response.json({ object: { type: 'commit', sha: 'b'.repeat(40) } });
-    if (url.includes('/releases/tags/')) return Response.json({ id: 1 });
+    if (url.includes('/git/ref/tags/')) return existingTag
+      ? Response.json({ object: { type: 'commit', sha: 'b'.repeat(40) } }) : Response.json({}, { status: 404 });
     throw new Error(`Unexpected API request: ${url}`);
   };
-  await publishTools({ tags: new Set(), released: new Set() });
+  await publishTools({ tags: new Set(['sample-cli/v1.0.0']) });
+  await publishTools({ tags: new Set() });
   assert(calls.length > 0);
-  assert(calls.every(method => method === 'GET'));
+  assert(calls.every(call => call.method === 'GET'));
+  calls.length = 0;
+  existingTag = false;
+  await publishTools({ tags: new Set() });
+  assert.equal(calls.filter(call => call.method === 'POST').length, 1);
 });
 
 test('preparation workers merge distinct tools and defer temporary failures', async t => {
@@ -264,7 +277,7 @@ test('preparation workers merge distinct tools and defer temporary failures', as
   await assert.rejects(mergePrepared(directory, output), /overlap|unplanned/);
 });
 
-test('a committed tag without a release is completed without moving the tag', async t => {
+test('installer publication still creates a GitHub Release without moving its tag', async t => {
   const original = global.fetch;
   t.after(() => { global.fetch = original; });
   const writes = [];
@@ -274,7 +287,7 @@ test('a committed tag without a release is completed without moving the tag', as
     writes.push({ url, method: options.method });
     return Response.json({ id: 1 });
   };
-  await release('DragonWork/install-action', 'sample-cli/v1.0.0', 'a'.repeat(40), 'notes');
+  await release('DragonWork/install-action', 'v1.0.0', 'a'.repeat(40), 'notes');
   assert.equal(writes.length, 1);
   assert(writes[0].url.endsWith('/releases'));
   assert.equal(writes[0].method, 'POST');

@@ -8,29 +8,14 @@ const { promisify } = require('node:util');
 const { assert, failure } = require('../lib/common.cjs');
 const { checkRegistry } = require('./check.cjs');
 const { compareVersions } = require('./update-tools.cjs');
-const { api, signedCommit, release } = require('./github.cjs');
+const { api, signedCommit, tagCommit } = require('./github.cjs');
 
 async function contents(repository, file, ref) {
   const result = await api(`/repos/${repository}/contents/${file}?ref=${encodeURIComponent(ref)}`, { optional: true });
   return result ? Buffer.from(result.content, 'base64').toString('utf8') : null;
 }
 
-async function publishedTags(repository, manifests) {
-  const [owner, name] = repository.split('/');
-  const result = new Set();
-  for (let offset = 0; offset < manifests.length; offset += 100) {
-    const block = manifests.slice(offset, offset + 100);
-    const fields = block.map((manifest, index) => `r${index}: release(tagName:${JSON.stringify(`${manifest.name}/v${manifest.version}`)}) { tagName isDraft }`);
-    const response = await api('/graphql', { method: 'POST', body: {
-      query: `{ repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(name)}) { ${fields.join(' ')} } }`,
-    } });
-    assert(response.data?.repository && !response.errors, 'Could not verify published tool releases.');
-    for (const release of Object.values(response.data.repository)) if (release && !release.isDraft) result.add(release.tagName);
-  }
-  return result;
-}
-
-async function main({ tags, released } = {}) {
+async function main({ tags } = {}) {
   assert(process.env.GITHUB_REF === 'refs/heads/main', 'Publish only from main.');
   const repository = process.env.GITHUB_REPOSITORY;
   assert(repository === 'DragonWork/install-action', 'Unexpected publication repository.');
@@ -38,7 +23,6 @@ async function main({ tags, released } = {}) {
   const names = await checkRegistry(directory);
   const manifests = [];
   for (const name of names) manifests.push(JSON.parse(await fs.readFile(path.join(directory, 'tools', name, 'manifest.json'), 'utf8')));
-  released ||= await publishedTags(repository, manifests);
   tags ||= new Set((await promisify(execFile)('git', ['tag', '--list'])).stdout.trim().split('\n'));
   const changed = new Set((process.env.CHANGED_CRATES || '').split(' '));
   let head = process.env.CRATES_HEAD;
@@ -50,7 +34,7 @@ async function main({ tags, released } = {}) {
   for (const manifest of manifests) {
     const name = manifest.name;
     const prefix = `tools/${name}/`;
-    if (tags.has(`${name}/v${manifest.version}`) && released.has(`${name}/v${manifest.version}`) && !changed.has(name)) continue;
+    if (tags.has(`${name}/v${manifest.version}`) && !changed.has(name)) continue;
     const changes = {};
     for (const file of ['manifest.json', 'action.yml']) {
       const relative = prefix + file;
@@ -75,9 +59,7 @@ async function main({ tags, released } = {}) {
     const detail = await api(`/repos/${repository}/commits/${commit}`);
     assert(detail.commit.verification.verified, `Unsigned crate commit: ${commit}`);
     assert(detail.files.every(file => file.filename.startsWith(prefix)), `Commit ${commit} contains another namespace.`);
-    await release(repository, `${name}/v${manifest.version}`, commit,
-      `Install ${name} ${manifest.version}.\n\nChecksum-pinned upstream binaries.\n\n` +
-      '```yaml\n' + `- uses: DragonWork/install-action/tools/${name}@${commit} # ${name}/v${manifest.version}\n` + '```\n');
+    await tagCommit(repository, `${name}/v${manifest.version}`, commit);
     console.log(`${name}/v${manifest.version}: ${commit}`);
   }
   const metadata = {};
@@ -96,4 +78,4 @@ async function main({ tags, released } = {}) {
 }
 
 if (require.main === module) main().catch(failure);
-module.exports = { contents, publishedTags, main };
+module.exports = { contents, main };

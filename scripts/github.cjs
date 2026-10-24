@@ -41,7 +41,7 @@ async function signedCommit(repository, branch, head, message, files, deletions 
   return commit.oid;
 }
 
-async function release(repository, tag, commit, body, latest = false) {
+async function tagCommit(repository, tag, commit) {
   const base = `/repos/${repository}`;
   const ref = await api(`${base}/git/ref/tags/${tag}`, { optional: true });
   if (ref) {
@@ -49,6 +49,11 @@ async function release(repository, tag, commit, body, latest = false) {
     while (object.type === 'tag') object = (await api(`${base}/git/tags/${object.sha}`)).object;
     assert(object.sha === commit, `Tag ${tag} already points to a different commit.`);
   } else await api(`${base}/git/refs`, { method: 'POST', body: { ref: `refs/tags/${tag}`, sha: commit } });
+}
+
+async function release(repository, tag, commit, body, latest = false) {
+  await tagCommit(repository, tag, commit);
+  const base = `/repos/${repository}`;
   const existing = await api(`${base}/releases/tags/${tag}`, { optional: true });
   assert(!existing?.draft, `Release ${tag} is still a draft.`);
   if (!existing) await api(`${base}/releases`, { method: 'POST', body: {
@@ -57,4 +62,4 @@ async function release(repository, tag, commit, body, latest = false) {
   } });
 }
 
-module.exports = { api, signedCommit, release };
+module.exports = { api, signedCommit, tagCommit, release };
