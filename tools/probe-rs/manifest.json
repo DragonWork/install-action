@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "name": "probe-rs",
+  "version": "0.23.0",
+  "repository": "probe-rs/probe-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.23.0/probe-rs-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.23.0",
+      "sha256": "5f3b06971102921687cda3c5d3070ff8b7dd9698e7b7bdc73cec048c65f94107",
+      "size": 6714520,
+      "format": "tar.xz",
+      "binaries": {
+        "probe-rs": {
+          "path": "probe-rs-x86_64-unknown-linux-gnu/probe-rs",
+          "sha256": "6d9531bfa4c90c78c1cfdab7613fbbbef9cc2432cf516048dad944b5297fc76f"
+        },
+        "cargo-flash": {
+          "path": "probe-rs-x86_64-unknown-linux-gnu/cargo-flash",
+          "sha256": "cb8c5d1a685aea83cff5128dfd4bcecc03dcfacbd91942868e1ea41910d27b59"
+        },
+        "cargo-embed": {
+          "path": "probe-rs-x86_64-unknown-linux-gnu/cargo-embed",
+          "sha256": "1ce93f0582d2b634a17362a2d1927f90ac886dc9766f025173662a557ab52ad4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.23.0/probe-rs-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.23.0",
+      "sha256": "6feec6fb0ee95c44ab217999aa503a696538c1cd97f1a4addb677908d3799b75",
+      "size": 5529076,
+      "format": "tar.xz",
+      "binaries": {
+        "probe-rs": {
+          "path": "probe-rs-x86_64-apple-darwin/probe-rs",
+          "sha256": "88f33884e766681901df07ab4e0f3e5f0791d5f5ce829b9724ad7483938ffb23"
+        },
+        "cargo-flash": {
+          "path": "probe-rs-x86_64-apple-darwin/cargo-flash",
+          "sha256": "94a5a9e3a110f746f77aa9919fb9be3a2e043ef815f2fedf7968700884016b56"
+        },
+        "cargo-embed": {
+          "path": "probe-rs-x86_64-apple-darwin/cargo-embed",
+          "sha256": "808f5ddd6174971f0e46fcddd971fdce20a675f01d2c8f81a7adf04198495932"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.23.0/probe-rs-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.23.0",
+      "sha256": "7a1f10a074ed7e02fa010aed11f3af8bd200473f07274bd819a0920d9adb7dd7",
+      "size": 5125876,
+      "format": "tar.xz",
+      "binaries": {
+        "probe-rs": {
+          "path": "probe-rs-aarch64-apple-darwin/probe-rs",
+          "sha256": "f0c1e996b297b0edb6128b70032b35cdc1d2ec12ed8e5eb8a449c5678bf16052"
+        },
+        "cargo-flash": {
+          "path": "probe-rs-aarch64-apple-darwin/cargo-flash",
+          "sha256": "7f7a34b41215fff2fd7a56847ad1638fb64e07f5539adff69d69f86339b71543"
+        },
+        "cargo-embed": {
+          "path": "probe-rs-aarch64-apple-darwin/cargo-embed",
+          "sha256": "b47a6d13b1eb2da9e9d65650e7061e979f214faaf33ed8e0c74f0ea1390aab20"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.23.0/probe-rs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.23.0",
+      "sha256": "37f0719e03c6d9eabddd06a3609fd04ed1a7b5ef93280a2328d0460ca02440a1",
+      "size": 26829373,
+      "format": "zip",
+      "binaries": {
+        "probe-rs.exe": {
+          "path": "probe-rs.exe",
+          "sha256": "efe8087a53aea8ed48fa9a2c39fff7bc0856a617e19090893b64c485f0ed07a9"
+        },
+        "cargo-flash.exe": {
+          "path": "cargo-flash.exe",
+          "sha256": "b8a2ecd27966991f7c9eac150906306e50b6842a9fee858fbb4138f15f0d0145"
+        },
+        "cargo-embed.exe": {
+          "path": "cargo-embed.exe",
+          "sha256": "2aabc4e0db235c6bd8c237d1f4df0c28168775964b6981e4c086d98d0f9ae3a0"
+        }
+      }
+    }
+  }
+}
