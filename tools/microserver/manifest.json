@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "microserver",
+  "version": "0.2.1",
+  "repository": "robertohuertasm/microserver",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/robertohuertasm/microserver/releases/download/v0.2.1/microserver_linux.zip",
+      "sha256": "d11637d68ad51c82267722110407fa8a668d298d84a8e639ec05d6d74c1cad72",
+      "size": 697984,
+      "format": "zip",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "microserver": {
+          "path": "target/release/microserver",
+          "sha256": "56f063ce031c4dcfab3c494b41412fbbb00cf40e3e1a83f65241b2b9885dd1af"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/robertohuertasm/microserver/releases/download/v0.2.1/microserver_osx.zip",
+      "sha256": "592aeb0aca2ca81b3aae9904427000105bab85df2778c7afc2e347cbd0779bac",
+      "size": 698600,
+      "format": "zip",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "microserver": {
+          "path": "target/release/microserver",
+          "sha256": "72329be6f17e22671762d45a4ad8cfe0d56df6613504acf7525f1511a9edd12a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/robertohuertasm/microserver/releases/download/v0.2.1/microserver_windows.zip",
+      "sha256": "9889de49bf2b8177207eb07ef087196be0ab967583ff6bdf35b4a4e085abfa24",
+      "size": 681117,
+      "format": "zip",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "microserver.exe": {
+          "path": "target/release/microserver.exe",
+          "sha256": "7ff417541a1bc449b44d24d19b82d8edb0f5c0cf866e2aa7f19c1f3275fadb4f"
+        }
+      }
+    }
+  }
+}
