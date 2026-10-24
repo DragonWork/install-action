@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rustcat",
+  "version": "3.0.0",
+  "repository": "robiot/rustcat",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-linux-x86_64.deb",
+      "sha256": "e37252e31afea56ea5b18418634937c0712de52295eef739a5285b05e4c83170",
+      "size": 477260,
+      "format": "deb",
+      "releaseTag": "v3.0.0",
+      "binaries": {
+        "rcat": {
+          "path": "usr/bin/rcat",
+          "sha256": "dd3ea4ae30482ba63fb40511c0416d0c6ff65930801f0ac4e462fe632035c57b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-darwin-x86_64",
+      "sha256": "2ab2a27afccb53fc7e4a7368b6f3c022d6f04bc2d1795047b1817b3c6c39c530",
+      "size": 1895096,
+      "format": "binary",
+      "releaseTag": "v3.0.0",
+      "binaries": {
+        "rcat": {
+          "path": "rcat-v3.0.0-darwin-x86_64",
+          "sha256": "2ab2a27afccb53fc7e4a7368b6f3c022d6f04bc2d1795047b1817b3c6c39c530"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-darwin-aarch64",
+      "sha256": "1700a39bfa880f7f8754b5daaed7b7ee570f10320648edf80b004e4e5f7685a1",
+      "size": 1773954,
+      "format": "binary",
+      "releaseTag": "v3.0.0",
+      "binaries": {
+        "rcat": {
+          "path": "rcat-v3.0.0-darwin-aarch64",
+          "sha256": "1700a39bfa880f7f8754b5daaed7b7ee570f10320648edf80b004e4e5f7685a1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/robiot/rustcat/releases/download/v3.0.0/rcat-v3.0.0-win-x86_64.exe",
+      "sha256": "0f82d74827913f91363f25148c2767ae6273fd07256f5999f5e801325348487b",
+      "size": 1190400,
+      "format": "binary",
+      "releaseTag": "v3.0.0",
+      "binaries": {
+        "rcat.exe": {
+          "path": "rcat-v3.0.0-win-x86_64.exe",
+          "sha256": "0f82d74827913f91363f25148c2767ae6273fd07256f5999f5e801325348487b"
+        }
+      }
+    }
+  }
+}
