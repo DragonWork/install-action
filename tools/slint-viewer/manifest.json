@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "slint-viewer",
+  "version": "1.18.1",
+  "repository": "slint-ui/slint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-viewer-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.18.1",
+      "sha256": "86b260e661cdc24dcadaf63266b034f3281cbec542afc26545a72a986fe42a13",
+      "size": 19062520,
+      "format": "tar.gz",
+      "binaries": {
+        "slint-viewer": {
+          "path": "slint-viewer/slint-viewer",
+          "sha256": "c8fee7845c43abb8267da7976e32f9e1ea4c5a2ea5b6a732be4e498bbec15f1e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-viewer-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.18.1",
+      "sha256": "7aad0325b6af939c4adefd49bd17611511dca056c89748e7ded9d45c062953da",
+      "size": 18335859,
+      "format": "tar.gz",
+      "binaries": {
+        "slint-viewer": {
+          "path": "slint-viewer-aarch64-unknown-linux-gnu/slint-viewer",
+          "sha256": "26a637397231e6d906e4e02623d50ae9e5cc5c33da901dc016c6d943ff0f786d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-viewer-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.18.1",
+      "sha256": "1bdad00c098ce5ca5f9c0e6ccb666170b43c8fdcec20a4e6e7c1539f5d38818e",
+      "size": 15570481,
+      "format": "zip",
+      "binaries": {
+        "slint-viewer.exe": {
+          "path": "slint-viewer.exe",
+          "sha256": "c8143c1ac6ac13ce14616de557fd0340ee6600b1237d7707014373d346d9c78b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-viewer-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.18.1",
+      "sha256": "522e40da5fc30071e838a1d0459f8aeb4d6d2d49c7cd3c202972ca229daeb67b",
+      "size": 14600531,
+      "format": "zip",
+      "binaries": {
+        "slint-viewer.exe": {
+          "path": "slint-viewer.exe",
+          "sha256": "475762a56ee112804c9a8b2c3b61ff0cf18fb723d82391b8b7cda2354de60acc"
+        }
+      }
+    }
+  }
+}
