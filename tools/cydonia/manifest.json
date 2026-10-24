@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cydonia",
+  "version": "0.2.6",
+  "repository": "crabtalk/cydonia",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/crabtalk/cydonia/releases/download/v0.2.6/cydonia-linux-x86_64.tar.xz",
+      "releaseTag": "v0.2.6",
+      "sha256": "0845274144f436c7ef9e8821856dffbaa9fa9942cd5191cf4c222e0f1196be19",
+      "size": 13869620,
+      "format": "tar.xz",
+      "binaries": {
+        "cydonia": {
+          "path": "cydonia.app/bin/cydonia",
+          "sha256": "514278ac12838981382e732a995af5355990a293f357d7f7724b006386cd1116"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/crabtalk/cydonia/releases/download/v0.2.6/cydonia-linux-aarch64.tar.xz",
+      "releaseTag": "v0.2.6",
+      "sha256": "ae3df58a12f7e1e8b956fc4e326eed2f52e6902011c4ccb2fbdab6c6b6ad9141",
+      "size": 13335892,
+      "format": "tar.xz",
+      "binaries": {
+        "cydonia": {
+          "path": "cydonia.app/bin/cydonia",
+          "sha256": "78f5f2f01b47ac814437d5d0467bee0e2df363f51e6dd9f7c3e371a5b3c36941"
+        }
+      }
+    }
+  }
+}
