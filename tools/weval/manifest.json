@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "weval",
+  "version": "0.5.1",
+  "repository": "bytecodealliance/weval",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/weval/releases/download/v0.5.1/weval-v0.5.1-x86_64-linux.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "ed36a23a4e7f5fdd72659c68647427ab9aee137278e2439bddd813de7db1e2c8",
+      "size": 8722584,
+      "format": "tar.xz",
+      "binaries": {
+        "weval": {
+          "path": "weval-v0.5.1-x86_64-linux/weval",
+          "sha256": "6242bfb479da3ff1e174dddae927b6ab2c7c4f3711f767a04ba1d9e8d7ec9139"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/weval/releases/download/v0.5.1/weval-v0.5.1-aarch64-linux.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "5f0c9b220084ab8065f951ca269c72c40596f65f19b14c39bfec5ccce119def6",
+      "size": 7866560,
+      "format": "tar.xz",
+      "binaries": {
+        "weval": {
+          "path": "weval-v0.5.1-aarch64-linux/weval",
+          "sha256": "43af7aa90fe82bd9fd1386e4321eb7ee0533f6c0dafd7ecd83920f493f524334"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/weval/releases/download/v0.5.1/weval-v0.5.1-x86_64-macos.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "ae8d03dfde1d49e0a48b40130deffbcdb8b6b80d58d095510460ccb23365ab01",
+      "size": 8240904,
+      "format": "tar.xz",
+      "binaries": {
+        "weval": {
+          "path": "weval-v0.5.1-x86_64-macos/weval",
+          "sha256": "5000f3d548ae449c1b33e6007a0e309b34c5dc7b162735535525d75794f8f775"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/weval/releases/download/v0.5.1/weval-v0.5.1-aarch64-macos.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "10068ba146171f8729cdeeabe3449791ad8d50d33406b5ec544837704cc4b17b",
+      "size": 6787240,
+      "format": "tar.xz",
+      "binaries": {
+        "weval": {
+          "path": "weval-v0.5.1-aarch64-macos/weval",
+          "sha256": "26b0942584a95ed17c2b54a85b1eff2c9285bf88d3c68dec764602e7579b156f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/weval/releases/download/v0.5.1/weval-v0.5.1-x86_64-windows.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "957509cfc9cf864b682221baf5ba896458c689f3f23b4af90d54dc3f71129eb9",
+      "size": 10848492,
+      "format": "zip",
+      "binaries": {
+        "weval.exe": {
+          "path": "weval-v0.5.1-x86_64-windows/weval.exe",
+          "sha256": "40c59aa344174359976e8c271c60494c5b5ec60c6f775574ebc5c321a3fd936e"
+        }
+      }
+    }
+  }
+}
