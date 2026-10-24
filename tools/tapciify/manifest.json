@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tapciify",
+  "version": "3.3.1",
+  "repository": "tapnisu/tapciify",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tapnisu/tapciify/releases/download/v3.3.1/tapciify-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.3.1",
+      "sha256": "d13e424435ced60096cc45596885d07075ed63039e5b822dda86d616861a5958",
+      "size": 1399486,
+      "format": "tar.gz",
+      "binaries": {
+        "tapciify": {
+          "path": "tapciify",
+          "sha256": "ba1cef2290a126bddf4619a921ae37ec46d827754700d34b1fa9e45fb391bef6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tapnisu/tapciify/releases/download/v3.3.1/tapciify-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.3.1",
+      "sha256": "344c1ff1c2a6abd08255d0d53b467e7100893b05e1f921a5b363a8f94ff6961e",
+      "size": 1406219,
+      "format": "tar.gz",
+      "binaries": {
+        "tapciify": {
+          "path": "tapciify",
+          "sha256": "5156aaf0a1737c0e5094e97ec8864961263cec2787425ccdb1e6ff497473f83d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tapnisu/tapciify/releases/download/v3.3.1/tapciify-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.3.1",
+      "sha256": "fef2dd5287edefdb55912d3cef05545dc79f6ea57b109630a6f0ee06d9c92efd",
+      "size": 1317075,
+      "format": "tar.gz",
+      "binaries": {
+        "tapciify": {
+          "path": "tapciify",
+          "sha256": "77c979be63c806c8943f9f3a9b916b662a91efbf3442de9e52681f260bc472b8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tapnisu/tapciify/releases/download/v3.3.1/tapciify-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.3.1",
+      "sha256": "2fee2d0610a1b1bc95d14f46924f9bb38aabe01111506b0de19ac1462d4b1695",
+      "size": 1269267,
+      "format": "tar.gz",
+      "binaries": {
+        "tapciify": {
+          "path": "tapciify",
+          "sha256": "72850207093de0496c9f2116a84e7232955e31b8ed274fa249f07a6b6b0d71d3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tapnisu/tapciify/releases/download/v3.3.1/tapciify-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.3.1",
+      "sha256": "2a1bb7e0c180711d58947dc9700909974df4bccdf5ce6e381d00d392f19a7545",
+      "size": 1104457,
+      "format": "zip",
+      "binaries": {
+        "tapciify.exe": {
+          "path": "tapciify.exe",
+          "sha256": "313749b6367cc3248e4ff108ab00da3cfa6590d4f0d9ecca676eb5e66202ec9b"
+        }
+      }
+    }
+  }
+}
