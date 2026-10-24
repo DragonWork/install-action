@@ -4,12 +4,12 @@ Currently supports only prebuilt CLI tools from crates.io.
 
 ```yaml
 steps:
-  - uses: DragonWork/install-action@8f0613727037c354494bc39370abc6c1b8bd82d7 # v1.0.3
+  - uses: DragonWork/install-action@0aa6a1559d0cdbf5719db9aaa9adc1fe1b438cb8 # v1.1.0
   - uses: DragonWork/install-action/tools/git-cliff@7b03d4b6428472552f85b3df46fa8c175b8337fa # git-cliff/v2.14.2
   - run: git-cliff --version
 ```
 
-[Available tools](https://github.com/DragonWork/install-action/tree/crates.io/tools)
+[Search tools](https://dragonwork.github.io/install-action/)
 
 `.github/dependabot.yml`:
 
