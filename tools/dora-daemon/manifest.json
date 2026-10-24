@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dora-daemon",
+  "version": "0.3.1",
+  "repository": "dora-rs/dora",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v0.3.1/dora-v0.3.1-x86_64-Linux.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "21190ee4d1a8d52935a8afcb7f01eeca94f73e6c2d4c0e21137aea5021eee484",
+      "size": 19648414,
+      "format": "zip",
+      "binaries": {
+        "dora-daemon": {
+          "path": "dora-daemon",
+          "sha256": "fec16b014ac9d1489dbf3aea5af5a158d4a6ac70b99d6d5e03248944beefeb76"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v0.3.1/dora-v0.3.1-aarch64-Linux.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "8370d23d9dac0d9d1f0cd456bdc5edebf5bcecddc27041d044d50ab45c55b0e0",
+      "size": 19036593,
+      "format": "zip",
+      "binaries": {
+        "dora-daemon": {
+          "path": "dora-daemon",
+          "sha256": "88bf5e565e4ce40287c5789a2f28467514db5502a3f9f158c9b1ca8e6ffcb11a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v0.3.1/dora-v0.3.1-x86_64-macOS.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "cd9de92e64cb2a04567239587049bba470d688881098f41e483a9c97cc9c7e64",
+      "size": 13975313,
+      "format": "zip",
+      "binaries": {
+        "dora-daemon": {
+          "path": "dora-daemon",
+          "sha256": "20188ac11b83daf6d57920565d1b590afe486a8e46e03fee67693d7cc488773a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v0.3.1/dora-v0.3.1-aarch64-macOS.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "2cd848359c02895ad5fcff83c03f05c0a1eb2dcb5ee08452ff79958968a911ca",
+      "size": 13814731,
+      "format": "zip",
+      "binaries": {
+        "dora-daemon": {
+          "path": "dora-daemon",
+          "sha256": "eaf829554cd9022641b28cf1fccce53a91f1fecaa26658cd9add49da01c4f343"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v0.3.1/dora-v0.3.1-x86_64-Windows.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "2e98bb982f2151b74336a998124d18d6cae0b22e3375040190a89612f6d7c97c",
+      "size": 12498826,
+      "format": "zip",
+      "binaries": {
+        "dora-daemon.exe": {
+          "path": "dora-daemon.exe",
+          "sha256": "9b2726d860b08c2221ef3facefa797a7efcd63e614dfba07d79eb8ecdf126bf8"
+        }
+      }
+    }
+  }
+}
