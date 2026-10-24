@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "denog",
+  "version": "0.7.3",
+  "repository": "denogdev/denog",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/denogdev/denog/releases/download/v0.7.3/denog-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.7.3",
+      "sha256": "742d971ef73236bfd3160990ce6ce6b8a62c6e1918ab970fee9cb5adb8b5598a",
+      "size": 39722030,
+      "format": "zip",
+      "binaries": {
+        "denog": {
+          "path": "denog",
+          "sha256": "b900790192e740acce60b4523a9fc0988c220610da805f16f763a6c70c44ed9a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/denogdev/denog/releases/download/v0.7.3/denog-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.7.3",
+      "sha256": "12d4cb7ebcc076c339c2c866625417fdd0ef490a9311668f6f3d4d93a1cebf34",
+      "size": 35241500,
+      "format": "zip",
+      "binaries": {
+        "denog": {
+          "path": "denog",
+          "sha256": "a212322b1fd26410792201f9895b681c0664284536bb4feb0b0a4f5c1a21b256"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/denogdev/denog/releases/download/v0.7.3/denog-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.7.3",
+      "sha256": "22c67e7c8de2951a7eac1beb890c08156db528266ac3bd825d1a6efbe877bfbf",
+      "size": 34616138,
+      "format": "zip",
+      "binaries": {
+        "denog": {
+          "path": "denog",
+          "sha256": "21efd47661dfadd3207c1560b88e91d365d7c647404b0f6c67da618a2194fe0b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/denogdev/denog/releases/download/v0.7.3/denog-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.3",
+      "sha256": "3a634e03842839b390227ea1c2df2f7b142c72f44340b86f3bc95a3954f61bce",
+      "size": 31560288,
+      "format": "zip",
+      "binaries": {
+        "denog.exe": {
+          "path": "denog.exe",
+          "sha256": "308421765461eb53585e09cdea15de9c4e23f39d1c80e6976a48112a07983879"
+        }
+      }
+    }
+  }
+}
