@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "h3o-cli",
+  "version": "0.2.12",
+  "repository": "HydroniumLabs/h3o-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-linux-x86_64.tar.gz",
+      "releaseTag": "v0.2.12",
+      "sha256": "32c4dd07d5eed0843abab65948097a7bec7998ce7fdeb101be94be2c365cbf5b",
+      "size": 1070400,
+      "format": "tar.gz",
+      "binaries": {
+        "h3o-cli": {
+          "path": "h3o-cli",
+          "sha256": "c4924b11396c977d4e644c2bdf61b94ea45b391f05eb0263fd0bcbce9616866a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-linux-arm64.tar.gz",
+      "releaseTag": "v0.2.12",
+      "sha256": "aa98b748a29f880430ee201506a9767bb278e1d8db4fb9dd813b446497e80667",
+      "size": 985191,
+      "format": "tar.gz",
+      "binaries": {
+        "h3o-cli": {
+          "path": "h3o-cli",
+          "sha256": "9eb6570af297609395b866d95c53e07be21c9d1eacd3385ab0ffeb799f809e06"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-macos-x86_64.tar.gz",
+      "releaseTag": "v0.2.12",
+      "sha256": "8ff409d7a34979f9f803c2e196912c4c24bfb4cdfa44d7d36e1ffe7eceddd7ba",
+      "size": 1037201,
+      "format": "tar.gz",
+      "binaries": {
+        "h3o-cli": {
+          "path": "h3o-cli",
+          "sha256": "1b3d13b56c169df08fb9999a89feac16ee2672405ab21e99e2e4e6deb615ab9c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-macos-arm64.tar.gz",
+      "releaseTag": "v0.2.12",
+      "sha256": "ca0234a40def11ff334cb3b1940bddde91047267d998793d68dc2a8e24ccb2ce",
+      "size": 978760,
+      "format": "tar.gz",
+      "binaries": {
+        "h3o-cli": {
+          "path": "h3o-cli",
+          "sha256": "c705598be0a5ee530e284e62363ed0f26e61414eafd22cd22d2c6f186f6e8718"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/HydroniumLabs/h3o-cli/releases/download/v0.2.12/h3o-cli-v0.2.12-windows-x86_64.tar.gz",
+      "releaseTag": "v0.2.12",
+      "sha256": "d3a401b6c1ba6d0f08b9ca3dd4df9652d9fbe79ea5c305c3ab7bf398eb8e224d",
+      "size": 961468,
+      "format": "tar.gz",
+      "binaries": {
+        "h3o-cli.exe": {
+          "path": "h3o-cli.exe",
+          "sha256": "924bedf040d254fb298e20e7f03f2cc12072bc83070310b2896a6d6ddf8559c5"
+        }
+      }
+    }
+  }
+}
