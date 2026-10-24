@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "bonnie",
+  "version": "0.3.2",
+  "repository": "arctic-hen7/bonnie",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/arctic-hen7/bonnie/releases/download/v0.3.2/bonnie-linux-amd64",
+      "sha256": "9ed73d52f52c82f55b6fad69ab0e583a3ccc9e5026a875a670c917fafb597ce2",
+      "size": 5768400,
+      "format": "binary",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "bonnie": {
+          "path": "bonnie-linux-amd64",
+          "sha256": "9ed73d52f52c82f55b6fad69ab0e583a3ccc9e5026a875a670c917fafb597ce2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/arctic-hen7/bonnie/releases/download/v0.3.2/bonnie-macos-amd64",
+      "sha256": "d58be07251a1594d87ed314e2afb064727ef08bb84bd3465d549fdd1b54797bd",
+      "size": 2494016,
+      "format": "binary",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "bonnie": {
+          "path": "bonnie-macos-amd64",
+          "sha256": "d58be07251a1594d87ed314e2afb064727ef08bb84bd3465d549fdd1b54797bd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/arctic-hen7/bonnie/releases/download/v0.3.2/bonnie-windows-amd64",
+      "sha256": "3974415986cf3898c0c5b2e2055294a3d29244089b4f8779b732a29a82a709e3",
+      "size": 1894912,
+      "format": "binary",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "bonnie.exe": {
+          "path": "bonnie-windows-amd64",
+          "sha256": "3974415986cf3898c0c5b2e2055294a3d29244089b4f8779b732a29a82a709e3"
+        }
+      }
+    }
+  }
+}
