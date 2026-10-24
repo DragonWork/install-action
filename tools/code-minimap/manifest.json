@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "code-minimap",
+  "version": "0.6.8",
+  "repository": "wfxr/code-minimap",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wfxr/code-minimap/releases/download/v0.6.8/code-minimap-v0.6.8-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.8",
+      "sha256": "8be612a6d0f99e38f215e866cca022a11b4486649b0bf2a9af2cc2ba3b94af79",
+      "size": 530326,
+      "format": "tar.gz",
+      "binaries": {
+        "code-minimap": {
+          "path": "code-minimap-v0.6.8-x86_64-unknown-linux-musl/code-minimap",
+          "sha256": "63d875f460151aaa52a661cc1fd013c57ca2416c926c310ca9b70d05955e010c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wfxr/code-minimap/releases/download/v0.6.8/code-minimap-v0.6.8-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.8",
+      "sha256": "ece91e36bfe3dd04f781cbbd094a908872e435b9f1d3acb7184354b366253189",
+      "size": 548945,
+      "format": "tar.gz",
+      "binaries": {
+        "code-minimap": {
+          "path": "code-minimap-v0.6.8-aarch64-unknown-linux-musl/code-minimap",
+          "sha256": "fb23c86d5d8e80718d961cbd0c49d467f690b73585fe13230264d12c000bf54c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wfxr/code-minimap/releases/download/v0.6.8/code-minimap-v0.6.8-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.8",
+      "sha256": "d5c4a5966e73bc50a138ca8cc8ae41ddcb1003438fb83cf4fec933a7fd16e8e6",
+      "size": 409131,
+      "format": "zip",
+      "binaries": {
+        "code-minimap.exe": {
+          "path": "code-minimap-v0.6.8-x86_64-pc-windows-msvc/code-minimap.exe",
+          "sha256": "f3203236357e0ddae3b0a3b95092f3bbe1282fc65a6b894abdc6aeca923eeb7b"
+        }
+      }
+    }
+  }
+}
