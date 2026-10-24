@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pik",
+  "version": "1.0.1",
+  "repository": "jacek-kurlit/pik",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jacek-kurlit/pik/releases/download/1.0.1/pik-1.0.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.0.1",
+      "sha256": "803ca696223cd2563e36ec07450b8908391117d81fe976a54dc83f8a1f5e6590",
+      "size": 2273656,
+      "format": "tar.gz",
+      "binaries": {
+        "pik": {
+          "path": "pik-1.0.1-x86_64-unknown-linux-gnu/pik",
+          "sha256": "483e1e5cd7307c2053d04e215ff0784e6f47f82cff027f3f58a7cfeb76c7f524"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jacek-kurlit/pik/releases/download/1.0.1/pik-1.0.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.0.1",
+      "sha256": "3aea0f9d636e41300c3614d77294e4d69b238f8c6389714061245ba0e6ea3d8e",
+      "size": 2206943,
+      "format": "tar.gz",
+      "binaries": {
+        "pik": {
+          "path": "pik-1.0.1-aarch64-unknown-linux-gnu/pik",
+          "sha256": "c4be595d4ebd88d026787b1f269eb66058ff76f6da1be5f30cc5f1059d038b58"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jacek-kurlit/pik/releases/download/1.0.1/pik-1.0.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.0.1",
+      "sha256": "1b48b395360fdcddbc06fd8ad5a561b3915d41fcb1eac3fc25cc4a320a98551b",
+      "size": 1740952,
+      "format": "tar.gz",
+      "binaries": {
+        "pik": {
+          "path": "pik-1.0.1-x86_64-apple-darwin/pik",
+          "sha256": "fcbea3931671692d6a3b7a17e935816ee310b25f9e62e0e24389b5de84aad12f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jacek-kurlit/pik/releases/download/1.0.1/pik-1.0.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "1.0.1",
+      "sha256": "02cbe6eac32f0ea17d28334246e40da8edc6c24b932e56245a4912590c1e6382",
+      "size": 1659978,
+      "format": "tar.gz",
+      "binaries": {
+        "pik": {
+          "path": "pik-1.0.1-aarch64-apple-darwin/pik",
+          "sha256": "67825f07b34f90f243959fedbb988d6f92938b1191180f1715814c2e057c05b1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jacek-kurlit/pik/releases/download/1.0.1/pik-1.0.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.0.1",
+      "sha256": "c00e381f7a57f1ea7771946386a050a082aa742e4d9b08e043904dcfd3eb8c93",
+      "size": 1456871,
+      "format": "zip",
+      "binaries": {
+        "pik.exe": {
+          "path": "pik-1.0.1-x86_64-pc-windows-msvc/pik.exe",
+          "sha256": "a309841bd37fc1f8bb93dbc5d699ad379797151f1315062da1328348adb254a6"
+        }
+      }
+    }
+  }
+}
