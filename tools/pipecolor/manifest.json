@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "pipecolor",
+  "version": "0.4.4",
+  "repository": "dalance/pipecolor",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dalance/pipecolor/releases/download/v0.4.4/pipecolor-v0.4.4-x86_64-lnx.zip",
+      "sha256": "5d078e207faef359a255d9580942c32ca1b225a22353fa0bb7cbb7bcb55acd95",
+      "size": 2166015,
+      "format": "zip",
+      "releaseTag": "v0.4.4",
+      "binaries": {
+        "pipecolor": {
+          "path": "pipecolor",
+          "sha256": "5b6591a4c1d59b10ac64a2d244c74f444c7d5b805a9f1b3f50bb9773639f15c4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dalance/pipecolor/releases/download/v0.4.4/pipecolor-v0.4.4-x86_64-mac.zip",
+      "sha256": "b9bb4081d54a44cbff2fde2108acd9e42751cf5199e0f81adbfcd21b77714e0d",
+      "size": 1077721,
+      "format": "zip",
+      "releaseTag": "v0.4.4",
+      "binaries": {
+        "pipecolor": {
+          "path": "pipecolor",
+          "sha256": "e1e9e0ec24d159b086cb95f9a6818aa221ae09fac022965e45e32c2fbc86fbdc"
+        }
+      }
+    }
+  }
+}
