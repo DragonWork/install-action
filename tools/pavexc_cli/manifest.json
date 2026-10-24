@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "pavexc_cli",
+  "version": "0.2.10",
+  "repository": "LukeMathWalker/pavex",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LukeMathWalker/pavex/releases/download/0.2.10/pavexc_cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.2.10",
+      "sha256": "485706f04350b93358f09efbcc0693c47167e77eb01e202db495a10d0ffe92da",
+      "size": 5841820,
+      "format": "tar.xz",
+      "binaries": {
+        "pavexc": {
+          "path": "pavexc_cli-x86_64-unknown-linux-musl/pavexc",
+          "sha256": "ed8146c2aeb12323fd0085429423d9a0c6f3fe17f538a1aecd8d7408090960c9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LukeMathWalker/pavex/releases/download/0.2.10/pavexc_cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.2.10",
+      "sha256": "c564334a5047b7e5e3d2095eb04e9b3a1945f7bafdeb7bbf9da7d91ea8a06407",
+      "size": 5377624,
+      "format": "tar.xz",
+      "binaries": {
+        "pavexc": {
+          "path": "pavexc_cli-x86_64-apple-darwin/pavexc",
+          "sha256": "5d2e929aadbd4394da4373c9ff601f3398094d5edd69b8ae6182a602de62f351"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LukeMathWalker/pavex/releases/download/0.2.10/pavexc_cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.2.10",
+      "sha256": "cbc4a6f72a942893c491fe79c4f371cef38122b066d5b8f49787a213c5174b71",
+      "size": 4758448,
+      "format": "tar.xz",
+      "binaries": {
+        "pavexc": {
+          "path": "pavexc_cli-aarch64-apple-darwin/pavexc",
+          "sha256": "a7851ca26bd02624a4d1ddd32c06bd5f2e197aa5a0f34c4082c92e88fa0bf443"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/LukeMathWalker/pavex/releases/download/0.2.10/pavexc_cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.2.10",
+      "sha256": "dacf7b3c753d9a083d20a6b43c00bb07ec4e1ea7469bff8a4f0cc573dedb209f",
+      "size": 21467248,
+      "format": "zip",
+      "binaries": {
+        "pavexc.exe": {
+          "path": "pavexc.exe",
+          "sha256": "140926b6e5f0c791f2f6fbb68fffeae774308897f97e23074a322b306f40332c"
+        }
+      }
+    }
+  }
+}
