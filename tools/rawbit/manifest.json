@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "rawbit",
+  "version": "0.1.18",
+  "repository": "cartercanedy/rawbit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cartercanedy/rawbit/releases/download/v0.1.18/rawbit-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.18",
+      "sha256": "0b953b86a0795aa2f642d680d314178cd54fc8cb80321a00bdbc111e82ac1fe6",
+      "size": 3104313,
+      "format": "tar.gz",
+      "binaries": {
+        "rawbit": {
+          "path": "rawbit",
+          "sha256": "a752a4945aa7458a7d69e0bcfb4b61909c02e6cf49ce0eb7a7e5a877adea044e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cartercanedy/rawbit/releases/download/v0.1.18/rawbit-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.18",
+      "sha256": "d24887c262b34c192f6dd2aecf3fe291dafd41ca612f1b0f238e0c9b18e482c4",
+      "size": 2765934,
+      "format": "tar.gz",
+      "binaries": {
+        "rawbit": {
+          "path": "rawbit",
+          "sha256": "6ff917742ce1ec642b3de303614ddb93a6057afb52e185b9158cb58b339821d2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cartercanedy/rawbit/releases/download/v0.1.18/rawbit-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.18",
+      "sha256": "0f028e9def2b73fcd4ebbe120c9a5cf2f2b6970f30b4670099e975c8dc8990f4",
+      "size": 2935139,
+      "format": "tar.gz",
+      "binaries": {
+        "rawbit": {
+          "path": "rawbit",
+          "sha256": "54b833ba26c85cd83b8ca934c446c4eed98061a5030d669b7bb245d826643c89"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cartercanedy/rawbit/releases/download/v0.1.18/rawbit-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.18",
+      "sha256": "d2faa18cc736e16e62e6e1db8f37e4213e1134e1330b9010bd2f1d4fc8fda456",
+      "size": 2670282,
+      "format": "tar.gz",
+      "binaries": {
+        "rawbit": {
+          "path": "rawbit",
+          "sha256": "755f22fd1519a900838de6d08fac4e9ef2a46fa742562ea77f5bb0c9aa1a1101"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cartercanedy/rawbit/releases/download/v0.1.18/rawbit-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.18",
+      "sha256": "b4bb0304bbe8aabd0b6e73b12f9c36f53365bdd63b0a594144a2db3768ad3ecd",
+      "size": 2781332,
+      "format": "zip",
+      "binaries": {
+        "rawbit.exe": {
+          "path": "rawbit.exe",
+          "sha256": "8bba781cb71c8b52c8eeb50b5550f2a9aec6b244aaee3189963cfa2508a7cf3a"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/cartercanedy/rawbit/releases/download/v0.1.18/rawbit-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.18",
+      "sha256": "e1aa2f0f118f415a30d5f86b127dd98818993159978be5352deaee01cd8b4f8e",
+      "size": 2521597,
+      "format": "zip",
+      "binaries": {
+        "rawbit.exe": {
+          "path": "rawbit.exe",
+          "sha256": "b0b3ab3cb35d442295e54bf500d655cd3599f56545ab78f065a4f649e20b5440"
+        }
+      }
+    }
+  }
+}
