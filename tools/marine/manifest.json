@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "marine",
+  "version": "0.20.1",
+  "repository": "fluencelabs/marine",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fluencelabs/marine/releases/download/marine-v0.20.1/marine-linux-x86_64",
+      "sha256": "c7ddfd1846f740cd431a7baea2c861c9905e165c53de4417f64c38f8773bc9cb",
+      "size": 8304368,
+      "format": "binary",
+      "releaseTag": "marine-v0.20.1",
+      "binaries": {
+        "marine": {
+          "path": "marine-linux-x86_64",
+          "sha256": "c7ddfd1846f740cd431a7baea2c861c9905e165c53de4417f64c38f8773bc9cb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/fluencelabs/marine/releases/download/marine-v0.20.1/marine-darwin-x86_64",
+      "sha256": "c7679db36d43c3670c347ed991e198f7cd4728f8b3040837dc01caf308793ffc",
+      "size": 5706448,
+      "format": "binary",
+      "releaseTag": "marine-v0.20.1",
+      "binaries": {
+        "marine": {
+          "path": "marine-darwin-x86_64",
+          "sha256": "c7679db36d43c3670c347ed991e198f7cd4728f8b3040837dc01caf308793ffc"
+        }
+      }
+    }
+  }
+}
