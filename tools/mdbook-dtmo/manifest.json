@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mdbook-dtmo",
+  "version": "0.15.2",
+  "repository": "badboy/mdbook-dtmo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/badboy/mdbook-dtmo/releases/download/0.15.2/mdbook-dtmo-0.15.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.15.2",
+      "sha256": "87f5cb874faadc745f033b646d358669b172edf19d2ca0a4e291a9c627e52e13",
+      "size": 4967484,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-dtmo": {
+          "path": "mdbook-dtmo",
+          "sha256": "989dbbae5655eb64317ad534aa9f76f0245c7a63c8b56bc6766c0cc54e7e5c0f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/badboy/mdbook-dtmo/releases/download/0.15.2/mdbook-dtmo-0.15.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.15.2",
+      "sha256": "5b687ae2dd64239129d56986ea5b03106c2e94aab48749e50680fc59da04fc96",
+      "size": 4544265,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-dtmo": {
+          "path": "mdbook-dtmo",
+          "sha256": "4dbd801a521f33da32f0021b222e69bd752d5d65c388597cdf52f4556e8c3986"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/badboy/mdbook-dtmo/releases/download/0.15.2/mdbook-dtmo-0.15.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.15.2",
+      "sha256": "75f34b8dbc49c3eaf43c6ae65df77b53e5e0c7e3ba480034e900268877d55610",
+      "size": 4500485,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-dtmo": {
+          "path": "mdbook-dtmo",
+          "sha256": "c7914ea9579449214b81736f97eba3638a017e13a04151e22d5f7695726665de"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/badboy/mdbook-dtmo/releases/download/0.15.2/mdbook-dtmo-0.15.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.15.2",
+      "sha256": "40c026413f837ec619059fcac131a0bf3e9e055e4962bdda06b056bbb999e552",
+      "size": 4464929,
+      "format": "zip",
+      "binaries": {
+        "mdbook-dtmo.exe": {
+          "path": "mdbook-dtmo.exe",
+          "sha256": "b060f4d1b4be7938d6c1f63960f96d445e9f7c9cdaec7b8c9f0135425cd46f9d"
+        }
+      }
+    }
+  }
+}
