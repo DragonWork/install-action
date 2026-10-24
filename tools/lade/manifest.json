@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "lade",
+  "version": "0.19.2",
+  "repository": "zifeo/lade",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zifeo/lade/releases/download/v0.19.2/lade-v0.19.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.19.2",
+      "sha256": "a78cc2834cefbdae5a03d8d4405b2c4b4d46580699a6d39eecdf9b65bd46871f",
+      "size": 5900455,
+      "format": "tar.gz",
+      "binaries": {
+        "lade": {
+          "path": "lade",
+          "sha256": "4cad066007d4c64f2ae200e97ce6506c7f00a904b34fe98b1b83638fe174aa24"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/zifeo/lade/releases/download/v0.19.2/lade-v0.19.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.19.2",
+      "sha256": "5ba9c1c078c43a62b845b737140594dc7d512e6ceb51a8b227d32d6541b6b403",
+      "size": 5293689,
+      "format": "tar.gz",
+      "binaries": {
+        "lade": {
+          "path": "lade",
+          "sha256": "afc8925cb38fff502029ff4a0c5cd7c08e0ee140fce31364b32e24a24d136d92"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zifeo/lade/releases/download/v0.19.2/lade-v0.19.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.19.2",
+      "sha256": "4ae067b1f7c34fc16e65f75f9f244da6698050e55afbb584455c3213194a0de3",
+      "size": 5892303,
+      "format": "tar.gz",
+      "binaries": {
+        "lade": {
+          "path": "lade",
+          "sha256": "e877997cfb4ac43cf269cabfc50b5dbcf563c8337baad06ae018770fc450810e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zifeo/lade/releases/download/v0.19.2/lade-v0.19.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.19.2",
+      "sha256": "2cd7e82687fff5fd6991971c6f7a06d8865bb341a6e1e8ec71a27cd5f4075e1a",
+      "size": 5588340,
+      "format": "tar.gz",
+      "binaries": {
+        "lade": {
+          "path": "lade",
+          "sha256": "9d1ff9a0155af76a7231c4da4fbe04f0792fa826e30edc7f1b14fbd933cb4761"
+        }
+      }
+    }
+  }
+}
