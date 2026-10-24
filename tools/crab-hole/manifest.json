@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "crab-hole",
+  "version": "0.2.0",
+  "repository": "LuckyTurtleDev/crab-hole",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-unknown-linux-musl--native-roots.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "1bdd3a65f7962dfea406f6f59623fc5038f954a154640d47277fe7aab9496ac2",
+      "size": 7169676,
+      "format": "zip",
+      "binaries": {
+        "crab-hole": {
+          "path": "x86_64-unknown-linux-musl--native-roots/crab-hole",
+          "sha256": "7715b7da8450866e664d3981c25e279878160486ca6d1651cbb907bc2b47d81e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/aarch64-unknown-linux-musl--native-roots.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "fa28a4dd47310380d7f485da5f549343394396d61a8935ff906aa0b8a2458098",
+      "size": 6936729,
+      "format": "zip",
+      "binaries": {
+        "crab-hole": {
+          "path": "aarch64-unknown-linux-musl--native-roots/crab-hole",
+          "sha256": "20154fb1c31c6c08fd70f94c12eb8c9bb9b96607fac3e1684bb471f9e69e170d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-apple-darwin--native-roots.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "a35bc9801b2c6cb2af7b94ef94802c530af5fa88a8fe9fb76e5475a494a398e8",
+      "size": 6450432,
+      "format": "zip",
+      "binaries": {
+        "crab-hole": {
+          "path": "x86_64-apple-darwin--native-roots/crab-hole",
+          "sha256": "d4cb0a6208fdee79233d155686538c75c1a9ed78d5792926476515ea068249ac"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/LuckyTurtleDev/crab-hole/releases/download/v0.2.0/x86_64-pc-windows-gnu--native-roots.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "68233e72c289012bdc754510fd2feae8a532c220b6da5421fbc18c85e8c78106",
+      "size": 9421954,
+      "format": "zip",
+      "binaries": {
+        "crab-hole.exe": {
+          "path": "x86_64-pc-windows-gnu--native-roots/crab-hole.exe",
+          "sha256": "b10b04098f8498b28795f2484d022cdfa239fa3526bcb2e9b8f71d5cdee9fc69"
+        }
+      }
+    }
+  }
+}
