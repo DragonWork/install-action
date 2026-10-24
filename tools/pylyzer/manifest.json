@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pylyzer",
+  "version": "0.0.82",
+  "repository": "mtshiba/pylyzer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mtshiba/pylyzer/releases/download/v0.0.82/pylyzer-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.0.82",
+      "sha256": "5e328a69a1b0dad8b72b6fcac7b10cd3fafe1d8d9a72d92addefbd96344ca494",
+      "size": 14029249,
+      "format": "tar.gz",
+      "binaries": {
+        "pylyzer": {
+          "path": "pylyzer",
+          "sha256": "9dc3b7261f034a69891fc129f767bae1ad4b8a22a615bf15946a9ed4884553e0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mtshiba/pylyzer/releases/download/v0.0.82/pylyzer-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.0.82",
+      "sha256": "6e1a624547b8efd3c8290f034aea98eb6ab869cf9b96cb12bc19b58e6e42629c",
+      "size": 12472247,
+      "format": "tar.gz",
+      "binaries": {
+        "pylyzer": {
+          "path": "pylyzer",
+          "sha256": "e9597a0977b9d22b31303185df52718c4f37c814f8d628d781643203f361cee5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mtshiba/pylyzer/releases/download/v0.0.82/pylyzer-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.82",
+      "sha256": "6686fd9acc2dfc9aa5fcc868ad654d7a4634ddb996be0898794a53d5e75fbdb4",
+      "size": 12590574,
+      "format": "tar.gz",
+      "binaries": {
+        "pylyzer": {
+          "path": "pylyzer",
+          "sha256": "5ba2338f1e0424494622184be9caf3138468bc8041c0dcc4e7e24f86f57eabcd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mtshiba/pylyzer/releases/download/v0.0.82/pylyzer-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.82",
+      "sha256": "e5834c9161fd30c29d11965c5a10dcfc23197c0aadee4845496c18cb9fc0ff0b",
+      "size": 11926492,
+      "format": "tar.gz",
+      "binaries": {
+        "pylyzer": {
+          "path": "pylyzer",
+          "sha256": "077dd52e1839d38ae2001ca00c261ee30a219d79778cf1496b9c6631aaf6e6b1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mtshiba/pylyzer/releases/download/v0.0.82/pylyzer-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.82",
+      "sha256": "a10027232be81786dfb427499182279cac023700134fc1eea885425a4f829957",
+      "size": 14898046,
+      "format": "zip",
+      "binaries": {
+        "pylyzer.exe": {
+          "path": "pylyzer.exe",
+          "sha256": "19cac9656ffe98fadaae1c5f0896074b6233eaee36a5424a6a30d904c4bcd708"
+        }
+      }
+    }
+  }
+}
