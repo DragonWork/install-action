@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ord",
+  "version": "0.29.1",
+  "repository": "ordinals/ord",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ordinals/ord/releases/download/0.29.1/ord-0.29.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.29.1",
+      "sha256": "9c25c1cf4ab508c0b80648611827448737a09b5b39c39413b097136b22ba31ce",
+      "size": 11712088,
+      "format": "tar.gz",
+      "binaries": {
+        "ord": {
+          "path": "ord-0.29.1/ord",
+          "sha256": "be93fee7270f276911dbd84876f7f4779dead3e730e86db0d8f46c54b3e0f45c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ordinals/ord/releases/download/0.29.1/ord-0.29.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.29.1",
+      "sha256": "a1211f257bb19b30299bbc1378558eecc59b02c8bf205d1d79453568c826b1d9",
+      "size": 11310260,
+      "format": "tar.gz",
+      "binaries": {
+        "ord": {
+          "path": "ord-0.29.1/ord",
+          "sha256": "6b6a9048acdfc37bc4657fde5ccd1c45a53d42518b7621347e999febd7da341a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ordinals/ord/releases/download/0.29.1/ord-0.29.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.29.1",
+      "sha256": "cb703759ff988397d8c0ea8a738a66cc3c4edaf9143769a6e2f6d1c38317d95a",
+      "size": 10777208,
+      "format": "tar.gz",
+      "binaries": {
+        "ord": {
+          "path": "ord-0.29.1/ord",
+          "sha256": "446149015a6bf4a47a4c3446e7e8344e5651cf035bc0b05748dc5c5836c9fc02"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ordinals/ord/releases/download/0.29.1/ord-0.29.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.29.1",
+      "sha256": "57e7498c1f217ee81ac7b16ba1fd09f0f3e52248de7295cfe1fb1aaa8684263b",
+      "size": 9901812,
+      "format": "zip",
+      "binaries": {
+        "ord.exe": {
+          "path": "ord-0.29.1/ord.exe",
+          "sha256": "abc63133df12822d93cdfdeb293b87196e3ca568c4222cdc14e9f3bada2f8d72"
+        }
+      }
+    }
+  }
+}
