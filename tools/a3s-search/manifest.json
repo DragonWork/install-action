@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "a3s-search",
+  "version": "3.4.0",
+  "repository": "A3S-Lab/Search",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/A3S-Lab/Search/releases/download/v3.4.0/a3s-search-3.4.0-linux-x86_64.tar.gz",
+      "releaseTag": "v3.4.0",
+      "sha256": "4cc97722442ff75b803870ce6652490926a7a72cf6d4c1301532e18d0ca9b9e4",
+      "size": 4058045,
+      "format": "tar.gz",
+      "binaries": {
+        "a3s-search": {
+          "path": "a3s-search",
+          "sha256": "1f2752a2cffde16c44e034af5b5b35c9e01d4116cc5980d73277fec4b7556238"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/A3S-Lab/Search/releases/download/v3.4.0/a3s-search-3.4.0-linux-arm64.tar.gz",
+      "releaseTag": "v3.4.0",
+      "sha256": "67a5b457d3ef0c52ed65881cb0ffa0c37ad1a54379b6745389e1aad0400526c5",
+      "size": 3889846,
+      "format": "tar.gz",
+      "binaries": {
+        "a3s-search": {
+          "path": "a3s-search",
+          "sha256": "e149142f0a44a12e5f8e6e200b6d73c4fd7f6c146a743000abf78889d8579cf0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/A3S-Lab/Search/releases/download/v3.4.0/a3s-search-3.4.0-darwin-x86_64.tar.gz",
+      "releaseTag": "v3.4.0",
+      "sha256": "3d10204e76f2bca107fb4e1cbc72abe7dfe7028ca12b179a54dfcd9a73c252c8",
+      "size": 4068915,
+      "format": "tar.gz",
+      "binaries": {
+        "a3s-search": {
+          "path": "a3s-search",
+          "sha256": "484560350fb389737fd94141fe5c94e73edf3e2aec6e6cc2a628bc70244eff08"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/A3S-Lab/Search/releases/download/v3.4.0/a3s-search-3.4.0-darwin-arm64.tar.gz",
+      "releaseTag": "v3.4.0",
+      "sha256": "3478a0cce2b0fad1eb34452675c2ef1e1a793c913696a2d36c0804fb73d113c5",
+      "size": 3851465,
+      "format": "tar.gz",
+      "binaries": {
+        "a3s-search": {
+          "path": "a3s-search",
+          "sha256": "bd6268adced30bbd5319c7d3ac00eae11369868830a25a69dd4eed78798e1131"
+        }
+      }
+    }
+  }
+}
