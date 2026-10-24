@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "precompress",
+  "version": "0.5.1",
+  "repository": "ryanfowler/precompress",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ryanfowler/precompress/releases/download/v0.5.1/precompress-v0.5.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "ad46bd69c6c3e9ecf98fd9581d63037774264ef8562ef4f4672fc83728dd8361",
+      "size": 1770646,
+      "format": "tar.gz",
+      "binaries": {
+        "precompress": {
+          "path": "precompress",
+          "sha256": "a59b6e5ebcb27a745a9561b3e0137eac7248f75d66c77257051237369560a7f6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ryanfowler/precompress/releases/download/v0.5.1/precompress-v0.5.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "a2eaed180982449b7231c7416a945b5b112b5bd7871833b9aff2a6079784ed0a",
+      "size": 1648210,
+      "format": "tar.gz",
+      "binaries": {
+        "precompress": {
+          "path": "precompress",
+          "sha256": "e775a3bdbd09d84e46cdc81380d7ee05a04d912607fbe61d929512c88661d628"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ryanfowler/precompress/releases/download/v0.5.1/precompress-v0.5.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "6270d55c98a9859139baebaa51aecaf85e215890fe348f144c7c496445c6dd5e",
+      "size": 1623124,
+      "format": "tar.gz",
+      "binaries": {
+        "precompress": {
+          "path": "precompress",
+          "sha256": "0bfd33f5bf8ef50e352e10920b265c9f063d345c153962b6501a70a4a442b8a6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ryanfowler/precompress/releases/download/v0.5.1/precompress-v0.5.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "65af896b87e2d642643b33e4acc82557ce58c222873dd8e428990efbb3c41a70",
+      "size": 1493805,
+      "format": "tar.gz",
+      "binaries": {
+        "precompress": {
+          "path": "precompress",
+          "sha256": "64cc2cd2cf2d139a81a0cfb4b64a2179f16495b7e7bfc5a1118b30a3b5e0cee7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ryanfowler/precompress/releases/download/v0.5.1/precompress-v0.5.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "9cc02f759e22d5098da3372b71dd1f0d1f4d0fb8e2b9e522a7710c3639b0f678",
+      "size": 1514521,
+      "format": "zip",
+      "binaries": {
+        "precompress.exe": {
+          "path": "precompress.exe",
+          "sha256": "1460941ddcda560409b5d7ffeb56a69781625f13df8d4e394227774c91f19b74"
+        }
+      }
+    }
+  }
+}
