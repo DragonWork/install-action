@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "git-stats",
+  "version": "0.3.0",
+  "repository": "lukehsiao/git-stats",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lukehsiao/git-stats/releases/download/v0.3.0/git-stats-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "5512ac318465fdb7618f2b47148ab8c3d48c5e19de52d9430625cf10b2a2492c",
+      "size": 2510755,
+      "format": "tar.gz",
+      "binaries": {
+        "git-stats": {
+          "path": "git-stats",
+          "sha256": "3ef5903f7e99623c8adeecda3beef39d2f7a6f7d9a6916596b761bec4e8151c6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lukehsiao/git-stats/releases/download/v0.3.0/git-stats-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "c3831daccb21270031560dbd2c971f50c99348c47f2d68bdda46f22ba25337e9",
+      "size": 2351367,
+      "format": "tar.gz",
+      "binaries": {
+        "git-stats": {
+          "path": "git-stats",
+          "sha256": "de87fe2a7530235c28704ed8a5635f4eadef2b4b6bd3962c013ada4167d9bfa6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lukehsiao/git-stats/releases/download/v0.3.0/git-stats-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "47d638c2d308e6da7643c9ca3932f21bf47d0c3a3fc852ae8f3510af9d8b2ba4",
+      "size": 2327521,
+      "format": "tar.gz",
+      "binaries": {
+        "git-stats": {
+          "path": "git-stats",
+          "sha256": "0f46bd2a5461d9f64d26f9d6b1ba207221d6781cfac2404f8c604d3476f61110"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lukehsiao/git-stats/releases/download/v0.3.0/git-stats-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "3825f200224adee2a8c451ded37a6841d990ff48afb33f6c06f83e62b504c902",
+      "size": 2140114,
+      "format": "tar.gz",
+      "binaries": {
+        "git-stats": {
+          "path": "git-stats",
+          "sha256": "931490efbffcc26930df422c03809ca2c932abcee8ae6d3a9e00aa23f92c78ee"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lukehsiao/git-stats/releases/download/v0.3.0/git-stats-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "07c4ea428aebcf2858129c7f002e190e6510e026af81e14b7aae32fe9d372011",
+      "size": 2186991,
+      "format": "zip",
+      "binaries": {
+        "git-stats.exe": {
+          "path": "git-stats.exe",
+          "sha256": "a3e1d3a05ac61963c0661f76ff7d38a6b1f4c63e80f89177c5387841f060c1ba"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/lukehsiao/git-stats/releases/download/v0.3.0/git-stats-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "0196dbe6fa46ef442d52630833815157df0d4c97f64dcdbe9132307e18e14584",
+      "size": 2054177,
+      "format": "zip",
+      "binaries": {
+        "git-stats.exe": {
+          "path": "git-stats.exe",
+          "sha256": "1db1ea9336faa193b8d139fa47a575d8e6463ec3466fa707bbe5d469a91a5b2d"
+        }
+      }
+    }
+  }
+}
