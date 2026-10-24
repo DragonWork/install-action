@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "verusfmt",
+  "version": "0.7.4",
+  "repository": "verus-lang/verusfmt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/verus-lang/verusfmt/releases/download/v0.7.4/verusfmt-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.4",
+      "sha256": "bbc5cb02c01efeaf9e66c93443ae782b11c5d8fd88c67d558c23216222971f4f",
+      "size": 3020164,
+      "format": "tar.xz",
+      "binaries": {
+        "verusfmt": {
+          "path": "verusfmt-x86_64-unknown-linux-gnu/verusfmt",
+          "sha256": "d236fe30899da5141199e4e3a57d3560312896741d0b74606a6324e565b2185a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/verus-lang/verusfmt/releases/download/v0.7.4/verusfmt-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.4",
+      "sha256": "13636080eb396f9a35edccc3187a67462d3a9442e5091eda71ff4640a5801f1c",
+      "size": 2891912,
+      "format": "tar.xz",
+      "binaries": {
+        "verusfmt": {
+          "path": "verusfmt-x86_64-apple-darwin/verusfmt",
+          "sha256": "ca82d4cdf2e10917182f81db6a318902e21ed029f631d1854facff23f8d934a3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/verus-lang/verusfmt/releases/download/v0.7.4/verusfmt-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.4",
+      "sha256": "ec7626052aeca99d48b16e5d45c0fb99200b45ed9e61ddd49fa38ddc5ddb4dd2",
+      "size": 2603596,
+      "format": "tar.xz",
+      "binaries": {
+        "verusfmt": {
+          "path": "verusfmt-aarch64-apple-darwin/verusfmt",
+          "sha256": "3ef063676e2999d4ae318f8d2380c57d44e6b3be6fe15698cb8fa5f897f62860"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/verus-lang/verusfmt/releases/download/v0.7.4/verusfmt-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.4",
+      "sha256": "7979a8ee93485379af7d5970d5975cc10f923c2c059096cd658bf08c6352bc60",
+      "size": 3939485,
+      "format": "zip",
+      "binaries": {
+        "verusfmt.exe": {
+          "path": "verusfmt.exe",
+          "sha256": "d5d1ad5dea1b71d211a738870102307f19c4984b38a6ed4fa4c5871959ca7284"
+        }
+      }
+    }
+  }
+}
