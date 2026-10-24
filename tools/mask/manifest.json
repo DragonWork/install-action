@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mask",
+  "version": "0.11.7",
+  "repository": "jacobdeichert/mask",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jacobdeichert/mask/releases/download/mask/0.11.7/mask-0.11.7-x86_64-unknown-linux-musl.zip",
+      "sha256": "5c9fed48ecd6a9cbbf7332d67258930c0b2fcc18689850ce617b899c0eeae0c9",
+      "size": 687355,
+      "format": "zip",
+      "releaseTag": "mask/0.11.7",
+      "binaries": {
+        "mask": {
+          "path": "mask-0.11.7-x86_64-unknown-linux-musl/mask",
+          "sha256": "95e902be54a656b2ffbb54d6b67586606298deb8a3d93e3337dbe0c5c9250f6b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jacobdeichert/mask/releases/download/mask/0.11.7/mask-0.11.7-x86_64-apple-darwin.zip",
+      "sha256": "c1a0af10625e3a44ac4cb829892dafc9be3378bafae9170e2d11563d332a4a8f",
+      "size": 585450,
+      "format": "zip",
+      "releaseTag": "mask/0.11.7",
+      "binaries": {
+        "mask": {
+          "path": "mask-0.11.7-x86_64-apple-darwin/mask",
+          "sha256": "1e03dab5b2556d501950aeba1ca821fd193e0a745c019cc866e96eb4abe39241"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jacobdeichert/mask/releases/download/mask/0.11.7/mask-0.11.7-aarch64-apple-darwin.zip",
+      "sha256": "12b464d501f2e63c582e92207c6a38e899d471b16b9a762f6dcbfce0c98d90a0",
+      "size": 556118,
+      "format": "zip",
+      "releaseTag": "mask/0.11.7",
+      "binaries": {
+        "mask": {
+          "path": "mask-0.11.7-aarch64-apple-darwin/mask",
+          "sha256": "96cfc6494cdd477898140b44d2b231f3aa9d0d1808b2ff7ff1a3463d34d2aed3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jacobdeichert/mask/releases/download/mask/0.11.7/mask-0.11.7-x86_64-pc-windows-msvc.zip",
+      "sha256": "e2240d00f1663d5a39ba7658dc9d4f8273e70c6c7f3144c1fc37eb94448e0deb",
+      "size": 445980,
+      "format": "zip",
+      "releaseTag": "mask/0.11.7",
+      "binaries": {
+        "mask.exe": {
+          "path": "mask-0.11.7-x86_64-pc-windows-msvc/mask.exe",
+          "sha256": "309574fc2725197367a6952da756114b1bbbaa3302e85707c7947f81887d316c"
+        }
+      }
+    }
+  }
+}
