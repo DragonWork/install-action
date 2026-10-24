@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "scafalra",
+  "version": "1.4.1",
+  "repository": "shixinhuang99/scafalra",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shixinhuang99/scafalra/releases/download/1.4.1/sca-1.4.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.4.1",
+      "sha256": "54593fbe5b1ed6e2e371569a0eb8257b86b491e66fc95cc5f3abd1fe7ef68a48",
+      "size": 2315699,
+      "format": "tar.gz",
+      "binaries": {
+        "sca": {
+          "path": "sca",
+          "sha256": "74ff47d90843f01f75720b8bacb321c29d69c16e441c1ea7fd6067fe3677b90a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/shixinhuang99/scafalra/releases/download/1.4.1/sca-1.4.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.4.1",
+      "sha256": "db8ca81ada7458b7031fc40f502ce0ccfb8ec282bf86c3b0fe7ebb8144477abe",
+      "size": 2070976,
+      "format": "tar.gz",
+      "binaries": {
+        "sca": {
+          "path": "sca",
+          "sha256": "213329cea3882bc044614c67b3274e77d6aac914ea53c1588b8ae4807c386baf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/shixinhuang99/scafalra/releases/download/1.4.1/sca-1.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.4.1",
+      "sha256": "dcf719fd3f18cfc2120848b2b72031dd585b714b2ced505c3c565048ae6f1a7c",
+      "size": 2162501,
+      "format": "tar.gz",
+      "binaries": {
+        "sca": {
+          "path": "sca",
+          "sha256": "7fe0c33da5a961a6b54309eb1263aa2a42f070cbb286f79db521e28d81b7eaa9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/shixinhuang99/scafalra/releases/download/1.4.1/sca-1.4.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "1.4.1",
+      "sha256": "1a292ce521bbd843b4c67c53d7d0dbf61badfae82250a33479af49c5a8d128a9",
+      "size": 1917414,
+      "format": "tar.gz",
+      "binaries": {
+        "sca": {
+          "path": "sca",
+          "sha256": "24ce02074e91766dae31d5b5473357f93d45cf4f0c197e02abf7105ed59b9750"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/shixinhuang99/scafalra/releases/download/1.4.1/sca-1.4.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.4.1",
+      "sha256": "65bf4fc63132b85b86204232cafcaf6721ea80aabf86c2e20573d5a1b0d6a703",
+      "size": 1913452,
+      "format": "zip",
+      "binaries": {
+        "sca.exe": {
+          "path": "sca.exe",
+          "sha256": "2cd32253b0d33bc5797f4cbcbd51baf6de6dc8597a1eb187301c349efda9074d"
+        }
+      }
+    }
+  }
+}
