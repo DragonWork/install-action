@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-dinghy",
+  "version": "0.8.6",
+  "repository": "sonos/dinghy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sonos/dinghy/releases/download/0.8.6/cargo-dinghy-linux-0.8.6.tgz",
+      "sha256": "39e5574a2838bf4b8e956ea797d5804e6dc31363d9cf00a6864eed55bd57f28a",
+      "size": 2250737,
+      "format": "tar.gz",
+      "releaseTag": "0.8.6",
+      "binaries": {
+        "cargo-dinghy": {
+          "path": "cargo-dinghy-0.8.6/cargo-dinghy",
+          "sha256": "ffb8a80571b5099bd96b14391d4aff402e9992e22b3ef906c1f78292065567b2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sonos/dinghy/releases/download/0.8.6/cargo-dinghy-macos-0.8.6.tgz",
+      "sha256": "e3c90822aa51676f26ddba764fd2a421798afd61d6fdd04852ddb4e53e06b875",
+      "size": 4292080,
+      "format": "tar.gz",
+      "releaseTag": "0.8.6",
+      "binaries": {
+        "cargo-dinghy": {
+          "path": "cargo-dinghy-0.8.6/cargo-dinghy",
+          "sha256": "700623e7f91377026d6bd5f8ea2b1d6273c6a92db0092bd5ce5b36ac1637d572"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sonos/dinghy/releases/download/0.8.6/cargo-dinghy-macos-0.8.6.tgz",
+      "sha256": "e3c90822aa51676f26ddba764fd2a421798afd61d6fdd04852ddb4e53e06b875",
+      "size": 4292080,
+      "format": "tar.gz",
+      "releaseTag": "0.8.6",
+      "binaries": {
+        "cargo-dinghy": {
+          "path": "cargo-dinghy-0.8.6/cargo-dinghy",
+          "sha256": "700623e7f91377026d6bd5f8ea2b1d6273c6a92db0092bd5ce5b36ac1637d572"
+        }
+      }
+    }
+  }
+}
