@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mdbook-tera",
+  "version": "0.6.0",
+  "repository": "avitex/mdbook-tera",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/avitex/mdbook-tera/releases/download/v0.6.0/mdbook-tera-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "d92eb1fffe59937115bf0ed656a804ee539123d03aa995fee498a33791a1529e",
+      "size": 2668444,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-tera": {
+          "path": "mdbook-tera",
+          "sha256": "149258a6b70daf0d6c858f7934f8ce3b895e045e67843d5e577549d9f5082fef"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/avitex/mdbook-tera/releases/download/v0.6.0/mdbook-tera-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "c50029d8657e30ee434a86163b67c40a489ad8aaf87277d290217db03da6f058",
+      "size": 2334833,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-tera": {
+          "path": "mdbook-tera",
+          "sha256": "01093e1622600e95a965235b31b3afa33668bb18fa5e8384b760f830e692bd53"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/avitex/mdbook-tera/releases/download/v0.6.0/mdbook-tera-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "a9c9cf235ce31221714cfb68b2f0f7ef4310794ccbda33a62cc052cc7e64df63",
+      "size": 2364693,
+      "format": "zip",
+      "binaries": {
+        "mdbook-tera.exe": {
+          "path": "mdbook-tera.exe",
+          "sha256": "c945fa2cd5f5409fed3949a15f861443641556b4248e8fe02a5c2fb16086d231"
+        }
+      }
+    }
+  }
+}
