@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "soar-dl",
+  "version": "0.6.3",
+  "repository": "pkgforge/soar-dl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pkgforge/soar-dl/releases/download/v0.6.3/soar-dl-x86_64-linux.tar.gz",
+      "releaseTag": "v0.6.3",
+      "sha256": "19e359f2fe04921761687b908ecabef8f0a1fbd65dae4777e62c30c614cac16b",
+      "size": 1936216,
+      "format": "tar.gz",
+      "binaries": {
+        "soar-dl": {
+          "path": "release/soar-dl",
+          "sha256": "4a28af57342138bf7d6d78feac9d6b469997b10f7f9c89b3187cd2cfdb7a0f8c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pkgforge/soar-dl/releases/download/v0.6.3/soar-dl-aarch64-linux.tar.gz",
+      "releaseTag": "v0.6.3",
+      "sha256": "052158f2b219cfe8815362fd99954cdf610e2fe60d53761bfe1ead2d9e1504f0",
+      "size": 1793478,
+      "format": "tar.gz",
+      "binaries": {
+        "soar-dl": {
+          "path": "release/soar-dl",
+          "sha256": "423bbb832c36cf0eca8413ab97db05170d7a595889e1b17e65e1072bfbfef8e7"
+        }
+      }
+    }
+  }
+}
