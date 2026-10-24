@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "med_cli",
+  "version": "0.6.4",
+  "repository": "jayhuang75/rust-cli-med",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jayhuang75/rust-cli-med/releases/download/0.6.4/med-x86_64-unknown-linux-musl-0.6.4.tar.gz",
+      "releaseTag": "0.6.4",
+      "sha256": "f1160352b0ccb3439d31b1dcfd8dc2ed7ca676b777ca01269bb252766fb295a9",
+      "size": 3419053,
+      "format": "tar.gz",
+      "binaries": {
+        "med": {
+          "path": "med-0.6.4/med",
+          "sha256": "d29975ba33a66cec8fd996f63750adef25c1d4aba950daed627cf751000805a2"
+        }
+      }
+    }
+  }
+}
