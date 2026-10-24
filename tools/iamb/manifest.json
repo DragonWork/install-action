@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "iamb",
+  "version": "0.13.1",
+  "repository": "ulyssa/iamb",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ulyssa/iamb/releases/download/v0.13.1/iamb-0.13.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "c612e8c5405f1c52fccc845b8c609936bbc5736be7fa2c20bf94185ed88a673a",
+      "size": 32341548,
+      "format": "tar.gz",
+      "binaries": {
+        "iamb": {
+          "path": "iamb-0.13.1/iamb",
+          "sha256": "f0dd414088ebe6f932a0ed3c977ca5f500460f334bd23fc28f42d286db1c95c4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ulyssa/iamb/releases/download/v0.13.1/iamb-0.13.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "c07ab8dd6f9d4c9b48389af0804c0ee81d16ee552f963378b25375fef210474b",
+      "size": 30535823,
+      "format": "tar.gz",
+      "binaries": {
+        "iamb": {
+          "path": "iamb-0.13.1/iamb",
+          "sha256": "df1f1870d7e6840311c90d1fbf92dbcb6989ee2e2f2c16a4f07461bf22d56adf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ulyssa/iamb/releases/download/v0.13.1/iamb-0.13.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "680dd03291c8e9d6fb70543b89363ba701d0bde4086ee825eb644f3701d1b48b",
+      "size": 30069807,
+      "format": "tar.gz",
+      "binaries": {
+        "iamb": {
+          "path": "iamb-0.13.1/iamb",
+          "sha256": "11a961aad5c055cb5acfc01930c004dda0bbe220718099268113c808f15fa4c4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ulyssa/iamb/releases/download/v0.13.1/iamb-0.13.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "9c093e60e71fec47874fbe3cb31d819108214bd3480508ac8397c4183e0f065f",
+      "size": 28281085,
+      "format": "tar.gz",
+      "binaries": {
+        "iamb": {
+          "path": "iamb-0.13.1/iamb",
+          "sha256": "b67aceb64c5100ece91241ceb86a6a50c4a788a8fc79dc5538ef0ee8f386c6bf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ulyssa/iamb/releases/download/v0.13.1/iamb-0.13.1-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "0d68e9cedc786624249d91ada509a39ff096398f78f617bd47a6f5bc6ed54877",
+      "size": 30968651,
+      "format": "tar.gz",
+      "binaries": {
+        "iamb.exe": {
+          "path": "iamb-0.13.1/iamb.exe",
+          "sha256": "ac411df93e67aa61dbe49f2a2111ebe6a867b79db4c20eee0ac5914080823cfc"
+        }
+      }
+    }
+  }
+}
