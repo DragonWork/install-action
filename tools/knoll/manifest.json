@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "knoll",
+  "version": "0.4.0",
+  "repository": "gawashburn/knoll",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/gawashburn/knoll/releases/download/v0.4.0/knoll-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "e4678951742d7b158e9a980d7964fdb461bd00154771c146ff11552c7948e179",
+      "size": 764251,
+      "format": "tar.gz",
+      "binaries": {
+        "knoll": {
+          "path": "knoll",
+          "sha256": "b568a67dcce5c062947027a67729d5c2da80223295926d2960d99a5dd139f626"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/gawashburn/knoll/releases/download/v0.4.0/knoll-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "4193a1b54a03c75f975a38c54c5021f6af15973ffc62696d8a175df4a4a578ec",
+      "size": 737928,
+      "format": "tar.gz",
+      "binaries": {
+        "knoll": {
+          "path": "knoll",
+          "sha256": "e0a4c74a7cc6eb388126c0eb4d5ff54a147a39f7a0e138ebe72a184a6ccddfc5"
+        }
+      }
+    }
+  }
+}
