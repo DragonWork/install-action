@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "dntk",
+  "version": "3.1.1",
+  "repository": "nnao45/dntk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nnao45/dntk/releases/download/v3.1.1/dntk-v3.1.1-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v3.1.1",
+      "sha256": "323e0758b375a9557524b173a67799b17f52fa51b75222d9173a83755ca827e2",
+      "size": 842608,
+      "format": "zip",
+      "binaries": {
+        "dntk": {
+          "path": "dntk-v3.1.1-x86_64-unknown-linux-musl/dntk",
+          "sha256": "fa7a73e6775aebc7726b765acb25e9ffeadf7edd7f8c38b5d0025e6a456cdc92"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nnao45/dntk/releases/download/v3.1.1/dntk-v3.1.1-x86_64-apple-darwin.zip",
+      "releaseTag": "v3.1.1",
+      "sha256": "29222c81b5c508d5c4cd7852ab5ac49424a9492e30d36ccd13a54e2dce7782f8",
+      "size": 744327,
+      "format": "zip",
+      "binaries": {
+        "dntk": {
+          "path": "dntk-v3.1.1-x86_64-apple-darwin/dntk",
+          "sha256": "2c8c84a1f30df5495dd8ff1e3a155dfbb2b63fa2c26e5030de02d839775e2df1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nnao45/dntk/releases/download/v3.1.1/dntk-v3.1.1-aarch64-apple-darwin.zip",
+      "releaseTag": "v3.1.1",
+      "sha256": "246491fcfc4b8c3136517f851252577aa1af180c49770386d1bc8aa5c39f6eb5",
+      "size": 706251,
+      "format": "zip",
+      "binaries": {
+        "dntk": {
+          "path": "dntk-v3.1.1-aarch64-apple-darwin/dntk",
+          "sha256": "1d6167c9c39e36cff0d349dff281ebddb276c347894aa907660f7097f0f5528e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nnao45/dntk/releases/download/v3.1.1/dntk-v3.1.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.1.1",
+      "sha256": "315478b63773b0129e595ad8eaa20c1f8c78c67b1753831d1c8391c73e8c5961",
+      "size": 605437,
+      "format": "zip",
+      "binaries": {
+        "dntk.exe": {
+          "path": "dntk-v3.1.1-x86_64-pc-windows-msvc/dntk.exe",
+          "sha256": "18d1643f29f76162a3a0551bc607186a8b729c4b3bab2722a9344b63969d544f"
+        }
+      }
+    }
+  }
+}
