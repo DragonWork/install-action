@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "starknet-compile",
+  "version": "2.21.0",
+  "repository": "starkware-libs/cairo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v2.21.0/release-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.21.0",
+      "sha256": "bddfff44fdc9eeceb7010374ee61dbdea349850c3a284357b7c9c7b9d1a22058",
+      "size": 53136131,
+      "format": "tar.gz",
+      "binaries": {
+        "starknet-compile": {
+          "path": "cairo/bin/starknet-compile",
+          "sha256": "67a17bc5a8090ff11c401f55f356e4b3986d4a5ab60bef5ee6b6d33275630ae8"
+        }
+      }
+    }
+  }
+}
