@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tetris-tui",
+  "version": "0.2.10",
+  "repository": "quantonganh/tetris-tui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/quantonganh/tetris-tui/releases/download/v0.2.10/tetris-tui-0.2.10-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.2.10",
+      "sha256": "5f1dc562b0ec7662a3dea636529829510e2d04a49efc1062540a01bf86933f13",
+      "size": 2181213,
+      "format": "zip",
+      "binaries": {
+        "tetris-tui": {
+          "path": "tetris-tui-0.2.10-x86_64-unknown-linux-gnu/bin/tetris-tui",
+          "sha256": "a2905106e5894c4a744c3acb637b92105b5b033fed5d462560af15ad65734f7c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/quantonganh/tetris-tui/releases/download/v0.2.10/tetris-tui-0.2.10-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.2.10",
+      "sha256": "d3c402f0fe77529b8c0c4a583b4bbd49606827f100a85772d64ca38d298be22f",
+      "size": 2042086,
+      "format": "zip",
+      "binaries": {
+        "tetris-tui": {
+          "path": "tetris-tui-0.2.10-aarch64-unknown-linux-gnu/bin/tetris-tui",
+          "sha256": "5934a73cb9c95b7bdb53e973d53cbdd5fed504d8e3d7e2dca92388e74794b218"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/quantonganh/tetris-tui/releases/download/v0.2.10/tetris-tui-0.2.10-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.2.10",
+      "sha256": "b936b504a4bbc5d382cc1d8dc484581e601bb9efa1774aed1839e55b01ecad89",
+      "size": 1531878,
+      "format": "zip",
+      "binaries": {
+        "tetris-tui": {
+          "path": "tetris-tui-0.2.10-x86_64-apple-darwin/bin/tetris-tui",
+          "sha256": "3580d207f1876f130b6e1f00ceb44078d67aabf67f9334264680f7394124cc0b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/quantonganh/tetris-tui/releases/download/v0.2.10/tetris-tui-0.2.10-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.2.10",
+      "sha256": "4ae227a19c3732eab6a562fe435ae08f836a896655133ea84727c90765823c16",
+      "size": 1426786,
+      "format": "zip",
+      "binaries": {
+        "tetris-tui": {
+          "path": "tetris-tui-0.2.10-aarch64-apple-darwin/bin/tetris-tui",
+          "sha256": "1bbfded68c352b6e3e388501e57e27cb75bff880da8a00992f8dd7c200d013e2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/quantonganh/tetris-tui/releases/download/v0.2.10/tetris-tui-0.2.10-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.10",
+      "sha256": "baa5c3f71c373c4e5e7adf385635e55d0b9b06785d4f32cd7adc4e646fbbf1a3",
+      "size": 1252158,
+      "format": "zip",
+      "binaries": {
+        "tetris-tui.exe": {
+          "path": "tetris-tui-0.2.10-x86_64-pc-windows-msvc/bin/tetris-tui.exe",
+          "sha256": "e9a13bbdb23e87ad5a8362cc37336e21ae43763065ebcfe02f4249f174786202"
+        }
+      }
+    }
+  }
+}
