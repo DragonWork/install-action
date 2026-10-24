@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rtthost",
+  "version": "0.31.0",
+  "repository": "probe-rs/probe-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.31.0/rtthost-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.31.0",
+      "sha256": "484f52740e95a2d86fa6859250def273cddca343ceaf30367f4103ef7b5cc769",
+      "size": 6314292,
+      "format": "tar.xz",
+      "binaries": {
+        "rtthost": {
+          "path": "rtthost-x86_64-unknown-linux-gnu/rtthost",
+          "sha256": "f4dd98f067dd92a3926e9f402d500056a9b0d3a8da4c9817ba5aa6be97f910a9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.31.0/rtthost-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.31.0",
+      "sha256": "998c02d3055533fed9293caa2423c8e64c0a1f2c3e494b6613fe5723518f1f9c",
+      "size": 6092764,
+      "format": "tar.xz",
+      "binaries": {
+        "rtthost": {
+          "path": "rtthost-aarch64-unknown-linux-gnu/rtthost",
+          "sha256": "beeb26aefbd1ff1676eb409bacbf9592aaaf50b852d7e5d04a1e15b2f6c20bb5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.31.0/rtthost-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.31.0",
+      "sha256": "67372df51c52218e504d441314ccf4e340a8f8f3d6d5ce230af64f2b95d2419b",
+      "size": 2545228,
+      "format": "tar.xz",
+      "binaries": {
+        "rtthost": {
+          "path": "rtthost-x86_64-apple-darwin/rtthost",
+          "sha256": "d0f620455ec5c2be4d484114e0cc902561a07b2941fd14d5d7ff6cd01b50c67b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.31.0/rtthost-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.31.0",
+      "sha256": "65acc8a02e7786fbd2fd8e85d7be9ca3ff9d51917a9276878d56bd288df6cf2e",
+      "size": 2392344,
+      "format": "tar.xz",
+      "binaries": {
+        "rtthost": {
+          "path": "rtthost-aarch64-apple-darwin/rtthost",
+          "sha256": "40861a1638ea107d5511d17a98db203a6e525491f277f85fbff84a76ab731692"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.31.0/rtthost-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.31.0",
+      "sha256": "862b14f990476b4bc41498640c91f4265a28ef5b29130729f30ff9b116b90385",
+      "size": 3691962,
+      "format": "zip",
+      "binaries": {
+        "rtthost.exe": {
+          "path": "rtthost.exe",
+          "sha256": "3989e3c8c2853dbf6347ef0ebc9e6416fba898efb9a282d725010777ece6b8ff"
+        }
+      }
+    }
+  }
+}
