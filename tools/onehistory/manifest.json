@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "onehistory",
+  "version": "0.4.1",
+  "repository": "localfirstapp/1History",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/localfirstapp/1History/releases/download/v0.4.1/onehistory-v0.4.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "38e0916d47b5d3da210e9eb1e15f682219478479dd532e484dc8e5d79b6dcfc8",
+      "size": 5055285,
+      "format": "tar.gz",
+      "binaries": {
+        "onehistory": {
+          "path": "onehistory",
+          "sha256": "66643d06d8392e26210cc6dfd567b3460050c2904feaa58ef1f5ad8cdc5e8766"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/localfirstapp/1History/releases/download/v0.4.1/onehistory-v0.4.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "acacd054534efdffd31e7c62aa66c00132f69073d59c46031dde914e7bfd6450",
+      "size": 4043895,
+      "format": "tar.gz",
+      "binaries": {
+        "onehistory": {
+          "path": "onehistory",
+          "sha256": "b53d0d97cc97c36b5b8004788ae057d433059c733204ed5999fa79a2705d07e3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/localfirstapp/1History/releases/download/v0.4.1/onehistory-v0.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "b17a7e841beabde367c7471d57db7ec620be23d89f63f6c88573f6e7bc63a331",
+      "size": 4648093,
+      "format": "tar.gz",
+      "binaries": {
+        "onehistory": {
+          "path": "onehistory",
+          "sha256": "ff416b3253de8c7d294d52d045085626bdd9131c17bf573edff4c4b5de8d0657"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/localfirstapp/1History/releases/download/v0.4.1/onehistory-v0.4.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "e76fa29f15313fc69deddc5ce293c96ad15b2c15f62987c1cbe3c99300ae1ff5",
+      "size": 4459932,
+      "format": "tar.gz",
+      "binaries": {
+        "onehistory": {
+          "path": "onehistory",
+          "sha256": "139701638f1c65c9d5953d0fb44836990c2ab881a51a742dc0c13b2d8c348b67"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/localfirstapp/1History/releases/download/v0.4.1/onehistory-v0.4.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.1",
+      "sha256": "f4cba1d76d789ed6ca30cd339289e121b4b1f72205b79b131fdbec62e676bf89",
+      "size": 4097245,
+      "format": "zip",
+      "binaries": {
+        "onehistory.exe": {
+          "path": "onehistory.exe",
+          "sha256": "f8c5da062d5ff5d9c5321874663f5067a2d70a6f9268f9b8747f32d9856ebbb9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/localfirstapp/1History/releases/download/v0.4.1/onehistory-v0.4.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.1",
+      "sha256": "dddbe5de490a5acf6caf29003b5ee3f4187fc71096feafd20b895e3ef6e4655f",
+      "size": 3801800,
+      "format": "zip",
+      "binaries": {
+        "onehistory.exe": {
+          "path": "onehistory.exe",
+          "sha256": "8650dc61bbccbecc267c83145ed999175ec73cdc6d82ca2cb83b402e3a9246f2"
+        }
+      }
+    }
+  }
+}
