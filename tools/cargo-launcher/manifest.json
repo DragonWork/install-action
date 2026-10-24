@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-launcher",
+  "version": "1.0.1",
+  "repository": "watawuwu/cargo-launcher",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/watawuwu/cargo-launcher/releases/download/1.0.1/cargo-launcher-1.0.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.0.1",
+      "sha256": "3da675980fae7f692de5e528325925026c9c72ffa4a2d47b82d82c7cce24a71f",
+      "size": 2385492,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-launcher": {
+          "path": "cargo-launcher",
+          "sha256": "c91e785a25a9fdb2f548525eb1d4b9fbc1af048a0989acecfec477d565bd3857"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/watawuwu/cargo-launcher/releases/download/1.0.1/cargo-launcher-1.0.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.0.1",
+      "sha256": "300044cbfcd06bfb90757bd308ec525f5320632bbbb8afe29eee13bf853e5cab",
+      "size": 1625003,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-launcher": {
+          "path": "cargo-launcher",
+          "sha256": "990970d6575ffa7cd7529341da9115eb1ba838adace6d6de58724ea1839dd68d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/watawuwu/cargo-launcher/releases/download/1.0.1/cargo-launcher-1.0.1-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "1.0.1",
+      "sha256": "b24f5a4bd377f500311758e42bc3fe8f91ca4b3a3dd474be4679e48882aebc17",
+      "size": 3133015,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-launcher.exe": {
+          "path": "cargo-launcher.exe",
+          "sha256": "d09826e970e0cd9578ac877ce8a483d87cfd8ae2dab40a07c26920fcb18d3c99"
+        }
+      }
+    }
+  }
+}
