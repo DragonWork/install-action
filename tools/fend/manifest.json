@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "fend",
+  "version": "1.5.9",
+  "repository": "printfn/fend",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/printfn/fend/releases/download/v1.5.9/fend-1.5.9-linux-x86_64-gnu.zip",
+      "releaseTag": "v1.5.9",
+      "sha256": "6688224dc54dc8619742eef053e0764087194267714e78af7218c9a3682ad93a",
+      "size": 2273042,
+      "format": "zip",
+      "binaries": {
+        "fend": {
+          "path": "fend",
+          "sha256": "f460dd58b79790c03147713b852c49e3e52fe40d80aca012b7c1bb14478d272f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/printfn/fend/releases/download/v1.5.9/fend-1.5.9-linux-aarch64-gnu.zip",
+      "releaseTag": "v1.5.9",
+      "sha256": "672ba294c8988698ffc7cc689e6f0a35a9b19a1b53aa166c8bde0c76242bac70",
+      "size": 2170531,
+      "format": "zip",
+      "binaries": {
+        "fend": {
+          "path": "fend",
+          "sha256": "51dbbddb6479d5841aceee4eb2053ef0f8ab6e9e42e84ea2ee4f8d38aa998e89"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/printfn/fend/releases/download/v1.5.9/fend-1.5.9-macos-aarch64.zip",
+      "releaseTag": "v1.5.9",
+      "sha256": "6ab1a3748a8687a85063c5ddbd1d242cedec713dd5328caf38b33e827a2f4123",
+      "size": 1990843,
+      "format": "zip",
+      "binaries": {
+        "fend": {
+          "path": "fend",
+          "sha256": "a277dbe3ca4e6f96172fe235eeb10a4f8d5d6ff1f23b7e12a14f1433109e5f0c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/printfn/fend/releases/download/v1.5.9/fend-1.5.9-windows-x64-exe.zip",
+      "releaseTag": "v1.5.9",
+      "sha256": "a20b24378baef4a732ea188f04b9462d7cfd344d65ec1a53f16a501a0d2a2c1d",
+      "size": 2168514,
+      "format": "zip",
+      "binaries": {
+        "fend.exe": {
+          "path": "fend.exe",
+          "sha256": "bcb65d549e71b26bc7a8a4cfad07a0f1c74d0278923424c2eba4bb25a7b78e65"
+        }
+      }
+    }
+  }
+}
