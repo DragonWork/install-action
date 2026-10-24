@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cl-wordle",
+  "version": "0.4.0",
+  "repository": "conradludgate/wordle",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/conradludgate/wordle/releases/download/v0.4.0/wordle-v0.4.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "dd2158e93d289811f51b36cef6a2ad53093fcdb884084792061d596ae6311af6",
+      "size": 1499964,
+      "format": "tar.gz",
+      "binaries": {
+        "wordle": {
+          "path": "wordle",
+          "sha256": "b235786fadb32cd973756976a4b47b80da7ab3994196666804d8f0959cb8b77f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/conradludgate/wordle/releases/download/v0.4.0/wordle-v0.4.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "7ac96656b14fa722de7f9412210ac4fb4d7f0360925142bd175e039217d631c4",
+      "size": 1490979,
+      "format": "tar.gz",
+      "binaries": {
+        "wordle": {
+          "path": "wordle",
+          "sha256": "545ad7bec6aa4c1b0d2e4a6e155756dcab272200d7fda6290d1174f57fefbf9f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/conradludgate/wordle/releases/download/v0.4.0/wordle-v0.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "c336e6c34fc7bfe7325a44b6aa13bd67076dec0ef14ad92fd3d7d680f6204a31",
+      "size": 615093,
+      "format": "tar.gz",
+      "binaries": {
+        "wordle": {
+          "path": "wordle",
+          "sha256": "0386d2ba937c58313db018a9def5692260af1b085a5e4756d0ffb875fca4ab79"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/conradludgate/wordle/releases/download/v0.4.0/wordle-v0.4.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "8637b30256c97a2bbab1a68e5d1761b55ff72ebab9667389941551714489c311",
+      "size": 588266,
+      "format": "tar.gz",
+      "binaries": {
+        "wordle": {
+          "path": "wordle",
+          "sha256": "69854b6c4217a52d0a9017d529174071e36ead6c18f02553a486a18941ffea99"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/conradludgate/wordle/releases/download/v0.4.0/wordle-v0.4.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "9bf49287419834f19549f41b739a93705f5417a3cb1b49faa6da793abecd8e89",
+      "size": 416213,
+      "format": "zip",
+      "binaries": {
+        "wordle.exe": {
+          "path": "wordle.exe",
+          "sha256": "2b88839277272940576969079a2a2ba4d6e7804b14dce9316bdcff730d6fbe86"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/conradludgate/wordle/releases/download/v0.4.0/wordle-v0.4.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "58b7ee64ae9e4f8c701f545e5d8fa2edd68edc3ae1212b8b00368d0aa438ce98",
+      "size": 403505,
+      "format": "zip",
+      "binaries": {
+        "wordle.exe": {
+          "path": "wordle.exe",
+          "sha256": "e7798eba9ca044cea9b3e15ca5b7a836e2588aa1f7063184baca008f0ce5cb6a"
+        }
+      }
+    }
+  }
+}
