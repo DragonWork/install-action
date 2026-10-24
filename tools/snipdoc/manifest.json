@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "snipdoc",
+  "version": "0.1.12",
+  "repository": "kaplanelad/snipdoc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kaplanelad/snipdoc/releases/download/v0.1.12/snipdoc-x86_64-linux.tar.xz",
+      "releaseTag": "v0.1.12",
+      "sha256": "83728e9d4f62e85304c2d89d7172812c865a7f642811c7deab69349c782d5a5b",
+      "size": 1932616,
+      "format": "tar.xz",
+      "binaries": {
+        "snipdoc": {
+          "path": "snipdoc-x86_64-linux/snipdoc",
+          "sha256": "62ccd3d2c0f898f883997c33dc0b0e090ff35ac8c49048ae5ee50c0800e32aee"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kaplanelad/snipdoc/releases/download/v0.1.12/snipdoc-x86_64-macos.tar.xz",
+      "releaseTag": "v0.1.12",
+      "sha256": "8de6e6ad0325d6f1010a6db56ad0364bc5ea6daee94ba21fede79db449c7ad73",
+      "size": 1605920,
+      "format": "tar.xz",
+      "binaries": {
+        "snipdoc": {
+          "path": "snipdoc-x86_64-macos/snipdoc",
+          "sha256": "a00d40186359302d0e30b629d397f8b07117fce7c0ee667cf384966fefc3ab0d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kaplanelad/snipdoc/releases/download/v0.1.12/snipdoc-aarch64-macos.tar.xz",
+      "releaseTag": "v0.1.12",
+      "sha256": "b570d28f5a9234f2b06a95d2d5ebe1e10ffc0be141565e5a4f6784eeaf54c009",
+      "size": 1605000,
+      "format": "tar.xz",
+      "binaries": {
+        "snipdoc": {
+          "path": "snipdoc-aarch64-macos/snipdoc",
+          "sha256": "bfec75170c3dd89e460141313ed61d1299e9854acdaf07adbaa37ac442749dd5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kaplanelad/snipdoc/releases/download/v0.1.12/snipdoc-x86_64-windows.zip",
+      "releaseTag": "v0.1.12",
+      "sha256": "fcdddcee45d9c288391516e827b370c3671656407173ad41d368a35b57412790",
+      "size": 2178720,
+      "format": "zip",
+      "binaries": {
+        "snipdoc.exe": {
+          "path": "snipdoc-x86_64-windows/snipdoc.exe",
+          "sha256": "2e6348e25968ed505e0153cbac1d6561db16ab82ead23931e9524c190ecc7752"
+        }
+      }
+    }
+  }
+}
