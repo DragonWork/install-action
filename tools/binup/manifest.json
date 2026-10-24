@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "binup",
+  "version": "2.1.0",
+  "repository": "KonishchevDmitry/binup",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KonishchevDmitry/binup/releases/download/v2.1.0/binup-v2.1.0-linux-x64.tar.bz2",
+      "sha256": "06d3505fd22539417a5d4c10156f198619617ec37bdfb7be6c2e74a7d9ce4aa8",
+      "size": 4776604,
+      "format": "tar.bz2",
+      "releaseTag": "v2.1.0",
+      "binaries": {
+        "binup": {
+          "path": "binup",
+          "sha256": "9c3d47c5a6630039a56fe6c7e746bb5d0dd542d595ae06a7a8efcde86d14cfff"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KonishchevDmitry/binup/releases/download/v2.1.0/binup-v2.1.0-linux-arm64.tar.bz2",
+      "sha256": "8605116d9e7e488e2c2230b7cd4db83647c75adf310eba8e90b2d98bb2124f07",
+      "size": 4518597,
+      "format": "tar.bz2",
+      "releaseTag": "v2.1.0",
+      "binaries": {
+        "binup": {
+          "path": "binup",
+          "sha256": "96bdb8fff88cd7794af2aeebae55df1aea9fcbaa914d1aeafda4c063861fbc72"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KonishchevDmitry/binup/releases/download/v2.1.0/binup-v2.1.0-macos-x64.tar.bz2",
+      "sha256": "7b8a0715921d45806d9f1e9d13facb32db3d04af646c995d1f719f872cf6bbbf",
+      "size": 4527598,
+      "format": "tar.bz2",
+      "releaseTag": "v2.1.0",
+      "binaries": {
+        "binup": {
+          "path": "binup",
+          "sha256": "ab7f1988e22fc2e71bbf27452a0b522c613026ee84cea6d072341ab3936cba3a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/KonishchevDmitry/binup/releases/download/v2.1.0/binup-v2.1.0-macos-arm64.tar.bz2",
+      "sha256": "bb287454ff68e036555d61ec9001d18b013de303f8a9b787a9799b6df43bd2bf",
+      "size": 4278506,
+      "format": "tar.bz2",
+      "releaseTag": "v2.1.0",
+      "binaries": {
+        "binup": {
+          "path": "binup",
+          "sha256": "8e07c9cf806d8496a587231e60af829b5b03cb11d54b695bb77a0ad4d3cc0674"
+        }
+      }
+    }
+  }
+}
