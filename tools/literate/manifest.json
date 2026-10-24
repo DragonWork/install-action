@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "literate",
+  "version": "0.5.1",
+  "repository": "misalcedo/literate-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/misalcedo/literate-rs/releases/download/v0.5.1/literate-v0.5.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "35e1829a0bf6ff71edcb0ad6520a9bc5b18262ca35ff41b70251c0d1ed42a979",
+      "size": 3375723,
+      "format": "tar.gz",
+      "binaries": {
+        "literate": {
+          "path": "literate",
+          "sha256": "b09b0d65930ab810ca2681b3c79e1a7f1347aa7a4294716c778c86e3488d2114"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/misalcedo/literate-rs/releases/download/v0.5.1/literate-v0.5.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "22ec7bb4406b9954bc1860ce2b18a79aa4ba2530c5a4ce82d36f083dd428e988",
+      "size": 625077,
+      "format": "tar.gz",
+      "binaries": {
+        "literate": {
+          "path": "literate",
+          "sha256": "638c89f2402438b1d345f371ea863de907220bb63c1d4456a75a9e3324adc906"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/misalcedo/literate-rs/releases/download/v0.5.1/literate-v0.5.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "4341694ea75466be3b842f3b33b4e0a8d6ec69e21824ac49d60404a830621176",
+      "size": 502655,
+      "format": "zip",
+      "binaries": {
+        "literate.exe": {
+          "path": "literate.exe",
+          "sha256": "9581d17c0410ea4a5f3f778e187ce7605f59eeed3f80d757f38c60f6b88f9fd7"
+        }
+      }
+    }
+  }
+}
