@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rings-node",
+  "version": "0.20.0",
+  "repository": "RingsNetwork/rings",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RingsNetwork/rings/releases/download/v0.20.0/rings-v0.20.0-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.20.0",
+      "sha256": "6cc4dca260619ee83b10bcc377cd7bce0dfe0557ce23b0f9a7199014a2b4a05c",
+      "size": 8540794,
+      "format": "zip",
+      "binaries": {
+        "rings": {
+          "path": "rings",
+          "sha256": "2b961d23d7a9b2f2784d2e2e46dfe6910c682d6a7e58b63d3b5840570ced41ab"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/RingsNetwork/rings/releases/download/v0.20.0/rings-v0.20.0-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.20.0",
+      "sha256": "7fc5a659b4f1e716ebdca20da947933abe8a8cc92eb835a04c8c5c33bb1b97c9",
+      "size": 8278421,
+      "format": "zip",
+      "binaries": {
+        "rings": {
+          "path": "rings",
+          "sha256": "2fa4be6ada6b002603586381089655e74bff0080b2a1fe214f617a58ef78b436"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/RingsNetwork/rings/releases/download/v0.20.0/rings-v0.20.0-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.20.0",
+      "sha256": "b20d2a4f653537c43e5d3dc27b7d4acfc06a54e2b53046665ff9bf916b40fc55",
+      "size": 7604879,
+      "format": "zip",
+      "binaries": {
+        "rings": {
+          "path": "rings",
+          "sha256": "c24f45d75d965567d985cc2379d9fb5d9675dabb2afcde5f09600236e0322ed7"
+        }
+      }
+    }
+  }
+}
