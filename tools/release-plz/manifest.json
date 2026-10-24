@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "release-plz",
+  "version": "0.3.174",
+  "repository": "release-plz/release-plz",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.3.174/release-plz-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "release-plz-v0.3.174",
+      "sha256": "8240e953608d40e709d042e9ac0e206d518825de3d88a3da9ebeaf2a3ff57ea9",
+      "size": 19254363,
+      "format": "tar.gz",
+      "binaries": {
+        "release-plz": {
+          "path": "release-plz",
+          "sha256": "721b6e76f77b809381dc77c6817aeb84e930c022f49f4d861fd4c36347c50577"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.3.174/release-plz-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "release-plz-v0.3.174",
+      "sha256": "ab1a5a36d93cc4abedd9474381300a709ea06cd915c88c67c187118dbd9475d1",
+      "size": 18725975,
+      "format": "tar.gz",
+      "binaries": {
+        "release-plz": {
+          "path": "release-plz",
+          "sha256": "2c9bcf8bcdef756d7d3f4e029857b4dcc0ca03afc48793d5cd7de193abfeee12"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/release-plz/release-plz/releases/download/release-plz-v0.3.174/release-plz-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "release-plz-v0.3.174",
+      "sha256": "415494b8540935e4b38f815bd4c3640092313b101323398d641e91b1f7489d80",
+      "size": 16024144,
+      "format": "tar.gz",
+      "binaries": {
+        "release-plz": {
+          "path": "release-plz",
+          "sha256": "2bc0648584423c0134b1019f24abdbe2809ad12f4ffe0d5199d4756540d06b41"
+        }
+      }
+    }
+  }
+}
