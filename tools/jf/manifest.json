@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "jf",
+  "version": "1.0.0",
+  "repository": "sayanarijit/jf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sayanarijit/jf/releases/download/v1.0.0/jf-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "09d171600828247824b04f710ea22d8ffddc485f8cbfe1cb2ca41322aafac8e5",
+      "size": 355404,
+      "format": "tar.gz",
+      "binaries": {
+        "jf": {
+          "path": "jf",
+          "sha256": "f16232f6a3e1c90496e6af974cc9e8f2ac2005d095dbeff26d4ed7428bb84002"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sayanarijit/jf/releases/download/v1.0.0/jf-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "b616599ebfc5156b4df5e400c4c736a956af66a17480ce4e94e4586adb205660",
+      "size": 338663,
+      "format": "tar.gz",
+      "binaries": {
+        "jf": {
+          "path": "jf",
+          "sha256": "cbb54722d9cb8cc75d1df1b757b74ec9b9370594c8b359c44adc2e104eca5105"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sayanarijit/jf/releases/download/v1.0.0/jf-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "5f54afcf9cb072f599522668ec027a5ab0e148100ee18b317046227f9398a575",
+      "size": 284962,
+      "format": "tar.gz",
+      "binaries": {
+        "jf": {
+          "path": "jf",
+          "sha256": "9d530196b144ef8fc644653febe2d2e0c011cdcd9ee36ef2c257fcac9c39d689"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sayanarijit/jf/releases/download/v1.0.0/jf-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "60b21b2389adc339dc725c0cbdeec78f974051148e78c6028c5cdca44a413dc3",
+      "size": 213857,
+      "format": "zip",
+      "binaries": {
+        "jf.exe": {
+          "path": "jf.exe",
+          "sha256": "66b88cba46b9d02e13967072c31b8b110733de25e6a21640c874fc71aa1c0a3b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sayanarijit/jf/releases/download/v1.0.0/jf-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "4570f7f38464d00212707e2e69383c51bc8a038cf5e892492efee8510c8681ec",
+      "size": 205697,
+      "format": "zip",
+      "binaries": {
+        "jf.exe": {
+          "path": "jf.exe",
+          "sha256": "a95838e1394be44b734d3bed2ab90eb1a401b001e553c18420702a520a441770"
+        }
+      }
+    }
+  }
+}
