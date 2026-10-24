@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "kungfu",
+  "version": "0.2.3",
+  "repository": "yinheli/kungfu",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yinheli/kungfu/releases/download/v0.2.3/kungfu-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "5db3b310743174cd2753168cdf62d3074a761faf51a514ffc3ff611c6df2525b",
+      "size": 1749086,
+      "format": "tar.gz",
+      "binaries": {
+        "kungfu": {
+          "path": "kungfu",
+          "sha256": "f8b1e47109703cea57194c175baae3290ac30ef2095c4e259cae49598eb7fad8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/yinheli/kungfu/releases/download/v0.2.3/kungfu-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "a354175a9726363ecb4a9e8817051e3829028fbf5bb2f50404c0d7718f0bab5d",
+      "size": 1634413,
+      "format": "tar.gz",
+      "binaries": {
+        "kungfu": {
+          "path": "kungfu",
+          "sha256": "47c71b6b57c5a47e3a791edac81f50e1ff8b93a4185c51ec191071c42c05337a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yinheli/kungfu/releases/download/v0.2.3/kungfu-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "adb265c1b8ec5c8f5e260897998dfdb72746836bd2b789b4fa486043a2861e02",
+      "size": 1487607,
+      "format": "tar.gz",
+      "binaries": {
+        "kungfu": {
+          "path": "kungfu",
+          "sha256": "86caa3c7ffacda6ef6d6a431834ce9afc087644018e2ca4046b82e64fc552e47"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yinheli/kungfu/releases/download/v0.2.3/kungfu-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "1e7e6c23a714365899645f35edf7144e486f79ac7d140a9e534da8d12ad92f19",
+      "size": 1368432,
+      "format": "tar.gz",
+      "binaries": {
+        "kungfu": {
+          "path": "kungfu",
+          "sha256": "f1606e4dc7ccc6b0575d241736f8903a04f58e67b36241b7a6072039dfe45575"
+        }
+      }
+    }
+  }
+}
