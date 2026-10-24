@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "llmfit",
+  "version": "1.1.17",
+  "repository": "AlexsJones/llmfit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AlexsJones/llmfit/releases/download/v1.1.17/llmfit-v1.1.17-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.17",
+      "sha256": "4cd3c2bde68e5bf79576511ddc70f9e4ee4941c64429b5f57ae94ea93c24e8e2",
+      "size": 7443591,
+      "format": "tar.gz",
+      "binaries": {
+        "llmfit": {
+          "path": "llmfit-v1.1.17-x86_64-unknown-linux-musl/llmfit",
+          "sha256": "f4c4d4cfd99c1675290288c0423a23e24ca008ca66bf46c1368758603da937ec"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/AlexsJones/llmfit/releases/download/v1.1.17/llmfit-v1.1.17-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.17",
+      "sha256": "b2aa685cc2037f27f87f0b6875b360083e0cb431be5d8e1f2c4af969a6e1b471",
+      "size": 7187946,
+      "format": "tar.gz",
+      "binaries": {
+        "llmfit": {
+          "path": "llmfit-v1.1.17-aarch64-unknown-linux-musl/llmfit",
+          "sha256": "604464e549e5ac959e9a963f32237273ac9797786a38b003deea5b801510794e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AlexsJones/llmfit/releases/download/v1.1.17/llmfit-v1.1.17-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.17",
+      "sha256": "a859d79292e961e9b9ed21b29bbeb787206c036668a7ec833f23c26e5ef7ca45",
+      "size": 6685409,
+      "format": "tar.gz",
+      "binaries": {
+        "llmfit": {
+          "path": "llmfit-v1.1.17-x86_64-apple-darwin/llmfit",
+          "sha256": "a4a3a36c14f96460296bc60bd235893eb513dd57b0c378d99ac6c0205d8584b5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AlexsJones/llmfit/releases/download/v1.1.17/llmfit-v1.1.17-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.17",
+      "sha256": "294abbb9faa62315acbdb5ee55a2558f327c98df6644922d493d1dde1518a858",
+      "size": 6579395,
+      "format": "tar.gz",
+      "binaries": {
+        "llmfit": {
+          "path": "llmfit-v1.1.17-aarch64-apple-darwin/llmfit",
+          "sha256": "ff9fbd29c5b45283e25d0ae80092a7672a3b75de15438513a45110b6b055e41c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AlexsJones/llmfit/releases/download/v1.1.17/llmfit-v1.1.17-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.17",
+      "sha256": "661b6ea57d835f681fbabcf3366649ff681d0081267fd3a05db254e67af6073f",
+      "size": 6222681,
+      "format": "zip",
+      "binaries": {
+        "llmfit.exe": {
+          "path": "llmfit-v1.1.17-x86_64-pc-windows-msvc/llmfit.exe",
+          "sha256": "3c5c783dd85cd78d2f91c9ac2809967a47b13708a9cc72112ed4a02c9d6cc981"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/AlexsJones/llmfit/releases/download/v1.1.17/llmfit-v1.1.17-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.17",
+      "sha256": "639695966d90559a0cd2b27d42fcad2079bbada7cb553663ce6818f536a2c0e9",
+      "size": 5884558,
+      "format": "zip",
+      "binaries": {
+        "llmfit.exe": {
+          "path": "llmfit-v1.1.17-aarch64-pc-windows-msvc/llmfit.exe",
+          "sha256": "9461a563b4497528566c0b845b1c37ac1e942c52bb3fc91b265a95b2aee88880"
+        }
+      }
+    }
+  }
+}
