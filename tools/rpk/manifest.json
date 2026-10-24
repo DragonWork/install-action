@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rpk",
+  "version": "0.2.2",
+  "repository": "wfxr/rpk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wfxr/rpk/releases/download/v0.2.2/rpk-v0.2.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "b28dfcb8a14f3bb2047e675e34d21bfe9ae55a2d9dd6c089920efabf009a42b2",
+      "size": 2273534,
+      "format": "tar.gz",
+      "binaries": {
+        "rpk": {
+          "path": "rpk-v0.2.2-x86_64-unknown-linux-musl/rpk",
+          "sha256": "433ffbe0976f3aad607ce8019749c3e4f86c7da2745e1a96435e5f802038a26a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wfxr/rpk/releases/download/v0.2.2/rpk-v0.2.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "9df27aba422846261fc073424b04e7708ddd936581c762b1aa3a47512c3cf993",
+      "size": 2432944,
+      "format": "tar.gz",
+      "binaries": {
+        "rpk": {
+          "path": "rpk-v0.2.2-aarch64-unknown-linux-gnu/rpk",
+          "sha256": "541efd20fd0ff1e2222bfd46c9fdd833ff16b9f78e49a0e11a66062112d6de43"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wfxr/rpk/releases/download/v0.2.2/rpk-v0.2.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "4f70c492b14dc798a8fa1774ea764139bf6d11259bd5ee00297ed3cad11f1b21",
+      "size": 1947056,
+      "format": "tar.gz",
+      "binaries": {
+        "rpk": {
+          "path": "rpk-v0.2.2-x86_64-apple-darwin/rpk",
+          "sha256": "3403c87184b14a02f5d5bb4fdb80b2a5d2f5714222ef8f366a7e4e19e9542198"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wfxr/rpk/releases/download/v0.2.2/rpk-v0.2.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "ae382988510a5aee1f359f0df1c2c6788cfb3d64c685fa50201fb273da3d3d32",
+      "size": 1846194,
+      "format": "tar.gz",
+      "binaries": {
+        "rpk": {
+          "path": "rpk-v0.2.2-aarch64-apple-darwin/rpk",
+          "sha256": "b9d3c09b8f00bec3e244761e8a538bb4d1d03cc1834eaf7666d87280cbc8dcf3"
+        }
+      }
+    }
+  }
+}
