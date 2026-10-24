@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "dts",
+  "version": "0.6.16",
+  "repository": "martinohmann/dts",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/martinohmann/dts/releases/download/v0.6.16/dts-v0.6.16-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.16",
+      "sha256": "5a9a1ba40b0f8c574fad19ba3ecb88442eb298ed684ae02214c82fe8bc984674",
+      "size": 4658534,
+      "format": "tar.gz",
+      "binaries": {
+        "dts": {
+          "path": "dts-v0.6.16-x86_64-unknown-linux-musl/dts",
+          "sha256": "bd9de17124253b7c2f76a9aa1483689ad682ed0f719fac7997f2bc40c776d6a7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/martinohmann/dts/releases/download/v0.6.16/dts-v0.6.16-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.16",
+      "sha256": "673dd1b5ebfd4f476f50bdc6ca0097b7263481c0753bb90ee5d378825d796762",
+      "size": 4350914,
+      "format": "tar.gz",
+      "binaries": {
+        "dts": {
+          "path": "dts-v0.6.16-aarch64-unknown-linux-gnu/dts",
+          "sha256": "cf1417284c8a72e379a4ef75a52d3acdec330b985039c8fb3f04eb2313625ad5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/martinohmann/dts/releases/download/v0.6.16/dts-v0.6.16-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.16",
+      "sha256": "bbe9640907571122b2239968c6b6177fc1055c7b77cb37b25addd8515244f8b8",
+      "size": 4530440,
+      "format": "tar.gz",
+      "binaries": {
+        "dts": {
+          "path": "dts-v0.6.16-x86_64-apple-darwin/dts",
+          "sha256": "76ac70df4b75119a3d9656dfcabc5aafc3bba6fe3302a86afbaa69740c7be471"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/martinohmann/dts/releases/download/v0.6.16/dts-v0.6.16-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.16",
+      "sha256": "1abac83fb102e8852d6313fbef64c1caeb1e9d5222bdf39802a1426891c04a26",
+      "size": 4389744,
+      "format": "tar.gz",
+      "binaries": {
+        "dts": {
+          "path": "dts-v0.6.16-aarch64-apple-darwin/dts",
+          "sha256": "4c61ca420747c3fda4e7e08054754ac1c3e094d2ce2723479b7a422f18e73162"
+        }
+      }
+    }
+  }
+}
