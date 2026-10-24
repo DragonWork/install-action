@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "devlog",
+  "version": "1.2.1",
+  "repository": "wedaly/devlog",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wedaly/devlog/releases/download/1.2.1/devlog_1.2.1_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.2.1",
+      "sha256": "641d31b6b6b6a3e63449d7715a19e3c5344855f3ac797f097d7541e898835425",
+      "size": 1290544,
+      "format": "tar.gz",
+      "binaries": {
+        "devlog": {
+          "path": "devlog",
+          "sha256": "d370d93e24b519d57aa1c1dca45ca0f04eef870ffe792b9c1f96fc2d582acf45"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wedaly/devlog/releases/download/1.2.1/devlog_1.2.1_x86_64-apple-darwin.zip",
+      "releaseTag": "1.2.1",
+      "sha256": "f60dadee74d26a5690a9e6e123d8d713abf346acca3082a67c50c9bb59bd29a9",
+      "size": 499367,
+      "format": "zip",
+      "binaries": {
+        "devlog": {
+          "path": "devlog",
+          "sha256": "1cf3a339837b21a5e9396f39b84d62f57d18bbb6c1a2e913b4aa5acf06c67fe3"
+        }
+      }
+    }
+  }
+}
