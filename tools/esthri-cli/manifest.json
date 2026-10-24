@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "esthri-cli",
+  "version": "12.0.0",
+  "repository": "swift-nav/esthri",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/swift-nav/esthri/releases/download/12.0.0/esthri-12.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "12.0.0",
+      "sha256": "2aa77f627849fc78378f7edab0c8611018b5d5b4dd2bb8ad813921d40ab31e0b",
+      "size": 6001506,
+      "format": "tar.gz",
+      "binaries": {
+        "esthri": {
+          "path": "esthri",
+          "sha256": "1489fa14d99038fd6caa88bf0c2d0afbef088e923da502d608fb6c734e8646a5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/swift-nav/esthri/releases/download/12.0.0/esthri-12.0.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "12.0.0",
+      "sha256": "3a635a31f0f61640f9387bda2fab576d2b62fe4ed6c8be4de486d330d3bd74c8",
+      "size": 5763406,
+      "format": "tar.gz",
+      "binaries": {
+        "esthri": {
+          "path": "esthri",
+          "sha256": "cb0aa5d531906e8f83a4b5e2f8e22243058aa38d3bc35ae675befad09dd0406a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/swift-nav/esthri/releases/download/12.0.0/esthri-12.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "12.0.0",
+      "sha256": "d3450d734151e1bbfa49eec39718e709101d09af6a5fff0b668795654a77bc94",
+      "size": 5043133,
+      "format": "tar.gz",
+      "binaries": {
+        "esthri": {
+          "path": "esthri",
+          "sha256": "66511becafaaae369fbfeabecf3b82675468bb49eee7d4869b48db39ebd5d370"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/swift-nav/esthri/releases/download/12.0.0/esthri-12.0.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "12.0.0",
+      "sha256": "7a851e2151a5bbdbad9bfb38753b0706cd119ef2567560c1c4d5498c306f9bb9",
+      "size": 4701468,
+      "format": "tar.gz",
+      "binaries": {
+        "esthri": {
+          "path": "esthri",
+          "sha256": "61aa72763d9f0a444955af873b352ba11d3d74bf9d8ef1c82c856bb5b9bb3579"
+        }
+      }
+    }
+  }
+}
