@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "wait-on",
+  "version": "0.0.14",
+  "repository": "LeoBorai/wait-on",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LeoBorai/wait-on/releases/download/v0.0.14/wait-on-x86_64-unknown-linux-musl",
+      "sha256": "50346dffbef49e149441e8a19a266b508aec70f8890fa9a6d7ecb28218defedb",
+      "size": 5331224,
+      "format": "binary",
+      "releaseTag": "v0.0.14",
+      "binaries": {
+        "wait-on": {
+          "path": "wait-on-x86_64-unknown-linux-musl",
+          "sha256": "50346dffbef49e149441e8a19a266b508aec70f8890fa9a6d7ecb28218defedb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LeoBorai/wait-on/releases/download/v0.0.14/wait-on-x86_64-apple-darwin",
+      "sha256": "1cd4445b0a14cc802d51195c8252f0f5fdb4bcaa781fa8a6284089fcfa566089",
+      "size": 4687728,
+      "format": "binary",
+      "releaseTag": "v0.0.14",
+      "binaries": {
+        "wait-on": {
+          "path": "wait-on-x86_64-apple-darwin",
+          "sha256": "1cd4445b0a14cc802d51195c8252f0f5fdb4bcaa781fa8a6284089fcfa566089"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LeoBorai/wait-on/releases/download/v0.0.14/wait-on-aarch64-apple-darwin",
+      "sha256": "eb8364bc332798c6601bed434cd96192447a632bbc89da46911840c0bfb58c79",
+      "size": 4565624,
+      "format": "binary",
+      "releaseTag": "v0.0.14",
+      "binaries": {
+        "wait-on": {
+          "path": "wait-on-aarch64-apple-darwin",
+          "sha256": "eb8364bc332798c6601bed434cd96192447a632bbc89da46911840c0bfb58c79"
+        }
+      }
+    }
+  }
+}
