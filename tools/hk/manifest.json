@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hk",
+  "version": "2.8.0",
+  "repository": "jdx/hk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jdx/hk/releases/download/v2.8.0/hk-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.8.0",
+      "sha256": "5a9f2e4f8ff945d19da5f4c914ec7feb3f636aa3b2eac02de2b1c6cfe76fe385",
+      "size": 7970392,
+      "format": "tar.gz",
+      "binaries": {
+        "hk": {
+          "path": "hk",
+          "sha256": "4c5f5b15b79a8056b38fb86f477f562f37ffe286790accc5f457441a2b54a0c9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jdx/hk/releases/download/v2.8.0/hk-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.8.0",
+      "sha256": "75c88574984380f3a76ab79ab89cf7d8c35d161e3b2d858ac9f13b4e936150a3",
+      "size": 8303929,
+      "format": "tar.gz",
+      "binaries": {
+        "hk": {
+          "path": "hk",
+          "sha256": "3cd2ba65105914c684363a5c0d1f0241d87cc61fc8abfddd9533d66a101da047"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jdx/hk/releases/download/v2.8.0/hk-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.8.0",
+      "sha256": "9f0290ff3cbfa9f6baff640c846bf07f78dd29e2023b0c230d3d5226c23385ca",
+      "size": 6980935,
+      "format": "tar.gz",
+      "binaries": {
+        "hk": {
+          "path": "hk",
+          "sha256": "7b4bb793ac32fc9e0217af51095e7417936f8be3989ad9536e5edc7c8a59c9bd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jdx/hk/releases/download/v2.8.0/hk-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.8.0",
+      "sha256": "391d61bb4a3bb612464142277f4d934d3b1aee6068cf18175d1c2406aeda29e3",
+      "size": 8145344,
+      "format": "zip",
+      "binaries": {
+        "hk.exe": {
+          "path": "hk.exe",
+          "sha256": "56d7328b5c52ef162a0a6d8c1f105a402205473120961ed66889cb9df3a1182c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/jdx/hk/releases/download/v2.8.0/hk-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v2.8.0",
+      "sha256": "cc9c8136033349b54608f217693f6427f553305ab22775f11374c4b1ab010158",
+      "size": 7704191,
+      "format": "zip",
+      "binaries": {
+        "hk.exe": {
+          "path": "hk.exe",
+          "sha256": "c1d967dcffedc4edd5ecee6693240766f528d897340bd7c4852c8c9a6b77bd1e"
+        }
+      }
+    }
+  }
+}
