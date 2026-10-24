@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "just",
+  "version": "1.59.0",
+  "repository": "casey/just",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.59.0",
+      "sha256": "409044617b6f06517c1035e55ca38c8c856ff8b650e41bc2aa1ef82d5903a23e",
+      "size": 2572537,
+      "format": "tar.gz",
+      "binaries": {
+        "just": {
+          "path": "just",
+          "sha256": "50cd9b4a47c26a2570a0cca1bf86a106290b1cd35b131630696f63b9fbd1400d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.59.0",
+      "sha256": "23871b1702bfd550fb5f901778fd4290ecf2ee034a45a889fbe96d89b188086d",
+      "size": 2343258,
+      "format": "tar.gz",
+      "binaries": {
+        "just": {
+          "path": "just",
+          "sha256": "c6a42651abc5ea8518aa4054d7236267e4259e9543e5ae65051bbcc6aa462cff"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.59.0",
+      "sha256": "036ead9df9bc31dbae9934ae3b4236ed124d0bafcffd33439460ae084d5c9cb7",
+      "size": 2357655,
+      "format": "tar.gz",
+      "binaries": {
+        "just": {
+          "path": "just",
+          "sha256": "800786f88539439a3ee3be97cfa2ef7b1a399adc6f4235f311f8e6a1afee4be4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "1.59.0",
+      "sha256": "6574cea774ed4cae12e24b6aa11857de33e80dab4667cf628fd5840df96a2a9d",
+      "size": 2174952,
+      "format": "tar.gz",
+      "binaries": {
+        "just": {
+          "path": "just",
+          "sha256": "dd760b653ab24afb6e11bb4c2de423f75085d2eea751f8e1d51058074052ecdd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.59.0",
+      "sha256": "9c5463e2d0974e31bee71346aa5cbf19167de1585a4abc1bae7b3b04604ea9c0",
+      "size": 2292448,
+      "format": "zip",
+      "binaries": {
+        "just.exe": {
+          "path": "just.exe",
+          "sha256": "146c26ccfe1e40fadb59183cf8bc17d46c0cdf1bd1e43e52cca686cef0c44627"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "1.59.0",
+      "sha256": "a72808bc8f8028c25aaae87cf26405d2bd85d2769a779380b344c69607216971",
+      "size": 2098112,
+      "format": "zip",
+      "binaries": {
+        "just.exe": {
+          "path": "just.exe",
+          "sha256": "4f54ce81fc2c99094be22bf3a0e28aff106ab7d92ff286f3979bee54e3b03f48"
+        }
+      }
+    }
+  }
+}
