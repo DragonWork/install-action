@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "enquirer",
+  "version": "0.6.1",
+  "repository": "termapps/enquirer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/termapps/enquirer/releases/download/v0.6.1/enquirer-v0.6.1-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "4f16adf813c2f211543eba80e12e33032b94c9c1123c5845bb47de211607b805",
+      "size": 858300,
+      "format": "zip",
+      "binaries": {
+        "enquirer": {
+          "path": "enquirer-v0.6.1-x86_64-unknown-linux-gnu/enquirer",
+          "sha256": "32efdaadfe4c9f8cb71b1e5fa0dbdec4d4947acc3e847397483a3ad3ed2d292f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/termapps/enquirer/releases/download/v0.6.1/enquirer-v0.6.1-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "e5154afdb3e596600ca11c274e730a5fc4b36983260c64a66190b8606a5bca0c",
+      "size": 474896,
+      "format": "zip",
+      "binaries": {
+        "enquirer": {
+          "path": "enquirer-v0.6.1-x86_64-apple-darwin/enquirer",
+          "sha256": "61a6b04d3dd5636296f46eeb98e7f2b2d7ff87b6deddb8fd1a73fb49dd757c5b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/termapps/enquirer/releases/download/v0.6.1/enquirer-v0.6.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "9810efda709d10d72acd93a89bc0362ad15398743f4c1b1c7f3b419b7a04944d",
+      "size": 374454,
+      "format": "zip",
+      "binaries": {
+        "enquirer.exe": {
+          "path": "enquirer-v0.6.1-x86_64-pc-windows-msvc/enquirer.exe",
+          "sha256": "06a7821f3810bfa22a7b091ab187d0efb638a8a62402e060c6037c96c7f912f1"
+        }
+      }
+    }
+  }
+}
