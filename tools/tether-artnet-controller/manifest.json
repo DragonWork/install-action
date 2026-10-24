@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tether-artnet-controller",
+  "version": "0.11.1",
+  "repository": "RandomStudio/tether-artnet-controller",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RandomStudio/tether-artnet-controller/releases/download/v0.11.1/tether-artnet-controller-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.11.1",
+      "sha256": "129b4d42059f44fb4f736c26826ad8b94c54db2f25d17e76193b9e694ef98284",
+      "size": 5532152,
+      "format": "tar.xz",
+      "binaries": {
+        "tether-artnet-controller": {
+          "path": "tether-artnet-controller-x86_64-unknown-linux-gnu/tether-artnet-controller",
+          "sha256": "80f4956d611afc1d75a7db54acbd063d250f8b4bad72ae33594db858bf75f522"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/RandomStudio/tether-artnet-controller/releases/download/v0.11.1/tether-artnet-controller-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.1",
+      "sha256": "45552c7d66a77e36e1f4e66f0f6b76241c56741cb110856475f8ae3d46271767",
+      "size": 3607376,
+      "format": "tar.xz",
+      "binaries": {
+        "tether-artnet-controller": {
+          "path": "tether-artnet-controller-x86_64-apple-darwin/tether-artnet-controller",
+          "sha256": "de0bd79cd51c1605dfaf53b30ebff3f22ed8a2a07fd7ac2ea35551b9528f1610"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/RandomStudio/tether-artnet-controller/releases/download/v0.11.1/tether-artnet-controller-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.1",
+      "sha256": "d4951630089d425c5ce77e7af4458c4ea9f6e877be8d3f8139360964354f9962",
+      "size": 3321244,
+      "format": "tar.xz",
+      "binaries": {
+        "tether-artnet-controller": {
+          "path": "tether-artnet-controller-aarch64-apple-darwin/tether-artnet-controller",
+          "sha256": "a52f463dacd3e16b0f814958ee61e118b3193f22d96ca2380586c9f7cead8c5d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RandomStudio/tether-artnet-controller/releases/download/v0.11.1/tether-artnet-controller-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.1",
+      "sha256": "c538659692e9a3b3ab7d874683d1a271e1f71a35e52f607168524750bcd77adf",
+      "size": 10837545,
+      "format": "zip",
+      "binaries": {
+        "tether-artnet-controller.exe": {
+          "path": "tether-artnet-controller.exe",
+          "sha256": "f95d1373b5270e2f0266fe6d2bfc4f46cab1e340e948a8a27231bf3b276a1100"
+        }
+      }
+    }
+  }
+}
