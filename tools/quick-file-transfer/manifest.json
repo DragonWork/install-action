@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "quick-file-transfer",
+  "version": "0.10.2",
+  "repository": "CramBL/quick-file-transfer",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/CramBL/quick-file-transfer/releases/download/0.10.2/qft-0.10.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.10.2",
+      "sha256": "1f9a1e1770dd82452f05275f7f03727471d3e21bc0339a13238a37a1777fb2e1",
+      "size": 1601968,
+      "format": "zip",
+      "binaries": {
+        "qft.exe": {
+          "path": "qft.exe",
+          "sha256": "bc949410c7ac2c20a916beb486fd62afa66208fbab71dad49362aeddc793de03"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/CramBL/quick-file-transfer/releases/download/0.10.2/qft-0.10.2-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.10.2",
+      "sha256": "085b2624b7193982ba72e313f860e9a8863f2523aee7e18ab09ae029ae8408bd",
+      "size": 1501377,
+      "format": "zip",
+      "binaries": {
+        "qft.exe": {
+          "path": "qft.exe",
+          "sha256": "abab202023174ed0221ae933ea70c482038dc18c5c73206d50918c3898e99d8c"
+        }
+      }
+    }
+  }
+}
