@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "gitall",
+  "version": "0.6.0",
+  "repository": "mattmahn/gitall.rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mattmahn/gitall.rs/releases/download/v0.6.0/gitall-v0.6.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "2d1393dad54acdfd2aa8e9897751d5ad2b6a51f7ebe7c40069f1fe50f73817cd",
+      "size": 1754609,
+      "format": "tar.gz",
+      "binaries": {
+        "gitall": {
+          "path": "gitall-v0.6.0-x86_64-unknown-linux-musl/gitall",
+          "sha256": "974295d727a996eb6791aaa9506e5e1fcdc76abad3764ff7b652b8469cec5f14"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mattmahn/gitall.rs/releases/download/v0.6.0/gitall-v0.6.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "4aeff1e9fdfdcad29f6f64b64e86c37dbf4fdcc83144931c9823e7696f3aed0d",
+      "size": 1656747,
+      "format": "tar.gz",
+      "binaries": {
+        "gitall": {
+          "path": "gitall-v0.6.0-aarch64-unknown-linux-gnu/gitall",
+          "sha256": "066c2a188a8b946312a39d4cb254810491cb9266e2c619a036f1594a034c09ea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mattmahn/gitall.rs/releases/download/v0.6.0/gitall-v0.6.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "a46652ccee85ca991ee61d83dd0210229afbc46f832d208438eb8a3414bd366f",
+      "size": 903811,
+      "format": "tar.gz",
+      "binaries": {
+        "gitall": {
+          "path": "gitall-v0.6.0-x86_64-apple-darwin/gitall",
+          "sha256": "62b2c7c992d411f5e587a8edb16d7f542c0a97deb86f4e8a1eb3e5bb87f91b7f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mattmahn/gitall.rs/releases/download/v0.6.0/gitall-v0.6.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "bd98900784ad1c69adf38321c3bb8a27cdb0523a9565d4f1467750dc61b8d737",
+      "size": 702770,
+      "format": "zip",
+      "binaries": {
+        "gitall.exe": {
+          "path": "gitall-v0.6.0-x86_64-pc-windows-msvc/gitall.exe",
+          "sha256": "ced5273d8f7b8dd36a036d1da73c02bc7fc3efd6f95cf88c1d1bf8997b23d038"
+        }
+      }
+    }
+  }
+}
