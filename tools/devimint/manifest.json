@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "devimint",
+  "version": "0.12.0",
+  "repository": "fedimint/fedimint",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/fedimint/fedimint/releases/download/v0.12.0/devimint-v0.12.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "dd50236777fed297a142ec859c1840f195276c663aa6c8319a9c8c2878272555",
+      "size": 1327,
+      "format": "tar.gz",
+      "binaries": {
+        "devimint": {
+          "path": "./bin/devimint",
+          "sha256": "df68e1a30c91d56b2d343184928dfc07882f78367e420dcdf6035c1e6503a361"
+        }
+      }
+    }
+  }
+}
