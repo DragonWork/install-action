@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mintyml-cli",
+  "version": "0.1.19",
+  "repository": "youngspe/mintyml",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/youngspe/mintyml/releases/download/v0.1.19/mintyml-cli-x86_64-unknown-linux-gnu-v0.1.19.tgz",
+      "releaseTag": "v0.1.19",
+      "sha256": "683c4ae858bc2b015ba0484c0b840992f000a994f39190e35ab249511a7dc065",
+      "size": 830633,
+      "format": "tar.gz",
+      "binaries": {
+        "mintyml-cli": {
+          "path": "mintyml-cli-x86_64-unknown-linux-gnu-v0.1.19/mintyml-cli",
+          "sha256": "cc087ecdf59813b3f0f93b1d6dd2fff56e1c992ebeecdf42c7aa4acefa9378bd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/youngspe/mintyml/releases/download/v0.1.19/mintyml-cli-aarch64-unknown-linux-gnu-v0.1.19.tgz",
+      "releaseTag": "v0.1.19",
+      "sha256": "261274e511840a89d7f450c01b475adbacb3bf46ecf0f1bc9e452678cd88e87c",
+      "size": 750449,
+      "format": "tar.gz",
+      "binaries": {
+        "mintyml-cli": {
+          "path": "mintyml-cli-aarch64-unknown-linux-gnu-v0.1.19/mintyml-cli",
+          "sha256": "72420bbd9b617e21d80efee27e54efaa8eff0b0939465cb4960ac8c6e8a76055"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/youngspe/mintyml/releases/download/v0.1.19/mintyml-cli-x86_64-apple-darwin-v0.1.19.tgz",
+      "releaseTag": "v0.1.19",
+      "sha256": "fbcd9a90101e66092eaa6d27af15c626b8fb499905516317ca4e71fa05e405d4",
+      "size": 762858,
+      "format": "tar.gz",
+      "binaries": {
+        "mintyml-cli": {
+          "path": "mintyml-cli-x86_64-apple-darwin-v0.1.19/mintyml-cli",
+          "sha256": "07e15af61e702779f8f6a2492c0504326181d87ed59cf1912ae29a77f4cc7864"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/youngspe/mintyml/releases/download/v0.1.19/mintyml-cli-aarch64-apple-darwin-v0.1.19.tgz",
+      "releaseTag": "v0.1.19",
+      "sha256": "efb9c4c0ec4e5bef0b2d858a60c30ec79504f188e8f8bda375e49d89d68e2596",
+      "size": 738240,
+      "format": "tar.gz",
+      "binaries": {
+        "mintyml-cli": {
+          "path": "mintyml-cli-aarch64-apple-darwin-v0.1.19/mintyml-cli",
+          "sha256": "57bb731cbb1a1fce41f1103b80c22d3e07ec0cf78f3dba926f83687b72474a90"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/youngspe/mintyml/releases/download/v0.1.19/mintyml-cli-x86_64-pc-windows-gnu-v0.1.19.tgz",
+      "releaseTag": "v0.1.19",
+      "sha256": "c417f24bf849f81fbc0ca98ca2e1f5c27ffebe7ea4a53a7bf261e73997eeff2c",
+      "size": 1814576,
+      "format": "tar.gz",
+      "binaries": {
+        "mintyml-cli.exe": {
+          "path": "mintyml-cli-x86_64-pc-windows-gnu-v0.1.19/mintyml-cli.exe",
+          "sha256": "2b84408744f49f405dc4e8e2ad4d3321d053e8b1d52c4b5ad689a5b12fe3614c"
+        }
+      }
+    }
+  }
+}
