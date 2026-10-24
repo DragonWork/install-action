@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "estunnel",
+  "version": "1.8.6",
+  "repository": "wfxr/estunnel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wfxr/estunnel/releases/download/v1.8.6/estunnel-v1.8.6-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.8.6",
+      "sha256": "359ce23b7149eb81ad0cc6493c83ed8bfb38428d4533a55ea9b9149f6f5837c5",
+      "size": 3089294,
+      "format": "tar.gz",
+      "binaries": {
+        "estunnel": {
+          "path": "estunnel",
+          "sha256": "29fa3fa8df5ac7d66e3034d9c06866bd2aa21d26407dd1e897ad8a55e7a33377"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wfxr/estunnel/releases/download/v1.8.6/estunnel-v1.8.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.8.6",
+      "sha256": "3f02b0a5ee0b0b0e1b134fa65a4942a6477a0187f139a62c9c9203a835ace982",
+      "size": 1952159,
+      "format": "tar.gz",
+      "binaries": {
+        "estunnel": {
+          "path": "estunnel",
+          "sha256": "5d971f4c75b2f71a48daf3d6b0bbb414a0f7378e4928221f158a81b30c1ed69e"
+        }
+      }
+    }
+  }
+}
