@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "bp",
+  "version": "0.1.5",
+  "repository": "printfn/bp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/printfn/bp/releases/download/v0.1.5/bp-linux-x86_64-gnu.zip",
+      "releaseTag": "v0.1.5",
+      "sha256": "5c79a97e5e4d89131dd5b4b7aad2263dda1fc16064372885776d3162dccb8a20",
+      "size": 378491,
+      "format": "zip",
+      "binaries": {
+        "bp": {
+          "path": "bp",
+          "sha256": "f8e99712c7ae0887653cddd6fd2985fdeda1920554dab17646d481c27d4421cd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/printfn/bp/releases/download/v0.1.5/bp-macos-x86_64.zip",
+      "releaseTag": "v0.1.5",
+      "sha256": "59e9f1cd7892207c708840e9c4b08c9edf344d849cac09c71ff27a8c2302dc9f",
+      "size": 191053,
+      "format": "zip",
+      "binaries": {
+        "bp": {
+          "path": "bp",
+          "sha256": "f8ec4cd0f1f9dd7d1d53cfd5f0f74ef89c2ae1dcae610eda4683ea77693f0037"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/printfn/bp/releases/download/v0.1.5/bp-windows-x86_64.zip",
+      "releaseTag": "v0.1.5",
+      "sha256": "a506aa14c60fa9fccfd1dd29f6ad718ff25c7fbe50fa495d5a8d64fa4ebfa0ee",
+      "size": 94942,
+      "format": "zip",
+      "binaries": {
+        "bp.exe": {
+          "path": "bp.exe",
+          "sha256": "4e5f8c851e2d9e349126938c9f24f58c006f3d2ee4fd3a51af08347219686084"
+        }
+      }
+    }
+  }
+}
