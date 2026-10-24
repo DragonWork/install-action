@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "licensa",
+  "version": "0.1.9",
+  "repository": "ekkolon/licensa",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ekkolon/licensa/releases/download/v0.1.9/licensa-v0.1.9-x86_64-linux.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "1f993fd8f509e9fa330df5453645971f6598d98a99f40ba90ea955c55e9dbe83",
+      "size": 785440,
+      "format": "tar.xz",
+      "binaries": {
+        "licensa": {
+          "path": "licensa-v0.1.9-x86_64-linux/licensa",
+          "sha256": "228e29c11ab815eb1149c4ff6ded54314fd6607b8ff7043c591b2e184c81a332"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ekkolon/licensa/releases/download/v0.1.9/licensa-v0.1.9-aarch64-linux.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "63c78bc86efb5ebeab08fbc09a0edb1cc0b64a2dc7aa47de1decec30ee952f72",
+      "size": 702008,
+      "format": "tar.xz",
+      "binaries": {
+        "licensa": {
+          "path": "licensa-v0.1.9-aarch64-linux/licensa",
+          "sha256": "ac4a943df7307946e7d5fb7e6559f95ca8d57d7784282788034dbd499a130e03"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ekkolon/licensa/releases/download/v0.1.9/licensa-v0.1.9-x86_64-macos.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "dde28c72806db5aabfdb5d6b48720235c92d25aa94b6dd75df7c6b3755123c16",
+      "size": 700204,
+      "format": "tar.xz",
+      "binaries": {
+        "licensa": {
+          "path": "licensa-v0.1.9-x86_64-macos/licensa",
+          "sha256": "49178683a1b475a4576535b0fbb201562a86725d5b09ecc898581ada93a1021b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ekkolon/licensa/releases/download/v0.1.9/licensa-v0.1.9-x86_64-windows.zip",
+      "releaseTag": "v0.1.9",
+      "sha256": "07a3115486028e36161f8ef712771d78c27de749cdd8f66ed58d0dc89fb2c04b",
+      "size": 800097,
+      "format": "zip",
+      "binaries": {
+        "licensa.exe": {
+          "path": "licensa-v0.1.9-x86_64-windows/licensa.exe",
+          "sha256": "d3ec508f9cd9b206103c744325a95657a4538cad94d1b79f466afe42c422e54b"
+        }
+      }
+    }
+  }
+}
