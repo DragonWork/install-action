@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mdbook-toc",
+  "version": "0.15.4",
+  "repository": "badboy/mdbook-toc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/badboy/mdbook-toc/releases/download/0.15.4/mdbook-toc-0.15.4-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.15.4",
+      "sha256": "cddfa9ccfab239c0fa4233a4c4096154be8e0c3883ec3e49a25d936b4e3e83be",
+      "size": 678305,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-toc": {
+          "path": "mdbook-toc",
+          "sha256": "78125623b5168a0ee53f0bb47d3f34f24f30a7f30da64aa9ddcfd263a16df7f6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/badboy/mdbook-toc/releases/download/0.15.4/mdbook-toc-0.15.4-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.15.4",
+      "sha256": "9dbb0515acf1cc8883a5c2d2434a7473c652d642e1a3e5727f0b08a3f6c814da",
+      "size": 733892,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-toc": {
+          "path": "mdbook-toc",
+          "sha256": "dc5f7e59abf9395ba67379969ec9bf4ab42f9d78b039ccd57cffbd800c03a831"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/badboy/mdbook-toc/releases/download/0.15.4/mdbook-toc-0.15.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.15.4",
+      "sha256": "dc9aff8e33aed91d47894bef4bbe6c7cd8770fe1da19c8b22866604d18a69820",
+      "size": 588709,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-toc": {
+          "path": "mdbook-toc",
+          "sha256": "ef4d7dbec0d3ee1062330b1bf315533787aebdccbaa02d01490a3a93ab8192aa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/badboy/mdbook-toc/releases/download/0.15.4/mdbook-toc-0.15.4-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.15.4",
+      "sha256": "d51d5692d6f5f5cb57e05e6b840950ad179b5257046203a410149aacd0f45faf",
+      "size": 570622,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-toc": {
+          "path": "mdbook-toc",
+          "sha256": "79468b2fd0365db3fca935a6cddd0443f6f8c51dc0ac5eabbecf596840ff1082"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/badboy/mdbook-toc/releases/download/0.15.4/mdbook-toc-0.15.4-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.15.4",
+      "sha256": "f2f1925df14e39839dc1e94ce3e7f91405175efcdba6b115b7a78d94988b06ff",
+      "size": 488375,
+      "format": "zip",
+      "binaries": {
+        "mdbook-toc.exe": {
+          "path": "mdbook-toc.exe",
+          "sha256": "c5778932dda132094185c02b74ebad956a7e0d55789bd903ba6a0210b568199f"
+        }
+      }
+    }
+  }
+}
