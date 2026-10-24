@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "litra",
+  "version": "3.3.0",
+  "repository": "timrogers/litra-rs",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/timrogers/litra-rs/releases/download/v3.3.0/litra_v3.3.0_windows-amd64.exe",
+      "releaseTag": "v3.3.0",
+      "sha256": "4024567efadd7fb54611a865be784012059e322221c0356150184dcb60283bdb",
+      "size": 6917120,
+      "format": "binary",
+      "binaries": {
+        "litra.exe": {
+          "path": "litra_v3.3.0_windows-amd64.exe",
+          "sha256": "4024567efadd7fb54611a865be784012059e322221c0356150184dcb60283bdb"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/timrogers/litra-rs/releases/download/v3.3.0/litra_v3.3.0_windows-arm64.exe",
+      "releaseTag": "v3.3.0",
+      "sha256": "8a6942cd6e69856037201ab13ab4b6923ab6b8b2363b4031b43e086bc207db6b",
+      "size": 5902336,
+      "format": "binary",
+      "binaries": {
+        "litra.exe": {
+          "path": "litra_v3.3.0_windows-arm64.exe",
+          "sha256": "8a6942cd6e69856037201ab13ab4b6923ab6b8b2363b4031b43e086bc207db6b"
+        }
+      }
+    }
+  }
+}
