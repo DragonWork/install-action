@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "turbofuro_worker",
+  "version": "0.1.31",
+  "repository": "turbofuro/turbofuro",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/turbofuro/turbofuro/releases/download/0.1.31/turbofuro_worker-x86_64-unknown-linux-gnu-0.1.31.tar.gz",
+      "releaseTag": "0.1.31",
+      "sha256": "d0e5d7e246353f6d761a2276263affb5cb97c72f3058795e44f0372087b12141",
+      "size": 23325212,
+      "format": "tar.gz",
+      "binaries": {
+        "turbofuro_worker": {
+          "path": "turbofuro_worker/turbofuro_worker",
+          "sha256": "783b02f29cbb234c772e9f7c7d7595c27f2ff5b8324fb35f7738928b465a7399"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/turbofuro/turbofuro/releases/download/0.1.31/turbofuro_worker-aarch64-unknown-linux-gnu-0.1.31.tar.gz",
+      "releaseTag": "0.1.31",
+      "sha256": "5467d6a3a1d1dc9e06eedbfb72a66c4ef0aba4223dc31b36cb9d0a416847bd5d",
+      "size": 23645406,
+      "format": "tar.gz",
+      "binaries": {
+        "turbofuro_worker": {
+          "path": "turbofuro_worker/turbofuro_worker",
+          "sha256": "a768fcf2db7d152b602a341649a9f06b454ee5a33554249fd6275686f4e730b2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/turbofuro/turbofuro/releases/download/0.1.31/turbofuro_worker-x86_64-apple-darwin-0.1.31.tar.gz",
+      "releaseTag": "0.1.31",
+      "sha256": "3e645c83c318a9d4c3436a986c2dcdff4eda51321c86c2c4c479361e3a7fb118",
+      "size": 20587156,
+      "format": "tar.gz",
+      "binaries": {
+        "turbofuro_worker": {
+          "path": "turbofuro_worker/turbofuro_worker",
+          "sha256": "8d8d9adc87271fbc03ec5ee2ea82a31082a364829724164d5724ff72f4443315"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/turbofuro/turbofuro/releases/download/0.1.31/turbofuro_worker-aarch64-apple-darwin-0.1.31.tar.gz",
+      "releaseTag": "0.1.31",
+      "sha256": "4696e63c9ec84408a9c35aa17afe2373258040092431d9791f6e24a378e8115d",
+      "size": 19737833,
+      "format": "tar.gz",
+      "binaries": {
+        "turbofuro_worker": {
+          "path": "turbofuro_worker/turbofuro_worker",
+          "sha256": "9739b9406cca2cf2dd3fceee6527931987fcaa7b01ee826f94319ddf285f5afa"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/turbofuro/turbofuro/releases/download/0.1.31/turbofuro_worker-x86_64-pc-windows-msvc-0.1.31.tar.gz",
+      "releaseTag": "0.1.31",
+      "sha256": "846992bfb334a7d5598f14205ee211726d9419f81eeb13d28433e81cdbea8710",
+      "size": 17380631,
+      "format": "tar.gz",
+      "binaries": {
+        "turbofuro_worker.exe": {
+          "path": "turbofuro_worker.exe",
+          "sha256": "78700a3c9bc3a10b720331210f3cd1045f645cd467259864cf96a587e8d166f6"
+        }
+      }
+    }
+  }
+}
