@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "solid-grinder",
+  "version": "1.1.8",
+  "repository": "Ratimon/solid-grinder",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Ratimon/solid-grinder/releases/download/v1.1.8/solid-grinder_v1.1.8_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.8",
+      "sha256": "eea441f9cb8da8e150e91a48bb4fc5247a0924b13b2017807f051e54d938ea9b",
+      "size": 7772160,
+      "format": "tar.gz",
+      "binaries": {
+        "solid-grinder": {
+          "path": "solid-grinder_v1.1.8_x86_64-unknown-linux-musl/solid-grinder",
+          "sha256": "1bfd34195bfc2a4c52351f5dc4b5c272368e4473923fb25c01addea9cc5bf048"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Ratimon/solid-grinder/releases/download/v1.1.8/solid-grinder_v1.1.8_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.8",
+      "sha256": "3b65bd92c93a57a27a08de862fed249e32421510cb1c646915e7c89c3c5ffc8d",
+      "size": 3737600,
+      "format": "tar.gz",
+      "binaries": {
+        "solid-grinder": {
+          "path": "solid-grinder_v1.1.8_x86_64-apple-darwin/solid-grinder",
+          "sha256": "3b2960958f54680880b90ca1341bfb4038da5200a9c023b500fbfd855d06671f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Ratimon/solid-grinder/releases/download/v1.1.8/solid-grinder_v1.1.8_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.8",
+      "sha256": "e3c72f3d562355e0702c05b94c5c7144ed834bf7bdbd8656a8f366cb58d66e89",
+      "size": 3298816,
+      "format": "tar.gz",
+      "binaries": {
+        "solid-grinder": {
+          "path": "solid-grinder_v1.1.8_aarch64-apple-darwin/solid-grinder",
+          "sha256": "42e755c9f30f915465dcd7b07bb8c080b1b673d980c35ef7588067373ee43f80"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Ratimon/solid-grinder/releases/download/v1.1.8/solid-grinder_v1.1.8_x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.1.8",
+      "sha256": "0762038c2a693b2a08ecae08b6f79eb5f7248867f6d252e30ac12dcac120d209",
+      "size": 3005952,
+      "format": "tar.gz",
+      "binaries": {
+        "solid-grinder.exe": {
+          "path": "solid-grinder_v1.1.8_x86_64-pc-windows-msvc/solid-grinder.exe",
+          "sha256": "0b6b7094869937d8d39f8ee8df5c2fee467c69d1300592071843ad1455cd0695"
+        }
+      }
+    }
+  }
+}
