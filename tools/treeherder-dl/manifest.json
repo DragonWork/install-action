@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "treeherder-dl",
+  "version": "3.0.1",
+  "repository": "erichdongubler-mozilla/treeherder-dl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/erichdongubler-mozilla/treeherder-dl/releases/download/v3.0.1/treeherder-dl-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v3.0.1",
+      "sha256": "4b88107a586b3dd7eb27709c2c5dfe57243bcc7e169b58f2f713e87aad96aa86",
+      "size": 2840352,
+      "format": "tar.xz",
+      "binaries": {
+        "treeherder-dl": {
+          "path": "treeherder-dl-x86_64-unknown-linux-gnu/treeherder-dl",
+          "sha256": "a37c2fc2ef0c23eb2b7546a2b18cead6970f128c421530fe4953f0810069fedb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/erichdongubler-mozilla/treeherder-dl/releases/download/v3.0.1/treeherder-dl-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v3.0.1",
+      "sha256": "c73c7c3db9b56df9d391a8d693147e9caf5dddd6220e876a97bd75578f1c93b2",
+      "size": 2466584,
+      "format": "tar.xz",
+      "binaries": {
+        "treeherder-dl": {
+          "path": "treeherder-dl-aarch64-apple-darwin/treeherder-dl",
+          "sha256": "df28090bd54e24dfaf1b14810a55930852ffed6b5aa73f44cabfc5c9137b3b12"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/erichdongubler-mozilla/treeherder-dl/releases/download/v3.0.1/treeherder-dl-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.0.1",
+      "sha256": "b9adb1b12b1696c300b6cc5aa4b82ee153ede0a87b1011429be3d56db26349ac",
+      "size": 3501593,
+      "format": "zip",
+      "binaries": {
+        "treeherder-dl.exe": {
+          "path": "treeherder-dl.exe",
+          "sha256": "8a7f915944e4a1407ca661558872432c92b2e87a8c26a51695cf4a93143b4dab"
+        }
+      }
+    }
+  }
+}
