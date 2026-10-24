@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "remote-hal",
+  "version": "0.5.4",
+  "repository": "ryankurte/rust-remote-hal",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ryankurte/rust-remote-hal/releases/download/0.5.4/remote-hal-x86_64-unknown-linux-gnu-0.5.4.tgz",
+      "releaseTag": "0.5.4",
+      "sha256": "f6f0574b3a3261b3556d6986604feb413e06c28cd983f8fafac974bae88aea24",
+      "size": 7628800,
+      "format": "tar.gz",
+      "binaries": {
+        "rhd": {
+          "path": "rhd",
+          "sha256": "ac202648326606149a8637b8f993defd5597392f0372508f058ae819d1e5a6de"
+        },
+        "rhc": {
+          "path": "rhc",
+          "sha256": "dae824006e10e0b9b512f1050826bbc96cd721f2ef156a08bef0756a2abb9c67"
+        }
+      }
+    }
+  }
+}
