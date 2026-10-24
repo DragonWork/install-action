@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pigment64",
+  "version": "0.6.3",
+  "repository": "decompals/pigment64",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/decompals/pigment64/releases/download/0.6.3/pigment64-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.3",
+      "sha256": "0e517fc339d9eb7ad224b39d84d7b10838a0606966c6ac1647537f426d336a85",
+      "size": 656901,
+      "format": "tar.gz",
+      "binaries": {
+        "pigment64": {
+          "path": "pigment64",
+          "sha256": "5095deca81ae500a2dc673e01c2cf8cb9250d97611ab6a7881dce2c5f812ba76"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/decompals/pigment64/releases/download/0.6.3/pigment64-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.3",
+      "sha256": "e31431860daf0bffc6e92b64cfd19a4939189404da8cc8a3ef68ca9ef002c817",
+      "size": 581270,
+      "format": "tar.gz",
+      "binaries": {
+        "pigment64": {
+          "path": "pigment64",
+          "sha256": "799d67a19ce56860a363a739a04008410e372f56bfee5a1e94494705464001e7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/decompals/pigment64/releases/download/0.6.3/pigment64-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.3",
+      "sha256": "b848a38be03958f4eeff71fb81ebf17472d76a17f1089b9734242688acb42a5c",
+      "size": 553203,
+      "format": "tar.gz",
+      "binaries": {
+        "pigment64": {
+          "path": "pigment64",
+          "sha256": "36a5c4c80d815449d18ddc14d9d23ab1f6ee052ada62d9e7f9298c6cf7180864"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/decompals/pigment64/releases/download/0.6.3/pigment64-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.6.3",
+      "sha256": "8feb7c611ffc531d67afc57aac65faa13a8fb143a903c643a970e091e1234bfc",
+      "size": 431832,
+      "format": "tar.gz",
+      "binaries": {
+        "pigment64.exe": {
+          "path": "pigment64.exe",
+          "sha256": "0a7b85c6867d361c66690e871f475b074823ce9212e86d630f580d17eb4e5264"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/decompals/pigment64/releases/download/0.6.3/pigment64-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.6.3",
+      "sha256": "26dda627926d335bcb2de551f12bf2f8a4251c28d6e00c2e674b8daaa0031e86",
+      "size": 410730,
+      "format": "tar.gz",
+      "binaries": {
+        "pigment64.exe": {
+          "path": "pigment64.exe",
+          "sha256": "dd50e537eee6350fdeecee37d2756cd4b3a3f60ec005c2474b1b3a63af0645fd"
+        }
+      }
+    }
+  }
+}
