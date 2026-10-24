@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cc2p",
+  "version": "0.7.0",
+  "repository": "rayyildiz/cc2p",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rayyildiz/cc2p/releases/download/v0.7.0/cc2p-v0.7.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "93dd5a27b7849d25105d78ac23e0a5e4ffa110889fbec26b5d9eccff81517511",
+      "size": 2917789,
+      "format": "tar.gz",
+      "binaries": {
+        "cc2p": {
+          "path": "cc2p-v0.7.0-x86_64-unknown-linux-musl/cc2p",
+          "sha256": "a06ffe2e183cc1fb7d4090e2cdbdacfa013e1ffc5aa96e0e1d71ba55ed347b2a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rayyildiz/cc2p/releases/download/v0.7.0/cc2p-v0.7.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "7ed8efe6efd16c28e18212f686a682a79a3c5e5bcdb1d06c111fbc750743f157",
+      "size": 2736577,
+      "format": "tar.gz",
+      "binaries": {
+        "cc2p": {
+          "path": "cc2p-v0.7.0-x86_64-apple-darwin/cc2p",
+          "sha256": "3a714e91489dcd17b516add19306ab5636645e05d4e1aaf0a17f677895ab8c88"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rayyildiz/cc2p/releases/download/v0.7.0/cc2p-v0.7.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "706bfbcc1e1376508e7090c117181ff2dcfc011c8f3a12e44c720c8610b888fd",
+      "size": 2378081,
+      "format": "tar.gz",
+      "binaries": {
+        "cc2p": {
+          "path": "cc2p-v0.7.0-aarch64-apple-darwin/cc2p",
+          "sha256": "ab618cf422b7c8831ae4f144488e14cef9f01d13a42375e91b4f64e4afa9bc4a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rayyildiz/cc2p/releases/download/v0.7.0/cc2p-v0.7.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "baaa90a1d8962433c7fe3181c1bf535c6739adebf97d4101f9076030999f4f36",
+      "size": 2456157,
+      "format": "zip",
+      "binaries": {
+        "cc2p.exe": {
+          "path": "cc2p-v0.7.0-x86_64-pc-windows-msvc/cc2p.exe",
+          "sha256": "8b391ae00723fe286046e1b4a30c38d549ce8a18782fc9efee2c52f95fbe0d0b"
+        }
+      }
+    }
+  }
+}
