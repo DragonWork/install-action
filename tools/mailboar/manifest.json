@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mailboar",
+  "version": "0.4.4",
+  "repository": "aeyoll/mailboar",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aeyoll/mailboar/releases/download/v0.4.4/mailboar-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.4",
+      "sha256": "e74233e4ff0850b1dc0a5c449802332f8414a8ff5d784fdc5698e7ef2fa92a5b",
+      "size": 3862587,
+      "format": "tar.gz",
+      "binaries": {
+        "mailboar": {
+          "path": "mailboar",
+          "sha256": "1b894b098b8137dfd9134a4339a55e97257ba4167365f5cf952bf477fbca7af7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/aeyoll/mailboar/releases/download/v0.4.4/mailboar-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.4",
+      "sha256": "c40e5e7bfdfd095d44d647622a4c260d9f0bf9d7edc44b9570fc25ce27e0b94a",
+      "size": 4135185,
+      "format": "tar.gz",
+      "binaries": {
+        "mailboar": {
+          "path": "mailboar",
+          "sha256": "3b5ac23135565806e6c8c065ba38748e30ef687781a34a43f6fc7edf94b53e38"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aeyoll/mailboar/releases/download/v0.4.4/mailboar-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.4",
+      "sha256": "90f64c421b98839419cedf8e58ecff2e1ad4d44ce7f7973fe31574d0e8bdbea3",
+      "size": 1714371,
+      "format": "tar.gz",
+      "binaries": {
+        "mailboar": {
+          "path": "mailboar",
+          "sha256": "56bc46cddb17245088f231eea910e11e3c1d2bd61bc6ebc6384ed8b1d178f9e0"
+        }
+      }
+    }
+  }
+}
