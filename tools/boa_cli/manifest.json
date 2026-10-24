@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "boa_cli",
+  "version": "0.22.0",
+  "repository": "boa-dev/boa",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/boa-dev/boa/releases/download/v0.22/boa-x86_64-unknown-linux-gnu",
+      "sha256": "d3484a63c9ee5f025de11379d055285a0bc015cf6d1d45b895e0d0f93566d671",
+      "size": 33804544,
+      "format": "binary",
+      "releaseTag": "v0.22",
+      "binaries": {
+        "boa": {
+          "path": "boa-x86_64-unknown-linux-gnu",
+          "sha256": "d3484a63c9ee5f025de11379d055285a0bc015cf6d1d45b895e0d0f93566d671"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/boa-dev/boa/releases/download/v0.22/boa-aarch64-apple-darwin",
+      "sha256": "cececbfbba195f0f721fe2bc4a46181fda5519a16d274e3b584de9307f23167b",
+      "size": 29962720,
+      "format": "binary",
+      "releaseTag": "v0.22",
+      "binaries": {
+        "boa": {
+          "path": "boa-aarch64-apple-darwin",
+          "sha256": "cececbfbba195f0f721fe2bc4a46181fda5519a16d274e3b584de9307f23167b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/boa-dev/boa/releases/download/v0.22/boa-x86_64-pc-windows-msvc.exe",
+      "sha256": "aa2ad32bc334827a7d956a52b261e185323863ac7f4093c62af27378a7b79c79",
+      "size": 35119616,
+      "format": "binary",
+      "releaseTag": "v0.22",
+      "binaries": {
+        "boa.exe": {
+          "path": "boa-x86_64-pc-windows-msvc.exe",
+          "sha256": "aa2ad32bc334827a7d956a52b261e185323863ac7f4093c62af27378a7b79c79"
+        }
+      }
+    }
+  }
+}
