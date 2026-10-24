@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mdbook-template",
+  "version": "1.1.0",
+  "repository": "sgoudham/mdbook-template",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sgoudham/mdbook-template/releases/download/v1.1.0/mdbook-template-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "976874809b41f08c78c395d756a4ddf32ddb417b8f0f5ca874430c4b8f5637d9",
+      "size": 2003534,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-template": {
+          "path": "mdbook-template",
+          "sha256": "b918677abcd89ad53274d5e974c1f2581d1e2aacff9bb83c42f839bb27619366"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sgoudham/mdbook-template/releases/download/v1.1.0/mdbook-template-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "e8c023031a9b00a54a953547b58033064b4a48561690c612188f0ce4f81a8756",
+      "size": 1057313,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-template": {
+          "path": "mdbook-template",
+          "sha256": "2fb56beecabc0f2a2d352bb568253625cc9495e0ba0280f2832f131286082e53"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sgoudham/mdbook-template/releases/download/v1.1.0/mdbook-template-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.0",
+      "sha256": "df5feadf30ad181f461a971a1f577483bd2770b981612e7e6b011f284012356b",
+      "size": 821759,
+      "format": "zip",
+      "binaries": {
+        "mdbook-template.exe": {
+          "path": "mdbook-template.exe",
+          "sha256": "9254d2dbfb41fddccd20102555a5ef54f9c677e35a8ffe4920315d90a0d22306"
+        }
+      }
+    }
+  }
+}
