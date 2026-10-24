@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "ukebox",
+  "version": "0.9.2",
+  "repository": "noeddl/ukebox",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/noeddl/ukebox/releases/download/v0.9.2/ukebox-v0.9.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.2",
+      "sha256": "a6732c76b2a7e645f598ac7961ed858862e2f6196085ccee1536cbc7fb5aef15",
+      "size": 500966,
+      "format": "tar.gz",
+      "binaries": {
+        "ukebox": {
+          "path": "ukebox",
+          "sha256": "20023596057f8f00b3ed53cf762dfa8ca1f4cc57bb49e80b9ded8f71ff29e751"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/noeddl/ukebox/releases/download/v0.9.2/ukebox-v0.9.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.2",
+      "sha256": "1a30656f7b2ec27852ec52ec3e6b38f6ec3d8965658d999447555cd5456aee87",
+      "size": 421617,
+      "format": "tar.gz",
+      "binaries": {
+        "ukebox": {
+          "path": "ukebox",
+          "sha256": "ee2500ceee2d587235e60ab3b378c9e0652c9df12e7fb59bd4a39d28832d06a9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/noeddl/ukebox/releases/download/v0.9.2/ukebox-v0.9.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.2",
+      "sha256": "ef8e2b2594ce21236bab37331588c4eec23b6a16c288962b07f8180e32713e33",
+      "size": 343796,
+      "format": "zip",
+      "binaries": {
+        "ukebox.exe": {
+          "path": "ukebox.exe",
+          "sha256": "de8a5dd9853741ea5fa461994bea03d9a6cf3004bfe202cc398a627911a4038a"
+        }
+      }
+    }
+  }
+}
