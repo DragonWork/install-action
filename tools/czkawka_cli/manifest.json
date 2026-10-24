@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "czkawka_cli",
+  "version": "12.0.2",
+  "repository": "qarmin/czkawka",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/qarmin/czkawka/releases/download/12.0.2/linux_krokiet_x86_64",
+      "sha256": "070a32c7e43c58ce00db6b288ab7a8284ba767e83cfd02ab1366f0c80f49ed0f",
+      "size": 63103488,
+      "format": "binary",
+      "releaseTag": "12.0.2",
+      "binaries": {
+        "czkawka_cli": {
+          "path": "linux_krokiet_x86_64",
+          "sha256": "070a32c7e43c58ce00db6b288ab7a8284ba767e83cfd02ab1366f0c80f49ed0f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/qarmin/czkawka/releases/download/12.0.2/linux_krokiet_arm64",
+      "sha256": "f45b7fb03d708f29392115b970a05413dd5f518f9778984ff2a0bec8ccac73b3",
+      "size": 57251544,
+      "format": "binary",
+      "releaseTag": "12.0.2",
+      "binaries": {
+        "czkawka_cli": {
+          "path": "linux_krokiet_arm64",
+          "sha256": "f45b7fb03d708f29392115b970a05413dd5f518f9778984ff2a0bec8ccac73b3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/qarmin/czkawka/releases/download/12.0.2/windows_czkawka_gui_gtk_412.zip",
+      "sha256": "de7e8a01cf16caf742a2da350f5c9a49477cdc75a63d05d0ea18fd1c50737285",
+      "size": 88805585,
+      "format": "zip",
+      "releaseTag": "12.0.2",
+      "binaries": {
+        "czkawka_cli.exe": {
+          "path": "czkawka_cli.exe",
+          "sha256": "eb7c2009d2dd49cf5202acbd65370caece0a3f819b9515e727cedb1ec088ed1a"
+        }
+      }
+    }
+  }
+}
