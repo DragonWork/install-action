@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "slumber",
+  "version": "5.4.3",
+  "repository": "LucasPickering/slumber",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v5.4.3",
+      "sha256": "4e117a39f4dd1920fcd6a29e0f23462144cfce89db7e65d1e2c0480ed961039e",
+      "size": 7493300,
+      "format": "tar.xz",
+      "binaries": {
+        "slumber": {
+          "path": "slumber-x86_64-unknown-linux-musl/slumber",
+          "sha256": "8a54cbffef658a55c7e95a3459d9c61e6d1e8e90fbf5418e58c23c044d320beb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v5.4.3",
+      "sha256": "fbcf11fe2e7fa00b16d183c160bbb91525ffe883058d1c4e4adba82417f2d291",
+      "size": 6758292,
+      "format": "tar.xz",
+      "binaries": {
+        "slumber": {
+          "path": "slumber-aarch64-unknown-linux-musl/slumber",
+          "sha256": "f1495d10b2f7ce584c7ed16f45a2690932312d9a68cd496f15752a3a9e1ebb3c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v5.4.3",
+      "sha256": "0203c1fa898d55e9735ce3fb9d8e0ccd6b3c69717f247a1d2f6f7cb02cb85356",
+      "size": 6892800,
+      "format": "tar.xz",
+      "binaries": {
+        "slumber": {
+          "path": "slumber-x86_64-apple-darwin/slumber",
+          "sha256": "5cc45acc10e1b412e71ed0a749cd0eb372145b8f0ae181d5b10d98deb45e4293"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v5.4.3",
+      "sha256": "fbbbc2fb9fab5d83937bd8b8bc7f90b844cff064a75e5181ec3b7eb7476af2ec",
+      "size": 6267468,
+      "format": "tar.xz",
+      "binaries": {
+        "slumber": {
+          "path": "slumber-aarch64-apple-darwin/slumber",
+          "sha256": "5420918842c970912aea21650cca0cbf6750d4ad84c73ef88d6a70663c86345f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v5.4.3",
+      "sha256": "b413981b1f0009b6bc0548a7e23b3cdfa1c9f7bb1d0104b3c9bdddafc19a4fdc",
+      "size": 10450149,
+      "format": "zip",
+      "binaries": {
+        "slumber.exe": {
+          "path": "slumber.exe",
+          "sha256": "8a41f1d75e208287c55dec366d7908e5cf97f00422b4bc8ee28ffa69149dfb96"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v5.4.3",
+      "sha256": "0cf552ed3de94fea48f8751e454dcc76c22914f6445c08fe48a83137ec675e76",
+      "size": 9516919,
+      "format": "zip",
+      "binaries": {
+        "slumber.exe": {
+          "path": "slumber.exe",
+          "sha256": "082e6b09dfb5a8949e594b0f6d1ac039e7d2891baf15e5860c76ba86c8634f4f"
+        }
+      }
+    }
+  }
+}
