@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "xsv",
+  "version": "0.13.0",
+  "repository": "BurntSushi/xsv",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/BurntSushi/xsv/releases/download/0.13.0/xsv-0.13.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "d36b1be0f008d6597c2437e764fbe720eb7557f8980e0b03ca709e1020b5c52b",
+      "size": 7161869,
+      "format": "tar.gz",
+      "binaries": {
+        "xsv": {
+          "path": "xsv",
+          "sha256": "271e798160472830d7151673383afaba4c37209673f5157cf37e8f5e308f1cac"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/BurntSushi/xsv/releases/download/0.13.0/xsv-0.13.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "cbc1aa5f078ee3435ecb997e93afe6e3a03c5852393553cd2801000397cc269d",
+      "size": 1176952,
+      "format": "tar.gz",
+      "binaries": {
+        "xsv": {
+          "path": "xsv",
+          "sha256": "6deb40e8bf64eaa446e6ffe03bad746ee1e65cbe28ca37d935b2a5b02606f5a9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/BurntSushi/xsv/releases/download/0.13.0/xsv-0.13.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.13.0",
+      "sha256": "3e319c08456031a9683c19c998ac9f61756a2e456413db17c8e6819b17818a1a",
+      "size": 792499,
+      "format": "zip",
+      "binaries": {
+        "xsv.exe": {
+          "path": "xsv.exe",
+          "sha256": "b72ec6f4389e4e7ba6d2bbf02c54c9e417a4053c256fecef53857a169a1443ab"
+        }
+      }
+    }
+  }
+}
