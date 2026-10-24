@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "octofhir-fhirpath",
+  "version": "0.4.21",
+  "repository": "octofhir/fhirpath-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/octofhir/fhirpath-rs/releases/download/v0.4.21/octofhir-fhirpath-linux-x64",
+      "sha256": "8a0fd8b33f43411939ac01e1eca610d75b2bdb44fe11902b5305099b4a4b9b21",
+      "size": 20110560,
+      "format": "binary",
+      "releaseTag": "v0.4.21",
+      "binaries": {
+        "octofhir-fhirpath": {
+          "path": "octofhir-fhirpath-linux-x64",
+          "sha256": "8a0fd8b33f43411939ac01e1eca610d75b2bdb44fe11902b5305099b4a4b9b21"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/octofhir/fhirpath-rs/releases/download/v0.4.21/octofhir-fhirpath-macos-x64",
+      "sha256": "17a8df6c7410f4c3742e3a2ae3e1496d5d52d81df9f9ff0bf47916866a307dcc",
+      "size": 17953188,
+      "format": "binary",
+      "releaseTag": "v0.4.21",
+      "binaries": {
+        "octofhir-fhirpath": {
+          "path": "octofhir-fhirpath-macos-x64",
+          "sha256": "17a8df6c7410f4c3742e3a2ae3e1496d5d52d81df9f9ff0bf47916866a307dcc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/octofhir/fhirpath-rs/releases/download/v0.4.21/octofhir-fhirpath-macos-arm64",
+      "sha256": "2f5f450635de285d8a00cb07fea16fcb7be5cad1087e5586572bd45b14a8bb7a",
+      "size": 17195600,
+      "format": "binary",
+      "releaseTag": "v0.4.21",
+      "binaries": {
+        "octofhir-fhirpath": {
+          "path": "octofhir-fhirpath-macos-arm64",
+          "sha256": "2f5f450635de285d8a00cb07fea16fcb7be5cad1087e5586572bd45b14a8bb7a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/octofhir/fhirpath-rs/releases/download/v0.4.21/octofhir-fhirpath-windows-x64.exe",
+      "sha256": "e32a2ee5c6ce9cf0b23e493b979532c9b72b20a38918880917ae42ba5b10668d",
+      "size": 14650368,
+      "format": "binary",
+      "releaseTag": "v0.4.21",
+      "binaries": {
+        "octofhir-fhirpath.exe": {
+          "path": "octofhir-fhirpath-windows-x64.exe",
+          "sha256": "e32a2ee5c6ce9cf0b23e493b979532c9b72b20a38918880917ae42ba5b10668d"
+        }
+      }
+    }
+  }
+}
