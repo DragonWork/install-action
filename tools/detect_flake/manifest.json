@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "detect_flake",
+  "version": "0.6.0",
+  "repository": "aqrln/detect_flake",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aqrln/detect_flake/releases/download/v0.6.0/detect_flake-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "b5393181ef4149c3dbf485ac2d4b306ac1ca86e911e6b04681dc2b4ad79efcf4",
+      "size": 1274123,
+      "format": "tar.gz",
+      "binaries": {
+        "detect_flake": {
+          "path": "detect_flake-x86_64-unknown-linux-musl/detect_flake",
+          "sha256": "5c22b9d5ee30a86dfb8c4ca25b9d1b1a19dd3770c7233fe86db478bda378ba82"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/aqrln/detect_flake/releases/download/v0.6.0/detect_flake-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "2238a453a7d05c8ac0e55e5e034be6aaa9353202a0ddf2325819f753a97d570b",
+      "size": 1292194,
+      "format": "tar.gz",
+      "binaries": {
+        "detect_flake": {
+          "path": "detect_flake-aarch64-unknown-linux-musl/detect_flake",
+          "sha256": "79fc4dbeff7dec948d592304e429c3795a97a378e9e21599b301e4c6071e39ed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aqrln/detect_flake/releases/download/v0.6.0/detect_flake-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "e5f08756926701e04b992d5078aa44558bec8083ad1a30b24bedd59ad23b5142",
+      "size": 575285,
+      "format": "tar.gz",
+      "binaries": {
+        "detect_flake": {
+          "path": "detect_flake-x86_64-apple-darwin/detect_flake",
+          "sha256": "ca891cb189b11a4d88bb831e830321460f4cd51e691759460e66a824ed5ba4a8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aqrln/detect_flake/releases/download/v0.6.0/detect_flake-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "fa256c421802c29a2b369ebd2463ba456884a4632bc569c8a997467b23d75ef9",
+      "size": 561797,
+      "format": "tar.gz",
+      "binaries": {
+        "detect_flake": {
+          "path": "detect_flake-aarch64-apple-darwin/detect_flake",
+          "sha256": "b81114eb0ce30603dc90414721a1178811f92aeb8b523ec923e55858d0a3d993"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aqrln/detect_flake/releases/download/v0.6.0/detect_flake-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "cc668b4541c27511ee640d1b9ab4931d316a4b3161900e106318d8927b0ca025",
+      "size": 519947,
+      "format": "tar.gz",
+      "binaries": {
+        "detect_flake.exe": {
+          "path": "detect_flake-x86_64-pc-windows-msvc/detect_flake.exe",
+          "sha256": "96f5bfc290a7dd9d81faa1c9f74ff13f928af62b9b2cb608f6e342792edb4b63"
+        }
+      }
+    }
+  }
+}
