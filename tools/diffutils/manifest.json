@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "diffutils",
+  "version": "0.5.0",
+  "repository": "uutils/diffutils",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/uutils/diffutils/releases/download/v0.5.0/diffutils-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "322e59ab837ecaf838c4511091615b01bf289030699133e45fa5843e53dfc32b",
+      "size": 674132,
+      "format": "tar.xz",
+      "binaries": {
+        "diffutils": {
+          "path": "diffutils-x86_64-unknown-linux-gnu/diffutils",
+          "sha256": "a8ddf81f050bd674e50a7746ca09b7a183b546b3ac8b951180d48fe442b99d7c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/uutils/diffutils/releases/download/v0.5.0/diffutils-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "d6249274d4e1569b37c6b1d7f68418824d99cacde31a55c72ddd65d3f8fd355c",
+      "size": 591948,
+      "format": "tar.xz",
+      "binaries": {
+        "diffutils": {
+          "path": "diffutils-aarch64-unknown-linux-gnu/diffutils",
+          "sha256": "ac19a3af6c53c6451868d2e1c0b8c69c6e88dbdf04beeed8cfb0d3b4e0652dea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/uutils/diffutils/releases/download/v0.5.0/diffutils-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "fc11327f89f624a254b9c1828aedc5c35c472450915280497c8f627f3561f370",
+      "size": 635048,
+      "format": "tar.xz",
+      "binaries": {
+        "diffutils": {
+          "path": "diffutils-x86_64-apple-darwin/diffutils",
+          "sha256": "c9c4feb746c3c507d47f8170f0e9c84798dc3459414b2cf95486d2a0d6ceec64"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/uutils/diffutils/releases/download/v0.5.0/diffutils-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "0c164e83d59fbbc23b93003d446ff7de228b8f81c64f08b1ef1f5ad1cee1b347",
+      "size": 552208,
+      "format": "tar.xz",
+      "binaries": {
+        "diffutils": {
+          "path": "diffutils-aarch64-apple-darwin/diffutils",
+          "sha256": "f555e428ea1e627c532f4be68e312cb9b3d04951458c94ad479a1ca651b6b32d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/uutils/diffutils/releases/download/v0.5.0/diffutils-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "36c900a06060ee31621fcdecb9bf223b40dd23d45e91ba98101b5d3aa5c70d18",
+      "size": 808441,
+      "format": "zip",
+      "binaries": {
+        "diffutils.exe": {
+          "path": "diffutils.exe",
+          "sha256": "347a548604ef704f8f356b5c844aed6794c79b9c33ac8a2441b0ca8cb37b961d"
+        }
+      }
+    }
+  }
+}
