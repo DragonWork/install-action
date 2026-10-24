@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pipeview",
+  "version": "0.3.0",
+  "repository": "mihaigalos/pipeview",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mihaigalos/pipeview/releases/download/0.3.0/pipeview-0.3.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.3.0",
+      "sha256": "56d8d735322ea27cc96c3444066d2bbdee831a5f02e0eecda3490914fb9211c3",
+      "size": 1415505,
+      "format": "tar.gz",
+      "binaries": {
+        "pipeview": {
+          "path": "pipeview",
+          "sha256": "d2fc0afd32f3f2b006b143850de0a4de57faf9b00b88071a552332cfc400e315"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mihaigalos/pipeview/releases/download/0.3.0/pipeview-0.3.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.3.0",
+      "sha256": "eea1d1e6a4c4e76bf7398854e1f9ecb9ed41a3e47efbaec37c660564e42b22da",
+      "size": 1241961,
+      "format": "tar.gz",
+      "binaries": {
+        "pipeview": {
+          "path": "pipeview",
+          "sha256": "d79c38dc6a20e879b5b803c9538e49be6f67ba9e98a0cb4d93d43cbf9697713b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mihaigalos/pipeview/releases/download/0.3.0/pipeview-0.3.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.3.0",
+      "sha256": "ea198ccf5cbdd219366eff239004503ca1e9876cced5d0bea55fcaa905152763",
+      "size": 1247995,
+      "format": "tar.gz",
+      "binaries": {
+        "pipeview": {
+          "path": "pipeview",
+          "sha256": "4b642fd9a403e52e8cac9a88996e7203e8f2933594cbca76d26b19060463e3b4"
+        }
+      }
+    }
+  }
+}
