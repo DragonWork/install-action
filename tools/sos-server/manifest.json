@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "sos-server",
+  "version": "0.18.0",
+  "repository": "saveoursecrets/sdk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/saveoursecrets/sdk/releases/download/v0.18.0/stable-cli-0.18.0-linux-x86_64-saveoursecrets.zip",
+      "releaseTag": "v0.18.0",
+      "sha256": "357957267fdd2585ae5ba4ec9c41d441219406a4946cb93015cccdf3e7237a2a",
+      "size": 11601333,
+      "format": "zip",
+      "binaries": {
+        "sos-server": {
+          "path": "sos-server",
+          "sha256": "8461c3d5e3e679b85ba5d8efe42a905e68df21534953a4dd7571b5fd0c74a833"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/saveoursecrets/sdk/releases/download/v0.18.0/stable-cli-0.18.0-linux-aarch64-saveoursecrets.zip",
+      "releaseTag": "v0.18.0",
+      "sha256": "ac54bca38fff2a62a63d2a85c87cc43ba28169a8477f00f2e842895589a961a9",
+      "size": 11504033,
+      "format": "zip",
+      "binaries": {
+        "sos-server": {
+          "path": "sos-server",
+          "sha256": "ec293c5365167f747012c34524898e02bd67909e599972163200815d4deafb33"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/saveoursecrets/sdk/releases/download/v0.18.0/stable-cli-0.18.0-macos-x86_64-saveoursecrets.zip",
+      "releaseTag": "v0.18.0",
+      "sha256": "995534076ec0b309f556e745cf41df99cd231db1018bdca7866435e9caaa0dfa",
+      "size": 10956538,
+      "format": "zip",
+      "binaries": {
+        "sos-server": {
+          "path": "sos-server",
+          "sha256": "8875cfbee122b46274459a8ab453b1a260738486f4f3fd27d715de7e1a3f844e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/saveoursecrets/sdk/releases/download/v0.18.0/stable-cli-0.18.0-macos-aarch64-saveoursecrets.zip",
+      "releaseTag": "v0.18.0",
+      "sha256": "8e49965b5f6fd1f9b0b8ad14c1439416c52c3aa58cbe443df043071462727f0b",
+      "size": 10553153,
+      "format": "zip",
+      "binaries": {
+        "sos-server": {
+          "path": "sos-server",
+          "sha256": "2c9a83bdadcb37b675a953e8f7e7b5e09f1ee5ab47e4058afedc3f787b535916"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/saveoursecrets/sdk/releases/download/v0.18.0/stable-cli-0.18.0-windows-x86_64-saveoursecrets.zip",
+      "releaseTag": "v0.18.0",
+      "sha256": "af16afc1672304cef6f4b4911e45c1cf0c495d546de8d2e8cb0ea29aefca4a1b",
+      "size": 11533309,
+      "format": "zip",
+      "binaries": {
+        "sos-server.exe": {
+          "path": "sos-server.exe",
+          "sha256": "f60f405e8acb82205510d76bb8f990fddb56e0923176299c398bcfd894a9e5a8"
+        }
+      }
+    }
+  }
+}
