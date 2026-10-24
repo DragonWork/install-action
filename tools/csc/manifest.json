@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "csc",
+  "version": "0.1.9",
+  "repository": "zahash/csc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zahash/csc/releases/download/v0.1.9/csc-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "de8e27dc845dfdf636fe9b335feb03010f9d6532e2db013976d159d55d2f15eb",
+      "size": 1153736,
+      "format": "tar.xz",
+      "binaries": {
+        "csc": {
+          "path": "csc-x86_64-unknown-linux-gnu/csc",
+          "sha256": "18370c484cc46eada276d2a029e5657d74ac1ad7e14d4cef61c6be2fcbfb571b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zahash/csc/releases/download/v0.1.9/csc-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "cdb95b24b74ffcbdfcddce449e2d80b682f9b746075807c98b136c2e2d134396",
+      "size": 754168,
+      "format": "tar.xz",
+      "binaries": {
+        "csc": {
+          "path": "csc-x86_64-apple-darwin/csc",
+          "sha256": "840f28d6c325d5d4ee6f93a22b9efff77c5621f7f56bdb70ca5376920cddeeff"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zahash/csc/releases/download/v0.1.9/csc-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "db16040568848f55e428668a6c9e370877c8724bb98e1e98d7070322a19a0085",
+      "size": 679104,
+      "format": "tar.xz",
+      "binaries": {
+        "csc": {
+          "path": "csc-aarch64-apple-darwin/csc",
+          "sha256": "a43c656429496ca2561dc493e2408dfa7cbaca5c8f295bb957bae796cdf01f2d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/zahash/csc/releases/download/v0.1.9/csc-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.9",
+      "sha256": "7716394d0173b7cbba5dd1ab12ba2e286145dc2189b293bec31aece872f196a0",
+      "size": 2483156,
+      "format": "zip",
+      "binaries": {
+        "csc.exe": {
+          "path": "csc.exe",
+          "sha256": "aed23acd3ba8e5078cf15d4b94fb903e2f07895af800177cdf6983aa5392ee85"
+        }
+      }
+    }
+  }
+}
