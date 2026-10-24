@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "maestro",
+  "version": "0.2.3",
+  "repository": "eighty4/maestro",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/eighty4/maestro/releases/download/maestro-v0.2.3/maestro-windows-x86_64.exe",
+      "releaseTag": "maestro-v0.2.3",
+      "sha256": "2251126416e3054d7527c8a6480749781be32a15b80904f77d561acc99f5e776",
+      "size": 2693120,
+      "format": "binary",
+      "binaries": {
+        "maestro.exe": {
+          "path": "maestro-windows-x86_64.exe",
+          "sha256": "2251126416e3054d7527c8a6480749781be32a15b80904f77d561acc99f5e776"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/eighty4/maestro/releases/download/maestro-v0.2.3/maestro-windows-aarch64.exe",
+      "releaseTag": "maestro-v0.2.3",
+      "sha256": "7a68f48758d536752d1be7ee124c27a66375ea8d111c44169f3a5eac58b03d62",
+      "size": 2527744,
+      "format": "binary",
+      "binaries": {
+        "maestro.exe": {
+          "path": "maestro-windows-aarch64.exe",
+          "sha256": "7a68f48758d536752d1be7ee124c27a66375ea8d111c44169f3a5eac58b03d62"
+        }
+      }
+    }
+  }
+}
