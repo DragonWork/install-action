@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "igrep",
+  "version": "1.2.0",
+  "repository": "konradsz/igrep",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/konradsz/igrep/releases/download/v1.2.0/igrep-v1.2.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.2.0",
+      "sha256": "0d412250678160e340f9cb49de9228a71606383b943a7ce0150b21900b1654c9",
+      "size": 3789876,
+      "format": "tar.gz",
+      "binaries": {
+        "ig": {
+          "path": "ig",
+          "sha256": "77208a5982761f54d412f2a1744183a67bc7be286658f27bd8d7bc25ee991dfc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/konradsz/igrep/releases/download/v1.2.0/igrep-v1.2.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.0",
+      "sha256": "f987d7659654b45d84989dd6cf8a491aaba70369b0caf4d5cb8fd88294885ed0",
+      "size": 2644686,
+      "format": "tar.gz",
+      "binaries": {
+        "ig": {
+          "path": "ig",
+          "sha256": "a8cbca27e47df8d442be9085b1fb6d6759b598d4823585fc455adc34b001761a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/konradsz/igrep/releases/download/v1.2.0/igrep-v1.2.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.0",
+      "sha256": "d015aaebf6dba5099d8960f911ad3be06e23a4e7bfe1d9c9be198d4da8bce184",
+      "size": 2581935,
+      "format": "tar.gz",
+      "binaries": {
+        "ig": {
+          "path": "ig",
+          "sha256": "f1fe4f7226ad0040c8865d1b9b46b382687968916b0e272dd0887356ff71ce92"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/konradsz/igrep/releases/download/v1.2.0/igrep-v1.2.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "f58559e76d966177c1592446202f2d320cb5855d8eb16c978a7eedbb91ba8ae2",
+      "size": 2212756,
+      "format": "zip",
+      "binaries": {
+        "ig.exe": {
+          "path": "ig.exe",
+          "sha256": "e725ae5491561f65e1ee2af5e0112ea83c7d38109daff3fb1acceaba41e338e3"
+        }
+      }
+    }
+  }
+}
