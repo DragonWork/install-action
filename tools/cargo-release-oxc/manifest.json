@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-release-oxc",
+  "version": "0.0.44",
+  "repository": "oxc-project/cargo-release-oxc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.44/cargo-release-oxc-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.44",
+      "sha256": "43bd9ac713243cf0ee8a9129650c927adc209111d69300d5fbca25d165c53869",
+      "size": 5617398,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-release-oxc": {
+          "path": "cargo-release-oxc",
+          "sha256": "b14d0ea82bc12269de5c0fe959ece454a05e595cc38751534f6b933e290d5793"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.44/cargo-release-oxc-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.44",
+      "sha256": "175bdd97fd4b5b10039e776d2b90fb33a45bb84ce02076113b2d4cec7272a4e7",
+      "size": 5281806,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-release-oxc": {
+          "path": "cargo-release-oxc",
+          "sha256": "b5ec4f224050a1c4a96b4e3835561fa143606a8856b0e057737c4fdb938ad0b4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.44/cargo-release-oxc-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.44",
+      "sha256": "4b9b2dee8ca3e0f91ee1a5c37d9b611b98cf7ce567595780590441c929afb419",
+      "size": 4920407,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-release-oxc": {
+          "path": "cargo-release-oxc",
+          "sha256": "adb638626345df5a834ebb8e00e8a855f96253c85fd4d88c3f419428b617de7e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.44/cargo-release-oxc-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.44",
+      "sha256": "4b5570709279c52fe75f61b03f9fbafe7bc9b43dd68f3d2e6f2160566edd69e3",
+      "size": 4657388,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-release-oxc": {
+          "path": "cargo-release-oxc",
+          "sha256": "d28d152ce9fa260064cfa094a76784fc9c567ce9d8120c588c38332b873d943b"
+        }
+      }
+    }
+  }
+}
