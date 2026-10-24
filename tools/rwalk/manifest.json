@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rwalk",
+  "version": "0.9.0",
+  "repository": "cestef/rwalk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cestef/rwalk/releases/download/v0.9.0/rwalk-0.9.0-linux-amd64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "9423c3a340c700419fb4545f7c7834a25b30223d50df268a326ae217c435e627",
+      "size": 6510007,
+      "format": "tar.gz",
+      "binaries": {
+        "rwalk": {
+          "path": "rwalk",
+          "sha256": "6b5d155854805fc2e6f281ef873ef7438b1dcc1bf55b058ba49ab86a9f2182ea"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cestef/rwalk/releases/download/v0.9.0/rwalk-0.9.0-linux-arm64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "df65971c9c96e24d078c2f9c661ef2c06361359b444c26ed0688edee30267c7e",
+      "size": 6275869,
+      "format": "tar.gz",
+      "binaries": {
+        "rwalk": {
+          "path": "rwalk",
+          "sha256": "10b3d6a1db3d2f8ab12a453dbb2b91e794b1400127bca7a0c825bdf14d8f985a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cestef/rwalk/releases/download/v0.9.0/rwalk-0.9.0-darwin-amd64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "70ac09793630f200827f327e998776f790c2ae113861a63c89d4946c182bcd4f",
+      "size": 4407623,
+      "format": "tar.gz",
+      "binaries": {
+        "rwalk": {
+          "path": "rwalk",
+          "sha256": "3d8e1295a5d01e8df887b5760c853cacd25a823d62a712727c6d65cee503fbe7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cestef/rwalk/releases/download/v0.9.0/rwalk-0.9.0-darwin-arm64.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "65597e705ee67973ea112f3339a1d74f97bfc9d42e5919d81feb7b7c441c4b69",
+      "size": 4140235,
+      "format": "tar.gz",
+      "binaries": {
+        "rwalk": {
+          "path": "rwalk",
+          "sha256": "d17a17633afed61cb2f3a14005909063c95e2c505870d405016a35690000775f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cestef/rwalk/releases/download/v0.9.0/rwalk-0.9.0-windows-amd64.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "c052ecf7a227b937850774b9ce680791d9c73dc53f7e8f989f6041692a60292c",
+      "size": 4471559,
+      "format": "zip",
+      "binaries": {
+        "rwalk.exe": {
+          "path": "rwalk.exe",
+          "sha256": "b5887e193f0008480f77f6574d7dee64ea5868b24ac9b03abd36e41215257116"
+        }
+      }
+    }
+  }
+}
