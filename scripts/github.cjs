@@ -41,6 +41,14 @@ async function signedCommit(repository, branch, head, message, files, deletions 
   return commit.oid;
 }
 
+async function assertMainContains(repository, sha) {
+  assert(/^[a-f0-9]{40}$/.test(sha || ''), 'Missing validated source commit.');
+  const main = (await api(`/repos/${repository}/git/ref/heads/main`)).object.sha;
+  if (main === sha) return;
+  const comparison = await api(`/repos/${repository}/compare/${sha}...${main}`);
+  assert(comparison.merge_base_commit?.sha === sha, 'Validated source is no longer on main; rerun the workflow.');
+}
+
 async function tagCommit(repository, tag, commit) {
   const base = `/repos/${repository}`;
   const ref = await api(`${base}/git/ref/tags/${tag}`, { optional: true });
@@ -62,4 +70,4 @@ async function release(repository, tag, commit, body, latest = false) {
   } });
 }
 
-module.exports = { api, signedCommit, tagCommit, release };
+module.exports = { api, signedCommit, tagCommit, release, assertMainContains };

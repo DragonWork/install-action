@@ -2,10 +2,11 @@
 
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { assert, NAME, VERSION, failure } = require('../lib/common.cjs');
-const { api, tagCommit } = require('./github.cjs');
+const { assert, NAME, VERSION, writeCommand, failure } = require('../lib/common.cjs');
+const { api, tagCommit, assertMainContains } = require('./github.cjs');
 const { generate, wrapper } = require('./update-tools.cjs');
 const { checkRegistry } = require('./check.cjs');
+const { validationMatrix } = require('./workflow-matrix.cjs');
 
 function context() {
   assert(process.env.GITHUB_REPOSITORY === 'DragonWork/install-action'
@@ -35,6 +36,7 @@ async function prepare(directory) {
   await fs.writeFile(path.join(folder, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
   await fs.writeFile(path.join(folder, 'action.yml'), wrapper(name));
   await fs.writeFile(path.join(directory, 'backfill.json'), JSON.stringify({ name, version, head }) + '\n');
+  await writeCommand(process.env.GITHUB_OUTPUT, 'platforms', JSON.stringify(validationMatrix([manifest])));
 }
 
 async function publish(directory) {
@@ -46,8 +48,7 @@ async function publish(directory) {
   const files = {};
   for (const file of ['manifest.json', 'action.yml']) files[prefix + file] = await fs.readFile(path.join(directory, prefix, file), 'utf8');
   assert(JSON.parse(files[prefix + 'manifest.json']).version === version, 'Unexpected backfill version.');
-  const main = await api(`${base}/git/ref/heads/main`);
-  assert(main.object.sha === process.env.GITHUB_SHA, 'Main changed during validation; rerun the workflow.');
+  await assertMainContains('DragonWork/install-action', process.env.GITHUB_SHA);
   const tag = `${name}/v${version}`;
   const existing = await api(`${base}/git/ref/tags/${tag}`, { optional: true });
   let sha;

@@ -16,4 +16,3 @@ jobs:
       - run: test "$(git-cliff --version)" = "git-cliff $EXPECTED_VERSION"
         env:
           EXPECTED_VERSION: ${{ steps.cliff.outputs.version }}
-

@@ -8,7 +8,7 @@ const { promisify } = require('node:util');
 const { assert, failure } = require('../lib/common.cjs');
 const { checkRegistry } = require('./check.cjs');
 const { compareVersions } = require('./update-tools.cjs');
-const { api, signedCommit, tagCommit } = require('./github.cjs');
+const { api, signedCommit, tagCommit, assertMainContains } = require('./github.cjs');
 
 async function contents(repository, file, ref) {
   const result = await api(`/repos/${repository}/contents/${file}?ref=${encodeURIComponent(ref)}`, { optional: true });
@@ -29,8 +29,7 @@ async function main({ tags } = {}) {
   assert(/^[a-f0-9]{40}$/.test(head || ''), 'Missing expected crates branch commit.');
   const live = await api(`/repos/${repository}/git/ref/heads/crates.io`);
   assert(live.object.sha === head, 'Crates branch changed during validation; rerun the workflow.');
-  const engine = await api(`/repos/${repository}/git/ref/heads/main`);
-  assert(engine.object.sha === process.env.GITHUB_SHA, 'Main changed during validation; rerun the workflow.');
+  await assertMainContains(repository, process.env.GITHUB_SHA);
   for (const manifest of manifests) {
     const name = manifest.name;
     const prefix = `tools/${name}/`;

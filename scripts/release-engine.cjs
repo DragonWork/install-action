@@ -2,7 +2,7 @@
 
 const fs = require('node:fs/promises');
 const { assert, VERSION, failure } = require('../lib/common.cjs');
-const { api, release } = require('./github.cjs');
+const { api, release, assertMainContains } = require('./github.cjs');
 
 async function main() {
   assert(process.env.GITHUB_REF === 'refs/heads/main', 'Release only from main.');
@@ -14,7 +14,8 @@ async function main() {
   assert(version === current.version, 'Commit the requested version in package.json before releasing.');
   const existing = await api(`/repos/${repository}/git/ref/tags/v${version}`, { optional: true });
   if (existing) { console.log(`v${version} is already released.`); return; }
-  const head = process.env.GITHUB_SHA;
+  const head = process.env.RELEASE_SHA || process.env.GITHUB_SHA;
+  await assertMainContains(repository, head);
   const commit = await api(`/repos/${repository}/commits/${head}`);
   assert(commit.commit.verification.verified, 'The installer commit must have a verified signature.');
   await release(repository, `v${version}`, head,

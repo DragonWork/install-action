@@ -8,6 +8,7 @@ const { assert, NAME, VERSION, sha256, download, extractBinary, archivePath, val
 const { api } = require('./github.cjs');
 const { popularity } = require('./popularity.cjs');
 const { nativeBinary, binaryPlatforms } = require('./binaries.cjs');
+const { validationMatrix } = require('./workflow-matrix.cjs');
 
 const TARGETS = {
   'linux-x64': ['x86_64-unknown-linux-musl', 'x86_64-unknown-linux-gnu'],
@@ -467,6 +468,8 @@ async function mergePrepared(directory, output) {
   await fs.writeFile(path.join(directory, 'catalog-progress.json'), JSON.stringify(progress, null, 2) + '\n');
   console.log(`${progress.eligible} eligible; ${progress.remaining} remaining; ${changed.length} prepared.`);
   if (process.env.GITHUB_OUTPUT) {
+    const manifests = await Promise.all(changed.map(name => readJson(path.join(directory, 'tools', name, 'manifest.json'))));
+    await writeCommand(process.env.GITHUB_OUTPUT, 'platforms', JSON.stringify(validationMatrix(manifests)));
     await writeCommand(process.env.GITHUB_OUTPUT, 'changed', String(changed.length > 0));
     await writeCommand(process.env.GITHUB_OUTPUT, 'names', changed.join(' '));
     await writeCommand(process.env.GITHUB_OUTPUT, 'remaining', String(progress.remaining));

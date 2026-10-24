@@ -5,7 +5,9 @@ import argparse
 import csv
 import codecs
 import datetime
+import hashlib
 import json
+import os
 import re
 import tarfile
 import time
@@ -128,13 +130,28 @@ def refresh_downloads(catalog, previous, opener=urllib.request.urlopen, pause=ti
     catalog["popularityUpdatedAt"] = now.isoformat()
 
 
+def inventory_key(etag):
+    digest = hashlib.sha256(f"{etag}:{SCHEMA}:{MIN_DOWNLOADS}".encode()).hexdigest()
+    return f"crates-inventory-{SCHEMA}-{digest}"
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default="registry/catalog.json")
+    parser.add_argument("--cache-info", action="store_true")
     args = parser.parse_args()
     destination = Path(args.output)
     previous = json.loads(destination.read_text()) if destination.exists() else {}
     headers = {"User-Agent": USER_AGENT}
+    if args.cache_info:
+        with urllib.request.urlopen(urllib.request.Request(DUMP_URL, method="HEAD", headers=headers), timeout=60) as response:
+            etag = response.headers.get("ETag")
+        if not etag:
+            raise ValueError("The crates.io dump has no ETag")
+        restore = previous.get("etag") != etag or previous.get("schema") != SCHEMA or previous.get("minimumDownloads") != MIN_DOWNLOADS
+        with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+            output.write(f"key={inventory_key(etag)}\nrestore={str(restore).lower()}\n")
+        return
     if previous.get("etag") and previous.get("minimumDownloads") == MIN_DOWNLOADS and previous.get("schema") == SCHEMA:
         headers["If-None-Match"] = previous["etag"]
     request = urllib.request.Request(DUMP_URL, headers=headers)
@@ -152,6 +169,9 @@ def main():
     for entry in catalog["crates"].values():
         entry.pop("checksum", None)
     destination.write_text(json.dumps(catalog, sort_keys=True, separators=(",", ":")) + "\n")
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+            output.write(f"key={inventory_key(catalog['etag'])}\n")
     print(f"Discovered {len(catalog['crates'])} CLI crates; {len(catalog['unknown'])} await upstream binary metadata.")
 
 

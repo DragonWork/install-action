@@ -24,6 +24,8 @@ jobs:
   build:
     if: github.repository == 'DragonWork/install-action' && github.ref == 'refs/heads/main' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-26.04
+    outputs:
+      changed: ${{ steps.changed.outputs.changed }}
     permissions:
       contents: read
       pages: read
@@ -44,7 +46,10 @@ jobs:
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - run: npm test
       - run: node scripts/build-catalog.cjs
-      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+      - id: changed
+        run: node scripts/build-catalog.cjs changed
+      - if: steps.changed.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: _site
           retention-days: 1
@@ -52,6 +57,7 @@ jobs:
 
   deploy:
     needs: build
+    if: needs.build.outputs.changed == 'true'
     runs-on: ubuntu-26.04
     permissions:
       contents: read

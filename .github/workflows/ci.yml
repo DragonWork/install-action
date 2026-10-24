@@ -3,20 +3,40 @@ name: Test
 on:
   push:
     branches: [main]
+    paths: [action.yml, 'lib/**', 'scripts/**', 'test/**', package.json, '.github/workflows/**']
   pull_request:
     branches: [main]
+    paths: [action.yml, 'lib/**', 'scripts/**', 'test/**', package.json, '.github/workflows/**']
   workflow_dispatch:
   workflow_call:
 
 permissions:
   contents: read
 
+concurrency:
+  group: test-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
+  matrix:
+    runs-on: ubuntu-26.04
+    outputs:
+      runners: ${{ steps.matrix.outputs.runners }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+      - id: matrix
+        run: node scripts/workflow-matrix.cjs
+
   test:
+    needs: matrix
+    timeout-minutes: 15
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-26.04, ubuntu-26.04-arm, macos-15-intel, macos-15, windows-2025, windows-11-arm]
+        os: ${{ fromJSON(needs.matrix.outputs.runners) }}
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1

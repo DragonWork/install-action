@@ -5,7 +5,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const os = require('node:os');
 const path = require('node:path');
-const { signedCommit, tagCommit, release } = require('../scripts/github.cjs');
+const { signedCommit, tagCommit, release, assertMainContains } = require('../scripts/github.cjs');
 const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget,
   prepareShard, mergePrepared, catalogProgress, assetCandidates, assetFormat, nativeBinary,
   generate, planUpdate } = require('../scripts/update-tools.cjs');
@@ -13,6 +13,33 @@ const { main: publishTools } = require('../scripts/publish-tools.cjs');
 const { publish: publishHistorical } = require('../scripts/backfill-version.cjs');
 const { sample, executable, universal, tar } = require('./fixtures.cjs');
 const { binaryPlatforms } = require('../scripts/binaries.cjs');
+const { validationMatrix, ciMatrix } = require('../scripts/workflow-matrix.cjs');
+
+test('validation runs only on published platforms and runtime changes retain full CI coverage', () => {
+  const { manifest } = sample();
+  assert.deepEqual(validationMatrix([manifest]), ['ubuntu-26.04']);
+  assert.deepEqual(validationMatrix([{ artifacts: { 'darwin-x64': {}, 'darwin-arm64': {} } }]), ['macos-15-intel', 'macos-15']);
+  assert.deepEqual(validationMatrix([]), []);
+  assert.throws(() => validationMatrix([{ artifacts: { 'linux-unknown': {} } }]));
+  assert.deepEqual(ciMatrix(['scripts/update-tools.cjs']), ['ubuntu-26.04']);
+  assert.equal(ciMatrix(['lib/common.cjs']).length, 6);
+  assert.equal(ciMatrix(undefined).length, 6);
+});
+
+test('validated publications survive later main commits but reject divergent history', async t => {
+  const original = global.fetch;
+  t.after(() => { global.fetch = original; });
+  const source = 'a'.repeat(40), current = 'b'.repeat(40);
+  let ancestor = source;
+  global.fetch = async url => {
+    if (url.endsWith('/git/ref/heads/main')) return Response.json({ object: { sha: current } });
+    assert(url.endsWith(`/compare/${source}...${current}`));
+    return Response.json({ merge_base_commit: { sha: ancestor } });
+  };
+  await assertMainContains('DragonWork/install-action', source);
+  ancestor = 'c'.repeat(40);
+  await assert.rejects(assertMainContains('DragonWork/install-action', source), /no longer on main/);
+});
 
 test('crate wrappers call the selected engine without embedding its version', () => {
   const text = wrapper('cargo_example');

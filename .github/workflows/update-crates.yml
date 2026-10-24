@@ -60,8 +60,23 @@ jobs:
         run: echo "head=$(git -C registry rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - run: npm test
       - run: python3 -B -m unittest discover -s test -p '*_test.py'
+      - name: Identify crates.io snapshot
+        id: inventory
+        run: python3 -B scripts/discover-crates.py --cache-info
+      - id: cache
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: registry/catalog.json
+          key: ${{ steps.inventory.outputs.key }}
+          lookup-only: ${{ steps.inventory.outputs.restore != 'true' }}
       - name: Discover CLI crates
+        id: discover
         run: python3 -B scripts/discover-crates.py
+      - if: steps.cache.outputs.cache-hit != 'true' || steps.inventory.outputs.key != steps.discover.outputs.key
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: registry/catalog.json
+          key: ${{ steps.discover.outputs.key }}
       - name: Resolve crate updates
         id: update
         run: node scripts/update-tools.cjs plan
@@ -122,6 +137,7 @@ jobs:
       changed: ${{ steps.merge.outputs.changed }}
       names: ${{ steps.merge.outputs.names }}
       remaining: ${{ steps.merge.outputs.remaining }}
+      platforms: ${{ steps.merge.outputs.platforms }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -161,7 +177,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-26.04, ubuntu-26.04-arm, macos-15-intel, macos-15, windows-2025, windows-11-arm]
+        os: ${{ fromJSON(needs.merge.outputs.platforms) }}
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1

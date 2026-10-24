@@ -1,9 +1,10 @@
 name: Release installer
 
 on:
-  push:
+  workflow_run:
+    workflows: [Test]
     branches: [main]
-    paths: [package.json]
+    types: [completed]
   workflow_dispatch:
     inputs:
       version:
@@ -20,17 +21,24 @@ concurrency:
 
 jobs:
   test:
-    if: github.ref == 'refs/heads/main'
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
     uses: ./.github/workflows/ci.yml
 
   release:
     needs: test
+    if: >-
+      always() && github.ref == 'refs/heads/main' &&
+      ((github.event_name == 'workflow_dispatch' && needs.test.result == 'success') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      (github.event.workflow_run.event == 'push' || github.event.workflow_run.event == 'workflow_dispatch')))
     runs-on: ubuntu-26.04
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
           persist-credentials: false
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
@@ -39,3 +47,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_VERSION: ${{ inputs.version }}
+          RELEASE_SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
