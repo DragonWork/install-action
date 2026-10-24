@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "jwt-ui",
+  "version": "1.3.0",
+  "repository": "jwt-rs/jwt-ui",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/jwt-rs/jwt-ui/releases/download/v1.3.0/jwtui-macos-arm64.tar.gz",
+      "releaseTag": "v1.3.0",
+      "sha256": "bcaac446c5d2932914bfcc11054e2de2aff84c2c58b490b0192b2d58645381d1",
+      "size": 1129908,
+      "format": "tar.gz",
+      "binaries": {
+        "jwtui": {
+          "path": "jwtui",
+          "sha256": "1841f36786b99189fd6708e4cf60ae97fad9654df5c16cee77c88e213665d8b5"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/jwt-rs/jwt-ui/releases/download/v1.3.0/jwtui-windows-aarch64.tar.gz",
+      "releaseTag": "v1.3.0",
+      "sha256": "975220df8c17fe72c6adee34647336e655183b261514e96f0b690cf34b7fe1b6",
+      "size": 1016696,
+      "format": "tar.gz",
+      "binaries": {
+        "jwtui.exe": {
+          "path": "jwtui.exe",
+          "sha256": "0158865fd09201b62a4ef5849cf92a38d8bd99134e043056c6a1b982850c3e84"
+        }
+      }
+    }
+  }
+}
