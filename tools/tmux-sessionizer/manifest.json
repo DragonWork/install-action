@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tmux-sessionizer",
+  "version": "0.6.1",
+  "repository": "jrmoulton/tmux-sessionizer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jrmoulton/tmux-sessionizer/releases/download/v0.6.1/tmux-sessionizer-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.6.1",
+      "sha256": "9ba6e6adaab7f67e13f937c95b044dc65b4d6376aa5fceaee286048d240fbd13",
+      "size": 3394268,
+      "format": "tar.xz",
+      "binaries": {
+        "tms": {
+          "path": "tmux-sessionizer-x86_64-unknown-linux-musl/tms",
+          "sha256": "bb7a18690b18a89abbd9926910b28a938e8bd472f595bc179288f32689da6c4a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jrmoulton/tmux-sessionizer/releases/download/v0.6.1/tmux-sessionizer-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.1",
+      "sha256": "ba8efbab4dbf4873ab2061d12d48d6e0524fc35ff3d94c2ef9f2576a0a059734",
+      "size": 3270276,
+      "format": "tar.xz",
+      "binaries": {
+        "tms": {
+          "path": "tmux-sessionizer-x86_64-apple-darwin/tms",
+          "sha256": "eb6f70d92b432cdb885e1c6b807e7bb51e716f43fad4fb42a2a469f4b22ee1eb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jrmoulton/tmux-sessionizer/releases/download/v0.6.1/tmux-sessionizer-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.1",
+      "sha256": "e42050e1d52bef17e3f34241247c1e3d454de2480bb031fcc59cfe033b351b53",
+      "size": 2862020,
+      "format": "tar.xz",
+      "binaries": {
+        "tms": {
+          "path": "tmux-sessionizer-aarch64-apple-darwin/tms",
+          "sha256": "de4e858600b81abfa58e99ae3ecaa66b78b0da6e4efff5b3e43b2fa0e8ff5444"
+        }
+      }
+    }
+  }
+}
