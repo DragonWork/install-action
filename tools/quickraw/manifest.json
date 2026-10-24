@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "quickraw",
+  "version": "0.1.6",
+  "repository": "RawLabo/quickraw",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RawLabo/quickraw/releases/download/v0.1.6/quickraw-linux.zip",
+      "sha256": "28b3f72f9c5b644a3e1e863adc54e96c9d94d37679c7a26aef090d72bfe4d443",
+      "size": 832893,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "quickraw": {
+          "path": "quickraw",
+          "sha256": "8f3a4082922fc435d139f9a2e2e3220eaa1aa25bf34482a04c3420fd6087286a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/RawLabo/quickraw/releases/download/v0.1.6/quickraw-macos.zip",
+      "sha256": "3ee0fa30da9b51f1879b59bb8be3d1e999e6eb8f3c2f69844353b4dc863967b9",
+      "size": 1615753,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "quickraw": {
+          "path": "quickraw",
+          "sha256": "22a1991bfd66692243356195b2770c64be7f2c24b61faa411e97361cb01b78e8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/RawLabo/quickraw/releases/download/v0.1.6/quickraw-macos.zip",
+      "sha256": "3ee0fa30da9b51f1879b59bb8be3d1e999e6eb8f3c2f69844353b4dc863967b9",
+      "size": 1615753,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "quickraw": {
+          "path": "quickraw",
+          "sha256": "22a1991bfd66692243356195b2770c64be7f2c24b61faa411e97361cb01b78e8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RawLabo/quickraw/releases/download/v0.1.6/quickraw-win.exe",
+      "sha256": "aa1b14b3e76033f49d3ff50333649f6479bee4f79227908c336f75431f88590c",
+      "size": 2053120,
+      "format": "binary",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "quickraw.exe": {
+          "path": "quickraw-win.exe",
+          "sha256": "aa1b14b3e76033f49d3ff50333649f6479bee4f79227908c336f75431f88590c"
+        }
+      }
+    }
+  }
+}
