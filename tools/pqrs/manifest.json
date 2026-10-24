@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pqrs",
+  "version": "0.3.2",
+  "repository": "manojkarthick/pqrs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/manojkarthick/pqrs/releases/download/v0.3.2/pqrs-0.3.2-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "51d471ee098eca5d9f6096a6c4b3324a3a8dd219cc79ae32607c2bb626453b5c",
+      "size": 4729564,
+      "format": "zip",
+      "binaries": {
+        "pqrs": {
+          "path": "pqrs-0.3.2-x86_64-unknown-linux-gnu/bin/pqrs",
+          "sha256": "87eb3dacc20c2fae93725f74ff23bbc32e3f62216d58350bbbf1267f38a388e3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/manojkarthick/pqrs/releases/download/v0.3.2/pqrs-0.3.2-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "8706cb0170b377dfb467fd0028f39fdba1aeb3b04ad6f9850b6821bbb2163a47",
+      "size": 4534578,
+      "format": "zip",
+      "binaries": {
+        "pqrs": {
+          "path": "pqrs-0.3.2-aarch64-unknown-linux-gnu/bin/pqrs",
+          "sha256": "1ca7daa4bba068472a6c6690855aec35d8da07d82c78b9e2a1fefde59a630064"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/manojkarthick/pqrs/releases/download/v0.3.2/pqrs-0.3.2-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "4e58d9261e17f23079c9c9baca64f21c6c97c49c4325c5d9369cc186052c2e8c",
+      "size": 4343484,
+      "format": "zip",
+      "binaries": {
+        "pqrs": {
+          "path": "pqrs-0.3.2-x86_64-apple-darwin/bin/pqrs",
+          "sha256": "a0c6663de8a9a4ead9930ebd88f6ce96857af973837a02d2145dc311cfd809c1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/manojkarthick/pqrs/releases/download/v0.3.2/pqrs-0.3.2-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "aa267087a2f90307e748ced5fb2f947720375f94ee01eb5f7c9724c11bf922d2",
+      "size": 4005760,
+      "format": "zip",
+      "binaries": {
+        "pqrs": {
+          "path": "pqrs-0.3.2-aarch64-apple-darwin/bin/pqrs",
+          "sha256": "113d9a4a5832eade1dd933a207c24f71ba55547b5d4107a5746c44761a447fb3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/manojkarthick/pqrs/releases/download/v0.3.2/pqrs-0.3.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "a6e7c60aeabbf640afb03c0d7f18fe643246760ebc823941ac4cdd65018ed0c5",
+      "size": 3896454,
+      "format": "zip",
+      "binaries": {
+        "pqrs.exe": {
+          "path": "pqrs-0.3.2-x86_64-pc-windows-msvc/bin/pqrs.exe",
+          "sha256": "fc59dedae4474e3cd3c1267dc61123a6912ff76e800dcb2fda3627d1bc8d6fc8"
+        }
+      }
+    }
+  }
+}
