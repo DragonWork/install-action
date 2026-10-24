@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gitweb",
+  "version": "0.5.0",
+  "repository": "yoannfleurydev/gitweb",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yoannfleurydev/gitweb/releases/download/v0.5.0/gitweb-linux",
+      "sha256": "6b000a45c25db159282c35df595effde8f4cf43f087a83c08f3d8faba7e93149",
+      "size": 5700384,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "gitweb": {
+          "path": "gitweb-linux",
+          "sha256": "6b000a45c25db159282c35df595effde8f4cf43f087a83c08f3d8faba7e93149"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yoannfleurydev/gitweb/releases/download/v0.5.0/gitweb-macos",
+      "sha256": "6d022a8f25d5017a8dd856fa5cd482c3d8a7d3d8c3d430202bdea6f65b3f2895",
+      "size": 4562880,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "gitweb": {
+          "path": "gitweb-macos",
+          "sha256": "6d022a8f25d5017a8dd856fa5cd482c3d8a7d3d8c3d430202bdea6f65b3f2895"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yoannfleurydev/gitweb/releases/download/v0.5.0/gitweb-windows.exe",
+      "sha256": "679f086d438ac11420cfb2c2fe9502521143525cd5a67dc9d47745445d3de44e",
+      "size": 4660224,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "gitweb.exe": {
+          "path": "gitweb-windows.exe",
+          "sha256": "679f086d438ac11420cfb2c2fe9502521143525cd5a67dc9d47745445d3de44e"
+        }
+      }
+    }
+  }
+}
