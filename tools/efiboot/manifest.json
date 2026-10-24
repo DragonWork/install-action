@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "efiboot",
+  "version": "1.4.0",
+  "repository": "iTrooz/efivar-rs",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/iTrooz/efivar-rs/releases/download/v1.4.0/efiboot_x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v1.4.0",
+      "sha256": "1dde86e182b9edaf2d2c2e3d1b2cc36242ed4dc95ab6531ce7a43bef73662f28",
+      "size": 1257984,
+      "format": "binary",
+      "binaries": {
+        "efiboot.exe": {
+          "path": "efiboot_x86_64-pc-windows-msvc.exe",
+          "sha256": "1dde86e182b9edaf2d2c2e3d1b2cc36242ed4dc95ab6531ce7a43bef73662f28"
+        }
+      }
+    }
+  }
+}
