@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "clean_git_history",
+  "version": "1.2.0",
+  "repository": "DeveloperC286/clean_git_history",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DeveloperC286/clean_git_history/releases/download/v1.2.0/x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.0",
+      "sha256": "98bdc27d027ddfad20b8e1130ad6d05b179236ffb44b03efce7d4b041396ea45",
+      "size": 1407838,
+      "format": "tar.gz",
+      "binaries": {
+        "clean_git_history": {
+          "path": "clean_git_history",
+          "sha256": "9d93c81819321ca369dc743ead413830c0ed53e33ce6806ff8450cb768bb2781"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/DeveloperC286/clean_git_history/releases/download/v1.2.0/aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.0",
+      "sha256": "d7e32b7516444ea84950044d778cca51b2ed0c81e539546a11261032fef4b78b",
+      "size": 1349435,
+      "format": "tar.gz",
+      "binaries": {
+        "clean_git_history": {
+          "path": "clean_git_history",
+          "sha256": "8b686f0cc8d979eb1d5ab5055e7152aed775c50c90921106afe2bd3674786e4f"
+        }
+      }
+    }
+  }
+}
