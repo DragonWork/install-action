@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "typos-cli",
+  "version": "1.51.1",
+  "repository": "crate-ci/typos",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/crate-ci/typos/releases/download/v1.51.1/typos-v1.51.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.51.1",
+      "sha256": "518f759fba43205f17a717656054c1d25bc883455a6296989e9d021c6edb7c59",
+      "size": 3248796,
+      "format": "zip",
+      "binaries": {
+        "typos.exe": {
+          "path": "typos.exe",
+          "sha256": "88aa2ead06d7ea7f45de968b5971d55dfabe84ad2c39fe6749f6e8e05377839a"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/crate-ci/typos/releases/download/v1.51.1/typos-v1.51.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.51.1",
+      "sha256": "b149fbe092d658d20c0ed40f326a25ebd382f3f2bc27a1526357672bfecdef6d",
+      "size": 3079661,
+      "format": "zip",
+      "binaries": {
+        "typos.exe": {
+          "path": "typos.exe",
+          "sha256": "99e74e5af4c8286d36c5aa9d4012c991f135fc86feeac5c024db29625d25df40"
+        }
+      }
+    }
+  }
+}
