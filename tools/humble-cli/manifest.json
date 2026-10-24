@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "humble-cli",
+  "version": "0.20.0",
+  "repository": "smbl64/humble-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/smbl64/humble-cli/releases/download/v0.20.0/humble-cli-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.20.0",
+      "sha256": "24f8b8e03ca51481a4022311c330ed327f347182415980f4f826cd67e6bd9aa5",
+      "size": 3176299,
+      "format": "tar.gz",
+      "binaries": {
+        "humble-cli": {
+          "path": "humble-cli",
+          "sha256": "2f5e9f076640c152df143c2bf4848480967b520544fb0318ad3e2313b10996c7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/smbl64/humble-cli/releases/download/v0.20.0/humble-cli-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.20.0",
+      "sha256": "cca6bc7e623c04386dde47ba526cf06a9db12acbd815675af76020e553aaac17",
+      "size": 2895514,
+      "format": "tar.gz",
+      "binaries": {
+        "humble-cli": {
+          "path": "humble-cli",
+          "sha256": "50fc986d24cd7f81951d0db36eebe48a6367b00970ca59502ea9264e3a54a225"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/smbl64/humble-cli/releases/download/v0.20.0/humble-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.20.0",
+      "sha256": "6dbd6306e04b0d56a47b799f51361d425274acbcc573c5e9a570ec412197ddeb",
+      "size": 2488133,
+      "format": "zip",
+      "binaries": {
+        "humble-cli.exe": {
+          "path": "humble-cli.exe",
+          "sha256": "cf3f5a34e3b4efad2b02e4313f10342cc895d602efaed9ead5a59d48f5666984"
+        }
+      }
+    }
+  }
+}
