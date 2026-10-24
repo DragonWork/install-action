@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "oomplay",
+  "version": "0.6.8",
+  "repository": "oom-ai/oomplay",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/oom-ai/oomplay/releases/download/v0.6.8/oomplay-v0.6.8-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.8",
+      "sha256": "e5f159182ad1b503f59c4deecd3dba3284a97f6d3bed7e69537053c18ef707c4",
+      "size": 1922561,
+      "format": "tar.gz",
+      "binaries": {
+        "oomplay": {
+          "path": "oomplay-v0.6.8-x86_64-unknown-linux-musl/oomplay",
+          "sha256": "d317de5da3eeb0dde6bee936e5e8ce81d327f083569e9859784642fbce7ece8e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/oom-ai/oomplay/releases/download/v0.6.8/oomplay-v0.6.8-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.8",
+      "sha256": "3a3f9e26618c8afe776e9923ddfa1d8c6d7582aa519825c89a1f20f74c1a8319",
+      "size": 1760368,
+      "format": "tar.gz",
+      "binaries": {
+        "oomplay": {
+          "path": "oomplay-v0.6.8-x86_64-apple-darwin/oomplay",
+          "sha256": "8d93c2770200851b4362dc68741ffbbb95ad69a32aafe23f84765a63e7d1d728"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/oom-ai/oomplay/releases/download/v0.6.8/oomplay-v0.6.8-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.8",
+      "sha256": "05cf8fbe6f5d8070f0b34a658c4c8d74973a0872d51d92c9fbb0a79312af0e3c",
+      "size": 1763906,
+      "format": "zip",
+      "binaries": {
+        "oomplay.exe": {
+          "path": "oomplay-v0.6.8-x86_64-pc-windows-msvc/oomplay.exe",
+          "sha256": "7f2e81586450d195ab0a1c8f4a84665f0cb26d0a1d632605e3e90b0046fa5a1b"
+        }
+      }
+    }
+  }
+}
