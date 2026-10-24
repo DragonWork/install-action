@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "name": "crc-fast",
+  "version": "1.10.0",
+  "repository": "awesomized/crc-fast-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/awesomized/crc-fast-rust/releases/download/1.10.0/crc-fast-1.10.0-linux-x86_64.tar.gz",
+      "sha256": "bf8501fa8ed855aa9ae4a546fafff8ec88ecf6f96231ca7334b7e6e37e6c2290",
+      "size": 9462123,
+      "format": "tar.gz",
+      "releaseTag": "1.10.0",
+      "binaries": {
+        "arch-check": {
+          "path": "crc-fast-1.10.0-linux-x86_64/bin/arch-check",
+          "sha256": "311b64189551833f236efe53c62e6905520c805c8b7612d29ca6579fa5d41c62"
+        },
+        "checksum": {
+          "path": "crc-fast-1.10.0-linux-x86_64/bin/checksum",
+          "sha256": "a0f729c1a41f69a3d4eb756e034e36b23c44957d9d56145f5ff6ffe24a5e8076"
+        },
+        "get-custom-params": {
+          "path": "crc-fast-1.10.0-linux-x86_64/bin/get-custom-params",
+          "sha256": "35ec5b994de438629700cedd156340b67b359e051fedb1db4684a67cefa41806"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/awesomized/crc-fast-rust/releases/download/1.10.0/crc-fast-1.10.0-linux-aarch64.tar.gz",
+      "sha256": "55ad65f2dbd4091b27b66fca91e98915411c1c62b5646360c2c37ecfb64cd844",
+      "size": 9351816,
+      "format": "tar.gz",
+      "releaseTag": "1.10.0",
+      "binaries": {
+        "arch-check": {
+          "path": "crc-fast-1.10.0-linux-aarch64/bin/arch-check",
+          "sha256": "9aab6eceefabc499bb26f2281864c544c146cd60da238f5ca13f4e01df31d944"
+        },
+        "checksum": {
+          "path": "crc-fast-1.10.0-linux-aarch64/bin/checksum",
+          "sha256": "8afbcfa4a2f951b05047425c78c2c10fe24155a1bf0ae391e74b87778222c302"
+        },
+        "get-custom-params": {
+          "path": "crc-fast-1.10.0-linux-aarch64/bin/get-custom-params",
+          "sha256": "755ae953fce4980703609087490efaad38c2421833671328e528f626a11cba93"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/awesomized/crc-fast-rust/releases/download/1.10.0/crc-fast-1.10.0-macos-aarch64.tar.gz",
+      "sha256": "c1c750f7b6ac62048922e2598beaa70655da372edb4b5223f13622862a819244",
+      "size": 6832467,
+      "format": "tar.gz",
+      "releaseTag": "1.10.0",
+      "binaries": {
+        "arch-check": {
+          "path": "crc-fast-1.10.0-macos-aarch64/bin/arch-check",
+          "sha256": "a3e5c0ed12f31cf152c72985e9d538621af38c730c2f41373f5d563e282beb4e"
+        },
+        "checksum": {
+          "path": "crc-fast-1.10.0-macos-aarch64/bin/checksum",
+          "sha256": "1593197f3f5e214705429f1697c00797d5be51cf2a9a7fadeba88b6b242085db"
+        },
+        "get-custom-params": {
+          "path": "crc-fast-1.10.0-macos-aarch64/bin/get-custom-params",
+          "sha256": "399347d34ae5dca91ed18c03ac931bed05c419610c7e3a671301d256c70365cc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/awesomized/crc-fast-rust/releases/download/1.10.0/crc-fast-1.10.0-windows-x86_64.zip",
+      "sha256": "6e094d704a5de2fe8b923b3cf44aa9e8fd73fbfa97ef51bc63ca3e8af583526c",
+      "size": 6872374,
+      "format": "zip",
+      "releaseTag": "1.10.0",
+      "binaries": {
+        "arch-check.exe": {
+          "path": "crc-fast-1.10.0-windows-x86_64/bin/arch-check.exe",
+          "sha256": "99acca42b22a80d38320d6a9eac6a954552c76123cf65ee16090354b2445aff4"
+        },
+        "checksum.exe": {
+          "path": "crc-fast-1.10.0-windows-x86_64/bin/checksum.exe",
+          "sha256": "bb16eb7351ef465492c3f86da9baae70d5b728d67e1a5924fc59837045035d69"
+        },
+        "get-custom-params.exe": {
+          "path": "crc-fast-1.10.0-windows-x86_64/bin/get-custom-params.exe",
+          "sha256": "9fa1ea9a8a9001d57c074c69f9bec533b4639a794d5a673dfb4bb1989ac26f96"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/awesomized/crc-fast-rust/releases/download/1.10.0/crc-fast-1.10.0-windows-aarch64.zip",
+      "sha256": "2cc016566c660ff439dfe8569d986677301f295541a788219dcc715873ab1516",
+      "size": 6686667,
+      "format": "zip",
+      "releaseTag": "1.10.0",
+      "binaries": {
+        "arch-check.exe": {
+          "path": "crc-fast-1.10.0-windows-aarch64/bin/arch-check.exe",
+          "sha256": "dbd7cbf10c8b47a5e9f01f16b83174d3b4cecbca9ba3f7a329a1a88f071bf14f"
+        },
+        "checksum.exe": {
+          "path": "crc-fast-1.10.0-windows-aarch64/bin/checksum.exe",
+          "sha256": "36ac55799788ef048e1c1f3b7b217d9ab45dbe2a19371519534b20a4c6d0033f"
+        },
+        "get-custom-params.exe": {
+          "path": "crc-fast-1.10.0-windows-aarch64/bin/get-custom-params.exe",
+          "sha256": "3a0c94d6c88a41ac2b9a1e9feeca8a72b22f797c8636c6d3aa6b2db75cb076bb"
+        }
+      }
+    }
+  }
+}
