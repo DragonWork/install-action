@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "minotari_console_wallet",
+  "version": "6.2.0",
+  "repository": "tari-project/tari",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tari-project/tari/releases/download/v6.2.0/tari_suite-6.2.0-esme-1fe8cff-linux-x86_64.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "65018778b8e5ccaeb685b6e620db8d6da731adcc7d5f7e11448b7f5cc775097f",
+      "size": 101668352,
+      "format": "zip",
+      "binaries": {
+        "minotari_console_wallet": {
+          "path": "minotari_console_wallet",
+          "sha256": "593d368c8816688c820a31401251aca8491cb280ca57bd1f9aa58a142bf68bed"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tari-project/tari/releases/download/v6.2.0/tari_suite-6.2.0-esme-1fe8cff-linux-arm64.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "a9be3d29d6cbfc3d73b7539bb7fa1ca3ebf641de675eb119bd7ae03ef19bdd05",
+      "size": 102158622,
+      "format": "zip",
+      "binaries": {
+        "minotari_console_wallet": {
+          "path": "minotari_console_wallet",
+          "sha256": "c1837943ae4c0550ec4142220a377e2be8b8b41b5715c1516a82935c2bf36279"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tari-project/tari/releases/download/v6.2.0/tari_suite-6.2.0-esme-1fe8cff-macos-x86_64.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "99e413d4165c338e50162d9f8c5ba30c77096fa2f2cc75b31bcd82164a7b3952",
+      "size": 59454160,
+      "format": "zip",
+      "binaries": {
+        "minotari_console_wallet": {
+          "path": "minotari_console_wallet",
+          "sha256": "21dad2dcca361a71307906d4668ba53b992ff66bec5d89d5b517a9cd29a7e099"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tari-project/tari/releases/download/v6.2.0/tari_suite-6.2.0-esme-1fe8cff-macos-arm64.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "c582bc5db0e3641f1a2332dd34727577c1724bc9c2477c86c313b0070f65ccc6",
+      "size": 57166769,
+      "format": "zip",
+      "binaries": {
+        "minotari_console_wallet": {
+          "path": "minotari_console_wallet",
+          "sha256": "59096a590945a59ff0ab13b91afe8c57c62f7c7195f1c112f0031c0a6ea14735"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tari-project/tari/releases/download/v6.2.0/tari_suite-6.2.0-esme-1fe8cff-windows-x64.exe.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "01e40001b05c60f57e71e19041cfc8cfdcc8b27e0545dfdb97ca605fe835d11f",
+      "size": 52933396,
+      "format": "zip",
+      "binaries": {
+        "minotari_console_wallet.exe": {
+          "path": "minotari_console_wallet.exe",
+          "sha256": "ab20569d3abb690845feea3ffee758dcb70001f228f509f246e59a10121b775e"
+        }
+      }
+    }
+  }
+}
