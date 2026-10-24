@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tag-helper",
+  "version": "0.5.1",
+  "repository": "tshepang/tag-helper",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tshepang/tag-helper/releases/download/v0.5.1/tag-helper-v0.5.1-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "f313e3b0238f0e7cb1ad5f3a1a540fbbc86dc083bc7de64f774f1243ddec15d9",
+      "size": 3803536,
+      "format": "tar.xz",
+      "binaries": {
+        "tag-helper": {
+          "path": "tag-helper-v0.5.1-x86_64-unknown-linux-gnu/tag-helper",
+          "sha256": "9452b16c3de9a7d66bb2f3e91599c4d4e00095fa86e31b177fa77da5073d79b1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tshepang/tag-helper/releases/download/v0.5.1/tag-helper-v0.5.1-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "e1f3afe8e9777bc658e674f6907776cf32bcf7232db3a127398f4b1d22c45fb6",
+      "size": 551728,
+      "format": "tar.xz",
+      "binaries": {
+        "tag-helper": {
+          "path": "tag-helper-v0.5.1-x86_64-apple-darwin/tag-helper",
+          "sha256": "f1faa917cca269b6c3e5ddd65ee66d68798f1b97c522b4ee609a41364b5247c9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tshepang/tag-helper/releases/download/v0.5.1/tag-helper-v0.5.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "a5064e5e0d1819dc31d201877241c6e3d8480f6edfc1d2e3b511a40aa26eed96",
+      "size": 2206882,
+      "format": "zip",
+      "binaries": {
+        "tag-helper.exe": {
+          "path": "tag-helper.exe",
+          "sha256": "ea693476e5b667b31c2aa880a18a668c5578a717bbb6c30eaea89782a0b7cee3"
+        }
+      }
+    }
+  }
+}
