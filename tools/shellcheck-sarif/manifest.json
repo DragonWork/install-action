@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "shellcheck-sarif",
+  "version": "0.8.0",
+  "repository": "psastras/sarif-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/psastras/sarif-rs/releases/download/shellcheck-sarif-v0.8.0/shellcheck-sarif-x86_64-unknown-linux-gnu",
+      "sha256": "da936c09925112ba0b96550acfeb8bc439c8780babca87e5ab6091cef3c539b5",
+      "size": 1295120,
+      "format": "binary",
+      "releaseTag": "shellcheck-sarif-v0.8.0",
+      "binaries": {
+        "shellcheck-sarif": {
+          "path": "shellcheck-sarif-x86_64-unknown-linux-gnu",
+          "sha256": "da936c09925112ba0b96550acfeb8bc439c8780babca87e5ab6091cef3c539b5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/psastras/sarif-rs/releases/download/shellcheck-sarif-v0.8.0/shellcheck-sarif-aarch64-apple-darwin",
+      "sha256": "c9cd7395635371343171694079d1ea1f91158407480e694e998fcc1b7c7bae77",
+      "size": 1149984,
+      "format": "binary",
+      "releaseTag": "shellcheck-sarif-v0.8.0",
+      "binaries": {
+        "shellcheck-sarif": {
+          "path": "shellcheck-sarif-aarch64-apple-darwin",
+          "sha256": "c9cd7395635371343171694079d1ea1f91158407480e694e998fcc1b7c7bae77"
+        }
+      }
+    }
+  }
+}
