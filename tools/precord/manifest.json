@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "precord",
+  "version": "0.7.13",
+  "repository": "xiaopengli89/precord",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xiaopengli89/precord/releases/download/v0.7.13/precord-x86_64-unknown-linux-gnu-v0.7.13.tar.gz",
+      "releaseTag": "v0.7.13",
+      "sha256": "4d072f2f44add328ff540d6963f78a7c61f7f8403d0fd30c7024e74ca9a91369",
+      "size": 1639599,
+      "format": "tar.gz",
+      "binaries": {
+        "precord": {
+          "path": "precord",
+          "sha256": "dd8c4b426c1ce66e28345e333bfebe805772d8f44e1b3903b0c86b873c6e3d0a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xiaopengli89/precord/releases/download/v0.7.13/precord-x86_64-apple-darwin-v0.7.13.tar.gz",
+      "releaseTag": "v0.7.13",
+      "sha256": "46a27a3f83ddc61abe74fdbaa47dcb5d4afa5f2960b8ffc9c27d16def9479019",
+      "size": 1218429,
+      "format": "tar.gz",
+      "binaries": {
+        "precord": {
+          "path": "precord",
+          "sha256": "59eed2fbae382553c5f51ef510d283f48276f8f69d7025f2788abf8ceced480b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xiaopengli89/precord/releases/download/v0.7.13/precord-aarch64-apple-darwin-v0.7.13.tar.gz",
+      "releaseTag": "v0.7.13",
+      "sha256": "f66b5da4a47a9b06571e4a1a9a683fd71e927abd5c6ce4e3584646da4a792e57",
+      "size": 1115422,
+      "format": "tar.gz",
+      "binaries": {
+        "precord": {
+          "path": "precord",
+          "sha256": "1b26f973ce77fe105ed7d1fba20adc0337f1e89e97b7b503723f7ee166477e5a"
+        }
+      }
+    }
+  }
+}
