@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "pact_verifier_cli",
+  "version": "1.4.0",
+  "repository": "pact-foundation/pact-reference",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pact-foundation/pact-reference/releases/download/pact_verifier_cli-v1.4.0/pact_verifier_cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "pact_verifier_cli-v1.4.0",
+      "sha256": "d1107bb09813120594c8886ad759f8860d4d9120e3d717b481d592141df4c19e",
+      "size": 4802548,
+      "format": "tar.xz",
+      "binaries": {
+        "pact-verifier": {
+          "path": "pact_verifier_cli-x86_64-unknown-linux-musl/pact-verifier",
+          "sha256": "7f78a346ee456766debaa072b76d17eb274d9476f7282dcaf64b2e85054dd50c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pact-foundation/pact-reference/releases/download/pact_verifier_cli-v1.4.0/pact_verifier_cli-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "pact_verifier_cli-v1.4.0",
+      "sha256": "601ef3df415cd9909552bb9deebe3dab37d8771b0227fb85c10ef21886d3383f",
+      "size": 4430652,
+      "format": "tar.xz",
+      "binaries": {
+        "pact-verifier": {
+          "path": "pact_verifier_cli-aarch64-unknown-linux-musl/pact-verifier",
+          "sha256": "2405193af5ca29e3a2d67c826a998b5a807b61eb4887c6cb0e449b05f6e7263e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pact-foundation/pact-reference/releases/download/pact_verifier_cli-v1.4.0/pact_verifier_cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "pact_verifier_cli-v1.4.0",
+      "sha256": "d3c110bd22148e357342d1292e94ba798bcc5e1256ca4c411359c646815f5e5e",
+      "size": 4710484,
+      "format": "tar.xz",
+      "binaries": {
+        "pact-verifier": {
+          "path": "pact_verifier_cli-x86_64-apple-darwin/pact-verifier",
+          "sha256": "76af149bce679956d5beefb91b33051b060a258d84c85e8083ab13098e616e6f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pact-foundation/pact-reference/releases/download/pact_verifier_cli-v1.4.0/pact_verifier_cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "pact_verifier_cli-v1.4.0",
+      "sha256": "e69d387aaf6068f4f886a9beb4579cb989203e15158998eb2e7cff9069faf35c",
+      "size": 4593188,
+      "format": "tar.xz",
+      "binaries": {
+        "pact-verifier": {
+          "path": "pact_verifier_cli-aarch64-apple-darwin/pact-verifier",
+          "sha256": "fc65740c9a55026b1ede0c42f5a689d5e143fdb417d2d8b46e0929943b693b4c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pact-foundation/pact-reference/releases/download/pact_verifier_cli-v1.4.0/pact_verifier_cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "pact_verifier_cli-v1.4.0",
+      "sha256": "db0b74ee5c90b6eebf5dd1f8693b804041a2f2895a549da0bd2c829b9a8e2246",
+      "size": 6327112,
+      "format": "zip",
+      "binaries": {
+        "pact-verifier.exe": {
+          "path": "pact-verifier.exe",
+          "sha256": "adcb57749e9e8497143c1a6ad4b65232ab5ab6f15fdab42666a218ab466c564a"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/pact-foundation/pact-reference/releases/download/pact_verifier_cli-v1.4.0/pact_verifier_cli-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "pact_verifier_cli-v1.4.0",
+      "sha256": "48d91451e4b21ef0fe4ffc76f778cfd6dac0357e0a31527bc5c66a9ae0e8d7c6",
+      "size": 6086406,
+      "format": "zip",
+      "binaries": {
+        "pact-verifier.exe": {
+          "path": "pact-verifier.exe",
+          "sha256": "6e0ba77be43b380e67ce91a8685e31f6825283c951b6f8ff78fa11d228208608"
+        }
+      }
+    }
+  }
+}
