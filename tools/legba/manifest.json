@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "legba",
+  "version": "1.3.0",
+  "repository": "evilsocket/legba",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/evilsocket/legba/releases/download/1.3.0/legba-1.3.0-linux-x86_64.tar.gz",
+      "releaseTag": "1.3.0",
+      "sha256": "8bc7242dbc97fd4c10ab05f7d8931597d04bf7b80793fec59bfb8cb930688602",
+      "size": 12063389,
+      "format": "tar.gz",
+      "binaries": {
+        "legba": {
+          "path": "legba-1.3.0-linux-x86_64/legba",
+          "sha256": "d032c3f29141a910ed673f59d15d7eab1abbaecaa6f15094ad8e4a5877b2c021"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/evilsocket/legba/releases/download/1.3.0/legba-1.3.0-linux-arm64.tar.gz",
+      "releaseTag": "1.3.0",
+      "sha256": "58971bfb37e811ae3df9c04e9254bf24aea8ac378665fe90ddd5478b1bdbf6a5",
+      "size": 11478871,
+      "format": "tar.gz",
+      "binaries": {
+        "legba": {
+          "path": "legba-1.3.0-linux-arm64/legba",
+          "sha256": "c5308ed823fc858f4b2488a228e0a4599feb1e91e17360a323bbb6a76197898f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/evilsocket/legba/releases/download/1.3.0/legba-1.3.0-apple-darwin-arm64.tar.gz",
+      "releaseTag": "1.3.0",
+      "sha256": "9f0c43c73c1d45fbe03234d095fa1e5988a83b764219afb6a788db171d1c4f36",
+      "size": 10268353,
+      "format": "tar.gz",
+      "binaries": {
+        "legba": {
+          "path": "legba-1.3.0-apple-darwin-arm64/legba",
+          "sha256": "821450b80a04c113b7a2696f4b3b40fdf1d456cd5e544218133b65e76d903d11"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/evilsocket/legba/releases/download/1.3.0/legba-1.3.0-windows-x86_64.zip",
+      "releaseTag": "1.3.0",
+      "sha256": "f9c8737b6110c2cd1fb6ad79df0db9a916fd4bb86f49fdcdedbad9e16960741b",
+      "size": 10988795,
+      "format": "zip",
+      "binaries": {
+        "legba.exe": {
+          "path": "legba-1.3.0-windows-x86_64/legba.exe",
+          "sha256": "eb60b65e0c1dde20f3617ec8eeca0d92a55c17248298a8d720a07d68b9df4e24"
+        }
+      }
+    }
+  }
+}
