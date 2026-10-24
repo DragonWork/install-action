@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "namecheap-ddns",
+  "version": "0.4.0",
+  "repository": "nickjer/namecheap-ddns",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nickjer/namecheap-ddns/releases/download/v0.4.0/namecheap-ddns-v0.4.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "779e02a42ab0c044e03b053e30d25b3db2469d3d92fd0e0b81ddb4336ab3fd1a",
+      "size": 1164973,
+      "format": "tar.gz",
+      "binaries": {
+        "namecheap-ddns": {
+          "path": "namecheap-ddns",
+          "sha256": "32da19241a1990b77d497dbb7587f7d9b0b4293ef140000ea82a8ce2e77e46f6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nickjer/namecheap-ddns/releases/download/v0.4.0/namecheap-ddns-v0.4.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "7a03a8257cd6fe3e1f384426cfa62c86bfc697e4e755b557ddfb8b9ea138572a",
+      "size": 1037653,
+      "format": "tar.gz",
+      "binaries": {
+        "namecheap-ddns": {
+          "path": "namecheap-ddns",
+          "sha256": "36fb4327d3dbe84a850ce829a465263aee83a51a1416e6e31fcdaf238033f918"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nickjer/namecheap-ddns/releases/download/v0.4.0/namecheap-ddns-v0.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "7bb2d4d1a2c6ed12c3be50c6e0ccd8136680d93dec857a90c0a1601f4a215949",
+      "size": 1041476,
+      "format": "tar.gz",
+      "binaries": {
+        "namecheap-ddns": {
+          "path": "namecheap-ddns",
+          "sha256": "ac427c44e87cc7e078736869c2859601a90540f329add7490967637d67cf4ea4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nickjer/namecheap-ddns/releases/download/v0.4.0/namecheap-ddns-v0.4.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "93be595596a05a768899397e0638bffdc0797938f3713813c5277a62d1a8e3e7",
+      "size": 974878,
+      "format": "tar.gz",
+      "binaries": {
+        "namecheap-ddns": {
+          "path": "namecheap-ddns",
+          "sha256": "7a2fabd8fbe0f11cb6c861ed28a238665b04b9e5934a1fa83e2143454f465284"
+        }
+      }
+    }
+  }
+}
