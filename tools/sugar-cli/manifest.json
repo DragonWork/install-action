@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "sugar-cli",
+  "version": "2.9.1",
+  "repository": "metaplex-foundation/sugar",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/metaplex-foundation/sugar/releases/download/v2.9.1/sugar-macos-intel-latest",
+      "sha256": "84eada26e6af8033fdcab79b26f8b4964979e9bbfabe3a8143f744e3c44534a4",
+      "size": 14324220,
+      "format": "binary",
+      "releaseTag": "v2.9.1",
+      "binaries": {
+        "sugar": {
+          "path": "sugar-macos-intel-latest",
+          "sha256": "84eada26e6af8033fdcab79b26f8b4964979e9bbfabe3a8143f744e3c44534a4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/metaplex-foundation/sugar/releases/download/v2.9.1/sugar-macos-m1-latest",
+      "sha256": "c835e1685668567330f791ba7d2d1c12553a21b2729a8b275d8e1c9336495605",
+      "size": 13358936,
+      "format": "binary",
+      "releaseTag": "v2.9.1",
+      "binaries": {
+        "sugar": {
+          "path": "sugar-macos-m1-latest",
+          "sha256": "c835e1685668567330f791ba7d2d1c12553a21b2729a8b275d8e1c9336495605"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/metaplex-foundation/sugar/releases/download/v2.9.1/sugar-windows-latest.exe",
+      "sha256": "e26eca2b2cc693b3bbc52b0ea1286b75237f239b5e8c507ad3fb31ac4f80c1d3",
+      "size": 15788032,
+      "format": "binary",
+      "releaseTag": "v2.9.1",
+      "binaries": {
+        "sugar.exe": {
+          "path": "sugar-windows-latest.exe",
+          "sha256": "e26eca2b2cc693b3bbc52b0ea1286b75237f239b5e8c507ad3fb31ac4f80c1d3"
+        }
+      }
+    }
+  }
+}
