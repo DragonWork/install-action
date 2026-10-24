@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "editorconfiger",
+  "version": "0.6.0",
+  "repository": "aegoroff/editorconfiger",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aegoroff/editorconfiger/releases/download/0.6.0/editorconfiger-0.6.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "999d58987c71f9c3c9418f06f48802c231ac8008b57343384cc61920793487bc",
+      "size": 1123528,
+      "format": "tar.gz",
+      "binaries": {
+        "editorconfiger": {
+          "path": "editorconfiger",
+          "sha256": "27cc9cc2bf6fa8bd3175d62fe487acbe3e2a00b0755cdc2e766767c4be6909fb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/aegoroff/editorconfiger/releases/download/0.6.0/editorconfiger-0.6.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "1ce94b3be7d2f06ab5d9d6fc11a217904143a86b57f21911143290a36497f787",
+      "size": 1001362,
+      "format": "tar.gz",
+      "binaries": {
+        "editorconfiger": {
+          "path": "editorconfiger",
+          "sha256": "7dc1f168ded262fd0c8b7a76c25005921f05fdda881e9922cf319d9a3cf3bd10"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aegoroff/editorconfiger/releases/download/0.6.0/editorconfiger-0.6.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "e4e167c3fbfe81ce56c8984c64b38b20f4907bd84e99c2a0302cb3d741cb2305",
+      "size": 929575,
+      "format": "tar.gz",
+      "binaries": {
+        "editorconfiger": {
+          "path": "editorconfiger",
+          "sha256": "14f0cdaa1fa5fe9b0d0116b12785f486ede0fc5d32d3883c0ba34b6ab3b6e96d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aegoroff/editorconfiger/releases/download/0.6.0/editorconfiger-0.6.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "55caf0058ba1938b20bb72b366451e7675b6be6abf5a2d1e4db47a91ec651917",
+      "size": 839755,
+      "format": "tar.gz",
+      "binaries": {
+        "editorconfiger": {
+          "path": "editorconfiger",
+          "sha256": "c213a38569d57c516ca65c32ecd03536349448a22936ffd996c5aa26ce817c9c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aegoroff/editorconfiger/releases/download/0.6.0/editorconfiger-0.6.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "6d952120c8ee41ad4a3c2cb9644d7d963a2519c136be0416a245b95a2a0e85e8",
+      "size": 926286,
+      "format": "tar.gz",
+      "binaries": {
+        "editorconfiger.exe": {
+          "path": "editorconfiger.exe",
+          "sha256": "b40a9d6fbc7b8cbc6f2cf0740deb3ad0d45bc0420d4f45eeab2470b33471f7d0"
+        }
+      }
+    }
+  }
+}
