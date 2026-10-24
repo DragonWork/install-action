@@ -1,0 +1,813 @@
+{
+  "schema": 1,
+  "name": "thag_rs",
+  "version": "1.1.0",
+  "repository": "durbanlegend/thag_rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/durbanlegend/thag_rs/releases/download/v1.1.0/thag_rs-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v1.1.0",
+      "sha256": "f51ce77d760c8ce6767e66daa051e6f9238d2130c90db08d9beea78ac521c33c",
+      "size": 15597452,
+      "format": "tar.xz",
+      "binaries": {
+        "thag": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag",
+          "sha256": "eb1acbe24ccd30357cc052ee6b1cbee6cfea07d602f66324145b6ff7ef65809b"
+        },
+        "thag_alacritty_add_theme": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_alacritty_add_theme",
+          "sha256": "c8c0214ed36cb4a5360118ca2ca53773ed0f4f2583ac51b614c1357da89bbbbe"
+        },
+        "thag_ast": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_ast",
+          "sha256": "02f02f7e6e304a4623cff9378e3e80fb00ac4ecab9b0290081d34751c1e8cfa6"
+        },
+        "thag_cargo": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_cargo",
+          "sha256": "0670aae77c1538393d4f456c063e4510fa9c84496bcf65337b971a14abffd398"
+        },
+        "thag_clean": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_clean",
+          "sha256": "838c04270afe9109bb4ff1b9b8a3492c9a4a091ea269dff48f8b0464dff164a1"
+        },
+        "thag_clippy": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_clippy",
+          "sha256": "2138e288d14d6fb99c92999f0f12210c433e0e018b6f765ff360a92b11da07c6"
+        },
+        "thag_convert_themes": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_convert_themes",
+          "sha256": "80b0db7696ea4ee8edffb6e1d7c7c46df4ed17c22c92347534fcdb1a9a59bf0c"
+        },
+        "thag_convert_themes_alt": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_convert_themes_alt",
+          "sha256": "fdedb4c0274fa36991f34e4bec9927d040382eae966a1b80268ca3358bcc0dd7"
+        },
+        "thag_copy": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_copy",
+          "sha256": "8d1167fba27156c4c42f8c7a5d6e2e394b27aec3692ffe6c380d8d86210b4045"
+        },
+        "thag_demo_help": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_demo_help",
+          "sha256": "dde8e72f4ab555a42cf871d41e7626c2b4d6ebf4c177becd59da3b3e48d963d4"
+        },
+        "thag_detect_term": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_detect_term",
+          "sha256": "256e90ff8a5f2f1b3b78eb6d15b2bd86882fc0633a2944af577c3f391dffb1cd"
+        },
+        "thag_edit_theme": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_edit_theme",
+          "sha256": "774264ed98d3f01f0236ff9b09a7e6aa6e74826856dbbd2aa5b784602d1504d7"
+        },
+        "thag_expand": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_expand",
+          "sha256": "41c95cddfd09ca484c92f719ae267bc4a46fabd4470c9ab74042bc27511c08e1"
+        },
+        "thag_find_demos": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_find_demos",
+          "sha256": "56e87d90dc47f0cccf00476cee73d8e5f2c76dcbfef6228c97da81c0d85cf636"
+        },
+        "thag_from_rust_script": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_from_rust_script",
+          "sha256": "c96eb37b169f3a9bf513bc17ed05c3cf1a319d56f467e0603b5f7d144d379f53"
+        },
+        "thag_gen_config": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_gen_config",
+          "sha256": "a08543a5f5970f36dec1ce0b8f93395dc4097fc330aae00c8251863c00ef0011"
+        },
+        "thag_gen_errors": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_gen_errors",
+          "sha256": "4ecddfd19a3fcf3652e335a42000e2aee88ad6a8c34b6935e454772828871cc5"
+        },
+        "thag_gen_proc_macro_readme": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_gen_proc_macro_readme",
+          "sha256": "755a43de011cb64dbfb6ae6db5b6caf44dba36151a0e5a2b5289ffbe5b5e7809"
+        },
+        "thag_gen_readme": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_gen_readme",
+          "sha256": "e98112ed3bed3d9a593296f129840c8dbb620cdfa8f861539e02d880e5f3988d"
+        },
+        "thag_gen_terminal_themes": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_gen_terminal_themes",
+          "sha256": "847ab51765a532b95087e4556c8bc5651fee0dd0a63471d6ced0875706bb49b5"
+        },
+        "thag_get_demo_dir": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_get_demo_dir",
+          "sha256": "26d7f59026b530d0998bf68215127626ce1a8fe2ed1d5a7f854bb425b38fc135"
+        },
+        "thag_image_to_theme": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_image_to_theme",
+          "sha256": "b3bf95414d2a2a7caf55faaa0685dcd7c0469d887bf0e6755118b44b5e6382c9"
+        },
+        "thag_legible": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_legible",
+          "sha256": "9f647244e39e9385f80713bb27355d481b6d71d53c3f700c148f1715d6734231"
+        },
+        "thag_markdown": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_markdown",
+          "sha256": "cd47aab910126f45b6f2cbe344ddc3efb3c090d7cc95b80abb06a10d38c5813e"
+        },
+        "thag_migrate_tool": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_migrate_tool",
+          "sha256": "3305bb14835fc2c43e196f2c575b0cdb8c8a506976d7523018cb3e3560a35714"
+        },
+        "thag_mintty_add_theme": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_mintty_add_theme",
+          "sha256": "5f6d7880bf23fac7ff10dd9e489d80166beb1e54f7da78b8169e9b25e0610436"
+        },
+        "thag_palette": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_palette",
+          "sha256": "64b96e865d535cdbb5be789e8d5829a007fb1f3cc583ecb4e639cf1b877c5c5b"
+        },
+        "thag_palette_vs_theme": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_palette_vs_theme",
+          "sha256": "095548c4e82cfe60dff5526d122fd65d7618c03ac273c8f85611edd54ec49798"
+        },
+        "thag_paste": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_paste",
+          "sha256": "5b948f05e97f22c6033127fc7dbaca57bb9a202430c5051ce25194c1d9a7f03b"
+        },
+        "thag_prompt": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_prompt",
+          "sha256": "acdca5e740e717594277cf3a695c6ea470f7ab06a53fb11daf10650ebe8daba3"
+        },
+        "thag_show_themes": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_show_themes",
+          "sha256": "9968303a06dcafcdf32de50fc7629e5eddbcc07c3754352c58ade7b27e36568d"
+        },
+        "thag_sync_palette": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_sync_palette",
+          "sha256": "b5673bb3a9aa9ee7b41c5260dcdb668fe8c824455f266fcf3c93b81c614aa51c"
+        },
+        "thag_terminal_theme_help": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_terminal_theme_help",
+          "sha256": "d4d2ace7ffbf0c8fb79b9b030f361e53f8efbc81146c1d3ed3b81eee57fb2862"
+        },
+        "thag_theme": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_theme",
+          "sha256": "741ebeb4397a61acae61a3df13ff205f7421c9b07a27e3fc200a21c34b239077"
+        },
+        "thag_to_rust_script": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_to_rust_script",
+          "sha256": "f80eb737798f5fd6d8c881d12755c7b21c06052fb531711a459b6df8f8c47ef6"
+        },
+        "thag_url": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_url",
+          "sha256": "55224587e63495b3b33a67d73da4ef603c1a99053feb1993b119bcd0009bad71"
+        },
+        "thag_version_bump": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_version_bump",
+          "sha256": "80aa21ad11eb3ab650f40b9adddb96b094edb486a069f7cc20e659033f528632"
+        },
+        "thag_winterm_add_theme": {
+          "path": "thag_rs-x86_64-unknown-linux-musl/thag_winterm_add_theme",
+          "sha256": "949f1039a0a88d644edf5118ccf80fad065e4fbdd309991849def5ef903314a0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/durbanlegend/thag_rs/releases/download/v1.1.0/thag_rs-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.1.0",
+      "sha256": "17f8a49cc020d1e1f7300f6d9c0d36f7b58ffdaea854ec938fc4e63d1a8566fb",
+      "size": 14020320,
+      "format": "tar.xz",
+      "binaries": {
+        "thag": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag",
+          "sha256": "99a7ac4e502fda448b2e6844adde04cf115921a34851384a08f975132b92b9ab"
+        },
+        "thag_alacritty_add_theme": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_alacritty_add_theme",
+          "sha256": "9748cf5ee6865098ea34bc01af97ea596cb6e4ffdcdd224974a8b10ab4690a46"
+        },
+        "thag_ast": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_ast",
+          "sha256": "8497407b085443c17740710153b02561ffeffaedb50310d5969af85e5ec1facf"
+        },
+        "thag_cargo": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_cargo",
+          "sha256": "546955efd4316c9af67a6e4a8b5cd18acb16f001eaf65b520488ec967ef0d372"
+        },
+        "thag_clean": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_clean",
+          "sha256": "13fe1de87397c722a21cfd454f76fb36852d4f8c0f89ef89e51bb9d032b8f124"
+        },
+        "thag_clippy": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_clippy",
+          "sha256": "3b0344b0b10724e657ee1ae774ed1f324a61c6988621090c10ab65b75f29e68e"
+        },
+        "thag_convert_themes": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_convert_themes",
+          "sha256": "cf5995a676ac7414e36810a210d354b1164ff8cfbcc37ed3db2988339e4959b2"
+        },
+        "thag_convert_themes_alt": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_convert_themes_alt",
+          "sha256": "8443c63aa87d57d4c648c7cea055f37203ac63c681651a3cde9fc3ae7b61f33c"
+        },
+        "thag_copy": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_copy",
+          "sha256": "2bf9c7df0b9a3316abc8c2711a873e44ae94c2736f98868c6010f9cf8cec4df2"
+        },
+        "thag_demo_help": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_demo_help",
+          "sha256": "677f000c9937ca9ef7cee75947fc88785d359ece6dac23ae9d802ace6662cca5"
+        },
+        "thag_detect_term": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_detect_term",
+          "sha256": "96c5681e7f6974b50a7d0c931328561bcfc5822a022e2cbad4993dae575d2c90"
+        },
+        "thag_edit_theme": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_edit_theme",
+          "sha256": "4b48862cb48dcde4eea212b1832f5c5c186a25dac5779a5e91fd2f2c31bb5a50"
+        },
+        "thag_expand": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_expand",
+          "sha256": "c3017831b8ad3af6b59255b411eceebd08bc0bc72d4bdef59b3e38bb6076e72d"
+        },
+        "thag_find_demos": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_find_demos",
+          "sha256": "e7bbaba7486c32c7cecc1e3ab940f43276a5356d4b15b2daa4492c8ab910fffb"
+        },
+        "thag_from_rust_script": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_from_rust_script",
+          "sha256": "aefe224edeabfa5c769ffdf153c37ab4bfa409dc1863d90eeec46e7151d2ef51"
+        },
+        "thag_gen_config": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_gen_config",
+          "sha256": "b45b70d73e9f1f6d6c481ad97e1bdde625acf09d3adfc7f5bd38af0276ef27ce"
+        },
+        "thag_gen_errors": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_gen_errors",
+          "sha256": "65e85c6fa2c2c6134be372d83bb6328d666caf5edfc2d2a4b1ee0c8d9fc66151"
+        },
+        "thag_gen_proc_macro_readme": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_gen_proc_macro_readme",
+          "sha256": "f8540be6ae89642e410bf68757915454d70f51175be04d20a5d954835b4a2b95"
+        },
+        "thag_gen_readme": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_gen_readme",
+          "sha256": "a87fd920b571cfc68e6b92e8f12e454d34324800c3ecaef219d4bf1fc88646d8"
+        },
+        "thag_gen_terminal_themes": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_gen_terminal_themes",
+          "sha256": "a025461df1bd38e43c44bceddaf1a8ddb236e0adc31aa16b75189c58bb04d215"
+        },
+        "thag_get_demo_dir": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_get_demo_dir",
+          "sha256": "c924a3bdfd96fb1efcd5e3afed39b70f7efcead29d4cdad7baf0c21f90cbdb14"
+        },
+        "thag_image_to_theme": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_image_to_theme",
+          "sha256": "d815358427317f02de03c5f91de0c1ede01966ae39d0c8f86640e13f9244d938"
+        },
+        "thag_legible": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_legible",
+          "sha256": "f5879fab584ca8806e019ccff1093574d5cdc2c777593906508159c210c0c81c"
+        },
+        "thag_markdown": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_markdown",
+          "sha256": "b2637fa530c949b7f7b608d2ea52a5932dc42c8b691992278248c2670e054b48"
+        },
+        "thag_migrate_tool": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_migrate_tool",
+          "sha256": "7aade55fc7684f30d6d47efe1cd7cc7ea2f04f34be12777c43940c48592125a3"
+        },
+        "thag_mintty_add_theme": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_mintty_add_theme",
+          "sha256": "239e300eb37f7380e21f9459a9053b05c155d7dc8fffca4ee76cf81898c73fd2"
+        },
+        "thag_palette": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_palette",
+          "sha256": "e7046d51914fdac7e148fa0fa6514aaa44078509a13a611d63f1f8bfaf5f3219"
+        },
+        "thag_palette_vs_theme": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_palette_vs_theme",
+          "sha256": "9a9491aea380aa1902d2a51474dc5c284d1ac525cce4002484f4bd42fb11a825"
+        },
+        "thag_paste": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_paste",
+          "sha256": "36d3b093b0494ca12dc97125521bf4e41952522af652632ae4eb8ef39c8cd5e9"
+        },
+        "thag_prompt": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_prompt",
+          "sha256": "d1f5d17bcd23baeb72c3b65869088b938971cf904418957ef7974e8bbe5c7a24"
+        },
+        "thag_show_themes": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_show_themes",
+          "sha256": "9020b5001feffe6cfe0a44770162709ca677a541efb67a6315cb0d2a171c1755"
+        },
+        "thag_sync_palette": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_sync_palette",
+          "sha256": "aa851c81f1ba3a0e84f51b830c5efb4ff58f839ec5fa66fea842f082b92e09bb"
+        },
+        "thag_terminal_theme_help": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_terminal_theme_help",
+          "sha256": "1e445ce54ef924eb464f1d8a553050210a2fe3e18a818d9faf33349b2323707b"
+        },
+        "thag_theme": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_theme",
+          "sha256": "6d96c0df2af934e9105a920835304d0cde0cfa370178ee4067ac2fa75bf5a50d"
+        },
+        "thag_to_rust_script": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_to_rust_script",
+          "sha256": "d85b007a099aa5d7ab1c5a2d055277f03b8b3d8f8d9b16f1caf8c55754cd360c"
+        },
+        "thag_url": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_url",
+          "sha256": "4536c40ec0576a507cc5e6f821c77190311221c19f648a05b8d4e93f8239e4c7"
+        },
+        "thag_version_bump": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_version_bump",
+          "sha256": "a401d8b33ca829268044b607c89c9f0db9ab07a04222cc97e9b2e77cdc719ff7"
+        },
+        "thag_winterm_add_theme": {
+          "path": "thag_rs-aarch64-unknown-linux-gnu/thag_winterm_add_theme",
+          "sha256": "4b1385278779968c78da6b599a877d79b6e672311d6824280c73b192f0633aab"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/durbanlegend/thag_rs/releases/download/v1.1.0/thag_rs-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.1.0",
+      "sha256": "2ff7c1e559089e04966c07f327ae9086eab5a8ef10dbc35aa53a7b3548f9b17f",
+      "size": 12695624,
+      "format": "tar.xz",
+      "binaries": {
+        "thag": {
+          "path": "thag_rs-x86_64-apple-darwin/thag",
+          "sha256": "481c9935b5665603049c691e684ea2cdec26620ddd7398065da43bd97b86c152"
+        },
+        "thag_alacritty_add_theme": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_alacritty_add_theme",
+          "sha256": "ab45abad668336217deba8648c55a1ae4daa5a90325ac3ed6087652a4c719fe3"
+        },
+        "thag_ast": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_ast",
+          "sha256": "695ff15fca2a79f61a8fccafaeb936af027adf9e52912fbade0c74f817c9369b"
+        },
+        "thag_cargo": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_cargo",
+          "sha256": "73784475848dc232ec0ffe2bb01a80b5a8d81f6b51a34e79418e0f647e9d3830"
+        },
+        "thag_clean": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_clean",
+          "sha256": "db22dd411de9e954121f1ae9d2c98df0a30d29333edcdd7f5b193d04103f5c1b"
+        },
+        "thag_clippy": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_clippy",
+          "sha256": "655ead65890fd7e50a9f88ad9b332290566c82bd6b1a2dfde7eec2a8789d85f4"
+        },
+        "thag_convert_themes": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_convert_themes",
+          "sha256": "93a9f5a127a808d9474ae6244dc561f5c276414d185890df2aa25fc48a88b4df"
+        },
+        "thag_convert_themes_alt": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_convert_themes_alt",
+          "sha256": "a7da23baf157a907944a6d25141f45262187ab4ae59164a51f8ac5c38035bfde"
+        },
+        "thag_copy": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_copy",
+          "sha256": "70ebac1975a27e154d4f351bda99b0e7cd9c387ece231754b492a182f9f162af"
+        },
+        "thag_demo_help": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_demo_help",
+          "sha256": "0d62f813c24ba20bcc7b635564124a973e30f2ae140fc5ca6def8361edb37b32"
+        },
+        "thag_detect_term": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_detect_term",
+          "sha256": "35e9c8ecefb295f431e3ded224d91c109b8614bdd6b0484c60f7bd2e23ce7000"
+        },
+        "thag_edit_theme": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_edit_theme",
+          "sha256": "9105af2c0dfd549821c07f4b98f6c4a19242f091024e3c349ccc4f2596211f77"
+        },
+        "thag_expand": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_expand",
+          "sha256": "aa11c6c4641db025483d7eba56f7bc7d41b115b8c1d6bfdc92c66e726a68693b"
+        },
+        "thag_find_demos": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_find_demos",
+          "sha256": "c29d5067d1b2d0f92e8a7508bdb1f073269ffd9d3836533a6cb126f2aadb1f89"
+        },
+        "thag_from_rust_script": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_from_rust_script",
+          "sha256": "a379488020e70684ba0e83b44c205ada3a486167de5790eaa840cf5837d66e4e"
+        },
+        "thag_gen_config": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_gen_config",
+          "sha256": "53aea3f9a80c5b1ffa67e401ffe73dff382d8b0d8b021dce7219290e9a469d31"
+        },
+        "thag_gen_errors": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_gen_errors",
+          "sha256": "2dd12e756b26e0740d877a8c0e93f884bedea70d249da6f278a904dab457b437"
+        },
+        "thag_gen_proc_macro_readme": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_gen_proc_macro_readme",
+          "sha256": "bb5ae9ed172cf208a45f9508d37352855944021e668b7d4fd09143938c4adab1"
+        },
+        "thag_gen_readme": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_gen_readme",
+          "sha256": "f75b6707be05a75156f392dee6bf0125e3802622235099be013a3ee0fccdc598"
+        },
+        "thag_gen_terminal_themes": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_gen_terminal_themes",
+          "sha256": "af9cb78031d492fd279e91531ec6f383d36fb4f0615aa961389e65b79642b72a"
+        },
+        "thag_get_demo_dir": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_get_demo_dir",
+          "sha256": "43683832ae918338d48d6c5ef3267f8615afdaf97332fbc492e129ecfdc3cbf0"
+        },
+        "thag_image_to_theme": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_image_to_theme",
+          "sha256": "0c3f0ec97c4f4609fcf9b3a0032653d24936bbf1719757aef55f5cf3845f3f4d"
+        },
+        "thag_legible": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_legible",
+          "sha256": "3130f5a851040358351faf26d8d514b42132a3a6534242b8c45e1215cbb28282"
+        },
+        "thag_markdown": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_markdown",
+          "sha256": "bf0a5f05b93f70d94f33e3c454e6b44784100dfff37ffe4885bf49ba997cd026"
+        },
+        "thag_migrate_tool": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_migrate_tool",
+          "sha256": "ddea6ebd5452dbf5744e68295fb7efe0cdc9c3e6f06c9cc58b13b88294b51363"
+        },
+        "thag_mintty_add_theme": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_mintty_add_theme",
+          "sha256": "01daf50b8c5e01deada773fdc0b1f74c5fb95b69c32250c7b038748c2e062dad"
+        },
+        "thag_palette": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_palette",
+          "sha256": "853430c252442661532bc14bbab17fd9225081af1e9f2eeb8d9e5e5eb42f87ad"
+        },
+        "thag_palette_vs_theme": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_palette_vs_theme",
+          "sha256": "d6eea37d6ec58bf58e4d4ff079574dde14aa781ff2ecc77b49fb3ebab802fff7"
+        },
+        "thag_paste": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_paste",
+          "sha256": "d23a5386b596751acc4984fbcb8717ea1a9afc6ada5aac4fe605fa7551706a21"
+        },
+        "thag_prompt": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_prompt",
+          "sha256": "c966d95a3e02549dacc81ec379bb2c3ee406de8955674e366ffd90e04ed62e15"
+        },
+        "thag_show_themes": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_show_themes",
+          "sha256": "30d132632ef9eae9599f30cd61edfd28f133b00cfef3bbbc070ed358f147efb2"
+        },
+        "thag_sync_palette": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_sync_palette",
+          "sha256": "2b3656110ce6a16b57ad817d4af37d2847e6128ff853cd9292c34c11d4528b62"
+        },
+        "thag_terminal_theme_help": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_terminal_theme_help",
+          "sha256": "a168c2764674276976de54e790ee6cadfc71871dcc7b1bd02f1c6558e3825f27"
+        },
+        "thag_theme": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_theme",
+          "sha256": "3ddfe7a1b3f38e1f3612312f2a7d0e84a5cf714ec5b252d7eb23fe75baeaaa8c"
+        },
+        "thag_to_rust_script": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_to_rust_script",
+          "sha256": "b35c1bb5f12234ffb39da7fba76e637b52b9df1dcff68bae455e9a7df42c88fe"
+        },
+        "thag_url": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_url",
+          "sha256": "398464b7359357c6a4a69fcc8b5093474255caa503bcab6f7b3f4d05521239ef"
+        },
+        "thag_version_bump": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_version_bump",
+          "sha256": "acad621f16a18a31c2de0224c7511546520a584656feaae65b2c95b99a73e3e1"
+        },
+        "thag_winterm_add_theme": {
+          "path": "thag_rs-x86_64-apple-darwin/thag_winterm_add_theme",
+          "sha256": "02456d77f38a29fcd2b27c7c0acfb22249227212b27551e02c76791aac5c4b09"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/durbanlegend/thag_rs/releases/download/v1.1.0/thag_rs-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.1.0",
+      "sha256": "3c174a0e147a084d3f3730537e449c4e16c23de6bc033e7721cf6ecc3b5efaa9",
+      "size": 12416288,
+      "format": "tar.xz",
+      "binaries": {
+        "thag": {
+          "path": "thag_rs-aarch64-apple-darwin/thag",
+          "sha256": "721140e27daa85b67b78c1dc19591ddfa1066088e5ab986f510855a4aaec8abc"
+        },
+        "thag_alacritty_add_theme": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_alacritty_add_theme",
+          "sha256": "331565c199392b1c7b8dfc9aae390529dcb416b4fc70afe90ec0df5a4e5a0390"
+        },
+        "thag_ast": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_ast",
+          "sha256": "73b528d648f6d2a479f46e5a0103126ab916f501bd942b634b51090bc6c0b555"
+        },
+        "thag_cargo": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_cargo",
+          "sha256": "6211e9177bba6404c689b9961d2d0bbcd1f8287a236f0a209064b6fac0bce723"
+        },
+        "thag_clean": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_clean",
+          "sha256": "2f531a5632c8b09692994c74dca78f9eb22d3d25412ec8dead3ced1dde41713f"
+        },
+        "thag_clippy": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_clippy",
+          "sha256": "36d0f051df5ec7f160b0ff5f67eb490967b54e31fb6c40db50ebf4d0c76e7002"
+        },
+        "thag_convert_themes": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_convert_themes",
+          "sha256": "7771546dadf1cb5e7ad920a74618db2f9b0f37d097f1076e445fca0db860f775"
+        },
+        "thag_convert_themes_alt": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_convert_themes_alt",
+          "sha256": "df86014aecc51dd3dec3494868c5743b79bc12f3e8cbc17fb9378d30afeecbca"
+        },
+        "thag_copy": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_copy",
+          "sha256": "143086cbb0d665c070e69481e949a5e80b243ea8f2a81115a46c4c4cfececc55"
+        },
+        "thag_demo_help": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_demo_help",
+          "sha256": "06f7751df665cdaaf2f6266ea514a3c639da62c4c9d744ef65c9184b1c5120a3"
+        },
+        "thag_detect_term": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_detect_term",
+          "sha256": "3d83177bce551905754c36d03a608b4b1752b229c785eed957069e76affff295"
+        },
+        "thag_edit_theme": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_edit_theme",
+          "sha256": "c5a0f68cbf4a11a5fbb0e9adfdea1c6bde1a421f9e9ff84f49216b82a300d36b"
+        },
+        "thag_expand": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_expand",
+          "sha256": "9212592743980162cfefd66ebe2490432171f2df06cd64bd27678d2d2967e9af"
+        },
+        "thag_find_demos": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_find_demos",
+          "sha256": "ddc6e402b9f362681caa62f410dc60a941d9f3311f2e8bc2c48a1ae9a54e6d9a"
+        },
+        "thag_from_rust_script": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_from_rust_script",
+          "sha256": "5884966d7ac6b19f2a4e49fb00c7d82d58d7728dc638d69a369d92de28eb461b"
+        },
+        "thag_gen_config": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_gen_config",
+          "sha256": "662d2936ac2ad4c8b25f23955689aed0980bd56ff7be396586c3f6e61e621218"
+        },
+        "thag_gen_errors": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_gen_errors",
+          "sha256": "a87c8c839455391741505ec960df08540462644cfd2eec40e5a21e219a1e90ca"
+        },
+        "thag_gen_proc_macro_readme": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_gen_proc_macro_readme",
+          "sha256": "d704c66c8a6471363e7485eada398e7d209feaec8ab60c6aebf89473b678967d"
+        },
+        "thag_gen_readme": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_gen_readme",
+          "sha256": "9e565ae5866ae99a3e9478d1ccd813f93629f9ee61b470fdf9a24b74ae851c83"
+        },
+        "thag_gen_terminal_themes": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_gen_terminal_themes",
+          "sha256": "c1e7fd2daaf87938cef7702f0e837ca5adf9f891ae755fe5ea413560426f5c66"
+        },
+        "thag_get_demo_dir": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_get_demo_dir",
+          "sha256": "3aa2e1ae755aa07576eceb2c240d011489ccdf53b5c9d09c633bed16331d4e59"
+        },
+        "thag_image_to_theme": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_image_to_theme",
+          "sha256": "01e474bfd7b88f485bca5e9a311b7910b245ce23bdbfc97daee70f1242820e78"
+        },
+        "thag_legible": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_legible",
+          "sha256": "345255e0ed45a2ebbc08f3f5c174f531d49db95b95e8cf72c870beccc553b4e4"
+        },
+        "thag_markdown": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_markdown",
+          "sha256": "23ab08decbf0163e450ad83edc3071213e1d4022f8385ec6e49e364a21bdd8bc"
+        },
+        "thag_migrate_tool": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_migrate_tool",
+          "sha256": "e7d45c0757b3839859a8796a60280ad1d45c9af8039a403e3bf058e8417b6994"
+        },
+        "thag_mintty_add_theme": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_mintty_add_theme",
+          "sha256": "86a9cfb7746be15ea485637791323f28c069e9929fa02e53d16cdd5509b12ad7"
+        },
+        "thag_palette": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_palette",
+          "sha256": "0363e855779285f0c8967e9e59d88a40b96755a7072b3c49ec879361217cb9cf"
+        },
+        "thag_palette_vs_theme": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_palette_vs_theme",
+          "sha256": "ef2ec9030cc295132d7a376465110050a5cd0ad8454b88d7c602ed5df6fafd90"
+        },
+        "thag_paste": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_paste",
+          "sha256": "ff0d1e1ae9db2463286c5fc7f639b97af82802edf1a9f9ea99128250bd761035"
+        },
+        "thag_prompt": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_prompt",
+          "sha256": "94abd774410d15054c3c68d587599137ef54de288ede316e640001279a302b7a"
+        },
+        "thag_show_themes": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_show_themes",
+          "sha256": "536038b88a59d397ee3a59b72fd93b2c07aa7398051908c230683481edf17fe9"
+        },
+        "thag_sync_palette": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_sync_palette",
+          "sha256": "d824a154a180c80bc1f66c05a24a0e701abb0a3a618d9ccd111ddb1ba1c5b49e"
+        },
+        "thag_terminal_theme_help": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_terminal_theme_help",
+          "sha256": "af60c725bf197d46c5a78423c513cb1e5fec5698185684e16e4306e4b26a6489"
+        },
+        "thag_theme": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_theme",
+          "sha256": "4ba2e1d088ea2137918b89dc7df96f4879ea41f50bb0a5baec66784570b89762"
+        },
+        "thag_to_rust_script": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_to_rust_script",
+          "sha256": "44d7374728bb4f4b43ce53618c3bea795a59cce92b9f9bf8dfac43c7bd79817e"
+        },
+        "thag_url": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_url",
+          "sha256": "263d23491939e74e80d192872562f894be15771e31f3cc3684d02e189096785a"
+        },
+        "thag_version_bump": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_version_bump",
+          "sha256": "8c6225133c0b6a032d45e11b8a20ec58ff289639e347297121c5cb2932e3bfed"
+        },
+        "thag_winterm_add_theme": {
+          "path": "thag_rs-aarch64-apple-darwin/thag_winterm_add_theme",
+          "sha256": "433c363b61c7f8dae6679703b56484962490a6705186e1568c4569b35f26b771"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/durbanlegend/thag_rs/releases/download/v1.1.0/thag_rs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.0",
+      "sha256": "ce0e6188be62cd3379a8ba8dbd8e68759b8eb690937533c88171fc51651cd9e7",
+      "size": 41433393,
+      "format": "zip",
+      "binaries": {
+        "thag.exe": {
+          "path": "thag.exe",
+          "sha256": "88eb3cfcd2f535bb8c31f17dac48417fc44aafc6fa9db2b9c4ce402c6ae48fe6"
+        },
+        "thag_alacritty_add_theme.exe": {
+          "path": "thag_alacritty_add_theme.exe",
+          "sha256": "043e3281aeb839c89b387c0e3559aea42a466221b7aaf7b6cce09789bf587c4b"
+        },
+        "thag_ast.exe": {
+          "path": "thag_ast.exe",
+          "sha256": "d92f815597e4f589821748faa3fef1fa92790cb4d365fefdee5f81f5ef1e1e16"
+        },
+        "thag_cargo.exe": {
+          "path": "thag_cargo.exe",
+          "sha256": "71df4b5ff3289de864dd0ea8a2c2ce740088c70e1d60844d8bfc574b0765671b"
+        },
+        "thag_clean.exe": {
+          "path": "thag_clean.exe",
+          "sha256": "faae364149431a393a73097738ed8dd1a91cb1f1d9d300d1de3a39b79d12fad0"
+        },
+        "thag_clippy.exe": {
+          "path": "thag_clippy.exe",
+          "sha256": "f4a117d4f2f0982b5e49cc1b5d7cc0ccc6d82245fd5a87b40ef757f608b91727"
+        },
+        "thag_convert_themes.exe": {
+          "path": "thag_convert_themes.exe",
+          "sha256": "c1fbee1c1c04aa95c9df8c0b8ed18ffcd10bd3eaff1f5d8771a3f199c7ae0122"
+        },
+        "thag_convert_themes_alt.exe": {
+          "path": "thag_convert_themes_alt.exe",
+          "sha256": "653f417a2ebba43a4d390fea9c5cc8aa42acc11b9cae0b2acc11683f53b591eb"
+        },
+        "thag_copy.exe": {
+          "path": "thag_copy.exe",
+          "sha256": "6b78394c15c89d8f61cf902035264ebc66d0968fa233c35c6f9ff1bd2b3afc4d"
+        },
+        "thag_demo_help.exe": {
+          "path": "thag_demo_help.exe",
+          "sha256": "a90cf1fef0c775edaa14f8efae0d702bfb151496d335d5a04c707717e848ab65"
+        },
+        "thag_detect_term.exe": {
+          "path": "thag_detect_term.exe",
+          "sha256": "1329e954c9323a614fa6f13adf1dcd06b99b85a8ddceb38d3e6ba24b63c23de7"
+        },
+        "thag_edit_theme.exe": {
+          "path": "thag_edit_theme.exe",
+          "sha256": "0ffbd769d7505f07303dc4ab2be7d5d63b9dbfc3fd045c07b9dc62d6d1524a30"
+        },
+        "thag_expand.exe": {
+          "path": "thag_expand.exe",
+          "sha256": "ae7e381b6e792bd2f30f680d8f175a8c13290f76ef6d5491f6e272dfeb4d5d69"
+        },
+        "thag_find_demos.exe": {
+          "path": "thag_find_demos.exe",
+          "sha256": "96c4a8e9c67f679c187da76e7db0683077d669167b73025d7f0afa4197f24bf5"
+        },
+        "thag_from_rust_script.exe": {
+          "path": "thag_from_rust_script.exe",
+          "sha256": "c17865a2049ec1db06804a019156a6c917d2a2199d81ffcb7955025db91df207"
+        },
+        "thag_gen_config.exe": {
+          "path": "thag_gen_config.exe",
+          "sha256": "edb92e0cef8343f8cabf21b1b43d33833428ce30c1d6f067978104c9e24d6e01"
+        },
+        "thag_gen_errors.exe": {
+          "path": "thag_gen_errors.exe",
+          "sha256": "99b2473b7d2d381d64c297939abcb7f46b73a328e697319ce05bcf25ed918444"
+        },
+        "thag_gen_proc_macro_readme.exe": {
+          "path": "thag_gen_proc_macro_readme.exe",
+          "sha256": "6f3a0cd48b99f14f333faabe2a819ca61d183bf01b310884cd089dd3dec4d210"
+        },
+        "thag_gen_readme.exe": {
+          "path": "thag_gen_readme.exe",
+          "sha256": "6ad2f9afb931f06e078985d154bd4c545fe84ab0ac42da1dcbb77f2562ed370d"
+        },
+        "thag_gen_terminal_themes.exe": {
+          "path": "thag_gen_terminal_themes.exe",
+          "sha256": "8dad2cf315bbec64c66ca98e26b18e10be616210e298d00393e34113fc82f139"
+        },
+        "thag_get_demo_dir.exe": {
+          "path": "thag_get_demo_dir.exe",
+          "sha256": "2ba1f6a3865a3076a7d46186d43d9b798c081c0cd1b005961221c39c7c416560"
+        },
+        "thag_image_to_theme.exe": {
+          "path": "thag_image_to_theme.exe",
+          "sha256": "96fe7f38a6a932d85993688b04e70f5d98c4417cd881553e41913917e783f045"
+        },
+        "thag_legible.exe": {
+          "path": "thag_legible.exe",
+          "sha256": "8f67c12d622f8b17049acc8d5d3ac6f387972a624ef3c86af841ed123a92775c"
+        },
+        "thag_markdown.exe": {
+          "path": "thag_markdown.exe",
+          "sha256": "e7ce40d1dd049b3590de00e69b7cfd88079bdb4f9862e7e26e19d81108a16f3d"
+        },
+        "thag_migrate_tool.exe": {
+          "path": "thag_migrate_tool.exe",
+          "sha256": "8b521392ad9df26657a53773496c2acab179b8de739b4de5886eed27c6ae906a"
+        },
+        "thag_mintty_add_theme.exe": {
+          "path": "thag_mintty_add_theme.exe",
+          "sha256": "02f6c1e8f044319c28951372b68af5b07d1c07afafd4383dbb1fc5e44e582c60"
+        },
+        "thag_palette.exe": {
+          "path": "thag_palette.exe",
+          "sha256": "b226799cfb5b6f090103cebbafdf1259bd4593f69e0d0ce86d1f92a204eee3b3"
+        },
+        "thag_palette_vs_theme.exe": {
+          "path": "thag_palette_vs_theme.exe",
+          "sha256": "4247ad176f7d49511c2c56a2f1e0b35565ac19fce5593dedbfe4331c785cf6d9"
+        },
+        "thag_paste.exe": {
+          "path": "thag_paste.exe",
+          "sha256": "79e9c5c6d8fd6e217d65b8dae45750cde57ed2bfe2a9dd4bc54e99d876334834"
+        },
+        "thag_prompt.exe": {
+          "path": "thag_prompt.exe",
+          "sha256": "fcd9965f6db1282c2f25da4df92481bff23f550776d25f0f083c712f140fd994"
+        },
+        "thag_show_themes.exe": {
+          "path": "thag_show_themes.exe",
+          "sha256": "caf43650e19db895f0d1c99c06b7732a2ff5d2337511953e4f45f56d08f47d3d"
+        },
+        "thag_sync_palette.exe": {
+          "path": "thag_sync_palette.exe",
+          "sha256": "2a463c3b187f3467878cd71f167cfc636eb35c663eced81f514dfc68e92db93b"
+        },
+        "thag_terminal_theme_help.exe": {
+          "path": "thag_terminal_theme_help.exe",
+          "sha256": "1c8901c0e0755c7fb07c3624f17be266572a84045dadd9e4931be7a1c22cbc4d"
+        },
+        "thag_theme.exe": {
+          "path": "thag_theme.exe",
+          "sha256": "c1aa50e1ae9bf9e3120f4d108d9715b914258e044c55ed337fb371a68c219e3c"
+        },
+        "thag_to_rust_script.exe": {
+          "path": "thag_to_rust_script.exe",
+          "sha256": "7d40a2e1d8b1e9aa585f6b7147d620e2c86911f95544ea0e92bdbdf953ea2315"
+        },
+        "thag_url.exe": {
+          "path": "thag_url.exe",
+          "sha256": "da25d9b09140da10d00880a8265b6145507f04230f08ab9f577ae8a28f9fc991"
+        },
+        "thag_version_bump.exe": {
+          "path": "thag_version_bump.exe",
+          "sha256": "26b0caafcb26108c536c12987be3a0f0f630cae935375f6c49a55efac34a329f"
+        },
+        "thag_winterm_add_theme.exe": {
+          "path": "thag_winterm_add_theme.exe",
+          "sha256": "6fcde76f84d43ef6b0450afeb033b5811e46d39c3131045bfa7b85feac50c600"
+        }
+      }
+    }
+  }
+}
