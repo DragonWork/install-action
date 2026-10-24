@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "statime-linux",
+  "version": "0.4.0",
+  "repository": "pendulum-project/statime",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pendulum-project/statime/releases/download/v0.4.0/statime_0.4.0-1_amd64.deb",
+      "sha256": "9635066cec68a2f2b85c72e771a6effd20bf07f08537b431058a1b5b5d29054c",
+      "size": 1015948,
+      "format": "deb",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "statime": {
+          "path": "usr/bin/statime",
+          "sha256": "ded2c1bf9a1bc8b18aa32c778cfc8023f09362129771c113b5a51b370473a309"
+        },
+        "statime-metrics-exporter": {
+          "path": "usr/bin/statime-metrics-exporter",
+          "sha256": "9fd7b675c9587d69ceef48fdeba411e79c82ca7bd0ee66f51c1f9cea5b654cee"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pendulum-project/statime/releases/download/v0.4.0/statime_0.4.0-1_arm64.deb",
+      "sha256": "557f4bf7618414026a44b135dd0a0fe0f52ce1de34bf52a8270e43032096c880",
+      "size": 863916,
+      "format": "deb",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "statime": {
+          "path": "usr/bin/statime",
+          "sha256": "9a36502826907dc56cca4358cdc6d3c5f68a132e5c90934c2b19121a00c7346c"
+        },
+        "statime-metrics-exporter": {
+          "path": "usr/bin/statime-metrics-exporter",
+          "sha256": "c2378f62434300287b7f757e3e565cd750dd687e48317c2864b65eb169fd8273"
+        }
+      }
+    }
+  }
+}
