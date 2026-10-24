@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "blobtk",
+  "version": "0.8.4",
+  "repository": "genomehubs/blobtk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/genomehubs/blobtk/releases/download/0.8.4/blobtk-linux",
+      "sha256": "afc0a9d23a72a9aae19aef64e07ba10dc077d7d4ae656cb1c58142fef2f964c3",
+      "size": 20080864,
+      "format": "binary",
+      "releaseTag": "0.8.4",
+      "binaries": {
+        "blobtk": {
+          "path": "blobtk-linux",
+          "sha256": "afc0a9d23a72a9aae19aef64e07ba10dc077d7d4ae656cb1c58142fef2f964c3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/genomehubs/blobtk/releases/download/0.8.4/blobtk-macos-x64",
+      "sha256": "a60353d76731dd78cf88003d62495df27977229e21975bf06bf3eac1aa851a61",
+      "size": 17157924,
+      "format": "binary",
+      "releaseTag": "0.8.4",
+      "binaries": {
+        "blobtk": {
+          "path": "blobtk-macos-x64",
+          "sha256": "a60353d76731dd78cf88003d62495df27977229e21975bf06bf3eac1aa851a61"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/genomehubs/blobtk/releases/download/0.8.4/blobtk-macos-arm64",
+      "sha256": "cc08dfec5ec6c8974c013705fedfbfc9a470b37ddc6d15aac37a8cccc4657bd0",
+      "size": 14781328,
+      "format": "binary",
+      "releaseTag": "0.8.4",
+      "binaries": {
+        "blobtk": {
+          "path": "blobtk-macos-arm64",
+          "sha256": "cc08dfec5ec6c8974c013705fedfbfc9a470b37ddc6d15aac37a8cccc4657bd0"
+        }
+      }
+    }
+  }
+}
