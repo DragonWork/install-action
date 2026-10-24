@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "code-radio-cli",
+  "version": "1.0.6",
+  "repository": "JasonWei512/code-radio-cli",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/JasonWei512/code-radio-cli/releases/download/v1.0.6/code-radio-1.0.6-windows-x64.exe",
+      "releaseTag": "v1.0.6",
+      "sha256": "5cf1b2c022cfad6180dba4c4e351adf351c3a755e7b33653383dba67a4d880d5",
+      "size": 7631872,
+      "format": "binary",
+      "binaries": {
+        "code-radio.exe": {
+          "path": "code-radio-1.0.6-windows-x64.exe",
+          "sha256": "5cf1b2c022cfad6180dba4c4e351adf351c3a755e7b33653383dba67a4d880d5"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/JasonWei512/code-radio-cli/releases/download/v1.0.6/code-radio-1.0.6-windows-arm64.exe",
+      "releaseTag": "v1.0.6",
+      "sha256": "8e9e788667cca0a00b55140c1c8df92293c49bcf101d70e897225d9dc98a07bf",
+      "size": 6690816,
+      "format": "binary",
+      "binaries": {
+        "code-radio.exe": {
+          "path": "code-radio-1.0.6-windows-arm64.exe",
+          "sha256": "8e9e788667cca0a00b55140c1c8df92293c49bcf101d70e897225d9dc98a07bf"
+        }
+      }
+    }
+  }
+}
