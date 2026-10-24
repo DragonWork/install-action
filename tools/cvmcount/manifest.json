@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cvmcount",
+  "version": "1.0.1",
+  "repository": "urschrei/cvmcount",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/urschrei/cvmcount/releases/download/v1.0.1/cvmcount-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "9392ddd93c0510a298f2a0a3c62e946d3f04ff9d61f8efcf981cce16ce5744f0",
+      "size": 756944,
+      "format": "tar.xz",
+      "binaries": {
+        "cvmcount": {
+          "path": "cvmcount-x86_64-unknown-linux-gnu/cvmcount",
+          "sha256": "8dbb984d5f0a513a01a3a7e41d5cc18a5ec66ced897f3a139e81b6ff1a4fb1a6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/urschrei/cvmcount/releases/download/v1.0.1/cvmcount-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "7d023b52e04e11a4b82e8968d9d6a0c304efa84cec924c19850749bb5c8b9a44",
+      "size": 719932,
+      "format": "tar.xz",
+      "binaries": {
+        "cvmcount": {
+          "path": "cvmcount-x86_64-apple-darwin/cvmcount",
+          "sha256": "07c86987e857eb479b1183319f89e44dc4da6638791a3b4c1e71b9ec1d6d0fb6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/urschrei/cvmcount/releases/download/v1.0.1/cvmcount-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.1",
+      "sha256": "45cab98cd44d4ea8a33cb5d1bb4bed11c2f7a4b63b6e483bc7ab8f350c895874",
+      "size": 627224,
+      "format": "tar.xz",
+      "binaries": {
+        "cvmcount": {
+          "path": "cvmcount-aarch64-apple-darwin/cvmcount",
+          "sha256": "a6b40d804d6b910bf8fbe5bc0575962a295798fa008bbe42ca517ed0f676685a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/urschrei/cvmcount/releases/download/v1.0.1/cvmcount-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.1",
+      "sha256": "b7e5d55cbcc42bab798100db465fa1730af7a2e418a0bbc3a6737c0c0819f2ac",
+      "size": 2263110,
+      "format": "zip",
+      "binaries": {
+        "cvmcount.exe": {
+          "path": "cvmcount.exe",
+          "sha256": "6ba7f4375cb8fef60ac23ec3e4ba2d8397a1b15aba93449e23af1577cc41b3d0"
+        }
+      }
+    }
+  }
+}
