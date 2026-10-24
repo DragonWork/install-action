@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "systemfd",
+  "version": "0.4.6",
+  "repository": "mitsuhiko/systemfd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mitsuhiko/systemfd/releases/download/0.4.6/systemfd-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.4.6",
+      "sha256": "32a4c1a48580c93affaef23c31ed6ea6afe2afdd2d996af2ef042f1df6ee1953",
+      "size": 580948,
+      "format": "tar.xz",
+      "binaries": {
+        "systemfd": {
+          "path": "systemfd-x86_64-unknown-linux-musl/systemfd",
+          "sha256": "1bb632a829c612dea3c59220a65169e16c81226e71c749ddbfad36c5b97bd5cd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mitsuhiko/systemfd/releases/download/0.4.6/systemfd-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.4.6",
+      "sha256": "2a7d6775c8a87124eaa66c772c441212f60f2fb983b5e8995613223740f5e814",
+      "size": 511176,
+      "format": "tar.xz",
+      "binaries": {
+        "systemfd": {
+          "path": "systemfd-x86_64-apple-darwin/systemfd",
+          "sha256": "12f418527161ee5c5631cd71e78b62ed679f23851ed005f897bb8213b53b1c92"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mitsuhiko/systemfd/releases/download/0.4.6/systemfd-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.4.6",
+      "sha256": "ca1ddc2d7fb13bf4b3ba202ac44538098e96ca5bf175456dbba93f73843003ca",
+      "size": 463388,
+      "format": "tar.xz",
+      "binaries": {
+        "systemfd": {
+          "path": "systemfd-aarch64-apple-darwin/systemfd",
+          "sha256": "86c2d7a644c3ef0339a769dc9b3ee7b65b9b209eec1afa4a347a17f8c21509c2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mitsuhiko/systemfd/releases/download/0.4.6/systemfd-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.4.6",
+      "sha256": "3098ddc24d146f71d75b1c8042e78524d19eb6aacd44baf2e68ab95afbd6764d",
+      "size": 1477818,
+      "format": "zip",
+      "binaries": {
+        "systemfd.exe": {
+          "path": "systemfd.exe",
+          "sha256": "7b746b79d61844388714f264bbf7a3702172e8aa9e8293b5697f796fbddf89ce"
+        }
+      }
+    }
+  }
+}
