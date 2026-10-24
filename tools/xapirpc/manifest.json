@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "xapirpc",
+  "version": "0.9.0",
+  "repository": "mseri/xapirpc-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mseri/xapirpc-rs/releases/download/0.9.0/xapirpc-0.9.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.9.0",
+      "sha256": "03251d1c62e60e9135a49d35288ca9d3655fcc392da5e58b19c787cb2ad44596",
+      "size": 3383000,
+      "format": "tar.gz",
+      "binaries": {
+        "xapirpc": {
+          "path": "xapirpc",
+          "sha256": "3bcf5735779b77a435b37d853a896c7deafbe1b79541426020771e44eefe6eed"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mseri/xapirpc-rs/releases/download/0.9.0/xapirpc-0.9.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.9.0",
+      "sha256": "37db10a9ff57b442dda08883d501f9208105b557deea1929a37ecfe6cc534f06",
+      "size": 2319766,
+      "format": "tar.gz",
+      "binaries": {
+        "xapirpc": {
+          "path": "xapirpc",
+          "sha256": "4ad0f564553a382d9b1d7a1f7590fed12903d8acf48b9a2334303d1b3499dcad"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mseri/xapirpc-rs/releases/download/0.9.0/xapirpc-0.9.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.9.0",
+      "sha256": "724db6c6dce3234624250673413dea375ccc8c37715377efbedcdad161160850",
+      "size": 1479874,
+      "format": "tar.gz",
+      "binaries": {
+        "xapirpc": {
+          "path": "xapirpc",
+          "sha256": "e03f6dbb537f72e060734632a1e23fb2fe5cfd938bbd2cebf563478e29b1f488"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mseri/xapirpc-rs/releases/download/0.9.0/xapirpc-0.9.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.9.0",
+      "sha256": "3f3152c9fc0c8724fc330c9f1d5d8e42059d240776d72274ed2c28a74d8fc92e",
+      "size": 1060893,
+      "format": "zip",
+      "binaries": {
+        "xapirpc.exe": {
+          "path": "xapirpc.exe",
+          "sha256": "b1c06a021d266be2e0b6e48c0b0b0182e0293ea519d395591ab182054ee62409"
+        }
+      }
+    }
+  }
+}
