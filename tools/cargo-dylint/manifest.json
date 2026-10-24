@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-dylint",
+  "version": "6.2.0",
+  "repository": "trailofbits/dylint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.2.0/cargo-dylint-x86_64-unknown-linux-gnu-v6.2.0.tar.gz",
+      "releaseTag": "v6.2.0",
+      "sha256": "a09b34657f297483246d808c4b5ff8df483660237ad4ff3542d8cd4c29cdf2fd",
+      "size": 3531087,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-dylint": {
+          "path": "cargo-dylint-x86_64-unknown-linux-gnu-v6.2.0/cargo-dylint",
+          "sha256": "e26b3f6f6d1ef625ea3335488d3472bdb171a17f6578ef61d3923b6f0d36e0f0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.2.0/cargo-dylint-aarch64-unknown-linux-gnu-v6.2.0.tar.gz",
+      "releaseTag": "v6.2.0",
+      "sha256": "f1fff027c868cbcbc924a49797eeb475350ae450485c06ee1a4b64c72ded8f46",
+      "size": 3479105,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-dylint": {
+          "path": "cargo-dylint-aarch64-unknown-linux-gnu-v6.2.0/cargo-dylint",
+          "sha256": "1723c089ac5a9c2c0c6f459d302b717fb20090b21693e88f32fa40f2f717013b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.2.0/cargo-dylint-aarch64-apple-darwin-v6.2.0.tar.gz",
+      "releaseTag": "v6.2.0",
+      "sha256": "0a893a86406bc44a7acfdfbb23bcc3de3f457aa28974a3f64cd90d8f0c3aa82b",
+      "size": 3112875,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-dylint": {
+          "path": "cargo-dylint-aarch64-apple-darwin-v6.2.0/cargo-dylint",
+          "sha256": "b9c17ecafcb63ceced9a41aff1fcbcb4f2a55465b587bbe55e8340af6b0f302e"
+        }
+      }
+    }
+  }
+}
