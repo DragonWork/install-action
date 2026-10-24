@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "dev-scope",
+  "version": "2024.2.21",
+  "repository": "Gusto/scope",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Gusto/scope/releases/download/v2024.2.21/dev-scope-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v2024.2.21",
+      "sha256": "54a8f85cd53bf7c1f66043279b2530378ea4ffc956a829162e539a9c982085e7",
+      "size": 7953812,
+      "format": "tar.xz",
+      "binaries": {
+        "scope": {
+          "path": "dev-scope-x86_64-unknown-linux-musl/scope",
+          "sha256": "51381b7f97f2541900ce832ef0f5c90efa01d5ce103ff09a3ce4d99bf2f87342"
+        },
+        "scope-intercept": {
+          "path": "dev-scope-x86_64-unknown-linux-musl/scope-intercept",
+          "sha256": "b43e04d78c43a6744dc5d906bca471a29ec1cf230ae03c0ba1e3a28e36bb18b8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Gusto/scope/releases/download/v2024.2.21/dev-scope-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2024.2.21",
+      "sha256": "b9d95076b5ab3200c9f879985b9ff44de960778aad0e5f0c0cad378b17c94678",
+      "size": 7995052,
+      "format": "tar.xz",
+      "binaries": {
+        "scope": {
+          "path": "dev-scope-aarch64-unknown-linux-gnu/scope",
+          "sha256": "bc7114c3e213cdc24e2ef40fa146c30e66688da679baf2475bb5f90e027cf005"
+        },
+        "scope-intercept": {
+          "path": "dev-scope-aarch64-unknown-linux-gnu/scope-intercept",
+          "sha256": "872948489300d6b760c646d653edb8f79b78857d1920fe32b756d65254b407fe"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Gusto/scope/releases/download/v2024.2.21/dev-scope-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v2024.2.21",
+      "sha256": "2dc094c8ae94ca1ad28991fc9bfaa231ee939f71f9816f0ba4f3161f2fed9e37",
+      "size": 4500968,
+      "format": "tar.xz",
+      "binaries": {
+        "scope": {
+          "path": "dev-scope-x86_64-apple-darwin/scope",
+          "sha256": "565201f1953057e35d6a90a42502e482b50bd40aa8132919084577b681d12e1f"
+        },
+        "scope-intercept": {
+          "path": "dev-scope-x86_64-apple-darwin/scope-intercept",
+          "sha256": "0fa8141a8c2360c9878ed57d50de4fe880747093a3b987b8e3accfc7bf33cb88"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Gusto/scope/releases/download/v2024.2.21/dev-scope-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2024.2.21",
+      "sha256": "f419aeedcf6714b77c17271f157f2603bca59e892c02d81078abbb61b5a49dd0",
+      "size": 4262564,
+      "format": "tar.xz",
+      "binaries": {
+        "scope": {
+          "path": "dev-scope-aarch64-apple-darwin/scope",
+          "sha256": "79ec70781fcb4d607a8507b2ba7f2aa87b478dba96797b8c0355d33b4f02ed25"
+        },
+        "scope-intercept": {
+          "path": "dev-scope-aarch64-apple-darwin/scope-intercept",
+          "sha256": "a37497d843649113a6c7d817dec9991ee25d657e0efd3a6d3de1b659acd85e99"
+        }
+      }
+    }
+  }
+}
