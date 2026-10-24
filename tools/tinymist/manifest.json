@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "tinymist",
+  "version": "0.13.22",
+  "repository": "Myriad-Dreamin/tinymist",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.13.22/tinymist-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.13.22",
+      "sha256": "f1fd655830fbd442831138eed8154c3ef5e9e636e62b3deb320d5583a1b064c2",
+      "size": 26289500,
+      "format": "tar.gz",
+      "binaries": {
+        "tinymist": {
+          "path": "tinymist-x86_64-unknown-linux-musl/tinymist",
+          "sha256": "9b38a9b0ddc58944c035ab1a58ad873a1fd4e2ca0ffe6b5569b57cc8e08c373c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.13.22/tinymist-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.13.22",
+      "sha256": "1e4ed94688ce9ed066d61deb6df23878f843501212691d38d3e77801edca143c",
+      "size": 23416649,
+      "format": "tar.gz",
+      "binaries": {
+        "tinymist": {
+          "path": "tinymist-aarch64-unknown-linux-musl/tinymist",
+          "sha256": "043037239cc7c5c3894a0a6c2390fb1679e29a6ba5e9068d05d6677161b120a3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.13.22/tinymist-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.22",
+      "sha256": "94094c5719f0acf635f1e6aad151a41cd57b78d1441cce74defcda09e51ce936",
+      "size": 25576489,
+      "format": "tar.gz",
+      "binaries": {
+        "tinymist": {
+          "path": "tinymist-x86_64-apple-darwin/tinymist",
+          "sha256": "6e43da7843191069b8e4e12da4094c437024cabf55ec673a481cf40498108e4f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.13.22/tinymist-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.22",
+      "sha256": "10313b787fda091d072c20ad4127db09a705c925465b640b6578f5deffeaf52e",
+      "size": 24352943,
+      "format": "tar.gz",
+      "binaries": {
+        "tinymist": {
+          "path": "tinymist-aarch64-apple-darwin/tinymist",
+          "sha256": "6c067f032b0b04715b1af2d16ee334da83dedad8d56abcfe17bde9bba8f8dc88"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.13.22/tinymist-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.13.22",
+      "sha256": "137c5b117a82b91de7f10c97e0f68e8110434c0b6f850ad326fb3e59e003bb82",
+      "size": 50548346,
+      "format": "zip",
+      "binaries": {
+        "tinymist.exe": {
+          "path": "tinymist.exe",
+          "sha256": "aec7ca616d0190579a8e0aa6130a63d84912e9bc491bf7d2f86d3884eb0cbeef"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.13.22/tinymist-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.13.22",
+      "sha256": "b578d8cafc6bcd58c876c290fb1f097308ce25351bbb1605f23d16fdf627423d",
+      "size": 46210682,
+      "format": "zip",
+      "binaries": {
+        "tinymist.exe": {
+          "path": "tinymist.exe",
+          "sha256": "4b196376699dc28fad541c0b14830ce2f8db9743ee0ef0f8ca2172866f2f3cd4"
+        }
+      }
+    }
+  }
+}
