@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "sufr",
+  "version": "0.7.12",
+  "repository": "TravisWheelerLab/sufr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/TravisWheelerLab/sufr/releases/download/sufr-v0.7.12/sufr-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "sufr-v0.7.12",
+      "sha256": "6d6cce7a93584776cebf9cebdb780e6b2b02543ebfacffcfa8449105040d58ba",
+      "size": 1791114,
+      "format": "tar.gz",
+      "binaries": {
+        "sufr": {
+          "path": "sufr",
+          "sha256": "597ddcc5d65cae327255d507f59144daa67343dd8fc5422ef170ed466f418eb1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/TravisWheelerLab/sufr/releases/download/sufr-v0.7.12/sufr-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "sufr-v0.7.12",
+      "sha256": "cc41c6c69cebbf862e8da8342b095544dfe846492b83bf784784e5643d08402d",
+      "size": 1674177,
+      "format": "tar.gz",
+      "binaries": {
+        "sufr": {
+          "path": "sufr",
+          "sha256": "cf6c0a260096b8ee287d738a02085f18b6ef3be73c064e67621fa09394cbb647"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/TravisWheelerLab/sufr/releases/download/sufr-v0.7.12/sufr-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "sufr-v0.7.12",
+      "sha256": "d3fb0286ea9dd2483b061cfc22d3520f9f95dee0f3c87b10f41713a74dadc4db",
+      "size": 1430603,
+      "format": "zip",
+      "binaries": {
+        "sufr.exe": {
+          "path": "sufr.exe",
+          "sha256": "af6fa15a01b8d4918d3036ed7fd8052425b0a0ad55f0b521341057db5076d3b7"
+        }
+      }
+    }
+  }
+}
