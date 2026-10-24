@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-vendor",
+  "version": "0.1.23",
+  "repository": "alexcrichton/cargo-vendor",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alexcrichton/cargo-vendor/releases/download/0.1.23/cargo-vendor-0.1.23-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.1.23",
+      "sha256": "efc940741b5b56eb39eea032d564564bb7acc775c02ac8f2028b7ed83a60d442",
+      "size": 5467808,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-vendor": {
+          "path": "cargo-vendor-0.1.23-x86_64-unknown-linux-musl/cargo-vendor",
+          "sha256": "239c109323a70dd6207231a8637b8f1fdff45694af5f3f471d59fac04f8eba3d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/alexcrichton/cargo-vendor/releases/download/0.1.23/cargo-vendor-0.1.23-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.1.23",
+      "sha256": "a04d0a1bb357ed2704bd7c09042f01528287b18c908bf22d9d803f937a9d5e4d",
+      "size": 3701979,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-vendor": {
+          "path": "cargo-vendor-0.1.23-x86_64-apple-darwin/cargo-vendor",
+          "sha256": "89d29e7a132b43fc77459300e6c7764f89a5dd2bde0fe03ee53dc33b1c63fbdc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/alexcrichton/cargo-vendor/releases/download/0.1.23/cargo-vendor-0.1.23-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.1.23",
+      "sha256": "c461f8518dcfe225f681d16b9a2eb3df35555b7e00e7373514eaf0d51e06349b",
+      "size": 2996264,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-vendor.exe": {
+          "path": "cargo-vendor-0.1.23-x86_64-pc-windows-msvc/cargo-vendor.exe",
+          "sha256": "d1d1051d0a81a9d5ef922ff446c99c6b8b8d6f7069c4f4d355ca70c5af5fc853"
+        }
+      }
+    }
+  }
+}
