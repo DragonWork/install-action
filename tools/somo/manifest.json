@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "somo",
+  "version": "1.4.0",
+  "repository": "theopfr/somo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/theopfr/somo/releases/download/v1.4.0/somo-1.4.0-11-21aeabb8b2e02a7b76fda81e9dd72f88083835f8.deb",
+      "sha256": "e6d4adcf1b54e17a387cf5b1a049ef7c91ba2188f10eb90e159934c3356b45f7",
+      "size": 804056,
+      "format": "deb",
+      "releaseTag": "v1.4.0",
+      "binaries": {
+        "somo": {
+          "path": "./usr/bin/somo",
+          "sha256": "5987f058eec3478a56717ab1b4a14475b18aef9320a465d06778f36432a9ae2b"
+        }
+      }
+    }
+  }
+}
