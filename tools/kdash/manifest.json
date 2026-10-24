@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "kdash",
+  "version": "2.1.1",
+  "repository": "kdash-rs/kdash",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/kdash-rs/kdash/releases/download/v2.1.1/kdash-macos-arm64.tar.gz",
+      "releaseTag": "v2.1.1",
+      "sha256": "9090a94d6fdd31c1142238330aa9a175fa5e3020706d5ed503ba32e9e8a15abf",
+      "size": 5692576,
+      "format": "tar.gz",
+      "binaries": {
+        "kdash": {
+          "path": "kdash",
+          "sha256": "4f7ea284809e3d9e69c204615632be0d066ec91d61bf1e05ae336205bbeb1d62"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/kdash-rs/kdash/releases/download/v2.1.1/kdash-windows-aarch64.tar.gz",
+      "releaseTag": "v2.1.1",
+      "sha256": "17187aef22ef5c3a23a82490b726d66ed3a802e008bfeb7762fb98d64e9a60bd",
+      "size": 5987715,
+      "format": "tar.gz",
+      "binaries": {
+        "kdash.exe": {
+          "path": "kdash.exe",
+          "sha256": "3516107b1be0fbe04884f5947e558bd8056516302ddcf411c13a5eadbc30bacf"
+        }
+      }
+    }
+  }
+}
