@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "maelstrom-broker",
+  "version": "0.14.0",
+  "repository": "maelstrom-software/maelstrom",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-broker-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.14.0",
+      "sha256": "4d6590936cc4464d7d4a5caee011983b5096c520ca174ec13795a3d678679087",
+      "size": 2537688,
+      "format": "tar.gz",
+      "binaries": {
+        "maelstrom-broker": {
+          "path": "maelstrom-broker",
+          "sha256": "69a9400c49800fe90d5fb77fcaf68b4583e2876e7b3adff3e13f34fa98778aaa"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/maelstrom-broker-aarch64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.14.0",
+      "sha256": "df0f03fc3d4d77ca3d22288a9795258a2bc9625e6e123038f01ffb0ee45bb2d4",
+      "size": 2619606,
+      "format": "tar.gz",
+      "binaries": {
+        "maelstrom-broker": {
+          "path": "maelstrom-broker",
+          "sha256": "82610a15f2b03fc44eea68bf18cb0393f319bed6c2271ce4c59f6e7b84cf98ac"
+        }
+      }
+    }
+  }
+}
