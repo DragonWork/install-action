@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "cargo-risczero",
+  "version": "3.0.6",
+  "repository": "risc0/risc0",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/risc0/risc0/releases/download/v3.0.6/cargo-risczero-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v3.0.6",
+      "sha256": "615d961bfb81d318db5071d7548389c850e324ac7f421c075176daf26082a60a",
+      "size": 72347320,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-risczero": {
+          "path": "cargo-risczero",
+          "sha256": "f4215df6cb521a922cb3539a33fae286f73d6814b40619dadd10733102213bfc"
+        },
+        "r0vm": {
+          "path": "r0vm",
+          "sha256": "751b9b188d341e8bec5e02060086b7b1dc3f7289e90f726c38589bb6735dd6d7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/risc0/risc0/releases/download/v3.0.6/cargo-risczero-aarch64-apple-darwin.tgz",
+      "releaseTag": "v3.0.6",
+      "sha256": "efd2f26434ec60ca6c1b6a1398c00dfea7fb5e0cbac09aa99a504b6bd592f38b",
+      "size": 70632246,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-risczero": {
+          "path": "cargo-risczero",
+          "sha256": "0d95fd7ad03dd2979f9111df377e15a25c65364411ba452f9a964d762fbe89e3"
+        },
+        "r0vm": {
+          "path": "r0vm",
+          "sha256": "dce243fc350c17cb6ca34b9b82fb8c3098aa1e3a8da7ef0b98a837cc437c2cff"
+        }
+      }
+    }
+  }
+}
