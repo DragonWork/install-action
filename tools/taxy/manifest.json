@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "taxy",
+  "version": "0.3.40",
+  "repository": "picoHz/taxy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/picoHz/taxy/releases/download/v0.3.40/taxy-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.3.40",
+      "sha256": "96e4d70e90e9eaf89427773507ca6c097d0c86f234a1fec65aae235956be62b2",
+      "size": 6225428,
+      "format": "tar.xz",
+      "binaries": {
+        "taxy": {
+          "path": "taxy",
+          "sha256": "2e0c23c1eae00d9638232b07e7211baf394c21490d671db4d028affdc4fe2b6b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/picoHz/taxy/releases/download/v0.3.40/taxy-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.3.40",
+      "sha256": "811aab5caf0a3a6bdede9ef1a408d1c58f47e007cf372182e21cba5ffe693fb9",
+      "size": 5381224,
+      "format": "tar.xz",
+      "binaries": {
+        "taxy": {
+          "path": "taxy",
+          "sha256": "042c0fe91b1f4311b835055e095f542bb114d337fe42624653a10be7d3096647"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/picoHz/taxy/releases/download/v0.3.40/taxy-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.40",
+      "sha256": "e8e561c4032b24e336b9aa4dfd5ab8d46e8b66a3e37c287a967d7104f75432ee",
+      "size": 5244348,
+      "format": "tar.xz",
+      "binaries": {
+        "taxy": {
+          "path": "taxy",
+          "sha256": "b11fbab1f3e86564f71446ca3cf79619e2461155e593a400e19bac4ce000309c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/picoHz/taxy/releases/download/v0.3.40/taxy-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.40",
+      "sha256": "091a7bc83df1c7d4df52896be98502a5951885a7f07c7abfae53f108267e7e42",
+      "size": 5244256,
+      "format": "tar.xz",
+      "binaries": {
+        "taxy": {
+          "path": "taxy",
+          "sha256": "cf591f9005d9961193801532b0815728827170b0887fbce4087d297f1ed32ad2"
+        }
+      }
+    }
+  }
+}
