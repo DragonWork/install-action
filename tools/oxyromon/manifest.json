@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "oxyromon",
+  "version": "0.24.0",
+  "repository": "alucryd/oxyromon",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/alucryd/oxyromon/releases/download/0.24.0/oxyromon.x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.24.0",
+      "sha256": "c400606a1ac19b04ec2a54b11152d953e5113e075837b9910c52187d91dd3649",
+      "size": 6582344,
+      "format": "tar.xz",
+      "binaries": {
+        "oxyromon": {
+          "path": "target/x86_64-apple-darwin/release/oxyromon",
+          "sha256": "e76afff29155269dad66ff4208ed624d081cc41f65d8e97a5338f4ea49a45d6f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/alucryd/oxyromon/releases/download/0.24.0/oxyromon.aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.24.0",
+      "sha256": "ed7ab38b9a0e51b75051663b90bf4aeb62bfc2abef92435a76506e6e22d94df9",
+      "size": 5560132,
+      "format": "tar.xz",
+      "binaries": {
+        "oxyromon": {
+          "path": "target/aarch64-apple-darwin/release/oxyromon",
+          "sha256": "3ee1632a0fb90e9571e5c7f5b6c1a8b4348d65351399342aac1ae89b7f8e8816"
+        }
+      }
+    }
+  }
+}
