@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rust-script",
+  "version": "0.36.0",
+  "repository": "fornwall/rust-script",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fornwall/rust-script/releases/download/0.36.0/rust-script-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.36.0",
+      "sha256": "d6d0e0617f4a9e0dffdc1d9af84f62c77c39bb0504d00457889655c50f80096c",
+      "size": 1451910,
+      "format": "tar.gz",
+      "binaries": {
+        "rust-script": {
+          "path": "rust-script",
+          "sha256": "c1a032991e0584a1091fd51055597028512a758d5ca0bc2da29565d0d9eadaef"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/fornwall/rust-script/releases/download/0.36.0/rust-script-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.36.0",
+      "sha256": "0043273166d64c94945cee4a3c593f6741cb186be291418b499b420ce88b66ad",
+      "size": 1326900,
+      "format": "tar.gz",
+      "binaries": {
+        "rust-script": {
+          "path": "rust-script",
+          "sha256": "809b119911c87bf81bfea319e6e7b6f93a10874c88f63e5861d9119fe54aaae2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/fornwall/rust-script/releases/download/0.36.0/rust-script-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.36.0",
+      "sha256": "9c5971131289da92c170f2393e7eaffb33f44dae81c81bfc61d68705ec8ea569",
+      "size": 1313626,
+      "format": "tar.gz",
+      "binaries": {
+        "rust-script": {
+          "path": "rust-script",
+          "sha256": "24330edcac2e8f393e371283e9f76fafc095a10521e3457ff3b6e32f5a383e6e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/fornwall/rust-script/releases/download/0.36.0/rust-script-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.36.0",
+      "sha256": "bd0ae17d4a7969c18840b2bc2e5723b4a271da05205ff221aca5b31c9242876e",
+      "size": 1222554,
+      "format": "tar.gz",
+      "binaries": {
+        "rust-script": {
+          "path": "rust-script",
+          "sha256": "85b47b45a956cb0090deee619f32c301b4c3db2b769aecbe3873c0ff231684e8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/fornwall/rust-script/releases/download/0.36.0/rust-script-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.36.0",
+      "sha256": "9c724d7708929b53b68003e82a9eb0324870615aa6919bf25b7bf898b2c750c5",
+      "size": 1185828,
+      "format": "zip",
+      "binaries": {
+        "rust-script.exe": {
+          "path": "rust-script.exe",
+          "sha256": "1742a8c57dc8dbaa67721aa86c4eb3c49be4d480dccc4dd0aa270d26c00f5a73"
+        }
+      }
+    }
+  }
+}
