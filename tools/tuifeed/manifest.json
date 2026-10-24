@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tuifeed",
+  "version": "0.4.2",
+  "repository": "veeso/tuifeed",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/veeso/tuifeed/releases/download/v0.4.2/tuifeed-v0.4.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "75b0e2173ad491587ea986d9b18c5c45cbc70d0f6c2ed2930d569ea0bf67e9af",
+      "size": 3381686,
+      "format": "tar.gz",
+      "binaries": {
+        "tuifeed": {
+          "path": "tuifeed",
+          "sha256": "7a074f27479bc50bfbb3c191b49259e824f7f0ec09cfd96f99f4ee7b48fb5eb8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/veeso/tuifeed/releases/download/v0.4.2/tuifeed-v0.4.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "5549b776b315e7b5514e7638f7c90192d1bafff601105105ca8b5e4b253c20fa",
+      "size": 3269524,
+      "format": "tar.gz",
+      "binaries": {
+        "tuifeed": {
+          "path": "tuifeed",
+          "sha256": "97a519acd0619b638ac02642919c665c6b4974499d17c701e9ca6ddce680be4d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/veeso/tuifeed/releases/download/v0.4.2/tuifeed-v0.4.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "360c9eb61297204d30c9633cf9fd41814c83247a3a1582c83bc5ba416050cca6",
+      "size": 3107207,
+      "format": "tar.gz",
+      "binaries": {
+        "tuifeed": {
+          "path": "tuifeed",
+          "sha256": "beb63ab476297d823e6a7be4078f72d88b23635d120ba373d09bd5b8ea8a93cc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/veeso/tuifeed/releases/download/v0.4.2/tuifeed-v0.4.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "9fda00690a6e75c06bc14a3544886ab9b5578de6878783b8bd6adbb659d714f9",
+      "size": 3002836,
+      "format": "tar.gz",
+      "binaries": {
+        "tuifeed": {
+          "path": "tuifeed",
+          "sha256": "1620d1946219b3dd9ca4806294116a317bbc5bfdbd744c067f26d9600d04fdb8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/veeso/tuifeed/releases/download/v0.4.2/tuifeed-v0.4.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.2",
+      "sha256": "396984facb7c469141b67a16064fa4f40ebec34d0f2a08834f968913a8cfa804",
+      "size": 2661324,
+      "format": "zip",
+      "binaries": {
+        "tuifeed.exe": {
+          "path": "tuifeed.exe",
+          "sha256": "954790643f9946024695da7d774e9388a8ba711407ca316e4afe6bd0903a6fc4"
+        }
+      }
+    }
+  }
+}
