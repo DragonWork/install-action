@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "lolcate-rs",
+  "version": "0.10.0",
+  "repository": "ngirard/lolcate-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ngirard/lolcate-rs/releases/download/v0.10.0/lolcate--x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "11651a71d2c1426d4cc4cd9c0d78c160ad0d29187de14e75c3f36ab24e0af421",
+      "size": 1049703,
+      "format": "tar.gz",
+      "binaries": {
+        "lolcate": {
+          "path": "lolcate--x86_64-unknown-linux-musl/lolcate",
+          "sha256": "63307852350d0ea35177eb18e88a6fab9ad9a0b6fa52d01f7ab26b9c71b29a79"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ngirard/lolcate-rs/releases/download/v0.10.0/lolcate--x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "080ff0f15f07a6bd4465b206b68248b73629d1a0745be520e7c44b94d3083dba",
+      "size": 954159,
+      "format": "tar.gz",
+      "binaries": {
+        "lolcate": {
+          "path": "lolcate--x86_64-apple-darwin/lolcate",
+          "sha256": "112713699f4470547a07917cb5132adfdd3de8123ec16c1f3ce4707bcbcceb6d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ngirard/lolcate-rs/releases/download/v0.10.0/lolcate--x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "0f751dbeff97e3a186bd924b39cce530a2aed37219dd7927f487183586967eb7",
+      "size": 929577,
+      "format": "zip",
+      "binaries": {
+        "lolcate.exe": {
+          "path": "lolcate.exe",
+          "sha256": "65762f4d5bd2af1b4852a289eff65e77f20cf8a4fffab3b8f0a6222dcdc64596"
+        }
+      }
+    }
+  }
+}
