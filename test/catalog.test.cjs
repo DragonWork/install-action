@@ -1,0 +1,46 @@
+'use strict';
+
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const { catalogIndex } = require('../scripts/build-catalog.cjs');
+const { sample } = require('./fixtures.cjs');
+
+test('catalog pins come from installer and tool version tags, with yank status retained', () => {
+  const { manifest } = sample();
+  const refs = new Map([
+    ['v1.0.3', 'a'.repeat(40)], ['v1.1.0', 'b'.repeat(40)],
+    ['sample-cli/v1.0.0', 'c'.repeat(40)], ['other/v99.0.0', 'd'.repeat(40)],
+  ]);
+  const data = catalogIndex([manifest], refs, { schema: 2, yanked: { 'sample-cli': ['1.0.0'] } });
+  assert.deepEqual(data.engine, { version: '1.1.0', sha: 'b'.repeat(40) });
+  assert.equal(data.tools[0].sha, 'c'.repeat(40));
+  assert.equal(data.tools[0].yanked, true);
+  refs.delete('sample-cli/v1.0.0');
+  assert.throws(() => catalogIndex([manifest], refs, { schema: 2, yanked: {} }), /Missing version tag/);
+  manifest.name = 'constructor';
+  refs.set('constructor/v1.0.0', 'e'.repeat(40));
+  assert.equal(catalogIndex([manifest], refs, { schema: 2, yanked: {} }).tools[0].yanked, false);
+});
+
+test('search combines crate names, executable names, and platform filters', async () => {
+  const { filterTools } = await import('../site/catalog.mjs');
+  const tools = [
+    { name: 'git-cliff', binaries: ['git-cliff', 'git-cliff-mangen'], platforms: ['linux-x64', 'darwin-arm64'] },
+    { name: 'b3sum', binaries: ['b3sum'], platforms: ['linux-x64'] },
+  ];
+  assert.deepEqual(filterTools(tools, ' GIT cliff ', 'darwin-arm64'), [tools[0]]);
+  assert.deepEqual(filterTools(tools, 'mangen', ''), [tools[0]]);
+  assert.deepEqual(filterTools(tools, 'b3sum', 'darwin-arm64'), []);
+  assert.deepEqual(filterTools(tools, '', ''), tools);
+});
+
+test('copyable steps use independent full SHAs and reject malformed references', async () => {
+  const { installationSteps } = await import('../site/catalog.mjs');
+  const engine = { version: '1.1.0', sha: 'a'.repeat(40) };
+  const tool = { name: 'git-cliff', version: '2.14.2', sha: 'b'.repeat(40) };
+  const snippet = installationSteps(engine, tool);
+  assert(snippet.includes(`DragonWork/install-action@${engine.sha} # v1.1.0`));
+  assert(snippet.includes(`DragonWork/install-action/tools/git-cliff@${tool.sha} # git-cliff/v2.14.2`));
+  assert.throws(() => installationSteps(engine, { ...tool, sha: 'main' }));
+  assert.throws(() => installationSteps(engine, { ...tool, name: 'git-cliff\nrun: injected' }));
+});

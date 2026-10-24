@@ -1,11 +1,11 @@
 {
   "name": "dragonwork-install-action",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "private": true,
   "license": "Apache-2.0",
   "engines": { "node": ">=24" },
   "scripts": {
-    "test": "node --test --test-concurrency=3 test/install.test.cjs test/publish.test.cjs",
+    "test": "node --test --test-concurrency=3 test/install.test.cjs test/publish.test.cjs test/catalog.test.cjs",
     "check": "node scripts/check.cjs",
     "update": "node scripts/update-tools.cjs"
   }

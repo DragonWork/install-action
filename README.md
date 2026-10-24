@@ -1,5 +1,7 @@
 # DragonWork/install-action
 
+Currently supports only prebuilt CLI tools from crates.io.
+
 ```yaml
 steps:
   - uses: DragonWork/install-action@8f0613727037c354494bc39370abc6c1b8bd82d7 # v1.0.3
