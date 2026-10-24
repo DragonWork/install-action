@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "xh",
+  "version": "0.26.3",
+  "repository": "ducaale/xh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.26.3",
+      "sha256": "cbbf53bd76007d57d95e4bed8ba7fb3b7fcec22af4bdfc1ff119cd5de351e74f",
+      "size": 4655245,
+      "format": "tar.gz",
+      "binaries": {
+        "xh": {
+          "path": "xh-v0.26.3-x86_64-unknown-linux-musl/xh",
+          "sha256": "188e67ca70b7b8e4d894803b5bd8b4e0fc2a1616d6c5527587454f1f67d86c08"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.26.3",
+      "sha256": "a45d8cb6c234c6850f9fc2395fc3544ab7691fb511237f00179aedba1bcd525e",
+      "size": 4253886,
+      "format": "tar.gz",
+      "binaries": {
+        "xh": {
+          "path": "xh-v0.26.3-aarch64-unknown-linux-musl/xh",
+          "sha256": "a0416bbaaa5b49c9cc332a7ffbb52c14ff2a88d4e95c1c9e48c18f617bad6a80"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.26.3",
+      "sha256": "b1c07e42238485bdcbed0982766f58b4daa631f0a33870100054ef5fbb4a3c4b",
+      "size": 4458554,
+      "format": "tar.gz",
+      "binaries": {
+        "xh": {
+          "path": "xh-v0.26.3-x86_64-apple-darwin/xh",
+          "sha256": "424514341fe9aab48d61824ffa604e53c3ac2ec71c71fcf4e82ced4748f4d755"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.26.3",
+      "sha256": "50d61bd755942752b054297a1612ec191654f137f8939673cda83c686cb5b0f2",
+      "size": 4188110,
+      "format": "tar.gz",
+      "binaries": {
+        "xh": {
+          "path": "xh-v0.26.3-aarch64-apple-darwin/xh",
+          "sha256": "ea62f476d76bdfd401e56bdee8fb2630d447aeb843b7c5fdde8bcd3de86b391d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.26.3",
+      "sha256": "23d92fd78ff6a93c4e1c4de3a6b614bb8a31999acb441793630bcc37f9cd6c45",
+      "size": 4367226,
+      "format": "zip",
+      "binaries": {
+        "xh.exe": {
+          "path": "xh-v0.26.3-x86_64-pc-windows-msvc/xh.exe",
+          "sha256": "ee3192b55c99bdce163ff8808335925176f40a5e5ed3fcf377096abef603c7d0"
+        }
+      }
+    }
+  }
+}
