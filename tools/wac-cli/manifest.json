@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wac-cli",
+  "version": "0.12.0",
+  "repository": "bytecodealliance/wac",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/wac/releases/download/v0.12.0/wac-cli-x86_64-unknown-linux-musl",
+      "sha256": "7cd490edbd452221ef89e6750fc43eacc9b71b1242095eb577cb9a3bf0d3beda",
+      "size": 22922992,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "wac": {
+          "path": "wac-cli-x86_64-unknown-linux-musl",
+          "sha256": "7cd490edbd452221ef89e6750fc43eacc9b71b1242095eb577cb9a3bf0d3beda"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/wac/releases/download/v0.12.0/wac-cli-aarch64-unknown-linux-musl",
+      "sha256": "80fe01c4cbf1e59526069d46f51a8a396be6f8df09ecc060d949181a317c08f5",
+      "size": 22082352,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "wac": {
+          "path": "wac-cli-aarch64-unknown-linux-musl",
+          "sha256": "80fe01c4cbf1e59526069d46f51a8a396be6f8df09ecc060d949181a317c08f5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/wac/releases/download/v0.12.0/wac-cli-x86_64-apple-darwin",
+      "sha256": "805ff57132b81dfcd1f25632e5928eac1d5a1e1a32dead48e73f108571da4e17",
+      "size": 16802456,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "wac": {
+          "path": "wac-cli-x86_64-apple-darwin",
+          "sha256": "805ff57132b81dfcd1f25632e5928eac1d5a1e1a32dead48e73f108571da4e17"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/wac/releases/download/v0.12.0/wac-cli-aarch64-apple-darwin",
+      "sha256": "891af0e6d591481daed3a7c52a3dc20fd34cc326e6e955d4c8fd85c4b1835e3d",
+      "size": 16355936,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "wac": {
+          "path": "wac-cli-aarch64-apple-darwin",
+          "sha256": "891af0e6d591481daed3a7c52a3dc20fd34cc326e6e955d4c8fd85c4b1835e3d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/wac/releases/download/v0.12.0/wac-cli-x86_64-pc-windows-gnu",
+      "sha256": "33d92a2a73db1f8de69538038e594a14cc8f9e6feb8138bf29fdaf2598d425d9",
+      "size": 32922029,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "wac.exe": {
+          "path": "wac-cli-x86_64-pc-windows-gnu",
+          "sha256": "33d92a2a73db1f8de69538038e594a14cc8f9e6feb8138bf29fdaf2598d425d9"
+        }
+      }
+    }
+  }
+}
