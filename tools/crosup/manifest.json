@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "crosup",
+  "version": "0.5.2",
+  "repository": "tsirysndr/crosup",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tsirysndr/crosup/releases/download/v0.5.2/crosup_v0.5.2_x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "ef0ba58c2a7ade958d5d0981c76b15f8c9d44dc80b852109a98eca981b5a4b3b",
+      "size": 9571953,
+      "format": "tar.gz",
+      "binaries": {
+        "crosup": {
+          "path": "crosup",
+          "sha256": "f8dfbbed69a30b64b39be0bf04e3b921b2949c400ca9531528caae752b755d2c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tsirysndr/crosup/releases/download/v0.5.2/crosup_v0.5.2_aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "75fdfaf6a54b050f9214b6f69ea257ad23641ae261af989b59862da79e4a9683",
+      "size": 9814518,
+      "format": "tar.gz",
+      "binaries": {
+        "crosup": {
+          "path": "crosup",
+          "sha256": "a7dcae6b36ce11157390c0fd2f92a8c28061c0f62832d9b8d1646a7cb88c8dcf"
+        }
+      }
+    }
+  }
+}
