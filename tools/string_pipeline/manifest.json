@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "string_pipeline",
+  "version": "0.14.0",
+  "repository": "lalvarezt/string_pipeline",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lalvarezt/string_pipeline/releases/download/0.14.0/string-pipeline-0.14.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "66622608b9057b340e40d5d8d1b90f2676e182937596a0b0f74d16eda814f92a",
+      "size": 1083158,
+      "format": "tar.gz",
+      "releaseTag": "0.14.0",
+      "binaries": {
+        "string-pipeline": {
+          "path": "string-pipeline-0.14.0-x86_64-unknown-linux-musl/string-pipeline",
+          "sha256": "d08bb10623c3b08d388e4f69a3422ba7c1318a2900a2f777517d801a1c8b1681"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lalvarezt/string_pipeline/releases/download/0.14.0/string-pipeline-0.14.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "7a316125255e935c1be26d3e96f4c20589108cde9aaf9d9f646bf8934d1a8339",
+      "size": 936908,
+      "format": "tar.gz",
+      "releaseTag": "0.14.0",
+      "binaries": {
+        "string-pipeline": {
+          "path": "string-pipeline-0.14.0-aarch64-unknown-linux-gnu/string-pipeline",
+          "sha256": "5c1b31799235690a80ff09eb0cdcb3f29f7b249c5b071070a4e49728ee2cbe7f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lalvarezt/string_pipeline/releases/download/0.14.0/string-pipeline-0.14.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "5443f15022f33aeccc763ddd7a7792e376cda1d83cdd320dc260a1adacd0e797",
+      "size": 970224,
+      "format": "tar.gz",
+      "releaseTag": "0.14.0",
+      "binaries": {
+        "string-pipeline": {
+          "path": "string-pipeline-0.14.0-x86_64-apple-darwin/string-pipeline",
+          "sha256": "b771fe31654bffb53d5847a53524fe546845e013ffb4d221eb1b1ee4ca9c5691"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lalvarezt/string_pipeline/releases/download/0.14.0/string-pipeline-0.14.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "bf2498d97ced65e05280ec8b0cd9a21370302cf3258c1cc458dd726ee23f5332",
+      "size": 893877,
+      "format": "tar.gz",
+      "releaseTag": "0.14.0",
+      "binaries": {
+        "string-pipeline": {
+          "path": "string-pipeline-0.14.0-aarch64-apple-darwin/string-pipeline",
+          "sha256": "f9e7b0fdea14b026da6e852aa64d8628e701bbac1dda5e3c53bba1673aab9b71"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lalvarezt/string_pipeline/releases/download/0.14.0/string-pipeline-0.14.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "f61e10f28a25015abaeaa01bb294498ba9a69ca43ea2eb52ddc68e815c81e62c",
+      "size": 957635,
+      "format": "zip",
+      "releaseTag": "0.14.0",
+      "binaries": {
+        "string-pipeline.exe": {
+          "path": "string-pipeline.exe",
+          "sha256": "9d024231a72d39ae0214e169b4543e7ff82fb30ee36fd735b72393fd7e052dc2"
+        }
+      }
+    }
+  }
+}
