@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "near-cli-rs",
+  "version": "0.30.1",
+  "repository": "near/near-cli-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/near/near-cli-rs/releases/download/v0.30.1/near-cli-rs-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.30.1",
+      "sha256": "996e9f390d1cc446d17ea24e39c48f6ff906507f2d1dba96fc41f596a7e5de14",
+      "size": 15402507,
+      "format": "tar.gz",
+      "binaries": {
+        "near": {
+          "path": "near-cli-rs-x86_64-unknown-linux-gnu/near",
+          "sha256": "c66d89e480357f4d0de7bfe3f01936457ec1ea8f121207f09adbb25cf453f0e5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/near/near-cli-rs/releases/download/v0.30.1/near-cli-rs-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.30.1",
+      "sha256": "0aefe899828005e6356954a8a0870fdeb8ae72e9d9c6ec59a14d2487721e9143",
+      "size": 16233813,
+      "format": "tar.gz",
+      "binaries": {
+        "near": {
+          "path": "near-cli-rs-aarch64-unknown-linux-gnu/near",
+          "sha256": "18d445eb39d1cd1cbbd5ee0042b8d8641feffcc1188ef78b5dc26e87a33f292e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/near/near-cli-rs/releases/download/v0.30.1/near-cli-rs-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.30.1",
+      "sha256": "bbaab362446e76b2e125a42da8e5a90e54ffd305229564a625d54cb94836a92a",
+      "size": 12176163,
+      "format": "tar.gz",
+      "binaries": {
+        "near": {
+          "path": "near-cli-rs-x86_64-apple-darwin/near",
+          "sha256": "a618ee38a4811d2dd60df23f1140497cb637d3e1d0a2f411d1e5005f70b2492b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/near/near-cli-rs/releases/download/v0.30.1/near-cli-rs-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.30.1",
+      "sha256": "46015e2fe2fddb49116ee4d256c70f6cf96123cff0cb9fd5683b2623228acebb",
+      "size": 11996304,
+      "format": "tar.gz",
+      "binaries": {
+        "near": {
+          "path": "near-cli-rs-aarch64-apple-darwin/near",
+          "sha256": "d3f03acbc7af6cd7f3870d728ac41b75bb5e9cc8dc693200e9c328b06fb06b36"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/near/near-cli-rs/releases/download/v0.30.1/near-cli-rs-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.30.1",
+      "sha256": "f5927854d916a6464e0092b379a6e96d54e40bee91e0dbc483786a6f680b4cbc",
+      "size": 12363850,
+      "format": "tar.gz",
+      "binaries": {
+        "near.exe": {
+          "path": "near-cli-rs-x86_64-pc-windows-msvc/near.exe",
+          "sha256": "b5afa0c3069c6d217579df801764a286d12a58cbed4f5e99a6d6bbc40cfc4813"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/near/near-cli-rs/releases/download/v0.30.1/near-cli-rs-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.30.1",
+      "sha256": "afcb57205a5fea819ad0bc027a0dd1c41416f9f8931a5c76279f015dbe19a1db",
+      "size": 11779407,
+      "format": "tar.gz",
+      "binaries": {
+        "near.exe": {
+          "path": "near-cli-rs-aarch64-pc-windows-msvc/near.exe",
+          "sha256": "dfd7c81a8eeb23b50f17aee29dc35057273541ba0bb1a64ce4e183dc2d69a11a"
+        }
+      }
+    }
+  }
+}
