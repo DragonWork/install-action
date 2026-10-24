@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "name": "shell-compose",
+  "version": "0.4.0",
+  "repository": "pka/shell-compose",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pka/shell-compose/releases/download/v0.4.0/shell-compose-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "e16751f4c6d48be5e8eeedc07822792665e6c55185c95372de72d2987f370d1a",
+      "size": 933612,
+      "format": "tar.xz",
+      "binaries": {
+        "shell-compose": {
+          "path": "shell-compose-x86_64-unknown-linux-gnu/shell-compose",
+          "sha256": "fa097d1dc4e4a70f1428140b6ab94a457c1175ae53129b0fdd7ab51406363520"
+        },
+        "shell-composed": {
+          "path": "shell-compose-x86_64-unknown-linux-gnu/shell-composed",
+          "sha256": "2df62fa81843d818f7d2fb2732160e6aaca069efefbd56386d6fbc881eddda65"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pka/shell-compose/releases/download/v0.4.0/shell-compose-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "3401282c9b968eb7ac8b3b663a77dd54f0b8cd182cce15c3b7681a8f384fd327",
+      "size": 723216,
+      "format": "tar.xz",
+      "binaries": {
+        "shell-compose": {
+          "path": "shell-compose-aarch64-unknown-linux-gnu/shell-compose",
+          "sha256": "e079b2f1a19fab1830544dff9217e49f65f4c12e3964b7f3b822bf6b7771b2d8"
+        },
+        "shell-composed": {
+          "path": "shell-compose-aarch64-unknown-linux-gnu/shell-composed",
+          "sha256": "ae591d3184f9fb21153bcd43aa19fccc64da13bbd82d5df5d3138798c69d47e0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pka/shell-compose/releases/download/v0.4.0/shell-compose-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "94ca910d366752bba5d67e9fabb5ffcd0ad8489e2f2e8c0ad14951a278704c6f",
+      "size": 821896,
+      "format": "tar.xz",
+      "binaries": {
+        "shell-compose": {
+          "path": "shell-compose-x86_64-apple-darwin/shell-compose",
+          "sha256": "41c343be3b272039bc4303ca9db153ac8531b5c494a9ce014d79dc57f60f4701"
+        },
+        "shell-composed": {
+          "path": "shell-compose-x86_64-apple-darwin/shell-composed",
+          "sha256": "7bc790614f7357833738cc0acf2cc460995b57a66af0a6487773a2bf247dea64"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pka/shell-compose/releases/download/v0.4.0/shell-compose-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "38755195fd3b38b90d5a06d2e04b1eb00305103e32c6a6cd956898c3eb1f524b",
+      "size": 765932,
+      "format": "tar.xz",
+      "binaries": {
+        "shell-compose": {
+          "path": "shell-compose-aarch64-apple-darwin/shell-compose",
+          "sha256": "3a5472d0cc989e73cb24edbc59fe00f4587cc7cde1b5508023b7d2b2ea97aaed"
+        },
+        "shell-composed": {
+          "path": "shell-compose-aarch64-apple-darwin/shell-composed",
+          "sha256": "f8d433a98d46c92a8e803e6bf85ecd1fda7947a290b5e433c3134f2dbab22840"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pka/shell-compose/releases/download/v0.4.0/shell-compose-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "3bf8b4e23e6bd237e091c6c6bb06b258960c3964e4402e587bd70b2e19484674",
+      "size": 3509783,
+      "format": "zip",
+      "binaries": {
+        "shell-compose.exe": {
+          "path": "shell-compose.exe",
+          "sha256": "9ad4ffe7ad5e4104818733c1d1a6d4c8779f7df9c6a7569c375805adb2f829d8"
+        },
+        "shell-composed.exe": {
+          "path": "shell-composed.exe",
+          "sha256": "ecb607316e8a9015912f1c018c466e047f979371818c7c4e089d7300af0f0f9b"
+        }
+      }
+    }
+  }
+}
