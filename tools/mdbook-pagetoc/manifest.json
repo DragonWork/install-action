@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mdbook-pagetoc",
+  "version": "0.3.0",
+  "repository": "slowsage/mdbook-pagetoc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/slowsage/mdbook-pagetoc/releases/download/v0.3.0/mdbook-pagetoc-v0.3.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "b5388ca910d950e1adaa7eb9b64f34434adf59a04ea935986b5476f39a01a12a",
+      "size": 1303607,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-pagetoc": {
+          "path": "mdbook-pagetoc",
+          "sha256": "38c906392cdcf20aac3ce728cb530d7f55d7b26b1a85ff4b3e1df1b452cd0b06"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/slowsage/mdbook-pagetoc/releases/download/v0.3.0/mdbook-pagetoc-v0.3.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "414bbf919cf32813e7e2e59010e86a6519350d3b5da0c0bf64400bc8d04c95a3",
+      "size": 1240022,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-pagetoc": {
+          "path": "mdbook-pagetoc",
+          "sha256": "3cb4fdac3edfca95db5e21f56c01ff200e3979693046be8f6ef8fda3f1952ebc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/slowsage/mdbook-pagetoc/releases/download/v0.3.0/mdbook-pagetoc-v0.3.0-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "93c7376f022d604b950a73fae638e851e49adec4066107ddce0d5b334b1a6888",
+      "size": 2428161,
+      "format": "zip",
+      "binaries": {
+        "mdbook-pagetoc.exe": {
+          "path": "mdbook-pagetoc.exe",
+          "sha256": "0420a8e0d50d575001166d3fc8caef24f79971e5fd3cfda973c28d9c460b8088"
+        }
+      }
+    }
+  }
+}
