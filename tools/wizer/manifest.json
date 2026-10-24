@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wizer",
+  "version": "10.0.0",
+  "repository": "bytecodealliance/wizer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/wizer/releases/download/v10.0.0/wizer-v10.0.0-x86_64-linux.tar.xz",
+      "releaseTag": "v10.0.0",
+      "sha256": "1e9dfaa2f6c436ca7acfdbb82c166f5b8a0062068f12916a554e82c97ca8d371",
+      "size": 5413384,
+      "format": "tar.xz",
+      "binaries": {
+        "wizer": {
+          "path": "wizer-v10.0.0-x86_64-linux/wizer",
+          "sha256": "bd74fcd8677c5c511f8a7b053965d774bf0534109638a8e1b015d6190d26cb6e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/wizer/releases/download/v10.0.0/wizer-v10.0.0-aarch64-linux.tar.xz",
+      "releaseTag": "v10.0.0",
+      "sha256": "8ec7e50622aa7af37b5152f19d7a371f185c7af138033759caa3fdd3e17e2830",
+      "size": 4572396,
+      "format": "tar.xz",
+      "binaries": {
+        "wizer": {
+          "path": "wizer-v10.0.0-aarch64-linux/wizer",
+          "sha256": "c0b1f9acc56d8536259cfc5398416c3947ddb572b3535e3dcc8ccd6703694d18"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/wizer/releases/download/v10.0.0/wizer-v10.0.0-x86_64-macos.tar.xz",
+      "releaseTag": "v10.0.0",
+      "sha256": "d6b2073efb38624399c1c6fc0d8c1e19ba24d7ab934f51c346b7d97d4bd8115c",
+      "size": 5089228,
+      "format": "tar.xz",
+      "binaries": {
+        "wizer": {
+          "path": "wizer-v10.0.0-x86_64-macos/wizer",
+          "sha256": "d7c6868e7318df271cc53fe0fde5706b7e346b346be10be6e453d5890e941dab"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/wizer/releases/download/v10.0.0/wizer-v10.0.0-aarch64-macos.tar.xz",
+      "releaseTag": "v10.0.0",
+      "sha256": "5e3977e25defc869141dd8df3d25dde1dabe37ea377b7c01fa24693fe5bc7b3f",
+      "size": 4338824,
+      "format": "tar.xz",
+      "binaries": {
+        "wizer": {
+          "path": "wizer-v10.0.0-aarch64-macos/wizer",
+          "sha256": "22e35af0887a351ef8a702fd10630abf056ce8387d9580461ea30d72adf50ee7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/wizer/releases/download/v10.0.0/wizer-v10.0.0-x86_64-windows.zip",
+      "releaseTag": "v10.0.0",
+      "sha256": "29a3aebb70927e9af7c505d3f3d14c5f8577eb307e8bd45151c184885a580d2f",
+      "size": 6334012,
+      "format": "zip",
+      "binaries": {
+        "wizer.exe": {
+          "path": "wizer-v10.0.0-x86_64-windows/wizer.exe",
+          "sha256": "872deb5db94203bcf48bac46b1d3b8321b8e12e8e47b1377d18ea558459564c5"
+        }
+      }
+    }
+  }
+}
