@@ -125,7 +125,9 @@ async function start() {
   });
   const updated = new Date(catalog.updatedAt);
   if (catalog.updatedAt && !Number.isNaN(updated.getTime())) {
-    document.querySelector('#updated').textContent = `Registry snapshot: ${updated.toLocaleDateString()}`;
+    document.querySelector('#updated').textContent = `Registry snapshot: ${updated.toLocaleString(undefined, {
+      year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short',
+    })}`;
   }
   render();
 }
