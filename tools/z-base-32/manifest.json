@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "z-base-32",
+  "version": "0.1.5",
+  "repository": "matusf/z-base-32",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/matusf/z-base-32/releases/download/0.1.5/z-base-32-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.1.5",
+      "sha256": "09a082952da4beeeb63b53e09a36335577407b7407da1a2339049597458ab083",
+      "size": 379988,
+      "format": "tar.xz",
+      "binaries": {
+        "zbase32": {
+          "path": "z-base-32-x86_64-unknown-linux-musl/zbase32",
+          "sha256": "7cef067644e610448bac5ab00a1bac413c7db3552ab05ff473aa9d98efd088bf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/matusf/z-base-32/releases/download/0.1.5/z-base-32-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.1.5",
+      "sha256": "91288cf2b6234f499210948acf1b154ce720231885e61a725dfebb5cc12718b9",
+      "size": 318012,
+      "format": "tar.xz",
+      "binaries": {
+        "zbase32": {
+          "path": "z-base-32-x86_64-apple-darwin/zbase32",
+          "sha256": "d7975f2d99e64462dbf609112ab48b2f0b54aed8dd11657bf444af46ef6b4a99"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/matusf/z-base-32/releases/download/0.1.5/z-base-32-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.1.5",
+      "sha256": "a8523f2170dd79b9b8f1d46e4d7a49d577ed049f2870b1ad35bfcd53e0e92e4a",
+      "size": 283664,
+      "format": "tar.xz",
+      "binaries": {
+        "zbase32": {
+          "path": "z-base-32-aarch64-apple-darwin/zbase32",
+          "sha256": "93e0926a31c008d6bc08c0589cf7e9b5f1ea7b0b09073a90febc14ca938bc491"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/matusf/z-base-32/releases/download/0.1.5/z-base-32-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.1.5",
+      "sha256": "56af0a218d76350a5a23c27ba4db5d53e5dd958a317bb9dbf604ecee51c8d589",
+      "size": 347091,
+      "format": "zip",
+      "binaries": {
+        "zbase32.exe": {
+          "path": "zbase32.exe",
+          "sha256": "c9e586fa18109e8dd8f70b86a5a4ff0a4c173bc23fcef5fdb393222451bc8acc"
+        }
+      }
+    }
+  }
+}
