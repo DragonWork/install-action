@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "wenmoon",
+  "version": "0.4.0",
+  "repository": "shapeshed/wenmoon",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shapeshed/wenmoon/releases/download/0.4.0/wenmoon-0.4.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.0",
+      "sha256": "b02e34ecb026f6c3b4f9ed32d161508cf3f99ccc568f658ecf4d9259f634bb3c",
+      "size": 3411002,
+      "format": "tar.gz",
+      "binaries": {
+        "wenmoon": {
+          "path": "wenmoon",
+          "sha256": "99cee2d8568d06f87cea9eb58e463fae15b4ba1e1d2dd6545ed67f3dd0fc84ce"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/shapeshed/wenmoon/releases/download/0.4.0/wenmoon-0.4.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.0",
+      "sha256": "97a4d0b76771be9103849dc8981416f2741e362871720c3826897e62ff8027f8",
+      "size": 3571969,
+      "format": "tar.gz",
+      "binaries": {
+        "wenmoon": {
+          "path": "wenmoon",
+          "sha256": "179833adc5d16594357d8bcc769d61388e1643b1a1bc0677191251ac1c769f55"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/shapeshed/wenmoon/releases/download/0.4.0/wenmoon-0.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.0",
+      "sha256": "02c82c62049031f13429a427c2285570e9b9e6dd7c55b629432cec1a37cb8d92",
+      "size": 1483931,
+      "format": "tar.gz",
+      "binaries": {
+        "wenmoon": {
+          "path": "wenmoon",
+          "sha256": "80c05696403173b02b9b8b54c3b5248cb283bfb3ce9eadd291147a7e2a254119"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/shapeshed/wenmoon/releases/download/0.4.0/wenmoon-0.4.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.0",
+      "sha256": "79f9e062ae1367c619f5b1227f5d5e15e7234ced6526a07b922bcff6dcbd2502",
+      "size": 1413469,
+      "format": "tar.gz",
+      "binaries": {
+        "wenmoon": {
+          "path": "wenmoon",
+          "sha256": "8dbcdb3b82d54cd14ea90043bca633969de46c77ea5da27ae99c50d7ae6644e5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/shapeshed/wenmoon/releases/download/0.4.0/wenmoon-0.4.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.4.0",
+      "sha256": "ea825082ddd8d4bf964764b5cbd82670ae041ff36e192a35b91248df0b399763",
+      "size": 1544397,
+      "format": "zip",
+      "binaries": {
+        "wenmoon.exe": {
+          "path": "wenmoon.exe",
+          "sha256": "83e670707b9723e7c9d59ba544d40f2f07c827d0146ce19e4388d7c0518a1b3c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/shapeshed/wenmoon/releases/download/0.4.0/wenmoon-0.4.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.4.0",
+      "sha256": "b2982a3bb520048cbca2d24c7b7a9fee207a85aa3a76ed0cdb6fbcb206fad6e5",
+      "size": 1470064,
+      "format": "zip",
+      "binaries": {
+        "wenmoon.exe": {
+          "path": "wenmoon.exe",
+          "sha256": "b3022ae71c92e06cbe9918e553bd957f96c85882bd77f32fca6cc216c57c5e46"
+        }
+      }
+    }
+  }
+}
