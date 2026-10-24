@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "vhdl_lang",
+  "version": "0.88.0",
+  "repository": "VHDL-LS/rust_hdl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/VHDL-LS/rust_hdl/releases/download/v0.88.0/vhdl_lang-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.88.0",
+      "sha256": "a1b4228cba5977554e27a253392372fbf3c9cc8b06247db5e5317794f4ba9996",
+      "size": 1946300,
+      "format": "zip",
+      "binaries": {
+        "vhdl_lang": {
+          "path": "vhdl_lang-x86_64-unknown-linux-musl/bin/vhdl_lang",
+          "sha256": "f4f7d66000dc43ff8960bfffcc00d36476ae437a5725b742b46b435fbf047000"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/VHDL-LS/rust_hdl/releases/download/v0.88.0/vhdl_lang-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.88.0",
+      "sha256": "0190df0e311e85e9751a28182ea67a32504ad238e41ab9f97abb4f5f7ca0f949",
+      "size": 1712138,
+      "format": "zip",
+      "binaries": {
+        "vhdl_lang": {
+          "path": "vhdl_lang-aarch64-apple-darwin/bin/vhdl_lang",
+          "sha256": "27f4601aefea78fe999e326b0c1100594accbbe3f6b8b4744fd04a4708a0666a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/VHDL-LS/rust_hdl/releases/download/v0.88.0/vhdl_lang-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.88.0",
+      "sha256": "40bfce6b2a261cb8351402bb545e32da9159c09007e243264a8b607fd209f777",
+      "size": 1626398,
+      "format": "zip",
+      "binaries": {
+        "vhdl_lang.exe": {
+          "path": "vhdl_lang-x86_64-pc-windows-msvc/bin/vhdl_lang.exe",
+          "sha256": "5f7ab143fd8c58cd02e933b51990c1b5e09107e38dcae2c78f304d40b221c907"
+        }
+      }
+    }
+  }
+}
