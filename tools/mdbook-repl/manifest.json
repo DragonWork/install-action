@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mdbook-repl",
+  "version": "0.2.9",
+  "repository": "MR-Addict/mdbook-repl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MR-Addict/mdbook-repl/releases/download/0.2.9/mdbook-repl-0.2.9-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "0.2.9",
+      "sha256": "5ece509acb0620c1a9cb0d35265ccead347e3d52cad6dcfa8fb590d80109ca17",
+      "size": 1181118,
+      "format": "zip",
+      "binaries": {
+        "mdbook-repl": {
+          "path": "mdbook-repl-0.2.9-x86_64-unknown-linux-gnu/mdbook-repl",
+          "sha256": "7d0ae265eb28fe1dc35a35f81ecded7fbd42b732dce85ff2fb3ad41b026419d7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MR-Addict/mdbook-repl/releases/download/0.2.9/mdbook-repl-0.2.9-x86_64-apple-darwin.zip",
+      "releaseTag": "0.2.9",
+      "sha256": "0b21f87363f56060d526dc6f270aa9ad29b521b939c31730bee6183afd8ab1bd",
+      "size": 955924,
+      "format": "zip",
+      "binaries": {
+        "mdbook-repl": {
+          "path": "mdbook-repl-0.2.9-x86_64-apple-darwin/mdbook-repl",
+          "sha256": "4b42419e48d6c981038c1fd6722ed42cb6b469e79e9eeafe95b6afb98ed8c3b6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MR-Addict/mdbook-repl/releases/download/0.2.9/mdbook-repl-0.2.9-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.2.9",
+      "sha256": "e0868af7c53c9dcada4a8bdf364b59c38f5ac0113d59d5103bcb43f317992994",
+      "size": 796789,
+      "format": "zip",
+      "binaries": {
+        "mdbook-repl.exe": {
+          "path": "mdbook-repl-0.2.9-x86_64-pc-windows-msvc/mdbook-repl.exe",
+          "sha256": "27e640a2a82dbf1cf84befb5f183b47345fd3a553688b651ff385003d4ca0c6e"
+        }
+      }
+    }
+  }
+}
