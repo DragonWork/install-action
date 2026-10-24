@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-hack",
+  "version": "0.6.45",
+  "repository": "taiki-e/cargo-hack",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.45/cargo-hack-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.45",
+      "sha256": "b242dffcfd43317ac484dd2dbc3b9fc5f8a7eb3ba252af31b531503f0bad33d1",
+      "size": 959108,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-hack": {
+          "path": "cargo-hack",
+          "sha256": "155f560b74e8442c4e7aa70e6d47878944aa1cb66b5019d3b9e1fdf535fc4678"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.45/cargo-hack-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.45",
+      "sha256": "9ac71756f1da6e8798ac5afbfd222abecb95de9c10e672ed52c179b637d6444b",
+      "size": 906587,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-hack": {
+          "path": "cargo-hack",
+          "sha256": "1bf1e63cbd7ade31eda8fd6b8a228774eebfee94731cac886ff4a4385d4af2d3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.45/cargo-hack-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.45",
+      "sha256": "b1a65c2daaca37957a288a295cb25f5c3bf3f7945ec60b450ecdbb1159acbff4",
+      "size": 860204,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-hack": {
+          "path": "cargo-hack",
+          "sha256": "c2927da7c1549b80231f9eab7aeb2773cdc56005e4b707c2f5ee64e2fed0a366"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.45/cargo-hack-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.45",
+      "sha256": "af0ab90e56aa716ae9f545a93e4338d4f36525e187d367b6519da71b60249b50",
+      "size": 798036,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-hack": {
+          "path": "cargo-hack",
+          "sha256": "a8682b1b5d7ba1e22f8eafdda59db1e4c02cf2b982cb1130ab5125623d0d3385"
+        }
+      }
+    }
+  }
+}
