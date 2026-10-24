@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "urdf-viz",
+  "version": "0.46.1",
+  "repository": "openrr/urdf-viz",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/openrr/urdf-viz/releases/download/v0.46.1/urdf-viz-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.46.1",
+      "sha256": "64db78dfdad2b36ded29b92050c550b0864075ada64953b6d17decab742250d7",
+      "size": 4465275,
+      "format": "tar.gz",
+      "binaries": {
+        "urdf-viz": {
+          "path": "urdf-viz",
+          "sha256": "a91ecceafd3b45acda8802ef37eb21810359d67c43861313a2049425db17b7f8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/openrr/urdf-viz/releases/download/v0.46.1/urdf-viz-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.46.1",
+      "sha256": "4524786468bcc9d6fe84199561bcc2ec0bc391a5066bb477c902496d42ae61e5",
+      "size": 3630749,
+      "format": "tar.gz",
+      "binaries": {
+        "urdf-viz": {
+          "path": "urdf-viz",
+          "sha256": "227d54191767ed132023a894140ba0f185fba94163af254c9829f0dd6d350abc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/openrr/urdf-viz/releases/download/v0.46.1/urdf-viz-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.46.1",
+      "sha256": "7184efa726b453c45a38b8caa36c52c5e87851fc300e1f890f5653c3c58bd00b",
+      "size": 3369391,
+      "format": "tar.gz",
+      "binaries": {
+        "urdf-viz": {
+          "path": "urdf-viz",
+          "sha256": "e75446976314a4f53000a0d21f9e3ce8737d6ad2c27fc7fdb79376dde6b14382"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/openrr/urdf-viz/releases/download/v0.46.1/urdf-viz-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.46.1",
+      "sha256": "b8bdc8269833737d0404e60356705b83aca37b7fe32db6c173ba9cfc9fa9bf54",
+      "size": 3506996,
+      "format": "zip",
+      "binaries": {
+        "urdf-viz.exe": {
+          "path": "urdf-viz.exe",
+          "sha256": "e7c962920b3108ab29b93bf6d31ba15b664dae38501c2bb410d19c3ab543c5e3"
+        }
+      }
+    }
+  }
+}
