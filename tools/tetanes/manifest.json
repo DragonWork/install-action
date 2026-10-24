@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tetanes",
+  "version": "0.17.0",
+  "repository": "lukexor/tetanes",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.17.0/tetanes-0.17.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "be5519e69e15513d635cf2ee65309eb63a86cd63eb903a5511d58375ac2eea9c",
+      "size": 11610423,
+      "format": "tar.gz",
+      "releaseTag": "tetanes-v0.17.0",
+      "binaries": {
+        "tetanes": {
+          "path": "./tetanes",
+          "sha256": "2ba37d66651a6c58de17272d73532324be3781cb7cba1156d7cc5f69d6b3d2be"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.17.0/tetanes-0.17.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "f36ebafec8c9e7f0a8339e65d2c8f972d351378e9cb13ce79cc4878d2a2ec244",
+      "size": 10770117,
+      "format": "tar.gz",
+      "releaseTag": "tetanes-v0.17.0",
+      "binaries": {
+        "tetanes": {
+          "path": "./tetanes",
+          "sha256": "d9bd8958ac7940377d5d48dd633e6780e981224aded4f5d194463b29a3b3a899"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.17.0/tetanes-0.17.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "ab4ab568b2e04e29a09bc3069afbcdabdc16db6a01618d7e72e2b5b183433c19",
+      "size": 10999288,
+      "format": "tar.gz",
+      "releaseTag": "tetanes-v0.17.0",
+      "binaries": {
+        "tetanes": {
+          "path": "TetaNES.app/Contents/MacOS/tetanes",
+          "sha256": "7aa12630aca702eef8bfa7fde1ec038ca0de932b2442115c11d72d96cb606c0f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.17.0/tetanes-0.17.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "7ae9645bdaf7374416fb94fcbf08188e02fa45445375b21a49d017759cac161d",
+      "size": 9908784,
+      "format": "tar.gz",
+      "releaseTag": "tetanes-v0.17.0",
+      "binaries": {
+        "tetanes": {
+          "path": "TetaNES.app/Contents/MacOS/tetanes",
+          "sha256": "f7d35b38a482a41bcbbdf80b3b8f32f0d0e2a8d728efacd21be7392e7e90652f"
+        }
+      }
+    }
+  }
+}
