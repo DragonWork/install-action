@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "unison-fsmonitor",
+  "version": "0.3.9",
+  "repository": "autozimu/unison-fsmonitor",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/autozimu/unison-fsmonitor/releases/download/v0.3.9/unison-fsmonitor-macos-amd64.tar.gz",
+      "releaseTag": "v0.3.9",
+      "sha256": "79197d15f3a39c25a76f2188e24c8d4163e4e2b1442ffd98b04ff3761bc76dcd",
+      "size": 1979904,
+      "format": "tar.gz",
+      "binaries": {
+        "unison-fsmonitor": {
+          "path": "unison-fsmonitor",
+          "sha256": "8330f3e68f43ebb38ef31a922d4050736b0c6660ec75b5c8b34f15e4804beffb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/autozimu/unison-fsmonitor/releases/download/v0.3.9/unison-fsmonitor-macos-aarch64.tar.gz",
+      "releaseTag": "v0.3.9",
+      "sha256": "13418727fbd2aae950eb4d6f357cfa76a61e7f7aa9986a666ce27a6b323bc68d",
+      "size": 1889280,
+      "format": "tar.gz",
+      "binaries": {
+        "unison-fsmonitor": {
+          "path": "unison-fsmonitor",
+          "sha256": "63059f4f47f7f4852133f4fc59acbd9c2ee2eec38e002f7d720dc97660ede518"
+        }
+      }
+    }
+  }
+}
