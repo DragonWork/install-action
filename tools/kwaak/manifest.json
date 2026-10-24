@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "kwaak",
+  "version": "0.19.0",
+  "repository": "bosun-ai/kwaak",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bosun-ai/kwaak/releases/download/v0.19.0/kwaak-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.19.0",
+      "sha256": "6c04347fe7c04966e8dcfae8a086ed1240c923e54d49456b25239adc58d3d532",
+      "size": 21944004,
+      "format": "tar.xz",
+      "binaries": {
+        "kwaak": {
+          "path": "kwaak-x86_64-unknown-linux-gnu/kwaak",
+          "sha256": "f4d8402e913edbb930875d452e86b20740597c35f6c8bcedb0d6088bdaefdf37"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bosun-ai/kwaak/releases/download/v0.19.0/kwaak-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.19.0",
+      "sha256": "1ef5bc9256b117772086c288c31606ec13b3f88b5f38798b6001d601ccf7fdb9",
+      "size": 19994116,
+      "format": "tar.xz",
+      "binaries": {
+        "kwaak": {
+          "path": "kwaak-aarch64-unknown-linux-gnu/kwaak",
+          "sha256": "214e2229cf3557d876565d978485815636131c6b4c4454f71c65073bffc8ab6d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bosun-ai/kwaak/releases/download/v0.19.0/kwaak-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.19.0",
+      "sha256": "7c0ac096da4c63556ce7d7c825b51fcc08f2a6776d3eb07db4fb89c8e373cc20",
+      "size": 19490784,
+      "format": "tar.xz",
+      "binaries": {
+        "kwaak": {
+          "path": "kwaak-x86_64-apple-darwin/kwaak",
+          "sha256": "4f915ef7b225d424b5d82cb44d9205f0c6c0001d5781c6cafddb4748457cd818"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bosun-ai/kwaak/releases/download/v0.19.0/kwaak-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.19.0",
+      "sha256": "6e36221e1950706f081f5375a3d68dd03fde6ccf6ff01a3153ea02e4ded37a07",
+      "size": 17763728,
+      "format": "tar.xz",
+      "binaries": {
+        "kwaak": {
+          "path": "kwaak-aarch64-apple-darwin/kwaak",
+          "sha256": "ddae8aef57149a5975f2b5db90b9fbb98b67fd3e1939ce0ff7d94c638821e8de"
+        }
+      }
+    }
+  }
+}
