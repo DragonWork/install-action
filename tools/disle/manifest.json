@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "disle",
+  "version": "1.2.4",
+  "repository": "Geobert/disle",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Geobert/disle/releases/download/v1.2.4/disle-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v1.2.4",
+      "sha256": "19b54a41957094412215ec862de94d3f878e30cb4dd53dd23ee28e759c7feb9e",
+      "size": 5454977,
+      "format": "tar.gz",
+      "binaries": {
+        "disle": {
+          "path": "disle",
+          "sha256": "102aae25a1263cb78fc95cb97cd5e29f4e92d454062189609afee411b542e05f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Geobert/disle/releases/download/v1.2.4/disle-x86_64-pc-windows-msvc.tgz",
+      "releaseTag": "v1.2.4",
+      "sha256": "033d688a6f6058e650b193f065eff81dcefd7af3555042ab429f1217f9ca85b8",
+      "size": 3607026,
+      "format": "tar.gz",
+      "binaries": {
+        "disle.exe": {
+          "path": "disle.exe",
+          "sha256": "0c95d99a196bb6792b52e4e5c716c45dfab878a55c11ef19f5b5e830229a3bea"
+        }
+      }
+    }
+  }
+}
