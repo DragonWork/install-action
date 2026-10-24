@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "projclean",
+  "version": "0.9.0",
+  "repository": "sigoden/projclean",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sigoden/projclean/releases/download/v0.9.0/projclean-v0.9.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "36cd9e822dd9e3018e630f93ccc0ba08924af9ec0b64114f5c6cb9f0482b41b1",
+      "size": 716185,
+      "format": "tar.gz",
+      "binaries": {
+        "projclean": {
+          "path": "projclean",
+          "sha256": "74771568a4e4345d3997896c9fe8e1eeea04d6e020ac52b41fd943737811d284"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sigoden/projclean/releases/download/v0.9.0/projclean-v0.9.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "5fdd29fad962b1e76c16edd89500a8d15e3e0a07124eb8581e8b215fd38eafd1",
+      "size": 696701,
+      "format": "tar.gz",
+      "binaries": {
+        "projclean": {
+          "path": "projclean",
+          "sha256": "ca8a773eefbd1a4d68fbfbc1a5cbbc5343a3e243b1d0e2e8b14b6dada3cddc0e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sigoden/projclean/releases/download/v0.9.0/projclean-v0.9.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "2631b5b0a3891fc7a6ccbf9fb6a7500a1f4e35a9597242b0a11215c9c7c1544a",
+      "size": 604555,
+      "format": "tar.gz",
+      "binaries": {
+        "projclean": {
+          "path": "projclean",
+          "sha256": "f5afcaff61092fd774991604b5a56bed44231f18a3b1c124e984785342203ae7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sigoden/projclean/releases/download/v0.9.0/projclean-v0.9.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "d21d939d8a82a0f955fb3502dfd7233c077740b9247eab7b3fb4a21c999465ef",
+      "size": 585978,
+      "format": "tar.gz",
+      "binaries": {
+        "projclean": {
+          "path": "projclean",
+          "sha256": "2c5a6e7f6eb88f635763f1661974bca10adf98291f849f0ed8d24bec30e29c36"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sigoden/projclean/releases/download/v0.9.0/projclean-v0.9.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "796b292a39fa864106eb658518caf1f53c8dabd1a4d6cf5deec5ab1d5448c183",
+      "size": 539212,
+      "format": "zip",
+      "binaries": {
+        "projclean.exe": {
+          "path": "projclean.exe",
+          "sha256": "0d5548efdba9ec2b11e78b2901fdd7f9f8297e328b0d0cb196db78510bcbb843"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sigoden/projclean/releases/download/v0.9.0/projclean-v0.9.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "2fb44445c96c3461b8fbe7106dcc006918abf53ca4d596903d7a066c24251374",
+      "size": 518216,
+      "format": "zip",
+      "binaries": {
+        "projclean.exe": {
+          "path": "projclean.exe",
+          "sha256": "b927946b899f1429a49af42d0dfc2eee564e4d9dc45f4ccdec22455a30e1929b"
+        }
+      }
+    }
+  }
+}
