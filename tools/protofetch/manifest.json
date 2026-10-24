@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "protofetch",
+  "version": "0.1.21",
+  "repository": "coralogix/protofetch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/coralogix/protofetch/releases/download/v0.1.21/protofetch_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.21",
+      "sha256": "5a23b97303703bc5aa7fb53a4008b51ddd33340033bffcc9f5894c7fca3c5e12",
+      "size": 3794597,
+      "format": "tar.gz",
+      "binaries": {
+        "protofetch": {
+          "path": "bin/protofetch",
+          "sha256": "ffa8418ffb9e0f7c6ecf0411b81e3120d7ae3b5ca90475ef3bd1ec1cd8563639"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/coralogix/protofetch/releases/download/v0.1.21/protofetch_aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.21",
+      "sha256": "68c821da9a8ee228bac00d7dcf4919502652f47d2b273268e4f581b10b61625f",
+      "size": 3933074,
+      "format": "tar.gz",
+      "binaries": {
+        "protofetch": {
+          "path": "bin/protofetch",
+          "sha256": "9db9d2c71ec26c64c8255e51d1e032f6533c9e9b798ca41017e36210aeef137f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/coralogix/protofetch/releases/download/v0.1.21/protofetch_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.21",
+      "sha256": "9f8202938bf73a0613e1dcbd71ee5f33d93ed024875be486e2fae171f3a1a5b5",
+      "size": 2952135,
+      "format": "tar.gz",
+      "binaries": {
+        "protofetch": {
+          "path": "bin/protofetch",
+          "sha256": "e0841831db9c79d1aaa7f708b3327741d9ec3f9e19be18335d5f57809813c57d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/coralogix/protofetch/releases/download/v0.1.21/protofetch_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.21",
+      "sha256": "c9c2be7cd22e09cd79c825ab8b7b5b948ae597533b0843b445e84a03e0471820",
+      "size": 3204949,
+      "format": "tar.gz",
+      "binaries": {
+        "protofetch": {
+          "path": "bin/protofetch",
+          "sha256": "2f527e8768c7bfa71fcd1d5eedcb986b2fdb5b75516f3fa495dcc64e7cc377cc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/coralogix/protofetch/releases/download/v0.1.21/protofetch_x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.1.21",
+      "sha256": "590afdf9a0cb25f430426ffdca2887329005d6de9a5e26239446bfb57af3e113",
+      "size": 1719112,
+      "format": "tar.gz",
+      "binaries": {
+        "protofetch.exe": {
+          "path": "bin/protofetch.exe",
+          "sha256": "fa367df13f3bcd9661e8f7123bd964364bb910236aec70d042cefccc74bf7eb6"
+        }
+      }
+    }
+  }
+}
