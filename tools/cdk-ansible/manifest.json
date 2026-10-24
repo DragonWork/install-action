@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cdk-ansible",
+  "version": "0.0.7",
+  "repository": "pollenjp/cdk-ansible",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pollenjp/cdk-ansible/releases/download/v0.0.7/cdk-ansible-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.7",
+      "sha256": "064aeb7048585fe64e10403d3579c67e13403468d76ee06970e57a6bf949834d",
+      "size": 2305831,
+      "format": "tar.gz",
+      "binaries": {
+        "cdk-ansible": {
+          "path": "cdk-ansible-x86_64-unknown-linux-musl/cdk-ansible",
+          "sha256": "e596c06e7c09d6639bc45a6edc090bfc45f05e31e8daf4d255ba5950a417e5a3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pollenjp/cdk-ansible/releases/download/v0.0.7/cdk-ansible-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.7",
+      "sha256": "ff9037ce00d8f55281687565eefbaacb49b52d4352242700d3487be6ace97306",
+      "size": 2101328,
+      "format": "tar.gz",
+      "binaries": {
+        "cdk-ansible": {
+          "path": "cdk-ansible-aarch64-unknown-linux-musl/cdk-ansible",
+          "sha256": "b98cb02ad18a2c8e411a0bd61783ab057b2a2fd44cac0bd76f1551fd4b3e1e63"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pollenjp/cdk-ansible/releases/download/v0.0.7/cdk-ansible-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.7",
+      "sha256": "0b91034e0a34216ec51dcb121383b46bae4acc9d3ac4048dcc8cf15479c9815c",
+      "size": 2468542,
+      "format": "tar.gz",
+      "binaries": {
+        "cdk-ansible": {
+          "path": "cdk-ansible-x86_64-apple-darwin/cdk-ansible",
+          "sha256": "24c9f34dd42aa84f1300ca29939eaf3449bb4e880685110657ec7ae11b0a9d82"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pollenjp/cdk-ansible/releases/download/v0.0.7/cdk-ansible-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.7",
+      "sha256": "b6847d01c7935a5b24ae0d080d448723b516caf9162b3d50382b35c882c55a38",
+      "size": 2308741,
+      "format": "tar.gz",
+      "binaries": {
+        "cdk-ansible": {
+          "path": "cdk-ansible-aarch64-apple-darwin/cdk-ansible",
+          "sha256": "85c07cbd19b6e6aad048a5b342b97730b8891caff995c62e3e43cbbddfb0e66f"
+        }
+      }
+    }
+  }
+}
