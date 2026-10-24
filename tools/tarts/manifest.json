@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tarts",
+  "version": "0.1.27",
+  "repository": "oiwn/tarts",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/oiwn/tarts/releases/download/v0.1.27/tarts-v0.1.27-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.27",
+      "sha256": "d37345f14bc41dfb9456ce89cd41c27e21af96f75c22f191d59f4f3e9d22b835",
+      "size": 766589,
+      "format": "tar.gz",
+      "binaries": {
+        "tarts": {
+          "path": "tarts",
+          "sha256": "cf435ae071eee33bbcc7cc4219bb2e1e75d2acdb3d167dd8034f02afacebc85c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/oiwn/tarts/releases/download/v0.1.27/tarts-v0.1.27-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.27",
+      "sha256": "c4cf545f8a15629278efe1cb36e89fadc5456ca88d5a28688f0ab9a6ecd98456",
+      "size": 683523,
+      "format": "tar.gz",
+      "binaries": {
+        "tarts": {
+          "path": "tarts",
+          "sha256": "16db1237e84bcaf553b8580c2faf4000da774cba51838c0b47feb89d5eac174c"
+        }
+      }
+    }
+  }
+}
