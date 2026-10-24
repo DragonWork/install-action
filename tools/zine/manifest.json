@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "zine",
+  "version": "0.16.0",
+  "repository": "zineland/zine",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zineland/zine/releases/download/v0.16.0/zine-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.16.0",
+      "sha256": "cee2a3e03c68e8259440be6ec6f069edb1a5480cd50e423c7b9f89c079fbf921",
+      "size": 5387943,
+      "format": "tar.gz",
+      "binaries": {
+        "zine": {
+          "path": "zine",
+          "sha256": "1557c57fbf121078078886b1632c84bd635cc5d32aebbbfb71ef5eda03c47685"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zineland/zine/releases/download/v0.16.0/zine-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.16.0",
+      "sha256": "fa92027d799d3e48cf05b1949794f5634f9659a0e9f2e8c8cb8479f4af88bc8c",
+      "size": 3947538,
+      "format": "tar.gz",
+      "binaries": {
+        "zine": {
+          "path": "zine",
+          "sha256": "63f6ba276802d2b40de4ed23004aae80e8bfb5f95b32e9abea7537eed339b770"
+        }
+      }
+    }
+  }
+}
