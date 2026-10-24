@@ -1,0 +1,21 @@
+name: DragonWork/install-action (uu_shuf)
+description: Install a checksum-pinned uu_shuf release.
+author: DragonWork
+outputs:
+  version:
+    description: Installed crate version.
+    value: ${{ steps.install.outputs.version }}
+  path:
+    description: Directory containing installed binaries.
+    value: ${{ steps.install.outputs.path }}
+runs:
+  using: composite
+  steps:
+    - id: install
+      shell: bash
+      env:
+        DW_MANIFEST: ${{ github.action_path }}/manifest.json
+      run: |
+        : "${DW_INSTALL_NODE:?Run DragonWork/install-action first}"
+        : "${DW_INSTALL_ENGINE:?Run DragonWork/install-action first}"
+        "$DW_INSTALL_NODE" "$DW_INSTALL_ENGINE" "$DW_MANIFEST"
