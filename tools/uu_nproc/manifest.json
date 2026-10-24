@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_nproc",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "nproc.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/nproc.exe",
+          "sha256": "6fdd22978f2206aea369114b35355be16ceeff802b619425b4e93d47645b8c5d"
+        }
+      }
+    }
+  }
+}
