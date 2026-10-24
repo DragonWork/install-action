@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-fuzz",
+  "version": "0.13.2",
+  "repository": "rust-fuzz/cargo-fuzz",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-fuzz/cargo-fuzz/releases/download/0.13.2/cargo-fuzz-0.13.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.13.2",
+      "sha256": "b5b704018b63e0f151c17a057ac53b5111e1db545d1b9f72fee79f08a545931c",
+      "size": 899208,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-fuzz": {
+          "path": "cargo-fuzz",
+          "sha256": "f87d63fc80e4f897a32ead5df85bd67665afb6a63ed92bb0d2b0473e15295eba"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-fuzz/cargo-fuzz/releases/download/0.13.2/cargo-fuzz-0.13.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.13.2",
+      "sha256": "27f1565e4d71b61ba57213e86feeb1a7adde0f6072b0bea6ffc6a1466f2e7853",
+      "size": 809524,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-fuzz": {
+          "path": "cargo-fuzz",
+          "sha256": "c41929300bb7598183d752b48d14dbf69b1164010886c167c0ca698342ba8445"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-fuzz/cargo-fuzz/releases/download/0.13.2/cargo-fuzz-0.13.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.13.2",
+      "sha256": "c4282b9f938368f711c0d959e7fcf1cd52fc40e233425c334f16012f5a7457a8",
+      "size": 719051,
+      "format": "zip",
+      "binaries": {
+        "cargo-fuzz.exe": {
+          "path": "cargo-fuzz.exe",
+          "sha256": "3d22998cfb20bd0d2139a815dae776132ad55f9267cf886f4d8e5cfb16e7c63b"
+        }
+      }
+    }
+  }
+}
