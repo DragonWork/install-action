@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "k8s-gcr-auth-helper",
+  "version": "0.1.10",
+  "repository": "stephenc/k8s-gcr-auth-helper",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/stephenc/k8s-gcr-auth-helper/releases/download/v0.1.10/k8s-gcr-auth-helper-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.10",
+      "sha256": "b70ba9e0f33296c45b528c408a4fcf8729ab61877deb0545202fc28f191a6f14",
+      "size": 6116049,
+      "format": "tar.gz",
+      "binaries": {
+        "k8s-gcr-auth-helper": {
+          "path": "k8s-gcr-auth-helper",
+          "sha256": "21c825c337005e3d9e8c7520cefd91e29130e0f46e51c11dd978537d8c4e9e3c"
+        }
+      }
+    }
+  }
+}
