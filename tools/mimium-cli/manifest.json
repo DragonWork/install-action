@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mimium-cli",
+  "version": "2.3.1",
+  "repository": "mimium-org/mimium-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mimium-org/mimium-rs/releases/download/v2.3.1/mimium-cli-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v2.3.1",
+      "sha256": "979f7520c20b125e685cfaac217cc7858e5a4d3cf9544b06df0ebada5c176986",
+      "size": 16213486,
+      "format": "zip",
+      "binaries": {
+        "mimium-cli": {
+          "path": "mimium-cli",
+          "sha256": "4bc733c72437c4141162193e8890e64db16dd4c3d73c857735980f87539e644f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mimium-org/mimium-rs/releases/download/v2.3.1/mimium-cli-x86_64-apple-darwin.zip",
+      "releaseTag": "v2.3.1",
+      "sha256": "edf4e7910ba9b77e67cfa379175fac204c7d486a947ab26ee8f60e4c20fcb600",
+      "size": 11452458,
+      "format": "zip",
+      "binaries": {
+        "mimium-cli": {
+          "path": "mimium-cli",
+          "sha256": "d4897f6a1bd0780c6db98f67cde428e9d22f505bc9879dcea31a676e43f44f43"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mimium-org/mimium-rs/releases/download/v2.3.1/mimium-cli-aarch64-apple-darwin.zip",
+      "releaseTag": "v2.3.1",
+      "sha256": "62a1190a915ad6e701c12ce3690773eda5d1db9669b538af2b69430d0f778a36",
+      "size": 10980166,
+      "format": "zip",
+      "binaries": {
+        "mimium-cli": {
+          "path": "mimium-cli",
+          "sha256": "e300dea124a48217634a5a26bb5b92d45a637fe2e75dd0033ddfb43242620da9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mimium-org/mimium-rs/releases/download/v2.3.1/mimium-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.3.1",
+      "sha256": "6a54d130ed42fcf7ff31a8e7aad7b5e26553dff4734ab831c93a83e3842213bc",
+      "size": 10604647,
+      "format": "zip",
+      "binaries": {
+        "mimium-cli.exe": {
+          "path": "mimium-cli.exe",
+          "sha256": "0e8e67d645ebf427fee201b066807c65ebda70b0bf06640dfef58679709c5afb"
+        }
+      }
+    }
+  }
+}
