@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "git-brws",
+  "version": "0.11.12",
+  "repository": "rhysd/git-brws",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rhysd/git-brws/releases/download/v0.11.12/git-brws-v0.11.12-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.11.12",
+      "sha256": "c616b63355b0c659e8b4cba301129b3ba66bbf52e5b014cde070384fe4ec7ca3",
+      "size": 1632314,
+      "format": "zip",
+      "binaries": {
+        "git-brws": {
+          "path": "git-brws-v0.11.12-x86_64-unknown-linux-gnu/git-brws",
+          "sha256": "b4698c325186760b906595f4134950aaf6a885ada1818aa561183a98bc487beb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rhysd/git-brws/releases/download/v0.11.12/git-brws-v0.11.12-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.11.12",
+      "sha256": "9ca73a57c8327e24fc648790fb6065dd4795db251b4e2cf27184144ee8d3b827",
+      "size": 1265540,
+      "format": "zip",
+      "binaries": {
+        "git-brws": {
+          "path": "git-brws-v0.11.12-x86_64-apple-darwin/git-brws",
+          "sha256": "a117c17fee5f69c1225f557068117f7d67441ee6f86ece9fa514c42d4fc9c470"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rhysd/git-brws/releases/download/v0.11.12/git-brws-v0.11.12-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.12",
+      "sha256": "d207bf463c9fd0d527ace5920a2b46b4712a4008927a354fb27317d186db893d",
+      "size": 1119302,
+      "format": "zip",
+      "binaries": {
+        "git-brws.exe": {
+          "path": "git-brws.exe",
+          "sha256": "c40c8198fc35b16d93eb2958dbe1c028130ca8d07fa71a7d4f5608338529a291"
+        }
+      }
+    }
+  }
+}
