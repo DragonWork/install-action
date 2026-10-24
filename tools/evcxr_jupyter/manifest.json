@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "evcxr_jupyter",
+  "version": "0.22.0",
+  "repository": "evcxr/evcxr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/evcxr/evcxr/releases/download/v0.22.0/evcxr_jupyter-v0.22.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.22.0",
+      "sha256": "c4c9ffa198d79e2e21518061567f1661c452c44702a09fcb5123fdcaeda0af7a",
+      "size": 9475834,
+      "format": "tar.gz",
+      "binaries": {
+        "evcxr_jupyter": {
+          "path": "evcxr_jupyter-v0.22.0-x86_64-unknown-linux-gnu/evcxr_jupyter",
+          "sha256": "6357b28fa664c8908e11df917a0a2785e3cca30940760a6412237029bf9df396"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/evcxr/evcxr/releases/download/v0.22.0/evcxr_jupyter-v0.22.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.22.0",
+      "sha256": "450d10b30b5067286e93a5050b9915baf03448444f949f13c04e38212fdfe58a",
+      "size": 8436349,
+      "format": "tar.gz",
+      "binaries": {
+        "evcxr_jupyter": {
+          "path": "evcxr_jupyter-v0.22.0-aarch64-apple-darwin/evcxr_jupyter",
+          "sha256": "865e9b17821c8a6e9e8c0de1ad8006411b1b7c8257916c269cfb5361fda439cb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/evcxr/evcxr/releases/download/v0.22.0/evcxr_jupyter-v0.22.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.22.0",
+      "sha256": "836657fbce156f8137996cbb75addfbe5e64efd4cbc5b3b3f9452b1033cf5861",
+      "size": 8626248,
+      "format": "zip",
+      "binaries": {
+        "evcxr_jupyter.exe": {
+          "path": "evcxr_jupyter-v0.22.0-x86_64-pc-windows-msvc/evcxr_jupyter.exe",
+          "sha256": "8e27dc44d20b0edce674fd0d5046fe818adffbea25afff4ca7328ca3d9c1a37d"
+        }
+      }
+    }
+  }
+}
