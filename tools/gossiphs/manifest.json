@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "gossiphs",
+  "version": "0.11.6",
+  "repository": "williamfzc/gossiphs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/williamfzc/gossiphs/releases/download/v0.11.6/gossiphs-linux-x86_64",
+      "sha256": "729837166346bbdd028fc76c2de74673769cc658875060467972f0f5d9e4d643",
+      "size": 29448720,
+      "format": "binary",
+      "releaseTag": "v0.11.6",
+      "binaries": {
+        "gossiphs": {
+          "path": "gossiphs-linux-x86_64",
+          "sha256": "729837166346bbdd028fc76c2de74673769cc658875060467972f0f5d9e4d643"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/williamfzc/gossiphs/releases/download/v0.11.6/gossiphs-macos-x86_64",
+      "sha256": "980cea28627922b6a830fa869001db1aa8a319826f6825ba8d7adae9fd83a6eb",
+      "size": 26626724,
+      "format": "binary",
+      "releaseTag": "v0.11.6",
+      "binaries": {
+        "gossiphs": {
+          "path": "gossiphs-macos-x86_64",
+          "sha256": "980cea28627922b6a830fa869001db1aa8a319826f6825ba8d7adae9fd83a6eb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/williamfzc/gossiphs/releases/download/v0.11.6/gossiphs-macos-aarch64",
+      "sha256": "7913f9727fd35e2ad5f897a7609d266cea67647cc0ab41b8cf39b05301c9f2fe",
+      "size": 26030112,
+      "format": "binary",
+      "releaseTag": "v0.11.6",
+      "binaries": {
+        "gossiphs": {
+          "path": "gossiphs-macos-aarch64",
+          "sha256": "7913f9727fd35e2ad5f897a7609d266cea67647cc0ab41b8cf39b05301c9f2fe"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/williamfzc/gossiphs/releases/download/v0.11.6/gossiphs-windows-x64.exe",
+      "sha256": "14e795527adc4b8032eb2cda8fcb6cb5598ca24972ea6943b90c5122b12c7792",
+      "size": 24006656,
+      "format": "binary",
+      "releaseTag": "v0.11.6",
+      "binaries": {
+        "gossiphs.exe": {
+          "path": "gossiphs-windows-x64.exe",
+          "sha256": "14e795527adc4b8032eb2cda8fcb6cb5598ca24972ea6943b90c5122b12c7792"
+        }
+      }
+    }
+  }
+}
