@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-auditable",
+  "version": "0.7.7",
+  "repository": "rust-secure-code/cargo-auditable",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-secure-code/cargo-auditable/releases/download/v0.7.7/cargo-auditable-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.7.7",
+      "sha256": "7676443367c5e33d9fb22acef63cccb5e9202de12dae1b0579995eb3e2bc7a18",
+      "size": 499556,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-auditable": {
+          "path": "cargo-auditable-x86_64-unknown-linux-musl/cargo-auditable",
+          "sha256": "15d8607765d50b24a86971c172c017e3203a85888d5d78d3812e03cfcdc9f740"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rust-secure-code/cargo-auditable/releases/download/v0.7.7/cargo-auditable-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.7.7",
+      "sha256": "c324af56990601354bbf40080f582ba46f8ec8b807a1388e25bb7e429d285c18",
+      "size": 455936,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-auditable": {
+          "path": "cargo-auditable-aarch64-unknown-linux-musl/cargo-auditable",
+          "sha256": "4a7b957163b15bc92e4a86821c723d052b86116709c5fc3cac6abcadd557257f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-secure-code/cargo-auditable/releases/download/v0.7.7/cargo-auditable-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.7",
+      "sha256": "4b87f06ea13d32466bbc68b1f5715ac11753a052d9935245380bddce8a3f0e50",
+      "size": 420076,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-auditable": {
+          "path": "cargo-auditable-x86_64-apple-darwin/cargo-auditable",
+          "sha256": "8a741d9b4aae8b7288dc2d248fe7ae8d393e52f82b75ce508259763aa2e10311"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-secure-code/cargo-auditable/releases/download/v0.7.7/cargo-auditable-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.7",
+      "sha256": "a66ad6392861ca1abfe0b02b522622d91edf63e5d7b60f4d3088b5c23d240c72",
+      "size": 383296,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-auditable": {
+          "path": "cargo-auditable-aarch64-apple-darwin/cargo-auditable",
+          "sha256": "235e823856e3b5fae40a5cac49380fe68d932633ae5b4431daad0293022f387f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-secure-code/cargo-auditable/releases/download/v0.7.7/cargo-auditable-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.7",
+      "sha256": "717ba2d3ed7997c501e9987ee7c94bebf9d7219b18b185a03009420ec7029c7d",
+      "size": 484131,
+      "format": "zip",
+      "binaries": {
+        "cargo-auditable.exe": {
+          "path": "cargo-auditable.exe",
+          "sha256": "fc35804634fc76ddec6bd2d7dde2bdd2c0b18e7fe2e7bc96d223751f6a72cefc"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/rust-secure-code/cargo-auditable/releases/download/v0.7.7/cargo-auditable-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.7",
+      "sha256": "ad827b9c8e94de85930ba32a52d5ab5873e7b54148b4e415279b8d5f3f9eb917",
+      "size": 463925,
+      "format": "zip",
+      "binaries": {
+        "cargo-auditable.exe": {
+          "path": "cargo-auditable.exe",
+          "sha256": "bee93a2cdf5cd93107406430bc3f267e2508733402086289679776b8315e6dbf"
+        }
+      }
+    }
+  }
+}
