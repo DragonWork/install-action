@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "talon-gui",
+  "version": "1.5.0",
+  "repository": "TheRustyPickle/Talon",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/TheRustyPickle/Talon/releases/download/v1.5.0/talon-gui-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.5.0",
+      "sha256": "4f05db980b43ce5e3a1be1275121eeb47c4abe4bf7deb6d65b8f452a0b0f6087",
+      "size": 9475336,
+      "format": "tar.xz",
+      "binaries": {
+        "talon": {
+          "path": "talon-gui-x86_64-unknown-linux-gnu/talon",
+          "sha256": "8382d7f0f9bce7e3e3798e334a62564b97d51074b3b02f937b21279082d27bdc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/TheRustyPickle/Talon/releases/download/v1.5.0/talon-gui-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.5.0",
+      "sha256": "a84e4998911df155ca238d463b3e0c18512de3bc526f0d20e15192208f4ea244",
+      "size": 8673540,
+      "format": "tar.xz",
+      "binaries": {
+        "talon": {
+          "path": "talon-gui-aarch64-unknown-linux-gnu/talon",
+          "sha256": "3ae50dd089d030064b6e6e3c31031d96f474e45b8549ac41311d15c2df590ff2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/TheRustyPickle/Talon/releases/download/v1.5.0/talon-gui-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.5.0",
+      "sha256": "1c835a5274c7357603719c91aae2222f357ff9ed9829793efda08e22d5c93deb",
+      "size": 7137008,
+      "format": "tar.xz",
+      "binaries": {
+        "talon": {
+          "path": "talon-gui-x86_64-apple-darwin/talon",
+          "sha256": "fc1448bb122988e735afa679013080e5829aea2a30fef2cd112266e160f394c7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/TheRustyPickle/Talon/releases/download/v1.5.0/talon-gui-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.5.0",
+      "sha256": "57444926e09d56012509bb30c3ab04c609a71f234cf9f99461243c8bc80bf9b6",
+      "size": 6500188,
+      "format": "tar.xz",
+      "binaries": {
+        "talon": {
+          "path": "talon-gui-aarch64-apple-darwin/talon",
+          "sha256": "b844ebf3557dca4c18a9c2328409ed09367593bd334fda9fad8255690a01f375"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/TheRustyPickle/Talon/releases/download/v1.5.0/talon-gui-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.5.0",
+      "sha256": "3829128d7a748e435d3ecdbe372bb4da9e2ca76de098ba705a68424fd16a99d4",
+      "size": 9993660,
+      "format": "zip",
+      "binaries": {
+        "talon.exe": {
+          "path": "talon.exe",
+          "sha256": "3ec10acad6ea8638a7e7a0f1acb0b59db71b47d17b039d6a3de3394a0dff6d2e"
+        }
+      }
+    }
+  }
+}
