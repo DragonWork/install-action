@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rprobe",
+  "version": "0.10.0",
+  "repository": "vschwaberow/rprobe",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vschwaberow/rprobe/releases/download/v0.10.0/rprobe-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "ca29b5352ef616752a3b6978e4d155dd0d40b51203a92321fd6f98e0b0b8af3d",
+      "size": 4118091,
+      "format": "tar.gz",
+      "binaries": {
+        "rprobe": {
+          "path": "rprobe",
+          "sha256": "2818a3058df42f88a81ea95e14d88d00dc7f602da541d196cf0afe19d4ffd167"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vschwaberow/rprobe/releases/download/v0.10.0/rprobe-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "26a5e2a8bc9972a864281a4fcc172e8f540dfff0496609686ef5e9bab6a0fdf8",
+      "size": 3968902,
+      "format": "tar.gz",
+      "binaries": {
+        "rprobe": {
+          "path": "rprobe",
+          "sha256": "7c1b227ac5f1da0dd88c25fd14b3cf00487398a91b4e51fd54fc7f0ef6786733"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vschwaberow/rprobe/releases/download/v0.10.0/rprobe-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "26fd99ee6d3e0cc2820ee5115896c1803c29025474d76e73da5dbc5dd9f49099",
+      "size": 3941084,
+      "format": "zip",
+      "binaries": {
+        "rprobe.exe": {
+          "path": "target/x86_64-pc-windows-gnu/release/rprobe.exe",
+          "sha256": "6907dca249ec22bc9079efaeb406c586037914163388b850d03bb556115524f3"
+        }
+      }
+    }
+  }
+}
