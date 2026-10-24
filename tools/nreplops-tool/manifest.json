@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "nreplops-tool",
+  "version": "0.3.1",
+  "repository": "mjhanninen/nreplops-tool",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mjhanninen/nreplops-tool/releases/download/v0.3.1/nreplops-tool-0.3.1-linux-x86_64.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "2a401ef69156fc605adeae83aecd5c346758415edf9ce9aaf9d1dbfddb44fe14",
+      "size": 2579740,
+      "format": "tar.gz",
+      "binaries": {
+        "nr": {
+          "path": "nreplops-tool-0.3.1-linux-x86_64/nr",
+          "sha256": "5860a7c1a7b27cd12c83451ba3273ef631f364a159daab8a6a5862ea7f35afe1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mjhanninen/nreplops-tool/releases/download/v0.3.1/nreplops-tool-0.3.1-macos-x86_64.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "cf696ffb8c3b803382025a9f7da79747287a39d6098cacd922f400ba3b87f4a7",
+      "size": 1479217,
+      "format": "tar.gz",
+      "binaries": {
+        "nr": {
+          "path": "nreplops-tool-0.3.1-macos-x86_64/nr",
+          "sha256": "446b40f224d232720a1f4da4ede64ab9cde3ccb21539d3f533b0443539625929"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mjhanninen/nreplops-tool/releases/download/v0.3.1/nreplops-tool-0.3.1-macos-aarch64.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "c58a04488e2224177b96885f5b373ab27ed9529223fc254f9bc9b84ec06f70bd",
+      "size": 1429845,
+      "format": "tar.gz",
+      "binaries": {
+        "nr": {
+          "path": "nreplops-tool-0.3.1-macos-aarch64/nr",
+          "sha256": "ac90bc587e3340a7adf4658f7d03b7a917cde7f46bb243541e561ffeba3220bf"
+        }
+      }
+    }
+  }
+}
