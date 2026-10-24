@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ripunzip",
+  "version": "2.0.3",
+  "repository": "GoogleChrome/ripunzip",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/GoogleChrome/ripunzip/releases/download/v2.0.3/ripunzip_v2.0.3_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.3",
+      "sha256": "4457a18bfcc5feabe09f5ea3d1157128e07b4873392cb404a870e611924abf64",
+      "size": 2068791,
+      "format": "tar.gz",
+      "binaries": {
+        "ripunzip": {
+          "path": "ripunzip",
+          "sha256": "31c49fc694a9ed2b7e2722cf110cd718dd4973f1e38ff864d082bc707b91d9b2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/GoogleChrome/ripunzip/releases/download/v2.0.3/ripunzip_v2.0.3_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.3",
+      "sha256": "8a88eea54eac232d162a72a42065e0429b82dbf4f05e9642915dff9d7a81f846",
+      "size": 1973213,
+      "format": "tar.gz",
+      "binaries": {
+        "ripunzip": {
+          "path": "ripunzip",
+          "sha256": "269d2d7f548232db6ef0818b9c4a52a4885f84917d7d82cafca790f60e7a8f9a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/GoogleChrome/ripunzip/releases/download/v2.0.3/ripunzip_v2.0.3_x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.0.3",
+      "sha256": "66d0c1375301bf5ab815348048f43b110631d3fa7200acd50d50a8ed8655ca62",
+      "size": 1761225,
+      "format": "zip",
+      "binaries": {
+        "ripunzip.exe": {
+          "path": "ripunzip.exe",
+          "sha256": "02abcf46596e39076f95def5f1a5d996a8d03a889dcd5d636d761e18570ad6b5"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/GoogleChrome/ripunzip/releases/download/v2.0.3/ripunzip_v2.0.3_aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v2.0.3",
+      "sha256": "ba947e279e452a0234a3e303d0374bbc895ece81400057aa6f3f61467ddb40fe",
+      "size": 1688168,
+      "format": "zip",
+      "binaries": {
+        "ripunzip.exe": {
+          "path": "ripunzip.exe",
+          "sha256": "28c4704819be080d6e92e4788d753874f0a7e5aa26f3e35a4cc4e5f7c4fd8803"
+        }
+      }
+    }
+  }
+}
