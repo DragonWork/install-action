@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "lean-ctx",
+  "version": "3.11.4",
+  "repository": "yvgude/lean-ctx",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yvgude/lean-ctx/releases/download/v3.11.4/lean-ctx-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.11.4",
+      "sha256": "f7a4d677b77266bfb60883485e4ee7ad3fd7e129d3f935c08dee2d50a8b1df71",
+      "size": 29038923,
+      "format": "tar.gz",
+      "binaries": {
+        "lean-ctx": {
+          "path": "lean-ctx",
+          "sha256": "24d044e63ef36065d7bb62bc25c77daadecb9bc47dfde363c217a0d739c970ac"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/yvgude/lean-ctx/releases/download/v3.11.4/lean-ctx-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.11.4",
+      "sha256": "fe80347ca0b4e34f18a090209c08e05d10078db46ebf2bba44b039b166acaf98",
+      "size": 27571993,
+      "format": "tar.gz",
+      "binaries": {
+        "lean-ctx": {
+          "path": "lean-ctx",
+          "sha256": "919ea55b716ad52a15c022875310887864ded8777ed83cc6452bf39dcd53da41"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yvgude/lean-ctx/releases/download/v3.11.4/lean-ctx-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.11.4",
+      "sha256": "26c305c4ef6f5e049ddb5b6aa0f2a112fafbebcce8456406d88d9b289e8010c1",
+      "size": 27798249,
+      "format": "tar.gz",
+      "binaries": {
+        "lean-ctx": {
+          "path": "lean-ctx",
+          "sha256": "bf9416814f5f8bca7cfcc48bd36569b53eef2e60996086675bd54690d8f51d64"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yvgude/lean-ctx/releases/download/v3.11.4/lean-ctx-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.11.4",
+      "sha256": "d0bc4b1b91715436e6b400dedbdfb1eaeba9dafa575d1d6c9a2f3296d040245f",
+      "size": 26781480,
+      "format": "tar.gz",
+      "binaries": {
+        "lean-ctx": {
+          "path": "lean-ctx",
+          "sha256": "c20fc2afa50205c20fb227c985feb30bf94055cc9381c5a3276bcbc8f14fef8c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yvgude/lean-ctx/releases/download/v3.11.4/lean-ctx-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v3.11.4",
+      "sha256": "d6911b384219576335d49284a05e7d919119133ce4d895f00683b819e33868e8",
+      "size": 27920074,
+      "format": "zip",
+      "binaries": {
+        "lean-ctx.exe": {
+          "path": "lean-ctx.exe",
+          "sha256": "833369f6ed6248833ab03e0fee1a4bd761d653b97c4eb8d86cfae08fc37dd3c8"
+        }
+      }
+    }
+  }
+}
