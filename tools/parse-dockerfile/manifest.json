@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "parse-dockerfile",
+  "version": "0.1.8",
+  "repository": "taiki-e/parse-dockerfile",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.8/parse-dockerfile-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "fb711085a7062b16dd6b73bfd7c64e4bcd04ceeb23ac40994514a0f176a1cd33",
+      "size": 286593,
+      "format": "tar.gz",
+      "binaries": {
+        "parse-dockerfile": {
+          "path": "parse-dockerfile",
+          "sha256": "beec55b66e3c0dccba401070b03f47fac12731569e0f78d646929cb5942e7e67"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.8/parse-dockerfile-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "4463b8676cc3d58abee82754451270e17a5a6d15032013d9e669c5a700b5716f",
+      "size": 282795,
+      "format": "tar.gz",
+      "binaries": {
+        "parse-dockerfile": {
+          "path": "parse-dockerfile",
+          "sha256": "2a4c801c92dc12c931f65b643cc99ceab022548799ef6b8e9d22209a45e9b903"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.8/parse-dockerfile-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "f3422d8f36231d5730576eaca52c45c393290cdce26f9771da60a598ebc4c470",
+      "size": 229616,
+      "format": "tar.gz",
+      "binaries": {
+        "parse-dockerfile": {
+          "path": "parse-dockerfile",
+          "sha256": "738df3134b0b293ff47c195a8383f13a754f8f79faa1b6bdf72c2373bd69de97"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.8/parse-dockerfile-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "3e01a2d668453bfd956afdff461ec63f4b41dfbbd9d59cd1059ff74fec41e894",
+      "size": 219225,
+      "format": "tar.gz",
+      "binaries": {
+        "parse-dockerfile": {
+          "path": "parse-dockerfile",
+          "sha256": "f5ed93c110c0ef509b9cb0abfc392e30d918bfc43b7d0cf7af83bb69bdc9e6e2"
+        }
+      }
+    }
+  }
+}
