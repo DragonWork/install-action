@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "greentic-flow",
+  "version": "1.2.1",
+  "repository": "greenticai/greentic-flow",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/greenticai/greentic-flow/releases/download/v1.2.1/greentic-flow-v1.2.1-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "3ed9268b3938213202b32defdba730c9f6cfea15f47a69db597d7d756fb4dca4",
+      "size": 18251075,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-flow": {
+          "path": "greentic-flow-v1.2.1-x86_64-unknown-linux-gnu/greentic-flow",
+          "sha256": "238e69a444262d3cd129abf0a12216ed880b5d897b52ddf240793e44e854f3d3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/greenticai/greentic-flow/releases/download/v1.2.1/greentic-flow-v1.2.1-aarch64-unknown-linux-gnu.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "c81bca3697b8cb72a9f28933ef8c5a23836e3bb7c35f735e0327725a7358d020",
+      "size": 17216996,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-flow": {
+          "path": "greentic-flow-v1.2.1-aarch64-unknown-linux-gnu/greentic-flow",
+          "sha256": "fe85c051e62f79eaa144868056b172e61221af830fcb4ba0aba06cfce06108b6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/greenticai/greentic-flow/releases/download/v1.2.1/greentic-flow-v1.2.1-x86_64-apple-darwin.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "4bbbf50e4c9d85a9d4664d0e250aec1e733dad7efd88d898c47e32f8ef7944cb",
+      "size": 17731106,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-flow": {
+          "path": "greentic-flow-v1.2.1-x86_64-apple-darwin/greentic-flow",
+          "sha256": "b540e61a95c5836a26cc2e4f49c01060de0bc9291d1d27f11cf60e1a98b1ec08"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/greenticai/greentic-flow/releases/download/v1.2.1/greentic-flow-v1.2.1-aarch64-apple-darwin.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "5d4c70807f46c7e79890bbf7c0cd371e2f63c406b32955c6b5790cc2f3bc7083",
+      "size": 16273080,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-flow": {
+          "path": "greentic-flow-v1.2.1-aarch64-apple-darwin/greentic-flow",
+          "sha256": "7b2670ffab1e153960487d27b860cd7f5c1ff24356e1a56e5de896065b63fff0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/greenticai/greentic-flow/releases/download/v1.2.1/greentic-flow-v1.2.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "ebd17be52c9e9113fa5369675cf3c7ee3a4bfa4cae64e56d124164ad0018af26",
+      "size": 16189624,
+      "format": "zip",
+      "binaries": {
+        "greentic-flow.exe": {
+          "path": "greentic-flow-v1.2.1-x86_64-pc-windows-msvc/greentic-flow.exe",
+          "sha256": "52a35d86ec1ea9dbeeba88720588742cd583661ef3c7792eca8e3cc556b734e2"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/greenticai/greentic-flow/releases/download/v1.2.1/greentic-flow-v1.2.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "71507f16a2d68245303bc89efe270b1412a8a02c9d12714a31db8150db3f638a",
+      "size": 14528909,
+      "format": "zip",
+      "binaries": {
+        "greentic-flow.exe": {
+          "path": "greentic-flow-v1.2.1-aarch64-pc-windows-msvc/greentic-flow.exe",
+          "sha256": "c553c1fa2f2970d1ee5d7239c769e3c85418e676cde7ba394b2ca1657984a3cc"
+        }
+      }
+    }
+  }
+}
