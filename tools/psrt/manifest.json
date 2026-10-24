@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "psrt",
+  "version": "0.3.8",
+  "repository": "alttch/psrt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alttch/psrt/releases/download/v0.3.8/psrt-0.3.8-amd64.deb",
+      "sha256": "960ecc7d9acebc596a94ecfbbddfc337c026cd0f7f58447b5b087212b1379210",
+      "size": 3477232,
+      "format": "deb",
+      "releaseTag": "v0.3.8",
+      "binaries": {
+        "psrt-cli": {
+          "path": "./usr/bin/psrt-cli",
+          "sha256": "868f3d3d6d8abc1ee55a238b0a33e8ab04777c0e71445e30e721e291e3137d60"
+        },
+        "psrtd": {
+          "path": "./usr/sbin/psrtd",
+          "sha256": "648268b40d89f0421a0754bda21cc571ed0e14770f4c73f4256a1df17d53618a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/alttch/psrt/releases/download/v0.3.8/psrt-0.3.8-arm64.deb",
+      "sha256": "0d6f22b8f4d5a9376cfa72909e4eda2e34fa2a0bb05ef422b8fa46b18b2ca95f",
+      "size": 3078712,
+      "format": "deb",
+      "releaseTag": "v0.3.8",
+      "binaries": {
+        "psrt-cli": {
+          "path": "./usr/bin/psrt-cli",
+          "sha256": "8a170e57b390875d08ab44742413f1a5237a4f38a58ed8c7f5fc8339f966326a"
+        },
+        "psrtd": {
+          "path": "./usr/sbin/psrtd",
+          "sha256": "717c510b1e5a6e837a9165dbfe64b943d5b2ba7d8e818d70fb085a441d113656"
+        }
+      }
+    }
+  }
+}
