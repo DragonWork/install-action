@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ddh",
+  "version": "0.13.0",
+  "repository": "darakian/ddh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/darakian/ddh/releases/download/0.13.0/ddh-0.13.0-x86_64-linux.bin",
+      "releaseTag": "0.13.0",
+      "sha256": "f6d5927a3a6dd8bdf432198bc07f6aebfc29e9920d9a0d2545d1639c45208935",
+      "size": 1079944,
+      "format": "binary",
+      "binaries": {
+        "ddh": {
+          "path": "ddh-0.13.0-x86_64-linux.bin",
+          "sha256": "f6d5927a3a6dd8bdf432198bc07f6aebfc29e9920d9a0d2545d1639c45208935"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/darakian/ddh/releases/download/0.13.0/ddh-0.13.0-aarch64-linux.bin",
+      "releaseTag": "0.13.0",
+      "sha256": "3554af5e34b1e1ea22798c3f5b04145209263c8498b26a403f7212ee6276419f",
+      "size": 920120,
+      "format": "binary",
+      "binaries": {
+        "ddh": {
+          "path": "ddh-0.13.0-aarch64-linux.bin",
+          "sha256": "3554af5e34b1e1ea22798c3f5b04145209263c8498b26a403f7212ee6276419f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/darakian/ddh/releases/download/0.13.0/ddh-0.13.0-x86_64-macos.bin",
+      "releaseTag": "0.13.0",
+      "sha256": "c158edae6805d22c74db761ad1c76b13d73e657bfddfbbcafb97dbee7a634ddf",
+      "size": 1471944,
+      "format": "binary",
+      "binaries": {
+        "ddh": {
+          "path": "ddh-0.13.0-x86_64-macos.bin",
+          "sha256": "c158edae6805d22c74db761ad1c76b13d73e657bfddfbbcafb97dbee7a634ddf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/darakian/ddh/releases/download/0.13.0/ddh-0.13.0-aarch64-macos.bin",
+      "releaseTag": "0.13.0",
+      "sha256": "7d41e3885c2c48dc16953f3aae57ea3cdebab73dc74375488c1631000fbe2aa2",
+      "size": 1414401,
+      "format": "binary",
+      "binaries": {
+        "ddh": {
+          "path": "ddh-0.13.0-aarch64-macos.bin",
+          "sha256": "7d41e3885c2c48dc16953f3aae57ea3cdebab73dc74375488c1631000fbe2aa2"
+        }
+      }
+    }
+  }
+}
