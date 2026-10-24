@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "gping",
+  "version": "1.21.0",
+  "repository": "orf/gping",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orf/gping/releases/download/gping-v1.21.0/gping-Linux-gnu-x86_64.tar.gz",
+      "releaseTag": "gping-v1.21.0",
+      "sha256": "965d4246cdc6907957199b3f2732e52e36e37a4162a6d15a86f3d26c223a01ef",
+      "size": 1396401,
+      "format": "tar.gz",
+      "binaries": {
+        "gping": {
+          "path": "gping",
+          "sha256": "04aaabdf672b34d7301ca70db7fd5a60ccd7b1872a647dd8743a609271e8d974"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/orf/gping/releases/download/gping-v1.21.0/gping-Linux-gnu-arm64.tar.gz",
+      "releaseTag": "gping-v1.21.0",
+      "sha256": "49af7566b5b3cac2b1692cc0fd12522519a362d9ce3b45daa29ecf6912d9baa6",
+      "size": 1317781,
+      "format": "tar.gz",
+      "binaries": {
+        "gping": {
+          "path": "gping",
+          "sha256": "20a61ea85d0e733e2e042ef3c07cb0cf58ac69233453ac8d421f057d0646c99f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orf/gping/releases/download/gping-v1.21.0/gping-macOS-x86_64.tar.gz",
+      "releaseTag": "gping-v1.21.0",
+      "sha256": "d0206c60fb5e7c6a9b727968aec847a3b0eb206f1f763c6c784324288114e732",
+      "size": 1309205,
+      "format": "tar.gz",
+      "binaries": {
+        "gping": {
+          "path": "gping",
+          "sha256": "75966dff8ce98abd7179ab0a61308990a8d26c2f3aa30f5a85df54d97c87dc76"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/orf/gping/releases/download/gping-v1.21.0/gping-macOS-arm64.tar.gz",
+      "releaseTag": "gping-v1.21.0",
+      "sha256": "9061a06d93490f97b3a956e149d8ec4c9030625f764e8dbfac9b737c00bd9ea0",
+      "size": 1225081,
+      "format": "tar.gz",
+      "binaries": {
+        "gping": {
+          "path": "gping",
+          "sha256": "534cfac138da4adc9c1d1797a711b4e61b06ee2579f1e758494058e85c4c12f9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orf/gping/releases/download/gping-v1.21.0/gping-Windows-msvc-x86_64.zip",
+      "releaseTag": "gping-v1.21.0",
+      "sha256": "0de92fab46f4de8ac63f6d3247e9426bf430fae08d231bb513987dc7ea5b331d",
+      "size": 1165727,
+      "format": "zip",
+      "binaries": {
+        "gping.exe": {
+          "path": "gping.exe",
+          "sha256": "9b14228226fc2ffef8b793786c2f99046001e10d3cf7cffebb2589082bb9c18c"
+        }
+      }
+    }
+  }
+}
