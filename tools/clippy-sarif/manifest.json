@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "clippy-sarif",
+  "version": "0.8.0",
+  "repository": "psastras/sarif-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/psastras/sarif-rs/releases/download/clippy-sarif-v0.8.0/clippy-sarif-x86_64-unknown-linux-gnu",
+      "sha256": "d97c49a32e50c294437dbfdb764a6ced94c386ee5d45d82ba881694cc6d77329",
+      "size": 3248944,
+      "format": "binary",
+      "releaseTag": "clippy-sarif-v0.8.0",
+      "binaries": {
+        "clippy-sarif": {
+          "path": "clippy-sarif-x86_64-unknown-linux-gnu",
+          "sha256": "d97c49a32e50c294437dbfdb764a6ced94c386ee5d45d82ba881694cc6d77329"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/psastras/sarif-rs/releases/download/clippy-sarif-v0.8.0/clippy-sarif-aarch64-apple-darwin",
+      "sha256": "cf58420b470030c941fed9613fde6e68c0a8e6667d0fd9643b038d69a6b31d3e",
+      "size": 2701040,
+      "format": "binary",
+      "releaseTag": "clippy-sarif-v0.8.0",
+      "binaries": {
+        "clippy-sarif": {
+          "path": "clippy-sarif-aarch64-apple-darwin",
+          "sha256": "cf58420b470030c941fed9613fde6e68c0a8e6667d0fd9643b038d69a6b31d3e"
+        }
+      }
+    }
+  }
+}
