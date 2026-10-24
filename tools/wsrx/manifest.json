@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "wsrx",
+  "version": "0.6.2",
+  "repository": "XDSEC/WebSocketReflectorX",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/XDSEC/WebSocketReflectorX/releases/download/0.6.2/wsrx-cli-0.6.2-linux-gnu-x86_64.tar.gz",
+      "releaseTag": "0.6.2",
+      "sha256": "af96d3c32a9878511f322444b34eb6f5c28a349d5f74018de628f8d68b5cf042",
+      "size": 3451719,
+      "format": "tar.gz",
+      "binaries": {
+        "wsrx": {
+          "path": "wsrx",
+          "sha256": "9a1f00484600530959ec35280e976afb4a3924842fc82a8c13fa68561f335c2a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/XDSEC/WebSocketReflectorX/releases/download/0.6.2/wsrx-cli-0.6.2-macos-x86_64.zip",
+      "releaseTag": "0.6.2",
+      "sha256": "7e128dfcccc72e97c8b961de2ea9d22ac0542ab5939635773732493ad6f3d735",
+      "size": 3358652,
+      "format": "zip",
+      "binaries": {
+        "wsrx": {
+          "path": "target/x86_64-apple-darwin/release/wsrx",
+          "sha256": "ba05edfe8e34fb5be00b5daaa69a155886225e75247e89e1763cd1ed5b3760f0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/XDSEC/WebSocketReflectorX/releases/download/0.6.2/wsrx-cli-0.6.2-macos-aarch64.zip",
+      "releaseTag": "0.6.2",
+      "sha256": "3b356991557dcb65342ff037aeb5fa9edc743038d39c2b1f921aebd2a3648177",
+      "size": 3048558,
+      "format": "zip",
+      "binaries": {
+        "wsrx": {
+          "path": "target/release/wsrx",
+          "sha256": "29704813efa731299b9e5ff6cf32b2946fdd8dfeda3af20c278558b6b488bd1c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/XDSEC/WebSocketReflectorX/releases/download/0.6.2/wsrx-cli-0.6.2-windows-msvc-x86_64.zip",
+      "releaseTag": "0.6.2",
+      "sha256": "e136de8c489316610aa3a9a628a7c5c236513bdcd8b16aa6a58f20db4a165479",
+      "size": 2845795,
+      "format": "zip",
+      "binaries": {
+        "wsrx.exe": {
+          "path": "target/release/wsrx.exe",
+          "sha256": "51003de7b3f4865df678bc44e8061bc9f775e21d1abd1f7aeb3efe22d47d64f4"
+        }
+      }
+    }
+  }
+}
