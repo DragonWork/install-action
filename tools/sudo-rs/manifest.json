@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "sudo-rs",
+  "version": "0.2.15",
+  "repository": "trifectatechfoundation/sudo-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/trifectatechfoundation/sudo-rs/releases/download/v0.2.15/su-0.2.15.tar.gz",
+      "sha256": "89b4424be9db5db8d234f81db82e0d6b16887475de216bbd1add848a315e3814",
+      "size": 283473,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.15",
+      "binaries": {
+        "su": {
+          "path": "bin/su",
+          "sha256": "895fdf23d2950e019f9d3314c9c15bad299362c8e170e4fce038ec9f6772de99"
+        }
+      }
+    }
+  }
+}
