@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "savvy-cli",
+  "version": "0.11.0",
+  "repository": "yutannihilation/savvy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yutannihilation/savvy/releases/download/v0.11.0/savvy-cli-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "09925acd1af92771a1bb6a0a5f709346ac08142819f4820d043cd4842e6cd7cf",
+      "size": 1296360,
+      "format": "tar.xz",
+      "binaries": {
+        "savvy-cli": {
+          "path": "savvy-cli-x86_64-unknown-linux-gnu/savvy-cli",
+          "sha256": "e4d7aa51f2c257be164ba7e515d82b750d68f419f78aa86b859b8699e5b27df4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/yutannihilation/savvy/releases/download/v0.11.0/savvy-cli-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "7f1a471c148d66d7e2a6775e483f53592e69cba6ab8cd3254e97b6db66e492eb",
+      "size": 1154532,
+      "format": "tar.xz",
+      "binaries": {
+        "savvy-cli": {
+          "path": "savvy-cli-aarch64-unknown-linux-gnu/savvy-cli",
+          "sha256": "335298b3efec548e064b4566be706eb88795bc374a1866d101c73a6d46142da6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yutannihilation/savvy/releases/download/v0.11.0/savvy-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "4c4d6a461f154874f6719d335525dffbe09391ab0e8f779b86e26175f19b5ae9",
+      "size": 1235116,
+      "format": "tar.xz",
+      "binaries": {
+        "savvy-cli": {
+          "path": "savvy-cli-x86_64-apple-darwin/savvy-cli",
+          "sha256": "175d213ee210077b4bc5b44df2e441c7ec717f19f98f07049b08f26d9419bb32"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yutannihilation/savvy/releases/download/v0.11.0/savvy-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "e6d6ad43d3385c4492fe8789d472ad61fa0dab0ce36e7a5cf5e7344799cc7094",
+      "size": 1112208,
+      "format": "tar.xz",
+      "binaries": {
+        "savvy-cli": {
+          "path": "savvy-cli-aarch64-apple-darwin/savvy-cli",
+          "sha256": "9fd1380b94a0d62c22834d45f6610a817b6972998abbc97e3f22b358f310b6a5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yutannihilation/savvy/releases/download/v0.11.0/savvy-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "20ba724bd3d5f9e19a6a5e9da6aa8aca0d826b25e84540611ce9a71ad99e057c",
+      "size": 2046751,
+      "format": "zip",
+      "binaries": {
+        "savvy-cli.exe": {
+          "path": "savvy-cli.exe",
+          "sha256": "01918e31d2fe66c3fee3e10b73a47aa97ad75bbd35933c6f4f8114af5f2e8356"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/yutannihilation/savvy/releases/download/v0.11.0/savvy-cli-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "9c6ac3bf9fb3dbba06b79438e53901c1e59085b2a55ce0e6fbdce35d4fed8eb6",
+      "size": 1858312,
+      "format": "zip",
+      "binaries": {
+        "savvy-cli.exe": {
+          "path": "savvy-cli.exe",
+          "sha256": "9f2b3b4ca4ea503f5a1ffc394c2a8500552aea15bde205dee028185325094fbb"
+        }
+      }
+    }
+  }
+}
