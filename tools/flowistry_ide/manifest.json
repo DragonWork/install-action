@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "name": "flowistry_ide",
+  "version": "0.5.44",
+  "repository": "willcrichton/flowistry",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/willcrichton/flowistry/releases/download/v0.5.44/x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.5.44",
+      "sha256": "411b84f770fcde73563a9c9dd1c69371c1ae3f868c9279882fee36e5a50b1496",
+      "size": 5505476,
+      "format": "zip",
+      "binaries": {
+        "cargo-flowistry": {
+          "path": "cargo-flowistry",
+          "sha256": "0806199a053a7f642af83aa82113f07765c59abebe2ff9edc3bb4c1f4d8c5562"
+        },
+        "flowistry-driver": {
+          "path": "flowistry-driver",
+          "sha256": "3cae4e3509713074bf0437704f33d514e80d097b001808ec0127fa9900178a5f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/willcrichton/flowistry/releases/download/v0.5.44/x86_64-apple-darwin.zip",
+      "releaseTag": "v0.5.44",
+      "sha256": "7b0fa1ae36c0b6bc5176b2b48014b329c587267bd3f2a4a0270f935b6a99ec00",
+      "size": 4436460,
+      "format": "zip",
+      "binaries": {
+        "cargo-flowistry": {
+          "path": "cargo-flowistry",
+          "sha256": "92ef12d28afba6530b60b06feb11ce7a4a8e76e641676f9c3215b11df7ad9eea"
+        },
+        "flowistry-driver": {
+          "path": "flowistry-driver",
+          "sha256": "79957b7f5e58d5627da4764148e843d2357896e44888c581acf921bd901bd583"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/willcrichton/flowistry/releases/download/v0.5.44/x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.44",
+      "sha256": "c957275cae9c9dfaecccdf288b05379ad00a59eff9c4048641b081acca7e3e6e",
+      "size": 4224764,
+      "format": "zip",
+      "binaries": {
+        "cargo-flowistry.exe": {
+          "path": "cargo-flowistry.exe",
+          "sha256": "947221130cd4bd74f933ce1864e8db604f3579bf9092dbf900ff13e4b0112833"
+        },
+        "flowistry-driver.exe": {
+          "path": "flowistry-driver.exe",
+          "sha256": "649196cc2cbb85d50b813084d68dd9c4be66f55e9594cf26d42c2cb0cc24bc6b"
+        }
+      }
+    }
+  }
+}
