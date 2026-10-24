@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "timecalc",
+  "version": "0.4.15",
+  "repository": "Granddave/timecalc-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Granddave/timecalc-rs/releases/download/v0.4.15/timecalc-0.4.15-x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "v0.4.15",
+      "sha256": "001661d085cf5389aa9c7cf38f670027bd05ceaf08ec3e276d372e02bd8cfdaa",
+      "size": 1163352,
+      "format": "tar.gz",
+      "binaries": {
+        "timecalc": {
+          "path": "timecalc-0.4.15-x86_64-unknown-linux-musl/timecalc",
+          "sha256": "b08c0ba73e86f729f3cebc887288e8f99696af3dda0c06fa2d59cb04caace4a5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Granddave/timecalc-rs/releases/download/v0.4.15/timecalc-0.4.15-aarch64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.4.15",
+      "sha256": "8aa5b267b0feb95e58acb1465fbd00ff5f1d82bcc96e9c04dc9ca3b87a9d1de1",
+      "size": 1032211,
+      "format": "tar.gz",
+      "binaries": {
+        "timecalc": {
+          "path": "timecalc-0.4.15-aarch64-unknown-linux-gnu/timecalc",
+          "sha256": "60c833684dd250fc88feca3be3f91a5f3ee4cf29cb350b40f220dd16caab3a73"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Granddave/timecalc-rs/releases/download/v0.4.15/timecalc-0.4.15-x86_64-apple-darwin.tgz",
+      "releaseTag": "v0.4.15",
+      "sha256": "2ebee2b20ec680bdf6d979a19f9aaf941339e922ea0e699edf85e9878bc31541",
+      "size": 1016645,
+      "format": "tar.gz",
+      "binaries": {
+        "timecalc": {
+          "path": "timecalc-0.4.15-x86_64-apple-darwin/timecalc",
+          "sha256": "7c736dd5feb9a216b58f510950e3138c40ef6476906ea9e8c146c878f151a507"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Granddave/timecalc-rs/releases/download/v0.4.15/timecalc-0.4.15-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.15",
+      "sha256": "8558145b8d9ae948c79b3cbcc2ec7b11865079343a23e5ceb9da76617fc88eb7",
+      "size": 795255,
+      "format": "zip",
+      "binaries": {
+        "timecalc.exe": {
+          "path": "timecalc-0.4.15-x86_64-pc-windows-msvc/timecalc.exe",
+          "sha256": "cbb00a5762e575b5537546aca1e8feabc57e0cf0550d5a018c73fd7343419552"
+        }
+      }
+    }
+  }
+}
