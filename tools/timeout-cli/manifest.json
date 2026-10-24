@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "timeout-cli",
+  "version": "0.1.0",
+  "repository": "yaleman/timeout-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yaleman/timeout-cli/releases/download/v0.1.0/timeout-cli-v0.1.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.0",
+      "sha256": "443fb61d88afa13ffa0a6576e00b73ac37728955fa6bffa214327480cfb226a7",
+      "size": 490227,
+      "format": "tar.gz",
+      "binaries": {
+        "timeout": {
+          "path": "timeout-cli-v0.1.0-x86_64-unknown-linux-musl/timeout",
+          "sha256": "c0db0e90bf5b1eb573e1b41a4add971d6636edb02bbf9cb01dc6aaef05b749d1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yaleman/timeout-cli/releases/download/v0.1.0/timeout-cli-v0.1.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.0",
+      "sha256": "9f296e1525602af288fa0e2ddd4fa511176766db3907ecd3a232cdf57fbd5d7b",
+      "size": 412262,
+      "format": "tar.gz",
+      "binaries": {
+        "timeout": {
+          "path": "timeout-cli-v0.1.0-x86_64-apple-darwin/timeout",
+          "sha256": "15e307400e6063c043050bf15d214102b98a37b2360ca758b43e6ebd3b3026e3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yaleman/timeout-cli/releases/download/v0.1.0/timeout-cli-v0.1.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.0",
+      "sha256": "0a77734057f7f6981194e7e89ff5bad0d535ae6afa63854e71832c0c3a7b7088",
+      "size": 347589,
+      "format": "zip",
+      "binaries": {
+        "timeout.exe": {
+          "path": "timeout-cli-v0.1.0-x86_64-pc-windows-msvc/timeout.exe",
+          "sha256": "5b04e3beaf7d2c03f0379454b8f497f889044804ec8fe504b72e84e9b6cf817b"
+        }
+      }
+    }
+  }
+}
