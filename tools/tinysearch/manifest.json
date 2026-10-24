@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tinysearch",
+  "version": "0.11.1",
+  "repository": "tinysearch/tinysearch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tinysearch/tinysearch/releases/download/v0.11.1/tinysearch-v0.11.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.1",
+      "sha256": "d91c5470afc2d05bf72f3259ffdc178ca19f96ce30847717a1cc64b2d0a6640c",
+      "size": 811713,
+      "format": "tar.gz",
+      "binaries": {
+        "tinysearch": {
+          "path": "tinysearch",
+          "sha256": "7890f02ce1a41a467da631fd2be2fe6c61a97105901619040ebb201f85eeb186"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tinysearch/tinysearch/releases/download/v0.11.1/tinysearch-v0.11.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.11.1",
+      "sha256": "4f03e459599b8a4f0a6ebdad188165152dd4be515951cca93b5effb91c2820a9",
+      "size": 688534,
+      "format": "tar.gz",
+      "binaries": {
+        "tinysearch": {
+          "path": "tinysearch",
+          "sha256": "39d91a0d3314d89d757c35deb3e8d4cd21bf07790561a384a0316442b32842a1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tinysearch/tinysearch/releases/download/v0.11.1/tinysearch-v0.11.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.11.1",
+      "sha256": "236dd8c1ee7de8c7d5309b0c96b29aa4a4463638712f81f95963408e79a2b714",
+      "size": 661980,
+      "format": "tar.gz",
+      "binaries": {
+        "tinysearch": {
+          "path": "tinysearch",
+          "sha256": "5cb90bd91ce83c1a51950b42ab9ebba8db2eb03a7c055dedc625fe3713ed49bb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tinysearch/tinysearch/releases/download/v0.11.1/tinysearch-v0.11.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.1",
+      "sha256": "5789b4fbe2152452a55693a8bc7721e5a55c55b765fd3cf6ff8b53b8fe0997b5",
+      "size": 580869,
+      "format": "zip",
+      "binaries": {
+        "tinysearch.exe": {
+          "path": "tinysearch.exe",
+          "sha256": "887314cbad5c241325ce21e5530a779712114d81936307d73f705db8416d7dcb"
+        }
+      }
+    }
+  }
+}
