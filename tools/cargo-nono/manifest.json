@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cargo-nono",
+  "version": "0.1.9",
+  "repository": "hobofan/cargo-nono",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hobofan/cargo-nono/releases/download/0.1.9/cargo-nono-0.1.9-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.1.9",
+      "sha256": "83a5985c85a7096afb3db17dce0b8ca0d41d146a26060aeba053900d8ed252be",
+      "size": 2083754,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-nono": {
+          "path": "cargo-nono",
+          "sha256": "9cc55c345d4fdd31d7f7e331f4cd06818b8f8303808d4626bef92a6fdcf9445d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hobofan/cargo-nono/releases/download/0.1.9/cargo-nono-0.1.9-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.1.9",
+      "sha256": "3e3d41fed1ef089a1dcedf03776a9e3671868d29eb21fc258e673975bd6c2fd4",
+      "size": 1217446,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-nono": {
+          "path": "cargo-nono",
+          "sha256": "2406af5e3e27f5c144f32f0665fc199e824428472dd4f9cf37ef961221972102"
+        }
+      }
+    }
+  }
+}
