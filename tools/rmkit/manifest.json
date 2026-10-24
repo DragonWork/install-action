@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rmkit",
+  "version": "0.1.0",
+  "repository": "rmk-rs/rmkit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.0/rmkit-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.0",
+      "sha256": "284c82bef24bea1022723600cfda96d9366587c6cbd979e619d17e590e2fb3f5",
+      "size": 2818396,
+      "format": "tar.xz",
+      "binaries": {
+        "rmkit": {
+          "path": "rmkit-x86_64-unknown-linux-gnu/rmkit",
+          "sha256": "5d3f7427bf07b6efd2281edb1a0410323900d09230b5ff3b236bb8be5c19af34"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.0/rmkit-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.0",
+      "sha256": "d14adf2dad92e26c0a3cd617a9ed4c71c0cc5ff677a26fa2e699e3d9e1e9d64b",
+      "size": 2722324,
+      "format": "tar.xz",
+      "binaries": {
+        "rmkit": {
+          "path": "rmkit-x86_64-apple-darwin/rmkit",
+          "sha256": "0aeef3789859e4b357d8bbfb315b725becfad822c8b904474ff7f35d72a099a7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.0/rmkit-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.0",
+      "sha256": "317b73c370e85cface889a92f0116bb5d54c9a31361b5f0ff5b76377bf6aa48f",
+      "size": 2398044,
+      "format": "tar.xz",
+      "binaries": {
+        "rmkit": {
+          "path": "rmkit-aarch64-apple-darwin/rmkit",
+          "sha256": "09649d69c023b3c83c2a9b4b86076acf23370859a766f5416b77bf96f2484b17"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.0/rmkit-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.0",
+      "sha256": "e1f6c92577afcc12411ef186fac09970d919addc1b609c38f433efa177164d90",
+      "size": 3809617,
+      "format": "zip",
+      "binaries": {
+        "rmkit.exe": {
+          "path": "rmkit.exe",
+          "sha256": "c50033822cb42bf5714aa9dd65fd0063621a6575da0384ab4db6782b7168fd64"
+        }
+      }
+    }
+  }
+}
