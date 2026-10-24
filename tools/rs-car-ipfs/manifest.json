@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rs-car-ipfs",
+  "version": "0.4.0",
+  "repository": "dapplion/rs-car-ipfs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dapplion/rs-car-ipfs/releases/download/v0.4.0/car-ipfs-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "950be5f24396bd605f4c36b3afdd0bcddeb3413762c328c301175306d9183f01",
+      "size": 521082,
+      "format": "tar.gz",
+      "binaries": {
+        "car-ipfs": {
+          "path": "car-ipfs",
+          "sha256": "4b060c3b2d5bba32ce141327027dbd3e96d12e5cabf61ab75d661f64807c5f05"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dapplion/rs-car-ipfs/releases/download/v0.4.0/car-ipfs-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "f6e4bdea2adcd1729d84a7b482d98a3e214bce4d2df29133748c7b530bf61d19",
+      "size": 471238,
+      "format": "tar.gz",
+      "binaries": {
+        "car-ipfs": {
+          "path": "car-ipfs",
+          "sha256": "50780ca59d58d09eb10c03298c4f59714194dc3ae67266c3bede49fa734078b7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dapplion/rs-car-ipfs/releases/download/v0.4.0/car-ipfs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "7097ac77ef7f831bb7c6f13adb47f8b266c4dfd22b344daf79d935a615d82e42",
+      "size": 336787,
+      "format": "zip",
+      "binaries": {
+        "car-ipfs.exe": {
+          "path": "car-ipfs.exe",
+          "sha256": "781fa6f5eda7f888ee3fa237a75739f2b8717bdcb48e7399188f08dc5c894ece"
+        }
+      }
+    }
+  }
+}
