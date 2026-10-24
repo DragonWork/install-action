@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "shell-toy",
+  "version": "0.9.0",
+  "repository": "FaceFTW/shell-toy",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/FaceFTW/shell-toy/releases/download/v0.9.0/sh-toy-lite-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.9.0",
+      "sha256": "3bfd3950ff57df0b4957700c08ccb9f34b80dd9125a0ad63aac39c3ce1c14ce9",
+      "size": 325120,
+      "format": "binary",
+      "binaries": {
+        "sh-toy.exe": {
+          "path": "sh-toy-lite-x86_64-pc-windows-msvc.exe",
+          "sha256": "3bfd3950ff57df0b4957700c08ccb9f34b80dd9125a0ad63aac39c3ce1c14ce9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/FaceFTW/shell-toy/releases/download/v0.9.0/sh-toy-lite-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.9.0",
+      "sha256": "4af23ef608a8ead7640d849dd9ef0eca04920d5938778a4dfe4c1fc478913d40",
+      "size": 311808,
+      "format": "binary",
+      "binaries": {
+        "sh-toy.exe": {
+          "path": "sh-toy-lite-aarch64-pc-windows-msvc.exe",
+          "sha256": "4af23ef608a8ead7640d849dd9ef0eca04920d5938778a4dfe4c1fc478913d40"
+        }
+      }
+    }
+  }
+}
