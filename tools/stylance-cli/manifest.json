@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "stylance-cli",
+  "version": "0.8.4",
+  "repository": "basro/stylance-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/basro/stylance-rs/releases/download/v0.8.4/stylance-cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.8.4",
+      "sha256": "9e81a229a2668b941fa7a5d978e709eb707069f260f225d0082c0ea45566332b",
+      "size": 577724,
+      "format": "tar.xz",
+      "binaries": {
+        "stylance": {
+          "path": "stylance-cli-x86_64-unknown-linux-musl/stylance",
+          "sha256": "6bd429a246ea1930d3a748f809ecaa632c484709e97f8529e3e5f41e626481c9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/basro/stylance-rs/releases/download/v0.8.4/stylance-cli-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.8.4",
+      "sha256": "4bf2c0da1df43f69b627be93f99fb6d60d60cd4bd078ee7c763a7a1576b26ae7",
+      "size": 502420,
+      "format": "tar.xz",
+      "binaries": {
+        "stylance": {
+          "path": "stylance-cli-aarch64-unknown-linux-musl/stylance",
+          "sha256": "8f41ce00e1aa94b82106850680cb05d05ab86760b348f8455e05022ee787b217"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/basro/stylance-rs/releases/download/v0.8.4/stylance-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.4",
+      "sha256": "929f4711fbec6758dba1a7cd14e54a3ca4f07e0165d84b1e61e9642a82fddc14",
+      "size": 499104,
+      "format": "tar.xz",
+      "binaries": {
+        "stylance": {
+          "path": "stylance-cli-x86_64-apple-darwin/stylance",
+          "sha256": "9eb051b39debda3c9952f2baa1a06c206d6ab22c2c2271074a847835fef357a2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/basro/stylance-rs/releases/download/v0.8.4/stylance-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.4",
+      "sha256": "e897c3104b62957af6d789f9dc69bda221f8490b89e880da34d1a636db92fe12",
+      "size": 432344,
+      "format": "tar.xz",
+      "binaries": {
+        "stylance": {
+          "path": "stylance-cli-aarch64-apple-darwin/stylance",
+          "sha256": "ed65cc261725a9f7b0ed3f2d0448cf6b86a60d576a6be11842fd4a60acbb25fe"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/basro/stylance-rs/releases/download/v0.8.4/stylance-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.4",
+      "sha256": "d392009d167b9abd92c931d756afc613b851a416523cfe14e5c5b8b9967794a5",
+      "size": 707187,
+      "format": "zip",
+      "binaries": {
+        "stylance.exe": {
+          "path": "stylance.exe",
+          "sha256": "dc930db89a66013b2876d9f2e0aab03f79c2f6b8f4282b21caf6b0fc8ec7773f"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/basro/stylance-rs/releases/download/v0.8.4/stylance-cli-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.4",
+      "sha256": "28f9d68b12919bfac592ffd33f4243fea2b81c17e8bf0069478de667fa49562f",
+      "size": 681518,
+      "format": "zip",
+      "binaries": {
+        "stylance.exe": {
+          "path": "stylance.exe",
+          "sha256": "a4e43573893a016d5d241aa9f2ef38840712a03e1ae01df1bcc9eddd1a49e954"
+        }
+      }
+    }
+  }
+}
