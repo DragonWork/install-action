@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "r-matrix",
+  "version": "2.0.6",
+  "repository": "Fierthraix/rmatrix",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Fierthraix/rmatrix/releases/download/v2.0.6/rmatrix-2.0.6-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.0.6",
+      "sha256": "d3f00a0b4c95d58a832b5e746823f451fff5fac12a9afb2ed2a25ff7fd9dd7c1",
+      "size": 480700,
+      "format": "tar.gz",
+      "binaries": {
+        "r-matrix": {
+          "path": "rmatrix-2.0.6-x86_64-unknown-linux-gnu/r-matrix",
+          "sha256": "6680c1d5c82d776be69511e8233fa9b4d5ee2125d74095b780568ca3dbe5d2b7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Fierthraix/rmatrix/releases/download/v2.0.6/rmatrix-2.0.6-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.0.6",
+      "sha256": "b2696c15db6c621d6185aa3b58e050fd6669a9ba2b7ea827124116f0b058d6ac",
+      "size": 461923,
+      "format": "tar.gz",
+      "binaries": {
+        "r-matrix": {
+          "path": "rmatrix-2.0.6-aarch64-unknown-linux-gnu/r-matrix",
+          "sha256": "ebb326d7feabfd40dc083f731bbe097480f96757bff7b345e94e5027902b219d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Fierthraix/rmatrix/releases/download/v2.0.6/rmatrix-2.0.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.6",
+      "sha256": "1222b9c580676e7deeb1ee66f86cf6ced64f182555a6ff3a9cbc6b835d600dd8",
+      "size": 505276,
+      "format": "tar.gz",
+      "binaries": {
+        "r-matrix": {
+          "path": "rmatrix-2.0.6-x86_64-apple-darwin/r-matrix",
+          "sha256": "5b5bf8e7175f6876f95dcb748e8a1be020dc132e990aa8264551d5974e8f6091"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Fierthraix/rmatrix/releases/download/v2.0.6/rmatrix-2.0.6-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.6",
+      "sha256": "5b4b4c624deabe36ac2d34c4ce177b9a420732075a52119f3f6b427d21412937",
+      "size": 494459,
+      "format": "tar.gz",
+      "binaries": {
+        "r-matrix": {
+          "path": "rmatrix-2.0.6-aarch64-apple-darwin/r-matrix",
+          "sha256": "987f43e786e29070a657490356a0317eddcc91f48e080142d1e9e3938f26e79c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Fierthraix/rmatrix/releases/download/v2.0.6/rmatrix-2.0.6-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v2.0.6",
+      "sha256": "5aadd6154cb59db045bd01f0327373a641e326080de193724436a282777f418b",
+      "size": 784918,
+      "format": "zip",
+      "binaries": {
+        "r-matrix.exe": {
+          "path": "rmatrix-2.0.6-x86_64-pc-windows-gnu/r-matrix.exe",
+          "sha256": "e677100d4c0e0979c6c93a0a3b5a5ca023a99fd414b0867775ee827dd8d5a37a"
+        }
+      }
+    }
+  }
+}
