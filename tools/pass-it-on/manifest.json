@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pass-it-on",
+  "version": "0.17.5",
+  "repository": "kwheelans/pass-it-on",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kwheelans/pass-it-on/releases/download/v0.17.5/pass-it-on-server-v0.17.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.17.5",
+      "sha256": "b56f949935b0e3e7bb5658af219c9fa9d453781eed90c3ef86ae2a580bff426e",
+      "size": 21918939,
+      "format": "tar.gz",
+      "binaries": {
+        "pass-it-on-server": {
+          "path": "pass-it-on-server-v0.17.5-x86_64-unknown-linux-musl/pass-it-on-server",
+          "sha256": "406a979eb4e0a6e589860edb35f522e2270fb13b14b97f98103dce99a94d8f47"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kwheelans/pass-it-on/releases/download/v0.17.5/pass-it-on-server-v0.17.5-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.17.5",
+      "sha256": "03fb60a63fa2361d662bb84a76c5b45aa80a7ef92574bc0d784625be850e1a5b",
+      "size": 20055949,
+      "format": "tar.gz",
+      "binaries": {
+        "pass-it-on-server": {
+          "path": "pass-it-on-server-v0.17.5-aarch64-unknown-linux-musl/pass-it-on-server",
+          "sha256": "5f2f349c58a35a41166e4ca887139995ffe07c60a319852082f54921ec5faecc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kwheelans/pass-it-on/releases/download/v0.17.5/pass-it-on-server-v0.17.5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.17.5",
+      "sha256": "4c036fe2d6fb122d700bfd35a529bf086ea009a628c7928783f54ac8e0ec26e9",
+      "size": 20769374,
+      "format": "zip",
+      "binaries": {
+        "pass-it-on-server.exe": {
+          "path": "pass-it-on-server.exe",
+          "sha256": "ca529f6796767a71b352834fa7214889210074ecff0598d58cd7f75359020e40"
+        }
+      }
+    }
+  }
+}
