@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "eqformat_pfs",
+  "version": "0.2.1",
+  "repository": "martinlindhe/eqformat_pfs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/martinlindhe/eqformat_pfs/releases/download/0.2.1/extract-pfs-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.2.1",
+      "sha256": "73319a2f235678611698fa3cc0321a04903a7a5d2e31505cede1d976403af910",
+      "size": 379153,
+      "format": "tar.gz",
+      "binaries": {
+        "extract-pfs": {
+          "path": "extract-pfs",
+          "sha256": "aafc4a5931d8271b03254c4bc3306049df4053773462b4bd81d4a52f7d4f3d9f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/martinlindhe/eqformat_pfs/releases/download/0.2.1/extract-pfs-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.2.1",
+      "sha256": "c58328af11cb24a27381c69cc0010498241943aee349ceedcbcfbb7e388118e8",
+      "size": 352898,
+      "format": "tar.gz",
+      "binaries": {
+        "extract-pfs": {
+          "path": "extract-pfs",
+          "sha256": "7aebfdbf23a0ee7ee1b832b9c2af8fed1557a914f14142bb950128091d2ecb69"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/martinlindhe/eqformat_pfs/releases/download/0.2.1/extract-pfs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.2.1",
+      "sha256": "da66462e95c6a9f23cea31b2452ff3c79483e1b576f0b274f4c7c8dccd4fea86",
+      "size": 291556,
+      "format": "zip",
+      "binaries": {
+        "extract-pfs.exe": {
+          "path": "extract-pfs.exe",
+          "sha256": "1dadc5356fb94483a53c2c3e6b76f0d26bfa9074674ff108b2a123ffba98eb98"
+        }
+      }
+    }
+  }
+}
