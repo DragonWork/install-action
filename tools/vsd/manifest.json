@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "vsd",
+  "version": "0.5.0",
+  "repository": "clitic/vsd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/clitic/vsd/releases/download/vsd-0.5.0/vsd-0.5.0-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "bab9b5b1a02b30afdbf44b58aa9b245d54caf8f723189bb9cc4dca4872c1455b",
+      "size": 5056224,
+      "format": "tar.xz",
+      "releaseTag": "vsd-0.5.0",
+      "binaries": {
+        "vsd": {
+          "path": "./vsd",
+          "sha256": "bd0b2f2f27eb6325205e10738dad8cce3ebdd9089caef51bda5a5236cc61f588"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/clitic/vsd/releases/download/vsd-0.5.0/vsd-0.5.0-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "c435f822f11da61dee85732a8eadf93a3e138041100c552c6826addee53951c6",
+      "size": 4479752,
+      "format": "tar.xz",
+      "releaseTag": "vsd-0.5.0",
+      "binaries": {
+        "vsd": {
+          "path": "./vsd",
+          "sha256": "b457f364ad238ac1f210956bc007351603aa26f3e6670826733893e15badfd28"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/clitic/vsd/releases/download/vsd-0.5.0/vsd-0.5.0-aarch64-apple-darwin.tar.xz",
+      "sha256": "55fa01823ca3566e91080e9965e1d75fa53626d6be60b10671f250de8cd34f64",
+      "size": 4191192,
+      "format": "tar.xz",
+      "releaseTag": "vsd-0.5.0",
+      "binaries": {
+        "vsd": {
+          "path": "./vsd",
+          "sha256": "8e82f47febad2a54a48b489ef9846292e2653ceb275ccb594c9666f8e27f471e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/clitic/vsd/releases/download/vsd-0.5.0/vsd-0.5.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "a76cf2ee65615af3e96c43e23dc573b9dd68451167a6fd43456455c630e419f8",
+      "size": 5782468,
+      "format": "zip",
+      "releaseTag": "vsd-0.5.0",
+      "binaries": {
+        "vsd.exe": {
+          "path": "vsd.exe",
+          "sha256": "8941ac83c0517637c1ca998114aafb92feab71837716d11b9538ba26c74109d3"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/clitic/vsd/releases/download/vsd-0.5.0/vsd-0.5.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "237e7d4eaddb1f43c0aff110612bd9415b07f021939b00932d70d0ba2484cf34",
+      "size": 5487733,
+      "format": "zip",
+      "releaseTag": "vsd-0.5.0",
+      "binaries": {
+        "vsd.exe": {
+          "path": "vsd.exe",
+          "sha256": "d956cc7e1f3fb82363a3480cc1256ad269cf14e818dd251c210b2dd94cbb34b6"
+        }
+      }
+    }
+  }
+}
