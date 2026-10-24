@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rnx2crx",
+  "version": "1.8.1",
+  "repository": "nav-solutions/rnx2crx",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nav-solutions/rnx2crx/releases/download/v1.8.1/rnx2crx-v1.8.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.8.1",
+      "sha256": "4d162cf70bfd34c6e428ba5932993bd384a0556d3801a0c5f1da6bc22c651d8a",
+      "size": 758822,
+      "format": "tar.gz",
+      "binaries": {
+        "rnx2crx": {
+          "path": "rnx2crx-v1.8.1-x86_64-unknown-linux-gnu/rnx2crx",
+          "sha256": "794c58b81825ca384f19c395ec999540989a53d251c4a245bda825609fc38671"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nav-solutions/rnx2crx/releases/download/v1.8.1/rnx2crx-v1.8.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.8.1",
+      "sha256": "b2b62810ab202a360851530cb09caa6e058857f6c0429298dbd608acae2d4496",
+      "size": 735918,
+      "format": "tar.gz",
+      "binaries": {
+        "rnx2crx": {
+          "path": "rnx2crx-v1.8.1-x86_64-apple-darwin/rnx2crx",
+          "sha256": "e8b991d160a74ba55f8bf2025e3d52df846f1d6128b159f1dccce79cf197fbfc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nav-solutions/rnx2crx/releases/download/v1.8.1/rnx2crx-v1.8.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.8.1",
+      "sha256": "f6d6d4293cea7005d59d0ebf9fd2382d8a012da315bdc6265c837b9d66f2cef9",
+      "size": 683178,
+      "format": "tar.gz",
+      "binaries": {
+        "rnx2crx": {
+          "path": "rnx2crx-v1.8.1-aarch64-apple-darwin/rnx2crx",
+          "sha256": "67e06425bfc93fa8f8eaef8e4f9d4f23f63f3c5fabfed2bb9cdbf46484668ec0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nav-solutions/rnx2crx/releases/download/v1.8.1/rnx2crx-v1.8.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.8.1",
+      "sha256": "b3b581e34151ba94be7d12d9d78d4d70a4e6d38e8c522650f5d121bb3545b1ef",
+      "size": 651816,
+      "format": "zip",
+      "binaries": {
+        "rnx2crx.exe": {
+          "path": "rnx2crx-v1.8.1-x86_64-pc-windows-msvc/rnx2crx.exe",
+          "sha256": "9b7f772e0c5bf808435bffe633a85f119ddd0e003792b05e4a6f281de4532071"
+        }
+      }
+    }
+  }
+}
