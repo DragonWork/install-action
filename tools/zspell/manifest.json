@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "zspell",
+  "version": "0.1.4",
+  "repository": "pluots/zspell",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pluots/zspell/releases/download/v0.1.4/zspell-v0.1.4-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.4",
+      "sha256": "46381bfaf40e52dc5afac8537ec8fe5d0a60c433cf688d4dbc733246f90bef42",
+      "size": 870371,
+      "format": "tar.gz",
+      "binaries": {
+        "zspell": {
+          "path": "zspell-v0.1.4-x86_64-unknown-linux-musl/zspell",
+          "sha256": "f84e50595f4a01b657d8e89a501aa25a452447d780eabf9902b632a283b27fc0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pluots/zspell/releases/download/v0.1.4/zspell-v0.1.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.4",
+      "sha256": "07dd26f8e87a7729316c06479eb7380f0fe0b34730a2bf700ef8de1a7f59515f",
+      "size": 754222,
+      "format": "tar.gz",
+      "binaries": {
+        "zspell": {
+          "path": "zspell-v0.1.4-x86_64-apple-darwin/zspell",
+          "sha256": "37dd28378c57623a5ecc61369c51e103b2305fd2a50df611524d3764a8b1b04f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pluots/zspell/releases/download/v0.1.4/zspell-v0.1.4-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.4",
+      "sha256": "8bceac840ee9673dfc6b77757bf775d957be95227560f9cb4650d780edc88e6e",
+      "size": 707000,
+      "format": "zip",
+      "binaries": {
+        "zspell.exe": {
+          "path": "zspell-v0.1.4-x86_64-pc-windows-msvc/zspell.exe",
+          "sha256": "c7af4d600130031a1521202c3a6ae94a6cdffe118deeb512a8ec3362689a2781"
+        }
+      }
+    }
+  }
+}
