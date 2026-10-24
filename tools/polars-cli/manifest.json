@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "polars-cli",
+  "version": "0.9.0",
+  "repository": "pola-rs/polars-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pola-rs/polars-cli/releases/download/0.9.0/polars-cli-0.9.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.9.0",
+      "sha256": "c3956b1b71bc0a6368dd43e5e021a511af34a01ce15c79770842de7e1b9f7cd3",
+      "size": 14455680,
+      "format": "tar.gz",
+      "binaries": {
+        "polars": {
+          "path": "polars",
+          "sha256": "1c9187b4c606f5bfbbc942393a645595ce145b1b45c1e96b8fe8930a01ff2aaf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pola-rs/polars-cli/releases/download/0.9.0/polars-cli-0.9.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.9.0",
+      "sha256": "3353df2a0f24f1f1473c85e1912d766b6ec447c7ba8d85de0ce12fbfbfdb57e2",
+      "size": 12821530,
+      "format": "tar.gz",
+      "binaries": {
+        "polars": {
+          "path": "polars",
+          "sha256": "75882deb68df4caa436a21f704d3a381b34d088072c0436dbb1d8c8d98335c6d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pola-rs/polars-cli/releases/download/0.9.0/polars-cli-0.9.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.9.0",
+      "sha256": "48f5e7add3131deecd9ccbc45a8135ec458ce0ef119ad3b1d167ca338cf16cd8",
+      "size": 15018170,
+      "format": "tar.gz",
+      "binaries": {
+        "polars": {
+          "path": "polars",
+          "sha256": "77517d5ac3f6a40494cabefa8e3b09b45bca8cfb5b471d7b530e95509d06e5f9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pola-rs/polars-cli/releases/download/0.9.0/polars-cli-0.9.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.9.0",
+      "sha256": "7e19a55d36eed1c77a38ca96827498f3490dedf9550bf6ab8b61b9141b84d32c",
+      "size": 13091048,
+      "format": "tar.gz",
+      "binaries": {
+        "polars": {
+          "path": "polars",
+          "sha256": "ffc464eb42f7ed76644e2ab5c8e2673da0ca897d4a569bf6e122872e7f83eb35"
+        }
+      }
+    }
+  }
+}
