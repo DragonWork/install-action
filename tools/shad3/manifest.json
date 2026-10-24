@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "shad3",
+  "version": "1.1.51",
+  "repository": "styromaniac/shad3",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/styromaniac/shad3/releases/download/v1.1.51/shad3-linux_x86_64.tar.gz",
+      "releaseTag": "v1.1.51",
+      "sha256": "3c9d8f175ce811c18d552ec6925f9e3191e95d40e56fbf03320cafe6a5248853",
+      "size": 2133606,
+      "format": "tar.gz",
+      "binaries": {
+        "shad3": {
+          "path": "shad3",
+          "sha256": "1d8340f77fd45767a9b13c7a43265601a6f4c97e4e27382931d7ff27de809f81"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/styromaniac/shad3/releases/download/v1.1.51/shad3-linux_aarch64.tar.gz",
+      "releaseTag": "v1.1.51",
+      "sha256": "4dabd7ca2de7f88c0a4dada7115d6405a272bfdb7ddb3ede2ce1378a58936f66",
+      "size": 1969472,
+      "format": "tar.gz",
+      "binaries": {
+        "shad3": {
+          "path": "shad3",
+          "sha256": "c254a74f7f9f7ee73c638de2e1e27742c31f97ac230d974a8d66d62964a49bf4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/styromaniac/shad3/releases/download/v1.1.51/shad3-macos_x86_64.tar.gz",
+      "releaseTag": "v1.1.51",
+      "sha256": "2baea37d2aee01927eccafe4b94d7221ac0d699c5c22dcfff56f74c19091b074",
+      "size": 2034317,
+      "format": "tar.gz",
+      "binaries": {
+        "shad3": {
+          "path": "shad3",
+          "sha256": "17df6f105ff8f297c4fde4553c3f384e9dbc25b5ebbff356bbe3df735373b47f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/styromaniac/shad3/releases/download/v1.1.51/shad3-macos_aarch64.tar.gz",
+      "releaseTag": "v1.1.51",
+      "sha256": "659cb8205cfb3a2f4fa810e052acaba62f620fee732a2e90550aede1cc9cef18",
+      "size": 1905163,
+      "format": "tar.gz",
+      "binaries": {
+        "shad3": {
+          "path": "shad3",
+          "sha256": "d1823738c02881b623bd00ac911fce7023748c7929ceffade6964f0e30721347"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/styromaniac/shad3/releases/download/v1.1.51/shad3-windows_x86_64.zip",
+      "releaseTag": "v1.1.51",
+      "sha256": "83bbdcf21e912f2c27b15ec65de0bdc2a630d8fc4d207ce5f75be4d37975dc51",
+      "size": 2044258,
+      "format": "zip",
+      "binaries": {
+        "shad3.exe": {
+          "path": "shad3.exe",
+          "sha256": "7280eaf8ce06afc329702c896cf5b14fd78e18e68009ad5fb7dfe0a28a36b4b4"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/styromaniac/shad3/releases/download/v1.1.51/shad3-windows_aarch64.zip",
+      "releaseTag": "v1.1.51",
+      "sha256": "68757b990d655903706155466f577352cadeaf959f69ad2310656ec3f9b9c670",
+      "size": 1935047,
+      "format": "zip",
+      "binaries": {
+        "shad3.exe": {
+          "path": "shad3.exe",
+          "sha256": "bef96f63ad2c395e593a462eacba9b7eb1ce52c13d927682edcb95e8052e6960"
+        }
+      }
+    }
+  }
+}
