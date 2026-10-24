@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-outdated",
+  "version": "0.19.0",
+  "repository": "kbknapp/cargo-outdated",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kbknapp/cargo-outdated/releases/download/v0.19.0/cargo-outdated-0.19.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.19.0",
+      "sha256": "648021f279e737e11f4be0f5967ae2a01d4d66f7a2e462a0b24ccd6dd5e6b372",
+      "size": 10045280,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-outdated": {
+          "path": "cargo-outdated",
+          "sha256": "3312ecea65ed63c0b6e1a8a458b180128e67ce481ceb3e1c029e4717b06e1492"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kbknapp/cargo-outdated/releases/download/v0.19.0/cargo-outdated-0.19.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.19.0",
+      "sha256": "0570cb34034784aa10315aef8cc84d008104f5b60ccc93efcf83b0b08fb585e3",
+      "size": 9696088,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-outdated": {
+          "path": "cargo-outdated",
+          "sha256": "af4d3e61e5c226b54a0f049a01be5a9680c16688959861808f0e8dd37b8f24b1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kbknapp/cargo-outdated/releases/download/v0.19.0/cargo-outdated-0.19.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.19.0",
+      "sha256": "945b64728ae9021be49a70346424da7634d889f181f2d33af64c7bf95265f6d3",
+      "size": 8432760,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-outdated": {
+          "path": "cargo-outdated",
+          "sha256": "63a2f5ffe56c7c7ad0e21eba87e4dcf7ebd757bc376c16d534caaa2d82ac127b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kbknapp/cargo-outdated/releases/download/v0.19.0/cargo-outdated-0.19.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.19.0",
+      "sha256": "c3a3ca56a748d94fdaa1f208c641685d996ee1c4954cd4fbe358b7c06a2186a5",
+      "size": 8317788,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-outdated": {
+          "path": "cargo-outdated",
+          "sha256": "22003be477d106e10c285d11e677b680859fc72d1c0035fe599b3755ede231a8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kbknapp/cargo-outdated/releases/download/v0.19.0/cargo-outdated-0.19.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.19.0",
+      "sha256": "f2984f27955dbbe8fd3c1714d461d7cb8a1da3cc97f835e44c38215953833dbd",
+      "size": 7801852,
+      "format": "zip",
+      "binaries": {
+        "cargo-outdated.exe": {
+          "path": "cargo-outdated.exe",
+          "sha256": "50e162580c275f6a0997c3b8578c94e6c3a2514ae5f80564588efabaf6a87cc7"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/kbknapp/cargo-outdated/releases/download/v0.19.0/cargo-outdated-0.19.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.19.0",
+      "sha256": "2b58a56cdf564af78c3e1ed46ab1341942f4845ca7a06bf44b292404ce7a2598",
+      "size": 7166395,
+      "format": "zip",
+      "binaries": {
+        "cargo-outdated.exe": {
+          "path": "cargo-outdated.exe",
+          "sha256": "45884a60c26b245bdf0e64532dbf36e36d7a706aecd413766a46e9d1a4d8ab2a"
+        }
+      }
+    }
+  }
+}
