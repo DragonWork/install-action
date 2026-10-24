@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tabiew",
+  "version": "0.15.1",
+  "repository": "shshemi/tabiew",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/shshemi/tabiew/releases/download/v0.15.1/tw-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.15.1",
+      "sha256": "0825b58383391f0413fe1d0669ea0469dc8a42ddb24f3c9439cf951c947ecbda",
+      "size": 68281344,
+      "format": "binary",
+      "binaries": {
+        "tw.exe": {
+          "path": "tw-x86_64-pc-windows-msvc.exe",
+          "sha256": "0825b58383391f0413fe1d0669ea0469dc8a42ddb24f3c9439cf951c947ecbda"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/shshemi/tabiew/releases/download/v0.15.1/tw-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.15.1",
+      "sha256": "c2220e93505046e9123e2b976d85eb0fe5296d0c567b008e24e26b84c327f0a1",
+      "size": 57839616,
+      "format": "binary",
+      "binaries": {
+        "tw.exe": {
+          "path": "tw-aarch64-pc-windows-msvc.exe",
+          "sha256": "c2220e93505046e9123e2b976d85eb0fe5296d0c567b008e24e26b84c327f0a1"
+        }
+      }
+    }
+  }
+}
