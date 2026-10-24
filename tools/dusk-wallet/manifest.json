@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dusk-wallet",
+  "version": "0.22.1",
+  "repository": "dusk-network/wallet-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dusk-network/wallet-cli/releases/download/v0.22.1/ruskwallet0.22.1-linux-x64.tar.gz",
+      "releaseTag": "v0.22.1",
+      "sha256": "9bf7e10c051790968e34e87d44339850fe32fad9cae4f8dc532de1b8c480c28f",
+      "size": 6420492,
+      "format": "tar.gz",
+      "binaries": {
+        "rusk-wallet": {
+          "path": "rusk-wallet0.22.1-linux-x64/rusk-wallet",
+          "sha256": "97843a22f5a55f9cd96c401200ec86bceb845e93cfbac034e4df398844c1d20c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dusk-network/wallet-cli/releases/download/v0.22.1/ruskwallet0.22.1-macos-arm64.tar.gz",
+      "releaseTag": "v0.22.1",
+      "sha256": "5ad84828a8e7e5e1df6ca89ac2809f66cab865f252dbaf37419af9c3d99cb453",
+      "size": 5301225,
+      "format": "tar.gz",
+      "binaries": {
+        "rusk-wallet": {
+          "path": "rusk-wallet0.22.1-macos-arm64/rusk-wallet",
+          "sha256": "69df10427c3383be2210dffc15b9e6d792f362df50de1142b3d29f2153aefac9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dusk-network/wallet-cli/releases/download/v0.22.1/ruskwallet0.22.1-windows-x64.tar.gz",
+      "releaseTag": "v0.22.1",
+      "sha256": "a77ba1f38cd75a3329b56b7a9134766679443372dcf793c2d61cf3de1327fa2b",
+      "size": 4536357,
+      "format": "tar.gz",
+      "binaries": {
+        "rusk-wallet.exe": {
+          "path": "rusk-wallet0.22.1-windows-x64/rusk-wallet.exe",
+          "sha256": "821e408750f01940d356a8b181297ba9de0d3f053f770ba28706c7b2b03e37dc"
+        }
+      }
+    }
+  }
+}
