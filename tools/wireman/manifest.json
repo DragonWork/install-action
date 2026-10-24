@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wireman",
+  "version": "0.3.8",
+  "repository": "preiter93/wireman",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/preiter93/wireman/releases/download/v0.3.8/wireman-0.3.8-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.8",
+      "sha256": "481fed0ad0af4d7a328817bcd3de0c96fb29776361f79cd6e7440179e18cea12",
+      "size": 4518652,
+      "format": "tar.gz",
+      "binaries": {
+        "wireman": {
+          "path": "wireman-0.3.8-x86_64-unknown-linux-gnu/wireman",
+          "sha256": "66d383d64035bd20cb41043ceef2098876c49de192ca7d6470eb7be6031397b1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/preiter93/wireman/releases/download/v0.3.8/wireman-0.3.8-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.8",
+      "sha256": "1fcd9318d6f4209eab98e179bfa53d7c07e0013624b57455893716242b757749",
+      "size": 4296401,
+      "format": "tar.gz",
+      "binaries": {
+        "wireman": {
+          "path": "wireman-0.3.8-aarch64-unknown-linux-gnu/wireman",
+          "sha256": "be6a1f24a0a53294f8803da197d04c747f3814964c56c1a6ad08a84703a0cbc4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/preiter93/wireman/releases/download/v0.3.8/wireman-0.3.8-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.8",
+      "sha256": "a7601849f125e3f3a98e70c4fc45dbc61ecfe4452160f6b5eee2c99c70c3d53c",
+      "size": 3690519,
+      "format": "tar.gz",
+      "binaries": {
+        "wireman": {
+          "path": "wireman-0.3.8-x86_64-apple-darwin/wireman",
+          "sha256": "ce01bf0d9c979347eb988a2043853868d28e2df53e2861788b57e609c427abb3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/preiter93/wireman/releases/download/v0.3.8/wireman-0.3.8-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.8",
+      "sha256": "8e7866ad05fe7445c31e279f012e14fcaa668da781842eae88f1a7bf473834d2",
+      "size": 3557944,
+      "format": "tar.gz",
+      "binaries": {
+        "wireman": {
+          "path": "wireman-0.3.8-aarch64-apple-darwin/wireman",
+          "sha256": "a825a791cec03dd33a73b1c4a9044d6943a21c7b8354b80a28e3b98762d37347"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/preiter93/wireman/releases/download/v0.3.8/wireman-0.3.8-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.8",
+      "sha256": "94033cb08c1c605e22bf20aee05e8d365489b7cc51473155a7965daf795705b7",
+      "size": 3224621,
+      "format": "zip",
+      "binaries": {
+        "wireman.exe": {
+          "path": "wireman-0.3.8-x86_64-pc-windows-msvc/wireman.exe",
+          "sha256": "50a89ff6a119a10c71c6b0177c7d28827a1f4970eb8645e097b016bdc87449ef"
+        }
+      }
+    }
+  }
+}
