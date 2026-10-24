@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "sockudo",
+  "version": "5.2.0",
+  "repository": "sockudo/sockudo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sockudo/sockudo/releases/download/v5.2.0/sockudo-v5.2.0-x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "v5.2.0",
+      "sha256": "9fac16a8e0fe2c77a16a9451efbd82d519de3c3a80683ae53214ea3d23782a90",
+      "size": 62208365,
+      "format": "tar.gz",
+      "binaries": {
+        "sockudo": {
+          "path": "sockudo",
+          "sha256": "fd1c73e9d0226d181cc0aa7eedafdf90093ca255f7a6ad829e416a278a4e5cee"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sockudo/sockudo/releases/download/v5.2.0/sockudo-v5.2.0-aarch64-unknown-linux-musl.tgz",
+      "releaseTag": "v5.2.0",
+      "sha256": "c4dee0e9911a19ba7f7b1ef4db8eb81b643052a0c569462dccc8e354c6b4a097",
+      "size": 59713822,
+      "format": "tar.gz",
+      "binaries": {
+        "sockudo": {
+          "path": "sockudo",
+          "sha256": "19cca0947d85c24ac1c37a22ec0c3ded5947a13861ef9cb81f72f772cfa5f139"
+        }
+      }
+    }
+  }
+}
