@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_rm",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "rm.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/rm.exe",
+          "sha256": "c8d300fbc8a67174ee6dd70b94dfa834c61ce5126b7d8cf1eb3550544a458b22"
+        }
+      }
+    }
+  }
+}
