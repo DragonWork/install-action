@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "qrsync",
+  "version": "0.3.0",
+  "repository": "crisidev/qrsync",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/crisidev/qrsync/releases/download/v0.3.0/qrsync-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "8bbf2b59b455da91f217630ec172e44aa16cb38c6963f84bb1304483de25b9f1",
+      "size": 2906025,
+      "format": "tar.gz",
+      "binaries": {
+        "qrsync": {
+          "path": "qrsync",
+          "sha256": "bb11389004cdb09b877970455af2371fb9e30f7a007edf326b912bf5afe5203a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/crisidev/qrsync/releases/download/v0.3.0/qrsync-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "fac51df555fdf739f1030afbfc22cc3a3846d78300ef1c111e5aa67e93b607c5",
+      "size": 2880156,
+      "format": "tar.gz",
+      "binaries": {
+        "qrsync": {
+          "path": "qrsync",
+          "sha256": "e44eb87f682d513d02b71b17ebcc807e7f42798f325deaa8e10e68801afa833d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/crisidev/qrsync/releases/download/v0.3.0/qrsync-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "a1d9f8a4ee6cea81934ab39da5b552b563f57b72d90d68512a49f32f3c883b5b",
+      "size": 1756825,
+      "format": "tar.gz",
+      "binaries": {
+        "qrsync": {
+          "path": "qrsync",
+          "sha256": "ba2c125023de68b4c7b2789123e53a1f4e7f2c6cb98d46fb28d786144d3878d4"
+        }
+      }
+    }
+  }
+}
