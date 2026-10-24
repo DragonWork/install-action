@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "broot",
+  "version": "1.60.2",
+  "repository": "Canop/broot",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/Canop/broot/releases/download/v1.60.2/broot_1.60.2.zip",
+      "sha256": "e238e610ee1fa2cd52353efeb60b43ece470d047529e9b9071c0714c46ced545",
+      "size": 67807248,
+      "format": "zip",
+      "releaseTag": "v1.60.2",
+      "binaries": {
+        "broot": {
+          "path": "aarch64-apple-darwin/broot",
+          "sha256": "bf9c830671ea5bde420210da6ba2d51c7edf042150df65c0c96d7d3d13ecbe7c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Canop/broot/releases/download/v1.60.2/broot_1.60.2.zip",
+      "sha256": "e238e610ee1fa2cd52353efeb60b43ece470d047529e9b9071c0714c46ced545",
+      "size": 67807248,
+      "format": "zip",
+      "releaseTag": "v1.60.2",
+      "binaries": {
+        "broot.exe": {
+          "path": "x86_64-pc-windows-gnu/broot.exe",
+          "sha256": "b2543f6c27e655dd00b6dfcc09929d7e51b1fd47cf2a95d89615ec0d38359772"
+        }
+      }
+    }
+  }
+}
