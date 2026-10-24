@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "flavours",
+  "version": "0.7.1",
+  "repository": "Misterio77/flavours",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Misterio77/flavours/releases/download/v0.7.1/flavours-v0.7.1-x86_64-linux.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "e3c89b62382362134fb5d0a467890a5768aeebe8de33577653202027da936e03",
+      "size": 2377592,
+      "format": "tar.gz",
+      "binaries": {
+        "flavours": {
+          "path": "flavours",
+          "sha256": "7dcc1de8e60c075313f6514c65bc830a71b240f83cffa0efbb508ed44636d3a6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Misterio77/flavours/releases/download/v0.7.1/flavours-v0.7.1-aarch64-linux.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "5086f5ea782feb99b8c90920ed7cfde7d3aa192c78d1c3efdf20987eca07a288",
+      "size": 2336470,
+      "format": "tar.gz",
+      "binaries": {
+        "flavours": {
+          "path": "flavours",
+          "sha256": "5215c7ae9559bc4862c78e2918f23277f40086c97cc0148b668f4599bd079829"
+        }
+      }
+    }
+  }
+}
