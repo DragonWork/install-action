@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "lazyjj",
+  "version": "0.5.0",
+  "repository": "Cretezy/lazyjj",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Cretezy/lazyjj/releases/download/v0.5.0/lazyjj-v0.5.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "d423af0d861eca9c12fe6503d7b178b8e96ca0e4ecc615ca98ce0d9ad03ffb58",
+      "size": 2163390,
+      "format": "tar.gz",
+      "binaries": {
+        "lazyjj": {
+          "path": "lazyjj",
+          "sha256": "59f6c302f76460c6e562b30a47a696e815283ad1ac41c073139f6bf78da96387"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Cretezy/lazyjj/releases/download/v0.5.0/lazyjj-v0.5.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "d0e8f0e952fb2ff7e2426bb945f5d4620589896ce2b83b6021cf1002f913118a",
+      "size": 1953323,
+      "format": "tar.gz",
+      "binaries": {
+        "lazyjj": {
+          "path": "lazyjj",
+          "sha256": "5f8765354933429ffcd9120e315a89cde080cb66c3a663b076165009758f4bc4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Cretezy/lazyjj/releases/download/v0.5.0/lazyjj-v0.5.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "c9dbaf803ac84ae4728ead28da9dbce7d9c7a7ed895c13fea38a842eb841f868",
+      "size": 1862240,
+      "format": "tar.gz",
+      "binaries": {
+        "lazyjj": {
+          "path": "lazyjj",
+          "sha256": "0c5d79b6f065b63260552f4faa98277b275434e1eeb6ab10a9b05c5e70d873c8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Cretezy/lazyjj/releases/download/v0.5.0/lazyjj-v0.5.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "787bcf5f6975c445d191985e2da053ff62d1209cfa76185b51bba096304e8a5c",
+      "size": 1578749,
+      "format": "zip",
+      "binaries": {
+        "lazyjj.exe": {
+          "path": "lazyjj.exe",
+          "sha256": "72de1c0f307624b301f705defaebe246b9af663a133ed52fdf0d01790912c0ec"
+        }
+      }
+    }
+  }
+}
