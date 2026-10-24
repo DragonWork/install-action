@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "fta",
+  "version": "3.1.0",
+  "repository": "sgb-io/fta",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sgb-io/fta/releases/download/v3.1.0/fta-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.1.0",
+      "sha256": "f13907e50fd130259ab9b4056fbcff2047c5da26bd10e0667e7100eff158f0d8",
+      "size": 2326215,
+      "format": "tar.gz",
+      "binaries": {
+        "fta": {
+          "path": "fta",
+          "sha256": "b0da02cda9fc1f954fc0b1d0ecf1b747f3013f04ccc596fd08019e21bb513750"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sgb-io/fta/releases/download/v3.1.0/fta-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.1.0",
+      "sha256": "51066c824eec1977249647352f30d4f5df6fd8429e7cd4afcc0a07b93deb0ccd",
+      "size": 2158589,
+      "format": "tar.gz",
+      "binaries": {
+        "fta": {
+          "path": "fta",
+          "sha256": "3150e25f9e7733abb9f03e9f4bc7bbeb55cae73ae877c9ecb4b560873718a3ad"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sgb-io/fta/releases/download/v3.1.0/fta-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.1.0",
+      "sha256": "a8f48deec15433c738de6b13fa9aac4d3c33d757330c1084d5d43fda95a9244c",
+      "size": 2127665,
+      "format": "tar.gz",
+      "binaries": {
+        "fta": {
+          "path": "fta",
+          "sha256": "a3ca4f00913272c3139423650731e6a5eb331d17e0f3f20521e3e344c85134ae"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sgb-io/fta/releases/download/v3.1.0/fta-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.1.0",
+      "sha256": "e8402b971b26a66dbb5d36d294b79071144b1282f5eefaf5a3934eaea316b2a8",
+      "size": 2011284,
+      "format": "tar.gz",
+      "binaries": {
+        "fta": {
+          "path": "fta",
+          "sha256": "48990299d3c1ef77cc4199c30078895671e234b2522dfe289b46709601753a90"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sgb-io/fta/releases/download/v3.1.0/fta-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.1.0",
+      "sha256": "d27cb83f491a65ecf1fa2398122cea31d40d277d56595ba4c759c6f383f1e351",
+      "size": 2056738,
+      "format": "zip",
+      "binaries": {
+        "fta.exe": {
+          "path": "fta.exe",
+          "sha256": "fd0e6f40df69ba7606e370000a6e8b381eb4ac6e05f8f1d8715bc08481e4c051"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sgb-io/fta/releases/download/v3.1.0/fta-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v3.1.0",
+      "sha256": "8ea1ac07fdd5e01fac7a8f5753a09bd46726ffebcc232f01cdb379138cc800a6",
+      "size": 1920300,
+      "format": "zip",
+      "binaries": {
+        "fta.exe": {
+          "path": "fta.exe",
+          "sha256": "e4291c5c902a1f08c124d58b7af811c10b39d2cd4c935d36c11005043e74c5b1"
+        }
+      }
+    }
+  }
+}
