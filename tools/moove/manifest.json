@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "moove",
+  "version": "0.4.2",
+  "repository": "urin/moove",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/urin/moove/releases/download/v0.4.2/moove-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "c316df98d0e6560302d516ac9eabdd7ada7ec89051def6914c11b6362d8457b4",
+      "size": 1525549,
+      "format": "tar.gz",
+      "binaries": {
+        "moove": {
+          "path": "moove-x86_64-unknown-linux-musl/moove",
+          "sha256": "f74f6e4d35b1e21df67c34051bee47c379d1227b43d0282e3b6fdd8e619f0332"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/urin/moove/releases/download/v0.4.2/moove-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "323420ed2d60efe9ff4cda6f3b6b5382fbd6c8a46bab16a90a59f6e0c60c6127",
+      "size": 1422980,
+      "format": "tar.gz",
+      "binaries": {
+        "moove": {
+          "path": "moove-aarch64-unknown-linux-musl/moove",
+          "sha256": "23ae92a9d687b465e09431cc00eaf21bcab9482cafaeb8f215db373a9072084d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/urin/moove/releases/download/v0.4.2/moove-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "5a8bc423bb2a30b3b944f49baba96572d0c6d68a7d04a523154841d618645d27",
+      "size": 1202203,
+      "format": "tar.gz",
+      "binaries": {
+        "moove": {
+          "path": "moove-aarch64-apple-darwin/moove",
+          "sha256": "5cbac4b62c16c4f670c90553cefa33e1e629a99a5d7e0fb48108c30c155617fb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/urin/moove/releases/download/v0.4.2/moove-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.2",
+      "sha256": "0a05c2685f6fb56b1542eeb612584328dbc8812f543e3f30e3c5833f833a5394",
+      "size": 1177992,
+      "format": "zip",
+      "binaries": {
+        "moove.exe": {
+          "path": "moove.exe",
+          "sha256": "285fefa4bd64f56ea52f090c598f3834b94b1d55b9770f614e29af1e7ab1e90a"
+        }
+      }
+    }
+  }
+}
