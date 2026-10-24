@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "lindera-ipadic-builder",
+  "version": "0.17.0",
+  "repository": "lindera/lindera",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lindera/lindera/releases/download/v0.17.0/lindera-ipadic-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.17.0",
+      "sha256": "e8986ef247f495bb153078a00da8308e81dc8b3c830e64c5bf90ef4b5491cda9",
+      "size": 18024427,
+      "format": "zip",
+      "binaries": {
+        "lindera-ipadic-builder": {
+          "path": "lindera-ipadic-builder",
+          "sha256": "0c041d00a769aaca3e4d9497640a6c833c6137f8fc6e2b3af39df3c781f60755"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lindera/lindera/releases/download/v0.17.0/lindera-ipadic-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.17.0",
+      "sha256": "7ddd7ead777da5ae0644303664695e4c67cc2758a0caf8f5d50b7aef17c3715e",
+      "size": 16405362,
+      "format": "zip",
+      "binaries": {
+        "lindera-ipadic-builder": {
+          "path": "lindera-ipadic-builder",
+          "sha256": "3ff639a32e0c0840654ae274cca25c28925484bb1a4530f93cc3f41d1a8d7517"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lindera/lindera/releases/download/v0.17.0/lindera-ipadic-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.17.0",
+      "sha256": "041f88f546178b2fe3532aaab3c195328cff7067a159c34306248dfcd010f61e",
+      "size": 15796683,
+      "format": "zip",
+      "binaries": {
+        "lindera-ipadic-builder.exe": {
+          "path": "lindera-ipadic-builder.exe",
+          "sha256": "4be3e768e308180ab6b089e26732cc10f0972afc09f3d14928b7a8391d26c3af"
+        }
+      }
+    }
+  }
+}
