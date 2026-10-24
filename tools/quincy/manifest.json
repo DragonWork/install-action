@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "name": "quincy",
+  "version": "0.15.3",
+  "repository": "quincy-rs/quincy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/quincy-rs/quincy/releases/download/0.15.3/quincy-linux-x86_64.tar.gz",
+      "releaseTag": "0.15.3",
+      "sha256": "e68e82128f762de99d8f8aa03b66723906947521e8e2cf5a50b3204d5788e65f",
+      "size": 6356441,
+      "format": "tar.gz",
+      "binaries": {
+        "quincy-client": {
+          "path": "./quincy-client",
+          "sha256": "08426b16bb49b31d67516bdabe62b81b2053c5739951a70f6cc243bcf6d8de21"
+        },
+        "quincy-server": {
+          "path": "./quincy-server",
+          "sha256": "9949ae5cfeea6ea93f6011a07546c199e1f7bec1b75372e3a523656d6e627420"
+        },
+        "quincy-users": {
+          "path": "./quincy-users",
+          "sha256": "b24ae74d167faefc987f49e3629a03b03775f3b54c759ea7da885d1e252e141b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/quincy-rs/quincy/releases/download/0.15.3/quincy-macos-arm64.tar.gz",
+      "releaseTag": "0.15.3",
+      "sha256": "db64f730fb3295398c89b6e1e44a0607dc0bf6aa125428c10b28a1f772b76685",
+      "size": 5363001,
+      "format": "tar.gz",
+      "binaries": {
+        "quincy-client": {
+          "path": "./quincy-client",
+          "sha256": "928002c3a7e9215bd7d93537126d5b153133317ec3d52bf4c9a41bddd534c0fd"
+        },
+        "quincy-server": {
+          "path": "./quincy-server",
+          "sha256": "bedde0d5201d29f98a8adb34167a888b10a38b9c186c019097309ca88998f9dc"
+        },
+        "quincy-users": {
+          "path": "./quincy-users",
+          "sha256": "c786652c7e8e771d983a1ceadde371ae5251e3fb684df4c755f4058b63c7cc93"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/quincy-rs/quincy/releases/download/0.15.3/quincy-windows-x86_64.zip",
+      "releaseTag": "0.15.3",
+      "sha256": "e1270c2718f10c09229559eeec8aba1388b64a05a2db1d6ff6cf764263b39c73",
+      "size": 5087140,
+      "format": "zip",
+      "binaries": {
+        "quincy-client.exe": {
+          "path": "quincy-windows-x86_64/quincy-client.exe",
+          "sha256": "72a60040e921de251c5b916c3d62c7a5fd4b6564404c535b6c3ed4e4a61758da"
+        },
+        "quincy-server.exe": {
+          "path": "quincy-windows-x86_64/quincy-server.exe",
+          "sha256": "f109644fb2d1fcac2784fb905967defc0f71b4b3ff42a028623e52c85fd14bff"
+        },
+        "quincy-users.exe": {
+          "path": "quincy-windows-x86_64/quincy-users.exe",
+          "sha256": "3db5fe1bd5e7c88bdab9c0cf196d54a52f4dfc4edfedef75635953d5031c83a1"
+        }
+      }
+    }
+  }
+}
