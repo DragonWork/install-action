@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "crabdis",
+  "version": "0.1.42",
+  "repository": "pxseu/crabdis",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pxseu/crabdis/releases/download/v0.1.42/crabdis-x86_64-Linux.tar.gz",
+      "releaseTag": "v0.1.42",
+      "sha256": "e9fea9c59a02d1c1040211f0d4ab3e4c0962980862476b10e03a48e049e8cd22",
+      "size": 796876,
+      "format": "tar.gz",
+      "binaries": {
+        "crabdis": {
+          "path": "crabdis",
+          "sha256": "f023e6288d69a045b45cec5b7ce9b66769bf807ad5fb3fc460127f304f449937"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pxseu/crabdis/releases/download/v0.1.42/crabdis-aarch64-Linux.tar.gz",
+      "releaseTag": "v0.1.42",
+      "sha256": "65ecd225f066dccaa92e87c42ff37da3ac3ed411e6dfd39ce1285ee12029ad21",
+      "size": 733102,
+      "format": "tar.gz",
+      "binaries": {
+        "crabdis": {
+          "path": "crabdis",
+          "sha256": "58932680b5dcee1d99e1b6bc1d4805fc951bd63f590ea992a3f6747c405676b2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pxseu/crabdis/releases/download/v0.1.42/crabdis-x86_64-Darwin.tar.gz",
+      "releaseTag": "v0.1.42",
+      "sha256": "ea6fe06101d14d5c4e5321711af0768bc9223918000ba58e6731232428535be0",
+      "size": 683504,
+      "format": "tar.gz",
+      "binaries": {
+        "crabdis": {
+          "path": "crabdis",
+          "sha256": "2185370c4ed2c54266fdd8d02f45acc825ad431cf3f8881387066fdcbf95f32c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pxseu/crabdis/releases/download/v0.1.42/crabdis-aarch64-Darwin.tar.gz",
+      "releaseTag": "v0.1.42",
+      "sha256": "0096d2583561efbc325ee3c5d2acfbb9a0708ba5bdc8fd23a4fb8c975c4ce3a6",
+      "size": 623956,
+      "format": "tar.gz",
+      "binaries": {
+        "crabdis": {
+          "path": "crabdis",
+          "sha256": "2ff0f5cc7de5114af315b56c96a62eb1bb081b3d627a21fd1ff7a1a9a3f94220"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pxseu/crabdis/releases/download/v0.1.42/crabdis-x86_64-Windows.zip",
+      "releaseTag": "v0.1.42",
+      "sha256": "cb8739f454a4648dbedbf19e3791a2ec341d5c9af1fe46391d1c095335eca24a",
+      "size": 605394,
+      "format": "zip",
+      "binaries": {
+        "crabdis.exe": {
+          "path": "crabdis.exe",
+          "sha256": "4a413ef2685112faca1b37fb87e2ff18be95978c3c06531c90cdde178a214329"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/pxseu/crabdis/releases/download/v0.1.42/crabdis-aarch64-Windows.zip",
+      "releaseTag": "v0.1.42",
+      "sha256": "bb0cb2462605b483d1d1bb53ea85c57ce9d3320dc618a6c6dd813bdf2b904870",
+      "size": 581725,
+      "format": "zip",
+      "binaries": {
+        "crabdis.exe": {
+          "path": "crabdis.exe",
+          "sha256": "008a9f6a74999535907a466f9b062b40592b3b5e59c326b95c1e8654724d6396"
+        }
+      }
+    }
+  }
+}
