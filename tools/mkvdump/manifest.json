@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mkvdump",
+  "version": "0.6.0",
+  "repository": "cadubentzen/mkvdump",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cadubentzen/mkvdump/releases/download/v0.6.0/mkvdump-v0.6.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "f9d5908b34550643ac7a389c3a19ee7838c108b634d2fda903d083bc4d51de18",
+      "size": 420719,
+      "format": "tar.gz",
+      "binaries": {
+        "mkvdump": {
+          "path": "mkvdump-v0.6.0-x86_64-unknown-linux-musl/mkvdump",
+          "sha256": "2799344920cc988f759783007dcaf0cb94879795ac1c44545d2d556998595909"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cadubentzen/mkvdump/releases/download/v0.6.0/mkvdump-v0.6.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "c34981fa14e130f22580617bf98cac62795353453796a894da40e806fd7a5ae4",
+      "size": 398077,
+      "format": "tar.gz",
+      "binaries": {
+        "mkvdump": {
+          "path": "mkvdump-v0.6.0-aarch64-unknown-linux-musl/mkvdump",
+          "sha256": "fb66adfe618c5a8741b3bd8f68ca4dec1bf62da427837e62ba24c95584c50ed2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cadubentzen/mkvdump/releases/download/v0.6.0/mkvdump-v0.6.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "195f4fcfea308de7a81362070b0b61b7e371afc0408c42173bb839c5509940e1",
+      "size": 363178,
+      "format": "tar.gz",
+      "binaries": {
+        "mkvdump": {
+          "path": "mkvdump-v0.6.0-x86_64-apple-darwin/mkvdump",
+          "sha256": "360cd1e30af45f789f56d75abb9538983e5aa74ae3f2f16995562e7f8589e1f9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cadubentzen/mkvdump/releases/download/v0.6.0/mkvdump-v0.6.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "ab294a502cceef050e2827d1d62e7c9db4118564e0bb518f4526cc6bad3c4a15",
+      "size": 341611,
+      "format": "tar.gz",
+      "binaries": {
+        "mkvdump": {
+          "path": "mkvdump-v0.6.0-aarch64-apple-darwin/mkvdump",
+          "sha256": "64ad1feb6d94223f33e15be1ca718b2fa9ce30b9fdb4878586607410001244d7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cadubentzen/mkvdump/releases/download/v0.6.0/mkvdump-v0.6.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "c9248766c7fe68d809c92b11c20213096d7f2bb3d42809be950c9219a52eae53",
+      "size": 321275,
+      "format": "zip",
+      "binaries": {
+        "mkvdump.exe": {
+          "path": "mkvdump-v0.6.0-x86_64-pc-windows-msvc/mkvdump.exe",
+          "sha256": "9f96af118426a2445dc945ec050d68e1e46a6401a0172c3c2530de96de4c5b40"
+        }
+      }
+    }
+  }
+}
