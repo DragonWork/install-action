@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "matrix-commander",
+  "version": "0.12.0",
+  "repository": "8go/matrix-commander-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/8go/matrix-commander-rs/releases/download/v0.12.0/matrix-commander-rs.x86_64-unknown-linux-gnu",
+      "sha256": "980a47ba2892ef5af85d4ce98d3a344e332aab426dbe9493d5438839213315ad",
+      "size": 53895672,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "matrix-commander-rs": {
+          "path": "matrix-commander-rs.x86_64-unknown-linux-gnu",
+          "sha256": "980a47ba2892ef5af85d4ce98d3a344e332aab426dbe9493d5438839213315ad"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/8go/matrix-commander-rs/releases/download/v0.12.0/matrix-commander-rs.aarch64-unknown-linux-gnu",
+      "sha256": "68daf14cf5ebd49850558f4d3627ca14b0317e31a1bece4f6f6c7b1001513687",
+      "size": 44998384,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "matrix-commander-rs": {
+          "path": "matrix-commander-rs.aarch64-unknown-linux-gnu",
+          "sha256": "68daf14cf5ebd49850558f4d3627ca14b0317e31a1bece4f6f6c7b1001513687"
+        }
+      }
+    }
+  }
+}
