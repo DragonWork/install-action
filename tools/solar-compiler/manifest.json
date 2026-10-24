@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "solar-compiler",
+  "version": "0.2.0",
+  "repository": "paradigmxyz/solar",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.2.0/solar-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "027cd53c38deb240fb7240e9bb2a2be92d7138c544a3aae39e177f6fa3b41d4d",
+      "size": 3548286,
+      "format": "tar.gz",
+      "binaries": {
+        "solar": {
+          "path": "solar-x86_64-unknown-linux-musl/solar",
+          "sha256": "9081cc0fdb694653bd1a31870519e685ec90c3fc181107c42b5f4f4dd8e7665a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.2.0/solar-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "5d2b0aa46ad71d17d4c9371aac900cdefce87db136a0f7f09c29fae7fbd299ff",
+      "size": 3328191,
+      "format": "tar.gz",
+      "binaries": {
+        "solar": {
+          "path": "solar-aarch64-unknown-linux-gnu/solar",
+          "sha256": "7735f11c5193c63c78b2ae13f603ba1158f647640921432e33e5bedfa5262092"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.2.0/solar-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "7c5d0608a5a18ba297f01e8c5e48de8ed05edd9c6225551338502f82e1f89343",
+      "size": 3350505,
+      "format": "tar.gz",
+      "binaries": {
+        "solar": {
+          "path": "solar-x86_64-apple-darwin/solar",
+          "sha256": "407d1ae2fb726094aebb9ca294cbd84657afc3995db48dffdc8cdb3b7cd1f980"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.2.0/solar-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "8152febc0e832fc75d44de50854e208879777091dad46707cfeef864e9351586",
+      "size": 3107191,
+      "format": "tar.gz",
+      "binaries": {
+        "solar": {
+          "path": "solar-aarch64-apple-darwin/solar",
+          "sha256": "3e2cdafb98daeba8c14a0e1d58fa6fb804bc954cc4822bf210c4002b141ba16a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.2.0/solar-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "a7f1d68f3fa57f45d78aca97fb29e79c0cd49cd4e47d450a50d3e776bfbf782a",
+      "size": 2988499,
+      "format": "zip",
+      "binaries": {
+        "solar.exe": {
+          "path": "solar.exe",
+          "sha256": "ea586dcafbf0c9ef6cb777c255770b1c9d4b9b9df143db5e7da4717e20b49243"
+        }
+      }
+    }
+  }
+}
