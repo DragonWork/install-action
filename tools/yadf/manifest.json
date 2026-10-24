@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "yadf",
+  "version": "1.5.2",
+  "repository": "jRimbault/yadf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jRimbault/yadf/releases/download/v1.5.2/yadf-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "2ad7d8f824e49bf0ffa9ba28a265384a0d43aa4d32dcb8aef87f12069cdd706b",
+      "size": 1877257,
+      "format": "tar.gz",
+      "binaries": {
+        "yadf": {
+          "path": "yadf",
+          "sha256": "b1ead33cc50095bbc8819eacb951005d436688f34445496a82cfed97e53ea93e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jRimbault/yadf/releases/download/v1.5.2/yadf-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "7c5700a82ae2b380196edec3bcb7f92fdf78e53440abc20427d7cc8f1b9f7388",
+      "size": 1724278,
+      "format": "tar.gz",
+      "binaries": {
+        "yadf": {
+          "path": "yadf",
+          "sha256": "409766e8e598f8ec57ac7612ec3d301786b43304c40a32a52082db72516546a8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jRimbault/yadf/releases/download/v1.5.2/yadf-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "a617ba7384f321c93ef563d7e572b06d9950eea4dd545ede0b14ab979fa0c2bb",
+      "size": 1646584,
+      "format": "tar.gz",
+      "binaries": {
+        "yadf": {
+          "path": "yadf",
+          "sha256": "381a9ba7bcaa7dc95a0b0bcd9f2d91ade3ce1f50d2282706e4e01b8d9df9bcc3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jRimbault/yadf/releases/download/v1.5.2/yadf-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.5.2",
+      "sha256": "702a04656263a7224b5755aa49cd8ac95afcecd3f6d38e9162bf638be00317eb",
+      "size": 1554386,
+      "format": "tar.gz",
+      "binaries": {
+        "yadf": {
+          "path": "yadf",
+          "sha256": "835437114e0aa5247e1d2b8bbb9f7b92a478ff8cdf0b13f90d331b5ee9f0ef01"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jRimbault/yadf/releases/download/v1.5.2/yadf-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.5.2",
+      "sha256": "8f41516a4056327147a57391dafe975e8a860485eaf6d8d7068f22a837ee716d",
+      "size": 1480430,
+      "format": "zip",
+      "binaries": {
+        "yadf.exe": {
+          "path": "yadf.exe",
+          "sha256": "2f587335918266ddb35fb47922d11499e1fb6a0286f50efdb03283987abd20f0"
+        }
+      }
+    }
+  }
+}
