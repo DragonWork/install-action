@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "takaiyuk-grrs",
+  "version": "0.1.10",
+  "repository": "takaiyuk/grrs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/takaiyuk/grrs/releases/download/v0.1.10/grrs_null_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.10",
+      "sha256": "3368f3fea2a0273e5bd6c7618de1f9bc4905827508cfcc6ed0684865567be59b",
+      "size": 1569762,
+      "format": "tar.gz",
+      "binaries": {
+        "takaiyuk-grrs": {
+          "path": "takaiyuk-grrs",
+          "sha256": "e3b92f7db793a3cbc9ca1f44d3652004c17c593d48c6b633623a5306f23af9ef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/takaiyuk/grrs/releases/download/v0.1.10/grrs_null_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.10",
+      "sha256": "2c48083ec36ab1f23e28d6e20a4f0f05dabffb9e880699b6e08c5c788f06161c",
+      "size": 595237,
+      "format": "tar.gz",
+      "binaries": {
+        "takaiyuk-grrs": {
+          "path": "takaiyuk-grrs",
+          "sha256": "a3ab5f6bba82d581f24b17a05a1256d880b2e07c3fadcfccd8bdb045db6dc9be"
+        }
+      }
+    }
+  }
+}
