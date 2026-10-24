@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "omnibor",
+  "version": "0.5.1",
+  "repository": "omnibor/omnibor-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/omnibor/omnibor-rs/releases/download/omnibor-v0.5.1/omnibor-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "omnibor-v0.5.1",
+      "sha256": "3bdc2e17d225e1e38119c01d6a98c882d5a93b620253d6e9272d92acf01b2a48",
+      "size": 1121476,
+      "format": "tar.xz",
+      "binaries": {
+        "omnibor": {
+          "path": "omnibor-x86_64-unknown-linux-musl/omnibor",
+          "sha256": "ec60b984cc1bb5a4a43052be9fde29f53b4b1944c992fac21ba04135689b2b20"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/omnibor/omnibor-rs/releases/download/omnibor-v0.5.1/omnibor-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "omnibor-v0.5.1",
+      "sha256": "50f36b9e82dbbbb459b66e7f374f0a09ad7e292f195d71a547c5e9ba9fa9e8b8",
+      "size": 678560,
+      "format": "tar.xz",
+      "binaries": {
+        "omnibor": {
+          "path": "omnibor-x86_64-apple-darwin/omnibor",
+          "sha256": "85e841b120ea73b00fa66979233e3672a5e931ce113759930434588d2128b439"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/omnibor/omnibor-rs/releases/download/omnibor-v0.5.1/omnibor-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "omnibor-v0.5.1",
+      "sha256": "8ca4a935f2644635845a70e204a3c952a0a6d8c6b2ab86479b8f84cbdf18f910",
+      "size": 626752,
+      "format": "tar.xz",
+      "binaries": {
+        "omnibor": {
+          "path": "omnibor-aarch64-apple-darwin/omnibor",
+          "sha256": "db69ce244037f35bdef929641535722a1b5496bcf4ffb004c2bec44c71abf84e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/omnibor/omnibor-rs/releases/download/omnibor-v0.5.1/omnibor-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "omnibor-v0.5.1",
+      "sha256": "f1385dd861ce71bd94fc6e1fe55d262b2d766f33ee8cd1b4fea752aaf5dfdbb6",
+      "size": 1985172,
+      "format": "zip",
+      "binaries": {
+        "omnibor.exe": {
+          "path": "omnibor.exe",
+          "sha256": "54fb3eebe4e2f90f69e4146722eb83c8eb3deb87a2861a58f44d8f2aa86fc1fe"
+        }
+      }
+    }
+  }
+}
