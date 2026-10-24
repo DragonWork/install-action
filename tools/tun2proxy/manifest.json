@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "name": "tun2proxy",
+  "version": "0.8.6",
+  "repository": "tun2proxy/tun2proxy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.8.6",
+      "sha256": "5fce5f420c5f1194df07307f6861cf613273e69aa30649919ce1b05de4798bb7",
+      "size": 4384884,
+      "format": "zip",
+      "binaries": {
+        "tun2proxy-bin": {
+          "path": "tun2proxy-bin",
+          "sha256": "414c23cb208bc6172e57ab0722086d811cbc8181f434b5f90ea23b38775f0dda"
+        },
+        "udpgw-server": {
+          "path": "udpgw-server",
+          "sha256": "b28700fb52d7e8f39edca120e18d8dae028bd167c30e75243fdcc83eaf2c924d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.8.6",
+      "sha256": "8dca73e3945b931882467cfcadc2a82018ece78a28f25d6d4d1e7613c266b493",
+      "size": 7356132,
+      "format": "zip",
+      "binaries": {
+        "tun2proxy-bin": {
+          "path": "tun2proxy-bin",
+          "sha256": "266d38fa5c316afaea3b2d05d0af11d6af3045acfb571c7a040f6635620ed529"
+        },
+        "udpgw-server": {
+          "path": "udpgw-server",
+          "sha256": "cfa395003fc1f7b6c32d2e0e08ee74ff38c75d776a20a774a6ef55c656239df8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.8.6",
+      "sha256": "fd7fda5165da4a708ffd51d5a371326f152e9bc1feb9d202a654b96473c2a9b0",
+      "size": 5041506,
+      "format": "zip",
+      "binaries": {
+        "tun2proxy-bin": {
+          "path": "tun2proxy-bin",
+          "sha256": "7cd2abc5c961157971ff7ab2e93d49969e3b19e72a36e9e2818ff8985d39090c"
+        },
+        "udpgw-server": {
+          "path": "udpgw-server",
+          "sha256": "1084157b5adf1bb85ffc76dae35e15dc10d3b80964f5b35a2905a35e0216c936"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.8.6",
+      "sha256": "7d74b93c1f52568b508924a3dbbf9cd3fc8bfebff1dfe9232807f306e24d6f31",
+      "size": 4859214,
+      "format": "zip",
+      "binaries": {
+        "tun2proxy-bin": {
+          "path": "tun2proxy-bin",
+          "sha256": "d3340cb98ea1f66a09d8f7b87c3a4cffc88f23c6a4655dfbf78f36bffb59d902"
+        },
+        "udpgw-server": {
+          "path": "udpgw-server",
+          "sha256": "f2e055411c2202b850ce523efd78ce74a1c7b3224f518676634f3e68c4b0ecaf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.6",
+      "sha256": "197e6c6227b7267028dbe9eb4c7a00795b20ed604fedbbbd6451fddbfd2976f1",
+      "size": 4902572,
+      "format": "zip",
+      "binaries": {
+        "tun2proxy-bin.exe": {
+          "path": "tun2proxy-bin.exe",
+          "sha256": "09a3143af0a289afff964cdbcb3dad33dad305882b50cade0e5301834c1d4f4b"
+        },
+        "udpgw-server.exe": {
+          "path": "udpgw-server.exe",
+          "sha256": "c063cada5344cda27dcc55d93819c02cd3c39da196e3985056e3c55d58309565"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.6",
+      "sha256": "086f08c6558e09b44e498b5b2a02e1b114fa1bf01a39d046ef154d400a5c4c7a",
+      "size": 4492513,
+      "format": "zip",
+      "binaries": {
+        "tun2proxy-bin.exe": {
+          "path": "tun2proxy-bin.exe",
+          "sha256": "e19a31b1a7fbcb8cb0c41865e1caf4878fe26e8b5dc297c558f6b48b13fcd7de"
+        },
+        "udpgw-server.exe": {
+          "path": "udpgw-server.exe",
+          "sha256": "ace6976908e54b0be9473553cb389c9d20502986056202a74f2f5121acc4322b"
+        }
+      }
+    }
+  }
+}
