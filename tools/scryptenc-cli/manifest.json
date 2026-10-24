@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "scryptenc-cli",
+  "version": "0.8.1",
+  "repository": "sorairolake/scryptenc-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sorairolake/scryptenc-rs/releases/download/scryptenc-cli-v0.8.1/rscrypt-v0.8.1-x86_64-unknown-linux-musl.tar.zst",
+      "releaseTag": "scryptenc-cli-v0.8.1",
+      "sha256": "f0ffd6e17d2841b6dd73b02a079c82b712f7b80d26aa7d11dcff59c30d12570e",
+      "size": 597682,
+      "format": "tar.zst",
+      "binaries": {
+        "rscrypt": {
+          "path": "rscrypt-v0.8.1-x86_64-unknown-linux-musl/rscrypt",
+          "sha256": "ee04bdae425ceebdf9699fcdcb49abc72e8d0a388b430b6b65b374894b6ce859"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sorairolake/scryptenc-rs/releases/download/scryptenc-cli-v0.8.1/rscrypt-v0.8.1-aarch64-unknown-linux-musl.tar.zst",
+      "releaseTag": "scryptenc-cli-v0.8.1",
+      "sha256": "2b50915414b37f3968fd1e4f15946ba9b3c347c7e4a3c989529a828a7da4e039",
+      "size": 555837,
+      "format": "tar.zst",
+      "binaries": {
+        "rscrypt": {
+          "path": "rscrypt-v0.8.1-aarch64-unknown-linux-musl/rscrypt",
+          "sha256": "3780175a123d807fcfe9dd82266b93b95c0af0bf6e2b15faa8568def05896192"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sorairolake/scryptenc-rs/releases/download/scryptenc-cli-v0.8.1/rscrypt-v0.8.1-x86_64-apple-darwin.tar.zst",
+      "releaseTag": "scryptenc-cli-v0.8.1",
+      "sha256": "fcf4a474db7c303e0d0a72cf23f2ceb6cfa8205422f154018dd6ecd987ada9a5",
+      "size": 487303,
+      "format": "tar.zst",
+      "binaries": {
+        "rscrypt": {
+          "path": "rscrypt-v0.8.1-x86_64-apple-darwin/rscrypt",
+          "sha256": "5c25f41a169004dd675b5fa3885717ef836f356f863ed67b98cea8f7face6762"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sorairolake/scryptenc-rs/releases/download/scryptenc-cli-v0.8.1/rscrypt-v0.8.1-aarch64-apple-darwin.tar.zst",
+      "releaseTag": "scryptenc-cli-v0.8.1",
+      "sha256": "906ea14bcd7d2a809d2f59ba8dcf274c557bd71dabd33a8c7b3cbd2c976f4b77",
+      "size": 455282,
+      "format": "tar.zst",
+      "binaries": {
+        "rscrypt": {
+          "path": "rscrypt-v0.8.1-aarch64-apple-darwin/rscrypt",
+          "sha256": "ddefc81b85ae43f2db9c2d3d202449e456e80ea33898f5472c2112c5444284af"
+        }
+      }
+    }
+  }
+}
