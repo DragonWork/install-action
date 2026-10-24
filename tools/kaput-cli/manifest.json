@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "kaput-cli",
+  "version": "2.7.0",
+  "repository": "davidchalifoux/kaput-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/davidchalifoux/kaput-cli/releases/download/v2.7.0/kaput-v2.7.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.7.0",
+      "sha256": "cee848b68ad79320f98cd2a40060aea7ebc438f38f2865ca19df8ca930066cce",
+      "size": 4447540,
+      "format": "tar.gz",
+      "binaries": {
+        "kaput": {
+          "path": "kaput",
+          "sha256": "75da487758e2c57f0ceb01c5dfe562989e6c39c85fcf3004da958d1cf1609a00"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/davidchalifoux/kaput-cli/releases/download/v2.7.0/kaput-v2.7.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.7.0",
+      "sha256": "bbddba44e61f467c440f73e45d4949bd146713d6235c60d8b05e62c55faf1a49",
+      "size": 4713005,
+      "format": "tar.gz",
+      "binaries": {
+        "kaput": {
+          "path": "kaput",
+          "sha256": "266bc52473e96763fd6367417f3c4ef32fbf0451e84bac1d12041f640290bbee"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/davidchalifoux/kaput-cli/releases/download/v2.7.0/kaput-v2.7.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.7.0",
+      "sha256": "5c065a629c49527fe983b2763e30f058ac87c415b2069dffa2ea4084df198f02",
+      "size": 2123633,
+      "format": "tar.gz",
+      "binaries": {
+        "kaput": {
+          "path": "kaput",
+          "sha256": "39f06ce069194a3ea7992b607d45b454565f70d39b89c2222f0415d2628b4864"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/davidchalifoux/kaput-cli/releases/download/v2.7.0/kaput-v2.7.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.7.0",
+      "sha256": "42be51cbc1384f013abba1c674bd0ab1bd6f834fe704951595c2f8d2306ecf4b",
+      "size": 2078024,
+      "format": "tar.gz",
+      "binaries": {
+        "kaput": {
+          "path": "kaput",
+          "sha256": "c526b381528226b667efb5d0d04c18a0a5de5bc2f799e7dec0e72e9b06e2bb7a"
+        }
+      }
+    }
+  }
+}
