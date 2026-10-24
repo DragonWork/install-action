@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "vsvg-cli",
+  "version": "0.5.0",
+  "repository": "abey79/vsvg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/abey79/vsvg/releases/download/v0.5.0/vsvg-cli-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "4c5a5fa215be71710c98e074b0fcf35e4abc31f65dcbce23d73d0212bd9f159e",
+      "size": 6745440,
+      "format": "tar.xz",
+      "binaries": {
+        "vsvg": {
+          "path": "vsvg-cli-x86_64-unknown-linux-gnu/vsvg",
+          "sha256": "ba8ccdd78645a147cac1a2b051f56c4ee914a647586b6613988801c88c60aeaa"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/abey79/vsvg/releases/download/v0.5.0/vsvg-cli-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "6a0105bde2ccd7de9351ab49b1271c2d8ee7a3f8baf9a0882e77ee0c4b295d1c",
+      "size": 6431336,
+      "format": "tar.xz",
+      "binaries": {
+        "vsvg": {
+          "path": "vsvg-cli-aarch64-unknown-linux-gnu/vsvg",
+          "sha256": "79a5a0e914e5d9eeb2f0302d0a84ab3ab93f4975ba462f281e298569c5b8d75c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/abey79/vsvg/releases/download/v0.5.0/vsvg-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "0e4876d40894dbfe0c14764026e6a7a8786096f6d907f5982f4aae092332cf31",
+      "size": 4822764,
+      "format": "tar.xz",
+      "binaries": {
+        "vsvg": {
+          "path": "vsvg-cli-x86_64-apple-darwin/vsvg",
+          "sha256": "0ab2041edb636beb185399cb08cebc76787ad01664a241675d039f74dd9b644e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/abey79/vsvg/releases/download/v0.5.0/vsvg-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "337cdc6a4ac91b76c2d651416ed60992da31cfa5b2f452b7ede3c46e4da8c339",
+      "size": 4434572,
+      "format": "tar.xz",
+      "binaries": {
+        "vsvg": {
+          "path": "vsvg-cli-aarch64-apple-darwin/vsvg",
+          "sha256": "7632bbdc21448c372ab91ba538e9f24c64262fb118be4ed8cb5675b3e3f4b332"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/abey79/vsvg/releases/download/v0.5.0/vsvg-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "d2f7a1072e4c45b343c10ef6beffe8fa6ee378ea67df7214610464eddf0011d5",
+      "size": 16751594,
+      "format": "zip",
+      "binaries": {
+        "vsvg.exe": {
+          "path": "vsvg.exe",
+          "sha256": "5207ace73191280b01d1e63e9e7368e5a56352cc184c34d8fe4a6614c2f6544e"
+        }
+      }
+    }
+  }
+}
