@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "graphannis-webservice",
+  "version": "4.3.0",
+  "repository": "korpling/graphANNIS",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/korpling/graphANNIS/releases/download/v4.3.0/graphannis-webservice-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v4.3.0",
+      "sha256": "999f59f747305597137580294e5264f95804a2856992b9a9acf5192b2bf8b323",
+      "size": 6161064,
+      "format": "tar.xz",
+      "binaries": {
+        "graphannis-webservice": {
+          "path": "graphannis-webservice-x86_64-unknown-linux-gnu/graphannis-webservice",
+          "sha256": "15734d4e0b71675d47324d32f6d0f75074a0276d5106dbaf2c55ee404584e561"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/korpling/graphANNIS/releases/download/v4.3.0/graphannis-webservice-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v4.3.0",
+      "sha256": "900f62afb483316e82fce815f1e2fa99d6018cf657d2c0b8aec86cb0a043f62f",
+      "size": 5794356,
+      "format": "tar.xz",
+      "binaries": {
+        "graphannis-webservice": {
+          "path": "graphannis-webservice-x86_64-apple-darwin/graphannis-webservice",
+          "sha256": "1be98e90e0011ec2ff0631c494f28934e380f575b7d571ba26d869937f190d8a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/korpling/graphANNIS/releases/download/v4.3.0/graphannis-webservice-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v4.3.0",
+      "sha256": "d9a69495f8ea71364ebbe777c25a9e339787877003d317fcbc5bbdb6873786f8",
+      "size": 5123612,
+      "format": "tar.xz",
+      "binaries": {
+        "graphannis-webservice": {
+          "path": "graphannis-webservice-aarch64-apple-darwin/graphannis-webservice",
+          "sha256": "94684e8b9dcb440804159f7d2fcb1830beb991f81190d37a464160dcfeee0216"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/korpling/graphANNIS/releases/download/v4.3.0/graphannis-webservice-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v4.3.0",
+      "sha256": "b98cc1525f9c1153feeb67cccba593fff7807a5cc48e4fc0549077cdf3108baf",
+      "size": 7913320,
+      "format": "zip",
+      "binaries": {
+        "graphannis-webservice.exe": {
+          "path": "graphannis-webservice.exe",
+          "sha256": "1f681c4a910e787d7fc4a0ba8fdb4fced9caa4872046325646b8acd45ead167b"
+        }
+      }
+    }
+  }
+}
