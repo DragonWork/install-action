@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "md-tui",
+  "version": "0.11.0",
+  "repository": "henriklovhaug/md-tui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.0/md-tui-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "a3349fff35935b0bd2d499721addce6fceb694eb6907a97b61a56b35be1fa455",
+      "size": 4609796,
+      "format": "tar.xz",
+      "binaries": {
+        "mdt": {
+          "path": "md-tui-x86_64-unknown-linux-musl/mdt",
+          "sha256": "c185276d4c7b92ac336d2cc989a6e6ad853b00b0ba718f88bf74b8cca01ec443"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.0/md-tui-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "00648ea24d195a895722bf49d81da2d5f65fda401a614071505d5841f5c31a78",
+      "size": 4071548,
+      "format": "tar.xz",
+      "binaries": {
+        "mdt": {
+          "path": "md-tui-aarch64-unknown-linux-gnu/mdt",
+          "sha256": "a0ef4a215589e5ace0b8293e0a55be0f9a41eaf2aa0a8cb46cb4f4a4db3a5ad8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.0/md-tui-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "28ba24e88cfe3935bd3f7405667c2e4a4733b3d6a6c36ed8dcc7dd1085cecbb8",
+      "size": 4394480,
+      "format": "tar.xz",
+      "binaries": {
+        "mdt": {
+          "path": "md-tui-x86_64-apple-darwin/mdt",
+          "sha256": "42cfa583f50b5363604c8217ca404212b8f6d3216900c9ab8f5af48dc8950cac"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.0/md-tui-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.11.0",
+      "sha256": "cdfcd29ccfe6700723cf47548f1fd254dca9141847d867c9e6403fa910e03315",
+      "size": 4145868,
+      "format": "tar.xz",
+      "binaries": {
+        "mdt": {
+          "path": "md-tui-aarch64-apple-darwin/mdt",
+          "sha256": "0ec1a539b3cdce91015f5af71fc5178e51302aea266e5c5016dc1e755b90568e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.0/md-tui-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "66172ee0e5363564c07968041b58ee2c76d999417601afd51aa0754cc0a0447d",
+      "size": 6757771,
+      "format": "zip",
+      "binaries": {
+        "mdt.exe": {
+          "path": "mdt.exe",
+          "sha256": "186d8e7b659f30d20f3a07ad1f50dcb16f919e9e051d364245f5e8bba6d1dc76"
+        }
+      }
+    }
+  }
+}
