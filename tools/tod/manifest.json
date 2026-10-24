@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tod",
+  "version": "0.19.0",
+  "repository": "tod-org/tod",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tod-org/tod/releases/download/v0.19.0/tod-0.19.0-linux-amd64.tar.gz",
+      "releaseTag": "v0.19.0",
+      "sha256": "0fcfeee1cc0efb97c50ee812e06c7d432b65d8b00f5b00e3457f790e4e63446d",
+      "size": 4956739,
+      "format": "tar.gz",
+      "binaries": {
+        "tod": {
+          "path": "tod",
+          "sha256": "79cdbb20b512ce9613db5f170e742306813d1421888e650fbf80c065aed04578"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tod-org/tod/releases/download/v0.19.0/tod-0.19.0-linux-arm64.tar.gz",
+      "releaseTag": "v0.19.0",
+      "sha256": "5822e1d7428896e5172b604bada68522153a864ea99d5ab961ad6d16f399e7bd",
+      "size": 4711111,
+      "format": "tar.gz",
+      "binaries": {
+        "tod": {
+          "path": "tod",
+          "sha256": "186e3569f6a308896a58bf5ae6dc00126f5d443b43ebb8b23f581700796be221"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tod-org/tod/releases/download/v0.19.0/tod-0.19.0-darwin-amd64.tar.gz",
+      "releaseTag": "v0.19.0",
+      "sha256": "bc559fb06202adafb02043c0751cb9e42901317789f0ab21af7db5aefec7f1ed",
+      "size": 4774314,
+      "format": "tar.gz",
+      "binaries": {
+        "tod": {
+          "path": "tod",
+          "sha256": "471a4636589a88113e4d889f7c6da51955112d9ed0f17e708de298247283ae11"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tod-org/tod/releases/download/v0.19.0/tod-0.19.0-darwin-arm64.tar.gz",
+      "releaseTag": "v0.19.0",
+      "sha256": "624e5ef4fadef0086b1c4af943f56b7daaf11de6c66f40cc69bdca5f3d5135f3",
+      "size": 4443434,
+      "format": "tar.gz",
+      "binaries": {
+        "tod": {
+          "path": "tod",
+          "sha256": "97dded44990691cce7d2bcd92951fcca9da4f15c7b330e11649a5584162e50f0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tod-org/tod/releases/download/v0.19.0/tod-0.19.0-windows-amd64.zip",
+      "releaseTag": "v0.19.0",
+      "sha256": "52c81c0249db2762daa13259d58fb638efd2021cccd11fb2c3d7dc825d1b40a3",
+      "size": 4707430,
+      "format": "zip",
+      "binaries": {
+        "tod.exe": {
+          "path": "tod.exe",
+          "sha256": "69ea26a72877b45328f0bc259d8ec96f4d88405e16c0f9aa59444f9bcc5911ec"
+        }
+      }
+    }
+  }
+}
