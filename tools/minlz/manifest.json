@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "name": "minlz",
+  "version": "1.2.3",
+  "repository": "KarpelesLab/minlz-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KarpelesLab/minlz-rs/releases/download/v1.2.3/minlz-v1.2.3-linux-x86_64.tar.gz",
+      "releaseTag": "v1.2.3",
+      "sha256": "91070158a32c4e7e540f96bf12ebfb3c024058fcf150c4ba9cc8fa882ffd3fb0",
+      "size": 2156518,
+      "format": "tar.gz",
+      "binaries": {
+        "mzc": {
+          "path": "./mzc",
+          "sha256": "2dc3e374713d4461e0fa871e5f6c78901550eb34e2e1bdf7b47265760c5a97a1"
+        },
+        "mzd": {
+          "path": "./mzd",
+          "sha256": "e0c4dd096e1f1fed2909fbd53c16e8350b2e023ee907a85fc73212a1f958947b"
+        },
+        "s2c": {
+          "path": "./s2c",
+          "sha256": "4aa00c9fb5ba6bbf151b2556e07e985b90d06d7e62f4b2df081cd88c199c0afc"
+        },
+        "s2d": {
+          "path": "./s2d",
+          "sha256": "2776ea02bb8ca9207cb23680984707f973492448bdfe843e772d1f206cc7a10a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KarpelesLab/minlz-rs/releases/download/v1.2.3/minlz-v1.2.3-linux-aarch64.tar.gz",
+      "releaseTag": "v1.2.3",
+      "sha256": "044976cd1bf48724ad61131eff1fe2be23bc7c7d1a082ac3c101c95d72a82bdd",
+      "size": 2083514,
+      "format": "tar.gz",
+      "binaries": {
+        "mzc": {
+          "path": "./mzc",
+          "sha256": "8a472a5048711dad93fb5f489a63eb3c9d508339f8e8731223400072b5e2c66b"
+        },
+        "mzd": {
+          "path": "./mzd",
+          "sha256": "3cd84d2d4fb8d0ce138116eff2caba3f410476c014f14f7d1d9c74658ae4b4d8"
+        },
+        "s2c": {
+          "path": "./s2c",
+          "sha256": "d439cbfad6ddf393ce3d7a1155efda97063ddc884d33981b6946f927dd645cab"
+        },
+        "s2d": {
+          "path": "./s2d",
+          "sha256": "930195ab7956d23896fadfe58ad3648f2429f663f76a7511a54b929e3ee88d28"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KarpelesLab/minlz-rs/releases/download/v1.2.3/minlz-v1.2.3-windows-x86_64.zip",
+      "releaseTag": "v1.2.3",
+      "sha256": "7e95bd67388e8d871850375afacbceadb1149465142698e5409ace23f53602ca",
+      "size": 1458634,
+      "format": "zip",
+      "binaries": {
+        "mzc.exe": {
+          "path": "mzc.exe",
+          "sha256": "1eeac74575e97d573c9285c98e0b9c7e91b3b82ebef937b40156a1a44f98c2c6"
+        },
+        "mzd.exe": {
+          "path": "mzd.exe",
+          "sha256": "3cb5c813440d65b49e92f2be9578a1cabc97eb1b40d1dd26bfa5d14e34b9d83a"
+        },
+        "s2c.exe": {
+          "path": "s2c.exe",
+          "sha256": "acc56c0379d3275e406517da037be2a41d044f566efe19add554d028d53b1675"
+        },
+        "s2d.exe": {
+          "path": "s2d.exe",
+          "sha256": "83beb42eff0918710cbc8edf819d096e746d8f9e6b71b6fc8cb498a6ff761bcc"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/KarpelesLab/minlz-rs/releases/download/v1.2.3/minlz-v1.2.3-windows-aarch64.zip",
+      "releaseTag": "v1.2.3",
+      "sha256": "7e7b8d4c1448c5f13f2f5deb3c09a06efacb22dc178b03bdc5525ba41db2a04b",
+      "size": 1384299,
+      "format": "zip",
+      "binaries": {
+        "mzc.exe": {
+          "path": "mzc.exe",
+          "sha256": "273f38d6b56aebedce9935409f4d0a4a000c867d53cdf288e376692cf0562e61"
+        },
+        "mzd.exe": {
+          "path": "mzd.exe",
+          "sha256": "0c44eb8d2a84d0e8b9a47d8b7eefeb5392288185e342a439f2247f3bc9b77ad3"
+        },
+        "s2c.exe": {
+          "path": "s2c.exe",
+          "sha256": "72617778c65f2f41c90f4d6e18ab0419231c493301e63288568ca4c2c848bdee"
+        },
+        "s2d.exe": {
+          "path": "s2d.exe",
+          "sha256": "9e22fe183b792c6305c701fe520c76e3149619d22346ef5d0fef10e12ad0ce0f"
+        }
+      }
+    }
+  }
+}
