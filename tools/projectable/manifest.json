@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "projectable",
+  "version": "1.3.2",
+  "repository": "dzfrias/projectable",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dzfrias/projectable/releases/download/1.3.2/projectable-1.3.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.3.2",
+      "sha256": "e05bf889655b2209fd9c32ff838eddb990887a1b46691f924484bb8f8916bc1a",
+      "size": 4539348,
+      "format": "tar.gz",
+      "binaries": {
+        "prj": {
+          "path": "projectable-1.3.2-x86_64-unknown-linux-musl/prj",
+          "sha256": "648feaa22ff2bf62467244383e574f4669bef136f926e7fc89c584664dbcdb2e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dzfrias/projectable/releases/download/1.3.2/projectable-1.3.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.3.2",
+      "sha256": "14b0d78b2fd23b47bfeb03d5dc2dd77fc747dce4e22100dbfff6d687a9daf8a7",
+      "size": 3617519,
+      "format": "tar.gz",
+      "binaries": {
+        "prj": {
+          "path": "projectable-1.3.2-x86_64-apple-darwin/prj",
+          "sha256": "15c3a6ce29b83cfa7a37f99c2f4ec6461e5fb3ab545bb8f6f6cfbbd1ca376a41"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dzfrias/projectable/releases/download/1.3.2/projectable-1.3.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.3.2",
+      "sha256": "805d85e978855d0e911b9ab04a2247270e72c0bd6c6543ba868f4673af70af59",
+      "size": 2620714,
+      "format": "zip",
+      "binaries": {
+        "prj.exe": {
+          "path": "projectable-1.3.2-x86_64-pc-windows-msvc/prj.exe",
+          "sha256": "4a4fa34f9c3102ab7cd6feb501d358b547583b9126960a934c2f03d4f8d5aeef"
+        }
+      }
+    }
+  }
+}
