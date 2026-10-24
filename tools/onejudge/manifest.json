@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "onejudge",
+  "version": "0.21.0",
+  "repository": "nickderobertis/onejudge",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nickderobertis/onejudge/releases/download/onejudge-v0.21.0/onejudge-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "onejudge-v0.21.0",
+      "sha256": "74288ceb629feff157bff1c27d2fa93ef056a5ad35506b654d6757962e76d468",
+      "size": 4950330,
+      "format": "tar.gz",
+      "binaries": {
+        "onejudge": {
+          "path": "onejudge-x86_64-unknown-linux-gnu/onejudge",
+          "sha256": "74af4931f72f83ab0f998c810e1ad1cd341aa26cedfb8541149764c1aad4653b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nickderobertis/onejudge/releases/download/onejudge-v0.21.0/onejudge-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "onejudge-v0.21.0",
+      "sha256": "e3b440ca21bdda11c7db7776cc42af93a540d6bbf02a28217963a9b520376fe3",
+      "size": 3775401,
+      "format": "tar.gz",
+      "binaries": {
+        "onejudge": {
+          "path": "onejudge-aarch64-apple-darwin/onejudge",
+          "sha256": "24e5b4dbc1a08bd5acdd6f93f986d39c0c916f3246ec7115f7905b4af9630355"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nickderobertis/onejudge/releases/download/onejudge-v0.21.0/onejudge-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "onejudge-v0.21.0",
+      "sha256": "0f2ec9276e1556af6a076fc072f52db1dcda0de14f17148a447ca92ae820496d",
+      "size": 4144244,
+      "format": "zip",
+      "binaries": {
+        "onejudge.exe": {
+          "path": "onejudge-x86_64-pc-windows-msvc/onejudge.exe",
+          "sha256": "cd1fb3a8eccbe6550ce8da959e17b391e3f62f008bfc7a1e5278e0c92e035d37"
+        }
+      }
+    }
+  }
+}
