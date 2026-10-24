@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "peekme",
+  "version": "0.5.2",
+  "repository": "GregoryBolshakov/peekme",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/GregoryBolshakov/peekme/releases/download/v0.5.2/peekme-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.2",
+      "sha256": "f621c048e216e1663c63f22cffcc13c51a40f9ca3fcfbd9613896bc504e11c33",
+      "size": 951212,
+      "format": "tar.xz",
+      "binaries": {
+        "peekme": {
+          "path": "peekme-x86_64-unknown-linux-gnu/peekme",
+          "sha256": "6e99e0a970636ea70db8ea23f8ef5f8de97793fce5efaa451639b4c64248ee4c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/GregoryBolshakov/peekme/releases/download/v0.5.2/peekme-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.2",
+      "sha256": "bf75b00e9d2478ab217d0dfb465b7823807fccb1d7113ac1ce50f1b6c6fc6978",
+      "size": 854564,
+      "format": "tar.xz",
+      "binaries": {
+        "peekme": {
+          "path": "peekme-aarch64-unknown-linux-gnu/peekme",
+          "sha256": "a62aa0316c42f4a1d9f64b682e4bc0a25266ab38029508474edcfdb4c9224e1f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/GregoryBolshakov/peekme/releases/download/v0.5.2/peekme-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.2",
+      "sha256": "0401d87db703186e0a89df3b378fe3992e43c57a80d3644f8485d596f08f6601",
+      "size": 833828,
+      "format": "tar.xz",
+      "binaries": {
+        "peekme": {
+          "path": "peekme-x86_64-apple-darwin/peekme",
+          "sha256": "50c18d6867f417c38d1b860c35b30d319d362c185404fc1015f71f570fa5734a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/GregoryBolshakov/peekme/releases/download/v0.5.2/peekme-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.2",
+      "sha256": "09ca38af2f761165059866cc1c827751d0bf162884c7f02a5d0f6b2052587e78",
+      "size": 742684,
+      "format": "tar.xz",
+      "binaries": {
+        "peekme": {
+          "path": "peekme-aarch64-apple-darwin/peekme",
+          "sha256": "67e8ee217e89caeaa510493fcfd6561ad1da724992193c3fd0283d04a9151f23"
+        }
+      }
+    }
+  }
+}
