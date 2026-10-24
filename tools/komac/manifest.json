@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "komac",
+  "version": "2.17.1",
+  "repository": "russellbanks/Komac",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.1/komac-2.17.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.17.1",
+      "sha256": "e694e79cd451afabf47bead66ed34586fef4814f7b94e4b61a098f419978d5d7",
+      "size": 7214828,
+      "format": "tar.gz",
+      "binaries": {
+        "komac": {
+          "path": "komac",
+          "sha256": "6930be6d43885f6dd09b216dc5db96ba6208412168b86aea96d3e7ecd3eea716"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.1/komac-2.17.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.17.1",
+      "sha256": "413fd4ac86aea1675d89e0868a72cf3e9869ceb02806076e6b49b901f75acd16",
+      "size": 7172973,
+      "format": "tar.gz",
+      "binaries": {
+        "komac": {
+          "path": "komac",
+          "sha256": "8d300cae5ea4c53576048cbf22fbab660e6b1be31c017222be75e881103691ef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.1/komac-2.17.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.17.1",
+      "sha256": "a1a11c4729591771b0acef00ec960611b037ca36014c2e7f4e2799d6d7857693",
+      "size": 4770110,
+      "format": "tar.gz",
+      "binaries": {
+        "komac": {
+          "path": "komac",
+          "sha256": "2a9bf40ca42b5c43b10ca1050c9184f5fac7a1f85fd032e52c312d5d9e6ee376"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.1/komac-2.17.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.17.1",
+      "sha256": "ca5be34d8742409b3855095561cfc1f5462efcbf585779765a95d1206df401cc",
+      "size": 4456022,
+      "format": "tar.gz",
+      "binaries": {
+        "komac": {
+          "path": "komac",
+          "sha256": "da8699b5a2e588753972e253b56a1a1d83224d037394a7439431fd0dec53afef"
+        }
+      }
+    }
+  }
+}
