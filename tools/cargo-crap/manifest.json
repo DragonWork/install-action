@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-crap",
+  "version": "0.9.0",
+  "repository": "minikin/cargo-crap",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/minikin/cargo-crap/releases/download/v0.9.0/cargo-crap-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "5355bfa78ba5bf57e52e125f9dfe3573155796267d3b54660ae1c0225916d603",
+      "size": 3445298,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-crap": {
+          "path": "cargo-crap",
+          "sha256": "66e539f797abac72c2a1cdd07b0230b2f5b6dc3bbf82af6fd230eafaf23f381a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/minikin/cargo-crap/releases/download/v0.9.0/cargo-crap-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "ef1ea0dd4a6bfb62a24b17f9d705f68c334e06cc32b5f4004c2f3e1bff1e8db5",
+      "size": 3254587,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-crap": {
+          "path": "cargo-crap",
+          "sha256": "c79315b7c2f3f93e5048ddd0e86bb92785641bdca10bfeac2123f5eeec5864f8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/minikin/cargo-crap/releases/download/v0.9.0/cargo-crap-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "f409c69af9bb3e5113bb26d895430a529a47cbfc3e2d7998af444993b85cfb75",
+      "size": 3337558,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-crap": {
+          "path": "cargo-crap",
+          "sha256": "75b6c1dade9bf46f01bc884ac102d0aa39b23075884ea606f2cd1678b7f0b474"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/minikin/cargo-crap/releases/download/v0.9.0/cargo-crap-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.0",
+      "sha256": "18851a2885fbd5d39be36ba995dc82c15704c7d741d81a88f7f2f921946436ec",
+      "size": 3114562,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-crap": {
+          "path": "cargo-crap",
+          "sha256": "1a233f492a3943b9e0a7fb0b4eb6e0447b8beed70d1a44ebaf68d8525221dffd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/minikin/cargo-crap/releases/download/v0.9.0/cargo-crap-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "f99a7a7b4c8de086e64c203dcce44f70d2d8f4dace4ac9ea1c7ea0debb19d457",
+      "size": 3337635,
+      "format": "zip",
+      "binaries": {
+        "cargo-crap.exe": {
+          "path": "cargo-crap.exe",
+          "sha256": "fcd460322633afc23f45122d1e0e0be9d7eca431c6ccfb03b83cf7a0c1d58018"
+        }
+      }
+    }
+  }
+}
