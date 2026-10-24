@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "jenkins",
+  "version": "0.1.33",
+  "repository": "kairyou/jenkins-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kairyou/jenkins-cli/releases/download/v0.1.33/jenkins-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.33",
+      "sha256": "8fef99209a3dace149207f6831ef5eb4edcfb027c77f3ead83da2de66217b798",
+      "size": 3298226,
+      "format": "tar.gz",
+      "binaries": {
+        "jenkins": {
+          "path": "jenkins",
+          "sha256": "aa281242cd4a0313be2472a0fe2acbe490f310a20956b7718265cd0b30ab151e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kairyou/jenkins-cli/releases/download/v0.1.33/jenkins-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.33",
+      "sha256": "2babc59c181652d4e699f8857e7027dbad0493209bc27592dbc8bfcddab92c89",
+      "size": 3249431,
+      "format": "tar.gz",
+      "binaries": {
+        "jenkins": {
+          "path": "jenkins",
+          "sha256": "2e537c86efc4bfb6905352e7f5c81415d84744dc0637e06c29d52e0cdb8494ba"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kairyou/jenkins-cli/releases/download/v0.1.33/jenkins-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.33",
+      "sha256": "4f401817caa7ace33af8991d400db0f2f2812616fc7a73e69b54de229e520586",
+      "size": 2940166,
+      "format": "tar.gz",
+      "binaries": {
+        "jenkins": {
+          "path": "jenkins",
+          "sha256": "18a7e47d487a69e957675959962b0da4a4c5ca02e53c76fd0a98482b4fdd2398"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kairyou/jenkins-cli/releases/download/v0.1.33/jenkins-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.33",
+      "sha256": "4412811455546999d748480433263c6edad129102e8e492e0f34e41cf79f2b17",
+      "size": 2863212,
+      "format": "tar.gz",
+      "binaries": {
+        "jenkins": {
+          "path": "jenkins",
+          "sha256": "acb363698de2f495228c7a22b5ca8a4c26560ea9f25986d544d19012e4c3021f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kairyou/jenkins-cli/releases/download/v0.1.33/jenkins-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.1.33",
+      "sha256": "83e3094d3b3c00f5a7612a586dc87183f43785eb00e38903a0f6af7e5ae53eed",
+      "size": 2480207,
+      "format": "tar.gz",
+      "binaries": {
+        "jenkins.exe": {
+          "path": "jenkins.exe",
+          "sha256": "3f2a1cbe7d974ebc869bc95a07a440c3469d55a60de75723ba6ceef08bf99995"
+        }
+      }
+    }
+  }
+}
