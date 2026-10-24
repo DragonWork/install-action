@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "stringsext",
+  "version": "2.3.5",
+  "repository": "getreu/stringsext",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/getreu/stringsext/releases/download/v2.3.5/stringsext-v2.3.5-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.3.5",
+      "sha256": "d807efb639ef09b8589caed8e0221dcd0c5ad2701cf0a06b27b464e6c29db14f",
+      "size": 622082,
+      "format": "tar.gz",
+      "binaries": {
+        "stringsext": {
+          "path": "stringsext",
+          "sha256": "3a2126feee06dc4c292f7d132d63b8508140ae630474a1391d9d39c201cef35f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/getreu/stringsext/releases/download/v2.3.5/stringsext-v2.3.5-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.3.5",
+      "sha256": "f94ffe6ef87ad2231fc09b1a73f8b349a268b9021c77aa4d38cacca17a479843",
+      "size": 583668,
+      "format": "tar.gz",
+      "binaries": {
+        "stringsext": {
+          "path": "stringsext",
+          "sha256": "f14a18d408cc60adebc4aedc7983277e9e00e647dc78b0e3a01779a2093d2fe6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/getreu/stringsext/releases/download/v2.3.5/stringsext-v2.3.5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.3.5",
+      "sha256": "483128449a1c45ba62665350ba07a0631331e0c0f62bd8278873ebd3c678af24",
+      "size": 509382,
+      "format": "zip",
+      "binaries": {
+        "stringsext.exe": {
+          "path": "stringsext.exe",
+          "sha256": "b713fc200e9db709e1d442e49d9493b7992da2a6c2a4a324957ecd04027d079d"
+        }
+      }
+    }
+  }
+}
