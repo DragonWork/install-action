@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "trans-epub",
+  "version": "0.0.23",
+  "repository": "tomiyan/trans-epub",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tomiyan/trans-epub/releases/download/0.0.23/trans-epub-0.0.23-linux-x86_64.tar.gz",
+      "releaseTag": "0.0.23",
+      "sha256": "ec0926fb001cdb66a07ba396043e0464039f17190910b3b0ecba9008247b57a2",
+      "size": 3500233,
+      "format": "tar.gz",
+      "binaries": {
+        "trans-epub": {
+          "path": "trans-epub",
+          "sha256": "965685afd8e42428b7d6f645436600f41569fb2c50329476275a22b3e12b18a3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tomiyan/trans-epub/releases/download/0.0.23/trans-epub-0.0.23-linux-arm64.tar.gz",
+      "releaseTag": "0.0.23",
+      "sha256": "eb0dbe227465cbe562e248537f0b9091f74d0101c244ce3967934003a2d9ccec",
+      "size": 3126013,
+      "format": "tar.gz",
+      "binaries": {
+        "trans-epub": {
+          "path": "trans-epub",
+          "sha256": "1274880d75660aa2841e6c47445142b2f465a3c56783b5a6d79412c9d30ae4a4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tomiyan/trans-epub/releases/download/0.0.23/trans-epub-0.0.23-macos-x86_64.tar.gz",
+      "releaseTag": "0.0.23",
+      "sha256": "9de81cf9092d32a05be2d11e34eeb1d83f63950b56cf5427463654334120746c",
+      "size": 3242187,
+      "format": "tar.gz",
+      "binaries": {
+        "trans-epub": {
+          "path": "trans-epub",
+          "sha256": "e1dea319865cf52bf05acad16f5cbdf772c0d366872fd6fc23cc2d84764ddb71"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tomiyan/trans-epub/releases/download/0.0.23/trans-epub-0.0.23-macos-arm64.tar.gz",
+      "releaseTag": "0.0.23",
+      "sha256": "88fa7950d36de6aa85dd8e0d0b7f8fda27b94e20f781491294d03e5bd017c9cf",
+      "size": 3004471,
+      "format": "tar.gz",
+      "binaries": {
+        "trans-epub": {
+          "path": "trans-epub",
+          "sha256": "c21288288acd2d1d6e5166ba18a6fc845fa64e7539de873fe3faa346675bf84c"
+        }
+      }
+    }
+  }
+}
