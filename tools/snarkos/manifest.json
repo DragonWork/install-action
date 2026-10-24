@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "snarkos",
+  "version": "4.12.0",
+  "repository": "aleo-labs-protocol/snarkOS",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aleo-labs-protocol/snarkOS/releases/download/v4.12.0/aleo-v4.12.0-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v4.12.0",
+      "sha256": "31818f467c1b6bef6376c932c72fc47209f78a3a93662057f9c77cdef7913545",
+      "size": 36790491,
+      "format": "zip",
+      "binaries": {
+        "snarkos": {
+          "path": "snarkos",
+          "sha256": "36c310026b44fe00d6cc44bea8c14118fdb2c2e94f5eea3c1f7f9e9a1dae337a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aleo-labs-protocol/snarkOS/releases/download/v4.12.0/aleo-v4.12.0-aarch64-apple-darwin.zip",
+      "releaseTag": "v4.12.0",
+      "sha256": "28b3e64aca92aa43b2ea1462598cd4dbe0912b443817b19b22b85d1f75b5d631",
+      "size": 33163428,
+      "format": "zip",
+      "binaries": {
+        "snarkos": {
+          "path": "snarkos",
+          "sha256": "df3cea5c734dad762833a80650251ad850fb3d466ac7315aad3d260659000b9e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aleo-labs-protocol/snarkOS/releases/download/v4.12.0/aleo-v4.12.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v4.12.0",
+      "sha256": "3c305095ae44fcfb320e27680c730a5511b40e76bf8862eb5774cfb88c38dcf5",
+      "size": 37851439,
+      "format": "zip",
+      "binaries": {
+        "snarkos.exe": {
+          "path": "snarkos.exe",
+          "sha256": "5be66a7af9517c4d3d37467b67c34e93a643f628b4aa1ad6f593d731b814ce57"
+        }
+      }
+    }
+  }
+}
