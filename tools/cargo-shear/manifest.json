@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-shear",
+  "version": "1.14.0",
+  "repository": "Boshen/cargo-shear",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.0/cargo-shear-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.14.0",
+      "sha256": "9004df4eb031a456026c4326ae0d0ce545321527a67be90f4524c1be729dc40e",
+      "size": 1587250,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-shear": {
+          "path": "cargo-shear",
+          "sha256": "66c6f91695d654846becf97df2c1083545003e28f79389e93b44e8cb0d15ac70"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.0/cargo-shear-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.14.0",
+      "sha256": "d83f7c5b02c4c237d0454697c12df041df0bd83ffecc1aba46c6e06315fd47e1",
+      "size": 1433309,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-shear": {
+          "path": "cargo-shear",
+          "sha256": "98a02bef25f9f098b124098ae4a38bc591a1748734bb425ed5e1d58dd7f1bbf4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.0/cargo-shear-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.14.0",
+      "sha256": "ea0df899fecd1ae8116d588c97ebdeef8c1ed487ac7df2701ab39d05063a7930",
+      "size": 1438165,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-shear": {
+          "path": "cargo-shear",
+          "sha256": "ec245d620892855e0ccccbd16bf5a4abedbe752c1375b474b9540deac99b1de7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.0/cargo-shear-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.14.0",
+      "sha256": "e50b9375b1e93d2293c803819c118337f1e8fce519e4188a93bb0f5e08041ca3",
+      "size": 1287539,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-shear": {
+          "path": "cargo-shear",
+          "sha256": "34edccc283039ed8c2351c72c45c21a13ed65cf1fdde915f689ac97b060150c5"
+        }
+      }
+    }
+  }
+}
