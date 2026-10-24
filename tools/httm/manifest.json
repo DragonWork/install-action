@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "httm",
+  "version": "0.50.2",
+  "repository": "kimono-koans/httm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kimono-koans/httm/releases/download/0.50.2/httm_0.50.2-1_amd64.deb",
+      "sha256": "359c2eda542ac2e1c3c6d79d66cef4e2bc585851eeafc3c11c8a9851f0a05775",
+      "size": 1535188,
+      "format": "deb",
+      "releaseTag": "0.50.2",
+      "binaries": {
+        "httm": {
+          "path": "./usr/bin/httm",
+          "sha256": "fda000d9462caf058edb09460813034aa58a0d304b1c08ffe8648b99a2e7ced8"
+        }
+      }
+    }
+  }
+}
