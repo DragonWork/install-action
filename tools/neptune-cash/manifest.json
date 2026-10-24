@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "name": "neptune-cash",
+  "version": "0.19.2",
+  "repository": "Neptune-Crypto/neptune-core",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Neptune-Crypto/neptune-core/releases/download/v0.19.2/neptune-cash-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.19.2",
+      "sha256": "37a22558bdf77cd616d67c67aaab8ebfee6b378870d87e5b036e2dc3117d8898",
+      "size": 18331992,
+      "format": "tar.xz",
+      "binaries": {
+        "neptune-blk-info": {
+          "path": "neptune-cash-x86_64-unknown-linux-gnu/neptune-blk-info",
+          "sha256": "339aa13b4a7261ab73107284c2a0cac777400572926112f1807c54721af23642"
+        },
+        "neptune-block-claims": {
+          "path": "neptune-cash-x86_64-unknown-linux-gnu/neptune-block-claims",
+          "sha256": "300d7a79151ee4d3762c035684162181dc3c4c947a394b095f305f7338802d59"
+        },
+        "neptune-core": {
+          "path": "neptune-cash-x86_64-unknown-linux-gnu/neptune-core",
+          "sha256": "a014071c646bcee755ca45ff279d1ee9f7161d927860732024c868e376cb3441"
+        },
+        "neptune-prover": {
+          "path": "neptune-cash-x86_64-unknown-linux-gnu/neptune-prover",
+          "sha256": "53026c15db14bb408be2adf159cebde6ee29df0d0996f1b52995ef88a1afaafc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Neptune-Crypto/neptune-core/releases/download/v0.19.2/neptune-cash-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.19.2",
+      "sha256": "785f6af8f629d2742eac61227ba80edff24f4c28aa2823a124a8875c4a8d12ba",
+      "size": 16925268,
+      "format": "tar.xz",
+      "binaries": {
+        "neptune-blk-info": {
+          "path": "neptune-cash-x86_64-apple-darwin/neptune-blk-info",
+          "sha256": "e3f39cfd7c014f9ab5dfac1e4cb550d8fc8919545609e214b22ff04a085db950"
+        },
+        "neptune-block-claims": {
+          "path": "neptune-cash-x86_64-apple-darwin/neptune-block-claims",
+          "sha256": "6775c28cdf3060b5f72504626a95aa58c7252bd4c8e9037a96fe4e69a624e05c"
+        },
+        "neptune-core": {
+          "path": "neptune-cash-x86_64-apple-darwin/neptune-core",
+          "sha256": "ff336b4a24385f5e6a8b2f31e45b60696758c69db5c932c059573c1d7a526f81"
+        },
+        "neptune-prover": {
+          "path": "neptune-cash-x86_64-apple-darwin/neptune-prover",
+          "sha256": "6ac9e251c403fd54d0bf450e3f5ec71601424dc410a3684ff33f3fcb38ea1a75"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Neptune-Crypto/neptune-core/releases/download/v0.19.2/neptune-cash-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.19.2",
+      "sha256": "f2a6431b4b9dcf21e75421bec44c98273b692d1f6eb64c796f48cd7a942c2243",
+      "size": 16227336,
+      "format": "tar.xz",
+      "binaries": {
+        "neptune-blk-info": {
+          "path": "neptune-cash-aarch64-apple-darwin/neptune-blk-info",
+          "sha256": "ad5d6c14994da0952226d6ad1898c0c5d9ee67b739b90c1557d40e973216f6e4"
+        },
+        "neptune-block-claims": {
+          "path": "neptune-cash-aarch64-apple-darwin/neptune-block-claims",
+          "sha256": "0c8b5e4062a25bcdc6368001d8a25e542f9740aaa51437c1d441d89f83ffbd28"
+        },
+        "neptune-core": {
+          "path": "neptune-cash-aarch64-apple-darwin/neptune-core",
+          "sha256": "30a9c6dfc8a06cb94586d89390286cd2ded43a1b37ba108fccebff4b3d0b91df"
+        },
+        "neptune-prover": {
+          "path": "neptune-cash-aarch64-apple-darwin/neptune-prover",
+          "sha256": "002074bf3835b8d9e3ddb7b8842a62ac0c020f3125aee3d23be17ae2a815942d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Neptune-Crypto/neptune-core/releases/download/v0.19.2/neptune-cash-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.19.2",
+      "sha256": "ee10a540d95def44d89e1a6bda974b8a593e7986caf6127304f2f9536015a246",
+      "size": 32271856,
+      "format": "zip",
+      "binaries": {
+        "neptune-blk-info.exe": {
+          "path": "neptune-blk-info.exe",
+          "sha256": "7c415361bf3a81d78e824e6f3967a5eb78936c29c928e135dc35722e9d81352c"
+        },
+        "neptune-block-claims.exe": {
+          "path": "neptune-block-claims.exe",
+          "sha256": "7a75ae8185530ee0643537c79326c84a95a40606c0f149f5cbc45d40a49ec2eb"
+        },
+        "neptune-core.exe": {
+          "path": "neptune-core.exe",
+          "sha256": "1852a2ef75f8000acaf886140fd4f3ce6f73f4194332d6911841d26be4c38372"
+        },
+        "neptune-prover.exe": {
+          "path": "neptune-prover.exe",
+          "sha256": "bee4b36680fa61c32c6a1cb37f57bd6fdf2d7151464f44dd25909a94c6ac97ca"
+        }
+      }
+    }
+  }
+}
