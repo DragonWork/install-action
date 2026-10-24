@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "kdbx",
+  "version": "0.13.0",
+  "repository": "daxartio/kdbx",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/daxartio/kdbx/releases/download/0.13.0/kdbx-0.13.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "75b70c35d504329d8af838ec5148e514db807270bbbd0fe97dada33661eed8b4",
+      "size": 3239238,
+      "format": "tar.gz",
+      "binaries": {
+        "kdbx": {
+          "path": "kdbx-0.13.0-x86_64-unknown-linux-musl/kdbx",
+          "sha256": "35b594cf19773335b69c156deaf37515c9b653aca423d678fda22655d469ec14"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/daxartio/kdbx/releases/download/0.13.0/kdbx-0.13.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "9206fe51d8e4a1f2415a9827e5cbaf7d703b2b2b2c30d8adf03f9ed8a83207be",
+      "size": 3090290,
+      "format": "tar.gz",
+      "binaries": {
+        "kdbx": {
+          "path": "kdbx-0.13.0-aarch64-unknown-linux-musl/kdbx",
+          "sha256": "891fda8eb5f2dfb2110faa0b68cb63d1f752507415997880b98bf9a2df21a1bb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/daxartio/kdbx/releases/download/0.13.0/kdbx-0.13.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "60c19e8ae092cbe29c067074b0d04b7eeada4b41a9ade41be9d0abd849541024",
+      "size": 2871314,
+      "format": "tar.gz",
+      "binaries": {
+        "kdbx": {
+          "path": "kdbx-0.13.0-x86_64-apple-darwin/kdbx",
+          "sha256": "ac0e823b4680490d741c63a5ef49fde3dd95f6cae79401510fdd85ec4185d126"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/daxartio/kdbx/releases/download/0.13.0/kdbx-0.13.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "3037a855ac45d68d775c4d3aef20d49625cc5b9c7c92c65b5b2ad819e7296646",
+      "size": 2713604,
+      "format": "tar.gz",
+      "binaries": {
+        "kdbx": {
+          "path": "kdbx-0.13.0-aarch64-apple-darwin/kdbx",
+          "sha256": "890c267c959a3e9f203356e726b2eb46d3ee103e3d214852231fb33383f71fd7"
+        }
+      }
+    }
+  }
+}
