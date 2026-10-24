@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "plow_cli",
+  "version": "0.5.2",
+  "repository": "field33/plow",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/field33/plow/releases/download/plow_cli-v0.5.2/plow_cli-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "plow_cli-v0.5.2",
+      "sha256": "3af2a074f8af290f869d5cb18784d66b5127d911095c2767f96ec83bd6b8a92b",
+      "size": 4711800,
+      "format": "tar.xz",
+      "binaries": {
+        "plow": {
+          "path": "plow_cli-x86_64-unknown-linux-gnu/plow",
+          "sha256": "1e35919c966d5d31852af5d6692720d4705638b8dbeec469d2fdc147669d1288"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/field33/plow/releases/download/plow_cli-v0.5.2/plow_cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "plow_cli-v0.5.2",
+      "sha256": "35d83df263982dc8c31cc3d50e43fde2bfa4cc31e6bc53d1245874dcd395ad3a",
+      "size": 3668260,
+      "format": "tar.xz",
+      "binaries": {
+        "plow": {
+          "path": "plow_cli-x86_64-apple-darwin/plow",
+          "sha256": "f0afe2b98cbc7afa951d273489244c6ad45edb740966db8d2bfbf5e4145d012a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/field33/plow/releases/download/plow_cli-v0.5.2/plow_cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "plow_cli-v0.5.2",
+      "sha256": "6c2f8e0c70122fca9791f589dcdaa2a68514ae4004e6577570eeefdc1b2a34f2",
+      "size": 3305384,
+      "format": "tar.xz",
+      "binaries": {
+        "plow": {
+          "path": "plow_cli-aarch64-apple-darwin/plow",
+          "sha256": "1968de16215e3b467fdaf6fe4337817bc5e308fd5afaf89db73fb57b3ab649e0"
+        }
+      }
+    }
+  }
+}
