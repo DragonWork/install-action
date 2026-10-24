@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "unc",
+  "version": "0.15.0",
+  "repository": "utnet-org/utility-cli-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/utnet-org/utility-cli-rs/releases/download/v0.15.0/unc-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "8e6b10b62ca926e3daad4b3d3753b86ffde184d0e66c13b6c47b1b1fe7699201",
+      "size": 13964747,
+      "format": "tar.gz",
+      "binaries": {
+        "unc": {
+          "path": "unc-x86_64-unknown-linux-gnu/unc",
+          "sha256": "5ca291568d90a75416b5d047c89d5158932db36cbbcbf959067a2b87b724c6f3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/utnet-org/utility-cli-rs/releases/download/v0.15.0/unc-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "3cd08c6847bbb6c2212c6c4d9ac1bfaca4580d819c957ae7d9a40b3d381caa5f",
+      "size": 9254012,
+      "format": "tar.gz",
+      "binaries": {
+        "unc": {
+          "path": "unc-x86_64-apple-darwin/unc",
+          "sha256": "ead107b38d12c46d3aebe44cf8929b6da17c18c2059ace1080e24c834eb676af"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/utnet-org/utility-cli-rs/releases/download/v0.15.0/unc-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "68610319e91b1f0e8067a1782c54e45fa897168dc3412264dec445ef48701988",
+      "size": 8788289,
+      "format": "tar.gz",
+      "binaries": {
+        "unc": {
+          "path": "unc-aarch64-apple-darwin/unc",
+          "sha256": "4049bf87c0c417e0fc90febceec5c879d11c9de29c9c7f8e0b644558ce05f3a0"
+        }
+      }
+    }
+  }
+}
