@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "sbom-cli",
+  "version": "0.20.0",
+  "repository": "scm-rs/csaf-walker",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.20.0/sbom-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.20.0",
+      "sha256": "54c8beaa5e3e793846c04b9c9076f93041dfabc353d9b2eb23be85036c324850",
+      "size": 33894912,
+      "format": "binary",
+      "binaries": {
+        "sbom.exe": {
+          "path": "sbom-x86_64-pc-windows-msvc.exe",
+          "sha256": "54c8beaa5e3e793846c04b9c9076f93041dfabc353d9b2eb23be85036c324850"
+        }
+      }
+    }
+  }
+}
