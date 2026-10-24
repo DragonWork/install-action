@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "name": "findutils",
+  "version": "0.10.0",
+  "repository": "uutils/findutils",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/uutils/findutils/releases/download/0.10.0/findutils-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.10.0",
+      "sha256": "e7c10ea19e1dce2549aaf6f35e15bf42a5e8141d6100c499b6d6fc9b25ea9209",
+      "size": 1537568,
+      "format": "tar.xz",
+      "binaries": {
+        "find": {
+          "path": "findutils-x86_64-unknown-linux-musl/find",
+          "sha256": "e1c02fdce5005f106a5a8d50d531e0c56d9b02e39193f44d2b713b59548a48fa"
+        },
+        "locate": {
+          "path": "findutils-x86_64-unknown-linux-musl/locate",
+          "sha256": "7be87102a9173654d0faf4c94e77e036882fc50fb2a19604a7d605443a4da5b8"
+        },
+        "testing-commandline": {
+          "path": "findutils-x86_64-unknown-linux-musl/testing-commandline",
+          "sha256": "e88816b527a02180cceea2b5c148cc93148745a15ac9dc86e1baece39aa35892"
+        },
+        "updatedb": {
+          "path": "findutils-x86_64-unknown-linux-musl/updatedb",
+          "sha256": "7753495cb543f4d9d7caef4418c420de7686dc304c9ccb259045ac64aa2b2b4f"
+        },
+        "xargs": {
+          "path": "findutils-x86_64-unknown-linux-musl/xargs",
+          "sha256": "b75976b3a39853e6e14b48207cd9b1d2551a7a40b21d9b0ed28796068fcb93dd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/uutils/findutils/releases/download/0.10.0/findutils-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.10.0",
+      "sha256": "c2dad7fbf0cd6b108f833b0a42651f3ad796b6dfa71d303ca1ab51eed3ce3afe",
+      "size": 1360600,
+      "format": "tar.xz",
+      "binaries": {
+        "find": {
+          "path": "findutils-aarch64-unknown-linux-musl/find",
+          "sha256": "10dda28f004e3f8935112a112df5371b78520d3613d11a59447a68488d3118d5"
+        },
+        "locate": {
+          "path": "findutils-aarch64-unknown-linux-musl/locate",
+          "sha256": "80d3b4d8a7d984671547bb8d90d3a5af602fc367836421fe008af6140c22700b"
+        },
+        "testing-commandline": {
+          "path": "findutils-aarch64-unknown-linux-musl/testing-commandline",
+          "sha256": "48fb168549903302ee78b5a7870fc7dc69bbf24b6d6b2a10526ad1cd4df56f69"
+        },
+        "updatedb": {
+          "path": "findutils-aarch64-unknown-linux-musl/updatedb",
+          "sha256": "c47a41e43242875346f88fe489e7cc6e445efe627264a622d719a50034d763b8"
+        },
+        "xargs": {
+          "path": "findutils-aarch64-unknown-linux-musl/xargs",
+          "sha256": "54b45023d4bf83aa068b0ef1288914b20223fb0a254b05a375d8bdd92aa26c3c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/uutils/findutils/releases/download/0.10.0/findutils-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.10.0",
+      "sha256": "d74273aab28e95c253570e3f1958387dc98e2b73f569674c30173d78876fb50b",
+      "size": 1300540,
+      "format": "tar.xz",
+      "binaries": {
+        "find": {
+          "path": "findutils-x86_64-apple-darwin/find",
+          "sha256": "856d3d481d17fec791da2a47ae87edac5847c3da84685d9c36a72fd9acb80fde"
+        },
+        "locate": {
+          "path": "findutils-x86_64-apple-darwin/locate",
+          "sha256": "589e250511669cb49a2b547450f2830c7ee318b60a054a16026e1130676c2f37"
+        },
+        "testing-commandline": {
+          "path": "findutils-x86_64-apple-darwin/testing-commandline",
+          "sha256": "2068eb2deef0fc98c3f992b9899d70dc72453046d1564433beb6bcd53dc0c154"
+        },
+        "updatedb": {
+          "path": "findutils-x86_64-apple-darwin/updatedb",
+          "sha256": "6018949ae4b1f101fb615ebaffe235d515959e9c9df96abcb641765b8db2b38b"
+        },
+        "xargs": {
+          "path": "findutils-x86_64-apple-darwin/xargs",
+          "sha256": "0d331a87b276330d089a375cbe2c55bd6c9d9e81b885d89be1d5513ee9d58d5e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/uutils/findutils/releases/download/0.10.0/findutils-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.10.0",
+      "sha256": "f2f7a6071f6b321f62d54f2e9303a3bd18c348fdc5464253e4f24ac3bfc55b04",
+      "size": 1229348,
+      "format": "tar.xz",
+      "binaries": {
+        "find": {
+          "path": "findutils-aarch64-apple-darwin/find",
+          "sha256": "a264fcc5177b33ce171b7099ef8113c20f39bab3b9df0c18706d908899afdd77"
+        },
+        "locate": {
+          "path": "findutils-aarch64-apple-darwin/locate",
+          "sha256": "2232f7e113e6788775f2403b128f086744b3f54cce295df0ff587c49076eab13"
+        },
+        "testing-commandline": {
+          "path": "findutils-aarch64-apple-darwin/testing-commandline",
+          "sha256": "c0a2b433d2d36fc73f0dae88e7fcbd34679f01480d47f01aaa7c4b866c93f870"
+        },
+        "updatedb": {
+          "path": "findutils-aarch64-apple-darwin/updatedb",
+          "sha256": "8e1f466b4b8353c045f5e3dd204104ed67df080e0e59e0a001101aabaa0e9a34"
+        },
+        "xargs": {
+          "path": "findutils-aarch64-apple-darwin/xargs",
+          "sha256": "9040f0a1c790634aaf695e69d2bd948294ebe844eb5d359e7c65390b5b1e829c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/uutils/findutils/releases/download/0.10.0/findutils-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.10.0",
+      "sha256": "d056b1151f70fdb0c5e6ab216a153ac7161d84afc6764766a6ab92ab441d16fc",
+      "size": 3533262,
+      "format": "zip",
+      "binaries": {
+        "find.exe": {
+          "path": "find.exe",
+          "sha256": "28482badd47f3980e3b713ee838dcb9c4a0be0f8b88a122deb343c739dffa392"
+        },
+        "locate.exe": {
+          "path": "locate.exe",
+          "sha256": "31584a997432bb1a2cf0bccb3435eb90ee6e55e343bf2032d34b7dc56269a839"
+        },
+        "testing-commandline.exe": {
+          "path": "testing-commandline.exe",
+          "sha256": "7a08aa61795255d3b4b5169566f1ccc4cb09d6c138fc3774b4715bed4cdfe84e"
+        },
+        "updatedb.exe": {
+          "path": "updatedb.exe",
+          "sha256": "7b86fa620e2ed011396bfdb99ef86d054459705209d8c90ebbbd012daf13c790"
+        },
+        "xargs.exe": {
+          "path": "xargs.exe",
+          "sha256": "e4bb520cae284d97bd4f0dfa9692d8947063a192ef36e3916dd2bde38f1cae3c"
+        }
+      }
+    }
+  }
+}
