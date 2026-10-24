@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cli-proxy",
+  "version": "0.3.5",
+  "repository": "jaemk/proxy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jaemk/proxy/releases/download/v0.3.5/proxy-v0.3.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.5",
+      "sha256": "0a2f1525449cb988eae1ea1b82e35dff599e25386582b9fdcfa9f184df3a1c8a",
+      "size": 3638064,
+      "format": "tar.gz",
+      "binaries": {
+        "proxy": {
+          "path": "proxy",
+          "sha256": "9092c050e75ef9f63d7c81218e45297e0efcce6a382e6df293b329fd373f3872"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jaemk/proxy/releases/download/v0.3.5/proxy-v0.3.5-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.5",
+      "sha256": "8b1c342bd8a773ee74037b112a8946ca6799d1de3f179da0a9d0be8adc933c19",
+      "size": 1766444,
+      "format": "tar.gz",
+      "binaries": {
+        "proxy": {
+          "path": "proxy",
+          "sha256": "610c7c599f9d3d7315ff3ce4fa335c620337be57f881310bb939250f91b29b85"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jaemk/proxy/releases/download/v0.3.5/proxy-v0.3.5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.5",
+      "sha256": "0d7a5238dffb69646e83aaba4ff33eace702093a95d50e525afdeb0e767323a1",
+      "size": 1366421,
+      "format": "zip",
+      "binaries": {
+        "proxy.exe": {
+          "path": "proxy.exe",
+          "sha256": "cb777cf4f3d8d097f12bc6bba56110db4031bf9c69d9d57d2440d899fc34a0f3"
+        }
+      }
+    }
+  }
+}
