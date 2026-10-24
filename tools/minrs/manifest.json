@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "minrs",
+  "version": "0.4.1",
+  "repository": "voidstarHQ/minrs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "a411f53ed1bf8d2e292f3eeaae720f9a126bc1e62807dfe472d0a018cecf88d9",
+      "size": 1213796,
+      "format": "tar.gz",
+      "binaries": {
+        "minrs": {
+          "path": "minrs",
+          "sha256": "10d57363bc0e5281d391661c1f48777ae2937466ecf50983294c90da435a19fe"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "041cf2d5447b764f494d81aa72f6325a6577789c1e518b625531a7ceeec1c532",
+      "size": 902814,
+      "format": "tar.gz",
+      "binaries": {
+        "minrs": {
+          "path": "minrs",
+          "sha256": "d0868c1867c76218ba89fa678cf486da119b3eb5889903b4a4a52856cea86eb6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/voidstarHQ/minrs/releases/download/v0.4.1/minrs-v0.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "5002afd8d1efb78e9802486119bf8fe5eee24dde511f17dab44e27dcfcbc0e67",
+      "size": 747257,
+      "format": "tar.gz",
+      "binaries": {
+        "minrs": {
+          "path": "minrs",
+          "sha256": "8a7cd7096ec520f8a8ace7d4d728b0b46e906bd446fa5bd5a6d00a042aea0193"
+        }
+      }
+    }
+  }
+}
