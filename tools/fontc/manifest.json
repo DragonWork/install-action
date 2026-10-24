@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "fontc",
+  "version": "1.0.0",
+  "repository": "googlefonts/fontc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "fontc-v1.0.0",
+      "sha256": "dd715c5bd5884bf7172d24f5a1d1d2efd5985c1f45d41ef99324590a2fb3aeb0",
+      "size": 7427031,
+      "format": "tar.gz",
+      "binaries": {
+        "fontc": {
+          "path": "fontc",
+          "sha256": "e48d6f5c29acf64f85956b156181876f8f03d0942f5152096f8b7f2059db0556"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "fontc-v1.0.0",
+      "sha256": "8c3e44ea40a232811d3992b8b14a6299e8eb5714f0898ee8ad9d57cbc014ba3a",
+      "size": 7030254,
+      "format": "tar.gz",
+      "binaries": {
+        "fontc": {
+          "path": "fontc",
+          "sha256": "46177a1d0fa22d7933ca6a48c0fb9f1deff9d9e8842be83a8d12e23042acfa9d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "fontc-v1.0.0",
+      "sha256": "942673665844187cc3a2ffea02c5dbc310f4eca36595d48ad5d3908aee9e6658",
+      "size": 6941186,
+      "format": "tar.gz",
+      "binaries": {
+        "fontc": {
+          "path": "fontc",
+          "sha256": "98655dc02be46bb433815b2f0fb1859a6fc2196c1443078d9e854af3193fcf14"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "fontc-v1.0.0",
+      "sha256": "f7703a5967a6d78e931493e8ca44d3393b9221982697e7cc3f4e627a399eec28",
+      "size": 6605882,
+      "format": "tar.gz",
+      "binaries": {
+        "fontc": {
+          "path": "fontc",
+          "sha256": "54b709ee0c7c55b35cf2a0ec1169e07e8146aa5dafe76f4ba5b0ec0eeea9aed9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "fontc-v1.0.0",
+      "sha256": "2c8b60198d80a02431860256406d48dff8c714534fce2e6a27180d93694869c1",
+      "size": 6036089,
+      "format": "zip",
+      "binaries": {
+        "fontc.exe": {
+          "path": "fontc.exe",
+          "sha256": "a5d4cd3e790378ee3c15e66b985131c8e0786b8bf27ac8bb9ee4c9aa96841346"
+        }
+      }
+    }
+  }
+}
