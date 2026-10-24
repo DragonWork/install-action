@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "killport",
+  "version": "2.0.2",
+  "repository": "jkfran/killport",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/jkfran/killport/releases/download/v2.0.2/killport-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "020472223ec771d94185d877b7f93d667641157bf1c48db22aecaa62cd701e5d",
+      "size": 1626817,
+      "format": "tar.gz",
+      "binaries": {
+        "killport": {
+          "path": "killport-x86_64-apple-darwin/killport",
+          "sha256": "e1777ef19a06d5520d3286f3e8ee84ee7411ecd27064d2bc683f9dede90ecd25"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jkfran/killport/releases/download/v2.0.2/killport-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "09e7fd05e77d6a3ae1f23bfa1b3a416534a4f32e25986ab4b1f4859f1449e8ff",
+      "size": 1565665,
+      "format": "tar.gz",
+      "binaries": {
+        "killport": {
+          "path": "killport-aarch64-apple-darwin/killport",
+          "sha256": "7243f7a0470a4ea4338a980a371ba0685424a1aaacda685a3b651374e0f5f11a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jkfran/killport/releases/download/v2.0.2/killport-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "1e400414e16409fa9c154217982277ae77f66cc3a394a592221480b7ee1d6554",
+      "size": 2888793,
+      "format": "tar.gz",
+      "binaries": {
+        "killport.exe": {
+          "path": "killport-x86_64-pc-windows-gnu/killport.exe",
+          "sha256": "916f0eed0eaa5b058d69d3e9de0497da454e422f44bc43a929e08a2f605a6438"
+        }
+      }
+    }
+  }
+}
