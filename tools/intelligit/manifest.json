@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "intelligit",
+  "version": "0.2.11",
+  "repository": "trulsma/intelligit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/trulsma/intelligit/releases/download/v0.2.11/intelligit-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.11",
+      "sha256": "de8f42f5c8e6e70249cb0c47b6110fe8ecbd561e0bf22663e587084cd1e94529",
+      "size": 6200960,
+      "format": "tar.xz",
+      "binaries": {
+        "intelligit": {
+          "path": "intelligit-x86_64-unknown-linux-gnu/intelligit",
+          "sha256": "6237f676d143698a04b21dbdfde4b0687f432f941dcdb375a0a0eb84c5d801aa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/trulsma/intelligit/releases/download/v0.2.11/intelligit-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.11",
+      "sha256": "518d56bd1a88e6c46a8fe093418e9b484bbefb60dc9ff2d9399842789ba418b5",
+      "size": 5418600,
+      "format": "tar.xz",
+      "binaries": {
+        "intelligit": {
+          "path": "intelligit-x86_64-apple-darwin/intelligit",
+          "sha256": "b19fa3f4270e1e3f64ebe5ab64933add06003930023bd0793464ff3451ca87d7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/trulsma/intelligit/releases/download/v0.2.11/intelligit-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.11",
+      "sha256": "0646fa2dbf8c21b79c0175c00f07f2cbf1ba3fb3f412a917e5df4459cc633af8",
+      "size": 5114248,
+      "format": "tar.xz",
+      "binaries": {
+        "intelligit": {
+          "path": "intelligit-aarch64-apple-darwin/intelligit",
+          "sha256": "0bb607ec5015cad901c53d1102f81108c3436794ec7a1057d130c52183b9c55f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/trulsma/intelligit/releases/download/v0.2.11/intelligit-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.11",
+      "sha256": "9488861ed3d38fcc8fc1cf8b3e556e0a23818317be40139af743d6457a64a53f",
+      "size": 30740469,
+      "format": "zip",
+      "binaries": {
+        "intelligit.exe": {
+          "path": "intelligit.exe",
+          "sha256": "69ed0104d12f0240e143b35e104ff1f1a27867e8b2c83132801d8dc10c90a020"
+        }
+      }
+    }
+  }
+}
