@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mcat",
+  "version": "0.6.5",
+  "repository": "Skardyy/mcat",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Skardyy/mcat/releases/download/v0.6.5/mcat-v0.6.5-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.6.5",
+      "sha256": "c9fbaeea163abd3b7ee6486c3decfb32a468eaa07a2ce009b4247ba39d60cabc",
+      "size": 9968860,
+      "format": "tar.xz",
+      "binaries": {
+        "mcat": {
+          "path": "mcat-v0.6.5-x86_64-unknown-linux-musl/mcat",
+          "sha256": "f8b0643f34c8c8ff682ba29fc00018b1ba787760bc202251641404de225235a0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Skardyy/mcat/releases/download/v0.6.5/mcat-v0.6.5-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.6.5",
+      "sha256": "ebf77494739730936590a0b4e8ea2e3cd84cd4531734adc88c0cfdce101c99f2",
+      "size": 8685548,
+      "format": "tar.xz",
+      "binaries": {
+        "mcat": {
+          "path": "mcat-v0.6.5-aarch64-unknown-linux-musl/mcat",
+          "sha256": "d81ee23c182f80fe1d1af7e4434fd526349a28015b2d53689a8a3d445e2e5418"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Skardyy/mcat/releases/download/v0.6.5/mcat-v0.6.5-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.5",
+      "sha256": "38eb97cdf855e20ec5caf3805250173e4405ab6e5195096bbd9ccf5390dc672f",
+      "size": 9973656,
+      "format": "tar.xz",
+      "binaries": {
+        "mcat": {
+          "path": "mcat-v0.6.5-x86_64-apple-darwin/mcat",
+          "sha256": "8bb8cb7d26a93d8342f42cf760a6156407f2bebba9bfa89d5d53620de04405a3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Skardyy/mcat/releases/download/v0.6.5/mcat-v0.6.5-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.5",
+      "sha256": "952afbc231517cdcb09e8b4f19001364bf68ebbce66f5b0f4b7a7d65b4df1c22",
+      "size": 8776872,
+      "format": "tar.xz",
+      "binaries": {
+        "mcat": {
+          "path": "mcat-v0.6.5-aarch64-apple-darwin/mcat",
+          "sha256": "214f8df31d90b42f3d4bdf3f9fcb46192a85e4e71ada3a4199a17fc5f691748a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Skardyy/mcat/releases/download/v0.6.5/mcat-v0.6.5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.5",
+      "sha256": "51a8bfda59f5dbc5a5b286cfbb94c5919d484ea8db00a35fab15fc863423e15c",
+      "size": 12908747,
+      "format": "zip",
+      "binaries": {
+        "mcat.exe": {
+          "path": "mcat-v0.6.5-x86_64-pc-windows-msvc/mcat.exe",
+          "sha256": "14826b625d036f0c6c0d715d9b33c3ba907245f718f79efb8ddad3e5e08cdb84"
+        }
+      }
+    }
+  }
+}
