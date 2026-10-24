@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_readlink",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "readlink.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/readlink.exe",
+          "sha256": "2f7c849eaa189302eb8fbaa68602d1ca9b529dfcd76090872b0c84550220d20e"
+        }
+      }
+    }
+  }
+}
