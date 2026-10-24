@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "watchbind",
+  "version": "0.2.1",
+  "repository": "fritzrehde/watchbind",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fritzrehde/watchbind/releases/download/v0.2.1/watchbind-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.1",
+      "sha256": "4bdb78e8a1a60ae46f485ef7819b92ea63f7be64679d8472bfa34ec65811088e",
+      "size": 2043148,
+      "format": "tar.xz",
+      "binaries": {
+        "watchbind": {
+          "path": "watchbind-x86_64-unknown-linux-gnu/watchbind",
+          "sha256": "5aa831155095d1c22687c9660ff365eaef253bfd67f718a5b87883049c484c4b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/fritzrehde/watchbind/releases/download/v0.2.1/watchbind-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.1",
+      "sha256": "788f3be40d56082e099b7216edb135d6d41e96dd38ec3d10998e117a1405d525",
+      "size": 1479400,
+      "format": "tar.xz",
+      "binaries": {
+        "watchbind": {
+          "path": "watchbind-x86_64-apple-darwin/watchbind",
+          "sha256": "e99e43d9d9c8dab80e452d9303706b5cb23042638ca24c811b25efb582272356"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/fritzrehde/watchbind/releases/download/v0.2.1/watchbind-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.1",
+      "sha256": "894995fdc0f7abfa80d38097a85cfdd9fcf5b2083da2914e578943d98a0c0114",
+      "size": 1333848,
+      "format": "tar.xz",
+      "binaries": {
+        "watchbind": {
+          "path": "watchbind-aarch64-apple-darwin/watchbind",
+          "sha256": "23503ccafb304f56bacec1423064d46bcf1d264c7549871c58076ebbd56c07e7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/fritzrehde/watchbind/releases/download/v0.2.1/watchbind-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.1",
+      "sha256": "e45944eb7c6fa79cc26f1ad043d5aae000c93538c03f33ba10445c513589e05a",
+      "size": 5208900,
+      "format": "zip",
+      "binaries": {
+        "watchbind.exe": {
+          "path": "watchbind.exe",
+          "sha256": "318e5117e287c4fe23a41b53eeedb6bd7d871413c179efc4fe116310fa6c7dc4"
+        }
+      }
+    }
+  }
+}
