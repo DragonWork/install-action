@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "prose",
+  "version": "0.6.2",
+  "repository": "jgdavey/prose",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jgdavey/prose/releases/download/v0.6.2/prose-v0.6.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.2",
+      "sha256": "9ea3c1884860ae1de85aa2f49a9fa2348cd1ddedd19bef5e98fab3b9dbe0e5da",
+      "size": 602884,
+      "format": "tar.gz",
+      "binaries": {
+        "prose": {
+          "path": "prose-v0.6.2-x86_64-unknown-linux-musl/prose",
+          "sha256": "c0467e166eb0bea6e22c5777e0fb34aa84497fbacf65e980b9339192ba534a87"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jgdavey/prose/releases/download/v0.6.2/prose-v0.6.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.2",
+      "sha256": "b3bddf62cac3c980aa3b3c9267b0de145f493229f5a007f566b09c5248c2e58a",
+      "size": 519320,
+      "format": "tar.gz",
+      "binaries": {
+        "prose": {
+          "path": "prose-v0.6.2-x86_64-apple-darwin/prose",
+          "sha256": "2346b9ab2c69f167d03ba39dfaebb5fa699302fbec81d5a79dc8c253ad7f74da"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jgdavey/prose/releases/download/v0.6.2/prose-v0.6.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.2",
+      "sha256": "afeb6af975780c4fbc65c1152198c384c9f70f9b76d92c39f03dc39a5df481b6",
+      "size": 550189,
+      "format": "tar.gz",
+      "binaries": {
+        "prose": {
+          "path": "prose-v0.6.2-aarch64-apple-darwin/prose",
+          "sha256": "305d703ec13dfdf6b84315a09bbada6a1d7183207595a4369ecd46d16df03c8f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jgdavey/prose/releases/download/v0.6.2/prose-v0.6.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.2",
+      "sha256": "3d1d96ec2011cec6eec5f42acf1d51a7f57f6e6ffe81dd1ce8dbb0012a8b8721",
+      "size": 418411,
+      "format": "zip",
+      "binaries": {
+        "prose.exe": {
+          "path": "prose-v0.6.2-x86_64-pc-windows-msvc/prose.exe",
+          "sha256": "22eb316bf27cdae2234f4c150f1dffefd31bc8cce01fe9364ea368994e692881"
+        }
+      }
+    }
+  }
+}
