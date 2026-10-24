@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "charasay",
+  "version": "3.3.3",
+  "repository": "latipun7/charasay",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/latipun7/charasay/releases/download/v3.3.3/chara-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v3.3.3",
+      "sha256": "83d162176d14cae6d7c00039788682395bbc66a63b669146d0a08241abc9020a",
+      "size": 836101,
+      "format": "zip",
+      "binaries": {
+        "chara": {
+          "path": "chara",
+          "sha256": "c3f2117c8a9980100116e7bda81c07b05c774fe9607c22ad904248aa1281e232"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/latipun7/charasay/releases/download/v3.3.3/chara-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v3.3.3",
+      "sha256": "42a04fe375f5a5b64450e0c60949517a9456151166f91c0272e24cb46180d3ed",
+      "size": 781356,
+      "format": "zip",
+      "binaries": {
+        "chara": {
+          "path": "chara",
+          "sha256": "c30a88b1092598be417a3aacfc7450aa03458e00ee35b246ff0723271f3efd0d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/latipun7/charasay/releases/download/v3.3.3/chara-x86_64-apple-darwin.zip",
+      "releaseTag": "v3.3.3",
+      "sha256": "aae47c4f390ec7f2488f913565e07e6f78193fb129aa3e9ae3210016b65cec69",
+      "size": 796248,
+      "format": "zip",
+      "binaries": {
+        "chara": {
+          "path": "chara",
+          "sha256": "7e660a4ce63e2140c2ac46f67ae31dcca9cef3d114360a36cda39e2965ab3353"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/latipun7/charasay/releases/download/v3.3.3/chara-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v3.3.3",
+      "sha256": "28266703eba30807fadaa363d7c24f0d91e4fb146d5f3884a8b6dcbbc3c81eb0",
+      "size": 756824,
+      "format": "zip",
+      "binaries": {
+        "chara.exe": {
+          "path": "chara.exe",
+          "sha256": "67f25ee678b5d4554b7e41bd8b7b088b75ddae514c2c2b9b4628687c99bc5f3e"
+        }
+      }
+    }
+  }
+}
