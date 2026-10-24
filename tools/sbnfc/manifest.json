@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "sbnfc",
+  "version": "0.6.5",
+  "repository": "BenjaminSchaaf/sbnf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/BenjaminSchaaf/sbnf/releases/download/0.6.5/sbnf-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.6.5",
+      "sha256": "7262e358da39cf4e47f1730866ff81026a0b72b840b65220d99de9de61982a2d",
+      "size": 390000,
+      "format": "tar.xz",
+      "binaries": {
+        "sbnf": {
+          "path": "sbnf",
+          "sha256": "2a1370c3cef6be19a809d086bf743664f8b8e4af18c196489b63143185bc2f2b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/BenjaminSchaaf/sbnf/releases/download/0.6.5/sbnf-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.6.5",
+      "sha256": "7a290af2720450c090e26d4f99cd9520c5625fa53db92c06bb86a3e0ab9d979e",
+      "size": 373056,
+      "format": "tar.xz",
+      "binaries": {
+        "sbnf": {
+          "path": "sbnf",
+          "sha256": "7ffba1cc2391f71ed39a99781577bc9fa05a4792c8823665d37ede2abcafdccc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/BenjaminSchaaf/sbnf/releases/download/0.6.5/sbnf-x86_64-apple-darwin.zip",
+      "releaseTag": "0.6.5",
+      "sha256": "1dcf0ce551b5cf84c8e7bbed4154a10c7a011ddf11ea3ae9a1b47fd82175c982",
+      "size": 502608,
+      "format": "zip",
+      "binaries": {
+        "sbnf": {
+          "path": "sbnf",
+          "sha256": "150a1b399edc0ffbe2c42b52ea82cdd31eb8c4278051267223f6756893999053"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/BenjaminSchaaf/sbnf/releases/download/0.6.5/sbnf-aarch64-apple-darwin.zip",
+      "releaseTag": "0.6.5",
+      "sha256": "84c20c5224860ba258e4be2002bf08500a9d426b9b6cf365ded335b7698eb86a",
+      "size": 514177,
+      "format": "zip",
+      "binaries": {
+        "sbnf": {
+          "path": "sbnf",
+          "sha256": "e2ab32f03708502f69ccb7b9e58e941ba0ab429e723d6c1030e27f2554ef1e1c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/BenjaminSchaaf/sbnf/releases/download/0.6.5/sbnf-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.6.5",
+      "sha256": "d1e44cba05156fef06b8b7e9dbc3efd0bd32888d7ef229f97cebdafcc7092821",
+      "size": 336246,
+      "format": "zip",
+      "binaries": {
+        "sbnf.exe": {
+          "path": "sbnf.exe",
+          "sha256": "fc6bb4898f82b7185370145e9d899a0b0b2fe3dea92fa24849c90a03afd5a990"
+        }
+      }
+    }
+  }
+}
