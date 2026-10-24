@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "holochain-runner",
+  "version": "0.7.9",
+  "repository": "lightningrodlabs/holochain-runner",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lightningrodlabs/holochain-runner/releases/download/v0.7.9/holochain-runner-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.9",
+      "sha256": "cb2726c88a78258312c81cd90aedce8e48cfc01ee1173dab6e5a0f65380fa3f8",
+      "size": 26482693,
+      "format": "tar.gz",
+      "binaries": {
+        "holochain-runner": {
+          "path": "holochain-runner",
+          "sha256": "4c0e13986889f0c0cbd046cb70d4bb41c57c12d90cfb2ac5e2cef82773b30f1a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lightningrodlabs/holochain-runner/releases/download/v0.7.9/holochain-runner-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.9",
+      "sha256": "bdb069b9673410c4a5e9e14089fe44cb402a7923012c21d2215f544d35547043",
+      "size": 24991907,
+      "format": "tar.gz",
+      "binaries": {
+        "holochain-runner": {
+          "path": "holochain-runner",
+          "sha256": "dcbf654b6da95df153717db87a4b15f3fc486941344afa6226df0d529be6fb3f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lightningrodlabs/holochain-runner/releases/download/v0.7.9/holochain-runner-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.7.9",
+      "sha256": "54a49b0f2a1d2657f2b14c68b671f9ec9bb54a0ee852651a2c2e7628717f7931",
+      "size": 25313079,
+      "format": "tar.gz",
+      "binaries": {
+        "holochain-runner.exe": {
+          "path": "holochain-runner.exe",
+          "sha256": "99548e636d02adf2b1c78dc43a9bd24a6af8c5d140aab7092607c1bc99f8adbe"
+        }
+      }
+    }
+  }
+}
