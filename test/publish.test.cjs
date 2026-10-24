@@ -55,6 +55,8 @@ test('multiple release variants select the ordinary package and platform archive
   assert.equal(assetFormat('tool-installer.exe'), null);
   assert.equal(nativeBinary(Buffer.from('not an executable'), 'linux-x64'), false);
   assert.deepEqual(assetCandidates(assets(['tool-x86_64-linux-android.tar.gz']), 'linux-x64', 'tool', ['tool']), []);
+  assert.equal(select('android-tools', ['android-tools-x86_64-unknown-linux-musl.tar.gz']),
+    'android-tools-x86_64-unknown-linux-musl.tar.gz');
 });
 
 test('bulk discovery batches release lookups and records unavailable repositories', async t => {

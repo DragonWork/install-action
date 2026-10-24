@@ -54,7 +54,7 @@ function assetCandidates(assets, platform, name, binaries) {
   };
   const stem = asset => asset.name.replace(/\.(?:tar\.(?:gz|xz|zst)|tgz|zip|exe)$/, '');
   return assets.filter(asset => asset.state === 'uploaded' && assetFormat(asset.name)
-    && !/(?:^|[-_.])(?:android|androideabi|ios)(?:[-_.]|$)/i.test(asset.name)
+    && !/linux[-_.](?:android|androideabi)(?:[-_.]|$)/i.test(asset.name)
     && (targets.some(target => asset.name.includes(target)) || (arch.test(asset.name) && os.test(asset.name))))
     .sort((a, b) => rank(a) - rank(b) || prefix(a) - prefix(b)
       || Number(assetFormat(a.name) === 'binary') - Number(assetFormat(b.name) === 'binary')
