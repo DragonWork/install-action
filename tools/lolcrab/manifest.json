@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "lolcrab",
+  "version": "0.4.1",
+  "repository": "mazznoer/lolcrab",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mazznoer/lolcrab/releases/download/v0.4.1/lolcrab-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "8a98c3dc7a027b53c927224b9c9c4cab53eee015791c0f35de0be536db0236ce",
+      "size": 492857,
+      "format": "tar.gz",
+      "binaries": {
+        "lolcrab": {
+          "path": "lolcrab-x86_64-unknown-linux-gnu/lolcrab",
+          "sha256": "b28de3f8cc9c7a2b66758dba9d2d95d800a418ae7991280b50f0911f900d14fd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mazznoer/lolcrab/releases/download/v0.4.1/lolcrab-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "8019d021be283c15b2700bec718aa91736fbf49fee61a1246a08dca1b311a3ed",
+      "size": 442438,
+      "format": "tar.gz",
+      "binaries": {
+        "lolcrab": {
+          "path": "lolcrab-aarch64-apple-darwin/lolcrab",
+          "sha256": "2348e42d875e18131b505dc818c0c29a5abe06cb673164918701ffe1c71cb1dc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mazznoer/lolcrab/releases/download/v0.4.1/lolcrab-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.1",
+      "sha256": "64e9a6d764aa33fb7c94d37c5695f4e92c696d7645464b5ef0a71caf0c756731",
+      "size": 409967,
+      "format": "zip",
+      "binaries": {
+        "lolcrab.exe": {
+          "path": "lolcrab-x86_64-pc-windows-msvc/lolcrab.exe",
+          "sha256": "155181328cb7e4a65f5dc6c206b006a0c69ab17374d27484559d3af953092130"
+        }
+      }
+    }
+  }
+}
