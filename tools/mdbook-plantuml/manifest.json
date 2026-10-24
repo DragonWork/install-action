@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "mdbook-plantuml",
+  "version": "2.0.0",
+  "repository": "sytsereitsma/mdbook-plantuml",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sytsereitsma/mdbook-plantuml/releases/download/v2.0.0/mdbook-plantuml_2.0.0-1_amd64.deb",
+      "sha256": "a30924a5ef8529a8e4a3aa21b10ddbfc27f1cfe9245c9ab35199cfd3d8e0bfa7",
+      "size": 1678064,
+      "format": "deb",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "mdbook-plantuml": {
+          "path": "./usr/bin/mdbook-plantuml",
+          "sha256": "d28696ee7b2643118128a19bfecbef94e004bfd30e54daa487781dc00c0e32d7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sytsereitsma/mdbook-plantuml/releases/download/v2.0.0/mdbook-plantuml.exe",
+      "sha256": "a9876ab07b09476ce0013ae2bbfcff7190f95bf79d5ae7124196922d0afc6c6f",
+      "size": 4753408,
+      "format": "binary",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "mdbook-plantuml.exe": {
+          "path": "mdbook-plantuml.exe",
+          "sha256": "a9876ab07b09476ce0013ae2bbfcff7190f95bf79d5ae7124196922d0afc6c6f"
+        }
+      }
+    }
+  }
+}
