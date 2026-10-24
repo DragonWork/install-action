@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "trippy",
+  "version": "0.13.0",
+  "repository": "fujiapple852/trippy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "aa2b7b2a0773f3cc04da691100419049950b690fe3736d25e24ac955b63d6056",
+      "size": 3679426,
+      "format": "tar.gz",
+      "binaries": {
+        "trip": {
+          "path": "trippy-0.13.0-x86_64-unknown-linux-musl/trip",
+          "sha256": "ef20e94ec9620eb81b4cfea409c68e9fd522a10200fb1e9de7a1b6bfe26f620d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "73af939aa94e9e0f07cac2b3c8177e02a6b1c3be88299d85988e02be81ae7004",
+      "size": 3403143,
+      "format": "tar.gz",
+      "binaries": {
+        "trip": {
+          "path": "trippy-0.13.0-aarch64-unknown-linux-musl/trip",
+          "sha256": "a4b0ec1439274cfea60ed5b952cd9de5ccaee7b2817bbc1b4a47d598315082c3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "26e7000df77a52fd8462040ebee1ebde9ada2e8d853b97838321b484928d9ea3",
+      "size": 3399822,
+      "format": "tar.gz",
+      "binaries": {
+        "trip": {
+          "path": "trippy-0.13.0-x86_64-apple-darwin/trip",
+          "sha256": "c6f2d6b53b4654d416920a53eecee946c692d72301c2a23aedb9cefaba2f2af7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.13.0",
+      "sha256": "5bb2c22822a8d301bd462dc35bec865b9eae1737e9180406b6eacdd46d44adf2",
+      "size": 3246346,
+      "format": "tar.gz",
+      "binaries": {
+        "trip": {
+          "path": "trippy-0.13.0-aarch64-apple-darwin/trip",
+          "sha256": "9494871155fc663c7ca307e8211a5f8af0742c7e28e71bfdbbc3ce8ea77bb231"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.13.0",
+      "sha256": "74a184434d96eec6c7f8e4b467147c40fa8841fa3722a3ddf51267208fcbbbe6",
+      "size": 3125756,
+      "format": "zip",
+      "binaries": {
+        "trip.exe": {
+          "path": "trippy-0.13.0-x86_64-pc-windows-msvc/trip.exe",
+          "sha256": "05d49e5198367a4d5b45403b986576b12c2ac89baa46152b77fae421ac6075f4"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.13.0",
+      "sha256": "14b9955853d4185675c0e71761230ff9e48136f7ff8f5989a6a591926f44cc6f",
+      "size": 3008060,
+      "format": "zip",
+      "binaries": {
+        "trip.exe": {
+          "path": "trippy-0.13.0-aarch64-pc-windows-msvc/trip.exe",
+          "sha256": "9b485f9b3e94ce886375a6b6da94eeb6e6f1906ffed21ac5be3917dd4250a228"
+        }
+      }
+    }
+  }
+}
