@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "http-relay",
+  "version": "0.7.0",
+  "repository": "pubky/http-relay",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-linux-x64.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "b48829d081984ca9e46b9d893635401ca7509a78658f5f9e9870d5bc2751c147",
+      "size": 3065044,
+      "format": "tar.gz",
+      "binaries": {
+        "http-relay": {
+          "path": "http-relay",
+          "sha256": "cf13b5d8d67d269c5c0bc2c62d6eed9a7d85fa867ad96d100e5cb27362d71a6b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-linux-arm64.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "b349c04843598a1eb3e64db3df72a27a805484ef34516477ce939eab622fb698",
+      "size": 3020820,
+      "format": "tar.gz",
+      "binaries": {
+        "http-relay": {
+          "path": "http-relay",
+          "sha256": "9ab726f387680b26b3702b32fd020360ae95dfd69b4358e0960202d65d80e83d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-macos-x64.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "79a770e633b8ea8e214fb1c8a63e5d6b1c199119d6ef16b1faa954b97a74bfc3",
+      "size": 2897168,
+      "format": "tar.gz",
+      "binaries": {
+        "http-relay": {
+          "path": "http-relay",
+          "sha256": "c08ff4eab0e09abdabc06c570136a2930df9617858e730c3ec00c98cea2ee1a5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-macos-arm64.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "6d48ea3a4303dd26b757f2c5463c000818c8e2e442cd1c03fa39294acf8792b2",
+      "size": 2763023,
+      "format": "tar.gz",
+      "binaries": {
+        "http-relay": {
+          "path": "http-relay",
+          "sha256": "4d527fc24d45d1f7592a669af360456747bb2c90ebd4576be1bd4421cdc0ccea"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-windows-x64.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "3ddfc666ff7e3e660ec1b72b2969eff950b67a69ca4e6db5d1f1801a261d0d13",
+      "size": 2420622,
+      "format": "zip",
+      "binaries": {
+        "http-relay.exe": {
+          "path": "http-relay.exe",
+          "sha256": "e4b0c19961a74e7cc6348277b0afe2881b421aade79a7bc9f9cc38add9a05cc8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/pubky/http-relay/releases/download/v0.7.0/http-relay-windows-arm64.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "f8db4c18714b8c726afa2258a36811fbdd0e5a5bf3f9e4900f30a4082aad7162",
+      "size": 2208404,
+      "format": "zip",
+      "binaries": {
+        "http-relay.exe": {
+          "path": "http-relay.exe",
+          "sha256": "c34dab9a6e4496ea56ff902e7e20fb48345f3f17876808927cd24524f5e8823f"
+        }
+      }
+    }
+  }
+}
