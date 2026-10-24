@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "emmylua_check",
+  "version": "0.25.1",
+  "repository": "EmmyLuaLs/emmylua-analyzer-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/emmylua_check-linux-x64.tar.gz",
+      "releaseTag": "0.25.1",
+      "sha256": "6ce2e19d0a82ed901c2c67a18567b340447682f843c7a0a82098e50e8d2f107e",
+      "size": 4441293,
+      "format": "tar.gz",
+      "binaries": {
+        "emmylua_check": {
+          "path": "./emmylua_check",
+          "sha256": "8b505e2372909ec7629b4f1e269f266fea10c6b816729156c826b4c514f2fbe0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/emmylua_check-linux-aarch64-glibc.2.17.tar.gz",
+      "releaseTag": "0.25.1",
+      "sha256": "62a9a56d3ff5d0e108909332cb91582a0c1a4ebbfdce1a4422e7ae74d4a7f8b1",
+      "size": 3769731,
+      "format": "tar.gz",
+      "binaries": {
+        "emmylua_check": {
+          "path": "./emmylua_check",
+          "sha256": "17729f4b680f3ecddfbb5492bebf634d0f3e48ed69d6c39d88b63f972c06605e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/emmylua_check-darwin-x64.tar.gz",
+      "releaseTag": "0.25.1",
+      "sha256": "e91fe82c361d8dece8e2ce9aeb2313b8809b4714f72bbbeab5a27e754d8de2c6",
+      "size": 4213245,
+      "format": "tar.gz",
+      "binaries": {
+        "emmylua_check": {
+          "path": "./emmylua_check",
+          "sha256": "1e522673dbe7641c549bf9ca6afc36b90e4420bdd51686d717948a336ccbb0c2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/emmylua_check-darwin-arm64.tar.gz",
+      "releaseTag": "0.25.1",
+      "sha256": "eeaad59d173cb8d7cb0fe778936d7b584fe114a3eb46587ef3e4aec24b605af4",
+      "size": 4013176,
+      "format": "tar.gz",
+      "binaries": {
+        "emmylua_check": {
+          "path": "./emmylua_check",
+          "sha256": "73646b5dee8bac0655398cbac6fab74c4851d219f51d7781746f957a60572fec"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/emmylua_check-win32-x64.zip",
+      "releaseTag": "0.25.1",
+      "sha256": "577982e68d925972d8ae35f54b5f384ad77a84a2e31e340bd663d1efd2ef5983",
+      "size": 3959826,
+      "format": "zip",
+      "binaries": {
+        "emmylua_check.exe": {
+          "path": "emmylua_check.exe",
+          "sha256": "4467ddc98d7d738b2fe2fa8f7ff2daaf47e540f802867478cb75d1259781f050"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/emmylua_check-win32-arm64.zip",
+      "releaseTag": "0.25.1",
+      "sha256": "c3b2dd9ec8d8dc4982fc5f0fd12eaea4b370ab733a719acf2fade9f22c06e878",
+      "size": 3710103,
+      "format": "zip",
+      "binaries": {
+        "emmylua_check.exe": {
+          "path": "emmylua_check.exe",
+          "sha256": "407451ff0c08b6f85849c93d3b653b818b7e506076a6aab6083c8e78687e83ed"
+        }
+      }
+    }
+  }
+}
