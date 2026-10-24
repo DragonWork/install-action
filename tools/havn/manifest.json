@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "havn",
+  "version": "0.3.10",
+  "repository": "mrjackwills/havn",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mrjackwills/havn/releases/download/v0.3.10/havn_linux_x86_64.tar.gz",
+      "releaseTag": "v0.3.10",
+      "sha256": "3e1c3a8123dbac224e8b100fe2d9b09ef70868ce935a7efc3eeb95ce2f501a64",
+      "size": 472663,
+      "format": "tar.gz",
+      "binaries": {
+        "havn": {
+          "path": "havn",
+          "sha256": "8f1c31bab766f06579d7f2d488fc3e96299c106f9c817d6394a8d24dd9dd400a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mrjackwills/havn/releases/download/v0.3.10/havn_linux_aarch64.tar.gz",
+      "releaseTag": "v0.3.10",
+      "sha256": "05957ebfac6c7736b833751232dae4767e2a884514dbc45846fb636e4cb5b971",
+      "size": 458623,
+      "format": "tar.gz",
+      "binaries": {
+        "havn": {
+          "path": "havn",
+          "sha256": "08673f46cf44e5d4e7e5800f767933fd36f18d779741e7499b3fbe999a343b04"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mrjackwills/havn/releases/download/v0.3.10/havn_windows_x86_64.zip",
+      "releaseTag": "v0.3.10",
+      "sha256": "782c657d4ebe8461d7eeadc359205101dab058271ab1050df4e7c9c1013af2fe",
+      "size": 366713,
+      "format": "zip",
+      "binaries": {
+        "havn.exe": {
+          "path": "havn.exe",
+          "sha256": "fc20e19763cea02d4252909c79dc6872a8f6f735d0689a706e3a08d41c4dc0a1"
+        }
+      }
+    }
+  }
+}
