@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "sqllogictest",
+  "version": "0.5.5",
+  "repository": "risinglightdb/sqllogictest-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/risinglightdb/sqllogictest-rs/releases/download/v0.5.5/sqllogictest-linux-amd64.tar.gz",
+      "releaseTag": "v0.5.5",
+      "sha256": "af753542f5530ea4675bd9dc77bd83fe747aa8825d1c2c21f3625c0131f8b8c7",
+      "size": 2340940,
+      "format": "tar.gz",
+      "binaries": {
+        "sqllogictest": {
+          "path": "sqllogictest",
+          "sha256": "5ffa12cfedebcea511e2da280237845d26429ef522b2d7e4ae82bd6a98105112"
+        }
+      }
+    }
+  }
+}
