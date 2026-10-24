@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "envhub",
+  "version": "0.2.18",
+  "repository": "tsirysndr/envhub",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tsirysndr/envhub/releases/download/v0.2.18/envhub_v0.2.18_x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.18",
+      "sha256": "7ec1aebdfc753564b033a2ee8ff1bd402ef457700c41e80cb058ec9b90e9d87a",
+      "size": 2324248,
+      "format": "tar.gz",
+      "binaries": {
+        "envhub": {
+          "path": "envhub",
+          "sha256": "d4244067f149851f57e41b569bb4a6152d217c60a21e54c4c0f47c003be9343b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tsirysndr/envhub/releases/download/v0.2.18/envhub_v0.2.18_aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.18",
+      "sha256": "a4bcf958927f6acc39170ee1c594dc1a41dfdff7cecdddc3f4f776a2fe56b384",
+      "size": 2305166,
+      "format": "tar.gz",
+      "binaries": {
+        "envhub": {
+          "path": "envhub",
+          "sha256": "59581ecc3e2fde8148c84d7a8dbdbd20d9201870e5d32ad82b7e3651afbefa35"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tsirysndr/envhub/releases/download/v0.2.18/envhub_v0.2.18_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.18",
+      "sha256": "8ded3c14c7d66e6a167a5c94cdf7eb19cbb1efb2bfb7b54816dc22a9c6757914",
+      "size": 1480006,
+      "format": "tar.gz",
+      "binaries": {
+        "envhub": {
+          "path": "envhub",
+          "sha256": "c5a4204f358ed802b2125d9345f9c50976606245657028afa6d56f4d9277dd3e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tsirysndr/envhub/releases/download/v0.2.18/envhub_v0.2.18_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.18",
+      "sha256": "c11ed09dc33a4201832483202c65ad001168e15f75b1fecaf2417ffb5600c907",
+      "size": 1428617,
+      "format": "tar.gz",
+      "binaries": {
+        "envhub": {
+          "path": "envhub",
+          "sha256": "ce99a52c86c43a0d2c6cb7596603a6503eff9f4691a9edd560edb0d4053b00ee"
+        }
+      }
+    }
+  }
+}
