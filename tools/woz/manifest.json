@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "woz",
+  "version": "1.4.0",
+  "repository": "alexkehayias/woz",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alexkehayias/woz/releases/download/v1.4.0/woz-v1.4.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.4.0",
+      "sha256": "a309f5a386574bab4745b64635b490de01b0c559a49b99154dd07a290d4e296e",
+      "size": 3870352,
+      "format": "tar.gz",
+      "binaries": {
+        "woz": {
+          "path": "woz",
+          "sha256": "7f919f732a34557ce023c53c12063a4fbd2fc0481ffbcc560891c44036ec37ee"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/alexkehayias/woz/releases/download/v1.4.0/woz-v1.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.4.0",
+      "sha256": "e4528c19d99533934f7f302233cee99f8ded1fe8665ba8465a93cab37117a2fb",
+      "size": 2365916,
+      "format": "tar.gz",
+      "binaries": {
+        "woz": {
+          "path": "woz",
+          "sha256": "8ec5726d078e8c1895ad86a9ba5f6d4a7def9cbc5c0a9a4e62f5f395c6d47c69"
+        }
+      }
+    }
+  }
+}
