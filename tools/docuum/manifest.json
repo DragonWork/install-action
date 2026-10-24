@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "docuum",
+  "version": "0.27.1",
+  "repository": "stepchowfun/docuum",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/stepchowfun/docuum/releases/download/v0.27.1/docuum-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.27.1",
+      "sha256": "e9c598d378a2f9bd8bf677af02ffc318e372ae9d31faac3de7b4b527fedfafb3",
+      "size": 2677760,
+      "format": "binary",
+      "binaries": {
+        "docuum.exe": {
+          "path": "docuum-x86_64-pc-windows-msvc.exe",
+          "sha256": "e9c598d378a2f9bd8bf677af02ffc318e372ae9d31faac3de7b4b527fedfafb3"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/stepchowfun/docuum/releases/download/v0.27.1/docuum-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.27.1",
+      "sha256": "b3119f25967e33c1ddc9e612a5c0a4fef560692aa60c3afcbdfc9c24e163975c",
+      "size": 2295808,
+      "format": "binary",
+      "binaries": {
+        "docuum.exe": {
+          "path": "docuum-aarch64-pc-windows-msvc.exe",
+          "sha256": "b3119f25967e33c1ddc9e612a5c0a4fef560692aa60c3afcbdfc9c24e163975c"
+        }
+      }
+    }
+  }
+}
