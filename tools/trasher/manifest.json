@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "trasher",
+  "version": "3.3.2",
+  "repository": "ClementNerma/Trasher",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ClementNerma/Trasher/releases/download/v3.3.2/trasher-x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "v3.3.2",
+      "sha256": "e2d402c693a3c9046710edc04284cfd6b5576c278939db5f07877ab1eb877818",
+      "size": 1617920,
+      "format": "tar.gz",
+      "binaries": {
+        "trasher": {
+          "path": "trasher",
+          "sha256": "b3eed59afc72effbdaea31e8e8124c27bcbb17ce1541ad9b71dc3b90733dc77b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ClementNerma/Trasher/releases/download/v3.3.2/trasher-aarch64-unknown-linux-musl.tgz",
+      "releaseTag": "v3.3.2",
+      "sha256": "c00339a6e5ae2de35bf70d5ca88e2aba06c43ecd70e6e92f4e63c4e826abc919",
+      "size": 1529869,
+      "format": "tar.gz",
+      "binaries": {
+        "trasher": {
+          "path": "trasher",
+          "sha256": "4f16aef47079ce394bdd30d6a5be9226cdc559f2cc8f94cdc64bf8a3c3953cbe"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ClementNerma/Trasher/releases/download/v3.3.2/trasher-x86_64-pc-windows-gnu.tgz",
+      "releaseTag": "v3.3.2",
+      "sha256": "290f8ffe57ddb62a03ee014025229b3f3f3d4349430a295a4def50e728f6848d",
+      "size": 2274717,
+      "format": "tar.gz",
+      "binaries": {
+        "trasher.exe": {
+          "path": "trasher.exe",
+          "sha256": "3437ffda276709293d738784b1522342e803ea5cb27f7ec35135239f3025cf7e"
+        }
+      }
+    }
+  }
+}
