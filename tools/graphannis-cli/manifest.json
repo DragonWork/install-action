@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "graphannis-cli",
+  "version": "4.3.0",
+  "repository": "korpling/graphANNIS",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/korpling/graphANNIS/releases/download/v4.3.0/graphannis-cli-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v4.3.0",
+      "sha256": "5d2fa9c2a0f2a801624ffd6ef9f1013f0d7d3f7b712a400eb9a3be3a03cf8b33",
+      "size": 4823216,
+      "format": "tar.xz",
+      "binaries": {
+        "annis": {
+          "path": "graphannis-cli-x86_64-unknown-linux-gnu/annis",
+          "sha256": "9269a69b9409736d35734c14e88cc24bcee0dd5c0c88689476c497c4ab0a0cf7"
+        },
+        "annis_bench_queries": {
+          "path": "graphannis-cli-x86_64-unknown-linux-gnu/annis_bench_queries",
+          "sha256": "468fb29c34385025ca71d1b16907a45c78678e761a359365f92b8a7de5551c8d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/korpling/graphANNIS/releases/download/v4.3.0/graphannis-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v4.3.0",
+      "sha256": "543ffb2dc2a6170b85f9d853daf680c81e36b073f3d45b4529551394981b3ca7",
+      "size": 4456072,
+      "format": "tar.xz",
+      "binaries": {
+        "annis": {
+          "path": "graphannis-cli-x86_64-apple-darwin/annis",
+          "sha256": "c56b83ea3f524cb68f2146da484499eefdb2119054f3d71f2079514beaaae3d2"
+        },
+        "annis_bench_queries": {
+          "path": "graphannis-cli-x86_64-apple-darwin/annis_bench_queries",
+          "sha256": "fdd71043227172fb1fe0fea83299afe41f5df0b8f3a7b757530a4834f8fd0c02"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/korpling/graphANNIS/releases/download/v4.3.0/graphannis-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v4.3.0",
+      "sha256": "5b3b6e3c5d248487b0173df912c1bd351fda6c0cccedaea2ee6ac5a40f2c9ec8",
+      "size": 3941016,
+      "format": "tar.xz",
+      "binaries": {
+        "annis": {
+          "path": "graphannis-cli-aarch64-apple-darwin/annis",
+          "sha256": "0f3d80fb018358da91880411db46bdd733a6f3af5cf41283c112c61a2414c377"
+        },
+        "annis_bench_queries": {
+          "path": "graphannis-cli-aarch64-apple-darwin/annis_bench_queries",
+          "sha256": "28e71443d6cc5b4876f44721aed5f4f3c740259fde3fa7bbb2cf4883b4551a3c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/korpling/graphANNIS/releases/download/v4.3.0/graphannis-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v4.3.0",
+      "sha256": "6cb0d223fec0b1022446f2668df1fcc80131d1fdb59cb56d50aecbcce0a2b123",
+      "size": 7744499,
+      "format": "zip",
+      "binaries": {
+        "annis.exe": {
+          "path": "annis.exe",
+          "sha256": "1ae492ab720652f203e7b85852d1d4ac1a59a75ea23b7e9ba24fa793a875e6b8"
+        },
+        "annis_bench_queries.exe": {
+          "path": "annis_bench_queries.exe",
+          "sha256": "68766708c7fcee5aabbacca38d39be8b0cdda7860c61353d8173e040d7147855"
+        }
+      }
+    }
+  }
+}
