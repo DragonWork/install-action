@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "carddown",
+  "version": "0.4.1",
+  "repository": "martintrojer/carddown",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/martintrojer/carddown/releases/download/v0.4.1/carddown-v0.4.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "0792306c0291c091ae6042d88fa82b9ead1af33b6d0eb74b70aba009527c7116",
+      "size": 2834638,
+      "format": "tar.gz",
+      "binaries": {
+        "carddown": {
+          "path": "carddown",
+          "sha256": "0f08dd6446cf53a936b6906ccc8caceb2ed84d846bec604f95985f094ba46f39"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/martintrojer/carddown/releases/download/v0.4.1/carddown-v0.4.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.1",
+      "sha256": "e2def1663c080f217fdc2b53b818904d4c3c7fc20b06664afab5c8166b625efb",
+      "size": 2478510,
+      "format": "tar.gz",
+      "binaries": {
+        "carddown": {
+          "path": "carddown",
+          "sha256": "886b53def5c98746caeecdd6da3a152a046bc6d6d0cd92d8af110c485c28a882"
+        }
+      }
+    }
+  }
+}
