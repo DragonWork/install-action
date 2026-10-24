@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tracexec",
+  "version": "1.0.0",
+  "repository": "kxxt/tracexec",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kxxt/tracexec/releases/download/v1.0.0/tracexec-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "697cb0c76118f479212b866aa6a2145420cbccbf804a0ed13cccbdc2fda58d4d",
+      "size": 3476956,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "tracexec": {
+          "path": "tracexec",
+          "sha256": "cb84c4a35605a04e8d1787cf833c97ef144eec6390b9229f04fc8d52d0f3ff4c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kxxt/tracexec/releases/download/v1.0.0/tracexec-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "2f79134d930f41f43fe027d60663b2075b4523cab35a4d37e8f07a3f2dd6c68d",
+      "size": 3444121,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "tracexec": {
+          "path": "tracexec",
+          "sha256": "774a5effd70f284f4a8b407bca06969360a478fc3a5162e68d84df1cb6e63b3f"
+        }
+      }
+    }
+  }
+}
