@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "vcontrol",
+  "version": "0.6.0",
+  "repository": "reitermarkus/vcontrol-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/reitermarkus/vcontrol-rs/releases/download/v0.6.0/vcontrol-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "503d6063c68981e2ea0dce0eac15c1169cd4200d8453c98e167f504a348d6e9b",
+      "size": 2333670,
+      "format": "tar.gz",
+      "binaries": {
+        "vcontrol": {
+          "path": "vcontrol",
+          "sha256": "dac054a1446e35dc2c5149a624b3cef60c106ec0b2c096c07c1fb662cac0e226"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/reitermarkus/vcontrol-rs/releases/download/v0.6.0/vcontrol-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "15b8ffeae936838b4474dc092ea5a66ee0dcf83ef4ee5edf826fa9ec472f370d",
+      "size": 1875643,
+      "format": "tar.gz",
+      "binaries": {
+        "vcontrol": {
+          "path": "vcontrol",
+          "sha256": "7bca7eacb80d2c73c83d21f782c6b25f1bb2007c869d6dc047f0638488e48cf6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/reitermarkus/vcontrol-rs/releases/download/v0.6.0/vcontrol-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "b487eef4e0ffced0435d0939592ee9ce8ba9f72451d376c7be4cf5a07ed25370",
+      "size": 1830751,
+      "format": "tar.gz",
+      "binaries": {
+        "vcontrol": {
+          "path": "vcontrol",
+          "sha256": "e4e60092e1d5967e1c2ea001cdeb3630cc0d845bbe9df684db535b0047e731e8"
+        }
+      }
+    }
+  }
+}
