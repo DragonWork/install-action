@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "rutd",
+  "version": "0.6.2",
+  "repository": "TeddyHuang-00/rutd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/TeddyHuang-00/rutd/releases/download/v0.6.2/rutd-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.6.2",
+      "sha256": "0c696e540848c9fcf29d2a631c53d93027a181ff45a5da04bce794260181b6f1",
+      "size": 2973780,
+      "format": "tar.xz",
+      "binaries": {
+        "rutd-cli": {
+          "path": "rutd-x86_64-unknown-linux-musl/rutd-cli",
+          "sha256": "9d4d25695963bc3da858747e98a6e6f8a12a8026459a88e53deb55d89b46d76f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/TeddyHuang-00/rutd/releases/download/v0.6.2/rutd-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.6.2",
+      "sha256": "e7cc5fdf6940b0620fb04406c2d4f22b69c09d1cc374558bb5487bcb6ad97740",
+      "size": 3083752,
+      "format": "tar.xz",
+      "binaries": {
+        "rutd-cli": {
+          "path": "rutd-aarch64-unknown-linux-musl/rutd-cli",
+          "sha256": "ebcb409e62028418c414b4f061a78911f7247f27c2e5834bb4572a9f95acbbfc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/TeddyHuang-00/rutd/releases/download/v0.6.2/rutd-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.2",
+      "sha256": "55ac2f23754794cae96d7761eb870dcd23bc08aecd139c6c59d39014a05707cc",
+      "size": 1216292,
+      "format": "tar.xz",
+      "binaries": {
+        "rutd-cli": {
+          "path": "rutd-x86_64-apple-darwin/rutd-cli",
+          "sha256": "5d0bd5fa7be63407ca13058df754890d98806e857ab09e4bd0696d78b78f7b30"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/TeddyHuang-00/rutd/releases/download/v0.6.2/rutd-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.2",
+      "sha256": "34744dcbb6119ebf84adbe9829645847939c5bb6def6e96ddbae9faa2b90be62",
+      "size": 1049512,
+      "format": "tar.xz",
+      "binaries": {
+        "rutd-cli": {
+          "path": "rutd-aarch64-apple-darwin/rutd-cli",
+          "sha256": "d27843c733e9b8364d992ff526ef0b836446505ee2fc6d6274764373fb765fff"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/TeddyHuang-00/rutd/releases/download/v0.6.2/rutd-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.2",
+      "sha256": "65d388e390f2e21d6b7456f91b053694804cc734affa183f9318a2e52390b6e8",
+      "size": 1633997,
+      "format": "zip",
+      "binaries": {
+        "rutd-cli.exe": {
+          "path": "rutd-x86_64-pc-windows-msvc/rutd-cli.exe",
+          "sha256": "7d1d32a3862aa6b6085bcc21bd7caca06e944e308848f65ce49411915f16e052"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/TeddyHuang-00/rutd/releases/download/v0.6.2/rutd-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.2",
+      "sha256": "ff3bc6c8e62c1a9086d5c995cda4a157cb69fdfbdfc940db06803f94a2dc5988",
+      "size": 1525266,
+      "format": "zip",
+      "binaries": {
+        "rutd-cli.exe": {
+          "path": "rutd-aarch64-pc-windows-msvc/rutd-cli.exe",
+          "sha256": "2d0b486e772d4b6e255c40e1b67345c13c7b25a9bc100f67ba6b10fb0fc3ed08"
+        }
+      }
+    }
+  }
+}
