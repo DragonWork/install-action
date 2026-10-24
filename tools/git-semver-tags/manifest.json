@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "git-semver-tags",
+  "version": "0.0.12",
+  "repository": "Binbiubiubiu/git-semver-tags",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Binbiubiubiu/git-semver-tags/releases/download/v0.0.12/git-semver-tags-0.0.12-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.12",
+      "sha256": "0092e71c345e3ebcdabc8763fc8f1a60720b3120cc145e8d10a68f63b51c1e3e",
+      "size": 2758117,
+      "format": "tar.gz",
+      "binaries": {
+        "git-semver-tags": {
+          "path": "git-semver-tags",
+          "sha256": "b68a85bcfc33c15f5048d206fa7416a8c508a47c07436b11e20cd00d2cf60005"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Binbiubiubiu/git-semver-tags/releases/download/v0.0.12/git-semver-tags-0.0.12-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.12",
+      "sha256": "fb1a3371661cea861c786ca2ab7700dc46989bfcbea2557c01c89a77c9920570",
+      "size": 4331054,
+      "format": "tar.gz",
+      "binaries": {
+        "git-semver-tags": {
+          "path": "git-semver-tags",
+          "sha256": "c18fd2234ac11b4e84c04f5a5f8c8650e98540d79cdb0515ac9398374c8affa6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Binbiubiubiu/git-semver-tags/releases/download/v0.0.12/git-semver-tags-0.0.12-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.12",
+      "sha256": "689b2097ccab705b148dec92ad8456047da485ecb722f6e76b5f0a12192d63ac",
+      "size": 2476441,
+      "format": "tar.gz",
+      "binaries": {
+        "git-semver-tags": {
+          "path": "git-semver-tags",
+          "sha256": "b4e47511915efec08ef1a7ea4276e5e16ae099ee5e0dff1bc0fa65e73a5bc22b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Binbiubiubiu/git-semver-tags/releases/download/v0.0.12/git-semver-tags-0.0.12-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.12",
+      "sha256": "9c6fd996b15508c0afb2fcb268e490618a5ab7fffa7e5c54f50a3ef1f2ecc055",
+      "size": 2893630,
+      "format": "tar.gz",
+      "binaries": {
+        "git-semver-tags": {
+          "path": "git-semver-tags",
+          "sha256": "75577a721d51527fc16987f4abc74290e676b8f00e38cf5ede5c36b26dbb69f6"
+        }
+      }
+    }
+  }
+}
