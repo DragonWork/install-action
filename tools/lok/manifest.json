@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "lok",
+  "version": "0.2.5",
+  "repository": "wyhaya/lok",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wyhaya/lok/releases/download/v0.2.5/lok-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.2.5",
+      "sha256": "2f624095beb0ceb3269ba470455ae9091e4f040dd0ed4c178c3cb28f6a9acb1b",
+      "size": 468052,
+      "format": "zip",
+      "binaries": {
+        "lok": {
+          "path": "lok",
+          "sha256": "c3206681099df188837e75eaa9688e5a1184991afdc42e60042231c12b3ac53e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wyhaya/lok/releases/download/v0.2.5/lok-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "v0.2.5",
+      "sha256": "fc5ea9768419e61cb6bac255795e5250435252a6369509eb09cc529e28114ebb",
+      "size": 432487,
+      "format": "zip",
+      "binaries": {
+        "lok": {
+          "path": "lok",
+          "sha256": "64664f095346e6d1150ad8eae854bf0310db590928302027430b8514f8547d81"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wyhaya/lok/releases/download/v0.2.5/lok-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.2.5",
+      "sha256": "7dc08a2a34d7b321ad6328ea6a420f63374eb68fa0f2c8bc7056f63558a3d61b",
+      "size": 378368,
+      "format": "zip",
+      "binaries": {
+        "lok": {
+          "path": "lok",
+          "sha256": "11ca0cf45d3891a835fbd76dad779cf6335df218530340c00f289bd20217772b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wyhaya/lok/releases/download/v0.2.5/lok-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.2.5",
+      "sha256": "8f39ea22733a13cb020cfe8bfaf508f2afacdd5ec391ad086ecc808c496de613",
+      "size": 359276,
+      "format": "zip",
+      "binaries": {
+        "lok": {
+          "path": "lok",
+          "sha256": "66e78bfeef6485d46c0df5987f03aab7668a2e2a80ecf00d8742845e1ee340bf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wyhaya/lok/releases/download/v0.2.5/lok-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.5",
+      "sha256": "48d200cfaa701bed8806bfd7ef68bf6b2d305fdb9c32c6a964cba3dcccfddd93",
+      "size": 327976,
+      "format": "zip",
+      "binaries": {
+        "lok.exe": {
+          "path": "lok.exe",
+          "sha256": "e6970b7f8fbf7852154887501a90c13a1c5071bcea2051560c0d0594cd606d57"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/wyhaya/lok/releases/download/v0.2.5/lok-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.5",
+      "sha256": "af433faa1b8308abf5976d7b90a8dd47cb48cb671f08a758210c589973bd66a4",
+      "size": 310727,
+      "format": "zip",
+      "binaries": {
+        "lok.exe": {
+          "path": "lok.exe",
+          "sha256": "a779d8e2d219e347b162a526acebe9c731503377dd13ae30be18bc9442ebf7ef"
+        }
+      }
+    }
+  }
+}
