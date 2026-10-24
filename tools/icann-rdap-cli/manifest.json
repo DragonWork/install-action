@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "icann-rdap-cli",
+  "version": "1.0.1",
+  "repository": "icann/icann-rdap",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/icann/icann-rdap/releases/download/v1.0.1/icann-rdap-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "3be04caab9d70b7047df1d5d76478cbea9d3192b284d73abe04ca850bfe9e34f",
+      "size": 26325749,
+      "format": "tar.gz",
+      "binaries": {
+        "rdap": {
+          "path": "rdap",
+          "sha256": "393b51b492e3124bdc7dabac346ac3a21af3f79dc0aa6f5f023e0239d3ce4334"
+        },
+        "rdap-test": {
+          "path": "rdap-test",
+          "sha256": "41fb00f47f78aba55f692a42b0f9c67ee92459236ed9ebb89894502f8bb99cb5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/icann/icann-rdap/releases/download/v1.0.1/icann-rdap-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "7815dfca55d253f7a12a15d8b4fba3eaf40835b62de5550075be37f66a623b09",
+      "size": 25597103,
+      "format": "tar.gz",
+      "binaries": {
+        "rdap": {
+          "path": "rdap",
+          "sha256": "b18f8d9969ae41eb02459918984684c860bad0dafa4dc9a10ad7394e0f0bd9bd"
+        },
+        "rdap-test": {
+          "path": "rdap-test",
+          "sha256": "b8c4428b820445bd40defcade43956200d18c3fc800208cd5170993476412b2d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/icann/icann-rdap/releases/download/v1.0.1/icann-rdap-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "3607531575616c2df4be490bcadd11c00f69418b073798af651d4beaee7d8025",
+      "size": 17768830,
+      "format": "tar.gz",
+      "binaries": {
+        "rdap": {
+          "path": "rdap",
+          "sha256": "4a33176a5d19714e3ef57b2eb1c76b15edd26e7b8acea045331fcc44683a4a8e"
+        },
+        "rdap-test": {
+          "path": "rdap-test",
+          "sha256": "b55a335e758efd680e7fb3a1739f0f80fa8c4b652fd9d642bf994839c0c5cdfd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/icann/icann-rdap/releases/download/v1.0.1/icann-rdap-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.0.1",
+      "sha256": "c2002a3f81f129b46cbc4793308088d5f002bb15f230eb676c8d913b3526e4a9",
+      "size": 18088527,
+      "format": "tar.gz",
+      "binaries": {
+        "rdap.exe": {
+          "path": "rdap.exe",
+          "sha256": "353dafecd7f01de23b09c2dadb543907cda5523ffbbce5ea12c52c021807ede6"
+        },
+        "rdap-test.exe": {
+          "path": "rdap-test.exe",
+          "sha256": "24be4b8a8ec94772976216efdb587d5f9b07917a831bd78f91f7ba65ed424d5d"
+        }
+      }
+    }
+  }
+}
