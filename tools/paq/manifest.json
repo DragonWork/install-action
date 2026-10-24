@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "paq",
+  "version": "2.0.0",
+  "repository": "gregl83/paq",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/gregl83/paq/releases/download/v2.0.0/paq-macos-x64.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "70415692a8dde8ba2e1eef570e73e5fb2e5d0693533651ca6d96d6ac9337c1a1",
+      "size": 357096,
+      "format": "zip",
+      "binaries": {
+        "paq": {
+          "path": "paq",
+          "sha256": "87936263bcf4aaf5f2c8fcd77ff23b3f869691cefdacbbc56cf0c33aa4cfcdcc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/gregl83/paq/releases/download/v2.0.0/paq-macos-arm64.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "167904e40820a2947f105e74ec062687ec7c6f11f9772640d484634db51bb6ad",
+      "size": 317652,
+      "format": "zip",
+      "binaries": {
+        "paq": {
+          "path": "paq",
+          "sha256": "b4ddb5d16f64ba25da75bf282565af9af337ac9b83305ee96cc0de56a60857af"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/gregl83/paq/releases/download/v2.0.0/paq-windows-x64.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "efef07a4cf1db10a46823c757404aebfa9a33eb7f175c8d37681ff906fb65fc8",
+      "size": 293125,
+      "format": "zip",
+      "binaries": {
+        "paq.exe": {
+          "path": "paq.exe",
+          "sha256": "c2d67b43614e2a55e618c8f3a355f53a7ce411fbd71926b69a5ba8e3c6e0f05d"
+        }
+      }
+    }
+  }
+}
