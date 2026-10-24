@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "enwiro",
+  "version": "0.3.64",
+  "repository": "kantord/enwiro",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kantord/enwiro/releases/download/enwiro-v0.3.64/enwiro-x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "enwiro-v0.3.64",
+      "sha256": "2b0f26f23df8753d299948ff235cd66a666a102ee9c94e15e117b15eed7bf5da",
+      "size": 1938122,
+      "format": "tar.gz",
+      "binaries": {
+        "enw": {
+          "path": "enw",
+          "sha256": "5dfc88374586569b1b30d5adcebed11c4a36c8c713d8b3efbc4193710464aa8b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kantord/enwiro/releases/download/enwiro-v0.3.64/enwiro-aarch64-apple-darwin.tgz",
+      "releaseTag": "enwiro-v0.3.64",
+      "sha256": "92173db6cba717205a3ca09743531bb7ae71c3b0ad9cfe3856a03db0aa3c8781",
+      "size": 1326419,
+      "format": "tar.gz",
+      "binaries": {
+        "enw": {
+          "path": "enw",
+          "sha256": "eb1f86ac0be6aff63e4062b71d722144fa0e119d368130205bb26cc55104ad32"
+        }
+      }
+    }
+  }
+}
