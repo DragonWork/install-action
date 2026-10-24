@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rumdl",
+  "version": "0.3.0",
+  "repository": "rvben/rumdl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rvben/rumdl/releases/download/v0.3.0/rumdl-v0.3.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "6c90c398f04c11a09dcbd2da08bdaa6d53d9b14393e3cd32dbdf4da5620eec5c",
+      "size": 7865186,
+      "format": "tar.gz",
+      "binaries": {
+        "rumdl": {
+          "path": "rumdl",
+          "sha256": "3c1103dc9f6473fe3c52bbbbb31ebda69e96369e3b49759249346825ccf48c7f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rvben/rumdl/releases/download/v0.3.0/rumdl-v0.3.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "5a6274e69bf22164ee6adb47381c870f61ece4648a89fa8b178f0ed24857154a",
+      "size": 7197723,
+      "format": "tar.gz",
+      "binaries": {
+        "rumdl": {
+          "path": "rumdl",
+          "sha256": "af60f93c99eeaba69f05bf066843c8c6bfc11e1a5c23a203a46d56438f950d86"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rvben/rumdl/releases/download/v0.3.0/rumdl-v0.3.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "beb48c38948fcb9bb4eb4994af9830cbb6b8a0b97a3ec0ea3233151065d2e56e",
+      "size": 7602285,
+      "format": "tar.gz",
+      "binaries": {
+        "rumdl": {
+          "path": "rumdl",
+          "sha256": "0efacb045fd7b82afeda9f2153b3df5110c474bbfb3b672d5dca938a1bcc17d8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rvben/rumdl/releases/download/v0.3.0/rumdl-v0.3.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "bc62f4176dd9257547c939fa152b535b6f393365acd352fcfd94e5e19a792bb4",
+      "size": 6946422,
+      "format": "tar.gz",
+      "binaries": {
+        "rumdl": {
+          "path": "rumdl",
+          "sha256": "c617618fe9143445ebb405ccd76f366ba8c6db9f5b6234243fc09bd045fa5ff6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rvben/rumdl/releases/download/v0.3.0/rumdl-v0.3.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "72ed0bd3912560758cfc66cb439a2804755a858573e605cd3d1e65e8aa79d2a1",
+      "size": 7884939,
+      "format": "zip",
+      "binaries": {
+        "rumdl.exe": {
+          "path": "rumdl.exe",
+          "sha256": "3545ff97e4471cc8c8a86b34c14fd751aed7ffdabd765238819ee4c338829df9"
+        }
+      }
+    }
+  }
+}
