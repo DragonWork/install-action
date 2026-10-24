@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "reveal-yaml",
+  "version": "1.1.5",
+  "repository": "KmolYuan/reveal-yaml-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KmolYuan/reveal-yaml-rs/releases/download/v1.1.5/reveal-yaml-linux-amd64.zip",
+      "releaseTag": "v1.1.5",
+      "sha256": "3b98693440b67409af982ffbcc6d080a0165ba1cb6768e44bf4e6adc7763c047",
+      "size": 5546115,
+      "format": "zip",
+      "binaries": {
+        "rym": {
+          "path": "rym",
+          "sha256": "f4c7ac28dea2d0030714d04a005b187ee3132ec4a4fa67af8684d2d035baafc0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KmolYuan/reveal-yaml-rs/releases/download/v1.1.5/reveal-yaml-macos-amd64.zip",
+      "releaseTag": "v1.1.5",
+      "sha256": "1aed81b5962427a5cbf9f04c7180e75f3fac9ab7865f93fab47d681ab0be3980",
+      "size": 4103385,
+      "format": "zip",
+      "binaries": {
+        "rym": {
+          "path": "rym",
+          "sha256": "0e68a528c36fa1ff8b0086cb6948375ff0742637581147b14223d9dca9e260fe"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KmolYuan/reveal-yaml-rs/releases/download/v1.1.5/reveal-yaml-windows-amd64.zip",
+      "releaseTag": "v1.1.5",
+      "sha256": "f1f7deef815c6d09c668ee55cc3f2bfdbdd3c009d940e93e10c62e43b03ac433",
+      "size": 3288846,
+      "format": "zip",
+      "binaries": {
+        "rym.exe": {
+          "path": "rym.exe",
+          "sha256": "aa19ea763e77f2071ea921f90da9a948e6a876fe74f86df85f968fc11bf5f4e3"
+        }
+      }
+    }
+  }
+}
