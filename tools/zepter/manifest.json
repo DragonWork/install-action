@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "zepter",
+  "version": "1.88.2",
+  "repository": "ggwpez/zepter",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ggwpez/zepter/releases/download/v1.88.2/zepter-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.88.2",
+      "sha256": "c6a63b1fe0db9126b2e1a4fe8e3ebdc8901750ca866a535613c1ebbdc517ddc8",
+      "size": 6737804,
+      "format": "tar.xz",
+      "binaries": {
+        "zepter": {
+          "path": "zepter-x86_64-unknown-linux-gnu/zepter",
+          "sha256": "7ae7a7cd46fde8d44e61c615e2b7b4f0b2f21809e6c1a81a4ae470eba79fcfaa"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ggwpez/zepter/releases/download/v1.88.2/zepter-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.88.2",
+      "sha256": "62e54b3c652f9d006927e1be531418ae98525d3960a3520aef73ec9575219ecd",
+      "size": 6296056,
+      "format": "tar.xz",
+      "binaries": {
+        "zepter": {
+          "path": "zepter-aarch64-unknown-linux-gnu/zepter",
+          "sha256": "d0702fba7e5a959d360920a93b5622c502eef9693fc6d8c4a82a5cfb9224e007"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ggwpez/zepter/releases/download/v1.88.2/zepter-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.88.2",
+      "sha256": "ce3ae4344b1c32e98bea44f37df380c30e80a7ca005ecd39ae488e7195533a6c",
+      "size": 1230948,
+      "format": "tar.xz",
+      "binaries": {
+        "zepter": {
+          "path": "zepter-x86_64-apple-darwin/zepter",
+          "sha256": "b55a40b706d4672fb4b9dcec9c677542079bcadf87d601a3ba70ab8c8aabe679"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ggwpez/zepter/releases/download/v1.88.2/zepter-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.88.2",
+      "sha256": "0c7ac0310fb2c70a4851316ce98496e9df3c5a2e63dc332b47fd75dc1d40aeb5",
+      "size": 1069172,
+      "format": "tar.xz",
+      "binaries": {
+        "zepter": {
+          "path": "zepter-aarch64-apple-darwin/zepter",
+          "sha256": "9a525e0e39510e4c7ea445bdd3d824c3dea4954a4266bc8bd75055df8f50ba86"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ggwpez/zepter/releases/download/v1.88.2/zepter-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.88.2",
+      "sha256": "1cc3a68838ce7e01a8b64906a3ac489b89d3c79b8013eae94a70baa1070cbfaa",
+      "size": 1708746,
+      "format": "zip",
+      "binaries": {
+        "zepter.exe": {
+          "path": "zepter.exe",
+          "sha256": "0f6cb8ef586f9864b64a813c96ef2da6f5279503105cc978f93be6c0b3fc692c"
+        }
+      }
+    }
+  }
+}
