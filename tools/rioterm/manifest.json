@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rioterm",
+  "version": "0.5.28",
+  "repository": "raphamorim/rio",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.28/rioterm_0.5.28_amd64_x11.deb",
+      "sha256": "08df1b45c9607391624854b99ae4589f14474471d367247336d1d0efcc546651",
+      "size": 11243960,
+      "format": "deb",
+      "releaseTag": "v0.5.28",
+      "binaries": {
+        "rio": {
+          "path": "./usr/bin/rio",
+          "sha256": "0ffe55d9ce97274dad187629b272a0855903803610113bfbe54efc62b5dcc4ad"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.28/rioterm_0.5.28_arm64_x11.deb",
+      "sha256": "8f838db9aeba500c4836c46dac42201f81470a7cdd6df2d10697b0608e66fbae",
+      "size": 10801036,
+      "format": "deb",
+      "releaseTag": "v0.5.28",
+      "binaries": {
+        "rio": {
+          "path": "./usr/bin/rio",
+          "sha256": "1d6eb1f6ce1ba08df864a52662ea882cd0292bcfe1379b0033523a4cc42fb49e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.28/rio-portable-x86_64.exe",
+      "sha256": "7c567ee7f512694caab13fc01517c191a3ff6c3acc1942eb619b53bcd3a00180",
+      "size": 24653312,
+      "format": "binary",
+      "releaseTag": "v0.5.28",
+      "binaries": {
+        "rio.exe": {
+          "path": "rio-portable-x86_64.exe",
+          "sha256": "7c567ee7f512694caab13fc01517c191a3ff6c3acc1942eb619b53bcd3a00180"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.28/rio-portable-aarch64.exe",
+      "sha256": "f1236741544923cae67a7f8812c5c8cfec729bc038d07920bbc677186941a003",
+      "size": 22241280,
+      "format": "binary",
+      "releaseTag": "v0.5.28",
+      "binaries": {
+        "rio.exe": {
+          "path": "rio-portable-aarch64.exe",
+          "sha256": "f1236741544923cae67a7f8812c5c8cfec729bc038d07920bbc677186941a003"
+        }
+      }
+    }
+  }
+}
