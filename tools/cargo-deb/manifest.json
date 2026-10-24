@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "cargo-deb",
+  "version": "3.8.0",
+  "repository": "kornelski/cargo-deb",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kornelski/cargo-deb/releases/download/v3.8.0/cargo-deb_3.8.0-1_amd64.deb",
+      "sha256": "c6bd0a4affaa232814cc615b2597457f1d44fdfe1c8ebd643f3a491a1f244040",
+      "size": 1093700,
+      "format": "deb",
+      "releaseTag": "v3.8.0",
+      "binaries": {
+        "cargo-deb": {
+          "path": "./usr/bin/cargo-deb",
+          "sha256": "9f06ffdd36805cabed9db791855f04e0afb20efe088dfe11ff022dae54dec069"
+        }
+      }
+    }
+  }
+}
