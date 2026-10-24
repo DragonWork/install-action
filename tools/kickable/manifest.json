@@ -1,0 +1,273 @@
+{
+  "schema": 1,
+  "name": "kickable",
+  "version": "0.6.1",
+  "repository": "defstream/kickable-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/defstream/kickable-rs/releases/download/v0.6.1/kickable-rs_v0.6.1_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "fc1f857795f2618c5fb4319e7d088364b148462153ede457f6fcdc41c03ad8fa",
+      "size": 11432189,
+      "format": "tar.gz",
+      "binaries": {
+        "axum": {
+          "path": "axum",
+          "sha256": "5086b87a4e6b421ae1affd59f75f8cef88e63fdfe940ad776d6d9ea62bd24716"
+        },
+        "gotham": {
+          "path": "gotham",
+          "sha256": "fef06843fa4f9a2a1c23e4feda4369e7d0433aab00b4d260e608fdade70d20e5"
+        },
+        "graphul": {
+          "path": "graphul",
+          "sha256": "9e48e2e083bc823c77dfb89e08c47f98b119669e592ca569d4f4b7bba5cc7ead"
+        },
+        "kickable": {
+          "path": "kickable",
+          "sha256": "57ff49cf8f917e9aa832ba168c06826f0174a856f015bfccb275668d4bda4d5f"
+        },
+        "poem": {
+          "path": "poem",
+          "sha256": "c599a27d1460598e0c8614454035b1654f46d2968c37bd9869bb85f13e6c3950"
+        },
+        "rocket": {
+          "path": "rocket",
+          "sha256": "3d2272aa76cfbc79e34ead3d9b78b251017914821537ee992c60882178806c8e"
+        },
+        "rouille": {
+          "path": "rouille",
+          "sha256": "dedb0bf94a681b6b5620742e0420fd3a1f5b061ea0fd058ac35a7d76628ec468"
+        },
+        "tonic-client": {
+          "path": "tonic-client",
+          "sha256": "acb3a5b6365556f5dca7e4ff58c6f351c652cea50d39f979793723a0d84f1a55"
+        },
+        "tonic-server": {
+          "path": "tonic-server",
+          "sha256": "d9b8e5dbbf84178dc54a9d5cf1544fb060c59a1b7178b3447951ae3a60105912"
+        },
+        "viz": {
+          "path": "viz",
+          "sha256": "51a78caa8d2d286120e8299ad89ce9038184d202412c12e4409efb7e93cd0611"
+        },
+        "warp": {
+          "path": "warp",
+          "sha256": "8d38aeb95e3d372797f92149c92b7420abf5ebabf79e597cfd285e19a7f9804d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/defstream/kickable-rs/releases/download/v0.6.1/kickable-rs_v0.6.1_aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "7afa766fbb173ce16014b348fc2e0b9e520e63aef653c2b4def976dcb463f14c",
+      "size": 10823718,
+      "format": "tar.gz",
+      "binaries": {
+        "axum": {
+          "path": "axum",
+          "sha256": "dd8331ee549f6c277e79a85f6fb663dd1d3b824d090f7db43a34d8f79e537e92"
+        },
+        "gotham": {
+          "path": "gotham",
+          "sha256": "26c670a3d38008704ed38c306cc31d80945d36142412787b21a1bf013cb64364"
+        },
+        "graphul": {
+          "path": "graphul",
+          "sha256": "5394c3d0f5b89e53dbe4fbac4ae8e5033eb4c0b55950f5096d5d36b4628c1c54"
+        },
+        "kickable": {
+          "path": "kickable",
+          "sha256": "d65dfcba06ba539d837d28dfb2787e4e0e84e90e2c74e6f106f1c0e2a89b1804"
+        },
+        "poem": {
+          "path": "poem",
+          "sha256": "87b3f9415eb81ec7c4467208c0ed11426c5bbbf0c6618808ad44ae67d085da47"
+        },
+        "rocket": {
+          "path": "rocket",
+          "sha256": "53fffac19430d51e953027efd01226d063a70ed75ccf01c5d39e1bef0ad2ce0e"
+        },
+        "rouille": {
+          "path": "rouille",
+          "sha256": "44da24935d7c7c6c264abe993a5e87bfe7b05108ad8ebf20140e8ffc59e914a3"
+        },
+        "tonic-client": {
+          "path": "tonic-client",
+          "sha256": "75dcf2fd70592e7276dfb1a9c643f3aebf41ead9a25d732d1228cac81769a963"
+        },
+        "tonic-server": {
+          "path": "tonic-server",
+          "sha256": "580504cb2e081e4e027e0e7219d8d0277152c648f1cb7e52c998bd65870086cd"
+        },
+        "viz": {
+          "path": "viz",
+          "sha256": "219ad2dfd5a51d082839c165e81bb1773b3324c50bae41cfe2221e8c783630c2"
+        },
+        "warp": {
+          "path": "warp",
+          "sha256": "cc7c919f71a655ca12a400692475a7f570a9bc1d450bd336b99129610cfe55ee"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/defstream/kickable-rs/releases/download/v0.6.1/kickable-rs_v0.6.1_x86_64-apple-darwin.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "ef781f3441075cbfcad0b8165c4d71705cd224bfa9bee9cf64e8a8ca84ba8ec4",
+      "size": 9960395,
+      "format": "zip",
+      "binaries": {
+        "axum": {
+          "path": "axum",
+          "sha256": "46b1595be17067893d459fc6e1c6fc3e3338ec5d2c6ede6fb9e34396aa62d9fb"
+        },
+        "gotham": {
+          "path": "gotham",
+          "sha256": "adfb7e686a0afcb419772ba6265da0fdf6bef6eb19c16f8acb4e92bdc1842d3a"
+        },
+        "graphul": {
+          "path": "graphul",
+          "sha256": "8c051aeef245c4b23d317ab78a754de9ac2618faf05bae5f750655d8ae1f1ad4"
+        },
+        "kickable": {
+          "path": "kickable",
+          "sha256": "bf65d92408b7fe304e264f53e619d5e6f230e85de949bc453cd1f9215f1d951f"
+        },
+        "poem": {
+          "path": "poem",
+          "sha256": "add38e1e7574cbf35af4c41c4dd10efa8f6dae4f4f9671f4527c29b4e6d46ac3"
+        },
+        "rocket": {
+          "path": "rocket",
+          "sha256": "ff12e738002004aa611e59f4bcf1be6c499a615e6dc5fc5f751e9f1258013f96"
+        },
+        "rouille": {
+          "path": "rouille",
+          "sha256": "86ec06a41af8f9e215d09a388d0908c7735e8a3d331d5d03fd5699a926f9fd47"
+        },
+        "tonic-client": {
+          "path": "tonic-client",
+          "sha256": "24f58aa06f7269deec09a8e8a93ff7146a136bb8d5a1a9ec6fe121beedc9f499"
+        },
+        "tonic-server": {
+          "path": "tonic-server",
+          "sha256": "0d994132349fbf1f4450a1f9509cb05bf1380c237da391803dd6ba3c2f28bd65"
+        },
+        "viz": {
+          "path": "viz",
+          "sha256": "7302683479be7f3f8a269f8c55d015bb0100daaa13c6d79b9ed3377a1cf03c7b"
+        },
+        "warp": {
+          "path": "warp",
+          "sha256": "5cc8d421fcb307675a708aa1815e647e7599a8e65816c75cdc4a914bff9409d2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/defstream/kickable-rs/releases/download/v0.6.1/kickable-rs_v0.6.1_aarch64-apple-darwin.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "1d9d3a2dd72e9d3f5738c0890bb1d9f53b6308b547e1a9beafadfb2d496c1314",
+      "size": 9184510,
+      "format": "zip",
+      "binaries": {
+        "axum": {
+          "path": "axum",
+          "sha256": "a00528d17b30921aa42fa41bfd19217f8cb40aed1e75510e8db36f67defe5db0"
+        },
+        "gotham": {
+          "path": "gotham",
+          "sha256": "b94ee2e67405d7623fce52ca94af362ab67aafd68bc9435d8fbe839c24ff9575"
+        },
+        "graphul": {
+          "path": "graphul",
+          "sha256": "5bbd5869abce0c9a69e27bc450c386997e7b236ce7ed3f807719910a8eadea7e"
+        },
+        "kickable": {
+          "path": "kickable",
+          "sha256": "75dd09c450b786d749ea9b71fe115352f696c555a2f0ac9ea950f06fc5b72892"
+        },
+        "poem": {
+          "path": "poem",
+          "sha256": "355e0ba72f1460db44e273ffe8dcaf662beccdeccb94dd35bb0fc692250ad3d0"
+        },
+        "rocket": {
+          "path": "rocket",
+          "sha256": "468faf7a37f082fc49dc1c391f270507d31b694b3a86e70041b68395888a4a02"
+        },
+        "rouille": {
+          "path": "rouille",
+          "sha256": "b4e1a5c85fe9576a1f7172dc2b1f799e47c8419bc065445a8f3152587e7b04a1"
+        },
+        "tonic-client": {
+          "path": "tonic-client",
+          "sha256": "ca3244b8d9002f9515de497df48e611e5469c1ed8c2a56698e17420311d74e34"
+        },
+        "tonic-server": {
+          "path": "tonic-server",
+          "sha256": "ca74c9f7a6940f49e724faf69dea929da873d4ec8fbb30abda3bb636b7ad1b82"
+        },
+        "viz": {
+          "path": "viz",
+          "sha256": "845f2b7181c2be0b37da2977e6d87c747cc2a66299fc47674e0b6f86de786cb6"
+        },
+        "warp": {
+          "path": "warp",
+          "sha256": "2e9930312c6dab2dac979d78d1c958fbde7b23d5abfc01c8b7da3ac5ed3fd7f9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/defstream/kickable-rs/releases/download/v0.6.1/kickable-rs_v0.6.1_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "ffcef7efac239af82bd4eeee30b800e1e809bd37d5d2de025f86028e8c088136",
+      "size": 11356136,
+      "format": "zip",
+      "binaries": {
+        "axum.exe": {
+          "path": "axum.exe",
+          "sha256": "9b53e67d50bad549eb1fea3122820850e255b7097876c8d8afab014be2507abc"
+        },
+        "gotham.exe": {
+          "path": "gotham.exe",
+          "sha256": "4fe0d623bc5933c43ca0723f7c1c9007cc60f8d9ec42bd7f444e34fa74bdf423"
+        },
+        "graphul.exe": {
+          "path": "graphul.exe",
+          "sha256": "6c466891010d234f1f9b9d5127266a76daa45ee9774b5f5ea6c2ced8418acae8"
+        },
+        "kickable.exe": {
+          "path": "kickable.exe",
+          "sha256": "eab09053bd994a7302b90b4fa2378ed5713487a346965694ef4d37c19b49875c"
+        },
+        "poem.exe": {
+          "path": "poem.exe",
+          "sha256": "3e022fa7091dccaac07c397edf2e00e77d3744fd499129fd72a51265bc500254"
+        },
+        "rocket.exe": {
+          "path": "rocket.exe",
+          "sha256": "8e901c5174178c59fececc1a71bd729f9209943107be91d06a287212a5f798f9"
+        },
+        "rouille.exe": {
+          "path": "rouille.exe",
+          "sha256": "718c5f31651e35bef7f5f9fc20fd91ae89e23b172b64abe7bc5ee6029a6c65cb"
+        },
+        "tonic-client.exe": {
+          "path": "tonic-client.exe",
+          "sha256": "e0f7a44bb240b9a3eca430c2131f9e13e1bab1bc19c46ed895d3c9a880a847c9"
+        },
+        "tonic-server.exe": {
+          "path": "tonic-server.exe",
+          "sha256": "78606e68ced77fe0eecbb6098fdc4d5b72274949dc0308976d4abc0e7384d975"
+        },
+        "viz.exe": {
+          "path": "viz.exe",
+          "sha256": "e158176f98224d425f492f3d988cf981b71cbd06d36f7b4a90f115a2fce3a1c4"
+        },
+        "warp.exe": {
+          "path": "warp.exe",
+          "sha256": "2d2645ddd7dd1177447a7ab807c9bc7509b077b2afb7b4edf2cfe4c6121557e9"
+        }
+      }
+    }
+  }
+}
