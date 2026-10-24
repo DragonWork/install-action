@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "zizmor",
+  "version": "1.31.1",
+  "repository": "zizmorcore/zizmor",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zizmorcore/zizmor/releases/download/v1.31.1/zizmor-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.31.1",
+      "sha256": "d185f726bdaf92df78273217dfdd24ebcd6b0ef48cf3ce776ff5762b6e138c99",
+      "size": 9272720,
+      "format": "tar.gz",
+      "binaries": {
+        "zizmor": {
+          "path": "zizmor",
+          "sha256": "dc3bb05237ddd11c62ac19cf5ac1c633acd228e386b7e18f9adb3498873d271f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/zizmorcore/zizmor/releases/download/v1.31.1/zizmor-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.31.1",
+      "sha256": "37eebbd5762a44f262d94875431b14a6d2402991e90a685113ea97b8b41be833",
+      "size": 8889396,
+      "format": "tar.gz",
+      "binaries": {
+        "zizmor": {
+          "path": "zizmor",
+          "sha256": "e2cf0a73958aed6646f7937dcf647dd86b52d49eb2b4190a81b17fa63123f8b0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zizmorcore/zizmor/releases/download/v1.31.1/zizmor-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.31.1",
+      "sha256": "72ae63bb85b67229c06242f04195cb43927e9fab5f43803c6434dc701a517d61",
+      "size": 9006452,
+      "format": "tar.gz",
+      "binaries": {
+        "zizmor": {
+          "path": "zizmor",
+          "sha256": "fa1f3bca4733602a90225a87fea88e183e110b896921074c43ddb1e3c98864c0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zizmorcore/zizmor/releases/download/v1.31.1/zizmor-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.31.1",
+      "sha256": "ad5aa633cd56215b11e6c51d51f90c7e6b22904a75047d1215abbd422f61d698",
+      "size": 8490680,
+      "format": "tar.gz",
+      "binaries": {
+        "zizmor": {
+          "path": "zizmor",
+          "sha256": "200733b2102e1bf5d53acfed2ab303fadf136532578a1ba9ec076c5bc543e70a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/zizmorcore/zizmor/releases/download/v1.31.1/zizmor-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.31.1",
+      "sha256": "4de30371c8a3b483aecbcf0dec1fd6a2b6aae65051ca226b4f6527baac6a8c7a",
+      "size": 8378565,
+      "format": "zip",
+      "binaries": {
+        "zizmor.exe": {
+          "path": "zizmor.exe",
+          "sha256": "320dbd80365cce71200f31d7b2e6148c7ea0ea950ef2661d74d18f308d6f4148"
+        }
+      }
+    }
+  }
+}
