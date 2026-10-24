@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mcvcli",
+  "version": "2.5.0",
+  "repository": "mcjars/mcvcli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-x86_64-linux.tar.xz",
+      "releaseTag": "2.5.0",
+      "sha256": "b17fa59673acf7329e7d29843a6f9a6daec3698945e4efce28ea91bef98d5e6b",
+      "size": 2140680,
+      "format": "tar.xz",
+      "binaries": {
+        "mcvcli": {
+          "path": "mcvcli-x86_64-linux/mcvcli",
+          "sha256": "53eed3d294d2902f0c83426f66be8f5e3c626acae59625a20cda5bd9d479bd62"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-aarch64-linux.tar.xz",
+      "releaseTag": "2.5.0",
+      "sha256": "c02c3c30d519eab4ead1ce701aa9a95578da9bd626a3495038e0dd91e778785b",
+      "size": 1870636,
+      "format": "tar.xz",
+      "binaries": {
+        "mcvcli": {
+          "path": "mcvcli-aarch64-linux/mcvcli",
+          "sha256": "ded44ed2fa05d76bfc2e2a94f5e9b29ec9edd73e92dc115789f8c61b0d48214e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-x86_64-macos.tar.xz",
+      "releaseTag": "2.5.0",
+      "sha256": "921340ba210634b326cb1a81ad30de9fda4b800b22a63292697ef7a6baa44702",
+      "size": 2085180,
+      "format": "tar.xz",
+      "binaries": {
+        "mcvcli": {
+          "path": "mcvcli-x86_64-macos/mcvcli",
+          "sha256": "3ebf8a428e1230d1eb5e75463e57addc95dd1b882eafd92ffde82b4acc716b41"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-aarch64-macos.tar.xz",
+      "releaseTag": "2.5.0",
+      "sha256": "9bb32ecc16835093b7b724c71e719f072a70b1dd104c4a9ed292cf83b9fa7a00",
+      "size": 1774440,
+      "format": "tar.xz",
+      "binaries": {
+        "mcvcli": {
+          "path": "mcvcli-aarch64-macos/mcvcli",
+          "sha256": "fdb095cbac4fe0f1f526d2301ae117c3b651493c5968dd011cb7bc0d654c7fa9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-x86_64-windows.zip",
+      "releaseTag": "2.5.0",
+      "sha256": "6414ba702ab268a64b85130a8ecc5534168f08ba5c5a6c2b35fce8bc6747d2c9",
+      "size": 2385942,
+      "format": "zip",
+      "binaries": {
+        "mcvcli.exe": {
+          "path": "mcvcli-x86_64-windows/mcvcli.exe",
+          "sha256": "e2186e2d72cb8d539135f604a2d8a92645bf72e6aae40ac5c751bd2c7fc7fd64"
+        }
+      }
+    }
+  }
+}
