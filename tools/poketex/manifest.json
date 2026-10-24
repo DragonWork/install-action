@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "poketex",
+  "version": "1.17.0",
+  "repository": "ckaznable/poketex",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ckaznable/poketex/releases/download/v1.17.0/poketex-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.17.0",
+      "sha256": "a06609294418bffc79f2c709263b912cf2fa4a4a06f121a1614cade8f4c4cfc6",
+      "size": 5509585,
+      "format": "tar.gz",
+      "binaries": {
+        "poketex": {
+          "path": "poketex",
+          "sha256": "ebc48a9cb335fcf47194c8ec9719b8f9c1734f4a1916ec3cc5027cfd2e966ec1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ckaznable/poketex/releases/download/v1.17.0/poketex-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.17.0",
+      "sha256": "ab7424367f9123958b4c5b94fc10f383a4e76ba290d24674af9347d9483f305c",
+      "size": 5458315,
+      "format": "tar.gz",
+      "binaries": {
+        "poketex": {
+          "path": "poketex",
+          "sha256": "9e5dfd40e5ab78e50fcf4cefa97c965bbed0953888407cd03647ce1e93f6a42d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ckaznable/poketex/releases/download/v1.17.0/poketex-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.17.0",
+      "sha256": "230b29a197622123a98a05afcbaf358221bef52065c8d4488de9f9a0dd953380",
+      "size": 5361049,
+      "format": "tar.gz",
+      "binaries": {
+        "poketex": {
+          "path": "poketex",
+          "sha256": "b9026d9cc15381de5068b95ac1474230d80d95b40d3a0ce982b06084c44067fb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ckaznable/poketex/releases/download/v1.17.0/poketex-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.17.0",
+      "sha256": "d5bdb800d8691bf7264f6b547b450be055538860e1a1805b9a8f5ff0d109b0cb",
+      "size": 5339674,
+      "format": "tar.gz",
+      "binaries": {
+        "poketex": {
+          "path": "poketex",
+          "sha256": "554843450b3b4de703a97a77960d8b86b234535a5127aec8edf8527ef59e29f9"
+        }
+      }
+    }
+  }
+}
