@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "envio",
+  "version": "0.8.0",
+  "repository": "humblepenguinn/envio",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/humblepenguinn/envio/releases/download/v0.8.0/envio-v0.8.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "7896721033b30aeeccf9020bf594241087fb4472779fb75d8268f9866c950509",
+      "size": 4548888,
+      "format": "tar.gz",
+      "binaries": {
+        "envio": {
+          "path": "envio-v0.8.0-x86_64-unknown-linux-gnu/envio",
+          "sha256": "eea3312df4092b93375657e5ce408569a1238ba4ba353a0c4e4eaccb492d00b2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/humblepenguinn/envio/releases/download/v0.8.0/envio-v0.8.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "f5c68399397da2ef13020e5d419d5fb1c1983ab31bd7d01ddcdbb15cbe7328ab",
+      "size": 4203922,
+      "format": "tar.gz",
+      "binaries": {
+        "envio": {
+          "path": "envio-v0.8.0-aarch64-unknown-linux-gnu/envio",
+          "sha256": "2422d8523e86aeb0da3dc077e8e71f948a63fdd69034feddb58e2d7157bd3518"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/humblepenguinn/envio/releases/download/v0.8.0/envio-v0.8.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "a47b2df892d09db200f05a95a9f76be8868de09fa07f2ef21a318280c5514aba",
+      "size": 3581640,
+      "format": "tar.gz",
+      "binaries": {
+        "envio": {
+          "path": "envio-v0.8.0-x86_64-apple-darwin/envio",
+          "sha256": "f786ebbfbc0039e8f5e57cc7bb848aee80403cc298a3e920d12369d4f659e0ac"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/humblepenguinn/envio/releases/download/v0.8.0/envio-v0.8.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "14fd96e7fc188077ff9ced8609431ec72fc05b6fa5906457f99cd9babfc1bb39",
+      "size": 3302369,
+      "format": "tar.gz",
+      "binaries": {
+        "envio": {
+          "path": "envio-v0.8.0-aarch64-apple-darwin/envio",
+          "sha256": "41a1de15cc16e1a59a7639b6625c744d2961c2c5db1eb9077db9a8d6a827728a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/humblepenguinn/envio/releases/download/v0.8.0/envio-v0.8.0-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.8.0",
+      "sha256": "6fda154e37b2a95edc74671d3183ac502e7de12d15678448dcffd92075131557",
+      "size": 3484901,
+      "format": "zip",
+      "binaries": {
+        "envio.exe": {
+          "path": "envio-v0.8.0-x86_64-pc-windows-gnu/envio.exe",
+          "sha256": "a536000171f1c0f09c6a47e004f8471c4a6ffbe08590d22b660fd958267c0398"
+        }
+      }
+    }
+  }
+}
