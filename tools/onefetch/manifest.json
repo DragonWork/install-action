@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "onefetch",
+  "version": "3.1.0",
+  "repository": "o2sh/onefetch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/o2sh/onefetch/releases/download/3.1.0/onefetch-linux.tar.gz",
+      "sha256": "db1963759d11f3acc1b30f112d407c97a3c17ec63675cc2a3587f4c5de0f2794",
+      "size": 5731281,
+      "format": "tar.gz",
+      "releaseTag": "3.1.0",
+      "binaries": {
+        "onefetch": {
+          "path": "./onefetch",
+          "sha256": "5296324de4ea136c50adc567b9984d4ce797053d34b78dcdedda0785b36c05d0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/o2sh/onefetch/releases/download/3.1.0/onefetch-mac.tar.gz",
+      "sha256": "57d058910c83cd9d791464b1082a4232f4ce6530ad3dd6756033ad05dc1f8022",
+      "size": 5201513,
+      "format": "tar.gz",
+      "releaseTag": "3.1.0",
+      "binaries": {
+        "onefetch": {
+          "path": "./onefetch",
+          "sha256": "b7b20b86e4c13df121b6ea735179a7294305e1974fd023f7fc7e2972d7b5cf27"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/o2sh/onefetch/releases/download/3.1.0/onefetch-win.tar.gz",
+      "sha256": "da8bbfb4566c2d4ef5303b9f126b08d5176060f508f94b75bba5d5320bc9bc76",
+      "size": 5622927,
+      "format": "tar.gz",
+      "releaseTag": "3.1.0",
+      "binaries": {
+        "onefetch.exe": {
+          "path": "./onefetch.exe",
+          "sha256": "938cf89d63a0dfe10e4f96ae4f559a8671e331dc24a8f152d7da4e423d1ac149"
+        }
+      }
+    }
+  }
+}
