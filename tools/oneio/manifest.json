@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "oneio",
+  "version": "0.26.1",
+  "repository": "bgpkit/oneio",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bgpkit/oneio/releases/download/v0.26.1/oneio-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.26.1",
+      "sha256": "1949d25e543c0aabb7a7149b32aa0f9bb1cadc0cc690c2d27ed097d1103fe2f5",
+      "size": 4161501,
+      "format": "tar.gz",
+      "binaries": {
+        "oneio": {
+          "path": "oneio",
+          "sha256": "d6ea339a4836fe45831d391617908555fa5b878167f2052ce2b6af5735a7030f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bgpkit/oneio/releases/download/v0.26.1/oneio-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.26.1",
+      "sha256": "749ad679bbe7f9683b341a213c6c51909c179ddf3e84c2d4392bcc355ecd3ce3",
+      "size": 4046589,
+      "format": "tar.gz",
+      "binaries": {
+        "oneio": {
+          "path": "oneio",
+          "sha256": "85ea87317dd556fa98a736e15f5749af056bce7f78073c2d0c959255326777e1"
+        }
+      }
+    }
+  }
+}
