@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "gdman",
+  "version": "0.0.19",
+  "repository": "devklick/gdman",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/devklick/gdman/releases/download/v0.0.19/gdman-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.0.19",
+      "sha256": "8fd5585aeb43a81cab467a2259f540cd5a135f221f61aeab52d9a24e60700c73",
+      "size": 3487712,
+      "format": "tar.xz",
+      "binaries": {
+        "gdman": {
+          "path": "gdman-x86_64-unknown-linux-gnu/gdman",
+          "sha256": "7e9d24cad0175aad30a4e9f023db3bf1d7693aae11e8f0ba7e29eecf4a091d60"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/devklick/gdman/releases/download/v0.0.19/gdman-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.0.19",
+      "sha256": "0f0c408fe105520bfc98baf172a7fbbfac70edad890d269e63888cce076db8d6",
+      "size": 1789756,
+      "format": "tar.xz",
+      "binaries": {
+        "gdman": {
+          "path": "gdman-x86_64-apple-darwin/gdman",
+          "sha256": "b9a2c10a6c861fedca420da3420dcff0277710f57f4300f347bfe7f45923cf19"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/devklick/gdman/releases/download/v0.0.19/gdman-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.0.19",
+      "sha256": "cd86a898d4ac687e293eb1b6b25471ca4678b9e5d561ae590c0d7beafade9892",
+      "size": 1633484,
+      "format": "tar.xz",
+      "binaries": {
+        "gdman": {
+          "path": "gdman-aarch64-apple-darwin/gdman",
+          "sha256": "82277296c920e80424842cac10059ee1bd5f115e107c0fdc389501266071a97d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/devklick/gdman/releases/download/v0.0.19/gdman-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.19",
+      "sha256": "b29a9481333f49c6e2bdadb1a3deabb5306eb52de624231847995699d83cd6f1",
+      "size": 6322545,
+      "format": "zip",
+      "binaries": {
+        "gdman.exe": {
+          "path": "gdman.exe",
+          "sha256": "1f82307b931cbeab98d09e676c21e9721e130205ad985efce17cafbf00aad064"
+        }
+      }
+    }
+  }
+}
