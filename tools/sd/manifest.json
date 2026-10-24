@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "sd",
+  "version": "1.0.0",
+  "repository": "chmln/sd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/chmln/sd/releases/download/v1.0.0/sd-v1.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "9f42e4fec7848fa8d6eeab7b1090f5c9c9e374c94a9974db6ff33df052c9e132",
+      "size": 1048508,
+      "format": "tar.gz",
+      "binaries": {
+        "sd": {
+          "path": "sd-v1.0.0-x86_64-unknown-linux-musl/sd",
+          "sha256": "8c48812cfde93e61bebabd29b87158cdc1ee84e3bd63e5e21f4332c658b23005"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/chmln/sd/releases/download/v1.0.0/sd-v1.0.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "9e99f8e9dd70c7015b8c20e49270bdd99e9caf966a41a11982f4d785f6a58c9e",
+      "size": 940394,
+      "format": "tar.gz",
+      "binaries": {
+        "sd": {
+          "path": "sd-v1.0.0-aarch64-unknown-linux-musl/sd",
+          "sha256": "8f2edbfa40c59d1929cd08d86d90614367985f921fc6e7bff2227291a051366f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/chmln/sd/releases/download/v1.0.0/sd-v1.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "8408eb83c7988cdc72afc4d171795201999ba4d321c7728921ff85565915e75d",
+      "size": 925279,
+      "format": "tar.gz",
+      "binaries": {
+        "sd": {
+          "path": "sd-v1.0.0-x86_64-apple-darwin/sd",
+          "sha256": "8be71a6412956b8d5a43f70f8642636560cd075784c1bd383623044d6b0af771"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/chmln/sd/releases/download/v1.0.0/sd-v1.0.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "a764ac9b966c6f0cfeaa66f2ad2d4945b08f8d93d973ed1a62bcbfbe1c27e981",
+      "size": 866553,
+      "format": "tar.gz",
+      "binaries": {
+        "sd": {
+          "path": "sd-v1.0.0-aarch64-apple-darwin/sd",
+          "sha256": "a04ee328988bce990c60c15298bab3a74e39855201b881661c3e4c7b4e1b24af"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/chmln/sd/releases/download/v1.0.0/sd-v1.0.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "b7cc9937ebc1f736c87d5929b9ea2280053af10f8e320d9c20ca90c3af46a5d5",
+      "size": 906031,
+      "format": "zip",
+      "binaries": {
+        "sd.exe": {
+          "path": "sd-v1.0.0-x86_64-pc-windows-msvc/sd.exe",
+          "sha256": "8a6d3c25659bab304bd5497cbcf5ac93698b4fda4421b5eac8985e6e51f6cbfa"
+        }
+      }
+    }
+  }
+}
