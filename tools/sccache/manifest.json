@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "sccache",
+  "version": "0.18.0",
+  "repository": "mozilla/sccache",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mozilla/sccache/releases/download/v0.18.0/sccache-v0.18.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "45f1447fbe231e3037bde351ef70677dd212216c8d62ae7ca409fecc4d6acc89",
+      "size": 9730540,
+      "format": "tar.gz",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "sccache": {
+          "path": "sccache-v0.18.0-x86_64-unknown-linux-musl/sccache",
+          "sha256": "973cb15f6a986d84ca334bbed3bbe2eb8f1ee8fd81bf9e115b8539a293bf8d59"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mozilla/sccache/releases/download/v0.18.0/sccache-v0.18.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "2b3284d5da3b46a47dc4229e75bb7b88ac4aa99c8d754fb7d2f84997e5a4354a",
+      "size": 8968665,
+      "format": "tar.gz",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "sccache": {
+          "path": "sccache-v0.18.0-aarch64-unknown-linux-musl/sccache",
+          "sha256": "0fd82ece4469b791e30fffdd43d58d2e6cae303950c0d6c8faad932d93e35cf4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mozilla/sccache/releases/download/v0.18.0/sccache-v0.18.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "1dade83cc49eeb42337565eccd534b05982820a8e44b851bd7937467a18c7aef",
+      "size": 9259357,
+      "format": "tar.gz",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "sccache": {
+          "path": "sccache-v0.18.0-x86_64-apple-darwin/sccache",
+          "sha256": "a3db5e701a33717c37d0071e437206a622b8c4b65eea8d87204bfa420e96fe5b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mozilla/sccache/releases/download/v0.18.0/sccache-v0.18.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "308184519b646f5125289e8515b36f6ca65a13a041923994aebe702348674e8e",
+      "size": 7997637,
+      "format": "tar.gz",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "sccache": {
+          "path": "sccache-v0.18.0-aarch64-apple-darwin/sccache",
+          "sha256": "ecb9522010419996ff703b929cf000119928cfd3ee4a6ca8346ecc52ddcc8c13"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mozilla/sccache/releases/download/v0.18.0/sccache-v0.18.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "8965c74d5e8a225244f741e18ad2f3f504f48228dc1bac948fc22761a348363d",
+      "size": 9694400,
+      "format": "zip",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "sccache.exe": {
+          "path": "sccache-v0.18.0-x86_64-pc-windows-msvc/sccache.exe",
+          "sha256": "b85863f6c0579c57a74071b8904f9850a8ef03dac26bfc94dc30225155bd7449"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/mozilla/sccache/releases/download/v0.18.0/sccache-v0.18.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "205d613fa74a9a0525e41a5ace77b1c71907d5bd4a5e668bad79111776829290",
+      "size": 9224480,
+      "format": "zip",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "sccache.exe": {
+          "path": "sccache-v0.18.0-aarch64-pc-windows-msvc/sccache.exe",
+          "sha256": "74b1b1267afc791771d37324e21a547827e9879752ee15425c2938d472a2424f"
+        }
+      }
+    }
+  }
+}
