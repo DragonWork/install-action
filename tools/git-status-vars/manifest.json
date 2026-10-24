@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "git-status-vars",
+  "version": "1.3.0",
+  "repository": "danielparks/git-status-vars",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/danielparks/git-status-vars/releases/download/v1.3.0/git-status-vars-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.3.0",
+      "sha256": "a8887b389f5255a48dcb8d96f63c50977cfa6fbe02d4f897ecedf909f5f0c865",
+      "size": 1054117,
+      "format": "tar.gz",
+      "binaries": {
+        "git-status-vars": {
+          "path": "git-status-vars",
+          "sha256": "af75cb9cd592e13debee81f07d9da809558277e9312c88f78410afba30b564b7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/danielparks/git-status-vars/releases/download/v1.3.0/git-status-vars-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.3.0",
+      "sha256": "592b512af0fc913d60e8298313b3dd63b5f6cebfad625520acfd936febe1ea24",
+      "size": 1044048,
+      "format": "tar.gz",
+      "binaries": {
+        "git-status-vars": {
+          "path": "git-status-vars",
+          "sha256": "320f468934c493781728e362dfdcdfb564d35d8ce148b99a9fab4973c1ad603b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/danielparks/git-status-vars/releases/download/v1.3.0/git-status-vars-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.3.0",
+      "sha256": "963d45fdcb18c574d6162e150861145e69f06f04bf1159a1ff034de916525155",
+      "size": 881109,
+      "format": "tar.gz",
+      "binaries": {
+        "git-status-vars": {
+          "path": "git-status-vars",
+          "sha256": "51a35668db4a4137a02d7eacf2bca1b936a50b4882d7d44e87581f946d82ba08"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/danielparks/git-status-vars/releases/download/v1.3.0/git-status-vars-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.3.0",
+      "sha256": "e7cbbd761cbbb2bb6bcc17ae99abd285fdc79a3a4807e90b59566d53a7384b69",
+      "size": 839901,
+      "format": "tar.gz",
+      "binaries": {
+        "git-status-vars": {
+          "path": "git-status-vars",
+          "sha256": "80f0e185eaa8ceae2d734f836d2f8e77bd7d3da43b9c13755f3b594a6cc27659"
+        }
+      }
+    }
+  }
+}
