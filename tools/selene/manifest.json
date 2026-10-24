@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "selene",
+  "version": "0.31.0",
+  "repository": "Kampfkarren/selene",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Kampfkarren/selene/releases/download/0.31.0/selene-0.31.0-linux.zip",
+      "sha256": "dac452422747999ec4919bbb8bb52992b66aae533b60022bf005669de8616671",
+      "size": 3651372,
+      "format": "zip",
+      "releaseTag": "0.31.0",
+      "binaries": {
+        "selene": {
+          "path": "selene",
+          "sha256": "30887c8f10ab901fe5883ef655f7b9fe47e628b83c709c3d7548b02e966e67a4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Kampfkarren/selene/releases/download/0.31.0/selene-0.31.0-macos.zip",
+      "sha256": "67f644e57e14ccb74a0c272bc44af0dc7909d8bdff58e4e59bb3524717da5741",
+      "size": 3308120,
+      "format": "zip",
+      "releaseTag": "0.31.0",
+      "binaries": {
+        "selene": {
+          "path": "selene",
+          "sha256": "bc0457112c121a9f608f6b55857b4ab6843d92f1ce6884d32aa5d3b7000a007b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Kampfkarren/selene/releases/download/0.31.0/selene-0.31.0-windows.zip",
+      "sha256": "c5d5d087daa8e38bd71680b2202a407e5d4bc00fd584a648dec17ef9b29a2b73",
+      "size": 3041479,
+      "format": "zip",
+      "releaseTag": "0.31.0",
+      "binaries": {
+        "selene.exe": {
+          "path": "selene.exe",
+          "sha256": "d23624daddb3cde848e2bd99aa257cd694eb027c04171d17fec232b3784d3b21"
+        }
+      }
+    }
+  }
+}
