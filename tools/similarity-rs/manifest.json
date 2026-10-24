@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "similarity-rs",
+  "version": "0.5.0",
+  "repository": "mizchi/similarity",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mizchi/similarity/releases/download/v0.5.0/similarity-v0.5.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "2afda6201b6afb1ee36c1ce51b95a538ec99310c79f661905536d917470a406a",
+      "size": 13505749,
+      "format": "tar.gz",
+      "binaries": {
+        "similarity-rs": {
+          "path": "similarity-v0.5.0-x86_64-unknown-linux-gnu/similarity-rs",
+          "sha256": "1735a79603c850e6b19ae1036283c7abfdde537ab50de864967cf291f646b0c1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mizchi/similarity/releases/download/v0.5.0/similarity-v0.5.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "d5a6abcf915b87061857c23a1934883a99b93970a66c627cc8b7f3286c0ba916",
+      "size": 12042069,
+      "format": "tar.gz",
+      "binaries": {
+        "similarity-rs": {
+          "path": "similarity-v0.5.0-aarch64-apple-darwin/similarity-rs",
+          "sha256": "1c048c1759679f8b31154bd35d94489a36d1e4007ff21fb37d7c5c700a1057df"
+        }
+      }
+    }
+  }
+}
