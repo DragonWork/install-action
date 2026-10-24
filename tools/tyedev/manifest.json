@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tyedev",
+  "version": "0.4.3",
+  "repository": "CodeMan99/tyedev",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/CodeMan99/tyedev/releases/download/v0.4.3/tyedev-0.4.3-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "511115a22c524d61a8c99eca72ce37d48d665d2b00a89da7bcc6c595aea2d4db",
+      "size": 4528032,
+      "format": "tar.gz",
+      "binaries": {
+        "tyedev": {
+          "path": "tyedev-0.4.3-x86_64-unknown-linux-gnu/tyedev",
+          "sha256": "3764fd36b927bfece4f15777600d17b8c64ccc382a0adcd655d3128aad3831f0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/CodeMan99/tyedev/releases/download/v0.4.3/tyedev-0.4.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "d99634d009daf336f5c5baa39ea79d2e567087760a85906cc77f8939448ee49a",
+      "size": 4335810,
+      "format": "tar.gz",
+      "binaries": {
+        "tyedev": {
+          "path": "tyedev-0.4.3-x86_64-apple-darwin/tyedev",
+          "sha256": "420a89aa1bab0ccbbbf98f3db847733aaa8fd0b015f37a7816e6f7aee75318cd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/CodeMan99/tyedev/releases/download/v0.4.3/tyedev-0.4.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "d44cc549451f66b54ceba752053c53b2f1944270d6ad18afc25e473fdb4a2977",
+      "size": 4083598,
+      "format": "tar.gz",
+      "binaries": {
+        "tyedev": {
+          "path": "tyedev-0.4.3-aarch64-apple-darwin/tyedev",
+          "sha256": "9db1bba247342c081bcb41224165302b49d735e50bc73ff320e9ddf4d02deb24"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/CodeMan99/tyedev/releases/download/v0.4.3/tyedev-0.4.3-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.4.3",
+      "sha256": "5466985797b8f7e44f66d6d6b440d59bff2691e4c2da87dce1af32b497ca841c",
+      "size": 3633947,
+      "format": "tar.gz",
+      "binaries": {
+        "tyedev.exe": {
+          "path": "tyedev-0.4.3-x86_64-pc-windows-msvc/tyedev.exe",
+          "sha256": "e1ab20e86005389e78ae2bd7408758cff0d237331fde3b4454c2a847492c1a75"
+        }
+      }
+    }
+  }
+}
