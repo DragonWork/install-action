@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "trashy",
+  "version": "2.0.0",
+  "repository": "oberblastmeister/trashy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/oberblastmeister/trashy/releases/download/v2.0.0/trash-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "a122c8994c6884629c0157fe9d375c9a156a14b236ccbb1aee28b08c3fa59a13",
+      "size": 2540391,
+      "format": "tar.gz",
+      "binaries": {
+        "trash": {
+          "path": "trash",
+          "sha256": "e5fa9f610aaf2e98bc9d24a1f732ddd1c58f82041a6e2891181616044caaf724"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/oberblastmeister/trashy/releases/download/v2.0.0/trash-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v2.0.0",
+      "sha256": "b4fe6577613c624c874e8d1e4ff941694989242b569c99a723d12a4f5cfd11f6",
+      "size": 2833408,
+      "format": "binary",
+      "binaries": {
+        "trash.exe": {
+          "path": "trash-x86_64-pc-windows-msvc.exe",
+          "sha256": "b4fe6577613c624c874e8d1e4ff941694989242b569c99a723d12a4f5cfd11f6"
+        }
+      }
+    }
+  }
+}
