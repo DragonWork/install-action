@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hxn",
+  "version": "1.2.1",
+  "repository": "pwnwriter/haylxon",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pwnwriter/haylxon/releases/download/v1.2.1/haylxon-1.2.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "2822882214c627c9cdae0cb63ee2432c4a632ee80813ac9eb4572eff39c74b1e",
+      "size": 4099659,
+      "format": "tar.gz",
+      "binaries": {
+        "hxn": {
+          "path": "haylxon-1.2.1/hxn",
+          "sha256": "0d1214196a0d588a36f1e4cecfd672872239d00ef696b8d6f78916aea2ff04df"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pwnwriter/haylxon/releases/download/v1.2.1/haylxon-1.2.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "2ff51497c1d3272343429c1278131a92da8584065ba61c0d2bfec3c8865871df",
+      "size": 3857693,
+      "format": "tar.gz",
+      "binaries": {
+        "hxn": {
+          "path": "haylxon-1.2.1/hxn",
+          "sha256": "1e83d924c99a5cc722b5e7aa788db18de45d77b7f3be5b1e01170a034d9dc7c1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pwnwriter/haylxon/releases/download/v1.2.1/haylxon-1.2.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "3f46855e0df0cd9ce6c21947e4d497bbb1f1b52fd5dbe2deb56a37549e21eb24",
+      "size": 3840395,
+      "format": "tar.gz",
+      "binaries": {
+        "hxn": {
+          "path": "haylxon-1.2.1/hxn",
+          "sha256": "f71587db10a7e7a6e9a228a60978786ddbfdbd7ffe1647266b42a844b8ccf390"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pwnwriter/haylxon/releases/download/v1.2.1/haylxon-1.2.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "f7b30ab3757525378b5420d76ce18d29210bebdf56b50bd7156bf86420c1b012",
+      "size": 3609890,
+      "format": "tar.gz",
+      "binaries": {
+        "hxn": {
+          "path": "haylxon-1.2.1/hxn",
+          "sha256": "eaf41f3932f08f0e9691ca8ec8be7814d48a868e430cdb0fae0f576474bd1fa3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pwnwriter/haylxon/releases/download/v1.2.1/haylxon-1.2.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "07e34e7b95537ff381a30f5e3fa9411277d29ba18cb13853a69bd330d7f09ab2",
+      "size": 3709491,
+      "format": "zip",
+      "binaries": {
+        "hxn.exe": {
+          "path": "haylxon-1.2.1/hxn.exe",
+          "sha256": "d9d674903ce04fd29e245afc6e7d2cc556962de92e6c0f31aa7600eb9fe77f00"
+        }
+      }
+    }
+  }
+}
