@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rejson",
+  "version": "0.6.1",
+  "repository": "pseudomuto/rejson",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pseudomuto/rejson/releases/download/v0.6.1/rejson_0.6.1_linux_amd64.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "1f83413eb2768e200769ccb113f105d95b8db29e42a923796916d8692203d5da",
+      "size": 1172140,
+      "format": "tar.gz",
+      "binaries": {
+        "rejson": {
+          "path": "rejson",
+          "sha256": "67244500a3cd1774c56737d4fb6de4ab7e4c4efb4e9af0327e36c67b1ee08191"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pseudomuto/rejson/releases/download/v0.6.1/rejson_0.6.1_linux_arm64.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "0d8c5ec59e69d282abdbb6d1e065e9a6a2b5abdfd88eebf59601491806c06631",
+      "size": 1099088,
+      "format": "tar.gz",
+      "binaries": {
+        "rejson": {
+          "path": "rejson",
+          "sha256": "63f9f1406a26be6e33cf9dc345b1ba3e1cff445ba0b9dbc9a0689196e4432653"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pseudomuto/rejson/releases/download/v0.6.1/rejson_0.6.1_darwin_amd64.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "2c238f64ae846fe6c0971a04f0175a51b36e69cfe170c9d2a28feab0d69d6b85",
+      "size": 1235440,
+      "format": "tar.gz",
+      "binaries": {
+        "rejson": {
+          "path": "rejson",
+          "sha256": "010f28cf42039383bac7f0ae53c210ed0b3e55d71ae1810742f06d68f74f8585"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pseudomuto/rejson/releases/download/v0.6.1/rejson_0.6.1_darwin_arm64.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "031621b141ec63ec94b56ac96264e87027743f76d13648c294a2f8d2b366e917",
+      "size": 1188541,
+      "format": "tar.gz",
+      "binaries": {
+        "rejson": {
+          "path": "rejson",
+          "sha256": "8676fa043331452ad5c532338c21cd0b3fd759d59c797f1c30e24c97e51d458e"
+        }
+      }
+    }
+  }
+}
