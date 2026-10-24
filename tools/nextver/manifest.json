@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "nextver",
+  "version": "0.8.4",
+  "repository": "t-mart/nextver",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/t-mart/nextver/releases/download/v0.8.4/nextver-x86_64-unknown-linux-gnu-v0.8.4.tgz",
+      "releaseTag": "v0.8.4",
+      "sha256": "bda99a6118e475b8df4ba74a13c601d121d16dc708ae8313a20402256101e2df",
+      "size": 1274214,
+      "format": "tar.gz",
+      "binaries": {
+        "nextver": {
+          "path": "nextver",
+          "sha256": "38cd7c6851605f5c6e3eb9cb6ebaab4f85daa6dd46519adea9347635567cce47"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/t-mart/nextver/releases/download/v0.8.4/nextver-x86_64-apple-darwin-v0.8.4.zip",
+      "releaseTag": "v0.8.4",
+      "sha256": "34ee916a859f56ad8e2eb4ecf59b929a910b0b54ff391fd8b4cbb8560bfd3e61",
+      "size": 509287,
+      "format": "zip",
+      "binaries": {
+        "nextver": {
+          "path": "nextver",
+          "sha256": "5fae770a40ecc01e9d14d8dfe1a84b4148bd9e78caba6496fb11c3cb461fdc29"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/t-mart/nextver/releases/download/v0.8.4/nextver-x86_64-pc-windows-msvc-v0.8.4.zip",
+      "releaseTag": "v0.8.4",
+      "sha256": "004788d71fd4db5da4cc0cbe47d1e8e677b8da38bc2b5fade48d6808fcb15ccb",
+      "size": 329207,
+      "format": "zip",
+      "binaries": {
+        "nextver.exe": {
+          "path": "nextver.exe",
+          "sha256": "1c35025d127ba82e8b6cad5ff5a1bff00bfd84a5da5376c1d5f6ca5b589f3091"
+        }
+      }
+    }
+  }
+}
