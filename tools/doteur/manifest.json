@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "doteur",
+  "version": "0.5.7",
+  "repository": "nag763/doteur",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nag763/doteur/releases/download/0.5.7/doteur_x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "0.5.7",
+      "sha256": "5c2c036d5933ca4c6e26fcf022a9dd7f874974e45bd340e028627465b9a1b8e6",
+      "size": 1050823,
+      "format": "zip",
+      "binaries": {
+        "doteur": {
+          "path": "doteur/doteur",
+          "sha256": "8173ce52263f3c20ba0e0e2314db95d7bea9adb7cc5eec3674ae51bfeafefab3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nag763/doteur/releases/download/0.5.7/doteur_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "0.5.7",
+      "sha256": "a11802e98fbd11370c73ec720f459fda41ef8c628ba8c59b1ec2bb75c8659b9c",
+      "size": 1347188,
+      "format": "zip",
+      "binaries": {
+        "doteur.exe": {
+          "path": "doteur/doteur.exe",
+          "sha256": "44464f767b0acfda3332a368eba64bbcde440440493781abb187a4f959f2773f"
+        }
+      }
+    }
+  }
+}
