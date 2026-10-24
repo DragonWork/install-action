@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "oscd",
+  "version": "0.1.11",
+  "repository": "karnpapon/oscd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/karnpapon/oscd/releases/download/v0.1.11/oscd-v0.1.11-x86_64-linux.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "12018f097290ea50f78601f3f7eec7b0a38c196ebda711e0fa4f4704263d2c29",
+      "size": 481464,
+      "format": "tar.xz",
+      "binaries": {
+        "oscd": {
+          "path": "oscd-v0.1.11-x86_64-linux/oscd",
+          "sha256": "e632e91ff4c7e80c0a2dd4e9026467982a684403e26c78ded20a9c713c578091"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/karnpapon/oscd/releases/download/v0.1.11/oscd-v0.1.11-aarch64-linux.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "5bae26b1e2c47983f1d36aa0c8c59fd1bd1e9673b9ef5a1e440c6c3956c11f4f",
+      "size": 424564,
+      "format": "tar.xz",
+      "binaries": {
+        "oscd": {
+          "path": "oscd-v0.1.11-aarch64-linux/oscd",
+          "sha256": "838c66050ec873a277fea7fce93dba3a912a5cb5063c62c64f7b218b5587f15b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/karnpapon/oscd/releases/download/v0.1.11/oscd-v0.1.11-x86_64-macos.tar.xz",
+      "releaseTag": "v0.1.11",
+      "sha256": "0f33824f2bb92279508909bc282f5dc5c3fa055b79a4c2a46f0d470cae92ca3b",
+      "size": 438308,
+      "format": "tar.xz",
+      "binaries": {
+        "oscd": {
+          "path": "oscd-v0.1.11-x86_64-macos/oscd",
+          "sha256": "1cf3d42f6765550e01b4212b42c1948ac0c02b38d4d72b3fe8e29b7f135be4a2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/karnpapon/oscd/releases/download/v0.1.11/oscd-v0.1.11-x86_64-windows.zip",
+      "releaseTag": "v0.1.11",
+      "sha256": "47272ac7d33ee67b4355f54eb8aadee3df5d883b9d7216bf1387bb9f40f2b8a8",
+      "size": 439573,
+      "format": "zip",
+      "binaries": {
+        "oscd.exe": {
+          "path": "oscd-v0.1.11-x86_64-windows/oscd.exe",
+          "sha256": "d858d886c3121e00664599aa612b3deafdcbf6ca044546449ff63ef94720b64c"
+        }
+      }
+    }
+  }
+}
