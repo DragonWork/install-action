@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "wrangler",
+  "version": "1.21.0",
+  "repository": "cloudflare/wrangler-legacy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cloudflare/wrangler-legacy/releases/download/v1.21.0/wrangler-v1.21.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.21.0",
+      "sha256": "2098455f62435e95228cfc4505755fa718afb5fa7247626ef58ea52fbd6f9fd8",
+      "size": 8203584,
+      "format": "tar.gz",
+      "binaries": {
+        "wrangler": {
+          "path": "dist/wrangler",
+          "sha256": "4b1fa7682383adce0b9b7f36638b8dd47afabb220a7f1b64b2f081e0c69318ac"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cloudflare/wrangler-legacy/releases/download/v1.21.0/wrangler-v1.21.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.21.0",
+      "sha256": "18b4292757a98fe5edea8c0225c2543dce27bc4ab5de474ef34c0084ca1a2503",
+      "size": 6108417,
+      "format": "tar.gz",
+      "binaries": {
+        "wrangler": {
+          "path": "dist/wrangler",
+          "sha256": "e41a8a4c76ff704b33a490e52388febda2fd91b8ab8deaf46d9a99b3c423fd9d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cloudflare/wrangler-legacy/releases/download/v1.21.0/wrangler-v1.21.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.21.0",
+      "sha256": "b4aa2f63d1f98a8aa2317735881fe94773d871719eb6762216ec2336fda21980",
+      "size": 5450315,
+      "format": "tar.gz",
+      "binaries": {
+        "wrangler.exe": {
+          "path": "dist/wrangler.exe",
+          "sha256": "fa5e347d441e03adeb3461b566e510b6163cbfc030a92eb23fa4b86bcc4be040"
+        }
+      }
+    }
+  }
+}
