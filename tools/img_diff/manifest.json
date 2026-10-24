@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "img_diff",
+  "version": "5.0.0",
+  "repository": "Mike-Neto/img_diff",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Mike-Neto/img_diff/releases/download/v5.0.0/img_diff-v5.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v5.0.0",
+      "sha256": "d50c93fde8fe702ca116998028f64c1f0701d6a30f5e0fa2344c446d8c17b933",
+      "size": 1645771,
+      "format": "tar.gz",
+      "binaries": {
+        "img_diff": {
+          "path": "img_diff",
+          "sha256": "95044c3e475209d1af3f1ce00e8c05f9f8668f1f035fc9962a177078ea21b5b5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Mike-Neto/img_diff/releases/download/v5.0.0/img_diff-v5.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v5.0.0",
+      "sha256": "8452b06b4ba56f149e58a8b3da6d8cc34199cf9c42b88f85f030fde5945d06bf",
+      "size": 1240491,
+      "format": "tar.gz",
+      "binaries": {
+        "img_diff": {
+          "path": "img_diff",
+          "sha256": "c94286f434d3e2c69cb3978dfc52ee35cbaf2b6dfe78cee2416cbeb18264fc0d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Mike-Neto/img_diff/releases/download/v5.0.0/img_diff-v5.0.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v5.0.0",
+      "sha256": "de5cb44b4e4401dbd29793cfdecb66c1049a15f1ca4dd4a8c738a2d69d011575",
+      "size": 718521,
+      "format": "zip",
+      "binaries": {
+        "img_diff.exe": {
+          "path": "img_diff.exe",
+          "sha256": "599023191be7a79c3bf2922f9c49b6bdeca2edb9a778e9a42b15004132882551"
+        }
+      }
+    }
+  }
+}
