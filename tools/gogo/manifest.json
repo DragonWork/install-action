@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gogo",
+  "version": "2.0.5",
+  "repository": "vihu/gogo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vihu/gogo/releases/download/v2.0.5/gogo-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.0.5",
+      "sha256": "8e0fb591ea9d7ec2ca703b3b553d094651cdea33d1474e49981311263923dac8",
+      "size": 984768,
+      "format": "tar.xz",
+      "binaries": {
+        "gogo": {
+          "path": "gogo-x86_64-unknown-linux-gnu/gogo",
+          "sha256": "d5b03ebe7e36df4790830f7e04bdb50c112bbf240508e097c78363209972bdd0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vihu/gogo/releases/download/v2.0.5/gogo-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v2.0.5",
+      "sha256": "d890227b2d9d36213d8929efdc10c61941ee19401847c3e6166421e69b2a2f62",
+      "size": 595548,
+      "format": "tar.xz",
+      "binaries": {
+        "gogo": {
+          "path": "gogo-x86_64-apple-darwin/gogo",
+          "sha256": "68ab4cda7df0390e678e106892431ec427b78415ecb4d41446640a7ae9bbe53a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vihu/gogo/releases/download/v2.0.5/gogo-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2.0.5",
+      "sha256": "3268d2e02647a7e818ff76ee01f017084ce1df570e03eb12a20755708caaa986",
+      "size": 543276,
+      "format": "tar.xz",
+      "binaries": {
+        "gogo": {
+          "path": "gogo-aarch64-apple-darwin/gogo",
+          "sha256": "25b37b022e381a9012feed05eee381258f018e45a1f29dc3b81d8d1d98ea5057"
+        }
+      }
+    }
+  }
+}
