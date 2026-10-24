@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "hyperfine",
+  "version": "2.0.0",
+  "repository": "sharkdp/hyperfine",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "38e59087bd65520930a13cf513d8a493b7043741e8ad62349a8a9929eb61bc5c",
+      "size": 737116,
+      "format": "tar.gz",
+      "binaries": {
+        "hyperfine": {
+          "path": "hyperfine-v2.0.0-x86_64-unknown-linux-musl/hyperfine",
+          "sha256": "eaec69afd9cf7edb2ff1f84af0e8f2d47903f2f956301cd42a80b66a3f629296"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "f0591c2cb8f66f2d2624d23979cf96dc99a67cb935f9925c82b9a4e3ffe5b2e1",
+      "size": 679032,
+      "format": "tar.gz",
+      "binaries": {
+        "hyperfine": {
+          "path": "hyperfine-v2.0.0-aarch64-unknown-linux-musl/hyperfine",
+          "sha256": "1817d2374db766607bf18992a031638c92b31d53d3cc2328a9a3451b8d12391a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "8afe204926afefa406ad320cef0672b739e5f676c623fbd6d43d779bacd684e3",
+      "size": 651858,
+      "format": "tar.gz",
+      "binaries": {
+        "hyperfine": {
+          "path": "hyperfine-v2.0.0-x86_64-apple-darwin/hyperfine",
+          "sha256": "e5a65bc7e1e8047d94c23701036fd4f5f76d42e38549526ee47a7cb21a10c552"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "590b839cfea386b384ce0b42d16daf2910277cf30950656194bb3a5f20dea81e",
+      "size": 609501,
+      "format": "tar.gz",
+      "binaries": {
+        "hyperfine": {
+          "path": "hyperfine-v2.0.0-aarch64-apple-darwin/hyperfine",
+          "sha256": "dc9f035feaa4f5e25985c0d36a9c1b60985ebd159652908f0ba65a31645ac8dc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "3dec51acee1060908e67948838d6bc0a7aacde0774acebfa4afb220dcf0bc078",
+      "size": 632670,
+      "format": "zip",
+      "binaries": {
+        "hyperfine.exe": {
+          "path": "hyperfine-v2.0.0-x86_64-pc-windows-msvc/hyperfine.exe",
+          "sha256": "e42ed192500a7191296b95d7b60d3a3466423535c7ba2b7d0e97ab389cfec5ca"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "c2d2568368d32d0f2a000e604e10cd9fa8d98e2d04cb78f2aa7ab1a8c11b8118",
+      "size": 587139,
+      "format": "zip",
+      "binaries": {
+        "hyperfine.exe": {
+          "path": "hyperfine-v2.0.0-aarch64-pc-windows-msvc/hyperfine.exe",
+          "sha256": "0c5efac96aae888ee9c037d449fe0ea0d32d6d5de8b9a1abe0fbd451873bab3c"
+        }
+      }
+    }
+  }
+}
