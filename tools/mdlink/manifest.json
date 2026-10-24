@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mdlink",
+  "version": "0.2.16",
+  "repository": "ErichDonGubler/mdlink",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ErichDonGubler/mdlink/releases/download/v0.2.16/mdlink-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.16",
+      "sha256": "7af5c8fe4b40eb22de5f4d2b7901e3bd5bcd982a582f6740796a839b72da0205",
+      "size": 1046788,
+      "format": "tar.xz",
+      "binaries": {
+        "mdlink": {
+          "path": "mdlink-x86_64-unknown-linux-gnu/mdlink",
+          "sha256": "a8b5a68b1bb258b83d3cef53fe7b24fa88103d902fc694ca62cacfa3289870ee"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ErichDonGubler/mdlink/releases/download/v0.2.16/mdlink-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.16",
+      "sha256": "d3f60f395d9c4951eb29305401892c6338624fab77d03fcc4a4cd8104f2b182a",
+      "size": 875928,
+      "format": "tar.xz",
+      "binaries": {
+        "mdlink": {
+          "path": "mdlink-x86_64-apple-darwin/mdlink",
+          "sha256": "ebba7c1be951bf2a13001734bbeec40c39f805f8cb8d87f01a4f3a644a97c9fc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ErichDonGubler/mdlink/releases/download/v0.2.16/mdlink-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.16",
+      "sha256": "737586c7e151c87b7fe46c7ed45e7bf52c0bdac958a13961ebbf5fc479cb8f0d",
+      "size": 778148,
+      "format": "tar.xz",
+      "binaries": {
+        "mdlink": {
+          "path": "mdlink-aarch64-apple-darwin/mdlink",
+          "sha256": "f784a466986a9d45f4e5e8c5d74469aa1c9706429d899b570b4df25050705087"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ErichDonGubler/mdlink/releases/download/v0.2.16/mdlink-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.16",
+      "sha256": "dca271542a71b360a6be845e8c247f0c81a46ab1695553de80c78d495e2e263d",
+      "size": 1136300,
+      "format": "zip",
+      "binaries": {
+        "mdlink.exe": {
+          "path": "mdlink.exe",
+          "sha256": "5b780b7f2f9a96d112a0fa3a5655a5fbae836f3244381370a7735614005dd360"
+        }
+      }
+    }
+  }
+}
