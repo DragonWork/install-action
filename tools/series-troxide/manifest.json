@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "series-troxide",
+  "version": "0.5.1",
+  "repository": "MaarifaMaarifa/series-troxide",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MaarifaMaarifa/series-troxide/releases/download/v0.5.1/series-troxide-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "b64a2bf80c04ee23138960dc4696815ad19f39fa927eccee70f0d3578b28d589",
+      "size": 6847972,
+      "format": "tar.xz",
+      "binaries": {
+        "series-troxide": {
+          "path": "series-troxide-x86_64-unknown-linux-gnu/series-troxide",
+          "sha256": "fc6a42ec5bc418f1b38e46677915163c72d8a5bc7ce4221567956ff6914bbe7e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MaarifaMaarifa/series-troxide/releases/download/v0.5.1/series-troxide-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "2510213b02c2135d23b29540b7ff87f404ff2963845b47cba5cca77bcb7a73d5",
+      "size": 5404860,
+      "format": "tar.xz",
+      "binaries": {
+        "series-troxide": {
+          "path": "series-troxide-x86_64-apple-darwin/series-troxide",
+          "sha256": "058260f9f93d2cd4f56dc7897970a1e388513af26233bfa3dabe9b2a01aded7b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MaarifaMaarifa/series-troxide/releases/download/v0.5.1/series-troxide-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "0a9d8f1143fa4a5672b65773a8edb01221c28494c45389cd7fbe14ab19d82ea0",
+      "size": 4881448,
+      "format": "tar.xz",
+      "binaries": {
+        "series-troxide": {
+          "path": "series-troxide-aarch64-apple-darwin/series-troxide",
+          "sha256": "279d4c72b44d1b853ac0fdc3338a8f35ba4865051e1b293fcd736917d6c9a5eb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MaarifaMaarifa/series-troxide/releases/download/v0.5.1/series-troxide-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "a6dcf4a911bc851346e2a639c815cb3339d07b2fef5600358bcdb1bd4eb153f1",
+      "size": 22786996,
+      "format": "zip",
+      "binaries": {
+        "series-troxide.exe": {
+          "path": "series-troxide.exe",
+          "sha256": "e29b4ab83b1fe1c3c5a25bcfd8faf93fb655cd0f876f1d1e35a7f85562b14b35"
+        }
+      }
+    }
+  }
+}
