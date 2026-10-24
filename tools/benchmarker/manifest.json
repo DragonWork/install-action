@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "benchmarker",
+  "version": "0.9.0",
+  "repository": "BurntNail/Precipice",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/BurntNail/Precipice/releases/download/v0.9.0/precipice-v0.9.0-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.9.0",
+      "sha256": "162afc9f7be12ceeb868941aa95ccd5f009b10530a47bcec519b9569bb4eec04",
+      "size": 16533984,
+      "format": "tar.xz",
+      "binaries": {
+        "precipice": {
+          "path": "precipice-v0.9.0-x86_64-unknown-linux-gnu/precipice",
+          "sha256": "89fb7f18e097c759d7fe46b998f55b33b67c829d7bf6cfeafa620113d9f646d3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/BurntNail/Precipice/releases/download/v0.9.0/precipice-v0.9.0-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.9.0",
+      "sha256": "e416eda0e904f771218259973cd4d0a255172b0f1c23a30c66152b509ef2eba0",
+      "size": 3366900,
+      "format": "tar.xz",
+      "binaries": {
+        "precipice": {
+          "path": "precipice-v0.9.0-x86_64-apple-darwin/precipice",
+          "sha256": "bc94efc019771fe3678ca7b0dc2cecfbb8857815580482f5227a30c8417b45b3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/BurntNail/Precipice/releases/download/v0.9.0/precipice-v0.9.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "257125f51024bb47b8f6cf85c6a8b01aa292dc5b763a8c31c13c071318d7965c",
+      "size": 10607220,
+      "format": "zip",
+      "binaries": {
+        "precipice.exe": {
+          "path": "precipice.exe",
+          "sha256": "9c91a6ca5e28708fd451ac54a57af5e14a36bb9c4e0a81ffac2a252a9480f4ed"
+        }
+      }
+    }
+  }
+}
