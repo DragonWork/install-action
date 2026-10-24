@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rabbitmqadmin",
+  "version": "2.35.0",
+  "repository": "rabbitmq/rabbitmqadmin-ng",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v2.35.0/rabbitmqadmin-2.35.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.35.0",
+      "sha256": "b68f01871ca46d64740693dcfe64e90f409de24cc7583f84ebf84e58f0bb23fa",
+      "size": 8646979,
+      "format": "tar.gz",
+      "binaries": {
+        "rabbitmqadmin": {
+          "path": "rabbitmqadmin",
+          "sha256": "8e87764f19e80339abd16f5617bcd9712ad7560b75e123d5e8b8d7922c11ab6e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v2.35.0/rabbitmqadmin-2.35.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.35.0",
+      "sha256": "55213d9bba82c669b205670c2d54e504711f9ca7205bdda50fbc795c45062c4b",
+      "size": 7915763,
+      "format": "tar.gz",
+      "binaries": {
+        "rabbitmqadmin": {
+          "path": "rabbitmqadmin",
+          "sha256": "bde1b0b5e45b5bd9758b2597b3a1c1031b492d0ca0654000222725f400291cbd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v2.35.0/rabbitmqadmin-2.35.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.35.0",
+      "sha256": "29d5ed69f97e746eae3882402a2993559f193a79cffce4a1f242411a39dd912b",
+      "size": 8217318,
+      "format": "tar.gz",
+      "binaries": {
+        "rabbitmqadmin": {
+          "path": "rabbitmqadmin",
+          "sha256": "da4b040172fedf313a698e64e021496e0122c5d11e31d00e6817c956dc7a19f5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v2.35.0/rabbitmqadmin-2.35.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.35.0",
+      "sha256": "a8d997bda0319b3bdf315eabf82ab7f686a853b1ae2cc0e72aaf6d54e35e3543",
+      "size": 7500885,
+      "format": "tar.gz",
+      "binaries": {
+        "rabbitmqadmin": {
+          "path": "rabbitmqadmin",
+          "sha256": "012593c8d2ca035c12bd8247eff5850f887fb2a9f86a01f21e0ddc629611db75"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v2.35.0/rabbitmqadmin-2.35.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.35.0",
+      "sha256": "46a5a3b47efdadf3dce12d18e69f83fcb0daf167279a5a75a51f77b03437d3eb",
+      "size": 7655159,
+      "format": "zip",
+      "binaries": {
+        "rabbitmqadmin.exe": {
+          "path": "rabbitmqadmin.exe",
+          "sha256": "fe8098bcd4e192762c2d5901ca6be0c0951a37e4202d4d0d77eacf0dda9f44ee"
+        }
+      }
+    }
+  }
+}
