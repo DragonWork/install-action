@@ -88,8 +88,9 @@ async function probeReleases(catalog, state, current, limit = 1000) {
     }
     if (requests.length < limit) requests.push({ name, entry, repository });
   }
-  for (let offset = 0; offset < requests.length; offset += 50) {
-    const block = requests.slice(offset, offset + 50);
+  const width = 10;
+  for (let offset = 0; offset < requests.length; offset += width) {
+    const block = requests.slice(offset, offset + width);
     const fields = block.map(({ name, entry, repository }, index) => {
       const [owner, repo] = repository.split('/');
       const tags = releaseTags(name, entry.version);
@@ -148,7 +149,7 @@ async function probeReleases(catalog, state, current, limit = 1000) {
     }
     console.log(`Checked binary releases for ${Math.min(offset + block.length, requests.length)} / ${requests.length} crates.`);
     if (response.data.rateLimit?.remaining < 150) break;
-    if (offset + 50 < requests.length) await new Promise(resolve => setTimeout(resolve, 5000));
+    if (offset + width < requests.length) await new Promise(resolve => setTimeout(resolve, 2000));
   }
 }
 

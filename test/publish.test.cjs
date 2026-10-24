@@ -167,6 +167,27 @@ test('partial API failures remain retryable instead of becoming missing releases
   assert.equal(catalogProgress(catalog, state, {}).remaining, 1);
 });
 
+test('large discovery sets use bounded queries instead of exceeding GitHub resource limits', async t => {
+  const original = global.fetch;
+  t.after(() => { global.fetch = original; });
+  let calls = 0;
+  global.fetch = async (_url, options) => {
+    const query = JSON.parse(options.body).query;
+    const aliases = [...query.matchAll(/(r\d+): repository\(/g)].map(match => match[1]);
+    assert(aliases.length <= 10);
+    calls++;
+    return Response.json({ data: { ...Object.fromEntries(aliases.map(alias => [alias, { nameWithOwner: 'example/cli', t0: null }])),
+      rateLimit: { remaining: 900 } } });
+  };
+  const crates = Object.fromEntries(Array.from({ length: 11 }, (_, index) => [`cli-${index}`, {
+    version: '1.0.0', repository: 'https://github.com/example/cli',
+  }]));
+  const state = {};
+  await probeReleases({ crates }, state, {}, 11);
+  assert.equal(calls, 2);
+  assert.equal(Object.keys(state).length, 11);
+});
+
 test('renamed repositories and canonical capitalization produce valid manifests', async t => {
   const original = global.fetch;
   t.after(() => { global.fetch = original; });
