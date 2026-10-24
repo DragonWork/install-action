@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "mrktpltsbot",
+  "version": "2.1.7",
+  "repository": "eigenein/mrktpltsbot",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/eigenein/mrktpltsbot/releases/download/2.1.7/mrktpltsbot_2.1.7_linux_amd64.tar.gz",
+      "releaseTag": "2.1.7",
+      "sha256": "053273801c6b26ffca4768128a05f291107a6fe3345349a92ff50cd4a6e94723",
+      "size": 34480266,
+      "format": "tar.gz",
+      "binaries": {
+        "mrktpltsbot": {
+          "path": "mrktpltsbot",
+          "sha256": "e228c5dd983f761ae6ffe16312508ce72fbb9ba442eb29db54b4853318c80a27"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/eigenein/mrktpltsbot/releases/download/2.1.7/mrktpltsbot_2.1.7_linux_arm64.tar.gz",
+      "releaseTag": "2.1.7",
+      "sha256": "be30ec807e28031b5a2e501fd7bd4e1beaca7eb62fe7b356e81e9cd459b3c4d5",
+      "size": 33995369,
+      "format": "tar.gz",
+      "binaries": {
+        "mrktpltsbot": {
+          "path": "mrktpltsbot",
+          "sha256": "fe14e893d00cbcadeccefdb30858d350a2962faa5f3627754173b935e3d1115a"
+        }
+      }
+    }
+  }
+}
