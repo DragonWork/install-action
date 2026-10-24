@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "site",
+  "version": "2.0.1",
+  "repository": "hayatoito/site",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hayatoito/site/releases/download/v2.0.1/site-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.0.1",
+      "sha256": "ae84b8ed69627859558fcad1a59993a6a8efc2493cc7161161ca43283a88b49b",
+      "size": 2026398,
+      "format": "tar.gz",
+      "binaries": {
+        "site": {
+          "path": "site",
+          "sha256": "3929ed0b9c063bd6451a1bd6f7ff43e0908ed6d38ecc356a8de004113eb10397"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hayatoito/site/releases/download/v2.0.1/site-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.1",
+      "sha256": "294de668093565203c289b1ed48b48c58e48c0def500558fd081864bc9509d83",
+      "size": 1864148,
+      "format": "tar.gz",
+      "binaries": {
+        "site": {
+          "path": "site",
+          "sha256": "412541fa91a7ddc551ec56fe83e1537ce52a0f662121fc7d895c867e34bff222"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hayatoito/site/releases/download/v2.0.1/site-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.0.1",
+      "sha256": "ba1c8968260e8e94d17e9352e5fbadc73b722e21e6e4ad869d11de481d0ba5f4",
+      "size": 1727425,
+      "format": "zip",
+      "binaries": {
+        "site.exe": {
+          "path": "site.exe",
+          "sha256": "5bd89f26c1f662b8b940798d7cf983a3bdb44eaec5e6d188371271c3a1aeedef"
+        }
+      }
+    }
+  }
+}
