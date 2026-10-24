@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "scarb",
+  "version": "0.5.2",
+  "repository": "software-mansion/scarb",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/software-mansion/scarb/releases/download/v0.5.2/scarb-v0.5.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "62a0e4349a5d8c49e2ab0033fe21732fda9c34cb1e64aa9b26f48f03d6239f16",
+      "size": 23533553,
+      "format": "tar.gz",
+      "binaries": {
+        "scarb": {
+          "path": "scarb-v0.5.2-x86_64-unknown-linux-musl/bin/scarb",
+          "sha256": "5fb708a5b222f032667e79c43e7cb5ba1f8ba3a618dd9a718ec5567610a7ead5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/software-mansion/scarb/releases/download/v0.5.2/scarb-v0.5.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "db8b31bf3db4e645471e384c9f53ca63f78646d03b6fa0eafba2a43adca4a774",
+      "size": 22691539,
+      "format": "tar.gz",
+      "binaries": {
+        "scarb": {
+          "path": "scarb-v0.5.2-aarch64-unknown-linux-musl/bin/scarb",
+          "sha256": "9b76e597d77cb4e719bfa38025f0959ffded32a6f56b7ac2d0fef6726f1da333"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/software-mansion/scarb/releases/download/v0.5.2/scarb-v0.5.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "a8978af7fa7ffb61215daab5a35c8cb4337b6bcd57124b46aedeab5f75fccfea",
+      "size": 21944973,
+      "format": "tar.gz",
+      "binaries": {
+        "scarb": {
+          "path": "scarb-v0.5.2-x86_64-apple-darwin/bin/scarb",
+          "sha256": "4d9f233b5181dde74fee8f77d9ce765d5108f0a75787f981478e4a1e9bc329a1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/software-mansion/scarb/releases/download/v0.5.2/scarb-v0.5.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.2",
+      "sha256": "a810a02972e80a99317db9334d0a3d0ac150d13d77675ab2d5a264d67be61cdd",
+      "size": 20868864,
+      "format": "tar.gz",
+      "binaries": {
+        "scarb": {
+          "path": "scarb-v0.5.2-aarch64-apple-darwin/bin/scarb",
+          "sha256": "cfc0654b54b523db0329788550dddc66e1c03965eb5a04206a60cd889ed4dd2e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/software-mansion/scarb/releases/download/v0.5.2/scarb-v0.5.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.2",
+      "sha256": "7783bea5c49f71fd7cdb2b54a05328d5e4d727f70136ac0218a28a6b74df0c89",
+      "size": 20330458,
+      "format": "zip",
+      "binaries": {
+        "scarb.exe": {
+          "path": "scarb-v0.5.2-x86_64-pc-windows-msvc/bin/scarb.exe",
+          "sha256": "cf7077cd2493fc1400baf943d7a927bae436fd3109950512d43dadc4fc1d9610"
+        }
+      }
+    }
+  }
+}
