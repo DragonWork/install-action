@@ -10,6 +10,7 @@ const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget
   prepareShard, mergePrepared, catalogProgress, assetCandidates, assetFormat, nativeBinary,
   generate, planUpdate } = require('../scripts/update-tools.cjs');
 const { main: publishTools } = require('../scripts/publish-tools.cjs');
+const { publish: publishHistorical } = require('../scripts/backfill-version.cjs');
 const { sample } = require('./fixtures.cjs');
 
 test('crate wrappers call the selected engine without embedding its version', () => {
@@ -291,4 +292,69 @@ test('installer publication still creates a GitHub Release without moving its ta
   assert.equal(writes.length, 1);
   assert(writes[0].url.endsWith('/releases'));
   assert.equal(writes[0].method, 'POST');
+});
+
+test('historical versions require verified commits and never advance the catalog branch', async t => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-historical-'));
+  const originalFetch = global.fetch;
+  const originalEnv = { ...process.env };
+  t.after(async () => {
+    global.fetch = originalFetch;
+    for (const key of Object.keys(process.env)) if (!(key in originalEnv)) delete process.env[key];
+    Object.assign(process.env, originalEnv);
+    await fs.rm(root, { recursive: true, force: true });
+  });
+  const { manifest } = sample();
+  const folder = path.join(root, 'tools', manifest.name);
+  await fs.mkdir(folder, { recursive: true });
+  const files = { 'manifest.json': JSON.stringify(manifest, null, 2) + '\n', 'action.yml': wrapper(manifest.name) };
+  for (const [file, content] of Object.entries(files)) await fs.writeFile(path.join(folder, file), content);
+  await fs.writeFile(path.join(root, 'backfill.json'), JSON.stringify({ name: manifest.name, version: manifest.version, head: 'a'.repeat(40) }));
+  Object.assign(process.env, { GITHUB_REPOSITORY: 'DragonWork/install-action', GITHUB_REF: 'refs/heads/main',
+    GITHUB_SHA: 'c'.repeat(40), CRATE_NAME: manifest.name, CRATE_VERSION: manifest.version });
+  const writes = [];
+  let verified = false, tagExists = false;
+  global.fetch = async (url, options) => {
+    assert(!url.includes('/releases'));
+    assert(['GET', 'POST'].includes(options.method), 'Backfill must not update or delete a reference.');
+    if (options.method === 'POST') {
+      const body = JSON.parse(options.body);
+      writes.push(url);
+      if (url.endsWith('/git/trees')) {
+        assert.equal(body.base_tree, 'd'.repeat(40));
+        assert(body.tree.every(file => file.path.startsWith('tools/sample-cli/')));
+        return Response.json({ sha: 'e'.repeat(40) });
+      }
+      if (url.endsWith('/git/commits')) {
+        assert.deepEqual(body.parents, ['a'.repeat(40)]);
+        assert.equal(body.message, 'chore(sample-cli): backfill 1.0.0');
+        assert(!('author' in body) && !('committer' in body) && !('signature' in body));
+        return Response.json({ sha: 'b'.repeat(40), verification: { verified } });
+      }
+      assert(url.endsWith('/git/refs'));
+      assert.deepEqual(body, { ref: 'refs/tags/sample-cli/v1.0.0', sha: 'b'.repeat(40) });
+      tagExists = true;
+      return Response.json({});
+    }
+    if (url.includes('/heads/main')) return Response.json({ object: { sha: 'c'.repeat(40) } });
+    if (url.includes('/heads/crates.io')) return Response.json({ object: { sha: 'a'.repeat(40) } });
+    if (url.includes('/git/ref/tags/')) return tagExists
+      ? Response.json({ object: { type: 'commit', sha: 'b'.repeat(40) } }) : Response.json({}, { status: 404 });
+    if (url.includes('/git/commits/')) return Response.json({ tree: { sha: 'd'.repeat(40) } });
+    if (url.includes('/commits/')) return Response.json({ author: { login: 'github-actions[bot]' },
+      commit: { verification: { verified } }, files: [{ filename: 'tools/sample-cli/manifest.json' }] });
+    if (url.includes('/contents/')) {
+      const file = new URL(url).pathname.split('/').at(-1);
+      return Response.json({ content: Buffer.from(files[file]).toString('base64') });
+    }
+    throw new Error(`Unexpected API request: ${url}`);
+  };
+  await assert.rejects(publishHistorical(root), /did not verify/);
+  assert.equal(tagExists, false);
+  verified = true;
+  await publishHistorical(root);
+  assert.equal(tagExists, true);
+  writes.length = 0;
+  await publishHistorical(root);
+  assert.deepEqual(writes, []);
 });
