@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "ouch",
+  "version": "0.8.3",
+  "repository": "ouch-org/ouch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ouch-org/ouch/releases/download/0.8.3/ouch-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.8.3",
+      "sha256": "eaab9b997a823f584557ac5f85205105ae577a4c4fbd23926b686469cfa19881",
+      "size": 2793734,
+      "format": "tar.gz",
+      "binaries": {
+        "ouch": {
+          "path": "ouch-x86_64-unknown-linux-musl/ouch",
+          "sha256": "08cc9ca308cb69a8a652cc0bb32b7ee9cb8c04b1c6cf085fdf3d643a2b1a3ea1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ouch-org/ouch/releases/download/0.8.3/ouch-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.8.3",
+      "sha256": "4619158de69e65e8d23147c3d8b46b116feb0259c8a1704df7d792394c2b5847",
+      "size": 2581589,
+      "format": "tar.gz",
+      "binaries": {
+        "ouch": {
+          "path": "ouch-aarch64-unknown-linux-musl/ouch",
+          "sha256": "e9fd2ccb89f7eb2649e09d2bc9e9966ba2a82ab514668d8b3ea78ae3f9fa08b6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ouch-org/ouch/releases/download/0.8.3/ouch-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.8.3",
+      "sha256": "c97188f4c09fb959ea0d3117781ae524431b62fcd8f1b8d19323550773cd438a",
+      "size": 2572511,
+      "format": "tar.gz",
+      "binaries": {
+        "ouch": {
+          "path": "ouch-x86_64-apple-darwin/ouch",
+          "sha256": "a08fb513f50c1dcdf28f7bb2d181288fa0002fe154763f1a2bd3339fd8699e4f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ouch-org/ouch/releases/download/0.8.3/ouch-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.8.3",
+      "sha256": "969c1bd9105b5033cc9cac0a37c011d23482948d681b43f97c6f79311f3263d0",
+      "size": 2407715,
+      "format": "tar.gz",
+      "binaries": {
+        "ouch": {
+          "path": "ouch-aarch64-apple-darwin/ouch",
+          "sha256": "1cf1e50184033ddcdcc07fc5128ac55255b6abd97546d40db592e7a9e693fc1d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ouch-org/ouch/releases/download/0.8.3/ouch-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.8.3",
+      "sha256": "6383a95987894412d5c9c4172e3d1d87c86aa322acb2b7ffcad42f492abc5dfe",
+      "size": 2684389,
+      "format": "zip",
+      "binaries": {
+        "ouch.exe": {
+          "path": "ouch-x86_64-pc-windows-msvc/ouch.exe",
+          "sha256": "23893103c2fb470bad85cea4c82c75adde2b74c5f58a7dad36ffe42c64e61ae3"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ouch-org/ouch/releases/download/0.8.3/ouch-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.8.3",
+      "sha256": "2ffacd22c03a5a73cf4084ef8d70f13788268dfa7148242ad9fc5002e167c4c7",
+      "size": 2496831,
+      "format": "zip",
+      "binaries": {
+        "ouch.exe": {
+          "path": "ouch-aarch64-pc-windows-msvc/ouch.exe",
+          "sha256": "d653cb908219f8ca2c18e082705733d9e70bab5cd8c7e619d7d5284d2091c596"
+        }
+      }
+    }
+  }
+}
