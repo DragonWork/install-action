@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rip2",
+  "version": "0.9.7",
+  "repository": "MilesCranmer/rip2",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MilesCranmer/rip2/releases/download/v0.9.7/rip-Linux-x86_64-musl.tar.gz",
+      "releaseTag": "v0.9.7",
+      "sha256": "244cab782e663da36a97ada592a99b763ff3040e59419b13d52278b99a7b9801",
+      "size": 704639,
+      "format": "tar.gz",
+      "binaries": {
+        "rip": {
+          "path": "rip",
+          "sha256": "e0a87a711265ab9e5a265ad6d47efdecb61d0bb8be4963d6f882372a7581515d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MilesCranmer/rip2/releases/download/v0.9.7/rip-Linux-aarch64-musl.tar.gz",
+      "releaseTag": "v0.9.7",
+      "sha256": "868e52d031cc6e41bea1c76bc56ac1cd1f8f0a994cea237cb9713d4ab603f197",
+      "size": 678963,
+      "format": "tar.gz",
+      "binaries": {
+        "rip": {
+          "path": "rip",
+          "sha256": "7cb846d37f2a2ab35645a58f2c0ccbe45dabfe115c163f69d800e678a66b320a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MilesCranmer/rip2/releases/download/v0.9.7/rip-macOS-Darwin-x86_64.tar.gz",
+      "releaseTag": "v0.9.7",
+      "sha256": "59f865c8610fe0cc650136d577769600335dcccc5bbaefad20bcb4adc740d0e6",
+      "size": 614225,
+      "format": "tar.gz",
+      "binaries": {
+        "rip": {
+          "path": "rip",
+          "sha256": "6bb2ed02d6c4576d619bd510c03dfe17e268cf25d87fa51c03b085f2a4877eab"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MilesCranmer/rip2/releases/download/v0.9.7/rip-macOS-Darwin-aarch64.tar.gz",
+      "releaseTag": "v0.9.7",
+      "sha256": "ff9e28a8b0b8c7c4ee26473e6f93258ab63f9a15c577f490fb31ebc152add4f9",
+      "size": 533085,
+      "format": "tar.gz",
+      "binaries": {
+        "rip": {
+          "path": "rip",
+          "sha256": "273981e1d7c178c60e7dde441c8d1c82a26e28e9a40a4480622ad91dee6bc724"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MilesCranmer/rip2/releases/download/v0.9.7/rip-Windows-x86_64.zip",
+      "releaseTag": "v0.9.7",
+      "sha256": "f38b7a7c9ecd6a23cf014841fe0da7c1866c9ba6255e6c3ea5e8c8df88063806",
+      "size": 464299,
+      "format": "zip",
+      "binaries": {
+        "rip.exe": {
+          "path": "rip.exe",
+          "sha256": "be3bb3de22a8b85db2f05e1e91097b36bb9283b162c93ac9b52ff152b8947789"
+        }
+      }
+    }
+  }
+}
