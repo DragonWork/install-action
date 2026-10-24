@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "manga-tui",
+  "version": "0.10.0",
+  "repository": "josueBarretogit/manga-tui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/josueBarretogit/manga-tui/releases/download/v0.10.0/manga-tui-0.10.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "5bcfdb06a057b54f4c0d2192b8d6a5a87f2aecb0d32b183e3a545c48aa775173",
+      "size": 5081500,
+      "format": "tar.gz",
+      "binaries": {
+        "manga-tui": {
+          "path": "manga-tui",
+          "sha256": "d775b82bbe0a59c8815cd251b416094c5c0be9b1cf104ff7b9d0b42335e79ca8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/josueBarretogit/manga-tui/releases/download/v0.10.0/manga-tui-0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "410585643d274d89aecc6825061f0c606bcb1cb3dbca3c597d21515cb079452d",
+      "size": 4702914,
+      "format": "tar.gz",
+      "binaries": {
+        "manga-tui": {
+          "path": "manga-tui",
+          "sha256": "547493fe556b7dd4b663fb6f8071292f603b09d71ce20e908fe15ad347a13570"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/josueBarretogit/manga-tui/releases/download/v0.10.0/manga-tui-0.10.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "91e2c9bf44910cc84e97e9a67ca993da11fb1cc12fab73d11b5301501fd942bc",
+      "size": 4737609,
+      "format": "tar.gz",
+      "binaries": {
+        "manga-tui": {
+          "path": "manga-tui",
+          "sha256": "cfb8ca5722e862ebfa7097933ffa94cb37c09551a6bce85c31e20cd16aaac1f3"
+        }
+      }
+    }
+  }
+}
