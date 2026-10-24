@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "greentic-mcp-exec",
+  "version": "1.2.1",
+  "repository": "greenticai/greentic-mcp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "7aff48c5a0e0cbbfa63697250489bb1ecadcd418171507355ea5ad9ff0d635c9",
+      "size": 9611237,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-mcp-exec": {
+          "path": "greentic-mcp-exec-v1.2.1-x86_64-unknown-linux-gnu/greentic-mcp-exec",
+          "sha256": "b58292c485990956018fcee02bd2f59eed4dc52ce6af012d0e7e10c50938e466"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-aarch64-unknown-linux-gnu.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "5f592fee8bc9cc8b9311787bcbae157a9828b4e680b5232c39d89482d2b3fc5d",
+      "size": 8987045,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-mcp-exec": {
+          "path": "greentic-mcp-exec-v1.2.1-aarch64-unknown-linux-gnu/greentic-mcp-exec",
+          "sha256": "21ddf926c70b473ed6ec23f15e696a87cd4fc4628a6f38d990a12cce59204f84"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-x86_64-apple-darwin.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "559e36a340294b96fd79c1d89973f3b08743fbbca8ac74c90ce25d1c6ec40b24",
+      "size": 9489813,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-mcp-exec": {
+          "path": "greentic-mcp-exec-v1.2.1-x86_64-apple-darwin/greentic-mcp-exec",
+          "sha256": "91f575376211851e27e1a9372885c81f6d63e993dc53bcf6b3180b2d8eec62b9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-aarch64-apple-darwin.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "8db791f50bda0100d5542c435c57cfdb172af2c63323ec4cb4fc7c91a4122fc5",
+      "size": 8552607,
+      "format": "tar.gz",
+      "binaries": {
+        "greentic-mcp-exec": {
+          "path": "greentic-mcp-exec-v1.2.1-aarch64-apple-darwin/greentic-mcp-exec",
+          "sha256": "b29364883b35349f172c5e5755f320783b412a5ee9fe674b0c3cee616de2ba2a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "a55ce3899a5b9d40f6bb5c10c5759b2119bbf9362e2e79c602bd591782f651b2",
+      "size": 8387317,
+      "format": "zip",
+      "binaries": {
+        "greentic-mcp-exec.exe": {
+          "path": "greentic-mcp-exec-v1.2.1-x86_64-pc-windows-msvc/greentic-mcp-exec.exe",
+          "sha256": "1f83526ddaa37de6c10f31ea5db9c66329b315bd7ea2d2413646754bc894c05d"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/greenticai/greentic-mcp/releases/download/v1.2.1/greentic-mcp-exec-v1.2.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "486b5abfbf6d929aba70828fed7ad7016e790881b1027fb14f81a6b71161b1b7",
+      "size": 7311798,
+      "format": "zip",
+      "binaries": {
+        "greentic-mcp-exec.exe": {
+          "path": "greentic-mcp-exec-v1.2.1-aarch64-pc-windows-msvc/greentic-mcp-exec.exe",
+          "sha256": "c2b12595335944a47459df950cb990adcfb3c6aa2050d4f18708b0dcf300bc74"
+        }
+      }
+    }
+  }
+}
