@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "uncomment",
+  "version": "3.10.3",
+  "repository": "Goldziher/uncomment",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Goldziher/uncomment/releases/download/v3.10.3/uncomment-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.10.3",
+      "sha256": "520390776bb3117b9a0c854ebb503a1370e2227d7b22c05f0a05bee0fe8f8614",
+      "size": 11282260,
+      "format": "tar.gz",
+      "binaries": {
+        "uncomment": {
+          "path": "uncomment",
+          "sha256": "be640858f7e1e4557aa54f92f4bd4daebbcc31f8dcfe8246927ff7a49d918462"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Goldziher/uncomment/releases/download/v3.10.3/uncomment-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.10.3",
+      "sha256": "d46ef08497ef78473561c13a7988b37364ff3a33f6d47bcf0046a28ddf4c7087",
+      "size": 11178155,
+      "format": "tar.gz",
+      "binaries": {
+        "uncomment": {
+          "path": "uncomment",
+          "sha256": "6002c195c9e0dd00461ec18ad84afacc70af942f04d4afcf7cb5e632fc380ca2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Goldziher/uncomment/releases/download/v3.10.3/uncomment-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.10.3",
+      "sha256": "12d395f199f82dfae42f02a1f1bdc79effe3a1adfbf4394d496addb2b1a1fff8",
+      "size": 10896578,
+      "format": "tar.gz",
+      "binaries": {
+        "uncomment": {
+          "path": "uncomment",
+          "sha256": "ca8b078a31484b43edec4db7132a3c7f6ecbc0a8a0cadb1e9f008dbd19edb13f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Goldziher/uncomment/releases/download/v3.10.3/uncomment-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.10.3",
+      "sha256": "ad9957b23dda4b8119cfc0ac6ea5d71e0e5f93465c858547af95fcfb3169712f",
+      "size": 11261108,
+      "format": "tar.gz",
+      "binaries": {
+        "uncomment": {
+          "path": "uncomment",
+          "sha256": "2b795f89906939003c0e6662c7b9b12184be418a55c895105eb2d4a0cd0221f9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Goldziher/uncomment/releases/download/v3.10.3/uncomment-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v3.10.3",
+      "sha256": "e8cbebc65015120bfbe67bade2eec6a26593692bfd34c74f3efad035e6f7fb9d",
+      "size": 13200345,
+      "format": "zip",
+      "binaries": {
+        "uncomment.exe": {
+          "path": "uncomment.exe",
+          "sha256": "4982d39ffde351a61deaaee5ca5206b5b119ce1ca16ca4a06899525ce506f794"
+        }
+      }
+    }
+  }
+}
