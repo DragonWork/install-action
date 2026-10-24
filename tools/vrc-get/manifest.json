@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "vrc-get",
+  "version": "1.9.3",
+  "repository": "vrc-get/vrc-get",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/vrc-get/vrc-get/releases/download/v1.9.3/x86_64-pc-windows-msvc-vrc-get.exe",
+      "releaseTag": "v1.9.3",
+      "sha256": "99cb2e23ab9903ca0d31f9bb6951b50fa855555f33d80679c5a656d6b52ec7ee",
+      "size": 10750464,
+      "format": "binary",
+      "binaries": {
+        "vrc-get.exe": {
+          "path": "x86_64-pc-windows-msvc-vrc-get.exe",
+          "sha256": "99cb2e23ab9903ca0d31f9bb6951b50fa855555f33d80679c5a656d6b52ec7ee"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/vrc-get/vrc-get/releases/download/v1.9.3/aarch64-pc-windows-msvc-vrc-get.exe",
+      "releaseTag": "v1.9.3",
+      "sha256": "f6e27cf8f3e169ec66b05cc1b078849f795ff24f0400f988ef30f825414382a5",
+      "size": 9165824,
+      "format": "binary",
+      "binaries": {
+        "vrc-get.exe": {
+          "path": "aarch64-pc-windows-msvc-vrc-get.exe",
+          "sha256": "f6e27cf8f3e169ec66b05cc1b078849f795ff24f0400f988ef30f825414382a5"
+        }
+      }
+    }
+  }
+}
