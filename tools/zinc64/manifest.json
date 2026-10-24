@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "zinc64",
+  "version": "0.8.0",
+  "repository": "binaryfields/zinc64",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/binaryfields/zinc64/releases/download/0.8.0/zinc64-0.8.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.8.0",
+      "sha256": "c91816f5493f56606699a5c2ec9a9451a0621f7f6602b904cf6ad2126750c96a",
+      "size": 1061537,
+      "format": "tar.gz",
+      "binaries": {
+        "zinc64": {
+          "path": "zinc64",
+          "sha256": "c62eb6cde709924f4d3acb7776caf81518fead41acc9120e948e4e7c9beeebb4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/binaryfields/zinc64/releases/download/0.8.0/zinc64-0.8.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.8.0",
+      "sha256": "96a53a66d70e612165644f04d9799412b3603246c9c7080c2da870df07a27f07",
+      "size": 1041205,
+      "format": "zip",
+      "binaries": {
+        "zinc64.exe": {
+          "path": "zinc64.exe",
+          "sha256": "22ef64e02c416b5c36e2babd6a749a3f3d5102246c462d94fe1d331005665109"
+        }
+      }
+    }
+  }
+}
