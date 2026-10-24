@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "nanocl",
+  "version": "0.17.0",
+  "repository": "next-hat/nanocl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/next-hat/nanocl/releases/download/nanocl-0.17.0/nanocl_0.17.0_linux_amd64.tar.gz",
+      "releaseTag": "nanocl-0.17.0",
+      "sha256": "554785e8716f568f5ae98387c43f3784627d2a45d4bb2e6a17f88a9c0793281b",
+      "size": 5887218,
+      "format": "tar.gz",
+      "binaries": {
+        "nanocl": {
+          "path": "./bin/nanocl",
+          "sha256": "b8222bb67159c8f5b3c1b54636d4f47be6b3a2c9c26f07ab7d923c97098177d5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/next-hat/nanocl/releases/download/nanocl-0.17.0/nanocl_0.17.0_windows_amd64.tar.gz",
+      "releaseTag": "nanocl-0.17.0",
+      "sha256": "87ac6924cf31bd919bbc60c1829547bdc403773885ca6c942336765ca752f889",
+      "size": 3414030,
+      "format": "tar.gz",
+      "binaries": {
+        "nanocl.exe": {
+          "path": "./bin/nanocl.exe",
+          "sha256": "5885a8b92b3b2d9cd8f1b71f0bd19c6439d6a2f1ffff215906817b9b5ce3d218"
+        }
+      }
+    }
+  }
+}
