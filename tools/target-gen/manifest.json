@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "target-gen",
+  "version": "0.32.0",
+  "repository": "probe-rs/probe-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.32.0/target-gen-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.32.0",
+      "sha256": "8cd56c6a2b58535c443374aa5713d1046fc1570fddb417f6069992e30449d7c6",
+      "size": 14018444,
+      "format": "tar.xz",
+      "binaries": {
+        "target-gen": {
+          "path": "target-gen-x86_64-unknown-linux-gnu/target-gen",
+          "sha256": "e1da00fd0f759bbb4b8d89a0dd96cc5fe816cbcb5b3d15739d223cd80f5019da"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.32.0/target-gen-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.32.0",
+      "sha256": "091c8a1260301ad932a84bee92138bb78f8fc8059814e0a4e36bba0a0f495e07",
+      "size": 13365740,
+      "format": "tar.xz",
+      "binaries": {
+        "target-gen": {
+          "path": "target-gen-aarch64-unknown-linux-gnu/target-gen",
+          "sha256": "8050dd8a9e34b8417bb373f5692a9d1954a8e9f9f77539b6b62f411c793b8d39"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.32.0/target-gen-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.32.0",
+      "sha256": "cd3abdff01eb0ecde718c65a12753ea4687ff1e0c12bccf56cf3bab6c44da8a2",
+      "size": 5167580,
+      "format": "tar.xz",
+      "binaries": {
+        "target-gen": {
+          "path": "target-gen-x86_64-apple-darwin/target-gen",
+          "sha256": "f424cccbb6a8e19f146ba812d153ba19a8c75253feb3d9d338ee47cc5909fbb1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.32.0/target-gen-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.32.0",
+      "sha256": "c6d1c90ee749b457577c6ba7a7c1786442fdb4391c69fb113a9cd0d876ac4f31",
+      "size": 4807896,
+      "format": "tar.xz",
+      "binaries": {
+        "target-gen": {
+          "path": "target-gen-aarch64-apple-darwin/target-gen",
+          "sha256": "c0aff3b8d4a77cfd768c1f2460240110d8ab7649220472db2b7516fa8b6078cf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.32.0/target-gen-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.32.0",
+      "sha256": "d662225dd11a73e9b6a8812f163202d6ca7ba4229fc15c9091a5015178493196",
+      "size": 7261859,
+      "format": "zip",
+      "binaries": {
+        "target-gen.exe": {
+          "path": "target-gen.exe",
+          "sha256": "bf7e756917dd7fabfa69ed9852e267a110dc7db216527afe13afb70ab32f0431"
+        }
+      }
+    }
+  }
+}
