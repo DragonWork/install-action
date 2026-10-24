@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "clparse",
+  "version": "0.9.2",
+  "repository": "marcaddeo/clparse",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/marcaddeo/clparse/releases/download/0.9.2/clparse-0.9.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.9.2",
+      "sha256": "c68e3320240c58d9675ddffcfb694e4f4ddd0071a88182295006839936548741",
+      "size": 758102,
+      "format": "tar.gz",
+      "binaries": {
+        "clparse": {
+          "path": "clparse",
+          "sha256": "9efcd5c33dd0ea958a0d578db8d33f67236ed12f0a1d75934d001aa37a1b75be"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/marcaddeo/clparse/releases/download/0.9.2/clparse-0.9.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.9.2",
+      "sha256": "4f932c77d136aa8c46df6d44a7703dd624836400007b8ef5b864ddcf21135390",
+      "size": 665670,
+      "format": "tar.gz",
+      "binaries": {
+        "clparse": {
+          "path": "clparse",
+          "sha256": "a5fc82e991d2f6b4060ad7060b9e702fcc3c72f178a0dc8577387896e85d6240"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/marcaddeo/clparse/releases/download/0.9.2/clparse-0.9.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.9.2",
+      "sha256": "bd10fd1032b32525554d079a392c23ee63a8d921b2d85bbf8cd797f330842054",
+      "size": 637044,
+      "format": "tar.gz",
+      "binaries": {
+        "clparse": {
+          "path": "clparse",
+          "sha256": "5fef8679aa96cdabc4d3a887b0dbb956c733368d3907db8d7926943bb5c464b9"
+        }
+      }
+    }
+  }
+}
