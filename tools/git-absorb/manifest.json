@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "git-absorb",
+  "version": "0.9.0",
+  "repository": "tummychow/git-absorb",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.9.0",
+      "sha256": "517b442260a38617b05df0078b9e659b95068fabe8d0a83a33589d15f198d9a7",
+      "size": 1055826,
+      "format": "tar.gz",
+      "binaries": {
+        "git-absorb": {
+          "path": "git-absorb-0.9.0-x86_64-unknown-linux-musl/git-absorb",
+          "sha256": "5e85dbf82f029c9b40ad6fff749eb38ab350270c97e2c11eaafbe9345093f464"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.9.0",
+      "sha256": "1df9ad9206b2a2f0ce312a89188f80d3bace8471ca2799533beec6d83371f760",
+      "size": 887097,
+      "format": "tar.gz",
+      "binaries": {
+        "git-absorb": {
+          "path": "git-absorb-0.9.0-x86_64-apple-darwin/git-absorb",
+          "sha256": "747ccd96693eb1fc4cd7d77231aee7190dc00049253acf6d9f232651f9175c39"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tummychow/git-absorb/releases/download/0.9.0/git-absorb-0.9.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.9.0",
+      "sha256": "3fcf1d9b4f42017dbffe90539c6be5ac415e9b119552c5ae5cdbb034d36aab87",
+      "size": 1171902,
+      "format": "zip",
+      "binaries": {
+        "git-absorb.exe": {
+          "path": "git-absorb-0.9.0-x86_64-pc-windows-msvc/git-absorb.exe",
+          "sha256": "8f8bfb919439143f4e6d96a683e589e3e8c2ded25f75b9bba9ebb7d4bf53f515"
+        }
+      }
+    }
+  }
+}
