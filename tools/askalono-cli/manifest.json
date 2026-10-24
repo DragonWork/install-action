@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "askalono-cli",
+  "version": "0.5.0",
+  "repository": "jpeddicord/askalono",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jpeddicord/askalono/releases/download/0.5.0/askalono-Linux.zip",
+      "sha256": "8a007355b700137b48e7e39aab5d083acb9a0926f20c064ab4476b1624390e52",
+      "size": 3152240,
+      "format": "zip",
+      "releaseTag": "0.5.0",
+      "binaries": {
+        "askalono": {
+          "path": "askalono",
+          "sha256": "2870cbd60c2edb3ff4514e595fe39fcd5c735828b1ded1a0371f5c56da0704d6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jpeddicord/askalono/releases/download/0.5.0/askalono-macOS.zip",
+      "sha256": "3e3d66025a3350f73324efcc7f06754741ed426cfbffea6226be626556f2f076",
+      "size": 3025759,
+      "format": "zip",
+      "releaseTag": "0.5.0",
+      "binaries": {
+        "askalono": {
+          "path": "askalono",
+          "sha256": "776130af8955884cee8c08f28b35629e923d1d56032c2b46d58cba1b1a1322bd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jpeddicord/askalono/releases/download/0.5.0/askalono-Windows.zip",
+      "sha256": "cc8a7fcafa61d3463e46bdd785e09907db747c0bd8f07d5b1bbf19a2f335dc14",
+      "size": 2767412,
+      "format": "zip",
+      "releaseTag": "0.5.0",
+      "binaries": {
+        "askalono.exe": {
+          "path": "askalono.exe",
+          "sha256": "61c364747f8c8488aa9057df56f67bf0580a6c0d36a188be731b7c102423d5f0"
+        }
+      }
+    }
+  }
+}
