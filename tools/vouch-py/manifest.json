@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "vouch-py",
+  "version": "0.3.1",
+  "repository": "thirdpass-org/thirdpass-py",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thirdpass-org/thirdpass-py/releases/download/v0.3.1/vouch-py-v0.3.1-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "2a5780ce639ac6f57a47fa6d045d924ff86d871e1cac95b4b3689f70c89b9f53",
+      "size": 4339317,
+      "format": "zip",
+      "binaries": {
+        "vouch-py": {
+          "path": "vouch-py",
+          "sha256": "a78f39b9ef51ef581d6641a572a84611bdcacd8aba3143b415bd2bcf2cc92bc3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thirdpass-org/thirdpass-py/releases/download/v0.3.1/vouch-py-v0.3.1-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "36e5d95f458376a392c9274b01637166e1f90506c0372126ec8fbaf96d80cb4c",
+      "size": 1828434,
+      "format": "zip",
+      "binaries": {
+        "vouch-py": {
+          "path": "vouch-py",
+          "sha256": "bd492e6a8a7ded48d1541ec252a34fe4d97f9cc0601a412b39bb81153b244974"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/thirdpass-org/thirdpass-py/releases/download/v0.3.1/vouch-py-v0.3.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "52d4b5f607f78eb10a2b3890948fee548d3e4dd2a01d3f433c375406942dc125",
+      "size": 1546546,
+      "format": "zip",
+      "binaries": {
+        "vouch-py.exe": {
+          "path": "vouch-py.exe",
+          "sha256": "88fb77b0bac03d724bc230b3d2cd8f60a1635d28bf70d2fa5853fd0600d54773"
+        }
+      }
+    }
+  }
+}
