@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "hyprshell",
+  "version": "4.10.8",
+  "repository": "H3rmt/hyprshell",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/H3rmt/hyprshell/releases/download/v4.10.8/hyprshell-4.10.8-x86_64.tar.zst",
+      "sha256": "eb0fd873fe8dbf43f7d4acac2a83f99b3ece40f575b937716fc0a32acf8593de",
+      "size": 10775328,
+      "format": "tar.zst",
+      "releaseTag": "v4.10.8",
+      "binaries": {
+        "hyprshell": {
+          "path": "hyprshell",
+          "sha256": "cb603a3416a8667d0110116257942b0f505c61caac7c75d97c5b54726231dc9f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/H3rmt/hyprshell/releases/download/v4.10.8/hyprshell-4.10.8-aarch64.tar.zst",
+      "sha256": "f49bef35a13d8effc4ce0033f00ee72390dc4d40c5d5b94b19df59fe45d652b7",
+      "size": 10593865,
+      "format": "tar.zst",
+      "releaseTag": "v4.10.8",
+      "binaries": {
+        "hyprshell": {
+          "path": "hyprshell",
+          "sha256": "b1db270d77094d988a8c474bbe888607a2357e3a7bd0499917054d4bc1cdd032"
+        }
+      }
+    }
+  }
+}
