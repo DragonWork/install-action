@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tcping",
+  "version": "1.2.24",
+  "repository": "oksyd/tcping-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/oksyd/tcping-rs/releases/download/1.2.24/tcping-1.2.24-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.2.24",
+      "sha256": "c3fb111a600c9647e4d008ef31142a7416e232338787805b5949643a0105e653",
+      "size": 498561,
+      "format": "tar.gz",
+      "binaries": {
+        "tcping": {
+          "path": "tcping-1.2.24-x86_64-unknown-linux-musl/tcping",
+          "sha256": "6d533da6d810afed02bef32dd4df262cc762e20806ccb07caf592d9d78388838"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/oksyd/tcping-rs/releases/download/1.2.24/tcping-1.2.24-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.2.24",
+      "sha256": "595ad0aa486dd6ca9a337a214797e3b5bf1287e6c16f6baa0d0d0a6b2b9fdb3a",
+      "size": 468162,
+      "format": "tar.gz",
+      "binaries": {
+        "tcping": {
+          "path": "tcping-1.2.24-aarch64-unknown-linux-musl/tcping",
+          "sha256": "84e4458a9b57ffe6250e2fde6594008083e03dd8afdac48a6471670961bab29f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/oksyd/tcping-rs/releases/download/1.2.24/tcping-1.2.24-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "1.2.24",
+      "sha256": "6c63ee47bdd07e92659ae3c475333c00cf1e36466d2b9b8ad4432815c108356b",
+      "size": 405519,
+      "format": "tar.gz",
+      "binaries": {
+        "tcping": {
+          "path": "tcping-1.2.24-aarch64-apple-darwin/tcping",
+          "sha256": "997d1b48dfe79e505ded4726266b8aa4154b6638d7b67bb997f50536a2f7b54d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/oksyd/tcping-rs/releases/download/1.2.24/tcping-1.2.24-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.2.24",
+      "sha256": "8fa0a8298f71275427c6fe8deccd945c7b752f6b5a2acafb58f11fae87db53b1",
+      "size": 278523,
+      "format": "zip",
+      "binaries": {
+        "tcping.exe": {
+          "path": "tcping-1.2.24-x86_64-pc-windows-msvc/tcping.exe",
+          "sha256": "8bf16162c0d4b782f0844ae944587db1b7dfea18ffe6a55655a9a12dd8d671a4"
+        }
+      }
+    }
+  }
+}
