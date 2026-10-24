@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "eth-blockies",
+  "version": "1.1.0",
+  "repository": "kim-hwiwon/eth-blockies-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kim-hwiwon/eth-blockies-rs/releases/download/v1.1.0/x86_64-unknown-linux-musl.tgz",
+      "releaseTag": "v1.1.0",
+      "sha256": "34b9c9b17bdab0c4507b72c45da00772325e6fab21875a7e1988467911d58a89",
+      "size": 1209397,
+      "format": "tar.gz",
+      "binaries": {
+        "eth-blockies": {
+          "path": "eth-blockies",
+          "sha256": "345af6f503956a1da2ecaee2f93919628e9294b602c48d2726e5919b9c01a3a8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kim-hwiwon/eth-blockies-rs/releases/download/v1.1.0/x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.0",
+      "sha256": "0feecc079ea06141d2167d6a66a98f75dd95e7cdcfd5adb2dc80f45665bfbb69",
+      "size": 177655,
+      "format": "zip",
+      "binaries": {
+        "eth-blockies.exe": {
+          "path": "eth-blockies.exe",
+          "sha256": "3f064508965d84b17b0b1eed566cdc146b2bb5e9c89f25547474353c3ff47c8b"
+        }
+      }
+    }
+  }
+}
