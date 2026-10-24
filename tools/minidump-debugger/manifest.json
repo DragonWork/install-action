@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "minidump-debugger",
+  "version": "0.3.4",
+  "repository": "rust-minidump/minidump-debugger",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-minidump/minidump-debugger/releases/download/v0.3.4/minidump-debugger-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.3.4",
+      "sha256": "dfc9c7cd66f94ea96845892ad2459e92c839b15ac3ca91a88e58e6ac701ca72e",
+      "size": 18781160,
+      "format": "tar.xz",
+      "binaries": {
+        "minidump-debugger": {
+          "path": "minidump-debugger-x86_64-unknown-linux-gnu/minidump-debugger",
+          "sha256": "a19a7ed0bfdc855abdd818154a7260292dc2169598cd8596a2b33f4996b598d4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-minidump/minidump-debugger/releases/download/v0.3.4/minidump-debugger-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.4",
+      "sha256": "f8754a4d52e7d6dff95382257c61b231bdc7244b53e788c893c442f29853bce2",
+      "size": 5310792,
+      "format": "tar.xz",
+      "binaries": {
+        "minidump-debugger": {
+          "path": "minidump-debugger-x86_64-apple-darwin/minidump-debugger",
+          "sha256": "2aaa8d01fdde780a5fc4db91d1e5b54ec305f51263c8096f4348b1757dad4601"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-minidump/minidump-debugger/releases/download/v0.3.4/minidump-debugger-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.4",
+      "sha256": "86e77c89d7860ac5a785c857c58d0750de731e1f2d7513e8dca809d85b15f509",
+      "size": 4992860,
+      "format": "tar.xz",
+      "binaries": {
+        "minidump-debugger": {
+          "path": "minidump-debugger-aarch64-apple-darwin/minidump-debugger",
+          "sha256": "255d68f96c7d00ca8efad508ad8b31b5b5986baaa226f6996608130ef7903a95"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-minidump/minidump-debugger/releases/download/v0.3.4/minidump-debugger-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.4",
+      "sha256": "d4dbe0ee9059e587317c7b92a419b76d5b9a303c8cc2dfc570c7c62aa02a09a9",
+      "size": 15835550,
+      "format": "zip",
+      "binaries": {
+        "minidump-debugger.exe": {
+          "path": "minidump-debugger.exe",
+          "sha256": "803c4dbefd2d24aa4d3e980367f1e2e2ba09c7c0f6ea61da7016815f3c50020c"
+        }
+      }
+    }
+  }
+}
