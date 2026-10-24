@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "souko",
+  "version": "0.4.2",
+  "repository": "gifnksm/souko",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gifnksm/souko/releases/download/v0.4.2/souko-v0.4.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "7791c74a1e109475e1ededca17a2207dae79634369e61680be575e318b778cdf",
+      "size": 4665485,
+      "format": "tar.gz",
+      "binaries": {
+        "souko": {
+          "path": "souko",
+          "sha256": "35364aa694996d9cc896def2f3336f4a790f8557bf46f777e5f76c441d588379"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/gifnksm/souko/releases/download/v0.4.2/souko-v0.4.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "ecafab246e4f94d3c406ec5f3580cdeab640283589bafa6d8e28f00255279357",
+      "size": 4882787,
+      "format": "tar.gz",
+      "binaries": {
+        "souko": {
+          "path": "souko",
+          "sha256": "b1b29d8cdaccbc797868f76cc4e2e2e2da7837aaac191a64d89185c9b37ab850"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/gifnksm/souko/releases/download/v0.4.2/souko-v0.4.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "2914fbf2d5479cf71a2b4f17449488432a7f175647dc136cd18b0df1da5c2d9e",
+      "size": 4034560,
+      "format": "tar.gz",
+      "binaries": {
+        "souko": {
+          "path": "souko",
+          "sha256": "86671726f7ef237914d00246e2b9743e491eb50853b6b96c57cb4beb83466d76"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/gifnksm/souko/releases/download/v0.4.2/souko-v0.4.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.2",
+      "sha256": "d81ad23e78b9f3acc9c9feb1e5a932cfe1a5051a5e9e21a49606e8569592e1cf",
+      "size": 2512960,
+      "format": "zip",
+      "binaries": {
+        "souko.exe": {
+          "path": "souko.exe",
+          "sha256": "2b37f76e9cf9442f44dae010f33e5e4df282964f8b826cf3bbad8041e0023baa"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/gifnksm/souko/releases/download/v0.4.2/souko-v0.4.2-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.2",
+      "sha256": "4b5316a6a365b206cf9cf136f7fdb7380369df6b9468bc12101dce09ce15a0fc",
+      "size": 2346869,
+      "format": "zip",
+      "binaries": {
+        "souko.exe": {
+          "path": "souko.exe",
+          "sha256": "ac00d07f9407821a8d80591e91937f22d05a93db55d7c9e38edcd503116848bc"
+        }
+      }
+    }
+  }
+}
