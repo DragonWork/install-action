@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-fetcher",
+  "version": "0.14.6",
+  "repository": "EmbarkStudios/cargo-fetcher",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EmbarkStudios/cargo-fetcher/releases/download/0.14.6/cargo-fetcher-0.14.6-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.14.6",
+      "sha256": "3ec4b88c88b65f73d9213b90785a44461be4d6a8d854f728f367698ff8ead445",
+      "size": 8539702,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-fetcher": {
+          "path": "cargo-fetcher-0.14.6-x86_64-unknown-linux-musl/cargo-fetcher",
+          "sha256": "69e65fa0259550733bcec7efde80f139ae51159b95c9d952755e2266e2d1ef2e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EmbarkStudios/cargo-fetcher/releases/download/0.14.6/cargo-fetcher-0.14.6-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.14.6",
+      "sha256": "1f5e91c6f91796bec7e205b95a815a4876750be0ecdff17a52b864556e4b69cb",
+      "size": 8460930,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-fetcher": {
+          "path": "cargo-fetcher-0.14.6-aarch64-unknown-linux-musl/cargo-fetcher",
+          "sha256": "2402c3d050405f52262b101f2e318d74ff051f474083f057377b264056ec0228"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EmbarkStudios/cargo-fetcher/releases/download/0.14.6/cargo-fetcher-0.14.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.14.6",
+      "sha256": "c4ae8b496c6d440a60b1406ad4a06892378e69ea9e663522116a271dcec25e62",
+      "size": 7480434,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-fetcher": {
+          "path": "cargo-fetcher-0.14.6-x86_64-apple-darwin/cargo-fetcher",
+          "sha256": "cae60b372acc5929a6cc266493b459ba45abf51a5f015a32f2c4e42357167ccc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EmbarkStudios/cargo-fetcher/releases/download/0.14.6/cargo-fetcher-0.14.6-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.14.6",
+      "sha256": "f66ea8a3331e5d019deeac98577e435ff0eee53369e579f0a769389d1d1e6afc",
+      "size": 7313227,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-fetcher": {
+          "path": "cargo-fetcher-0.14.6-aarch64-apple-darwin/cargo-fetcher",
+          "sha256": "7236443a68385ba9ad0468a53658b08bfea3cd73135a5a3bd2fc04c17e16be6b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EmbarkStudios/cargo-fetcher/releases/download/0.14.6/cargo-fetcher-0.14.6-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.14.6",
+      "sha256": "383a9f81b3ef749b5cf9b2081dcb19fdabd97a854991f8d11f0dc4610f0d96b6",
+      "size": 6194729,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-fetcher.exe": {
+          "path": "cargo-fetcher-0.14.6-x86_64-pc-windows-msvc/cargo-fetcher.exe",
+          "sha256": "222a15882c4ee47db349782374dae3864189be99b42664090ff1302a0be40187"
+        }
+      }
+    }
+  }
+}
