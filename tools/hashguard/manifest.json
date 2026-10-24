@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "hashguard",
+  "version": "5.0.2",
+  "repository": "javaLux/hashguard",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/javaLux/hashguard/releases/download/v5.0.2/hashguard_5.0.2-gnu-linux-x86_64.tar.gz",
+      "releaseTag": "v5.0.2",
+      "sha256": "6069ee80042bf1beb4de15aa05e12923a5e0cc453b2d1b0ce674dcb675163c45",
+      "size": 1711246,
+      "format": "tar.gz",
+      "binaries": {
+        "hashguard": {
+          "path": "hashguard",
+          "sha256": "5594f8f968735158240515a9daa15b8e7bbde6cc90194e813dbd0e9da33480f9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/javaLux/hashguard/releases/download/v5.0.2/hashguard_5.0.2-gnu-linux-aarch64.tar.gz",
+      "releaseTag": "v5.0.2",
+      "sha256": "4a83afdd401eb482b4cd4cb9e0ff47a912b80f8d319b1dbea2791d4a50dd14f0",
+      "size": 1639068,
+      "format": "tar.gz",
+      "binaries": {
+        "hashguard": {
+          "path": "hashguard",
+          "sha256": "2fdbfe325c188bb4532f6b667499752f506eb069747287d6e4ae31cf9de058e6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/javaLux/hashguard/releases/download/v5.0.2/hashguard_5.0.2-macos-x86_64.tar.gz",
+      "releaseTag": "v5.0.2",
+      "sha256": "4f481074a1d32bdc3c5dca54cc17172ab6100692eec66c90f9835a99bebe98c8",
+      "size": 1653548,
+      "format": "tar.gz",
+      "binaries": {
+        "hashguard": {
+          "path": "hashguard",
+          "sha256": "989f41a68bba0a18df910b5dd0bd043241cd616f49bcf82a825efa5ef6a5dff9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/javaLux/hashguard/releases/download/v5.0.2/hashguard_5.0.2-macos-aarch64.tar.gz",
+      "releaseTag": "v5.0.2",
+      "sha256": "27346914eebadf21c590d229d04b4146892b475a414c254921eb0e417b5cef7f",
+      "size": 1572464,
+      "format": "tar.gz",
+      "binaries": {
+        "hashguard": {
+          "path": "hashguard",
+          "sha256": "12eca7c26a3f8ad5d38c5c215beec2a69368244152f11c7049fc537c503fcece"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/javaLux/hashguard/releases/download/v5.0.2/hashguard_5.0.2-windows-x86_64.zip",
+      "releaseTag": "v5.0.2",
+      "sha256": "a5bda5e603e22c8c8339af50f9aec93ac8be95b465972f5e7e9e0d378e131c2a",
+      "size": 1568391,
+      "format": "zip",
+      "binaries": {
+        "hashguard.exe": {
+          "path": "target/x86_64-pc-windows-msvc/release/hashguard.exe",
+          "sha256": "5a247013cabaae3097f2883e60160ced46da7ca0849e3a601bdd5c3335e4ac2c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/javaLux/hashguard/releases/download/v5.0.2/hashguard_5.0.2-windows-aarch64.zip",
+      "releaseTag": "v5.0.2",
+      "sha256": "422730f5723bfc5450b2891a294a1a87fa176dc0e720a616b84da9cff8d1a1b7",
+      "size": 1496846,
+      "format": "zip",
+      "binaries": {
+        "hashguard.exe": {
+          "path": "target/aarch64-pc-windows-msvc/release/hashguard.exe",
+          "sha256": "7c20b657aecb1b22ed3c3a1eca986d31048949becf3bba3ad21d4bf2f6285dd3"
+        }
+      }
+    }
+  }
+}
