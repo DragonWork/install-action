@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "oneagentgraph",
+  "version": "0.8.0",
+  "repository": "nickderobertis/oneagentgraph",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nickderobertis/oneagentgraph/releases/download/v0.8.0/oneagentgraph-v0.8.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "c00c12414993aed3c5545037b44bc25db78c19d6577e8afa46d69aee41cca558",
+      "size": 5696967,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "oneagentgraph": {
+          "path": "oneagentgraph",
+          "sha256": "03ab1ffc74b12106b4c4f11faab96517a48d145cf8d1360c764c253631a69245"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nickderobertis/oneagentgraph/releases/download/v0.8.0/oneagentgraph-v0.8.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "9adcd4e7f124b39a719ac2674cdc90fcbf6c242ce0e95b6081050ca396c4b3e1",
+      "size": 5247263,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "oneagentgraph": {
+          "path": "oneagentgraph",
+          "sha256": "154777485059fcdcd2115d547a5685ea1d9edfb059fcef537f2e726e33cc9473"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nickderobertis/oneagentgraph/releases/download/v0.8.0/oneagentgraph-v0.8.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "ed4cdcb05f20e63a70c02c2a6b8a409686add83c1b44f240257323f2a0ea3c69",
+      "size": 5091121,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "oneagentgraph": {
+          "path": "oneagentgraph",
+          "sha256": "cbf28351d8694e37e9f9cbcd08b34357a85fd94a3d4101a1ce2b8dad2163fa6a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nickderobertis/oneagentgraph/releases/download/v0.8.0/oneagentgraph-v0.8.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "65575d37503408151fb905103c1e9eba119d854f0270c553419a814e8c676535",
+      "size": 5620435,
+      "format": "zip",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "oneagentgraph.exe": {
+          "path": "oneagentgraph.exe",
+          "sha256": "4022c56d946a920c7b74bfbbdc5b14a8caa62ff65fa397d1e8dc363937f7e197"
+        }
+      }
+    }
+  }
+}
