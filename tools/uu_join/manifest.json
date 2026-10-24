@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_join",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "join.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/join.exe",
+          "sha256": "9bd37fb3d073b6445307b5856559cd55d4e31569b4cf7b0552b3a294c697042f"
+        }
+      }
+    }
+  }
+}
