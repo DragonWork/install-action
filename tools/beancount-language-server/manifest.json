@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "beancount-language-server",
+  "version": "1.9.2",
+  "repository": "polarmutex/beancount-language-server",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/polarmutex/beancount-language-server/releases/download/1.9.2/beancount-language-server-windows-x64.zip",
+      "releaseTag": "1.9.2",
+      "sha256": "ed12f040b8e642ad048592c8588ed4a89a91b3c16e1d3fc61eeb2d3bfbd51678",
+      "size": 2204466,
+      "format": "zip",
+      "binaries": {
+        "beancount-language-server.exe": {
+          "path": "beancount-language-server.exe",
+          "sha256": "8067800b9630489d2f77ca73ad7f28ac792e45f624962f25b7f46967c028b9a2"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/polarmutex/beancount-language-server/releases/download/1.9.2/beancount-language-server-windows-arm64.zip",
+      "releaseTag": "1.9.2",
+      "sha256": "b99e294a3672390986eb9e6a21fbf5887a7e7797e2886e9006eb508fb29028a7",
+      "size": 2063286,
+      "format": "zip",
+      "binaries": {
+        "beancount-language-server.exe": {
+          "path": "beancount-language-server.exe",
+          "sha256": "b62152213fc81fac7954980515d51e534d95768b534ea7abacfe5583e506bad3"
+        }
+      }
+    }
+  }
+}
