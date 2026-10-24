@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "duckscript_cli",
+  "version": "0.11.1",
+  "repository": "sagiegurari/duckscript",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sagiegurari/duckscript/releases/download/0.11.1/duckscript-v0.11.1-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "0.11.1",
+      "sha256": "8943ab3b6507e62e201578aa4a991dd19a4c583cbaed7173b0599a3501bb214d",
+      "size": 2964060,
+      "format": "zip",
+      "binaries": {
+        "duck": {
+          "path": "duckscript-v0.11.1-x86_64-unknown-linux-musl/duck",
+          "sha256": "a5cbf99e89ae9308663ad08e93ffb9fe4c05e6872a59dd88dc6699cdcb9ab735"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sagiegurari/duckscript/releases/download/0.11.1/duckscript-v0.11.1-x86_64-apple-darwin.zip",
+      "releaseTag": "0.11.1",
+      "sha256": "2c02618ddbbffbb82e8a687fed8db3f36cad243a22ad3adb51365e08f1ea81bd",
+      "size": 1568609,
+      "format": "zip",
+      "binaries": {
+        "duck": {
+          "path": "duckscript-v0.11.1-x86_64-apple-darwin/duck",
+          "sha256": "1d1a705d8ad64d9362ae79608d7cdca101f44dbbe4bc9c2e6ef7fd1de8311360"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sagiegurari/duckscript/releases/download/0.11.1/duckscript-v0.11.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.11.1",
+      "sha256": "581db06e418d45c386a3796010216f8b39a756abaf09521d06a5ad09da5bdc00",
+      "size": 1380610,
+      "format": "zip",
+      "binaries": {
+        "duck.exe": {
+          "path": "duck.exe",
+          "sha256": "5ba62844990048db1e9804ed132c924373e3c3efcf0677fb95fba369cb2fdc61"
+        }
+      }
+    }
+  }
+}
