@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "nuhxboard",
+  "version": "1.0.0",
+  "repository": "justDeeevin/NuhxBoard",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/justDeeevin/NuhxBoard/releases/download/v1.0.0/nuhxboard-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.0.0",
+      "sha256": "cd2fbeeace8690fec3fa7a5bbedd4c024cf76fec6e617930a06dde3c27c6516d",
+      "size": 8924540,
+      "format": "tar.xz",
+      "binaries": {
+        "nuhxboard": {
+          "path": "nuhxboard-x86_64-unknown-linux-gnu/nuhxboard",
+          "sha256": "497e51c47987373f7e1b3489a49daaa9ebe2e626a1db7ea6083e6c05eb2a00b9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/justDeeevin/NuhxBoard/releases/download/v1.0.0/nuhxboard-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.0.0",
+      "sha256": "262f5dde85a62ac5760b77c0133a17af4683b251c9431f881d8219387281be92",
+      "size": 6839628,
+      "format": "tar.xz",
+      "binaries": {
+        "nuhxboard": {
+          "path": "nuhxboard-x86_64-apple-darwin/nuhxboard",
+          "sha256": "920f2df8d5c28294bf6cd4e568669bf031881edbe6352e1589f729c484082b3d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/justDeeevin/NuhxBoard/releases/download/v1.0.0/nuhxboard-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "3f3086113f6ff70c71661562ec9984174cccc7cdd07dfaf7cc20f76160abf1e0",
+      "size": 10216649,
+      "format": "zip",
+      "binaries": {
+        "nuhxboard.exe": {
+          "path": "nuhxboard.exe",
+          "sha256": "62bab776cacd3df7ac1a047ee9dff0ad73d3a74c76f66b7548cc1266ed7680f6"
+        }
+      }
+    }
+  }
+}
