@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "hunt",
+  "version": "3.0.0",
+  "repository": "LyonSyonII/hunt-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LyonSyonII/hunt-rs/releases/download/v3.0.0/hunt-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v3.0.0",
+      "sha256": "7ea2ad0b81804c30f5158527eef23906ede520d8c4d5d14487937ab992ca834a",
+      "size": 473296,
+      "format": "tar.xz",
+      "binaries": {
+        "hunt": {
+          "path": "hunt-x86_64-unknown-linux-gnu/hunt",
+          "sha256": "f54b6f465cb13d3711f11288f2adc0cdca302e030ecb93b14aa225260338beea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LyonSyonII/hunt-rs/releases/download/v3.0.0/hunt-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v3.0.0",
+      "sha256": "756bf7f71b528c4df5e73220aae2302c74289a9cf0c5529da2fafef97366bed2",
+      "size": 436280,
+      "format": "tar.xz",
+      "binaries": {
+        "hunt": {
+          "path": "hunt-x86_64-apple-darwin/hunt",
+          "sha256": "85c450399d4ca3a4ccde436dada28889d80fa0dc3eaafe0fc9cd48660fce477c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LyonSyonII/hunt-rs/releases/download/v3.0.0/hunt-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v3.0.0",
+      "sha256": "2cf2f3e9c24d8644e2a0abf27bbe79e36d324775d1d1209c57e4c3bc0de521dc",
+      "size": 384960,
+      "format": "tar.xz",
+      "binaries": {
+        "hunt": {
+          "path": "hunt-aarch64-apple-darwin/hunt",
+          "sha256": "c2bd8f47f6fb74c811c62ea3f16f4476a997abadcd488b686a3218117784f0bb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/LyonSyonII/hunt-rs/releases/download/v3.0.0/hunt-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.0.0",
+      "sha256": "a8ebe23cf7c406182d5c0df335aa40098dc8836f97b5d8cb6463eaf16ad29b99",
+      "size": 1122908,
+      "format": "zip",
+      "binaries": {
+        "hunt.exe": {
+          "path": "hunt.exe",
+          "sha256": "935aee99141ba8dfa6d11bf21e888e98d5a64d125736db98e4bcf9c614efc581"
+        }
+      }
+    }
+  }
+}
