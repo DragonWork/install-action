@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dothttp",
+  "version": "0.10.0",
+  "repository": "alisa101rs/dothttp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alisa101rs/dothttp/releases/download/v0.10.0/dothttp-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "ebd9595a8ec2984066cd214f1a2657e06c51d2a5ddd41b530d9ea58939bf0b66",
+      "size": 5930796,
+      "format": "zip",
+      "binaries": {
+        "dothttp": {
+          "path": "dothttp-x86_64-unknown-linux-gnu/dothttp",
+          "sha256": "79d1093d8e2baf7a2a1db9033007f0f1944d852edf3fe1e41532835b8879cebf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/alisa101rs/dothttp/releases/download/v0.10.0/dothttp-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "685dc5732b263bb1dff4f964ebec3e54cf480f376ce02fa7ce4314832ad805b0",
+      "size": 5829400,
+      "format": "zip",
+      "binaries": {
+        "dothttp": {
+          "path": "dothttp-aarch64-unknown-linux-gnu/dothttp",
+          "sha256": "9e74c1c92896d9001b61a33adf2634c5438f806f35818ffc94f9433340ae63f3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/alisa101rs/dothttp/releases/download/v0.10.0/dothttp-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "3e1622b4a0db4d1ccbd8c08b0bd567f3faa9126a52ae214c102a3d108f7eb361",
+      "size": 5731326,
+      "format": "zip",
+      "binaries": {
+        "dothttp": {
+          "path": "dothttp-x86_64-apple-darwin/dothttp",
+          "sha256": "9d3a2f090b96fb7f07cdc5ac3788c8a4b91db52795e20007a6384f24153ddc99"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/alisa101rs/dothttp/releases/download/v0.10.0/dothttp-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "6883a11bc5eb8387512c9ec5b360693a65c225be4d55f094ecad2080bdc327eb",
+      "size": 5370207,
+      "format": "zip",
+      "binaries": {
+        "dothttp": {
+          "path": "dothttp-aarch64-apple-darwin/dothttp",
+          "sha256": "f3d9004c73a93b1f1254949d0621804e3271b43449349fd9bd7ac485eaa1fd84"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/alisa101rs/dothttp/releases/download/v0.10.0/dothttp-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "5c6296bb167a100ddfaf2f7be25a1af1a981e5242912315618041102585f0e68",
+      "size": 5247273,
+      "format": "zip",
+      "binaries": {
+        "dothttp.exe": {
+          "path": "dothttp-x86_64-pc-windows-msvc/dothttp.exe",
+          "sha256": "1bcd02427a5428e1baaf23e3f20f90dc4f9931da8bf987b13b6894d3dff8b9e6"
+        }
+      }
+    }
+  }
+}
