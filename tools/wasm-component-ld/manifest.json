@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "wasm-component-ld",
+  "version": "0.5.31",
+  "repository": "bytecodealliance/wasm-component-ld",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v0.5.31/wasm-component-ld-v0.5.31-x86_64-linux.tar.gz",
+      "releaseTag": "v0.5.31",
+      "sha256": "354e5ae28d11841334db2be71c3859347fdc1099d7546a6773d6ed6db0e2bf5b",
+      "size": 2293889,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-component-ld": {
+          "path": "wasm-component-ld-v0.5.31-x86_64-linux/wasm-component-ld",
+          "sha256": "724076815f22ff7339cc00c344c7873d9eaec9c80055da951a74432c599fa742"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v0.5.31/wasm-component-ld-v0.5.31-aarch64-linux.tar.gz",
+      "releaseTag": "v0.5.31",
+      "sha256": "d137ce38db694da31076deecd77670b4606bcc7c714b6b0ebe52abdcc14accef",
+      "size": 2312380,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-component-ld": {
+          "path": "wasm-component-ld-v0.5.31-aarch64-linux/wasm-component-ld",
+          "sha256": "6c12a6e80b72654034eeccab4d593ce11fc44ec6c9d5617fd4a353fb8355d45c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v0.5.31/wasm-component-ld-v0.5.31-x86_64-macos.tar.gz",
+      "releaseTag": "v0.5.31",
+      "sha256": "47937e70d8179db18021aa229e7f95eb40bf1f79f0a56bb8187c9c6af070787a",
+      "size": 2171294,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-component-ld": {
+          "path": "wasm-component-ld-v0.5.31-x86_64-macos/wasm-component-ld",
+          "sha256": "44e0b7e229f11cbb8ad3d3e12e3410726d2cc1411cdd2b6bfdfdce9f9a40b119"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v0.5.31/wasm-component-ld-v0.5.31-aarch64-macos.tar.gz",
+      "releaseTag": "v0.5.31",
+      "sha256": "67657eaf18f10dc8971acbfdeca32d0b22607e7702817e0f0628e80e5cd26a54",
+      "size": 2029206,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-component-ld": {
+          "path": "wasm-component-ld-v0.5.31-aarch64-macos/wasm-component-ld",
+          "sha256": "d01d01ee588d0f085e2665a7b3fdf9769dfee5aaa9d7271f6a4cce2e0ef002f8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v0.5.31/wasm-component-ld-v0.5.31-x86_64-windows.zip",
+      "releaseTag": "v0.5.31",
+      "sha256": "8ac841bcd587aba34fe299675a1a7fa8d5d683ee73d25c7323589b7b8de5ef27",
+      "size": 1785170,
+      "format": "zip",
+      "binaries": {
+        "wasm-component-ld.exe": {
+          "path": "wasm-component-ld-v0.5.31-x86_64-windows/wasm-component-ld.exe",
+          "sha256": "8c1cc5af9f432e6c48ac6a2cc89b6753b3e296f20c23d5b291751f07d3f2c233"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v0.5.31/wasm-component-ld-v0.5.31-aarch64-windows.zip",
+      "releaseTag": "v0.5.31",
+      "sha256": "6176404c60efa4ce66bfb4fd0d7aca01044fd7e56cd8ae286c31fd92ec9101a6",
+      "size": 1682940,
+      "format": "zip",
+      "binaries": {
+        "wasm-component-ld.exe": {
+          "path": "wasm-component-ld-v0.5.31-aarch64-windows/wasm-component-ld.exe",
+          "sha256": "9436f6009292772c3ec1bb0f9c32e47caef2b0a79fce0958833d41eb22fe3e74"
+        }
+      }
+    }
+  }
+}
