@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "microsandbox-cli",
+  "version": "0.7.10",
+  "repository": "superradcompany/microsandbox",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/superradcompany/microsandbox/releases/download/v0.7.10/microsandbox-linux-x86_64.tar.gz",
+      "releaseTag": "v0.7.10",
+      "sha256": "b56b173ed9b4074a226763d8237aaf3942603949584011dd33bdcf1d439abb18",
+      "size": 29685017,
+      "format": "tar.gz",
+      "binaries": {
+        "msb": {
+          "path": "msb",
+          "sha256": "be6c46919b7fcf6af77d33b82d437d660af1ec9ff702d89051f489432827d9a2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/superradcompany/microsandbox/releases/download/v0.7.10/microsandbox-linux-aarch64.tar.gz",
+      "releaseTag": "v0.7.10",
+      "sha256": "b971075c143bbe1eb0c19970a0a305a8f1bd662446f01efd5a8870c9b203e3e1",
+      "size": 32818720,
+      "format": "tar.gz",
+      "binaries": {
+        "msb": {
+          "path": "msb",
+          "sha256": "889cb200556f30141cd022c335eebb67188e87c6df81848e7b0fb50e6333e706"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/superradcompany/microsandbox/releases/download/v0.7.10/microsandbox-darwin-aarch64.tar.gz",
+      "releaseTag": "v0.7.10",
+      "sha256": "454551fd968a0dbaab771a0cb629081fbc285017183874754b0c8a42c12528f8",
+      "size": 31620833,
+      "format": "tar.gz",
+      "binaries": {
+        "msb": {
+          "path": "msb",
+          "sha256": "e9dab186457cb1713d81ae4af9b890372fcef196912d94bda0fb252aebcfc759"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/superradcompany/microsandbox/releases/download/v0.7.10/msb-windows-x86_64.exe",
+      "releaseTag": "v0.7.10",
+      "sha256": "714c37dac0e847f1309ba520269930b04b0201120fc0ef392ed766b792258612",
+      "size": 46982656,
+      "format": "binary",
+      "binaries": {
+        "msb.exe": {
+          "path": "msb-windows-x86_64.exe",
+          "sha256": "714c37dac0e847f1309ba520269930b04b0201120fc0ef392ed766b792258612"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/superradcompany/microsandbox/releases/download/v0.7.10/msb-windows-aarch64.exe",
+      "releaseTag": "v0.7.10",
+      "sha256": "fcef2bce1a0c4095ba6cbc4f9f0d03528089688cd585ce258b69a33687b14faa",
+      "size": 39910400,
+      "format": "binary",
+      "binaries": {
+        "msb.exe": {
+          "path": "msb-windows-aarch64.exe",
+          "sha256": "fcef2bce1a0c4095ba6cbc4f9f0d03528089688cd585ce258b69a33687b14faa"
+        }
+      }
+    }
+  }
+}
