@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ncm_c",
+  "version": "0.2.10",
+  "repository": "kingwingfly/ncmc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kingwingfly/ncmc/releases/download/v0.2.10/ncm_c-v0.2.10-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.10",
+      "sha256": "9a4b17fc2160c4c8f1cca0f69f2b56d55aa487bd2d0892b804fca4f6ef15a31e",
+      "size": 1322164,
+      "format": "tar.gz",
+      "binaries": {
+        "ncm_c": {
+          "path": "ncm_c",
+          "sha256": "29071df093632792235a26be09762924ee52b2c483f9dec0ae7085e3627b464c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kingwingfly/ncmc/releases/download/v0.2.10/ncm_c-v0.2.10-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.10",
+      "sha256": "9f97e9748d40312fc42901644d628ce25eb0cf98095e8bb9addd55da5b4a0b98",
+      "size": 1240939,
+      "format": "tar.gz",
+      "binaries": {
+        "ncm_c": {
+          "path": "ncm_c",
+          "sha256": "362424908cd7413830a1d3dbfb27dc99a693dc8e9bdfae1743f2f9dae35a5bfc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kingwingfly/ncmc/releases/download/v0.2.10/ncm_c-v0.2.10-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.10",
+      "sha256": "85ab1186473f76d3b796274e3db905f1fe102b0116832f27a3994e8ba3223da0",
+      "size": 1135110,
+      "format": "tar.gz",
+      "binaries": {
+        "ncm_c": {
+          "path": "ncm_c",
+          "sha256": "fda0c86ea9cd4807e9fb9f2ff639f5a2bea7dc9b3ed7a64a5ff20b33ab8f946f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kingwingfly/ncmc/releases/download/v0.2.10/ncm_c-v0.2.10-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.10",
+      "sha256": "4bf8ab1dbddeddd5501e06111bb55d120821c863d1dd09c2b0fbea53a47f9142",
+      "size": 1061939,
+      "format": "zip",
+      "binaries": {
+        "ncm_c.exe": {
+          "path": "ncm_c.exe",
+          "sha256": "35cf6192801accfee98ac5e9c5485b533dc88f1de4ec2b3f4a299073cbdeda80"
+        }
+      }
+    }
+  }
+}
