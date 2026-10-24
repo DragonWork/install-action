@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "xdvdfs-cli",
+  "version": "0.8.3",
+  "repository": "antangelo/xdvdfs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/antangelo/xdvdfs/releases/download/v0.8.3/xdvdfs-linux-1cc850bf1b3487fad7ec7c9eed01d83e8fc75ba4.zip",
+      "sha256": "f96a07359b56ceb580632437b8334633b7a8f1a931bc81b18c33cd745df2c708",
+      "size": 1614375,
+      "format": "zip",
+      "releaseTag": "v0.8.3",
+      "binaries": {
+        "xdvdfs": {
+          "path": "xdvdfs",
+          "sha256": "ba860c079d756451e6396824e9866724d9765d4cabd1ecee148e53d18350a2e8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/antangelo/xdvdfs/releases/download/v0.8.3/xdvdfs-windows-1cc850bf1b3487fad7ec7c9eed01d83e8fc75ba4.zip",
+      "sha256": "008b1b3a63f1ecb00d1ed51ab154053fd0f7c41c68e973455bbe77ab989a7cc5",
+      "size": 1582072,
+      "format": "zip",
+      "releaseTag": "v0.8.3",
+      "binaries": {
+        "xdvdfs.exe": {
+          "path": "xdvdfs.exe",
+          "sha256": "df5f19954ef706c130c256546bf67cf7725611bdb30d1815577187007a6f907a"
+        }
+      }
+    }
+  }
+}
