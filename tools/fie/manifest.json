@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "fie",
+  "version": "0.16.3",
+  "repository": "DoumanAsh/fie",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DoumanAsh/fie/releases/download/0.16.3/fie-0.16.3-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "0.16.3",
+      "sha256": "1ade9b85e3aee55b90dcfef2013ada0ad4e55b2f5f5062d2a56546e8e85dbe0d",
+      "size": 2295090,
+      "format": "zip",
+      "binaries": {
+        "fie": {
+          "path": "fie",
+          "sha256": "c76b4c01f8a314e5b334a7b493d860713a3fef4058d8bbdc762b77801bfcfea0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/DoumanAsh/fie/releases/download/0.16.3/fie-0.16.3-x86_64-apple-darwin.zip",
+      "releaseTag": "0.16.3",
+      "sha256": "111206e4b91f3d613f92189d9c55c119aa310a19868e334cba7b3dd9550f39c5",
+      "size": 1870523,
+      "format": "zip",
+      "binaries": {
+        "fie": {
+          "path": "fie",
+          "sha256": "01a27e61b3dbe60c84f758ca4ab474373d83ff2ad999ba33b3c61e542ee420f6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/DoumanAsh/fie/releases/download/0.16.3/fie-0.16.3-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.16.3",
+      "sha256": "cef1a77393a12c1906b8c123d6d3a58deef267358c57539debe7af9d403d8822",
+      "size": 1493016,
+      "format": "zip",
+      "binaries": {
+        "fie.exe": {
+          "path": "fie.exe",
+          "sha256": "8115cea05e7f912896a4a479c2e74c09e6c124ccce2dca0b55387975b1441be6"
+        }
+      }
+    }
+  }
+}
