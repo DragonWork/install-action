@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "http-srv",
+  "version": "0.9.0",
+  "repository": "saulvaldelvira/http-server",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/saulvaldelvira/http-server/releases/download/v0.9.0/http-srv-v0.9.0-x86_64-linux.tar.xz",
+      "releaseTag": "v0.9.0",
+      "sha256": "4dabe06c6c4228ed9222abbae7e34cec69dc104a5cdd12b703fa260e43ad3057",
+      "size": 1642756,
+      "format": "tar.xz",
+      "binaries": {
+        "http-srv": {
+          "path": "http-srv-v0.9.0-x86_64-linux/http-srv",
+          "sha256": "08ad8601c339ab787fe9065198f524f574e658a7cc4aaacdc0e126284951d914"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/saulvaldelvira/http-server/releases/download/v0.9.0/http-srv-v0.9.0-aarch64-linux.tar.xz",
+      "releaseTag": "v0.9.0",
+      "sha256": "c53c4c4c8ad9de67a4be499728a3d16e33d263e5a97988179ecb8c221e400043",
+      "size": 1467400,
+      "format": "tar.xz",
+      "binaries": {
+        "http-srv": {
+          "path": "http-srv-v0.9.0-aarch64-linux/http-srv",
+          "sha256": "66b03857e353b1133de24cd98da77745d2a1f5b04d2ca09222adc1cf575fbb23"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/saulvaldelvira/http-server/releases/download/v0.9.0/http-srv-v0.9.0-x86_64-macos.tar.xz",
+      "releaseTag": "v0.9.0",
+      "sha256": "6038cfeaca1e9f2742931a5615eb76b91122aed89da579dc6dfa6ec46d3e6f6a",
+      "size": 1585552,
+      "format": "tar.xz",
+      "binaries": {
+        "http-srv": {
+          "path": "http-srv-v0.9.0-x86_64-macos/http-srv",
+          "sha256": "7fffccf9c37e890a8efed960e31d253eac521ce883840e488a415435a0b94af5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/saulvaldelvira/http-server/releases/download/v0.9.0/http-srv-v0.9.0-x86_64-windows.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "2a4efc6e6b25b55d3e73923df5a71c31cc51e53c9e8d072940d1d5dc72884f15",
+      "size": 2512713,
+      "format": "zip",
+      "binaries": {
+        "http-srv.exe": {
+          "path": "http-srv-v0.9.0-x86_64-windows/http-srv.exe",
+          "sha256": "8bf1aabbb9c7d8b44ded43e23ccd3dadafff422bdcfd29bdcfe8ec4055b4e551"
+        }
+      }
+    }
+  }
+}
