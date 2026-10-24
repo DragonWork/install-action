@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "atg",
+  "version": "0.8.7",
+  "repository": "anergictcell/atg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/anergictcell/atg/releases/download/0.8.7/atg-0.8.7-x86_64-unknown-linux-musl",
+      "sha256": "e1f9188a438e8b71fcb1f93c75b92c20688dd0bdade19e4ccefcfa7610846799",
+      "size": 14873656,
+      "format": "binary",
+      "releaseTag": "0.8.7",
+      "binaries": {
+        "atg": {
+          "path": "atg-0.8.7-x86_64-unknown-linux-musl",
+          "sha256": "e1f9188a438e8b71fcb1f93c75b92c20688dd0bdade19e4ccefcfa7610846799"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/anergictcell/atg/releases/download/0.8.7/atg-0.8.7-x86_64-apple-darwin",
+      "sha256": "abcc307100a878f6de2372e550c0d94740a59717320e92b33fb372bc887886ea",
+      "size": 13711788,
+      "format": "binary",
+      "releaseTag": "0.8.7",
+      "binaries": {
+        "atg": {
+          "path": "atg-0.8.7-x86_64-apple-darwin",
+          "sha256": "abcc307100a878f6de2372e550c0d94740a59717320e92b33fb372bc887886ea"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/anergictcell/atg/releases/download/0.8.7/atg-0.8.7-aarch64-apple-darwin",
+      "sha256": "a5a7a45eeedbf843e63bddaa3b97a409488277fe810137bb52b09f5b4605e48b",
+      "size": 12116544,
+      "format": "binary",
+      "releaseTag": "0.8.7",
+      "binaries": {
+        "atg": {
+          "path": "atg-0.8.7-aarch64-apple-darwin",
+          "sha256": "a5a7a45eeedbf843e63bddaa3b97a409488277fe810137bb52b09f5b4605e48b"
+        }
+      }
+    }
+  }
+}
