@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rasusa",
+  "version": "5.1.0",
+  "repository": "mbhall88/rasusa",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mbhall88/rasusa/releases/download/5.1.0/rasusa-5.1.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "5.1.0",
+      "sha256": "878153f32661295b606688db6286df00674aa51713d0f79d9d0953e3261fddee",
+      "size": 2448571,
+      "format": "tar.gz",
+      "binaries": {
+        "rasusa": {
+          "path": "rasusa-5.1.0-x86_64-unknown-linux-musl/rasusa",
+          "sha256": "f918decbdfbd2053addaaaeac5b73d9cc3c78e5b6b106717c7237a77e03eb5ef"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mbhall88/rasusa/releases/download/5.1.0/rasusa-5.1.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "5.1.0",
+      "sha256": "09c4d5413003fe3015929b1de58be401da4ee80e2e17193fdfb0a875e106bbc0",
+      "size": 2216880,
+      "format": "tar.gz",
+      "binaries": {
+        "rasusa": {
+          "path": "rasusa-5.1.0-aarch64-unknown-linux-musl/rasusa",
+          "sha256": "1395dca1a4976a48c8588eb049916dfdce63f465bd8e7cf4ffe466f00963aec5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mbhall88/rasusa/releases/download/5.1.0/rasusa-5.1.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "5.1.0",
+      "sha256": "77429237f836a83bd668c91c7e87a1887d5fa62d16bebbe7f3c8e49bf2307c79",
+      "size": 2208506,
+      "format": "tar.gz",
+      "binaries": {
+        "rasusa": {
+          "path": "rasusa-5.1.0-x86_64-apple-darwin/rasusa",
+          "sha256": "24431cfd068ad1d9cdbf48222cc2cf07b4318fa29bbdf0837a47d83b793a8d62"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mbhall88/rasusa/releases/download/5.1.0/rasusa-5.1.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "5.1.0",
+      "sha256": "9f880c4898ad67bdf2a26a00fca18e8dd9c5ca4c6bbdc5475e3e75abc17851d1",
+      "size": 1898648,
+      "format": "tar.gz",
+      "binaries": {
+        "rasusa": {
+          "path": "rasusa-5.1.0-aarch64-apple-darwin/rasusa",
+          "sha256": "bab58a3ef8d25c5f85aaa84182d8c9580af8b7217070bfb7d6c1a57299e35fcf"
+        }
+      }
+    }
+  }
+}
