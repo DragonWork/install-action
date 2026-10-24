@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "smeagol-wiki",
+  "version": "0.5.1",
+  "repository": "AustinWise/smeagol",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.1/smeagol-wiki-0.5.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.5.1",
+      "sha256": "288c560f6f2032332b8e4e6440b23bdb12e613a2ee4e74f12d95244d43819672",
+      "size": 5189475,
+      "format": "tar.gz",
+      "binaries": {
+        "smeagol-wiki": {
+          "path": "smeagol-wiki-0.5.1-x86_64-unknown-linux-gnu/smeagol-wiki",
+          "sha256": "3c13c0599f1e1e07d808c2363efb773f57fbebd82292cefb3a2fb63f034e0c1c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.1/smeagol-wiki-0.5.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.5.1",
+      "sha256": "d7e593d36e621c701dd2bff6155ecb8c51312856ad45aca0abe3e18e3a215c1f",
+      "size": 4834591,
+      "format": "tar.gz",
+      "binaries": {
+        "smeagol-wiki": {
+          "path": "smeagol-wiki-0.5.1-aarch64-unknown-linux-gnu/smeagol-wiki",
+          "sha256": "35505caa20258add0234c9c1ca24bd1124aea7a84094e111ba6cbc52a3f38455"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.1/smeagol-wiki-0.5.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.5.1",
+      "sha256": "312735ec06377bf8991170964fee1fa067b0dc04679883c3bfc56ce1ead7b877",
+      "size": 4864344,
+      "format": "tar.gz",
+      "binaries": {
+        "smeagol-wiki": {
+          "path": "smeagol-wiki-0.5.1-x86_64-apple-darwin/smeagol-wiki",
+          "sha256": "e35f5c27c0c97e4a84d97f958a988a93b525b10084ddb900c4d80e524730907c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.1/smeagol-wiki-0.5.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.5.1",
+      "sha256": "05ebf8e68488cd9fe641631b3c24c7680193623b6e6fa10cde96213a4a47c74a",
+      "size": 4556750,
+      "format": "tar.gz",
+      "binaries": {
+        "smeagol-wiki": {
+          "path": "smeagol-wiki-0.5.1-aarch64-apple-darwin/smeagol-wiki",
+          "sha256": "dcb98975303e92f15c78d3eb03e3a24663f393617847a563e499d93ae6df3ea3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.1/smeagol-wiki-0.5.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.5.1",
+      "sha256": "e95e33739cdaee022a00dac86c1629c2b6ee334c461e3f7592c64c6fdf2ff05b",
+      "size": 4961440,
+      "format": "zip",
+      "binaries": {
+        "smeagol-wiki.exe": {
+          "path": "smeagol-wiki-0.5.1-x86_64-pc-windows-msvc/smeagol-wiki.exe",
+          "sha256": "6293a630ec51b68259c390950ac8ff60ad76631f4a5cbdbfeb2c4ddcd454270c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.1/smeagol-wiki-0.5.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.5.1",
+      "sha256": "357d0192d08106d6f7429a90863a9a4566e464aa14c70ae1eb5a656255577a88",
+      "size": 4724876,
+      "format": "zip",
+      "binaries": {
+        "smeagol-wiki.exe": {
+          "path": "smeagol-wiki-0.5.1-aarch64-pc-windows-msvc/smeagol-wiki.exe",
+          "sha256": "92e6449ad1d159fc75b3a0969df8e752c914a8c354fa5d1a0fbadb8da2a6d324"
+        }
+      }
+    }
+  }
+}
