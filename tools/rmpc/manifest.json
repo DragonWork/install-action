@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rmpc",
+  "version": "0.11.0",
+  "repository": "mierak/rmpc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mierak/rmpc/releases/download/v0.11.0/rmpc-v0.11.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "9cef6597d14ae58336ab465056da9e313d3b3bb3986c67691ee6ae13b7bf5a74",
+      "size": 5937759,
+      "format": "tar.gz",
+      "binaries": {
+        "rmpc": {
+          "path": "rmpc",
+          "sha256": "820c121cec9f2a3814b141e5ac36a61fa97992574c6d0bc08aea4c8c8d7807a8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mierak/rmpc/releases/download/v0.11.0/rmpc-v0.11.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "ed5eef4a12cb1a32f05dd9d2116f0e291c6281b4acb9db16714442fdf004b21f",
+      "size": 5690668,
+      "format": "tar.gz",
+      "binaries": {
+        "rmpc": {
+          "path": "rmpc",
+          "sha256": "b2b3693c0ca4ca7c6ec8c53bec01ac24361ae6ee0de35019b6de3fc4d9c33eae"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mierak/rmpc/releases/download/v0.11.0/rmpc-v0.11.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "b07b0df595f4d412282f6ec4b76329ef539d2d40bda786764ad169c6355571ba",
+      "size": 5478861,
+      "format": "tar.gz",
+      "binaries": {
+        "rmpc": {
+          "path": "rmpc",
+          "sha256": "2fbe18734fb055f2c120a37262144b61104912a445d9c6caf8e6fe9e1b5d3873"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mierak/rmpc/releases/download/v0.11.0/rmpc-v0.11.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "ee5050ce91ad922090cdb92be8ff030042fb6cf0329f47f35c50e9f8b579501e",
+      "size": 5242538,
+      "format": "tar.gz",
+      "binaries": {
+        "rmpc": {
+          "path": "rmpc",
+          "sha256": "fae4b61acb65e6c476b583334a14c05b41ab296a4e32b2b35e1cbc0f74589cdf"
+        }
+      }
+    }
+  }
+}
