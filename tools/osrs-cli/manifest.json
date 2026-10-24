@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "osrs-cli",
+  "version": "2.0.1",
+  "repository": "LucasPickering/osrs-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LucasPickering/osrs-cli/releases/download/v2.0.1/osrs-cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v2.0.1",
+      "sha256": "d2884dc182783babaadb33de7cddb0dd9e08cae302f9fc5b9fc08a3351d585b8",
+      "size": 2458420,
+      "format": "tar.xz",
+      "binaries": {
+        "osrs": {
+          "path": "osrs-cli-x86_64-unknown-linux-musl/osrs",
+          "sha256": "6d867f33fb2d23a1a66aeab1031077981c1d2b0e6efd6308fc696e90ca2a35b9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/LucasPickering/osrs-cli/releases/download/v2.0.1/osrs-cli-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.0.1",
+      "sha256": "fb9c6cf17c1345036da3c4eb9bf671872adc306fca3729ab7455fb67dc8fa989",
+      "size": 1839072,
+      "format": "tar.xz",
+      "binaries": {
+        "osrs": {
+          "path": "osrs-cli-aarch64-unknown-linux-gnu/osrs",
+          "sha256": "3a47736e6540a51dcc5ce7db887d9c178450e5597d983f004cfe76deb08cd388"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LucasPickering/osrs-cli/releases/download/v2.0.1/osrs-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v2.0.1",
+      "sha256": "4aeb381b609f69a51ce4c537fe9000b7055fcf28ab7f855fd1dcfb5dc224180b",
+      "size": 2231536,
+      "format": "tar.xz",
+      "binaries": {
+        "osrs": {
+          "path": "osrs-cli-x86_64-apple-darwin/osrs",
+          "sha256": "9b0cb171a3e4539816fa7906f970a801d5b5ed0f3aefd337e7867fa6fe2e933a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LucasPickering/osrs-cli/releases/download/v2.0.1/osrs-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2.0.1",
+      "sha256": "8ec72efc1cec8a5999db03dd8690683e3f3db6c10b8d9d83818108ad06a7592a",
+      "size": 2042356,
+      "format": "tar.xz",
+      "binaries": {
+        "osrs": {
+          "path": "osrs-cli-aarch64-apple-darwin/osrs",
+          "sha256": "ba6b3b9e1b9eb1e04524788aa754c4c0322fdb8069764ee90c2c8d1c8d3aae76"
+        }
+      }
+    }
+  }
+}
