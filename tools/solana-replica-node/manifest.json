@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "solana-replica-node",
+  "version": "1.13.7",
+  "repository": "solana-labs/solana",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/solana-labs/solana/releases/download/v1.13.7/solana-install-init-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v1.13.7",
+      "sha256": "d5d7993acefd17d4a458bd081aadfdd5566a007d6bf7d0c90ef163f3efa36d02",
+      "size": 8326144,
+      "format": "binary",
+      "binaries": {
+        "solana-replica-node.exe": {
+          "path": "solana-install-init-x86_64-pc-windows-msvc.exe",
+          "sha256": "d5d7993acefd17d4a458bd081aadfdd5566a007d6bf7d0c90ef163f3efa36d02"
+        }
+      }
+    }
+  }
+}
