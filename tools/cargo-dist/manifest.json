@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-dist",
+  "version": "0.32.0",
+  "repository": "axodotdev/cargo-dist",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.32.0",
+      "sha256": "0d9dc001b0e937e9cc18e0dc11784aa7a3fd566656b07828d5e1d10ce1c1c48c",
+      "size": 6612988,
+      "format": "tar.xz",
+      "binaries": {
+        "dist": {
+          "path": "cargo-dist-x86_64-unknown-linux-musl/dist",
+          "sha256": "282213d0b4c04598e7d2ff4aaf036d56813f1819646e7887e474acf04bc6f5d8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.32.0",
+      "sha256": "16d4394af9b91366ca92cb4601a72dd0a209a49301ef535749e2141039e26ed6",
+      "size": 5024280,
+      "format": "tar.xz",
+      "binaries": {
+        "dist": {
+          "path": "cargo-dist-aarch64-unknown-linux-musl/dist",
+          "sha256": "181d2eb6468755d753555a82947e621bf6c82f97817afe41793d0ed188975765"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.32.0",
+      "sha256": "6243464a8389e006b9256ee548bc795638f1a17113c1b6669c0e05ce89fd05c5",
+      "size": 6154984,
+      "format": "tar.xz",
+      "binaries": {
+        "dist": {
+          "path": "cargo-dist-x86_64-apple-darwin/dist",
+          "sha256": "5058cee214cdf892b1811f45895b461cff9cb6db3c209af0494cb1ec9986c94e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.32.0",
+      "sha256": "aa343b2ff78ec2981f17a65140250c5ad6062c74072163f68c5c2686d94763a7",
+      "size": 5534744,
+      "format": "tar.xz",
+      "binaries": {
+        "dist": {
+          "path": "cargo-dist-aarch64-apple-darwin/dist",
+          "sha256": "d15349313730639e30bd3074cacbeae75b96d0480b49332a6ad4132120abc8b8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.32.0",
+      "sha256": "26e845cabff12a92911ce960af73a86c8f9b2b2d9072b01dfe5b662acf044fa3",
+      "size": 8372344,
+      "format": "zip",
+      "binaries": {
+        "dist.exe": {
+          "path": "dist.exe",
+          "sha256": "919e7e820ff2a05c12a27a1e6cb584602507d9573be5e77fb560d01e908f2031"
+        }
+      }
+    }
+  }
+}
