@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rslint_regex",
+  "version": "0.2.1",
+  "repository": "rslint/rslint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rslint/rslint/releases/download/v0.2.1/rslint_cli-linux",
+      "sha256": "b716197fc2bc9b57b3f3874b33f8562da8405099f06205fe8c3c4bbe4b804ef8",
+      "size": 5977416,
+      "format": "binary",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "rslint_regex": {
+          "path": "rslint_cli-linux",
+          "sha256": "b716197fc2bc9b57b3f3874b33f8562da8405099f06205fe8c3c4bbe4b804ef8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rslint/rslint/releases/download/v0.2.1/rslint_cli-macos",
+      "sha256": "1617ce717b9a048f6860b8523e006996e9ab57bd598fa1f2452748893089712d",
+      "size": 4812832,
+      "format": "binary",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "rslint_regex": {
+          "path": "rslint_cli-macos",
+          "sha256": "1617ce717b9a048f6860b8523e006996e9ab57bd598fa1f2452748893089712d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rslint/rslint/releases/download/v0.2.1/rslint_cli-windows",
+      "sha256": "d7f7bb4c13f8ebace8419e61a8b98b6f7e017887fcddc16da124e7cb54bdb0ec",
+      "size": 4217344,
+      "format": "binary",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "rslint_regex.exe": {
+          "path": "rslint_cli-windows",
+          "sha256": "d7f7bb4c13f8ebace8419e61a8b98b6f7e017887fcddc16da124e7cb54bdb0ec"
+        }
+      }
+    }
+  }
+}
