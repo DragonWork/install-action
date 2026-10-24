@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "koto_cli",
+  "version": "0.16.1",
+  "repository": "koto-lang/koto",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/koto-lang/koto/releases/download/v0.16.1/koto-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.16.1",
+      "sha256": "d33462909f0d197418601e0eb182e4c880c64dd45af666abb5853a85c830ed80",
+      "size": 2387154,
+      "format": "tar.gz",
+      "binaries": {
+        "koto": {
+          "path": "koto",
+          "sha256": "1a47afdf5da3e6baf242e2bf8dae2d4bac667a85cdb6717db15bf430f7d40f9d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/koto-lang/koto/releases/download/v0.16.1/koto-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.16.1",
+      "sha256": "fe75985e99d060f72d2a139206b53f42eb52598597b0e3c6cdfa6a860b5ee20b",
+      "size": 2269456,
+      "format": "tar.gz",
+      "binaries": {
+        "koto": {
+          "path": "koto",
+          "sha256": "d71c01637b012a1a938c5db2ebf1a3e31f56ab0cbcda1400a0d1ba7c6a99cbf0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/koto-lang/koto/releases/download/v0.16.1/koto-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.16.1",
+      "sha256": "ad428bb7730a8e1a5422217fb14ab71b072c4f3ddf14b5c64f2a8ea8c881ece2",
+      "size": 2138220,
+      "format": "tar.gz",
+      "binaries": {
+        "koto": {
+          "path": "koto",
+          "sha256": "8e8d6acf3d9c915511416ff4910298fba03235023b3de6dd360a7b1caf3c013c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/koto-lang/koto/releases/download/v0.16.1/koto-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.16.1",
+      "sha256": "177a9573b08416d5f00d6e38819a9a2513df5ab82e4f8fcb18ef2bae9e25278a",
+      "size": 2027533,
+      "format": "zip",
+      "binaries": {
+        "koto.exe": {
+          "path": "koto.exe",
+          "sha256": "fc9f2f72c0b41a809d49ab8de703542786de0bd9e7b5691281cb15c3b4a14ca1"
+        }
+      }
+    }
+  }
+}
