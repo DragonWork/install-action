@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "srgn",
+  "version": "0.14.2",
+  "repository": "alexpovel/srgn",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alexpovel/srgn/releases/download/srgn-v0.14.2/srgn-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "srgn-v0.14.2",
+      "sha256": "7cad2ac87390f49786e666cfcd48011ed7d68ec58569bd951395d9a802096ff5",
+      "size": 4844685,
+      "format": "tar.gz",
+      "binaries": {
+        "srgn": {
+          "path": "srgn/srgn",
+          "sha256": "c8b728afdc529c2b268f4b9a47fe7f6bd255f4d83ea9607e8221287cf40b598d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/alexpovel/srgn/releases/download/srgn-v0.14.2/srgn-x86_64-apple-darwin.tgz",
+      "releaseTag": "srgn-v0.14.2",
+      "sha256": "c4be1e52cfb29ef2284bc57a0dbf9a52da2e36767eabeb5d046150be7e1f5c83",
+      "size": 4707747,
+      "format": "tar.gz",
+      "binaries": {
+        "srgn": {
+          "path": "srgn/srgn",
+          "sha256": "f7dd3a726a275c64b1d393ae9d6f4a88543bd80270d18d3954c5a923fccbfc25"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/alexpovel/srgn/releases/download/srgn-v0.14.2/srgn-aarch64-apple-darwin.tgz",
+      "releaseTag": "srgn-v0.14.2",
+      "sha256": "d89b50c446a672d8f8c0ee351dc6562e975c420e47d4d5cd8ca5993b53644d69",
+      "size": 4699151,
+      "format": "tar.gz",
+      "binaries": {
+        "srgn": {
+          "path": "srgn/srgn",
+          "sha256": "95732158c0e05677c9a0216504558f5a871f7ca5f47bec261dda9b5d7c66a484"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/alexpovel/srgn/releases/download/srgn-v0.14.2/srgn-x86_64-pc-windows-msvc.tgz",
+      "releaseTag": "srgn-v0.14.2",
+      "sha256": "b230d2e68392622d9c910843c9c24d363947d570d6ce32f56214a86885964d4d",
+      "size": 4395516,
+      "format": "tar.gz",
+      "binaries": {
+        "srgn.exe": {
+          "path": "srgn/srgn.exe",
+          "sha256": "49d7cf1d4f6db781948b67be5e8caf57bf57b45d20cfd5694157649e34c1bd96"
+        }
+      }
+    }
+  }
+}
