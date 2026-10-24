@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hawkeye",
+  "version": "7.2.0",
+  "repository": "fast/hawkeye",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v7.2.0",
+      "sha256": "b353991dc911bcd83ec57b2fc786d2440bef16b926961442db461b43e212c18d",
+      "size": 3264060,
+      "format": "tar.xz",
+      "binaries": {
+        "hawkeye": {
+          "path": "hawkeye-x86_64-unknown-linux-musl/hawkeye",
+          "sha256": "8f3c90ee966cf99786990f29f2e8ce17c46a12f9ce4d2fde6938a2863a300f0e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v7.2.0",
+      "sha256": "6d9e38d42bc814b1b142f61ec9f0add8a1d26f6b91462d50e21605e699867bf1",
+      "size": 2946848,
+      "format": "tar.xz",
+      "binaries": {
+        "hawkeye": {
+          "path": "hawkeye-aarch64-unknown-linux-musl/hawkeye",
+          "sha256": "1e2730fc146f5506644afed5d4a8ff6e1fa95820e181ff0177c7df02a84e3dd8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v7.2.0",
+      "sha256": "841e3bbc5e02856c7cb1a8d0bc1688bbfdaf6ba41f6bbb19fc6ee6d7a10e9547",
+      "size": 2965532,
+      "format": "tar.xz",
+      "binaries": {
+        "hawkeye": {
+          "path": "hawkeye-x86_64-apple-darwin/hawkeye",
+          "sha256": "d49ba76560a6ea1da3c114150a8aba925b810be883ee94710f34a4721881d25e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v7.2.0",
+      "sha256": "24fb4412ef7f176d4c8ece75f15365076d1d051e39770e7a79dffd03ea5049ae",
+      "size": 2700948,
+      "format": "tar.xz",
+      "binaries": {
+        "hawkeye": {
+          "path": "hawkeye-aarch64-apple-darwin/hawkeye",
+          "sha256": "2b5c15208432cfbcbf576a6f931ac4af5e03f7f86800d76eb26e89f4a7ec64a9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v7.2.0",
+      "sha256": "729537a72e4bbf09ff942dc08da0c1c625d771d72a7ca27938c1cac34b4e62c9",
+      "size": 4227930,
+      "format": "zip",
+      "binaries": {
+        "hawkeye.exe": {
+          "path": "hawkeye.exe",
+          "sha256": "fc8626d74cec425848a4a352f3dae7fa433badbaf678e26c0fbd8b4926f38cbf"
+        }
+      }
+    }
+  }
+}
