@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "gsutil",
+  "version": "0.2.2",
+  "repository": "EmbarkStudios/gsutil",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EmbarkStudios/gsutil/releases/download/0.2.2/gsutil-0.2.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.2.2",
+      "sha256": "fb482b86f361d5b637774f41041246402bec9b5d3ae28f055c5935435f124fbd",
+      "size": 3873157,
+      "format": "tar.gz",
+      "binaries": {
+        "gsutil": {
+          "path": "gsutil-0.2.2-x86_64-unknown-linux-musl/gsutil",
+          "sha256": "f215cff64746b468b39a1259d9e31addad9d445d804f9b9c8e2b45b90afaa96b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EmbarkStudios/gsutil/releases/download/0.2.2/gsutil-0.2.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.2.2",
+      "sha256": "3424e8d5ace53ce376fcfe6e0251ee23d2455a56136224c51cbeff171f8ab652",
+      "size": 3593014,
+      "format": "tar.gz",
+      "binaries": {
+        "gsutil": {
+          "path": "gsutil-0.2.2-aarch64-unknown-linux-musl/gsutil",
+          "sha256": "8e89fd56c1dd27628e671324f49c5ed76fec8a232e534db1a3961c976186fcd3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EmbarkStudios/gsutil/releases/download/0.2.2/gsutil-0.2.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.2.2",
+      "sha256": "baafb2ddef709307292d93b4048d78b1573e9688f93179581e712fa1de9df398",
+      "size": 2317649,
+      "format": "tar.gz",
+      "binaries": {
+        "gsutil": {
+          "path": "gsutil-0.2.2-x86_64-apple-darwin/gsutil",
+          "sha256": "b123d3d322814ef9454fb66356030a42dea2f25839f36768b70503a2db359835"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EmbarkStudios/gsutil/releases/download/0.2.2/gsutil-0.2.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.2.2",
+      "sha256": "a45c336124f08d6e5dd7e18d12f6ed687728b3d4b4f158a4a1f5b04b3cf8697f",
+      "size": 2254217,
+      "format": "tar.gz",
+      "binaries": {
+        "gsutil": {
+          "path": "gsutil-0.2.2-aarch64-apple-darwin/gsutil",
+          "sha256": "7aea1d473dc9fdcbf7e637d175f09139f014d8078295ea364e96affb0cbf7bbb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EmbarkStudios/gsutil/releases/download/0.2.2/gsutil-0.2.2-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.2.2",
+      "sha256": "a2e28e4d70439938fb5a6e4023b8b79e4999454dfee8c7371cf96135754132e5",
+      "size": 2016197,
+      "format": "tar.gz",
+      "binaries": {
+        "gsutil.exe": {
+          "path": "gsutil-0.2.2-x86_64-pc-windows-msvc/gsutil.exe",
+          "sha256": "747c8ec2d0af357b632990d6fbe29d9d9d2f8344416e88554b19526f7406286d"
+        }
+      }
+    }
+  }
+}
