@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "blissify",
+  "version": "0.6.1",
+  "repository": "Polochon-street/blissify-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Polochon-street/blissify-rs/releases/download/v0.6.1/blissify_0.6.1-1_amd64.deb",
+      "sha256": "a9df833bd13c92c10d06ab634f1bc157c0e04f04163a89386eea92a861808138",
+      "size": 1364376,
+      "format": "deb",
+      "releaseTag": "v0.6.1",
+      "binaries": {
+        "blissify": {
+          "path": "./usr/bin/blissify",
+          "sha256": "f0a7add7abd5b624e81377d03d9bcc852c86e25a8b9fd71b6922c385789c7413"
+        }
+      }
+    }
+  }
+}
