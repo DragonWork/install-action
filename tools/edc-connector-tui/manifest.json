@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "edc-connector-tui",
+  "version": "0.1.14",
+  "repository": "dataspace-rs/edc-connector-tui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dataspace-rs/edc-connector-tui/releases/download/v0.1.14/edc-connector-tui-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.14",
+      "sha256": "1f844227698e4461a9e6bf28cefb042c0d1c29d9ff93cbca828a454cb2883b3a",
+      "size": 3781704,
+      "format": "tar.xz",
+      "binaries": {
+        "edc-connector-tui": {
+          "path": "edc-connector-tui-x86_64-unknown-linux-gnu/edc-connector-tui",
+          "sha256": "3496eede096a97d0ebc288adde2b0891a41549bb6e0b299c6b77cce17607778b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dataspace-rs/edc-connector-tui/releases/download/v0.1.14/edc-connector-tui-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.14",
+      "sha256": "3f04889045c83aaed204411af81434cbbea0abca5c5872a180bedf62db75b40e",
+      "size": 3235368,
+      "format": "tar.xz",
+      "binaries": {
+        "edc-connector-tui": {
+          "path": "edc-connector-tui-x86_64-apple-darwin/edc-connector-tui",
+          "sha256": "caa072f4170a2296c4453d667f841aba30c58fdaca6ef93525fb6edd6ae0e324"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dataspace-rs/edc-connector-tui/releases/download/v0.1.14/edc-connector-tui-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.14",
+      "sha256": "4352f6983f05396c99e8a92c107c7a424cc2d99fc76108d9aedf4fc86a3297e6",
+      "size": 2997724,
+      "format": "tar.xz",
+      "binaries": {
+        "edc-connector-tui": {
+          "path": "edc-connector-tui-aarch64-apple-darwin/edc-connector-tui",
+          "sha256": "6da1f520d149888677d885514873f95008c0ddcb17dd1e34809866d4c55aa153"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dataspace-rs/edc-connector-tui/releases/download/v0.1.14/edc-connector-tui-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.14",
+      "sha256": "121d01aa899fa9f74e09abce9eda1bdcadcbd73cb438eb42730fac037296d698",
+      "size": 4521118,
+      "format": "zip",
+      "binaries": {
+        "edc-connector-tui.exe": {
+          "path": "edc-connector-tui.exe",
+          "sha256": "6eb2e63400f014960b534df0ac340d20b8c0343922abd46f86df59d16a8c466f"
+        }
+      }
+    }
+  }
+}
