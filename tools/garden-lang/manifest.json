@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "garden-lang",
+  "version": "0.25.0",
+  "repository": "Wilfred/garden",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Wilfred/garden/releases/download/0.25.0/garden-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.25.0",
+      "sha256": "d49bcaefa76ec06462097f7a6706ee7a5f8c0ba82e3d9ef89725d8dd0a4308fd",
+      "size": 3451799,
+      "format": "tar.gz",
+      "binaries": {
+        "garden": {
+          "path": "garden",
+          "sha256": "72c508bdcd917c21afb3011c98204112f3ae0910d0768fa4b72cf19d8d4ee412"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Wilfred/garden/releases/download/0.25.0/garden-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.25.0",
+      "sha256": "43b50d84578f5b8af2ac3e59cbf9442481a5baa66946fef404278f08ae1ac6aa",
+      "size": 3146423,
+      "format": "tar.gz",
+      "binaries": {
+        "garden": {
+          "path": "garden",
+          "sha256": "196cd3be88bb738a9a621739b260b511345278d61d2a04b36723ee948a6e96ee"
+        }
+      }
+    }
+  }
+}
