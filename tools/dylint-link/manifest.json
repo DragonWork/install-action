@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dylint-link",
+  "version": "6.2.0",
+  "repository": "trailofbits/dylint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.2.0/dylint-link-x86_64-unknown-linux-gnu-v6.2.0.tar.gz",
+      "releaseTag": "v6.2.0",
+      "sha256": "c25671f0339e193a80dec0a1e61c321072bc0c8365bf4015cd4efd14113e2bb2",
+      "size": 1200066,
+      "format": "tar.gz",
+      "binaries": {
+        "dylint-link": {
+          "path": "dylint-link-x86_64-unknown-linux-gnu-v6.2.0/dylint-link",
+          "sha256": "d79a7e32fcb13d1702b04df9e6844a6ef1138db874de303d9c39df1f2a19e0dd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.2.0/dylint-link-aarch64-unknown-linux-gnu-v6.2.0.tar.gz",
+      "releaseTag": "v6.2.0",
+      "sha256": "d71c5bb81999ecff33797ba60718de6bb992e0f77442ae3fbc1b2838855b96cf",
+      "size": 1141858,
+      "format": "tar.gz",
+      "binaries": {
+        "dylint-link": {
+          "path": "dylint-link-aarch64-unknown-linux-gnu-v6.2.0/dylint-link",
+          "sha256": "5b21ac8da78c572e07363340f3086af7ca0e60fff98d4865f121e5b451915f58"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.2.0/dylint-link-aarch64-apple-darwin-v6.2.0.tar.gz",
+      "releaseTag": "v6.2.0",
+      "sha256": "da3eab2ea74ba9f0635141f8329910fce62fa59fb85283ea1ac88e155cea9d32",
+      "size": 1016838,
+      "format": "tar.gz",
+      "binaries": {
+        "dylint-link": {
+          "path": "dylint-link-aarch64-apple-darwin-v6.2.0/dylint-link",
+          "sha256": "b4c56cbdbaa302dfe7d9ddc41a692cba203d55fb6ca8196cbd216e3af53e99a7"
+        }
+      }
+    }
+  }
+}
