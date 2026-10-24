@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "sfz",
+  "version": "0.7.1",
+  "repository": "weihanglo/sfz",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/weihanglo/sfz/releases/download/v0.7.1/sfz-v0.7.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "bbbfa1fafb1fc481d78b292c671c28318108d51f4f5ae54b99a843f52bbcafd1",
+      "size": 2370389,
+      "format": "tar.gz",
+      "binaries": {
+        "sfz": {
+          "path": "sfz",
+          "sha256": "99871a374e607000f43c9d09335e14c165fb37fe879e94241d0ab64317799f1c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/weihanglo/sfz/releases/download/v0.7.1/sfz-v0.7.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "4ece429bb3cb6953c1a6f0b07b50b6220ef219f88a66fb403d820ee933eb0f43",
+      "size": 2128215,
+      "format": "tar.gz",
+      "binaries": {
+        "sfz": {
+          "path": "sfz",
+          "sha256": "f56516385fa0b3d60ab9a3b253144687d287fb43e142ab52c9827b7a7437b946"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/weihanglo/sfz/releases/download/v0.7.1/sfz-v0.7.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "4da258d04c367e8d8fe98c1b0ff3eafbac5fbeefa95e36cc5bf40bb503b7a697",
+      "size": 2076079,
+      "format": "zip",
+      "binaries": {
+        "sfz.exe": {
+          "path": "sfz.exe",
+          "sha256": "455052fdd81e2b306dec129deabb97e45e3942687b48a8e57125d1dd3a15a24b"
+        }
+      }
+    }
+  }
+}
