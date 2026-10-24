@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "hello-world-in-rust",
+  "version": "0.1.1",
+  "repository": "AlvinHon/hello_world_rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AlvinHon/hello_world_rs/releases/download/v0.1.1/hello-world-in-rust-v0.1.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.1",
+      "sha256": "cb66f06e66d0f81fd76e933b53ef0e8a225a448d9db83b962fdd89da513e9795",
+      "size": 227697,
+      "format": "tar.gz",
+      "binaries": {
+        "hello-world-in-rust": {
+          "path": "hello-world-in-rust-v0.1.1-x86_64-unknown-linux-musl/hello-world-in-rust",
+          "sha256": "b112b465b784fd7e8bdda962405871c3e877fa0546e8b7db73004928a7c5c157"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AlvinHon/hello_world_rs/releases/download/v0.1.1/hello-world-in-rust-v0.1.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.1",
+      "sha256": "d3ec1c9420fa399d2679ad88e8547c8e073cc52f1c2a8685277ecb81b5e28fcd",
+      "size": 160284,
+      "format": "tar.gz",
+      "binaries": {
+        "hello-world-in-rust": {
+          "path": "hello-world-in-rust-v0.1.1-x86_64-apple-darwin/hello-world-in-rust",
+          "sha256": "76ffd62b32c7f352428026d1e096426dcc4c96629a1214009d4d6baa6cbe8fb0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AlvinHon/hello_world_rs/releases/download/v0.1.1/hello-world-in-rust-v0.1.1-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.1.1",
+      "sha256": "6a7f2718964371b3b970d5722aeaaa0f15c974bbfd5b352245ca97f93a6ee167",
+      "size": 68445,
+      "format": "tar.gz",
+      "binaries": {
+        "hello-world-in-rust.exe": {
+          "path": "hello-world-in-rust-v0.1.1-x86_64-pc-windows-msvc/hello-world-in-rust.exe",
+          "sha256": "369a15a78f63226ac829c90f1aba1a3fd6d5cac104906aa36d8cdde336c9ee97"
+        }
+      }
+    }
+  }
+}
