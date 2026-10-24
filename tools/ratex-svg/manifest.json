@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "ratex-svg",
+  "version": "0.1.15",
+  "repository": "erweixin/RaTeX",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.15/ratex-cli-v0.1.15-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.15",
+      "sha256": "81c197c0accd9346ce8722eaf0cba40a10e3b165cef332d78cfcd86fc25c53a7",
+      "size": 6206911,
+      "format": "tar.gz",
+      "binaries": {
+        "render-svg": {
+          "path": "ratex-cli-v0.1.15-x86_64-unknown-linux-musl/render-svg",
+          "sha256": "b52b5dea448e6e851094c5c0df8f80b7d83e97373d88ee5c3dce351a92555b51"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.15/ratex-cli-v0.1.15-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.15",
+      "sha256": "c654d54c24445931c235900eaf0dc226b99c12099a51da6caf58aad737f3c03d",
+      "size": 5682803,
+      "format": "tar.gz",
+      "binaries": {
+        "render-svg": {
+          "path": "ratex-cli-v0.1.15-aarch64-unknown-linux-musl/render-svg",
+          "sha256": "c3a4ea1f1aa43d1129c250d666857a29005e8aaecd63d36ed7e58f44269b31c4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.15/ratex-cli-v0.1.15-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.15",
+      "sha256": "521c84ef8b2420c3186f23f8f0ed1204bc9ca9de7834ad203dc7173dc6de959f",
+      "size": 5534525,
+      "format": "tar.gz",
+      "binaries": {
+        "render-svg": {
+          "path": "ratex-cli-v0.1.15-x86_64-apple-darwin/render-svg",
+          "sha256": "51ac36f0d5fbeec7cfc877d905356227a10cee18feb47d187444f05b752360cf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.15/ratex-cli-v0.1.15-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.15",
+      "sha256": "2fe21963fab59b459288c4ee5cfc97961ce69ed52f6af669a9658da3f6ca2f9a",
+      "size": 5151364,
+      "format": "tar.gz",
+      "binaries": {
+        "render-svg": {
+          "path": "ratex-cli-v0.1.15-aarch64-apple-darwin/render-svg",
+          "sha256": "64c798c16e732242d37a333cc5904cb97259d4b83d30905ed5e538babe48bf39"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.15/ratex-cli-v0.1.15-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.15",
+      "sha256": "e0fbf75f495a2fbb51ec3d6b3124d35864643fcce39dfb3076faf199a862e3ce",
+      "size": 5526713,
+      "format": "zip",
+      "binaries": {
+        "render-svg.exe": {
+          "path": "ratex-cli-v0.1.15-x86_64-pc-windows-msvc/render-svg.exe",
+          "sha256": "742c8fa341ef6cb1c9c319eda5044b282836630f7c27483db126dd1d24e4dfc6"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.15/ratex-cli-v0.1.15-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.15",
+      "sha256": "40217eeb0efa02598f4f33a2a5543f7a25460651a7afb1105ef52ee56362a18a",
+      "size": 5249918,
+      "format": "zip",
+      "binaries": {
+        "render-svg.exe": {
+          "path": "ratex-cli-v0.1.15-aarch64-pc-windows-msvc/render-svg.exe",
+          "sha256": "4c7b67289c2d45602cd14806b3d5a9575c06fb3e413ff0a02ffedc4f5e4a0f09"
+        }
+      }
+    }
+  }
+}
