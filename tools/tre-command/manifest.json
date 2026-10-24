@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tre-command",
+  "version": "0.4.0",
+  "repository": "dduan/tre",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dduan/tre/releases/download/v0.4.0/tre-v0.4.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "47b6b20db6cba7114628c024d00ca842ea9ea9eeb1678facd2468fe60b266bac",
+      "size": 801776,
+      "format": "tar.gz",
+      "binaries": {
+        "tre": {
+          "path": "tre",
+          "sha256": "966ea6511431d38bc818bf10530a85a0ab7bba5f4ca215942af5daf3a7ac0b3e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dduan/tre/releases/download/v0.4.0/tre-v0.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "43661bce1c93757918497d7bdbe365bd4f0621c932544adfa523457e525d3340",
+      "size": 718598,
+      "format": "tar.gz",
+      "binaries": {
+        "tre": {
+          "path": "tre",
+          "sha256": "a0b6a0d4edd2af343fbb8540b6df1764fd66dca37eb5376b0d236c1fa09156a4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dduan/tre/releases/download/v0.4.0/tre-v0.4.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "4cf2a15652882886092c31dd2eab0d1368a9b08986e0bd043e63de0bc5fc75f3",
+      "size": 649645,
+      "format": "tar.gz",
+      "binaries": {
+        "tre": {
+          "path": "tre",
+          "sha256": "695c5c0b6c8dcff4c88d380c2c11d2a5138bf6401108400a2543ac929a875a59"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dduan/tre/releases/download/v0.4.0/tre-v0.4.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "9dfbf8c33038e6b31fb359d7f8e7661e46f015067f5cc2f378c93d8bbd1a432a",
+      "size": 683523,
+      "format": "zip",
+      "binaries": {
+        "tre.exe": {
+          "path": "tre.exe",
+          "sha256": "e81681b3684bb4b331a41ea57760db8704766f5f30df7e7f15412a43a0c27f07"
+        }
+      }
+    }
+  }
+}
