@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "candid-extractor",
+  "version": "0.1.6",
+  "repository": "dfinity/candid-extractor",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dfinity/candid-extractor/releases/download/0.1.6/candid-extractor-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.1.6",
+      "sha256": "4fdb7a45b1e72ae38563bf6f0ded0b27eb924a95f9cef1f0916ca27d732f040e",
+      "size": 5061422,
+      "format": "tar.gz",
+      "binaries": {
+        "candid-extractor": {
+          "path": "candid-extractor",
+          "sha256": "ddfeeffa9f3a58696bc6d0e8f446fe9addb791ff94f1fd9d430a172122dcc797"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dfinity/candid-extractor/releases/download/0.1.6/candid-extractor-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.1.6",
+      "sha256": "267f8e250e98222fb0a98b60d47219f8ddfe068a561ff9008129a0813d5dd9b2",
+      "size": 4795348,
+      "format": "tar.gz",
+      "binaries": {
+        "candid-extractor": {
+          "path": "candid-extractor",
+          "sha256": "e50e789fe8bdd24bcf266461dd43f17aec793ac710a3026fffd98e2f10a02b43"
+        }
+      }
+    }
+  }
+}
