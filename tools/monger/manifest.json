@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "monger",
+  "version": "0.14.0",
+  "repository": "saghm/monger",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/saghm/monger/releases/download/v0.14.0/monger-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.14.0",
+      "sha256": "5867fea3a24f306393943182078be2f12dd1e8bceead1c4645cf39cd4e759974",
+      "size": 3165500,
+      "format": "tar.gz",
+      "binaries": {
+        "monger": {
+          "path": "monger",
+          "sha256": "378dd01484cf0a87b635ddfbee322cd9cf253005b309889026e5d5cd52d24560"
+        }
+      }
+    }
+  }
+}
