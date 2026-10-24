@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "fade",
+  "version": "0.5.1",
+  "repository": "nebulatgs/fade",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nebulatgs/fade/releases/download/v0.5.1/fade-v0.5.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "4ded9549913ca6d033b55c871c32318726c8dfd68a8e4070cd943a80875e1cb0",
+      "size": 2638016,
+      "format": "tar.gz",
+      "binaries": {
+        "fade": {
+          "path": "fade",
+          "sha256": "cd46e2ed630b9bf5a10da4c41e06475942eebc6877fe3ecae325c8a00d63afb2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nebulatgs/fade/releases/download/v0.5.1/fade-v0.5.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "8b555693e817e24cbd82d5a52717f35410c16adc64fd8528d07640347649d3ee",
+      "size": 4181635,
+      "format": "tar.gz",
+      "binaries": {
+        "fade": {
+          "path": "fade",
+          "sha256": "7d310b91b91922321039a97f7395cf2b94769e4c43843b22c25532813dd08046"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nebulatgs/fade/releases/download/v0.5.1/fade-v0.5.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "f8789c5b08ce81c4beda19b2a201ace032d96f5945717e397667f8d07f480651",
+      "size": 2508421,
+      "format": "tar.gz",
+      "binaries": {
+        "fade": {
+          "path": "fade",
+          "sha256": "0e3bfb311bd351d763b77395ba5484cb256ef139dcf6639a0893f0cf9a723763"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nebulatgs/fade/releases/download/v0.5.1/fade-v0.5.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "4c01b8f323431c035019e46d5b92c547446d1fb69c7e385dc5adbbe42a057d6c",
+      "size": 2208435,
+      "format": "tar.gz",
+      "binaries": {
+        "fade": {
+          "path": "fade",
+          "sha256": "d66b81422989ad5f661d4107f6c67d20df5cc7eb70e3b17dee38f62b34599e97"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nebulatgs/fade/releases/download/v0.5.1/fade-v0.5.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "ab949b9145e99ad8900ff2a7141cae44320dec1e12996f5905c17e6202b883a3",
+      "size": 2368662,
+      "format": "zip",
+      "binaries": {
+        "fade.exe": {
+          "path": "fade.exe",
+          "sha256": "d31bf05cb96b83a8230595710974f39227bbee8cff07d1610d902cacbeeb5837"
+        }
+      }
+    }
+  }
+}
