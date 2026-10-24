@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "sub-batch",
+  "version": "2.0.2",
+  "repository": "kl/sub-batch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kl/sub-batch/releases/download/v2.0.2/sub-batch-2.0.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.0.2",
+      "sha256": "357dadb32f0fdc644b89f7693e81702d01ab29e9dede36cde3c197ae169e5b10",
+      "size": 1898611,
+      "format": "tar.gz",
+      "binaries": {
+        "sub-batch": {
+          "path": "sub-batch",
+          "sha256": "279bc5b8c3d14ed482b64079e41e9172c98daf92330cd1272169b40825218d8e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kl/sub-batch/releases/download/v2.0.2/sub-batch-2.0.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.0.2",
+      "sha256": "7308f431ebac84b487adb4724d8ed371738a9ddd56a64d1e17195e5467fc2637",
+      "size": 1595517,
+      "format": "zip",
+      "binaries": {
+        "sub-batch.exe": {
+          "path": "sub-batch.exe",
+          "sha256": "5077475fa0d3e2c3a4bea396f86c99c45bd6f2258bcf30317d9e0d619c89b9f7"
+        }
+      }
+    }
+  }
+}
