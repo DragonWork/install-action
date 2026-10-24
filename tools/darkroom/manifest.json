@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "darkroom",
+  "version": "0.9.1",
+  "repository": "mkatychev/darkroom",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mkatychev/darkroom/releases/download/v0.9.1/darkroom-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.9.1",
+      "sha256": "b181e210965a9947a5f414c3e7fa498a505de2acb6a24431d5908a50fcf071f0",
+      "size": 4105528,
+      "format": "tar.xz",
+      "binaries": {
+        "dark": {
+          "path": "darkroom-x86_64-unknown-linux-gnu/dark",
+          "sha256": "194ce90727a159898ab5613faeda57078c2cc243d834ff4c7dfa894f5f57d40b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mkatychev/darkroom/releases/download/v0.9.1/darkroom-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.9.1",
+      "sha256": "ad0c1117e510fdd33ea8ff250dbf0d748c64ea354d7d1387d0252bef2770dc93",
+      "size": 3553652,
+      "format": "tar.xz",
+      "binaries": {
+        "dark": {
+          "path": "darkroom-aarch64-unknown-linux-gnu/dark",
+          "sha256": "96b972cb271a75d43b6db9b9b473eb343cb5a07cdbe2c1f4105a2f832b0a8060"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mkatychev/darkroom/releases/download/v0.9.1/darkroom-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.9.1",
+      "sha256": "531e07837726ee6747844cc0dfd15cbb78eeeee4614512543ab02ad405c242d1",
+      "size": 3936224,
+      "format": "tar.xz",
+      "binaries": {
+        "dark": {
+          "path": "darkroom-x86_64-apple-darwin/dark",
+          "sha256": "c5ae1a7a6583499d45e5a2928cd5525786f51edcdecf3eed104b85f5deedd064"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mkatychev/darkroom/releases/download/v0.9.1/darkroom-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.9.1",
+      "sha256": "5fd2809f18e9f8cd9ac639058a3897161a6a649a28fa89d603bc139c2cbed23f",
+      "size": 3478664,
+      "format": "tar.xz",
+      "binaries": {
+        "dark": {
+          "path": "darkroom-aarch64-apple-darwin/dark",
+          "sha256": "f9ea6d2eadc82652aa982031288eaa47b53ba90ee2b5458189192193f84c682a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mkatychev/darkroom/releases/download/v0.9.1/darkroom-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.1",
+      "sha256": "376832ea2a9b63c951de63a1978d4309794ea9565520df4943178fcb37b28ff6",
+      "size": 14187447,
+      "format": "zip",
+      "binaries": {
+        "dark.exe": {
+          "path": "dark.exe",
+          "sha256": "517e593cebadee241f478654ba817bb3fb6ab574bc90383a239233d0cfca6d10"
+        }
+      }
+    }
+  }
+}
