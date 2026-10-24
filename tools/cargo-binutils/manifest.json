@@ -1,0 +1,364 @@
+{
+  "schema": 1,
+  "name": "cargo-binutils",
+  "version": "0.4.0",
+  "repository": "rust-embedded/cargo-binutils",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-embedded/cargo-binutils/releases/download/v0.4.0/x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "a97c307ce3f9ca35ff3f8ea6eff3726a0ebb4db87ee651538ee12554509620f7",
+      "size": 16470906,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-cov": {
+          "path": "x86_64-unknown-linux-gnu/cargo-cov",
+          "sha256": "9dc0aa304f07914713052882cb5247edd8808beed246d873f1f4a7086edf1136"
+        },
+        "cargo-nm": {
+          "path": "x86_64-unknown-linux-gnu/cargo-nm",
+          "sha256": "7de5315f0e89048ff28fe5d498a46bfe91694b12ec2bcb10f33005d955f68a55"
+        },
+        "cargo-objcopy": {
+          "path": "x86_64-unknown-linux-gnu/cargo-objcopy",
+          "sha256": "e88e2a6752157bff540b76b695ed3b2ad465e5b5c04a20a779ca68e55de85cf3"
+        },
+        "cargo-objdump": {
+          "path": "x86_64-unknown-linux-gnu/cargo-objdump",
+          "sha256": "38fb3c928140152e48d08ad2de0b45c100629814c9480d230b93ef3ea451e50f"
+        },
+        "cargo-profdata": {
+          "path": "x86_64-unknown-linux-gnu/cargo-profdata",
+          "sha256": "c9b8a51f37882b6247680ac93584bdab22b436dd3fa3877e1faaca6233680f52"
+        },
+        "cargo-readobj": {
+          "path": "x86_64-unknown-linux-gnu/cargo-readobj",
+          "sha256": "7b1d458803c3ab795a3362ea796a93f458ce93ec7d53f0767279c96429ab1bce"
+        },
+        "cargo-size": {
+          "path": "x86_64-unknown-linux-gnu/cargo-size",
+          "sha256": "f6f4d95e9d5ae15e2161b65ab36393c57d006d19cb2b863546e80c17ad1b8a9f"
+        },
+        "cargo-strip": {
+          "path": "x86_64-unknown-linux-gnu/cargo-strip",
+          "sha256": "120f5dd2f4a0d1081c94188846d5175ecbca9724520aca4bc2d8ac581962d9df"
+        },
+        "rust-ar": {
+          "path": "x86_64-unknown-linux-gnu/rust-ar",
+          "sha256": "3c5f7874da760de6be866f10d5568c1e79b4e10796058951b45d28753d6f7d32"
+        },
+        "rust-as": {
+          "path": "x86_64-unknown-linux-gnu/rust-as",
+          "sha256": "4f3add160d02b98f9ff3fae8dd2ec467ee41c71115ac4e5891eef9ea0176b3db"
+        },
+        "rust-cov": {
+          "path": "x86_64-unknown-linux-gnu/rust-cov",
+          "sha256": "4c8c15a7ccc69d8cfabe8434a04906271501d974bc70542e76f4a44ca1ece78d"
+        },
+        "rust-ld": {
+          "path": "x86_64-unknown-linux-gnu/rust-ld",
+          "sha256": "b7feb7a89c8ee9f3a9766e6b3960dc883bf1a0be93c61ec69d8c07ecbd0b7860"
+        },
+        "rust-lld": {
+          "path": "x86_64-unknown-linux-gnu/rust-lld",
+          "sha256": "0e4ea19ef9e530bbbf2fe07bfa321619179f3ad3719544dd2ff98c501d9002b0"
+        },
+        "rust-nm": {
+          "path": "x86_64-unknown-linux-gnu/rust-nm",
+          "sha256": "79794b6416d3e0f5c133ba2224219f20287c8fcdd38b19343cc4c6de279073a5"
+        },
+        "rust-objcopy": {
+          "path": "x86_64-unknown-linux-gnu/rust-objcopy",
+          "sha256": "4b4f2369ea84dd060c8951a7276f0d28806c56d84246e3c9e2d2603f0a94aae1"
+        },
+        "rust-objdump": {
+          "path": "x86_64-unknown-linux-gnu/rust-objdump",
+          "sha256": "c630d2f73809c4bf4c1c138fc21ce50a148f8de023abf2068718b4ed2451e1c5"
+        },
+        "rust-profdata": {
+          "path": "x86_64-unknown-linux-gnu/rust-profdata",
+          "sha256": "74153a382a4830344fb9ca6828d00460138a24cf0fa9b2a14fcb1128c08fea51"
+        },
+        "rust-readobj": {
+          "path": "x86_64-unknown-linux-gnu/rust-readobj",
+          "sha256": "4f585c60dc1487f42d8cb6c216a9916c732f57e3046ae95e285d613213ba4898"
+        },
+        "rust-size": {
+          "path": "x86_64-unknown-linux-gnu/rust-size",
+          "sha256": "8730b176047cbd6787c4040c87de4827e3ab7794b360b67cdfcda36114eb09b3"
+        },
+        "rust-strip": {
+          "path": "x86_64-unknown-linux-gnu/rust-strip",
+          "sha256": "d09fd4c36105a4e55a15e8daef7a6418c46edd2fe33320fa0146b47133b5a15c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-embedded/cargo-binutils/releases/download/v0.4.0/x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "f42eb6ab4cb3088efd86c6aa014ea916926fa82f4f6ea59e63783c895e094479",
+      "size": 15269588,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-cov": {
+          "path": "x86_64-apple-darwin/cargo-cov",
+          "sha256": "42a0e7989e31361a819a117e92fe4940b5f7c6f94f8d7d52d8629149fbf36c8b"
+        },
+        "cargo-nm": {
+          "path": "x86_64-apple-darwin/cargo-nm",
+          "sha256": "c31d63b59d3e83c6fc4cf7e6f22c52816be6d0a4dc5ab6bde77877c62936120a"
+        },
+        "cargo-objcopy": {
+          "path": "x86_64-apple-darwin/cargo-objcopy",
+          "sha256": "ebd49a3e89f4a844627d5f21d426036d0f7e349ece744d6af323d0e680769ac9"
+        },
+        "cargo-objdump": {
+          "path": "x86_64-apple-darwin/cargo-objdump",
+          "sha256": "37ac20f93f456191e24fbe4c0938deace90063a9c7f2206d88b31567487475f7"
+        },
+        "cargo-profdata": {
+          "path": "x86_64-apple-darwin/cargo-profdata",
+          "sha256": "1711f2053463394aeae4c0f77bdaffdef00fb53b9c4febecd3d1e138b5f86cfd"
+        },
+        "cargo-readobj": {
+          "path": "x86_64-apple-darwin/cargo-readobj",
+          "sha256": "e6fb27aca8eeb9af9de22c8546c8b3fdf09a14d33e37ecccdeedf4a5486b0127"
+        },
+        "cargo-size": {
+          "path": "x86_64-apple-darwin/cargo-size",
+          "sha256": "325b24a7fab283d1b201834a3d0164211f98ee77592c08c4d54972bd9f212ff2"
+        },
+        "cargo-strip": {
+          "path": "x86_64-apple-darwin/cargo-strip",
+          "sha256": "15bf246690c6d736efe8853e1deb1ae676484618ae1dcb819d49e0a3262a0850"
+        },
+        "rust-ar": {
+          "path": "x86_64-apple-darwin/rust-ar",
+          "sha256": "7953f98d48187ea82496fd4bb1eef7cd6d864a8d08ad822cd2cb666d2b2dd2de"
+        },
+        "rust-as": {
+          "path": "x86_64-apple-darwin/rust-as",
+          "sha256": "2a969e4ca28dd523d28d0f0b7d12327dbbf966f71dbda1be334d085085c44144"
+        },
+        "rust-cov": {
+          "path": "x86_64-apple-darwin/rust-cov",
+          "sha256": "18b55cd95bf404fa728802e78da89d4036eb9b91069da94bbf47fb45574e0759"
+        },
+        "rust-ld": {
+          "path": "x86_64-apple-darwin/rust-ld",
+          "sha256": "bcaa7871295fcdba8aa60ae7fbfa1dc5842e5240996edb620877500ee98a94e0"
+        },
+        "rust-lld": {
+          "path": "x86_64-apple-darwin/rust-lld",
+          "sha256": "ac4d9ec67692bcaa103f3c71ea75720229fc5bc9e0220ff500b116e4fb7e5da8"
+        },
+        "rust-nm": {
+          "path": "x86_64-apple-darwin/rust-nm",
+          "sha256": "810a12d2c35443ca5a54633ca3775cdee85bc70c1ff1f0600c8b344f4eb84a72"
+        },
+        "rust-objcopy": {
+          "path": "x86_64-apple-darwin/rust-objcopy",
+          "sha256": "3ecc6d8d0a507498cdeb41da81eff55c1ae486db90b42571bab8099f042d9552"
+        },
+        "rust-objdump": {
+          "path": "x86_64-apple-darwin/rust-objdump",
+          "sha256": "cce62c7e5491901ce9fdeadafe96bf88fce3533f96491add342f2b7c60cd6f16"
+        },
+        "rust-profdata": {
+          "path": "x86_64-apple-darwin/rust-profdata",
+          "sha256": "871f5b606f331f94f600ed18b9fb795aff1d6e7eade2d590830554a8b6e92fc5"
+        },
+        "rust-readobj": {
+          "path": "x86_64-apple-darwin/rust-readobj",
+          "sha256": "671981c6c2740f52f094f1b241f14ae90a68521496ae5bc405cda0d4419bb689"
+        },
+        "rust-size": {
+          "path": "x86_64-apple-darwin/rust-size",
+          "sha256": "666aa97e004c800a9fe63dc8c117d9b629c5cc2ba58b89e1f070837316910568"
+        },
+        "rust-strip": {
+          "path": "x86_64-apple-darwin/rust-strip",
+          "sha256": "e8b9738300bdebb8b8f18df463ddbdc3088ec8c13d0bb92a80cf1235b43384d5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-embedded/cargo-binutils/releases/download/v0.4.0/aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "1d14379aff1b3f7b4080ec1988df15b71a184dcab53deab97faaff94f24a6eae",
+      "size": 14488105,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-cov": {
+          "path": "aarch64-apple-darwin/cargo-cov",
+          "sha256": "6944cafa69ce09378f96f431b97da0143a381b6cedb6afc54a62735806c6875e"
+        },
+        "cargo-nm": {
+          "path": "aarch64-apple-darwin/cargo-nm",
+          "sha256": "5303a9747ff207a2b8e494983d1bc983395d8cc847512991f74ceca0e5eeb2a2"
+        },
+        "cargo-objcopy": {
+          "path": "aarch64-apple-darwin/cargo-objcopy",
+          "sha256": "4fba103c382d27161eab3da324d90cd0004d07d363f6988e6cfed97e20ce61d7"
+        },
+        "cargo-objdump": {
+          "path": "aarch64-apple-darwin/cargo-objdump",
+          "sha256": "755c179710474cb785a6cac2d1ff2ef54ff397191507a2cf7ddec8052c8ee440"
+        },
+        "cargo-profdata": {
+          "path": "aarch64-apple-darwin/cargo-profdata",
+          "sha256": "c75db195bb0cefc66b3a2a86c7022fb0bd85710b3fbcd9adac57e8132097b3bc"
+        },
+        "cargo-readobj": {
+          "path": "aarch64-apple-darwin/cargo-readobj",
+          "sha256": "bdc07802c56aae94198707424abc1f0aa1ac0c01ebfdd457cd900b12bca5a2f0"
+        },
+        "cargo-size": {
+          "path": "aarch64-apple-darwin/cargo-size",
+          "sha256": "25f2bd16fcd332abec2ef8f03d72711dd0155d02c7a675a8055e35cfd47416b7"
+        },
+        "cargo-strip": {
+          "path": "aarch64-apple-darwin/cargo-strip",
+          "sha256": "9334fd49736c903efc6c2dd7917495774fbbcfae8127653b7df80a94c6934ecf"
+        },
+        "rust-ar": {
+          "path": "aarch64-apple-darwin/rust-ar",
+          "sha256": "e101f06f343fc4c7ad07474879856bd9d551e3e402683b3f1d718a89d6212087"
+        },
+        "rust-as": {
+          "path": "aarch64-apple-darwin/rust-as",
+          "sha256": "301770ba44d51a041daa0b10d32e4a71b14b9657f0ff586306372c70d400235f"
+        },
+        "rust-cov": {
+          "path": "aarch64-apple-darwin/rust-cov",
+          "sha256": "b1b65d30aa5c0647318150e6508f811e64437d445788a2b459013ca2ce6b4cbf"
+        },
+        "rust-ld": {
+          "path": "aarch64-apple-darwin/rust-ld",
+          "sha256": "49f012d2fbc56b1761b56fbd2ffe65605143883dd44d8843749d24b6ed959f85"
+        },
+        "rust-lld": {
+          "path": "aarch64-apple-darwin/rust-lld",
+          "sha256": "9738e4e7c14260590cc6c87c2d34bae850b8ba94e223c09d3111c65f1a1bf300"
+        },
+        "rust-nm": {
+          "path": "aarch64-apple-darwin/rust-nm",
+          "sha256": "f4cf43bac4a2e8a62184efb882b2d46795fd8acad5332aad24375891d2d8ea46"
+        },
+        "rust-objcopy": {
+          "path": "aarch64-apple-darwin/rust-objcopy",
+          "sha256": "c6afbddab9f4c2fbbe59d59fe3401788e36217f29b6703b34d1a91daef6053ec"
+        },
+        "rust-objdump": {
+          "path": "aarch64-apple-darwin/rust-objdump",
+          "sha256": "fa81fd2fadca9530899ef63225e95fe0bd2bc7e2a0c4e0bf575f4ec2ee328bdb"
+        },
+        "rust-profdata": {
+          "path": "aarch64-apple-darwin/rust-profdata",
+          "sha256": "04ffebdbb4d7b5dbcdb70482b1e7e81e1f067e2ecb894196017a5d3132e797ff"
+        },
+        "rust-readobj": {
+          "path": "aarch64-apple-darwin/rust-readobj",
+          "sha256": "d19b4c4fc7fd59999d92571daf41525da25ee9b2d2633f16d94ca50f7039df81"
+        },
+        "rust-size": {
+          "path": "aarch64-apple-darwin/rust-size",
+          "sha256": "435e1171974df05a824542fe601099e8646c1ce12c92e4bfd091dc48601b5a3a"
+        },
+        "rust-strip": {
+          "path": "aarch64-apple-darwin/rust-strip",
+          "sha256": "3a6419f75049043c6773b28ff280eabcd7cbec56734d9b9d10d740c57948d20f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-embedded/cargo-binutils/releases/download/v0.4.0/x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "7ac333a25ae6c656941130819ca0a5852983221952fb4104b65eeef816842569",
+      "size": 12311545,
+      "format": "zip",
+      "binaries": {
+        "cargo-cov.exe": {
+          "path": "x86_64-pc-windows-msvc/cargo-cov.exe",
+          "sha256": "53664fd50468abd1fa86c4ac9370ea85b4d974c15dae28a6c4e55dc201bffff2"
+        },
+        "cargo-nm.exe": {
+          "path": "x86_64-pc-windows-msvc/cargo-nm.exe",
+          "sha256": "6146c4daf50e08debc2a099eab0d4005ba07ed07cfd658781fc00bf255c59d5a"
+        },
+        "cargo-objcopy.exe": {
+          "path": "x86_64-pc-windows-msvc/cargo-objcopy.exe",
+          "sha256": "eb0bce5a49d9bb6909d7d5e2ac795c645860b147af27578461fd2de89543adce"
+        },
+        "cargo-objdump.exe": {
+          "path": "x86_64-pc-windows-msvc/cargo-objdump.exe",
+          "sha256": "4246b887c6364ff2b16f4222b50a1431e2ed5be63d636b4234f9e8bf40dcc3f5"
+        },
+        "cargo-profdata.exe": {
+          "path": "x86_64-pc-windows-msvc/cargo-profdata.exe",
+          "sha256": "677126b45674e6178467bc8665431a9b1ad320014d3b6b35f73312ce82b8d7f8"
+        },
+        "cargo-readobj.exe": {
+          "path": "x86_64-pc-windows-msvc/cargo-readobj.exe",
+          "sha256": "e24dcfdb95c0f0b5e689b33ce185c6f4a5a4db1e2416f866b24dc487f0b83899"
+        },
+        "cargo-size.exe": {
+          "path": "x86_64-pc-windows-msvc/cargo-size.exe",
+          "sha256": "7cfc6b691aaa11d2687950422fb74c0cc8d2fe68dc45060ef2411c5a9807fa01"
+        },
+        "cargo-strip.exe": {
+          "path": "x86_64-pc-windows-msvc/cargo-strip.exe",
+          "sha256": "1f2010c0455fd8bfa9d0bf12fb8c30769470f5297589011c112d2e58fc2c8785"
+        },
+        "rust-ar.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-ar.exe",
+          "sha256": "c6fa8bec9cff04f3c092fb7b55b5f518a058f05388fa4f8177166fcbcc784a3a"
+        },
+        "rust-as.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-as.exe",
+          "sha256": "ca35ae7dc1251e8c02d8ecff774ee352a0aeed17a47034dffb270482a385cdc0"
+        },
+        "rust-cov.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-cov.exe",
+          "sha256": "74351291130bc271b2c40cc9608d772434aa46a9241c2f0ede3a80a90ead2a98"
+        },
+        "rust-ld.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-ld.exe",
+          "sha256": "db5707373754aeb7635a5fe3193d47c5098c1de05aff42f3626ea8ee88da00ea"
+        },
+        "rust-lld.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-lld.exe",
+          "sha256": "3ec4efbfc282ce7153fd213913639732cc9d264da806c59a5f56eafa6bef0e31"
+        },
+        "rust-nm.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-nm.exe",
+          "sha256": "9186a55c4c8d93557dbd6f40078bd3ad78afe3493f3228f39614ec2e0aea68af"
+        },
+        "rust-objcopy.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-objcopy.exe",
+          "sha256": "7f59df3edcdcbc101844077de5fb8885ff10328b6defc5c6c75eb047a831aee4"
+        },
+        "rust-objdump.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-objdump.exe",
+          "sha256": "53cf2fa89be600acb079ae7906537cfc772c4b0011cc81423ec7a20095d9edf2"
+        },
+        "rust-profdata.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-profdata.exe",
+          "sha256": "0c9a727026d5549d73233d241519fa93162a377ff4a839715a884450caf6aa99"
+        },
+        "rust-readobj.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-readobj.exe",
+          "sha256": "805f2b6f6ccc673dbbecf8b98e42336bd36e304dc74285ceaa44c1adca2f2392"
+        },
+        "rust-size.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-size.exe",
+          "sha256": "83463443a67ec6030c5c70bfc7c8ba576fc1249b3c2eb8d31603f076a49d1928"
+        },
+        "rust-strip.exe": {
+          "path": "x86_64-pc-windows-msvc/rust-strip.exe",
+          "sha256": "81a2e4150684da164a4bd1c4fef0ef2dc90dbc36ab9d338670069874f32ff889"
+        }
+      }
+    }
+  }
+}
