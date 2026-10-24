@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "name": "easytier",
+  "version": "2.0.3",
+  "repository": "EasyTier/EasyTier",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-x86_64-v2.0.3.zip",
+      "releaseTag": "v2.0.3",
+      "sha256": "ca9b3b850c066f210ee7a0b93b18a21ce1ed4bf4e4cd9530aee42350286b9cb7",
+      "size": 5384796,
+      "format": "zip",
+      "binaries": {
+        "easytier-cli": {
+          "path": "easytier-linux-x86_64/easytier-cli",
+          "sha256": "03ce9abdd311809119b6a6f2f739a658cccdbc53c9e834a9bb085a6be1df71ea"
+        },
+        "easytier-core": {
+          "path": "easytier-linux-x86_64/easytier-core",
+          "sha256": "3782ffadd8d6483d1b70e63d859a028ca1b933ff6da0b9c9544267fc4035c0b2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-linux-aarch64-v2.0.3.zip",
+      "releaseTag": "v2.0.3",
+      "sha256": "52d545bcdd3a5a8a069838fae7cdec43d4c2f5166795e75bf5b9bfb07c57d181",
+      "size": 4650408,
+      "format": "zip",
+      "binaries": {
+        "easytier-cli": {
+          "path": "easytier-linux-aarch64/easytier-cli",
+          "sha256": "6be02e4c5b383246015cad71302cacfafa96dfdb1091bd7edc01112da9ca9138"
+        },
+        "easytier-core": {
+          "path": "easytier-linux-aarch64/easytier-core",
+          "sha256": "d69a3ed9f2fbd49e9bc75e29ef77fca0dbf616e3a2f9744fb20ce9233b94fcef"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-macos-x86_64-v2.0.3.zip",
+      "releaseTag": "v2.0.3",
+      "sha256": "a2bcc4bf52d3dbc7bb842f294fde8bf132b5429dd3d667446366720ebda56541",
+      "size": 5417088,
+      "format": "zip",
+      "binaries": {
+        "easytier-cli": {
+          "path": "easytier-macos-x86_64/easytier-cli",
+          "sha256": "842bb523a263b435131a34985c3bff8217855793da1703a4167974aa2c474378"
+        },
+        "easytier-core": {
+          "path": "easytier-macos-x86_64/easytier-core",
+          "sha256": "10600dbd2b1b8b391315945e7a86f3f1623519ace12963b6417b42c5c8693700"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-macos-aarch64-v2.0.3.zip",
+      "releaseTag": "v2.0.3",
+      "sha256": "a6dfc332441d5c1f07c75c519ca5878cd235ec1d3f2ba074d375752d3d2dc415",
+      "size": 4973195,
+      "format": "zip",
+      "binaries": {
+        "easytier-cli": {
+          "path": "easytier-macos-aarch64/easytier-cli",
+          "sha256": "8875c8e210cf0e71846216e5bc6cc3f7056c253b7058fbc8a4f2ee0e16c84c39"
+        },
+        "easytier-core": {
+          "path": "easytier-macos-aarch64/easytier-core",
+          "sha256": "68a89b14232f1a42e51917451f93e384fe6772140cc7f2deb44506646fa1ce72"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-windows-x86_64-v2.0.3.zip",
+      "releaseTag": "v2.0.3",
+      "sha256": "18176b2ea53703093bbb16b4938160bfca4d96fbbd61097c5585a13b4fa3c10d",
+      "size": 5303454,
+      "format": "zip",
+      "binaries": {
+        "easytier-cli.exe": {
+          "path": "easytier-windows-x86_64/easytier-cli.exe",
+          "sha256": "01b1d01e4312dddbfa159f60e94006cb1a139c800d84d99a506aee245782f582"
+        },
+        "easytier-core.exe": {
+          "path": "easytier-windows-x86_64/easytier-core.exe",
+          "sha256": "4e63fda73338c75f39fe309e54742bf7af8cde87d9b92167d849ff6201151057"
+        }
+      }
+    }
+  }
+}
