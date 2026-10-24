@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "ludusavi",
+  "version": "0.31.0",
+  "repository": "mtkennerly/ludusavi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mtkennerly/ludusavi/releases/download/v0.31.0/ludusavi-v0.31.0-linux.tar.gz",
+      "sha256": "7322ff45d41eae7ae064a80d8c9ecccc5b8fb6fc090a603a66369cd4b054068d",
+      "size": 14389479,
+      "format": "tar.gz",
+      "releaseTag": "v0.31.0",
+      "binaries": {
+        "ludusavi": {
+          "path": "ludusavi",
+          "sha256": "38098e1aec77d0976fc0644ce00a265392ab58ac00b949ddff437aa9b7606d43"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mtkennerly/ludusavi/releases/download/v0.31.0/ludusavi-v0.31.0-mac.tar.gz",
+      "sha256": "5787e64d4c795180ab485535cae0b0ef6ee14d4fbe3813797a86913a37cc47f1",
+      "size": 11557467,
+      "format": "tar.gz",
+      "releaseTag": "v0.31.0",
+      "binaries": {
+        "ludusavi": {
+          "path": "ludusavi",
+          "sha256": "2b0654309bf78f0487acb985d775b498d77540b9f311bee6b3d4bf3bb35ab497"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mtkennerly/ludusavi/releases/download/v0.31.0/ludusavi-v0.31.0-win64.zip",
+      "sha256": "f47a8ad8c708f01d2eb124704973beffab205e292f5287a10fc4a101f8d68706",
+      "size": 13802820,
+      "format": "zip",
+      "releaseTag": "v0.31.0",
+      "binaries": {
+        "ludusavi.exe": {
+          "path": "ludusavi.exe",
+          "sha256": "5192fd1ef31b5718cdb787d3f41abdcca8682ba4cbad31812d44ca6630ec2c0c"
+        }
+      }
+    }
+  }
+}
