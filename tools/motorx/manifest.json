@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "motorx",
+  "version": "0.0.18",
+  "repository": "tsar-boomba/motorx",
+  "artifacts": {
+    "linux-arm64": {
+      "url": "https://github.com/tsar-boomba/motorx/releases/download/v0.0.18/motorx-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.0.18",
+      "sha256": "60c3d3862715cb64eb52e51ebcab522c8ac76f0be4ac0f1458588d3a0c4023f5",
+      "size": 3865400,
+      "format": "tar.gz",
+      "binaries": {
+        "motorx": {
+          "path": "motorx",
+          "sha256": "632c75aa7b2652cb62ba7a40949bc0d31631aed7f2a02757f6c490014d6301bd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tsar-boomba/motorx/releases/download/v0.0.18/motorx-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.18",
+      "sha256": "6b10825aa6f09946e41739910cfba2ec36e25a4350eca4b0e4681148edf769f7",
+      "size": 3928845,
+      "format": "tar.gz",
+      "binaries": {
+        "motorx": {
+          "path": "motorx",
+          "sha256": "2fba4855b88684e0b84d6bd1831bdaa517be718a36cd82c23c5417185c8470a1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tsar-boomba/motorx/releases/download/v0.0.18/motorx-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.0.18",
+      "sha256": "6daf83ed84b590dfab0dffbe45ccfe55f345e2ad9d1dabc5e957665159cbc54a",
+      "size": 3610175,
+      "format": "tar.gz",
+      "binaries": {
+        "motorx": {
+          "path": "motorx",
+          "sha256": "3aa1adaf2987ca82e4003be5913d4783e9a6406503d6e2f22fc057641e4d9486"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tsar-boomba/motorx/releases/download/v0.0.18/motorx-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.18",
+      "sha256": "403afa83a106c7add754518d236f0df088b09ddc4d3caa158a71f7c177500b67",
+      "size": 3547435,
+      "format": "zip",
+      "binaries": {
+        "motorx.exe": {
+          "path": "motorx.exe",
+          "sha256": "81f78d7a42b5578e3aba4f89d1402e39b5efdb175b67735f1383b7dbf45684a2"
+        }
+      }
+    }
+  }
+}
