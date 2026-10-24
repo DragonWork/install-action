@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "npwg",
+  "version": "0.5.3",
+  "repository": "vschwaberow/npwg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vschwaberow/npwg/releases/download/v0.5.3/npwg-linux-x86_64",
+      "sha256": "6af9d0431f6f68fb048fafa989965dbe1e1bd0c8a220b3188b51b74cde8e5f59",
+      "size": 8556032,
+      "format": "binary",
+      "releaseTag": "v0.5.3",
+      "binaries": {
+        "npwg": {
+          "path": "npwg-linux-x86_64",
+          "sha256": "6af9d0431f6f68fb048fafa989965dbe1e1bd0c8a220b3188b51b74cde8e5f59"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vschwaberow/npwg/releases/download/v0.5.3/npwg-macos-x86_64",
+      "sha256": "5c53bf166ba31033ad41965b5a4e13f9276e1586a8cd2dfeae7966f5a8d4e977",
+      "size": 7904600,
+      "format": "binary",
+      "releaseTag": "v0.5.3",
+      "binaries": {
+        "npwg": {
+          "path": "npwg-macos-x86_64",
+          "sha256": "5c53bf166ba31033ad41965b5a4e13f9276e1586a8cd2dfeae7966f5a8d4e977"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vschwaberow/npwg/releases/download/v0.5.3/npwg-windows-x86_64.exe",
+      "sha256": "963d7879a4ac420a433a5b3f4a0427cb0cb65bbbcfc6b6d8943350531b4731c4",
+      "size": 6983168,
+      "format": "binary",
+      "releaseTag": "v0.5.3",
+      "binaries": {
+        "npwg.exe": {
+          "path": "npwg-windows-x86_64.exe",
+          "sha256": "963d7879a4ac420a433a5b3f4a0427cb0cb65bbbcfc6b6d8943350531b4731c4"
+        }
+      }
+    }
+  }
+}
