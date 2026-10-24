@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "twitch-hls-client",
+  "version": "1.8.0",
+  "repository": "2bc4/twitch-hls-client",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/2bc4/twitch-hls-client/releases/download/1.8.0/twitch-hls-client-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "1.8.0",
+      "sha256": "9af9c05ebc1749144f6791afdbe9861d2a7c469ca3452617d699a922fbc807e5",
+      "size": 940655,
+      "format": "zip",
+      "binaries": {
+        "twitch-hls-client": {
+          "path": "twitch-hls-client",
+          "sha256": "cc23ff69157592c3b2a8b763cbcb62f9f1968ef44a009fab1ace548008cf3e4b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/2bc4/twitch-hls-client/releases/download/1.8.0/twitch-hls-client-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.8.0",
+      "sha256": "17759967b2fa784f98e1b6fcc5c4ebcb70cdc8ba9012c9d5d31fc86115ec0cd6",
+      "size": 803417,
+      "format": "zip",
+      "binaries": {
+        "twitch-hls-client.exe": {
+          "path": "twitch-hls-client.exe",
+          "sha256": "32a608c7734ff5ea86b870858eb185a2691cc2292c3be0e19786b97ea284a616"
+        }
+      }
+    }
+  }
+}
