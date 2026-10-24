@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dfm",
+  "version": "10.3.2",
+  "repository": "chasinglogic/dfm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/chasinglogic/dfm/releases/download/10.3.2/dfm-10.3.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "10.3.2",
+      "sha256": "0cba1523205c978f2b1e16e8cc8f6428299db74e81d859f99e8b7ac029243b47",
+      "size": 1608972,
+      "format": "tar.gz",
+      "binaries": {
+        "dfm": {
+          "path": "dfm-10.3.2-x86_64-unknown-linux-gnu/dfm",
+          "sha256": "f14ee1d6b287f11c5e578a0d2d7d896f9dfc1c50f4241e9f3174049ce718c50f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/chasinglogic/dfm/releases/download/10.3.2/dfm-10.3.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "10.3.2",
+      "sha256": "6138e36e27a113ec29abb18cfc323afc4879c476fd4428f76825ff6afa4549dc",
+      "size": 1469365,
+      "format": "tar.gz",
+      "binaries": {
+        "dfm": {
+          "path": "dfm-10.3.2-x86_64-apple-darwin/dfm",
+          "sha256": "3d11babbe68693702584a821ad05981f9f32a3bbb6073e5c73ad61c1e2309b6d"
+        }
+      }
+    }
+  }
+}
