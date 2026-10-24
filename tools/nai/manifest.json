@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "nai",
+  "version": "2.0.0",
+  "repository": "azzamsa/nai",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/azzamsa/nai/releases/download/v2.0.0/nai-2.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "01caf646e6c3ba6cd164a1142e989ba8738375c9c720ba4c572e6c5ffde2e2ac",
+      "size": 670965,
+      "format": "tar.gz",
+      "binaries": {
+        "nai": {
+          "path": "./nai",
+          "sha256": "260d165850f4f11fb82eeeb9d05012de8a6d54e15e71b9c43bfcb32b58452877"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/azzamsa/nai/releases/download/v2.0.0/nai-2.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "7bff1033ebd23ab79047562fb2099ec1679a48653e379d17728f0e5af948d188",
+      "size": 557750,
+      "format": "tar.gz",
+      "binaries": {
+        "nai": {
+          "path": "./nai",
+          "sha256": "2404ef66feb7bf07d9e279b0803028c9897d8234db8495ca730f7d59da25f2f7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/azzamsa/nai/releases/download/v2.0.0/nai-2.0.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v2.0.0",
+      "sha256": "10e30ff7bdf2e55ff8bfbd8794b312eaed055dd8e0bc4b3bea5c5d52f1a08d25",
+      "size": 525713,
+      "format": "tar.gz",
+      "binaries": {
+        "nai.exe": {
+          "path": "./nai.exe",
+          "sha256": "72c9908a2f03eec4fe8adf4cbc4977fbf9538abe91aa32a5c187df855b822b13"
+        }
+      }
+    }
+  }
+}
