@@ -18,10 +18,12 @@ class DiscoveryTests(unittest.TestCase):
                 ["1", "cli", "https://github.com/example/cli"],
                 ["2", "library", ""], ["3", "unknown", ""],
                 ["4", "small-cli", ""],
+                ["5", "yanked-cli", "https://github.com/example/yanked-cli"],
             ],
             "crate_downloads.csv": [
                 ["crate_id", "downloads"],
                 ["1", "10000"], ["2", "100000"], ["3", "10001"], ["4", "9999"],
+                ["5", "10000"],
             ],
             "versions.csv": [
                 ["crate_id", "num", "yanked", "bin_names", "tar_sha256", "repository"],
@@ -31,6 +33,8 @@ class DiscoveryTests(unittest.TestCase):
                 ["2", "1.0.0", "f", "{}", "\\x" + "d" * 64, ""],
                 ["3", "1.0.0", "f", "", "\\x" + "e" * 64, ""],
                 ["4", "1.0.0", "f", "{small-cli}", "\\x" + "f" * 64, ""],
+                ["4", "2.0.0", "t", "{small-cli}", "", ""],
+                ["5", "1.0.0", "t", "{yanked-cli}", "", ""],
             ],
         }
         data = io.BytesIO()
@@ -49,6 +53,7 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(result["crates"]["cli"]["binaries"], ["cli", "helper"])
         self.assertEqual(result["crates"]["cli"]["downloads"], 10000)
         self.assertEqual(result["unknown"], ["unknown"])
+        self.assertEqual(result["yanked"], {"cli": ["3.0.0"], "yanked-cli": ["1.0.0"]})
 
 
 if __name__ == "__main__":

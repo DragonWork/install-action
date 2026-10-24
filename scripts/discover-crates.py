@@ -31,7 +31,7 @@ def binary_names(value):
 
 
 def scan(stream):
-    names, downloads, latest, binaries = {}, {}, {}, {}
+    names, downloads, latest, binaries, yanked = {}, {}, {}, {}, {}
     required = {"crates.csv", "crate_downloads.csv", "versions.csv"}
     tables = set()
     csv.field_size_limit(16 * 1024 * 1024)
@@ -51,9 +51,12 @@ def scan(stream):
                     downloads[row["crate_id"]] = int(row["downloads"])
                     continue
                 key = version_key(row["num"])
-                if key is None or row["yanked"] in {"t", "true", "1"}:
+                if key is None:
                     continue
                 crate_id = row["crate_id"]
+                if row["yanked"] in {"t", "true", "1"}:
+                    yanked.setdefault(crate_id, []).append(row["num"])
+                    continue
                 bins = binary_names(row["bin_names"])
                 if crate_id not in latest or key > latest[crate_id][0]:
                     latest[crate_id] = (key, bins)
@@ -75,7 +78,11 @@ def scan(stream):
             crates[names[crate_id]["name"]] = details
     unknown = sorted(names[crate_id]["name"] for crate_id, (_, bins) in latest.items()
                      if bins is None and crate_id in names and downloads.get(crate_id, 0) >= MIN_DOWNLOADS)
-    return {"crates": dict(sorted(crates.items())), "unknown": unknown}
+    yanked_versions = {names[crate_id]["name"]: sorted(versions, key=version_key)
+                       for crate_id, versions in yanked.items()
+                       if crate_id in names and downloads.get(crate_id, 0) >= MIN_DOWNLOADS}
+    return {"crates": dict(sorted(crates.items())), "unknown": unknown,
+            "yanked": dict(sorted(yanked_versions.items()))}
 
 
 def main():
@@ -85,12 +92,12 @@ def main():
     destination = Path(args.output)
     previous = json.loads(destination.read_text()) if destination.exists() else {}
     headers = {"User-Agent": "DragonWork/install-action (https://github.com/DragonWork/install-action)"}
-    if previous.get("etag") and previous.get("minimumDownloads") == MIN_DOWNLOADS:
+    if previous.get("etag") and previous.get("minimumDownloads") == MIN_DOWNLOADS and previous.get("schema") == 2:
         headers["If-None-Match"] = previous["etag"]
     request = urllib.request.Request(DUMP_URL, headers=headers)
     try:
         with urllib.request.urlopen(request, timeout=120) as response:
-            catalog = {"schema": 1, "minimumDownloads": MIN_DOWNLOADS, "source": DUMP_URL, "etag": response.headers.get("ETag"),
+            catalog = {"schema": 2, "minimumDownloads": MIN_DOWNLOADS, "source": DUMP_URL, "etag": response.headers.get("ETag"),
                        "modified": response.headers.get("Last-Modified"), **scan(response)}
     except urllib.error.HTTPError as error:
         if error.code != 304:

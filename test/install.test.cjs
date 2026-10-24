@@ -6,7 +6,8 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const os = require('node:os');
 const { download, validateManifest, ownedDirectory, writeCommand, sha256, archivePath } = require('../lib/common.cjs');
-const { install } = require('../lib/install.cjs');
+const { install, main } = require('../lib/install.cjs');
+const { checkYanked } = require('../lib/yank.cjs');
 const { sample, tar } = require('./fixtures.cjs');
 
 async function temporary(t) {
@@ -106,4 +107,54 @@ test('cleanup checks the exact directory and workflow commands reject newlines',
   assert.equal(await ownedDirectory(child, parent, 'dragonwork-install-'), await fs.realpath(child));
   await assert.rejects(ownedDirectory(parent, parent, 'dragonwork-install-'), /Unsafe/);
   await assert.rejects(writeCommand(path.join(parent, 'env'), 'NAME', 'value\nINJECT=true'), /Invalid/);
+});
+
+test('a yanked crate warns and still installs the verified pinned binary', async t => {
+  const parent = await temporary(t);
+  const root = await fs.mkdtemp(path.join(parent, 'dragonwork-install-'));
+  const fixture = sample();
+  const platform = `${process.platform}-${process.arch}`;
+  fixture.manifest.artifacts = { [platform]: fixture.manifest.artifacts['linux-x64'] };
+  const file = path.join(parent, 'manifest.json');
+  await fs.writeFile(file, JSON.stringify(fixture.manifest));
+  const originalFetch = global.fetch, originalLog = console.log, originalArgv = process.argv;
+  const originalEnv = { ...process.env };
+  t.after(() => {
+    global.fetch = originalFetch;
+    console.log = originalLog;
+    process.argv = originalArgv;
+    for (const key of Object.keys(process.env)) if (!(key in originalEnv)) delete process.env[key];
+    Object.assign(process.env, originalEnv);
+  });
+  const messages = [];
+  console.log = message => messages.push(message);
+  global.fetch = async url => url.startsWith('https://crates.io/')
+    ? Response.json({ version: { crate: 'sample-cli', num: '1.0.0', yanked: true } }) : fixture.fetcher();
+  process.argv = [process.execPath, 'install.cjs', file];
+  Object.assign(process.env, { DW_INSTALL_PROTOCOL: '1', DW_INSTALL_ROOT: root, DW_INSTALL_PARENT: parent,
+    GITHUB_PATH: path.join(parent, 'path'), GITHUB_OUTPUT: path.join(parent, 'output') });
+  await main();
+  const bin = (await fs.readFile(process.env.GITHUB_PATH, 'utf8')).trim();
+  assert.deepEqual(await fs.readFile(path.join(bin, 'sample-cli')), fixture.binary);
+  assert(messages.some(message => message.startsWith('::warning::') && message.includes('is yanked')));
+  assert.match(await fs.readFile(process.env.GITHUB_OUTPUT, 'utf8'), /version=1\.0\.0/);
+});
+
+test('registry outages and malformed yank metadata warn without blocking pinned installs', async () => {
+  const { manifest } = sample();
+  for (const fetcher of [
+    async () => new Response('', { status: 503 }),
+    async () => { throw new Error('request timed out'); },
+    async () => Response.json({ version: { crate: 'different', num: '1.0.0', yanked: true } }),
+  ]) {
+    const messages = [];
+    assert.equal(await checkYanked(manifest, { fetcher, report: message => messages.push(message) }), null);
+    assert.equal(messages.length, 1);
+    assert.match(messages[0], /Continuing with the checksum-pinned prebuilt binary/);
+  }
+  const messages = [];
+  assert.equal(await checkYanked(manifest, { fetcher: async () => Response.json({ version: {
+    crate: 'sample-cli', num: '1.0.0', yanked: false,
+  } }), report: message => messages.push(message) }), false);
+  assert.deepEqual(messages, []);
 });
