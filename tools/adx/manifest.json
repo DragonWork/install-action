@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "adx",
+  "version": "5.1.0",
+  "repository": "msfjarvis/adx",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/msfjarvis/adx/releases/download/v5.1.0/adx-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v5.1.0",
+      "sha256": "b3c7be46395ac68a76452d0ed93b6262cbf01abf0b19a42c2a14e3773972508a",
+      "size": 2914052,
+      "format": "tar.xz",
+      "binaries": {
+        "adx": {
+          "path": "adx-x86_64-unknown-linux-musl/adx",
+          "sha256": "1ba25c5dfbd7cf422e0db5bd799c96ef75e39a777af82f77e76a05c89caccd7e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/msfjarvis/adx/releases/download/v5.1.0/adx-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v5.1.0",
+      "sha256": "6cf884f8624e7f908ffd50c9643ceb24a28ac0a520575b217db925ab803962f2",
+      "size": 2424244,
+      "format": "tar.xz",
+      "binaries": {
+        "adx": {
+          "path": "adx-aarch64-unknown-linux-gnu/adx",
+          "sha256": "98cae4229acf1ad575c340ee1a2bc30e25bba308ef9f532435c2010b9bb2a434"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/msfjarvis/adx/releases/download/v5.1.0/adx-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v5.1.0",
+      "sha256": "bad8c39699b7f17e001c0c75d4a1ba415f0b99c2df98c832640f4ee53a79ecc6",
+      "size": 1402344,
+      "format": "tar.xz",
+      "binaries": {
+        "adx": {
+          "path": "adx-x86_64-apple-darwin/adx",
+          "sha256": "1756b25b12ce7c6bc96bf2b23596afcd18fd006b1fc6e0a87fd62e641a7a30c5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/msfjarvis/adx/releases/download/v5.1.0/adx-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v5.1.0",
+      "sha256": "7940590043863a637d27284e6678dc4744e80093d506d53d39bdf74bfa8741ac",
+      "size": 1242400,
+      "format": "tar.xz",
+      "binaries": {
+        "adx": {
+          "path": "adx-aarch64-apple-darwin/adx",
+          "sha256": "d05a9cd6b92f620cc4ad095363b99f83e4f1b1a1b7f164ea06c2013889057d44"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/msfjarvis/adx/releases/download/v5.1.0/adx-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v5.1.0",
+      "sha256": "3f474b0225c622c10d7803f83557eaf83d8782e31032040a9c00274639ea42f6",
+      "size": 3126718,
+      "format": "zip",
+      "binaries": {
+        "adx.exe": {
+          "path": "adx.exe",
+          "sha256": "b6a5b183e8c9116888936a8bf5ed5747d77226e88da39117dc142a6b3095e2fa"
+        }
+      }
+    }
+  }
+}
