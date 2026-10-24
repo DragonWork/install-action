@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "sic",
+  "version": "0.22.4",
+  "repository": "foresterre/imagineer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/foresterre/imagineer/releases/download/v0.22.4/sic-x86_64-unknown-linux-gnu-v0.22.4.tgz",
+      "releaseTag": "v0.22.4",
+      "sha256": "34ee6db664c607b933f64ab16d7ac989d8367ee6ef79df608cccfbea5fe54499",
+      "size": 4408445,
+      "format": "tar.gz",
+      "binaries": {
+        "sic": {
+          "path": "sic-x86_64-unknown-linux-gnu-v0.22.4/sic",
+          "sha256": "df26ac70d3f9e324996a49f8c912b383c8e160e4a277a592ebb9af3d79166d79"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/foresterre/imagineer/releases/download/v0.22.4/sic-x86_64-apple-darwin-v0.22.4.tgz",
+      "releaseTag": "v0.22.4",
+      "sha256": "54cf688a47b7961c64e18c3a71ee6fa4511826393bc703290b338e15e6c74a59",
+      "size": 3847376,
+      "format": "tar.gz",
+      "binaries": {
+        "sic": {
+          "path": "sic-x86_64-apple-darwin-v0.22.4/sic",
+          "sha256": "ece039061bdfed7dccc52495b961d468b4bbcc6c42ad1ecc46a50af6691ad119"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/foresterre/imagineer/releases/download/v0.22.4/sic-x86_64-pc-windows-msvc-v0.22.4.zip",
+      "releaseTag": "v0.22.4",
+      "sha256": "99f33c6cf0c93680fa1ee0531c574ad31fe8c7eb01229fc4a879723054c91192",
+      "size": 3593868,
+      "format": "zip",
+      "binaries": {
+        "sic.exe": {
+          "path": "sic-x86_64-pc-windows-msvc-v0.22.4/sic.exe",
+          "sha256": "31fecba9056f000441cd5cca5ae4e521dd85b6aa87671e02eee8bac268df5afb"
+        }
+      }
+    }
+  }
+}
