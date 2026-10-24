@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "sarif-fmt",
+  "version": "0.8.0",
+  "repository": "psastras/sarif-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/psastras/sarif-rs/releases/download/sarif-fmt-v0.8.0/sarif-fmt-x86_64-unknown-linux-gnu",
+      "sha256": "39464516e1e3684f3af250985de755a6287c5a79e6c17d6a9d54675ad853ffe2",
+      "size": 2224912,
+      "format": "binary",
+      "releaseTag": "sarif-fmt-v0.8.0",
+      "binaries": {
+        "sarif-fmt": {
+          "path": "sarif-fmt-x86_64-unknown-linux-gnu",
+          "sha256": "39464516e1e3684f3af250985de755a6287c5a79e6c17d6a9d54675ad853ffe2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/psastras/sarif-rs/releases/download/sarif-fmt-v0.8.0/sarif-fmt-aarch64-apple-darwin",
+      "sha256": "b97b6f1afec6c87c73366992178a811ddca838808381cacec47cee7786dba8f3",
+      "size": 1904976,
+      "format": "binary",
+      "releaseTag": "sarif-fmt-v0.8.0",
+      "binaries": {
+        "sarif-fmt": {
+          "path": "sarif-fmt-aarch64-apple-darwin",
+          "sha256": "b97b6f1afec6c87c73366992178a811ddca838808381cacec47cee7786dba8f3"
+        }
+      }
+    }
+  }
+}
