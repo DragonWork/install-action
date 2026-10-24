@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "lines-cli",
+  "version": "0.3.17",
+  "repository": "ryanfowler/lines",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ryanfowler/lines/releases/download/v0.3.17/lines-v0.3.17-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.17",
+      "sha256": "36d443482cbb2abe17b963dfb4b84a9110882415bf1c424dafc702a177aee8b2",
+      "size": 1225348,
+      "format": "tar.gz",
+      "binaries": {
+        "lines": {
+          "path": "lines",
+          "sha256": "3dd9410aede034e7bf963bdec9ef5f1d144a5f7207187dd60381aafce41c4c76"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ryanfowler/lines/releases/download/v0.3.17/lines-v0.3.17-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.17",
+      "sha256": "b378e50d42800e971ca9699b6c305e0a2813b089d2d584ba9b1e7812b2d06e99",
+      "size": 1085556,
+      "format": "tar.gz",
+      "binaries": {
+        "lines": {
+          "path": "lines",
+          "sha256": "64ab00930019113cbe2acca75fab00a8d64952b1e266fc9ed027cc9d96a2dea6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ryanfowler/lines/releases/download/v0.3.17/lines-v0.3.17-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.17",
+      "sha256": "a7aee89292fadc485d4ef6ebe2b4e0e0a86cdee73b47a8ddd7092babcd285b5e",
+      "size": 1098491,
+      "format": "tar.gz",
+      "binaries": {
+        "lines": {
+          "path": "lines",
+          "sha256": "c7a4732fec39567f9886fed9693c86cbe16891c88774b03dcf09e99d2ba4ea68"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ryanfowler/lines/releases/download/v0.3.17/lines-v0.3.17-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.17",
+      "sha256": "cc390882e5a3f373f7199e40bfbcb9f1bfb2aa88e69cb944c03b6536491575bc",
+      "size": 1002747,
+      "format": "tar.gz",
+      "binaries": {
+        "lines": {
+          "path": "lines",
+          "sha256": "5a51a74862acf1da0135f0ca2f21913afce4e1a8bc54d805bd863ae5ef841044"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ryanfowler/lines/releases/download/v0.3.17/lines-v0.3.17-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.17",
+      "sha256": "1340085baf8cf38d3a96c7f92a7d82f3dadea63259637a6558f7a677e3026cc0",
+      "size": 1031895,
+      "format": "zip",
+      "binaries": {
+        "lines.exe": {
+          "path": "lines.exe",
+          "sha256": "4239b218ac345bfc518fa927292b086ed14096028195f0312f6c302100970844"
+        }
+      }
+    }
+  }
+}
