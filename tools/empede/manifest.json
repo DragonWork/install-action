@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "empede",
+  "version": "0.2.3",
+  "repository": "vijfhoek/empede",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vijfhoek/empede/releases/download/v0.2.3/empede-x86_64-unknown-linux-gnu-v0.2.3.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "a94860cd6c2f3e58f564db62ff93b379d9447875e75209562efecdeb023bfda2",
+      "size": 4388992,
+      "format": "tar.gz",
+      "binaries": {
+        "empede": {
+          "path": "empede-x86_64-unknown-linux-gnu-v0.2.3/empede",
+          "sha256": "5947e5ffb2754b97ed138d1ce1af70539956676000750012687d280ff569683f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vijfhoek/empede/releases/download/v0.2.3/empede-x86_64-pc-windows-gnu-v0.2.3.zip",
+      "releaseTag": "v0.2.3",
+      "sha256": "6731e751bfecfeef4bb4d8df0e728dd95c4cafc10b878659e2400575bc4c4fd8",
+      "size": 7855708,
+      "format": "zip",
+      "binaries": {
+        "empede.exe": {
+          "path": "empede-x86_64-pc-windows-gnu-v0.2.3/empede.exe",
+          "sha256": "d1cfc132b0d7adfe20ccd1eb461f9854a9e9609a97531e6f09704ca4f430aed1"
+        }
+      }
+    }
+  }
+}
