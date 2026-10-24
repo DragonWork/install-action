@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pklib",
+  "version": "0.2.0",
+  "repository": "danielsreichenbach/pklib-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/danielsreichenbach/pklib-rs/releases/download/v0.2.0/blast-cli-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "f679a514992697ecb4db95ace56758f6aa83bc06c2bb8bd69146f5093a274b1f",
+      "size": 551157,
+      "format": "tar.gz",
+      "binaries": {
+        "blast-cli": {
+          "path": "blast-cli",
+          "sha256": "8a66612acb61b51ff6f35e941d2c052f19f90c18648c80f3ec9cd7039933cfaf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/danielsreichenbach/pklib-rs/releases/download/v0.2.0/blast-cli-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "a54973aebb436515309708ed041257a17673c4864368ff3b83d6f55a0878d35c",
+      "size": 527832,
+      "format": "tar.gz",
+      "binaries": {
+        "blast-cli": {
+          "path": "blast-cli",
+          "sha256": "fecc819f0f877ecdc909f542c047d0f21e6c01a0be252fdc9a7537d845df68a5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/danielsreichenbach/pklib-rs/releases/download/v0.2.0/blast-cli-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "17a7020dcb73c6f14d5301c095130885202b7bae9f08f60790cf444e1ea73671",
+      "size": 469333,
+      "format": "tar.gz",
+      "binaries": {
+        "blast-cli": {
+          "path": "blast-cli",
+          "sha256": "8ddb9b6b3f86ee58d73e738ee38f74959521f4ce423119c1c14d386aa8a1aee7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/danielsreichenbach/pklib-rs/releases/download/v0.2.0/blast-cli-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "02dabe88873b02b90c2789428a75a4e3fc16dd22fa61bd0e4ebcfe2736bd4945",
+      "size": 446838,
+      "format": "tar.gz",
+      "binaries": {
+        "blast-cli": {
+          "path": "blast-cli",
+          "sha256": "aadc9f41efa8b7ce56c71fde47ed481416438fa3e431a844edd7d5e509679673"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/danielsreichenbach/pklib-rs/releases/download/v0.2.0/blast-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "32cc99dd50d35eb49f14e55dbea36316a1801cd409175f41e5fa883bc8908e86",
+      "size": 371254,
+      "format": "zip",
+      "binaries": {
+        "blast-cli.exe": {
+          "path": "blast-cli.exe",
+          "sha256": "d781b486ed94e4f6af5c83204f6fac38da5001ddc94fa97821cf7ec7a4650844"
+        }
+      }
+    }
+  }
+}
