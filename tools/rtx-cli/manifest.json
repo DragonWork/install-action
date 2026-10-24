@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rtx-cli",
+  "version": "2024.0.0",
+  "repository": "jdx/mise",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jdx/mise/releases/download/v2024.0.0/rtx-v2024.0.0-linux-x64.tar.gz",
+      "releaseTag": "v2024.0.0",
+      "sha256": "9a547bcdd9316b287cf31399fa61ecbedbb80965db555b276669a30fc2856a23",
+      "size": 7978059,
+      "format": "tar.gz",
+      "binaries": {
+        "rtx": {
+          "path": "rtx/bin/rtx",
+          "sha256": "35c2e4a3a62c0a382081ceff70090dc3a0716f570f5aefb38b0c77185fcb00a6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jdx/mise/releases/download/v2024.0.0/rtx-v2024.0.0-linux-arm64.tar.gz",
+      "releaseTag": "v2024.0.0",
+      "sha256": "674bc368c22b43cb90e767d806648a957fae68d1f5bafc3fa66a4825a3201a45",
+      "size": 8144121,
+      "format": "tar.gz",
+      "binaries": {
+        "rtx": {
+          "path": "rtx/bin/rtx",
+          "sha256": "58ceeb60a5eceac0130aab3a0c414666c30abe37d028190ab29fb8e802841aa3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jdx/mise/releases/download/v2024.0.0/rtx-v2024.0.0-macos-x64.tar.gz",
+      "releaseTag": "v2024.0.0",
+      "sha256": "dfc8b5320b6c61ac5e711095c3cd3e42e23a91dba56c01e09c57ec404eef3c95",
+      "size": 5644803,
+      "format": "tar.gz",
+      "binaries": {
+        "rtx": {
+          "path": "rtx/bin/rtx",
+          "sha256": "ec736ed129912182d2eb8e716e6a664c3a21ddf6416523b96fb1fd1878953768"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jdx/mise/releases/download/v2024.0.0/rtx-v2024.0.0-macos-arm64.tar.gz",
+      "releaseTag": "v2024.0.0",
+      "sha256": "7c82cd4076483c86f7c90fd34ee980cd80da488c9be7b68a038d61df6522136c",
+      "size": 5358600,
+      "format": "tar.gz",
+      "binaries": {
+        "rtx": {
+          "path": "rtx/bin/rtx",
+          "sha256": "288b2e3cf3073946be160e0a91ff54bd1249ef6c3ffa91ad9d9b912bc963db99"
+        }
+      }
+    }
+  }
+}
