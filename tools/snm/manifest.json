@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "snm",
+  "version": "0.8.0",
+  "repository": "numToStr/snm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/numToStr/snm/releases/download/v0.8.0/snm-v0.8.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "507b0644851f98cdb4be127e557cfd15f9a549c70dec520c8032a422d086bb9a",
+      "size": 1192312,
+      "format": "tar.gz",
+      "binaries": {
+        "snm": {
+          "path": "snm-v0.8.0-x86_64-unknown-linux-gnu/snm",
+          "sha256": "9c92451143ccae79b7e38cac507bb9d0b17ebb73c37ebd2689db3ad9cd5afd4d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/numToStr/snm/releases/download/v0.8.0/snm-v0.8.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "6ff999ab19ba1f09f683e756473658782913c94f5af2bc9c0a95737f07cdeda3",
+      "size": 1110710,
+      "format": "tar.gz",
+      "binaries": {
+        "snm": {
+          "path": "snm-v0.8.0-aarch64-unknown-linux-gnu/snm",
+          "sha256": "6b62ebd3eb07b58606204dfe44cf6adc21511b8ae0e0dd0c8fed96601f1bf34e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/numToStr/snm/releases/download/v0.8.0/snm-v0.8.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "04d27a529eb971b15033af0536ae01cfaa799202290cc573925cb90e41a61585",
+      "size": 1083136,
+      "format": "tar.gz",
+      "binaries": {
+        "snm": {
+          "path": "snm-v0.8.0-x86_64-apple-darwin/snm",
+          "sha256": "d6b4dc96bad7b481760a0c616cfc951c35877788ab30e3bff7648fe80f530ad8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/numToStr/snm/releases/download/v0.8.0/snm-v0.8.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.0",
+      "sha256": "4fcd85383a62be7449d8407997cd0297c395e01909a010e84e9d1c2755c77e3d",
+      "size": 1094942,
+      "format": "zip",
+      "binaries": {
+        "snm.exe": {
+          "path": "snm-v0.8.0-x86_64-pc-windows-msvc/snm.exe",
+          "sha256": "e3046f6ca5aeaf9a8d09465d15392a350c1dab6cdfa24c201a1025bb0b70a432"
+        }
+      }
+    }
+  }
+}
