@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "ec2-search",
+  "version": "0.14.1",
+  "repository": "mocyuto/ec2-search",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mocyuto/ec2-search/releases/download/v0.14.1/ec2-search-linux.tar.gz",
+      "sha256": "1f64c4c2036e214f9d0d98fd03ae9bd67cbf71599ee572d7b36be5be71cdee5c",
+      "size": 4259329,
+      "format": "tar.gz",
+      "releaseTag": "v0.14.1",
+      "binaries": {
+        "ec2s": {
+          "path": "ec2s",
+          "sha256": "fad76d5eb94f1ad87d7256621501f632075ca92936faac96eb126bbbfdc54a61"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mocyuto/ec2-search/releases/download/v0.14.1/ec2-search-macos.tar.gz",
+      "sha256": "22612fcbc6609478bfb7da68e7d1ae28217fd33b458eeba38b0bc749d5207331",
+      "size": 3932149,
+      "format": "tar.gz",
+      "releaseTag": "v0.14.1",
+      "binaries": {
+        "ec2s": {
+          "path": "ec2s",
+          "sha256": "dc7a804005cef98516376d172bed405bcd4217db7fa10979889a3fd07b73a09b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mocyuto/ec2-search/releases/download/v0.14.1/ec2-search-windows.tar.gz",
+      "sha256": "a3c33a76179466ad0cf4ca59be069b2f104a387affc2cbd85e39499e239c1e59",
+      "size": 4003369,
+      "format": "tar.gz",
+      "releaseTag": "v0.14.1",
+      "binaries": {
+        "ec2s.exe": {
+          "path": "ec2s.exe",
+          "sha256": "ece233ecea5e50d6d7c0b51e69f1f81048f9f40452784e537e65cd192982e541"
+        }
+      }
+    }
+  }
+}
