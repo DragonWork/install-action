@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "name": "svm-rs",
+  "version": "0.5.32",
+  "repository": "alloy-rs/svm-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alloy-rs/svm-rs/releases/download/v0.5.32/svm-rs-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.32",
+      "sha256": "1e98ecf6970db8624eae9401e76eea3c2b55b1a084eaa3bc813e36985f00401b",
+      "size": 3237742,
+      "format": "tar.gz",
+      "binaries": {
+        "solc": {
+          "path": "svm-rs-x86_64-unknown-linux-musl/solc",
+          "sha256": "5daa30ad30f6bccd5b680c90f0b3b8ee569ed7df13adc1e6f73ac085e83117c6"
+        },
+        "svm": {
+          "path": "svm-rs-x86_64-unknown-linux-musl/svm",
+          "sha256": "a4ae9813dcb7c11ce3afbe024a0b82c1450a56a9ecbed99621085fc17dfb2d4a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/alloy-rs/svm-rs/releases/download/v0.5.32/svm-rs-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.32",
+      "sha256": "935d34adb4b348bf79902fd85df6242ff66c645194d93e2c9033d9494bc992c5",
+      "size": 2910143,
+      "format": "tar.gz",
+      "binaries": {
+        "solc": {
+          "path": "svm-rs-aarch64-unknown-linux-gnu/solc",
+          "sha256": "032e21420694aeb124eb609d4d4ef26504c6d41ab3e2ba49497423cdbd26db26"
+        },
+        "svm": {
+          "path": "svm-rs-aarch64-unknown-linux-gnu/svm",
+          "sha256": "c06a32efa11aee8f0319875e233cfac884d5bb26aef886c67309e6336fa399ed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/alloy-rs/svm-rs/releases/download/v0.5.32/svm-rs-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.32",
+      "sha256": "1afe7cd2939a212c36d7bc549e45c7d9fd27f8fa76a7b6302f4e9fd83ca2cec5",
+      "size": 2975942,
+      "format": "tar.gz",
+      "binaries": {
+        "solc": {
+          "path": "svm-rs-x86_64-apple-darwin/solc",
+          "sha256": "2f4e3dc23f438e7e38d879c7872583f2fbf1fae9eb80e4269c284b861c114086"
+        },
+        "svm": {
+          "path": "svm-rs-x86_64-apple-darwin/svm",
+          "sha256": "8d9eb21f538ed080b6b354565c0dd8b241fe443d1158a7805ce60915c5acbc81"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/alloy-rs/svm-rs/releases/download/v0.5.32/svm-rs-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.32",
+      "sha256": "f58ff6999e8322e0892b7c7859aa7b7f0b97b4fc281b762bab4b813da10273f2",
+      "size": 2775877,
+      "format": "tar.gz",
+      "binaries": {
+        "solc": {
+          "path": "svm-rs-aarch64-apple-darwin/solc",
+          "sha256": "0b9f3093a9ddfb5221934272287137e393c047345e5349ecbdb46d5752b2d63e"
+        },
+        "svm": {
+          "path": "svm-rs-aarch64-apple-darwin/svm",
+          "sha256": "584ef65cd70cc37af674404cdc0162d9a599e24d2e91990be1b139e03307d036"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/alloy-rs/svm-rs/releases/download/v0.5.32/svm-rs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.32",
+      "sha256": "2cd0e33ebd0872328fad63189244b8cd50bbbafd69e1cdd91d7f2c53fceac992",
+      "size": 5929164,
+      "format": "zip",
+      "binaries": {
+        "solc.exe": {
+          "path": "solc.exe",
+          "sha256": "cb022a7e1d25dff4de262cf59a15f0d25f2a273dbee8b31939b1df4ebf40886a"
+        },
+        "svm.exe": {
+          "path": "svm.exe",
+          "sha256": "5652e563ee027258604771e65622ba08dc3e58df8171c389ee7199dd737dd8da"
+        }
+      }
+    }
+  }
+}
