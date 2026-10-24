@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "convco",
+  "version": "0.7.2",
+  "repository": "convco/convco",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/convco/convco/releases/download/v0.7.2/convco-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.2",
+      "sha256": "f9cfad24af372018f4b8d430cf86d1b7b9b36fcb7e1db5dd30c54b2eed7dde75",
+      "size": 2701082,
+      "format": "tar.gz",
+      "binaries": {
+        "convco": {
+          "path": "convco-x86_64-unknown-linux-musl/convco",
+          "sha256": "820e7665871d88ee76b37b06be6385b9ff73f4d239fa894ae8969fbe5c783247"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/convco/convco/releases/download/v0.7.2/convco-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.2",
+      "sha256": "7a4523573a81d24f37aa4d22aa26d8a3083188422213efe0274a7fbbd840c741",
+      "size": 2431089,
+      "format": "tar.gz",
+      "binaries": {
+        "convco": {
+          "path": "convco-aarch64-unknown-linux-musl/convco",
+          "sha256": "425549c9ea277a342e3942353e6bf34af6453fef4f199765c88242ca6ce1d682"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/convco/convco/releases/download/v0.7.2/convco-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.2",
+      "sha256": "cbf86082b5c87254afc333a5353c4b359f09b83488c9250a161cf1caae811884",
+      "size": 2296529,
+      "format": "tar.gz",
+      "binaries": {
+        "convco": {
+          "path": "convco-aarch64-apple-darwin/convco",
+          "sha256": "8067a46fc946d2156d0fe14d8e8623aef3c235c634573823026fab0ed3c87288"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/convco/convco/releases/download/v0.7.2/convco-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.7.2",
+      "sha256": "a565c9211a589285621f4167dd6eabf36c4093c9acc11d5488758e93c135f69a",
+      "size": 2744139,
+      "format": "tar.gz",
+      "binaries": {
+        "convco.exe": {
+          "path": "convco-x86_64-pc-windows-msvc/convco.exe",
+          "sha256": "385750771be87c5c5d8707a1aa3f7b8474050dd732f0810adf93798f20f9fb0b"
+        }
+      }
+    }
+  }
+}
