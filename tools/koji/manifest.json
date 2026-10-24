@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "koji",
+  "version": "3.4.0",
+  "repository": "cococonscious/koji",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.4.0",
+      "sha256": "84bea66389e8d98c08df927d52b5342a2e89d8a8abbfe0133ab537d5809680df",
+      "size": 3783415,
+      "format": "tar.gz",
+      "binaries": {
+        "koji": {
+          "path": "koji",
+          "sha256": "5026d7c5bb1a671d250f4dcc870401a4532db20dbce0cad586bbae5bacfe7d7b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.4.0",
+      "sha256": "f16452a1962e8d8dff9c280a5128abd674e37b358cf31f61d42c8e89f48ca020",
+      "size": 3920686,
+      "format": "tar.gz",
+      "binaries": {
+        "koji": {
+          "path": "koji",
+          "sha256": "c33264c8bd0ce2cd88df58cd7efaea3959fc7ccb2fb19f23e9e5c381ec4f4dda"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.4.0",
+      "sha256": "ef42a37b80be52b946ece97e262e35ec851d519a0c274f9b8baaa2cb871c0316",
+      "size": 3558617,
+      "format": "tar.gz",
+      "binaries": {
+        "koji": {
+          "path": "koji",
+          "sha256": "e1d767a6c643343dd349e276d2454700f0fd62810fae025789b8b1dbabb041c0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cococonscious/koji/releases/download/v3.4.0/koji-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.4.0",
+      "sha256": "05a8eca10a272d71f57bb0061b65565dabaefec169a8164324198ad482a7bc6e",
+      "size": 3637616,
+      "format": "tar.gz",
+      "binaries": {
+        "koji": {
+          "path": "koji",
+          "sha256": "f7c27d1df7bca3fc36bfb597ba6b9e7394ea1d8a313ffb14903d62956f12f0d7"
+        }
+      }
+    }
+  }
+}
