@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "jql",
+  "version": "9.0.3",
+  "repository": "yamafaktory/jql",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "jql-v9.0.3",
+      "sha256": "b1d5718b04c7cccd33735a25a85ade2f878b2bf402e1a037504f21f61f517099",
+      "size": 580579,
+      "format": "tar.gz",
+      "binaries": {
+        "jql": {
+          "path": "jql",
+          "sha256": "d68ef2a3b24a7f010f1c8b5bf226c423c0d19997129c6a02baa377eb8f1dad23"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "jql-v9.0.3",
+      "sha256": "a26bcbb7a84f4125dcd2ece6e54b977a13b1ca6f994a4df7f27e00f0513153e3",
+      "size": 581570,
+      "format": "tar.gz",
+      "binaries": {
+        "jql": {
+          "path": "jql",
+          "sha256": "74f2d265adb96d30487f956899fba56494588938740c857568eb547722738d97"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-x86_64-apple-darwin.zip",
+      "releaseTag": "jql-v9.0.3",
+      "sha256": "888b044ff3e9a91d74a4ed178a4438ea94628e199901b936b6d6303cacaadb79",
+      "size": 468628,
+      "format": "zip",
+      "binaries": {
+        "jql": {
+          "path": "jql",
+          "sha256": "7e29c619df57866725b11770834797d80f32a81f08e157c962bacc05b13aea3e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-aarch64-apple-darwin.zip",
+      "releaseTag": "jql-v9.0.3",
+      "sha256": "c57916e7e9fb0c5e81ccd1193de2fef16b36d1169cc25a724da4b6e436822ef2",
+      "size": 456042,
+      "format": "zip",
+      "binaries": {
+        "jql": {
+          "path": "jql",
+          "sha256": "719174b11f7676d06710f63e0720a750fe4102768059651ac4450ff0baed316b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "jql-v9.0.3",
+      "sha256": "270816a8f06c96e6c4ecb32af379d3275991222f90648fa500f4572bbe68e2ba",
+      "size": 343331,
+      "format": "zip",
+      "binaries": {
+        "jql.exe": {
+          "path": "jql.exe",
+          "sha256": "5794ef390ec8f891d5606f6f79090265686145fab9202b88908779612afe15cd"
+        }
+      }
+    }
+  }
+}
