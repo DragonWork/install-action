@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "ckb-capsule",
+  "version": "0.10.5",
+  "repository": "nervosnetwork/capsule",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nervosnetwork/capsule/releases/download/v0.10.5/capsule_v0.10.5_x86_64-linux.tar.gz",
+      "releaseTag": "v0.10.5",
+      "sha256": "13f005955d628369033315d5f88a625a9e52a4d131eb85bfa1ca88c791870836",
+      "size": 7191892,
+      "format": "tar.gz",
+      "binaries": {
+        "capsule": {
+          "path": "capsule_v0.10.5_x86_64-linux/capsule",
+          "sha256": "968aa2beade6e1dfb9437c6504633cf6e9ca20fe39fd7eae4be5fb10e4b4de6b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nervosnetwork/capsule/releases/download/v0.10.5/capsule_v0.10.5_x86_64-darwin.tar.gz",
+      "releaseTag": "v0.10.5",
+      "sha256": "22373cfde2687131858a23af638075e47f668e2d1cd0ef7501ca4a3f150078ae",
+      "size": 3847655,
+      "format": "tar.gz",
+      "binaries": {
+        "capsule": {
+          "path": "capsule_v0.10.5_x86_64-darwin/capsule",
+          "sha256": "55b81754d9461396e5920f51265a1aef956013b5aac0b98e2b5305fe133e66f9"
+        }
+      }
+    }
+  }
+}
