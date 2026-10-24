@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "adguardian",
+  "version": "1.8.0",
+  "repository": "lissy93/AdGuardian-Term",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lissy93/AdGuardian-Term/releases/download/1.8.0/adguardian-linux",
+      "sha256": "773bb0183287d1bb611e22b1f5ade6abd6c5acaab73ab111e718f3f36123c3ae",
+      "size": 8544960,
+      "format": "binary",
+      "releaseTag": "1.8.0",
+      "binaries": {
+        "adguardian": {
+          "path": "adguardian-linux",
+          "sha256": "773bb0183287d1bb611e22b1f5ade6abd6c5acaab73ab111e718f3f36123c3ae"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lissy93/AdGuardian-Term/releases/download/1.8.0/adguardian-linux-arm64",
+      "sha256": "4837147eb62993c92fe14d81911587af97fa6037e203ee5f2a9d7a9e6bb024fb",
+      "size": 7618608,
+      "format": "binary",
+      "releaseTag": "1.8.0",
+      "binaries": {
+        "adguardian": {
+          "path": "adguardian-linux-arm64",
+          "sha256": "4837147eb62993c92fe14d81911587af97fa6037e203ee5f2a9d7a9e6bb024fb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lissy93/AdGuardian-Term/releases/download/1.8.0/adguardian-macos-x86_64",
+      "sha256": "950bfdb8e456978ad21a653c28d9acdfb2892d489329c3e683566cd5bce9b659",
+      "size": 7907464,
+      "format": "binary",
+      "releaseTag": "1.8.0",
+      "binaries": {
+        "adguardian": {
+          "path": "adguardian-macos-x86_64",
+          "sha256": "950bfdb8e456978ad21a653c28d9acdfb2892d489329c3e683566cd5bce9b659"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lissy93/AdGuardian-Term/releases/download/1.8.0/adguardian-macos",
+      "sha256": "a0419e3e49a327494aca00783cd5b84a567d6e4535107977769bac68fe90304e",
+      "size": 6958768,
+      "format": "binary",
+      "releaseTag": "1.8.0",
+      "binaries": {
+        "adguardian": {
+          "path": "adguardian-macos",
+          "sha256": "a0419e3e49a327494aca00783cd5b84a567d6e4535107977769bac68fe90304e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lissy93/AdGuardian-Term/releases/download/1.8.0/adguardian-windows.exe",
+      "sha256": "c61be8a13e5f7f5e9fc4d4eb0a05be9e2676bbda438694662ee1941234830b02",
+      "size": 5550080,
+      "format": "binary",
+      "releaseTag": "1.8.0",
+      "binaries": {
+        "adguardian.exe": {
+          "path": "adguardian-windows.exe",
+          "sha256": "c61be8a13e5f7f5e9fc4d4eb0a05be9e2676bbda438694662ee1941234830b02"
+        }
+      }
+    }
+  }
+}
