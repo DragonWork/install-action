@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "mrepl",
+  "version": "0.31.0",
+  "repository": "fluencelabs/marine",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fluencelabs/marine/releases/download/mrepl-v0.31.0/mrepl-linux-x86_64",
+      "sha256": "43bb9eecba53948a7e774319d047fd1c621ca4fc1fe0b3551ac2ecc0df718b6a",
+      "size": 15092208,
+      "format": "binary",
+      "releaseTag": "mrepl-v0.31.0",
+      "binaries": {
+        "mrepl": {
+          "path": "mrepl-linux-x86_64",
+          "sha256": "43bb9eecba53948a7e774319d047fd1c621ca4fc1fe0b3551ac2ecc0df718b6a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/fluencelabs/marine/releases/download/mrepl-v0.31.0/mrepl-darwin-x86_64",
+      "sha256": "defcf225a9375d9478e52eb078a8868b6faa00395f4c85b40988906afd47d87c",
+      "size": 13194496,
+      "format": "binary",
+      "releaseTag": "mrepl-v0.31.0",
+      "binaries": {
+        "mrepl": {
+          "path": "mrepl-darwin-x86_64",
+          "sha256": "defcf225a9375d9478e52eb078a8868b6faa00395f4c85b40988906afd47d87c"
+        }
+      }
+    }
+  }
+}
