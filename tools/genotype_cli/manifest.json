@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "genotype_cli",
+  "version": "0.17.1",
+  "repository": "kossnocorp/genotype",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.17.1/gt-v0.17.1-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.17.1",
+      "sha256": "3b360b1e3f46b96779a694e07390106087897eea8053fae4b1eb814ebaaad5db",
+      "size": 9438720,
+      "format": "binary",
+      "binaries": {
+        "gt.exe": {
+          "path": "gt-v0.17.1-x86_64-pc-windows-msvc.exe",
+          "sha256": "3b360b1e3f46b96779a694e07390106087897eea8053fae4b1eb814ebaaad5db"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.17.1/gt-v0.17.1-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.17.1",
+      "sha256": "d3dbd9f898e4003ee6cb540aef6e994bfa65ce28c8c7a4d13d286a500f793662",
+      "size": 8238592,
+      "format": "binary",
+      "binaries": {
+        "gt.exe": {
+          "path": "gt-v0.17.1-aarch64-pc-windows-msvc.exe",
+          "sha256": "d3dbd9f898e4003ee6cb540aef6e994bfa65ce28c8c7a4d13d286a500f793662"
+        }
+      }
+    }
+  }
+}
