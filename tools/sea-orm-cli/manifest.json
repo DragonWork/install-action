@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "sea-orm-cli",
+  "version": "2.0.4",
+  "repository": "SeaQL/sea-orm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/SeaQL/sea-orm/releases/download/sea-orm-cli%402.0.4/sea-orm-cli-x86_64-unknown-linux-gnu-v2.0.4.tgz",
+      "sha256": "60168ef13d65da0dc2710b32afa3ce381d6d36048dd6bd7dd3e375877ff04631",
+      "size": 5674896,
+      "format": "tar.gz",
+      "releaseTag": "sea-orm-cli@2.0.4",
+      "binaries": {
+        "sea": {
+          "path": "sea-orm-cli-x86_64-unknown-linux-gnu-v2.0.4/sea",
+          "sha256": "f99461fa279791e28ab89a609696c7400c0c2142f3268c4a58231ee03a4657a4"
+        },
+        "sea-orm-cli": {
+          "path": "sea-orm-cli-x86_64-unknown-linux-gnu-v2.0.4/sea-orm-cli",
+          "sha256": "f99461fa279791e28ab89a609696c7400c0c2142f3268c4a58231ee03a4657a4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/SeaQL/sea-orm/releases/download/sea-orm-cli%402.0.4/sea-orm-cli-aarch64-unknown-linux-gnu-v2.0.4.tgz",
+      "sha256": "894d064675ad221cc917260f3e64744eb7453be4afd8ae169e7b92e875a0353d",
+      "size": 5443678,
+      "format": "tar.gz",
+      "releaseTag": "sea-orm-cli@2.0.4",
+      "binaries": {
+        "sea": {
+          "path": "sea-orm-cli-aarch64-unknown-linux-gnu-v2.0.4/sea",
+          "sha256": "2ea6f5440183071010797a22094235ac0d6a25f5b9c3ec848dc4c2cbf619d14e"
+        },
+        "sea-orm-cli": {
+          "path": "sea-orm-cli-aarch64-unknown-linux-gnu-v2.0.4/sea-orm-cli",
+          "sha256": "2ea6f5440183071010797a22094235ac0d6a25f5b9c3ec848dc4c2cbf619d14e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/SeaQL/sea-orm/releases/download/sea-orm-cli%402.0.4/sea-orm-cli-aarch64-apple-darwin-v2.0.4.tgz",
+      "sha256": "48dffee8029682288d5d8a32f5b1b8edc423cff0b4fcee0da51bcde1741b3cfe",
+      "size": 5171592,
+      "format": "tar.gz",
+      "releaseTag": "sea-orm-cli@2.0.4",
+      "binaries": {
+        "sea": {
+          "path": "sea-orm-cli-aarch64-apple-darwin-v2.0.4/sea",
+          "sha256": "1455a6fe1b9f866c210bd99f9aad19bfa29c2f57e24461711df5f47b5769b69d"
+        },
+        "sea-orm-cli": {
+          "path": "sea-orm-cli-aarch64-apple-darwin-v2.0.4/sea-orm-cli",
+          "sha256": "1455a6fe1b9f866c210bd99f9aad19bfa29c2f57e24461711df5f47b5769b69d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/SeaQL/sea-orm/releases/download/sea-orm-cli%402.0.4/sea-orm-cli-x86_64-pc-windows-msvc-v2.0.4.zip",
+      "sha256": "cc1d1966f914561e0c2c977733f7e37b912eeec81421055b8e4c1c5959b12698",
+      "size": 5481588,
+      "format": "zip",
+      "releaseTag": "sea-orm-cli@2.0.4",
+      "binaries": {
+        "sea.exe": {
+          "path": "sea-orm-cli-x86_64-pc-windows-msvc-v2.0.4/sea.exe",
+          "sha256": "429ed127674ca32ee3cb7661e6d97334803a2f6e3a2c95e85ac527d019eed45f"
+        },
+        "sea-orm-cli.exe": {
+          "path": "sea-orm-cli-x86_64-pc-windows-msvc-v2.0.4/sea-orm-cli.exe",
+          "sha256": "429ed127674ca32ee3cb7661e6d97334803a2f6e3a2c95e85ac527d019eed45f"
+        }
+      }
+    }
+  }
+}
