@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "stuffit",
+  "version": "0.4.0",
+  "repository": "benletchford/stuffit-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/benletchford/stuffit-rs/releases/download/v0.4.0/stuffit-0.4.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "ba419d5714e9a8d6d66b0a96268e9517b64bd21394e13be0f545590e5ac964cd",
+      "size": 8688383,
+      "format": "tar.gz",
+      "binaries": {
+        "stuffit": {
+          "path": "stuffit-0.4.0-x86_64-unknown-linux-gnu/bin/stuffit",
+          "sha256": "1d3b1cddb5440f797aa9e551a395f0bfbdf18ff75614b34f63a0340f30b201c1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/benletchford/stuffit-rs/releases/download/v0.4.0/stuffit-0.4.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "56fb4abd8fa5ec0d474c832eaea67c3f7c7ac5ffe7535e4404772461151dc77e",
+      "size": 8634335,
+      "format": "tar.gz",
+      "binaries": {
+        "stuffit": {
+          "path": "stuffit-0.4.0-aarch64-unknown-linux-gnu/bin/stuffit",
+          "sha256": "fb8e28376a61ed59f9c680240d4911a99ac2bc20ed1ed3ce0bc2d2fe1eef7e62"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/benletchford/stuffit-rs/releases/download/v0.4.0/stuffit-0.4.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "ddea1a8373fc5cdf6e2df6ee79f160e600eb6428a29103a1e8ff5661a18121a9",
+      "size": 8489498,
+      "format": "tar.gz",
+      "binaries": {
+        "stuffit": {
+          "path": "stuffit-0.4.0-x86_64-apple-darwin/bin/stuffit",
+          "sha256": "55c11a5c65cbc56ee2226d864ef4d885accdd8e64626a27f99160e652404d79e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/benletchford/stuffit-rs/releases/download/v0.4.0/stuffit-0.4.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "676a88c92bc541251f8ff2291ce62833953306bb957616ed470fc24660323c7f",
+      "size": 8355499,
+      "format": "tar.gz",
+      "binaries": {
+        "stuffit": {
+          "path": "stuffit-0.4.0-aarch64-apple-darwin/bin/stuffit",
+          "sha256": "16bce2d6065e000816a7c89022694d61e433258711862203567333d41993676d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/benletchford/stuffit-rs/releases/download/v0.4.0/stuffit-0.4.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "3f3ad84f450be01e1e0399be7d3a7291dce09b9a9ce149dabc302900f9d4b54c",
+      "size": 6085150,
+      "format": "zip",
+      "binaries": {
+        "stuffit.exe": {
+          "path": "stuffit-0.4.0-x86_64-pc-windows-msvc/bin/stuffit.exe",
+          "sha256": "da2f6e5260ae4d6834023343b57633af908dce259c958304ec248f74ca96043b"
+        }
+      }
+    }
+  }
+}
