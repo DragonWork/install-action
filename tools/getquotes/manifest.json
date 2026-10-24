@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "getquotes",
+  "version": "0.7.3",
+  "repository": "MuntasirSZN/getquotes",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MuntasirSZN/getquotes/releases/download/v0.7.3/getquotes-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "080cdf2a583b0d83acef8ee0905a8efa3895cd094d556d81140a0d2241ef3d8e",
+      "size": 4669863,
+      "format": "tar.gz",
+      "binaries": {
+        "getquotes": {
+          "path": "getquotes",
+          "sha256": "f3b9d917d7f862b62c8c51715419e047d6483fb6a35ca5f292200073e0932724"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MuntasirSZN/getquotes/releases/download/v0.7.3/getquotes-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "c84492f609981cc7c0cb6452250c3ea6558ed31431c28b1b6c00b3ea0dd73eef",
+      "size": 4368383,
+      "format": "tar.gz",
+      "binaries": {
+        "getquotes": {
+          "path": "getquotes",
+          "sha256": "869d452e06178e9bae9c8eb10b036a10bab261227b71fd0f137bf2a18adc2ba5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MuntasirSZN/getquotes/releases/download/v0.7.3/getquotes-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "fefa1750b1a246a3a80008fe178fbaf63cce19d9dd247a5572536b47d701d811",
+      "size": 4496049,
+      "format": "tar.gz",
+      "binaries": {
+        "getquotes": {
+          "path": "getquotes",
+          "sha256": "b500bf0b7229cd9e33bc2d03d217734a6d020fa3cdd7f068c48bdc48bbcc09e9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MuntasirSZN/getquotes/releases/download/v0.7.3/getquotes-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "4d7d6b81d0a8cec0964f9d5342c2b4689cb1c69e0952f7fe61f1c07042e44c16",
+      "size": 4151177,
+      "format": "tar.gz",
+      "binaries": {
+        "getquotes": {
+          "path": "getquotes",
+          "sha256": "71dd7a4858fe768d9084410151eeaffcf4711c69ed0cc8f5ba8955414f99891f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MuntasirSZN/getquotes/releases/download/v0.7.3/getquotes-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.3",
+      "sha256": "3d37e484a6cf9758a053d9983be18be6df316579232647c4c846ccb3d4023f98",
+      "size": 4511009,
+      "format": "zip",
+      "binaries": {
+        "getquotes.exe": {
+          "path": "getquotes.exe",
+          "sha256": "1a1cad5109f0d04768e170b54580186045c7af468c1a27af1e3b0132b2661f5b"
+        }
+      }
+    }
+  }
+}
