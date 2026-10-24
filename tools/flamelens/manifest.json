@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "flamelens",
+  "version": "0.4.0",
+  "repository": "YS-L/flamelens",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/YS-L/flamelens/releases/download/v0.4.0/flamelens-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "df8262e9711806326110e2794a87e09d9207fcc0b70db50d661dbb0a504deeef",
+      "size": 1083836,
+      "format": "tar.xz",
+      "binaries": {
+        "flamelens": {
+          "path": "flamelens-x86_64-unknown-linux-musl/flamelens",
+          "sha256": "c28021ab36db51e6194b19be1d8b4542c119afb8138631300ec1166121486322"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/YS-L/flamelens/releases/download/v0.4.0/flamelens-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "33be4ffd15a84b50e5b2fb3a14762289e7c3048d59b001dda7d5aa34b47c2dc4",
+      "size": 908928,
+      "format": "tar.xz",
+      "binaries": {
+        "flamelens": {
+          "path": "flamelens-aarch64-unknown-linux-gnu/flamelens",
+          "sha256": "143933ec8e6d9483e011ee74cc176b433fcfcb014b7967c9fe561a55bbd0f2e0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/YS-L/flamelens/releases/download/v0.4.0/flamelens-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "40a2a08622056d5f67d049a64f8cc111a1caa4ab1f10d442c23c9ea9819caaeb",
+      "size": 957768,
+      "format": "tar.xz",
+      "binaries": {
+        "flamelens": {
+          "path": "flamelens-x86_64-apple-darwin/flamelens",
+          "sha256": "33f873dd3037cef2a001bda3709bd3f85b0c2651798590d4a2ede235989be65e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/YS-L/flamelens/releases/download/v0.4.0/flamelens-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "c48480f17a0d57d8b7012aa8196e72f946e348c3be22d801a25c22e272ae9c6d",
+      "size": 844372,
+      "format": "tar.xz",
+      "binaries": {
+        "flamelens": {
+          "path": "flamelens-aarch64-apple-darwin/flamelens",
+          "sha256": "9839f906521211f944a762f045f955823efd6097c7cab5f211932938b3fa97c9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/YS-L/flamelens/releases/download/v0.4.0/flamelens-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "ed32e5885a5ee88b4a8471c50b29c35e002db409fbdeb249a4c558d9feee5885",
+      "size": 1212055,
+      "format": "zip",
+      "binaries": {
+        "flamelens.exe": {
+          "path": "flamelens.exe",
+          "sha256": "be2356c40469631fe1613edb4f93a39df871f34c59d2fbba8331fb10e26a8fb7"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/YS-L/flamelens/releases/download/v0.4.0/flamelens-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "c5fff61920867c7413ffcca61eb622bf481881cbab834045cec23a1463572ce1",
+      "size": 1136204,
+      "format": "zip",
+      "binaries": {
+        "flamelens.exe": {
+          "path": "flamelens.exe",
+          "sha256": "fa50703d6d50c0b2367bf0d3545ecc2091046f0696ce780539105da53d1f7dd5"
+        }
+      }
+    }
+  }
+}
