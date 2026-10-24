@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "zifu",
+  "version": "2.0.0",
+  "repository": "tats-u/zifu",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tats-u/zifu/releases/download/v2.0.0/zifu-v2.0.0-x86_64-linux.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "8cd7e5216964fea72ccbaab742da6d29eef565b1873ce3f02e07a80657e1f131",
+      "size": 1477560,
+      "format": "zip",
+      "binaries": {
+        "zifu": {
+          "path": "zifu/zifu",
+          "sha256": "33543f6e7541b377e69d5a058a33eba91864256f40bd1ad4d73b0575d989b9a2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tats-u/zifu/releases/download/v2.0.0/zifu-v2.0.0-aarch64-linux.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "578bf8b6bbacf53cd21a6997f41e2baff8b316000fd2ed354a3a92ae63b8e816",
+      "size": 1433008,
+      "format": "zip",
+      "binaries": {
+        "zifu": {
+          "path": "zifu/zifu",
+          "sha256": "c12e8ffc7ba42ad7eb8e694e5222176c7514de4a1fd78976f899eb0367998d5e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tats-u/zifu/releases/download/v2.0.0/zifu-v2.0.0-x86_64-macos.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "bd1ed9a6210d8ef983d79e7dea9974834414af034f65e8e8b3b428061c62a5de",
+      "size": 1409165,
+      "format": "zip",
+      "binaries": {
+        "zifu": {
+          "path": "zifu/zifu",
+          "sha256": "670114d735010cfd64540fb0693a2dacaf7ba18fc873540401d1f403f18527b0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tats-u/zifu/releases/download/v2.0.0/zifu-v2.0.0-aarch64-macos.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "2d28d793910d5c3591fca80a6375d193d65b7e404e3e01369b4093e71ae18df3",
+      "size": 1325425,
+      "format": "zip",
+      "binaries": {
+        "zifu": {
+          "path": "zifu/zifu",
+          "sha256": "1215465ca40b66d14014fdb7215da49b89177b4fa50db82265cc863c913ca350"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tats-u/zifu/releases/download/v2.0.0/zifu-v2.0.0-x86_64-windows.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "bd45870d3c346ce66357d23bcb2ffcd13c1143f6090d18aa136280cd4456d012",
+      "size": 1234360,
+      "format": "zip",
+      "binaries": {
+        "zifu.exe": {
+          "path": "zifu/zifu.exe",
+          "sha256": "da83b5d11119f5cc1027ba5e69228ebffcdad5cd7355b3017f90717ad0b628b1"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/tats-u/zifu/releases/download/v2.0.0/zifu-v2.0.0-aarch64-windows.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "8c1a223328c0e15a19c0d93721815105ca6a5b13c99e7eb6c4baeeba33babf70",
+      "size": 1147490,
+      "format": "zip",
+      "binaries": {
+        "zifu.exe": {
+          "path": "zifu/zifu.exe",
+          "sha256": "e9f360cfdc353bcf43c913610e72a14fd9d5666d207638e0de6259bf4ddfa2f7"
+        }
+      }
+    }
+  }
+}
