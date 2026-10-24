@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "megaphone",
+  "version": "0.9.3",
+  "repository": "dghilardi/megaphone",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dghilardi/megaphone/releases/download/0.9.3/megaphone-linux.tar.gz",
+      "sha256": "65df4de688e3d151681e930f307cb1e0cf070aadc22dd9352033b4a62ed5a0c2",
+      "size": 4164920,
+      "format": "tar.gz",
+      "releaseTag": "0.9.3",
+      "binaries": {
+        "server": {
+          "path": "megaphone-linux/server",
+          "sha256": "79015025e9e69dc9c544768eeea2afbdb607869c49459e22db45c05bb3f69d53"
+        }
+      }
+    }
+  }
+}
