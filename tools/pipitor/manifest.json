@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "pipitor",
+  "version": "0.2.2",
+  "repository": "tesaguri/pipitor",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tesaguri/pipitor/releases/download/v0.2.2/pipitor-v0.2.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "e27d6d1dc8e136a21970a808a130c48896ac1d2c04d7177068396021670716de",
+      "size": 3823949,
+      "format": "tar.gz",
+      "binaries": {
+        "pipitor": {
+          "path": "pipitor",
+          "sha256": "7fb1d6cd7f476dd7423c0f2465c3a3372bcee2abf2e97b8c6d8a653f4542a3ea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tesaguri/pipitor/releases/download/v0.2.2/pipitor-v0.2.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "e3166ed0790771bdaa62696a0934006ee525da1366a1851b187e0293a112b165",
+      "size": 3690723,
+      "format": "tar.gz",
+      "binaries": {
+        "pipitor": {
+          "path": "pipitor",
+          "sha256": "75f16be000acdf18c261fc701da78258294e98ece8af8c022a872c0ddbd09ebf"
+        }
+      }
+    }
+  }
+}
