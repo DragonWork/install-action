@@ -1,0 +1,278 @@
+{
+  "schema": 1,
+  "name": "zarrs_tools",
+  "version": "0.8.1",
+  "repository": "zarrs/zarrs_tools",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zarrs/zarrs_tools/releases/download/v0.8.1/zarrs_tools-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.1",
+      "sha256": "21f2d9e90e522cdbe0bd442193f39f7d08d761ba8583617250b81fedef44144b",
+      "size": 6229964,
+      "format": "tar.xz",
+      "binaries": {
+        "zarrs_benchmark_read_async": {
+          "path": "zarrs_tools-x86_64-unknown-linux-gnu/zarrs_benchmark_read_async",
+          "sha256": "85f5385901d8639b411ea4d6eba766bb9366deaa20af413d2f9bcd4e4824c1e2"
+        },
+        "zarrs_benchmark_read_async_as_sync": {
+          "path": "zarrs_tools-x86_64-unknown-linux-gnu/zarrs_benchmark_read_async_as_sync",
+          "sha256": "c8f84679abc41434d0515730c549744d018d2f77cbe79e9d23c153496b59d9a8"
+        },
+        "zarrs_benchmark_read_sync": {
+          "path": "zarrs_tools-x86_64-unknown-linux-gnu/zarrs_benchmark_read_sync",
+          "sha256": "cab240765548e56944d8ce3983abc4b62d2041106144e6003ee722e9eb2eed48"
+        },
+        "zarrs_binary2zarr": {
+          "path": "zarrs_tools-x86_64-unknown-linux-gnu/zarrs_binary2zarr",
+          "sha256": "11749fec70d9ccec4448c68934171dd745d1aecc8044dbacb4bf5298f6ee8dcd"
+        },
+        "zarrs_filter": {
+          "path": "zarrs_tools-x86_64-unknown-linux-gnu/zarrs_filter",
+          "sha256": "fd17ee70e11eb8244d65f8703a7235ea99b2ca8292143c9ab26a26f9d4c68f4e"
+        },
+        "zarrs_info": {
+          "path": "zarrs_tools-x86_64-unknown-linux-gnu/zarrs_info",
+          "sha256": "6ed12f5da521b08362bc0a47fdf3a5c8d63b19b19611cb8004ff2e3e62670acb"
+        },
+        "zarrs_ome": {
+          "path": "zarrs_tools-x86_64-unknown-linux-gnu/zarrs_ome",
+          "sha256": "69a804c13f4f9045edee680e3097e8c0e7463180b2952516a55d6b77970af80d"
+        },
+        "zarrs_reencode": {
+          "path": "zarrs_tools-x86_64-unknown-linux-gnu/zarrs_reencode",
+          "sha256": "f49d22ddacd9ea220f2494fb712b7a2d908c7e5d760b675044a2398575228f37"
+        },
+        "zarrs_validate": {
+          "path": "zarrs_tools-x86_64-unknown-linux-gnu/zarrs_validate",
+          "sha256": "cea0c725532c05ee4e723128ca0d601a17c158e639d96e1b21e0ec170a455039"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/zarrs/zarrs_tools/releases/download/v0.8.1/zarrs_tools-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.1",
+      "sha256": "dd64c0f7202d5e048f1c6d603dd04ccf2c31c86d3e7db8130bd42923a63a8dd6",
+      "size": 5878420,
+      "format": "tar.xz",
+      "binaries": {
+        "zarrs_benchmark_read_async": {
+          "path": "zarrs_tools-aarch64-unknown-linux-gnu/zarrs_benchmark_read_async",
+          "sha256": "7670201bc7f9fdd390475533277046ac88836d3e156d247e5df9329916164504"
+        },
+        "zarrs_benchmark_read_async_as_sync": {
+          "path": "zarrs_tools-aarch64-unknown-linux-gnu/zarrs_benchmark_read_async_as_sync",
+          "sha256": "55005f2d690bbc0d72a39c3925d4f3592eebcf6f8cc13e4fa3e97cbcfa78a68e"
+        },
+        "zarrs_benchmark_read_sync": {
+          "path": "zarrs_tools-aarch64-unknown-linux-gnu/zarrs_benchmark_read_sync",
+          "sha256": "4a7a8a4433727d37114735e5dd9ce98a4b2da197a2d1baf2c13ff53a42d3ba51"
+        },
+        "zarrs_binary2zarr": {
+          "path": "zarrs_tools-aarch64-unknown-linux-gnu/zarrs_binary2zarr",
+          "sha256": "c1e6168c7110d6655d5ac388fa123546a2195a13504a99279830d93671779fff"
+        },
+        "zarrs_filter": {
+          "path": "zarrs_tools-aarch64-unknown-linux-gnu/zarrs_filter",
+          "sha256": "58f50cef005db273ea2a9793396bc1d4a9cb66c3f6fc7f64846579ff72a8850f"
+        },
+        "zarrs_info": {
+          "path": "zarrs_tools-aarch64-unknown-linux-gnu/zarrs_info",
+          "sha256": "46fb066af6839afefafedec619c661f055ed60e68b1cca16b1d97871061f6147"
+        },
+        "zarrs_ome": {
+          "path": "zarrs_tools-aarch64-unknown-linux-gnu/zarrs_ome",
+          "sha256": "04eb736cfb9f28a34551823b4b7a4c71e483fd616a964c999a519cd6332fd14c"
+        },
+        "zarrs_reencode": {
+          "path": "zarrs_tools-aarch64-unknown-linux-gnu/zarrs_reencode",
+          "sha256": "ba36b698992dacc3ea73833174067632c212a80a396ea93f4878d7d1ee984958"
+        },
+        "zarrs_validate": {
+          "path": "zarrs_tools-aarch64-unknown-linux-gnu/zarrs_validate",
+          "sha256": "8d0865f7448ea21ac3bcc89c5147bab5a6761aa567b90581a9eaf622f81a0791"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zarrs/zarrs_tools/releases/download/v0.8.1/zarrs_tools-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.1",
+      "sha256": "28f939fbd294ebc3f14567cea135972ee98b5288a65241d3eabf56f72e01986f",
+      "size": 5645312,
+      "format": "tar.xz",
+      "binaries": {
+        "zarrs_benchmark_read_async": {
+          "path": "zarrs_tools-x86_64-apple-darwin/zarrs_benchmark_read_async",
+          "sha256": "622758496595b7b1c6b31da74289fa704ceee254696da997ef066298880699f1"
+        },
+        "zarrs_benchmark_read_async_as_sync": {
+          "path": "zarrs_tools-x86_64-apple-darwin/zarrs_benchmark_read_async_as_sync",
+          "sha256": "245c4377fa9ecf17448e9b816b4a46dd40875c1cb1f5c5d0c4dd331c3fbe362d"
+        },
+        "zarrs_benchmark_read_sync": {
+          "path": "zarrs_tools-x86_64-apple-darwin/zarrs_benchmark_read_sync",
+          "sha256": "65858a7aa04f623599c5dc96e8f6014e70c2e3184a6ef0921b18059cb06d2cee"
+        },
+        "zarrs_binary2zarr": {
+          "path": "zarrs_tools-x86_64-apple-darwin/zarrs_binary2zarr",
+          "sha256": "7744e87b9994e2898eb656f3395380490e02d73285c1c3a9fa146dfb46c4a568"
+        },
+        "zarrs_filter": {
+          "path": "zarrs_tools-x86_64-apple-darwin/zarrs_filter",
+          "sha256": "4d1e22ce70a3a3cadbe83d1cda4d6fe0b015173958e5bcddda251c3217e10cd8"
+        },
+        "zarrs_info": {
+          "path": "zarrs_tools-x86_64-apple-darwin/zarrs_info",
+          "sha256": "b19602e3326dbe0b71f575b04db4646ddbf0000e68d7fbe341c23534353542b4"
+        },
+        "zarrs_ome": {
+          "path": "zarrs_tools-x86_64-apple-darwin/zarrs_ome",
+          "sha256": "0b141650bc3fbbf5cd9067cd6085db71543353ee2e4688431d7bd7a38fe88e80"
+        },
+        "zarrs_reencode": {
+          "path": "zarrs_tools-x86_64-apple-darwin/zarrs_reencode",
+          "sha256": "bff183cff263d02798f7793f0a4bdecc0fbca103082b6434e7aae6861513e1fb"
+        },
+        "zarrs_validate": {
+          "path": "zarrs_tools-x86_64-apple-darwin/zarrs_validate",
+          "sha256": "f88a77d54e50822b80594c22160c8cb0ba29c1c89e27105f0e00460502c4473e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zarrs/zarrs_tools/releases/download/v0.8.1/zarrs_tools-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.1",
+      "sha256": "51cebca2dd7c69ada39fa2f118d0111f991bfd943230486d75524f64ea243a45",
+      "size": 5206800,
+      "format": "tar.xz",
+      "binaries": {
+        "zarrs_benchmark_read_async": {
+          "path": "zarrs_tools-aarch64-apple-darwin/zarrs_benchmark_read_async",
+          "sha256": "5c04d7e0e150f3e1446db21723de5a7b715c8fdd355ba3bf0e423c0b2a422e52"
+        },
+        "zarrs_benchmark_read_async_as_sync": {
+          "path": "zarrs_tools-aarch64-apple-darwin/zarrs_benchmark_read_async_as_sync",
+          "sha256": "1464c0100f5f8cb3b641fe10c76f51bf141a78236f97826fa512d5b25c4b2cd6"
+        },
+        "zarrs_benchmark_read_sync": {
+          "path": "zarrs_tools-aarch64-apple-darwin/zarrs_benchmark_read_sync",
+          "sha256": "01eb8dc3ba9413dfd8ede0de06fd83a032d4447d618a9ad19a8bade38f8f2dc9"
+        },
+        "zarrs_binary2zarr": {
+          "path": "zarrs_tools-aarch64-apple-darwin/zarrs_binary2zarr",
+          "sha256": "38430a983a47f0f1cac3b331356776afa48cf79f08dcc21b241a4777f5d4c409"
+        },
+        "zarrs_filter": {
+          "path": "zarrs_tools-aarch64-apple-darwin/zarrs_filter",
+          "sha256": "c7c9074e98b6f68508439719d8b4783a2a878766ff2d763c348506f7c5b852ec"
+        },
+        "zarrs_info": {
+          "path": "zarrs_tools-aarch64-apple-darwin/zarrs_info",
+          "sha256": "782bdfadbd6bdecf2a963e5dbc1fe2ed574b4fc83c01bee22d964fd7f2a0caf7"
+        },
+        "zarrs_ome": {
+          "path": "zarrs_tools-aarch64-apple-darwin/zarrs_ome",
+          "sha256": "009c00abdfa7232fff654c428d3d329dc6c0ce70bfc242b0fefd5ff6340e3093"
+        },
+        "zarrs_reencode": {
+          "path": "zarrs_tools-aarch64-apple-darwin/zarrs_reencode",
+          "sha256": "df6e70cea59cf83191b115347b21c2b3b22970d5429ae55670f9d1852e85ac6e"
+        },
+        "zarrs_validate": {
+          "path": "zarrs_tools-aarch64-apple-darwin/zarrs_validate",
+          "sha256": "4da624d2427bfe825d3e68af421bbf50b796b15f8b5d4983c483ef9aea4c3236"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/zarrs/zarrs_tools/releases/download/v0.8.1/zarrs_tools-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.1",
+      "sha256": "d13d61953eeb3df21a7e5bbc3480491e0ba3bbf4341bb718bc02753346706019",
+      "size": 23771919,
+      "format": "zip",
+      "binaries": {
+        "zarrs_benchmark_read_async.exe": {
+          "path": "zarrs_benchmark_read_async.exe",
+          "sha256": "d68327bc31c10ec535079ede5dd3d44b07cf7bc9824668615fdc010fcbe30422"
+        },
+        "zarrs_benchmark_read_async_as_sync.exe": {
+          "path": "zarrs_benchmark_read_async_as_sync.exe",
+          "sha256": "6ecde37c041e37d9406e8783921a3d36afaabab357127676c4ccae97c3217e68"
+        },
+        "zarrs_benchmark_read_sync.exe": {
+          "path": "zarrs_benchmark_read_sync.exe",
+          "sha256": "bbf78ce8751f3a1f03e6860fc29ba13d5df3180c5e7e0b12c17d52dc43fa65c4"
+        },
+        "zarrs_binary2zarr.exe": {
+          "path": "zarrs_binary2zarr.exe",
+          "sha256": "97596e6a0d89ea2f175295ce2cbe32e7c7239f8342be8a974328a25d04d9c1f1"
+        },
+        "zarrs_filter.exe": {
+          "path": "zarrs_filter.exe",
+          "sha256": "83feff8af2b4126e892d5e44e6ceea229554783b12147156cf883b487601c1d6"
+        },
+        "zarrs_info.exe": {
+          "path": "zarrs_info.exe",
+          "sha256": "f5671530bfde8589b273bfcd6004ddad64447d70fd690fe9d21bff97344dae8b"
+        },
+        "zarrs_ome.exe": {
+          "path": "zarrs_ome.exe",
+          "sha256": "45b103d95c2f35f8b0d34769761d1ff0d0accb1a43cfa3b72c35ab35b2f349d0"
+        },
+        "zarrs_reencode.exe": {
+          "path": "zarrs_reencode.exe",
+          "sha256": "14e4cc476b7298f907ffc8d48b8566df5c39b24b7439411d06a0c88c4ef001f1"
+        },
+        "zarrs_validate.exe": {
+          "path": "zarrs_validate.exe",
+          "sha256": "3843d5f126d8ee267ababd9ca6b10e3c031e247dcc8641d1eb2c921f96ee00f4"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/zarrs/zarrs_tools/releases/download/v0.8.1/zarrs_tools-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.1",
+      "sha256": "0882d43c4f3afc59bd193b3f4d7a1f459a40a90e72435183860597cf100b2002",
+      "size": 22264656,
+      "format": "zip",
+      "binaries": {
+        "zarrs_benchmark_read_async.exe": {
+          "path": "zarrs_benchmark_read_async.exe",
+          "sha256": "90ed2034eaf245be74d27dfe87e02938a6be5a044ec1a6dc2a30d8de04f22a13"
+        },
+        "zarrs_benchmark_read_async_as_sync.exe": {
+          "path": "zarrs_benchmark_read_async_as_sync.exe",
+          "sha256": "2a1944f7982f5bad7df1aac70136a9de3edc6d5c020c788f945f3edf7a174422"
+        },
+        "zarrs_benchmark_read_sync.exe": {
+          "path": "zarrs_benchmark_read_sync.exe",
+          "sha256": "b155f58a92532b2f1f4e1742b79fd9831d8b091e5358d6277c98f5c69e1e9447"
+        },
+        "zarrs_binary2zarr.exe": {
+          "path": "zarrs_binary2zarr.exe",
+          "sha256": "1d77ae165eb6b3cd53b618060e70fd28f3d82b62ea7f330c58018d0c726c17fb"
+        },
+        "zarrs_filter.exe": {
+          "path": "zarrs_filter.exe",
+          "sha256": "4db0839b548ba99b09c69036f258349ecab159f052b9b64c3465dc44a4537d11"
+        },
+        "zarrs_info.exe": {
+          "path": "zarrs_info.exe",
+          "sha256": "62cf7a3af7c11e8d33792113e05a5d7fc8a108b9f627361d5e67cf921ce79ddc"
+        },
+        "zarrs_ome.exe": {
+          "path": "zarrs_ome.exe",
+          "sha256": "dd4cf9bea06fe499e89b7fef2009408b177c487114067b26d91bcdacca9032a6"
+        },
+        "zarrs_reencode.exe": {
+          "path": "zarrs_reencode.exe",
+          "sha256": "f18b80c035c4686795634bcb5ac9e50059acd9141d009a550d21e73e309b6338"
+        },
+        "zarrs_validate.exe": {
+          "path": "zarrs_validate.exe",
+          "sha256": "5187df412a36d432bc72736292b612655446da8f899ed59cf5ec8f84e9ceca36"
+        }
+      }
+    }
+  }
+}
