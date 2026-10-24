@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "starship",
+  "version": "1.27.0",
+  "repository": "starship/starship",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.27.0",
+      "sha256": "10c8eb4cb3b761d9bf59ea828444c2dab36c900b7d69a69e08814b286969df89",
+      "size": 5215016,
+      "format": "tar.gz",
+      "binaries": {
+        "starship": {
+          "path": "starship",
+          "sha256": "ffe0d199d030a4089fa5c33d8479d26c782e3d32e0443b374b2bbb9607067df1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.27.0",
+      "sha256": "341f5cbf24699fa0b27ec88965ad25f862ea09e15d35a543fd6ffdff1d2aa00d",
+      "size": 4776202,
+      "format": "tar.gz",
+      "binaries": {
+        "starship": {
+          "path": "starship",
+          "sha256": "a7f7490e09571ecfde2be9101ba384b019a91f5b3e0d2060519b0710b9924b15"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.27.0",
+      "sha256": "344e4d38787e0aa86dd522ae5462e6fb6da1227691f81a79ffed480a4563ccb3",
+      "size": 4393052,
+      "format": "tar.gz",
+      "binaries": {
+        "starship": {
+          "path": "starship",
+          "sha256": "0209fec2f8c7b4de1d236f24d7cdfad939ff22c3a4587d38f132189e252e74fe"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.27.0",
+      "sha256": "5362da8cb2928f98f3ce0ffda697cf0f8de70081db000dae316d6d3a404f6cf0",
+      "size": 4039405,
+      "format": "tar.gz",
+      "binaries": {
+        "starship": {
+          "path": "starship",
+          "sha256": "be60216a25df2e43ab09e5bb7cef2dda9f78e1f5dd2c248e09669ae4821591b1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/starship/starship/releases/download/v1.27.0/starship-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.27.0",
+      "sha256": "7764f861805376af2812dd78c84fadc16b714cf3f346baed9b597bfda8484403",
+      "size": 4818893,
+      "format": "zip",
+      "binaries": {
+        "starship.exe": {
+          "path": "starship.exe",
+          "sha256": "73d5ce2a1ab59274d635fed9455dafa48a2f9c216932bc5a2fa35e8b1219377c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/starship/starship/releases/download/v1.27.0/starship-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.27.0",
+      "sha256": "1822b6cf1af28071b056976d3f445359d61df324918ffe76c6d0f851eef9366f",
+      "size": 4449874,
+      "format": "zip",
+      "binaries": {
+        "starship.exe": {
+          "path": "starship.exe",
+          "sha256": "d5fa17b5522a9d986c2a7b229fe214eda78887735a279afcac82e78575b9c1c1"
+        }
+      }
+    }
+  }
+}
