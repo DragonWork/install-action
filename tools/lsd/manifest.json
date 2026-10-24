@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "lsd",
+  "version": "1.2.0",
+  "repository": "lsd-rs/lsd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.0",
+      "sha256": "77849da1210336534258551a581401ba19ae6b8d7b66a2a1feff148ad41e3814",
+      "size": 1666188,
+      "format": "tar.gz",
+      "binaries": {
+        "lsd": {
+          "path": "lsd-v1.2.0-x86_64-unknown-linux-musl/lsd",
+          "sha256": "2d0a73bd5b855e49b1847cbd76d13b5bbe1ceab73885e791c500843c148670f6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.0",
+      "sha256": "642ecb1a763b9f790a99c83a1445c117a6813ed4edb5d498d4420423c6353eb8",
+      "size": 1516620,
+      "format": "tar.gz",
+      "binaries": {
+        "lsd": {
+          "path": "lsd-v1.2.0-aarch64-unknown-linux-musl/lsd",
+          "sha256": "35aef25fdc4bceaac43eeaaf1da7393fcb8145de8945bb49dc6046567da7f850"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.0",
+      "sha256": "00d3c50551b270bbdf7da97816e5ba7f5fd10294cd310165f7f8b5523e738b9c",
+      "size": 1459284,
+      "format": "tar.gz",
+      "binaries": {
+        "lsd": {
+          "path": "lsd-v1.2.0-x86_64-apple-darwin/lsd",
+          "sha256": "98126b48d6fd46d80f6a84ad2ae69a5917d106ff256a0eec475a17f58ef9f432"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.0",
+      "sha256": "9e34a5d392ff913302098aad0543dafa1883c531eaf229b82f086c3fca675e3e",
+      "size": 1349788,
+      "format": "tar.gz",
+      "binaries": {
+        "lsd": {
+          "path": "lsd-v1.2.0-aarch64-apple-darwin/lsd",
+          "sha256": "4b24831d79a4329000fbbcdb09fdd2ba20268a1b2c52b2f24276e833307b29d0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.0",
+      "sha256": "a65b9f457153934a7ce1f7e0fe1c4922a95bb2822222126e4fbaa6ee9c0d78e5",
+      "size": 1779179,
+      "format": "zip",
+      "binaries": {
+        "lsd.exe": {
+          "path": "lsd-v1.2.0-x86_64-pc-windows-msvc/lsd.exe",
+          "sha256": "6d71debe569f70190886c5b11ded5bb068f0aa08298de2d7e011020feaac83e6"
+        }
+      }
+    }
+  }
+}
