@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "portfolio_rs",
+  "version": "0.8.0",
+  "repository": "MarkusZoppelt/portfolio_rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MarkusZoppelt/portfolio_rs/releases/download/v0.8.0/portfolio_rs-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "9497d7c5b448f0ed30fe4c9b4de20afa0eeccd88a9c02f80bb70fd02fb2732d0",
+      "size": 3826403,
+      "format": "tar.gz",
+      "binaries": {
+        "portfolio_rs": {
+          "path": "portfolio_rs",
+          "sha256": "2aa83a06b115c44a44ac133366730ea9fe406fbfda7cd5042e2147567f442aa7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MarkusZoppelt/portfolio_rs/releases/download/v0.8.0/portfolio_rs-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "a8d423c6fee9a30d5f705166bc7c7a8b98c44de2129c834d8df3051f31042a67",
+      "size": 3427647,
+      "format": "tar.gz",
+      "binaries": {
+        "portfolio_rs": {
+          "path": "portfolio_rs",
+          "sha256": "4c88d24a3fa9c45080e8c6c617d3be191938b510e1ce6db57e672a1109fb8caf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MarkusZoppelt/portfolio_rs/releases/download/v0.8.0/portfolio_rs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.0",
+      "sha256": "99e03a61ae35ce0cf7b853285307e8b34fd6d8328c8485eeff78c66f89a6f716",
+      "size": 3480151,
+      "format": "zip",
+      "binaries": {
+        "portfolio_rs.exe": {
+          "path": "portfolio_rs.exe",
+          "sha256": "3350f98c3fa08ca6b2a7b6b2831e6a3a5ec1168dc73663c97976c58e236aa5e3"
+        }
+      }
+    }
+  }
+}
