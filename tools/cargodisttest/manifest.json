@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargodisttest",
+  "version": "0.20.5",
+  "repository": "Gankra/cargodisttest",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Gankra/cargodisttest/releases/download/v0.20.5/cargodisttest-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.20.5",
+      "sha256": "2cf3d4213e06ac9855f32437d91b20db736c9c709cd4107970962901234a6819",
+      "size": 407954,
+      "format": "tar.gz",
+      "binaries": {
+        "cargodisttest": {
+          "path": "cargodisttest-x86_64-unknown-linux-gnu/cargodisttest",
+          "sha256": "323c4efbb3c2550b0ebc4f00780d8958606e2b95f0df8c5b1a613e6ff8a6b84f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Gankra/cargodisttest/releases/download/v0.20.5/cargodisttest-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.20.5",
+      "sha256": "7d7556db338b095ef50e89611a4652edaa7c289be4c183a9c7340f7a9e0c8759",
+      "size": 386078,
+      "format": "tar.gz",
+      "binaries": {
+        "cargodisttest": {
+          "path": "cargodisttest-x86_64-apple-darwin/cargodisttest",
+          "sha256": "2ebc1b0016fab58b55b550b505f156557e5d1cb9942bec1789c9638a54a2aa74"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Gankra/cargodisttest/releases/download/v0.20.5/cargodisttest-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.20.5",
+      "sha256": "d25629dfec1d2347c6ff0a8d612c0753089e2832c5f10d0acbea5df164139a06",
+      "size": 376646,
+      "format": "tar.gz",
+      "binaries": {
+        "cargodisttest": {
+          "path": "cargodisttest-aarch64-apple-darwin/cargodisttest",
+          "sha256": "b4084b3627385b690b3dbd7bea07b5dee510a86935b3e13336039fd982be795d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Gankra/cargodisttest/releases/download/v0.20.5/cargodisttest-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.20.5",
+      "sha256": "4299adbcb0617b6f0be7401a9089cd3bea219b5dd5082ff58581b96adaa2876d",
+      "size": 339969,
+      "format": "tar.gz",
+      "binaries": {
+        "cargodisttest.exe": {
+          "path": "cargodisttest-x86_64-pc-windows-msvc/cargodisttest.exe",
+          "sha256": "a300a322b3b20ecc62648e6db209dbfd8978a9b505d55f9de18d5cc89d063dc1"
+        }
+      }
+    }
+  }
+}
