@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "fontfor",
+  "version": "0.4.3",
+  "repository": "7sDream/fontfor",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/7sDream/fontfor/releases/download/v0.4.3/fontfor-win32-x64-msvc.exe",
+      "releaseTag": "v0.4.3",
+      "sha256": "14060b46e6a28ebd4a360ebae91154556dc80ebab1dd2d85788c82e15b28654e",
+      "size": 1190400,
+      "format": "binary",
+      "binaries": {
+        "fontfor.exe": {
+          "path": "fontfor-win32-x64-msvc.exe",
+          "sha256": "14060b46e6a28ebd4a360ebae91154556dc80ebab1dd2d85788c82e15b28654e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/7sDream/fontfor/releases/download/v0.4.3/fontfor-win32-arm64-msvc.exe",
+      "releaseTag": "v0.4.3",
+      "sha256": "227d42604b3ca592b9bc175a9c83d226f13c15a61040ec782f165701f7dfcab7",
+      "size": 1022976,
+      "format": "binary",
+      "binaries": {
+        "fontfor.exe": {
+          "path": "fontfor-win32-arm64-msvc.exe",
+          "sha256": "227d42604b3ca592b9bc175a9c83d226f13c15a61040ec782f165701f7dfcab7"
+        }
+      }
+    }
+  }
+}
