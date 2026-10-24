@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "wol-rs",
+  "version": "1.1.0",
+  "repository": "fengyc/wol-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fengyc/wol-rs/releases/download/v1.1.0/wol-x86_64-unknown-linux-musl",
+      "sha256": "dc67faccd7687316875526ededd3470367806cb075d5b5e95422d98023b3b1e3",
+      "size": 2804008,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "wol": {
+          "path": "wol-x86_64-unknown-linux-musl",
+          "sha256": "dc67faccd7687316875526ededd3470367806cb075d5b5e95422d98023b3b1e3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/fengyc/wol-rs/releases/download/v1.1.0/wol-aarch64-unknown-linux-musl",
+      "sha256": "1622b472f840b7f3cc0ecf487380a2a818c6a0f37240b656d5a1bcc6f66e8de0",
+      "size": 2160360,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "wol": {
+          "path": "wol-aarch64-unknown-linux-musl",
+          "sha256": "1622b472f840b7f3cc0ecf487380a2a818c6a0f37240b656d5a1bcc6f66e8de0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/fengyc/wol-rs/releases/download/v1.1.0/wol-macos",
+      "sha256": "c9d57ea3214150aaa819bab93b1fdaa7e8ec361510e34687e6023371ebb211b8",
+      "size": 2198632,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "wol": {
+          "path": "wol-macos",
+          "sha256": "c9d57ea3214150aaa819bab93b1fdaa7e8ec361510e34687e6023371ebb211b8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/fengyc/wol-rs/releases/download/v1.1.0/wol.exe",
+      "sha256": "f2f1b018587fc5593039db9e614febe79a651d752b933555963fbc8a2830ae86",
+      "size": 2329600,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "wol.exe": {
+          "path": "wol.exe",
+          "sha256": "f2f1b018587fc5593039db9e614febe79a651d752b933555963fbc8a2830ae86"
+        }
+      }
+    }
+  }
+}
