@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "pingap",
+  "version": "0.16.1",
+  "repository": "vicanso/pingap",
+  "artifacts": {
+    "linux-arm64": {
+      "url": "https://github.com/vicanso/pingap/releases/download/v0.16.1/pingap-linux-aarch64.deb",
+      "sha256": "3115030296abc7b7176bb31d54c3b64a15f26bba5087909607ac98b19add37ac",
+      "size": 8612492,
+      "format": "deb",
+      "releaseTag": "v0.16.1",
+      "binaries": {
+        "pingap": {
+          "path": "./usr/sbin/pingap",
+          "sha256": "66e86e02f50b1d11e43dd783298709024ac79e2cce4502f6bb6836a12f6d0ece"
+        }
+      }
+    }
+  }
+}
