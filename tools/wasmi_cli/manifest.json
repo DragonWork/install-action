@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "wasmi_cli",
+  "version": "2.0.0",
+  "repository": "wasmi-labs/wasmi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wasmi-labs/wasmi/releases/download/v2.0.0/wasmi-v2.0.0-x86_64-linux-full.tar.xz",
+      "releaseTag": "v2.0.0",
+      "sha256": "fccca87717806246cadab3aec0e3b136742198d1562d6e0af4362f38b6bcc334",
+      "size": 1294520,
+      "format": "tar.xz",
+      "binaries": {
+        "wasmi": {
+          "path": "wasmi-v2.0.0-x86_64-linux-full/wasmi",
+          "sha256": "8ae0cd7588dbcc5870dfa25744d84c77492517a139c2e3abd3e0d99fad207832"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wasmi-labs/wasmi/releases/download/v2.0.0/wasmi-v2.0.0-aarch64-linux-full.tar.xz",
+      "releaseTag": "v2.0.0",
+      "sha256": "ff43fa462a4119d8f3bdc753db207a1990037f613e86f5d60f22a68c3a83e55f",
+      "size": 1118252,
+      "format": "tar.xz",
+      "binaries": {
+        "wasmi": {
+          "path": "wasmi-v2.0.0-aarch64-linux-full/wasmi",
+          "sha256": "836084014ff7a95ca1797f789a8524066f974c5f411bda3b59309a8555c745cb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wasmi-labs/wasmi/releases/download/v2.0.0/wasmi-v2.0.0-x86_64-macos-full.tar.xz",
+      "releaseTag": "v2.0.0",
+      "sha256": "2da9b351953bcce132ca9165999f0249fbf4a9342f37401d6e4f0e6109019769",
+      "size": 1214924,
+      "format": "tar.xz",
+      "binaries": {
+        "wasmi": {
+          "path": "wasmi-v2.0.0-x86_64-macos-full/wasmi",
+          "sha256": "4c02f8e06cc1cb33cf979ba2bba788308b0ce2fc8fb751de330eb3f153f897a1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wasmi-labs/wasmi/releases/download/v2.0.0/wasmi-v2.0.0-aarch64-macos-full.tar.xz",
+      "releaseTag": "v2.0.0",
+      "sha256": "1922b8e773d8195a9d9fc2a51220d137ad4dc61f1b96a2b733671cfed74b180c",
+      "size": 1074412,
+      "format": "tar.xz",
+      "binaries": {
+        "wasmi": {
+          "path": "wasmi-v2.0.0-aarch64-macos-full/wasmi",
+          "sha256": "d5cb8135fabbd9ed031a72a5c0e3a81509a3da8a99459b20d88feaac08462c80"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wasmi-labs/wasmi/releases/download/v2.0.0/wasmi-v2.0.0-x86_64-windows-full.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "8c51c33c5f6304b2372e8bc37c512f95d79f4fa2c489a55ce096b72d09b0646f",
+      "size": 1836708,
+      "format": "zip",
+      "binaries": {
+        "wasmi.exe": {
+          "path": "wasmi-v2.0.0-x86_64-windows-full/wasmi.exe",
+          "sha256": "fcdaa818bbda07c64be5be8696a9d2ed6265b2bcd0586b32adfe89efc84a4335"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/wasmi-labs/wasmi/releases/download/v2.0.0/wasmi-v2.0.0-aarch64-windows-full.zip",
+      "releaseTag": "v2.0.0",
+      "sha256": "6bf03c3caeaf62b090860cc30b97b959fe8315f0266054439e4e011219e192ab",
+      "size": 1714104,
+      "format": "zip",
+      "binaries": {
+        "wasmi.exe": {
+          "path": "wasmi-v2.0.0-aarch64-windows-full/wasmi.exe",
+          "sha256": "12bec73017ceee1b5fffc1909693a728104bc655bed341b5fd0d221fdef2f3fa"
+        }
+      }
+    }
+  }
+}
