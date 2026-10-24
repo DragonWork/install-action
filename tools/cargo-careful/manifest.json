@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-careful",
+  "version": "0.4.10",
+  "repository": "RalfJung/cargo-careful",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RalfJung/cargo-careful/releases/download/v0.4.10/cargo-careful-x86_64-unknown-linux-musl",
+      "sha256": "bd0937ba41dec5ba45ca7cb9c502060fbcf625d12f5cf8d0b0c47328b4d82ac4",
+      "size": 1200888,
+      "format": "binary",
+      "releaseTag": "v0.4.10",
+      "binaries": {
+        "cargo-careful": {
+          "path": "cargo-careful-x86_64-unknown-linux-musl",
+          "sha256": "bd0937ba41dec5ba45ca7cb9c502060fbcf625d12f5cf8d0b0c47328b4d82ac4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/RalfJung/cargo-careful/releases/download/v0.4.10/cargo-careful-x86_64-apple-darwin",
+      "sha256": "5f39ae33320bc0fb101e1be2020a69c2e6368bc26ee6ef7207e89ae39b2cf351",
+      "size": 984288,
+      "format": "binary",
+      "releaseTag": "v0.4.10",
+      "binaries": {
+        "cargo-careful": {
+          "path": "cargo-careful-x86_64-apple-darwin",
+          "sha256": "5f39ae33320bc0fb101e1be2020a69c2e6368bc26ee6ef7207e89ae39b2cf351"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RalfJung/cargo-careful/releases/download/v0.4.10/cargo-careful-windows.exe",
+      "sha256": "89e2e95a6347595d73326b9ed014a58fb397f5a3cf9887ee8b9d92c181e20828",
+      "size": 912896,
+      "format": "binary",
+      "releaseTag": "v0.4.10",
+      "binaries": {
+        "cargo-careful.exe": {
+          "path": "cargo-careful-windows.exe",
+          "sha256": "89e2e95a6347595d73326b9ed014a58fb397f5a3cf9887ee8b9d92c181e20828"
+        }
+      }
+    }
+  }
+}
