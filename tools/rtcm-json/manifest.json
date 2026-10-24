@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rtcm-json",
+  "version": "0.10.0",
+  "repository": "martinhakansson/rtcm-json",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/martinhakansson/rtcm-json/releases/download/v0.10.0/rtcm-json-v0.10.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "f7bdedd788d0ef8bccab6d98046bafd423c5856f4c43a070ba96392e4e706850",
+      "size": 1386338,
+      "format": "tar.gz",
+      "binaries": {
+        "rtcm-json": {
+          "path": "rtcm-json-v0.10.0-x86_64-unknown-linux-gnu/rtcm-json",
+          "sha256": "b01179a6a5c82ebd1402e996b2d9877caddaffb0aeef7421dfe28c1867542b14"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/martinhakansson/rtcm-json/releases/download/v0.10.0/rtcm-json-v0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "bf392980df1aa2221898a0c58aca6d026183a2c5ea1b5b22389a683e8b193162",
+      "size": 1378290,
+      "format": "tar.gz",
+      "binaries": {
+        "rtcm-json": {
+          "path": "rtcm-json-v0.10.0-x86_64-apple-darwin/rtcm-json",
+          "sha256": "1fc1c3dcfe71e95491952d7196ea9e00716e1b078960b8d8bc0c25a8fa483914"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/martinhakansson/rtcm-json/releases/download/v0.10.0/rtcm-json-v0.10.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "1c3c34652e71f5c157e02e8081294520119efea7599cb4e591f6838f2c2904ff",
+      "size": 1275800,
+      "format": "tar.gz",
+      "binaries": {
+        "rtcm-json": {
+          "path": "rtcm-json-v0.10.0-aarch64-apple-darwin/rtcm-json",
+          "sha256": "15bcc5f7bb73a22b964a636462925d3f54a155d850b23145c8a246274fdcd307"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/martinhakansson/rtcm-json/releases/download/v0.10.0/rtcm-json-v0.10.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.0",
+      "sha256": "3fbc6052ab61d55e3759b35cf0768f8f81a7ad95eb78a16f5bf24d904b05e6eb",
+      "size": 1246733,
+      "format": "zip",
+      "binaries": {
+        "rtcm-json.exe": {
+          "path": "rtcm-json-v0.10.0-x86_64-pc-windows-msvc/rtcm-json.exe",
+          "sha256": "067fe99643121c882091bfdc8ec4869ed384099d513b1960958c974f31509fe7"
+        }
+      }
+    }
+  }
+}
