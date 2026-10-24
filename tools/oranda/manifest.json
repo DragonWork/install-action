@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "oranda",
+  "version": "0.6.5",
+  "repository": "axodotdev/oranda",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/axodotdev/oranda/releases/download/v0.6.5/oranda-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.5",
+      "sha256": "05171447b827f681ec19142d0bb983a8691f65c54820d821e66ee7a419fbd88b",
+      "size": 12325589,
+      "format": "tar.gz",
+      "binaries": {
+        "oranda": {
+          "path": "oranda-x86_64-unknown-linux-musl/oranda",
+          "sha256": "ab40e2d03b017ded568060bb8b08e2cfb9dd5e739fd211e6bd44e76979bc2984"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/axodotdev/oranda/releases/download/v0.6.5/oranda-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.5",
+      "sha256": "bcbc9df8c351e1b5745ab8573e214aea0c63c8c0546c88e62631f80eab3a8a78",
+      "size": 11837304,
+      "format": "tar.gz",
+      "binaries": {
+        "oranda": {
+          "path": "oranda-aarch64-unknown-linux-musl/oranda",
+          "sha256": "f2c72f3a88df907e8ce06b48f166b08755ca761e6fc6d9029d3d0e6967a6a005"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/axodotdev/oranda/releases/download/v0.6.5/oranda-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.5",
+      "sha256": "8a786557aeece0bcc7e06b7be7d5ebb757cf9943a85bbcf2be2801efb1ac1611",
+      "size": 10061350,
+      "format": "tar.gz",
+      "binaries": {
+        "oranda": {
+          "path": "oranda-x86_64-apple-darwin/oranda",
+          "sha256": "787c8647d7c9c2f7798240b722e31ba03766fcf9e256b8d50c8bdd2bcdfb7641"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/axodotdev/oranda/releases/download/v0.6.5/oranda-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.5",
+      "sha256": "0c2361627b4ce922cfc6c607b1760576692ef2c2c36834c5bb61e26854ecbded",
+      "size": 9726036,
+      "format": "tar.gz",
+      "binaries": {
+        "oranda": {
+          "path": "oranda-aarch64-apple-darwin/oranda",
+          "sha256": "cb176e32737120807b7e76fa7b8918b4d9cdf3d5497c6bfe9475c68996184a02"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/axodotdev/oranda/releases/download/v0.6.5/oranda-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.6.5",
+      "sha256": "fa42627ae135a203bc08893401c8548419730f93aced4b594af88266e11a7e50",
+      "size": 9282406,
+      "format": "tar.gz",
+      "binaries": {
+        "oranda.exe": {
+          "path": "oranda-x86_64-pc-windows-msvc/oranda.exe",
+          "sha256": "67000decc15b09872feec28d620608ced0a5c613014a48061bcca29f56d798e9"
+        }
+      }
+    }
+  }
+}
