@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "emmylua_formatter",
+  "version": "0.25.1",
+  "repository": "EmmyLuaLs/emmylua-analyzer-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/luafmt-linux-x64.tar.gz",
+      "releaseTag": "0.25.1",
+      "sha256": "c67afb6963aa0e39d8b003f2cba755f7390fa2f6013df8f4e2dfd471506da9a5",
+      "size": 1567897,
+      "format": "tar.gz",
+      "binaries": {
+        "luafmt": {
+          "path": "./luafmt",
+          "sha256": "9cf3ec0df7311fbb228f04ec43db20c880efb11a5b5bf53bce615bf3ffff7bb2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/luafmt-linux-aarch64-glibc.2.17.tar.gz",
+      "releaseTag": "0.25.1",
+      "sha256": "9a9e6dfbaa94f2b1378732b34fd9d7d553291f230eb2230defae1cff1279204e",
+      "size": 1308425,
+      "format": "tar.gz",
+      "binaries": {
+        "luafmt": {
+          "path": "./luafmt",
+          "sha256": "dd9ec10c380849869364902469970b98d6e0d55e65773246ef73b2e40dca022f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/luafmt-darwin-x64.tar.gz",
+      "releaseTag": "0.25.1",
+      "sha256": "033d524551a869d0bf6ebabe00e1f4ccb697af0680d4c1c00eb0cb6f777d944f",
+      "size": 1447672,
+      "format": "tar.gz",
+      "binaries": {
+        "luafmt": {
+          "path": "./luafmt",
+          "sha256": "51d9c0a4579d33b85e694b796eb02fab20b34aeebea584cf8a6ea4ead02616bf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/luafmt-darwin-arm64.tar.gz",
+      "releaseTag": "0.25.1",
+      "sha256": "1637fec3d449c10d71e27a30e0cc84bd4ad46b124c5ff8de0767cab954b67a4f",
+      "size": 1370679,
+      "format": "tar.gz",
+      "binaries": {
+        "luafmt": {
+          "path": "./luafmt",
+          "sha256": "d3d9318b41706fa446b83e572d146a8486838fa49d839f44967862602418c24f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/luafmt-win32-x64.zip",
+      "releaseTag": "0.25.1",
+      "sha256": "e93352405a0ebd3be412b0c43f2815165276d8ecc935e6898ca26a25e4b25eda",
+      "size": 1300809,
+      "format": "zip",
+      "binaries": {
+        "luafmt.exe": {
+          "path": "luafmt.exe",
+          "sha256": "8f902c9359b19a992cf58dc8e754f790d8c1aa1d97ae9553588b42319e80991a"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/luafmt-win32-arm64.zip",
+      "releaseTag": "0.25.1",
+      "sha256": "793958448a16865119b1dd994f7aea21074be34d334390531088d1889e09b2e3",
+      "size": 1220908,
+      "format": "zip",
+      "binaries": {
+        "luafmt.exe": {
+          "path": "luafmt.exe",
+          "sha256": "bcbd0602d66186e39aec1d8c432f889b5408394ffe69a28230a2716a6b3af41c"
+        }
+      }
+    }
+  }
+}
