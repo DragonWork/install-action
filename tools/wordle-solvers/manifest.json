@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "wordle-solvers",
+  "version": "0.9.0",
+  "repository": "knutwalker/wordle-solvers",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/knutwalker/wordle-solvers/releases/download/wordle-solvers-v0.9.0/wordle-solvers-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "wordle-solvers-v0.9.0",
+      "sha256": "87092e236f9f528d771333e296be3b557a50bba4e1024e7948846cb5980a2d85",
+      "size": 371120,
+      "format": "tar.gz",
+      "binaries": {
+        "wordle-solvers": {
+          "path": "wordle-solvers",
+          "sha256": "bf95b1a1e87c4b7bdc0331e9248c1bda8d16397d581f32cb1fd0ef400b4014ea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/knutwalker/wordle-solvers/releases/download/wordle-solvers-v0.9.0/wordle-solvers-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "wordle-solvers-v0.9.0",
+      "sha256": "f4a8542be7ce0181972b09b8af92560de001e2e204c132ef93e22b09054abd6b",
+      "size": 436810,
+      "format": "tar.gz",
+      "binaries": {
+        "wordle-solvers": {
+          "path": "wordle-solvers",
+          "sha256": "ddb2b5ec53971e94a15bcfb27c801f661bd56a1c19214bd134b21958a44592e1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/knutwalker/wordle-solvers/releases/download/wordle-solvers-v0.9.0/wordle-solvers-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "wordle-solvers-v0.9.0",
+      "sha256": "012b81f690cb3aeb3a1392fbcee63ca3d9dab30e36a63888392ac197f8cfc285",
+      "size": 371766,
+      "format": "tar.gz",
+      "binaries": {
+        "wordle-solvers.exe": {
+          "path": "wordle-solvers.exe",
+          "sha256": "05a50bd80eb9cf11390271b973260aa36724ab605233ea205f95d5cc92625d75"
+        }
+      }
+    }
+  }
+}
