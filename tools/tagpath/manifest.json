@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tagpath",
+  "version": "0.12.3",
+  "repository": "btakita/tagpath",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/btakita/tagpath/releases/download/v0.12.3/tagpath-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.12.3",
+      "sha256": "18cdac2b0c7219f3a8785b371b0a759e62d4f5446697d01ae5a9be6d2bf6a19a",
+      "size": 4463836,
+      "format": "tar.gz",
+      "binaries": {
+        "tagpath": {
+          "path": "tagpath",
+          "sha256": "cfe2c2d11b00fddeb5c4c069aa02f81ea03069fc8a57f708d3e841d308c9d0ba"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/btakita/tagpath/releases/download/v0.12.3/tagpath-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.12.3",
+      "sha256": "4b915425e24cefd7b229f4b8091a4dd380958f5c71e215133323c7b5fdf430e6",
+      "size": 4347491,
+      "format": "tar.gz",
+      "binaries": {
+        "tagpath": {
+          "path": "tagpath",
+          "sha256": "b76824210a39dc3fc6ce0d1c38ecec5bffe35a03ec8dd60dddbb059ad0d2b7ed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/btakita/tagpath/releases/download/v0.12.3/tagpath-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.3",
+      "sha256": "e6fa4c88a28b93f2346d8d1601517c1dbea407c06fb10bd45e6c9bba517972be",
+      "size": 4286208,
+      "format": "tar.gz",
+      "binaries": {
+        "tagpath": {
+          "path": "tagpath",
+          "sha256": "ec7d65b9d308296a76b63fa8191b3eb16c4e026496c0b889f2c264e2cd8884fe"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/btakita/tagpath/releases/download/v0.12.3/tagpath-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.3",
+      "sha256": "ea59a20bc774de7c7a43f4e42312501e0ffc51b00bee556599d8f70cd16a5788",
+      "size": 4329152,
+      "format": "tar.gz",
+      "binaries": {
+        "tagpath": {
+          "path": "tagpath",
+          "sha256": "12cbb02f373e68eb582aaed8ec8052c49375fe4214c6e00ab441b06feec92c4e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/btakita/tagpath/releases/download/v0.12.3/tagpath-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.3",
+      "sha256": "beba22b8712c149de1597761c107c958bb384171309407a742248ddbac251f43",
+      "size": 4195410,
+      "format": "zip",
+      "binaries": {
+        "tagpath.exe": {
+          "path": "tagpath.exe",
+          "sha256": "d8530220fe6c94933c910f42178be133783fc6058f42d6501be6c91bdc9727a4"
+        }
+      }
+    }
+  }
+}
