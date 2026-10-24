@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dune",
+  "version": "0.1.9",
+  "repository": "adam-mcdaniel/dune",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/adam-mcdaniel/dune/releases/download/v0.1.9/dune_linux_v0.1.9",
+      "sha256": "a205b9029f5b6c163ef7d37c55841a922137b4e11f4cacb2eec36e81242a1c8c",
+      "size": 7542376,
+      "format": "binary",
+      "releaseTag": "v0.1.9",
+      "binaries": {
+        "dunesh": {
+          "path": "dune_linux_v0.1.9",
+          "sha256": "a205b9029f5b6c163ef7d37c55841a922137b4e11f4cacb2eec36e81242a1c8c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/adam-mcdaniel/dune/releases/download/v0.1.9/dune_macos_v0.1.9",
+      "sha256": "caf572377de2130aea91cd1d6784744f5c84e88caf8c354cbeb9e8e4c0e72a1e",
+      "size": 3061160,
+      "format": "binary",
+      "releaseTag": "v0.1.9",
+      "binaries": {
+        "dunesh": {
+          "path": "dune_macos_v0.1.9",
+          "sha256": "caf572377de2130aea91cd1d6784744f5c84e88caf8c354cbeb9e8e4c0e72a1e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/adam-mcdaniel/dune/releases/download/v0.1.9/dune_windows_.exe",
+      "sha256": "52156ad5a92c8a467c4b78d26cf0a4232b6b2410df6911434bbd8c97f020032b",
+      "size": 2689024,
+      "format": "binary",
+      "releaseTag": "v0.1.9",
+      "binaries": {
+        "dunesh.exe": {
+          "path": "dune_windows_.exe",
+          "sha256": "52156ad5a92c8a467c4b78d26cf0a4232b6b2410df6911434bbd8c97f020032b"
+        }
+      }
+    }
+  }
+}
