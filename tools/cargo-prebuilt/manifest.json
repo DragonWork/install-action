@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-prebuilt",
+  "version": "0.7.6",
+  "repository": "cargo-prebuilt/cargo-prebuilt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cargo-prebuilt/cargo-prebuilt/releases/download/v0.7.6/x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "89de1e870f5c90dc71d40f28e1c0585c4e0bcee928f88c8a5e5e353f40ccb105",
+      "size": 1218108,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-prebuilt": {
+          "path": "cargo-prebuilt",
+          "sha256": "6f71b90354ce6c8813c0a9f7ec7debc7b863552fcfa8c4412cc01cf5094d7650"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cargo-prebuilt/cargo-prebuilt/releases/download/v0.7.6/aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "c52118f0e0e08fbef9ab004fe50725e74c62b32f28fab418a0e69152a43235dc",
+      "size": 1132866,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-prebuilt": {
+          "path": "cargo-prebuilt",
+          "sha256": "6d16c274b94e80f6612e24b1738a99e819a58719d85af9619c1e64dc15040b59"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cargo-prebuilt/cargo-prebuilt/releases/download/v0.7.6/x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "a4802668b0ded77866e928f3eee8ace9d34ace643dc6145cb39558ab591b6890",
+      "size": 581770,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-prebuilt": {
+          "path": "cargo-prebuilt",
+          "sha256": "bc9c118f91788a29f8ac842819835a69af2fd1a18bdb73ad74385a79aa6a18f1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cargo-prebuilt/cargo-prebuilt/releases/download/v0.7.6/aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.6",
+      "sha256": "5baa70087ec553b30c5f38d885fe190c7d2168075b25748a28d581f8f4be38d2",
+      "size": 535083,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-prebuilt": {
+          "path": "cargo-prebuilt",
+          "sha256": "da5ba2046c0ee5e8ac5716c9b81b63379e1fc43a705488c4f4542e6db53ed2b6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cargo-prebuilt/cargo-prebuilt/releases/download/v0.7.6/x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.6",
+      "sha256": "90aa60ea6160c88397bbb2ac517fbe12d2374d37a7f7283ebc104baf658f27bf",
+      "size": 1136231,
+      "format": "zip",
+      "binaries": {
+        "cargo-prebuilt.exe": {
+          "path": "cargo-prebuilt.exe",
+          "sha256": "9e4ca7fa69f188f258962ff584f93e99f646c5977d8c9ee45157cf04d29f5b81"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/cargo-prebuilt/cargo-prebuilt/releases/download/v0.7.6/aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.6",
+      "sha256": "7a1dcab76155963f4a884076a8033f3d457a85f63d7d50d1fa5bd8879d791cf1",
+      "size": 1076909,
+      "format": "zip",
+      "binaries": {
+        "cargo-prebuilt.exe": {
+          "path": "cargo-prebuilt.exe",
+          "sha256": "88bf5b95632e6a356b71f403598bb8567f7342e37709fe7cffbb6b33201f082c"
+        }
+      }
+    }
+  }
+}
