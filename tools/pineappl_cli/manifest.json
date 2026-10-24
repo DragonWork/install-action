@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pineappl_cli",
+  "version": "1.5.0",
+  "repository": "NNPDF/pineappl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/NNPDF/pineappl/releases/download/v1.5.0/pineappl_cli-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "a801ff80ca1bdb7922c35201533d8be008b0844610e45d582d028f7d5d327c14",
+      "size": 4034979,
+      "format": "tar.gz",
+      "binaries": {
+        "pineappl": {
+          "path": "./bin/pineappl",
+          "sha256": "004f609a3b4bdeb2d6bd3f3d6a223918ef7e2df9f728172e7571beb05a9e4597"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/NNPDF/pineappl/releases/download/v1.5.0/pineappl_cli-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "f8b673f54f8e94fe80eaf934f84717c6d20706032362470364a921ec10e0bed3",
+      "size": 3406737,
+      "format": "tar.gz",
+      "binaries": {
+        "pineappl": {
+          "path": "./bin/pineappl",
+          "sha256": "982f0488ab05b566c807be0306f3b28ff205205df274e978dcd435da9fb60256"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/NNPDF/pineappl/releases/download/v1.5.0/pineappl_cli-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "8149abb2e847181a56abe3d10eeb7f73a50ef538afe9fe4eb3989deb36a139b3",
+      "size": 3112253,
+      "format": "tar.gz",
+      "binaries": {
+        "pineappl": {
+          "path": "./bin/pineappl",
+          "sha256": "f7d666aae7c6ab2ac43ec9319849bb60966822272cae9231b9ce210fd6ec1cb0"
+        }
+      }
+    }
+  }
+}
