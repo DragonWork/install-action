@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "zabrze",
+  "version": "0.7.3",
+  "repository": "Ryooooooga/zabrze",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Ryooooooga/zabrze/releases/download/v0.7.3/zabrze-v0.7.3-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "a98c1ed71cce7dd57fd6cbe9522ae58ec7e8e7d8a6afa12f3db948410241564a",
+      "size": 1165513,
+      "format": "tar.gz",
+      "binaries": {
+        "zabrze": {
+          "path": "zabrze",
+          "sha256": "6fc44029b87c356f9e89b75ca08c2ce4538e7c8469c09c9b67648b2d79a38457"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Ryooooooga/zabrze/releases/download/v0.7.3/zabrze-v0.7.3-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "4cd1ab44038b349010979870604dddd32fab37441a347e05e8ed765e2ca2aac0",
+      "size": 1253965,
+      "format": "tar.gz",
+      "binaries": {
+        "zabrze": {
+          "path": "zabrze",
+          "sha256": "74dd7e92798af78c6bed6cf2471a3c64e4d8a3d2d613053c683423078f1cab98"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Ryooooooga/zabrze/releases/download/v0.7.3/zabrze-v0.7.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "2c278907eba98f022e32f3ad2f87a3f7c48677d829f0fd6c0f0f7901178d202e",
+      "size": 1106727,
+      "format": "tar.gz",
+      "binaries": {
+        "zabrze": {
+          "path": "zabrze",
+          "sha256": "af7f2d2690bfdcef2f3aaaff32a0a88dd1856e2b652f6b965589ddd337e983e8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Ryooooooga/zabrze/releases/download/v0.7.3/zabrze-v0.7.3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "b57ee469b3a639ebf90f8a6218e4cb7887c6a88d5b26f1fc5bd71757ea320e4c",
+      "size": 1030449,
+      "format": "tar.gz",
+      "binaries": {
+        "zabrze": {
+          "path": "zabrze",
+          "sha256": "186dde4a2fe5f7f6d143631caaa0d7f0244d478f70609fa6aa643a2d84d04c9b"
+        }
+      }
+    }
+  }
+}
