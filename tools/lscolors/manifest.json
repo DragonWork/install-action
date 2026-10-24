@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "lscolors",
+  "version": "0.21.0",
+  "repository": "sharkdp/lscolors",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sharkdp/lscolors/releases/download/v0.21.0/lscolors-v0.21.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.21.0",
+      "sha256": "02a08e8d7f9d6c0f754dd44e39d1d99bfa17b70bb57165f22d84fec9f87adce8",
+      "size": 349410,
+      "format": "tar.gz",
+      "binaries": {
+        "lscolors": {
+          "path": "lscolors-v0.21.0-x86_64-unknown-linux-musl/lscolors",
+          "sha256": "4ad09033cafae7f32c22b620420ca3db237f4f8d890a8e3af316e575b29afa64"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sharkdp/lscolors/releases/download/v0.21.0/lscolors-v0.21.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.21.0",
+      "sha256": "11d336ebbd71c80a178148428f14d4af39750e4314f9122e98d8ed12c21753d5",
+      "size": 270920,
+      "format": "tar.gz",
+      "binaries": {
+        "lscolors": {
+          "path": "lscolors-v0.21.0-aarch64-unknown-linux-gnu/lscolors",
+          "sha256": "52ff3855ea7a4cd065a2935638bf99eda4244badebdc348c3692c37d72d1f561"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sharkdp/lscolors/releases/download/v0.21.0/lscolors-v0.21.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.21.0",
+      "sha256": "8e817cd92e368dad2a32bf4523e1fea74c0987d092dfcabe32ccbee588449f72",
+      "size": 303604,
+      "format": "tar.gz",
+      "binaries": {
+        "lscolors": {
+          "path": "lscolors-v0.21.0-x86_64-apple-darwin/lscolors",
+          "sha256": "07b21237dbe5c357606c6e9a9fb7a1274cf3aef369774e1566eab15cb2566cf1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sharkdp/lscolors/releases/download/v0.21.0/lscolors-v0.21.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.21.0",
+      "sha256": "b5dd8f24e7add12fd0a32ff00e03c898eeb1b4c4b7ed629002e9bc1b855cae8b",
+      "size": 212336,
+      "format": "zip",
+      "binaries": {
+        "lscolors.exe": {
+          "path": "lscolors-v0.21.0-x86_64-pc-windows-msvc/lscolors.exe",
+          "sha256": "2e6cd5587dc79997f341035bba3a3d368475a9b0402ee58c9afd7e83ef72106f"
+        }
+      }
+    }
+  }
+}
