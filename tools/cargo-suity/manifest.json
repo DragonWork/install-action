@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cargo-suity",
+  "version": "0.3.0",
+  "repository": "andoriyu/cargo-suity",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/andoriyu/cargo-suity/releases/download/v0.3.0/cargo-suity-v0.3.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "c0c0fecddae38d6d38dd5725eb804f9a056e90a7c72d35e864b9722124d7ea2e",
+      "size": 1255675,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-suity": {
+          "path": "cargo-suity",
+          "sha256": "6f3c0da1764fe5f78d979edc7c2e3264080ff1cf67e93805c2a9bf207cb939a2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/andoriyu/cargo-suity/releases/download/v0.3.0/cargo-suity-v0.3.0-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "32c1a86e3482d2b116973ffd8e198e0ba20d0b83086d6d070ba753662ce63193",
+      "size": 1741828,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-suity.exe": {
+          "path": "cargo-suity.exe",
+          "sha256": "db83fb0b20cd7dcd8cef9ec3685622feb1403b4471a3401f406f52194076f61b"
+        }
+      }
+    }
+  }
+}
