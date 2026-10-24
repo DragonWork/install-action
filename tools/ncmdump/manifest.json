@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ncmdump",
+  "version": "0.6.1",
+  "repository": "iqiziqi/ncmdump.rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/iqiziqi/ncmdump.rs/releases/download/0.6.1/ncmdump-linux-x64.tar.gz",
+      "releaseTag": "0.6.1",
+      "sha256": "4534f8b323b5a528fff72f184f959faea9d835115748f208c979cfe5a6f96eb8",
+      "size": 1547974,
+      "format": "tar.gz",
+      "binaries": {
+        "ncmdump": {
+          "path": "ncmdump",
+          "sha256": "b653f920876c09089adb699c09262d88eb94c89fa277dfd6f703353e82165b99"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/iqiziqi/ncmdump.rs/releases/download/0.6.1/ncmdump-macos-x64.tar.gz",
+      "releaseTag": "0.6.1",
+      "sha256": "1e91d7ac655f5d87eed6aafc06a194aa0a90959dd5527e543f4933138195d445",
+      "size": 623145,
+      "format": "tar.gz",
+      "binaries": {
+        "ncmdump": {
+          "path": "ncmdump",
+          "sha256": "eab8cc9ae1eed83af27337f90015b83a70f28c4baa7c23c26e6eb03ff0dd5550"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/iqiziqi/ncmdump.rs/releases/download/0.6.1/ncmdump-macos-aarch64.tar.gz",
+      "releaseTag": "0.6.1",
+      "sha256": "362b6bdec178193d5c7bb0e88aa507cfa2abc8e7fc52acb8bddb21a3cef3a406",
+      "size": 618438,
+      "format": "tar.gz",
+      "binaries": {
+        "ncmdump": {
+          "path": "ncmdump",
+          "sha256": "34a6c91d71d5646df5dfdfdc5f11ce9863869534678b5e99c92f1016707e9841"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/iqiziqi/ncmdump.rs/releases/download/0.6.1/ncmdump-windows-x64.zip",
+      "releaseTag": "0.6.1",
+      "sha256": "715a5d6d4dd9c02ee93dfd1aa30987deb8633459b8e60785ed02ff36edf9d0e6",
+      "size": 444532,
+      "format": "zip",
+      "binaries": {
+        "ncmdump.exe": {
+          "path": "ncmdump.exe",
+          "sha256": "7bc7b9a817a45ffa4bc2e0ed6a3232c9d2b3b14c88c92371d14d3dd99fd49a16"
+        }
+      }
+    }
+  }
+}
