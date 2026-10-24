@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "randompass",
+  "version": "1.0.0",
+  "repository": "mihaigalos/randompass",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mihaigalos/randompass/releases/download/1.0.0/randompass-1.0.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.0.0",
+      "sha256": "bb3fb72c4590ff94685d8b69979f02a89135bd5184587c988d9649198d23da78",
+      "size": 373302,
+      "format": "tar.gz",
+      "binaries": {
+        "randompass": {
+          "path": "randompass",
+          "sha256": "e5d9c230cf0ef01f84c41ad7649400a1f5be19b010073ca27909838abceeb571"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mihaigalos/randompass/releases/download/1.0.0/randompass-1.0.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.0.0",
+      "sha256": "3c0e7fb32dbff1a629efc759b5ae069bebeb937449a66859e95454cc6da7c472",
+      "size": 349081,
+      "format": "tar.gz",
+      "binaries": {
+        "randompass": {
+          "path": "randompass",
+          "sha256": "f318fd681986c04b62cf77733f5adafde96a9faf645f4d0aebbb6cd097288358"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mihaigalos/randompass/releases/download/1.0.0/randompass-1.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.0.0",
+      "sha256": "c68b05a58ed950afb879f202651ac9c4f74b4b25df9a7134ba4b757bcb6fe437",
+      "size": 362001,
+      "format": "tar.gz",
+      "binaries": {
+        "randompass": {
+          "path": "randompass",
+          "sha256": "082cdba98340f2a44271e2da4b74b465ca998551f665b109432211d24b213f10"
+        }
+      }
+    }
+  }
+}
