@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "lintje",
+  "version": "0.12.0",
+  "repository": "lintje/lintje",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lintje/lintje/releases/download/v0.12.0/x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "3be6520b30289877e22763cf16b4db9c4b5795974764ffe7ee87f4aa4f5c5926",
+      "size": 1189569,
+      "format": "tar.gz",
+      "binaries": {
+        "lintje": {
+          "path": "lintje",
+          "sha256": "67d5b480d51f6bec180a569a12f0720661087463b015075551c394fb62666585"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lintje/lintje/releases/download/v0.12.0/aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "0ab3ce0f1974fe9e86380a5d153115100e24db9dcd55c78e807ff6db2d9feb68",
+      "size": 1087217,
+      "format": "tar.gz",
+      "binaries": {
+        "lintje": {
+          "path": "lintje",
+          "sha256": "0a44eff682272b8680fbc4c0155697402efb2914218ca87d357819051ec044ec"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lintje/lintje/releases/download/v0.12.0/x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "5288d1c389352e509faf5934bedd1213d4002bbfe3dd71467c3c28e4b097b738",
+      "size": 1062563,
+      "format": "tar.gz",
+      "binaries": {
+        "lintje": {
+          "path": "lintje",
+          "sha256": "c6378be45165afe7183a4979bc3b1addcde34b4dfe519ea001c063ba011c5c51"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lintje/lintje/releases/download/v0.12.0/aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "f8d88fbe60e0943c4d185faac441201024e0ac793d0b76852f9115372474b3f1",
+      "size": 979717,
+      "format": "tar.gz",
+      "binaries": {
+        "lintje": {
+          "path": "lintje",
+          "sha256": "d6255c28568013a9b639d4afc2a039a434528feb8534c94215f5f05200786afa"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lintje/lintje/releases/download/v0.12.0/x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "d28b57e41bfb8cc67b225e2d9b03fa862c830c7b6c816e7e503b08ec8f214252",
+      "size": 1089071,
+      "format": "tar.gz",
+      "binaries": {
+        "lintje.exe": {
+          "path": "lintje.exe",
+          "sha256": "13291440aa6e255ce6c623acc744c990bed7c8c567946f0259fa2ac4bbec4c76"
+        }
+      }
+    }
+  }
+}
