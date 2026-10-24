@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "comrak",
+  "version": "0.57.0",
+  "repository": "kivikakk/comrak",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/kivikakk/comrak/releases/download/v0.57.0/comrak-0.57.0-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.57.0",
+      "sha256": "12d92c772f178ace03f49f69c7402d438e0b38e8729cd6a987ac6b4c80470750",
+      "size": 3265536,
+      "format": "binary",
+      "binaries": {
+        "comrak.exe": {
+          "path": "comrak-0.57.0-x86_64-pc-windows-msvc.exe",
+          "sha256": "12d92c772f178ace03f49f69c7402d438e0b38e8729cd6a987ac6b4c80470750"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/kivikakk/comrak/releases/download/v0.57.0/comrak-0.57.0-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.57.0",
+      "sha256": "a90b27e89645b2c78a908f6070be3b926baf9dc2b9817d784a8501171244cc51",
+      "size": 2916352,
+      "format": "binary",
+      "binaries": {
+        "comrak.exe": {
+          "path": "comrak-0.57.0-aarch64-pc-windows-msvc.exe",
+          "sha256": "a90b27e89645b2c78a908f6070be3b926baf9dc2b9817d784a8501171244cc51"
+        }
+      }
+    }
+  }
+}
