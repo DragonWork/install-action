@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "name": "sbp2json",
+  "version": "6.5.1",
+  "repository": "swift-nav/libsbp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/swift-nav/libsbp/releases/download/v6.5.1/sbp_tools-v6.5.1-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v6.5.1",
+      "sha256": "51c45f4576d08d673c01169202735f0968f2b9017d98c32dca31f955a5b4d954",
+      "size": 3849203,
+      "format": "zip",
+      "binaries": {
+        "json2json": {
+          "path": "json2json",
+          "sha256": "f457c903b4338f1b53b3c9e4cdd782ce64a63c815dcf745dd5a0b3a2716e887e"
+        },
+        "json2sbp": {
+          "path": "json2sbp",
+          "sha256": "1ad965e36dd7cd26fdda1403400d03be536dd92179449afc2c0bece289d6424c"
+        },
+        "sbp2json": {
+          "path": "sbp2json",
+          "sha256": "af9b25b3c75e6e060cd5aadbe1f13168a82b88580c5e60481ad8edf86e66e1e9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/swift-nav/libsbp/releases/download/v6.5.1/sbp_tools-v6.5.1-aarch64-apple-darwin.zip",
+      "releaseTag": "v6.5.1",
+      "sha256": "1d7d1cffaf789fb3665d60c3a76287b641dbeb52c1b1420805279a0e5dcee325",
+      "size": 3276118,
+      "format": "zip",
+      "binaries": {
+        "json2json": {
+          "path": "json2json",
+          "sha256": "bfd7539fcd4c8b61f3aefdfbb982325a9d2d08e8b85fb471e8749da586e65e74"
+        },
+        "json2sbp": {
+          "path": "json2sbp",
+          "sha256": "0405cc6dbd05699a7c0b8b0dfc7604e332cd6a7fe548806194df2b95c02a8e78"
+        },
+        "sbp2json": {
+          "path": "sbp2json",
+          "sha256": "32116b0fef93d0797db74c573f73a9801f01c8f90d81be488cc339224f3e7db2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/swift-nav/libsbp/releases/download/v6.5.1/sbp_tools-v6.5.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v6.5.1",
+      "sha256": "46e665a3044d8576c6bccc21f32ebcbf86e249dfa0b551198bc7495195d11bfc",
+      "size": 3433574,
+      "format": "zip",
+      "binaries": {
+        "json2json.exe": {
+          "path": "json2json.exe",
+          "sha256": "a9879a959ff5a6247d0e355041765f9a705c8365adb2e2409478f2dde632bd02"
+        },
+        "json2sbp.exe": {
+          "path": "json2sbp.exe",
+          "sha256": "62d2c709bd5bcb3bf0d67b3856d1ac505d943b3347425711bc7ef998c6cbc75f"
+        },
+        "sbp2json.exe": {
+          "path": "sbp2json.exe",
+          "sha256": "186cbe4f31270191755a2c9a9f3bfbeed12be123c92e14a2e64e3bba4218d97f"
+        }
+      }
+    }
+  }
+}
