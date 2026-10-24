@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gltf-viewer",
+  "version": "0.4.1",
+  "repository": "bwasty/gltf-viewer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bwasty/gltf-viewer/releases/download/0.4.1/gltf-viewer-0.4.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.4.1",
+      "sha256": "484a8636c344f33ccaa2a3fcac596d6d2062611bb787049850ccfe76c5cba407",
+      "size": 2430092,
+      "format": "tar.gz",
+      "binaries": {
+        "gltf-viewer": {
+          "path": "gltf-viewer",
+          "sha256": "c343f425679a1b3ea6c7f5f0b2fcef88014d475ca8fd7bd690cb29122147d4ab"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bwasty/gltf-viewer/releases/download/0.4.1/gltf-viewer-0.4.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.1",
+      "sha256": "9a89b781438b811a97203a2f6ea6db78ed192e25b16359b10b1dd5fbecc63821",
+      "size": 1838126,
+      "format": "tar.gz",
+      "binaries": {
+        "gltf-viewer": {
+          "path": "gltf-viewer",
+          "sha256": "df173ea2578f55d714e9d09404b8c43be5c72e241f0e12a6c09ea5c0f05c2be7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bwasty/gltf-viewer/releases/download/0.4.1/gltf-viewer-0.4.1-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "0.4.1",
+      "sha256": "a476e47be6cb54c5eb8e34c9db2b18b71eaccf55728e2018492ddbd9cda7c93f",
+      "size": 2086768,
+      "format": "zip",
+      "binaries": {
+        "gltf-viewer.exe": {
+          "path": "gltf-viewer.exe",
+          "sha256": "f3f47e00c8267a3e2809706de9aa883f7aa69724513a6a3d26154dc15f2e9512"
+        }
+      }
+    }
+  }
+}
