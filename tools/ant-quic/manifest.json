@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ant-quic",
+  "version": "0.27.61",
+  "repository": "saorsa-labs/ant-quic",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/saorsa-labs/ant-quic/releases/download/v0.27.61/ant-quic-x86_64-linux.tar.gz",
+      "sha256": "2e19442b6f48b088c6ce103217443ce1ab1ff96845926d4fa695f8cf3ae237b1",
+      "size": 8056091,
+      "format": "tar.gz",
+      "releaseTag": "v0.27.61",
+      "binaries": {
+        "ant-quic": {
+          "path": "ant-quic",
+          "sha256": "90cc9d8f539722a319e09da120da889838d19841cf6b10a4fa8920719366c72b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/saorsa-labs/ant-quic/releases/download/v0.27.61/ant-quic-aarch64-linux.tar.gz",
+      "sha256": "f5c361844f88599e52025847d841be9968455f9952496a77b6b42dc9da90caa8",
+      "size": 7651370,
+      "format": "tar.gz",
+      "releaseTag": "v0.27.61",
+      "binaries": {
+        "ant-quic": {
+          "path": "ant-quic",
+          "sha256": "fab32a4bf6edfcb904c1eb9a55ee6723fb7a85dcdd231e00189bc056afac8cd0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/saorsa-labs/ant-quic/releases/download/v0.27.61/ant-quic-x86_64-macos.tar.gz",
+      "sha256": "7812ee5ae6e3cf393c260d6671f1ec53d925993b38658a34656ace824de32622",
+      "size": 8119691,
+      "format": "tar.gz",
+      "releaseTag": "v0.27.61",
+      "binaries": {
+        "ant-quic": {
+          "path": "ant-quic",
+          "sha256": "2f0549699dcd314a0b396ac5e49727de60d99140e7a2635b7148d09490197967"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/saorsa-labs/ant-quic/releases/download/v0.27.61/ant-quic-aarch64-macos.tar.gz",
+      "sha256": "2d1926bd5ee414e8a3bc3a1f7ce6dbaa2edde00a1ba43912c1b5d15720e896f4",
+      "size": 7278180,
+      "format": "tar.gz",
+      "releaseTag": "v0.27.61",
+      "binaries": {
+        "ant-quic": {
+          "path": "ant-quic",
+          "sha256": "9c3e2dae1bf09ce6db0d41ed256132e10c29bad439ee8f431e2078a8ddb26da0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/saorsa-labs/ant-quic/releases/download/v0.27.61/ant-quic-x86_64-windows.zip",
+      "sha256": "df7b25e5a5f31e1ea608e6c7469848b8e8825822c0a4f10f25455a47468ca4ba",
+      "size": 7508508,
+      "format": "zip",
+      "releaseTag": "v0.27.61",
+      "binaries": {
+        "ant-quic.exe": {
+          "path": "ant-quic.exe",
+          "sha256": "0a2adc49c67821664ebf74fe2d1fd52037b8dc58dad9f7eb1994bdfab14d6c4d"
+        }
+      }
+    }
+  }
+}
