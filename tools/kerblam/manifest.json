@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "kerblam",
+  "version": "1.2.1",
+  "repository": "MrHedmad/kerblam",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MrHedmad/kerblam/releases/download/v1.2.1/kerblam-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v1.2.1",
+      "sha256": "bc38337a109ca293ba931344b4e15252c1577a2e9bcee29a2727b6529575e164",
+      "size": 2644896,
+      "format": "tar.xz",
+      "binaries": {
+        "kerblam": {
+          "path": "kerblam-x86_64-unknown-linux-musl/kerblam",
+          "sha256": "dbb67938c2cb691e9f92218ca899cb3d9f159d4d8e06c370bc3191320903ce3b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MrHedmad/kerblam/releases/download/v1.2.1/kerblam-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.2.1",
+      "sha256": "6621eb97cd4774399e67dc3c0b8509fd3111018f13d031fac9c5dc820ab02ee4",
+      "size": 2514080,
+      "format": "tar.xz",
+      "binaries": {
+        "kerblam": {
+          "path": "kerblam-x86_64-apple-darwin/kerblam",
+          "sha256": "6ff4a46f479c21b20a2a50e6b235981ba0e1e647ec186babbbd207af80353af1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MrHedmad/kerblam/releases/download/v1.2.1/kerblam-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.2.1",
+      "sha256": "0470a04fc0a081acd98d0f34923991d6263e548cf8ef91c734d5385011830cc9",
+      "size": 2264616,
+      "format": "tar.xz",
+      "binaries": {
+        "kerblam": {
+          "path": "kerblam-aarch64-apple-darwin/kerblam",
+          "sha256": "e88b12137e64141a0df15541be3a7c62cf3fc993abed44417c1d8c8282e5ef5e"
+        }
+      }
+    }
+  }
+}
