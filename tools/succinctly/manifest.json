@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "succinctly",
+  "version": "0.7.0",
+  "repository": "rust-works/succinctly",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-works/succinctly/releases/download/v0.7.0/succinctly-linux-x64.tar.gz",
+      "sha256": "be27d0bf380f6a6eaa4181c08f9d7cbffa15ab8ac995b29d32f9ffc6b3961f15",
+      "size": 1509650,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "succinctly": {
+          "path": "succinctly",
+          "sha256": "b1ce92810e25efad8dcba74ff4b555ce5f107533af704ca254a942a934bcf88d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rust-works/succinctly/releases/download/v0.7.0/succinctly-linux-arm64.tar.gz",
+      "sha256": "800bcae019c371c5508b1974d7aedcdd87d14ee066a8bd7a27a8380ac2e14008",
+      "size": 1391345,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "succinctly": {
+          "path": "succinctly",
+          "sha256": "0a819c609b2acefdea6646c924c97e7f5a74829116504b6564a315c32338c1f6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-works/succinctly/releases/download/v0.7.0/succinctly-macos-arm64.tar.gz",
+      "sha256": "ce503c3b9a9bd346c9ed01b8c88bc252fb9f4bb5274652119a67f4e82ea49657",
+      "size": 1371290,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "succinctly": {
+          "path": "succinctly",
+          "sha256": "d779b84cd13681f1e1eb61b936817c376f6e284229183f871c33b75627435adb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-works/succinctly/releases/download/v0.7.0/succinctly-windows-x64.zip",
+      "sha256": "a69cabd055ea221155b8c875cc2ede66857cd11ac94d45567d01eb6014f74736",
+      "size": 1423892,
+      "format": "zip",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "succinctly.exe": {
+          "path": "succinctly.exe",
+          "sha256": "a72c08223bfc3c05a96f7aba99c5aaf60d282fed0946a35e3260331e38975ce5"
+        }
+      }
+    }
+  }
+}
