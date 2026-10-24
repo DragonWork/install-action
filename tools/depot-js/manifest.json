@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "depot-js",
+  "version": "0.3.6",
+  "repository": "cognitive-engineering-lab/depot",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cognitive-engineering-lab/depot/releases/download/v0.3.6/x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.3.6",
+      "sha256": "4e5a91f1495b4e4e053183f8f8688ddd05421e4ffa07706b5c02db4c3bf38376",
+      "size": 1358392,
+      "format": "zip",
+      "binaries": {
+        "depot": {
+          "path": "depot",
+          "sha256": "400f192c4dd90709126802bfbb024d78491df611fa7ea72e727a59c0c4e41793"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cognitive-engineering-lab/depot/releases/download/v0.3.6/aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.3.6",
+      "sha256": "5101f6023c0c2e970f72f557e2a0085f318dec5ae15de2992501c8e4690ae10f",
+      "size": 1325653,
+      "format": "zip",
+      "binaries": {
+        "depot": {
+          "path": "depot",
+          "sha256": "861fc79cb1f32c810215b3d39f255787d253592113faa3ae2b6f4df9a01ebbbc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cognitive-engineering-lab/depot/releases/download/v0.3.6/x86_64-apple-darwin.zip",
+      "releaseTag": "v0.3.6",
+      "sha256": "08b738e833e9820bec5ecbf1edf45beb14c34b0f5b827dc855910a20e50dbd6f",
+      "size": 1252709,
+      "format": "zip",
+      "binaries": {
+        "depot": {
+          "path": "depot",
+          "sha256": "04c790c906e1d655239b2819734d042aef7366951a4f2b097442f91e0d2eca02"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cognitive-engineering-lab/depot/releases/download/v0.3.6/aarch64-apple-darwin.zip",
+      "releaseTag": "v0.3.6",
+      "sha256": "185d43b51579a61239da45e49e1c84a35166709780f5b4be8c548c2d3eb877b7",
+      "size": 1197082,
+      "format": "zip",
+      "binaries": {
+        "depot": {
+          "path": "depot",
+          "sha256": "8b3ada6343d6d2443ecf8b3d172dc74d1ba2e6705a60920e0393db1a530cfd46"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cognitive-engineering-lab/depot/releases/download/v0.3.6/x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.6",
+      "sha256": "b1cde93fded6a83558834b73e69bd3dd2d8ca0a379e90dbc6fa7ac9f79c24490",
+      "size": 1338400,
+      "format": "zip",
+      "binaries": {
+        "depot.exe": {
+          "path": "depot.exe",
+          "sha256": "604eb2079bc466c3f58ca37f9322f35347c270a53472b18979350d8c88b80f99"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/cognitive-engineering-lab/depot/releases/download/v0.3.6/aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.6",
+      "sha256": "aa08f59cc0801185ab62cea50b38b6a9894ab33223d9024a3e3194396e11738e",
+      "size": 1282092,
+      "format": "zip",
+      "binaries": {
+        "depot.exe": {
+          "path": "depot.exe",
+          "sha256": "823ff7689785bbd65125cba0786b5ce5228ad1c6b1fb0af8f13b230b3f385d61"
+        }
+      }
+    }
+  }
+}
