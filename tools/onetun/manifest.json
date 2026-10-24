@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "onetun",
+  "version": "0.3.10",
+  "repository": "aramperes/onetun",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aramperes/onetun/releases/download/v0.3.10/onetun-linux-amd64",
+      "sha256": "1c2918da3ee3b3d0f522aa82d29c194741593737df85a73b0c6ce15502c00d15",
+      "size": 5390056,
+      "format": "binary",
+      "releaseTag": "v0.3.10",
+      "binaries": {
+        "onetun": {
+          "path": "onetun-linux-amd64",
+          "sha256": "1c2918da3ee3b3d0f522aa82d29c194741593737df85a73b0c6ce15502c00d15"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/aramperes/onetun/releases/download/v0.3.10/onetun-linux-aarch64",
+      "sha256": "1cb94c47da4bffe622d5efe4ffb5ba3bde8e4f89c2362c3b99b69df483fd728a",
+      "size": 4936064,
+      "format": "binary",
+      "releaseTag": "v0.3.10",
+      "binaries": {
+        "onetun": {
+          "path": "onetun-linux-aarch64",
+          "sha256": "1cb94c47da4bffe622d5efe4ffb5ba3bde8e4f89c2362c3b99b69df483fd728a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aramperes/onetun/releases/download/v0.3.10/onetun-macos-aarch64",
+      "sha256": "944911ac292590f5be763aa5f99ba47256d4ff33746e4f5831bc79ece343a4af",
+      "size": 4509320,
+      "format": "binary",
+      "releaseTag": "v0.3.10",
+      "binaries": {
+        "onetun": {
+          "path": "onetun-macos-aarch64",
+          "sha256": "944911ac292590f5be763aa5f99ba47256d4ff33746e4f5831bc79ece343a4af"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aramperes/onetun/releases/download/v0.3.10/onetun.exe",
+      "sha256": "4c68be84ab209a8af1eda74849f04050c8009a842c39c9237bf2b7a9568d8ace",
+      "size": 4163584,
+      "format": "binary",
+      "releaseTag": "v0.3.10",
+      "binaries": {
+        "onetun.exe": {
+          "path": "onetun.exe",
+          "sha256": "4c68be84ab209a8af1eda74849f04050c8009a842c39c9237bf2b7a9568d8ace"
+        }
+      }
+    }
+  }
+}
