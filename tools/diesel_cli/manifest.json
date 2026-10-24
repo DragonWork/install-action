@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "diesel_cli",
+  "version": "2.3.14",
+  "repository": "diesel-rs/diesel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.3.14",
+      "sha256": "2be3eb59e00c2b9c45054d66cf3ccefae02aa231c25cc22b144612b58ffa56df",
+      "size": 6253776,
+      "format": "tar.xz",
+      "binaries": {
+        "diesel": {
+          "path": "diesel_cli-x86_64-unknown-linux-gnu/diesel",
+          "sha256": "6d74b32ad8b2cec0e2d1c7e00aef58faee823e61cef0e1201c82417cb2faa400"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.3.14",
+      "sha256": "861eb1a5cef438340fb7272044dae2fd06fe801020b160f61d021b97cab5cc54",
+      "size": 6292372,
+      "format": "tar.xz",
+      "binaries": {
+        "diesel": {
+          "path": "diesel_cli-aarch64-unknown-linux-gnu/diesel",
+          "sha256": "5f242e8307453b1b618b6d67eccfb709e2a655fdf1ff57e0c75b11ba85e0972c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v2.3.14",
+      "sha256": "cbd6d4db5224e547913b125cf4c3936884123c20fff44150927c2d302436a913",
+      "size": 5855268,
+      "format": "tar.xz",
+      "binaries": {
+        "diesel": {
+          "path": "diesel_cli-x86_64-apple-darwin/diesel",
+          "sha256": "d39f655abcf4e192290861461e8341f845b13fab9a84ef1e1c0ea8499ca55de5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2.3.14",
+      "sha256": "3a029f65ebcc9379342629edef23c6328467c23be6a23dcb2b0ee39bfc80405d",
+      "size": 5755328,
+      "format": "tar.xz",
+      "binaries": {
+        "diesel": {
+          "path": "diesel_cli-aarch64-apple-darwin/diesel",
+          "sha256": "27235f0a9e9717dda83b57fbd0651c2566e7ddec2a397106531488eaf87c4514"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.3.14",
+      "sha256": "c095b093278829b88df18821d3d4dfdf7ba5f30a4abfc11ba206abac21af8344",
+      "size": 8052092,
+      "format": "zip",
+      "binaries": {
+        "diesel.exe": {
+          "path": "diesel.exe",
+          "sha256": "06589c25b5f22ae94ef9e1dce442b46a6002ee59319b1ebd971feff65f0de41b"
+        }
+      }
+    }
+  }
+}
