@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "lindera-cli",
+  "version": "6.2.0",
+  "repository": "lindera/lindera",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lindera/lindera/releases/download/v6.2.0/lindera-x86_64-unknown-linux-musl-6.2.0.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "9046785476faeee4c2a9d3799b123b7307bdd186356c919ad955183042461d43",
+      "size": 3523368,
+      "format": "zip",
+      "binaries": {
+        "lindera": {
+          "path": "lindera",
+          "sha256": "aecd6d273290791af8a6253a9d5ef651972429466de0ed96aae80d637fee3395"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lindera/lindera/releases/download/v6.2.0/lindera-aarch64-unknown-linux-musl-6.2.0.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "7a7b32a78e28f135705cdb6b4a5225168f8b9b40f63a0b7e0c0e922d27f93144",
+      "size": 3319224,
+      "format": "zip",
+      "binaries": {
+        "lindera": {
+          "path": "lindera",
+          "sha256": "c91b71804a67f45eae8a641da0e8b692301903d78367e6a5e1fb71ab8e30f273"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lindera/lindera/releases/download/v6.2.0/lindera-x86_64-apple-darwin-6.2.0.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "21d16358acf042e56d597ac7565117bc9b5fde4db1c16bbc0a7b29f345a277d0",
+      "size": 3272592,
+      "format": "zip",
+      "binaries": {
+        "lindera": {
+          "path": "lindera",
+          "sha256": "c7a5662007bbcc99a252e996a1f1e92fdaaef2c47517bda04d6a14e95f18c331"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lindera/lindera/releases/download/v6.2.0/lindera-aarch64-apple-darwin-6.2.0.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "7953ea2be3e370ef96c2a21cdf018980589447e0289b7948efe4f3584d501583",
+      "size": 3081054,
+      "format": "zip",
+      "binaries": {
+        "lindera": {
+          "path": "lindera",
+          "sha256": "6872de30f5edc89919be63610288fd52da5dc3ebca54392ada5545396cb1feee"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lindera/lindera/releases/download/v6.2.0/lindera-x86_64-pc-windows-msvc-6.2.0.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "99becc7e3da1d05e65a001f0e0fa26a5924e915df573d01cb202b89a9baa7b5b",
+      "size": 3138711,
+      "format": "zip",
+      "binaries": {
+        "lindera.exe": {
+          "path": "lindera.exe",
+          "sha256": "3f404f3621591bcfabe4cd66df585ab3127c24b792d68a279b1f332f955c171e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/lindera/lindera/releases/download/v6.2.0/lindera-aarch64-pc-windows-msvc-6.2.0.zip",
+      "releaseTag": "v6.2.0",
+      "sha256": "fec2bbbd93a7ae19f37fe1597e76b6333354d77105159dc52e8f482f57f3f257",
+      "size": 2940338,
+      "format": "zip",
+      "binaries": {
+        "lindera.exe": {
+          "path": "lindera.exe",
+          "sha256": "dfac5a989c8825b0acd7d7c9f143585ff317586b6271bd390a3b527e5c776495"
+        }
+      }
+    }
+  }
+}
