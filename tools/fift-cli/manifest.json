@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "fift-cli",
+  "version": "0.2.2",
+  "repository": "broxus/fift",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/broxus/fift/releases/download/v0.2.2/fift-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "e4ab981f5d63ad828e2b114dc91f37d3816646e543a949f7d7d3b28a085729fd",
+      "size": 1345565,
+      "format": "tar.gz",
+      "binaries": {
+        "fift": {
+          "path": "fift",
+          "sha256": "0c640797d1e5a6a62854c3098753d486b28c82de480c75339741d7a5a60069a6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/broxus/fift/releases/download/v0.2.2/fift-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "42d80e62e6537e29e178245f4fd46565bbe2334f954c484afb163829ceac942b",
+      "size": 1281534,
+      "format": "tar.gz",
+      "binaries": {
+        "fift": {
+          "path": "fift",
+          "sha256": "2990f2d038755ca1126171acfd901e5444e499c72cc613bb84687a673faa36d6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/broxus/fift/releases/download/v0.2.2/fift-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "92fd640314d53927498d4d5fe6385344a20a9c43ff171a7749d38745f9e3a267",
+      "size": 1523377,
+      "format": "tar.gz",
+      "binaries": {
+        "fift": {
+          "path": "fift",
+          "sha256": "e2636b697f529f7ae226f06984bb5f8dedb822bc9eb36a06d597482d7ee2eb94"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/broxus/fift/releases/download/v0.2.2/fift-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.2",
+      "sha256": "fe9b459dcde69fad65dd440498fdd6abf2afbbdbcceae7c99e205055d78665d4",
+      "size": 1473437,
+      "format": "tar.gz",
+      "binaries": {
+        "fift": {
+          "path": "fift",
+          "sha256": "fc5e9139c914566bf043f393ff20f1dddbae5e0a463f95230aa1b56f225de10c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/broxus/fift/releases/download/v0.2.2/fift-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.2",
+      "sha256": "c139d4e64d9f5844effd95c9f9086028d75cc993fc34cc30cd7d655e26a60694",
+      "size": 1173712,
+      "format": "zip",
+      "binaries": {
+        "fift.exe": {
+          "path": "fift.exe",
+          "sha256": "3503939046e9d217c822fe4f33a1ec9d754c0d3d387edc2a2f4550c451fffd69"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/broxus/fift/releases/download/v0.2.2/fift-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.2",
+      "sha256": "c746cfb30c31c9c947380bf18de527f2fc59547496098327c16abe27ab4b7ce5",
+      "size": 1109342,
+      "format": "zip",
+      "binaries": {
+        "fift.exe": {
+          "path": "fift.exe",
+          "sha256": "89ed7246669e4b4f54fe303c5648b2e811d9b8696c117bf2edbb18b1d4c0fe5d"
+        }
+      }
+    }
+  }
+}
