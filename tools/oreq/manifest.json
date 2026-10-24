@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "oreq",
+  "version": "0.2.6",
+  "repository": "uzimaru0000/oreq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/uzimaru0000/oreq/releases/download/v0.2.6/oreq-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v0.2.6",
+      "sha256": "45eeb5aff58b22c22872feb8f62127ce7b93e4879a718f72f75bfaa4785a367a",
+      "size": 3311527,
+      "format": "zip",
+      "binaries": {
+        "oreq": {
+          "path": "oreq-x86_64-unknown-linux-gnu/oreq",
+          "sha256": "a9a87cc593f6bfffd8f8ce27194a24a8ced98a22bb54777a79b9047c4077361d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/uzimaru0000/oreq/releases/download/v0.2.6/oreq-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.2.6",
+      "sha256": "654b016e95587c91d6acb5be962d1672569a6b30ed4ab68c3950d87a0f371390",
+      "size": 2261505,
+      "format": "zip",
+      "binaries": {
+        "oreq": {
+          "path": "oreq-aarch64-apple-darwin/oreq",
+          "sha256": "d4c491ed497a67c43d3e81e74ccf62c1d7a57b71ce5c8005c626763da18acbd1"
+        }
+      }
+    }
+  }
+}
