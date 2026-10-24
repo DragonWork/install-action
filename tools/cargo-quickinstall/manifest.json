@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-quickinstall",
+  "version": "0.3.53",
+  "repository": "cargo-bins/cargo-quickinstall",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/cargo-quickinstall-0.3.53/cargo-quickinstall-0.3.53-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "cargo-quickinstall-0.3.53",
+      "sha256": "b7ec743fcec1238b07729b64b1b7bb2251d61cb6932941765424e1d0c7191d0a",
+      "size": 292181,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-quickinstall": {
+          "path": "cargo-quickinstall",
+          "sha256": "51817a016961ce61fb36731853969954f35a6d33542d947f534fb4689fdb1de8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/cargo-quickinstall-0.3.53/cargo-quickinstall-0.3.53-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "cargo-quickinstall-0.3.53",
+      "sha256": "de520f9c6d567902c947c7be09566ea75bdffb9c7324d5f0f5b5e8b8f4a9fd02",
+      "size": 281519,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-quickinstall": {
+          "path": "cargo-quickinstall",
+          "sha256": "e3838ca2889f441b9596efbe58c0ac609cf65ac2c959291e3cc16bbef41def20"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/cargo-quickinstall-0.3.53/cargo-quickinstall-0.3.53-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "cargo-quickinstall-0.3.53",
+      "sha256": "660fe75e1d91eed10894566ad587e4fcfa38245011ba698ec7c636e3f30a4c33",
+      "size": 271550,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-quickinstall": {
+          "path": "cargo-quickinstall",
+          "sha256": "3ea251466b4851ae8e9ad70531d1fb2c5d5d55656584ccd9688cfe3b9b4b9cf1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/cargo-quickinstall-0.3.53/cargo-quickinstall-0.3.53-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "cargo-quickinstall-0.3.53",
+      "sha256": "0671864f4db8f36e64e0f1550e141903139b86fcd6d9dc82d3b8e8e76b77c483",
+      "size": 257643,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-quickinstall": {
+          "path": "cargo-quickinstall",
+          "sha256": "1960c91d50d09f6b8c554833d04942b437d5166800520310a8793a890a30ff2f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/cargo-quickinstall-0.3.53/cargo-quickinstall-0.3.53-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "cargo-quickinstall-0.3.53",
+      "sha256": "f561bfa3ce85020fca8ffbfe31a108e7f488449f0c80cdf43faf7edca34cbdf1",
+      "size": 194798,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-quickinstall.exe": {
+          "path": "cargo-quickinstall.exe",
+          "sha256": "d6afcd2971dc885c64c1df72ab25561832c4631073b948ffebe7b12b028cf858"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/cargo-quickinstall-0.3.53/cargo-quickinstall-0.3.53-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "cargo-quickinstall-0.3.53",
+      "sha256": "92a014e14f0a557e0aeaa28857a82b4bb60ff16d59464b7736e66a670af7bf44",
+      "size": 186210,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-quickinstall.exe": {
+          "path": "cargo-quickinstall.exe",
+          "sha256": "3a56adad6bcaed3772321935c45923919ece4bcf9e2f64cc2d3ba58d1b8df051"
+        }
+      }
+    }
+  }
+}
