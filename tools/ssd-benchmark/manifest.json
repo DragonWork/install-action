@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "ssd-benchmark",
+  "version": "1.2.4",
+  "repository": "sassman/ssd-benchmark-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sassman/ssd-benchmark-rs/releases/download/v1.2.4/ssd-benchmark-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v1.2.4",
+      "sha256": "4a10bb11f1390fe97c34e2e2b91c594bfeb89572d2fad5ce1ef9bcfc0cad8117",
+      "size": 428776,
+      "format": "tar.xz",
+      "binaries": {
+        "ssd-benchmark": {
+          "path": "ssd-benchmark-x86_64-unknown-linux-musl/ssd-benchmark",
+          "sha256": "489a92ed2095a74bab98b36bf6f3cdd07f768728b78eed5f9e7177b7ac0c4b0a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sassman/ssd-benchmark-rs/releases/download/v1.2.4/ssd-benchmark-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v1.2.4",
+      "sha256": "03ff2879539621ad9e883ea4d80df6ed0d388c30f8accf82839366df1e808bab",
+      "size": 384748,
+      "format": "tar.xz",
+      "binaries": {
+        "ssd-benchmark": {
+          "path": "ssd-benchmark-aarch64-unknown-linux-musl/ssd-benchmark",
+          "sha256": "dbfb8393676ef497948bc16cd5baa4b0aa96ecb310a4305f3f84d57f55321329"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sassman/ssd-benchmark-rs/releases/download/v1.2.4/ssd-benchmark-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.2.4",
+      "sha256": "6d65dd38334f7ce31b16b29305da51b8057a06e8b3e5b258ee6aaa80b9ee2522",
+      "size": 359900,
+      "format": "tar.xz",
+      "binaries": {
+        "ssd-benchmark": {
+          "path": "ssd-benchmark-x86_64-apple-darwin/ssd-benchmark",
+          "sha256": "e15ef64be82c1a69914d0a6f103efa2348f3a8cdeecf97f15613c7063554936a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sassman/ssd-benchmark-rs/releases/download/v1.2.4/ssd-benchmark-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.2.4",
+      "sha256": "8622e066fbf877b9421d0547f9f48667d800137866378e86e72e3bc9b3b37751",
+      "size": 324180,
+      "format": "tar.xz",
+      "binaries": {
+        "ssd-benchmark": {
+          "path": "ssd-benchmark-aarch64-apple-darwin/ssd-benchmark",
+          "sha256": "b2d845729cdb353148dbcd7ba1f1501aa7639246ee1959892420ed100133c0e3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sassman/ssd-benchmark-rs/releases/download/v1.2.4/ssd-benchmark-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.4",
+      "sha256": "7956e4315a733f46f8729700b544e226dc9e706fb402cca74748a4815c0d1b17",
+      "size": 408602,
+      "format": "zip",
+      "binaries": {
+        "ssd-benchmark.exe": {
+          "path": "ssd-benchmark.exe",
+          "sha256": "2265af246b550a57cfa7e631f0bb7efcd331202290f97b5e47f83b87f22f33eb"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sassman/ssd-benchmark-rs/releases/download/v1.2.4/ssd-benchmark-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.4",
+      "sha256": "5d6266214e702981324f6c7a42e42e5de805d20264c7c024ab90b0b5c13abeba",
+      "size": 386399,
+      "format": "zip",
+      "binaries": {
+        "ssd-benchmark.exe": {
+          "path": "ssd-benchmark.exe",
+          "sha256": "d4a3e9a0e466cdbc0ccbb8ac38e8eebfd3f934c5990c2ca58937f3b5b1a8f702"
+        }
+      }
+    }
+  }
+}
