@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-llvm-cov",
+  "version": "0.9.1",
+  "repository": "taiki-e/cargo-llvm-cov",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.1/cargo-llvm-cov-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.1",
+      "sha256": "3fca950394a3c49457657c158b1619cec8dfd2647ae5b48746734c0ab969a522",
+      "size": 1789044,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-llvm-cov": {
+          "path": "cargo-llvm-cov",
+          "sha256": "7ce3cb54a77786151ccc3d2df2a425a2330442c123e28135d5c5cf27145c5c6d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.1/cargo-llvm-cov-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.9.1",
+      "sha256": "49c0085628392a8d727c4464d91ec417c613c5015f5197cd16d5c05aa3fb5ad1",
+      "size": 1637442,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-llvm-cov": {
+          "path": "cargo-llvm-cov",
+          "sha256": "78a77c6922e9b7c01f4d26e8c33578819bd53a490a789237e7d8db71c1d565dd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.1/cargo-llvm-cov-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.1",
+      "sha256": "ddf949b82a63017441ea76aa068bdd7e2dde8055f47cd3ef736fdbbd633bc33e",
+      "size": 1613897,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-llvm-cov": {
+          "path": "cargo-llvm-cov",
+          "sha256": "fff65c1d12220fca360267d69b28341856ab033d2751e7fdf031f3f85e122dce"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.1/cargo-llvm-cov-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.9.1",
+      "sha256": "7e821a6c90c0884f79f759f5d9be50799ade67bb82515186d922f26032ef43b8",
+      "size": 1488900,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-llvm-cov": {
+          "path": "cargo-llvm-cov",
+          "sha256": "5ba9a1aa0a478acef5f3679564f0c21e3ede5eb53b6b622fd921c002458ae7cb"
+        }
+      }
+    }
+  }
+}
