@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "imdl",
+  "version": "0.1.16",
+  "repository": "casey/intermodal",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/casey/intermodal/releases/download/v0.1.16/imdl-v0.1.16-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.16",
+      "sha256": "c9e60ec12a6a32eb771cabea9de2d697e2c4bded482240f9955f74e4b96a11c1",
+      "size": 2054210,
+      "format": "tar.gz",
+      "binaries": {
+        "imdl": {
+          "path": "imdl",
+          "sha256": "eb6c12b3bd9bd210209428b8e9c31c3d729c6a8177c228dcacdc183e82de3026"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/casey/intermodal/releases/download/v0.1.16/imdl-v0.1.16-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.16",
+      "sha256": "5b5f8a88cc0e8d86fb791b6fb94aaa7aa40de307f6d76e87614a39e9da167ecc",
+      "size": 1900448,
+      "format": "tar.gz",
+      "binaries": {
+        "imdl": {
+          "path": "imdl",
+          "sha256": "a1e422fe7b77693caf774d8b7996b341f06f2167f782c258e2e38ad9607b9401"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/casey/intermodal/releases/download/v0.1.16/imdl-v0.1.16-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.16",
+      "sha256": "0ea6b3517724af29a6fd76fe616ce032dd77e592e66b533f83b6e07a75e4076b",
+      "size": 1877364,
+      "format": "tar.gz",
+      "binaries": {
+        "imdl": {
+          "path": "imdl",
+          "sha256": "d4fc559debed3d6b1e17dad8e440ef0032054cf73db9dc661149e287c530e695"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/casey/intermodal/releases/download/v0.1.16/imdl-v0.1.16-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.16",
+      "sha256": "832a98ab4c33902195419eba5557d1c225c53aed7ef0ddb3ba1ad9aba99a34be",
+      "size": 1744649,
+      "format": "tar.gz",
+      "binaries": {
+        "imdl": {
+          "path": "imdl",
+          "sha256": "ae659e3dc3c9a61b796be306c3f8f769eafcc8e8bff9a9ec5e7fe975b6410c50"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/casey/intermodal/releases/download/v0.1.16/imdl-v0.1.16-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.16",
+      "sha256": "2de80aadb9c558b542feae7ec676e0bbe0c3d3582a571dafc100df1543601581",
+      "size": 1685381,
+      "format": "zip",
+      "binaries": {
+        "imdl.exe": {
+          "path": "imdl.exe",
+          "sha256": "609bce76251520b88f454d7ce4299905836c44944f9634723869bec9091d9988"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/casey/intermodal/releases/download/v0.1.16/imdl-v0.1.16-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.16",
+      "sha256": "633c89295a39cce65fb6c292044bfdfb446f965f7437abaa0c32ae3f672836f4",
+      "size": 1551937,
+      "format": "zip",
+      "binaries": {
+        "imdl.exe": {
+          "path": "imdl.exe",
+          "sha256": "cf2748b9302afc955a4c89f7426720c5353c26792f17d9ef58642d8b3a793cd2"
+        }
+      }
+    }
+  }
+}
