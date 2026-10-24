@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "simpla_vortaro",
+  "version": "0.4.2",
+  "repository": "panicbit/simpla_vortaro_rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/panicbit/simpla_vortaro_rs/releases/download/v0.4.2/sv-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "057fa7fabd1df2fa0d3ab0d2b7943e79dcb78eb46c415fe3f3375e70bde8b3d2",
+      "size": 1775959,
+      "format": "tar.gz",
+      "binaries": {
+        "sv": {
+          "path": "sv",
+          "sha256": "2e312e44c6337e4dcb7823796f50e41648d64ca0ba45d5a6ee5479556f6d3af3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/panicbit/simpla_vortaro_rs/releases/download/v0.4.2/sv-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.2",
+      "sha256": "8d6d255aba01f434d6d58442210e54008c4c2bd90ea46b7905b25bea27db5632",
+      "size": 1688132,
+      "format": "tar.gz",
+      "binaries": {
+        "sv": {
+          "path": "sv",
+          "sha256": "d73bd7bcf8231059ed884b7bd332272c1070c27f2736e516944e3557a4e099f1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/panicbit/simpla_vortaro_rs/releases/download/v0.4.2/sv-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.2",
+      "sha256": "fdd3d1a5e32ddeeff4ab9d707c0faaedee735f6e6d3a628b7e26ffc3bd1f9c9e",
+      "size": 1367232,
+      "format": "zip",
+      "binaries": {
+        "sv.exe": {
+          "path": "sv.exe",
+          "sha256": "bbc47f3601d912b73ba9530d7cc442f6dae94051fa6333523bd25a1a4343cc6e"
+        }
+      }
+    }
+  }
+}
