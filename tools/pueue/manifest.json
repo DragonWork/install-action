@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pueue",
+  "version": "4.0.4",
+  "repository": "Nukesor/pueue",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-x86_64-unknown-linux-musl",
+      "sha256": "c1b10d7e4e62211075ddd0e1dc3e8cbfc5a43d662cb3be7402a28504e23fcb51",
+      "size": 2143736,
+      "format": "binary",
+      "releaseTag": "v4.0.4",
+      "binaries": {
+        "pueue": {
+          "path": "pueue-x86_64-unknown-linux-musl",
+          "sha256": "c1b10d7e4e62211075ddd0e1dc3e8cbfc5a43d662cb3be7402a28504e23fcb51"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-aarch64-unknown-linux-musl",
+      "sha256": "759bf5100a51024997111c6913aaf3330a0cdfd893ff552dcf429ae9b5e01e09",
+      "size": 1771996,
+      "format": "binary",
+      "releaseTag": "v4.0.4",
+      "binaries": {
+        "pueue": {
+          "path": "pueue-aarch64-unknown-linux-musl",
+          "sha256": "759bf5100a51024997111c6913aaf3330a0cdfd893ff552dcf429ae9b5e01e09"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-x86_64-apple-darwin",
+      "sha256": "c5b89a2f9f9d355b33880735a1f12a8b8d09002f95cc7d2e5f3294e313fb8540",
+      "size": 5872616,
+      "format": "binary",
+      "releaseTag": "v4.0.4",
+      "binaries": {
+        "pueue": {
+          "path": "pueue-x86_64-apple-darwin",
+          "sha256": "c5b89a2f9f9d355b33880735a1f12a8b8d09002f95cc7d2e5f3294e313fb8540"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-aarch64-apple-darwin",
+      "sha256": "7780dbd21e3a4106e88a57396d6dc2dbcbbae253c7e00d92d994902896b8cb82",
+      "size": 5286672,
+      "format": "binary",
+      "releaseTag": "v4.0.4",
+      "binaries": {
+        "pueue": {
+          "path": "pueue-aarch64-apple-darwin",
+          "sha256": "7780dbd21e3a4106e88a57396d6dc2dbcbbae253c7e00d92d994902896b8cb82"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-x86_64-pc-windows-msvc.exe",
+      "sha256": "28b0756d54ec16ce13d78b251d086aa62e0057089cb27f793cd649f9762b996a",
+      "size": 6502912,
+      "format": "binary",
+      "releaseTag": "v4.0.4",
+      "binaries": {
+        "pueue.exe": {
+          "path": "pueue-x86_64-pc-windows-msvc.exe",
+          "sha256": "28b0756d54ec16ce13d78b251d086aa62e0057089cb27f793cd649f9762b996a"
+        }
+      }
+    }
+  }
+}
