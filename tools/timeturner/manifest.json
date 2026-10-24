@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "timeturner",
+  "version": "2.4.0",
+  "repository": "jrduncans/timeturner",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jrduncans/timeturner/releases/download/v2.4.0/timeturner-v2.4.0-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v2.4.0",
+      "sha256": "d66fbc520ea5ba271081d54fe2068a998d211ab4f03a0b458f645bf882f8126e",
+      "size": 1373996,
+      "format": "zip",
+      "binaries": {
+        "timeturner": {
+          "path": "timeturner-v2.4.0-x86_64-unknown-linux-musl/timeturner",
+          "sha256": "c841e399b481b4b3ea2e8b66e5aba9350ab64820010004b55dfb20aea83e74a6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jrduncans/timeturner/releases/download/v2.4.0/timeturner-v2.4.0-x86_64-apple-darwin.zip",
+      "releaseTag": "v2.4.0",
+      "sha256": "9a6387c42b449176b0e5499872e4681f34c3cc46731822d24c33db2a98e5d872",
+      "size": 1188339,
+      "format": "zip",
+      "binaries": {
+        "timeturner": {
+          "path": "timeturner-v2.4.0-x86_64-apple-darwin/timeturner",
+          "sha256": "79742627b3d80fa67bc5d2404072c34c34db27d2aef815b98c780f16b979a61b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jrduncans/timeturner/releases/download/v2.4.0/timeturner-v2.4.0-aarch64-apple-darwin.zip",
+      "releaseTag": "v2.4.0",
+      "sha256": "0304891471fa612c02838ba0913f812f1087bdde66b9bca6fecbeb279ee95faf",
+      "size": 1136935,
+      "format": "zip",
+      "binaries": {
+        "timeturner": {
+          "path": "timeturner-v2.4.0-aarch64-apple-darwin/timeturner",
+          "sha256": "d5f6bed448a01816b61de12dabcd881c73a559ab83040de5f91e42652cddeb9e"
+        }
+      }
+    }
+  }
+}
