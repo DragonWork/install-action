@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-watch",
+  "version": "8.5.3",
+  "repository": "watchexec/cargo-watch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v8.5.3",
+      "sha256": "386d86986a832a9c8e1a884435541dae46e8417b9280a753bdb79f8f517de804",
+      "size": 1429272,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-watch": {
+          "path": "cargo-watch-v8.5.3-x86_64-unknown-linux-musl/cargo-watch",
+          "sha256": "12b80ddea0cdb0abc62dbfd56a0b757aa8527da6e8383793ba1c65a602a25a9e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v8.5.3",
+      "sha256": "a0dadc7b83e37e320a61d27d2a2c4c693f1ec737795805ed9d2960bc9462d7e7",
+      "size": 1286752,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-watch": {
+          "path": "cargo-watch-v8.5.3-aarch64-unknown-linux-gnu/cargo-watch",
+          "sha256": "34b658fb8f4711bd8ba42c5b7fe771fa5f96ff36db831f313a849f9c0e69d8bb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v8.5.3",
+      "sha256": "4bfe373725969b2492f06c4a75e03dae5fccf96ab1388f3f5c2f5907113833e2",
+      "size": 893652,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-watch": {
+          "path": "cargo-watch-v8.5.3-x86_64-apple-darwin/cargo-watch",
+          "sha256": "7b7279f4d50fa6142fec6dfc2fad7c7dde750d1c5eed6e6a71193b91fe36675c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v8.5.3",
+      "sha256": "26a0d42948ded089ae13f5ea73ec1588b53d23dadd7b2df2d870af0b5e28d744",
+      "size": 732696,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-watch": {
+          "path": "cargo-watch-v8.5.3-aarch64-apple-darwin/cargo-watch",
+          "sha256": "0e3b8df5118761ad08d1176cc162cecd6469343f8508b7a9260e301e2202fcee"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v8.5.3",
+      "sha256": "272636f2c738222a2304d9cc639ea3afb482dc9346fd218ae21dc720887b174a",
+      "size": 1084570,
+      "format": "zip",
+      "binaries": {
+        "cargo-watch.exe": {
+          "path": "cargo-watch-v8.5.3-x86_64-pc-windows-msvc/cargo-watch.exe",
+          "sha256": "6dfeb133e7ecdb6f4df2b287d91e157dfa864a3f0d14caa12459bc80ab17983c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/watchexec/cargo-watch/releases/download/v8.5.3/cargo-watch-v8.5.3-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v8.5.3",
+      "sha256": "0d0b1531514bc3a6abbbc24e3ee3bf94636846c9adb88b40356a57e323eaf348",
+      "size": 982059,
+      "format": "zip",
+      "binaries": {
+        "cargo-watch.exe": {
+          "path": "cargo-watch-v8.5.3-aarch64-pc-windows-msvc/cargo-watch.exe",
+          "sha256": "0b08d5d879975a127d66037aa1c2cb6ab69094db4ba537019f1abad6fbd84b6f"
+        }
+      }
+    }
+  }
+}
