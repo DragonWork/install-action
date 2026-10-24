@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "instruction-files",
+  "version": "0.3.0",
+  "repository": "btakita/instruction-files",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/btakita/instruction-files/releases/download/v0.3.0/instruction-files-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "57dd2757cbd041cf0e2625ea66d0442f4f12b02fba3f92f4591f43a9485e7fea",
+      "size": 1179191,
+      "format": "tar.gz",
+      "binaries": {
+        "instruction-files": {
+          "path": "instruction-files",
+          "sha256": "73f5a2c11fc3b2b69b79fda9223ebe73c56b0166b7382155a5960a4b0beb40b2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/btakita/instruction-files/releases/download/v0.3.0/instruction-files-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "b5b63afd25e5f5b43827ad52b88c0d256b177e18559515aab061f3fe89fc6642",
+      "size": 1126536,
+      "format": "tar.gz",
+      "binaries": {
+        "instruction-files": {
+          "path": "instruction-files",
+          "sha256": "6b72abe3e453c23ac10f47b64d0c91f870f219095d9ffeee32fb8b96e83ea340"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/btakita/instruction-files/releases/download/v0.3.0/instruction-files-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "0bb6a02cd9720437f3e0fdec862808e2946754cc5d9ad785fd2026cd2b08a7a1",
+      "size": 1095158,
+      "format": "tar.gz",
+      "binaries": {
+        "instruction-files": {
+          "path": "instruction-files",
+          "sha256": "6cb209971e2cae85ce6d7ee131bb67bef696adffdf0730bd0c903b162187f68c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/btakita/instruction-files/releases/download/v0.3.0/instruction-files-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "1edf95bb0028567da027e9def83c97eff3138b7caa9c224a2a4db9814b067866",
+      "size": 1035454,
+      "format": "tar.gz",
+      "binaries": {
+        "instruction-files": {
+          "path": "instruction-files",
+          "sha256": "2fdf69ba744b9c44eb7e932eb600890758bc9a4ee67f39f35adcef8d6934a1da"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/btakita/instruction-files/releases/download/v0.3.0/instruction-files-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "66ec1be77fb1594b4bfadf7f08e084c21b8990379cd473739695736f1213a5cd",
+      "size": 914267,
+      "format": "zip",
+      "binaries": {
+        "instruction-files.exe": {
+          "path": "instruction-files.exe",
+          "sha256": "0d4e27c46d4da6a690407ad44820d001c7c64b881d6ecf803f22dcb6a9abb6cf"
+        }
+      }
+    }
+  }
+}
