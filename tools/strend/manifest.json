@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "strend",
+  "version": "0.2.2",
+  "repository": "thoongnv/trends-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thoongnv/trends-rs/releases/download/0.2.2/strend-0.2.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.2.2",
+      "sha256": "9330a90d1c9ba49e593804383019efcb2adb52f464b7b0e596460a52c905656b",
+      "size": 1286345,
+      "format": "tar.gz",
+      "binaries": {
+        "strend": {
+          "path": "strend-0.2.2-x86_64-unknown-linux-gnu/strend",
+          "sha256": "cad533cd78b332dbb0688d6243dcddd6cb0f0b9c97f94bfd8bc4b154393fcd3e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/thoongnv/trends-rs/releases/download/0.2.2/strend-0.2.2-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.2.2",
+      "sha256": "fa48e2b9f3c0c549865743e3df9c7f4dd6e2e3f2ad4e4980bd8737d9064ef034",
+      "size": 2070601,
+      "format": "tar.gz",
+      "binaries": {
+        "strend": {
+          "path": "strend-0.2.2-aarch64-unknown-linux-gnu/strend",
+          "sha256": "a6f08f8e9ecddc0fdfbe45fa6b3f3e31120b18cc5cf7d3343e1500a74017bbc7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thoongnv/trends-rs/releases/download/0.2.2/strend-0.2.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.2.2",
+      "sha256": "fc1993c92dec147e0863b700a401120fe743251cea133fb7c5c2685138df51a3",
+      "size": 1218624,
+      "format": "tar.gz",
+      "binaries": {
+        "strend": {
+          "path": "strend-0.2.2-x86_64-apple-darwin/strend",
+          "sha256": "b1034e88a15a0ef67bca41709cf348e30adb0416a7410be37d4afaa604070f63"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/thoongnv/trends-rs/releases/download/0.2.2/strend-0.2.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.2.2",
+      "sha256": "a24afdb2c43babcfabd308aa802ebe3683c3d03c657c67fb21d878d9799d47bf",
+      "size": 1497787,
+      "format": "tar.gz",
+      "binaries": {
+        "strend": {
+          "path": "strend-0.2.2-aarch64-apple-darwin/strend",
+          "sha256": "e827de5923a0b6e5045876738831aca94d101951ffce191d4e8730cd48ed3aa3"
+        }
+      }
+    }
+  }
+}
