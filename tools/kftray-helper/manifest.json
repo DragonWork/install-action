@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "kftray-helper",
+  "version": "0.33.0",
+  "repository": "hcavarsan/kftray",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.33.0/kftui_windows_x86_64.exe",
+      "releaseTag": "v0.33.0",
+      "sha256": "178d6c8094d06d28181e023fc30fba98efebc453f994c4d22f6c149499152d41",
+      "size": 20229632,
+      "format": "binary",
+      "binaries": {
+        "kftray-helper.exe": {
+          "path": "kftui_windows_x86_64.exe",
+          "sha256": "178d6c8094d06d28181e023fc30fba98efebc453f994c4d22f6c149499152d41"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.33.0/kftui_windows_arm64.exe",
+      "releaseTag": "v0.33.0",
+      "sha256": "87842d746ea68d6c5b379444da2e81ec1f8e176a123faaede3c5382d201965b7",
+      "size": 17458176,
+      "format": "binary",
+      "binaries": {
+        "kftray-helper.exe": {
+          "path": "kftui_windows_arm64.exe",
+          "sha256": "87842d746ea68d6c5b379444da2e81ec1f8e176a123faaede3c5382d201965b7"
+        }
+      }
+    }
+  }
+}
