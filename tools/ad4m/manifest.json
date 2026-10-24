@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "ad4m",
+  "version": "0.9.0",
+  "repository": "coasys/ad4m",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/coasys/ad4m/releases/download/v0.9.0/ad4m-linux-0.9.0-x64",
+      "sha256": "95b06029d4fc02d95e27283e9616b6ab67dc3cac71d6ba50df4ee7b43b53a592",
+      "size": 66812872,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "ad4m": {
+          "path": "ad4m-linux-0.9.0-x64",
+          "sha256": "95b06029d4fc02d95e27283e9616b6ab67dc3cac71d6ba50df4ee7b43b53a592"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/coasys/ad4m/releases/download/v0.9.0/ad4m-macos-0.9.0-x64",
+      "sha256": "5269f044898854f300a54e158dfe565b20f45f379755a582295ab406c510cb1a",
+      "size": 14858752,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "ad4m": {
+          "path": "ad4m-macos-0.9.0-x64",
+          "sha256": "5269f044898854f300a54e158dfe565b20f45f379755a582295ab406c510cb1a"
+        }
+      }
+    }
+  }
+}
