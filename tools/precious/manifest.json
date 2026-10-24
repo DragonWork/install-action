@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "precious",
+  "version": "1.0.0",
+  "repository": "houseabsolute/precious",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/houseabsolute/precious/releases/download/v1.0.0/precious-Linux-musl-x86_64.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "3e16f68f4d4cbd07e89871fc8b3632fd0e4ffd8369949204cafb368d8d2467c9",
+      "size": 1766360,
+      "format": "tar.gz",
+      "binaries": {
+        "precious": {
+          "path": "precious",
+          "sha256": "a558b2f7364a71d0ba81f9271e1b9c70ed23fb6dab5791a1e5adb1bca08529a2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/houseabsolute/precious/releases/download/v1.0.0/precious-Linux-musl-arm64.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "09ed5bc239c32766ae33a9b3e2b62d422bcdaf4ede07f5368386c0b31046d7cb",
+      "size": 1908224,
+      "format": "tar.gz",
+      "binaries": {
+        "precious": {
+          "path": "precious",
+          "sha256": "3d3288f276b6484ee2d982c5c1b8db3166922e8d0605406e5777334f796ec8ed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/houseabsolute/precious/releases/download/v1.0.0/precious-macOS-x86_64.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "e83121fb28e048b680a6ebe91367eab8eb56708ae6c19e802182074bfebb79ad",
+      "size": 1613240,
+      "format": "tar.gz",
+      "binaries": {
+        "precious": {
+          "path": "precious",
+          "sha256": "3b65faaba95d4621ad6add1017e3cb53b9d3c9c72e916c8520c3b5a594a5ae49"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/houseabsolute/precious/releases/download/v1.0.0/precious-macOS-arm64.tar.gz",
+      "releaseTag": "v1.0.0",
+      "sha256": "0a230683be9c63cc028c6a5c7967ae64b80af1710c01b02a199fb0a67b9d3723",
+      "size": 1522733,
+      "format": "tar.gz",
+      "binaries": {
+        "precious": {
+          "path": "precious",
+          "sha256": "454017d7c56509918e024a49a765e3132c5f3add2776f56c878925aad326a657"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/houseabsolute/precious/releases/download/v1.0.0/precious-Windows-msvc-x86_64.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "f3f11d4b7c8825b2e834f6cec4c24405163031dbf3000bc1e1596d844d1151d5",
+      "size": 1514813,
+      "format": "zip",
+      "binaries": {
+        "precious.exe": {
+          "path": "precious.exe",
+          "sha256": "b4a64b40782d01ba5670526abe55d4156b2a2004c387a148decab7f8f9808126"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/houseabsolute/precious/releases/download/v1.0.0/precious-Windows-msvc-arm64.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "5265376eed30c30e9436111fdc6a02731031a075842c8468965de7ce61f441d6",
+      "size": 1414425,
+      "format": "zip",
+      "binaries": {
+        "precious.exe": {
+          "path": "precious.exe",
+          "sha256": "ba765ec0fe084271cf8359bd784efd667324a0280b08ea4df9239dd59a18e80e"
+        }
+      }
+    }
+  }
+}
