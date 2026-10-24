@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "row",
+  "version": "1.1.0",
+  "repository": "glotzerlab/row",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/glotzerlab/row/releases/download/1.1.0/row-1.1.0-x86_64-unknown-linux-musl.tar.zst",
+      "releaseTag": "1.1.0",
+      "sha256": "0b97dfbc2aff2d574330dfc0a2f32af2680bc4fb06d8ad72a71ff835e9af7d5e",
+      "size": 1998435,
+      "format": "tar.zst",
+      "binaries": {
+        "row": {
+          "path": "row",
+          "sha256": "57b8209ab6a770f09672ca13e8e69425e663c619a1805f97b1c1a8f666bfd258"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/glotzerlab/row/releases/download/1.1.0/row-1.1.0-aarch64-apple-darwin.tar.zst",
+      "releaseTag": "1.1.0",
+      "sha256": "2f67ef4c29a26277c5de47af1d7da4b80e8f46c142ffcb097152e4625a5f43a1",
+      "size": 1683893,
+      "format": "tar.zst",
+      "binaries": {
+        "row": {
+          "path": "row",
+          "sha256": "98c6905b7b68eba998e664209d9105fde8140da20b32a19bb9069e9aa34bb778"
+        }
+      }
+    }
+  }
+}
