@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "cargo-release",
+  "version": "1.1.7",
+  "repository": "crate-ci/cargo-release",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/crate-ci/cargo-release/releases/download/v1.1.7/cargo-release-v1.1.7-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.7",
+      "sha256": "7b67996840ec6d2fd8e78c67281d8807950818869f6d09e0c9678897b48f9837",
+      "size": 2958101,
+      "format": "zip",
+      "binaries": {
+        "cargo-release.exe": {
+          "path": "cargo-release.exe",
+          "sha256": "2b33d746fe75e3e0105874d261b092536863edf512313700b3622dc956f646c9"
+        }
+      }
+    }
+  }
+}
