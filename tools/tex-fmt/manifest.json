@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "tex-fmt",
+  "version": "0.5.7",
+  "repository": "WGUNDERWOOD/tex-fmt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/WGUNDERWOOD/tex-fmt/releases/download/v0.5.7/tex-fmt-x86_64-linux.tar.gz",
+      "releaseTag": "v0.5.7",
+      "sha256": "d0e30b9b811fdc1e66a9328d5c95e9d8e585019288ca39c07f643e0796bcc4a3",
+      "size": 1482529,
+      "format": "tar.gz",
+      "binaries": {
+        "tex-fmt": {
+          "path": "tex-fmt",
+          "sha256": "1e6e9584891d670a7c07888189a79f059c33967de0f137fdb4b34435484d4fab"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/WGUNDERWOOD/tex-fmt/releases/download/v0.5.7/tex-fmt-aarch64-linux.tar.gz",
+      "releaseTag": "v0.5.7",
+      "sha256": "ad5a6c8a84f61de711f2d7659191cd7e813ad1881b384abed60df420e1eabdd1",
+      "size": 1384929,
+      "format": "tar.gz",
+      "binaries": {
+        "tex-fmt": {
+          "path": "tex-fmt",
+          "sha256": "4fe2ee194adcf50f44d2eeaec97ec932e28aa83ce5d61f68569404d37562220c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/WGUNDERWOOD/tex-fmt/releases/download/v0.5.7/tex-fmt-x86_64-macos.tar.gz",
+      "releaseTag": "v0.5.7",
+      "sha256": "e39311252562a3608474639e182782ca51f319fa50a8abfca9cb09e59ed7f7ac",
+      "size": 1417424,
+      "format": "tar.gz",
+      "binaries": {
+        "tex-fmt": {
+          "path": "tex-fmt",
+          "sha256": "59d55de915bff554f49047ec01ce3cf3d5c6a0a22db2edce18f301be9f7bcd2a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/WGUNDERWOOD/tex-fmt/releases/download/v0.5.7/tex-fmt-aarch64-macos.tar.gz",
+      "releaseTag": "v0.5.7",
+      "sha256": "f88ad74c446d6dcfec9657ef600d61f65f0ccdcf8401e2909bb3b093d23fff80",
+      "size": 1333454,
+      "format": "tar.gz",
+      "binaries": {
+        "tex-fmt": {
+          "path": "tex-fmt",
+          "sha256": "2d716cde675c78deab7bb641650fa570b7775cff37849260193f88f4c1e4018c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/WGUNDERWOOD/tex-fmt/releases/download/v0.5.7/tex-fmt-x86_64-windows.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "807b6df5bef297eb8c44f79562bf9917b2e87f41e8e9c6b7f27e2df3f8cc9c98",
+      "size": 1240119,
+      "format": "zip",
+      "binaries": {
+        "tex-fmt.exe": {
+          "path": "tex-fmt.exe",
+          "sha256": "67cfe8623691d712b1aee11a175c4ce8ee913c2bb6707c20c4cdc4b7c3023fba"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/WGUNDERWOOD/tex-fmt/releases/download/v0.5.7/tex-fmt-aarch64-windows.zip",
+      "releaseTag": "v0.5.7",
+      "sha256": "d3ce79d3cecf1b6a66c0978125b924cace80904c0d55bf75dc96bebdca5fc978",
+      "size": 1143309,
+      "format": "zip",
+      "binaries": {
+        "tex-fmt.exe": {
+          "path": "tex-fmt.exe",
+          "sha256": "b7ed31ced38cd2f4a169393233ea5e2a185a02ed469cea3fc045b6bf0895dc11"
+        }
+      }
+    }
+  }
+}
