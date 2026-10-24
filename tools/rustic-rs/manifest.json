@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rustic-rs",
+  "version": "0.11.4",
+  "repository": "rustic-rs/rustic",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.4",
+      "sha256": "628b26785f3787fa1d52e61b3289493f483230a1ed6e86a84ae9c76d7a41a81e",
+      "size": 12189454,
+      "format": "tar.gz",
+      "binaries": {
+        "rustic": {
+          "path": "rustic",
+          "sha256": "c9edb8bff6682163fbe1ed0651bd1a6459159069ff680dbb8d4958a0d22f536e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.11.4",
+      "sha256": "35ccd40ff565b9760245dd391f9fef04c46778ce5e073d833288abe2e5eabd20",
+      "size": 11266022,
+      "format": "tar.gz",
+      "binaries": {
+        "rustic": {
+          "path": "rustic",
+          "sha256": "83c802a61cabf21f43e4b3ed61501b8c68f397a74a1d7cd48c657fbcedc77c6d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.11.4",
+      "sha256": "ff0014a53f10965bc7852945ad4ac52532ad8af0efe5e4f4957dd330889946de",
+      "size": 11674264,
+      "format": "tar.gz",
+      "binaries": {
+        "rustic": {
+          "path": "rustic",
+          "sha256": "97f0b8cb2964d0528f94533dd685e768a6d82ee7007d62828452001a7f699efa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.11.4",
+      "sha256": "6df166f68876f1bd1e0965547542374877f04ab498cbb5e19b1b155844bce307",
+      "size": 10005141,
+      "format": "tar.gz",
+      "binaries": {
+        "rustic": {
+          "path": "rustic",
+          "sha256": "5d55059b7330b228eb9e83d42192e1bf29405ea95374eee4d15a84e7141fb626"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.11.4",
+      "sha256": "aa3586c2646da30965e099393c739a32526c27314cfaaf97af7f65aab1ec230a",
+      "size": 10746533,
+      "format": "tar.gz",
+      "binaries": {
+        "rustic.exe": {
+          "path": "rustic.exe",
+          "sha256": "3d4bc16c35b9813ff006576dce01e54d947111d16bdfdfe6742d90d0a2fddc5d"
+        }
+      }
+    }
+  }
+}
