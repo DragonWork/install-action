@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "harper-ls",
+  "version": "2.13.0",
+  "repository": "Automattic/harper",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Automattic/harper/releases/download/v2.13.0/harper-ls-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.13.0",
+      "sha256": "8d456359b3a370670157ec67b2f4b38baff0f5aee86240c5a5d280beee1fe3ea",
+      "size": 14577339,
+      "format": "tar.gz",
+      "binaries": {
+        "harper-ls": {
+          "path": "harper-ls",
+          "sha256": "0e8ff1ff2a64f6557d385ed614aa16c22c45bdbc368216a384aaee4fe2aaecc1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Automattic/harper/releases/download/v2.13.0/harper-ls-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.13.0",
+      "sha256": "5cb96513ef5a469cdd0273a4841ec3d1c0a61e42a0f5a56467cdf6246bbce2b7",
+      "size": 14051346,
+      "format": "tar.gz",
+      "binaries": {
+        "harper-ls": {
+          "path": "harper-ls",
+          "sha256": "f653ec22bed2137699e2ec6eafe80707a9507eb58fa2d58eccc78590cbb46fc4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Automattic/harper/releases/download/v2.13.0/harper-ls-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.13.0",
+      "sha256": "5e403a05fa785a44da652013cb859b8aefd3809521e37621fb94320503f1e0c5",
+      "size": 13878487,
+      "format": "tar.gz",
+      "binaries": {
+        "harper-ls": {
+          "path": "harper-ls",
+          "sha256": "08a82656e10fa78967b70b24397e7a29ab15a8e9d4f781b149aa9a4bc3cdb252"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Automattic/harper/releases/download/v2.13.0/harper-ls-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.13.0",
+      "sha256": "a6ca491db1c929426c5c0bbbf132f8d2f1f253b98680fe103e48bde408676cc3",
+      "size": 13746698,
+      "format": "tar.gz",
+      "binaries": {
+        "harper-ls": {
+          "path": "harper-ls",
+          "sha256": "993f45f748b38d7de6119811831548fb1ff7f1e238e613c0899938147140e14d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Automattic/harper/releases/download/v2.13.0/harper-ls-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.13.0",
+      "sha256": "96449886ebce74973cbfeb06b9c466aef29094e89dd3d5676745f38a53951e1d",
+      "size": 13540257,
+      "format": "zip",
+      "binaries": {
+        "harper-ls.exe": {
+          "path": "harper-ls.exe",
+          "sha256": "52cc06d880d9d60814690046dc20722d69ebb6def574cc95c08d142b6da6ce16"
+        }
+      }
+    }
+  }
+}
