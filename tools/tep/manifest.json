@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tep",
+  "version": "0.2.4",
+  "repository": "rewired-gh/tep",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rewired-gh/tep/releases/download/v0.2.4/tep_v0.2.4_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.4",
+      "sha256": "b78001a5ea3a21d494909a024c1d4bc29a8ca4bd17b183108d5eb2802d3cfef0",
+      "size": 767556,
+      "format": "tar.gz",
+      "binaries": {
+        "tep": {
+          "path": "tep",
+          "sha256": "1ff45387e08a26ad3e31a87e978a7d064d69e07077eeaf28f8fdf2239426b8da"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rewired-gh/tep/releases/download/v0.2.4/tep_v0.2.4_x86_64-apple-darwin.zip",
+      "releaseTag": "v0.2.4",
+      "sha256": "92d9874be9e9928c5e3c6e8d0b4bc83fdea7c3e51cbbb037be24fee02984ac8f",
+      "size": 382603,
+      "format": "zip",
+      "binaries": {
+        "tep": {
+          "path": "tep",
+          "sha256": "dce2c2658f1c62667028f3b7581cb01ae7037fcadc5b5427793d289b87fcc9f2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rewired-gh/tep/releases/download/v0.2.4/tep_v0.2.4_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.2.4",
+      "sha256": "7cc22f22d9ab8f4aaa0d220755105e454e5c5d8d47e6a731fd91b0039f0fc9a6",
+      "size": 687273,
+      "format": "zip",
+      "binaries": {
+        "tep.exe": {
+          "path": "tep.exe",
+          "sha256": "9341ed2f8a54729b07d2335c0e2e2bf7805d655c9afe1e1c34e2a2c49ca56123"
+        }
+      }
+    }
+  }
+}
