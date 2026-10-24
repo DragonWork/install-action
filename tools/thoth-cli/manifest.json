@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "thoth-cli",
+  "version": "0.1.89",
+  "repository": "jooaf/thoth",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jooaf/thoth/releases/download/v0.1.89/thoth_0.1.89_linux_amd64.tar.gz",
+      "releaseTag": "v0.1.89",
+      "sha256": "4be337d78ed4b7a7ee7acf10ac824a65c023a15a3ccdb378497ca21bc7ba6b9a",
+      "size": 1754985,
+      "format": "tar.gz",
+      "binaries": {
+        "thoth": {
+          "path": "thoth",
+          "sha256": "0734a73463de99aec069555790ef37b16bc5dfcadf77e909060a187e578579e7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jooaf/thoth/releases/download/v0.1.89/thoth_0.1.89_linux_arm64.tar.gz",
+      "releaseTag": "v0.1.89",
+      "sha256": "4c14fab24417c4a49c483ba434b483383ff80e4b4eecae5ad912237835b8a8e7",
+      "size": 1692783,
+      "format": "tar.gz",
+      "binaries": {
+        "thoth": {
+          "path": "thoth",
+          "sha256": "d52fbc666d8071f6706b8ac6ad76ee3525030cd7b541d0b87542e68107eab89d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jooaf/thoth/releases/download/v0.1.89/thoth_0.1.89_darwin_amd64.tar.gz",
+      "releaseTag": "v0.1.89",
+      "sha256": "c237a5c8792722f1234f2d60465b78286b32d61842d4c3092c4771d01734ea63",
+      "size": 1590993,
+      "format": "tar.gz",
+      "binaries": {
+        "thoth": {
+          "path": "thoth",
+          "sha256": "f120a6144ce24f8cef1b0c9b485eebf1475590ec29d84183b105c49fb149b621"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jooaf/thoth/releases/download/v0.1.89/thoth_0.1.89_darwin_arm64.tar.gz",
+      "releaseTag": "v0.1.89",
+      "sha256": "332c38b1c3da0c283f49fc426e36335af36f07e3f5c60468f9c1639563a9a038",
+      "size": 1531279,
+      "format": "tar.gz",
+      "binaries": {
+        "thoth": {
+          "path": "thoth",
+          "sha256": "7c991ab66548bc97e7bd90419cb94a7d3f98bd852392794e879861c9b7db8add"
+        }
+      }
+    }
+  }
+}
