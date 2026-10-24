@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "recp",
+  "version": "0.10.3",
+  "repository": "reciperium/recipe-lang",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/reciperium/recipe-lang/releases/download/v0.10.3/recp-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "d452b30aef0ceaac31a915bbe8e271e1806a444455ff333dd0272b9b93dd2c53",
+      "size": 371836,
+      "format": "tar.xz",
+      "binaries": {
+        "recp": {
+          "path": "recp-x86_64-unknown-linux-gnu/recp",
+          "sha256": "864c9e2a949cac96ef4c33f4072c18b32a279d78878b20ff0209dba00fbfb24a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/reciperium/recipe-lang/releases/download/v0.10.3/recp-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "85256072580f38ca4a434c011b1cc4d68e947ccbb97b008ec2f62f6c2a88f17d",
+      "size": 351184,
+      "format": "tar.xz",
+      "binaries": {
+        "recp": {
+          "path": "recp-x86_64-apple-darwin/recp",
+          "sha256": "90170df2aee097ab6a6d24337a97fc8055730c6f2276d9bd5b394c893b0dff51"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/reciperium/recipe-lang/releases/download/v0.10.3/recp-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.10.3",
+      "sha256": "45232fc1ee340532158c283a3cdce277cb2d5735782c6c48f6bd07e3cdd816bf",
+      "size": 315312,
+      "format": "tar.xz",
+      "binaries": {
+        "recp": {
+          "path": "recp-aarch64-apple-darwin/recp",
+          "sha256": "2e81b095de0b0ee918cce8a1d215028156071793065845ae3e44d4faee4dcad0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/reciperium/recipe-lang/releases/download/v0.10.3/recp-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.3",
+      "sha256": "119d87f34c3507d1bd2462e1060b1bc0bafc6fcb3222ea7faac99490e8bfb92c",
+      "size": 383470,
+      "format": "zip",
+      "binaries": {
+        "recp.exe": {
+          "path": "recp.exe",
+          "sha256": "abf85dbf06a8d74934986d89617bfa1592f9eb64bc825f3f6e2513eab1b0e598"
+        }
+      }
+    }
+  }
+}
