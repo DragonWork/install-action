@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "ripsecrets",
+  "version": "0.1.11",
+  "repository": "sirwart/ripsecrets",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sirwart/ripsecrets/releases/download/v0.1.11/ripsecrets-0.1.11-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.11",
+      "sha256": "9daf017dfdea242a58f672450a2526f0406211afe9e872c740adc49b42feccf5",
+      "size": 1676226,
+      "format": "tar.gz",
+      "binaries": {
+        "ripsecrets": {
+          "path": "ripsecrets-0.1.11-x86_64-unknown-linux-gnu/ripsecrets",
+          "sha256": "31cc006d86cc28c9e2698424ec78ee70b7882997e6567531d7c806a2615b05ed"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sirwart/ripsecrets/releases/download/v0.1.11/ripsecrets-0.1.11-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.11",
+      "sha256": "21253f4d25be2626779c579c12e30aef1c67d7224cbed50eb7515a8cd45db56d",
+      "size": 1573614,
+      "format": "tar.gz",
+      "binaries": {
+        "ripsecrets": {
+          "path": "ripsecrets-0.1.11-x86_64-apple-darwin/ripsecrets",
+          "sha256": "b25917c9139d58a23f6e525ce5c2e5b6d3021e6f710b8984c8cbcbec7c031e48"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sirwart/ripsecrets/releases/download/v0.1.11/ripsecrets-0.1.11-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.11",
+      "sha256": "b2c822742e8cbf355ba0cb4cc690c3cd8fdc9ec1916c8148f27bd9098cb7aee4",
+      "size": 1477683,
+      "format": "tar.gz",
+      "binaries": {
+        "ripsecrets": {
+          "path": "ripsecrets-0.1.11-aarch64-apple-darwin/ripsecrets",
+          "sha256": "ab134fd329b8d0fc96c77d62c8400eec48c4592c2c06a19fd0b542589fcb18e6"
+        }
+      }
+    }
+  }
+}
