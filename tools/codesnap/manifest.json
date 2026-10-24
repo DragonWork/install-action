@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "codesnap",
+  "version": "0.8.0",
+  "repository": "codesnap-rs/codesnap",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/codesnap-rs/codesnap/releases/download/v0.8.0/codesnap-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "c634cbab25495367830952ef767a08c3fe71f326921f9ee7d6d92ec6bb75f76c",
+      "size": 5103288,
+      "format": "tar.gz",
+      "binaries": {
+        "codesnap": {
+          "path": "codesnap",
+          "sha256": "d61ec1544f9cd505750bee404ac34efebf9133a6020d8a53ef1c850218e763f5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/codesnap-rs/codesnap/releases/download/v0.8.0/codesnap-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "8d3de7cf271a0e180d9894cddb6f3f9073fc8082038ee5cfc8d3010aabb72c3b",
+      "size": 4964654,
+      "format": "tar.gz",
+      "binaries": {
+        "codesnap": {
+          "path": "codesnap",
+          "sha256": "d6608e526ac891952d8dd0ddcdc60eb40a3bc410961941ae8d642e11e83a7057"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/codesnap-rs/codesnap/releases/download/v0.8.0/codesnap-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "adb793e33f135a2be7882937e3ffc778ecacbf0da279f276214d8ae9f787d718",
+      "size": 4442250,
+      "format": "tar.gz",
+      "binaries": {
+        "codesnap": {
+          "path": "codesnap",
+          "sha256": "106999e225593a03d739e4e90464aa21d74dca71833fd8281777bd54902c20e4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/codesnap-rs/codesnap/releases/download/v0.8.0/codesnap-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.0",
+      "sha256": "7dd9ebb5fc6bbc9cd199406e9f6139d6f1667b7c8d0294ec07e9771db926ccfd",
+      "size": 4361613,
+      "format": "tar.gz",
+      "binaries": {
+        "codesnap": {
+          "path": "codesnap",
+          "sha256": "b9be0481b49ffbc9d6fb374fe141c79f451b2aedbc6fc135d9edadca87881263"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/codesnap-rs/codesnap/releases/download/v0.8.0/codesnap-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.0",
+      "sha256": "855d2c8fd0e0d89e54a2831075835228489c571a4b101176a251e9a6f81d6132",
+      "size": 4065300,
+      "format": "zip",
+      "binaries": {
+        "codesnap.exe": {
+          "path": "codesnap.exe",
+          "sha256": "f16fdf2f41e93c979d069a47e758548fa845a7aa99455a2c3d9c9c9f6e5697ef"
+        }
+      }
+    }
+  }
+}
