@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "biscuit-cli",
+  "version": "0.6.0",
+  "repository": "eclipse-biscuit/biscuit-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/eclipse-biscuit/biscuit-cli/releases/download/0.6.0/biscuit-0.6.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "4d78916fe0b9feb63aba5fa913111bc428569c3dc71759023f1eb92cd1555859",
+      "size": 2089687,
+      "format": "tar.gz",
+      "binaries": {
+        "biscuit": {
+          "path": "biscuit-0.6.0-x86_64-unknown-linux-musl/biscuit",
+          "sha256": "2ae73184563043012a7638c92437dbb5b5870c32f88b804f3bd119f9f125acc1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/eclipse-biscuit/biscuit-cli/releases/download/0.6.0/biscuit-0.6.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "1a6198ce3985acb62bce948fd9a060f4abd76ea3f3e1a79c8eac07ee2d2d3007",
+      "size": 1975341,
+      "format": "tar.gz",
+      "binaries": {
+        "biscuit": {
+          "path": "biscuit-0.6.0-x86_64-apple-darwin/biscuit",
+          "sha256": "d468d4be2b7a98ea90996c86e90941bbff47024ba9944037202b7f7d6ead2b38"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/eclipse-biscuit/biscuit-cli/releases/download/0.6.0/biscuit-0.6.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "a5516d14e637b02d4e718c3f2ed492994d318e291ead0926f2ab29b9ca8dbfe4",
+      "size": 1936073,
+      "format": "tar.gz",
+      "binaries": {
+        "biscuit.exe": {
+          "path": "biscuit-0.6.0-x86_64-pc-windows-msvc/biscuit.exe",
+          "sha256": "7001d5a09298758ad7f70e6ddf1ce74f6c130d1fc7280c975341580cdefa3cc3"
+        }
+      }
+    }
+  }
+}
