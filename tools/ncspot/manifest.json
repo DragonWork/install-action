@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ncspot",
+  "version": "1.5.0",
+  "repository": "hrkfdn/ncspot",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-x86_64.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "b4c3afe8805d46c3bd381fe16d3d53e374f64646eff66e9a04b1bf5dbc3b26d6",
+      "size": 7915383,
+      "format": "tar.gz",
+      "binaries": {
+        "ncspot": {
+          "path": "ncspot",
+          "sha256": "57f3e5c1cae56e3641e7361db62f93e539dbb582e4dfe7f2f1e8c662804df097"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-arm64.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "e137b2090be7411ac72d91273ed6a8c4b033080afb0b03c0027c6009954f103e",
+      "size": 7590899,
+      "format": "tar.gz",
+      "binaries": {
+        "ncspot": {
+          "path": "ncspot",
+          "sha256": "ed284d6d8e3d63a85799b772a0f7cd30791fd875b1c2047d0af9c84b2d63cfca"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-x86_64.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "b935f6514549650e9db89af9fb16cac1fa6e1c1b298bc38206e432800a3a3e5f",
+      "size": 4880405,
+      "format": "tar.gz",
+      "binaries": {
+        "ncspot": {
+          "path": "ncspot",
+          "sha256": "d9cb957e37afb1a036df6ca7854d878e0f29eb66be6c5603a292d275375f2d7e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-aarch64.tar.gz",
+      "releaseTag": "v1.5.0",
+      "sha256": "4aaa6a36632e26373a8fc64be7a1dc1e2a19ee9a1212cec70b19e2fdc1305f70",
+      "size": 4640916,
+      "format": "tar.gz",
+      "binaries": {
+        "ncspot": {
+          "path": "ncspot",
+          "sha256": "7c4f58564f68a8e5045c38db5bc1f212dec57829216f9ce4522de4c2c18792bd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-windows-x86_64.zip",
+      "releaseTag": "v1.5.0",
+      "sha256": "547e5bae5293d89144e27968c49071d5b36da8dc7200193c0214ea2180f7c4ed",
+      "size": 6073763,
+      "format": "zip",
+      "binaries": {
+        "ncspot.exe": {
+          "path": "ncspot.exe",
+          "sha256": "0f763f6537dbf2c7439ad9098ef0419b01fdf83e51cb2c030dca9b301e40e65b"
+        }
+      }
+    }
+  }
+}
