@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "ruff",
+  "version": "0.17.2",
+  "repository": "astral-sh/ruff",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/astral-sh/ruff/releases/download/0.17.2/ruff-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.17.2",
+      "sha256": "d6407f429ef15e558cbe980d30a67f27d02e3d2f72780be141ee006b2fdf7df3",
+      "size": 10398533,
+      "format": "tar.gz",
+      "binaries": {
+        "ruff": {
+          "path": "ruff-x86_64-unknown-linux-musl/ruff",
+          "sha256": "c2ae73ae3393efbb3c922b603bf0e8c3cf125016a15f413f487e54cff59c2012"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/astral-sh/ruff/releases/download/0.17.2/ruff-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.17.2",
+      "sha256": "ba1a3a43f8afc7bda55f8be2c600a1c8966390c3de17526bb1e6c5609c2e9fa0",
+      "size": 9550115,
+      "format": "tar.gz",
+      "binaries": {
+        "ruff": {
+          "path": "ruff-aarch64-unknown-linux-musl/ruff",
+          "sha256": "25a72d07ba07de3e4fa98cbaf2520c588bb0899296d47ace476d4c615bd82b1c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/astral-sh/ruff/releases/download/0.17.2/ruff-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.17.2",
+      "sha256": "db57a84e385435a2c4a7c8946e588f79b9de0851d8618a1b5d4431edfff0bf01",
+      "size": 10112367,
+      "format": "tar.gz",
+      "binaries": {
+        "ruff": {
+          "path": "ruff-x86_64-apple-darwin/ruff",
+          "sha256": "91ce80498fb6fd29a3f6c1cd03cda061ba18f1d4330c12dc74a81a81f46afca2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/astral-sh/ruff/releases/download/0.17.2/ruff-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.17.2",
+      "sha256": "94fbca85f19e8b6bb068adb7cbc9a74e3e6c01004cc67c6b00246a094ad4ccd9",
+      "size": 9330507,
+      "format": "tar.gz",
+      "binaries": {
+        "ruff": {
+          "path": "ruff-aarch64-apple-darwin/ruff",
+          "sha256": "2ffdab6c43a5790dad20b09c47fb49fd7f77aea2ef924debd216d941c315c38e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/astral-sh/ruff/releases/download/0.17.2/ruff-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.17.2",
+      "sha256": "6f4de58abd7c8de2e8702a89fc0f221e6ca858ad23e25c658c707d83a48c79a0",
+      "size": 10224445,
+      "format": "zip",
+      "binaries": {
+        "ruff.exe": {
+          "path": "ruff.exe",
+          "sha256": "1e9625f0d34342e1ddde6eaa1410063bea9f1e8cd129de893df0718e4e10d762"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/astral-sh/ruff/releases/download/0.17.2/ruff-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.17.2",
+      "sha256": "16035dc0195c32d37c9684880024902f74e86854d59c11e65be30620afac6eb4",
+      "size": 9768838,
+      "format": "zip",
+      "binaries": {
+        "ruff.exe": {
+          "path": "ruff.exe",
+          "sha256": "c26bd0c53cc7813b7748830351994dd01bf1d72b805ae9d35dbf5c1f1e716326"
+        }
+      }
+    }
+  }
+}
