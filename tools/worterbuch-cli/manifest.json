@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "name": "worterbuch-cli",
+  "version": "1.6.0",
+  "repository": "babymotte/worterbuch",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/babymotte/worterbuch/releases/download/v1.6.0/worterbuch-x86_64-apple-darwin.zip",
+      "releaseTag": "v1.6.0",
+      "sha256": "7b462b688e2750d65e663a7718c081b5641630541e262adce06efe34625e5ea4",
+      "size": 31175535,
+      "format": "zip",
+      "binaries": {
+        "wbdel": {
+          "path": "wbdel",
+          "sha256": "1f383988aa021eefda633ebfb5ab8fea1f9eef551cf16a26fb1f3b051ac8a378"
+        },
+        "wbget": {
+          "path": "wbget",
+          "sha256": "0b9b3c8a6d4da0629417037fc78595326770b359de72d33c546bee17198e3fca"
+        },
+        "wbjson": {
+          "path": "wbjson",
+          "sha256": "7ddb80f9adbd2b18d445f18b66773103481098f94dbb06efa27112329b13b878"
+        },
+        "wbls": {
+          "path": "wbls",
+          "sha256": "9e6420956e95ac2d7fae6fe970f6374c7b939c07c72ec18ee612de7bdf08fa54"
+        },
+        "wblssub": {
+          "path": "wblssub",
+          "sha256": "ced35abf22d274963ddb00993bf74bfc201f00aa6f6339b2fad4e0db0171b2ae"
+        },
+        "wbpdel": {
+          "path": "wbpdel",
+          "sha256": "073018cabddd74123c1d287111a01fdbb2b1af8f11baf21fb959f9b502c14ddc"
+        },
+        "wbpget": {
+          "path": "wbpget",
+          "sha256": "72fefd5be925ffc1612b2d9118ffdb96183dec2c08013331bc577d8de5446952"
+        },
+        "wbpls": {
+          "path": "wbpls",
+          "sha256": "dcfc2b0d8d3a7ee0f3e86c4a96db086686a1706e7e9898012de6dfca9e6481fa"
+        },
+        "wbpsub": {
+          "path": "wbpsub",
+          "sha256": "26bd1c23155c1260e28972e8713c89ac0e5a559d8c3f5d014db6685240ba9cad"
+        },
+        "wbpub": {
+          "path": "wbpub",
+          "sha256": "a1c0c294547b2f1301ac1f4521387aacaba61d66165781ab27fb98e8582c9e50"
+        },
+        "wbpubs": {
+          "path": "wbpubs",
+          "sha256": "7fa94370f85b98501204b83fa48612b38a43e3175c3ad20d80077fab821853f8"
+        },
+        "wbset": {
+          "path": "wbset",
+          "sha256": "ae37c53296ede95eb281ca09f71c8ea4ddd40537ebfc390560876b11490ce73b"
+        },
+        "wbsets": {
+          "path": "wbsets",
+          "sha256": "d1f44716f311ab745d919e3c0d08b2e6461dcb1d3c43512a46e5187a84f533eb"
+        },
+        "wbspub": {
+          "path": "wbspub",
+          "sha256": "d97d1ee72c2c19c6dcb8b87652f3fab83e093fab6d936668ea3ecd00438ca2d4"
+        },
+        "wbsub": {
+          "path": "wbsub",
+          "sha256": "506c7d816b67921a63e22569f63149039d8e22f4ac6b75c24f008b180260caea"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/babymotte/worterbuch/releases/download/v1.6.0/worterbuch-aarch64-apple-darwin.zip",
+      "releaseTag": "v1.6.0",
+      "sha256": "ca5345eb474e7741cae07913bfe47fcaa3b62d3ec729b9b8256f4f2ba541c2ce",
+      "size": 29741190,
+      "format": "zip",
+      "binaries": {
+        "wbdel": {
+          "path": "wbdel",
+          "sha256": "5662f4960db15584a1a50219759c3e25946f5f1dcdb727a99b330e0b33789ac9"
+        },
+        "wbget": {
+          "path": "wbget",
+          "sha256": "5d11c0a9ca09321088865f314dbc00d0c80e81b8775b86b3ac62ad093b17c2b3"
+        },
+        "wbjson": {
+          "path": "wbjson",
+          "sha256": "bc608787ea45548b67a85b329163a70c629b96b0bf2cae5caaf829b1e09fb396"
+        },
+        "wbls": {
+          "path": "wbls",
+          "sha256": "a3fad625e3b1afb92445cb9d0fad4ef022057f1398826d2376744ef5833b7289"
+        },
+        "wblssub": {
+          "path": "wblssub",
+          "sha256": "a0f976d4a4d52571e441da502203bbec2c557ccd164c25127ab13fb8556d1434"
+        },
+        "wbpdel": {
+          "path": "wbpdel",
+          "sha256": "9feda2580a5b9657ad93c1ae2148897ffb43c588b61353ad5a6e552b8945bf72"
+        },
+        "wbpget": {
+          "path": "wbpget",
+          "sha256": "d26a4fb98f90f86d217dfac509f8cebd94f340b24fc89c46757a15d637928b41"
+        },
+        "wbpls": {
+          "path": "wbpls",
+          "sha256": "677752e186c7815ab7be08c4f0b7615a843bed6208080ad21cb45d5841029f13"
+        },
+        "wbpsub": {
+          "path": "wbpsub",
+          "sha256": "c1031675a9419d83fe025fa76842771938a299dc429765d5b79ceb9f8c3e87aa"
+        },
+        "wbpub": {
+          "path": "wbpub",
+          "sha256": "3224ac843dfb408cbeb54dbe1c410ea77f70339acff2230fdbb298327df8c7d1"
+        },
+        "wbpubs": {
+          "path": "wbpubs",
+          "sha256": "7402ec95bc20558370591fd9c5271576b873de32b7f042c591c187d4d73149ff"
+        },
+        "wbset": {
+          "path": "wbset",
+          "sha256": "30341541220d1654c83693464fa1dc8bbd3fa099a47806f29c7b02ea5c022d36"
+        },
+        "wbsets": {
+          "path": "wbsets",
+          "sha256": "8e82415ea9a20854d9b2c293799a1bba0b737aecf4e95957f5850acb37157d76"
+        },
+        "wbspub": {
+          "path": "wbspub",
+          "sha256": "c684208a7d7994aa4658c26747a4cc70150840e47d39baa6a37dcd65db503cf5"
+        },
+        "wbsub": {
+          "path": "wbsub",
+          "sha256": "94ecf034c74ecdea0a7ee690f6ad9ccb1ea1fa66bb63c22e54edf7613367b876"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/babymotte/worterbuch/releases/download/v1.6.0/worterbuch-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.6.0",
+      "sha256": "70c4503383eec9d313d65d637cf1e3858e77f71b6bd7fc542413f337115f496d",
+      "size": 30184260,
+      "format": "zip",
+      "binaries": {
+        "wbdel.exe": {
+          "path": "wbdel.exe",
+          "sha256": "90fcd1eb35fa8e2ccc256f8bd063885655c514cdb71e9b02581a4eb1b5c3d54f"
+        },
+        "wbget.exe": {
+          "path": "wbget.exe",
+          "sha256": "008f7f003b8f4c0f9232d6508091fb8efeb6315718bb900080131dd9e86d105d"
+        },
+        "wbjson.exe": {
+          "path": "wbjson.exe",
+          "sha256": "9c0dec7b1b0bd2ada310e15f0caaf21005c0ffa8e3d17a715ad7207311a11b32"
+        },
+        "wbls.exe": {
+          "path": "wbls.exe",
+          "sha256": "de88c8732f1bd7e46c1b12701af256c37ce31a651b6683e55456b8b94bac6ab8"
+        },
+        "wblssub.exe": {
+          "path": "wblssub.exe",
+          "sha256": "c759ff5000b10cab5038e0badd2d0678c9450f3bb916454ec9c14647edf298b3"
+        },
+        "wbpdel.exe": {
+          "path": "wbpdel.exe",
+          "sha256": "9febcd9b9c0129f79391272e999df32af429df6a7cc51cb989c10eff17ae897f"
+        },
+        "wbpget.exe": {
+          "path": "wbpget.exe",
+          "sha256": "be62bc8589eb5a1dabc1e74511de0d0f7e3f9456e1fba7c256d5387717610577"
+        },
+        "wbpls.exe": {
+          "path": "wbpls.exe",
+          "sha256": "2c4ccff3882201b900f00bd9f3c19d6141596784afc251686f72ded894bc350a"
+        },
+        "wbpsub.exe": {
+          "path": "wbpsub.exe",
+          "sha256": "6628b8d3c5d04968c550af50f3b936e474c4fce6ed750c5fb8cb834a51922a15"
+        },
+        "wbpub.exe": {
+          "path": "wbpub.exe",
+          "sha256": "0fda86566129c2770c204f8e14179d778f5f5453fc4a67a4e0426c94549cf3f4"
+        },
+        "wbpubs.exe": {
+          "path": "wbpubs.exe",
+          "sha256": "ecd5b9f624e02ce408c7411ef465df239dc382619df01933221be0fde0902581"
+        },
+        "wbset.exe": {
+          "path": "wbset.exe",
+          "sha256": "0cb4dadc0bd57e737fb67b0f9c06159bb2877a045ec62a88ebdf8542f9291384"
+        },
+        "wbsets.exe": {
+          "path": "wbsets.exe",
+          "sha256": "c891b11a5c862d8d6cc20abcfe202ac6eeb015dda25738825cc9af5d24abb755"
+        },
+        "wbspub.exe": {
+          "path": "wbspub.exe",
+          "sha256": "21ea42ccd5e0089f877743a1b832905a15125a2543226e2a5cb5ed2dba95220e"
+        },
+        "wbsub.exe": {
+          "path": "wbsub.exe",
+          "sha256": "71e7f8154dadc5587d8445f012e71a91ec7adc0abc8c8614e2bb158337e5086d"
+        }
+      }
+    }
+  }
+}
