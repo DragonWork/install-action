@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "fss",
+  "version": "0.3.1",
+  "repository": "luyikk/file-store-server",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/luyikk/file-store-server/releases/download/v0.3.1/fss-x86_64-unknown-linux-gnu-ubuntu-latest.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "537fab003f9a09cf9eebf24d4d082a8c91e92fb5967fa8b229852923c7a80f00",
+      "size": 2536906,
+      "format": "tar.gz",
+      "binaries": {
+        "fss": {
+          "path": "fss",
+          "sha256": "a4f20d47cdf86e75f3025ab633d53008ce7ec1d41bd9e343a4cf3eed30c2e1a1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/luyikk/file-store-server/releases/download/v0.3.1/fss-x86_64-apple-darwin-macos-latest.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "a6995b3e660cc48bafd51667ecc055dd060ee329d8a666e6cc3d50fc79ab4f68",
+      "size": 2356451,
+      "format": "tar.gz",
+      "binaries": {
+        "fss": {
+          "path": "fss",
+          "sha256": "ef94575f3385ebe8519287ef4cde1cb96b21a4b4dda7a7e6e4147d25fe572081"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/luyikk/file-store-server/releases/download/v0.3.1/fss-x86_64-pc-windows-msvc-windows-latest.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "ae713d560753f2806b2fd2c979df97448a8eee6801eb3ef5ae594f491f2cc808",
+      "size": 2414490,
+      "format": "zip",
+      "binaries": {
+        "fss.exe": {
+          "path": "fss.exe",
+          "sha256": "12277fc66ebc9b652fabf6d32be677587c65d8bd99df01994b1cd508d62efadd"
+        }
+      }
+    }
+  }
+}
