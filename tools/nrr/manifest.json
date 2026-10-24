@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "nrr",
+  "version": "0.11.0",
+  "repository": "ryanccn/nrr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "c2437e34c4c7587ee13aeda7f6e12459542d840531f2fdbe195fc2ad03edcc0f",
+      "size": 788964,
+      "format": "zip",
+      "binaries": {
+        "nrr": {
+          "path": "nrr",
+          "sha256": "b1dacf472e231b26f99bb1aae8cf29182138fd85903e76e07c84b1157d6624da"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "7f0aa06f564398e6e75444e77f1f6906b84b1fb2579b53a3d7daf7f9b4a83683",
+      "size": 751716,
+      "format": "zip",
+      "binaries": {
+        "nrr": {
+          "path": "nrr",
+          "sha256": "f920643eb9f4c0287d67520f0f308aa626b1763912fc7ba696117d734b99b0bc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "cdda3f8f4c514380610e0c3e5beadc80e664b9ac7731c6ef48fd1bdf8f0b3362",
+      "size": 658359,
+      "format": "zip",
+      "binaries": {
+        "nrr": {
+          "path": "nrr",
+          "sha256": "afba184669e476b64f395f414d016bef65e64ce655ada09851e39cdb5a7a2d7b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "2a7ae0223905e510bf1bc4f739f280d54a888961fd25a84009ff23da8f631373",
+      "size": 611257,
+      "format": "zip",
+      "binaries": {
+        "nrr": {
+          "path": "nrr",
+          "sha256": "68b1d942641e33c626f7c2219e48efbf6f3ee9cd0ac8f0d7e144bcf8e5860453"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "1e965e498c0e11f47ba49c90edc88d31af318e78b369c3703ef47c4519a94229",
+      "size": 549700,
+      "format": "zip",
+      "binaries": {
+        "nrr.exe": {
+          "path": "nrr.exe",
+          "sha256": "0df50629e049f83be192bfb7fb68843e0dde1e73bb7dbbaf10078e8c01fa6fdf"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "ce4b6ae3d2cafdf82ce2c7ac7b5c055695f4dcefdc8cfe29e3a327c76fa83649",
+      "size": 506583,
+      "format": "zip",
+      "binaries": {
+        "nrr.exe": {
+          "path": "nrr.exe",
+          "sha256": "9c16a02ec9e2a46cc158e59e4311079040463900e873a36cbdeabfd24c7080dc"
+        }
+      }
+    }
+  }
+}
