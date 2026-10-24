@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "semverator",
+  "version": "0.11.0",
+  "repository": "jhheider/semverator",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jhheider/semverator/releases/download/v0.11.0/semverator-linux-x86_64.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "d65a326723e50757955b870d2033d72bdef12a0998e821fcb06c88e46e73cda8",
+      "size": 1054605,
+      "format": "tar.gz",
+      "binaries": {
+        "semverator": {
+          "path": "./semverator",
+          "sha256": "eed98241adac60e8aa62bdace932b186177abf32c53f927219cd37042e0e70f7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jhheider/semverator/releases/download/v0.11.0/semverator-linux-aarch64.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "f098f1954ad34bd3529e6605074e4377d0e1f84e24d1000eb14d6c33da8e2c0c",
+      "size": 1107400,
+      "format": "tar.gz",
+      "binaries": {
+        "semverator": {
+          "path": "./semverator",
+          "sha256": "affb00dbf3bd02cc936ef2481f2d9adf20d97b79acf3c7d4f4d487e6bb44da58"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jhheider/semverator/releases/download/v0.11.0/semverator-macos-x86_64.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "eb5c06d70ab10606617c2d91b8ac6bff8c78e79c96bee3fb3ffb95d5330b4c2d",
+      "size": 937050,
+      "format": "tar.gz",
+      "binaries": {
+        "semverator": {
+          "path": "./semverator",
+          "sha256": "243e63c50018b5f5d11de9539b6306f9fd3d32280335eda74a0e68422c451295"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jhheider/semverator/releases/download/v0.11.0/semverator-macos-aarch64.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "c4c299b9976f0c453b53656c9cb01803a6d713e81766216cd025c13e51c0c9aa",
+      "size": 876796,
+      "format": "tar.gz",
+      "binaries": {
+        "semverator": {
+          "path": "./semverator",
+          "sha256": "fb287a27ea55d82412b547001e89c00695861eb97cbd52afc50e8021be4b19a5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jhheider/semverator/releases/download/v0.11.0/semverator-windows-x86_64.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "bff880093122aad77193ccd4840b86de95e032c1dc48df3db087a703a4f04a87",
+      "size": 846014,
+      "format": "zip",
+      "binaries": {
+        "semverator.exe": {
+          "path": "semverator.exe",
+          "sha256": "b42ec943ebcd85454eac7c6fd57697c3780f9e2c15946e79da8824de6c5ea816"
+        }
+      }
+    }
+  }
+}
