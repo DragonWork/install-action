@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "github-workflows-update",
+  "version": "0.4.3",
+  "repository": "lpenz/github-workflows-update",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lpenz/github-workflows-update/releases/download/0.4.3/github-workflows-update-0.4.3_amd64.tar.gz",
+      "sha256": "ca1c5451fb72890fce1b36bacde4c749bdecf5ff0a14ad8fa760530ddc874b43",
+      "size": 4286937,
+      "format": "tar.gz",
+      "releaseTag": "0.4.3",
+      "binaries": {
+        "github-workflows-update": {
+          "path": "github-workflows-update",
+          "sha256": "018058e1f73c7b27dda00b05cc04a923020c94eb4590c77569f2ea21a5b1b078"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lpenz/github-workflows-update/releases/download/0.4.3/github-workflows-update-0.4.3_arm64.tar.gz",
+      "sha256": "a1205d46a664049eff51d27860dfbf855e0b5da5121c9b22ec7ccd447a58efbb",
+      "size": 4019551,
+      "format": "tar.gz",
+      "releaseTag": "0.4.3",
+      "binaries": {
+        "github-workflows-update": {
+          "path": "github-workflows-update",
+          "sha256": "d27a92514502dcee2da279283649dca3afac4244d91b313f740986344cf7fec2"
+        }
+      }
+    }
+  }
+}
