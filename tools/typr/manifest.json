@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "typr",
+  "version": "0.6.1",
+  "repository": "we-data-ch/typr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/we-data-ch/typr/releases/download/v0.6.1/typr-v0.6.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "ac4828aee1f84cd7a6b193db78ac248eb4850afb72d567cc225d10d78bf7ffde",
+      "size": 5301018,
+      "format": "tar.gz",
+      "binaries": {
+        "typr": {
+          "path": "typr",
+          "sha256": "13f6ae91ba69fcbe4b8c9521fd4a7a72b8bf70242619dc50a06a79b90f7017da"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/we-data-ch/typr/releases/download/v0.6.1/typr-v0.6.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "31885bd59f0622d5d8b87d9ca045a10e66ba5b704e470386520889d5618e3653",
+      "size": 4822998,
+      "format": "tar.gz",
+      "binaries": {
+        "typr": {
+          "path": "typr",
+          "sha256": "17881604b3dd3a9ba66866f7ed41d146e5fed844871ef19e35658995740ad682"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/we-data-ch/typr/releases/download/v0.6.1/typr-v0.6.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "c80968a015cc1b32a3488b174733485972401f71acef66823573419da96fd87d",
+      "size": 5085111,
+      "format": "tar.gz",
+      "binaries": {
+        "typr": {
+          "path": "typr",
+          "sha256": "aa6d19c700f35bf15cd83f678b6614712ccf1a0f7d8622925b4cb99916d8a662"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/we-data-ch/typr/releases/download/v0.6.1/typr-v0.6.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "fa21cf691658e96a66ccbeb21dc22a49928fd987d98023ced106440cbdb278ca",
+      "size": 4693828,
+      "format": "tar.gz",
+      "binaries": {
+        "typr": {
+          "path": "typr",
+          "sha256": "da58092848aa69a2a9d9996edcf1a5935531fa4d9319d53f9a443ed2200af16b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/we-data-ch/typr/releases/download/v0.6.1/typr-v0.6.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "4d1857bbcede02af2c37fa1e5093577ee37efa917bcb7c8fa4b6fbe6a3473cdb",
+      "size": 5862559,
+      "format": "zip",
+      "binaries": {
+        "typr.exe": {
+          "path": "typr.exe",
+          "sha256": "903aaae9ae7c7634e2323bb0fb7247a7a0db54e10cb5dceef3a4a26b82c0a9c1"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/we-data-ch/typr/releases/download/v0.6.1/typr-v0.6.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.1",
+      "sha256": "a1cca90bf5edebb22aac144e88519fdf9c7f46296440991568822362ef2ee6dd",
+      "size": 5437054,
+      "format": "zip",
+      "binaries": {
+        "typr.exe": {
+          "path": "typr.exe",
+          "sha256": "1454a5ebf7466a9342d328c2085f1524442f1e7e688d1fe7b0085ec598b2908a"
+        }
+      }
+    }
+  }
+}
