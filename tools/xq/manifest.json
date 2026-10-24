@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "xq",
+  "version": "0.5.0",
+  "repository": "MiSawa/xq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MiSawa/xq/releases/download/v0.5.0/xq-v0.5.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "52f79d6b04500c9880e83f80c2b7a84faa836d900168e4677b0f7f0f518214d6",
+      "size": 1754558,
+      "format": "tar.gz",
+      "binaries": {
+        "xq": {
+          "path": "xq-v0.5.0-x86_64-unknown-linux-musl/xq",
+          "sha256": "3d6d473ebdf563dbe396ebb4283bd97a5d3e1543a6f1b74ccbcf1c5fbc4f2fd7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MiSawa/xq/releases/download/v0.5.0/xq-v0.5.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "f251cad2aa0ac23ea32ad2b69bc6ad25af7a25a07b0bb973e8bcb3dfd4d57bcc",
+      "size": 1549903,
+      "format": "tar.gz",
+      "binaries": {
+        "xq": {
+          "path": "xq-v0.5.0-aarch64-unknown-linux-musl/xq",
+          "sha256": "1c2bd2c970787e1666cb0818362f11136bd4b420aaaf47597af42598d6628e78"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MiSawa/xq/releases/download/v0.5.0/xq-v0.5.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "e34e500708e5d5597fd95664b059899817fcc42285f890614a06d44b3632184e",
+      "size": 1525368,
+      "format": "tar.gz",
+      "binaries": {
+        "xq": {
+          "path": "xq-v0.5.0-x86_64-apple-darwin/xq",
+          "sha256": "b9c59c5535cbbff6d8db60e7d161dd5f5bd10d0b25abddb521517a4b887ad957"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MiSawa/xq/releases/download/v0.5.0/xq-v0.5.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "53ba95c725aaad3360f246121cd1d9c3ced8bac22214bdf652bd2253380ad29c",
+      "size": 1472771,
+      "format": "tar.gz",
+      "binaries": {
+        "xq": {
+          "path": "xq-v0.5.0-aarch64-apple-darwin/xq",
+          "sha256": "7982dea8102188a273383c57fed3e2968364ae445ee16585ebc2b3d8d207223f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MiSawa/xq/releases/download/v0.5.0/xq-v0.5.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "5eac1f5a2b0596c11ba5e4fd802ecc3ae5d105a7790b5cb49ffbb7308247665b",
+      "size": 1557347,
+      "format": "tar.gz",
+      "binaries": {
+        "xq.exe": {
+          "path": "xq-v0.5.0-x86_64-pc-windows-msvc/xq.exe",
+          "sha256": "21d3e9cb6168809f4da42893c21effc07de45b173b06aabc303289ac8428bc0a"
+        }
+      }
+    }
+  }
+}
