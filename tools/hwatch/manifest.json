@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hwatch",
+  "version": "0.4.2",
+  "repository": "blacknon/hwatch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/blacknon/hwatch/releases/download/0.4.2/hwatch-0.4.2.x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.2",
+      "sha256": "9d1c6a61b1f04f9e1aa84fe18634a6296aa22061c62d39416a3fa23fba066803",
+      "size": 2402055,
+      "format": "tar.gz",
+      "binaries": {
+        "hwatch": {
+          "path": "bin/hwatch",
+          "sha256": "f104106490ebcb9c907a09561caaf0bedf9d36d005c03972f303cf108cf5927f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/blacknon/hwatch/releases/download/0.4.2/hwatch-0.4.2.aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.2",
+      "sha256": "bdb592e933274aa6437a3d9b45aa93d2be62292eab978f7e8612c12ed42b4a49",
+      "size": 2273563,
+      "format": "tar.gz",
+      "binaries": {
+        "hwatch": {
+          "path": "bin/hwatch",
+          "sha256": "8d7f320d46f299b2deebfd522fbdbd9d13312c07954bfd05f020183cf2e303a9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/blacknon/hwatch/releases/download/0.4.2/hwatch-0.4.2.x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.2",
+      "sha256": "4fc27987fc1bbe85eacb3e62408d7ef60dcbeb65aadbf864b6b22b0348533e2e",
+      "size": 2175383,
+      "format": "tar.gz",
+      "binaries": {
+        "hwatch": {
+          "path": "bin/hwatch",
+          "sha256": "49a44f180f22dc2693617dea61a168ab3b31be01931105b1177395d4652432a4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/blacknon/hwatch/releases/download/0.4.2/hwatch-0.4.2.aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.2",
+      "sha256": "85306d655e3579b8777056161616af5591cab626d4988710740d3dc91f5beb9a",
+      "size": 2087374,
+      "format": "tar.gz",
+      "binaries": {
+        "hwatch": {
+          "path": "bin/hwatch",
+          "sha256": "796013489985c0a84fa6f74e72da72555f228a047ebc0ed48c3bc0a21761541a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/blacknon/hwatch/releases/download/0.4.2/hwatch-0.4.2.x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.4.2",
+      "sha256": "58b284e3d808a9c916320996988d73625778d590bc90c6029327f7d86cd2a608",
+      "size": 1811381,
+      "format": "zip",
+      "binaries": {
+        "hwatch.exe": {
+          "path": "target/x86_64-pc-windows-msvc/release/hwatch.exe",
+          "sha256": "fba18d216f205c5a0f15c13aed688e1cf52f6648a83ab0fcffe7c40ec2eb67ab"
+        }
+      }
+    }
+  }
+}
