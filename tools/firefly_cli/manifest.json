@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "firefly_cli",
+  "version": "0.20.0",
+  "repository": "firefly-zero/firefly-cli",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.0/firefly_cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.20.0",
+      "sha256": "02902b2d21fa0084fe7aa617bbaa208486fead7fdd5279726e0d75008811fc4a",
+      "size": 2943753,
+      "format": "zip",
+      "binaries": {
+        "firefly_cli.exe": {
+          "path": "firefly_cli.exe",
+          "sha256": "78b8d6d21a446ff4613af8619058f6f72ab15f4cc261bed2cfc43df3aadbe302"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.0/firefly_cli-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.20.0",
+      "sha256": "c76842f6c5cfc4d51c44f7db37ab007f897949bae70423535d8b765d8e580256",
+      "size": 2791962,
+      "format": "zip",
+      "binaries": {
+        "firefly_cli.exe": {
+          "path": "firefly_cli.exe",
+          "sha256": "96557be53a0065c12b2fda51b8910f6c79efc3a77a75d5d093e5fca23d4465c7"
+        }
+      }
+    }
+  }
+}
