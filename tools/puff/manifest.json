@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "puff",
+  "version": "1.1.2",
+  "repository": "marcinjahn/puff",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/marcinjahn/puff/releases/download/v1.1.2/puff-v1.1.2-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "v1.1.2",
+      "sha256": "8db1a0979bc39a4a8d8b8e81a62c6efd5f2711710059d1c1d963d2e1e3d80951",
+      "size": 872176,
+      "format": "zip",
+      "binaries": {
+        "puff": {
+          "path": "puff-v1.1.2-x86_64-unknown-linux-gnu/puff",
+          "sha256": "e2282ccc7c75d34014b5e8045687e8ce7c38c8d87751ceda9493856bf0e0005c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/marcinjahn/puff/releases/download/v1.1.2/puff-v1.1.2-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v1.1.2",
+      "sha256": "84c18739494be3fa62aafdf0a05dcdb253bc42ba63eb35b10599a577eceac6e2",
+      "size": 831070,
+      "format": "zip",
+      "binaries": {
+        "puff": {
+          "path": "puff-v1.1.2-aarch64-unknown-linux-gnu/puff",
+          "sha256": "ba4d91330458a36ed8150312731889c77dee8f5b7d0d722b1b94072364fd27ee"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/marcinjahn/puff/releases/download/v1.1.2/puff-v1.1.2-x86_64-apple-darwin.zip",
+      "releaseTag": "v1.1.2",
+      "sha256": "edd6106e8f236fc0a6a39bf7df30d455562f688ee1c1a6d90a879b1287837ae1",
+      "size": 805214,
+      "format": "zip",
+      "binaries": {
+        "puff": {
+          "path": "puff-v1.1.2-x86_64-apple-darwin/puff",
+          "sha256": "f0065688e0754844862c47d71c970667d499665f446f91a6cf85ebabae5e80ef"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/marcinjahn/puff/releases/download/v1.1.2/puff-v1.1.2-aarch64-apple-darwin.zip",
+      "releaseTag": "v1.1.2",
+      "sha256": "36182e54eb956d06f0d7e77ad2fd8ecf488e96056b72d25fd863c7c50bbfbf0f",
+      "size": 782907,
+      "format": "zip",
+      "binaries": {
+        "puff": {
+          "path": "puff-v1.1.2-aarch64-apple-darwin/puff",
+          "sha256": "861860ed12df66819f35da12c5f09c62d16f23134685cc6904b6fb7b3568e3b7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/marcinjahn/puff/releases/download/v1.1.2/puff-v1.1.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.2",
+      "sha256": "ae91db284fac00bf47f874ece96bd5fd9f16b387508ca2ccd91a53d5cad00a2f",
+      "size": 683684,
+      "format": "zip",
+      "binaries": {
+        "puff.exe": {
+          "path": "puff-v1.1.2-x86_64-pc-windows-msvc/puff.exe",
+          "sha256": "1e8e00f2abc2b4c995a0f8b2c5c8755049b48f33fbe559f99ffdc2bdf1d7d1e9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/marcinjahn/puff/releases/download/v1.1.2/puff-v1.1.2-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.2",
+      "sha256": "50031f061e5a3e62d3050a967675733f5de1aee9bf14b6edee89ddeb9f13be5c",
+      "size": 648887,
+      "format": "zip",
+      "binaries": {
+        "puff.exe": {
+          "path": "puff-v1.1.2-aarch64-pc-windows-msvc/puff.exe",
+          "sha256": "37f01634461e625490a871c724e248c53479099ba3027211fdb97c61191315e3"
+        }
+      }
+    }
+  }
+}
