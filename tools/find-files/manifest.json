@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "find-files",
+  "version": "0.1.8",
+  "repository": "vishaltelangre/ff",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vishaltelangre/ff/releases/download/v0.1.8/find-files-v0.1.8-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "f4e777327e5706dca562c4346d7e8b71f0f4ea2a9ce826d2b9cd8fddb4db2718",
+      "size": 1102260,
+      "format": "tar.gz",
+      "binaries": {
+        "ff": {
+          "path": "ff",
+          "sha256": "b6fc3c1ebcd22d07b40589e9ffaef8907630427c12f7d98a0a0b5c7fa8b0531d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/vishaltelangre/ff/releases/download/v0.1.8/find-files-v0.1.8-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "042026915e0926091418d2c23f154a49e0f61147116eec2453486d70301b0f42",
+      "size": 1001108,
+      "format": "tar.gz",
+      "binaries": {
+        "ff": {
+          "path": "ff",
+          "sha256": "eab7d7b011ccd42bc354cbf87dc0690d1739b4aac88babb0b3e7e0cbc08a7113"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vishaltelangre/ff/releases/download/v0.1.8/find-files-v0.1.8-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.8",
+      "sha256": "e32c11e520a3c0cb7b084d4e9a36a9f51ac92adea9618221b3eb95496403815c",
+      "size": 831354,
+      "format": "tar.gz",
+      "binaries": {
+        "ff": {
+          "path": "ff",
+          "sha256": "4f2c3667537c39829efd030c7f0d5b2935d88e4da474e7928040026efb6fa5bc"
+        }
+      }
+    }
+  }
+}
