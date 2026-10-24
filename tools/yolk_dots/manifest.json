@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "yolk_dots",
+  "version": "1.3.0",
+  "repository": "elkowar/yolk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/elkowar/yolk/releases/download/v1.3.0/yolk_dots-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "828b852dcb1337546de243dea528fa563b1ae8c85b1c7fe2b6c539530316b45d",
+      "size": 2662640,
+      "format": "tar.xz",
+      "binaries": {
+        "yolk": {
+          "path": "yolk_dots-x86_64-unknown-linux-musl/yolk",
+          "sha256": "5862c089b340f4012646b700880c2770d023e3e97796ac812129f6e8d930687e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/elkowar/yolk/releases/download/v1.3.0/yolk_dots-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "02701b041414f785c6e7e6a513ec660db4b826a45c4707e50e5bcdd11001baad",
+      "size": 2415600,
+      "format": "tar.xz",
+      "binaries": {
+        "yolk": {
+          "path": "yolk_dots-x86_64-apple-darwin/yolk",
+          "sha256": "185555e0a7d0c54dba98c516b6a408a45f32855ee1454b3eb91926bf9e73ea72"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/elkowar/yolk/releases/download/v1.3.0/yolk_dots-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.3.0",
+      "sha256": "1f071b259418e58518156c66c24d4757bb9b36e22550376d20b2669c110f08f7",
+      "size": 2159548,
+      "format": "tar.xz",
+      "binaries": {
+        "yolk": {
+          "path": "yolk_dots-aarch64-apple-darwin/yolk",
+          "sha256": "9e18b9c00527f741f7ed245acaccdae6f3b736e5f8c4370feaa0939d69a89ee4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/elkowar/yolk/releases/download/v1.3.0/yolk_dots-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.3.0",
+      "sha256": "fc8eec26e15d5f270d5b929f8ef36f182d2194c40285247ad2328c425c1a6927",
+      "size": 3620131,
+      "format": "zip",
+      "binaries": {
+        "yolk.exe": {
+          "path": "yolk.exe",
+          "sha256": "852bcc8df302bbd717f0cd4f6b46906d66b20e15c71348b3a273c13c8a924086"
+        }
+      }
+    }
+  }
+}
