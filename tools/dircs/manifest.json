@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dircs",
+  "version": "0.3.0",
+  "repository": "ClementTsang/dircs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ClementTsang/dircs/releases/download/0.3.0/dircs_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.3.0",
+      "sha256": "06f0946c9186c75f114c683ef259685603f2f39ce9787f2f92af455976e089ff",
+      "size": 667725,
+      "format": "tar.gz",
+      "binaries": {
+        "dircs": {
+          "path": "dircs",
+          "sha256": "328f788c4967571a158f747c2cd00f7f42d48bd82e1e25613a6fc2ec255d4e9a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ClementTsang/dircs/releases/download/0.3.0/dircs_aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.3.0",
+      "sha256": "65baa5c174942700870414aef1e06c2c734b7c33d304ec309725b88f3457de52",
+      "size": 609019,
+      "format": "tar.gz",
+      "binaries": {
+        "dircs": {
+          "path": "dircs",
+          "sha256": "ea688ea49f53794162e7f7d5497107ff583e71c6d7d3808beb04929e7d91842a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ClementTsang/dircs/releases/download/0.3.0/dircs_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.3.0",
+      "sha256": "3c0080b7b91a43800d28e304afd95395f86424963db826d8c070b0a3b03047e9",
+      "size": 583638,
+      "format": "tar.gz",
+      "binaries": {
+        "dircs": {
+          "path": "dircs",
+          "sha256": "88cc0e572033f3ab605bac16176e71184fcf1513628883b08bef96f7d0516fb2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ClementTsang/dircs/releases/download/0.3.0/dircs_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.3.0",
+      "sha256": "bcb2ec2387f095e9ec8ef80407abae2cd2a7cd4fdf7857b9ab8aa7ddc0bd91e3",
+      "size": 533259,
+      "format": "tar.gz",
+      "binaries": {
+        "dircs": {
+          "path": "dircs",
+          "sha256": "6012c8e2449a579b5bd5e043389ef7f36127d771143f24669d2136ef03e32c11"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ClementTsang/dircs/releases/download/0.3.0/dircs_x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.3.0",
+      "sha256": "a98458e7cab3281dc7fa0bff35b9dfc531046e9cd1d2f6aa895b8575747549ad",
+      "size": 540781,
+      "format": "zip",
+      "binaries": {
+        "dircs.exe": {
+          "path": "dircs.exe",
+          "sha256": "fe54c148d505ccb8ef3348a792278b61f1d9647c639231b68010987e5a536f5a"
+        }
+      }
+    }
+  }
+}
