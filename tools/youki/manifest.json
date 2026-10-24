@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "youki",
+  "version": "0.7.0",
+  "repository": "youki-dev/youki",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/youki-dev/youki/releases/download/v0.7.0/youki-0.7.0-x86_64-gnu.tar.gz",
+      "sha256": "fb4013e16592b257038bfdeb4ddcddc0f05e258b324c1bac283c97ee39b8cd68",
+      "size": 3156592,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "youki": {
+          "path": "youki",
+          "sha256": "137062afe5213595ce8c9ad8bac3b244aaa88c6722606780e9fcf798b6180d57"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/youki-dev/youki/releases/download/v0.7.0/youki-0.7.0-aarch64-gnu.tar.gz",
+      "sha256": "38f4ec9b4e7df442a55513144282f27a07f5474c1cdb777cedda18ba0cf63e6d",
+      "size": 2935563,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "youki": {
+          "path": "youki",
+          "sha256": "54faf20d4f50c6ac06345d6b266f29e54e16818383db5f164e3cd8db04d22a8c"
+        }
+      }
+    }
+  }
+}
