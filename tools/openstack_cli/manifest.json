@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "openstack_cli",
+  "version": "0.13.8",
+  "repository": "gtema/openstack",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.13.8",
+      "sha256": "4911a42ecf2d507372667708953fd47adaa7c6e409c57c9d95d500c5cd18c382",
+      "size": 21031068,
+      "format": "tar.xz",
+      "binaries": {
+        "osc": {
+          "path": "openstack_cli-x86_64-unknown-linux-musl/osc",
+          "sha256": "808d59b0a937d21c7abbc8666ba98af2ae6bf4eaba376feff5aca2a76c60254f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.13.8",
+      "sha256": "723ecf0813035b7f16506e8135066c11b05678bb083baf5e2239fdd563a61f93",
+      "size": 18679660,
+      "format": "tar.xz",
+      "binaries": {
+        "osc": {
+          "path": "openstack_cli-aarch64-unknown-linux-gnu/osc",
+          "sha256": "4e83af5fb272f54ffa13e89798c91736ca6f0b8ccd0bf3716349aad128361244"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.13.8",
+      "sha256": "84f7aa81484147bb36c020bfd389d710e7a44f7ad2fa9ad2126bb1f716adc673",
+      "size": 19411848,
+      "format": "tar.xz",
+      "binaries": {
+        "osc": {
+          "path": "openstack_cli-x86_64-apple-darwin/osc",
+          "sha256": "aad2c66e41fb7034154694927309a8b807d52a74a417034c5dd9529ec8d6df7f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.13.8",
+      "sha256": "1e7f605b794d9484d992017215a514fba7fd7aeea58020fd6830f734fc418616",
+      "size": 17715884,
+      "format": "tar.xz",
+      "binaries": {
+        "osc": {
+          "path": "openstack_cli-aarch64-apple-darwin/osc",
+          "sha256": "7db8a7a36350b301637b340b2f6ddb42ae55cbef8c00759faf9d0401aab3c676"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.13.8",
+      "sha256": "bac4bcaca8f8c72b6087cbbee94adb7a08c410bfef20985422aad720c4085e7b",
+      "size": 36588848,
+      "format": "zip",
+      "binaries": {
+        "osc.exe": {
+          "path": "osc.exe",
+          "sha256": "26fe770054463ca12352cc661b464b41a3f036579acce56d4410c981dbbef802"
+        }
+      }
+    }
+  }
+}
