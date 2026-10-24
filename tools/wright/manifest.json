@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "wright",
+  "version": "0.10.1",
+  "repository": "vcfxb/wright-lang",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vcfxb/wright-lang/releases/download/v0.10.1/wright-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "c05c0d28f21f687e249775411cc65db6679b2de7ce0a1275ec1bd74441a680d9",
+      "size": 558611,
+      "format": "tar.gz",
+      "binaries": {
+        "wright": {
+          "path": "wright",
+          "sha256": "8b43bb151bc14fe5c12337cbcf906ba96e775e6f04cf499072e77169e871294c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vcfxb/wright-lang/releases/download/v0.10.1/wright-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "329c41767d7682e8e4c0ffa42cd9875a893700c6d05a7964050147a8da4f3b5e",
+      "size": 524970,
+      "format": "tar.gz",
+      "binaries": {
+        "wright": {
+          "path": "wright",
+          "sha256": "e00e14f3977d6368cb16ed9ca4957dbe514888a464e0aecd1a6efaeee343fa2f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vcfxb/wright-lang/releases/download/v0.10.1/wright-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.10.1",
+      "sha256": "dcc99544c0580acdc621e8434ece22cfcdfe7cd3655ed2b9b1d86424f030a1c8",
+      "size": 374192,
+      "format": "zip",
+      "binaries": {
+        "wright.exe": {
+          "path": "wright.exe",
+          "sha256": "55b1f6b3fdedc8d2764f1d0a3b6d9c0117cf09862c3f03e07f2a2d3feb4e99ad"
+        }
+      }
+    }
+  }
+}
