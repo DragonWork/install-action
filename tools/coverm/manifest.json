@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "coverm",
+  "version": "0.8.0",
+  "repository": "wwood/CoverM",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wwood/CoverM/releases/download/v0.8.0/coverm-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "1fc66a299c1cd8afaf4cd7e2f9787dfa73ab106fcc10684a42ebc194c31946e8",
+      "size": 1752920,
+      "format": "tar.xz",
+      "binaries": {
+        "coverm": {
+          "path": "coverm-x86_64-unknown-linux-gnu/coverm",
+          "sha256": "c3af31ce45839ad20a1ca3a95ee2f81ab016b76ecf73b37639fbffaaf1fbdee5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wwood/CoverM/releases/download/v0.8.0/coverm-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "95eece8ffd999694df0624a8704a1d9655a904341aa7f609db209fff1382219d",
+      "size": 1529688,
+      "format": "tar.xz",
+      "binaries": {
+        "coverm": {
+          "path": "coverm-aarch64-unknown-linux-gnu/coverm",
+          "sha256": "5e3b1853ee0ef749ea5bfa4d50f148e22b67b45e424c07cddccbf9dfb870f068"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wwood/CoverM/releases/download/v0.8.0/coverm-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "d77cc97b77f419290f77855ba33355401b5bf2eecef91a547f7c0186a20440aa",
+      "size": 1623404,
+      "format": "tar.xz",
+      "binaries": {
+        "coverm": {
+          "path": "coverm-x86_64-apple-darwin/coverm",
+          "sha256": "3912dee23b5d8956b00f4f588feaafa015438a3c125514c4f43770b52fd5d588"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wwood/CoverM/releases/download/v0.8.0/coverm-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.0",
+      "sha256": "e7ba2f70b07b147e4dc7f5153b0e7ca544f543247f1b11a5064d0f96833415a7",
+      "size": 1401144,
+      "format": "tar.xz",
+      "binaries": {
+        "coverm": {
+          "path": "coverm-aarch64-apple-darwin/coverm",
+          "sha256": "39a39f8aa50d3489eb8062b72d944548ec39eeac9ac48c825ce1164e3187d7b9"
+        }
+      }
+    }
+  }
+}
