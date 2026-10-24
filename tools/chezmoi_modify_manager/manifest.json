@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "chezmoi_modify_manager",
+  "version": "3.7.1",
+  "repository": "VorpalBlade/chezmoi_modify_manager",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/VorpalBlade/chezmoi_modify_manager/releases/download/v3.7.1/chezmoi_modify_manager-v3.7.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.7.1",
+      "sha256": "380a52e89c0100abc1b87590ac745f88d168622b33370c391932d07ec2d14f1a",
+      "size": 2561832,
+      "format": "tar.gz",
+      "binaries": {
+        "chezmoi_modify_manager": {
+          "path": "chezmoi_modify_manager",
+          "sha256": "5e46e3128e36026e3319f3b91c64e54fa5813a69aade51d91c3ca638c934b85f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/VorpalBlade/chezmoi_modify_manager/releases/download/v3.7.1/chezmoi_modify_manager-v3.7.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.7.1",
+      "sha256": "e4c3f80901910758e203a40118a13b3e8e887daf8fac537b0dd8cb2d7f0fe406",
+      "size": 2425602,
+      "format": "tar.gz",
+      "binaries": {
+        "chezmoi_modify_manager": {
+          "path": "chezmoi_modify_manager",
+          "sha256": "70ac3c147475527a7ad593f6d339132d60d414ec3a7a4fd9b9522146dfbd0ef7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/VorpalBlade/chezmoi_modify_manager/releases/download/v3.7.1/chezmoi_modify_manager-v3.7.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.7.1",
+      "sha256": "de971f957e89e3fc26f4f81837e0f3d9093fd56241c85217188dd8426f521021",
+      "size": 2112119,
+      "format": "tar.gz",
+      "binaries": {
+        "chezmoi_modify_manager": {
+          "path": "chezmoi_modify_manager",
+          "sha256": "e523e43eeaaa2e57770ae49dcd72e0d1f0534b2c77f56bc1ea531f00d7931bc1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/VorpalBlade/chezmoi_modify_manager/releases/download/v3.7.1/chezmoi_modify_manager-v3.7.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.7.1",
+      "sha256": "ed23f8b74d3e4d69ba4140ac16eaa4df31bdc7f8ea8e052aa6c566b4fc0d80ab",
+      "size": 2016561,
+      "format": "tar.gz",
+      "binaries": {
+        "chezmoi_modify_manager": {
+          "path": "chezmoi_modify_manager",
+          "sha256": "19a2a5e8b9762911dd5a271f059e636cf6766b46477d459afd72c9de6af7eef2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/VorpalBlade/chezmoi_modify_manager/releases/download/v3.7.1/chezmoi_modify_manager-v3.7.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.7.1",
+      "sha256": "b673413615c410a407496285a53737a065d756bc6fc06c1eef08991e11d0eada",
+      "size": 1911180,
+      "format": "zip",
+      "binaries": {
+        "chezmoi_modify_manager.exe": {
+          "path": "chezmoi_modify_manager.exe",
+          "sha256": "b3ebb35a1e5607ca2f967aa20674fca526a4010dbce79a5c5d9858844123c5fa"
+        }
+      }
+    }
+  }
+}
