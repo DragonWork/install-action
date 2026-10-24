@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "microsandbox-types",
+  "version": "0.7.10",
+  "repository": "superradcompany/microsandbox",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/superradcompany/microsandbox/releases/download/v0.7.10/msb-windows-x86_64.exe",
+      "releaseTag": "v0.7.10",
+      "sha256": "714c37dac0e847f1309ba520269930b04b0201120fc0ef392ed766b792258612",
+      "size": 46982656,
+      "format": "binary",
+      "binaries": {
+        "microsandbox-types-generate.exe": {
+          "path": "msb-windows-x86_64.exe",
+          "sha256": "714c37dac0e847f1309ba520269930b04b0201120fc0ef392ed766b792258612"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/superradcompany/microsandbox/releases/download/v0.7.10/msb-windows-aarch64.exe",
+      "releaseTag": "v0.7.10",
+      "sha256": "fcef2bce1a0c4095ba6cbc4f9f0d03528089688cd585ce258b69a33687b14faa",
+      "size": 39910400,
+      "format": "binary",
+      "binaries": {
+        "microsandbox-types-generate.exe": {
+          "path": "msb-windows-aarch64.exe",
+          "sha256": "fcef2bce1a0c4095ba6cbc4f9f0d03528089688cd585ce258b69a33687b14faa"
+        }
+      }
+    }
+  }
+}
