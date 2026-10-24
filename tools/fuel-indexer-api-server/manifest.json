@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "fuel-indexer-api-server",
+  "version": "0.25.0",
+  "repository": "FuelLabs/fuel-indexer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/fuel-indexer-api-server-0.25.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "00ea336180ce37a388223012fba07f13cb30436e0244d4e434e0a020fefa0f12",
+      "size": 7747976,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-indexer-api-server": {
+          "path": "fuel-indexer-api-server-0.25.0-x86_64-unknown-linux-gnu/fuel-indexer-api-server",
+          "sha256": "4e0e17e086441f58a36ef986cd3338481ba461bf5089b1c62e699fea2b8aa3ab"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/fuel-indexer-api-server-0.25.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "a16f10948fa7692a68681be1428d1693599f99e84c286ff6e9e6a576ce60e4e9",
+      "size": 7246447,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-indexer-api-server": {
+          "path": "fuel-indexer-api-server-0.25.0-aarch64-unknown-linux-gnu/fuel-indexer-api-server",
+          "sha256": "7692ad03062359adace2d5b9b858a320d7e2439263d22c6a81b3aac19ce5b5d3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/fuel-indexer-api-server-0.25.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "27fd73a87dc220846987d8c4595bb4cd65deac4a747b39c0d0c2d83a030176a6",
+      "size": 7420800,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-indexer-api-server": {
+          "path": "fuel-indexer-api-server-0.25.0-x86_64-apple-darwin/fuel-indexer-api-server",
+          "sha256": "713a83d3cae695a1a3cb1e135da54333c20ea132fd6ff72bce664a7cfaea0d81"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-indexer/releases/download/v0.25.0/fuel-indexer-api-server-0.25.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.0",
+      "sha256": "ce501af0a65dcaadb5a917636cd68c9a9b96ac5fb828394d3bca01c8daf6b79e",
+      "size": 6801097,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-indexer-api-server": {
+          "path": "fuel-indexer-api-server-0.25.0-aarch64-apple-darwin/fuel-indexer-api-server",
+          "sha256": "30750e739bf613fb890c2a8474abd9a97fcb60381ebe2d21e5f802a84a2ea4b9"
+        }
+      }
+    }
+  }
+}
