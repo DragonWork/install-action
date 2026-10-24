@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "lintspec",
+  "version": "0.19.0",
+  "repository": "beeb/lintspec",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/beeb/lintspec/releases/download/v0.19.0/lintspec-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.19.0",
+      "sha256": "d0c49248b7fd312bd5b0e721e0f12a6a60c6536618137051ae89d2c0a8dd6eea",
+      "size": 1758704,
+      "format": "tar.xz",
+      "binaries": {
+        "lintspec": {
+          "path": "lintspec-x86_64-unknown-linux-gnu/lintspec",
+          "sha256": "191fadc3a70257167f9c697412276cf6aeab18a7be5cc59de5a4b9f872a01476"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/beeb/lintspec/releases/download/v0.19.0/lintspec-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.19.0",
+      "sha256": "8a1721621bfd3d1c98cfca8bbe65a023bc1e1fecbe16f16cf85276f003c7b6eb",
+      "size": 1591904,
+      "format": "tar.xz",
+      "binaries": {
+        "lintspec": {
+          "path": "lintspec-aarch64-unknown-linux-gnu/lintspec",
+          "sha256": "2b135150d8a4178b347b7937eb18e48966b52a4ce0b25dff1b8f5a5395525e4e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/beeb/lintspec/releases/download/v0.19.0/lintspec-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.19.0",
+      "sha256": "acc8911924fe0edfbf98f5c16b7d2627ea925bc33b9ef9255e3be83c42731970",
+      "size": 1485120,
+      "format": "tar.xz",
+      "binaries": {
+        "lintspec": {
+          "path": "lintspec-aarch64-apple-darwin/lintspec",
+          "sha256": "3237fa9f740dc5454643bba9ffdc979ed4bd2e61243abb694fc07eb432d3d1ae"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/beeb/lintspec/releases/download/v0.19.0/lintspec-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.19.0",
+      "sha256": "236a3e4de479f8efe78d3315fb7dc50b1f01ecf4a8c2886931cca03e4fcca5b8",
+      "size": 2243878,
+      "format": "zip",
+      "binaries": {
+        "lintspec.exe": {
+          "path": "lintspec.exe",
+          "sha256": "560f10a320d5f7782ad3cab461c301b01196e8ff954d76242f6ded65c3990f89"
+        }
+      }
+    }
+  }
+}
