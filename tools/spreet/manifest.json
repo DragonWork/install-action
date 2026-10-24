@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "spreet",
+  "version": "0.13.1",
+  "repository": "flother/spreet",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/flother/spreet/releases/download/v0.13.1/spreet-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "0119329214870da10b256f1eae314b9346a7d0a404e3350df902d76796117e64",
+      "size": 1941434,
+      "format": "tar.gz",
+      "binaries": {
+        "spreet": {
+          "path": "spreet",
+          "sha256": "8ca846c7fe303e720ec0b744f72a3df69ca24636e6db1c60893366ea6e768711"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/flother/spreet/releases/download/v0.13.1/spreet-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "02ec53d37d311e302dfe3cdd96a6b7213b57f6d2428f0ff059e786f96a8d0acf",
+      "size": 1810875,
+      "format": "tar.gz",
+      "binaries": {
+        "spreet": {
+          "path": "spreet",
+          "sha256": "634cef846063177814f2e3b4afd8e92263b55c096f3fe29e95f748a9c46ccc6d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/flother/spreet/releases/download/v0.13.1/spreet-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "59c369168fce28b4314026b63561a99970cd8b756afdd92d8b55a1cc61138be3",
+      "size": 1687700,
+      "format": "tar.gz",
+      "binaries": {
+        "spreet": {
+          "path": "spreet",
+          "sha256": "4f67ed4bf8d9390f8cf8bdf9bd171dc40f7c4876a752af147c5a90ff16402b0d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/flother/spreet/releases/download/v0.13.1/spreet-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.13.1",
+      "sha256": "a9cd066f39b4738863757fbc48a6b5984ed731258c3858d5323bae5239e14d2a",
+      "size": 1707851,
+      "format": "zip",
+      "binaries": {
+        "spreet.exe": {
+          "path": "spreet.exe",
+          "sha256": "a37ff965b531633fdf3e6b1b2bab8df8b3016ec812e742dfb13e50fe740397d3"
+        }
+      }
+    }
+  }
+}
