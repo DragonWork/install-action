@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "name": "shadowsocks-rust",
+  "version": "1.25.0",
+  "repository": "shadowsocks/shadowsocks-rust",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.25.0/shadowsocks-v1.25.0.x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.25.0",
+      "sha256": "882151ea5c52941d4a3360ebd12c74c6d6bd1b599596089ef1811b379c705666",
+      "size": 24027370,
+      "format": "zip",
+      "binaries": {
+        "sslocal.exe": {
+          "path": "sslocal.exe",
+          "sha256": "bdb0cf7e8b95f29d9bf20b352b78e41a07f3e4195c4cc2fbcf19056171b854bc"
+        },
+        "ssmanager.exe": {
+          "path": "ssmanager.exe",
+          "sha256": "c9bf486b09e780b5cb3dbd68a09148127d4a9efacd05e9243ccf57c454c334ea"
+        },
+        "ssserver.exe": {
+          "path": "ssserver.exe",
+          "sha256": "dc54eedb1fe1553dbd9483c50d664a8eff73c45d0ed8232184933d6560f3cf27"
+        },
+        "ssservice.exe": {
+          "path": "ssservice.exe",
+          "sha256": "e37f93a620625c04054d6af1363fa870c057957b78ea9491c6d13113c6e4d0c1"
+        },
+        "ssurl.exe": {
+          "path": "ssurl.exe",
+          "sha256": "c2bc1d652ad592ca032fd267abc85ecc26ba4d8f0d4a67c4944b4cc24d38b341"
+        },
+        "sswinservice.exe": {
+          "path": "sswinservice.exe",
+          "sha256": "0e2fe5e3586d2cfe011b3063619636d9567506e6bbe89a5a7531341a8a70bc7a"
+        }
+      }
+    }
+  }
+}
