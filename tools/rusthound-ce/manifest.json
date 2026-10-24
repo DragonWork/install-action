@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rusthound-ce",
+  "version": "2.5.28",
+  "repository": "g0h4n/RustHound-CE",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/g0h4n/RustHound-CE/releases/download/v2.5.28/rusthound-ce-Linux-gnu-x86_64.tar.gz",
+      "releaseTag": "v2.5.28",
+      "sha256": "a62e671d08152b5978f77bd06108e00ec72d7c8ddff7fb322e477c1ee715bebb",
+      "size": 4459799,
+      "format": "tar.gz",
+      "binaries": {
+        "rusthound-ce": {
+          "path": "rusthound-ce",
+          "sha256": "59f276584bb2789f34352d643420967ae33103f8e59186c12636ed2e28bb7f36"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/g0h4n/RustHound-CE/releases/download/v2.5.28/rusthound-ce-Linux-gnu-arm64.tar.gz",
+      "releaseTag": "v2.5.28",
+      "sha256": "00fb4cc7c373d4af886f731cb0bf392622055c993a5f277ba3a55eafb56a2ba3",
+      "size": 3683057,
+      "format": "tar.gz",
+      "binaries": {
+        "rusthound-ce": {
+          "path": "rusthound-ce",
+          "sha256": "307156c57d0091480e62bdf620182ba43912ed354720102ab6979562bed837f6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/g0h4n/RustHound-CE/releases/download/v2.5.28/rusthound-ce-macOS-x86_64.tar.gz",
+      "releaseTag": "v2.5.28",
+      "sha256": "d2fbd7fc9affbf5fef793a0971683e1d9010e9323ad51ab496ea56b0edf1ad91",
+      "size": 3761759,
+      "format": "tar.gz",
+      "binaries": {
+        "rusthound-ce": {
+          "path": "rusthound-ce",
+          "sha256": "a292fc9fcb345e30c397acd9db25cfed674b6650cb73df20601921a6e49c1b77"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/g0h4n/RustHound-CE/releases/download/v2.5.28/rusthound-ce-macOS-arm64.tar.gz",
+      "releaseTag": "v2.5.28",
+      "sha256": "2af6df79e634a89552b5eb60bb81084d02fe4fb1b22754120889a33a7ce11ca5",
+      "size": 3415068,
+      "format": "tar.gz",
+      "binaries": {
+        "rusthound-ce": {
+          "path": "rusthound-ce",
+          "sha256": "e7b91c78463f9c82634bc9d40b206c4c8a11345f0865e1b18d5dfeaf53aae560"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/g0h4n/RustHound-CE/releases/download/v2.5.28/rusthound-ce-Windows-gnu-x86_64.zip",
+      "releaseTag": "v2.5.28",
+      "sha256": "4c708a027b1ef835d6d8672a3bada1e3c977380172ad39d0aaf3a61741f4e38a",
+      "size": 3775628,
+      "format": "zip",
+      "binaries": {
+        "rusthound-ce.exe": {
+          "path": "rusthound-ce.exe",
+          "sha256": "4dc06cb76c36dcaf1ccf5131508c7a932931c5cdd18ba8f9ba409cffef9d06c6"
+        }
+      }
+    }
+  }
+}
