@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "t-rec",
+  "version": "0.8.2",
+  "repository": "sassman/t-rec-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sassman/t-rec-rs/releases/download/v0.8.2/t-rec-v0.8.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.2",
+      "sha256": "94db8c41402b2ece4eb807b8673d9f3a7365cceaba83501ceb9e60bc7bc0308b",
+      "size": 2678714,
+      "format": "tar.gz",
+      "binaries": {
+        "t-rec": {
+          "path": "t-rec",
+          "sha256": "5868e7900abc829ee96ae133048ff48df995339ccca27462cf2174a797eeb6c7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sassman/t-rec-rs/releases/download/v0.8.2/t-rec-v0.8.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.2",
+      "sha256": "2087966f81c5a67a4ba299f4ffb2e3e25938df3d8d9beab543dec665d6fbf800",
+      "size": 2440429,
+      "format": "tar.gz",
+      "binaries": {
+        "t-rec": {
+          "path": "t-rec",
+          "sha256": "765036a1386c76f321ea07f76bfb6a2f1c5e5ba9b87a1034f8dc45c5527b13fa"
+        }
+      }
+    }
+  }
+}
