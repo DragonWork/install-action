@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "diplo",
+  "version": "1.0.0",
+  "repository": "Tricked-dev/diplo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Tricked-dev/diplo/releases/download/v1.0.0/diplo-x86_64-linux.tar.xz",
+      "releaseTag": "v1.0.0",
+      "sha256": "95137492da6e4241c02780a4658dfe9343edc68e4a5cf4ca128d4fa30a74b9dc",
+      "size": 5250608,
+      "format": "tar.xz",
+      "binaries": {
+        "diplo": {
+          "path": "diplo-x86_64-linux/diplo",
+          "sha256": "7412a6a05709050280055a55c30321015c5f1fa8f5b91563d1aa9b5a4adc3832"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Tricked-dev/diplo/releases/download/v1.0.0/diplo-aarch64-linux.tar.xz",
+      "releaseTag": "v1.0.0",
+      "sha256": "e9bdfcd38e89791c41658fc5df575f6f3e1559132f7b6b94a69ead421ede0222",
+      "size": 2206824,
+      "format": "tar.xz",
+      "binaries": {
+        "diplo": {
+          "path": "diplo-aarch64-linux/diplo",
+          "sha256": "f6b3ae6cbb0619550ee1be1040c92c8b15c6e31fbfd2b858d1696001ed9371fe"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Tricked-dev/diplo/releases/download/v1.0.0/diplo-x86_64-macos.tar.xz",
+      "releaseTag": "v1.0.0",
+      "sha256": "63b1a615e0812f911b566ce5d4ae57e6d7f3bcd2395994eb1151cdef7ef687e6",
+      "size": 1355004,
+      "format": "tar.xz",
+      "binaries": {
+        "diplo": {
+          "path": "diplo-x86_64-macos/diplo",
+          "sha256": "78ac74ba7e33c1bb2f59161ca2f343b4032a373f8a4b87b95ee15366378887ab"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Tricked-dev/diplo/releases/download/v1.0.0/diplo-x86_64-windows.zip",
+      "releaseTag": "v1.0.0",
+      "sha256": "3d267f5d05e00585e34e2b3c6bde65ed62bbf756a8548420ff089032a7b777ae",
+      "size": 3995201,
+      "format": "zip",
+      "binaries": {
+        "diplo.exe": {
+          "path": "diplo-x86_64-windows/diplo.exe",
+          "sha256": "3f21e71d3c89405fc510f74439c205c34b4e83e57730efa5b29513491e79534e"
+        }
+      }
+    }
+  }
+}
