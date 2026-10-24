@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dmenv",
+  "version": "0.20.0",
+  "repository": "dmerejkowsky/dmenv",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dmerejkowsky/dmenv/releases/download/v0.20.0/dmenv-linux",
+      "sha256": "f7ffc228d9fcc34bd29ce864ce8c3c0f75e7a3398624be7ca7ef7f30dba866c5",
+      "size": 4978504,
+      "format": "binary",
+      "releaseTag": "v0.20.0",
+      "binaries": {
+        "dmenv": {
+          "path": "dmenv-linux",
+          "sha256": "f7ffc228d9fcc34bd29ce864ce8c3c0f75e7a3398624be7ca7ef7f30dba866c5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dmerejkowsky/dmenv/releases/download/v0.20.0/dmenv-osx",
+      "sha256": "2bced5403c24a97c697d965410d5c78b828c6ffb0972e6f59563a07fcc3669d1",
+      "size": 2359444,
+      "format": "binary",
+      "releaseTag": "v0.20.0",
+      "binaries": {
+        "dmenv": {
+          "path": "dmenv-osx",
+          "sha256": "2bced5403c24a97c697d965410d5c78b828c6ffb0972e6f59563a07fcc3669d1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dmerejkowsky/dmenv/releases/download/v0.20.0/dmenv-windows.exe",
+      "sha256": "1421e7d36fc0b24a433a4c30206584495181253ff71e87763044d452ccfc80be",
+      "size": 2099200,
+      "format": "binary",
+      "releaseTag": "v0.20.0",
+      "binaries": {
+        "dmenv.exe": {
+          "path": "dmenv-windows.exe",
+          "sha256": "1421e7d36fc0b24a433a4c30206584495181253ff71e87763044d452ccfc80be"
+        }
+      }
+    }
+  }
+}
