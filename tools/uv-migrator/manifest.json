@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "uv-migrator",
+  "version": "2026.1.0",
+  "repository": "stvnksslr/uv-migrator",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/stvnksslr/uv-migrator/releases/download/v2026.1.0/uv-migrator-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2026.1.0",
+      "sha256": "259bf1eb9623cc0e483ac637ac9dbf141e822f4714a3f0a5c420fcc4e29c39dd",
+      "size": 3125961,
+      "format": "tar.gz",
+      "binaries": {
+        "uv-migrator": {
+          "path": "uv-migrator",
+          "sha256": "e832eac44dc77d10ebd543e47dddce81f637dea93c6cbb2d3cca209410dcc5e5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/stvnksslr/uv-migrator/releases/download/v2026.1.0/uv-migrator-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2026.1.0",
+      "sha256": "07d7ec06094b914a9ca0965e8ef80dfb5857a32aa9d0c15ed75890eaa6b958db",
+      "size": 2971999,
+      "format": "tar.gz",
+      "binaries": {
+        "uv-migrator": {
+          "path": "uv-migrator",
+          "sha256": "248fd12722a8de1999329ace20903bfc42708f80990bcb99f3e2de3ed6290c7c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/stvnksslr/uv-migrator/releases/download/v2026.1.0/uv-migrator-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2026.1.0",
+      "sha256": "bab9ff3d7785f4c25654a97ae1fba37423046b2a46adb0bb98e9af30645f1c5b",
+      "size": 2996696,
+      "format": "tar.gz",
+      "binaries": {
+        "uv-migrator": {
+          "path": "uv-migrator",
+          "sha256": "42aef7ea0dc5a00990c0d3155e7ffbc440460511376e3499a2404dd23ba58fdc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/stvnksslr/uv-migrator/releases/download/v2026.1.0/uv-migrator-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2026.1.0",
+      "sha256": "a7df69a0fb14d80706c22fa6d375da54ee07b2b57f299569d0a96990cbae3c4c",
+      "size": 2857412,
+      "format": "tar.gz",
+      "binaries": {
+        "uv-migrator": {
+          "path": "uv-migrator",
+          "sha256": "a85be14a008f0e0a3ed2c507002355116e749398d8bbf1d969b68f2256f86afb"
+        }
+      }
+    }
+  }
+}
