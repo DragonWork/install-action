@@ -109,6 +109,11 @@ async function probeReleases(catalog, state, current, limit = 2000) {
       break;
     }
     assert(response.data, `Release discovery failed: ${response.errors?.[0]?.message || 'empty response'}`);
+    if (response.errors?.length) {
+      console.log(`Release lookup errors: ${JSON.stringify(response.errors.map(error => ({
+        type: error.type, message: error.message, path: error.path,
+      }))).slice(0, 2000)}`);
+    }
     for (let index = 0; index < block.length; index++) {
       const { name, entry } = block[index];
       const upstream = response.data[`r${index}`];
