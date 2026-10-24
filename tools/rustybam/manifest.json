@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "rustybam",
+  "version": "0.2.2",
+  "repository": "vollgerlab/rustybam",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vollgerlab/rustybam/releases/download/v0.2.2/rustybam-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.2",
+      "sha256": "745dcd20e1c72664108d0391ebaa2d38478d69a41a08e9c53b5421127aebe8f6",
+      "size": 3754264,
+      "format": "tar.xz",
+      "binaries": {
+        "rb": {
+          "path": "rustybam-x86_64-unknown-linux-gnu/rb",
+          "sha256": "8cc4ec62cecd697544bd31eb7bc13c4823ffd9cae8fb20ce553709122f2ef0af"
+        },
+        "rustybam": {
+          "path": "rustybam-x86_64-unknown-linux-gnu/rustybam",
+          "sha256": "5485f5874e2980c1d7f0c581f4edd2412e5b299ae04f0df0cca88a91a419f3a8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vollgerlab/rustybam/releases/download/v0.2.2/rustybam-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.2",
+      "sha256": "8262c61c78f59747cf29f661a83db34ab3486d0f010a74baa3e4ff3e6f8d9ba8",
+      "size": 3719988,
+      "format": "tar.xz",
+      "binaries": {
+        "rb": {
+          "path": "rustybam-aarch64-apple-darwin/rb",
+          "sha256": "f83516f6ba850f7798f6eaeafd41305d2199b6be1a4162dfc9e9e1c1ba602fb7"
+        },
+        "rustybam": {
+          "path": "rustybam-aarch64-apple-darwin/rustybam",
+          "sha256": "7cf00f57db68e149c6300f9df5553ac2a0d81308ce7ebf1435572c088b78ebd7"
+        }
+      }
+    }
+  }
+}
