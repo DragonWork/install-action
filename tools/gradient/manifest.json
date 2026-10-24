@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gradient",
+  "version": "0.5.0",
+  "repository": "mazznoer/gradient-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mazznoer/gradient-rs/releases/download/v0.5.0/gradient-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "b1d513a01a7973cc74c6d50be9fd25f57eeef7a38fcc932a7e001b461256c91e",
+      "size": 320383,
+      "format": "tar.gz",
+      "binaries": {
+        "gradient": {
+          "path": "gradient-x86_64-unknown-linux-gnu/gradient",
+          "sha256": "a158adefb3cd66f2faeac45c733a3f2fa4132148537183f245cd69b2890c2882"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mazznoer/gradient-rs/releases/download/v0.5.0/gradient-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "99218e7d2e80835f19e2008321d0655ba69ea816e1ac45193020b0d4e6c4661e",
+      "size": 285225,
+      "format": "tar.gz",
+      "binaries": {
+        "gradient": {
+          "path": "gradient-aarch64-apple-darwin/gradient",
+          "sha256": "750b44ce4c6ba18aeb8126bfc61e9ba994acbd482df0d679adf04730cd78f43e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mazznoer/gradient-rs/releases/download/v0.5.0/gradient-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "4eb3834eefe6e1fcd7d29f0c2ebc2859be63dc562f770e5de5493cd73d17fd0f",
+      "size": 227314,
+      "format": "zip",
+      "binaries": {
+        "gradient.exe": {
+          "path": "gradient-x86_64-pc-windows-msvc/gradient.exe",
+          "sha256": "c26d23e79d25f337b394fde5c14fe37c8c6a062ac9a2020f95ffc0e33cb7fc5d"
+        }
+      }
+    }
+  }
+}
