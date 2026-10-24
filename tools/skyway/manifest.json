@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "skyway",
+  "version": "0.7.1",
+  "repository": "MapRVA/skyway",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MapRVA/skyway/releases/download/v0.7.1/skyway-Linux-gnu-x86_64.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "3c238aecc81121ba81773456187168f3f3239b67e521eb2b44f70c1a31929760",
+      "size": 1718665,
+      "format": "tar.gz",
+      "binaries": {
+        "skyway": {
+          "path": "skyway",
+          "sha256": "62571a2e3abe622437d95059dba0dcb33593c41f9fe887f2347b02e1e0baf7d6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MapRVA/skyway/releases/download/v0.7.1/skyway-Linux-gnu-arm64.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "cae176ad9fc048b83813e97814e68c3ad72b14ace0d8579d4044a3c841ca3423",
+      "size": 1619700,
+      "format": "tar.gz",
+      "binaries": {
+        "skyway": {
+          "path": "skyway",
+          "sha256": "2427bae8105a5da7a27e9ebba4ba9c629d06652c047919cb1e9c5bccc2f80f20"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MapRVA/skyway/releases/download/v0.7.1/skyway-macOS-x86_64.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "64a1f4c26522be01c35b4c3866c9591b8c82d6ff46c99091d701635f6d486eb4",
+      "size": 1631721,
+      "format": "tar.gz",
+      "binaries": {
+        "skyway": {
+          "path": "skyway",
+          "sha256": "52238fdf5385dc666c235d0a1612594322ba3d8a90bfdb75079c6539efaa9407"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MapRVA/skyway/releases/download/v0.7.1/skyway-macOS-arm64.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "41e5c9f65f0cfed572aa5972e0a68d29e1010cc622f85522c5b0d7c0d5c64b62",
+      "size": 1528576,
+      "format": "tar.gz",
+      "binaries": {
+        "skyway": {
+          "path": "skyway",
+          "sha256": "92316791b8918e64e2168219abb747a295f07e542ff9becf2514e5b028dcb006"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MapRVA/skyway/releases/download/v0.7.1/skyway-Windows-msvc-x86_64.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "cb35583b7c59829733da3a87d9dc7a2b89df779e240112fd21c596004e37a53e",
+      "size": 1495261,
+      "format": "zip",
+      "binaries": {
+        "skyway.exe": {
+          "path": "skyway.exe",
+          "sha256": "ed4a1f5c49ecc651f4182b73d1ff34121d552ae85ec8e08b575b08424df1251f"
+        }
+      }
+    }
+  }
+}
