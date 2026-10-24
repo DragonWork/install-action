@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "colorer",
+  "version": "1.1.0",
+  "repository": "droppo/colorer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/droppo/colorer/releases/download/v1.1.0/clrr-v1.1.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "42fa38b1f804d2321b0fd3008c8586ca31e9e401dedbdf5c6ccc04423866e462",
+      "size": 693236,
+      "format": "tar.gz",
+      "binaries": {
+        "clrr": {
+          "path": "clrr",
+          "sha256": "58d21bf0016010ae340718f285d73d8f2fa2be2488965117f6b1f0df3aa7b521"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/droppo/colorer/releases/download/v1.1.0/clrr-v1.1.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "59af5cd6c1cbbbb012ef42da50ab5e07d168b532e4b0ce42cafe801f508eda2c",
+      "size": 644544,
+      "format": "tar.gz",
+      "binaries": {
+        "clrr": {
+          "path": "clrr",
+          "sha256": "cca8ed895f32c640754ef0e61e14d660b61de8cc8680d290e194617a5f3016bd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/droppo/colorer/releases/download/v1.1.0/clrr-v1.1.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "78c6f1b592298f372d974b41470e20ba53189e4c89162c5846e84be61674dcd0",
+      "size": 634592,
+      "format": "tar.gz",
+      "binaries": {
+        "clrr": {
+          "path": "clrr",
+          "sha256": "b17ab8619b6f4b43df7738fdaa32089bc0117fecf2be3a9521be23c334120a75"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/droppo/colorer/releases/download/v1.1.0/clrr-v1.1.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.1.0",
+      "sha256": "319c230731e368505850c418e39afd63027bdd977f000a89b4f618c26196b49e",
+      "size": 634592,
+      "format": "tar.gz",
+      "binaries": {
+        "clrr": {
+          "path": "clrr",
+          "sha256": "b17ab8619b6f4b43df7738fdaa32089bc0117fecf2be3a9521be23c334120a75"
+        }
+      }
+    }
+  }
+}
