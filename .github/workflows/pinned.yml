@@ -17,20 +17,3 @@ jobs:
         env:
           EXPECTED_VERSION: ${{ steps.cliff.outputs.version }}
 
-  dinghy:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-26.04, macos-15-intel, macos-15]
-    runs-on: ${{ matrix.os }}
-    steps:
-      - uses: DragonWork/install-action@febef948677370a825a0c9bf206949bf8d6f3897 # v1.2.0
-      - id: dinghy
-        uses: DragonWork/install-action/tools/cargo-dinghy@8976fca7e98645a390bc74859e17de8309700083 # cargo-dinghy/v0.8.6
-      - shell: bash
-        run: |
-          version="$(cargo dinghy --version)"
-          printf '%s\n' "$version"
-          test "${version##* }" = "$EXPECTED_VERSION"
-        env:
-          EXPECTED_VERSION: ${{ steps.dinghy.outputs.version }}
