@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "hpk",
+  "version": "0.3.12",
+  "repository": "nickelc/hpk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nickelc/hpk/releases/download/v0.3.12/hpk-v0.3.12-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.12",
+      "sha256": "d2bda7087fa67c62577b63516ca515b943bba03eddf2014c8f65bfa835be346e",
+      "size": 730263,
+      "format": "tar.gz",
+      "binaries": {
+        "hpk": {
+          "path": "hpk-v0.3.12-x86_64-unknown-linux-musl/hpk",
+          "sha256": "47fd9bf0f3d3182151f4e201cec799003758e2aff1700fb832211178450c811a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nickelc/hpk/releases/download/v0.3.12/hpk-v0.3.12-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.12",
+      "sha256": "fcbb7e997ae38ef36336387a06a9265e8096ae678b673006b18f961a4c3c8db5",
+      "size": 625427,
+      "format": "tar.gz",
+      "binaries": {
+        "hpk": {
+          "path": "hpk-v0.3.12-x86_64-apple-darwin/hpk",
+          "sha256": "6330bf154bcfdb96d07473944dd93ff526c55b74167dc070373e1f8d00bc5533"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nickelc/hpk/releases/download/v0.3.12/hpk-v0.3.12-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.12",
+      "sha256": "6b1184dd35c26fec8c07e36a6fa6e01de4b7453aab099c513fefa499ee081005",
+      "size": 499587,
+      "format": "zip",
+      "binaries": {
+        "hpk.exe": {
+          "path": "hpk-v0.3.12-x86_64-pc-windows-msvc/hpk.exe",
+          "sha256": "cf7d601b5f3981409743ced317df775d7899c7a7f4d72910564c4fd2dd91ea45"
+        }
+      }
+    }
+  }
+}
