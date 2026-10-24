@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "nurl",
+  "version": "0.4.1",
+  "repository": "nix-community/nurl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nix-community/nurl/releases/download/v0.4.1/nurl-x86_64-unknown-linux-musl",
+      "sha256": "bd7cee0f3dde5ff452839687631b86b8cfbd3d56060a6a7aa6daaf5cf180f6ac",
+      "size": 3157464,
+      "format": "binary",
+      "releaseTag": "v0.4.1",
+      "binaries": {
+        "nurl": {
+          "path": "nurl-x86_64-unknown-linux-musl",
+          "sha256": "bd7cee0f3dde5ff452839687631b86b8cfbd3d56060a6a7aa6daaf5cf180f6ac"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nix-community/nurl/releases/download/v0.4.1/nurl-x86_64-apple-darwin",
+      "sha256": "5bdbf8a0d86d90a7db5fa03959529ff2901b337eb136c40b26137ebc858600d8",
+      "size": 2753224,
+      "format": "binary",
+      "releaseTag": "v0.4.1",
+      "binaries": {
+        "nurl": {
+          "path": "nurl-x86_64-apple-darwin",
+          "sha256": "5bdbf8a0d86d90a7db5fa03959529ff2901b337eb136c40b26137ebc858600d8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nix-community/nurl/releases/download/v0.4.1/nurl-aarch64-apple-darwin",
+      "sha256": "bca5893643acdd0b0630d2100f68648cce0e241285f68d8b41d51d4afb320148",
+      "size": 2326432,
+      "format": "binary",
+      "releaseTag": "v0.4.1",
+      "binaries": {
+        "nurl": {
+          "path": "nurl-aarch64-apple-darwin",
+          "sha256": "bca5893643acdd0b0630d2100f68648cce0e241285f68d8b41d51d4afb320148"
+        }
+      }
+    }
+  }
+}
