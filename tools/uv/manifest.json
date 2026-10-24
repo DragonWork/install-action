@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "name": "uv",
+  "version": "0.13.5",
+  "repository": "astral-sh/uv",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.13.5",
+      "sha256": "a38b8d1902b7cfbc76b423ba1bb456f623f42064cdc72628b6075b89afd1019a",
+      "size": 15264056,
+      "format": "zip",
+      "binaries": {
+        "uv.exe": {
+          "path": "uv.exe",
+          "sha256": "f45d1cb9d9140ca6d3f4005fdfc0ebeccf849fd04d1dc85804155cb923f1597b"
+        },
+        "uvw.exe": {
+          "path": "uvw.exe",
+          "sha256": "0378ce36ccb73efbdf98f15282fd8467f62c7359321f6b7579eca11284ede8c4"
+        },
+        "uvx.exe": {
+          "path": "uvx.exe",
+          "sha256": "df072bb833b88deb80ddd1fb44c5d711abdf35ef690331ca6d8af4647a55cfa4"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.13.5",
+      "sha256": "09f47edf90726084a70f9426f6e3ca4f46e9bf7cbf23b1716ec64d60b055fae3",
+      "size": 15439089,
+      "format": "zip",
+      "binaries": {
+        "uv.exe": {
+          "path": "uv.exe",
+          "sha256": "9690c472d1f5c9c57b5919512c64024dfff872d3e35be8f1892fe895a502b913"
+        },
+        "uvw.exe": {
+          "path": "uvw.exe",
+          "sha256": "4d1e5e178d841d964595798d76f8e9bc7d2c0ecf0b5914f0c55425ff3ec25efa"
+        },
+        "uvx.exe": {
+          "path": "uvx.exe",
+          "sha256": "f72bd825622ebce97278785b336a3ef7c1e69a649fda3dfadac71ea13c3d17b4"
+        }
+      }
+    }
+  }
+}
