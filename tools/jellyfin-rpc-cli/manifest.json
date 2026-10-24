@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "jellyfin-rpc-cli",
+  "version": "1.3.5",
+  "repository": "justradical/jellyfin-rpc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/justradical/jellyfin-rpc/releases/download/1.3.5/jellyfin-rpc-x86_64-linux",
+      "sha256": "d723ad43662d08b2d489bf58de5669747e69bc01ed971b1907666cc8de65a1d9",
+      "size": 4837536,
+      "format": "binary",
+      "releaseTag": "1.3.5",
+      "binaries": {
+        "jellyfin-rpc": {
+          "path": "jellyfin-rpc-x86_64-linux",
+          "sha256": "d723ad43662d08b2d489bf58de5669747e69bc01ed971b1907666cc8de65a1d9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/justradical/jellyfin-rpc/releases/download/1.3.5/jellyfin-rpc-arm64-linux",
+      "sha256": "e11853f75098b3aae367778b81ba04a41908567a8f2f38aca31c642f5a2d3449",
+      "size": 4166600,
+      "format": "binary",
+      "releaseTag": "1.3.5",
+      "binaries": {
+        "jellyfin-rpc": {
+          "path": "jellyfin-rpc-arm64-linux",
+          "sha256": "e11853f75098b3aae367778b81ba04a41908567a8f2f38aca31c642f5a2d3449"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/justradical/jellyfin-rpc/releases/download/1.3.5/jellyfin-rpc-x86_64-darwin",
+      "sha256": "90fff5759a1469a2cc5bfde90b88ccbcf543741174d70a25f7505be10408205f",
+      "size": 4367248,
+      "format": "binary",
+      "releaseTag": "1.3.5",
+      "binaries": {
+        "jellyfin-rpc": {
+          "path": "jellyfin-rpc-x86_64-darwin",
+          "sha256": "90fff5759a1469a2cc5bfde90b88ccbcf543741174d70a25f7505be10408205f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/justradical/jellyfin-rpc/releases/download/1.3.5/jellyfin-rpc-arm64-darwin",
+      "sha256": "f61d7ecc7cca6f37b9477afc65609c2fe4c6a2cd81cc63a6fa03bf726c904799",
+      "size": 3798544,
+      "format": "binary",
+      "releaseTag": "1.3.5",
+      "binaries": {
+        "jellyfin-rpc": {
+          "path": "jellyfin-rpc-arm64-darwin",
+          "sha256": "f61d7ecc7cca6f37b9477afc65609c2fe4c6a2cd81cc63a6fa03bf726c904799"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/justradical/jellyfin-rpc/releases/download/1.3.5/jellyfin-rpc.exe",
+      "sha256": "d50ab8a6c2c2abbdb06f4777a0b3bfe7f31f45f97dd6f8ab099df7932ebe2d34",
+      "size": 4279296,
+      "format": "binary",
+      "releaseTag": "1.3.5",
+      "binaries": {
+        "jellyfin-rpc.exe": {
+          "path": "jellyfin-rpc.exe",
+          "sha256": "d50ab8a6c2c2abbdb06f4777a0b3bfe7f31f45f97dd6f8ab099df7932ebe2d34"
+        }
+      }
+    }
+  }
+}
