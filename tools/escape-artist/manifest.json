@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "escape-artist",
+  "version": "0.6.7",
+  "repository": "rgwood/escape-artist",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rgwood/escape-artist/releases/download/v0.6.7/escape-artist-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.7",
+      "sha256": "28daf78fe8a9e2a514f3d9483ced4072ca6acc3638c3e99e19cc536dd3037497",
+      "size": 1650583,
+      "format": "tar.gz",
+      "binaries": {
+        "escape-artist": {
+          "path": "escape-artist",
+          "sha256": "0c83d030b96a5cb551662758602b087cffb573edde4cd2ed9dfd860189b3d4bb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rgwood/escape-artist/releases/download/v0.6.7/escape-artist-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.7",
+      "sha256": "cd1415c1bb600b56c18166220b985b4f439335ed38f41552f72d9fe4854d513f",
+      "size": 1722836,
+      "format": "tar.gz",
+      "binaries": {
+        "escape-artist": {
+          "path": "escape-artist",
+          "sha256": "2b6c6325d514d9fe30a6eef3f102f3b44e799e65e994f7dcefa658052bfee15c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rgwood/escape-artist/releases/download/v0.6.7/escape-artist-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.7",
+      "sha256": "cd453692b948e733f8aa2330392b3c83a50fc695fb61ab91ef36cad9a7516661",
+      "size": 1439833,
+      "format": "tar.gz",
+      "binaries": {
+        "escape-artist": {
+          "path": "escape-artist",
+          "sha256": "99f7c27bc824d2484e93e27191c36bba67eca03c65d3f6493a5214d80d4c6321"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rgwood/escape-artist/releases/download/v0.6.7/escape-artist-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.7",
+      "sha256": "8f39b87b817d0cb08b3cd08d5b629db3d491034bb774a79425c3e7f58574cb8a",
+      "size": 1440730,
+      "format": "tar.gz",
+      "binaries": {
+        "escape-artist": {
+          "path": "escape-artist",
+          "sha256": "8bf269a16a6338ccf785b2b43e8f49a2cffca4c5d515994d12d0a843b8e3f9b2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rgwood/escape-artist/releases/download/v0.6.7/escape-artist-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.7",
+      "sha256": "81d807dac1669f59d53b6737becae3053dc5220aa69ce234401e3d64b6f7f7e0",
+      "size": 1254629,
+      "format": "zip",
+      "binaries": {
+        "escape-artist.exe": {
+          "path": "escape-artist.exe",
+          "sha256": "25b2e91d8009c5640a82d404d99daa4aba515b44a0e9a0034f35cca702cd0a78"
+        }
+      }
+    }
+  }
+}
