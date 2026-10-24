@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "uptime_lib",
+  "version": "0.3.1",
+  "repository": "itchyny/uptime-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.1/uptime-rs_v0.3.1_linux_amd64.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "bdd5c405d655c2bbda9071bbdb7d14390884aeba92fb17a24346562c9f6b0fa6",
+      "size": 169468,
+      "format": "zip",
+      "binaries": {
+        "uptime-rs": {
+          "path": "uptime-rs_v0.3.1_linux_amd64/uptime-rs",
+          "sha256": "eb084baef6c09ca1c51c5a1df7caeb37ede7ca6108493d3c4f0f0d45bb080b93"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.1/uptime-rs_v0.3.1_linux_arm64.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "ea9ed9d1714ad9e81f183a9b11fe5d3bcfd75ba11806ed5003b5e8e86282ac41",
+      "size": 163368,
+      "format": "zip",
+      "binaries": {
+        "uptime-rs": {
+          "path": "uptime-rs_v0.3.1_linux_arm64/uptime-rs",
+          "sha256": "d732efb69b601d171995eb3bc8bb48cffe9eb000c481a9774b5d3b919a5486e7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.1/uptime-rs_v0.3.1_darwin_amd64.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "0954d8f9d572cea67d6d7dc0fd2385fcf7d65d93b9357ff3d3744a60a2ec04a2",
+      "size": 157802,
+      "format": "zip",
+      "binaries": {
+        "uptime-rs": {
+          "path": "uptime-rs_v0.3.1_darwin_amd64/uptime-rs",
+          "sha256": "fbba8dad168963d1d962dd4d2608d7fc486ade30d0ee7cc37dfa8ec7a5e08c85"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.1/uptime-rs_v0.3.1_darwin_arm64.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "908516c5cfc16bb721744b04261c41037e836380615d657c4c57859dd0ced340",
+      "size": 152981,
+      "format": "zip",
+      "binaries": {
+        "uptime-rs": {
+          "path": "uptime-rs_v0.3.1_darwin_arm64/uptime-rs",
+          "sha256": "4b87f086e6125a6c617ba276e19e99dbe7933deb3c75d592905bcde276651236"
+        }
+      }
+    }
+  }
+}
