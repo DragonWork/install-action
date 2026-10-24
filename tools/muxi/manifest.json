@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "muxi",
+  "version": "4.3.0",
+  "repository": "iovis/muxi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/iovis/muxi/releases/download/v4.3.0/muxi-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v4.3.0",
+      "sha256": "8e55271b04a7c9ff07ed0398a703233d55f8c04642ab5f194f5696ffc7fa6797",
+      "size": 1462004,
+      "format": "tar.xz",
+      "binaries": {
+        "muxi": {
+          "path": "muxi-x86_64-unknown-linux-musl/muxi",
+          "sha256": "950b62232a979c7cced866b8f56574f2f474ab7fc0b03241c0a44f1ed6471501"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/iovis/muxi/releases/download/v4.3.0/muxi-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v4.3.0",
+      "sha256": "ad62382c1670375dafe7b09ad21f7db6b7b6e230dec8ad846762abb53e80a41e",
+      "size": 1190364,
+      "format": "tar.xz",
+      "binaries": {
+        "muxi": {
+          "path": "muxi-aarch64-apple-darwin/muxi",
+          "sha256": "d2d36be89dbc464d941b4cc7909189e160c125cb738c98d5210f44c829bed2b5"
+        }
+      }
+    }
+  }
+}
