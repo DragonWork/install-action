@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "fuel-core-keygen",
+  "version": "0.20.8",
+  "repository": "FuelLabs/fuel-core",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/fuel-core/releases/download/v0.20.8/fuel-core-0.20.8-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.20.8",
+      "sha256": "8b96a066c2a76aa84eb7bb1fcc26674c093b15f30d23859974bcb4ef857b0bd0",
+      "size": 12544540,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-core-keygen": {
+          "path": "fuel-core-0.20.8-x86_64-unknown-linux-gnu/fuel-core-keygen",
+          "sha256": "7a91db493167f7f0f2f33d1703bd4f1373ee9866b2d16505eb3e4e988f56c529"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-core/releases/download/v0.20.8/fuel-core-0.20.8-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.20.8",
+      "sha256": "b069bc6cdbd2b808cb676eb2c643f0efcc0fdcb56f352a959d27ae753fe4b30b",
+      "size": 11895585,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-core-keygen": {
+          "path": "fuel-core-0.20.8-aarch64-unknown-linux-gnu/fuel-core-keygen",
+          "sha256": "127a0866691a1ef083bc68cb2a7331ce0c674c97df85b15981db779bf9c9a5f2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/fuel-core/releases/download/v0.20.8/fuel-core-0.20.8-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.20.8",
+      "sha256": "cd1dd01b101796014a659a8b005d9856dd57f547c4e993008d248046b51e140e",
+      "size": 11702234,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-core-keygen": {
+          "path": "fuel-core-0.20.8-x86_64-apple-darwin/fuel-core-keygen",
+          "sha256": "f0a7ee6d5c929fd5fbe4d4b0a6de0aef53386b5db73df076f34e0ccbbaf59ff7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/fuel-core/releases/download/v0.20.8/fuel-core-0.20.8-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.20.8",
+      "sha256": "8b0829f1ef334fb1789c40461b14d167e169a83cc7f4f200c999f640f0087c0c",
+      "size": 10831372,
+      "format": "tar.gz",
+      "binaries": {
+        "fuel-core-keygen": {
+          "path": "fuel-core-0.20.8-aarch64-apple-darwin/fuel-core-keygen",
+          "sha256": "0cf66d3d8a55851d10639892c74b982719c69add57923abf07b8a3b621f1580f"
+        }
+      }
+    }
+  }
+}
