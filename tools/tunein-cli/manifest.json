@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tunein-cli",
+  "version": "0.7.1",
+  "repository": "tsirysndr/tunein-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tsirysndr/tunein-cli/releases/download/v0.7.1/tunein_v0.7.1_x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "93352d50c81ebf821d6b82ccc21882f23f951c333ba7f0b54c89a0a0a53121fa",
+      "size": 7490206,
+      "format": "tar.gz",
+      "binaries": {
+        "tunein": {
+          "path": "tunein",
+          "sha256": "8075f46075db700daa8c2d85a08198b819dda5bb702a458c29d4eb79e9f5f472"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tsirysndr/tunein-cli/releases/download/v0.7.1/tunein_v0.7.1_aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "d1bb049a3f764e4463b82c05cca043786a4adf226e1af4db446f5a746bd87c4d",
+      "size": 7148128,
+      "format": "tar.gz",
+      "binaries": {
+        "tunein": {
+          "path": "tunein",
+          "sha256": "8a7ac2c3c25b9ad75ef80fe2517cce668c33c0633e64882b09d410801c8d3f17"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tsirysndr/tunein-cli/releases/download/v0.7.1/tunein_v0.7.1_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "e8535e4927ac3b32c65e16a23967f67866c6ebae69cf247e7d00ce4d27e3c2e6",
+      "size": 6618548,
+      "format": "tar.gz",
+      "binaries": {
+        "tunein": {
+          "path": "tunein",
+          "sha256": "30f4a230b2febf570698649f54664807cd3046b5028a0cbf9a5c90043938abd1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tsirysndr/tunein-cli/releases/download/v0.7.1/tunein_v0.7.1_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "351ac04387c082dbcc3c25541f366c305cdef447a64ec5eda9292be487a857fe",
+      "size": 6145512,
+      "format": "tar.gz",
+      "binaries": {
+        "tunein": {
+          "path": "tunein",
+          "sha256": "dcc6b46e6417daf2ff25a4f82ec63e0407e27c416e3c831781bd55f807068f5f"
+        }
+      }
+    }
+  }
+}
