@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gengo-bin",
+  "version": "0.15.0",
+  "repository": "spenserblack/gengo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/spenserblack/gengo/releases/download/v0.15.0/gengo-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "5bca35ed7b07095742b5621528b480ba883f5ff812479ffc6407071df3766166",
+      "size": 2961788,
+      "format": "tar.gz",
+      "binaries": {
+        "gengo": {
+          "path": "gengo",
+          "sha256": "33badf2bc9689117a38a5321adbc2a9e0fde1466735eda6e691ac2327132e31c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/spenserblack/gengo/releases/download/v0.15.0/gengo-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "f84fb74cf8c0ce43166fdccb47df3aa37147d2b4d870568b82416291a9cda0ed",
+      "size": 2746903,
+      "format": "tar.gz",
+      "binaries": {
+        "gengo": {
+          "path": "gengo",
+          "sha256": "f756e5882682798aec3e2f18a3bb1cf77fee9f690edf83289a444c39e98ea596"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/spenserblack/gengo/releases/download/v0.15.0/gengo-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.15.0",
+      "sha256": "fe4575021ce4615ff070c78ba53ec78ce21c19deedc1ae9628bf6e0295fc76c8",
+      "size": 2464660,
+      "format": "tar.gz",
+      "binaries": {
+        "gengo.exe": {
+          "path": "gengo.exe",
+          "sha256": "ea188346a03eb06d3885ed03a317087c8c43fce921183254558b5e472334f95e"
+        }
+      }
+    }
+  }
+}
