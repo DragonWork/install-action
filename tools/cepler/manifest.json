@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cepler",
+  "version": "0.7.22",
+  "repository": "bodymindarts/cepler",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bodymindarts/cepler/releases/download/v0.7.22/cepler-x86_64-unknown-linux-musl-0.7.22.tar.gz",
+      "releaseTag": "v0.7.22",
+      "sha256": "5fdbfa97dde67304cf171b66443c6d9ab98ce12574628cd8deb2c6d0c940f199",
+      "size": 3837863,
+      "format": "tar.gz",
+      "binaries": {
+        "cepler": {
+          "path": "cepler-x86_64-unknown-linux-musl-0.7.22/cepler",
+          "sha256": "3156f99a91625e2eb2ddb30b48ff1b391a17177941f5a4546fd8d4e09ad34302"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bodymindarts/cepler/releases/download/v0.7.22/cepler-x86_64-apple-darwin-0.7.22.tar.gz",
+      "releaseTag": "v0.7.22",
+      "sha256": "f81c2a288e1dafa426079a60688d406ac54e4e979777d761259ee5ca682c1e8c",
+      "size": 2811869,
+      "format": "tar.gz",
+      "binaries": {
+        "cepler": {
+          "path": "cepler-x86_64-apple-darwin-0.7.22/cepler",
+          "sha256": "747314cb395cf003ee3c5d187ea08835b5e4afb18b2aee4f02210de4d71c30a0"
+        }
+      }
+    }
+  }
+}
