@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dirscan",
+  "version": "1.4.1",
+  "repository": "orf/dirscan",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orf/dirscan/releases/download/v1.4.1/dirscan-Linux-x86_64.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "8e69184ba5828a71504b77457c85a40ca2c5a562387d5334a3fd23c5f3ba9ca9",
+      "size": 770434,
+      "format": "tar.gz",
+      "binaries": {
+        "dirscan": {
+          "path": "dirscan",
+          "sha256": "10b3bc429f192f71e72af6b2d9693c10398f74fda09b2832a32bce6ff3b1b3c7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orf/dirscan/releases/download/v1.4.1/dirscan-Darwin-x86_64.tar.gz",
+      "releaseTag": "v1.4.1",
+      "sha256": "5114b19b3278833dcb2d95cbd26758010755c4db85cd6b313d18b06a300b8e00",
+      "size": 730163,
+      "format": "tar.gz",
+      "binaries": {
+        "dirscan": {
+          "path": "dirscan",
+          "sha256": "0157695c14a3d1684ba270f2167100e40dcb17b77633c1fb2372b531963d8294"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orf/dirscan/releases/download/v1.4.1/dirscan-Windows-x86_64.zip",
+      "releaseTag": "v1.4.1",
+      "sha256": "a3fdf4aca9085aa9e0b7cfef578d99f811aa2a49c58a5124e119baa48ec1a83c",
+      "size": 719149,
+      "format": "zip",
+      "binaries": {
+        "dirscan.exe": {
+          "path": "dirscan.exe",
+          "sha256": "834a2c366258e22fc6dee0bcf31742bce21d662e1e997763e2728fdc11d4c88e"
+        }
+      }
+    }
+  }
+}
