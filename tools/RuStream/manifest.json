@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "RuStream",
+  "version": "1.4.0",
+  "repository": "thevickypedia/RuStream",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thevickypedia/RuStream/releases/download/v1.4.0/RuStream-Linux-x86_64.tar.gz",
+      "releaseTag": "v1.4.0",
+      "sha256": "7025286c13d75d4402548af884151cc290e498d86551be61fad33f9ecddcc404",
+      "size": 5136948,
+      "format": "tar.gz",
+      "binaries": {
+        "rustream": {
+          "path": "RuStream/rustream",
+          "sha256": "0390279e099dc6c503084c71ac01c3a875e19c98ab22e16161fd41f31e167b1b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thevickypedia/RuStream/releases/download/v1.4.0/RuStream-Darwin-x86_64.tar.gz",
+      "releaseTag": "v1.4.0",
+      "sha256": "281744ec65bac1bcfcd55b84781b2432c3f602e87e8612911253a6c1e6ccec71",
+      "size": 3339421,
+      "format": "tar.gz",
+      "binaries": {
+        "rustream": {
+          "path": "RuStream/rustream",
+          "sha256": "b9f452fdf62db83cf05ee58123f729e08a984ac4efb07e0f29393f9a2d64c015"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/thevickypedia/RuStream/releases/download/v1.4.0/RuStream-Darwin-arm64.tar.gz",
+      "releaseTag": "v1.4.0",
+      "sha256": "2f4426e8557d3b660e61877814fcd0f1d4826852ce6c22e8d072034a492532a1",
+      "size": 3170127,
+      "format": "tar.gz",
+      "binaries": {
+        "rustream": {
+          "path": "RuStream/rustream",
+          "sha256": "616c397cb5bb313651ae40f71cbfe3ca96bf02ef821c36d29169e1c3e2ab5c0a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/thevickypedia/RuStream/releases/download/v1.4.0/RuStream-Windows-x86_64.zip",
+      "releaseTag": "v1.4.0",
+      "sha256": "760d7bcf62392228d6aaedd2ec0154d1046545381ce7bbb49570284efb6e8d95",
+      "size": 4706576,
+      "format": "zip",
+      "binaries": {
+        "rustream.exe": {
+          "path": "RuStream/rustream.exe",
+          "sha256": "e10104347d3a31e7c85f0e52c80f39349ca21050f7ecb72880ca13b26ad94e55"
+        }
+      }
+    }
+  }
+}
