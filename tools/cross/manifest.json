@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "name": "cross",
+  "version": "0.2.5",
+  "repository": "cross-rs/cross",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cross-rs/cross/releases/download/v0.2.5/cross-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.5",
+      "sha256": "a486cefa6cb486971b97be321ea9dfc2e90c1979550295314a368f53fab6d588",
+      "size": 2870100,
+      "format": "tar.gz",
+      "binaries": {
+        "cross-util": {
+          "path": "cross-util",
+          "sha256": "1520f8b2b811d1947da012fbbdac906aa77e760e53341c468da5d590edd49da4"
+        },
+        "cross": {
+          "path": "cross",
+          "sha256": "c451e4396d73ea5ade8cc56e9e1185e794eab5bf1cd6c4a25e11dd484a58a7e4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cross-rs/cross/releases/download/v0.2.5/cross-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.5",
+      "sha256": "84a664edbd5405efc985e9423804cc63d12e55691b9c7e9729355fdf7b9af015",
+      "size": 1802288,
+      "format": "tar.gz",
+      "binaries": {
+        "cross-util": {
+          "path": "cross-util",
+          "sha256": "650c8c66f0620a789ce8e07bb11c1f55f77efda4fc0ed10e8e1ad2856fcbd66e"
+        },
+        "cross": {
+          "path": "cross",
+          "sha256": "cd82b66bf654b85ee61b8b6cdc02ec94ab175dec2f97d3f8c1d0df69dec39a3f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cross-rs/cross/releases/download/v0.2.5/cross-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.2.5",
+      "sha256": "3d4d6dbebf448b1f6856c662b2b342db0a7f6827e91ed88e2bf0e5ca00a30a81",
+      "size": 1462893,
+      "format": "tar.gz",
+      "binaries": {
+        "cross-util.exe": {
+          "path": "cross-util.exe",
+          "sha256": "16177caed314f0aa586f058d3eac15b5fc86f1474379acc22fc4e7cfbe2d87e7"
+        },
+        "cross.exe": {
+          "path": "cross.exe",
+          "sha256": "bbe1d67e1597ad6bc67619b3d4d0ce1f1882e21df0c79e813647c3930f0db3e1"
+        }
+      }
+    }
+  }
+}
