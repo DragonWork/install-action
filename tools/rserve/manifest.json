@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rserve",
+  "version": "0.1.9",
+  "repository": "ahaoboy/rserve",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ahaoboy/rserve/releases/download/v0.1.9/rserve-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "5ddb3d33d3f7e95716d79719636b654a000433c727e6b3b10ed34cd8a7bc131d",
+      "size": 2124472,
+      "format": "tar.xz",
+      "binaries": {
+        "rserve": {
+          "path": "rserve-x86_64-unknown-linux-gnu/rserve",
+          "sha256": "574adbfc8cccb8bee061b351cad9c538563701b028bcb79d3c30af4f72df3e55"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ahaoboy/rserve/releases/download/v0.1.9/rserve-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.1.9",
+      "sha256": "56858ec6591929e01388f47f9209a739bbe34c1a403f156eee5fc484a49ab49f",
+      "size": 1560112,
+      "format": "tar.xz",
+      "binaries": {
+        "rserve": {
+          "path": "rserve-x86_64-apple-darwin/rserve",
+          "sha256": "6f70bf8ac2e805944998dfbf7ddd01af7fb3e15bcb71300720d0eed54d328a12"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ahaoboy/rserve/releases/download/v0.1.9/rserve-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.9",
+      "sha256": "17aa905bfef349cb9200770da5823c311747097a9bcea60ea1325645c6b444d9",
+      "size": 5460735,
+      "format": "zip",
+      "binaries": {
+        "rserve.exe": {
+          "path": "rserve.exe",
+          "sha256": "70cb18aebcd968be4431037a7cc8f11641f2d95c9623ecf6922a0ca8de1a0d5b"
+        }
+      }
+    }
+  }
+}
