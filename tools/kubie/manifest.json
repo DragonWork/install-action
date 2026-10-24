@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "kubie",
+  "version": "0.28.0",
+  "repository": "kubie-org/kubie",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kubie-org/kubie/releases/download/v0.28.0/kubie-linux-amd64",
+      "sha256": "73c33bf140e3a6bf4cb603c371d1189f5bcce85ccc4e48fcfef9cd64642ffead",
+      "size": 7378384,
+      "format": "binary",
+      "releaseTag": "v0.28.0",
+      "binaries": {
+        "kubie": {
+          "path": "kubie-linux-amd64",
+          "sha256": "73c33bf140e3a6bf4cb603c371d1189f5bcce85ccc4e48fcfef9cd64642ffead"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kubie-org/kubie/releases/download/v0.28.0/kubie-linux-arm64",
+      "sha256": "04e85711d515d2a81998677d2cdfd6e3d8943dd050b6cd1a5d29ee837b47913e",
+      "size": 5751608,
+      "format": "binary",
+      "releaseTag": "v0.28.0",
+      "binaries": {
+        "kubie": {
+          "path": "kubie-linux-arm64",
+          "sha256": "04e85711d515d2a81998677d2cdfd6e3d8943dd050b6cd1a5d29ee837b47913e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kubie-org/kubie/releases/download/v0.28.0/kubie-darwin-amd64",
+      "sha256": "5d1ea93a84a75c955b99c2486a95a74d7be7d28825c3ecc3c951453a398a1165",
+      "size": 6745672,
+      "format": "binary",
+      "releaseTag": "v0.28.0",
+      "binaries": {
+        "kubie": {
+          "path": "kubie-darwin-amd64",
+          "sha256": "5d1ea93a84a75c955b99c2486a95a74d7be7d28825c3ecc3c951453a398a1165"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kubie-org/kubie/releases/download/v0.28.0/kubie-darwin-arm64",
+      "sha256": "d5e757c5cc608fefb7450dd4d395aaf9fc6a52f194af220c9a1fe7ed38570960",
+      "size": 5695952,
+      "format": "binary",
+      "releaseTag": "v0.28.0",
+      "binaries": {
+        "kubie": {
+          "path": "kubie-darwin-arm64",
+          "sha256": "d5e757c5cc608fefb7450dd4d395aaf9fc6a52f194af220c9a1fe7ed38570960"
+        }
+      }
+    }
+  }
+}
