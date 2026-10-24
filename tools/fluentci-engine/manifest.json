@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "fluentci-engine",
+  "version": "0.4.11",
+  "repository": "fluentci-io/fluentci-engine",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/fluentci-io/fluentci-engine/releases/download/v0.4.11/fluentci-engine_v0.4.11_x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.11",
+      "sha256": "a1c176cc9c2b726f8e81b53c5830721ced7ecfa56d66c371c10ae5634f423f89",
+      "size": 24407150,
+      "format": "tar.gz",
+      "binaries": {
+        "fluentci-engine": {
+          "path": "fluentci-engine",
+          "sha256": "0b1f27c222fbbcb2548256aaa133eeeda094f6024bf0fc6de01a51989d802c23"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/fluentci-io/fluentci-engine/releases/download/v0.4.11/fluentci-engine_v0.4.11_aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.11",
+      "sha256": "d1a0f6a43553c3454f7ef88c59a823989162b1087747e61e6037cca6c0d591b6",
+      "size": 23684808,
+      "format": "tar.gz",
+      "binaries": {
+        "fluentci-engine": {
+          "path": "fluentci-engine",
+          "sha256": "42031552bce4975e317b1465e64a6baf6e492e9ebca4c6bfa8023a1621bdbd1b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/fluentci-io/fluentci-engine/releases/download/v0.4.11/fluentci-engine_v0.4.11_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.11",
+      "sha256": "a7ff09f1c5fb04915635715fedb323bf334332cff33a3b83f5a033d08c9db78e",
+      "size": 20326375,
+      "format": "tar.gz",
+      "binaries": {
+        "fluentci-engine": {
+          "path": "fluentci-engine",
+          "sha256": "4f4041bcf1d8355fdd3de6aebdaf741b3fc146e361886e30e3e4a93c752663cf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/fluentci-io/fluentci-engine/releases/download/v0.4.11/fluentci-engine_v0.4.11_aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.11",
+      "sha256": "430947ed2adc5c4bcebf09af47c2f5a9d9f2294310c4cfd4b87fd0c4e5715063",
+      "size": 19104340,
+      "format": "tar.gz",
+      "binaries": {
+        "fluentci-engine": {
+          "path": "fluentci-engine",
+          "sha256": "0d997d7244a4f6d88e67c5b9874866d83abde7b6a01f303a4736c5b3ae76f62e"
+        }
+      }
+    }
+  }
+}
