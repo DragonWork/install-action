@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "crossgen",
+  "version": "0.6.0",
+  "repository": "yoshuawuyts/crossgen",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yoshuawuyts/crossgen/releases/download/0.6.0/crossgen-0.6.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "85004b94a993fdd97b2f7746979940f3caee260bac1f87369f484b3aad96695c",
+      "size": 4621332,
+      "format": "tar.gz",
+      "binaries": {
+        "crossgen": {
+          "path": "crossgen",
+          "sha256": "6b6a2d9a39b5134cae11118ebf7c188266b970e50d804b2c3509712320146550"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yoshuawuyts/crossgen/releases/download/0.6.0/crossgen-0.6.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.6.0",
+      "sha256": "01197013e292c5f2b94b8f96bd9237028989b3171a70fea783f5f5bc557c1d87",
+      "size": 2433364,
+      "format": "tar.gz",
+      "binaries": {
+        "crossgen": {
+          "path": "crossgen",
+          "sha256": "7cb2ac351321c92ac98c945af2094f17fb90e81aa66b57446fa77bd3f3d174fd"
+        }
+      }
+    }
+  }
+}
