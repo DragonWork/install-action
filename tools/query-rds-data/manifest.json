@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "query-rds-data",
+  "version": "4.0.1",
+  "repository": "bruceadams/query-rds-data",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bruceadams/query-rds-data/releases/download/v4.0.1/query-rds-data-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v4.0.1",
+      "sha256": "87f3deef0be542a1b30db7a05e0881b2b9f1013acfa07e096c946a6763273bad",
+      "size": 6873081,
+      "format": "tar.gz",
+      "binaries": {
+        "query-rds-data": {
+          "path": "query-rds-data-x86_64-unknown-linux-musl/query-rds-data",
+          "sha256": "3b52bf9f8c4be3342f7747856194bf1001d2d99ab199020078a1dcd99df7a834"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bruceadams/query-rds-data/releases/download/v4.0.1/query-rds-data-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v4.0.1",
+      "sha256": "87d9682d0eb36017b7f37a44250704101ef03a79b823433d917e8626801a863a",
+      "size": 4917494,
+      "format": "tar.gz",
+      "binaries": {
+        "query-rds-data": {
+          "path": "query-rds-data-x86_64-apple-darwin/query-rds-data",
+          "sha256": "221a89a33e53a5e866a3d5a5a47a47c28c5a75a5ede34ef22d39fbb1ca832969"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bruceadams/query-rds-data/releases/download/v4.0.1/query-rds-data-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v4.0.1",
+      "sha256": "ef2f513b8834be3b3723010a80b4e9aaf0c53086d16c1265a9ab2a987f337e09",
+      "size": 4778038,
+      "format": "tar.gz",
+      "binaries": {
+        "query-rds-data": {
+          "path": "query-rds-data-aarch64-apple-darwin/query-rds-data",
+          "sha256": "4f82f30c897dd9d024f1a70e0fec201c0dde6d49ecd3d998345c491504b81574"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bruceadams/query-rds-data/releases/download/v4.0.1/query-rds-data-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v4.0.1",
+      "sha256": "2b8afab602d83f04c7a75a7127a9aa08a16735730bf8bacf21ec61489f455dc1",
+      "size": 4307659,
+      "format": "tar.gz",
+      "binaries": {
+        "query-rds-data.exe": {
+          "path": "query-rds-data-x86_64-pc-windows-msvc/query-rds-data.exe",
+          "sha256": "d312f5a0ac8f3e92ba429fc859ffece4bdc919168e12d571383f9aeef52dcf6e"
+        }
+      }
+    }
+  }
+}
