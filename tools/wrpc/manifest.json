@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wrpc",
+  "version": "0.18.0",
+  "repository": "bytecodealliance/wrpc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bytecodealliance/wrpc/releases/download/v0.18.0/wrpc-wasmtime-x86_64-unknown-linux-musl",
+      "sha256": "81ddb334a27e0651d8862ecc3ed30c233e893a2a9ec229098012bdf53768cd8b",
+      "size": 47937728,
+      "format": "binary",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "wrpc-wasmtime": {
+          "path": "wrpc-wasmtime-x86_64-unknown-linux-musl",
+          "sha256": "81ddb334a27e0651d8862ecc3ed30c233e893a2a9ec229098012bdf53768cd8b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bytecodealliance/wrpc/releases/download/v0.18.0/wrpc-wasmtime-aarch64-unknown-linux-musl",
+      "sha256": "0c5bbc319d125f80733673de5bd1c9276ac31862ae8d6b01b8113e0735f022b9",
+      "size": 42748216,
+      "format": "binary",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "wrpc-wasmtime": {
+          "path": "wrpc-wasmtime-aarch64-unknown-linux-musl",
+          "sha256": "0c5bbc319d125f80733673de5bd1c9276ac31862ae8d6b01b8113e0735f022b9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bytecodealliance/wrpc/releases/download/v0.18.0/wrpc-wasmtime-x86_64-apple-darwin",
+      "sha256": "9875e222dc6aca6c5d8295e260d86bae84e0805a3eb4c7299e8ab93ea7db876b",
+      "size": 42243936,
+      "format": "binary",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "wrpc-wasmtime": {
+          "path": "wrpc-wasmtime-x86_64-apple-darwin",
+          "sha256": "9875e222dc6aca6c5d8295e260d86bae84e0805a3eb4c7299e8ab93ea7db876b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bytecodealliance/wrpc/releases/download/v0.18.0/wrpc-wasmtime-aarch64-apple-darwin",
+      "sha256": "4fecdf9e4c6f6f4ffad59f6edcf63f839934cec0f4fa06b1596298ce5ebede13",
+      "size": 38377472,
+      "format": "binary",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "wrpc-wasmtime": {
+          "path": "wrpc-wasmtime-aarch64-apple-darwin",
+          "sha256": "4fecdf9e4c6f6f4ffad59f6edcf63f839934cec0f4fa06b1596298ce5ebede13"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bytecodealliance/wrpc/releases/download/v0.18.0/wrpc-wasmtime-x86_64-pc-windows-gnu.exe",
+      "sha256": "8f29eb8c36afa3b935356919f3ce4487a68bc5825959b406fc2cca5223fb26f8",
+      "size": 66556395,
+      "format": "binary",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "wrpc-wasmtime.exe": {
+          "path": "wrpc-wasmtime-x86_64-pc-windows-gnu.exe",
+          "sha256": "8f29eb8c36afa3b935356919f3ce4487a68bc5825959b406fc2cca5223fb26f8"
+        }
+      }
+    }
+  }
+}
