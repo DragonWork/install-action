@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-generate",
+  "version": "0.25.1",
+  "repository": "cargo-generate/cargo-generate",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cargo-generate/cargo-generate/releases/download/v0.25.1/cargo-generate-v0.25.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.25.1",
+      "sha256": "6d2a2fb3a1892ef8befe2f9bea0db22f50a305086fa55f16b475bb595a6ee3d6",
+      "size": 8559357,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-generate": {
+          "path": "cargo-generate",
+          "sha256": "0e561cc62e00617e22b180874c6927de5c005a78a84788a03bdd2e8ae7757354"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cargo-generate/cargo-generate/releases/download/v0.25.1/cargo-generate-v0.25.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.25.1",
+      "sha256": "e457e191f6f99d93663b6450b9d14adcdbc95a1944202da366cfd81806996cdd",
+      "size": 7980627,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-generate": {
+          "path": "cargo-generate",
+          "sha256": "2c41c0e82c048380f82f1ef5d3040fca009321588baad82f11b2583a5a6aaf90"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cargo-generate/cargo-generate/releases/download/v0.25.1/cargo-generate-v0.25.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.1",
+      "sha256": "a0d3cb71a13e88b537918edfa68bbf99e05fdd4e3d342dd6e9d332d4407b198c",
+      "size": 8207607,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-generate": {
+          "path": "cargo-generate",
+          "sha256": "fd6be3660d19d7006036748e8202af26ba9d5f19c237dac7abf37c1f05e14878"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cargo-generate/cargo-generate/releases/download/v0.25.1/cargo-generate-v0.25.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.1",
+      "sha256": "632c3cced445a203cbb881e034be5cf4caf1ea32f75271635e498a434d02429b",
+      "size": 7650707,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-generate": {
+          "path": "cargo-generate",
+          "sha256": "29e834ab8ec89167206b6ed388e5697f3283821138d74a141978402bcad9535a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cargo-generate/cargo-generate/releases/download/v0.25.1/cargo-generate-v0.25.1-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.25.1",
+      "sha256": "99f8511d222766c9396814e784bb8a2dba387a744eec9ed9d157b3e819370f5d",
+      "size": 8127906,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-generate.exe": {
+          "path": "cargo-generate.exe",
+          "sha256": "83f1211fd96eacdb4485f398f1998114351bcd98cc67abfa3070e621a251c407"
+        }
+      }
+    }
+  }
+}
