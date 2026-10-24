@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "fltn",
+  "version": "0.3.1",
+  "repository": "nickjer/fltn",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nickjer/fltn/releases/download/v0.3.1/fltn-v0.3.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "afbdffc42f7b82359bb6d633486dae7145d0b69c7486a157e2b872f45204dbc1",
+      "size": 1337754,
+      "format": "tar.gz",
+      "binaries": {
+        "fltn": {
+          "path": "fltn",
+          "sha256": "dd3fe69f8fbf67bb4f08b5110c3bc79a12da089f07e0504446767d2982ca66b3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nickjer/fltn/releases/download/v0.3.1/fltn-v0.3.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "9be239ab8dd480fe5ad98d4c5c9c706759ac5e2a8b3586070fcad3eec5ff1ef2",
+      "size": 1191090,
+      "format": "tar.gz",
+      "binaries": {
+        "fltn": {
+          "path": "fltn",
+          "sha256": "9ef86636ebd7be0312d029814fba72380066cc27380e6dc358ea037d5a06ed93"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nickjer/fltn/releases/download/v0.3.1/fltn-v0.3.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "8f492695a74d8708aad6e4246f6f217e19058de59f90a03bba17de4c50eb6db0",
+      "size": 1206792,
+      "format": "tar.gz",
+      "binaries": {
+        "fltn": {
+          "path": "fltn",
+          "sha256": "11d516284bf0ccc45d49b9008353a6c862a28415e4a4c34d383c21385612260d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nickjer/fltn/releases/download/v0.3.1/fltn-v0.3.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "fe513aa8f5c01f44a70fc4ae0c711d5fdf1e6f76d9df8f7d5ba43c0657a29b66",
+      "size": 1121668,
+      "format": "tar.gz",
+      "binaries": {
+        "fltn": {
+          "path": "fltn",
+          "sha256": "1bd950b91554a55bfea1f047054ea1ac199512e9482c30fdb146da0af68441e6"
+        }
+      }
+    }
+  }
+}
