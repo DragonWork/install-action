@@ -17,7 +17,7 @@ async function main() {
     if (runs.workflow_runs.some(run => String(run.id) !== process.env.GITHUB_RUN_ID)) return;
   }
   const limits = await api('/rate_limit');
-  if (limits.resources.core.remaining < 900 || limits.resources.graphql.remaining < 300) return;
+  if (limits.resources.core.remaining < 200 || limits.resources.graphql.remaining < 300) return;
   await api(`${base}/actions/workflows/update-crates.yml/dispatches`, { method: 'POST', body: { ref: 'main' } });
   console.log('Continuing the unpublished catalog.');
 }

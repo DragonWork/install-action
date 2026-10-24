@@ -2,7 +2,7 @@
 
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { assert, NAME, VERSION, writeCommand, failure } = require('../lib/common.cjs');
+const { assert, NAME, VERSION, validateManifest, writeCommand, failure } = require('../lib/common.cjs');
 const { api, tagCommit, assertMainContains } = require('./github.cjs');
 const { generate, wrapper } = require('./update-tools.cjs');
 const { checkRegistry } = require('./check.cjs');
@@ -18,6 +18,23 @@ function context() {
 
 async function prepare(directory) {
   const { name, version, base } = context();
+  const existing = await api(`${base}/git/ref/tags/${name}/v${version}`, { optional: true });
+  if (existing) {
+    assert(existing.object.type === 'commit', 'Unexpected existing tag type.');
+    const sha = existing.object.sha;
+    const detail = await api(`${base}/commits/${sha}`);
+    assert(detail.commit.verification.verified && detail.author?.login === 'github-actions[bot]', 'Existing crate tag must be verified and bot-authored.');
+    assert(detail.files.length && detail.files.every(file => file.filename.startsWith(`tools/${name}/`)), 'Existing tag contains another namespace.');
+    const file = await api(`${base}/contents/tools/${name}/manifest.json?ref=${sha}`);
+    const manifest = validateManifest(JSON.parse(Buffer.from(file.content, 'base64')));
+    assert(manifest.name === name && manifest.version === version, 'Existing tag has the wrong crate version.');
+    const action = await api(`${base}/contents/tools/${name}/action.yml?ref=${sha}`);
+    assert(Buffer.from(action.content, 'base64').toString('utf8') === wrapper(name), 'Existing tag has an unexpected action wrapper.');
+    await writeCommand(process.env.GITHUB_OUTPUT, 'work', 'false');
+    await writeCommand(process.env.GITHUB_OUTPUT, 'platforms', '[]');
+    console.log(`${name}/v${version} is already published.`);
+    return;
+  }
   const response = await fetch(`https://crates.io/api/v1/crates/${name}`, {
     redirect: 'error', signal: AbortSignal.timeout(60_000),
     headers: { 'User-Agent': 'DragonWork/install-action (https://github.com/DragonWork/install-action)' },
@@ -37,6 +54,7 @@ async function prepare(directory) {
   await fs.writeFile(path.join(folder, 'action.yml'), wrapper(name));
   await fs.writeFile(path.join(directory, 'backfill.json'), JSON.stringify({ name, version, head }) + '\n');
   await writeCommand(process.env.GITHUB_OUTPUT, 'platforms', JSON.stringify(validationMatrix([manifest])));
+  await writeCommand(process.env.GITHUB_OUTPUT, 'work', 'true');
 }
 
 async function publish(directory) {

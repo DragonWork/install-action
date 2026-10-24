@@ -10,7 +10,7 @@ const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget
   prepareShard, mergePrepared, catalogProgress, assetCandidates, assetFormat, nativeBinary,
   generate, planUpdate } = require('../scripts/update-tools.cjs');
 const { main: publishTools } = require('../scripts/publish-tools.cjs');
-const { publish: publishHistorical } = require('../scripts/backfill-version.cjs');
+const { prepare: prepareHistorical, publish: publishHistorical } = require('../scripts/backfill-version.cjs');
 const { sample, executable, universal, tar } = require('./fixtures.cjs');
 const { binaryPlatforms } = require('../scripts/binaries.cjs');
 const { validationMatrix, ciMatrix } = require('../scripts/workflow-matrix.cjs');
@@ -39,6 +39,32 @@ test('validated publications survive later main commits but reject divergent his
   await assertMainContains('DragonWork/install-action', source);
   ancestor = 'c'.repeat(40);
   await assert.rejects(assertMainContains('DragonWork/install-action', source), /no longer on main/);
+});
+
+test('backfilling a verified existing version skips downloads and validation jobs', async t => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-backfill-'));
+  const originalFetch = global.fetch, originalEnv = { ...process.env };
+  t.after(async () => {
+    global.fetch = originalFetch;
+    for (const key of Object.keys(process.env)) if (!(key in originalEnv)) delete process.env[key];
+    Object.assign(process.env, originalEnv);
+    await fs.rm(root, { recursive: true, force: true });
+  });
+  Object.assign(process.env, { GITHUB_REPOSITORY: 'DragonWork/install-action', GITHUB_REF: 'refs/heads/main',
+    CRATE_NAME: 'sample-cli', CRATE_VERSION: '1.0.0', GITHUB_OUTPUT: path.join(root, 'output') });
+  const { manifest } = sample();
+  global.fetch = async url => {
+    assert(url.startsWith('https://api.github.com/repos/DragonWork/install-action/'));
+    if (url.includes('/git/ref/')) return Response.json({ object: { type: 'commit', sha: 'a'.repeat(40) } });
+    if (url.includes('/commits/')) return Response.json({ commit: { verification: { verified: true } }, author: { login: 'github-actions[bot]' },
+      files: [{ filename: 'tools/sample-cli/manifest.json' }, { filename: 'tools/sample-cli/action.yml' }] });
+    if (url.includes('/contents/tools/sample-cli/action.yml?ref=')) return Response.json({ content: Buffer.from(wrapper('sample-cli')).toString('base64') });
+    assert(url.includes('/contents/tools/sample-cli/manifest.json?ref='));
+    return Response.json({ content: Buffer.from(JSON.stringify(manifest)).toString('base64') });
+  };
+  await prepareHistorical(path.join(root, 'registry'));
+  assert.match(await fs.readFile(process.env.GITHUB_OUTPUT, 'utf8'), /work=false/);
+  await assert.rejects(fs.stat(path.join(root, 'registry')), { code: 'ENOENT' });
 });
 
 test('crate wrappers call the selected engine without embedding its version', () => {
