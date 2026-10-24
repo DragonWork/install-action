@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "espflash",
+  "version": "4.6.0",
+  "repository": "esp-rs/espflash",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "d515ee13ae44ba913c31a2ca58dc5fd72d3362994ee1d7487a16b289dfbb6e4a",
+      "size": 8151372,
+      "format": "zip",
+      "binaries": {
+        "espflash": {
+          "path": "espflash",
+          "sha256": "eb02b1d35d72bb6ac2798009b2715d835df474eaafeff2af0f3060bb6744d0e8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "560c690ce28c7fe2b31709eeaf1fcc6717cfa832798b68287dddca1e3a3b65d6",
+      "size": 7829521,
+      "format": "zip",
+      "binaries": {
+        "espflash": {
+          "path": "espflash",
+          "sha256": "4ef5e03a91ff105cf019f241e1aebc27dde221fddbe334543106e1b6f3d16a86"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-x86_64-apple-darwin.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "e945685fe62e45a120487b79ccecc5ac3586bbf5f4e7d78f95cc09e2227bf32d",
+      "size": 7903502,
+      "format": "zip",
+      "binaries": {
+        "espflash": {
+          "path": "espflash",
+          "sha256": "d81ec591d6617a419913905dcb8358576853c5539a48f96dc7566b027160c589"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-aarch64-apple-darwin.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "f39bff252a181a6e345991f603d7606cf9762550e557073c1282eada46d8c757",
+      "size": 7781066,
+      "format": "zip",
+      "binaries": {
+        "espflash": {
+          "path": "espflash",
+          "sha256": "472da6edfdab4b47a146e61343aa6887d341e0c7f4e584a2ef308365ed5386ba"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v4.6.0",
+      "sha256": "b2cb4656b067716fe2b3794cf0604b461b2476d06dee7f481704cb6c8495b11c",
+      "size": 7625358,
+      "format": "zip",
+      "binaries": {
+        "espflash.exe": {
+          "path": "espflash.exe",
+          "sha256": "d101587d64761cd9ea584d318bee130edf38e2cf057301808656f1423a77d5f4"
+        }
+      }
+    }
+  }
+}
