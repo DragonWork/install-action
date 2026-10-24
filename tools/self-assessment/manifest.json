@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "self-assessment",
+  "version": "2.2.1",
+  "repository": "guardian/self-assessment",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/guardian/self-assessment/releases/download/v2.2.1/self-assessment_x86_64-apple-darwin_v2.2.1.tar.gz",
+      "releaseTag": "v2.2.1",
+      "sha256": "16f6f49a5aaa8e2aae15f87c1185c2003dbf211065c0aedbbf67b5f850380e2a",
+      "size": 3628625,
+      "format": "tar.gz",
+      "binaries": {
+        "self-assessment": {
+          "path": "self-assessment",
+          "sha256": "18f7dd0de910b0dcab624eab9221e3e4caa5887bd8eee5a41a4d9652a37bdfa5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/guardian/self-assessment/releases/download/v2.2.1/self-assessment_aarch64-apple-darwin_v2.2.1.tar.gz",
+      "releaseTag": "v2.2.1",
+      "sha256": "4f3e6daacbff331bda2080a82c17867e9a1442744053b333809915c386ee9e89",
+      "size": 3495779,
+      "format": "tar.gz",
+      "binaries": {
+        "self-assessment": {
+          "path": "self-assessment",
+          "sha256": "e69ea36b9994b24a685d950ba465c4e2d8e46998222a6a8b69255592620062c3"
+        }
+      }
+    }
+  }
+}
