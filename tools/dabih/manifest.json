@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dabih",
+  "version": "2.2.15",
+  "repository": "spang-lab/dabih",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/spang-lab/dabih/releases/download/v2.2.15/dabih_cli_linux.tar.gz",
+      "sha256": "0f73900ff8acdaebf458d450a964932fbcf66d5197215482a5374198ec7f23da",
+      "size": 2498302,
+      "format": "tar.gz",
+      "releaseTag": "v2.2.15",
+      "binaries": {
+        "dabih": {
+          "path": "dabih",
+          "sha256": "98acab67a13977e2be4709b1127f919b85ef25981be26163f949a1a5cdb1c8a8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/spang-lab/dabih/releases/download/v2.2.15/dabih_cli_macos.tar.gz",
+      "sha256": "cc56fad14b8db7a59d2882191b3dd9148209e4f8e4583bdeb345c2fdc36c0f18",
+      "size": 2320239,
+      "format": "tar.gz",
+      "releaseTag": "v2.2.15",
+      "binaries": {
+        "dabih": {
+          "path": "dabih",
+          "sha256": "05e8ce5688f43afc696c8fffd9ded341daaf59196f2fac6bd3222ca96b00d2c0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/spang-lab/dabih/releases/download/v2.2.15/dabih_cli_windows.zip",
+      "sha256": "2086dd56a960a7f36975a9c2e05d43b7ed82bf127dd9532a0c637704d5568e09",
+      "size": 1977617,
+      "format": "zip",
+      "releaseTag": "v2.2.15",
+      "binaries": {
+        "dabih.exe": {
+          "path": "dabih.exe",
+          "sha256": "60055c564999be9d9fa05a557dd51858fdd4a17843342916307fdf3af59c8f19"
+        }
+      }
+    }
+  }
+}
