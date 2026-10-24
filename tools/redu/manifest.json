@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "redu",
+  "version": "0.2.16",
+  "repository": "drdo/redu",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/drdo/redu/releases/download/v0.2.16/redu-0.2.16-windows-x86_64.zip",
+      "releaseTag": "v0.2.16",
+      "sha256": "f3c8f55780e3ab1546fb270697dcfcfb65754d49f0b144c5dca2ad1cac41499c",
+      "size": 1736585,
+      "format": "zip",
+      "binaries": {
+        "redu.exe": {
+          "path": "redu.exe",
+          "sha256": "49507f35fefe2439507b4fd9b6ff86408459575f6c8e617fc9b498f0c6e4bcfa"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/drdo/redu/releases/download/v0.2.16/redu-0.2.16-windows-arm64.zip",
+      "releaseTag": "v0.2.16",
+      "sha256": "abce3d27104688ef49d21b24c7c435e2a40ca79b8fb3f2b47bd62df31a063dc4",
+      "size": 1562243,
+      "format": "zip",
+      "binaries": {
+        "redu.exe": {
+          "path": "redu.exe",
+          "sha256": "bbf1343ad511e1bb7207b0861e0e84ba0055a20bb39c58fe47747e35c5a85a0c"
+        }
+      }
+    }
+  }
+}
