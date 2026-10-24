@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-mtime",
+  "version": "0.1.1",
+  "repository": "tgolsson/cargo-mtime",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tgolsson/cargo-mtime/releases/download/v0.1.1/cargo-mtime-x86_64-unknown-linux-musl-v0.1.1.tar.gz",
+      "releaseTag": "v0.1.1",
+      "sha256": "e06849e74ab337f5e3b84940e8babc54222d176c807aa950f6fe8852323b883f",
+      "size": 523650,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-mtime": {
+          "path": "cargo-mtime",
+          "sha256": "19900165f4732ea36704691b8c184f49f789a093f15ccef95ba08759a042f6a6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tgolsson/cargo-mtime/releases/download/v0.1.1/cargo-mtime-aarch64-unknown-linux-musl-v0.1.1.tar.gz",
+      "releaseTag": "v0.1.1",
+      "sha256": "9f7cd48048be00a92be8bdd10b92193a477eb1ba861fc885b98bdaef174b4847",
+      "size": 1410445,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-mtime": {
+          "path": "cargo-mtime",
+          "sha256": "e7a4a4278a256a4442a7547b09607ac6398ff4b9161b41591fa2c466a3fb996e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tgolsson/cargo-mtime/releases/download/v0.1.1/cargo-mtime-x86_64-apple-darwin-v0.1.1.tar.gz",
+      "releaseTag": "v0.1.1",
+      "sha256": "f72f80733729350957706015e8f65f4be91b4647d860d48716d4230ed8b19c3c",
+      "size": 437742,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-mtime": {
+          "path": "cargo-mtime",
+          "sha256": "e504d210d5fcebd4ce3391f0faeab564d1d9de3a0b85d57a2e225fca52b76b0d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tgolsson/cargo-mtime/releases/download/v0.1.1/cargo-mtime-aarch64-apple-darwin-v0.1.1.tar.gz",
+      "releaseTag": "v0.1.1",
+      "sha256": "3d9e72fc50b1c4f3c5dba25ca70adca4aa3925479312ce2cc4dc70e481dd7e95",
+      "size": 435741,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-mtime": {
+          "path": "cargo-mtime",
+          "sha256": "aa6db87bcf48cc2f2974be1e4aab094ba99ac875f44e6ba93cefdbccf815bfee"
+        }
+      }
+    }
+  }
+}
