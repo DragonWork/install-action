@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "spotify_player",
+  "version": "0.25.1",
+  "repository": "aome510/spotify-player",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aome510/spotify-player/releases/download/v0.25.1/spotify_player-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.25.1",
+      "sha256": "e68dce205e995f80107149c55ace7b93125dbf73805363b7b0f9bfe8475c50ba",
+      "size": 47957136,
+      "format": "tar.gz",
+      "binaries": {
+        "spotify_player": {
+          "path": "spotify_player",
+          "sha256": "70cdf943ce5f760d7a1ae9632815013661ef7d630c1d7a7ab2bcbcf432ae7a3a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/aome510/spotify-player/releases/download/v0.25.1/spotify_player-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.25.1",
+      "sha256": "c8e02b108ed4d0abc8d705510deaa2db1dfb03af60489b67cd037cd864cb5e53",
+      "size": 41189882,
+      "format": "tar.gz",
+      "binaries": {
+        "spotify_player": {
+          "path": "spotify_player",
+          "sha256": "0d32552227744f3b629c330e44218880b1b8e5eac5da1e2c270fa8ce5a62ecf4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aome510/spotify-player/releases/download/v0.25.1/spotify_player-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.1",
+      "sha256": "c5dd810ec0876d9381056a2c99c8ea02148c95f193676081033157f1787dfde6",
+      "size": 9381458,
+      "format": "tar.gz",
+      "binaries": {
+        "spotify_player": {
+          "path": "spotify_player",
+          "sha256": "74c97852b5743fd52bc005fbaa60194eb7949954788d743336bdbd13119a1b58"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aome510/spotify-player/releases/download/v0.25.1/spotify_player-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.25.1",
+      "sha256": "9a9b6ea79916634ba22f69bb4c9f3d591ecd730f1504c5301bc38b252dc5ed53",
+      "size": 8962368,
+      "format": "tar.gz",
+      "binaries": {
+        "spotify_player": {
+          "path": "spotify_player",
+          "sha256": "8b7704b4345434a9849610b9ea888ca89f5d82cad8f0ffda6fb800a319c0537e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aome510/spotify-player/releases/download/v0.25.1/spotify_player-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.25.1",
+      "sha256": "946dfe069f3cd530548e07a86bbf71928a7983f30933e202b179a4ef3e5e16cb",
+      "size": 7798865,
+      "format": "zip",
+      "binaries": {
+        "spotify_player.exe": {
+          "path": "spotify_player.exe",
+          "sha256": "61e29f9bf9e41a882f73b8e162547b5076ece163d03a19a438b3457f6bcdd2c3"
+        }
+      }
+    }
+  }
+}
