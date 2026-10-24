@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "ffzap",
+  "version": "1.1.2",
+  "repository": "CodeF0x/ffzap",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/CodeF0x/ffzap/releases/download/1.1.2/ffzap-linux-x86_64.tar.gz",
+      "releaseTag": "1.1.2",
+      "sha256": "4e61bf10b56cf6c116ca622de592d4cbd822e1f6c48972c729b84427c593a2e6",
+      "size": 656969,
+      "format": "tar.gz",
+      "binaries": {
+        "ffzap": {
+          "path": "ffzap",
+          "sha256": "fc2b6c2ce76553c2422d3a07e1c080123f98e479f0a177fca5cc6a3b3048d32c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/CodeF0x/ffzap/releases/download/1.1.2/ffzap-macos-x86_64.tar.gz",
+      "releaseTag": "1.1.2",
+      "sha256": "71f9ef3f32e5ff192ca54c02c8f5589fc61bc76e5239163a365a4a702d655744",
+      "size": 620174,
+      "format": "tar.gz",
+      "binaries": {
+        "ffzap": {
+          "path": "ffzap",
+          "sha256": "47803fa6858cc80c36ec0b60262e5957fc5ea1ac91fa4b44a14b07868384189c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/CodeF0x/ffzap/releases/download/1.1.2/ffzap-macos-aarch64.tar.gz",
+      "releaseTag": "1.1.2",
+      "sha256": "7486c4958869f1aac2bf60cd67924fad31b8add5d7d500133cd4d0eb54049843",
+      "size": 602563,
+      "format": "tar.gz",
+      "binaries": {
+        "ffzap": {
+          "path": "ffzap",
+          "sha256": "57ef06dedbfb270af0cea2a3969ab08f3f74680c5789cbcea19c450ab1d7ce9c"
+        }
+      }
+    }
+  }
+}
