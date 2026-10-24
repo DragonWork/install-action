@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "rbw",
+  "version": "1.15.0",
+  "repository": "doy/rbw",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/doy/rbw/releases/download/1.15.0/rbw_1.15.0_linux_amd64.tar.gz",
+      "releaseTag": "1.15.0",
+      "sha256": "d8174b0aeaccbcd80322ca41fb48bf2dbad8fc4d5d9c509c42bbb46d5e195395",
+      "size": 7121819,
+      "format": "tar.gz",
+      "binaries": {
+        "rbw": {
+          "path": "rbw",
+          "sha256": "a2f3c2dcfcb8d39c5a493e5530a8206374722a80e87e3b24d4b6f7733bae498a"
+        },
+        "rbw-agent": {
+          "path": "rbw-agent",
+          "sha256": "dd100b68897428829eefbe3191137ce4f899ee63c758d09730136a3442cd464d"
+        }
+      }
+    }
+  }
+}
