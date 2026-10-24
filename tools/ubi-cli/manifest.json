@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "ubi-cli",
+  "version": "0.13.0",
+  "repository": "houseabsolute/ubi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/houseabsolute/ubi/releases/download/v0.13.0/ubi-Linux-musl-x86_64.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "fa5ce75307cd691c8260d7e83f1b71d66c54aa1ffc7aedb646adc447815098aa",
+      "size": 4102395,
+      "format": "tar.gz",
+      "binaries": {
+        "ubi": {
+          "path": "ubi",
+          "sha256": "74aebaa56bf9a600c516e726aeb446c52c4c2c00059634232e768e70a8cb4ebe"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/houseabsolute/ubi/releases/download/v0.13.0/ubi-Linux-musl-arm64.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "8bc8d2a56eaf9aceaa26d8334f8175649b29558931d19ff68a71226f0ad2cb37",
+      "size": 3890461,
+      "format": "tar.gz",
+      "binaries": {
+        "ubi": {
+          "path": "ubi",
+          "sha256": "1ecb7f6229d7b303b297c2fe43fb0c29413df7508278a7a27dc3a2a370de5bc8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/houseabsolute/ubi/releases/download/v0.13.0/ubi-macOS-x86_64.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "23a427232585d4135644f8a8bcc32aaed4b0eeca6e3f414ace42b7e06432ca56",
+      "size": 3649010,
+      "format": "tar.gz",
+      "binaries": {
+        "ubi": {
+          "path": "ubi",
+          "sha256": "639f978c582e977225749b85227b424126520174484616d1eeb871d45ff6b7d7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/houseabsolute/ubi/releases/download/v0.13.0/ubi-macOS-arm64.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "c43b0e9ea7691c92dbcf8d6c00e3ca97036ee6c14b1d354357d49aeec598ac82",
+      "size": 3434077,
+      "format": "tar.gz",
+      "binaries": {
+        "ubi": {
+          "path": "ubi",
+          "sha256": "62ea48691ef4688bb82b8c59a2088fbc83fedbf984bb528945c68f47a3a4bb6d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/houseabsolute/ubi/releases/download/v0.13.0/ubi-Windows-msvc-x86_64.zip",
+      "releaseTag": "v0.13.0",
+      "sha256": "cb2fc220f68de5487ef451eb28f9be05ccafed4d78a9b921a377e47208974078",
+      "size": 3227612,
+      "format": "zip",
+      "binaries": {
+        "ubi.exe": {
+          "path": "ubi.exe",
+          "sha256": "a5abe4fe665484c8521cb4ed9737ebb22ba147ac336afa0dab984415b090c481"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/houseabsolute/ubi/releases/download/v0.13.0/ubi-Windows-msvc-arm64.zip",
+      "releaseTag": "v0.13.0",
+      "sha256": "b200560e0c1bbd9a0610f54b3a014b75a76925df0f34248d7ca90564ec198896",
+      "size": 2816883,
+      "format": "zip",
+      "binaries": {
+        "ubi.exe": {
+          "path": "ubi.exe",
+          "sha256": "16eed944e0c59c6b023df6d697ddec8f678ed835ab52ea922b916a0e63bd904b"
+        }
+      }
+    }
+  }
+}
