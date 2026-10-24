@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rusmux",
+  "version": "0.8.5",
+  "repository": "MeirKriheli/rusmux",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MeirKriheli/rusmux/releases/download/v0.8.5/rusmux-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.8.5",
+      "sha256": "fabbc218f25349e7c27d9651611c9242ab6c04d86a068522fbdf33eda2b874cd",
+      "size": 1012968,
+      "format": "tar.xz",
+      "binaries": {
+        "rusmux": {
+          "path": "rusmux-x86_64-unknown-linux-gnu/rusmux",
+          "sha256": "5d55597b2e085d93b5fd9498f91b94079f958a33aca778666a3d161e9a2a773a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MeirKriheli/rusmux/releases/download/v0.8.5/rusmux-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.5",
+      "sha256": "77a65dc7402b7426c416d76d6888a87154b4d69ff5944ec6a5f8a9c3fa4514e1",
+      "size": 949056,
+      "format": "tar.xz",
+      "binaries": {
+        "rusmux": {
+          "path": "rusmux-x86_64-apple-darwin/rusmux",
+          "sha256": "fc55370681dad5f17869098b941c6c92c3dfb04a545668496770ca1d82218dbc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MeirKriheli/rusmux/releases/download/v0.8.5/rusmux-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.8.5",
+      "sha256": "e85ca79449fd9f3be0047356b54bf635ba09e6bb72097df5d1a58acebc3800fb",
+      "size": 836996,
+      "format": "tar.xz",
+      "binaries": {
+        "rusmux": {
+          "path": "rusmux-aarch64-apple-darwin/rusmux",
+          "sha256": "9801b496940b262f6f61a4fbf6486548c57f99d219db03612dd7f1b405b447d1"
+        }
+      }
+    }
+  }
+}
