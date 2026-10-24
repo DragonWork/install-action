@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "magoo",
+  "version": "0.3.0",
+  "repository": "Pistonite/magoo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Pistonite/magoo/releases/download/v0.3.0/magoo-x86_64-unknown-linux-gnu-v0.3.0.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "4e247c748352fe41243b7581b3d8f9c3dbcf4c01ac83716a1c5618454f07755c",
+      "size": 527962,
+      "format": "tar.gz",
+      "binaries": {
+        "magoo": {
+          "path": "magoo",
+          "sha256": "8ee5dd7d85b06d25ae8d45ceca5bf5a92de76c1c974bfdfa2d5920eb24bddd98"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Pistonite/magoo/releases/download/v0.3.0/magoo-aarch64-apple-darwin-v0.3.0.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "2b6d3d0757bdb7b14ddfb900314440d104a41820d2c9db558009fc1e1fab0d5b",
+      "size": 476355,
+      "format": "tar.gz",
+      "binaries": {
+        "magoo": {
+          "path": "magoo",
+          "sha256": "446ef5f9f9c676c8a0b1a8f6ef2ed3217758420e8626b9b904825507c9e7897f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Pistonite/magoo/releases/download/v0.3.0/magoo-x86_64-pc-windows-msvc-v0.3.0.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "6e7f82d9edd6a5aa929c65fc38013fd6cd0e6859dbafac5ddd942d000bb2cfcd",
+      "size": 401677,
+      "format": "zip",
+      "binaries": {
+        "magoo.exe": {
+          "path": "magoo.exe",
+          "sha256": "a739c80088b4c43d40dc39e8cb02dab85df5b8866fbb9444bf7cc909a0a72401"
+        }
+      }
+    }
+  }
+}
