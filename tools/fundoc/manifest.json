@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "fundoc",
+  "version": "0.5.0",
+  "repository": "daynin/fundoc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/daynin/fundoc/releases/download/v0.5.0/fundoc-0.5.0_x86_64.deb",
+      "sha256": "143fb5b6d0dd0f32ede144f1f6c97a8e286b37eca00474d16ae8627c354f6e6f",
+      "size": 2727256,
+      "format": "deb",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "fundoc": {
+          "path": "usr/bin/fundoc",
+          "sha256": "a1427e0efa674f2284212d3eedff7301c31b250d8f3798ec3bc0ebe53faea050"
+        }
+      }
+    }
+  }
+}
