@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mrh",
+  "version": "0.13.2",
+  "repository": "tshepang/mrh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tshepang/mrh/releases/download/v0.13.2/mrh-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.13.2",
+      "sha256": "c1f31c6c8cdbac0a9d1dfcae7b1531f700667ea025ddb1d4f4875363e09a96c1",
+      "size": 1810328,
+      "format": "tar.xz",
+      "binaries": {
+        "mrh": {
+          "path": "mrh-x86_64-unknown-linux-gnu/mrh",
+          "sha256": "03029e9e96cfa0166641e21733ed8c93bdd7dbf67deda5168f7191312a59b6a1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tshepang/mrh/releases/download/v0.13.2/mrh-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.13.2",
+      "sha256": "fe55e4edaaae9e6d1f1f8f76d4871ff0cb1911067da69638a940e6db5439b6db",
+      "size": 1321492,
+      "format": "tar.xz",
+      "binaries": {
+        "mrh": {
+          "path": "mrh-x86_64-apple-darwin/mrh",
+          "sha256": "611519548da1b6299cdf50b7f39918f139bd48ad6a84fb0b332f6ec660fd210f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tshepang/mrh/releases/download/v0.13.2/mrh-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.13.2",
+      "sha256": "03f98ce2d3c810e89886ea319db776d3f4cc551d9debc54f0b4bccf5ee2f8d19",
+      "size": 4226636,
+      "format": "zip",
+      "binaries": {
+        "mrh.exe": {
+          "path": "mrh.exe",
+          "sha256": "6403e66e11a5e3f881ea75b2656a18badd3ed940a5d92da29a31e5135899bfa3"
+        }
+      }
+    }
+  }
+}
