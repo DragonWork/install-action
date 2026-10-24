@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "odbcsv",
+  "version": "1.1.2",
+  "repository": "pacman82/odbcsv",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/pacman82/odbcsv/releases/download/v1.1.2/odbcsv-osx",
+      "sha256": "1defb3c905b254ddd57db0f83ba143a32630daa0da81f6c143e38fe2429301cf",
+      "size": 1470944,
+      "format": "binary",
+      "releaseTag": "v1.1.2",
+      "binaries": {
+        "odbcsv": {
+          "path": "odbcsv-osx",
+          "sha256": "1defb3c905b254ddd57db0f83ba143a32630daa0da81f6c143e38fe2429301cf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pacman82/odbcsv/releases/download/v1.1.2/odbcsv-win32.zip",
+      "sha256": "5c21e7cec3692c7e8d6743b4faf7cd4701e6a819c45393653ca7107ddcc4112c",
+      "size": 640179,
+      "format": "zip",
+      "releaseTag": "v1.1.2",
+      "binaries": {
+        "odbcsv.exe": {
+          "path": "odbcsv.exe",
+          "sha256": "9cd147aa1e03afe3d3babc113d1cee6385fad0dada8718a391e96fa22e9f3601"
+        }
+      }
+    }
+  }
+}
