@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "nur",
+  "version": "0.12.1",
+  "repository": "nur-taskrunner/nur",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nur-taskrunner/nur/releases/download/v0.12.1/nur-0.12.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "82ec6813cf0d03fb85102549facbea593e09a496fc042bc6736823ade8285532",
+      "size": 13005059,
+      "format": "tar.gz",
+      "binaries": {
+        "nur": {
+          "path": "nur-0.12.1-x86_64-unknown-linux-gnu/nur",
+          "sha256": "b77b74925280d8493afd952ab767b77f00d07a908b7d3f2343635e26f85d0027"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nur-taskrunner/nur/releases/download/v0.12.1/nur-0.12.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "3963d3ceb74bab366310d994c4ea05c15db1ff91193c67fbd95614969d8cb61f",
+      "size": 13047954,
+      "format": "tar.gz",
+      "binaries": {
+        "nur": {
+          "path": "nur-0.12.1-aarch64-unknown-linux-gnu/nur",
+          "sha256": "aadac8756885dfaa32455f5a5c9958912ec0f911c883ff8050d2a9d3f9be39a1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nur-taskrunner/nur/releases/download/v0.12.1/nur-0.12.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "8764574604c4081b784fa445b2dc3189f68fcf3f888f5daf720dd56f8f801355",
+      "size": 10123762,
+      "format": "tar.gz",
+      "binaries": {
+        "nur": {
+          "path": "nur-0.12.1-x86_64-apple-darwin/nur",
+          "sha256": "250d4c3dac779e96a351449448ac863b6b4ac94f8440827eace4990db0dd0354"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nur-taskrunner/nur/releases/download/v0.12.1/nur-0.12.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "ce6bfaf977e4faf29a0deee4091219931cbf6c7346f7b313dc12bcbe6b2ddfe9",
+      "size": 9857691,
+      "format": "tar.gz",
+      "binaries": {
+        "nur": {
+          "path": "nur-0.12.1-aarch64-apple-darwin/nur",
+          "sha256": "82899f90bb486df8105bdd8db4beea51e4737369b2275c5bdd39864fa4625101"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nur-taskrunner/nur/releases/download/v0.12.1/nur-0.12.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.1",
+      "sha256": "f4e13a96fb92241246cf1ecdde6c2190502a8946bd2df0799a943468858c97f8",
+      "size": 8377915,
+      "format": "zip",
+      "binaries": {
+        "nur.exe": {
+          "path": "nur-0.12.1-x86_64-pc-windows-msvc/nur.exe",
+          "sha256": "505cd7baae8b167d4599cc9c3da5604db141e0b80913fcddbb1abe2a96965787"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/nur-taskrunner/nur/releases/download/v0.12.1/nur-0.12.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.1",
+      "sha256": "2e7590ee0527a318c312de5d09fbc1f276b296d34a1d32a6e6ef9de7cd9f1d2e",
+      "size": 7791988,
+      "format": "zip",
+      "binaries": {
+        "nur.exe": {
+          "path": "nur-0.12.1-aarch64-pc-windows-msvc/nur.exe",
+          "sha256": "f96f671dfffbe81b912fa1dbf2d2485e339cbb1ead6e5fdcbb469ff8a40366cb"
+        }
+      }
+    }
+  }
+}
