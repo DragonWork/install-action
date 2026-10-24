@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "moq-clock",
+  "version": "0.10.21",
+  "repository": "moq-dev/moq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/moq-dev/moq/releases/download/moq-clock-v0.10.21/moq-clock-0.10.21-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "moq-clock-v0.10.21",
+      "sha256": "42a0394bcd368f350fbb7214159849db040f02638dae1bfa900be6d4b3e4a7e3",
+      "size": 4627959,
+      "format": "tar.gz",
+      "binaries": {
+        "moq-clock": {
+          "path": "moq-clock-0.10.21-x86_64-unknown-linux-gnu/bin/moq-clock",
+          "sha256": "33cb445c1c66ee8cdf4f25fc2395174df3f3d63d00cedbcf888a01937fe356d7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/moq-dev/moq/releases/download/moq-clock-v0.10.21/moq-clock-0.10.21-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "moq-clock-v0.10.21",
+      "sha256": "b359c03409ec62bf4a1c7dfa73742215ce1d7a022c545c61f69f4c14ee616882",
+      "size": 4611925,
+      "format": "tar.gz",
+      "binaries": {
+        "moq-clock": {
+          "path": "moq-clock-0.10.21-aarch64-unknown-linux-gnu/bin/moq-clock",
+          "sha256": "28c56979fa2c2cb46791817e37dccd5e5171e15f1b8b8ecb140c71d63370bea6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/moq-dev/moq/releases/download/moq-clock-v0.10.21/moq-clock-0.10.21-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "moq-clock-v0.10.21",
+      "sha256": "3a4e96b95f154cb86d54865cabd159a1515cfeac04fadc3cb0889f4e43b74591",
+      "size": 4498326,
+      "format": "tar.gz",
+      "binaries": {
+        "moq-clock": {
+          "path": "moq-clock-0.10.21-x86_64-apple-darwin/bin/moq-clock",
+          "sha256": "697bb4a5af67738cfd363e50d63a0513e253a86603d9471ea47122ce6f975001"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/moq-dev/moq/releases/download/moq-clock-v0.10.21/moq-clock-0.10.21-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "moq-clock-v0.10.21",
+      "sha256": "f8e17b24ced78005dacb58745d91a53086a8c710f67485343c1d36a89e2f73a3",
+      "size": 4194597,
+      "format": "tar.gz",
+      "binaries": {
+        "moq-clock": {
+          "path": "moq-clock-0.10.21-aarch64-apple-darwin/bin/moq-clock",
+          "sha256": "e18bc562e70b75d1473b1de102647ae28d32a2a43dc0caa8602e9365bf68a658"
+        }
+      }
+    }
+  }
+}
