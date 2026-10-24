@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_printf",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "printf.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/printf.exe",
+          "sha256": "a1ef0aff4a3966fa3a79b9aec34b85b8061db511e74175c8f36ae5b39d49e559"
+        }
+      }
+    }
+  }
+}
