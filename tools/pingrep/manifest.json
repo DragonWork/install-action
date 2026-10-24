@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "pingrep",
+  "version": "25.3.0",
+  "repository": "zoni/pingrep",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zoni/pingrep/releases/download/v25.3.0/pingrep-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v25.3.0",
+      "sha256": "b5ce0ced03e09a01b198f7a9af958cba74ba568a9458afc6bf17ea41b679f735",
+      "size": 1543196,
+      "format": "tar.xz",
+      "binaries": {
+        "pingrep": {
+          "path": "pingrep-x86_64-unknown-linux-gnu/pingrep",
+          "sha256": "33d2740e54c896702f1513581a7aef40681b7711610ff423d41e1b7005848d39"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zoni/pingrep/releases/download/v25.3.0/pingrep-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v25.3.0",
+      "sha256": "98c78317693d8c79bccb6495b61cc2692446d34f0ce853a64be8e6c71017b68d",
+      "size": 1279792,
+      "format": "tar.xz",
+      "binaries": {
+        "pingrep": {
+          "path": "pingrep-x86_64-apple-darwin/pingrep",
+          "sha256": "f408a239ced95ea1c085c60b9706311aa87d3377098d5fd76232d237c4f64221"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zoni/pingrep/releases/download/v25.3.0/pingrep-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v25.3.0",
+      "sha256": "0d3921fef86bbb754b0f21f4456acc4c954b8a36d6bad9c55bd981e0a3c596ab",
+      "size": 1167132,
+      "format": "tar.xz",
+      "binaries": {
+        "pingrep": {
+          "path": "pingrep-aarch64-apple-darwin/pingrep",
+          "sha256": "600c5b35721a1fc6f9fd9554d329e6cabd18e0779502640525ceea6b60196206"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/zoni/pingrep/releases/download/v25.3.0/pingrep-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v25.3.0",
+      "sha256": "f4cd8b2d64c060081a6fd76e3e923ae49e812776605e4849b61b19ded2170f45",
+      "size": 4128846,
+      "format": "zip",
+      "binaries": {
+        "pingrep.exe": {
+          "path": "pingrep.exe",
+          "sha256": "2e72eea8c9f7ed2e4eafb71349bbdfc37d6a21e03e0aa203a3ac2350c60bd25f"
+        }
+      }
+    }
+  }
+}
