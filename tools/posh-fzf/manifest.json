@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "posh-fzf",
+  "version": "0.3.0",
+  "repository": "domsleee/posh-fzf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/domsleee/posh-fzf/releases/download/v0.3.0/posh-fzf-v0.3.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "069038153945325bdd2123cc1aec3bd3f907b76b569ce8204996ae7569a73109",
+      "size": 408539,
+      "format": "tar.gz",
+      "binaries": {
+        "posh-fzf": {
+          "path": "posh-fzf",
+          "sha256": "449739433236bcf56d86bf5d9e1834922194ff4fee44acdce3c2306e851f0c02"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/domsleee/posh-fzf/releases/download/v0.3.0/posh-fzf-v0.3.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "0ad0cef07fb65de14864d38e4e5cf6b1f544d408a59c32628fcd1c0c01d99d0f",
+      "size": 382917,
+      "format": "tar.gz",
+      "binaries": {
+        "posh-fzf": {
+          "path": "posh-fzf",
+          "sha256": "6d3069cd84523bb3cd584cdbc723947e22b14770c61d4a055c87fd272759262e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/domsleee/posh-fzf/releases/download/v0.3.0/posh-fzf-v0.3.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "ff15287aebaccd52598a19788572a6bc7ba67c4637292fab0cbc3762b3b55628",
+      "size": 335286,
+      "format": "tar.gz",
+      "binaries": {
+        "posh-fzf": {
+          "path": "posh-fzf",
+          "sha256": "35dafe4e11d0115b738f8a68d34d0bb657cd605c9662a6f4538217efd9474e9f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/domsleee/posh-fzf/releases/download/v0.3.0/posh-fzf-v0.3.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "953a9490f5b9cf3796d1a8ea66979af37dc945b3b792bd50b8cb28e6c337e299",
+      "size": 310989,
+      "format": "tar.gz",
+      "binaries": {
+        "posh-fzf": {
+          "path": "posh-fzf",
+          "sha256": "0f5199dd5dbc3142c267527391096f17a295a5c8fa9f9962cc86bc4d915eb1da"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/domsleee/posh-fzf/releases/download/v0.3.0/posh-fzf-v0.3.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "ca98064fffcc0d7f72dfea26c51c6034070abab03ca1eebb041c6997826cd80a",
+      "size": 282812,
+      "format": "zip",
+      "binaries": {
+        "posh-fzf.exe": {
+          "path": "posh-fzf.exe",
+          "sha256": "fa78b3611e1e297005c9c35aa53116173d31333dc71cc9228dd944dce935eecb"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/domsleee/posh-fzf/releases/download/v0.3.0/posh-fzf-v0.3.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "f1081a8563897e83c1cc661b14a81c6fb19dd96606006c501bd7914d04e1d3e1",
+      "size": 267127,
+      "format": "zip",
+      "binaries": {
+        "posh-fzf.exe": {
+          "path": "posh-fzf.exe",
+          "sha256": "ab822a5f4b6216bc21281f1326c7c4a16fb261de2f0c394d54acec3172071ae3"
+        }
+      }
+    }
+  }
+}
