@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "scavenger",
+  "version": "1.9.0",
+  "repository": "PoC-Consortium/scavenger",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/PoC-Consortium/scavenger/releases/download/1.9.0/scavenger-1.9.0-x86_64-unknown-linux-gnu-cpu-gpu.tar.xz",
+      "releaseTag": "1.9.0",
+      "sha256": "0171da4c2ebdc161ff2a7a8139f85d597654f1115f626eabcc6d152ebfe5bfa6",
+      "size": 4936352,
+      "format": "tar.xz",
+      "binaries": {
+        "scavenger": {
+          "path": "scavenger",
+          "sha256": "a43ed4ddac4f89e7aed0b7107e4eb43bdc69302b027b5e911b27cb215c656247"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/PoC-Consortium/scavenger/releases/download/1.9.0/scavenger-1.9.0-aarch64-unknown-linux-gnu-cpu-only.tar.xz",
+      "releaseTag": "1.9.0",
+      "sha256": "53bbda3e5ac9f4eb7962bc572819e3bb45a24ef43f53f69012dc459fb9099a5b",
+      "size": 4650780,
+      "format": "tar.xz",
+      "binaries": {
+        "scavenger": {
+          "path": "scavenger",
+          "sha256": "b4cff14f6c91108feb4ba9126a776d01b17fb8ce60917b2beafbc3f2e30990ba"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/PoC-Consortium/scavenger/releases/download/1.9.0/scavenger-1.9.0-x86_64-pc-windows-msvc-cpu-gpu.zip",
+      "releaseTag": "1.9.0",
+      "sha256": "fa48233f95ac9458e50a1931cb2b554176328c64dcefac6974514ec097851d71",
+      "size": 4473699,
+      "format": "zip",
+      "binaries": {
+        "scavenger.exe": {
+          "path": "scavenger.exe",
+          "sha256": "a41b3bb4d123f146a67d5699c0450b2968fd1528f86a032aafa96ec1a6803923"
+        }
+      }
+    }
+  }
+}
