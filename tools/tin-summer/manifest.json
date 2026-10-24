@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tin-summer",
+  "version": "1.21.14",
+  "repository": "vmchale/tin-summer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vmchale/tin-summer/releases/download/1.21.14/tin-summer-1.21.14-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.21.14",
+      "sha256": "cdcadf85bb69f8d599f83e0a2b561bc23057ad7c679d2754ccb5eaff7b0d1e4f",
+      "size": 1502074,
+      "format": "tar.gz",
+      "binaries": {
+        "sn": {
+          "path": "sn",
+          "sha256": "e1ef47536535ca33e6860d5dbb351335a14e50d0fe2b0f8451496d39e382e757"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/vmchale/tin-summer/releases/download/1.21.14/tin-summer-1.21.14-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.21.14",
+      "sha256": "f100d7584f9bddf73cb2b3aa31c339136a0c0ef706a97123ea6e060e023733c5",
+      "size": 1302714,
+      "format": "tar.gz",
+      "binaries": {
+        "sn": {
+          "path": "sn",
+          "sha256": "a5fd615c4b2d8084b17239b53e6ffc8cf0f89a4d8a395a892373c63b88a50ba9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vmchale/tin-summer/releases/download/1.21.14/tin-summer-1.21.14-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.21.14",
+      "sha256": "4960644626e1c1da07760c4176c0e0781ebb2420c881e08569c5e00443e8a869",
+      "size": 976722,
+      "format": "tar.gz",
+      "binaries": {
+        "sn": {
+          "path": "sn",
+          "sha256": "49077f6c1a48a666ce8a2d6cc701c9583ceffea02af79fc845bf1396abbedc2e"
+        }
+      }
+    }
+  }
+}
