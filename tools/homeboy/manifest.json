@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "name": "homeboy",
+  "version": "0.286.5",
+  "repository": "Extra-Chill/homeboy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Extra-Chill/homeboy/releases/download/v0.286.5/homeboy-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.286.5",
+      "sha256": "7a88a7d8c7b9d93096564a9fd28e762b409ad7cdd10c0e6a5447fb62a2f994e5",
+      "size": 19366448,
+      "format": "tar.xz",
+      "binaries": {
+        "bench-audit-self": {
+          "path": "homeboy-x86_64-unknown-linux-gnu/bench-audit-self",
+          "sha256": "5fe9ee36235aaf36e8cd5fa4fd2361963ca1d82bb5d799bd852e1d3d1be687d0"
+        },
+        "homeboy": {
+          "path": "homeboy-x86_64-unknown-linux-gnu/homeboy",
+          "sha256": "b2b3cae9f7173561d0dd4a6eddb75ce6bb482acca2d34895de8575cbc84e5a30"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Extra-Chill/homeboy/releases/download/v0.286.5/homeboy-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.286.5",
+      "sha256": "78e37dbdadbc658cc4ba72397dff523e859de099c5703dd4d7f1e6fc647edf68",
+      "size": 17081236,
+      "format": "tar.xz",
+      "binaries": {
+        "bench-audit-self": {
+          "path": "homeboy-aarch64-unknown-linux-gnu/bench-audit-self",
+          "sha256": "7d32093309e7bcfb276a0f370a1e096b5d1ccdf0f48b7d8d4c4a3799b5536d8c"
+        },
+        "homeboy": {
+          "path": "homeboy-aarch64-unknown-linux-gnu/homeboy",
+          "sha256": "fcae84a74d92a116a216b9115403573f11804b7fc752e3eab7b301afa5d38208"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Extra-Chill/homeboy/releases/download/v0.286.5/homeboy-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.286.5",
+      "sha256": "ce44cefc8a31ec2c4f7b2bc212c3f3678ddbddfb6063be5c64108112ef2a0951",
+      "size": 18667024,
+      "format": "tar.xz",
+      "binaries": {
+        "bench-audit-self": {
+          "path": "homeboy-x86_64-apple-darwin/bench-audit-self",
+          "sha256": "602d1c8c8126e020fc1ea79b548cc8f289b679d2bfe7bcfe44753e1f946d5866"
+        },
+        "homeboy": {
+          "path": "homeboy-x86_64-apple-darwin/homeboy",
+          "sha256": "8e11d74f9a44b47bab0d8fc557a36666301808cb9a3d2f5cd8071ad7f1ec23d2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Extra-Chill/homeboy/releases/download/v0.286.5/homeboy-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.286.5",
+      "sha256": "c6671430e2cfe3c3169de39c73929c56fe55edbcc8df6da16c80fc21a250ff66",
+      "size": 16632344,
+      "format": "tar.xz",
+      "binaries": {
+        "bench-audit-self": {
+          "path": "homeboy-aarch64-apple-darwin/bench-audit-self",
+          "sha256": "a8d2aac47e4ffa6837d4363a1a135151e00856ffaba5939dd856eef006c69460"
+        },
+        "homeboy": {
+          "path": "homeboy-aarch64-apple-darwin/homeboy",
+          "sha256": "83765be960af008552aeb6c44df96e4fb386de1b20d027e5c4eb8d73fd09a32c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Extra-Chill/homeboy/releases/download/v0.286.5/homeboy-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.286.5",
+      "sha256": "21b94a9233f4a8c56bd7898384af54070c7d8e1d452e573129de770e163323f3",
+      "size": 27837397,
+      "format": "zip",
+      "binaries": {
+        "bench-audit-self.exe": {
+          "path": "bench-audit-self.exe",
+          "sha256": "3ee570d450aa156564f53e4847bb4fc2151058bcfcce33edee8525498fc1f3b5"
+        },
+        "homeboy.exe": {
+          "path": "homeboy.exe",
+          "sha256": "60e6b052b526ae58383e204752e4136dd3ea89a25455c553afca90d411af2963"
+        }
+      }
+    }
+  }
+}
