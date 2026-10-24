@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "decode1090",
+  "version": "0.7.0",
+  "repository": "xoolive/jet1090",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/decode1090-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "1ae0f8e47db0840ce9106117ba8e31c3dd2d9775ca0caef0e26efaf6f54daf17",
+      "size": 1393276,
+      "format": "tar.xz",
+      "binaries": {
+        "decode1090": {
+          "path": "decode1090-x86_64-unknown-linux-gnu/decode1090",
+          "sha256": "b54cda240658b8a750cb76556f51b377d085f170922e3437cad86d433afd80fc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/decode1090-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "953fb5ce3b8317d78e9127e81552e9f25b24ccc18d3ac53bb0979928fabb344d",
+      "size": 1223272,
+      "format": "tar.xz",
+      "binaries": {
+        "decode1090": {
+          "path": "decode1090-aarch64-unknown-linux-gnu/decode1090",
+          "sha256": "a50451067807e287d322bc0d14329eeff48e72ddd10766414d47dc98813d5f14"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/decode1090-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "0b75dcddd91c75d261e6248c8ecac5090293334b42bb7a8571eaedc605ddc901",
+      "size": 1342208,
+      "format": "tar.xz",
+      "binaries": {
+        "decode1090": {
+          "path": "decode1090-x86_64-apple-darwin/decode1090",
+          "sha256": "cff875b16f5c0886c997529b8cadf0162f6ffdbc6432d1bfd978ecdd78b25086"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/decode1090-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.0",
+      "sha256": "f52918c26d2f3c10ea066a71dabfc1baf004018743e05b664a1f07dc749619d7",
+      "size": 1177488,
+      "format": "tar.xz",
+      "binaries": {
+        "decode1090": {
+          "path": "decode1090-aarch64-apple-darwin/decode1090",
+          "sha256": "323268ce251206f5089b97bc68ad74b4cf74e57153ac6e022b3fee67e5fc815b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/xoolive/jet1090/releases/download/v0.7.0/decode1090-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "ecf38ff6d063322d527e5000d1233767126a8374112b74ae13d30d29e923fed1",
+      "size": 2015859,
+      "format": "zip",
+      "binaries": {
+        "decode1090.exe": {
+          "path": "decode1090.exe",
+          "sha256": "2988cd8090360e66bd4d8f00db0a7185f1e6c5e353ffdd4bf4ece2cd8843a22d"
+        }
+      }
+    }
+  }
+}
