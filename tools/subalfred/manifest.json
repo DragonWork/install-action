@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "subalfred",
+  "version": "0.9.4",
+  "repository": "hack-ink/subalfred",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hack-ink/subalfred/releases/download/v0.9.4/subalfred-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.9.4",
+      "sha256": "4bbfbb345a993f68c7bd1d033c939f4af131c6f5c9935c80c39ddbe19ca5a0e3",
+      "size": 3419938,
+      "format": "tar.gz",
+      "binaries": {
+        "subalfred": {
+          "path": "subalfred",
+          "sha256": "452a4966edb74e8e94083a39622e3f42aee0193dfe9c2a7c0b4514fe16c3a872"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hack-ink/subalfred/releases/download/v0.9.4/subalfred-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.9.4",
+      "sha256": "2650394f37e07e4482e6697e9cd1b6e9d8b7781f3c93e4fc6d2d347047735aa9",
+      "size": 3091935,
+      "format": "zip",
+      "binaries": {
+        "subalfred": {
+          "path": "subalfred",
+          "sha256": "6ccc2fd810558327db87762ccee6495f57ad3836c043fa716369cdbade6289c7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hack-ink/subalfred/releases/download/v0.9.4/subalfred-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.4",
+      "sha256": "8c7765bd1376235278ee127d4c107e32ea3487c11cfadb5e5fb6daf5f90e55ef",
+      "size": 3115159,
+      "format": "zip",
+      "binaries": {
+        "subalfred.exe": {
+          "path": "subalfred.exe",
+          "sha256": "0a4b1a3a10582ec01691401a5ed2c62669c3463d1f9a90ff8babac765958b134"
+        }
+      }
+    }
+  }
+}
