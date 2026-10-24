@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "scopelint",
+  "version": "0.2.0",
+  "repository": "ScopeLift/scopelint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ScopeLift/scopelint/releases/download/v0.2.0/scopelint-x86_64-linux.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "7895a7d676e9a9ced2866b5b17a0601d7e01bcc627e5e5e0e7e9cc8ade8de681",
+      "size": 1213660,
+      "format": "tar.xz",
+      "binaries": {
+        "scopelint": {
+          "path": "scopelint-x86_64-linux/scopelint",
+          "sha256": "4a5c4ed7af07aac7b536548502ffe1ab09597f7fcc1dae196cb9273f02fabe69"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ScopeLift/scopelint/releases/download/v0.2.0/scopelint-aarch64-linux.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "368e410ca6ac4d92b8c482413504b11b522cfe4aa8db33ff61ad5cd9d9046a3f",
+      "size": 1004516,
+      "format": "tar.xz",
+      "binaries": {
+        "scopelint": {
+          "path": "scopelint-aarch64-linux/scopelint",
+          "sha256": "81d927d8e92ab487c253efc5884d95b6050fdfbe6f064dac5a41f875c337ab5d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ScopeLift/scopelint/releases/download/v0.2.0/scopelint-x86_64-macos.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "498c17d0e7bd0475a62e06af10da85ae1babeb7ecd1d1f2acc0a302ed86d8cc3",
+      "size": 1133028,
+      "format": "tar.xz",
+      "binaries": {
+        "scopelint": {
+          "path": "scopelint-x86_64-macos/scopelint",
+          "sha256": "f73cfb8d81c97a2e312a875a596e1703d8345bf8d2cf713e57bd2bb4e287828e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ScopeLift/scopelint/releases/download/v0.2.0/scopelint-aarch64-macos.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "e2ca3f3ff2802e76549ae111d8c2dc4c5cccc35d29051e843432ba25106a114b",
+      "size": 1105604,
+      "format": "tar.xz",
+      "binaries": {
+        "scopelint": {
+          "path": "scopelint-aarch64-macos/scopelint",
+          "sha256": "8360ef1f536ff89f0ffed4528e4cb2fb60b16b7f5abea317517cbaaf2db25571"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ScopeLift/scopelint/releases/download/v0.2.0/scopelint-x86_64-windows.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "00113fb58c61cefda134effd93e9cda20f11419c316a30631d719a923887ad2e",
+      "size": 1561589,
+      "format": "zip",
+      "binaries": {
+        "scopelint.exe": {
+          "path": "scopelint-x86_64-windows/scopelint.exe",
+          "sha256": "874af411fd63ae612b959cb9038676765fee0cadfa30548daabadeacad076063"
+        }
+      }
+    }
+  }
+}
