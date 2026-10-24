@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "wasm-rquickjs-cli",
+  "version": "0.4.13",
+  "repository": "golemcloud/wasm-rquickjs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/golemcloud/wasm-rquickjs/releases/download/v0.4.13/wasm-rquickjs-cli-v0.4.13-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.13",
+      "sha256": "5055bf1119e8694b93f7336ac21d1d46b4b80515c486aa82ae1c47762c0f6265",
+      "size": 13699061,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-rquickjs": {
+          "path": "wasm-rquickjs",
+          "sha256": "777b3fb4eead53728b3f1328fd84d9e2bcfe55207dfb173662e35589d05ac0c0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/golemcloud/wasm-rquickjs/releases/download/v0.4.13/wasm-rquickjs-cli-v0.4.13-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.13",
+      "sha256": "74cb8834bd7d019fd5dc7ca379eca7d6a79e5136a76bd2b245dc32762c101511",
+      "size": 13763230,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-rquickjs": {
+          "path": "wasm-rquickjs",
+          "sha256": "45491d208281ff12f6a5026cb54e0ed160ac75488c3c8443125a04236c0c90e3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/golemcloud/wasm-rquickjs/releases/download/v0.4.13/wasm-rquickjs-cli-v0.4.13-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.13",
+      "sha256": "00f3e52c53892ab1001281619f1aa4d944f45f4d25391635a8eba630485dcfbb",
+      "size": 13089402,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-rquickjs": {
+          "path": "wasm-rquickjs",
+          "sha256": "9e137d1610a34ad773d186710da84e90c96b6151555b15de9fc49f200032a01c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/golemcloud/wasm-rquickjs/releases/download/v0.4.13/wasm-rquickjs-cli-v0.4.13-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.13",
+      "sha256": "be7350534e17058eb6334eaf04cc9efec5356abd7ecb64c185cc48769867934b",
+      "size": 12151330,
+      "format": "tar.gz",
+      "binaries": {
+        "wasm-rquickjs": {
+          "path": "wasm-rquickjs",
+          "sha256": "22e784780f4fd2834ccf5f42c8a1e36d6735759efa9dda1aba0f60be66808796"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/golemcloud/wasm-rquickjs/releases/download/v0.4.13/wasm-rquickjs-cli-v0.4.13-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.13",
+      "sha256": "582e356e2820c48f3dbc81e59eb395ddc552a48792f373ad8fa9e660c1aba7f5",
+      "size": 11627245,
+      "format": "zip",
+      "binaries": {
+        "wasm-rquickjs.exe": {
+          "path": "wasm-rquickjs.exe",
+          "sha256": "bc9d5aa48905e55760f18cb92ed988a34534ff0ce8824a71d6650464f8a68c63"
+        }
+      }
+    }
+  }
+}
