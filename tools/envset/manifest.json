@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "envset",
+  "version": "0.2.0",
+  "repository": "schpet/envset",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/schpet/envset/releases/download/v0.2.0/envset-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "fa7ea7fa7d4a9aee6a971bbec814fa743b377b60347e22da57a44f572ded63d0",
+      "size": 511508,
+      "format": "tar.xz",
+      "binaries": {
+        "envset": {
+          "path": "envset-x86_64-unknown-linux-gnu/envset",
+          "sha256": "5ffce9d9a09fee96c89a221c2c2a6fa5b767fc0f3f8dfc4e130a08d4e5327305"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/schpet/envset/releases/download/v0.2.0/envset-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "29b6b24ccbb1a905bffae81607dc10b0fb0433b2ccfceded6740666d42c81f12",
+      "size": 473424,
+      "format": "tar.xz",
+      "binaries": {
+        "envset": {
+          "path": "envset-x86_64-apple-darwin/envset",
+          "sha256": "f372f219e0d4acc85cd2c86420f60a0591902b5b24288348131f3ddfed99c2e4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/schpet/envset/releases/download/v0.2.0/envset-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.2.0",
+      "sha256": "74f4fc56cabc9944b8ba8f141dd3234e5eefbdb5bc5e071bbc29da4c181fe1c0",
+      "size": 429308,
+      "format": "tar.xz",
+      "binaries": {
+        "envset": {
+          "path": "envset-aarch64-apple-darwin/envset",
+          "sha256": "438872cb8abe67f2a8c3d6ba88402bb02147f5c8e5220e1aee934b5670021fbb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/schpet/envset/releases/download/v0.2.0/envset-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "dce2e80d7efef58b0852e50ca6f59a81d3f0761990423b2c18222235900b7720",
+      "size": 1420672,
+      "format": "zip",
+      "binaries": {
+        "envset.exe": {
+          "path": "envset.exe",
+          "sha256": "d0e20d76572a4a725ec5992a61c53f05a481f17e300834325335457209a2df2b"
+        }
+      }
+    }
+  }
+}
