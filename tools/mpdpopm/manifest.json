@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "mpdpopm",
+  "version": "0.3.6",
+  "repository": "sp1ff/mpdpopm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sp1ff/mpdpopm/releases/download/0.3.6/mpdpopm-0.3.6-x86_64-unknown-linux.tar.gz",
+      "releaseTag": "0.3.6",
+      "sha256": "dd8c7c7d40ba8c930776d878964a870dc54facf8db263cf80068e38c9ca0926e",
+      "size": 3245778,
+      "format": "tar.gz",
+      "binaries": {
+        "mppopm": {
+          "path": "mpdpopm-0.3.6-x86_64-unknown-linux/bin/mppopm",
+          "sha256": "07f2c06d0612812c44b62f7fa9c29b8a8d5fbc299dc9268b83c69c7877871306"
+        },
+        "mppopmd": {
+          "path": "mpdpopm-0.3.6-x86_64-unknown-linux/bin/mppopmd",
+          "sha256": "2ba90d1b5131b952b2e6bc9b490493b35b7a915f1bcda7bd151f44a20fd6523b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sp1ff/mpdpopm/releases/download/0.3.6/mpdpopm-0.3.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.3.6",
+      "sha256": "21f27b98d18152e920470ff69d5a573c50ee57bc628d1a8c3ec83aa6b4a38d04",
+      "size": 2928660,
+      "format": "tar.gz",
+      "binaries": {
+        "mppopm": {
+          "path": "mpdpopm-0.3.6-x86_64-apple-darwin/bin/mppopm",
+          "sha256": "fb05173b3bb8be909dad3efb67537228c5455419ea8d8f2a3ce49e60e8679b86"
+        },
+        "mppopmd": {
+          "path": "mpdpopm-0.3.6-x86_64-apple-darwin/bin/mppopmd",
+          "sha256": "c09fe5e95d9a43510718ea7815855efbef2d7816b283b57a635a3a9666070942"
+        }
+      }
+    }
+  }
+}
