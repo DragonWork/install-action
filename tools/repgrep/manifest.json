@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "repgrep",
+  "version": "0.17.1",
+  "repository": "acheronfail/repgrep",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/acheronfail/repgrep/releases/download/0.17.1/repgrep-0.17.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.17.1",
+      "sha256": "8ff01716866bff197843cb2d406bb8d20de42743e4960f54511c9f7427e5913c",
+      "size": 1900378,
+      "format": "tar.gz",
+      "binaries": {
+        "rgr": {
+          "path": "repgrep-0.17.1-x86_64-unknown-linux-musl/rgr",
+          "sha256": "0c6a6c044ccaebd01d736e3c82f9bbad39975ce31d883a902a85a76ba71ec681"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/acheronfail/repgrep/releases/download/0.17.1/repgrep-0.17.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.17.1",
+      "sha256": "cf516bae0680db0635c326be5b5622e7da0bc659dd8902eb8ed949afe5cc7d4d",
+      "size": 1706376,
+      "format": "tar.gz",
+      "binaries": {
+        "rgr": {
+          "path": "repgrep-0.17.1-aarch64-unknown-linux-musl/rgr",
+          "sha256": "5e6217896787ad813d8bb5cd58106d99ab1cb228fde86961d39d52a994066f50"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/acheronfail/repgrep/releases/download/0.17.1/repgrep-0.17.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.17.1",
+      "sha256": "a20953af90f82b244136c717db7ad1e8a10f9cc42735e4f5fd672cc60dbe5638",
+      "size": 1805437,
+      "format": "tar.gz",
+      "binaries": {
+        "rgr": {
+          "path": "repgrep-0.17.1-x86_64-apple-darwin/rgr",
+          "sha256": "b7428f883469308a187c8d7a6c27fa506011ea8b3415586603d127a3c65bf9a5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/acheronfail/repgrep/releases/download/0.17.1/repgrep-0.17.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.17.1",
+      "sha256": "669167291bb2cde97f34a6b431c46e0e049cf345e5fc9a0668fec27f73592325",
+      "size": 1472596,
+      "format": "tar.gz",
+      "binaries": {
+        "rgr": {
+          "path": "repgrep-0.17.1-aarch64-apple-darwin/rgr",
+          "sha256": "45db21029b076419c85ac26a34b698a31e08e1aee5c456d9931abd68b171b90a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/acheronfail/repgrep/releases/download/0.17.1/repgrep-0.17.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.17.1",
+      "sha256": "815fb21de37c0d55f4b37bd2746740484bb10a5b83bee9e22fa0ae4ec6d9e0aa",
+      "size": 1647402,
+      "format": "zip",
+      "binaries": {
+        "rgr.exe": {
+          "path": "repgrep-0.17.1-x86_64-pc-windows-msvc/rgr.exe",
+          "sha256": "e0db1742b1da6ee8503c3c20bc36880361e4b26f31381f47fa984562612448e2"
+        }
+      }
+    }
+  }
+}
