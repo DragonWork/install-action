@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "git-req",
+  "version": "2.5.0",
+  "repository": "arusahni/git-req",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/arusahni/git-req/releases/download/v2.5.0/git-req-v2.5.0-linux-amd64.tar.gz",
+      "releaseTag": "v2.5.0",
+      "sha256": "f6545ab78e7066bb27dcba27d0bfb4a8d20d70f257ad3fbf7536d3c4b5e827dd",
+      "size": 2534629,
+      "format": "tar.gz",
+      "binaries": {
+        "git-req": {
+          "path": "git-req",
+          "sha256": "a85aade871a60e22b878db6de41265546daa8084ab586fbda427ec28927bfd90"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/arusahni/git-req/releases/download/v2.5.0/git-req-v2.5.0-macos-amd64.tar.gz",
+      "releaseTag": "v2.5.0",
+      "sha256": "919ebba24f67acf97360ce09f04a17e9c17127e24ee5fea6a829df3e3772b668",
+      "size": 1959241,
+      "format": "tar.gz",
+      "binaries": {
+        "git-req": {
+          "path": "git-req",
+          "sha256": "57a1998438096030fa312e12a8f03f797263058159c793563d2c457047ceb3f4"
+        }
+      }
+    }
+  }
+}
