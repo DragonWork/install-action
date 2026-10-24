@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mediafire_rs",
+  "version": "0.2.3",
+  "repository": "NicKoehler/mediafire_rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/NicKoehler/mediafire_rs/releases/download/v0.2.3/mdrs-linux-x64.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "3307f025bca4add4ffcc68437b198514dc40a0394bc90b51eddbb4c8e6f7339f",
+      "size": 1400919,
+      "format": "tar.gz",
+      "binaries": {
+        "mdrs": {
+          "path": "mdrs-linux-x64/mdrs",
+          "sha256": "b6d67174e8e77a140b844cc2518dc39ab69601fdc6efaa09acf0809f22b64b47"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/NicKoehler/mediafire_rs/releases/download/v0.2.3/mdrs-darwin-x64.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "c16327ed25c02147e53a410ec9116ae26f4b9e8295f5098a82d08f0962ae8850",
+      "size": 1247077,
+      "format": "tar.gz",
+      "binaries": {
+        "mdrs": {
+          "path": "mdrs-darwin-x64/mdrs",
+          "sha256": "d33dcb4b8b5b79190d0867c7ae20760147129fb2ed81d2029474b1d497050503"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/NicKoehler/mediafire_rs/releases/download/v0.2.3/mdrs-darwin-aarch64.tar.gz",
+      "releaseTag": "v0.2.3",
+      "sha256": "028e310bff9072f7fc0b8acf185ae37eff681cad6a32dda58db3cc67c06d4a69",
+      "size": 1247082,
+      "format": "tar.gz",
+      "binaries": {
+        "mdrs": {
+          "path": "mdrs-darwin-aarch64/mdrs",
+          "sha256": "d33dcb4b8b5b79190d0867c7ae20760147129fb2ed81d2029474b1d497050503"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/NicKoehler/mediafire_rs/releases/download/v0.2.3/mdrs-windows-x64.zip",
+      "releaseTag": "v0.2.3",
+      "sha256": "0d2f8e8142def0524a10132639287cc3bdcca7ccdb796e612f738ee87325c79d",
+      "size": 1122480,
+      "format": "zip",
+      "binaries": {
+        "mdrs.exe": {
+          "path": "mdrs-windows-x64/mdrs.exe",
+          "sha256": "616ea6e86a391f650993a4673c5cbdba3d324636e792b4ab8a95a88c7d3e1e3b"
+        }
+      }
+    }
+  }
+}
