@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "bndl_cli",
+  "version": "1.9.0",
+  "repository": "segersniels/bndl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/segersniels/bndl/releases/download/1.9.0/bndl-amd64-linux",
+      "sha256": "1a40895487acd2957d985f294596505f9857a316b1e7813c3a13367f4786ba9a",
+      "size": 14092688,
+      "format": "binary",
+      "releaseTag": "1.9.0",
+      "binaries": {
+        "bndl": {
+          "path": "bndl-amd64-linux",
+          "sha256": "1a40895487acd2957d985f294596505f9857a316b1e7813c3a13367f4786ba9a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/segersniels/bndl/releases/download/1.9.0/bndl-aarch64-linux",
+      "sha256": "1de862bd277f5e04a42634837d158807f847e24f893f2f5c374ef7fb65fe200a",
+      "size": 11535992,
+      "format": "binary",
+      "releaseTag": "1.9.0",
+      "binaries": {
+        "bndl": {
+          "path": "bndl-aarch64-linux",
+          "sha256": "1de862bd277f5e04a42634837d158807f847e24f893f2f5c374ef7fb65fe200a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/segersniels/bndl/releases/download/1.9.0/bndl-macos",
+      "sha256": "fe7043d263bbd5e17c48a5345c1c94407c9829979be0174984f8223f80914543",
+      "size": 12030680,
+      "format": "binary",
+      "releaseTag": "1.9.0",
+      "binaries": {
+        "bndl": {
+          "path": "bndl-macos",
+          "sha256": "fe7043d263bbd5e17c48a5345c1c94407c9829979be0174984f8223f80914543"
+        }
+      }
+    }
+  }
+}
