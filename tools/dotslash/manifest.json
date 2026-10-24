@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dotslash",
+  "version": "0.5.7",
+  "repository": "facebook/dotslash",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/facebook/dotslash/releases/download/v0.5.7/dotslash-linux-musl.x86_64.tar.gz",
+      "releaseTag": "v0.5.7",
+      "sha256": "f70c3ea65c1888126b3e32a1962abb4e1d7c5478a925a8d111fe53239a34e5f3",
+      "size": 829147,
+      "format": "tar.gz",
+      "binaries": {
+        "dotslash": {
+          "path": "dotslash",
+          "sha256": "4a27ed52115859131c538b604ffbb7dc838f1497a3041b5eeb1db08e2939c1ad"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/facebook/dotslash/releases/download/v0.5.7/dotslash-linux-musl.aarch64.tar.gz",
+      "releaseTag": "v0.5.7",
+      "sha256": "d1b53c9c067bdbd6eb46349c6fbef152070bce7f4cb26e3b3141d16368a6aaab",
+      "size": 747578,
+      "format": "tar.gz",
+      "binaries": {
+        "dotslash": {
+          "path": "dotslash",
+          "sha256": "2665f0f52efb2d575c0175a9c633170272cb1484be14c4214b7ecd1fb0549679"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/facebook/dotslash/releases/download/v0.5.7/dotslash-macos-x86_64.tar.gz",
+      "releaseTag": "v0.5.7",
+      "sha256": "caf33083f51f05de28b1dfdb6becbea0fccb06f78676ae312f0c222aa0db1666",
+      "size": 700606,
+      "format": "tar.gz",
+      "binaries": {
+        "dotslash": {
+          "path": "dotslash",
+          "sha256": "b8c735f542129a913ade617f246822c24bbe0a4e845ca8d178152b219906dd3d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/facebook/dotslash/releases/download/v0.5.7/dotslash-macos-arm64.tar.gz",
+      "releaseTag": "v0.5.7",
+      "sha256": "ed3ec4d699d0ff0810e33a0cc41c45a8f707b1a58805cfdfa008c6be402069d9",
+      "size": 614563,
+      "format": "tar.gz",
+      "binaries": {
+        "dotslash": {
+          "path": "dotslash",
+          "sha256": "0f2962c9bcb1018d386cfabd43fc9f8f66410248a80118bf0a1bdc6c557f45b9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/facebook/dotslash/releases/download/v0.5.7/dotslash-windows-arm64.tar.gz",
+      "releaseTag": "v0.5.7",
+      "sha256": "c8634e0d45ad99ec4f6367bc7c96d8b59e944b6f78f71224a8a498c2d7737d53",
+      "size": 563840,
+      "format": "tar.gz",
+      "binaries": {
+        "dotslash.exe": {
+          "path": "dotslash.exe",
+          "sha256": "f9e075e9c955190d7d335246e4520f944133df0d2c8be6f6b1f23a966025acaa"
+        }
+      }
+    }
+  }
+}
