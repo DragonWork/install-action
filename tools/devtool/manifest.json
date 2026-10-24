@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "devtool",
+  "version": "0.8.23",
+  "repository": "jenkinpan/devtool-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jenkinpan/devtool-rs/releases/download/v0.8.23/devtool-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.8.23",
+      "sha256": "269aa9efc40045a3b33b6eb3ad1380c9c5999cefc39f22e94ca2a8c69f362ac5",
+      "size": 1150356,
+      "format": "tar.gz",
+      "binaries": {
+        "devtool": {
+          "path": "devtool",
+          "sha256": "3584d7779a7783eac8fa5c3857c724cd2d875d842a182896ebdf526527a93618"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jenkinpan/devtool-rs/releases/download/v0.8.23/devtool-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.23",
+      "sha256": "cfcb8da2386441ba2901deca4058f08bee3a95aa08520caf351ab9a8733e5a49",
+      "size": 1081390,
+      "format": "tar.gz",
+      "binaries": {
+        "devtool": {
+          "path": "devtool",
+          "sha256": "8ea170ad414423c48ab32093564c8021c1b2ca134734342a0eb7aff3278436d4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jenkinpan/devtool-rs/releases/download/v0.8.23/devtool-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.23",
+      "sha256": "446c1e6511e0c36259f4b8bbe891c01951988a24c1568863c75797a0f8ed4032",
+      "size": 1033209,
+      "format": "tar.gz",
+      "binaries": {
+        "devtool": {
+          "path": "devtool",
+          "sha256": "a52d43be6ce3196c73d7f3ca5d4c6604bfccdc01cd350fdaeb41de6575ee0c44"
+        }
+      }
+    }
+  }
+}
