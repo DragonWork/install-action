@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-freeze-deps",
+  "version": "0.1.20",
+  "repository": "folo-rs/folo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/folo-rs/folo/releases/download/cargo-freeze-deps-v0.1.20/cargo-freeze-deps-v0.1.20-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "cargo-freeze-deps-v0.1.20",
+      "sha256": "d5282a1efb5b57a9455b33a059085375b7f33b3fba9160877dfee02bb60e37d7",
+      "size": 3010529,
+      "format": "zip",
+      "binaries": {
+        "cargo-freeze-deps": {
+          "path": "cargo-freeze-deps",
+          "sha256": "06572a6bc3ddc86d23bc4b7d226f5451baba2b6cca80642c1cc7a86f1e1e5bf7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/folo-rs/folo/releases/download/cargo-freeze-deps-v0.1.20/cargo-freeze-deps-v0.1.20-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "cargo-freeze-deps-v0.1.20",
+      "sha256": "a6be89991f2a553d318de3553e72c2923d629e583a4ff8012a150d937efaea66",
+      "size": 2661395,
+      "format": "zip",
+      "binaries": {
+        "cargo-freeze-deps": {
+          "path": "cargo-freeze-deps",
+          "sha256": "8d1fa8a6e83ed367e0dc1b795d921dfb96779d4ad11c9a1506110d79b2833d0a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/folo-rs/folo/releases/download/cargo-freeze-deps-v0.1.20/cargo-freeze-deps-v0.1.20-aarch64-apple-darwin.zip",
+      "releaseTag": "cargo-freeze-deps-v0.1.20",
+      "sha256": "bcc7887dbda2ed7a975e6849bac597dbbf56b48cc5dce63e2816344b0cbc9f4b",
+      "size": 610920,
+      "format": "zip",
+      "binaries": {
+        "cargo-freeze-deps": {
+          "path": "cargo-freeze-deps",
+          "sha256": "89e32c85393497f668763a0cbac0d61e3b62e7790d44132752ec6e06e3ff7208"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/folo-rs/folo/releases/download/cargo-freeze-deps-v0.1.20/cargo-freeze-deps-v0.1.20-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "cargo-freeze-deps-v0.1.20",
+      "sha256": "c3c65d12ff359310c762ebbea965b69e00f5fc0ec83ebcab38bfa49174e5100c",
+      "size": 451839,
+      "format": "zip",
+      "binaries": {
+        "cargo-freeze-deps.exe": {
+          "path": "cargo-freeze-deps.exe",
+          "sha256": "d305a49369d5e6d77f7cfe5e2c238dc13f8f982657ca0d0ee7c0ae3c69f30a19"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/folo-rs/folo/releases/download/cargo-freeze-deps-v0.1.20/cargo-freeze-deps-v0.1.20-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "cargo-freeze-deps-v0.1.20",
+      "sha256": "812b54fb7c97b00427489e452f663fef00a96d713d682e8e1db75b7c31d63ad9",
+      "size": 430813,
+      "format": "zip",
+      "binaries": {
+        "cargo-freeze-deps.exe": {
+          "path": "cargo-freeze-deps.exe",
+          "sha256": "5c3556e2d02e635b1a782e41c32729dbbae772ac018a82582a9cfbe66a36783e"
+        }
+      }
+    }
+  }
+}
