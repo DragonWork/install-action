@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "kuva",
+  "version": "0.6.0",
+  "repository": "Psy-Fer/kuva",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Psy-Fer/kuva/releases/download/v0.6.0/kuva-v0.6.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "84ac567155a81d1cc5edd76a2cb46b4cac9bb9991747787a1eefdd68e7f4205d",
+      "size": 9451217,
+      "format": "tar.gz",
+      "binaries": {
+        "kuva": {
+          "path": "kuva",
+          "sha256": "70945a9b83e67f3e4c4ae54ae52ad84c7cb850c505c8d8d09344a7e03481342c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Psy-Fer/kuva/releases/download/v0.6.0/kuva-v0.6.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "82895b7d4db1a0c82f41edea1df19e73f095fb057223137edb10636da66119cd",
+      "size": 8918672,
+      "format": "tar.gz",
+      "binaries": {
+        "kuva": {
+          "path": "kuva",
+          "sha256": "2f68a52966a5d0260e39613a902778bf6f05e0a4e42195817837a6afdf7f4531"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Psy-Fer/kuva/releases/download/v0.6.0/kuva-v0.6.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "b3ca6251f957fd5bf8a30ea8524dc4604aff02a6f4b2dfb3873f70971451d048",
+      "size": 8875289,
+      "format": "tar.gz",
+      "binaries": {
+        "kuva": {
+          "path": "kuva",
+          "sha256": "7b5055d275ff543dba0eaedd19db4da6b0fd46afe134c0960183087aeb5c4506"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Psy-Fer/kuva/releases/download/v0.6.0/kuva-v0.6.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "852a1f7b6f0f9201525a8323b7a1cf33aebfaa48a9821b3ef9d6d7dfeb073a26",
+      "size": 8382780,
+      "format": "tar.gz",
+      "binaries": {
+        "kuva": {
+          "path": "kuva",
+          "sha256": "c561c52bccd2366a89b9c1650161b28dadec89bd63fa3275c6d6a72d48f0b7d8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Psy-Fer/kuva/releases/download/v0.6.0/kuva-v0.6.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "d50e029ad907b2a6f0eac8303858559fe00e29de4b2f83998042d78244586a0d",
+      "size": 8080610,
+      "format": "zip",
+      "binaries": {
+        "kuva.exe": {
+          "path": "kuva.exe",
+          "sha256": "e6e418d61636c5a4410a610f01187432311a0cc697088e9d82fe9238540d9ce0"
+        }
+      }
+    }
+  }
+}
