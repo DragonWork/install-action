@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "ska",
+  "version": "0.5.1",
+  "repository": "bacpop/ska.rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bacpop/ska.rust/releases/download/v0.5.1/ska-v0.5.1-ubuntu-latest-stable.tar.gz",
+      "sha256": "a48ff20fe5723669ef09dc2aa59ca19ef6a230d68b64c34d9e62b816224b5e1e",
+      "size": 2430062,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "ska": {
+          "path": "ska",
+          "sha256": "934a4f3a5f186ebc7909c431a4fef7064c555eb52cb27e59ffdf085659bc8648"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bacpop/ska.rust/releases/download/v0.5.1/ska-v0.5.1-macOS-latest-stable.tar.gz",
+      "sha256": "0308cb752142508ff83e2bc99d96ebdfd5bc49225507667b1ed4e10b38510868",
+      "size": 1653790,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "ska": {
+          "path": "ska",
+          "sha256": "b210552aeb7a5a6eb36e6a877a0c138908e4788f89bc4491c19e1b4b3420f9d2"
+        }
+      }
+    }
+  }
+}
