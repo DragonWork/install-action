@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "lueur-ebpf-programs",
+  "version": "0.4.0",
+  "repository": "rebound-how/rebound",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/rebound-how/rebound/releases/download/0.4.0/lueur-cli-0.4.0-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "0.4.0",
+      "sha256": "b10adfa8662279a56f247592cc61b16c6799d4819fdf31c23751012f150901a7",
+      "size": 16301056,
+      "format": "binary",
+      "binaries": {
+        "lueur-ebpf.exe": {
+          "path": "lueur-cli-0.4.0-x86_64-pc-windows-msvc.exe",
+          "sha256": "b10adfa8662279a56f247592cc61b16c6799d4819fdf31c23751012f150901a7"
+        }
+      }
+    }
+  }
+}
