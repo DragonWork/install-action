@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "irust",
+  "version": "1.77.0",
+  "repository": "sigmaSd/IRust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sigmaSd/IRust/releases/download/irust%401.77.0/irust-x86_64-unknown-linux-gnu",
+      "sha256": "995a3bb20c469581730e29924a595a38b1538aaa04b862b35fb1ef5e70a1bdab",
+      "size": 1623392,
+      "format": "binary",
+      "releaseTag": "irust@1.77.0",
+      "binaries": {
+        "irust": {
+          "path": "irust-x86_64-unknown-linux-gnu",
+          "sha256": "995a3bb20c469581730e29924a595a38b1538aaa04b862b35fb1ef5e70a1bdab"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sigmaSd/IRust/releases/download/irust%401.77.0/irust-aarch64-apple-darwin",
+      "sha256": "26ce5c9f6d05e758f61b6facfdb96e4933c13f22dce5981f5e1f6df6ec422f4f",
+      "size": 1416784,
+      "format": "binary",
+      "releaseTag": "irust@1.77.0",
+      "binaries": {
+        "irust": {
+          "path": "irust-aarch64-apple-darwin",
+          "sha256": "26ce5c9f6d05e758f61b6facfdb96e4933c13f22dce5981f5e1f6df6ec422f4f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sigmaSd/IRust/releases/download/irust%401.77.0/irust-x86_64-pc-windows-msvc.exe",
+      "sha256": "f3e720f79c4e257c2aec6287dc344aa97d47870e818e64d34ee85cc7c2a7960d",
+      "size": 1634816,
+      "format": "binary",
+      "releaseTag": "irust@1.77.0",
+      "binaries": {
+        "irust.exe": {
+          "path": "irust-x86_64-pc-windows-msvc.exe",
+          "sha256": "f3e720f79c4e257c2aec6287dc344aa97d47870e818e64d34ee85cc7c2a7960d"
+        }
+      }
+    }
+  }
+}
