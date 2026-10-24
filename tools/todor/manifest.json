@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "todor",
+  "version": "1.10.0",
+  "repository": "jfding/todor",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jfding/todor/releases/download/v1.10.0/todor-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v1.10.0",
+      "sha256": "7848dc9d17e644f7496a9232d589628e0e4cf8f506dc8927a5404986816ecf34",
+      "size": 1978175,
+      "format": "zip",
+      "binaries": {
+        "todor": {
+          "path": "todor.bin/todor",
+          "sha256": "d01e71ad18376128640190002532b33b66a1f7ed9d94f4caa25c92b4009a149a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jfding/todor/releases/download/v1.10.0/todor-aarch64-unknown-linux-musl.zip",
+      "releaseTag": "v1.10.0",
+      "sha256": "6df8410f2e7a39716a0e5397ca649341628459957b38d6f53379368790ba5be4",
+      "size": 1898226,
+      "format": "zip",
+      "binaries": {
+        "todor": {
+          "path": "todor.bin/todor",
+          "sha256": "98cccddcbe0736bce51d981e244b085d9918cff144699e6175bf2ff46fde804d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jfding/todor/releases/download/v1.10.0/todor-x86_64-apple-darwin.zip",
+      "releaseTag": "v1.10.0",
+      "sha256": "69aaff12164c7a0076836f8de6feac445232e48919a5f1c4272d31e042dc5b2e",
+      "size": 1758878,
+      "format": "zip",
+      "binaries": {
+        "todor": {
+          "path": "todor.bin/todor",
+          "sha256": "18fcfbea6ef35f91137e55f88ba178f544449d660c764a03049b2aa2d74b3385"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jfding/todor/releases/download/v1.10.0/todor-aarch64-apple-darwin.zip",
+      "releaseTag": "v1.10.0",
+      "sha256": "a8713e804cc2f190119dd99a482af9254a088613ed1ea0ff55655ba7e98acf0d",
+      "size": 1682403,
+      "format": "zip",
+      "binaries": {
+        "todor": {
+          "path": "todor.bin/todor",
+          "sha256": "82a89ed846d817c4f5aeaa7ec51b7823629345572e670c3a583ea2a075661dbd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jfding/todor/releases/download/v1.10.0/todor-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.10.0",
+      "sha256": "df97ded7add00ea654e384bd97aebc13aaaa5f776e39db93eeb6d520ef0f8b26",
+      "size": 4474855,
+      "format": "zip",
+      "binaries": {
+        "todor.exe": {
+          "path": "todor.exe",
+          "sha256": "bb80794b4c25c981e5aaf1eb37ee48c14d235702559a36ee13fb85e848dcbbd9"
+        }
+      }
+    }
+  }
+}
