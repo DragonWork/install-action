@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "distrans_cli",
+  "version": "0.3.19",
+  "repository": "cmars/stigmerge",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cmars/stigmerge/releases/download/distrans_cli-v0.3.19/distrans_cli-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "distrans_cli-v0.3.19",
+      "sha256": "ac706af748b9b36c6900fd50978a3743d4669a79322c90bf123a3d7a98e1975c",
+      "size": 7948007,
+      "format": "tar.gz",
+      "binaries": {
+        "distrans": {
+          "path": "distrans_cli-x86_64-unknown-linux-musl/distrans",
+          "sha256": "ee870adfa083c8c95854136e45950cb4bc476a35f7b7c68fb8113b55eba4fbb5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cmars/stigmerge/releases/download/distrans_cli-v0.3.19/distrans_cli-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "distrans_cli-v0.3.19",
+      "sha256": "a56b8644970331b54a7fc0727de68ee5015b08b06977dfa0917b2fe41f342301",
+      "size": 7605762,
+      "format": "tar.gz",
+      "binaries": {
+        "distrans": {
+          "path": "distrans_cli-aarch64-unknown-linux-gnu/distrans",
+          "sha256": "933dbe776c5897705f272e0490a544bfc8c6fe6dd13efd7e43c25b974f137405"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cmars/stigmerge/releases/download/distrans_cli-v0.3.19/distrans_cli-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "distrans_cli-v0.3.19",
+      "sha256": "299ceef8efcf4a923c88424de5585fd1506c165c98478bb8b852cbf309fe51c7",
+      "size": 7059512,
+      "format": "tar.gz",
+      "binaries": {
+        "distrans": {
+          "path": "distrans_cli-x86_64-apple-darwin/distrans",
+          "sha256": "32e05b2ea6c6865f4e426d442c87b244b944892afa707de904e807814e614cfd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cmars/stigmerge/releases/download/distrans_cli-v0.3.19/distrans_cli-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "distrans_cli-v0.3.19",
+      "sha256": "c1c436cb72878f48d76d571f211d054b205979092855538f47ccbeab8fedb2f5",
+      "size": 6967007,
+      "format": "tar.gz",
+      "binaries": {
+        "distrans": {
+          "path": "distrans_cli-aarch64-apple-darwin/distrans",
+          "sha256": "bb384d4e310da8c01e069d9b5dfa649a46190dc2e251d83160de8b3f19784784"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cmars/stigmerge/releases/download/distrans_cli-v0.3.19/distrans_cli-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "distrans_cli-v0.3.19",
+      "sha256": "705386760a383a43e640d8103c6ba1921a3b69fe4e504276019e09dcc790a01f",
+      "size": 6801902,
+      "format": "tar.gz",
+      "binaries": {
+        "distrans.exe": {
+          "path": "distrans_cli-x86_64-pc-windows-msvc/distrans.exe",
+          "sha256": "4130c57c7856860fe937733a7e23a6f18e832e329c3f6f17a304e969d4bd09ed"
+        }
+      }
+    }
+  }
+}
