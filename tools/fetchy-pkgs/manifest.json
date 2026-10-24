@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "fetchy-pkgs",
+  "version": "0.4.0",
+  "repository": "ClementNerma/Fetchy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ClementNerma/Fetchy/releases/download/v0.4.0/fetchy-0.4.0-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "3a7882ceedca49530ad5522014da7b6e4388e0349d4c3efaa045f80669567cc9",
+      "size": 4106492,
+      "format": "tar.xz",
+      "binaries": {
+        "fetchy": {
+          "path": "target/x86_64-unknown-linux-musl/release/fetchy",
+          "sha256": "efeca852d9c2b120203bd02701c929c77a2a0c3870337cead06de624618ef82c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ClementNerma/Fetchy/releases/download/v0.4.0/fetchy-0.4.0-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.4.0",
+      "sha256": "2f0f6c8e1ad8b5e097c61bd2f315185fe16ed91cb45c38a7084aa8da35a9678b",
+      "size": 3790500,
+      "format": "tar.xz",
+      "binaries": {
+        "fetchy": {
+          "path": "target/aarch64-unknown-linux-musl/release/fetchy",
+          "sha256": "0ad20b242a597d3e412de53c6eb427f4b1867eafd19b1f77a0a08c7188167118"
+        }
+      }
+    }
+  }
+}
