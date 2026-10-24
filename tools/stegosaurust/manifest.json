@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "stegosaurust",
+  "version": "0.4.6",
+  "repository": "jj-style/stegosaurust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jj-style/stegosaurust/releases/download/v0.4.6/stegosaurust-v0.4.6-linux-x86_64.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "1a88fe65fcd7dfc5fef176cb66501b2115519e9445f8c5f21a9fba2d0581d193",
+      "size": 3750132,
+      "format": "tar.gz",
+      "binaries": {
+        "stegosaurust": {
+          "path": "stegosaurust",
+          "sha256": "4ea714e256cc34f7b5063371ec8e792972703ec21e0f6ead18aeaacfd9e9da7f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jj-style/stegosaurust/releases/download/v0.4.6/stegosaurust-v0.4.6-linux-arm64.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "03f14a50e155a84b564b978563241c910dd01cba921ec9a8f26869011eb8c5fa",
+      "size": 3379079,
+      "format": "tar.gz",
+      "binaries": {
+        "stegosaurust": {
+          "path": "stegosaurust",
+          "sha256": "7522d80f7717d08b52fd0dd66accdbdd9edfd21c75a23f18d5bf32129f148aa1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jj-style/stegosaurust/releases/download/v0.4.6/stegosaurust-v0.4.6-macos-x86_64.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "eba7dc087758d087bf04b3caaa962ca3900f990d5caa4fb4b66e5e1076fafe4b",
+      "size": 2465496,
+      "format": "tar.gz",
+      "binaries": {
+        "stegosaurust": {
+          "path": "stegosaurust",
+          "sha256": "4265142d0af5ea17ec03619294f491e7d98327bf8ecb38067ec0db2e64d30ec1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jj-style/stegosaurust/releases/download/v0.4.6/stegosaurust-v0.4.6-macos-arm64.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "cad2ab0998990ded55530bb7d2a6f21705abd8559b857573fc3fd704142824cf",
+      "size": 2395920,
+      "format": "tar.gz",
+      "binaries": {
+        "stegosaurust": {
+          "path": "stegosaurust",
+          "sha256": "a397f41ced5a08338bff6ae7571803377b08fd393144eb88f4399cc459e701cf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jj-style/stegosaurust/releases/download/v0.4.6/stegosaurust-v0.4.6-windows-x86_64.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "206cf021ebfa4765b65023a6f924f94690e404b84c9b3fae86b2cec957d4e7b4",
+      "size": 2467469,
+      "format": "tar.gz",
+      "binaries": {
+        "stegosaurust.exe": {
+          "path": "stegosaurust.exe",
+          "sha256": "212a793a726f3974a397aec0a9f185dcf19b181a935b0f5bbe80e63be231d6ef"
+        }
+      }
+    }
+  }
+}
