@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cavif",
+  "version": "1.8.0",
+  "repository": "kornelski/cavif-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kornelski/cavif-rs/releases/download/v1.8.0/cavif-1.8.0.zip",
+      "sha256": "ac8aef061a4c5a01c65ffd545927597f0f060cb6f0856ea161e18222a1bff23c",
+      "size": 5708081,
+      "format": "zip",
+      "releaseTag": "v1.8.0",
+      "binaries": {
+        "cavif": {
+          "path": "linux-generic/cavif",
+          "sha256": "5443ba773d21a097e3a57bc97d5b735fd73a207230e1e2e4f95282e42a10a93a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kornelski/cavif-rs/releases/download/v1.8.0/cavif-1.8.0.zip",
+      "sha256": "ac8aef061a4c5a01c65ffd545927597f0f060cb6f0856ea161e18222a1bff23c",
+      "size": 5708081,
+      "format": "zip",
+      "releaseTag": "v1.8.0",
+      "binaries": {
+        "cavif": {
+          "path": "mac/cavif",
+          "sha256": "a4022af4585ba43d5b19a45644777d32ac81437febdfef5ff9d9206a5ee02e89"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kornelski/cavif-rs/releases/download/v1.8.0/cavif-1.8.0.zip",
+      "sha256": "ac8aef061a4c5a01c65ffd545927597f0f060cb6f0856ea161e18222a1bff23c",
+      "size": 5708081,
+      "format": "zip",
+      "releaseTag": "v1.8.0",
+      "binaries": {
+        "cavif": {
+          "path": "mac/cavif",
+          "sha256": "a4022af4585ba43d5b19a45644777d32ac81437febdfef5ff9d9206a5ee02e89"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kornelski/cavif-rs/releases/download/v1.8.0/cavif-1.8.0.zip",
+      "sha256": "ac8aef061a4c5a01c65ffd545927597f0f060cb6f0856ea161e18222a1bff23c",
+      "size": 5708081,
+      "format": "zip",
+      "releaseTag": "v1.8.0",
+      "binaries": {
+        "cavif.exe": {
+          "path": "win/cavif.exe",
+          "sha256": "5b93825563efe645325893e8e507292b272f121246184008c4a7a0b60495eac2"
+        }
+      }
+    }
+  }
+}
