@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "trillium-cli",
+  "version": "0.12.2",
+  "repository": "trillium-rs/trillium-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/trillium-rs/trillium-cli/releases/download/v0.12.2/trillium-cli-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.12.2",
+      "sha256": "c04e453fdb4b08cc77bc6adade89172eac876a085befcbf163e372db40826700",
+      "size": 7979720,
+      "format": "tar.xz",
+      "binaries": {
+        "trillium": {
+          "path": "trillium-cli-x86_64-unknown-linux-gnu/trillium",
+          "sha256": "7a2ef4cdd40fde62a29b3cdd109e1409e2a3033a89136d5288e4e765a033f246"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/trillium-rs/trillium-cli/releases/download/v0.12.2/trillium-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.2",
+      "sha256": "1b9744c1f498c5b7505051dd848a2d93c265ba38c356322c2e1e9dff83cc8d90",
+      "size": 7673148,
+      "format": "tar.xz",
+      "binaries": {
+        "trillium": {
+          "path": "trillium-cli-x86_64-apple-darwin/trillium",
+          "sha256": "4a2bffea289dd357f03fa6b4910037f67739ceb3899f0d0a9a16af9e517bc167"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/trillium-rs/trillium-cli/releases/download/v0.12.2/trillium-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.12.2",
+      "sha256": "981e65787701d54e181eb7522e972dd667518d0ef6e50dcd5dff60f3daeea28a",
+      "size": 7016800,
+      "format": "tar.xz",
+      "binaries": {
+        "trillium": {
+          "path": "trillium-cli-aarch64-apple-darwin/trillium",
+          "sha256": "0fc3d1259312f9a755094d01992b6a6c38b5d81bfc464851fe9fe5bd014fc1b0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/trillium-rs/trillium-cli/releases/download/v0.12.2/trillium-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.12.2",
+      "sha256": "8f2ddf61529827c28d4a82e44d55b5df2e2e13011e4503787be8865c62a64c5c",
+      "size": 10729891,
+      "format": "zip",
+      "binaries": {
+        "trillium.exe": {
+          "path": "trillium.exe",
+          "sha256": "3b8491cdb91c90995ae4e523e526589ae759ef08b10126e21733c2674b4acc05"
+        }
+      }
+    }
+  }
+}
