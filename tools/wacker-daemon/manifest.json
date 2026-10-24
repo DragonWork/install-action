@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "wacker-daemon",
+  "version": "0.10.0",
+  "repository": "wacker-dev/wacker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wacker-dev/wacker/releases/download/v0.10.0/wackerd-v0.10.0-x86_64-linux.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "9b908256a3d54e684a404992fb48ce48e944ffc542131d8733fb6ded9802cbb2",
+      "size": 13743689,
+      "format": "tar.gz",
+      "binaries": {
+        "wackerd": {
+          "path": "wackerd",
+          "sha256": "9ca56f8ccf90c5c266e65e32863a8c4394d390bb85095856bd69db93a4533e96"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wacker-dev/wacker/releases/download/v0.10.0/wackerd-v0.10.0-aarch64-linux.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "063ec7d3b6562e391a64db627b20ca05d3b961b5c3656694a0f78de8830ca297",
+      "size": 13732337,
+      "format": "tar.gz",
+      "binaries": {
+        "wackerd": {
+          "path": "wackerd",
+          "sha256": "4dbbb8d7eb36cfb05ad517dccdea5110f630566820e16a44d314ddb66b287559"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wacker-dev/wacker/releases/download/v0.10.0/wackerd-v0.10.0-x86_64-macos.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "85aec313266f222139c6f26275cb78905588db0a6e4011849344c8a2cce1275b",
+      "size": 9496637,
+      "format": "tar.gz",
+      "binaries": {
+        "wackerd": {
+          "path": "wackerd",
+          "sha256": "832de8c937b87d4778cc86d6ecf5879dc3f78d481bac0d4b23376f8a2b0ad293"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wacker-dev/wacker/releases/download/v0.10.0/wackerd-v0.10.0-aarch64-macos.tar.gz",
+      "releaseTag": "v0.10.0",
+      "sha256": "858fb11dc445f87231806381ccddb109ea0c861f02cde386684e0c83380c4104",
+      "size": 8983529,
+      "format": "tar.gz",
+      "binaries": {
+        "wackerd": {
+          "path": "wackerd",
+          "sha256": "c0226926952636b157f5be09847155f678f215e1c8031d651c4830e282694f01"
+        }
+      }
+    }
+  }
+}
