@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "keepawake",
+  "version": "0.6.1",
+  "repository": "segevfiner/keepawake-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v0.6.1/keepawake-v0.6.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "f1fb1ea7da22206f7c2b30074f2402567f4f1b868cccd623ad3be11781b974ca",
+      "size": 1555996,
+      "format": "tar.gz",
+      "binaries": {
+        "keepawake": {
+          "path": "keepawake-v0.6.1-x86_64-unknown-linux-musl/keepawake",
+          "sha256": "a3aeb143273686d9a37d1acba118e48821845036e4af5c1a8e9236719680297d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v0.6.1/keepawake-v0.6.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "1725a2bbbe0e0baae3bed7389f17b88ed986f665497532cc0f58803dbb3427b3",
+      "size": 1460964,
+      "format": "tar.gz",
+      "binaries": {
+        "keepawake": {
+          "path": "keepawake-v0.6.1-aarch64-unknown-linux-musl/keepawake",
+          "sha256": "251ec71fede34206d792f68dfa2f626681f20f79846f14ca03123d2d5469a8be"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v0.6.1/keepawake-v0.6.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "cf20c5de4657cdf83a4e3741861e962bedaaba307d2ee869cb8b01ecd6659551",
+      "size": 514862,
+      "format": "tar.gz",
+      "binaries": {
+        "keepawake": {
+          "path": "keepawake-v0.6.1-x86_64-apple-darwin/keepawake",
+          "sha256": "899fcc316639569e71201b60e41503d9feefb553de9527aa96736469e0776370"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v0.6.1/keepawake-v0.6.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "96f30270ac8f78a2efb920b1e4dd02e1c2dc16f9ead9114c88d5e432baa163d8",
+      "size": 487171,
+      "format": "tar.gz",
+      "binaries": {
+        "keepawake": {
+          "path": "keepawake-v0.6.1-aarch64-apple-darwin/keepawake",
+          "sha256": "bf93a740eb8f39731cb7b778a608abe60e50bdcd60ba9d77591d35dcf9b6c3f9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v0.6.1/keepawake-v0.6.1-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "4b8e3803fc333bf4cc1a445036ab036cdfdadcf35aaa8423ff9bfb07e9769a75",
+      "size": 459903,
+      "format": "tar.gz",
+      "binaries": {
+        "keepawake.exe": {
+          "path": "keepawake-v0.6.1-x86_64-pc-windows-msvc/keepawake.exe",
+          "sha256": "a8e1a18a5aced60b87d0e79d697ee0e79c9de7a4c34212f1d2c1ae2324b435e0"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v0.6.1/keepawake-v0.6.1-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.6.1",
+      "sha256": "4e4dd5a6d9362e26604917908fbf88615f897a532f98c72b0fb37129cd1e1270",
+      "size": 429367,
+      "format": "tar.gz",
+      "binaries": {
+        "keepawake.exe": {
+          "path": "keepawake-v0.6.1-aarch64-pc-windows-msvc/keepawake.exe",
+          "sha256": "60db5c387c080e9998e3fc8b228bdaa508e42809a2ad8c1bec08a68e7b4dbaa4"
+        }
+      }
+    }
+  }
+}
