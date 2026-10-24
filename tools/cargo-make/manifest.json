@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "cargo-make",
+  "version": "0.37.24",
+  "repository": "sagiegurari/cargo-make",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sagiegurari/cargo-make/releases/download/0.37.24/cargo-make-v0.37.24-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "0.37.24",
+      "sha256": "ff76969f0caab39c56d168b94b2540fde34609aa6562d555081818ece387b005",
+      "size": 9657083,
+      "format": "zip",
+      "binaries": {
+        "cargo-make": {
+          "path": "cargo-make-v0.37.24-x86_64-unknown-linux-musl/cargo-make",
+          "sha256": "85b5232d0093816e9920592d749a6e2732fac8aec46af81e8e9ab2c9b1a117c6"
+        },
+        "makers": {
+          "path": "cargo-make-v0.37.24-x86_64-unknown-linux-musl/makers",
+          "sha256": "beb23281bb816b9cd90b1caa784ac4a46b1f97f1b7e4cb11c3cd0197ce3c86f3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sagiegurari/cargo-make/releases/download/0.37.24/cargo-make-v0.37.24-x86_64-apple-darwin.zip",
+      "releaseTag": "0.37.24",
+      "sha256": "afd10db16ce089e0208d4829d46351833d9eb61f3181452a38a2a089bafedc31",
+      "size": 6926032,
+      "format": "zip",
+      "binaries": {
+        "cargo-make": {
+          "path": "cargo-make-v0.37.24-x86_64-apple-darwin/cargo-make",
+          "sha256": "35e477a3ad9a64c27d232ab5e4791eaff40c4c6e0dcb16827a040eaa2ba3ac26"
+        },
+        "makers": {
+          "path": "cargo-make-v0.37.24-x86_64-apple-darwin/makers",
+          "sha256": "8fdb0d325df2ba4cefe1836bc33b8ab353b35bbe53779e4bb66ee0a721994eb6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sagiegurari/cargo-make/releases/download/0.37.24/cargo-make-v0.37.24-aarch64-apple-darwin.zip",
+      "releaseTag": "0.37.24",
+      "sha256": "823fe51d2baa5679a5dfd33c703d0176374f8f023a2ee950f2e03dc4f31ee523",
+      "size": 6403942,
+      "format": "zip",
+      "binaries": {
+        "cargo-make": {
+          "path": "cargo-make-v0.37.24-aarch64-apple-darwin/cargo-make",
+          "sha256": "14f4408b31dcee57819c64aa44a47f2e885697a8a03b897ca4cef0567e51a089"
+        },
+        "makers": {
+          "path": "cargo-make-v0.37.24-aarch64-apple-darwin/makers",
+          "sha256": "cff62c8a38494f54244dc112830088177fbff6e4cbe13acff1bdc7d5e41dbb52"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sagiegurari/cargo-make/releases/download/0.37.24/cargo-make-v0.37.24-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.37.24",
+      "sha256": "f7c757c7e147023ac86d80b134e5a59e0ed8ff032e39be3464cc4aad1e5e0f33",
+      "size": 6891640,
+      "format": "zip",
+      "binaries": {
+        "cargo-make.exe": {
+          "path": "cargo-make.exe",
+          "sha256": "db3f35879f0af0ee38638de046fa6350ace7d355acbd5b8469a1e596ab002ada"
+        },
+        "makers.exe": {
+          "path": "makers.exe",
+          "sha256": "09cecaca0696b12e9272e0360c4368322b06246ddbe763e01fc1e8633e449855"
+        }
+      }
+    }
+  }
+}
