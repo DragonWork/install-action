@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "rnacos",
+  "version": "0.8.7",
+  "repository": "nacos-group/r-nacos",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.8.7/rnacos-x86_64-unknown-linux-musl-v0.8.7.tar.gz",
+      "releaseTag": "v0.8.7",
+      "sha256": "10bb67aaa831dd59b7345e4b98710830976e36b8c59b99f62bf8bdc7882c2552",
+      "size": 16711739,
+      "format": "tar.gz",
+      "binaries": {
+        "rnacos": {
+          "path": "rnacos",
+          "sha256": "b9847ef18f1c7569bc0add09956302f3b2255a3042afb8503f3a6b15b0a41879"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.8.7/rnacos-aarch64-unknown-linux-musl-v0.8.7.tar.gz",
+      "releaseTag": "v0.8.7",
+      "sha256": "d36203981b96aeb0637fe149fc06860c9b187562e55d14a3ace10c70b4500563",
+      "size": 16279696,
+      "format": "tar.gz",
+      "binaries": {
+        "rnacos": {
+          "path": "rnacos",
+          "sha256": "92a0312875b198018858ccacef58b1967450ffffb042f4930fbe903965783e30"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.8.7/rnacos-x86_64-apple-darwin-v0.8.7.tar.gz",
+      "releaseTag": "v0.8.7",
+      "sha256": "aa58b8b3d1dcd1d02ebdfc9702ac5ad10b223fbb5c2946665fc732135e7fb49c",
+      "size": 15028149,
+      "format": "tar.gz",
+      "binaries": {
+        "rnacos": {
+          "path": "rnacos",
+          "sha256": "754626f28831ab4b3ece6dd10a0ab1d60a09479b98889200bb6cd46399955372"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.8.7/rnacos-aarch64-apple-darwin-v0.8.7.tar.gz",
+      "releaseTag": "v0.8.7",
+      "sha256": "b084ed41941b5be552fa6ce4c287531301ed4b00b0df6cb1d30a2fd48ce60eb7",
+      "size": 14545151,
+      "format": "tar.gz",
+      "binaries": {
+        "rnacos": {
+          "path": "rnacos",
+          "sha256": "2ad3696492a891501f9416a7f5949c8632a34e696ec0bbd32bfd6c17568773c8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.8.7/rnacos-x86_64-pc-windows-msvc-v0.8.7.tar.zip",
+      "releaseTag": "v0.8.7",
+      "sha256": "15820b5c213ccaebe608884383d9485df407cd85370c218e7df012fc4a1b053b",
+      "size": 13365000,
+      "format": "zip",
+      "binaries": {
+        "rnacos.exe": {
+          "path": "rnacos.exe",
+          "sha256": "b85f176dd5561d7fcab3bbf94e5aa8efe564a8e1758a51c2dafe34c0a60088f9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.8.7/rnacos-aarch64-pc-windows-msvc-v0.8.7.tar.zip",
+      "releaseTag": "v0.8.7",
+      "sha256": "cbde86e6b18c6bafb3a16fdef2ad643f784fe9558e1a6fc45ee3cbd30fd30eb9",
+      "size": 12605656,
+      "format": "zip",
+      "binaries": {
+        "rnacos.exe": {
+          "path": "rnacos.exe",
+          "sha256": "2bd0c58192f9d1b057b74467d14eaddf031d9a8ccc301a0d2c34b08345e9945d"
+        }
+      }
+    }
+  }
+}
