@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "merge-junit",
+  "version": "0.2.1",
+  "repository": "tobni/merge-junit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tobni/merge-junit/releases/download/v0.2.1/merge-junit-v0.2.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "5c6a63063f3a155ea4da912d5cae2ec4a89022df31d7942f2aba463ee4790152",
+      "size": 562663,
+      "format": "tar.gz",
+      "binaries": {
+        "merge-junit": {
+          "path": "merge-junit-v0.2.1-x86_64-unknown-linux-musl/merge-junit",
+          "sha256": "f55646e01229031f7273a667fffbfc20fb9183e77a95d341e418c0ea23ddfba7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tobni/merge-junit/releases/download/v0.2.1/merge-junit-v0.2.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.1",
+      "sha256": "6bf2033936438596eeb802ac9b35d95754ad7dd77c3695863d533d16fd552c0a",
+      "size": 476772,
+      "format": "tar.gz",
+      "binaries": {
+        "merge-junit": {
+          "path": "merge-junit-v0.2.1-x86_64-apple-darwin/merge-junit",
+          "sha256": "ccfe454388bf4915cb5091e7e9d03ce2d5f49e5151d4617f770f3f06919f2e7f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tobni/merge-junit/releases/download/v0.2.1/merge-junit-v0.2.1-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.2.1",
+      "sha256": "8f98478a643ea628835a2c7682b1ab315c9357d94f7721420afefcb835705411",
+      "size": 826666,
+      "format": "zip",
+      "binaries": {
+        "merge-junit.exe": {
+          "path": "merge-junit-v0.2.1-x86_64-pc-windows-gnu/merge-junit.exe",
+          "sha256": "d9df63cc141bf4842b54ddea2e3533b3fc18bbcff02c68e1c4ea18676e907652"
+        }
+      }
+    }
+  }
+}
