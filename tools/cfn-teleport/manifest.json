@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cfn-teleport",
+  "version": "0.52.2",
+  "repository": "udondan/cfn-teleport",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.2/cfn-teleport-x86_64-unknown-linux-musl-v0.52.2.tar.gz",
+      "releaseTag": "v0.52.2",
+      "sha256": "7e2b3fc2d959a8341460e35e6e3adfb1e58a06e5796f2fb78826043b3ee67206",
+      "size": 8164727,
+      "format": "tar.gz",
+      "binaries": {
+        "cfn-teleport": {
+          "path": "cfn-teleport",
+          "sha256": "eb49edbfd462c2d13e23ed4d74a10bec93477d398981933979a42910b2d93565"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.2/cfn-teleport-aarch64-unknown-linux-musl-v0.52.2.tar.gz",
+      "releaseTag": "v0.52.2",
+      "sha256": "1c1448810be11212891b6b1cfe77b9d782300617f81b52bc4ae11035c10f01d6",
+      "size": 7862082,
+      "format": "tar.gz",
+      "binaries": {
+        "cfn-teleport": {
+          "path": "cfn-teleport",
+          "sha256": "e491fdbcc5efdf1774c4537b2b96c6ee7730196e6f4eafeafe7ff561f0e26998"
+        }
+      }
+    }
+  }
+}
