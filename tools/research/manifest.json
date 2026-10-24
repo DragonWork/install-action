@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "research",
+  "version": "2.3.0",
+  "repository": "ResearchPocket/researchpocket.github.io",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ResearchPocket/researchpocket.github.io/releases/download/v2.3.0/research-v2.3.0-linux-amd64.tar.gz",
+      "releaseTag": "v2.3.0",
+      "sha256": "0b4853732fe9b5e9729aa93f95d5d1a0d1a2b8c0232cfd070740b6b07270e39d",
+      "size": 9487056,
+      "format": "tar.gz",
+      "binaries": {
+        "research": {
+          "path": "research-v2.3.0-linux-amd64/research",
+          "sha256": "a9a0157af63ff3c77a8bdea4fea90bd95fbdf1532825cc11bbce6df7c8facb78"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ResearchPocket/researchpocket.github.io/releases/download/v2.3.0/research-v2.3.0-macos-amd64.tar.gz",
+      "releaseTag": "v2.3.0",
+      "sha256": "df2c173a5d1b777d6859ae0967747a58542a5f78fba6494f396554875b67b2a8",
+      "size": 9129474,
+      "format": "tar.gz",
+      "binaries": {
+        "research": {
+          "path": "research-v2.3.0-macos-amd64/research",
+          "sha256": "610c112403e69fa07d4dc44324818d37d25a320eb2a5ca06e0e9bd82db2cac4a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ResearchPocket/researchpocket.github.io/releases/download/v2.3.0/research-v2.3.0-macos-arm64.tar.gz",
+      "releaseTag": "v2.3.0",
+      "sha256": "b989b1ae4feb79f449e03de76dc9fa240b7cd61a34e9263fb13dbf2455192783",
+      "size": 8552620,
+      "format": "tar.gz",
+      "binaries": {
+        "research": {
+          "path": "research-v2.3.0-macos-arm64/research",
+          "sha256": "5886de282929cc6bd68e8701ba9bc5a4dec02f058364680ff5e854a5aaac2ebc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ResearchPocket/researchpocket.github.io/releases/download/v2.3.0/research-v2.3.0-windows-amd64.zip",
+      "releaseTag": "v2.3.0",
+      "sha256": "b204722252f6f1d8a2bea534e46e0afa653807070211427852fb6f03e39dc8cf",
+      "size": 8741462,
+      "format": "zip",
+      "binaries": {
+        "research.exe": {
+          "path": "research-v2.3.0-windows-amd64/research.exe",
+          "sha256": "adbb1e381eca34fdcfe57042333cff43f4a1cd1eeb515648a7e63b611834e41c"
+        }
+      }
+    }
+  }
+}
