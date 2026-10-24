@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_arch",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "arch.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/arch.exe",
+          "sha256": "8378ef9521783e9fb6b027a3a41e341a75eb529de55def8d5553ebc4f7f478f7"
+        }
+      }
+    }
+  }
+}
