@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "biip",
+  "version": "0.9.3",
+  "repository": "crodjer/biip",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/crodjer/biip/releases/download/v0.9.3/biip-x86_64-unknown-linux-gnu",
+      "sha256": "f1289252f3c59c234640f41a498176b8407341115abec320d72ebba7662a5481",
+      "size": 1870144,
+      "format": "binary",
+      "releaseTag": "v0.9.3",
+      "binaries": {
+        "biip": {
+          "path": "biip-x86_64-unknown-linux-gnu",
+          "sha256": "f1289252f3c59c234640f41a498176b8407341115abec320d72ebba7662a5481"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/crodjer/biip/releases/download/v0.9.3/biip-aarch64-unknown-linux-gnu",
+      "sha256": "ef6c1fce710ab15191017bd013cbe70557f7937cf4677173b165bea075faf939",
+      "size": 1972352,
+      "format": "binary",
+      "releaseTag": "v0.9.3",
+      "binaries": {
+        "biip": {
+          "path": "biip-aarch64-unknown-linux-gnu",
+          "sha256": "ef6c1fce710ab15191017bd013cbe70557f7937cf4677173b165bea075faf939"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/crodjer/biip/releases/download/v0.9.3/biip-x86_64-apple-darwin",
+      "sha256": "fd56c4eff41390536e8ad177173491c8fb99f835256eb55d495710f0d6900f80",
+      "size": 1567352,
+      "format": "binary",
+      "releaseTag": "v0.9.3",
+      "binaries": {
+        "biip": {
+          "path": "biip-x86_64-apple-darwin",
+          "sha256": "fd56c4eff41390536e8ad177173491c8fb99f835256eb55d495710f0d6900f80"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/crodjer/biip/releases/download/v0.9.3/biip-aarch64-apple-darwin",
+      "sha256": "ee843503ab2b112b5977c34baa57c14655e0730a2404c4e13520180b76940cc2",
+      "size": 1497168,
+      "format": "binary",
+      "releaseTag": "v0.9.3",
+      "binaries": {
+        "biip": {
+          "path": "biip-aarch64-apple-darwin",
+          "sha256": "ee843503ab2b112b5977c34baa57c14655e0730a2404c4e13520180b76940cc2"
+        }
+      }
+    }
+  }
+}
