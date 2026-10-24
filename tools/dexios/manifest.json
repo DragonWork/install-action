@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dexios",
+  "version": "8.8.1",
+  "repository": "brxken128/dexios",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/brxken128/dexios/releases/download/v8.8.1/dexios-linux-amd64",
+      "sha256": "477bfa3ed25b45ead2291af1214ff2631b6c94e644fe7fe70a8bb2d424639aa4",
+      "size": 2669200,
+      "format": "binary",
+      "releaseTag": "v8.8.1",
+      "binaries": {
+        "dexios": {
+          "path": "dexios-linux-amd64",
+          "sha256": "477bfa3ed25b45ead2291af1214ff2631b6c94e644fe7fe70a8bb2d424639aa4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/brxken128/dexios/releases/download/v8.8.1/dexios-macos-amd64",
+      "sha256": "45e2cab3c80804d57e33206f75d7f0642650d2eba89eec5fea5ce248dce95103",
+      "size": 2642904,
+      "format": "binary",
+      "releaseTag": "v8.8.1",
+      "binaries": {
+        "dexios": {
+          "path": "dexios-macos-amd64",
+          "sha256": "45e2cab3c80804d57e33206f75d7f0642650d2eba89eec5fea5ce248dce95103"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/brxken128/dexios/releases/download/v8.8.1/dexios-windows-amd64.exe",
+      "sha256": "e73ccf03dccdfbe3a5bdecaa5f45cf2562d9798f765a8235e3d91d6b3cc5e9a7",
+      "size": 2072064,
+      "format": "binary",
+      "releaseTag": "v8.8.1",
+      "binaries": {
+        "dexios.exe": {
+          "path": "dexios-windows-amd64.exe",
+          "sha256": "e73ccf03dccdfbe3a5bdecaa5f45cf2562d9798f765a8235e3d91d6b3cc5e9a7"
+        }
+      }
+    }
+  }
+}
