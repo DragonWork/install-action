@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "archive-to-parquet",
+  "version": "0.10.1",
+  "repository": "orf/archive-to-parquet",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orf/archive-to-parquet/releases/download/v0.10.1/archive-to-parquet-Linux-gnu-x86_64.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "5b187f676771126969aa45cf8763d41367ea2e09289eaf5aae86d4c40ff05754",
+      "size": 6949682,
+      "format": "tar.gz",
+      "binaries": {
+        "archive-to-parquet": {
+          "path": "archive-to-parquet",
+          "sha256": "a1d3f5ff3aa954288ed6db6abf232d8c75d586c1481521b4a56629156e7bbc5a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/orf/archive-to-parquet/releases/download/v0.10.1/archive-to-parquet-Linux-gnu-arm64.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "e49609d682879f1ea902ddc0fbc432a1387789a9757a7f46dee40187e6c4d9cc",
+      "size": 6512717,
+      "format": "tar.gz",
+      "binaries": {
+        "archive-to-parquet": {
+          "path": "archive-to-parquet",
+          "sha256": "88b47d9157d5778f67289a62c11f8b1d342d271080a24bf6dd475c8d60c745dc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orf/archive-to-parquet/releases/download/v0.10.1/archive-to-parquet-macOS-x86_64.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "1473dbe08852bc87a97f0a6530a0d1a831befed0f0c615bfa72bfd222756e2f1",
+      "size": 6732721,
+      "format": "tar.gz",
+      "binaries": {
+        "archive-to-parquet": {
+          "path": "archive-to-parquet",
+          "sha256": "d0775f531f2fdfbee9e730f7984ce293777a75405332c8ca8a5a0cf7fe5dfc8c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/orf/archive-to-parquet/releases/download/v0.10.1/archive-to-parquet-macOS-arm64.tar.gz",
+      "releaseTag": "v0.10.1",
+      "sha256": "244e1331c1c4cd8bbd63d2392a655ec61099e89ebdee31cdde223c3370985fbc",
+      "size": 6144150,
+      "format": "tar.gz",
+      "binaries": {
+        "archive-to-parquet": {
+          "path": "archive-to-parquet",
+          "sha256": "0d864c9eede36aabb7579d486326bb5d587c1d71a099bf04a05cb057f03932aa"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orf/archive-to-parquet/releases/download/v0.10.1/archive-to-parquet-Windows-msvc-x86_64.zip",
+      "releaseTag": "v0.10.1",
+      "sha256": "48805d32ddf21b032e3e323176cafe2f1d78952f37b90df2f1a6247fb7bbae61",
+      "size": 6298077,
+      "format": "zip",
+      "binaries": {
+        "archive-to-parquet.exe": {
+          "path": "archive-to-parquet.exe",
+          "sha256": "17b7acf1c288274a748f8f54be7c89d2307d8233ab70a6369d6135b7430db2c8"
+        }
+      }
+    }
+  }
+}
