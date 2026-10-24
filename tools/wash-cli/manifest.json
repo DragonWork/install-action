@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "wash-cli",
+  "version": "0.39.0",
+  "repository": "wasmCloud/wasmCloud",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/wasmCloud/wasmCloud/releases/download/wash-cli-v0.39.0/wash-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "wash-cli-v0.39.0",
+      "sha256": "1ad7928bf88e3828409921026329af2ecfd86c792322171a9bed8e260127b8e8",
+      "size": 30787584,
+      "format": "binary",
+      "binaries": {
+        "wash.exe": {
+          "path": "wash-x86_64-pc-windows-msvc.exe",
+          "sha256": "1ad7928bf88e3828409921026329af2ecfd86c792322171a9bed8e260127b8e8"
+        }
+      }
+    }
+  }
+}
