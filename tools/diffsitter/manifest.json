@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "diffsitter",
+  "version": "0.9.0",
+  "repository": "afnanenayet/diffsitter",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "3496d7ae8dfdd3eba92edd1ccd68f79442ff86a48f30d54b4fd522e772e699b9",
+      "size": 3123000,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "diffsitter": {
+          "path": "diffsitter",
+          "sha256": "736d70c7bf876ba0eb9bf23afd845aff39268b5b050bf2659040c7bdb16323db"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "8f651d1db49c8ffb8974faaff442cc9dd8153b07271261da61380968e2db6957",
+      "size": 3036151,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "diffsitter": {
+          "path": "diffsitter",
+          "sha256": "46b8e3f1687471776fe64046e698970cb7cc18c2721724b1f2d5358521733450"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-x86_64-apple-darwin.tar.gz",
+      "sha256": "91e3f5509d85b6702063d91a8a658a3f3d1c375d3a13c30a99bd234a7282a29e",
+      "size": 3037010,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "diffsitter": {
+          "path": "diffsitter",
+          "sha256": "e9cce35ab3f5f4e6e687208ba458fa2818188559e55ebc6c4d88214402a9f116"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-aarch64-apple-darwin.tar.gz",
+      "sha256": "83b02d6a27ce7f9365f068ffd400dada36e8fa449e48f1f8895dd77912650ecb",
+      "size": 3147812,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "diffsitter": {
+          "path": "diffsitter",
+          "sha256": "db065358c883f05270bba313063b7a69c140f4b26032843162bc552b924b37ef"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-x86_64-pc-windows-msvc.zip",
+      "sha256": "782662a3a668a80a30a11789403c0647365213a7723b4fac59896592afa4223f",
+      "size": 2828257,
+      "format": "zip",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "diffsitter.exe": {
+          "path": "diffsitter.exe",
+          "sha256": "b849acc9c749ec00bc15eeef9d45684928e5008e9df82c6397053e8786bdcd35"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/afnanenayet/diffsitter/releases/download/v0.9.0/diffsitter-aarch64-pc-windows-msvc.zip",
+      "sha256": "8eff9c84f478bcb21c46c22d68dd7510a7c4f9def53808e357f1109bd0e13b23",
+      "size": 2759020,
+      "format": "zip",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "diffsitter.exe": {
+          "path": "diffsitter.exe",
+          "sha256": "0289f4b491655979b9dc3e839f441a7a1bdf390e39b9290734148913b2591c54"
+        }
+      }
+    }
+  }
+}
