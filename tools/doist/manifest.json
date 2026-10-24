@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "doist",
+  "version": "0.4.0",
+  "repository": "chaosteil/doist",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.0/doist_0.4.0_linux_amd64.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "8e303153008a54ce55070e4df671a1c2f23bbee8f121a278619e9b674fa8ef5e",
+      "size": 4777130,
+      "format": "tar.gz",
+      "binaries": {
+        "doist": {
+          "path": "doist",
+          "sha256": "c7cf132270878f78f5556ce673a48104134086fde34436e7c794152be8534a80"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.0/doist_0.4.0_darwin_amd64.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "a5c1548ded04e162ce5bfcc88773ff5e4b2125dc270932739057031a268dd8aa",
+      "size": 2788708,
+      "format": "tar.gz",
+      "binaries": {
+        "doist": {
+          "path": "doist",
+          "sha256": "74f47458c6e5b4eaa0534d281a7ed423c91054caa54000f347edb5e50c8ca295"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.0/doist_0.4.0_darwin_arm64.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "449c796e9b56e6f8eb1980b85bde43a4db538ff95b8be5e0922265eb6e8c8289",
+      "size": 2673007,
+      "format": "tar.gz",
+      "binaries": {
+        "doist": {
+          "path": "doist",
+          "sha256": "0497ed8f550dca99218d1da4825ac1e1e0b07ca3f3a2a164dbf786e93adb4b9e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.0/doist_0.4.0_windows_amd64.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "a4be75cfa66a8e2a7e1022a6196faa41cff7d5836ce457dd51fc8e674612fb4c",
+      "size": 2922046,
+      "format": "zip",
+      "binaries": {
+        "doist.exe": {
+          "path": "doist.exe",
+          "sha256": "938fe9441579da4c3a3af5158b9a7653ef5ab17fa408dc683826b086fb189c77"
+        }
+      }
+    }
+  }
+}
