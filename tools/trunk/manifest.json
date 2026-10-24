@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "trunk",
+  "version": "0.22.0",
+  "repository": "trunk-rs/trunk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/trunk-rs/trunk/releases/download/v0.22.0/trunk-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.22.0",
+      "sha256": "7210c507cea0ee8c9296883802ce7ce50c08a38e7ed67993c2ea41ffddb89b79",
+      "size": 11874223,
+      "format": "tar.gz",
+      "binaries": {
+        "trunk": {
+          "path": "trunk",
+          "sha256": "35cf4c68743bc0c864debcfc37a6dd0ac10cac4e209ee0d3766bbfc6b567cc84"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/trunk-rs/trunk/releases/download/v0.22.0/trunk-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.22.0",
+      "sha256": "bc96ce14d51a0b9414863f04b4bf42cd496d3b3ea8b7ea7512fcbd24294f33a7",
+      "size": 11191565,
+      "format": "tar.gz",
+      "binaries": {
+        "trunk": {
+          "path": "trunk",
+          "sha256": "047041ea9e80e6187febd8f3dde74031a32781269391b7432daedd5fd2bf2962"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/trunk-rs/trunk/releases/download/v0.22.0/trunk-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.22.0",
+      "sha256": "6e6d2d5180fd7eaaf3fb4d2918ba1a6d57365d480c2372444cdeede97d56a519",
+      "size": 9116620,
+      "format": "tar.gz",
+      "binaries": {
+        "trunk": {
+          "path": "trunk",
+          "sha256": "048b5017e9260e19c8cd9bbb05b180adbd5fdcaa727c7ba6e7b9f8f9f0958051"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/trunk-rs/trunk/releases/download/v0.22.0/trunk-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.22.0",
+      "sha256": "9a120ec52021e235c30650d700979c99b572cef68ada8aa3f44735b8b29fa411",
+      "size": 8184448,
+      "format": "tar.gz",
+      "binaries": {
+        "trunk": {
+          "path": "trunk",
+          "sha256": "7c1d1c86dc1d805204f3f4d52e616fd08b20586f30e657c7942918c4259f2908"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/trunk-rs/trunk/releases/download/v0.22.0/trunk-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.22.0",
+      "sha256": "4a9c5f1967e5563b277802186a836fd6f95fb455a8d4a0c1ed15cc8437187690",
+      "size": 8780588,
+      "format": "zip",
+      "binaries": {
+        "trunk.exe": {
+          "path": "trunk.exe",
+          "sha256": "803de15aeb2fb1894835d63f04b6e43d534db70d01f2a14eb5703e4ce10af9e4"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/trunk-rs/trunk/releases/download/v0.22.0/trunk-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.22.0",
+      "sha256": "68222eb1cee3ac1b6221574808fe7c77b7a3030a6a4ad61912d316b96d02af5b",
+      "size": 8151999,
+      "format": "zip",
+      "binaries": {
+        "trunk.exe": {
+          "path": "trunk.exe",
+          "sha256": "fedcbedb5def4e2abf8bb1ae0cd9762d3a20810bff5f2a2843d1a1d2899e9a8f"
+        }
+      }
+    }
+  }
+}
