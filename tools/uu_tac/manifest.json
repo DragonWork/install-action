@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "uu_tac",
+  "version": "0.12.0",
+  "repository": "uutils/coreutils",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "45d6760c136ef42cdba1e2dbb492b0858be98099d6c7fb3e300a3adcfbc54cfe",
+      "size": 71074128,
+      "format": "zip",
+      "releaseTag": "0.12.0",
+      "binaries": {
+        "tac.exe": {
+          "path": "coreutils-0.12.0-x86_64-pc-windows-msvc/tac.exe",
+          "sha256": "73c1f11e46fddf674042534f011e5f45aa561b4e0d2bb96b8c96a6eec2212ba6"
+        }
+      }
+    }
+  }
+}
