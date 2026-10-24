@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "typical",
+  "version": "0.16.0",
+  "repository": "stepchowfun/typical",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/stepchowfun/typical/releases/download/v0.16.0/typical-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.16.0",
+      "sha256": "505c003c64381a38649e96631d4080f9ecfa5062ec3eceabc41aab109faef11b",
+      "size": 1593856,
+      "format": "binary",
+      "binaries": {
+        "typical.exe": {
+          "path": "typical-x86_64-pc-windows-msvc.exe",
+          "sha256": "505c003c64381a38649e96631d4080f9ecfa5062ec3eceabc41aab109faef11b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/stepchowfun/typical/releases/download/v0.16.0/typical-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.16.0",
+      "sha256": "19e52336a9982b92a2ad794e0bbdcea2394530949c913b5736c966917820b9a1",
+      "size": 1373184,
+      "format": "binary",
+      "binaries": {
+        "typical.exe": {
+          "path": "typical-aarch64-pc-windows-msvc.exe",
+          "sha256": "19e52336a9982b92a2ad794e0bbdcea2394530949c913b5736c966917820b9a1"
+        }
+      }
+    }
+  }
+}
