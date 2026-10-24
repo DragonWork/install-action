@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cocogitto",
+  "version": "7.0.0",
+  "repository": "cocogitto/cocogitto",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cocogitto/cocogitto/releases/download/7.0.0/cocogitto-7.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "e03938ff2c4c86d71c00c0f3284dbbe95c5ca76fe34a51f33e945c23010d59bb",
+      "size": 3203483,
+      "format": "tar.gz",
+      "releaseTag": "7.0.0",
+      "binaries": {
+        "cog": {
+          "path": "x86_64-unknown-linux-musl/cog",
+          "sha256": "43de087a44cb2f50bb4f8b3cc99e1c3c4fdaeb57fcd742124543a7c48a9bb6b2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cocogitto/cocogitto/releases/download/7.0.0/cocogitto-7.0.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "379949f50c4f8245ef9532913e83f351c048b55e40ebd52ed8a850642c07a753",
+      "size": 2919511,
+      "format": "tar.gz",
+      "releaseTag": "7.0.0",
+      "binaries": {
+        "cog": {
+          "path": "aarch64-unknown-linux-gnu/cog",
+          "sha256": "0eaf0110d55a904817e4f85f9e340aced8b3c4b0e08d538ef844dfc9b102f736"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cocogitto/cocogitto/releases/download/7.0.0/cocogitto-7.0.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "591dcd462e2e35ecc21caf41a15a65d464b7ce1ce8a5c299fa0d46a7798dddb0",
+      "size": 2868387,
+      "format": "tar.gz",
+      "releaseTag": "7.0.0",
+      "binaries": {
+        "cog": {
+          "path": "x86_64-apple-darwin/cog",
+          "sha256": "a004b7d3805a663af20266d35e5321d27bd42a0bda274825f63e278a18087982"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cocogitto/cocogitto/releases/download/7.0.0/cocogitto-7.0.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "429303b6d68c6461aa221ab4de82b26d0bbcdee7127947ea9c7c411ab9bc574c",
+      "size": 2619033,
+      "format": "tar.gz",
+      "releaseTag": "7.0.0",
+      "binaries": {
+        "cog": {
+          "path": "aarch64-apple-darwin/cog",
+          "sha256": "cc51f791af87328cd7bd4835bb95e68976583c53e1977ca513dcbd40c20a6d85"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cocogitto/cocogitto/releases/download/7.0.0/cocogitto-7.0.0-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "074f68f05d270da5c0d69d3e234ec362bec4c6e3189c21d1c948d038603655d7",
+      "size": 2904427,
+      "format": "tar.gz",
+      "releaseTag": "7.0.0",
+      "binaries": {
+        "cog.exe": {
+          "path": "x86_64-pc-windows-msvc/cog.exe",
+          "sha256": "c502f24d7c8251497fc9432c0f8569a7b0f5cafa4a36d3cd483db79fd8cb0c65"
+        }
+      }
+    }
+  }
+}
