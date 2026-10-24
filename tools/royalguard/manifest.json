@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "royalguard",
+  "version": "0.4.9",
+  "repository": "zahash/royalguard",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zahash/royalguard/releases/download/v0.4.9/royalguard-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.4.9",
+      "sha256": "a6fb9a72f0083b94bfc8990bfadd48a42dd759d96c508065c9c6bda27e4b3773",
+      "size": 1649564,
+      "format": "tar.xz",
+      "binaries": {
+        "royalguard": {
+          "path": "royalguard-x86_64-unknown-linux-gnu/royalguard",
+          "sha256": "457c114aae418bdbb5fe396723813f2f2e222a4e581eae1f02687bc1c5dacc10"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zahash/royalguard/releases/download/v0.4.9/royalguard-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.9",
+      "sha256": "e49aac4eebe5b0d0db82f1192acc1eb39e69606a41325b9974a33caddd904ee4",
+      "size": 1007308,
+      "format": "tar.xz",
+      "binaries": {
+        "royalguard": {
+          "path": "royalguard-x86_64-apple-darwin/royalguard",
+          "sha256": "71c7847aa9879a716fc7b284a36f1c6ffd1cfe75ed7e0f5d98fa0775fae2f7bc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zahash/royalguard/releases/download/v0.4.9/royalguard-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.4.9",
+      "sha256": "3c1ce5311942e88a949af43b5a07405568dfe68d46ad2ca9045c358406ee2ef2",
+      "size": 898676,
+      "format": "tar.xz",
+      "binaries": {
+        "royalguard": {
+          "path": "royalguard-aarch64-apple-darwin/royalguard",
+          "sha256": "8d1e6925eab9ce3942a033df262209839190cdb7e64214862e9a7a917f929be2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/zahash/royalguard/releases/download/v0.4.9/royalguard-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.9",
+      "sha256": "0d8467dc0b443a2a539c12a4bfab468f66f2b7af5a6992a831d93d8ac6f392e6",
+      "size": 3126465,
+      "format": "zip",
+      "binaries": {
+        "royalguard.exe": {
+          "path": "royalguard.exe",
+          "sha256": "274c354e083393f216b2f0614b8564d170d53a7eb33df1ad66afd0630503432c"
+        }
+      }
+    }
+  }
+}
