@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "remindee-bot",
+  "version": "0.6.0",
+  "repository": "magnickolas/remindee-bot",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/magnickolas/remindee-bot/releases/download/v0.6.0/remindee-bot-v0.6.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.6.0",
+      "sha256": "624ddd46d0468e2a3af332480d53bc75a007879d1cc26a6691cc3c7f389adcf2",
+      "size": 15268844,
+      "format": "tar.gz",
+      "binaries": {
+        "remindee-bot": {
+          "path": "remindee-bot-v0.6.0-x86_64-unknown-linux-gnu/remindee-bot",
+          "sha256": "7c4c0a066a8f36f2093b708ded5c680b9c0ec03c79d1a586ba177f3b4c690a69"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/magnickolas/remindee-bot/releases/download/v0.6.0/remindee-bot-v0.6.0-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "ac3bef397f4eb272f75a18c5c0c5611518fc176e70fce967d5ed72b8b7229c01",
+      "size": 13262541,
+      "format": "zip",
+      "binaries": {
+        "remindee-bot": {
+          "path": "remindee-bot-v0.6.0-x86_64-apple-darwin/remindee-bot",
+          "sha256": "c65844d4daeeb35ba33135991630d739ea31fda75973ade4f948d308de4c1389"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/magnickolas/remindee-bot/releases/download/v0.6.0/remindee-bot-v0.6.0-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "d41a718f5a64e673c65a8dcac27e4022c9963838d42455ddde05bd4398a3b20c",
+      "size": 12777857,
+      "format": "zip",
+      "binaries": {
+        "remindee-bot": {
+          "path": "remindee-bot-v0.6.0-aarch64-apple-darwin/remindee-bot",
+          "sha256": "8a4b3c4384d2fad9d2f2839eaea45bff7557e6b5ab811237eaa5686429bf13f3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/magnickolas/remindee-bot/releases/download/v0.6.0/remindee-bot-v0.6.0-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "eb5987f7c1ba5446dd3cddb0aa787b2afdd1307dd8483bbfc032be08c2526fd2",
+      "size": 22225762,
+      "format": "zip",
+      "binaries": {
+        "remindee-bot.exe": {
+          "path": "remindee-bot.exe",
+          "sha256": "5f8ddbd845ad68423166af6b5cb54c4a7f700276a08c86cefa362fb10e9c5e42"
+        }
+      }
+    }
+  }
+}
