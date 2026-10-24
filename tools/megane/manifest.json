@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "megane",
+  "version": "0.0.8",
+  "repository": "ymtdzzz/megane",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ymtdzzz/megane/releases/download/0.0.8/megane_x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "0.0.8",
+      "sha256": "994b82b68ea1a3b9a490e213d1ef9326b220d011f45f09163d95ece04700c058",
+      "size": 3880128,
+      "format": "zip",
+      "binaries": {
+        "megane": {
+          "path": "megane",
+          "sha256": "cada9bd1eecc0b4ecf1e887abf55530b11cb84e63a5dbcf2844a472814c13d5e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ymtdzzz/megane/releases/download/0.0.8/megane_x86_64-apple-darwin.zip",
+      "releaseTag": "0.0.8",
+      "sha256": "cd54b131bab9952ce1a699958cf8ed4ff37b9cede44a5602246c30eb06a3ce04",
+      "size": 2942328,
+      "format": "zip",
+      "binaries": {
+        "megane": {
+          "path": "megane",
+          "sha256": "90ed501d02ee752d44877588e371a59331c26cd65c5591ab42959547b2271884"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ymtdzzz/megane/releases/download/0.0.8/megane_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "0.0.8",
+      "sha256": "35ea8a51c7781fc72e807197ba4c8cf5b082bddea0e7271acb2dbeeb78cbaead",
+      "size": 9707420,
+      "format": "zip",
+      "binaries": {
+        "megane.exe": {
+          "path": "megane.exe",
+          "sha256": "ccc7cf50915c22e6c749346e1bd9f503194b4adb621591634605460820c88d17"
+        }
+      }
+    }
+  }
+}
