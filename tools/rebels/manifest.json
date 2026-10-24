@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rebels",
+  "version": "1.8.1",
+  "repository": "ricott1/rebels-in-the-sky",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/download/v1.8.1/rebels-v1.8.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.8.1",
+      "sha256": "86ce07cf8dbca6386058820579b7c60e870213d55fc4a2451a16f22205ba413f",
+      "size": 9737827,
+      "format": "tar.gz",
+      "binaries": {
+        "rebels": {
+          "path": "rebels-v1.8.1-x86_64-unknown-linux-gnu/rebels",
+          "sha256": "ed06e420f70daa9308dfd3e4b882a1bd907756817241b3e585e5dd2d746cfd00"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/download/v1.8.1/rebels-v1.8.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.8.1",
+      "sha256": "d174f6f90ee7e4e6522a49358de86dfda3b12e505ddd44ad8c275019e3f19559",
+      "size": 9055159,
+      "format": "tar.gz",
+      "binaries": {
+        "rebels": {
+          "path": "rebels-v1.8.1-x86_64-apple-darwin/rebels",
+          "sha256": "fd1d5d7f17bb99cc55645e031270f140cba111b89becd1cb4595da42717938d1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/download/v1.8.1/rebels-v1.8.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.8.1",
+      "sha256": "2fcf1443e62426def5f52f2f2a3c42dcefda291c8fa6df7c911f9452509e257c",
+      "size": 8439226,
+      "format": "tar.gz",
+      "binaries": {
+        "rebels": {
+          "path": "rebels-v1.8.1-aarch64-apple-darwin/rebels",
+          "sha256": "119750ba79d396f517103791fa48f89afa8988c13e4add39395de9713ff4e667"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/download/v1.8.1/rebels-v1.8.1-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "v1.8.1",
+      "sha256": "a144464d0c8877214fb94c60bcadb89824d07eac67026721614aaa88893d3205",
+      "size": 9221069,
+      "format": "tar.gz",
+      "binaries": {
+        "rebels.exe": {
+          "path": "rebels-v1.8.1-x86_64-pc-windows-gnu/rebels.exe",
+          "sha256": "ac85e7cef577072be4c8c63332308aad5fb23fe25aae40379fc6de2fa124db4d"
+        }
+      }
+    }
+  }
+}
