@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "gitu",
+  "version": "0.43.0",
+  "repository": "altsem/gitu",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/altsem/gitu/releases/download/v0.43.0/gitu-v0.43.0-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.43.0",
+      "sha256": "c721ffa539f5c91d4bb8ed1a5475d36d7a15549fd2f09daf9318df2ba2b6e368",
+      "size": 6320286,
+      "format": "zip",
+      "binaries": {
+        "gitu": {
+          "path": "gitu-v0.43.0-x86_64-unknown-linux-musl/gitu",
+          "sha256": "08308f8e846c53f224189855730d654387ef8e7da120e267e6cbf1eacaedee94"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/altsem/gitu/releases/download/v0.43.0/gitu-v0.43.0-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.43.0",
+      "sha256": "abf5ae48f991c3d8ae1dc98ba03bb8d5827b954ff56352008cf90b1c5eeac6d0",
+      "size": 5954889,
+      "format": "zip",
+      "binaries": {
+        "gitu": {
+          "path": "gitu-v0.43.0-x86_64-apple-darwin/gitu",
+          "sha256": "1bcc891cfb6f19f92041d33cd1c68c7196bb5bb9455a316d3617a748e5554235"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/altsem/gitu/releases/download/v0.43.0/gitu-v0.43.0-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.43.0",
+      "sha256": "19fa3fbaf79736f07eefc1fd9b163a47f40111ba4f6fe256796006cc62cdd70f",
+      "size": 6078315,
+      "format": "zip",
+      "binaries": {
+        "gitu": {
+          "path": "gitu-v0.43.0-aarch64-apple-darwin/gitu",
+          "sha256": "ac698c1714da9e893de094289f617f64ae1720e92fce04804a4c80dd77251c20"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/altsem/gitu/releases/download/v0.43.0/gitu-v0.43.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.43.0",
+      "sha256": "9debbc715166f038cf86f80cc4602f04efaf10ef173329286a592cf2826f9be3",
+      "size": 6153448,
+      "format": "zip",
+      "binaries": {
+        "gitu.exe": {
+          "path": "gitu-v0.43.0-x86_64-pc-windows-msvc/gitu.exe",
+          "sha256": "dac17114ba006047e430d0c11de105cbcbe8df050b1982d9a6cf729c883b509e"
+        }
+      }
+    }
+  }
+}
