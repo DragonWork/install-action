@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mdbook-open-on-gh",
+  "version": "3.0.0",
+  "repository": "badboy/mdbook-open-on-gh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/badboy/mdbook-open-on-gh/releases/download/3.0.0/mdbook-open-on-gh-3.0.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "3.0.0",
+      "sha256": "cff45c338b569c84ef1c921f71db75f1c96e1dcbe49835465c7df587ce0fed7c",
+      "size": 1187926,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-open-on-gh": {
+          "path": "mdbook-open-on-gh",
+          "sha256": "a6f0ba1737407e36585268593c96cbc041845a2646ac30f174ea71b262033972"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/badboy/mdbook-open-on-gh/releases/download/3.0.0/mdbook-open-on-gh-3.0.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "3.0.0",
+      "sha256": "1eb8714491ddb0f438246bdca6f1f7fac81320086423fcf04b600d74f31bdb14",
+      "size": 1278393,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-open-on-gh": {
+          "path": "mdbook-open-on-gh",
+          "sha256": "6ff1538b4d8cb8a7d668396091c35faba7911ed00bd2109bf4c888f857558336"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/badboy/mdbook-open-on-gh/releases/download/3.0.0/mdbook-open-on-gh-3.0.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "3.0.0",
+      "sha256": "1354e6b736d88b6210109b6786dc29488b0d6d0d0c35aaf5178bad503aaa8cf1",
+      "size": 1074088,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-open-on-gh": {
+          "path": "mdbook-open-on-gh",
+          "sha256": "dfd18d86e25c43254f09ec139fe2bf2a74099532af53b7613a6a3398dbfc90a0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/badboy/mdbook-open-on-gh/releases/download/3.0.0/mdbook-open-on-gh-3.0.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "3.0.0",
+      "sha256": "86fe72bad0562ee34171ac84c6bb6cab2ef6264ccf58745039910d5d7ea4fc6f",
+      "size": 1008958,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-open-on-gh": {
+          "path": "mdbook-open-on-gh",
+          "sha256": "b9fba9ee168bb5276c7a2cd9c39a1d8441e4946b6d4735cb7d1088713e6fb4b8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/badboy/mdbook-open-on-gh/releases/download/3.0.0/mdbook-open-on-gh-3.0.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "3.0.0",
+      "sha256": "9271a733c334bd79618d0be728c0e5960cdbe35231af9e20466b7e8055fe5d0e",
+      "size": 970168,
+      "format": "zip",
+      "binaries": {
+        "mdbook-open-on-gh.exe": {
+          "path": "mdbook-open-on-gh.exe",
+          "sha256": "c4b59d5f3bf75279e1c3d1591801aba06e1059afdc27918cb8393cbb5519a5f2"
+        }
+      }
+    }
+  }
+}
