@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "yash-cli",
+  "version": "3.5.0",
+  "repository": "magicant/yash-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/magicant/yash-rs/releases/download/yash-cli-3.5.0/yash3-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "yash-cli-3.5.0",
+      "sha256": "2bf309e2cc646dfe3f4fb5160c2743f8855cba8cdcd3c596a1a5311190bf499c",
+      "size": 2493532,
+      "format": "tar.gz",
+      "binaries": {
+        "yash3": {
+          "path": "yash3",
+          "sha256": "7772912ce79cbf44ae598a5a923420a46b0686c0fc4c9c5acec032c0f670e0d0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/magicant/yash-rs/releases/download/yash-cli-3.5.0/yash3-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "yash-cli-3.5.0",
+      "sha256": "cef4aba3a8ded223ffd106cc49291445dbfbb0950b67a894b47453a6c05bb326",
+      "size": 2341241,
+      "format": "tar.gz",
+      "binaries": {
+        "yash3": {
+          "path": "yash3",
+          "sha256": "f90fb17b07cd1ae244a84de2037c2caa7a91f7bfebacb1a812c4f6a9337ffb46"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/magicant/yash-rs/releases/download/yash-cli-3.5.0/yash3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "yash-cli-3.5.0",
+      "sha256": "99a3daa8df5c8d4768e6d9f6bcdd2ccdf75bb4147bba03e6b2cf0dc5e18d2e90",
+      "size": 2331721,
+      "format": "tar.gz",
+      "binaries": {
+        "yash3": {
+          "path": "yash3",
+          "sha256": "c601c410b85a747f762ae9ee33b2aa6b777f511f9b13888801835b487442fabf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/magicant/yash-rs/releases/download/yash-cli-3.5.0/yash3-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "yash-cli-3.5.0",
+      "sha256": "30daf0c2c0db4d0cef3bdb3920179a26141f90c50fb31b3b034da5792b369669",
+      "size": 2174927,
+      "format": "tar.gz",
+      "binaries": {
+        "yash3": {
+          "path": "yash3",
+          "sha256": "4057bd812bd6f9eb3043c93a1fac77fad36d5ea8a2aaa6f547430f168b9e2def"
+        }
+      }
+    }
+  }
+}
