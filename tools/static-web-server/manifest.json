@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "static-web-server",
+  "version": "2.44.1",
+  "repository": "static-web-server/static-web-server",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.1/static-web-server-v2.44.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.44.1",
+      "sha256": "cf1e911c44ba8fd7b6e3641532293228d2c70829f13adf9d3664e56bdbc9672c",
+      "size": 3259903,
+      "format": "tar.gz",
+      "binaries": {
+        "static-web-server": {
+          "path": "static-web-server-v2.44.1-x86_64-apple-darwin/static-web-server",
+          "sha256": "8b16232aa198d31d64186cd1c8d5733a7de85d804b836388d5026b41a909191c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.1/static-web-server-v2.44.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.44.1",
+      "sha256": "7f8dfb36f6902ea72878634438e76e63461300a0d154abe561834ab434a5a7fe",
+      "size": 2964675,
+      "format": "tar.gz",
+      "binaries": {
+        "static-web-server": {
+          "path": "static-web-server-v2.44.1-aarch64-apple-darwin/static-web-server",
+          "sha256": "f111d80bf47dc853e3289969e61025ad0f5573fe3b56cc8a80c1779577ccfaab"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.1/static-web-server-v2.44.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.44.1",
+      "sha256": "0ac7ecb75baa1b367b5d9acac36535906d37383a99be1fb64dce8d2f07a2ab8c",
+      "size": 3124307,
+      "format": "zip",
+      "binaries": {
+        "static-web-server.exe": {
+          "path": "static-web-server-v2.44.1-x86_64-pc-windows-msvc/static-web-server.exe",
+          "sha256": "23852b44abc107091845d3e57370246256d6879b03457ede3088d81fbd6b47b5"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.1/static-web-server-v2.44.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v2.44.1",
+      "sha256": "043b974236cc535618ae42422610bd2a1ecbc04d54277c8bf0bb1e3036e20014",
+      "size": 2941728,
+      "format": "zip",
+      "binaries": {
+        "static-web-server.exe": {
+          "path": "static-web-server-v2.44.1-aarch64-pc-windows-msvc/static-web-server.exe",
+          "sha256": "83dcedf42a4118fb40de4672d66862158bc759f4ee2289e18629375291d129e5"
+        }
+      }
+    }
+  }
+}
