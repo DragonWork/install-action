@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rainfrog",
+  "version": "0.4.6",
+  "repository": "achristmascarl/rainfrog",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/achristmascarl/rainfrog/releases/download/v0.4.6/rainfrog-v0.4.6-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "973341d39cb1e04359886670d08632b5bd876de220c7a4759889498b22482887",
+      "size": 8044286,
+      "format": "tar.gz",
+      "binaries": {
+        "rainfrog": {
+          "path": "rainfrog",
+          "sha256": "706dc9918499120de4c239d9d91f6a2c4ee42d144bdcfd2f4ca192e9b71a343b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/achristmascarl/rainfrog/releases/download/v0.4.6/rainfrog-v0.4.6-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "919ba9e2ddcda6ace07066967e375b7b091ba0a69b67b5a8135efdea3643b507",
+      "size": 7533587,
+      "format": "tar.gz",
+      "binaries": {
+        "rainfrog": {
+          "path": "rainfrog",
+          "sha256": "51a94cac64d4f92d9cdac272e51a8d7d3399e7a8512309a4301612c7869d3558"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/achristmascarl/rainfrog/releases/download/v0.4.6/rainfrog-v0.4.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "17d248764e67d35cce29a45c59ebbcbfc11e016bf0dace61ca900c52dc324576",
+      "size": 20381405,
+      "format": "tar.gz",
+      "binaries": {
+        "rainfrog": {
+          "path": "rainfrog",
+          "sha256": "e0b26a6a5b810a2557774bea34fd13f88b73c8ee4b33a024423c0ba9f49f6274"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/achristmascarl/rainfrog/releases/download/v0.4.6/rainfrog-v0.4.6-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "60d8c5c5fb89f8b0b5bd27af44f324e95a0612248d973e4dfc38867cb009a583",
+      "size": 18894370,
+      "format": "tar.gz",
+      "binaries": {
+        "rainfrog": {
+          "path": "rainfrog",
+          "sha256": "a6467b9bfc97ad53189544c60d5a9fc7b161bf81268b59c0190f579ec9b7f6e5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/achristmascarl/rainfrog/releases/download/v0.4.6/rainfrog-v0.4.6-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.4.6",
+      "sha256": "b39ad80cb17bc0fa5fa356090a6d49a7b2b9770a266883984da2e34e05549029",
+      "size": 16280758,
+      "format": "tar.gz",
+      "binaries": {
+        "rainfrog.exe": {
+          "path": "rainfrog.exe",
+          "sha256": "7f0391700fa34df3f2e3aa7a65e146e13134fd010389ed13b7551cc33ee0a1e5"
+        }
+      }
+    }
+  }
+}
