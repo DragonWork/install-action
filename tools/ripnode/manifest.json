@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ripnode",
+  "version": "1.1.11",
+  "repository": "JorgeMayoral/ripnode",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/JorgeMayoral/ripnode/releases/download/v1.1.11/ripnode-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.1.11",
+      "sha256": "fd8a3163828ea50f9f6f29a456c965e81f2825077a1dc4198d3566ab5d4bdf5e",
+      "size": 490736,
+      "format": "tar.xz",
+      "binaries": {
+        "ripnode": {
+          "path": "ripnode-x86_64-unknown-linux-gnu/ripnode",
+          "sha256": "8ec5c98646e089ba66b887894002a36c0bbe1cdcd2b12c23950bcb48af4bd4f3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/JorgeMayoral/ripnode/releases/download/v1.1.11/ripnode-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.1.11",
+      "sha256": "eee47624f7ee71dde009439458612e5b0e2c9a03e0bdeb1436732b3fa970ed07",
+      "size": 468236,
+      "format": "tar.xz",
+      "binaries": {
+        "ripnode": {
+          "path": "ripnode-x86_64-apple-darwin/ripnode",
+          "sha256": "3f27f0afa2cf7d85867c67b140812e28a061bf51d96cc7e427eeda2a03a65525"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/JorgeMayoral/ripnode/releases/download/v1.1.11/ripnode-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.1.11",
+      "sha256": "c6daf0ca49cacb2e377bdd4edbdf4a6921c17c45fd67a66074d3e57c3be3b09e",
+      "size": 420860,
+      "format": "tar.xz",
+      "binaries": {
+        "ripnode": {
+          "path": "ripnode-aarch64-apple-darwin/ripnode",
+          "sha256": "4a58d148860b08efe684bb04a1e090e97eba35ca237e0a2d1a3ffa0d625fc1b6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/JorgeMayoral/ripnode/releases/download/v1.1.11/ripnode-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.11",
+      "sha256": "b6fa50449fd58855020ce503ddc98053ef31bdb4d7ee639536016254512644b0",
+      "size": 1324864,
+      "format": "zip",
+      "binaries": {
+        "ripnode.exe": {
+          "path": "ripnode.exe",
+          "sha256": "95aad84be7f85880625b66f0a84385d4300be1a933a5e1f06ed1daf9a6f4ad5a"
+        }
+      }
+    }
+  }
+}
