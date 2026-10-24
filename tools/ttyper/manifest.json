@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "ttyper",
+  "version": "1.6.0",
+  "repository": "max-niederman/ttyper",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.6.0",
+      "sha256": "0697132e20c64e5b764b2133f205aba17aea2580935892a2037a0fae875eac90",
+      "size": 888831,
+      "format": "tar.gz",
+      "binaries": {
+        "ttyper": {
+          "path": "ttyper",
+          "sha256": "b9338a74737b3f8359310ecf7bedf430b2aef8234893fc2efce5730c5a55ff9b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.6.0",
+      "sha256": "23f2f0282e2e4cbcf22834094c7488a218f781896192ac13878e49ee4434fbe1",
+      "size": 984029,
+      "format": "tar.gz",
+      "binaries": {
+        "ttyper": {
+          "path": "ttyper",
+          "sha256": "69eb65c1be7200d8a6ca1c82d6bdd78b9cc9da85782a557f35e23746309ee36c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.6.0",
+      "sha256": "837236926baa343f8d732e29f9880c89ebf0d8355f93b0821623a35dc71fbee0",
+      "size": 783537,
+      "format": "tar.gz",
+      "binaries": {
+        "ttyper": {
+          "path": "ttyper",
+          "sha256": "a55f274cfcc221ffba422002e8b44225fea7687c2248830069a27bd0bdd099bc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.6.0",
+      "sha256": "76dabc64a5b38fb4379db3104431c748f1be0b2ccb3319d2ec464d3a266b6a3e",
+      "size": 756564,
+      "format": "tar.gz",
+      "binaries": {
+        "ttyper": {
+          "path": "ttyper",
+          "sha256": "822a2e0d25e588f0ad0d684a8b124ffea3c0b475ac76c736adb73833dd9bd6f7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.6.0",
+      "sha256": "9b332a3f551739b02a3fc5c266b2b2c1546780aa2b25ef313b05039f1c738a27",
+      "size": 686371,
+      "format": "zip",
+      "binaries": {
+        "ttyper.exe": {
+          "path": "ttyper.exe",
+          "sha256": "81873d5e34b6c9c532bb669499f4a6f45e76e57c42660135c12b9e9685c67508"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.6.0",
+      "sha256": "95c2a4a93b7c3f8de0ce69fd8281f3dd7036cbcae671531e5014c42255578f5d",
+      "size": 655483,
+      "format": "zip",
+      "binaries": {
+        "ttyper.exe": {
+          "path": "ttyper.exe",
+          "sha256": "154c0f54972801238d6a937c9c2c20df12a7402f31be0e757cc40311ed0df9ed"
+        }
+      }
+    }
+  }
+}
