@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "drg",
+  "version": "0.11.0",
+  "repository": "drogue-iot/drg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/drogue-iot/drg/releases/download/v0.11.0/drg-0.11.0-linux-amd64.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "0794461f0219b0839cebd93eb8b116c8663efb711f0f0e2816c447a2b5ec4daf",
+      "size": 5463042,
+      "format": "tar.gz",
+      "binaries": {
+        "drg": {
+          "path": "drg-0.11.0/drg",
+          "sha256": "42443570db4fb9ae22237cce822be98ebad8022a89aa0849e0f6ba0f808ecd8d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/drogue-iot/drg/releases/download/v0.11.0/drg-0.11.0-macos-amd64.tar.gz",
+      "releaseTag": "v0.11.0",
+      "sha256": "8c578a4b12b950266b9fc6bdcb83f3f5c6c2e57fd0b48818fd6b1c59ad286b0b",
+      "size": 3930740,
+      "format": "tar.gz",
+      "binaries": {
+        "drg": {
+          "path": "drg-0.11.0/drg",
+          "sha256": "3e841271fd45ab2d19942dbad0e1bb5a4c07372015a9d0b8333e5666ea06481f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/drogue-iot/drg/releases/download/v0.11.0/drg-0.11.0-windows-amd64.zip",
+      "releaseTag": "v0.11.0",
+      "sha256": "4e53ff65d393e4c61c0270992a2f1f6aa81d923b5fdc4e9b93c73e553dd055b6",
+      "size": 3327557,
+      "format": "zip",
+      "binaries": {
+        "drg.exe": {
+          "path": "drg-0.11.0/drg.exe",
+          "sha256": "aa685b9a5cfba5b621280acd0a336628b5d88d36fabfaf9d1d3798904aa9f0ab"
+        }
+      }
+    }
+  }
+}
