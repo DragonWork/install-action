@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "nu",
+  "version": "0.116.1",
+  "repository": "nushell/nushell",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.116.1",
+      "sha256": "13ef75df08df30f8d7b031df538e82a52c6e74ce839b1a9091c3a3f1969c3742",
+      "size": 85918122,
+      "format": "tar.gz",
+      "binaries": {
+        "nu": {
+          "path": "nu-0.116.1-x86_64-unknown-linux-musl/nu",
+          "sha256": "9afb8f05657a67fae75c5aef97c539c7e2a261f50163e80bdb08a348ccba3767"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.116.1",
+      "sha256": "b103770c00bf322c409caa007aad44882d1cc5d24d82f719f877812ac33d6ad1",
+      "size": 80861387,
+      "format": "tar.gz",
+      "binaries": {
+        "nu": {
+          "path": "nu-0.116.1-aarch64-unknown-linux-musl/nu",
+          "sha256": "db7f9a78d0aaecbc1e9bd831fd55275526480c463842edf5d1a3454d3eccf318"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.116.1",
+      "sha256": "44306f0766f2be0e763d0c7a6a6774537589a335797a199d8e5b473d766ec6bd",
+      "size": 78812963,
+      "format": "tar.gz",
+      "binaries": {
+        "nu": {
+          "path": "nu-0.116.1-x86_64-apple-darwin/nu",
+          "sha256": "4485da4fbc34bddff9bb63f348df0a928a3421b7a4959fc0b6300b4b813915e8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.116.1",
+      "sha256": "302fb3dfc5d44e7fe0d5b8227be8e75b4c3956ca8d4804234e5c68fbdd3e4917",
+      "size": 75578754,
+      "format": "tar.gz",
+      "binaries": {
+        "nu": {
+          "path": "nu-0.116.1-aarch64-apple-darwin/nu",
+          "sha256": "bb8ff097eb77f38c1a8397c22b0744f6806f0f19824cd735d8869c04cb8258a6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.116.1",
+      "sha256": "6658c9e61fe42c88326c1caa99e8dc9ad99bec6c0bc353e6ecb7c5d3f79feed7",
+      "size": 60864303,
+      "format": "zip",
+      "binaries": {
+        "nu.exe": {
+          "path": "nu.exe",
+          "sha256": "e37dff301cf52a49eb82a90e8b4634328379fffa3b244b2172a1c307e03e5d69"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/nushell/nushell/releases/download/0.116.1/nu-0.116.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.116.1",
+      "sha256": "e02a822226f4ea841cdfece707bac2a8b5888b3cfb6d4065a502e01ea5237092",
+      "size": 54460650,
+      "format": "zip",
+      "binaries": {
+        "nu.exe": {
+          "path": "nu.exe",
+          "sha256": "b7428ef7c7d95c68a675df4b66f78a925facbdcd3d1348549da03072ed9c5733"
+        }
+      }
+    }
+  }
+}
