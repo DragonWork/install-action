@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "unclog",
+  "version": "0.7.3",
+  "repository": "informalsystems/unclog",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/informalsystems/unclog/releases/download/v0.7.3/unclog-v0.7.3-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "b9408df35ffa8a1df969a6930bfa9fe48ad3adce1e8d11f6df39b01dd2ef44cf",
+      "size": 1408008,
+      "format": "tar.gz",
+      "binaries": {
+        "unclog": {
+          "path": "unclog",
+          "sha256": "a9528186b50d93be19e942260c867591a23c19d8f6316a11de07d55db16f3615"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/informalsystems/unclog/releases/download/v0.7.3/unclog-v0.7.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.3",
+      "sha256": "cd1e2f6e58f7f8618acdffbb122f3455d56a93bd30f62f01498fbead06f2205b",
+      "size": 1337839,
+      "format": "tar.gz",
+      "binaries": {
+        "unclog": {
+          "path": "unclog",
+          "sha256": "d407503b9b78a20e755d2141eed29f5f1f2bfea1807e07c768e1d64f469c7ae3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/informalsystems/unclog/releases/download/v0.7.3/unclog-v0.7.3-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.3",
+      "sha256": "57cff2916c04072e18f41a219e41fea5a5ed03edaf01334ea299642f69a0103f",
+      "size": 1779322,
+      "format": "zip",
+      "binaries": {
+        "unclog.exe": {
+          "path": "unclog.exe",
+          "sha256": "fdd19a4ae8b16ae7f7b14c75873543c2b9f20bc7643f925ee5e1a3ad82a75311"
+        }
+      }
+    }
+  }
+}
