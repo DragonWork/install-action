@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "oxker",
+  "version": "0.13.4",
+  "repository": "mrjackwills/oxker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mrjackwills/oxker/releases/download/v0.13.4/oxker_linux_x86_64.tar.gz",
+      "releaseTag": "v0.13.4",
+      "sha256": "e077cbf2e978a7a6c9802d453491944ba3635482097e2549e58c7e81df389643",
+      "size": 1945748,
+      "format": "tar.gz",
+      "binaries": {
+        "oxker": {
+          "path": "oxker",
+          "sha256": "9fea129319c1a6cb85dc1526375f277ca9ade74ce85c4479de576876d23429f1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mrjackwills/oxker/releases/download/v0.13.4/oxker_linux_aarch64.tar.gz",
+      "releaseTag": "v0.13.4",
+      "sha256": "850bd6c772df85abb67ab08c2add1e46f663268b8788a4a7184d2ed28fce083b",
+      "size": 1805214,
+      "format": "tar.gz",
+      "binaries": {
+        "oxker": {
+          "path": "oxker",
+          "sha256": "1705855df5fb9a72f05737a090c0a6f4dd5be866013573703d4be4d6070394bf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mrjackwills/oxker/releases/download/v0.13.4/oxker_apple_darwin_aarch64.tar.gz",
+      "releaseTag": "v0.13.4",
+      "sha256": "cc36d209a2130d24c9f1ac9760505448068dc06e39e4a808d88147a09b7f3a05",
+      "size": 1642300,
+      "format": "tar.gz",
+      "binaries": {
+        "oxker": {
+          "path": "oxker",
+          "sha256": "5e94a548e31ce1abe957554b0dc123d324f52e866044b30e3c96e2096b8879cd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mrjackwills/oxker/releases/download/v0.13.4/oxker_windows_x86_64.zip",
+      "releaseTag": "v0.13.4",
+      "sha256": "5818cd8b3cb32c14f96c70122a0d188cf67a2ccc8f501c9be4151b412b8beee3",
+      "size": 1836184,
+      "format": "zip",
+      "binaries": {
+        "oxker.exe": {
+          "path": "oxker.exe",
+          "sha256": "a68045c8a6697d3ac61ad066a9fd28c725bcc3461bfd185a633ce66aac69c27f"
+        }
+      }
+    }
+  }
+}
