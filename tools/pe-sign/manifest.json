@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "pe-sign",
+  "version": "0.1.10",
+  "repository": "0xlane/pe-sign",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/0xlane/pe-sign/releases/download/v0.1.10/pesign-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.10",
+      "sha256": "878445b0524c12f5c07e158d2d25a47b3b491f6b1b04e400a3f19c0726682582",
+      "size": 1727226,
+      "format": "tar.gz",
+      "binaries": {
+        "pesign": {
+          "path": "pesign-x86_64-unknown-linux-gnu/pesign",
+          "sha256": "5264773b0fdd2c1f688c8646e498d223c5d05dd51fc6dd81734443c6aaae6b50"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/0xlane/pe-sign/releases/download/v0.1.10/pesign-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.10",
+      "sha256": "817f008c10ea6d5341933d166babe4515f585a74d1186c7b6060c3302f796479",
+      "size": 1641429,
+      "format": "tar.gz",
+      "binaries": {
+        "pesign": {
+          "path": "pesign-x86_64-apple-darwin/pesign",
+          "sha256": "5c1ca227fa2833ac2ca2d15caf6b53e615b4523ddf81fc395f8e6291bde69af1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/0xlane/pe-sign/releases/download/v0.1.10/pesign-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.10",
+      "sha256": "bb3636d283cc753eda69a40b16a20b75632825cddf0df5b64517c1219bbbed6f",
+      "size": 1576488,
+      "format": "tar.gz",
+      "binaries": {
+        "pesign": {
+          "path": "pesign-aarch64-apple-darwin/pesign",
+          "sha256": "47e9510bba06fc5cbd80c8361916184736fab8285ff7501efb32625409db7ab0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/0xlane/pe-sign/releases/download/v0.1.10/pesign-x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.1.10",
+      "sha256": "ad6998dbb5f295aa38c6e01554dbcb0c03c259f101553f40c3ca9cd829cec134",
+      "size": 2695968,
+      "format": "zip",
+      "binaries": {
+        "pesign.exe": {
+          "path": "pesign-x86_64-pc-windows-gnu/pesign.exe",
+          "sha256": "6d7d4949b63e2856b6300fc41b45ef3afadef23d41c45b2471a13c30e4f10c12"
+        }
+      }
+    }
+  }
+}
