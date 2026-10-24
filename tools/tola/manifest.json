@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tola",
+  "version": "0.8.1",
+  "repository": "tola-rs/tola-ssg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tola-rs/tola-ssg/releases/download/v0.8.1/tola-0.8.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.1",
+      "sha256": "1fae52a62d606f42100ba708420cfad5a0bba386f976864e53b284de2b13ad02",
+      "size": 37735694,
+      "format": "tar.gz",
+      "binaries": {
+        "tola": {
+          "path": "tola",
+          "sha256": "1a288258fb068b733be3ef6e55fd0ef75d51872720b9b04ff3fcede9d3d6b45f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tola-rs/tola-ssg/releases/download/v0.8.1/tola-0.8.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.8.1",
+      "sha256": "631c5f40249c423beccee2461c188c0df34cd6bdb1165d0160d15a3122c27be5",
+      "size": 35866897,
+      "format": "tar.gz",
+      "binaries": {
+        "tola": {
+          "path": "tola",
+          "sha256": "d46dd1f8296598d134742007b7206c10b26fda72d8379e5a23b9763271ac64dd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tola-rs/tola-ssg/releases/download/v0.8.1/tola-0.8.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.8.1",
+      "sha256": "3529beb172b60e158de421ccceb534b1a08635843ac705d6ec392cf021bcb726",
+      "size": 32878656,
+      "format": "tar.gz",
+      "binaries": {
+        "tola": {
+          "path": "tola",
+          "sha256": "be88105bc4f4a3685a80744a91038b3bf5775ade657ccf63a90d10a4a650061a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tola-rs/tola-ssg/releases/download/v0.8.1/tola-0.8.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.8.1",
+      "sha256": "15e76a99338baa2cb156db8e314f3128bbfb83edff854a22471839063bc51b3d",
+      "size": 35485047,
+      "format": "zip",
+      "binaries": {
+        "tola.exe": {
+          "path": "tola.exe",
+          "sha256": "40739b71c72759f576155b63f1b98c95e7197fa115e200fbefa26f8f97520a4d"
+        }
+      }
+    }
+  }
+}
