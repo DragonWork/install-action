@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "name": "daktilo",
+  "version": "0.6.0",
+  "repository": "orhun/daktilo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orhun/daktilo/releases/download/v0.6.0/daktilo-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.6.0",
+      "sha256": "2938b36564b0e0e76f8cbdaf94e15aac42b35a8cbc30989fb09b3b19bd3e7394",
+      "size": 2116288,
+      "format": "tar.xz",
+      "binaries": {
+        "daktilo-completions": {
+          "path": "daktilo-x86_64-unknown-linux-gnu/daktilo-completions",
+          "sha256": "8ad40e4551740e8ceb93dc9954ba9cbba56127e555e748ec3013da418456030b"
+        },
+        "daktilo-mangen": {
+          "path": "daktilo-x86_64-unknown-linux-gnu/daktilo-mangen",
+          "sha256": "f8dd879f4c4b9d61e6a5b80fac1bb5dacd47fbfe746501c12e0b73772f36ba15"
+        },
+        "daktilo": {
+          "path": "daktilo-x86_64-unknown-linux-gnu/daktilo",
+          "sha256": "d48fd2d6837c93caed6e3d7830088b8b4f4cef937a5af09b318ed6fc41003b5d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orhun/daktilo/releases/download/v0.6.0/daktilo-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.0",
+      "sha256": "b83056bc1108d26445a3d3aa66cf06ad2224a0d8bc972a784f09453b5ae1a05d",
+      "size": 2021400,
+      "format": "tar.xz",
+      "binaries": {
+        "daktilo-completions": {
+          "path": "daktilo-x86_64-apple-darwin/daktilo-completions",
+          "sha256": "d2e98802eaeeb3cad582dee470b76c4a1063d66087a79f6afce5d5da2733591a"
+        },
+        "daktilo-mangen": {
+          "path": "daktilo-x86_64-apple-darwin/daktilo-mangen",
+          "sha256": "ac7a2e0ac099affc6d0c80e076a0c76fa8ea2cff9b9511ef878e6e732f5bf777"
+        },
+        "daktilo": {
+          "path": "daktilo-x86_64-apple-darwin/daktilo",
+          "sha256": "ed95ec37fc116122c28a002e4c59219dfc328e1209a17fcd09126fd22b80e838"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/orhun/daktilo/releases/download/v0.6.0/daktilo-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.6.0",
+      "sha256": "a66897eff4f08a9253ede557d026cb0c8d5f821f32051899d5800973f8fd4424",
+      "size": 1898012,
+      "format": "tar.xz",
+      "binaries": {
+        "daktilo-completions": {
+          "path": "daktilo-aarch64-apple-darwin/daktilo-completions",
+          "sha256": "dc47ee0074855f7617f229e8060f37bebe8f3d6cb94f4ce4767d65a8b6194c91"
+        },
+        "daktilo-mangen": {
+          "path": "daktilo-aarch64-apple-darwin/daktilo-mangen",
+          "sha256": "52a18596ec1ad5e3f695af9f3fed47f378dd40287c34f6cb6f4211eba3eabb02"
+        },
+        "daktilo": {
+          "path": "daktilo-aarch64-apple-darwin/daktilo",
+          "sha256": "757930e55fad91a5ebd5d35d0065ec9aaef596982054e46ef4b5a746d7b12a29"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orhun/daktilo/releases/download/v0.6.0/daktilo-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "e688645553a8338b42f8e969cabfecb7a9230af4a6afb8ff472fc898cc706bc2",
+      "size": 6674481,
+      "format": "zip",
+      "binaries": {
+        "daktilo-completions.exe": {
+          "path": "daktilo-completions.exe",
+          "sha256": "72da5a63eaee34bd7ad9af3b682889b6e1fb1d70e1decd3b1e80c1d82f49277d"
+        },
+        "daktilo-mangen.exe": {
+          "path": "daktilo-mangen.exe",
+          "sha256": "5313c887e4cb0f347faffdd4a845945be14471a073b9b5ec0fac6fde2a1a41ce"
+        },
+        "daktilo.exe": {
+          "path": "daktilo.exe",
+          "sha256": "6e40a0b2b21670d0edea5bd8e28657c5bed43f65c672ebb20e81712d74402d07"
+        }
+      }
+    }
+  }
+}
