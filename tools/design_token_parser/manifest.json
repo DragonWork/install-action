@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "design_token_parser",
+  "version": "3.2.2",
+  "repository": "vrrashkov/TokenParser",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/vrrashkov/TokenParser/releases/download/v3.2.2/design_token_parser-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.2.2",
+      "sha256": "11ac1fbef3406789a9051414329e48296e099bed0773fdd20a59fd59addcf03a",
+      "size": 1635847,
+      "format": "tar.gz",
+      "binaries": {
+        "design_token_parser": {
+          "path": "design_token_parser",
+          "sha256": "45be7bf82a4cd0875e63a596bd5ed108f2a0681bc580c6a4e0b3abf9e0b1e9be"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vrrashkov/TokenParser/releases/download/v3.2.2/design_token_parser-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.2.2",
+      "sha256": "3a115ebfd96d952168c7913d1b86df8f8f93e2986fb8af4dca1dc4cfe5afd7cf",
+      "size": 1598304,
+      "format": "tar.gz",
+      "binaries": {
+        "design_token_parser": {
+          "path": "design_token_parser",
+          "sha256": "ab8f8304c30fba62cc4e130939fcee234c5d263201f3f66f55cae22cf8f9c648"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vrrashkov/TokenParser/releases/download/v3.2.2/design_token_parser.exe-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v3.2.2",
+      "sha256": "141a2e313de6344f49e9f390dc9589092d65d26e6dfafda67797662048537458",
+      "size": 1601589,
+      "format": "tar.gz",
+      "binaries": {
+        "design_token_parser.exe": {
+          "path": "design_token_parser.exe",
+          "sha256": "7453bd8d1e13dc600099f741592cc194856ce7133abb9f50f6b08ce4c58cd2e5"
+        }
+      }
+    }
+  }
+}
