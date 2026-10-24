@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "marmite",
+  "version": "0.4.2",
+  "repository": "rochacbruno/marmite",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rochacbruno/marmite/releases/download/0.4.2/marmite-0.4.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.2",
+      "sha256": "764b4d2ee147506cc5accd8d59ac74e1cad8306b59262eb1024053969df7416b",
+      "size": 20927481,
+      "format": "tar.gz",
+      "binaries": {
+        "marmite": {
+          "path": "marmite",
+          "sha256": "633ad340a4241c3555c409d8bf03ceb75daf0331d77fa5fa814c2f054e3c45c8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rochacbruno/marmite/releases/download/0.4.2/marmite-0.4.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.2",
+      "sha256": "aa64e4491d59ef197997fb8297738b255c4e071e9026ac00fd6ac285545215dc",
+      "size": 20356684,
+      "format": "tar.gz",
+      "binaries": {
+        "marmite": {
+          "path": "marmite",
+          "sha256": "a643258449f8ab824a08f07b262cbcdc4fc19f26fa00e564479e4f86efc523e0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rochacbruno/marmite/releases/download/0.4.2/marmite-0.4.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.2",
+      "sha256": "4ef9c49aaa8795acbab24641acb06b46fd757c867ae891898093fc968790d7fb",
+      "size": 21159130,
+      "format": "tar.gz",
+      "binaries": {
+        "marmite": {
+          "path": "marmite",
+          "sha256": "c954625e8a40b011702e1216b8c820d0c6a72b6aa038cbb99a58ae6d36f06231"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rochacbruno/marmite/releases/download/0.4.2/marmite-0.4.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.4.2",
+      "sha256": "c93ee25fb6a9edb2d4c0aee8846353dac530d66e5db87f2c70681edd3fdb32e4",
+      "size": 19554037,
+      "format": "zip",
+      "binaries": {
+        "marmite.exe": {
+          "path": "marmite.exe",
+          "sha256": "d5e76a087c1e6944d8c0dfc2709cdd8b8832e274e9bc982cb4743fcb9af35914"
+        }
+      }
+    }
+  }
+}
