@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gptman",
+  "version": "1.1.0",
+  "repository": "rust-disk-partition-management/gptman",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-disk-partition-management/gptman/releases/download/v1.1.0/gptman-v1.1.0-linux-x86_64",
+      "sha256": "4391c980263273ac441952a6f2702bc415441d70541c70d3d124d98f67e7b2a7",
+      "size": 1755344,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "gptman": {
+          "path": "gptman-v1.1.0-linux-x86_64",
+          "sha256": "4391c980263273ac441952a6f2702bc415441d70541c70d3d124d98f67e7b2a7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-disk-partition-management/gptman/releases/download/v1.1.0/gptman-v1.1.0-osx-x86_64",
+      "sha256": "1af04982f689e39d955aa1303d6d75e852042b357e044b98e43ec37aa248fb03",
+      "size": 1911264,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "gptman": {
+          "path": "gptman-v1.1.0-osx-x86_64",
+          "sha256": "1af04982f689e39d955aa1303d6d75e852042b357e044b98e43ec37aa248fb03"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-disk-partition-management/gptman/releases/download/v1.1.0/gptman-v1.1.0-win-x86_64.exe",
+      "sha256": "5e779caa9d7413fe4c0dd741bc4af659e795d2095fa8dd1b8a47c10870ca8439",
+      "size": 1297408,
+      "format": "binary",
+      "releaseTag": "v1.1.0",
+      "binaries": {
+        "gptman.exe": {
+          "path": "gptman-v1.1.0-win-x86_64.exe",
+          "sha256": "5e779caa9d7413fe4c0dd741bc4af659e795d2095fa8dd1b8a47c10870ca8439"
+        }
+      }
+    }
+  }
+}
