@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "jotdown",
+  "version": "0.10.0",
+  "repository": "hellux/jotdown",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hellux/jotdown/releases/download/0.10.0/jotdown-0.10.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "6471bc8a677d63a9dae28e66cde872293773f93146e558fc045cd2b80dbefa31",
+      "size": 437658,
+      "format": "tar.gz",
+      "binaries": {
+        "jotdown": {
+          "path": "jotdown-0.10.0-x86_64-unknown-linux-gnu/jotdown",
+          "sha256": "5d25f614bae4dcc94879bda5ba778cd9a97614bff94c358c51dac75aaa10209a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hellux/jotdown/releases/download/0.10.0/jotdown-0.10.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "10c7c34a1c390cc61f3763634ea9cebb0e8828903a612286c077d530d8e1c784",
+      "size": 457605,
+      "format": "tar.gz",
+      "binaries": {
+        "jotdown": {
+          "path": "jotdown-0.10.0-x86_64-apple-darwin/jotdown",
+          "sha256": "25a19f8fae92ab211c7389a3d2d4326855691b32e91ab1bf381424066ff53c0f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hellux/jotdown/releases/download/0.10.0/jotdown-0.10.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.10.0",
+      "sha256": "e36f9b6e09cd2ec441e8437cfda9458cc43ccbccdc1bdc2229548032ed4e8e62",
+      "size": 430530,
+      "format": "tar.gz",
+      "binaries": {
+        "jotdown": {
+          "path": "jotdown-0.10.0-aarch64-apple-darwin/jotdown",
+          "sha256": "833db55e851eeecdb11d57c7e9fcc1cd9e092b255f717ffce356bf9278667a73"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hellux/jotdown/releases/download/0.10.0/jotdown-0.10.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.10.0",
+      "sha256": "05fee1ad5aace9c091ff62e986fab0c4d35e94be4baba72d5fa8c55ddd75cabf",
+      "size": 356780,
+      "format": "zip",
+      "binaries": {
+        "jotdown.exe": {
+          "path": "jotdown-0.10.0-x86_64-pc-windows-msvc/jotdown.exe",
+          "sha256": "92b903f0b3729c0df3a06bd4482754e6d308a236d416525c0cb28b890e254e1f"
+        }
+      }
+    }
+  }
+}
