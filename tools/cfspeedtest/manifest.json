@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cfspeedtest",
+  "version": "2.2.2",
+  "repository": "code-inflation/cfspeedtest",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/code-inflation/cfspeedtest/releases/download/v2.2.2/cfspeedtest-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.2.2",
+      "sha256": "241df2323e5f7dca5b7e3bbed3061800c00081252738dd10d188439501f69b51",
+      "size": 3259175,
+      "format": "tar.gz",
+      "binaries": {
+        "cfspeedtest": {
+          "path": "cfspeedtest",
+          "sha256": "c7e86508811cdad58d06d0c817fb3bed227e6e8a179ea59e270f5ba5ddf74c5d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/code-inflation/cfspeedtest/releases/download/v2.2.2/cfspeedtest-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v2.2.2",
+      "sha256": "0d4778e1ca6856dc1f3303337039a15abee21f09a3ef804ea22bfd09d1b41133",
+      "size": 3178693,
+      "format": "tar.gz",
+      "binaries": {
+        "cfspeedtest": {
+          "path": "cfspeedtest",
+          "sha256": "c4757681481a4d6486b92b2ee1d88d817bbefa9529e859ce670497b926e89ea8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/code-inflation/cfspeedtest/releases/download/v2.2.2/cfspeedtest-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.2.2",
+      "sha256": "b178863af886ef4bc07053e53360d9ea63cca96bef9962f632a3832f8d7263f6",
+      "size": 3097031,
+      "format": "tar.gz",
+      "binaries": {
+        "cfspeedtest": {
+          "path": "cfspeedtest",
+          "sha256": "acbb6d391b7d66e3dcb30ac32eb32c81fead5c99f3264a64b70e12f338518052"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/code-inflation/cfspeedtest/releases/download/v2.2.2/cfspeedtest-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.2.2",
+      "sha256": "6c0488a8b5ecfd6285ea616ce082242a10284ee6f1bac761a5a3ae7f6b90f4de",
+      "size": 2971397,
+      "format": "tar.gz",
+      "binaries": {
+        "cfspeedtest": {
+          "path": "cfspeedtest",
+          "sha256": "d5e6ecb52f83f756258d5db247f22bd008d41403fbf4bc551fbc4c4acedf6051"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/code-inflation/cfspeedtest/releases/download/v2.2.2/cfspeedtest-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.2.2",
+      "sha256": "3ff076e3be3ed983e5e5bfde1ad7145f20e0203f0b710e277910a4a7340ee9b6",
+      "size": 2656156,
+      "format": "zip",
+      "binaries": {
+        "cfspeedtest.exe": {
+          "path": "cfspeedtest.exe",
+          "sha256": "e9efa97015136ae5171380ed90f73367e3fdfd8c89cbc792f32cac3c47efe28b"
+        }
+      }
+    }
+  }
+}
