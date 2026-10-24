@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gitlobster",
+  "version": "1.5.1",
+  "repository": "lowitea/gitlobster",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lowitea/gitlobster/releases/download/1.5.1/gitlobster-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "1.5.1",
+      "sha256": "a77344e75217016b675a25e550630edc14cf8ea5762d67bd7f3bc603041797bc",
+      "size": 2117205,
+      "format": "tar.gz",
+      "binaries": {
+        "gitlobster": {
+          "path": "gitlobster",
+          "sha256": "a869931013f4a08669543d1053378cf639b9d12e9d7bef0e88fc364df53b3ed3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lowitea/gitlobster/releases/download/1.5.1/gitlobster-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "1.5.1",
+      "sha256": "dfb8b39bbfe6f1416585f045b13530f1e66e66e305fb952dda24fb9c5dc95726",
+      "size": 1877749,
+      "format": "tar.gz",
+      "binaries": {
+        "gitlobster": {
+          "path": "gitlobster",
+          "sha256": "2265deb595fad36a02dc903c04c2a9e13863758b8eb44e52e10d5f71d3052e64"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lowitea/gitlobster/releases/download/1.5.1/gitlobster-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.5.1",
+      "sha256": "0e453a01e845a613460dcb7c0d1be842fb59037050c8b6fd6698f354fb378487",
+      "size": 1869497,
+      "format": "zip",
+      "binaries": {
+        "gitlobster.exe": {
+          "path": "gitlobster.exe",
+          "sha256": "b45ae2e8c8942c8f8b0e36715c2bcd42589df63283e4268a68d885e587620f23"
+        }
+      }
+    }
+  }
+}
