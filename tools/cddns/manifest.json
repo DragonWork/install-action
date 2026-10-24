@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cddns",
+  "version": "0.4.0",
+  "repository": "nuzzles/cddns",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nuzzles/cddns/releases/download/v0.4.0/cddns-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "10472b3f15ee00158463a1eafe16a81b23739b5d5c55b3d3eaf2af795a2edafd",
+      "size": 3396889,
+      "format": "tar.gz",
+      "binaries": {
+        "cddns": {
+          "path": "cddns",
+          "sha256": "df2db5c2501bf1633a2282cdee01987970961153ed52905c792613b16ad530fd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nuzzles/cddns/releases/download/v0.4.0/cddns-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.4.0",
+      "sha256": "cca2ae1c956169f73d5bf11633ce2431d4fe33a8d6572ccc3d8df354bb6b36da",
+      "size": 3019496,
+      "format": "tar.gz",
+      "binaries": {
+        "cddns": {
+          "path": "cddns",
+          "sha256": "873d6da0f9abb31f21522da8a26586df277e0b1bf90f8984edeb46e661a86f92"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nuzzles/cddns/releases/download/v0.4.0/cddns-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.4.0",
+      "sha256": "8f04fa7e6c6c39625b665480cff9a7c2f35d59d30e4c88e2a7f56db8c0eea05d",
+      "size": 2960897,
+      "format": "zip",
+      "binaries": {
+        "cddns.exe": {
+          "path": "cddns.exe",
+          "sha256": "27f1c12f2b6823e92d51f7ea41749f2fb1aed6fc55012aee03aaba0f0d5da1d3"
+        }
+      }
+    }
+  }
+}
