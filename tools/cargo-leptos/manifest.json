@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-leptos",
+  "version": "0.3.11",
+  "repository": "leptos-rs/cargo-leptos",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/leptos-rs/cargo-leptos/releases/download/v0.3.11/cargo-leptos-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.11",
+      "sha256": "149b88535fd8f44321da0d667fecc445c15af35f62931b2091687445297cc9e0",
+      "size": 19709294,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-leptos": {
+          "path": "cargo-leptos-x86_64-unknown-linux-musl/cargo-leptos",
+          "sha256": "08d05f294d20a9bd1024dfc1c30afc1006880313b47cd78c46225da16cc95131"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/leptos-rs/cargo-leptos/releases/download/v0.3.11/cargo-leptos-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.11",
+      "sha256": "834d34b7bc837ed4bfdc5a26428f7c7b249550a5aecd5e6220b76b702008ab12",
+      "size": 16549951,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-leptos": {
+          "path": "cargo-leptos-aarch64-unknown-linux-musl/cargo-leptos",
+          "sha256": "79ef0a37ba7f073d8c2bce37e16e3548c901bc877322d852a8a147fec5512d90"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/leptos-rs/cargo-leptos/releases/download/v0.3.11/cargo-leptos-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.11",
+      "sha256": "179e0ad0bc2a1628a552330243155136a3c97e0c7eac03ade51b8f24c1c152b3",
+      "size": 18457691,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-leptos": {
+          "path": "cargo-leptos-x86_64-apple-darwin/cargo-leptos",
+          "sha256": "28504b4369e0ebe109edf1956f1cf77034f2e4f6f53d3084cccb8ea1f6f3fc12"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/leptos-rs/cargo-leptos/releases/download/v0.3.11/cargo-leptos-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.11",
+      "sha256": "0d2eb14f1bfe0a8d9a45ae64b4e00a73a1aafe8e123b635981a4acf7c7cc7ab1",
+      "size": 17717427,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-leptos": {
+          "path": "cargo-leptos-aarch64-apple-darwin/cargo-leptos",
+          "sha256": "543b528a458e363701cbc3fe2158cb8cbc349a1d5271c0b12193ee2fe13ec0f9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/leptos-rs/cargo-leptos/releases/download/v0.3.11/cargo-leptos-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.3.11",
+      "sha256": "13acea47bb72a340a5dceb2915314b967035bb1b33ec61edbe777d5151c07eb3",
+      "size": 18353855,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-leptos.exe": {
+          "path": "cargo-leptos-x86_64-pc-windows-msvc/cargo-leptos.exe",
+          "sha256": "e6e10a3ffbd1acfd8570eb97f9ed693c4237d3d495b25947df5eb39847de3ae8"
+        }
+      }
+    }
+  }
+}
