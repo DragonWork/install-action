@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tract",
+  "version": "0.22.5",
+  "repository": "sonos/tract",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sonos/tract/releases/download/0.22.5/tract-x86_64-unknown-linux-musl-0.22.5.tgz",
+      "releaseTag": "0.22.5",
+      "sha256": "3d36773e2c690b1b1fead869ce2204f090e0ac12df726b12057f5759f34ae94e",
+      "size": 15546762,
+      "format": "tar.gz",
+      "binaries": {
+        "tract": {
+          "path": "tract-x86_64-unknown-linux-musl-0.22.5/tract",
+          "sha256": "d14c05853b47ee17ab459ed7164db5a361fde3358ae2829533d7b22c87eaffb2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sonos/tract/releases/download/0.22.5/tract-aarch64-unknown-linux-musl-0.22.5.tgz",
+      "releaseTag": "0.22.5",
+      "sha256": "10e5b576809fc3d41138a11b5df7eb248869f09a6341b4682c7983c764814bf4",
+      "size": 14069366,
+      "format": "tar.gz",
+      "binaries": {
+        "tract": {
+          "path": "tract-aarch64-unknown-linux-musl-0.22.5/tract",
+          "sha256": "47fe3be51d84280112738d54ea549de1295a41ede1643e60ceee9c5fddc7d6fc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sonos/tract/releases/download/0.22.5/tract-x86_64-apple-darwin-0.22.5.tgz",
+      "releaseTag": "0.22.5",
+      "sha256": "dac18624c62ca0a0c9cba55b116fc29d3c451be1a621a892627b75d6af9548ad",
+      "size": 15224998,
+      "format": "tar.gz",
+      "binaries": {
+        "tract": {
+          "path": "tract-x86_64-apple-darwin-0.22.5/tract",
+          "sha256": "11e7aac1296b837dfd0bd7a7d3c111b3776046a3040ab86c1896f4c9ee36e0bc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sonos/tract/releases/download/0.22.5/tract-aarch64-apple-darwin-0.22.5.tgz",
+      "releaseTag": "0.22.5",
+      "sha256": "73536ae9c6130b3ee7cb6196a2229773ee2192595d7149ec24f2f26e45b0cc38",
+      "size": 13699035,
+      "format": "tar.gz",
+      "binaries": {
+        "tract": {
+          "path": "tract-aarch64-apple-darwin-0.22.5/tract",
+          "sha256": "caaa0f593847fa06422fde2909d855e4f4cb0eb3c917e77e508cf416d8fdd959"
+        }
+      }
+    }
+  }
+}
