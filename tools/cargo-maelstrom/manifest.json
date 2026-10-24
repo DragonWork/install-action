@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cargo-maelstrom",
+  "version": "0.14.0",
+  "repository": "maelstrom-software/maelstrom",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/cargo-maelstrom-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.14.0",
+      "sha256": "cb1ce40aba4ec58ccd0129b39ce7b927d72a9b4e51663e3cbec78ab91944d2bf",
+      "size": 6085742,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-maelstrom": {
+          "path": "cargo-maelstrom",
+          "sha256": "44b6b460f9f00ba70adf61976e53899976a0c99dae2aba8e711f1cc6dd0646c6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/maelstrom-software/maelstrom/releases/download/v0.14.0/cargo-maelstrom-aarch64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.14.0",
+      "sha256": "236bd6c13dede6bcba624a680d71566551a1e591374d3affc06feb5ffd3a7b26",
+      "size": 6225951,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-maelstrom": {
+          "path": "cargo-maelstrom",
+          "sha256": "23abe45ea80b892c7aa49269d17e0232275d0cd8aefcb2b4145c2d98418d468b"
+        }
+      }
+    }
+  }
+}
