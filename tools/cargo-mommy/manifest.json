@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-mommy",
+  "version": "0.3.1",
+  "repository": "Gankra/cargo-mommy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Gankra/cargo-mommy/releases/download/v0.3.1/cargo-mommy-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.3.1",
+      "sha256": "0e7964f9772f4d5b5902a34bf3c40a3a8365cdc8546df0533aacf7d05517275d",
+      "size": 641676,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-mommy": {
+          "path": "cargo-mommy-x86_64-unknown-linux-musl/cargo-mommy",
+          "sha256": "165c1a10d9d6868aeeb2bf61e0dcbb1afb0d872eead5d38f74bfd03ae4c3ece0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Gankra/cargo-mommy/releases/download/v0.3.1/cargo-mommy-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.1",
+      "sha256": "fa703c739fc32c165507932f8f5c9ebb136854c3f911daf2492ed042c14dbfc0",
+      "size": 195200,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-mommy": {
+          "path": "cargo-mommy-x86_64-apple-darwin/cargo-mommy",
+          "sha256": "b60bd78f108e08edd73a4b2e7fb62a4ffffef5a9807f7fc8c65234c072c50576"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Gankra/cargo-mommy/releases/download/v0.3.1/cargo-mommy-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.3.1",
+      "sha256": "e0f80622571839a84aed408a92cd16dd6049ec4cb4db15aa03d849b4f52aa6e2",
+      "size": 181096,
+      "format": "tar.xz",
+      "binaries": {
+        "cargo-mommy": {
+          "path": "cargo-mommy-aarch64-apple-darwin/cargo-mommy",
+          "sha256": "e9da9ecbf8bcd227d976eae1d2b5511f288af382fbe028fd263d70e65d0be9fc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Gankra/cargo-mommy/releases/download/v0.3.1/cargo-mommy-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "74c05aac68f6837c99557841e4cc7ddcbcb1ac835e41d1559e81e6c74bf99057",
+      "size": 449711,
+      "format": "zip",
+      "binaries": {
+        "cargo-mommy.exe": {
+          "path": "cargo-mommy.exe",
+          "sha256": "3e21d0cb151021b75212e78855ee020943aef41b719ef0b7a13f85bc3c7703dc"
+        }
+      }
+    }
+  }
+}
