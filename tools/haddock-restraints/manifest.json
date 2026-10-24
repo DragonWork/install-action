@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "haddock-restraints",
+  "version": "0.13.0",
+  "repository": "haddocking/haddock-restraints",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/haddocking/haddock-restraints/releases/download/v0.13.0/haddock-restraints-v0.13.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "abb02f89db78d2360e2744dedcee7072e00a1910f7895b038bbd09fb7130ff41",
+      "size": 1033387,
+      "format": "tar.gz",
+      "binaries": {
+        "haddock-restraints": {
+          "path": "haddock-restraints",
+          "sha256": "8a0c07c7d8e45fbf04c17aeaa1c7858cad9f5d5c1abd96d9e6e052f99ad2ba45"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/haddocking/haddock-restraints/releases/download/v0.13.0/haddock-restraints-v0.13.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "066525272fa254f641d926ae964a4bbcdd1f832c0135ceaa047ca013ddcc67ad",
+      "size": 994534,
+      "format": "tar.gz",
+      "binaries": {
+        "haddock-restraints": {
+          "path": "haddock-restraints",
+          "sha256": "73cb95414774867837bd060f5f123f5bc76be641f7d2f443f6d9c2221d84bb6b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/haddocking/haddock-restraints/releases/download/v0.13.0/haddock-restraints-v0.13.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "f2a043ee94d0cf62e13c834d5bd00432bcb1fc0b21dbf2812dd5be127b4b8ce0",
+      "size": 897484,
+      "format": "tar.gz",
+      "binaries": {
+        "haddock-restraints": {
+          "path": "haddock-restraints",
+          "sha256": "c24d4af5a7e31a60b11f3c5e9f31d33b801c9b44c6eb75ff1c653a1a9e4ef82c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/haddocking/haddock-restraints/releases/download/v0.13.0/haddock-restraints-v0.13.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.13.0",
+      "sha256": "b23f007db68b9ae63f3f1fb6960a19f7faf29f1bb0d4a49927e665ba8860110b",
+      "size": 866820,
+      "format": "tar.gz",
+      "binaries": {
+        "haddock-restraints": {
+          "path": "haddock-restraints",
+          "sha256": "5c923c314304408d52be6a7b087981aedd7ba36b38a9f8c27fd09a4b67977d7d"
+        }
+      }
+    }
+  }
+}
