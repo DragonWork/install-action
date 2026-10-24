@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-codspeed",
+  "version": "6.0.0",
+  "repository": "CodSpeedHQ/codspeed-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/CodSpeedHQ/codspeed-rust/releases/download/v6.0.0/cargo-codspeed-x86_64-unknown-linux-musl",
+      "sha256": "99b4ada4e00a0b4e153f5fe50f70844898cbd6f77274cbe29e44bf671e5f85d8",
+      "size": 2742048,
+      "format": "binary",
+      "releaseTag": "v6.0.0",
+      "binaries": {
+        "cargo-codspeed": {
+          "path": "cargo-codspeed-x86_64-unknown-linux-musl",
+          "sha256": "99b4ada4e00a0b4e153f5fe50f70844898cbd6f77274cbe29e44bf671e5f85d8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/CodSpeedHQ/codspeed-rust/releases/download/v6.0.0/cargo-codspeed-aarch64-unknown-linux-musl",
+      "sha256": "eb82a5114d754099fcaf91155c3ee29e64a070953d4065ea315fe33d95a1371c",
+      "size": 2661504,
+      "format": "binary",
+      "releaseTag": "v6.0.0",
+      "binaries": {
+        "cargo-codspeed": {
+          "path": "cargo-codspeed-aarch64-unknown-linux-musl",
+          "sha256": "eb82a5114d754099fcaf91155c3ee29e64a070953d4065ea315fe33d95a1371c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/CodSpeedHQ/codspeed-rust/releases/download/v6.0.0/cargo-codspeed-aarch64-apple-darwin",
+      "sha256": "f6dd22a5c09bd4978b1331c0349c04e3c8aacb6a56b76343c6b016ce88f465aa",
+      "size": 2251680,
+      "format": "binary",
+      "releaseTag": "v6.0.0",
+      "binaries": {
+        "cargo-codspeed": {
+          "path": "cargo-codspeed-aarch64-apple-darwin",
+          "sha256": "f6dd22a5c09bd4978b1331c0349c04e3c8aacb6a56b76343c6b016ce88f465aa"
+        }
+      }
+    }
+  }
+}
