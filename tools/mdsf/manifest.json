@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mdsf",
+  "version": "0.12.1",
+  "repository": "hougesen/mdsf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hougesen/mdsf/releases/download/v0.12.1/mdsf-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "adba0ac7765458ac76901fbc9952c7006842ac233ee5565702cfa0aea39cace5",
+      "size": 2379006,
+      "format": "tar.gz",
+      "binaries": {
+        "mdsf": {
+          "path": "mdsf-x86_64-unknown-linux-gnu/mdsf",
+          "sha256": "3b9924e0a0dcf3043cb3f2459a75915b5c649153b8baa1fb7d7bf50fcef901ea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hougesen/mdsf/releases/download/v0.12.1/mdsf-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "ab3990678f514a45719b14d18ba53b87414ddca8f7ff0d33262371f20d8fea6f",
+      "size": 2227350,
+      "format": "tar.gz",
+      "binaries": {
+        "mdsf": {
+          "path": "mdsf-x86_64-apple-darwin/mdsf",
+          "sha256": "ac05109b767007cd3beafd6df1839a861cc39f32708af4e53a646e2995c336d8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hougesen/mdsf/releases/download/v0.12.1/mdsf-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "91f46b517bf3547190fcadf6ad1f4e4b177ff1abc7fd720f4df285c910e4f0fe",
+      "size": 2145511,
+      "format": "tar.gz",
+      "binaries": {
+        "mdsf": {
+          "path": "mdsf-aarch64-apple-darwin/mdsf",
+          "sha256": "9de38b63e145b9522112f0cab346b5f4ee12c39bffe9d8b9c3d6508ad80dc3f6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hougesen/mdsf/releases/download/v0.12.1/mdsf-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "d35c0fa327df59cb4b9089bee933742eef2c7abaf650742f120759409334e8f3",
+      "size": 2089883,
+      "format": "tar.gz",
+      "binaries": {
+        "mdsf.exe": {
+          "path": "mdsf-x86_64-pc-windows-msvc/mdsf.exe",
+          "sha256": "5ca6a704a839c9f6cb35cc0ea9382c3411a5276451b6a7f45c304ef58688aca8"
+        }
+      }
+    }
+  }
+}
