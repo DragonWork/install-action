@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "jnv",
+  "version": "0.7.1",
+  "repository": "ynqa/jnv",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ynqa/jnv/releases/download/v0.7.1/jnv-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.7.1",
+      "sha256": "43bc90e8875f10790e2e69adba5dcc48cff393d0ebc59b9947449feb349b42e8",
+      "size": 1546072,
+      "format": "tar.xz",
+      "binaries": {
+        "jnv": {
+          "path": "jnv-x86_64-unknown-linux-musl/jnv",
+          "sha256": "3e5045ac02b114ed3da2215e7819bd169d6fab4ed945be2b6eaa9f0974d81a48"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ynqa/jnv/releases/download/v0.7.1/jnv-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.7.1",
+      "sha256": "88b1a1f5cbc703d2f45fec6b8b4a8f9c35e9969c84565c00d27cc84baa0c0da8",
+      "size": 1290380,
+      "format": "tar.xz",
+      "binaries": {
+        "jnv": {
+          "path": "jnv-aarch64-unknown-linux-gnu/jnv",
+          "sha256": "3ac4a0b28c3451b1a5fdc877487e8f9ecda187d682f664fa5436fde14c28539b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ynqa/jnv/releases/download/v0.7.1/jnv-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.1",
+      "sha256": "3bb29e5267a8925da4c19b3b3f31a8c35b19c2703bf292d71ea5e51f2defc3d6",
+      "size": 1256608,
+      "format": "tar.xz",
+      "binaries": {
+        "jnv": {
+          "path": "jnv-x86_64-apple-darwin/jnv",
+          "sha256": "e580236d228c1fe9f0d115e4586fed2a3479fc99d55193058905fd8a90b8d373"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ynqa/jnv/releases/download/v0.7.1/jnv-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.7.1",
+      "sha256": "a66dc820dee8d035108e493efcfba1c92ad313d2b148b359349612c8b966fb41",
+      "size": 1080448,
+      "format": "tar.xz",
+      "binaries": {
+        "jnv": {
+          "path": "jnv-aarch64-apple-darwin/jnv",
+          "sha256": "f9cd974d77a428696a239d97ab74771a2349360f31bd2ce663b91a29da6211e8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ynqa/jnv/releases/download/v0.7.1/jnv-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "f76a635add18586c9473329fb37d2dca831b80d8062dccb4683f69a3bb3de5e6",
+      "size": 1652596,
+      "format": "zip",
+      "binaries": {
+        "jnv.exe": {
+          "path": "jnv.exe",
+          "sha256": "c74e31dd8ad747a5f52b02240943962cec20acfea3b49119021a1f7a53dc17a6"
+        }
+      }
+    }
+  }
+}
