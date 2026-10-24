@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "html2pdf",
+  "version": "0.9.0",
+  "repository": "ilaborie/html2pdf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ilaborie/html2pdf/releases/download/v0.9.0/html2pdf-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.9.0",
+      "sha256": "06bcce3165f937f2ad198398a75376449102d5b2a669295ad508d565f220fd9d",
+      "size": 2322028,
+      "format": "tar.xz",
+      "binaries": {
+        "html2pdf": {
+          "path": "html2pdf-x86_64-unknown-linux-gnu/html2pdf",
+          "sha256": "ceb532a07ad9a5c0a89c1665b242bb6af228360dc5cb70080b0f3a1c531dee08"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ilaborie/html2pdf/releases/download/v0.9.0/html2pdf-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.9.0",
+      "sha256": "94260b1e49ea4a305da41545572af0f381103082252c21e6fb88556ede413020",
+      "size": 2171244,
+      "format": "tar.xz",
+      "binaries": {
+        "html2pdf": {
+          "path": "html2pdf-aarch64-unknown-linux-gnu/html2pdf",
+          "sha256": "7125a61b4f3a69db9da206254961aeaf080cd6ffaa832f78a64cddd8006fab3e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ilaborie/html2pdf/releases/download/v0.9.0/html2pdf-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.9.0",
+      "sha256": "a47df984a07f0621e2412ae3d599a1e85111e7a8d374ef286909b7b4cd8b8c72",
+      "size": 2169340,
+      "format": "tar.xz",
+      "binaries": {
+        "html2pdf": {
+          "path": "html2pdf-x86_64-apple-darwin/html2pdf",
+          "sha256": "5a88f414fc6693c27055d363d6c5da629be58c31242c38878865a97147bb2432"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ilaborie/html2pdf/releases/download/v0.9.0/html2pdf-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.9.0",
+      "sha256": "c4e9e642773a0e71fa2ecc5c920d435ce0fcb20300d1283e2a843abdf3615d6b",
+      "size": 2099472,
+      "format": "tar.xz",
+      "binaries": {
+        "html2pdf": {
+          "path": "html2pdf-aarch64-apple-darwin/html2pdf",
+          "sha256": "bdeeb24aa726f2e37648a3a738f3fc1dca0d2575aecabda6557b068593893fbd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ilaborie/html2pdf/releases/download/v0.9.0/html2pdf-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.9.0",
+      "sha256": "511d50200c1cacf14437c41757d70781c6c67daa5c5e8ceb4ed023df1c520394",
+      "size": 3205057,
+      "format": "zip",
+      "binaries": {
+        "html2pdf.exe": {
+          "path": "html2pdf.exe",
+          "sha256": "6c609020edb1b71bd17fcc1f97f41747fe92885bd572abbc3e78bf0d66ddefae"
+        }
+      }
+    }
+  }
+}
