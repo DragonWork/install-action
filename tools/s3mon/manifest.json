@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "s3mon",
+  "version": "0.7.0",
+  "repository": "s3mon/s3mon",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/s3mon/s3mon/releases/download/0.7.0/s3mon-0.7.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.7.0",
+      "sha256": "3570482ab7aee9532cabcf52aec6137655e75389234c03592aa8f3817fd28a8a",
+      "size": 3944153,
+      "format": "tar.gz",
+      "binaries": {
+        "s3mon": {
+          "path": "s3mon-0.7.0-x86_64-unknown-linux-musl/s3mon",
+          "sha256": "7845fd415a461fc6ce90cb21febd0d8fdfb44bba25d8f1336cc06bbfe286e55d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/s3mon/s3mon/releases/download/0.7.0/s3mon-0.7.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.7.0",
+      "sha256": "bbf38810e3f453055cde95c7f3ff347b8476ca9988a1c230d68c594158f4dca2",
+      "size": 3676867,
+      "format": "tar.gz",
+      "binaries": {
+        "s3mon": {
+          "path": "s3mon-0.7.0-x86_64-apple-darwin/s3mon",
+          "sha256": "e823a157ac6ab7ec5530f75e42497b9b05e953867e2bcfff46dd19ca387f5343"
+        }
+      }
+    }
+  }
+}
