@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "text_analysis",
+  "version": "0.4.9",
+  "repository": "ArdentEmpiricist/text_analysis",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ArdentEmpiricist/text_analysis/releases/download/0.4.9/text_analysis-0.4.9-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.9",
+      "sha256": "08089616c7201910d4e09dcb84501f67671fd6af01b44054881084c29b4ede6c",
+      "size": 2091708,
+      "format": "tar.gz",
+      "binaries": {
+        "text_analysis": {
+          "path": "text_analysis-0.4.9-x86_64-unknown-linux-musl/text_analysis",
+          "sha256": "52657250ae54daa69328a7ee9a8ef3b73f591efe3203155ded09da3f192e9edc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ArdentEmpiricist/text_analysis/releases/download/0.4.9/text_analysis-0.4.9-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.9",
+      "sha256": "257fd806a88285ff166c422308cd877f660cd3ac38c03381f6ec4b5e3ffb2761",
+      "size": 1921943,
+      "format": "tar.gz",
+      "binaries": {
+        "text_analysis": {
+          "path": "text_analysis-0.4.9-x86_64-apple-darwin/text_analysis",
+          "sha256": "3ddb962605ffecb677090f0220e7e68dfc53326d2de5ae7b45129640865edf26"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ArdentEmpiricist/text_analysis/releases/download/0.4.9/text_analysis-0.4.9-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.9",
+      "sha256": "6a2d54648b822a6f569fcf65a19495d70a108aa69b83a7a398c43947c07ebfd7",
+      "size": 1820952,
+      "format": "tar.gz",
+      "binaries": {
+        "text_analysis": {
+          "path": "text_analysis-0.4.9-aarch64-apple-darwin/text_analysis",
+          "sha256": "99f6b24a1e59917c9ff941712736a1e8b3aa110a77c961c9cf9550881a83a8bb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ArdentEmpiricist/text_analysis/releases/download/0.4.9/text_analysis-0.4.9-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.4.9",
+      "sha256": "67898ee7c4ed1fb88ce6eab0206b29286903d88c437bf48a8ac0d674ea2ccc69",
+      "size": 1689053,
+      "format": "zip",
+      "binaries": {
+        "text_analysis.exe": {
+          "path": "text_analysis-0.4.9-x86_64-pc-windows-msvc/text_analysis.exe",
+          "sha256": "180843c9d63c2ec497cec17e43ccf4c485d850592f4dfb1e1805e5c6dba1748d"
+        }
+      }
+    }
+  }
+}
