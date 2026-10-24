@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "dano",
+  "version": "0.10.1",
+  "repository": "kimono-koans/dano",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kimono-koans/dano/releases/download/0.10.1/dano_0.10.1-1_amd64.deb",
+      "sha256": "bfa808e723e686de91d47c838a4a03ddd1fa7d1eef7741e5a10a95dfc069bb17",
+      "size": 471328,
+      "format": "deb",
+      "releaseTag": "0.10.1",
+      "binaries": {
+        "dano": {
+          "path": "./usr/bin/dano",
+          "sha256": "3da58d34e02d54605a977df62c591c5e19babaf1133cf9a4b2f769fa6c958d88"
+        }
+      }
+    }
+  }
+}
