@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "jinja-lsp",
+  "version": "0.2.3",
+  "repository": "uros-5/jinja-lsp",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/uros-5/jinja-lsp/releases/download/v0.2.3/jinja-lsp-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.2.3",
+      "sha256": "719d965675f872e1077e44bc4c8b03f5b88af954dfe8bcc3baf3657ebc6a9298",
+      "size": 8721408,
+      "format": "binary",
+      "binaries": {
+        "jinja-lsp.exe": {
+          "path": "jinja-lsp-x86_64-pc-windows-msvc.exe",
+          "sha256": "719d965675f872e1077e44bc4c8b03f5b88af954dfe8bcc3baf3657ebc6a9298"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/uros-5/jinja-lsp/releases/download/v0.2.3/jinja-lsp-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.2.3",
+      "sha256": "25313fa12210ee351850a3adbe0d291ea40959f224a6ff195401039ac40f9128",
+      "size": 7785472,
+      "format": "binary",
+      "binaries": {
+        "jinja-lsp.exe": {
+          "path": "jinja-lsp-aarch64-pc-windows-msvc.exe",
+          "sha256": "25313fa12210ee351850a3adbe0d291ea40959f224a6ff195401039ac40f9128"
+        }
+      }
+    }
+  }
+}
