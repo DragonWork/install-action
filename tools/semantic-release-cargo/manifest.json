@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "semantic-release-cargo",
+  "version": "2.4.84",
+  "repository": "semantic-release-cargo/semantic-release-cargo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/semantic-release-cargo/semantic-release-cargo/releases/download/v2.4.84/semantic-release-cargo-x86_64-unknown-linux-musl",
+      "sha256": "5b1a799eb9c8208b02904053844205a62aae3ea565cb29642fe556ee225d843c",
+      "size": 2888408,
+      "format": "binary",
+      "releaseTag": "v2.4.84",
+      "binaries": {
+        "semantic-release-cargo": {
+          "path": "semantic-release-cargo-x86_64-unknown-linux-musl",
+          "sha256": "5b1a799eb9c8208b02904053844205a62aae3ea565cb29642fe556ee225d843c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/semantic-release-cargo/semantic-release-cargo/releases/download/v2.4.84/semantic-release-cargo-aarch64-unknown-linux-musl",
+      "sha256": "613ace4a1cc994d260326bc0e25208f1a50d90b51823ac7cd4d93f006ad9ad60",
+      "size": 2367600,
+      "format": "binary",
+      "releaseTag": "v2.4.84",
+      "binaries": {
+        "semantic-release-cargo": {
+          "path": "semantic-release-cargo-aarch64-unknown-linux-musl",
+          "sha256": "613ace4a1cc994d260326bc0e25208f1a50d90b51823ac7cd4d93f006ad9ad60"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/semantic-release-cargo/semantic-release-cargo/releases/download/v2.4.84/semantic-release-cargo-x86_64-apple-darwin",
+      "sha256": "d98b7a0cee4cbca80c9fdb91c2c79acaff7afaf7332c4f13cb3dd7f472929706",
+      "size": 2601928,
+      "format": "binary",
+      "releaseTag": "v2.4.84",
+      "binaries": {
+        "semantic-release-cargo": {
+          "path": "semantic-release-cargo-x86_64-apple-darwin",
+          "sha256": "d98b7a0cee4cbca80c9fdb91c2c79acaff7afaf7332c4f13cb3dd7f472929706"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/semantic-release-cargo/semantic-release-cargo/releases/download/v2.4.84/semantic-release-cargo-aarch64-apple-darwin",
+      "sha256": "1aa04ec6f2e1e54e4cfdd390b4bc8180ac13d9b6716ac685442ed9f49205df38",
+      "size": 2308448,
+      "format": "binary",
+      "releaseTag": "v2.4.84",
+      "binaries": {
+        "semantic-release-cargo": {
+          "path": "semantic-release-cargo-aarch64-apple-darwin",
+          "sha256": "1aa04ec6f2e1e54e4cfdd390b4bc8180ac13d9b6716ac685442ed9f49205df38"
+        }
+      }
+    }
+  }
+}
