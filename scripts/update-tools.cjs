@@ -17,7 +17,7 @@ const TARGETS = {
   'win32-x64': ['x86_64-pc-windows-msvc', 'x86_64-pc-windows-gnu'],
   'win32-arm64': ['aarch64-pc-windows-msvc'],
 };
-const RESOLVER_REVISION = 3;
+const RESOLVER_REVISION = 4;
 
 function assetFormat(name, binaries = []) {
   if (name.endsWith('.zip')) return 'zip';
@@ -66,7 +66,7 @@ function assetCandidates(assets, platform, name, binaries) {
       || a.name.localeCompare(b.name));
 }
 
-async function probeReleases(catalog, state, current, limit = 2000) {
+async function probeReleases(catalog, state, current, limit = 1000) {
   const now = Date.now();
   const due = Object.keys(catalog.crates).filter(name => {
     const version = catalog.crates[name].version;
@@ -95,20 +95,33 @@ async function probeReleases(catalog, state, current, limit = 2000) {
       const tags = releaseTags(name, entry.version);
       return `r${index}: repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(repo)}) { nameWithOwner ` +
         tags.map((tag, j) => `t${j}: release(tagName:${JSON.stringify(tag)}) {
-          tagName isDraft isPrerelease releaseAssets(first:100) { nodes { name downloadUrl size digest } }
+          id tagName isDraft isPrerelease releaseAssets { totalCount }
         }`).join('\n') + '}';
     });
-    let response;
+    let response, assets = new Map();
     try {
       response = await api('/graphql', { method: 'POST', body: {
         query: `{ ${fields.join('\n')} rateLimit { remaining resetAt } }`,
       } });
+      assert(response.data, `Release discovery failed: ${response.errors?.[0]?.message || 'empty response'}`);
+      const ids = [...new Set(block.flatMap((_, index) => Object.entries(response.data[`r${index}`] || {})
+        .filter(([key, release]) => /^t\d+$/.test(key) && release && !release.isDraft && !release.isPrerelease
+          && release.releaseAssets?.totalCount > 0).map(([, release]) => release.id)))];
+      if (ids.length) {
+        const details = await api('/graphql', { method: 'POST', body: {
+          query: `query($ids:[ID!]!) { nodes(ids:$ids) { ... on Release {
+            id releaseAssets(first:100) { nodes { name downloadUrl size digest } }
+          } } rateLimit { remaining resetAt } }`, variables: { ids },
+        } });
+        assert(details.data && !details.errors, `Release assets lookup failed: ${details.errors?.[0]?.message || 'empty response'}`);
+        assets = new Map(details.data.nodes.filter(Boolean).map(release => [release.id, release.releaseAssets.nodes]));
+        response.data.rateLimit = details.data.rateLimit;
+      }
     } catch (error) {
       if (!/HTTP (403|429)/.test(error.message)) throw error;
       console.log(`Discovery deferred; completed batches will be retained. ${error.message}`);
       break;
     }
-    assert(response.data, `Release discovery failed: ${response.errors?.[0]?.message || 'empty response'}`);
     if (response.errors?.length) {
       console.log(`Release lookup errors: ${JSON.stringify(response.errors.map(error => ({
         type: error.type, message: error.message, path: error.path,
@@ -116,13 +129,20 @@ async function probeReleases(catalog, state, current, limit = 2000) {
     }
     for (let index = 0; index < block.length; index++) {
       const { name, entry } = block[index];
+      const errors = response.errors?.filter(error => !error.path || error.path[0] === `r${index}`) || [];
+      if (errors.length) {
+        state[name] = { version: entry.version, resolverRevision: RESOLVER_REVISION, retryable: true,
+          retryAfter: new Date(now + 15 * 60 * 1000).toISOString(),
+          reason: `Release lookup failed: ${errors[0].message}`.replace(/[\r\n]/g, ' ').slice(0, 300) };
+        continue;
+      }
       const upstream = response.data[`r${index}`];
       const releases = Object.entries(upstream || {}).filter(([key, value]) => /^t\d+$/.test(key) && value).map(([, value]) => value);
       const found = releases.find(r => !r.isDraft && !r.isPrerelease
-        && r.releaseAssets.nodes.some(a => assetFormat(a.name, entry.binaries)));
+        && (assets.get(r.id) || []).some(a => assetFormat(a.name, entry.binaries)));
       state[name] = { version: entry.version, resolverRevision: RESOLVER_REVISION, retryAfter, ...(found ? { release: {
         repository: upstream.nameWithOwner, tag_name: found.tagName,
-        assets: found.releaseAssets.nodes.filter(a => assetFormat(a.name, entry.binaries)).map(a => ({ name: a.name,
+        assets: assets.get(found.id).filter(a => assetFormat(a.name, entry.binaries)).map(a => ({ name: a.name,
           browser_download_url: a.downloadUrl, size: a.size, digest: a.digest, state: 'uploaded' })),
       } } : { reason: 'No matching upstream binary release.' }) };
     }
@@ -346,7 +366,7 @@ async function planUpdate(directory) {
   const ready = Object.keys(state).filter(name => !current[name]
     && duePreparation(state[name], catalog.crates[name]?.version)).length;
   if (!extra.length && ready < batch && Object.keys(catalog.crates).length && process.env.DISCOVER_RELEASES !== 'false') {
-    await probeReleases(catalog, state, current, Number(process.env.CRATE_PROBE_SIZE || 5000));
+    await probeReleases(catalog, state, current, Number(process.env.CRATE_PROBE_SIZE || 1000));
   }
   const pending = Object.keys(catalog.crates).filter(name => {
     const version = catalog.crates[name].version;

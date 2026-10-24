@@ -129,10 +129,16 @@ test('bulk discovery batches release lookups and records unavailable repositorie
   let calls = 0;
   global.fetch = async (_url, options) => {
     calls++;
+    if (JSON.parse(options.body).variables?.ids) {
+      return Response.json({ data: { nodes: [{ id: 'release-1', releaseAssets: { nodes: [{
+        name: 'tool-x86_64-unknown-linux-musl.tar.gz', downloadUrl: 'https://github.com/example/tool/releases/download/v1.0.0/tool.tar.gz', size: 10, digest: null,
+      }] } }], rateLimit: { remaining: 899 } } });
+    }
     assert.match(JSON.parse(options.body).query, /release\(tagName:"v1.0.0"\)/);
+    assert.doesNotMatch(JSON.parse(options.body).query, /downloadUrl/);
     return Response.json({ data: {
-      r0: { nameWithOwner: 'example/tool', t0: { tagName: 'v1.0.0', isDraft: false, isPrerelease: false,
-        releaseAssets: { nodes: [{ name: 'tool-x86_64-unknown-linux-musl.tar.gz', downloadUrl: 'https://github.com/example/tool/releases/download/v1.0.0/tool.tar.gz', size: 10, digest: null }] } } },
+      r0: { nameWithOwner: 'example/tool', t0: { id: 'release-1', tagName: 'v1.0.0', isDraft: false, isPrerelease: false,
+        releaseAssets: { totalCount: 1 } } },
       rateLimit: { remaining: 900 },
     } });
   };
@@ -141,10 +147,24 @@ test('bulk discovery batches release lookups and records unavailable repositorie
     cli: { version: '1.0.0', repository: 'https://github.com/example/cli' },
     other: { version: '1.0.0', repository: 'https://example.com/project' },
   } }, state, {});
-  assert.equal(calls, 1);
+  assert.equal(calls, 2);
   assert.equal(state.cli.release.tag_name, 'v1.0.0');
   assert.equal(state.cli.release.repository, 'example/tool');
   assert.match(state.other.reason, /No GitHub/);
+});
+
+test('partial API failures remain retryable instead of becoming missing releases', async t => {
+  const original = global.fetch;
+  t.after(() => { global.fetch = original; });
+  global.fetch = async () => Response.json({ data: { r0: null, rateLimit: { remaining: 900 } }, errors: [{
+    type: 'RATE_LIMITED', message: 'Release lookup temporarily unavailable', path: ['r0'],
+  }] });
+  const catalog = { crates: { cli: { version: '1.0.0', repository: 'https://github.com/example/cli' } } };
+  const state = {};
+  await probeReleases(catalog, state, {});
+  assert.equal(state.cli.retryable, true);
+  assert.match(state.cli.reason, /temporarily unavailable/);
+  assert.equal(catalogProgress(catalog, state, {}).remaining, 1);
 });
 
 test('renamed repositories and canonical capitalization produce valid manifests', async t => {
@@ -194,12 +214,14 @@ test('previous URL validation misses are automatically resolved again', async t 
     version: '1.0.0', resolverRevision: 2, reason: 'Invalid release asset URL.', retryable: false,
     retryAfter: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(),
   } }));
-  global.fetch = async request => {
+  global.fetch = async (request, options) => {
     if (request.endsWith('/rate_limit')) return Response.json({ resources: { core: { remaining: 1000 } } });
     assert.equal(request, 'https://api.github.com/graphql');
-    return Response.json({ data: { r0: { nameWithOwner: 'Canonical/cli', t0: {
-      tagName: 'v1.0.0', isDraft: false, isPrerelease: false,
+    if (JSON.parse(options.body).variables?.ids) return Response.json({ data: { nodes: [{ id: 'release-cli',
       releaseAssets: { nodes: [{ name: 'cli_linux_x64_bin', downloadUrl: 'https://github.com/Canonical/cli/releases/download/v1.0.0/cli_linux_x64_bin', size: 64 }] },
+    }], rateLimit: { remaining: 899 } } });
+    return Response.json({ data: { r0: { nameWithOwner: 'Canonical/cli', t0: {
+      id: 'release-cli', tagName: 'v1.0.0', isDraft: false, isPrerelease: false, releaseAssets: { totalCount: 1 },
     } }, rateLimit: { remaining: 900 } } });
   };
   const plan = await planUpdate(root);
