@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "dispatch-proxy",
+  "version": "0.2.4",
+  "repository": "alexkirsz/dispatch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alexkirsz/dispatch/releases/download/v0.2.4/dispatch-proxy-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.4",
+      "sha256": "2ff172c69bb06e377f5c3918320e74b0ca76517e5e37bab820dfd8ada0d7607f",
+      "size": 13618960,
+      "format": "tar.gz",
+      "binaries": {
+        "dispatch": {
+          "path": "dispatch-proxy-x86_64-unknown-linux-gnu/dispatch",
+          "sha256": "42598a32c7d4a47ba7b6293bde7fe5769e52881c7a7be9fdb6b07525ba9ee0f1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/alexkirsz/dispatch/releases/download/v0.2.4/dispatch-proxy-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.4",
+      "sha256": "eb164cec68a510712061156a2d3cafea892cd303834a8ec0e6d95fdbf94bc4eb",
+      "size": 1928114,
+      "format": "tar.gz",
+      "binaries": {
+        "dispatch": {
+          "path": "dispatch-proxy-x86_64-apple-darwin/dispatch",
+          "sha256": "843b73881cd6b8657e152d7f29feef5f45357c41d5310dfd0ebe95d622adbefd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/alexkirsz/dispatch/releases/download/v0.2.4/dispatch-proxy-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.4",
+      "sha256": "59c74413502fb11093885737d1512db716d0513a30098ecee7d06abf1aa8d2d9",
+      "size": 1855399,
+      "format": "tar.gz",
+      "binaries": {
+        "dispatch": {
+          "path": "dispatch-proxy-aarch64-apple-darwin/dispatch",
+          "sha256": "ca1c301cc3d4097a74e43605eee6bf4828a3beae278e3858ca62f4c067fb8d0f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/alexkirsz/dispatch/releases/download/v0.2.4/dispatch-proxy-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.2.4",
+      "sha256": "96b9d8c16d59b391bc60493573fbb584977f6d7261bbd257333bbd39beff20d6",
+      "size": 1583807,
+      "format": "tar.gz",
+      "binaries": {
+        "dispatch.exe": {
+          "path": "dispatch-proxy-x86_64-pc-windows-msvc/dispatch.exe",
+          "sha256": "1c000f8493772fbcd7680118f284c2e0ee5781d5a18ee569b13d9016693830d1"
+        }
+      }
+    }
+  }
+}
