@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "lowcharts",
+  "version": "0.5.8",
+  "repository": "juan-leon/lowcharts",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/juan-leon/lowcharts/releases/download/v0.5.8/lowcharts-0.5.8-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.8",
+      "sha256": "6096f31fe59ecdb158bade0a95142104edb7d790de3f14e4f5dad194de5ddb9f",
+      "size": 954218,
+      "format": "tar.gz",
+      "binaries": {
+        "lowcharts": {
+          "path": "lowcharts",
+          "sha256": "203212b43eef3371a574f6f8479d4ad37d3d59501ff22170757f88eedb2d24f7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/juan-leon/lowcharts/releases/download/v0.5.8/lowcharts-0.5.8-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.8",
+      "sha256": "a1f1b1b2a14638ecd5ffa7d4c3ca69cc3ce26fb07a9c88061ac02027f53b600e",
+      "size": 830516,
+      "format": "tar.gz",
+      "binaries": {
+        "lowcharts": {
+          "path": "lowcharts",
+          "sha256": "fafc0d95d71022a2946fa1740c51f755ae95bf9bc6fa0290aab9284869f5c42e"
+        }
+      }
+    }
+  }
+}
