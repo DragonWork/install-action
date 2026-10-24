@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "checkexec",
+  "version": "0.2.0",
+  "repository": "kurtbuilds/checkexec",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kurtbuilds/checkexec/releases/download/v0.2.0/checkexec-v0.2.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "91e46e088dc35a9ee9359f0ec5806979e7be9dfa3c4442bcda8209aecb24f37b",
+      "size": 1260387,
+      "format": "tar.gz",
+      "binaries": {
+        "checkexec": {
+          "path": "checkexec",
+          "sha256": "aa49c43e0cea743acb841c278bbc4c2e039c2fa8121571c62b5b700184649597"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kurtbuilds/checkexec/releases/download/v0.2.0/checkexec-v0.2.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "759deb2c89e48da59af8f74691cc7d0f5c6989ffc5fe5fbd6ae0f92653e49bc4",
+      "size": 1231169,
+      "format": "tar.gz",
+      "binaries": {
+        "checkexec": {
+          "path": "checkexec",
+          "sha256": "dad626a3fd80160999e3fee150a3bab278cf5d174eeed7de9418a8d49f86aefa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kurtbuilds/checkexec/releases/download/v0.2.0/checkexec-v0.2.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.0",
+      "sha256": "f20184e0b87a67b947616e2c88655de9b97786bf4a907da801082643ff90d73a",
+      "size": 469016,
+      "format": "tar.gz",
+      "binaries": {
+        "checkexec": {
+          "path": "checkexec",
+          "sha256": "1e3e4d31dab6f919d5a177acfdacf2d57673da28c43361baddf7afd0dfeab565"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kurtbuilds/checkexec/releases/download/v0.2.0/checkexec-v0.2.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.2.0",
+      "sha256": "06d96867fe7602cc195464091325fdc795e2660b58ab2c73ee1dff738cb07d36",
+      "size": 393961,
+      "format": "zip",
+      "binaries": {
+        "checkexec.exe": {
+          "path": "checkexec.exe",
+          "sha256": "54f2970fccfd9df4471ac533fbd32de126e081453e696b912ca2a98f8c404936"
+        }
+      }
+    }
+  }
+}
