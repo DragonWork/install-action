@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "whatyoumean",
+  "version": "3.5.1",
+  "repository": "Clay-6/WhatYouMean",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Clay-6/WhatYouMean/releases/download/v3.5.1/whatyoumean-v3.5.1-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v3.5.1",
+      "sha256": "e6193b3f77d03c0f2f8d8d50dc2c75a9cec7c279f606c4e6a2ce2bdb337c7f4e",
+      "size": 2283412,
+      "format": "tar.xz",
+      "binaries": {
+        "wym": {
+          "path": "whatyoumean-v3.5.1-x86_64-unknown-linux-gnu/wym",
+          "sha256": "c7f50cf9edd35d17985c19345ea3d5b071336318501c873c74e3cd9d083fb0d1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Clay-6/WhatYouMean/releases/download/v3.5.1/whatyoumean-v3.5.1-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v3.5.1",
+      "sha256": "d724c903aa3e8673482599f605af0bcc7682f8b9a4f12be926482f5bba23dbfe",
+      "size": 1708028,
+      "format": "tar.xz",
+      "binaries": {
+        "wym": {
+          "path": "whatyoumean-v3.5.1-x86_64-apple-darwin/wym",
+          "sha256": "bd24d3e8eb3b90bbfa1fab1ce7eed53eda461399263fd9518a0100d2808b09a4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Clay-6/WhatYouMean/releases/download/v3.5.1/whatyoumean-v3.5.1-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v3.5.1",
+      "sha256": "b375e3d422e3c5cf0559faf1d395c422e54b00cc72b1c054193fef684e7d87eb",
+      "size": 1595208,
+      "format": "tar.xz",
+      "binaries": {
+        "wym": {
+          "path": "whatyoumean-v3.5.1-aarch64-apple-darwin/wym",
+          "sha256": "1cc88f8d2e62de86504e321c94d3c3f20e3f25dd704399139d3672cf1b019de4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Clay-6/WhatYouMean/releases/download/v3.5.1/whatyoumean-v3.5.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.5.1",
+      "sha256": "2b2befc03a3f39dd0fc6b9d4cb0901f362f50635a62d90b6ec5e35f3c43bd750",
+      "size": 5766687,
+      "format": "zip",
+      "binaries": {
+        "wym.exe": {
+          "path": "wym.exe",
+          "sha256": "787e69c6439d233f9451c36da454db72d35e96550cd76e7acfcd6e135d316b5f"
+        }
+      }
+    }
+  }
+}
