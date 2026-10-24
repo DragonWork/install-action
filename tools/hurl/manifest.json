@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hurl",
+  "version": "8.0.1",
+  "repository": "Orange-OpenSource/hurl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Orange-OpenSource/hurl/releases/download/8.0.1/hurl-8.0.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "8.0.1",
+      "sha256": "cac7c4670d69444db120edb21fe06c97ba8c80dcc52279957c8dd18f05fb0c06",
+      "size": 3211204,
+      "format": "tar.gz",
+      "binaries": {
+        "hurl": {
+          "path": "hurl-8.0.1-x86_64-unknown-linux-gnu/bin/hurl",
+          "sha256": "ff461e076c6edde3531bcb794ae3c5623be30bda34c6155a760784eec14cec3f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Orange-OpenSource/hurl/releases/download/8.0.1/hurl-8.0.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "8.0.1",
+      "sha256": "bc4732df4754748e9bf296aa3832ec019f798afb399f1279b72ed37b6e04525c",
+      "size": 3014437,
+      "format": "tar.gz",
+      "binaries": {
+        "hurl": {
+          "path": "hurl-8.0.1-aarch64-unknown-linux-gnu/bin/hurl",
+          "sha256": "0d35d08814afb248846f98c8241ae6b481ff2ef54e5594e13da694003e899dd4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Orange-OpenSource/hurl/releases/download/8.0.1/hurl-8.0.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "8.0.1",
+      "sha256": "55e95bb7a8d61ae6919eaaf96f260f0836f5b34c1b0f7731e38be803f6984367",
+      "size": 3062493,
+      "format": "tar.gz",
+      "binaries": {
+        "hurl": {
+          "path": "hurl-8.0.1-x86_64-apple-darwin/bin/hurl",
+          "sha256": "86bcf844aa4df0707fde6138a9f08930cb108d393483d11755796443a86ec342"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Orange-OpenSource/hurl/releases/download/8.0.1/hurl-8.0.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "8.0.1",
+      "sha256": "b57928e246617df73cb1b2157f31f507dcbde6ae12e828cc53dde0e40e05bbbb",
+      "size": 2786095,
+      "format": "tar.gz",
+      "binaries": {
+        "hurl": {
+          "path": "hurl-8.0.1-aarch64-apple-darwin/bin/hurl",
+          "sha256": "043f2765a6e2f0a77276769f820fd261dcd881f6e90319b0fa72add9cb1bd44b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Orange-OpenSource/hurl/releases/download/8.0.1/hurl-8.0.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "8.0.1",
+      "sha256": "2bb8c64ea3dbde464b92432cedd48aaa0fafdff4a39cb9c05c271c306bc8f124",
+      "size": 4728872,
+      "format": "zip",
+      "binaries": {
+        "hurl.exe": {
+          "path": "hurl.exe",
+          "sha256": "be8433d21043dbdc058e1f211a7c78bde36c12537a52151640966968fc4e3af6"
+        }
+      }
+    }
+  }
+}
