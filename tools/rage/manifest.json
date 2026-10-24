@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "name": "rage",
+  "version": "0.12.1",
+  "repository": "str4d/rage",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/str4d/rage/releases/download/v0.12.1/rage-v0.12.1-x86_64-linux.tar.gz",
+      "releaseTag": "v0.12.1",
+      "sha256": "c5d7ab41fbf1213590e89721fd2b8eb122e84518c155ce35866f1c5759a3a29f",
+      "size": 5188611,
+      "format": "tar.gz",
+      "binaries": {
+        "rage": {
+          "path": "rage/rage",
+          "sha256": "144460ec608d7a007e1307a3e261df59ba1a28a838156d19955d91e0b1d56802"
+        },
+        "rage-keygen": {
+          "path": "rage/rage-keygen",
+          "sha256": "f2d9dfecc1b21c52053e5018eab90f695c5f559665cf648647edf6bf1c9a51de"
+        },
+        "rage-mount": {
+          "path": "rage/rage-mount",
+          "sha256": "9280e9162d84697094e13dd8117ca36348b0db4e96b80340b8cada0024ac8f3e"
+        }
+      }
+    }
+  }
+}
