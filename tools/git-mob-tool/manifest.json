@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "git-mob-tool",
+  "version": "1.9.3",
+  "repository": "Mubashwer/git-mob",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Mubashwer/git-mob/releases/download/v1.9.3/git-mob-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.9.3",
+      "sha256": "5addea0a45719c44a36b4095d9aa8b2014a383f818902dbb25038bdcd783ccdb",
+      "size": 727219,
+      "format": "tar.gz",
+      "binaries": {
+        "git-mob": {
+          "path": "git-mob",
+          "sha256": "e3244fc21b9de170f0d6a816d03bc5d2c06bad1f76c3a77593dfebcabc660e2a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Mubashwer/git-mob/releases/download/v1.9.3/git-mob-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.9.3",
+      "sha256": "9217c0a68c0c158caf691d28e22ad7fa926896d91dcd746ea986919dca38b1a9",
+      "size": 704147,
+      "format": "tar.gz",
+      "binaries": {
+        "git-mob": {
+          "path": "git-mob",
+          "sha256": "ce3201fab4450135683486dd7e6740ca3216b6b1b8ed1664396a286ad314d069"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Mubashwer/git-mob/releases/download/v1.9.3/git-mob-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.9.3",
+      "sha256": "3a3bedecf6b2e9102e2acd0a4191869dfeb3b016a2f57ce7e9595125ba45d0ce",
+      "size": 642559,
+      "format": "tar.gz",
+      "binaries": {
+        "git-mob": {
+          "path": "git-mob",
+          "sha256": "7963d99ba41370ae3dd156ca166a5ec9be8103628a79aa6ce810aa0de4490506"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Mubashwer/git-mob/releases/download/v1.9.3/git-mob-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.9.3",
+      "sha256": "4c965e1669cd5b6bf4024716829d80f372de54d45080dec8dde4dbfad7f85d79",
+      "size": 615235,
+      "format": "tar.gz",
+      "binaries": {
+        "git-mob": {
+          "path": "git-mob",
+          "sha256": "33758d71a5bbb0df379737f99c1cebf9ea2f746de25a45c32a06d93508a2f4fa"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Mubashwer/git-mob/releases/download/v1.9.3/git-mob-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.9.3",
+      "sha256": "aa5fc6bc66510bc2edd00d32479f6929a17c8da592f42fb279ca504a5fccc7a4",
+      "size": 481905,
+      "format": "tar.gz",
+      "binaries": {
+        "git-mob.exe": {
+          "path": "git-mob.exe",
+          "sha256": "1f7cf8a3c14db8e5b2dbe63105e94dbe59f30cd77dd36e1d58e18e254907338a"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Mubashwer/git-mob/releases/download/v1.9.3/git-mob-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.9.3",
+      "sha256": "bdc07efe0752c6b927a372cd1d7c81f9917bea2f5cf46d62a636a850aabd640e",
+      "size": 460502,
+      "format": "tar.gz",
+      "binaries": {
+        "git-mob.exe": {
+          "path": "git-mob.exe",
+          "sha256": "5a032a2046813a4a05790bf8ac839376c7c1b65ab4ac51bef431e4b4deb8481d"
+        }
+      }
+    }
+  }
+}
