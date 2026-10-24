@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "clipboard-history-server",
+  "version": "0.17.0",
+  "repository": "SUPERCILEX/clipboard-history",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/SUPERCILEX/clipboard-history/releases/download/0.17.0/x86_64-unknown-linux-musl-ringboard",
+      "sha256": "15c895f6d2303674a2f2071c441d98f9dd0633ff54c266c70b8cc8144088f9f4",
+      "size": 2960120,
+      "format": "binary",
+      "releaseTag": "0.17.0",
+      "binaries": {
+        "ringboard-server": {
+          "path": "x86_64-unknown-linux-musl-ringboard",
+          "sha256": "15c895f6d2303674a2f2071c441d98f9dd0633ff54c266c70b8cc8144088f9f4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/SUPERCILEX/clipboard-history/releases/download/0.17.0/aarch64-unknown-linux-gnu-ringboard",
+      "sha256": "70266da3606728a64cc2b96da1358a6b75b81e4a43c27f978f404877503e89d1",
+      "size": 2946224,
+      "format": "binary",
+      "releaseTag": "0.17.0",
+      "binaries": {
+        "ringboard-server": {
+          "path": "aarch64-unknown-linux-gnu-ringboard",
+          "sha256": "70266da3606728a64cc2b96da1358a6b75b81e4a43c27f978f404877503e89d1"
+        }
+      }
+    }
+  }
+}
