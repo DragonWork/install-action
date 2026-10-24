@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "simplicityhl",
+  "version": "0.8.0",
+  "repository": "BlockstreamResearch/SimplicityHL",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/BlockstreamResearch/SimplicityHL/releases/download/simplicityhl-0.8.0/simc-linux-x86_64.tar.gz",
+      "releaseTag": "simplicityhl-0.8.0",
+      "sha256": "28396f9cf6b597d24318c3fa79ba7886c1cb9eccc52d19a39c31718175ea37e3",
+      "size": 2996534,
+      "format": "tar.gz",
+      "binaries": {
+        "simc": {
+          "path": "simc",
+          "sha256": "7e230db976428929f542b76e2e0bdb8cfc294fa008959cad6317c7eb641de436"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/BlockstreamResearch/SimplicityHL/releases/download/simplicityhl-0.8.0/simc-linux-aarch64.tar.gz",
+      "releaseTag": "simplicityhl-0.8.0",
+      "sha256": "fb32d1232f83030e894f06f31fdb5ed474ede99e37f2a496799fe7c80eb5573b",
+      "size": 2951895,
+      "format": "tar.gz",
+      "binaries": {
+        "simc": {
+          "path": "simc",
+          "sha256": "540ab58359e32a16ff727e16e713631bffa85398dc1adcf2ecd2a3189babf4a6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/BlockstreamResearch/SimplicityHL/releases/download/simplicityhl-0.8.0/simc-macos-x86_64.tar.gz",
+      "releaseTag": "simplicityhl-0.8.0",
+      "sha256": "102e131754da6bf960464e578851cbe5b6248403672e198b0dd04196bf008646",
+      "size": 2753314,
+      "format": "tar.gz",
+      "binaries": {
+        "simc": {
+          "path": "simc",
+          "sha256": "1805890cd099964142ce1ee8416a31fbd46a8df5bbde4de6c41132505ab35250"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/BlockstreamResearch/SimplicityHL/releases/download/simplicityhl-0.8.0/simc-macos-aarch64.tar.gz",
+      "releaseTag": "simplicityhl-0.8.0",
+      "sha256": "194988902e6e298322ce345149cfa9ed23e768c6a6f56cf0ef4f0e9cd8482a60",
+      "size": 2688504,
+      "format": "tar.gz",
+      "binaries": {
+        "simc": {
+          "path": "simc",
+          "sha256": "73ff4ca2d8e9368d5e95f54a9128a8e226cc2240069b1a445d6cd198c26d43c4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/BlockstreamResearch/SimplicityHL/releases/download/simplicityhl-0.8.0/simc-windows-x86_64.zip",
+      "releaseTag": "simplicityhl-0.8.0",
+      "sha256": "9d2108e13a7561862f49181aad9f52c54b852be8e010209f8385cdbea87986e0",
+      "size": 4906420,
+      "format": "zip",
+      "binaries": {
+        "simc.exe": {
+          "path": "simc.exe",
+          "sha256": "fd5532fd33c2641308b8edc5b501fe8609047cc2c693541de8a9dc87402535e7"
+        }
+      }
+    }
+  }
+}
