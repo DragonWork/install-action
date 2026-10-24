@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mdbook-admonish",
+  "version": "1.20.0",
+  "repository": "tommilligan/mdbook-admonish",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tommilligan/mdbook-admonish/releases/download/v1.20.0/mdbook-admonish-v1.20.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.20.0",
+      "sha256": "abe3eb5ec70a427cd922684e27d709a52dc53b7abe588a036a6af903f376695e",
+      "size": 1766484,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-admonish": {
+          "path": "mdbook-admonish",
+          "sha256": "f5241863a1703d1c1c07de911d35798656aff448deed61851a132d867cc7abcf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tommilligan/mdbook-admonish/releases/download/v1.20.0/mdbook-admonish-v1.20.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.20.0",
+      "sha256": "748db4005b62b6212090806835d4447103f43bf70fec33da607b1e9a64baec04",
+      "size": 1550815,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-admonish": {
+          "path": "mdbook-admonish",
+          "sha256": "930f33984f53b981a6205f1e4cd79b8f43489ee5fc6db18abd48882c4399ab41"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tommilligan/mdbook-admonish/releases/download/v1.20.0/mdbook-admonish-v1.20.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.20.0",
+      "sha256": "f78237e9335554377fb4a83a7cb4ac382743729e1f3ca67d2e0e23314bcacab9",
+      "size": 1617052,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-admonish": {
+          "path": "mdbook-admonish",
+          "sha256": "1e24b85c55fad62ddd457b0e2727cc30e9cf3da32c7247b1dda9f3877d113e68"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tommilligan/mdbook-admonish/releases/download/v1.20.0/mdbook-admonish-v1.20.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.20.0",
+      "sha256": "4eebd35bddb2bfb6a4aa99121b3f15103fdc2ec2429403482046ca605a3d1285",
+      "size": 1507173,
+      "format": "zip",
+      "binaries": {
+        "mdbook-admonish.exe": {
+          "path": "mdbook-admonish.exe",
+          "sha256": "7912efedcda378f4a20c65c4f1839a490bb7059675b6feaedb3b7cc09ecbe7b1"
+        }
+      }
+    }
+  }
+}
