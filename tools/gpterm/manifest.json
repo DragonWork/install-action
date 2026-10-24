@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "gpterm",
+  "version": "0.1.11",
+  "repository": "frikkherding/gpterm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/frikkherding/gpterm/releases/download/v0.1.11/gpterm_v0.1.11_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.1.11",
+      "sha256": "f52e7e797ff7e648acdcab8532ec74198e52c2a9b87631c8a94fea290cb67e9c",
+      "size": 4110756,
+      "format": "tar.gz",
+      "binaries": {
+        "gpterm": {
+          "path": "gpterm",
+          "sha256": "e6816f72f1879f4d81189fd8bdb7bc3739b6526f0f68840d830e6261aa6dfac4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/frikkherding/gpterm/releases/download/v0.1.11/gpterm_v0.1.11_x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.11",
+      "sha256": "25f38fc8fc7a6b7cf9155f1f7209a20f6c0a841825534aa1d5816af15e5ea512",
+      "size": 2718761,
+      "format": "tar.gz",
+      "binaries": {
+        "gpterm": {
+          "path": "gpterm",
+          "sha256": "6397a754967c00310e679fb351ba28934ce08cc21257af964257e369ea6e3ebf"
+        }
+      }
+    }
+  }
+}
