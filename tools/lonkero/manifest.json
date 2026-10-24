@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "lonkero",
+  "version": "3.7.3",
+  "repository": "bountyyfi/lonkero",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bountyyfi/lonkero/releases/download/v3.7.3/lonkero-linux-x64.tar.gz",
+      "releaseTag": "v3.7.3",
+      "sha256": "b091dbf7851d30a58c4dce11d3390f7cfabb28aa744b029ef9f35eb2ab8e6b6b",
+      "size": 11977665,
+      "format": "tar.gz",
+      "binaries": {
+        "lonkero": {
+          "path": "lonkero",
+          "sha256": "56244047083c6b48f22f80f18387c30d7bd218cf630fae9fd750d1e0b6fc3113"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bountyyfi/lonkero/releases/download/v3.7.3/lonkero-linux-arm64.tar.gz",
+      "releaseTag": "v3.7.3",
+      "sha256": "49352974237b9f2b0bffec2a53a8a3cc68d00008ddbf5a973484dbc16132bd01",
+      "size": 11164026,
+      "format": "tar.gz",
+      "binaries": {
+        "lonkero": {
+          "path": "lonkero",
+          "sha256": "62b611a1dd70cccf99993b0bdd5b6c6679a3de03707d28663a480245940c2314"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bountyyfi/lonkero/releases/download/v3.7.3/lonkero-macos-x64.tar.gz",
+      "releaseTag": "v3.7.3",
+      "sha256": "16ee38c230d41a4fa7edcb4067a414a06e108a471a7edc196dfa180e32bb1570",
+      "size": 11356527,
+      "format": "tar.gz",
+      "binaries": {
+        "lonkero": {
+          "path": "lonkero",
+          "sha256": "db0dc4ab45984410e7d257623b97601bff405d0405b1a5b26dea9124a0076e4c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bountyyfi/lonkero/releases/download/v3.7.3/lonkero-macos-arm64.tar.gz",
+      "releaseTag": "v3.7.3",
+      "sha256": "4b52438f37d40779081ef153015f8b18e5bd4bb67342c0df7b00e694e4f8135d",
+      "size": 10593061,
+      "format": "tar.gz",
+      "binaries": {
+        "lonkero": {
+          "path": "lonkero",
+          "sha256": "c33f0b379940013018191123d17cb397bdd69e4d076e646caa8baf7c77cf730c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bountyyfi/lonkero/releases/download/v3.7.3/lonkero-windows-x64.zip",
+      "releaseTag": "v3.7.3",
+      "sha256": "91efecc22d2135fa9dae34df9e8dc4cebf19fcbecf7ae3e1d8801b81a1571260",
+      "size": 12373314,
+      "format": "zip",
+      "binaries": {
+        "lonkero.exe": {
+          "path": "lonkero.exe",
+          "sha256": "262b116715ff43c7fedb8587bae57aa078927e340fdc6f9598c596bfbbef4838"
+        }
+      }
+    }
+  }
+}
