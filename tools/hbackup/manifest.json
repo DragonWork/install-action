@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hbackup",
+  "version": "0.5.6",
+  "repository": "asthetik/hbackup",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/asthetik/hbackup/releases/download/v0.5.6/hbackup-0.5.6-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.5.6",
+      "sha256": "104095a2a05c105bbb1a0220586608ab583d2093219a124bf626fc1471cf96ed",
+      "size": 1377651,
+      "format": "tar.gz",
+      "binaries": {
+        "bk": {
+          "path": "hbackup-0.5.6-x86_64-unknown-linux-musl/bk",
+          "sha256": "a54c56949df114a29b5cdcbe86dc905ddf7b54d9c3e03e2660e8f42b4b2e1a21"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/asthetik/hbackup/releases/download/v0.5.6/hbackup-0.5.6-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.6",
+      "sha256": "b45da5449943f5f15b7305fac9860eba0be2878bbe68be86a286e1558b85f8fa",
+      "size": 1229132,
+      "format": "tar.gz",
+      "binaries": {
+        "bk": {
+          "path": "hbackup-0.5.6-aarch64-unknown-linux-gnu/bk",
+          "sha256": "faba821a19f0520c638e2d771e7e6469f72da4f91dc2d5e95437fefeedae74fd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/asthetik/hbackup/releases/download/v0.5.6/hbackup-0.5.6-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.6",
+      "sha256": "0bd37f36f4817f448dd53df8dbffa5860cf871de6ced830d44835fa741226e75",
+      "size": 1204838,
+      "format": "tar.gz",
+      "binaries": {
+        "bk": {
+          "path": "hbackup-0.5.6-x86_64-apple-darwin/bk",
+          "sha256": "c448cee6536f22ad1f3072d7567357ce3cf06e2914775e6ca57f387ec7f61935"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/asthetik/hbackup/releases/download/v0.5.6/hbackup-0.5.6-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.6",
+      "sha256": "84a0f9242103158a9c94f7f282d4e0af8ccab9f162e16c8a95be6bfa280aa95d",
+      "size": 1084002,
+      "format": "tar.gz",
+      "binaries": {
+        "bk": {
+          "path": "hbackup-0.5.6-aarch64-apple-darwin/bk",
+          "sha256": "cd08e59d0c2703bffb2d98ff373fc667c339a0823d782d54f90f3d3e2d808e1d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/asthetik/hbackup/releases/download/v0.5.6/hbackup-0.5.6-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.6",
+      "sha256": "30aad6444bb883e508c2526ac7141764a879cb9402171403b76a6a7ce09a3d4a",
+      "size": 1119749,
+      "format": "zip",
+      "binaries": {
+        "bk.exe": {
+          "path": "hbackup-0.5.6-x86_64-pc-windows-msvc/bk.exe",
+          "sha256": "8837383664d87797761458b4361736b7dabf2b245bd1d66117ba74d69bfc9b12"
+        }
+      }
+    }
+  }
+}
