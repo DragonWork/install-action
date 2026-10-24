@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "aprender-db",
+  "version": "0.71.4",
+  "repository": "paiml/aprender",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/paiml/aprender/releases/download/v0.71.4/aprender-db-v0.71.4-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.71.4",
+      "sha256": "fba8f4b154b49eb8135ec412dd33645932e206f5f795a99cc2cdc8a5279bb5de",
+      "size": 5991722,
+      "format": "tar.gz",
+      "binaries": {
+        "aprender-db": {
+          "path": "aprender-db-v0.71.4-x86_64-unknown-linux-gnu/aprender-db",
+          "sha256": "aca238d687a686e612501d166cd608be81da4a17a46664d8e9966ace7413c221"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/paiml/aprender/releases/download/v0.71.4/aprender-db-v0.71.4-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.71.4",
+      "sha256": "f62b262e1317ff56822272a323e878f64a8784e68fd0fe04ef3e8edf14ec343e",
+      "size": 5741507,
+      "format": "tar.gz",
+      "binaries": {
+        "aprender-db": {
+          "path": "aprender-db-v0.71.4-aarch64-unknown-linux-gnu/aprender-db",
+          "sha256": "1e32895814dce347e04e83d9cda1bc07b7e61fe05e0a0180b5662c976f271fbf"
+        }
+      }
+    }
+  }
+}
