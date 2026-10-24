@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "pace-rs",
+  "version": "0.15.2",
+  "repository": "pace-rs/pace",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.15.2/pace-rs-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "pace-rs-v0.15.2",
+      "sha256": "ac4105db76ea29d05a77866a8a75b05165123552f38221724544abda199ef612",
+      "size": 2433328,
+      "format": "tar.xz",
+      "binaries": {
+        "pace": {
+          "path": "pace-rs-x86_64-unknown-linux-musl/pace",
+          "sha256": "ef59bdfe1bb952cd18077bc044eb641e2879dd1683854f1047f0f4c566c76371"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.15.2/pace-rs-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "pace-rs-v0.15.2",
+      "sha256": "4a813b027ab57e0da0bb967f30b437e4a1710614e80bb563c920311a8a30d071",
+      "size": 2234796,
+      "format": "tar.xz",
+      "binaries": {
+        "pace": {
+          "path": "pace-rs-x86_64-apple-darwin/pace",
+          "sha256": "00ea1e13cbc757376811d82765a652cc59463d5e7db22bccb2df16f772398b04"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.15.2/pace-rs-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "pace-rs-v0.15.2",
+      "sha256": "e6fb855cab8c245158e26c9cc8b12503df6d6ba393a36dffc695d530b6bdc939",
+      "size": 2009344,
+      "format": "tar.xz",
+      "binaries": {
+        "pace": {
+          "path": "pace-rs-aarch64-apple-darwin/pace",
+          "sha256": "3f92eb040cd117911554d4df2295ba0df62d86b68540c62993789242c695d659"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.15.2/pace-rs-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "pace-rs-v0.15.2",
+      "sha256": "21e08e6ae6b7028624000da53a7ab7b0342c21f5b67795dc8c9e3edddce0c51d",
+      "size": 8587785,
+      "format": "zip",
+      "binaries": {
+        "pace.exe": {
+          "path": "pace.exe",
+          "sha256": "e4b3c67b8316594fc139de6436c4d0d738cebfde76b9dd63c95d49d4c2028e41"
+        }
+      }
+    }
+  }
+}
