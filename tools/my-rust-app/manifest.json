@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "my-rust-app",
+  "version": "0.1.55",
+  "repository": "poneding/my-rust-app",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/poneding/my-rust-app/releases/download/v0.1.55/my-rust-app_v0.1.55_linux_amd64.tar.gz",
+      "releaseTag": "v0.1.55",
+      "sha256": "185ac9162921a2c92e4a41f2458cb792208d16e7726f244a52bb8eb85bfca16b",
+      "size": 189625,
+      "format": "tar.gz",
+      "binaries": {
+        "my-rust-app": {
+          "path": "my-rust-app",
+          "sha256": "8fedb8d7d73cb228cf354449e69bf6aee9326ad853e7203fb6a79ef9268bd05f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/poneding/my-rust-app/releases/download/v0.1.55/my-rust-app_v0.1.55_linux_arm64.tar.gz",
+      "releaseTag": "v0.1.55",
+      "sha256": "1d88f81f1a295836168a3c1d77858e607bf52f77184556e3adeb768ae64bfef3",
+      "size": 191261,
+      "format": "tar.gz",
+      "binaries": {
+        "my-rust-app": {
+          "path": "my-rust-app",
+          "sha256": "f9ec634231b4480e43ad29cccd05160d2f308d3e8af0bd55427c99bdb1006351"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/poneding/my-rust-app/releases/download/v0.1.55/my-rust-app_v0.1.55_darwin_amd64.tar.gz",
+      "releaseTag": "v0.1.55",
+      "sha256": "f5a2879e61c9d623489cf4f3ab1e0acf0c0e36479b517eae7ad69042c73e74a9",
+      "size": 179492,
+      "format": "tar.gz",
+      "binaries": {
+        "my-rust-app": {
+          "path": "my-rust-app",
+          "sha256": "4d659dd82b900993b9dbf7f8e3b142be4e1e2b2ed6cb17eca2a91b02db5ef501"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/poneding/my-rust-app/releases/download/v0.1.55/my-rust-app_v0.1.55_darwin_arm64.tar.gz",
+      "releaseTag": "v0.1.55",
+      "sha256": "64d7c2bbdf238bd0be68a0e26ee65fa3cf28d3b2d694ce16212cfaff451559dd",
+      "size": 175444,
+      "format": "tar.gz",
+      "binaries": {
+        "my-rust-app": {
+          "path": "my-rust-app",
+          "sha256": "05fedd480e6503993380d1035a3c97f12b9d0c0915223c0652c4cfe3535293b6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/poneding/my-rust-app/releases/download/v0.1.55/my-rust-app_v0.1.55_windows_amd64.zip",
+      "releaseTag": "v0.1.55",
+      "sha256": "b06f39544b9e6e1ce089049fa7b67f0038bb87858c26a1dcfb925b65a7c0d0c6",
+      "size": 66998,
+      "format": "zip",
+      "binaries": {
+        "my-rust-app.exe": {
+          "path": "my-rust-app.exe",
+          "sha256": "bc12a2579606f88c7d4f2c19f6f2b58de14ad108288819a30d0b1835a5801440"
+        }
+      }
+    }
+  }
+}
