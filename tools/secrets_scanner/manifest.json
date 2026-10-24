@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "secrets_scanner",
+  "version": "0.2.3",
+  "repository": "whit3rabbit/secrets-scanner",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/whit3rabbit/secrets-scanner/releases/download/v0.2.3/secrets-scanner-0.2.3-macos-x86_64.zip",
+      "releaseTag": "v0.2.3",
+      "sha256": "0b88952a97a436f941d7a70f7e0dd2713eea98680e7486a90ee15f1a60f25b9c",
+      "size": 2662698,
+      "format": "zip",
+      "binaries": {
+        "secrets-scanner": {
+          "path": "secrets-scanner",
+          "sha256": "3cb6bc6b1f0b524fd3acac17b575de66281d3f6812d6e8bd14c68286e0e1050e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/whit3rabbit/secrets-scanner/releases/download/v0.2.3/secrets-scanner-0.2.3-macos-arm64.zip",
+      "releaseTag": "v0.2.3",
+      "sha256": "96f1237e81150670ad6b8c8cec2a6f5974ece92d5b168466088648281497bc4b",
+      "size": 2484130,
+      "format": "zip",
+      "binaries": {
+        "secrets-scanner": {
+          "path": "secrets-scanner",
+          "sha256": "cd058b91a685d18df34650c489e60b64239f02f2fffaf5b114f65b234bbfacf3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/whit3rabbit/secrets-scanner/releases/download/v0.2.3/secrets-scanner-0.2.3-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.2.3",
+      "sha256": "8adce6d66a9c5d86a8dffaa9a234f077b17ae0e6410d59fe334315a8b49c4f2f",
+      "size": 6531072,
+      "format": "binary",
+      "binaries": {
+        "secrets-scanner.exe": {
+          "path": "secrets-scanner-0.2.3-x86_64-pc-windows-msvc.exe",
+          "sha256": "8adce6d66a9c5d86a8dffaa9a234f077b17ae0e6410d59fe334315a8b49c4f2f"
+        }
+      }
+    }
+  }
+}
