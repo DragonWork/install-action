@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "wiiload",
+  "version": "0.8.0",
+  "repository": "mq1/wiiload-rs",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.8.0/wiiload-x86_64-pc-windows-msvc.exe",
+      "releaseTag": "v0.8.0",
+      "sha256": "d1d76f331c838388bf1d4469c214485228ca9220f95875a3b0b811f5450a2238",
+      "size": 151040,
+      "format": "binary",
+      "binaries": {
+        "wiiload.exe": {
+          "path": "wiiload-x86_64-pc-windows-msvc.exe",
+          "sha256": "d1d76f331c838388bf1d4469c214485228ca9220f95875a3b0b811f5450a2238"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.8.0/wiiload-aarch64-pc-windows-msvc.exe",
+      "releaseTag": "v0.8.0",
+      "sha256": "2769480dcc44aa063599a7b09567fb65c3a13236d7634965e75a2423ad6d2ff3",
+      "size": 140800,
+      "format": "binary",
+      "binaries": {
+        "wiiload.exe": {
+          "path": "wiiload-aarch64-pc-windows-msvc.exe",
+          "sha256": "2769480dcc44aa063599a7b09567fb65c3a13236d7634965e75a2423ad6d2ff3"
+        }
+      }
+    }
+  }
+}
