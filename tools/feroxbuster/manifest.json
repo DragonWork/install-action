@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "feroxbuster",
+  "version": "2.13.1",
+  "repository": "epi052/feroxbuster",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/epi052/feroxbuster/releases/download/v2.13.1/x86_64-linux-feroxbuster.tar.gz",
+      "releaseTag": "v2.13.1",
+      "sha256": "7985c00e6803b0f25d5e9139f7472279f3f4d891429627a5cedc629e53992d80",
+      "size": 5012610,
+      "format": "tar.gz",
+      "binaries": {
+        "feroxbuster": {
+          "path": "feroxbuster",
+          "sha256": "24e7f3dfefc96b5bde3043b1c0e1016e4f947eb28275def1ec2ea59fddeb9b40"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/epi052/feroxbuster/releases/download/v2.13.1/aarch64-linux-feroxbuster.zip",
+      "releaseTag": "v2.13.1",
+      "sha256": "1e5244e1f52e55a647b65e0c76ae7afe0b9983c1fbea30ed7c67e477175eb381",
+      "size": 5461708,
+      "format": "zip",
+      "binaries": {
+        "feroxbuster": {
+          "path": "feroxbuster",
+          "sha256": "6db5d0b24b5345951be35ce4130efb12576d70c7a4a2dd0d1a1cc28374194200"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/epi052/feroxbuster/releases/download/v2.13.1/x86_64-macos-feroxbuster.tar.gz",
+      "releaseTag": "v2.13.1",
+      "sha256": "a7723886d03ac253562362fd2cdf6b040a2976dcbce62d580c029b175615da32",
+      "size": 2730043,
+      "format": "tar.gz",
+      "binaries": {
+        "feroxbuster": {
+          "path": "feroxbuster",
+          "sha256": "3ce17907e9b2e0ea8ad64c8b0492698e7afc3b118b059f20b2a3a2a0a5b8c808"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/epi052/feroxbuster/releases/download/v2.13.1/aarch64-macos-feroxbuster.tar.gz",
+      "releaseTag": "v2.13.1",
+      "sha256": "ea9006ed89a9badb3abd8e3ba95e776efd5fa77b27ef1d43ac4ab38e3515e311",
+      "size": 2516960,
+      "format": "tar.gz",
+      "binaries": {
+        "feroxbuster": {
+          "path": "feroxbuster",
+          "sha256": "a8136562810857896ff27c3d136f5fb43baaaf8d7159765de4cd24d61d346647"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/epi052/feroxbuster/releases/download/v2.13.1/x86_64-windows-feroxbuster.exe.zip",
+      "releaseTag": "v2.13.1",
+      "sha256": "6255fc1998220833d22b221e5c740895ada2a5fbaf31587e799276c59da7dab2",
+      "size": 2715829,
+      "format": "zip",
+      "binaries": {
+        "feroxbuster.exe": {
+          "path": "feroxbuster.exe",
+          "sha256": "c22086118e39ced7c01defccdeb13c0a3392dd07f52d9dfa48cb42f6e43bdbca"
+        }
+      }
+    }
+  }
+}
