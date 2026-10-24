@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "dora-runtime",
+  "version": "0.2.2",
+  "repository": "dora-rs/dora",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v0.2.2/dora-v0.2.2-x86_64-Linux.zip",
+      "releaseTag": "v0.2.2",
+      "sha256": "48f5abc802e9c2e66eee34b8b7d20238459b578e3ef11bc5363ed44bcd91849a",
+      "size": 15556631,
+      "format": "zip",
+      "binaries": {
+        "dora-runtime": {
+          "path": "dora-runtime",
+          "sha256": "16660a13e346984c12fdf6bef44d4b03e21af37111c1b0c9f70232f7b590e597"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v0.2.2/dora-v0.2.2-x86_64-macOS.zip",
+      "releaseTag": "v0.2.2",
+      "sha256": "c6162259c05bdafa82b8a5cfd64b569558cd1cd76d2bd0587efcf962cb67668b",
+      "size": 10532715,
+      "format": "zip",
+      "binaries": {
+        "dora-runtime": {
+          "path": "dora-runtime",
+          "sha256": "bd455186b12ce4e4d6179b1b0ed11700c138c7418bb2b191d86418b9b315621e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dora-rs/dora/releases/download/v0.2.2/dora-v0.2.2-x86_64-Windows.zip",
+      "releaseTag": "v0.2.2",
+      "sha256": "4f7f96236720534d6f8b968a2c6b3458483a005a4baab7e7a7cd0e8943952393",
+      "size": 8669841,
+      "format": "zip",
+      "binaries": {
+        "dora-runtime.exe": {
+          "path": "dora-runtime.exe",
+          "sha256": "f2e519843997e6c67101f051184a0fab3fa4d8a7f133f4c725e863d50733b8be"
+        }
+      }
+    }
+  }
+}
