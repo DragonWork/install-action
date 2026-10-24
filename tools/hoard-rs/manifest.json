@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "hoard-rs",
+  "version": "1.4.2",
+  "repository": "Hyde46/hoard",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Hyde46/hoard/releases/download/v1.4.2/hoard_v1.4.2_x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v1.4.2",
+      "sha256": "ee54671f1cead2a90b527a2f89e8145c525b75e3366b05cbf779c2a343fbbeab",
+      "size": 5020449,
+      "format": "zip",
+      "binaries": {
+        "hoard": {
+          "path": "hoard",
+          "sha256": "50a5e8588a28af6b33742355a2220187f4e3f448251bbe7c5f2e29942bc2e18b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Hyde46/hoard/releases/download/v1.4.2/hoard_v1.4.2_x86_64-apple-darwin.zip",
+      "releaseTag": "v1.4.2",
+      "sha256": "08e4bf7f4d87f4a7b6fce4a806668f078a021e66efa68e6df1b84788d6686ce7",
+      "size": 3340591,
+      "format": "zip",
+      "binaries": {
+        "hoard": {
+          "path": "hoard",
+          "sha256": "8ee3d558c6b4a3a932ee76d7967a2ba8600ea378d5c68f2395924059e398302a"
+        }
+      }
+    }
+  }
+}
