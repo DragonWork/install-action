@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "forc",
+  "version": "0.72.1",
+  "repository": "FuelLabs/sway",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "1d90387e69ccce595c552654316318975525e89a6d30f86580886aedb1cef517",
+      "size": 78395148,
+      "format": "tar.gz",
+      "binaries": {
+        "forc": {
+          "path": "./forc-binaries/forc",
+          "sha256": "2f75b8285807a98e87eae3af4bb8be4ddc743865c788904f6dfc703382b6aaa8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-linux_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "8eabdb0a1487b6ec96fa94acbf861f5034084dbf9a2503c47190dc86f3f615fe",
+      "size": 74480414,
+      "format": "tar.gz",
+      "binaries": {
+        "forc": {
+          "path": "./forc-binaries/forc",
+          "sha256": "9d14d51f90763110be2a3f981b7c18b949736452f35fb8a82d73ea5116980fbb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_amd64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "c80ae1cc740f2418c308e2398162c6f051585d7ab81fc2d970a6b16a146b05b3",
+      "size": 78364396,
+      "format": "tar.gz",
+      "binaries": {
+        "forc": {
+          "path": "./forc-binaries/forc",
+          "sha256": "cdb1c86640a310736c61f7df1eae6e131d7e26ee095578e8d96af1cfebe5eef1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FuelLabs/sway/releases/download/v0.72.1/forc-binaries-darwin_arm64.tar.gz",
+      "releaseTag": "v0.72.1",
+      "sha256": "11f122e1c86927de13e6dd719946571e65bcfa0a1467507efbd6676f7c33fa0d",
+      "size": 74199231,
+      "format": "tar.gz",
+      "binaries": {
+        "forc": {
+          "path": "./forc-binaries/forc",
+          "sha256": "35c0bd44b7c87dc4da180e6ead0467576662582895a459b1ba4bcc84943f1b70"
+        }
+      }
+    }
+  }
+}
