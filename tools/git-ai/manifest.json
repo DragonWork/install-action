@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "name": "git-ai",
+  "version": "1.2.1",
+  "repository": "oleander/git-ai",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/oleander/git-ai/releases/download/v1.2.1/git-ai-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "4c00e963dc9a6d7d74110aae3e95ce1673684721305bcbce743f5d89ae3a1bf0",
+      "size": 39399786,
+      "format": "tar.gz",
+      "binaries": {
+        "git-ai": {
+          "path": "git-ai-x86_64-unknown-linux-musl/git-ai",
+          "sha256": "616c7abe4dfa8bbc93762af0af89bca0d3edd16c4843b946c40d8a8ccdd0efc3"
+        },
+        "git-ai-hook": {
+          "path": "git-ai-x86_64-unknown-linux-musl/git-ai-hook",
+          "sha256": "19d53725bfc09d1279a96ce3862a3a6ce906a46cb6cc10e9298bffe28ac28ecc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/oleander/git-ai/releases/download/v1.2.1/git-ai-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "4408e383b47c5547b04f787772c2de9bf29d098cca28c8783bb3ccccd94fa847",
+      "size": 8007814,
+      "format": "tar.gz",
+      "binaries": {
+        "git-ai": {
+          "path": "git-ai-x86_64-apple-darwin/git-ai",
+          "sha256": "b4177f6c4ff64ffe58c33a3cbce5689e75e49ae6c9474aba51404b4f46dc794b"
+        },
+        "git-ai-hook": {
+          "path": "git-ai-x86_64-apple-darwin/git-ai-hook",
+          "sha256": "63077ec348b5d86013f7b2d16ec0133e7eee868c3a31074fbfdf9d0b687c3be3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/oleander/git-ai/releases/download/v1.2.1/git-ai-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.2.1",
+      "sha256": "2eb7ad7357f6bb6ee4d02dfce18e2c08d3e5cce8b8ad655e0388e99d5a14e53e",
+      "size": 7581267,
+      "format": "tar.gz",
+      "binaries": {
+        "git-ai": {
+          "path": "git-ai-aarch64-apple-darwin/git-ai",
+          "sha256": "3973e5c8ad0c302f4335674a88f76ba517ae9689ace2556fa64ef83ed226587a"
+        },
+        "git-ai-hook": {
+          "path": "git-ai-aarch64-apple-darwin/git-ai-hook",
+          "sha256": "14c6fc039510f72fbfe6a99c45ab1211e5e10091b402eeec6f40cbf14388e971"
+        }
+      }
+    }
+  }
+}
