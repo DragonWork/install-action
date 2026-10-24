@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "bndl_convert",
+  "version": "1.4.0",
+  "repository": "segersniels/bndl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/segersniels/bndl/releases/download/1.4.0/bndl-amd64-linux",
+      "sha256": "246350849772ed07796c1ee75adf346f1df7ebe78bee15ad95c0c78ae4b0f7d1",
+      "size": 14410288,
+      "format": "binary",
+      "releaseTag": "1.4.0",
+      "binaries": {
+        "bndl-convert": {
+          "path": "bndl-amd64-linux",
+          "sha256": "246350849772ed07796c1ee75adf346f1df7ebe78bee15ad95c0c78ae4b0f7d1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/segersniels/bndl/releases/download/1.4.0/bndl-aarch64-linux",
+      "sha256": "ea0f29d58ae05880c5066387ee563ed50842af831d45f026a9c472a973970f97",
+      "size": 11837176,
+      "format": "binary",
+      "releaseTag": "1.4.0",
+      "binaries": {
+        "bndl-convert": {
+          "path": "bndl-aarch64-linux",
+          "sha256": "ea0f29d58ae05880c5066387ee563ed50842af831d45f026a9c472a973970f97"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/segersniels/bndl/releases/download/1.4.0/bndl-macos",
+      "sha256": "80b6b0ea681c31cc7c3dda3bfa731df25c8094726f4feb2cc0ea371f95a75819",
+      "size": 12281136,
+      "format": "binary",
+      "releaseTag": "1.4.0",
+      "binaries": {
+        "bndl-convert": {
+          "path": "bndl-macos",
+          "sha256": "80b6b0ea681c31cc7c3dda3bfa731df25c8094726f4feb2cc0ea371f95a75819"
+        }
+      }
+    }
+  }
+}
