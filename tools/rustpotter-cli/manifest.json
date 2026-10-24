@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rustpotter-cli",
+  "version": "3.0.2",
+  "repository": "GiviMAD/rustpotter-cli",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/GiviMAD/rustpotter-cli/releases/download/v3.0.2/rustpotter-cli_macos_x86_64",
+      "sha256": "b0116f94d89bc03774900419280a595bbc746fcca0268b877b9116a60e5b3f32",
+      "size": 6011872,
+      "format": "binary",
+      "releaseTag": "v3.0.2",
+      "binaries": {
+        "rustpotter-cli": {
+          "path": "rustpotter-cli_macos_x86_64",
+          "sha256": "b0116f94d89bc03774900419280a595bbc746fcca0268b877b9116a60e5b3f32"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/GiviMAD/rustpotter-cli/releases/download/v3.0.2/rustpotter-cli_macos_aarch64",
+      "sha256": "2ecf03c70fbaf7c89f5b5ecf7514adf7d1a149fb89de66b52d330682ee592933",
+      "size": 5130684,
+      "format": "binary",
+      "releaseTag": "v3.0.2",
+      "binaries": {
+        "rustpotter-cli": {
+          "path": "rustpotter-cli_macos_aarch64",
+          "sha256": "2ecf03c70fbaf7c89f5b5ecf7514adf7d1a149fb89de66b52d330682ee592933"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/GiviMAD/rustpotter-cli/releases/download/v3.0.2/rustpotter-cli_win_x86_64.exe",
+      "sha256": "e3c96bda19aa5cfe7d401cdcb3dc31df3ce27f4df5a6d57fc58f3adabbea0e24",
+      "size": 5229056,
+      "format": "binary",
+      "releaseTag": "v3.0.2",
+      "binaries": {
+        "rustpotter-cli.exe": {
+          "path": "rustpotter-cli_win_x86_64.exe",
+          "sha256": "e3c96bda19aa5cfe7d401cdcb3dc31df3ce27f4df5a6d57fc58f3adabbea0e24"
+        }
+      }
+    }
+  }
+}
