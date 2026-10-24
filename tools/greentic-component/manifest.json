@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "name": "greentic-component",
+  "version": "1.2.1",
+  "repository": "greenticai/greentic-component",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/greenticai/greentic-component/releases/download/v1.2.1/greentic-component-v1.2.1-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "1d491c49a94d288979f6806cda243c6f82798e4405532ad962ad491208641c2a",
+      "size": 44632380,
+      "format": "tar.gz",
+      "binaries": {
+        "component-doctor": {
+          "path": "greentic-component-v1.2.1-x86_64-unknown-linux-gnu/component-doctor",
+          "sha256": "2de84eb981f72d8b7a344fdba49fe19ed9daa31cbf495c04a8b5791053428834"
+        },
+        "component-hash": {
+          "path": "greentic-component-v1.2.1-x86_64-unknown-linux-gnu/component-hash",
+          "sha256": "33b9c105efa6a302c46cc34a9dbcfc64e0d245b55b48a2ed98e92ff786dc21be"
+        },
+        "component-inspect": {
+          "path": "greentic-component-v1.2.1-x86_64-unknown-linux-gnu/component-inspect",
+          "sha256": "a79fdf15ba63b8c624faa3d18a2cfb78e733195ea87466599eda76abff738c8c"
+        },
+        "greentic-component": {
+          "path": "greentic-component-v1.2.1-x86_64-unknown-linux-gnu/greentic-component",
+          "sha256": "395053392d0a7adb320042ab00be8d8876378b207a463c87b5bbb89198f411c7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/greenticai/greentic-component/releases/download/v1.2.1/greentic-component-v1.2.1-aarch64-unknown-linux-gnu.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "7d5b06edd4591fa1d93f0170885feb084e98e7bd7b6c39c4784cd0215375ccb3",
+      "size": 40108692,
+      "format": "tar.gz",
+      "binaries": {
+        "component-doctor": {
+          "path": "greentic-component-v1.2.1-aarch64-unknown-linux-gnu/component-doctor",
+          "sha256": "576f6ddd203c33047fbd3602179f8f8dd9a94a9b38750e45574e74598212e6f6"
+        },
+        "component-hash": {
+          "path": "greentic-component-v1.2.1-aarch64-unknown-linux-gnu/component-hash",
+          "sha256": "2ef4cafb2a4c807318f3895bfb7ce3d7b941c7cc28fff6d5277a9ebab84e3e61"
+        },
+        "component-inspect": {
+          "path": "greentic-component-v1.2.1-aarch64-unknown-linux-gnu/component-inspect",
+          "sha256": "2345deea630d02ca7e8e85a66be55b3284a22a4e5fa064b7335b39045fff2635"
+        },
+        "greentic-component": {
+          "path": "greentic-component-v1.2.1-aarch64-unknown-linux-gnu/greentic-component",
+          "sha256": "8fc070028e311bfbe0e029312a0722cedbee5b11f36ad1fc818a24f0d9782054"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/greenticai/greentic-component/releases/download/v1.2.1/greentic-component-v1.2.1-x86_64-apple-darwin.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "d931187e2888db8ddc0b10a54a1762eaefe559b8f7199027faf75bf759053fcf",
+      "size": 42183110,
+      "format": "tar.gz",
+      "binaries": {
+        "component-doctor": {
+          "path": "greentic-component-v1.2.1-x86_64-apple-darwin/component-doctor",
+          "sha256": "65b096c2ae78eb0c24f386b1ae35d406bbd0f1cb2aab459a10fba6ad84441904"
+        },
+        "component-hash": {
+          "path": "greentic-component-v1.2.1-x86_64-apple-darwin/component-hash",
+          "sha256": "a3d5125b0fae8872f1d0d7d5b03e4fb133d3c886edd57c8ddfa109c43e0716a3"
+        },
+        "component-inspect": {
+          "path": "greentic-component-v1.2.1-x86_64-apple-darwin/component-inspect",
+          "sha256": "121061227640c612674694091c3150f16667420d0deebf811eb575151d7440d5"
+        },
+        "greentic-component": {
+          "path": "greentic-component-v1.2.1-x86_64-apple-darwin/greentic-component",
+          "sha256": "11afa88b46202ff2907e396a118a9e1b61affa2b0027665f0367866c11fb68b5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/greenticai/greentic-component/releases/download/v1.2.1/greentic-component-v1.2.1-aarch64-apple-darwin.tgz",
+      "releaseTag": "v1.2.1",
+      "sha256": "62d98f36b3c45f78b3889c1043c4a4b506b4af1a68d9edcb4768874b0b032934",
+      "size": 38211560,
+      "format": "tar.gz",
+      "binaries": {
+        "component-doctor": {
+          "path": "greentic-component-v1.2.1-aarch64-apple-darwin/component-doctor",
+          "sha256": "1c24fabc9101e78294550a02aabcc3fde51fa6123752cfbc8faea7426ff51e28"
+        },
+        "component-hash": {
+          "path": "greentic-component-v1.2.1-aarch64-apple-darwin/component-hash",
+          "sha256": "a575fb51f81e152c3b704b4edbe1f9d6d76705e5ddcd29bf75472c60034ad0e0"
+        },
+        "component-inspect": {
+          "path": "greentic-component-v1.2.1-aarch64-apple-darwin/component-inspect",
+          "sha256": "d106da833ede2997ace7812950e58875bb93b8e7cdcaa59906aa70545ca2e77f"
+        },
+        "greentic-component": {
+          "path": "greentic-component-v1.2.1-aarch64-apple-darwin/greentic-component",
+          "sha256": "5b487669522491b037ca6ac3699c35d54d6acc83fa6e8d570b03bfe362d2c18a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/greenticai/greentic-component/releases/download/v1.2.1/greentic-component-v1.2.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "1d5e08ddca1995d1edb57eeb72df11ca5fad8290ba7c5c7aef2c3cea488f8cb2",
+      "size": 35423531,
+      "format": "zip",
+      "binaries": {
+        "component-doctor.exe": {
+          "path": "greentic-component-v1.2.1-x86_64-pc-windows-msvc/component-doctor.exe",
+          "sha256": "5f5c336f6feb88e089230db73fd73dd3a786b2dc6e9bdd3d493ed92b8c5f6054"
+        },
+        "component-hash.exe": {
+          "path": "greentic-component-v1.2.1-x86_64-pc-windows-msvc/component-hash.exe",
+          "sha256": "126a911819df0eff59a712b13b89371f245923e6a608029a90fb127efcb9244f"
+        },
+        "component-inspect.exe": {
+          "path": "greentic-component-v1.2.1-x86_64-pc-windows-msvc/component-inspect.exe",
+          "sha256": "59d9df0282ca3456fe3d623894186715d8d77fe06ee15fa1cf537e9d3078ece4"
+        },
+        "greentic-component.exe": {
+          "path": "greentic-component-v1.2.1-x86_64-pc-windows-msvc/greentic-component.exe",
+          "sha256": "a1ab053a80724cf8db3538f7e7e14c507ea42dc35912d376bfef0f688f1676fa"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/greenticai/greentic-component/releases/download/v1.2.1/greentic-component-v1.2.1-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v1.2.1",
+      "sha256": "9761114d862c2234fdfa2a95e9826b5a000d51c3c21f169982a7ad75cdc193d8",
+      "size": 30956549,
+      "format": "zip",
+      "binaries": {
+        "component-doctor.exe": {
+          "path": "greentic-component-v1.2.1-aarch64-pc-windows-msvc/component-doctor.exe",
+          "sha256": "2d66655ae73a49c5857d71061144707ceedf10ccc6804c94cb61498b307fe3f1"
+        },
+        "component-hash.exe": {
+          "path": "greentic-component-v1.2.1-aarch64-pc-windows-msvc/component-hash.exe",
+          "sha256": "1703a8b5b1fd17f263834835494631e866675e59730942d4054a9d4eadaad760"
+        },
+        "component-inspect.exe": {
+          "path": "greentic-component-v1.2.1-aarch64-pc-windows-msvc/component-inspect.exe",
+          "sha256": "465dd7392a7ac3d8e4ebc7100e2a1e5c1f87d822607281e0274ee2d1ddb30557"
+        },
+        "greentic-component.exe": {
+          "path": "greentic-component-v1.2.1-aarch64-pc-windows-msvc/greentic-component.exe",
+          "sha256": "872d271120b1e00d1e9489416e99a8fb2580df87e74fa83838a28bd82e5cfab1"
+        }
+      }
+    }
+  }
+}
