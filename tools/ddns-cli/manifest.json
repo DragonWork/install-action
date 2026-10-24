@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ddns-cli",
+  "version": "0.3.5",
+  "repository": "owent/ddns-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/owent/ddns-cli/releases/download/0.3.5/x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.3.5",
+      "sha256": "463655779abd74db4463f4fdff0322b51a0d51127e1489fe7ae29aecbb368868",
+      "size": 3295869,
+      "format": "tar.gz",
+      "binaries": {
+        "ddns-cli": {
+          "path": "bin/ddns-cli",
+          "sha256": "0362148c5d5c59970cbda5ba6376dc623a0373ebf6d87c1b4885eefce6779607"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/owent/ddns-cli/releases/download/0.3.5/aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.3.5",
+      "sha256": "4939c8b1b1c150689b2b1cff8d03a757ca604397b5aa7dbff8fa6fed06b621c1",
+      "size": 3616648,
+      "format": "tar.gz",
+      "binaries": {
+        "ddns-cli": {
+          "path": "bin/ddns-cli",
+          "sha256": "f22802e672b0b047cd8686309e125af07c5cfa603e2cc497f18a3f9b334530ca"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/owent/ddns-cli/releases/download/0.3.5/x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.3.5",
+      "sha256": "4ac41c084ad35dcc3476555c6d200e4761626d77c78b36fb607d192e470c0d9a",
+      "size": 1140315,
+      "format": "tar.gz",
+      "binaries": {
+        "ddns-cli": {
+          "path": "bin/ddns-cli",
+          "sha256": "bed6baf871953b4290313f675a8a047ed64422b71f246e4c0e1b3f19b151231f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/owent/ddns-cli/releases/download/0.3.5/x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.3.5",
+      "sha256": "0e7a6d064937caaef2b3244ed73e8c6c6e9146be56f2e5bea2828a30717596a3",
+      "size": 976939,
+      "format": "zip",
+      "binaries": {
+        "ddns-cli.exe": {
+          "path": "bin/ddns-cli.exe",
+          "sha256": "a456615e462df25c1da84d64d25555b891c4bcd8230a789d000075128b32c990"
+        }
+      }
+    }
+  }
+}
