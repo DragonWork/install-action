@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "vproxy",
+  "version": "2.5.5",
+  "repository": "0x676e67/vproxy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/0x676e67/vproxy/releases/download/v2.5.5/vproxy-2.5.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.5.5",
+      "sha256": "1d00e8b74c8d1de4cf24ac3f9445af318051a601616f7435991f70cad314a7a4",
+      "size": 3059471,
+      "format": "tar.gz",
+      "binaries": {
+        "vproxy": {
+          "path": "vproxy",
+          "sha256": "8231b9d35e44a8673311335176fc1a849f8df48fbd3a2092956509af427f88a6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/0x676e67/vproxy/releases/download/v2.5.5/vproxy-2.5.5-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v2.5.5",
+      "sha256": "f15ba91de23072c9e9a27f41bfef806ef9e0fea5e19bd3b51bf9bff28f632950",
+      "size": 2741892,
+      "format": "tar.gz",
+      "binaries": {
+        "vproxy": {
+          "path": "vproxy",
+          "sha256": "88ae5b9b0d362ee835b4c1dd761ae4936397a76dd56e8ffd3545a5167d95d184"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/0x676e67/vproxy/releases/download/v2.5.5/vproxy-2.5.5-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v2.5.5",
+      "sha256": "c3bb99d17d9be8892b906390f058635c74102ebf61d278e15c0b02f81fd931c1",
+      "size": 3253201,
+      "format": "tar.gz",
+      "binaries": {
+        "vproxy": {
+          "path": "vproxy",
+          "sha256": "655d26d67e9e7d13033fbee2718e74e658c57e0e74e0bb55e57853c871d648e8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/0x676e67/vproxy/releases/download/v2.5.5/vproxy-2.5.5-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v2.5.5",
+      "sha256": "1582826172720cc3d969e945f7f1a9fd3eaf123aa4497a53620287993311019e",
+      "size": 2948437,
+      "format": "tar.gz",
+      "binaries": {
+        "vproxy": {
+          "path": "vproxy",
+          "sha256": "a985ec813b545f4004fb5c39df569cf896bd8ef5c9643661396f26a3bd9f623c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/0x676e67/vproxy/releases/download/v2.5.5/vproxy-2.5.5-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "v2.5.5",
+      "sha256": "d7ce4550de0254ace8b8af26e48ba3068cca7b0818fd08af022fe21dcd201aa5",
+      "size": 2456258,
+      "format": "tar.gz",
+      "binaries": {
+        "vproxy.exe": {
+          "path": "vproxy.exe",
+          "sha256": "ff482a835b1782ff1effd954d7e9fb1e7fc5c5519d7d66677d3b7a39799b5d65"
+        }
+      }
+    }
+  }
+}
