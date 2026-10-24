@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "petridish",
+  "version": "0.7.1",
+  "repository": "petridish-dev/petridish",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/petridish-dev/petridish/releases/download/0.7.1/petridish-0.7.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.7.1",
+      "sha256": "d61edda07e5bc94ce98c7500ff412f1ec4d374651bb116a3c15126176ba815bb",
+      "size": 4824252,
+      "format": "tar.gz",
+      "binaries": {
+        "petridish": {
+          "path": "petridish-0.7.1-x86_64-unknown-linux-musl/petridish",
+          "sha256": "8db0460af8b12d4f5739cc48f82fc5765794fade43bcc0253316796941f21e43"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/petridish-dev/petridish/releases/download/0.7.1/petridish-0.7.1-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.7.1",
+      "sha256": "8914d3c4269bcf0a446c3a5d4254a53fbc21418159ffb0644615e80ed54a9c95",
+      "size": 4719819,
+      "format": "tar.gz",
+      "binaries": {
+        "petridish": {
+          "path": "petridish-0.7.1-aarch64-unknown-linux-gnu/petridish",
+          "sha256": "7158079b09031849356112238a1b5e26d3a6feb968eed4fd4333dddb761f1dd2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/petridish-dev/petridish/releases/download/0.7.1/petridish-0.7.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.7.1",
+      "sha256": "64f9bc4bcf214e683f60a62e2814c6f3fd5c5e66cdca7a58e181b2169830b2c9",
+      "size": 3969605,
+      "format": "tar.gz",
+      "binaries": {
+        "petridish": {
+          "path": "petridish-0.7.1-x86_64-apple-darwin/petridish",
+          "sha256": "b1a09974cee96a8e706f1cf137a51b729672c71fb21dbe7e29439e5075d67a44"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/petridish-dev/petridish/releases/download/0.7.1/petridish-0.7.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.7.1",
+      "sha256": "e794291eea510e56b3c2e14fd489f82c8d5238d7f077fabd946144b62dcf3bc1",
+      "size": 2774263,
+      "format": "zip",
+      "binaries": {
+        "petridish.exe": {
+          "path": "petridish-0.7.1-x86_64-pc-windows-msvc/petridish.exe",
+          "sha256": "8c4395ec1da3bc57eb07f9f44f4b8077e1845c2383aea4af7c1b1b196257b632"
+        }
+      }
+    }
+  }
+}
