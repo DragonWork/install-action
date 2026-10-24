@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "bacon",
+  "version": "3.26.0",
+  "repository": "Canop/bacon",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/Canop/bacon/releases/download/v3.26.0/bacon_3.26.0.zip",
+      "sha256": "a23260e9f23f63b2363830f15c685da4032477d55258d9e646c39f9680f3f75a",
+      "size": 21738197,
+      "format": "zip",
+      "releaseTag": "v3.26.0",
+      "binaries": {
+        "bacon": {
+          "path": "x86_64-apple-darwin/bacon",
+          "sha256": "f4f0d0d61fb02d886300cfc0fb3da0adbf403b2a319391b070a91b63b214bd0d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Canop/bacon/releases/download/v3.26.0/bacon_3.26.0.zip",
+      "sha256": "a23260e9f23f63b2363830f15c685da4032477d55258d9e646c39f9680f3f75a",
+      "size": 21738197,
+      "format": "zip",
+      "releaseTag": "v3.26.0",
+      "binaries": {
+        "bacon": {
+          "path": "aarch64-apple-darwin/bacon",
+          "sha256": "c115131fde8479e32a31f121f75289072df747f7b2434d98f32f9085b95f8ad8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Canop/bacon/releases/download/v3.26.0/bacon_3.26.0.zip",
+      "sha256": "a23260e9f23f63b2363830f15c685da4032477d55258d9e646c39f9680f3f75a",
+      "size": 21738197,
+      "format": "zip",
+      "releaseTag": "v3.26.0",
+      "binaries": {
+        "bacon.exe": {
+          "path": "x86_64-pc-windows-gnu/bacon.exe",
+          "sha256": "d9b4fe0d2ba036144b9c9c4139adf93dcd2e2474b37e093eb9cebfd784c1d6ff"
+        }
+      }
+    }
+  }
+}
