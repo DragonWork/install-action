@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "xan",
+  "version": "0.61.0",
+  "repository": "medialab/xan",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/medialab/xan/releases/download/0.61.0/xan-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.61.0",
+      "sha256": "04e4bb7da4345a9e39cd64b1c91c5b48eab9986b0e53981d425fe0ddd6019dae",
+      "size": 7366002,
+      "format": "tar.gz",
+      "binaries": {
+        "xan": {
+          "path": "xan",
+          "sha256": "929d532a2d2fb51dfc3cb88e72675d59837dea2877e653c25166166647a8edb0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/medialab/xan/releases/download/0.61.0/xan-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.61.0",
+      "sha256": "db1c275787927ea33ab923cc2031293e29c6782c7157931a7c13451b2813d25b",
+      "size": 6595485,
+      "format": "tar.gz",
+      "binaries": {
+        "xan": {
+          "path": "xan",
+          "sha256": "aa0e58b98367eccf13c8a3592baf217259181d5faf6e9a4d2654c828b19f42a0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/medialab/xan/releases/download/0.61.0/xan-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.61.0",
+      "sha256": "61c722c25a60530bf10cb12438fa89f7e4c4d81fa51a8db455c8144f417fcac0",
+      "size": 6451754,
+      "format": "tar.gz",
+      "binaries": {
+        "xan": {
+          "path": "xan",
+          "sha256": "02b3d9579f6fd410d5080ed3b845ddcfd2d7955526eea7ad578eeea7d93c8627"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/medialab/xan/releases/download/0.61.0/xan-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.61.0",
+      "sha256": "2d04cf7f4edaefdb8a7ad87c0c4830327dedd7815bd51d7a4dc41590506ac21e",
+      "size": 6006182,
+      "format": "tar.gz",
+      "binaries": {
+        "xan": {
+          "path": "xan",
+          "sha256": "55dd4ebdac84abc0699a0855561dee83387177435d3b0389f821c96dae6093ce"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/medialab/xan/releases/download/0.61.0/xan-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.61.0",
+      "sha256": "5f7bef4dcffbfb3a3a937ac180ed76cdf966cb13647251beffddb84d01c1ae54",
+      "size": 6473075,
+      "format": "zip",
+      "binaries": {
+        "xan.exe": {
+          "path": "xan.exe",
+          "sha256": "0f0350a0856ab0e5a391ed37d36451f569a2a7f68123ff66fd23c24f5c3a6363"
+        }
+      }
+    }
+  }
+}
