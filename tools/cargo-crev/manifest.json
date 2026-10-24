@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cargo-crev",
+  "version": "0.27.1",
+  "repository": "crev-dev/cargo-crev",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/crev-dev/cargo-crev/releases/download/v0.27.1/cargo-crev-v0.27.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.27.1",
+      "sha256": "75f83d74bc3b488b6d66970a52c908c55bbe630ad89069d1ff614c0a22034da7",
+      "size": 13477180,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-crev": {
+          "path": "cargo-crev-v0.27.1-x86_64-unknown-linux-musl/cargo-crev",
+          "sha256": "1bbfb135670728b4f66c55316569199e38d778c0604bf7d91c55a56cf75b3e9a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/crev-dev/cargo-crev/releases/download/v0.27.1/cargo-crev-v0.27.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.27.1",
+      "sha256": "9c165751816c240ddca0bf57cd67a192c71bcfff59e3ddd5729eee6de458779f",
+      "size": 11876109,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-crev": {
+          "path": "cargo-crev-v0.27.1-x86_64-apple-darwin/cargo-crev",
+          "sha256": "3f91b546a4f6fbcd65a945044c18c1e3920f44daab7e222489795da78d0bc2db"
+        }
+      }
+    }
+  }
+}
