@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "fedimint-gateway-client",
+  "version": "0.12.0",
+  "repository": "fedimint/fedimint",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/fedimint/fedimint/releases/download/v0.12.0/gateway-pkgs-v0.12.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.12.0",
+      "sha256": "9f8992a604fca0203d1cc2d43a0279957a2ef7ba2d04e867d340ebb9e4d6bf89",
+      "size": 70148812,
+      "format": "tar.gz",
+      "binaries": {
+        "gateway-cli": {
+          "path": "./bin/gateway-cli",
+          "sha256": "997f9b140b60e827108cc8b3d1f0f85136bad0b89cce7465e4bb169d7cd8733a"
+        }
+      }
+    }
+  }
+}
