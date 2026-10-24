@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "dbpulse",
+  "version": "0.10.2",
+  "repository": "nbari/dbpulse",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nbari/dbpulse/releases/download/0.10.2/dbpulse-0.10.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.10.2",
+      "sha256": "f564f5f8f2cc31095249f1d129c3f85e1a6a4c71064f166af8a7ed8c60f7fdf0",
+      "size": 2379616,
+      "format": "tar.gz",
+      "binaries": {
+        "dbpulse": {
+          "path": "dbpulse-0.10.2-x86_64-unknown-linux-musl/dbpulse",
+          "sha256": "1d91536067a10f16cfa35a5484e1b5bf8f661bd889e7230c71d286f09757d4cb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nbari/dbpulse/releases/download/0.10.2/dbpulse-0.10.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.10.2",
+      "sha256": "e7b7db6e3b62155366705741abcdb00e821d0cab101ffcd95616b21a663d974f",
+      "size": 2216096,
+      "format": "tar.gz",
+      "binaries": {
+        "dbpulse": {
+          "path": "dbpulse-0.10.2-aarch64-unknown-linux-musl/dbpulse",
+          "sha256": "f02979d58a210d43392da1bf2413e17fbdc3323ec36821b7ad8810772b3b1793"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nbari/dbpulse/releases/download/0.10.2/dbpulse-0.10.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.10.2",
+      "sha256": "b88871a9665bf0ccbed3917bd819cc85fe27b6b44a1581bf6e25c02e367609ad",
+      "size": 2217249,
+      "format": "tar.gz",
+      "binaries": {
+        "dbpulse": {
+          "path": "dbpulse-0.10.2-x86_64-apple-darwin/dbpulse",
+          "sha256": "0f699f0242c9b81299f60254e2397c3355ea36beaa1e69380f4d9a9b6bf832cb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nbari/dbpulse/releases/download/0.10.2/dbpulse-0.10.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.10.2",
+      "sha256": "eb69080b6b499c70216087bb1866cd66832305dc6f336b9ace2a383709d561fc",
+      "size": 2055590,
+      "format": "tar.gz",
+      "binaries": {
+        "dbpulse": {
+          "path": "dbpulse-0.10.2-aarch64-apple-darwin/dbpulse",
+          "sha256": "40a9950c7088c6e59c7bb1f82b7c295f0f905a4b82458e1dc3278ee0054c73e3"
+        }
+      }
+    }
+  }
+}
