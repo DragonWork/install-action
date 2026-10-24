@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gbump",
+  "version": "1.3.1",
+  "repository": "nbari/gbump",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nbari/gbump/releases/download/1.3.1/gbump-1.3.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "1.3.1",
+      "sha256": "79c12fad376d5a22b8ef32d5761e648b1aea58f2caa6db6dd4067fb4eb60cfa4",
+      "size": 1272106,
+      "format": "tar.gz",
+      "binaries": {
+        "gbump": {
+          "path": "gbump-1.3.1-x86_64-unknown-linux-musl/gbump",
+          "sha256": "4ea50c97a572dd847e8f4e3960926a1a7e7d62f7ac1c1914e65bd0b0a7228ab9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nbari/gbump/releases/download/1.3.1/gbump-1.3.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "1.3.1",
+      "sha256": "10369b0ad9d98a9fc8ad74aa415d6f2eafd8fc1482ca98e173693d0b5f2608b4",
+      "size": 1077013,
+      "format": "tar.gz",
+      "binaries": {
+        "gbump": {
+          "path": "gbump-1.3.1-x86_64-apple-darwin/gbump",
+          "sha256": "b4c8e2a29b2e5fb3062a42d704efe5d0f1119d00531b8246913c2adfcc85a765"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nbari/gbump/releases/download/1.3.1/gbump--x86_64-pc-windows-msvc.zip",
+      "releaseTag": "1.3.1",
+      "sha256": "35fa26545c3af11e8c18a16b45094b36d831f1c7de29adb03a21bae769b1306d",
+      "size": 1345583,
+      "format": "zip",
+      "binaries": {
+        "gbump.exe": {
+          "path": "gbump--x86_64-pc-windows-msvc/gbump.exe",
+          "sha256": "629efce44ba0ffb45a9edb3e2155d4ac70d3aeca259abea65cf9846fbb84f107"
+        }
+      }
+    }
+  }
+}
