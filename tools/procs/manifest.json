@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "procs",
+  "version": "0.14.12",
+  "repository": "dalance/procs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dalance/procs/releases/download/v0.14.12/procs-v0.14.12-x86_64-linux.zip",
+      "releaseTag": "v0.14.12",
+      "sha256": "81964faf9d5cd0e9f399d5d0954fb6fe4d4d9f7d3cbec4507633df5a45b11713",
+      "size": 2565746,
+      "format": "zip",
+      "binaries": {
+        "procs": {
+          "path": "procs",
+          "sha256": "9be54e40394bd35d7fb46d7f1069b71069c395953dcd10380cfe9f5657a1274a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dalance/procs/releases/download/v0.14.12/procs-v0.14.12-aarch64-linux.zip",
+      "releaseTag": "v0.14.12",
+      "sha256": "74b4f82acc6fe553cbd5af20ba0baac420b42bef9bb0cbb38fef14b8317d9f91",
+      "size": 2400955,
+      "format": "zip",
+      "binaries": {
+        "procs": {
+          "path": "procs",
+          "sha256": "bd09e92e5ff1cf32d9695997c4841e3c4e2a2c565f8584a1cc15d998b531fa4c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dalance/procs/releases/download/v0.14.12/procs-v0.14.12-x86_64-windows.zip",
+      "releaseTag": "v0.14.12",
+      "sha256": "4928c399ae78ee82f99139a5629077b8d90a58599d834584dd4e613cb60c83d0",
+      "size": 1571894,
+      "format": "zip",
+      "binaries": {
+        "procs.exe": {
+          "path": "procs.exe",
+          "sha256": "3c561388a113b648a022a8654b4155344152794c73c57057aa0a31915ddc0b30"
+        }
+      }
+    }
+  }
+}
