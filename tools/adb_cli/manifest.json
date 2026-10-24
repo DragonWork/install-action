@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "adb_cli",
+  "version": "3.2.3",
+  "repository": "cocool97/adb_client",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cocool97/adb_client/releases/download/v3.2.3/adb_cli-linux",
+      "sha256": "16f46e9e9b3b3e6066b33167ea362c823a94b387e378f1a01fc66994dc089a2e",
+      "size": 4678464,
+      "format": "binary",
+      "releaseTag": "v3.2.3",
+      "binaries": {
+        "adb_cli": {
+          "path": "adb_cli-linux",
+          "sha256": "16f46e9e9b3b3e6066b33167ea362c823a94b387e378f1a01fc66994dc089a2e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cocool97/adb_client/releases/download/v3.2.3/adb_cli-macos",
+      "sha256": "1dbf5f73910d35c499238b66b431bc1540a79eb09e78d99102db788d4bb2686b",
+      "size": 3944496,
+      "format": "binary",
+      "releaseTag": "v3.2.3",
+      "binaries": {
+        "adb_cli": {
+          "path": "adb_cli-macos",
+          "sha256": "1dbf5f73910d35c499238b66b431bc1540a79eb09e78d99102db788d4bb2686b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cocool97/adb_client/releases/download/v3.2.3/adb_cli-windows.exe",
+      "sha256": "4584ed1ba2f640dcea243b1f27c23f76b99d5af37a8d1574e64b33d9b6b6248c",
+      "size": 4259328,
+      "format": "binary",
+      "releaseTag": "v3.2.3",
+      "binaries": {
+        "adb_cli.exe": {
+          "path": "adb_cli-windows.exe",
+          "sha256": "4584ed1ba2f640dcea243b1f27c23f76b99d5af37a8d1574e64b33d9b6b6248c"
+        }
+      }
+    }
+  }
+}
