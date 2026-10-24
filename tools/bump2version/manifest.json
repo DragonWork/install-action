@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "name": "bump2version",
+  "version": "0.2.2",
+  "repository": "wiseaidev/bump2version",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wiseaidev/bump2version/releases/download/v0.2.2/bump2version_1_amd64.deb",
+      "sha256": "e7e71c571110f19dac73de12af376a7744c1ed2f5f0affbc6e1ea0eff3692c26",
+      "size": 1349768,
+      "format": "deb",
+      "releaseTag": "v0.2.2",
+      "binaries": {
+        "bump": {
+          "path": "./usr/bin/bump",
+          "sha256": "94e80087eefb201a0392f286a86279a62096d85720a1a4c8672b87bf94000617"
+        },
+        "bump2version": {
+          "path": "./usr/bin/bump2version",
+          "sha256": "a3bbd2f08e9a346a74ffda252237cb7d9d1d7a01fa377a45f610b1bb3f3fc5ee"
+        },
+        "cargo-bump": {
+          "path": "./usr/bin/cargo-bump",
+          "sha256": "a3bbd2f08e9a346a74ffda252237cb7d9d1d7a01fa377a45f610b1bb3f3fc5ee"
+        }
+      }
+    }
+  }
+}
