@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "name": "cargo-ndk",
+  "version": "4.1.2",
+  "repository": "bbqsrc/cargo-ndk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bbqsrc/cargo-ndk/releases/download/v4.1.2/cargo-ndk-x86_64-unknown-linux-musl-v4.1.2.tgz",
+      "releaseTag": "v4.1.2",
+      "sha256": "dc148bebbfcd7d5355e9858530d5a69c20ce69cf3268c54b9f63c60cb4c9a966",
+      "size": 2736539,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ndk": {
+          "path": "cargo-ndk-x86_64-unknown-linux-musl-v4.1.2/cargo-ndk",
+          "sha256": "af453d48cccb3214becfd53ec9d5eac57c75965536b65f5fd8fd576a27eddad8"
+        },
+        "cargo-ndk-env": {
+          "path": "cargo-ndk-x86_64-unknown-linux-musl-v4.1.2/cargo-ndk-env",
+          "sha256": "fa7cd9bddcc50c88d915b4d19dbb9ee7168f73eb6d050269d91d21b420917a4b"
+        },
+        "cargo-ndk-runner": {
+          "path": "cargo-ndk-x86_64-unknown-linux-musl-v4.1.2/cargo-ndk-runner",
+          "sha256": "3bb4c35c29ef149197feb933b08ccc8f919618b39f93bc5a702fa8d79bcaf4ca"
+        },
+        "cargo-ndk-test": {
+          "path": "cargo-ndk-x86_64-unknown-linux-musl-v4.1.2/cargo-ndk-test",
+          "sha256": "d22f16c8dfcb2c3afd3097767228f41c85080e3261de28372cf5aece58b6a5f9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/bbqsrc/cargo-ndk/releases/download/v4.1.2/cargo-ndk-aarch64-unknown-linux-musl-v4.1.2.tgz",
+      "releaseTag": "v4.1.2",
+      "sha256": "2d9f4f28f797ee98a97a5b760197e4e64f2ce2967d716cf57c69ad01f4ed72ba",
+      "size": 2642233,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ndk": {
+          "path": "cargo-ndk-aarch64-unknown-linux-musl-v4.1.2/cargo-ndk",
+          "sha256": "3597dbf7eddd9cfe79cd7cb23a4ee8fef3f3f8e9524c5b1f5172f10447c25273"
+        },
+        "cargo-ndk-env": {
+          "path": "cargo-ndk-aarch64-unknown-linux-musl-v4.1.2/cargo-ndk-env",
+          "sha256": "85321e7e419f4f80b4eb118449fe643db9f15c36ba8b4d2ed3327e3ebf98dd5e"
+        },
+        "cargo-ndk-runner": {
+          "path": "cargo-ndk-aarch64-unknown-linux-musl-v4.1.2/cargo-ndk-runner",
+          "sha256": "0badc60bf9dd5e577d2b9cec8419e1b9ff24e047665d6b03c1a9e17ad4ff01cd"
+        },
+        "cargo-ndk-test": {
+          "path": "cargo-ndk-aarch64-unknown-linux-musl-v4.1.2/cargo-ndk-test",
+          "sha256": "de4b287f14725de17d5fe36792c30ff3d987f23d1dbc68f32a24aa55f1d4c5a9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bbqsrc/cargo-ndk/releases/download/v4.1.2/cargo-ndk-x86_64-apple-darwin-v4.1.2.tgz",
+      "releaseTag": "v4.1.2",
+      "sha256": "ea30f5e7898ce0b1c7af89e0a2dd2db61c494d81ad1b36284f74f1ab5fd85956",
+      "size": 2397598,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ndk": {
+          "path": "cargo-ndk-x86_64-apple-darwin-v4.1.2/cargo-ndk",
+          "sha256": "430b0e529c90a67c898d296c446ab7bfa5f5ecab7ae6dba6f9d2a52124a0e61c"
+        },
+        "cargo-ndk-env": {
+          "path": "cargo-ndk-x86_64-apple-darwin-v4.1.2/cargo-ndk-env",
+          "sha256": "4f368468d2aaad2eae62c0fca6eb3118f3949d33dcac958344db679a4c00462f"
+        },
+        "cargo-ndk-runner": {
+          "path": "cargo-ndk-x86_64-apple-darwin-v4.1.2/cargo-ndk-runner",
+          "sha256": "f5e46b5a34a7f7cc194eae495eeca68c28c870d5e564ad58da64497c82595e52"
+        },
+        "cargo-ndk-test": {
+          "path": "cargo-ndk-x86_64-apple-darwin-v4.1.2/cargo-ndk-test",
+          "sha256": "20b0075a770b549c3611eeae0635d05d13b9a67f0d6a068ab4eb9317b37c98fe"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bbqsrc/cargo-ndk/releases/download/v4.1.2/cargo-ndk-aarch64-apple-darwin-v4.1.2.tgz",
+      "releaseTag": "v4.1.2",
+      "sha256": "76d87f5f1bbbbe3980b979f7d1bdef00849dde11c669be243223942b296f5006",
+      "size": 2295901,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-ndk": {
+          "path": "cargo-ndk-aarch64-apple-darwin-v4.1.2/cargo-ndk",
+          "sha256": "b21d3c9823737d43e520d9df11d7cf41885a74ef5db2bfb859dc98fd13726376"
+        },
+        "cargo-ndk-env": {
+          "path": "cargo-ndk-aarch64-apple-darwin-v4.1.2/cargo-ndk-env",
+          "sha256": "689d62b5cc841451abf8e401ea25fed5f2c0ba5dc8a31258480728a79be23736"
+        },
+        "cargo-ndk-runner": {
+          "path": "cargo-ndk-aarch64-apple-darwin-v4.1.2/cargo-ndk-runner",
+          "sha256": "9790e4c5430a1d065cdee0d2332336f5e166f70f4dcb7a94d08fc34df4c1686f"
+        },
+        "cargo-ndk-test": {
+          "path": "cargo-ndk-aarch64-apple-darwin-v4.1.2/cargo-ndk-test",
+          "sha256": "79e2d6880edd62cbb735355be98522a985d87c00158cb16f4e652c917b663123"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bbqsrc/cargo-ndk/releases/download/v4.1.2/cargo-ndk-x86_64-pc-windows-msvc-v4.1.2.zip",
+      "releaseTag": "v4.1.2",
+      "sha256": "e2687c647748a8fb1c06981a4fc39376a5b5f640474db3f73de7ae247b7c55e0",
+      "size": 1843382,
+      "format": "zip",
+      "binaries": {
+        "cargo-ndk.exe": {
+          "path": "cargo-ndk-x86_64-pc-windows-msvc-v4.1.2/cargo-ndk.exe",
+          "sha256": "98e06909e461a8b42f3f4e3947d00ce53e715e19b3feb287b089f3a2b56ca18a"
+        },
+        "cargo-ndk-env.exe": {
+          "path": "cargo-ndk-x86_64-pc-windows-msvc-v4.1.2/cargo-ndk-env.exe",
+          "sha256": "bdc231668188c70f091b914ff4979659623396d98f22732739b767a911e56db7"
+        },
+        "cargo-ndk-runner.exe": {
+          "path": "cargo-ndk-x86_64-pc-windows-msvc-v4.1.2/cargo-ndk-runner.exe",
+          "sha256": "b2da05ca569ac9b0f01a159f5711ef87eaa9b3daf71c516584268b5f913a3f74"
+        },
+        "cargo-ndk-test.exe": {
+          "path": "cargo-ndk-x86_64-pc-windows-msvc-v4.1.2/cargo-ndk-test.exe",
+          "sha256": "e72fd3f043e243cadf976ef86aae07c6271a97484a2a5a859a978869d04e6a66"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/bbqsrc/cargo-ndk/releases/download/v4.1.2/cargo-ndk-aarch64-pc-windows-msvc-v4.1.2.zip",
+      "releaseTag": "v4.1.2",
+      "sha256": "85547886eb4d988c9e3b84db382dc9aeba271bd7fabc721b265abfb7038dc64a",
+      "size": 1765851,
+      "format": "zip",
+      "binaries": {
+        "cargo-ndk.exe": {
+          "path": "cargo-ndk-aarch64-pc-windows-msvc-v4.1.2/cargo-ndk.exe",
+          "sha256": "bb07098af1cc1019e04e7eeb961bb4c655338e09c66e4eba09c68c3caf6ac204"
+        },
+        "cargo-ndk-env.exe": {
+          "path": "cargo-ndk-aarch64-pc-windows-msvc-v4.1.2/cargo-ndk-env.exe",
+          "sha256": "f57851ec06918f1af9d0f8591b41cab919ce5cb351dbd2226b0f9f8b28e116d3"
+        },
+        "cargo-ndk-runner.exe": {
+          "path": "cargo-ndk-aarch64-pc-windows-msvc-v4.1.2/cargo-ndk-runner.exe",
+          "sha256": "dc8d680a53661207d3e84993bf4ad40cad5c76f415ceecd1bc04fbd31fe51ea5"
+        },
+        "cargo-ndk-test.exe": {
+          "path": "cargo-ndk-aarch64-pc-windows-msvc-v4.1.2/cargo-ndk-test.exe",
+          "sha256": "93f37c5cbf7571b648da94a79994f5894fd0cbadd40d46c9258096837080ff07"
+        }
+      }
+    }
+  }
+}
