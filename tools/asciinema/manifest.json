@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "asciinema",
+  "version": "3.2.0",
+  "repository": "asciinema/asciinema",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/asciinema/asciinema/releases/download/v3.2.0/asciinema-x86_64-unknown-linux-musl",
+      "sha256": "34cf9ddb54df166878a213d5173af4d5f9df9564ab8b1054a080408bce0b720e",
+      "size": 8150544,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "asciinema": {
+          "path": "asciinema-x86_64-unknown-linux-musl",
+          "sha256": "34cf9ddb54df166878a213d5173af4d5f9df9564ab8b1054a080408bce0b720e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/asciinema/asciinema/releases/download/v3.2.0/asciinema-aarch64-unknown-linux-gnu",
+      "sha256": "f7f92769f7b4150df2835ddd4eda067b0786d0d734284a0f9c2aaa2514e8beb6",
+      "size": 7159376,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "asciinema": {
+          "path": "asciinema-aarch64-unknown-linux-gnu",
+          "sha256": "f7f92769f7b4150df2835ddd4eda067b0786d0d734284a0f9c2aaa2514e8beb6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/asciinema/asciinema/releases/download/v3.2.0/asciinema-x86_64-apple-darwin",
+      "sha256": "a76ef31773c7f0f0e2fa18c0517dca571968b509156e6771df02c35f4279791f",
+      "size": 7444300,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "asciinema": {
+          "path": "asciinema-x86_64-apple-darwin",
+          "sha256": "a76ef31773c7f0f0e2fa18c0517dca571968b509156e6771df02c35f4279791f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/asciinema/asciinema/releases/download/v3.2.0/asciinema-aarch64-apple-darwin",
+      "sha256": "bdde8367f343ed61fdc7fd942657bcd050b15cce67005f72e1a54b7fda20e5ea",
+      "size": 6878896,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "asciinema": {
+          "path": "asciinema-aarch64-apple-darwin",
+          "sha256": "bdde8367f343ed61fdc7fd942657bcd050b15cce67005f72e1a54b7fda20e5ea"
+        }
+      }
+    }
+  }
+}
