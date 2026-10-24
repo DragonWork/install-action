@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-deny",
+  "version": "0.20.2",
+  "repository": "EmbarkStudios/cargo-deny",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.20.2/cargo-deny-0.20.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.20.2",
+      "sha256": "9f12ed4c49936e09b48bf862b595cde2fe64fcbd9d74dfacac6131ca824c8d5f",
+      "size": 4936832,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-deny": {
+          "path": "cargo-deny-0.20.2-x86_64-unknown-linux-musl/cargo-deny",
+          "sha256": "b329e25933d01c36dd7c47d84ea5716694f9b7caf53a5003d45674703a8ed54a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.20.2/cargo-deny-0.20.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.20.2",
+      "sha256": "995c82be0defc7a025cae49a2aa2644ce8245c9a3318fc4103907c6a285e8c7d",
+      "size": 4631618,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-deny": {
+          "path": "cargo-deny-0.20.2-aarch64-unknown-linux-musl/cargo-deny",
+          "sha256": "21e797104e371854dde7f05f52d834e70312749d361c168429ced996f2194462"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.20.2/cargo-deny-0.20.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.20.2",
+      "sha256": "248da7f581724e470071990c088ffc55c811981715f4cbdb258621fb79f8b7a6",
+      "size": 4731454,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-deny": {
+          "path": "cargo-deny-0.20.2-x86_64-apple-darwin/cargo-deny",
+          "sha256": "325ae013000059dfa398557f7bc35659e1d73af6b0c39955dff633de164f9c1e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.20.2/cargo-deny-0.20.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.20.2",
+      "sha256": "fe67d82a10d8597a3549364cb733a3f9cc1bfff9031b7ae46384a9f2a72090c3",
+      "size": 4517865,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-deny": {
+          "path": "cargo-deny-0.20.2-aarch64-apple-darwin/cargo-deny",
+          "sha256": "5f65c07c459c9514f0c97cc2e2fb6b120daef2d95aee31062cab4816cf027eb1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.20.2/cargo-deny-0.20.2-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.20.2",
+      "sha256": "975a22143262fd27476d19ee00c7af67978426e40e1dee94eed6bbade1cf87dc",
+      "size": 4759363,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-deny.exe": {
+          "path": "cargo-deny-0.20.2-x86_64-pc-windows-msvc/cargo-deny.exe",
+          "sha256": "f7292fab58c706638c999e64c4ba82e5128ae628130ba55e3266a768ee431fbf"
+        }
+      }
+    }
+  }
+}
