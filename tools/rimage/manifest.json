@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rimage",
+  "version": "0.14.0",
+  "repository": "vlad-salone/rimage",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vlad-salone/rimage/releases/download/v0.14.0/rimage-0.14.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.14.0",
+      "sha256": "4e5c703c33a9e54a9414345e153e99df70450b01cb1ba642ec4c1d08fa15dffa",
+      "size": 6501862,
+      "format": "tar.gz",
+      "binaries": {
+        "rimage": {
+          "path": "rimage-0.14.0-x86_64-unknown-linux-musl/rimage",
+          "sha256": "c82bc5bf077390c7e21967f1cb5b159b3d11e464f1c97784e46962b8d95252bc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/vlad-salone/rimage/releases/download/v0.14.0/rimage-0.14.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.14.0",
+      "sha256": "e054bf22724e3bbf0d7fda85a47d3eddf8c2e853375d021398ed7dae64fd3d99",
+      "size": 5267464,
+      "format": "tar.gz",
+      "binaries": {
+        "rimage": {
+          "path": "rimage-0.14.0-aarch64-unknown-linux-musl/rimage",
+          "sha256": "78969eebe3e46b67cd533f9260b1c8d7d9e22349f2d0e6dbda7cab3d26aeb693"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vlad-salone/rimage/releases/download/v0.14.0/rimage-0.14.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.14.0",
+      "sha256": "113c1a22ffc2f934b10cdb12c1a603728ec4d7088c6a7e63011830d421444167",
+      "size": 5115811,
+      "format": "tar.gz",
+      "binaries": {
+        "rimage": {
+          "path": "rimage-0.14.0-x86_64-apple-darwin/rimage",
+          "sha256": "b595b8e58241b86d37d40085828885bb0a49d906543c2ce7ca4b270df4577966"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vlad-salone/rimage/releases/download/v0.14.0/rimage-0.14.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.14.0",
+      "sha256": "61d09437cc4bd217ec8607f3b1c63c4322935ab4ab4667515bca6c5041515030",
+      "size": 4358578,
+      "format": "tar.gz",
+      "binaries": {
+        "rimage": {
+          "path": "rimage-0.14.0-aarch64-apple-darwin/rimage",
+          "sha256": "62ae9ecadb3e35457ddd83bcb3eabb9759df474795f8c04c2985636f1c0eb92f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vlad-salone/rimage/releases/download/v0.14.0/rimage-0.14.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.14.0",
+      "sha256": "93667bd6140b9845f72abc3849d22dd25b9c33ae0d8b08ffb86835c81afbcf25",
+      "size": 5961386,
+      "format": "zip",
+      "binaries": {
+        "rimage.exe": {
+          "path": "rimage-0.14.0-x86_64-pc-windows-msvc/rimage.exe",
+          "sha256": "10ff7f19b0216871ec4eb9a56a796516339e7be894aa37c65a5950c10921a390"
+        }
+      }
+    }
+  }
+}
