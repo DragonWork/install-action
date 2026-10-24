@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "cargo-publish-crates",
+  "version": "0.1.0",
+  "repository": "romnn/publish-crates",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/romnn/publish-crates/releases/download/v0.1.0/cargo-publish-crates_0.1.0_linux_amd64.tar.gz",
+      "releaseTag": "v0.1.0",
+      "sha256": "f6c43fe0469d71f4c00e58043263101e79ee4d37c9f9413f9bb89a33f2044f67",
+      "size": 2944687,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-publish-crates": {
+          "path": "cargo-publish-crates",
+          "sha256": "788a63e4426fc4197c6b6319ae91c531aefc177d7752fca49bb5ef9c489f714a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/romnn/publish-crates/releases/download/v0.1.0/cargo-publish-crates_0.1.0_linux_arm64.tar.gz",
+      "releaseTag": "v0.1.0",
+      "sha256": "56b6734e254f800c207e25b0d931bbb7ee87bcd709f771d827aca5ea01fce9ee",
+      "size": 2803565,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-publish-crates": {
+          "path": "cargo-publish-crates",
+          "sha256": "b56242ba1698227041690fa4ef6298329817eaa21a12dcbc8d7f4324b3586faf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/romnn/publish-crates/releases/download/v0.1.0/cargo-publish-crates_0.1.0_darwin_amd64.tar.gz",
+      "releaseTag": "v0.1.0",
+      "sha256": "6763e7c5b7a0c6a475c5da63fc85c18c6474d4c2a697129a627cd73cea6c85da",
+      "size": 2714217,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-publish-crates": {
+          "path": "cargo-publish-crates",
+          "sha256": "093598026b0cdff65e6e89985df5790204892d21d67525a472fab4d0f3df2d3f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/romnn/publish-crates/releases/download/v0.1.0/cargo-publish-crates_0.1.0_darwin_arm64.tar.gz",
+      "releaseTag": "v0.1.0",
+      "sha256": "a06fb6052b4ae8b67eef73d46e8b1b8a45934b29c0b808619baf31ca9a66ed7a",
+      "size": 2560287,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-publish-crates": {
+          "path": "cargo-publish-crates",
+          "sha256": "3ec2dd538bcc238b18f32973583ef214ffb950cef19146c2a6f69f3763959d22"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/romnn/publish-crates/releases/download/v0.1.0/cargo-publish-crates_0.1.0_windows_amd64.zip",
+      "releaseTag": "v0.1.0",
+      "sha256": "7118388516ed3df60255438203f95f3d275b5ad091d1b33f069636024c5bf496",
+      "size": 2487433,
+      "format": "zip",
+      "binaries": {
+        "cargo-publish-crates.exe": {
+          "path": "cargo-publish-crates.exe",
+          "sha256": "4ac59cb73aae4e8740ea038b52f2c449208eed8fa7005ff7ed4e20eb23474e59"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/romnn/publish-crates/releases/download/v0.1.0/cargo-publish-crates_0.1.0_windows_arm64.zip",
+      "releaseTag": "v0.1.0",
+      "sha256": "6b9d914bac703fb10111cdb71f7113624d8907b1202b3c3b2f6f6ca713564ad1",
+      "size": 2288880,
+      "format": "zip",
+      "binaries": {
+        "cargo-publish-crates.exe": {
+          "path": "cargo-publish-crates.exe",
+          "sha256": "49695e9688a06e075eb00333ed30da7e5d93bc3c6b10be579ccf1e2509e8a143"
+        }
+      }
+    }
+  }
+}
