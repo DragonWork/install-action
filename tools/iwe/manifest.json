@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "iwe",
+  "version": "0.29.0",
+  "repository": "iwe-org/iwe",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.0/iwe-v0.29.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "iwe-v0.29.0",
+      "sha256": "69b6bf1be4dca8244d0cc96fde3fe07af6947bf7aa2d4773f856550e93b1ae83",
+      "size": 25318771,
+      "format": "tar.gz",
+      "binaries": {
+        "iwe": {
+          "path": "iwe",
+          "sha256": "76470f6bc8756bafb3888bc8d723cdb7feacdacb7b3a74b63a377dad243d5853"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.0/iwe-v0.29.0-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "iwe-v0.29.0",
+      "sha256": "2a4dfbfed64a213902e289afdce179f3512233ef85d6c13f64cc28c01a6f79e1",
+      "size": 25337860,
+      "format": "tar.gz",
+      "binaries": {
+        "iwe": {
+          "path": "iwe",
+          "sha256": "987806f939cf11be1cd9e7e854373c60aee896b85d79f7c13aa117a56954c4cf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.0/iwe-v0.29.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "iwe-v0.29.0",
+      "sha256": "82f8640189ddac5f11f9ee81dc5b496559743331db74926c90cc19d681e7f9dd",
+      "size": 24039426,
+      "format": "tar.gz",
+      "binaries": {
+        "iwe": {
+          "path": "iwe",
+          "sha256": "555b4b1c989e433351d512ee64d625eeede0f1e60ad5c40afd3841fc6b1c2526"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.0/iwe-v0.29.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "iwe-v0.29.0",
+      "sha256": "58555e7c59efea02e8dc230f952336bc1cf99779c41f5dcdbd2d5f20a9a21264",
+      "size": 23251395,
+      "format": "tar.gz",
+      "binaries": {
+        "iwe": {
+          "path": "iwe",
+          "sha256": "df2f7551d1bd8420c574cf211f25e8d9cc4045b57223609579f2406b935a7de7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.0/iwe-v0.29.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "iwe-v0.29.0",
+      "sha256": "27ea3161d94aaadf2cd447f28c4c4a3935754af2e46b9489f923e4e3b6f85d5c",
+      "size": 21490513,
+      "format": "zip",
+      "binaries": {
+        "iwe.exe": {
+          "path": "iwe.exe",
+          "sha256": "9527f2805690e8630840ee1feadbd042eaaaa439924850a442a3fb4fbc6d4ab6"
+        }
+      }
+    }
+  }
+}
