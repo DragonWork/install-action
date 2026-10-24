@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "certainly",
+  "version": "1.8.0",
+  "repository": "passcod/certainly",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/passcod/certainly/releases/download/v1.8.0/certainly-v1.8.0-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.8.0",
+      "sha256": "22c37b43b79d668d5a7bddb6ecc1a1051169a7ca341f5275c578613f1caf79ec",
+      "size": 1171128,
+      "format": "tar.xz",
+      "binaries": {
+        "certainly": {
+          "path": "certainly-v1.8.0-x86_64-unknown-linux-gnu/certainly",
+          "sha256": "439f6128c87c788cd95c8cd9544e37ad915a1ddfb5cd0f30b1bd409ce9eafaec"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/passcod/certainly/releases/download/v1.8.0/certainly-v1.8.0-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.8.0",
+      "sha256": "725024d476c9515a9bbb40c5d68fb9002c9a9a16e6e8fb73b0508af9553546b9",
+      "size": 1138208,
+      "format": "tar.xz",
+      "binaries": {
+        "certainly": {
+          "path": "certainly-v1.8.0-x86_64-apple-darwin/certainly",
+          "sha256": "8b37710e20ca709a2b38a7c1463396fdba006d32062f00d7fbaf03d2bb028d7b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/passcod/certainly/releases/download/v1.8.0/certainly-v1.8.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.8.0",
+      "sha256": "ff689f0231fb8b6d99d321ad18989cedb4eaa639a1ec10ed3f0bd7eeeff25d44",
+      "size": 1419471,
+      "format": "zip",
+      "binaries": {
+        "certainly.exe": {
+          "path": "certainly.exe",
+          "sha256": "1dd05f400948544889c8defa5def7e04c4da49fc5f0935776d6a0ac5758b0ba8"
+        }
+      }
+    }
+  }
+}
