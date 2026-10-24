@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "windows-env",
+  "version": "0.3.1",
+  "repository": "lxl66566/windows-env",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/lxl66566/windows-env/releases/download/v0.3.1/windows-env-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "12aaae69af1d8ad4198a727df663961e25446d7745835aef219d6f7a2e26bcba",
+      "size": 183884,
+      "format": "zip",
+      "binaries": {
+        "wenv.exe": {
+          "path": "wenv.exe",
+          "sha256": "02f297d3f23ee6f6aa6a9b75a0604294d0a2d7a298eb4f72b3c36457abb71ea3"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/lxl66566/windows-env/releases/download/v0.3.1/windows-env-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.1",
+      "sha256": "eaf00e2c1a6558fb14ca6c86c3dd3958a50361caffb80375f93cc4375235ce2d",
+      "size": 172887,
+      "format": "zip",
+      "binaries": {
+        "wenv.exe": {
+          "path": "wenv.exe",
+          "sha256": "daad79b22b9aa3c08d56fd1697abd3b8a6a5de3a16a3a8b75b976f467a3f0559"
+        }
+      }
+    }
+  }
+}
