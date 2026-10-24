@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "tree-sitter-cli",
+  "version": "0.27.1",
+  "repository": "tree-sitter/tree-sitter",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v0.27.1/tree-sitter-cli-linux-x64.zip",
+      "releaseTag": "v0.27.1",
+      "sha256": "c7e686aec16ba17053c2e6fd87600ccb10cf8ba3d055756b17e756d538e11114",
+      "size": 8642525,
+      "format": "zip",
+      "binaries": {
+        "tree-sitter": {
+          "path": "tree-sitter",
+          "sha256": "6de5f5c0f6d2e281ad2643d3874b66cf240fa77140c5346b670889483982b0c7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v0.27.1/tree-sitter-cli-linux-arm64.zip",
+      "releaseTag": "v0.27.1",
+      "sha256": "3c0d0113cae3fea36f2336c271cbdacbcdb349edb006319155652b9386803c55",
+      "size": 8054297,
+      "format": "zip",
+      "binaries": {
+        "tree-sitter": {
+          "path": "tree-sitter",
+          "sha256": "e4d92efdcf494251ca4d5d97ae1b62a80b48a1a4a954ec94bae01b2a58030ba4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v0.27.1/tree-sitter-cli-macos-x64.zip",
+      "releaseTag": "v0.27.1",
+      "sha256": "fd7e60f57b6e00caecaa055b94da20d7875b05cef2277831588546e08ab8bb29",
+      "size": 8212051,
+      "format": "zip",
+      "binaries": {
+        "tree-sitter": {
+          "path": "tree-sitter",
+          "sha256": "835c6f1d1b97415a3df8360bb777c82c908642ff8bf0a986942039e80ace00b5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v0.27.1/tree-sitter-cli-macos-arm64.zip",
+      "releaseTag": "v0.27.1",
+      "sha256": "6362cda144b6e45d92c739d4eafb7e3c322f0545b0b959b4f7ca7d53fb3300fa",
+      "size": 7343877,
+      "format": "zip",
+      "binaries": {
+        "tree-sitter": {
+          "path": "tree-sitter",
+          "sha256": "470aa2d72494ba665f8d0067bd6053f45668d45e7e0283e80cfc671488434457"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v0.27.1/tree-sitter-cli-windows-x64.zip",
+      "releaseTag": "v0.27.1",
+      "sha256": "de043e4c289efcef7981df99988300f23763befdeb36abf7c1898f080c478424",
+      "size": 3809617,
+      "format": "zip",
+      "binaries": {
+        "tree-sitter.exe": {
+          "path": "tree-sitter.exe",
+          "sha256": "53f61ab94c9fd52b0916f2e998172b46fcd7b646e27f4e9f803a350b624db4a8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v0.27.1/tree-sitter-cli-windows-arm64.zip",
+      "releaseTag": "v0.27.1",
+      "sha256": "eadbb00c87c5a38f874eb92af593df7264635afefb455af3218bdb1c50123bad",
+      "size": 3525190,
+      "format": "zip",
+      "binaries": {
+        "tree-sitter.exe": {
+          "path": "tree-sitter.exe",
+          "sha256": "2a7959aa8434f36f67f830d703a8b4cac71bb534e8fe175baadf28577347efa2"
+        }
+      }
+    }
+  }
+}
