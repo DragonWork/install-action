@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "kubectl-watch",
+  "version": "0.2.4",
+  "repository": "imuxin/kubectl-watch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/imuxin/kubectl-watch/releases/download/v0.2.4/kubectl-watch-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.4",
+      "sha256": "c3129e4cfc67a2655f0e489e69444179a06ea43ad4d735260a84692256b6ce3b",
+      "size": 3399530,
+      "format": "tar.gz",
+      "binaries": {
+        "kubectl-watch": {
+          "path": "kubectl-watch",
+          "sha256": "af1c8140f9bb877e75a0a76184b067be1528dadb0207f62875851cc4ee6c9442"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/imuxin/kubectl-watch/releases/download/v0.2.4/kubectl-watch-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.2.4",
+      "sha256": "0df9551652b374e5f98ba94bc88cbb214090fdde09808e4411f395002334bc3e",
+      "size": 5074657,
+      "format": "tar.gz",
+      "binaries": {
+        "kubectl-watch": {
+          "path": "kubectl-watch",
+          "sha256": "7d1c2e27813d467ddb061b91473bd729879ffa5883b920d595a0c18e483763c0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/imuxin/kubectl-watch/releases/download/v0.2.4/kubectl-watch-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.2.4",
+      "sha256": "b878f3340d3ffa66f7f91bb9e09d3770cebd1879277c4f0f84f36e6dc8413174",
+      "size": 3134542,
+      "format": "tar.gz",
+      "binaries": {
+        "kubectl-watch": {
+          "path": "kubectl-watch",
+          "sha256": "2e58c393d61dd075aac8d32f549fd36ca3743a335c21e9066736da01b6336253"
+        }
+      }
+    }
+  }
+}
