@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "tbunread",
+  "version": "0.0.12",
+  "repository": "eikendev/tbunread",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/eikendev/tbunread/releases/download/v0.0.12/tbunread-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.12",
+      "sha256": "83d3c9fb65e2fd4dc0e4ebea1ee2b35b54f28030ef836de7534544ba4542e459",
+      "size": 1159520,
+      "format": "tar.gz",
+      "binaries": {
+        "tbunread": {
+          "path": "tbunread",
+          "sha256": "d10bfed5c50892ffb449a2add0364888c89c73d17825eeaee91a2245527b5588"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/eikendev/tbunread/releases/download/v0.0.12/tbunread-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.0.12",
+      "sha256": "f22be190f54bb3a1210562e3c06bf3d78c8180e253795e87442217340777592d",
+      "size": 1024374,
+      "format": "tar.gz",
+      "binaries": {
+        "tbunread": {
+          "path": "tbunread",
+          "sha256": "a549f68db8587fcdc4bf6e3e568bd69ef07593db5fbf04ba54d0ba17396759d4"
+        }
+      }
+    }
+  }
+}
