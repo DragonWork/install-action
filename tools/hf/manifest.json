@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "hf",
+  "version": "0.6.0",
+  "repository": "sorairolake/hf",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/sorairolake/hf/releases/download/v0.6.0/hf-v0.6.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "416dadd9f09f2334c0be14df1c9a1f280512e9ee5626883c07bc81d8917f4b75",
+      "size": 336141,
+      "format": "zip",
+      "binaries": {
+        "hf.exe": {
+          "path": "hf-v0.6.0-x86_64-pc-windows-msvc/hf.exe",
+          "sha256": "80edb58024f2890e37a809cc8dc8c94f58b5b5b06e6c2a809c95ba08aeea772d"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sorairolake/hf/releases/download/v0.6.0/hf-v0.6.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.6.0",
+      "sha256": "e01d02f276583e55fe26d1d40c8be8b09504260ac3d942eee63ee590c86cd781",
+      "size": 315789,
+      "format": "zip",
+      "binaries": {
+        "hf.exe": {
+          "path": "hf-v0.6.0-aarch64-pc-windows-msvc/hf.exe",
+          "sha256": "2ba2d7f73ed106279dea86c6d333534eb7364c3091a720cecc5ca289981554e8"
+        }
+      }
+    }
+  }
+}
