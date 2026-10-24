@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "run",
+  "version": "0.7.1",
+  "repository": "nihilok/run",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nihilok/run/releases/download/v0.7.1/run-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "53ec9ce670dab72633b456414eaa29b4be4d327d70cf3747c5a4862ec118aab8",
+      "size": 1752198,
+      "format": "tar.gz",
+      "binaries": {
+        "run": {
+          "path": "run",
+          "sha256": "58d4381dea0ffc951554d4b1594cd19f24e8cfc780fee1c58d9feb9bb62b8a52"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nihilok/run/releases/download/v0.7.1/run-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "585a3799b404127350c29fe12ce1c91b63001f5bf3ee8e442765976526696fd7",
+      "size": 1550741,
+      "format": "tar.gz",
+      "binaries": {
+        "run": {
+          "path": "run",
+          "sha256": "5d4f14771e69cbbf92df4324d60442f55550107a1d9bb82b9d497782814c3c72"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nihilok/run/releases/download/v0.7.1/run-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.1",
+      "sha256": "ed619ff2940423f5d6dee77232d1575a47cd2612a79fef368bdbe2282eb4c32b",
+      "size": 1463989,
+      "format": "tar.gz",
+      "binaries": {
+        "run": {
+          "path": "run",
+          "sha256": "8c9450f7ad033160ea779cfcae29391db01e51ade4fd3d80d470600ec326761a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nihilok/run/releases/download/v0.7.1/run-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.1",
+      "sha256": "4f39862ecf8476f5cecc54a74b7dfb23ab7c4bdb03654683428169328fa3d01c",
+      "size": 1434637,
+      "format": "zip",
+      "binaries": {
+        "run.exe": {
+          "path": "run.exe",
+          "sha256": "2e7c54e8538171b0eaef11131e33f6e6903d73fb040332cfd0e196ab836d6678"
+        }
+      }
+    }
+  }
+}
