@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "sludge-cicd",
+  "version": "0.1.34",
+  "repository": "SludgePhD/CICD",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/SludgePhD/CICD/releases/download/v0.1.34/x86_64-unknown-linux-musl-cicd",
+      "sha256": "3b8f098ebd3008f2e6839da49ee412efda694d441f382e72cdc9a4678f86dbeb",
+      "size": 760384,
+      "format": "binary",
+      "releaseTag": "v0.1.34",
+      "binaries": {
+        "sludge-cicd": {
+          "path": "x86_64-unknown-linux-musl-cicd",
+          "sha256": "3b8f098ebd3008f2e6839da49ee412efda694d441f382e72cdc9a4678f86dbeb"
+        }
+      }
+    }
+  }
+}
