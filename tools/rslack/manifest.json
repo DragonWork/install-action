@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rslack",
+  "version": "0.6.4",
+  "repository": "kohbis/rslack",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kohbis/rslack/releases/download/v0.6.4/rslack-linux.tar.gz",
+      "sha256": "45dc2377647e9630bbc152fcca375587f0ee561a9276fb502cb6d9575a3c8c39",
+      "size": 3085292,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.4",
+      "binaries": {
+        "rslack": {
+          "path": "rslack",
+          "sha256": "fbd60bd7f4d9fc61d68db7350b0cc70cb8fd657e42e69cc924cbd8eabe2cd017"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kohbis/rslack/releases/download/v0.6.4/rslack-macos.tar.gz",
+      "sha256": "ec4a1723bf46dce5b629a8fd2bcd4a7fbe5046063cc78bd50ba23d08e395d5dd",
+      "size": 3031716,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.4",
+      "binaries": {
+        "rslack": {
+          "path": "rslack",
+          "sha256": "71d2f685d77c6f290fcfca1df5d9f1169abc7c0ba6008d977a0391afbb2edcc1"
+        }
+      }
+    }
+  }
+}
