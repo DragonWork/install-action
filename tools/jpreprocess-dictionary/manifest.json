@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "jpreprocess-dictionary",
+  "version": "0.15.0",
+  "repository": "jpreprocess/jpreprocess",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jpreprocess/jpreprocess/releases/download/v0.15.0/jpreprocess-x86_64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.15.0",
+      "sha256": "af5ddd5c929fb34565e16589732e205d595b12cca999790ea15eabf6b8cff3e6",
+      "size": 3269993,
+      "format": "tar.gz",
+      "binaries": {
+        "dict_tools": {
+          "path": "jpreprocess/dict_tools",
+          "sha256": "e8d1a79191c6d2938878633cda0556eed9685dad1f58d440c6175c492c0fd82f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jpreprocess/jpreprocess/releases/download/v0.15.0/jpreprocess-aarch64-unknown-linux-gnu.tgz",
+      "releaseTag": "v0.15.0",
+      "sha256": "533b03d2c1716755f13f50266c257f42245bbfd31015d2f3ee24f122c6c047ff",
+      "size": 3043653,
+      "format": "tar.gz",
+      "binaries": {
+        "dict_tools": {
+          "path": "jpreprocess/dict_tools",
+          "sha256": "be72a69c6f78a452a99ab3ea5d3eac9a8d92e8f3642b48f274b32c95ac6a7811"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jpreprocess/jpreprocess/releases/download/v0.15.0/jpreprocess-x86_64-apple-darwin.tgz",
+      "releaseTag": "v0.15.0",
+      "sha256": "b8e510fd0c66da147922cddf62313f3e429b767e65eeb9821967879c17710f83",
+      "size": 2920222,
+      "format": "tar.gz",
+      "binaries": {
+        "dict_tools": {
+          "path": "jpreprocess/dict_tools",
+          "sha256": "8306a9e01684940039bd34c27a2968996ad033b9dd2f994b052a388584b7eea2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jpreprocess/jpreprocess/releases/download/v0.15.0/jpreprocess-aarch64-apple-darwin.tgz",
+      "releaseTag": "v0.15.0",
+      "sha256": "0dc5d989772c616e65b758a609046d5e6d558528c0713aa29c361ff000227bc8",
+      "size": 2799602,
+      "format": "tar.gz",
+      "binaries": {
+        "dict_tools": {
+          "path": "jpreprocess/dict_tools",
+          "sha256": "e3bca35dc559cfc6d268098105f5f057424ca4f9dddc4e55f903ffaf1bb56128"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jpreprocess/jpreprocess/releases/download/v0.15.0/jpreprocess-x86_64-pc-windows-msvc.tgz",
+      "releaseTag": "v0.15.0",
+      "sha256": "b6453f0152d06e4303b90dbe7920ae304834634d148dac406e4ce54e551de87a",
+      "size": 2463777,
+      "format": "tar.gz",
+      "binaries": {
+        "dict_tools.exe": {
+          "path": "jpreprocess/dict_tools.exe",
+          "sha256": "31c6dd7c89b8ed11d6fe7babedd03a542e2652b5d3ffb0c443d09cc06dfec7c5"
+        }
+      }
+    }
+  }
+}
