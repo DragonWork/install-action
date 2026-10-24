@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "age-plugin-yubikey",
+  "version": "0.5.1",
+  "repository": "str4d/age-plugin-yubikey",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/str4d/age-plugin-yubikey/releases/download/v0.5.1/age-plugin-yubikey-v0.5.1-x86_64-darwin.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "857a120837f60f5c02018466f57e90718857686b31d56d319ae10c737835b52a",
+      "size": 1512522,
+      "format": "tar.gz",
+      "binaries": {
+        "age-plugin-yubikey": {
+          "path": "age-plugin-yubikey/age-plugin-yubikey",
+          "sha256": "0bbb1588ff0a921c12f0362e05444a663973aa4f3934a73755b6eafb4c4102d1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/str4d/age-plugin-yubikey/releases/download/v0.5.1/age-plugin-yubikey-v0.5.1-arm64-darwin.tar.gz",
+      "releaseTag": "v0.5.1",
+      "sha256": "c83f3ec50921778bdaa555ef2d70fbaf32374a8527eeb4f3171d819c29236243",
+      "size": 1510645,
+      "format": "tar.gz",
+      "binaries": {
+        "age-plugin-yubikey": {
+          "path": "age-plugin-yubikey/age-plugin-yubikey",
+          "sha256": "9230a18460a3dcb387d0049b3235abb48ada9604d67fc5636221bb831a00f32c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/str4d/age-plugin-yubikey/releases/download/v0.5.1/age-plugin-yubikey-v0.5.1-x86_64-windows.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "ba00ebd999b928994dc1f1ee0a83562f97b538f8ece75945aa6caf3695bfe3aa",
+      "size": 1326747,
+      "format": "zip",
+      "binaries": {
+        "age-plugin-yubikey.exe": {
+          "path": "age-plugin-yubikey/age-plugin-yubikey.exe",
+          "sha256": "8e3b3b4f7deaa92116194d543f8828a4de6fa8aa4f98e62643374b2a777ad026"
+        }
+      }
+    }
+  }
+}
