@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rocketfetch",
+  "version": "0.7.5",
+  "repository": "devanlooches/rocketfetch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/devanlooches/rocketfetch/releases/download/v0.7.5/rocketfetch-x86_64-unknown-linux-gnu-v0.7.5.tar.gz",
+      "releaseTag": "v0.7.5",
+      "sha256": "6c04ed24841b397f11cdaa71741b466d8cf944d06bc2d95f1adcf9159380709d",
+      "size": 1417947,
+      "format": "tar.gz",
+      "binaries": {
+        "rocketfetch": {
+          "path": "rocketfetch",
+          "sha256": "bc6e1caad4131011d3e8fa6e4bb75c792abd1196c37172748b70760086a584a7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/devanlooches/rocketfetch/releases/download/v0.7.5/rocketfetch-aarch64-apple-darwin-v0.7.5.tar.gz",
+      "releaseTag": "v0.7.5",
+      "sha256": "82d35182cf376adbfb40a58d0ec27a1de1f38f2b393827bbee8a743b09011c21",
+      "size": 1160226,
+      "format": "tar.gz",
+      "binaries": {
+        "rocketfetch": {
+          "path": "rocketfetch",
+          "sha256": "c37d48e02c8924217f708e04a7fadabc919293119245fe71c45f32a7f8eef90a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/devanlooches/rocketfetch/releases/download/v0.7.5/rocketfetch-x86_64-pc-windows-msvc-v0.7.5.zip",
+      "releaseTag": "v0.7.5",
+      "sha256": "90b0e450364253ae35254d5c3c40e788eb2657aca578cbf5414650a04e955abe",
+      "size": 1227133,
+      "format": "zip",
+      "binaries": {
+        "rocketfetch.exe": {
+          "path": "rocketfetch.exe",
+          "sha256": "2ef81a83bf568dc2a4fa8b46b566c9e218f979e1b930796593ea25e5c3b0ad49"
+        }
+      }
+    }
+  }
+}
