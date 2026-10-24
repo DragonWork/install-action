@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "segul",
+  "version": "0.24.0",
+  "repository": "hhandika/segul",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hhandika/segul/releases/download/v0.24.0/segul-Linux-x86_64.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "72d1f89ede2c10a9910b01bf5408dcdf2e80eec40d2873d54841ffe7f076da4f",
+      "size": 2023714,
+      "format": "tar.gz",
+      "binaries": {
+        "segul": {
+          "path": "segul",
+          "sha256": "f0aceb9a04ab79361ddbbced089154c8d9e489e6bf62774e5c1f82678afcdb5f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hhandika/segul/releases/download/v0.24.0/segul-Linux-arm64.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "14942a3c97dae2b93c0ead18cea253af212b896eecacceb121a18d51a81eacc7",
+      "size": 1935650,
+      "format": "tar.gz",
+      "binaries": {
+        "segul": {
+          "path": "segul",
+          "sha256": "97c295ee1697df500f77e7c5bc99eb0628e6859bc1aabfcf581d9e3cb16cc462"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hhandika/segul/releases/download/v0.24.0/segul-macOS-x86_64.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "97a307352e1e232bf54519767c696d316a42bdefed02a2f34ec347be596a1984",
+      "size": 1933262,
+      "format": "tar.gz",
+      "binaries": {
+        "segul": {
+          "path": "segul",
+          "sha256": "a7ed81bf301ba14f0b9dab7cd01e3ecc54aff181bfac4a443f23f6124c9ec4de"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hhandika/segul/releases/download/v0.24.0/segul-macOS-arm64.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "e1abfacda48356f9ea5ddea2f83328b46ae2a3a6a77e832221ec1fae6cde0d69",
+      "size": 1760023,
+      "format": "tar.gz",
+      "binaries": {
+        "segul": {
+          "path": "segul",
+          "sha256": "e34912f093184f894ded7b4dc8a5bc29d68c0745be0dd7e0673df61c3cb1d354"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hhandika/segul/releases/download/v0.24.0/segul-Windows-x86_64.zip",
+      "releaseTag": "v0.24.0",
+      "sha256": "24996fc652e7e40520db6079f3fe4eee7331b50b7d3a1c18cd362d55a88bfae3",
+      "size": 1792942,
+      "format": "zip",
+      "binaries": {
+        "segul.exe": {
+          "path": "segul.exe",
+          "sha256": "93c86d041d7e130538f9974e1e7d170b61e6e9fd2d898b7c5c02d3e87e6916ed"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/hhandika/segul/releases/download/v0.24.0/segul-Windows-arm64.zip",
+      "releaseTag": "v0.24.0",
+      "sha256": "d376087cccdc86240b4c379f042475f9939289c19a4a7bb078ba2a5f3e32138a",
+      "size": 1647690,
+      "format": "zip",
+      "binaries": {
+        "segul.exe": {
+          "path": "segul.exe",
+          "sha256": "e204481c257dfa9aefb49bc27ca0260c1843319dc937f2c08f5b8d4f419e2310"
+        }
+      }
+    }
+  }
+}
