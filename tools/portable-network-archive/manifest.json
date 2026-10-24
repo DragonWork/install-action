@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "portable-network-archive",
+  "version": "0.40.1",
+  "repository": "ChanTsune/Portable-Network-Archive",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ChanTsune/Portable-Network-Archive/releases/download/portable-network-archive-0.40.1/portable-network-archive-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "portable-network-archive-0.40.1",
+      "sha256": "1455b51aca993ddc924667ff3b6002facb4d773c9c7316589089dc794e795398",
+      "size": 2529760,
+      "format": "tar.xz",
+      "binaries": {
+        "pna": {
+          "path": "portable-network-archive-x86_64-unknown-linux-gnu/pna",
+          "sha256": "309d5260524bb0499726f0c753c7aaf17178831b4350d403c0fbb8f9d30c8890"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ChanTsune/Portable-Network-Archive/releases/download/portable-network-archive-0.40.1/portable-network-archive-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "portable-network-archive-0.40.1",
+      "sha256": "431ada7bca5dba39bb38fa59643491b0709ee9417936c05ffc33f19df408e4a4",
+      "size": 2275540,
+      "format": "tar.xz",
+      "binaries": {
+        "pna": {
+          "path": "portable-network-archive-aarch64-unknown-linux-gnu/pna",
+          "sha256": "699832de2d8ab0d0729f5cf96fa50fda967c7488771aa4814770705bdc5202fa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ChanTsune/Portable-Network-Archive/releases/download/portable-network-archive-0.40.1/portable-network-archive-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "portable-network-archive-0.40.1",
+      "sha256": "d525b267306f7192814e3f91c435f6e59af68693f39352aece61a3f60360bb03",
+      "size": 2419812,
+      "format": "tar.xz",
+      "binaries": {
+        "pna": {
+          "path": "portable-network-archive-x86_64-apple-darwin/pna",
+          "sha256": "3475f1c1f26a321bc0c24008c06bf47748af1131c0f6f45ff16579ca71d7aacb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ChanTsune/Portable-Network-Archive/releases/download/portable-network-archive-0.40.1/portable-network-archive-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "portable-network-archive-0.40.1",
+      "sha256": "fbfe6e545d28dd1a4d560730346fcbe64c6909e32f3abff4484001b45cf49697",
+      "size": 2081428,
+      "format": "tar.xz",
+      "binaries": {
+        "pna": {
+          "path": "portable-network-archive-aarch64-apple-darwin/pna",
+          "sha256": "9b551af68e907701f43cd8877944692f6f8c1bb23b3a6ed4c32d286df084a0c9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ChanTsune/Portable-Network-Archive/releases/download/portable-network-archive-0.40.1/portable-network-archive-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "portable-network-archive-0.40.1",
+      "sha256": "3f8386d4dadc6cc24472d4787efbc4c7366252125d1cd99967cd542bc52b5c2f",
+      "size": 3386732,
+      "format": "zip",
+      "binaries": {
+        "pna.exe": {
+          "path": "pna.exe",
+          "sha256": "0ee11c520c885b3b820205583e72d9e693f24e10cb382e14b7a373a660de3bfe"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ChanTsune/Portable-Network-Archive/releases/download/portable-network-archive-0.40.1/portable-network-archive-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "portable-network-archive-0.40.1",
+      "sha256": "5ba641a87adb0e7caa706a5d6d0f89fd9500ed52fc3e70fcdb05b2a7788980b8",
+      "size": 3193370,
+      "format": "zip",
+      "binaries": {
+        "pna.exe": {
+          "path": "pna.exe",
+          "sha256": "5fbd5dc7ab1bafbca6266ac9638f330656d1a74ee7389e4e881553f4723ec8dd"
+        }
+      }
+    }
+  }
+}
