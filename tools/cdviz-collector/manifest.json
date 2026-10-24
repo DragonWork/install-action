@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cdviz-collector",
+  "version": "0.53.1",
+  "repository": "cdviz-dev/cdviz-collector",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.53.1",
+      "sha256": "648bed42e021a9ff604ccefaf6def643d98d38d8079085b3243d31f7b64f81c3",
+      "size": 10748800,
+      "format": "tar.xz",
+      "binaries": {
+        "cdviz-collector": {
+          "path": "cdviz-collector-x86_64-unknown-linux-musl/cdviz-collector",
+          "sha256": "69d1684bd371fea8415a2987acbb953e11e8e74790031fee1b0074541a6a43ef"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.53.1",
+      "sha256": "f61d7a4ac783abf6d2a6f3840a6d9b66556259fc70d10a62490f216da12bd003",
+      "size": 9293184,
+      "format": "tar.xz",
+      "binaries": {
+        "cdviz-collector": {
+          "path": "cdviz-collector-aarch64-unknown-linux-gnu/cdviz-collector",
+          "sha256": "10023748c80fe569c6c5d5bc50a0e03b2a5d7baa2d3777840d9ca97cb119e638"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.53.1",
+      "sha256": "b5fbf2bf9ea654d78de7bad3a1c85c2f93bd7e5d0774d24227c618ffa109f044",
+      "size": 10215060,
+      "format": "tar.xz",
+      "binaries": {
+        "cdviz-collector": {
+          "path": "cdviz-collector-x86_64-apple-darwin/cdviz-collector",
+          "sha256": "b3e130252282e09e3393fd2352bcadf44116918b5445b167839d77623703ef99"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.53.1",
+      "sha256": "cf793661a52e40f28874586b9909f5528dd7064a3b096e89f19bfff339f904f0",
+      "size": 8559272,
+      "format": "tar.xz",
+      "binaries": {
+        "cdviz-collector": {
+          "path": "cdviz-collector-aarch64-apple-darwin/cdviz-collector",
+          "sha256": "ab1b5c41dab94071e0385b68a0fe44b7d135b91146059f16394337031b805583"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.53.1",
+      "sha256": "7b6f3ffe101f6f3e4430a79c36bd2a1d721fe3b286a2bd61f65638c8a86d9305",
+      "size": 16448817,
+      "format": "zip",
+      "binaries": {
+        "cdviz-collector.exe": {
+          "path": "cdviz-collector.exe",
+          "sha256": "303282bb29b8ec77590ed70be08a828855e04190bb1805a47b9e214acf86af8f"
+        }
+      }
+    }
+  }
+}
