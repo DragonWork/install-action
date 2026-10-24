@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "jirun",
+  "version": "0.24.0",
+  "repository": "xixiaofinland/jirun",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xixiaofinland/jirun/releases/download/v0.24.0/jirun-v0.24.0-linux-x86_64.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "a3d5501bd816a1f394781d53d0255c35dea302008474adfcce7102542d6eb741",
+      "size": 2383678,
+      "format": "tar.gz",
+      "binaries": {
+        "jirun": {
+          "path": "jirun",
+          "sha256": "21829d7babee24e6b836d23aa22faf013e8af37cc01c42e86d59eb6e445bc366"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xixiaofinland/jirun/releases/download/v0.24.0/jirun-v0.24.0-macos-x86_64.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "d0cbfbbc4b276d29c47c64acb866e490b27339153e179c91efaef2645532ce55",
+      "size": 2197334,
+      "format": "tar.gz",
+      "binaries": {
+        "jirun": {
+          "path": "jirun",
+          "sha256": "b1c9464880a7743ae5a322c24a4089a3ad354e7335420f5f47bcc1cf5648d503"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xixiaofinland/jirun/releases/download/v0.24.0/jirun-v0.24.0-macos-aarch64.tar.gz",
+      "releaseTag": "v0.24.0",
+      "sha256": "0ce1fae4ccf1a099b31a18339fa0c0442e92c62db39b25123bbb9d04ca636a27",
+      "size": 2109540,
+      "format": "tar.gz",
+      "binaries": {
+        "jirun": {
+          "path": "jirun",
+          "sha256": "273b3daf45dec5c4528c4a92e74cdc764a4b20a3ad4751f4da3a779d59ab177e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/xixiaofinland/jirun/releases/download/v0.24.0/jirun-v0.24.0-windows-x86_64.zip",
+      "releaseTag": "v0.24.0",
+      "sha256": "b3391c8e67609976cc52103d59369c1c82e912dfebba8f49697cf037cdd7250c",
+      "size": 1820340,
+      "format": "zip",
+      "binaries": {
+        "jirun.exe": {
+          "path": "jirun.exe",
+          "sha256": "8dddd5e2e81a985df8399adf388dd05e2fa227f7d4958a4945e78acbc44796f6"
+        }
+      }
+    }
+  }
+}
