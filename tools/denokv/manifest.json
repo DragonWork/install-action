@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "denokv",
+  "version": "0.14.0",
+  "repository": "denoland/denokv",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/denoland/denokv/releases/download/0.14.0/denokv-x86_64-unknown-linux-gnu.zip",
+      "releaseTag": "0.14.0",
+      "sha256": "8c4b2971a8be2ff1a9bcaecbf64c5bb9c8f8c223996e83a644f4521dc448c385",
+      "size": 8676568,
+      "format": "zip",
+      "binaries": {
+        "denokv": {
+          "path": "denokv",
+          "sha256": "689165e1bdc9e3b9b18b5404e588c3134d2677d0b3c291fc1e9fb087d603b290"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/denoland/denokv/releases/download/0.14.0/denokv-aarch64-unknown-linux-gnu.zip",
+      "releaseTag": "0.14.0",
+      "sha256": "db5c4ffaae6604b9b188533b266921b7b976ceab24e9df0bee3978949a3de95e",
+      "size": 8621444,
+      "format": "zip",
+      "binaries": {
+        "denokv": {
+          "path": "denokv",
+          "sha256": "6200489754c852b40e66ddb58ce2bff5c6100d017523feab3b18d01cb80ba1e5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/denoland/denokv/releases/download/0.14.0/denokv-x86_64-apple-darwin.zip",
+      "releaseTag": "0.14.0",
+      "sha256": "cfa739bc349dbc535f7f531088477468912d0c53eaee951140c4f1ccf0514bfe",
+      "size": 8150685,
+      "format": "zip",
+      "binaries": {
+        "denokv": {
+          "path": "denokv",
+          "sha256": "3e62e948becd846a6fa9aec3687235e3591ea1c00f872d94e2e04204f8accbed"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/denoland/denokv/releases/download/0.14.0/denokv-aarch64-apple-darwin.zip",
+      "releaseTag": "0.14.0",
+      "sha256": "09547301cc7add742d008891426a7f6a17f17cbdba37ca56327e05c0c40a7b41",
+      "size": 7234205,
+      "format": "zip",
+      "binaries": {
+        "denokv": {
+          "path": "denokv",
+          "sha256": "f8a159d3642732e086c4d8d3b896d9146f9ceac43439f190e589c94807055dfd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/denoland/denokv/releases/download/0.14.0/denokv-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.14.0",
+      "sha256": "544898784549c141e655a92b53b69cfcdbb935e3fe8c12524c8ec2cab2cdf258",
+      "size": 6846509,
+      "format": "zip",
+      "binaries": {
+        "denokv.exe": {
+          "path": "denokv.exe",
+          "sha256": "60ab2492e9fcea10db590c825c9242f9475600a6a6f729a6bd53d6032813a6b6"
+        }
+      }
+    }
+  }
+}
