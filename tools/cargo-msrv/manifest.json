@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "cargo-msrv",
+  "version": "0.19.6",
+  "repository": "foresterre/cargo-msrv",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/foresterre/cargo-msrv/releases/download/v0.19.6/cargo-msrv-x86_64-unknown-linux-musl-v0.19.6.tgz",
+      "releaseTag": "v0.19.6",
+      "sha256": "55f60d7bd89c6b765aab1d738d6ce63132b7daa5dfc240be0c680f48a4b82058",
+      "size": 6339674,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-msrv": {
+          "path": "cargo-msrv-x86_64-unknown-linux-musl-v0.19.6/cargo-msrv",
+          "sha256": "da318c214f9f4d84f4336c6b71c8b47104ea4a0716718b8b64c5d9846cecd883"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/foresterre/cargo-msrv/releases/download/v0.19.6/cargo-msrv-x86_64-apple-darwin-v0.19.6.tgz",
+      "releaseTag": "v0.19.6",
+      "sha256": "f1525fb20fe47e5e1c380ea2158cf67f4588fd74f1a081734c9444f95f0cd0b0",
+      "size": 6036802,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-msrv": {
+          "path": "cargo-msrv-x86_64-apple-darwin-v0.19.6/cargo-msrv",
+          "sha256": "1c2bc92403e1a12b20de0dff110ee5b382b51180b32938e8389f461a77bf1406"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/foresterre/cargo-msrv/releases/download/v0.19.6/cargo-msrv-aarch64-apple-darwin-v0.19.6.tgz",
+      "releaseTag": "v0.19.6",
+      "sha256": "9c2af7930eab0bb325321a0d32c34a09fc3bcb7116f36f92e0d5e110984f6244",
+      "size": 5641028,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-msrv": {
+          "path": "cargo-msrv-aarch64-apple-darwin-v0.19.6/cargo-msrv",
+          "sha256": "83781e85fb2d859cb3a9d26101038be2366c0a0c6dc807418bdc04643f9aa8b2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/foresterre/cargo-msrv/releases/download/v0.19.6/cargo-msrv-x86_64-pc-windows-msvc-v0.19.6.zip",
+      "releaseTag": "v0.19.6",
+      "sha256": "6378f5ed2a7dfeac778ec16243246f9c27da0dddd30a411208b2b1fabafeca48",
+      "size": 5419660,
+      "format": "zip",
+      "binaries": {
+        "cargo-msrv.exe": {
+          "path": "cargo-msrv-x86_64-pc-windows-msvc-v0.19.6/cargo-msrv.exe",
+          "sha256": "c6c59aa161417bd8fecb48bf352b264f3874ab2427c4443bfc09eb7dcce955b9"
+        }
+      }
+    }
+  }
+}
