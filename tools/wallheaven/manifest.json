@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "wallheaven",
+  "version": "1.1.1",
+  "repository": "davenicholson-xyz/wallheaven",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/davenicholson-xyz/wallheaven/releases/download/v1.1.1/wallheaven-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v1.1.1",
+      "sha256": "2fd719ddaafdab77885b07fe90c8a98f29f719875a478090777c710c79b5b13c",
+      "size": 2952696,
+      "format": "tar.xz",
+      "binaries": {
+        "wallheaven": {
+          "path": "wallheaven-x86_64-unknown-linux-gnu/wallheaven",
+          "sha256": "5cd4cf400844fba7db7125f3f8f1d6db6d8fa1129d0de19ebb17988dd2a13e44"
+        },
+        "wallheavend": {
+          "path": "wallheaven-x86_64-unknown-linux-gnu/wallheavend",
+          "sha256": "fe5b58042b123e2955bfe4efeef35ca9b2e3aabe02e3c956a4d93abae78a1a49"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/davenicholson-xyz/wallheaven/releases/download/v1.1.1/wallheaven-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v1.1.1",
+      "sha256": "9b79387939f9d55397c3051daf8709a56579d2dbcc8699634e9e58756b1c6d9d",
+      "size": 2772108,
+      "format": "tar.xz",
+      "binaries": {
+        "wallheaven": {
+          "path": "wallheaven-x86_64-apple-darwin/wallheaven",
+          "sha256": "779e7aa629c8c8f4dad895a441e1e8cf18ae83474efae13c391dbf917e27065c"
+        },
+        "wallheavend": {
+          "path": "wallheaven-x86_64-apple-darwin/wallheavend",
+          "sha256": "6d48e5a0a75af4a605fb95fd1e4a54f948bdc6274608fae4ada6288141fa307a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/davenicholson-xyz/wallheaven/releases/download/v1.1.1/wallheaven-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v1.1.1",
+      "sha256": "f2993f0077dcccb3c98cbe17c6aa040cd24a8e378fde9a3c37a237e31f12ea3c",
+      "size": 2556012,
+      "format": "tar.xz",
+      "binaries": {
+        "wallheaven": {
+          "path": "wallheaven-aarch64-apple-darwin/wallheaven",
+          "sha256": "1748b844a59f9ee59030a80f78391f60e42b9f9b7d2b1987cb121a584b23e826"
+        },
+        "wallheavend": {
+          "path": "wallheaven-aarch64-apple-darwin/wallheavend",
+          "sha256": "3e355f5a6deaa71c4318a0bba75ea7d45c8034735ad7c3f4d83a1caff4d734cc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/davenicholson-xyz/wallheaven/releases/download/v1.1.1/wallheaven-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.1.1",
+      "sha256": "9562f8ad30d99e73826cc54d223731d93727c1cdd7a21f3a3c8d2492cc50f0cd",
+      "size": 9703592,
+      "format": "zip",
+      "binaries": {
+        "wallheaven.exe": {
+          "path": "wallheaven.exe",
+          "sha256": "1230ea64b2245dc150289aa0cd4cd500cdd1f3b7b60ccfec4ae29d4e281df597"
+        },
+        "wallheavend.exe": {
+          "path": "wallheavend.exe",
+          "sha256": "7e5723cb8edfde804c237665d0b9e5cefe46282e41493ff127c140abf5b3229d"
+        }
+      }
+    }
+  }
+}
