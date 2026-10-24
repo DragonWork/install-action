@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "erdtree",
+  "version": "3.1.2",
+  "repository": "solidiquis/erdtree",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/solidiquis/erdtree/releases/download/v3.1.2/erd-v3.1.2-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.1.2",
+      "sha256": "bfa4ebea71f59fdc175f67451c0b42b23a0cd2873ac44648857e14f0d3a78c98",
+      "size": 2596163,
+      "format": "tar.gz",
+      "binaries": {
+        "erd": {
+          "path": "erd",
+          "sha256": "e166e670348ab7da4e31114d7b3dae1735a3f41e18acba12770bd816ebefecad"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/solidiquis/erdtree/releases/download/v3.1.2/erd-v3.1.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v3.1.2",
+      "sha256": "5ad6d70a7ba9636f80a724e669e7ffe9daf2370f8a3f6095e33779e166ced4c2",
+      "size": 2536904,
+      "format": "tar.gz",
+      "binaries": {
+        "erd": {
+          "path": "erd",
+          "sha256": "91f4634afc4dda6bc31ee0b0309a952124d920e327f4fd0a3136eca7510192bb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/solidiquis/erdtree/releases/download/v3.1.2/erd-v3.1.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.1.2",
+      "sha256": "ba817e64b09e2f2505c8ce71df941aa5d73046d5bebdff83b656541cdbead688",
+      "size": 1480953,
+      "format": "tar.gz",
+      "binaries": {
+        "erd": {
+          "path": "erd",
+          "sha256": "a18c129a5dddfccd9b7b52a1c584cfa754dd09c7ab31ae821a0044e6656199ac"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/solidiquis/erdtree/releases/download/v3.1.2/erd-v3.1.2-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.1.2",
+      "sha256": "58cda585024b437550eafec1a5c7fbdbc917153e3b2f09571637f941a48d265f",
+      "size": 1440694,
+      "format": "tar.gz",
+      "binaries": {
+        "erd": {
+          "path": "erd",
+          "sha256": "3f4fe2db75d36d2e637151a65c1948b3d011a31b6123ff66b08d5251e40c2145"
+        }
+      }
+    }
+  }
+}
