@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "disma-cli",
+  "version": "0.9.5",
+  "repository": "vigenere23/disma",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vigenere23/disma/releases/download/disma-cli/v0.9.5/disma-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "ad828982cb823fde3da521869c719b18037f962ba45c3afadf493bec4f0cd2ef",
+      "size": 2209725,
+      "format": "tar.gz",
+      "releaseTag": "disma-cli/v0.9.5",
+      "binaries": {
+        "disma": {
+          "path": "disma",
+          "sha256": "2c21e65cc97b090df2f7b4dbb738e01f0f67029c2cd174d269efb3aa9298145e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vigenere23/disma/releases/download/disma-cli/v0.9.5/disma-x86_64-apple-darwin.tar.gz",
+      "sha256": "90f01f3f752b66e8010ddb4ca8bd602dc6bfa12b203f1f927685c802cf953c9a",
+      "size": 2092504,
+      "format": "tar.gz",
+      "releaseTag": "disma-cli/v0.9.5",
+      "binaries": {
+        "disma": {
+          "path": "disma",
+          "sha256": "57b60e498a522dd735ea2db35f4dd0ed69fcaff2eed5ac604975870558910f15"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vigenere23/disma/releases/download/disma-cli/v0.9.5/disma-aarch64-apple-darwin.tar.gz",
+      "sha256": "11023fd5d6b4c285ebac6e4b3e8bd1b68437a0120da41b3795cf38855dc1223a",
+      "size": 2400849,
+      "format": "tar.gz",
+      "releaseTag": "disma-cli/v0.9.5",
+      "binaries": {
+        "disma": {
+          "path": "disma",
+          "sha256": "9383833f08429f5216f9a87aa9ac4d2f1a38613c5117ca8d3963f69017fcb1ea"
+        }
+      }
+    }
+  }
+}
