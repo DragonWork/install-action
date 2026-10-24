@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-tarpaulin",
+  "version": "0.37.5",
+  "repository": "xd009642/tarpaulin",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xd009642/tarpaulin/releases/download/0.37.5/cargo-tarpaulin-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.37.5",
+      "sha256": "edd214e46aedd1692bf8601f9754da5c6ade83da78f73d291f5dd611c940b590",
+      "size": 5778425,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-tarpaulin": {
+          "path": "cargo-tarpaulin",
+          "sha256": "3417ccf6efdfa2665b6f49dd60d7e4138eef955349ecf693f1dda50179bb1975"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/xd009642/tarpaulin/releases/download/0.37.5/cargo-tarpaulin-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.37.5",
+      "sha256": "e74a781283a3843185d93370c8af9be224a4edaab0aa5ed421e1c973d751bc8f",
+      "size": 5839054,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-tarpaulin": {
+          "path": "cargo-tarpaulin",
+          "sha256": "255f827a9b6ea6df69f61c9922a24dd79ee9ae7ecb312fb3292502107a570ecf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xd009642/tarpaulin/releases/download/0.37.5/cargo-tarpaulin-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.37.5",
+      "sha256": "7cab0bcc37d1b5ce535cd4d6ddd4ace09d89f36188e9590f7e12cba7ae8e18d3",
+      "size": 3811138,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-tarpaulin": {
+          "path": "cargo-tarpaulin",
+          "sha256": "864630089c1868d841aa54523acc0044384754a9b36d9723de185b3634978e48"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xd009642/tarpaulin/releases/download/0.37.5/cargo-tarpaulin-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.37.5",
+      "sha256": "079019d2881bc80cbc98daafbe23735a757548388f39321713a6f5bf4c19e41d",
+      "size": 3558700,
+      "format": "tar.gz",
+      "binaries": {
+        "cargo-tarpaulin": {
+          "path": "cargo-tarpaulin",
+          "sha256": "0e6154f6c4bbd2132b8d45bf438368cd16d589f40390a22384781be4d0e1eb8b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/xd009642/tarpaulin/releases/download/0.37.5/cargo-tarpaulin-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.37.5",
+      "sha256": "1e8fe6c852c93ae9ed079fbcb28ddcbe053e2a334d32dbab00c92b5218003ad3",
+      "size": 4063679,
+      "format": "zip",
+      "binaries": {
+        "cargo-tarpaulin.exe": {
+          "path": "cargo-tarpaulin.exe",
+          "sha256": "bbe515fa26a88b1fc00083e6f350f82d73324ac3bb436a4e0a77c27f1c4ba133"
+        }
+      }
+    }
+  }
+}
