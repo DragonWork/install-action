@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "kmeans_colors",
+  "version": "0.7.1",
+  "repository": "okaneco/kmeans-colors",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/okaneco/kmeans-colors/releases/download/0.7.1/kmeans_colors-0.7.1-linux-x86_64.tar.gz",
+      "releaseTag": "0.7.1",
+      "sha256": "3e4a3976bf3ed4717a15a8ab7ab178a5c0d0e357d881e7df0a9dc83515fb4141",
+      "size": 736108,
+      "format": "tar.gz",
+      "binaries": {
+        "kmeans_colors": {
+          "path": "kmeans_colors",
+          "sha256": "d703f8ea38f1c5b668465f09a894a9445351d385f055b0414e3c0c5b652c4378"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/okaneco/kmeans-colors/releases/download/0.7.1/kmeans_colors-0.7.1-macos-aarch64.tar.gz",
+      "releaseTag": "0.7.1",
+      "sha256": "f73ba0c7b17d5c8188f1c80eac7ebae83b089ffb083c3890d9c73c6c43e7f689",
+      "size": 666856,
+      "format": "tar.gz",
+      "binaries": {
+        "kmeans_colors": {
+          "path": "kmeans_colors",
+          "sha256": "08e4c8d76a40f0c467c5e87a865da6539fc4ff03e94a3062786d248b9a65764f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/okaneco/kmeans-colors/releases/download/0.7.1/kmeans_colors-0.7.1-windows-x86_64.tar.gz",
+      "releaseTag": "0.7.1",
+      "sha256": "eece542620c0a42bb83f667f2f2d3c44ecbb34c1b514ec9b623d5f13457f10a3",
+      "size": 624172,
+      "format": "tar.gz",
+      "binaries": {
+        "kmeans_colors.exe": {
+          "path": "kmeans_colors.exe",
+          "sha256": "136531530bf2bc4ea16e89838f35c113e4611a49fcfabe09ebd1ab220ab6ce90"
+        }
+      }
+    }
+  }
+}
