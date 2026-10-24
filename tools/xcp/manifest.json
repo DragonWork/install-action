@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "xcp",
+  "version": "0.24.8",
+  "repository": "tarka/xcp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tarka/xcp/releases/download/xcp-v0.24.8/xcp-v0.24.8-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "xcp-v0.24.8",
+      "sha256": "b7163f44c837fe8f7e3cc147bfe5db96841c9f65252f0f17cda885db3bc97331",
+      "size": 1230202,
+      "format": "tar.gz",
+      "binaries": {
+        "xcp": {
+          "path": "xcp-v0.24.8-x86_64-unknown-linux-gnu/bin/xcp",
+          "sha256": "dfbd351e4ca949cab1f9736198a12c9dd664b72cdb7539dba8204f2fa4b0cddf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tarka/xcp/releases/download/xcp-v0.24.8/xcp-v0.24.8-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "xcp-v0.24.8",
+      "sha256": "57d618531f2776cefc61b352d6661084fdb83821916368ecf8a9ef7d98639cd5",
+      "size": 1141930,
+      "format": "tar.gz",
+      "binaries": {
+        "xcp": {
+          "path": "xcp-v0.24.8-aarch64-unknown-linux-gnu/bin/xcp",
+          "sha256": "5c1d272adf069700423cfe3d1141ee6aa8bf142c0fe4629f2969b647d781a5f4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tarka/xcp/releases/download/xcp-v0.24.8/xcp-v0.24.8-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "xcp-v0.24.8",
+      "sha256": "3769a5573df97139964a1184a7d6822cf5239c6f1066569492c141308f12a06a",
+      "size": 1067961,
+      "format": "tar.gz",
+      "binaries": {
+        "xcp": {
+          "path": "xcp-v0.24.8-aarch64-apple-darwin/bin/xcp",
+          "sha256": "7b5c371a5824bd8207c3e0d73bbd458501a71856c9f4c692a8dd5d2e6a8438c3"
+        }
+      }
+    }
+  }
+}
