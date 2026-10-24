@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "stak-compile",
+  "version": "0.12.33",
+  "repository": "raviqqe/stak",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/raviqqe/stak/releases/download/v0.12.33/stak_0.12.33_linux_amd64.tar.gz",
+      "releaseTag": "v0.12.33",
+      "sha256": "965ffa9ac09e3c19f2fb1901562dfc4c738dcfd9f93987f33176e05acd00c6d5",
+      "size": 1475150,
+      "format": "tar.gz",
+      "binaries": {
+        "stak-compile": {
+          "path": "stak-compile",
+          "sha256": "a78a456005ef1569cbb6d04d2b67e43d8709ae21af18d93dca9e01602fd4e824"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/raviqqe/stak/releases/download/v0.12.33/stak_0.12.33_linux_arm64.tar.gz",
+      "releaseTag": "v0.12.33",
+      "sha256": "9e8365f62c193c838d509300c26843f2f735ddaf40c2544a767e55428b46073a",
+      "size": 1417950,
+      "format": "tar.gz",
+      "binaries": {
+        "stak-compile": {
+          "path": "stak-compile",
+          "sha256": "6a6ee33bd4a436a390fce7a42d4a753509ba3dca978ab15e77d3648e3d839b36"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/raviqqe/stak/releases/download/v0.12.33/stak_0.12.33_darwin_amd64.tar.gz",
+      "releaseTag": "v0.12.33",
+      "sha256": "64f387c1709fb6e5dfc67001b98873185327f5795be1004df41b90885b50c048",
+      "size": 1478821,
+      "format": "tar.gz",
+      "binaries": {
+        "stak-compile": {
+          "path": "stak-compile",
+          "sha256": "53226daa5f502811e2b588b407377416d5dcc40a719c383320e2230992c6e79b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/raviqqe/stak/releases/download/v0.12.33/stak_0.12.33_darwin_arm64.tar.gz",
+      "releaseTag": "v0.12.33",
+      "sha256": "9546d755f67b14bcacc6c4ecac74c64309e8bd963bb7dac2965c09f281b72160",
+      "size": 1401255,
+      "format": "tar.gz",
+      "binaries": {
+        "stak-compile": {
+          "path": "stak-compile",
+          "sha256": "3d20d6045fec436c39e4dc925f4b814d76c1457c2a9ff1f499020cf27f4ccb61"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/raviqqe/stak/releases/download/v0.12.33/stak_0.12.33_windows_amd64.tar.gz",
+      "releaseTag": "v0.12.33",
+      "sha256": "41a016f0cd1480e7e09635d462b7b93f24ee37f2fc3bfa7f6fa1ef111ff14041",
+      "size": 1507305,
+      "format": "tar.gz",
+      "binaries": {
+        "stak-compile.exe": {
+          "path": "stak-compile.exe",
+          "sha256": "140867a32a09dc80bd9e278efee175986f13066d12f27319d3440fbe4cd94cb9"
+        }
+      }
+    }
+  }
+}
