@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gelatyx",
+  "version": "0.3.0",
+  "repository": "azzamsa/gelatyx",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/azzamsa/gelatyx/releases/download/v0.3.0/gelatyx-0.3.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "67d1145c9a72d7d349ac609ab90d06bcb067280e9bb124a41f0cc6b382c2186b",
+      "size": 1505708,
+      "format": "tar.gz",
+      "binaries": {
+        "gelatyx": {
+          "path": "gelatyx-0.3.0/gelatyx",
+          "sha256": "6e3d97b7006b9c85a657c24d55afc0d51c211338685e65265fd1a436e1e7e768"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/azzamsa/gelatyx/releases/download/v0.3.0/gelatyx-0.3.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.0",
+      "sha256": "9344b525703693c36401fc9f8279aa60228fd14bb463a3ba17ab90001770644d",
+      "size": 1069599,
+      "format": "tar.gz",
+      "binaries": {
+        "gelatyx": {
+          "path": "gelatyx-0.3.0/gelatyx",
+          "sha256": "66d584d8b704baf36bafdc1590045af79a880e6636f4923bc874a95b62f1fbd1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/azzamsa/gelatyx/releases/download/v0.3.0/gelatyx-0.3.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.0",
+      "sha256": "822e2f7a13d6888c9ebf2bdfce3c41749908229170719f7d3bb2babdf7dd5d0a",
+      "size": 751254,
+      "format": "zip",
+      "binaries": {
+        "gelatyx.exe": {
+          "path": "gelatyx-0.3.0/gelatyx.exe",
+          "sha256": "1794512b8331485bb0db4b44508f70c7966469f37146bc6d4f2501301d08e8c1"
+        }
+      }
+    }
+  }
+}
