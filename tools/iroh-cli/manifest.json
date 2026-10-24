@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "iroh-cli",
+  "version": "0.28.1",
+  "repository": "n0-computer/iroh",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.28.1/iroh-v0.28.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.28.1",
+      "sha256": "eefc9e32add01f4a9b50a2a3a688b55011567d43bc8f33dd345110eac194f334",
+      "size": 10986013,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh": {
+          "path": "./iroh",
+          "sha256": "5273d5983fb180081618ea7eb035233b26443a7863be81bdbb049592b6c447a7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.28.1/iroh-v0.28.1-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.28.1",
+      "sha256": "3f6dce481eae9f6ce786ea3a2693be88a20fd574af1ac600be6e8c477591e16e",
+      "size": 10149364,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh": {
+          "path": "./iroh",
+          "sha256": "af6f1233ee859fcb07e6a725f949f3dd3ef001c1a494d6f78843fcf2d2b07cf0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.28.1/iroh-v0.28.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.28.1",
+      "sha256": "5b6439431cdceb7c921784ce0b93df1d8c098e7e95829875b744d2f219d093bb",
+      "size": 10088821,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh": {
+          "path": "./iroh",
+          "sha256": "7aa4d0ca564ed4fb15d97ee4ea67abca7c67a71709637d893a4f7bf157a1519c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.28.1/iroh-v0.28.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.28.1",
+      "sha256": "642acf72867a64ad0a2058f12e22def2354d42b6a0efeaf373b73f5864bada44",
+      "size": 9178918,
+      "format": "tar.gz",
+      "binaries": {
+        "iroh": {
+          "path": "./iroh",
+          "sha256": "994e51e1a1dae02c599d6684894bd54a7bca9445b12d024941ab1557010ade99"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/n0-computer/iroh/releases/download/v0.28.1/iroh-v0.28.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.28.1",
+      "sha256": "70715b74fdf30997d487d0b43a244d581fe6062285577ea237206224e34e6b61",
+      "size": 9371359,
+      "format": "zip",
+      "binaries": {
+        "iroh.exe": {
+          "path": "iroh.exe",
+          "sha256": "45bed6c87c20891ec029d3d64995f406a0d789ba85da9d486f54622ec424fb2f"
+        }
+      }
+    }
+  }
+}
