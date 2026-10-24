@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "hx",
+  "version": "0.7.1",
+  "repository": "sitkevij/hex",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sitkevij/hex/releases/download/v0.7.1/hx_0.7.1-1_amd64.deb",
+      "sha256": "4be3719d47e10862af2bd0e928b303db8018b7c3a4028dba249e7ea3df7ede11",
+      "size": 326284,
+      "format": "deb",
+      "releaseTag": "v0.7.1",
+      "binaries": {
+        "hx": {
+          "path": "./usr/bin/hx",
+          "sha256": "9521ffd719f7610100ccdbef6694f6a30c593e51b5d0602a2e262e2ed0d037f2"
+        }
+      }
+    }
+  }
+}
