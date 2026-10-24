@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "mdbook-trunk",
+  "version": "1.0.5",
+  "repository": "RustForWeb/mdbook-plugins",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-trunk-v1.0.5-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.5",
+      "sha256": "cd8268b35a147bfcf719dbaf8c15924259a0d56875b189eadd95b44602fdb65a",
+      "size": 9709819,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-trunk": {
+          "path": "mdbook-trunk",
+          "sha256": "06255746d8811c19d2c888338198662a8d2a8ebd5f11e54facf5513beb2a287c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-trunk-v1.0.5-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v1.0.5",
+      "sha256": "771dc2750c22b4fec6d872f5f2783ff5e180c30e751d7304a107006a13f6ba2e",
+      "size": 9819922,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-trunk": {
+          "path": "mdbook-trunk",
+          "sha256": "d0e2eae67865c911e358d7079ed376d7744cfcdfeb95971db7167f5dae70b66d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-trunk-v1.0.5-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.5",
+      "sha256": "4b3ee6aaee9d3f92c04fbdf3c4778a28334f074a70e092b9a1cce3ef8339b8a1",
+      "size": 6954921,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-trunk": {
+          "path": "mdbook-trunk",
+          "sha256": "91ae518db932db4c2b97d4675c38528ad5184bfe21f15f354df9fe305155f54d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-trunk-v1.0.5-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.5",
+      "sha256": "341656b5168b1a33f95e174fe7a16c1eb979a93701399640a617a654decdd44c",
+      "size": 6581059,
+      "format": "tar.gz",
+      "binaries": {
+        "mdbook-trunk": {
+          "path": "mdbook-trunk",
+          "sha256": "a23a481f8ce64f00e88488e0c831e680aa968f2cef18e90bfbba3cc0481f1313"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RustForWeb/mdbook-plugins/releases/download/v1.0.5/mdbook-trunk-v1.0.5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v1.0.5",
+      "sha256": "7508b9983561bc000e37c25b82295a0ab796a8e0af5a2078369ab892a31c73b1",
+      "size": 7115682,
+      "format": "zip",
+      "binaries": {
+        "mdbook-trunk.exe": {
+          "path": "mdbook-trunk.exe",
+          "sha256": "58a20bd0154bda7bb35f23a2a97d6ff5176d1c59e5887f98a0f02f6b91c8b23d"
+        }
+      }
+    }
+  }
+}
