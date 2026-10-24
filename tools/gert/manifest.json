@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "gert",
+  "version": "0.2.6",
+  "repository": "mcdallas/gert",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mcdallas/gert/releases/download/v0.2.6/gert_v0.2.6_x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.2.6",
+      "sha256": "86f0741ac609ebf742eab8b4b1cc6fe69dbe904add975bfa9e1cedd09cc9da35",
+      "size": 4418232,
+      "format": "tar.gz",
+      "binaries": {
+        "gert": {
+          "path": "gert",
+          "sha256": "c619c86752315b38b903977b412e7ce9a1c05a21e86e563e608b50c3fdf12151"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mcdallas/gert/releases/download/v0.2.6/gert_v0.2.6_x86_64-pc-windows-gnu.zip",
+      "releaseTag": "v0.2.6",
+      "sha256": "483a9dbb4ad50a8468337b0d0389790cc71c025f809869944738a4d0906346bd",
+      "size": 6087622,
+      "format": "zip",
+      "binaries": {
+        "gert.exe": {
+          "path": "gert.exe",
+          "sha256": "6b481b9b4994784b48f365c9405d514005b3fad6df31e3a294c01107ca490310"
+        }
+      }
+    }
+  }
+}
