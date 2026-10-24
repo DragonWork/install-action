@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "svinst",
+  "version": "0.1.6",
+  "repository": "sgherbst/svinst",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sgherbst/svinst/releases/download/v0.1.6/svinst-v0.1.6-x86_64-lnx.zip",
+      "sha256": "6346714b3c67d6f60c595eecdb0af0d0a38ad37fe84643b1b468b2544507161a",
+      "size": 11281005,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "svinst": {
+          "path": "svinst",
+          "sha256": "c84a38e811cc9c1ff84ef2366bf6140bc3c89f7b917ecf791d1bb47a9db9852e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sgherbst/svinst/releases/download/v0.1.6/svinst-v0.1.6-x86_64-mac.zip",
+      "sha256": "773d9a7c24e6c04c7fe1dc9471bada5df316a88eed226e308dbcd518f6e527b5",
+      "size": 9799720,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "svinst": {
+          "path": "svinst",
+          "sha256": "ed78498b1b5b7c231c2c33b8ab462e357c1b22c0c0495c97a2c15fdd70b7e266"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sgherbst/svinst/releases/download/v0.1.6/svinst-v0.1.6-x86_64-win.zip",
+      "sha256": "c051b0d2af0a95722967f8b063ad35e2a0f0180ecd07f8170ad16431c7d76c80",
+      "size": 9997887,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "svinst.exe": {
+          "path": "target/x86_64-pc-windows-msvc/release/svinst.exe",
+          "sha256": "13cebe48adfca1036d8850e9cab1ec97e1069f6d54f9979e5595153a648bb70a"
+        }
+      }
+    }
+  }
+}
