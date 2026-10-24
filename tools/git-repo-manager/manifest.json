@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "git-repo-manager",
+  "version": "0.12.0",
+  "repository": "hakoerber/git-repo-manager",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hakoerber/git-repo-manager/releases/download/v0.12.0/git-repo-manager-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.12.0",
+      "sha256": "09a2f196ec4a13208bf517712edd93c96a24a1a78f2923a6d334d225630d3b48",
+      "size": 4464488,
+      "format": "tar.xz",
+      "binaries": {
+        "grm": {
+          "path": "git-repo-manager-x86_64-unknown-linux-musl/grm",
+          "sha256": "3704fe0115623f4cbe6641b2ea333ce9bcc852891d16cf71d121543827382655"
+        }
+      }
+    }
+  }
+}
