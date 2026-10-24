@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "posh-tabcomplete",
+  "version": "0.5.0",
+  "repository": "domsleee/posh-tabcomplete",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/domsleee/posh-tabcomplete/releases/download/0.5.0/posh-tabcomplete-0.5.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.5.0",
+      "sha256": "ca14d14f1dda10e5ef774681795d5f82e8fa6a79ab7c680a30bf8e23e64ec4f1",
+      "size": 4132848,
+      "format": "tar.gz",
+      "binaries": {
+        "posh-tabcomplete": {
+          "path": "posh-tabcomplete",
+          "sha256": "0911568c9fe440e46ef6ecab0da23661ea5c9f0c51ad78273c2292f7256d1d20"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/domsleee/posh-tabcomplete/releases/download/0.5.0/posh-tabcomplete-0.5.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.5.0",
+      "sha256": "310e2d3c1ab200a5dbe3275d4d8f656d88147f14326b6baa0e463549ec5bc1e7",
+      "size": 3939853,
+      "format": "tar.gz",
+      "binaries": {
+        "posh-tabcomplete": {
+          "path": "posh-tabcomplete",
+          "sha256": "82ce1f83648e0ffe9ec9cb127e9228a144f3dfa69ff252b758923a58e5ab2df4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/domsleee/posh-tabcomplete/releases/download/0.5.0/posh-tabcomplete-0.5.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.5.0",
+      "sha256": "8bb4452106d708e070d990816856b59cac74be979f1db46c245a7c41e26d4d24",
+      "size": 4087427,
+      "format": "zip",
+      "binaries": {
+        "posh-tabcomplete.exe": {
+          "path": "posh-tabcomplete.exe",
+          "sha256": "5a9efa83a60a5031dde64e0aa2607ef0148da2a624dc1b0d54b7b8cdfbcf998a"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/domsleee/posh-tabcomplete/releases/download/0.5.0/posh-tabcomplete-0.5.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.5.0",
+      "sha256": "c1912eee4053d734777a288f66861321393b8bc245f2c9dbb61ba52b30b59ca4",
+      "size": 3843971,
+      "format": "zip",
+      "binaries": {
+        "posh-tabcomplete.exe": {
+          "path": "posh-tabcomplete.exe",
+          "sha256": "ef9da5eeb5dd84282d59cb7e41a225716b43b8d7406c754e897cf0fae7284058"
+        }
+      }
+    }
+  }
+}
