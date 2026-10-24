@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cage",
+  "version": "0.3.6",
+  "repository": "faradayio/cage",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/faradayio/cage/releases/download/v0.3.6/cage-v0.3.6-linux.zip",
+      "sha256": "fedef31a2ba314b68ddfb1d0d13f57a8ec5e51afe599b710a4add4ed64bf8a82",
+      "size": 8476584,
+      "format": "zip",
+      "releaseTag": "v0.3.6",
+      "binaries": {
+        "cage": {
+          "path": "cage",
+          "sha256": "094ce12b1a0fcf56953c7cc71ffdfd825132f8e621db5d4249c7934e4d5383cd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/faradayio/cage/releases/download/v0.3.6/cage-v0.3.6-osx.zip",
+      "sha256": "37fe4d22b686d888ac4906bdea169d3eb0c3cf24e3dd7338bbda2cf7947b9229",
+      "size": 5266282,
+      "format": "zip",
+      "releaseTag": "v0.3.6",
+      "binaries": {
+        "cage": {
+          "path": "cage",
+          "sha256": "949a1f4aaebd43ebbb891108dfd06b80916da6bf444e02a300ccb8c67989fc4d"
+        }
+      }
+    }
+  }
+}
