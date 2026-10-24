@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "devops-metrics-tools",
+  "version": "0.0.11",
+  "repository": "shwld/devperf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shwld/devperf/releases/download/v0.0.11/devops-metrics-tools-v0.0.11-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.0.11",
+      "sha256": "e0f5816460bafd445f73a834d128aa92f7bc392398f9d91f96756d9d561524de",
+      "size": 3773296,
+      "format": "tar.xz",
+      "binaries": {
+        "devops-metrics-tools": {
+          "path": "devops-metrics-tools-v0.0.11-x86_64-unknown-linux-gnu/devops-metrics-tools",
+          "sha256": "364289b2fcb29f00ea7e73ebf7bed4422c4438ba9d6afc9377ff1ef0acafe9ea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/shwld/devperf/releases/download/v0.0.11/devops-metrics-tools-v0.0.11-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.0.11",
+      "sha256": "59dcb2363c70fe341eb434322cec752b36546a8b7c70fb2054afe3ea1fe5b8e1",
+      "size": 2899820,
+      "format": "tar.xz",
+      "binaries": {
+        "devops-metrics-tools": {
+          "path": "devops-metrics-tools-v0.0.11-x86_64-apple-darwin/devops-metrics-tools",
+          "sha256": "e9d330109bb251b171864fe4423c930c34247261a3735267006743406d1b5ef6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/shwld/devperf/releases/download/v0.0.11/devops-metrics-tools-v0.0.11-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.0.11",
+      "sha256": "9f9d6e9e53627cfa27d99d6344813ac00d2b86fd78a4673a3403c5f46b45dd64",
+      "size": 2745032,
+      "format": "tar.xz",
+      "binaries": {
+        "devops-metrics-tools": {
+          "path": "devops-metrics-tools-v0.0.11-aarch64-apple-darwin/devops-metrics-tools",
+          "sha256": "50036cb8096e159d3e68928b3f136cd34d4997487cd5e1f4643a045b7adc8383"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/shwld/devperf/releases/download/v0.0.11/devops-metrics-tools-v0.0.11-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.0.11",
+      "sha256": "88318e57befaf91e841a0b3bd888f04359a61df386fe4968488760dc14570d5f",
+      "size": 9740539,
+      "format": "zip",
+      "binaries": {
+        "devops-metrics-tools.exe": {
+          "path": "devops-metrics-tools.exe",
+          "sha256": "6d99177cfd576990c1b7e0cf9f4476985f63dd0309a5ec473530755a574c6d54"
+        }
+      }
+    }
+  }
+}
