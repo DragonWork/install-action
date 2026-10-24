@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "name": "bigtools",
+  "version": "0.5.8",
+  "repository": "jackh726/bigtools",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jackh726/bigtools/releases/download/v0.5.8/bigtools-linux-gnu.zip",
+      "sha256": "48dfd2ae869e422f6667d930c9936034a487744eec87abaac3cf1b8abe8171cd",
+      "size": 26291033,
+      "format": "zip",
+      "releaseTag": "v0.5.8",
+      "binaries": {
+        "bedgraphtobigwig": {
+          "path": "release/bedgraphtobigwig",
+          "sha256": "52fb262c9508406d49382db1b6c5031f0c28695f20e133b656193d4d0f50a68f"
+        },
+        "bedtobigbed": {
+          "path": "release/bedtobigbed",
+          "sha256": "d96b96dd1302f48d61f2535470c42452e8ccead7bbb0221711af8f4070297955"
+        },
+        "bigbedinfo": {
+          "path": "release/bigbedinfo",
+          "sha256": "5accd120236e1a28599e798a0db3d601628bd6113aa19210b5ef2cda109efae8"
+        },
+        "bigbedtobed": {
+          "path": "release/bigbedtobed",
+          "sha256": "3d34b1212b3982d1c4eaad5ee6a100efb41d1445b027d59a8cb9c4c21c056a80"
+        },
+        "bigtools": {
+          "path": "release/bigtools",
+          "sha256": "b9f806a2f49d5b21aa0db4b3424c247c5fb65e990743e9162b2a576563e06461"
+        },
+        "bigwigaverageoverbed": {
+          "path": "release/bigwigaverageoverbed",
+          "sha256": "5ab89d0140156d56953a25824e11be53eee772fa0bec61d0d2d5e2aa468c52b6"
+        },
+        "bigwiginfo": {
+          "path": "release/bigwiginfo",
+          "sha256": "16d97ac21f3e418a16185dad80e05db30885c3058104dcca2119e18ebb62a279"
+        },
+        "bigwigmerge": {
+          "path": "release/bigwigmerge",
+          "sha256": "2d769b437a25e8ada922040e5357bb095f937cb4ae9b98fbcc6fe14813f3d0cc"
+        },
+        "bigwigtobedgraph": {
+          "path": "release/bigwigtobedgraph",
+          "sha256": "a9b7d1f6c43445bb5f03ccc1e7163489c9ed311bca035bd74d8560ebd82ab07d"
+        },
+        "bigwigvaluesoverbed": {
+          "path": "release/bigwigvaluesoverbed",
+          "sha256": "2fbddb27e4be001049a28212d45b789ff018f3930fb00dd34f1ae950ab8eef4c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jackh726/bigtools/releases/download/v0.5.8/bigtools-apple-darwin.zip",
+      "sha256": "42d5c6f4e078682896e15a82ba60539d867ceb6558d3cbf109491450882d7404",
+      "size": 25753899,
+      "format": "zip",
+      "releaseTag": "v0.5.8",
+      "binaries": {
+        "bedgraphtobigwig": {
+          "path": "release/bedgraphtobigwig",
+          "sha256": "f1c102e284179aa54140b0f5f3d8a115e389c6415ca80aec9e5a28ad41737b40"
+        },
+        "bedtobigbed": {
+          "path": "release/bedtobigbed",
+          "sha256": "3eed5c0ad23c7f6cbd5b200a993b87488e8564f5ba0ccc6f13ba1a712c4afd8a"
+        },
+        "bigbedinfo": {
+          "path": "release/bigbedinfo",
+          "sha256": "eeaaf4baa48d95bcd8c04ddf2219066ad4b29aa17116f7098114209da94feb38"
+        },
+        "bigbedtobed": {
+          "path": "release/bigbedtobed",
+          "sha256": "8ef2abcb67063fb0cbd1ae92e3ba6b2a6967adfdfb6f465320a7a05be86e17ef"
+        },
+        "bigtools": {
+          "path": "release/bigtools",
+          "sha256": "6b2a6e8cee82d78d4ca8a073c9e6757bc01063f97ef5deb9b31e1d836440ec55"
+        },
+        "bigwigaverageoverbed": {
+          "path": "release/bigwigaverageoverbed",
+          "sha256": "bb3836b878070b9608d2179e1c1c8c98f109965c765fdce9265a749f848ffaf1"
+        },
+        "bigwiginfo": {
+          "path": "release/bigwiginfo",
+          "sha256": "c62317f95a8e6c2e5db168f037d2f1fe6e395451f7df44a251da837e8a709599"
+        },
+        "bigwigmerge": {
+          "path": "release/bigwigmerge",
+          "sha256": "c957ccc37563159ac388550db05b7b06a3e5de9b3a2fb7a39f9408f175db5f5f"
+        },
+        "bigwigtobedgraph": {
+          "path": "release/bigwigtobedgraph",
+          "sha256": "464bc10de386111cc6861d647aad42867615e4c15485aa2089004ce8fab711e6"
+        },
+        "bigwigvaluesoverbed": {
+          "path": "release/bigwigvaluesoverbed",
+          "sha256": "36cdabdc5d4bbe6e8e833758fcfb835e0bc17830a6611822f439501323e3313a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jackh726/bigtools/releases/download/v0.5.8/bigtools-windows-msvc.zip",
+      "sha256": "a5da334d2dda1bbcf448e2c0f4b3087651a8ad6bc754aea063526bd9cca80b48",
+      "size": 28892948,
+      "format": "zip",
+      "releaseTag": "v0.5.8",
+      "binaries": {
+        "bedgraphtobigwig.exe": {
+          "path": "release/bedgraphtobigwig.exe",
+          "sha256": "82a5dd0b05a8c86ab8e20ca7f84f1672f2f073c613f152c5f14f191947c62e91"
+        },
+        "bedtobigbed.exe": {
+          "path": "release/bedtobigbed.exe",
+          "sha256": "8ef4f5be5da51ec4c347ebee152a18808f1cb90c356284abd9255ef436f19150"
+        },
+        "bigbedinfo.exe": {
+          "path": "release/bigbedinfo.exe",
+          "sha256": "091301a87bfd3404804a348d8222584e628c6a7a43fcc38459a92814dda84afa"
+        },
+        "bigbedtobed.exe": {
+          "path": "release/bigbedtobed.exe",
+          "sha256": "25091d3ec1cbdd84f43c8c68c0221964d401fbc37367c88dfa49111db195ae42"
+        },
+        "bigtools.exe": {
+          "path": "release/bigtools.exe",
+          "sha256": "0d8a0e1271e2729e442a63ae2c0b87fffafb7cec80ab2067c90ae5e17a31e755"
+        },
+        "bigwigaverageoverbed.exe": {
+          "path": "release/bigwigaverageoverbed.exe",
+          "sha256": "46395eaffb4812c8dc8b1827e791d3b26fa70f70f9dbb48425e6221a1319000d"
+        },
+        "bigwiginfo.exe": {
+          "path": "release/bigwiginfo.exe",
+          "sha256": "a7e85409f053440d143f598b5b36eb7c2e70e87770d2c9573613f10b6ec1f881"
+        },
+        "bigwigmerge.exe": {
+          "path": "release/bigwigmerge.exe",
+          "sha256": "d35c9f0bda7025cafd1855977eaeb93436ade60bcf3383006b543a93841b98e1"
+        },
+        "bigwigtobedgraph.exe": {
+          "path": "release/bigwigtobedgraph.exe",
+          "sha256": "26ce4d07a0d2bb1530c1ee45a0f03cbc9dd7344391c9303b43717f1412d54989"
+        },
+        "bigwigvaluesoverbed.exe": {
+          "path": "release/bigwigvaluesoverbed.exe",
+          "sha256": "121898206158a5d2e8e269e5ef5d35ad8e78b48f708560c9ff50f4baf918c494"
+        }
+      }
+    }
+  }
+}
