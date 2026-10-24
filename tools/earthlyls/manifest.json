@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "earthlyls",
+  "version": "0.5.5",
+  "repository": "glehmann/earthlyls",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/glehmann/earthlyls/releases/download/0.5.5/earthlyls-0.5.5-linux-amd64.tar.gz",
+      "releaseTag": "0.5.5",
+      "sha256": "48f32e25b9611adf452d25ec8c83f200dc0fa9eab1f35251493ab61825a240bd",
+      "size": 1781841,
+      "format": "tar.gz",
+      "binaries": {
+        "earthlyls": {
+          "path": "earthlyls-0.5.5-linux-amd64/earthlyls",
+          "sha256": "5158bfe31974ad28f050b566df13c79d32bba373d9bc6b72becd97d5247a8596"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/glehmann/earthlyls/releases/download/0.5.5/earthlyls-0.5.5-linux-arm64.tar.gz",
+      "releaseTag": "0.5.5",
+      "sha256": "1014f27649c49cb5b03158d19e0131f54e9ec473c708350aa3e5f2201330fd17",
+      "size": 1671179,
+      "format": "tar.gz",
+      "binaries": {
+        "earthlyls": {
+          "path": "earthlyls-0.5.5-linux-arm64/earthlyls",
+          "sha256": "b13dd599caeac3222677c1749d1d531b0be301cd04e1e95e86c44aaf9cde09ff"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/glehmann/earthlyls/releases/download/0.5.5/earthlyls-0.5.5-macos-amd64.tar.gz",
+      "releaseTag": "0.5.5",
+      "sha256": "ed8fc4ecaa3224c97d39e686e02b57dff983b5e48cd1ac915ac91f1ad006d50d",
+      "size": 1576460,
+      "format": "tar.gz",
+      "binaries": {
+        "earthlyls": {
+          "path": "earthlyls-0.5.5-macos-amd64/earthlyls",
+          "sha256": "9907e30ae9f8630054df7d3d519694aa31a73a0b86e938ef3cd48790844f2304"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/glehmann/earthlyls/releases/download/0.5.5/earthlyls-0.5.5-macos-arm64.tar.gz",
+      "releaseTag": "0.5.5",
+      "sha256": "3d83afc8fb819fab2f5f6b7d20646cc50cbe8f5d53984933fd9f8fb96d223f0c",
+      "size": 1530547,
+      "format": "tar.gz",
+      "binaries": {
+        "earthlyls": {
+          "path": "earthlyls-0.5.5-macos-arm64/earthlyls",
+          "sha256": "163cb92e841166773f4a6393ba3c43623241e5889f14a2ec10977eab1afd2763"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/glehmann/earthlyls/releases/download/0.5.5/earthlyls-0.5.5-windows-amd64.zip",
+      "releaseTag": "0.5.5",
+      "sha256": "c8cca7661d6f4ca27ece6d4c26c73a99a0ae89b6bcfb1dbeabbd2dece9545d30",
+      "size": 1562927,
+      "format": "zip",
+      "binaries": {
+        "earthlyls.exe": {
+          "path": "earthlyls-0.5.5-windows-amd64/earthlyls.exe",
+          "sha256": "8f405bee91425f36e0aee5fefb4f70611a91362635359bf4a34a2218f9079738"
+        }
+      }
+    }
+  }
+}
