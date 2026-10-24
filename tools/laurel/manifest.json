@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "laurel",
+  "version": "0.8.2",
+  "repository": "threathunters-io/laurel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/threathunters-io/laurel/releases/download/v0.8.2/laurel-0.8.2-x86_64-musl.tar.gz",
+      "sha256": "89f6bfbed42a5b6824aa847cecf43abc55dafe6778515c3514be43c037ef2662",
+      "size": 2256488,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.2",
+      "binaries": {
+        "laurel": {
+          "path": "./laurel-0.8.2-x86_64-musl/bin/laurel",
+          "sha256": "41b5797b453fb85070780c36bf87fb9f3cf0f117df921cc75ec7e40a709cf189"
+        },
+        "laurel2audit": {
+          "path": "./laurel-0.8.2-x86_64-musl/bin/laurel2audit",
+          "sha256": "f65b065160175692592c14f23756842aab5563db6dc160736adbae9e6428e39d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/threathunters-io/laurel/releases/download/v0.8.2/laurel-0.8.2-aarch64-glibc.tar.gz",
+      "sha256": "fb15e9ff013a9ec65b8c81e76aed684a13d4f72ba68dcd8fdf8c1ba4e35c6a50",
+      "size": 1999410,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.2",
+      "binaries": {
+        "laurel": {
+          "path": "./laurel-0.8.2-aarch64-glibc/bin/laurel",
+          "sha256": "f831f79a6d15bcc833f8e2d60a27d81f39d81c5a3a4e844691fa1a43ca03c5ba"
+        },
+        "laurel2audit": {
+          "path": "./laurel-0.8.2-aarch64-glibc/bin/laurel2audit",
+          "sha256": "52ac6278113535e3acfd5ce77309642c2c9f08d878a5cae8c58fa7942664c745"
+        }
+      }
+    }
+  }
+}
