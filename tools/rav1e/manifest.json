@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "rav1e",
+  "version": "0.8.1",
+  "repository": "xiph/rav1e",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xiph/rav1e/releases/download/v0.8.1/rav1e-0.8.1-linux-avx2.tar.gz",
+      "sha256": "69f143926ff36d69be54b49447bcdca31dd341ec44d1a57ab4d4e468a0b6058d",
+      "size": 1860501,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.1",
+      "binaries": {
+        "rav1e": {
+          "path": "rav1e",
+          "sha256": "28eadadab3bc634c54da8e17531d71a8cb305381bb5c85a41a82decead6431a4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/xiph/rav1e/releases/download/v0.8.1/rav1e-0.8.1-linux-aarch64.tar.gz",
+      "sha256": "4865f3db12e8a37b5d614518f667d23690b82e8e31687739ca773f6793ff1580",
+      "size": 1458639,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.1",
+      "binaries": {
+        "rav1e": {
+          "path": "rav1e",
+          "sha256": "d2cb1cc7be3176e9e5f5d8d82a07e79fde7eda2bc9c4ca6f770f31d4d7077826"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xiph/rav1e/releases/download/v0.8.1/rav1e-0.8.1-macos.zip",
+      "sha256": "482ddbc09cb5f60ec254f4c32137a9fb4f30b15b1c36a112e23878d9b8561b16",
+      "size": 1701534,
+      "format": "zip",
+      "releaseTag": "v0.8.1",
+      "binaries": {
+        "rav1e": {
+          "path": "rav1e",
+          "sha256": "7df502a30ccdeafe8bfa0a795a28bcd16b0efeacec8fd7f2f503a3c6405a1437"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/xiph/rav1e/releases/download/v0.8.1/rav1e-0.8.1-macos-aarch64.zip",
+      "sha256": "2624421ec5f0e7c02744a21ed2e30db4919c6ff41e88864ccb9d6cbe7eac0191",
+      "size": 1401996,
+      "format": "zip",
+      "releaseTag": "v0.8.1",
+      "binaries": {
+        "rav1e": {
+          "path": "rav1e",
+          "sha256": "31a42b89a766ed18d0ecdbf3c7a63693ff815d23d3c5e3d28ecc02bf2d1513bc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/xiph/rav1e/releases/download/v0.8.1/rav1e.exe",
+      "sha256": "0d24eeb7739831a5700404086171fba46577ce1a506d7f6789c6ae1fc9531ddf",
+      "size": 4675584,
+      "format": "binary",
+      "releaseTag": "v0.8.1",
+      "binaries": {
+        "rav1e.exe": {
+          "path": "rav1e.exe",
+          "sha256": "0d24eeb7739831a5700404086171fba46577ce1a506d7f6789c6ae1fc9531ddf"
+        }
+      }
+    }
+  }
+}
