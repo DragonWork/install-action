@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "run-clang-tidy",
+  "version": "0.3.2",
+  "repository": "lmapii/run-clang-tidy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lmapii/run-clang-tidy/releases/download/v0.3.2/run-clang-tidy-v0.3.2-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "9781f407edb2096233ed0569940ad414b369a8c31e8a28043a93abba189918bd",
+      "size": 1586796,
+      "format": "tar.gz",
+      "binaries": {
+        "run-clang-tidy": {
+          "path": "run-clang-tidy-v0.3.2-x86_64-unknown-linux-gnu/run-clang-tidy",
+          "sha256": "345a037aadeb367e05f5fb38b8c202140f04e9e19c228e041774eb659e4c9440"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lmapii/run-clang-tidy/releases/download/v0.3.2/run-clang-tidy-v0.3.2-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "729dd851c33195a351ffbd9556a0619a46ce5137940d125558187bc02180f8dd",
+      "size": 1457871,
+      "format": "tar.gz",
+      "binaries": {
+        "run-clang-tidy": {
+          "path": "run-clang-tidy-v0.3.2-aarch64-unknown-linux-musl/run-clang-tidy",
+          "sha256": "6815ef772eb9d6576e9e0484c42431435a74b82ef0026a83354b13dcd9ef80f4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lmapii/run-clang-tidy/releases/download/v0.3.2/run-clang-tidy-v0.3.2-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.2",
+      "sha256": "2e42a3769b868bffb5fc36fe977788018b54d83d7306928589897ed03e8be3e8",
+      "size": 1511794,
+      "format": "tar.gz",
+      "binaries": {
+        "run-clang-tidy": {
+          "path": "run-clang-tidy-v0.3.2-x86_64-apple-darwin/run-clang-tidy",
+          "sha256": "2874a30cf4f955ed3870c3a4357a449325e80d6afcb15eff2fcd2e34e06b5e22"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lmapii/run-clang-tidy/releases/download/v0.3.2/run-clang-tidy-v0.3.2-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.3.2",
+      "sha256": "6ebcde7a93326b847637dde7a8dea33cb2f39e6a321ba40aab2ea29babd2aa52",
+      "size": 1310856,
+      "format": "zip",
+      "binaries": {
+        "run-clang-tidy.exe": {
+          "path": "run-clang-tidy-v0.3.2-x86_64-pc-windows-msvc/run-clang-tidy.exe",
+          "sha256": "ecf60065cdb7e4b37474f459d57263cce77d036d5be08f8dc99325a3fe275dc6"
+        }
+      }
+    }
+  }
+}
