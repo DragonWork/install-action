@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "ce-cli",
+  "version": "0.4.9",
+  "repository": "bnheise/ce-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bnheise/ce-cli/releases/download/0.4.9/ce-cli-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.4.9",
+      "sha256": "5bec50c0430e1196afcc593bf65453988f0f2b367875decc0ec53ac0fbf965e2",
+      "size": 5780727,
+      "format": "tar.gz",
+      "binaries": {
+        "ce-cli": {
+          "path": "./ce-cli",
+          "sha256": "9b67c518edc0f77078aee5000ca56bd379820618fe27732294da770e2bcb44ae"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bnheise/ce-cli/releases/download/0.4.9/ce-cli-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.4.9",
+      "sha256": "6049e382e8abcb15e1d06869f1db3c651a8c0cdb09c9963061a07728c38f0b14",
+      "size": 4079842,
+      "format": "tar.gz",
+      "binaries": {
+        "ce-cli": {
+          "path": "./ce-cli",
+          "sha256": "b604a261f867a98c7d4524d667cbf8a91e3f40757d82d9a0a86597b0c41f7120"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/bnheise/ce-cli/releases/download/0.4.9/ce-cli-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "0.4.9",
+      "sha256": "2c68b49aa53930f584af59c188ba1d3fb0e715bc4d00cacae5558ea2398b4bdb",
+      "size": 7894025,
+      "format": "tar.gz",
+      "binaries": {
+        "ce-cli.exe": {
+          "path": "./ce-cli.exe",
+          "sha256": "70aaa387a498f6b7c55869dd81451268ea774260867c7fb48296d27f726fae2f"
+        }
+      }
+    }
+  }
+}
