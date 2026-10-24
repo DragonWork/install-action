@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ruke",
+  "version": "0.1.10",
+  "repository": "kauefraga/ruke",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kauefraga/ruke/releases/download/v0.1.10/ruke-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.1.10",
+      "sha256": "e8521ce83dc78991f98bcefb2a6007ce8d85941927284a5df100d2f063e9acfe",
+      "size": 827063,
+      "format": "tar.gz",
+      "binaries": {
+        "ruke": {
+          "path": "ruke",
+          "sha256": "62895c0b2a4759695b47a3c1130ed06e4112612d40edba2a4867c2bdc1a27585"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kauefraga/ruke/releases/download/v0.1.10/ruke-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.10",
+      "sha256": "df2261b9c2e0504511fe0818e404f8d5aa729f2707d22cd38c251a0326b167d5",
+      "size": 784916,
+      "format": "tar.gz",
+      "binaries": {
+        "ruke": {
+          "path": "ruke",
+          "sha256": "7e1d47bed1aa1e18a83b3b5ae744db4b7b8ee62f1312ee3f8ca3111093444d9f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kauefraga/ruke/releases/download/v0.1.10/ruke-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.1.10",
+      "sha256": "99abb510e5481e95f9508c0e9aab3eaf92a015ee87f0849faa354b9127f4ee0c",
+      "size": 761183,
+      "format": "tar.gz",
+      "binaries": {
+        "ruke": {
+          "path": "ruke",
+          "sha256": "9e34f38c73fcd12cbadd7ee3d7b1434892edcf3a7031e21e3a84b3648c709606"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kauefraga/ruke/releases/download/v0.1.10/ruke-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.1.10",
+      "sha256": "91890c2617ea337f26af7f910b1fe09136228dd3200c5e1a8759312ab0a441e8",
+      "size": 597140,
+      "format": "zip",
+      "binaries": {
+        "ruke.exe": {
+          "path": "ruke.exe",
+          "sha256": "6c6d8885ee7c008e1890cc7646fa5330686fe866b09fc692c88f2fedbe495861"
+        }
+      }
+    }
+  }
+}
