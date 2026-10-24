@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "openapi-tui",
+  "version": "0.10.2",
+  "repository": "zaghaghi/openapi-tui",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zaghaghi/openapi-tui/releases/download/0.10.2/openapi-tui-0.10.2-linux-x86_64.tar.gz",
+      "releaseTag": "0.10.2",
+      "sha256": "433d95b763e72a11ea5e676b33624e6c8b3dcdd5c997737bef59d51af27bbf46",
+      "size": 6300563,
+      "format": "tar.gz",
+      "binaries": {
+        "openapi-tui": {
+          "path": "openapi-tui",
+          "sha256": "8a82aaac7c6b47f883a2f515fd1af3b43aa98807f2674758acd72c6c49fb8a88"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/zaghaghi/openapi-tui/releases/download/0.10.2/openapi-tui-0.10.2-linux-arm64.tar.gz",
+      "releaseTag": "0.10.2",
+      "sha256": "aeba3c08e0eea3683ec1998f4a2a4b7b9f75c7a7a19d8c85e71cb498875ef493",
+      "size": 6127238,
+      "format": "tar.gz",
+      "binaries": {
+        "openapi-tui": {
+          "path": "openapi-tui",
+          "sha256": "c7014da308d4c022cb221e4e34fd29989dfa908e83bfe7bb618f6df5d1ebf1fb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/zaghaghi/openapi-tui/releases/download/0.10.2/openapi-tui-0.10.2-macos-x86_64.tar.gz",
+      "releaseTag": "0.10.2",
+      "sha256": "aced4134549cbd6861d660b967d3122c631369c6299a8d74cbcb366db37cf011",
+      "size": 4171175,
+      "format": "tar.gz",
+      "binaries": {
+        "openapi-tui": {
+          "path": "openapi-tui",
+          "sha256": "2cc004af8698a4a4d3908312ecf41ecccf598622ae15c7bd06092aad6b3d3c89"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zaghaghi/openapi-tui/releases/download/0.10.2/openapi-tui-0.10.2-macos-arm64.tar.gz",
+      "releaseTag": "0.10.2",
+      "sha256": "5c6b525c6cd23c02d5db4a3ba8fcaebebd5ae45d35cdc4554e7cd5e7e72e72ff",
+      "size": 4008417,
+      "format": "tar.gz",
+      "binaries": {
+        "openapi-tui": {
+          "path": "openapi-tui",
+          "sha256": "7e97409b8c714c2c035a7dde1c8cffc8ac64eb4f1c98f3b20e8c624a0963a3b8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/zaghaghi/openapi-tui/releases/download/0.10.2/openapi-tui-0.10.2-windows-x86_64.tar.gz",
+      "releaseTag": "0.10.2",
+      "sha256": "252ae369e38430206b0b08586413059db5dfd39d5242bdc3f3ce736a052a9dfb",
+      "size": 4094987,
+      "format": "tar.gz",
+      "binaries": {
+        "openapi-tui.exe": {
+          "path": "openapi-tui.exe",
+          "sha256": "c8b89926577c4d153edfc50adec3acfbca0330d0b97ff9bd3c778e68ba0674c3"
+        }
+      }
+    }
+  }
+}
