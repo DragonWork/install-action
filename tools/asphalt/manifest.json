@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "asphalt",
+  "version": "2.0.1",
+  "repository": "jackTabsCode/asphalt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jackTabsCode/asphalt/releases/download/v2.0.1/asphalt-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.0.1",
+      "sha256": "83426686be26cc5f836320f2d79e99ae9f4ad439bf2701230f8ae582482041e7",
+      "size": 5874924,
+      "format": "tar.xz",
+      "binaries": {
+        "asphalt": {
+          "path": "asphalt-x86_64-unknown-linux-gnu/asphalt",
+          "sha256": "5a46be649ad4432b76a47ea558999716420f820ae0312fa2452bd62896562712"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jackTabsCode/asphalt/releases/download/v2.0.1/asphalt-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v2.0.1",
+      "sha256": "0930346f8ff4c0a9d8bae401a1eded233313e91bcdbde66804b241aed80c65fd",
+      "size": 5362956,
+      "format": "tar.xz",
+      "binaries": {
+        "asphalt": {
+          "path": "asphalt-aarch64-unknown-linux-gnu/asphalt",
+          "sha256": "a74bff43031e0eee8bf997b74dde361db9c6f22727dfbb21fdeb9c3788c81a0e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jackTabsCode/asphalt/releases/download/v2.0.1/asphalt-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v2.0.1",
+      "sha256": "7a6cab4cf3673fcf4f413e587b734826cf5b7caa39e085e8a5a98c00961a6fe3",
+      "size": 5611136,
+      "format": "tar.xz",
+      "binaries": {
+        "asphalt": {
+          "path": "asphalt-x86_64-apple-darwin/asphalt",
+          "sha256": "9b14283684fe5d37ac89f5a96e512a4e1d5ace1dd4a5b65c9417c7820086ef7e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jackTabsCode/asphalt/releases/download/v2.0.1/asphalt-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v2.0.1",
+      "sha256": "4195a029715cf39e95a1135c8039812defd9a0e0f8551a816096b11d2f1fbe91",
+      "size": 5050016,
+      "format": "tar.xz",
+      "binaries": {
+        "asphalt": {
+          "path": "asphalt-aarch64-apple-darwin/asphalt",
+          "sha256": "8b84f1b86b2a222498d3d4abf3083d8330565b125cbcce48f59a73874d471903"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jackTabsCode/asphalt/releases/download/v2.0.1/asphalt-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v2.0.1",
+      "sha256": "2e14e7240982e00676040f7d8a608d0fe4835a70c187fd221df7e8c27429e313",
+      "size": 7705401,
+      "format": "zip",
+      "binaries": {
+        "asphalt.exe": {
+          "path": "asphalt.exe",
+          "sha256": "e3e3d108d987f8327781ae778b3173edc9ab00b61b37307da1cb45324b7a696a"
+        }
+      }
+    }
+  }
+}
