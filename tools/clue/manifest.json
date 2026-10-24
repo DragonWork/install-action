@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "clue",
+  "version": "3.4.7",
+  "repository": "ClueLang/Clue",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ClueLang/Clue/releases/download/v3.4.7/clue-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.4.7",
+      "sha256": "6dbd65acf2c02bfaf116d304fcf07a87a5b7b09f683c6745c748fbd3f67f72e4",
+      "size": 1120355,
+      "format": "tar.gz",
+      "binaries": {
+        "clue": {
+          "path": "clue",
+          "sha256": "fc189f630cd9fec30961279aa459ffe9ff30f401e4d7b3eb29643cfc129b89d9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ClueLang/Clue/releases/download/v3.4.7/clue-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v3.4.7",
+      "sha256": "9be3f0db85eecda54f409db11f61ae39125f13487a3593df7875747e43f7e82a",
+      "size": 1086208,
+      "format": "tar.gz",
+      "binaries": {
+        "clue": {
+          "path": "clue",
+          "sha256": "4a54d79348e1db4ff80097a33cce068e2993717c7dad828336ec1c49f1ac2d5b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ClueLang/Clue/releases/download/v3.4.7/clue-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v3.4.7",
+      "sha256": "ea5d59b7951efcffb2e7561854fb3c371f3e9a3573432c351c192af1cee3825c",
+      "size": 1073084,
+      "format": "tar.gz",
+      "binaries": {
+        "clue": {
+          "path": "clue",
+          "sha256": "00cd7657f8aa14f31ed5b71c4f721463e8b3ffc66cfff3faea7ede4b40e1dacf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ClueLang/Clue/releases/download/v3.4.7/clue-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v3.4.7",
+      "sha256": "fbea571df372b1e90a4bed7f0ec5eae6eb0d81ece1e7859c23912bdbca2c9de7",
+      "size": 1019309,
+      "format": "tar.gz",
+      "binaries": {
+        "clue": {
+          "path": "clue",
+          "sha256": "7951129c14d07fe226f3905a0c21191b118c87dec7023f86f896904ee686606f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ClueLang/Clue/releases/download/v3.4.7/clue-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v3.4.7",
+      "sha256": "a15da9408f291832a58641ea9da930fb78508ec253194011d4992df8585bfa9e",
+      "size": 949333,
+      "format": "zip",
+      "binaries": {
+        "clue.exe": {
+          "path": "clue.exe",
+          "sha256": "2931b50ec8f79b2223d5215a195d063de059e51cbf30630fe5661c9413aa45f4"
+        }
+      }
+    }
+  }
+}
