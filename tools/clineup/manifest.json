@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "clineup",
+  "version": "0.2.5",
+  "repository": "antscloud/clineup",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/antscloud/clineup/releases/download/0.2.5/clineup-0.2.5-linux-x86_64.tar.gz",
+      "releaseTag": "0.2.5",
+      "sha256": "3d2f5a748a2cb7e1ff9d94a0c8552863041a8cc0599951e6a719242c59540edb",
+      "size": 3964216,
+      "format": "tar.gz",
+      "binaries": {
+        "clineup": {
+          "path": "clineup",
+          "sha256": "8b584ef2e66e582f219fd3902e6cca000642ce10e86afb7f60167301e83d4473"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/antscloud/clineup/releases/download/0.2.5/clineup-0.2.5-macos-x86_64.tar.gz",
+      "releaseTag": "0.2.5",
+      "sha256": "0903decd57e7a2593dfb1a7eee2a500a5886290604f19a276fca185189d4ce2d",
+      "size": 2785988,
+      "format": "tar.gz",
+      "binaries": {
+        "clineup": {
+          "path": "clineup",
+          "sha256": "c4ed955f7e971de06805df5439705366a17defdb497e24b2f7e60103e188faa3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/antscloud/clineup/releases/download/0.2.5/clineup-0.2.5-windows-x86_64.tar.gz",
+      "releaseTag": "0.2.5",
+      "sha256": "2c33cc437c7cd41f5c18b59ca12746c78a3f4784d3a0f4a5a57ac0dc519945ac",
+      "size": 5504142,
+      "format": "tar.gz",
+      "binaries": {
+        "clineup.exe": {
+          "path": "clineup.exe",
+          "sha256": "2e1ac517b116dd9c6f2c22caa2a48b3c6341bba26fad13a6803cdb76da5953fb"
+        }
+      }
+    }
+  }
+}
