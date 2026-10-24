@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "marker_rustc_driver",
+  "version": "0.5.0",
+  "repository": "rust-marker/marker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/marker_rustc_driver-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "a0f2a354ec27dedf34e2f22a9cdf3697ef1b8a66d18bc8220f2858e62bec9b9d",
+      "size": 300686,
+      "format": "tar.gz",
+      "binaries": {
+        "marker_rustc_driver": {
+          "path": "marker_rustc_driver",
+          "sha256": "20f21e10ccea36d871cac3ac12bcb327a731dd416dda3c520376410735e36d79"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/marker_rustc_driver-aarch64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "e453b6e8d054e0117c0959db1f70b17f3243114ad9a88535a3293d39ead59a1d",
+      "size": 316321,
+      "format": "tar.gz",
+      "binaries": {
+        "marker_rustc_driver": {
+          "path": "marker_rustc_driver",
+          "sha256": "9cc798ae0017366b94d543f98273202a3d259f469a2d2b146ee1f70e421e00cc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/marker_rustc_driver-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.5.0",
+      "sha256": "c77f95a1945b1f61b879ff117d774c020ce670048a76af7bc7c1a5b11a746cfe",
+      "size": 283869,
+      "format": "tar.gz",
+      "binaries": {
+        "marker_rustc_driver": {
+          "path": "marker_rustc_driver",
+          "sha256": "83fd397d4327bc6186dfae686895004315ca55417e48d175b5620446d2794b47"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-marker/marker/releases/download/v0.5.0/marker_rustc_driver-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "523896538abb4306496a8aba3da5802495460588f1432f286dffa7cc1a02c143",
+      "size": 254532,
+      "format": "zip",
+      "binaries": {
+        "marker_rustc_driver.exe": {
+          "path": "marker_rustc_driver.exe",
+          "sha256": "558e2dba1bc1d6b8a8b8f26b235e389c8372e61852879f46100535ac12197f97"
+        }
+      }
+    }
+  }
+}
