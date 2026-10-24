@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "name": "trnovel",
+  "version": "0.18.3",
+  "repository": "yexiyue/TRNovel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yexiyue/TRNovel/releases/download/trnovel-v0.18.3/trnovel-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "trnovel-v0.18.3",
+      "sha256": "b350529575eece810b6138a486cacae42b0bf8d629879e47e1542f0454b70aba",
+      "size": 9231336,
+      "format": "tar.xz",
+      "binaries": {
+        "trn": {
+          "path": "trnovel-x86_64-unknown-linux-musl/trn",
+          "sha256": "31c8cabf63a8752faf058c378f90df836159c7b8b2cef78ed8b8e62327ba2d32"
+        },
+        "trnovel": {
+          "path": "trnovel-x86_64-unknown-linux-musl/trnovel",
+          "sha256": "8d9ec25c2004210b503ed200af02db832bb0a819971c0333d3a86ee16365c929"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/yexiyue/TRNovel/releases/download/trnovel-v0.18.3/trnovel-aarch64-unknown-linux-musl.tar.xz",
+      "releaseTag": "trnovel-v0.18.3",
+      "sha256": "8f3650bf78e89ca2ba1c1d1d01ff6002dfd541cd931c7b295c1b6dbcf48f6b9b",
+      "size": 7967580,
+      "format": "tar.xz",
+      "binaries": {
+        "trn": {
+          "path": "trnovel-aarch64-unknown-linux-musl/trn",
+          "sha256": "3a33125783ba320ead475ca99acad41964c6c2eba173089408d19bee7ef37312"
+        },
+        "trnovel": {
+          "path": "trnovel-aarch64-unknown-linux-musl/trnovel",
+          "sha256": "cfb78e47d38998b10e627181a92ec50658c5718744bb183508d124f76882870a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/yexiyue/TRNovel/releases/download/trnovel-v0.18.3/trnovel-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "trnovel-v0.18.3",
+      "sha256": "7c5a54400b6f2b6b04d5f51df105388b2c464f79bce8f7d9814a6416e8a69866",
+      "size": 8146972,
+      "format": "tar.xz",
+      "binaries": {
+        "trn": {
+          "path": "trnovel-x86_64-apple-darwin/trn",
+          "sha256": "021d1f4c06f4d4332cfbaceee94390264750651c710a219d0517a893baee801c"
+        },
+        "trnovel": {
+          "path": "trnovel-x86_64-apple-darwin/trnovel",
+          "sha256": "1a90e72234c1c127941b944824867ee90e336dc7a45eb606a768ddede9b498cf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/yexiyue/TRNovel/releases/download/trnovel-v0.18.3/trnovel-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "trnovel-v0.18.3",
+      "sha256": "4cdf71453616536a248808270f99adb22412cca319dfa92079569414fe7a88b8",
+      "size": 7625340,
+      "format": "tar.xz",
+      "binaries": {
+        "trn": {
+          "path": "trnovel-aarch64-apple-darwin/trn",
+          "sha256": "5d951088eea05f81ce1b3ad410fc26023a862676b80a332f6af907060946ad2c"
+        },
+        "trnovel": {
+          "path": "trnovel-aarch64-apple-darwin/trnovel",
+          "sha256": "cf82e814bb1dfb8d6f70cf6606fcf5f0f74034b3da10ae09aa985cc99c868da2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/yexiyue/TRNovel/releases/download/trnovel-v0.18.3/trnovel-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "trnovel-v0.18.3",
+      "sha256": "3cb62e2b972a2f41816468fe47c1343dba50ecd922a9002142733549d18ac925",
+      "size": 21057601,
+      "format": "zip",
+      "binaries": {
+        "trn.exe": {
+          "path": "trn.exe",
+          "sha256": "0fe3344c5c4513da6f1248068ac220e1a43a3e40e32653a15fb03b640d229081"
+        },
+        "trnovel.exe": {
+          "path": "trnovel.exe",
+          "sha256": "581f564e803bd5ca4529c8627385bfde891de46af54a3738992a83b8c805d826"
+        }
+      }
+    }
+  }
+}
