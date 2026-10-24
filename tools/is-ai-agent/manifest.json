@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "is-ai-agent",
+  "version": "0.7.0",
+  "repository": "sdairs/is-ai-agent",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sdairs/is-ai-agent/releases/download/v0.7.0/is-ai-agent-v0.7.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "758f9a8ab522f15150b718c24012c6c41907f2c6baa775891facc12131efdae5",
+      "size": 213385,
+      "format": "tar.gz",
+      "binaries": {
+        "is-ai-agent": {
+          "path": "is-ai-agent",
+          "sha256": "8ff346fd0dab4db41e5254acd444db7df04ed355dba96318f7b2d7e504d260c8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sdairs/is-ai-agent/releases/download/v0.7.0/is-ai-agent-v0.7.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "112e4de96cdb2ad90cef074d809cdcf45171d066fb0aec2739fc1639e3b3abb8",
+      "size": 203862,
+      "format": "tar.gz",
+      "binaries": {
+        "is-ai-agent": {
+          "path": "is-ai-agent",
+          "sha256": "d2a1e02867ab9fabb344d12ab8374862384104a9d088c1f6039a787d96ea66aa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sdairs/is-ai-agent/releases/download/v0.7.0/is-ai-agent-v0.7.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "43ba735e1f7ed39dd7b9d656210b790880e3ad43e516420839f1db6c61e5dc36",
+      "size": 169326,
+      "format": "tar.gz",
+      "binaries": {
+        "is-ai-agent": {
+          "path": "is-ai-agent",
+          "sha256": "45b1b71d082eb6417eefe2ad3aa8768f11764aa50dd0525d66bc1c241f6b2374"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sdairs/is-ai-agent/releases/download/v0.7.0/is-ai-agent-v0.7.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "2ca767dcc7e0f23d0c48be26a3be3ec66029a06e4eb6f333f4900216136f8dff",
+      "size": 160860,
+      "format": "tar.gz",
+      "binaries": {
+        "is-ai-agent": {
+          "path": "is-ai-agent",
+          "sha256": "548fbf6dbed5998dcb5d7643bd617b154e1ee28066c374df5e33d52c6263c233"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sdairs/is-ai-agent/releases/download/v0.7.0/is-ai-agent-v0.7.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "c039fff23cd4bf2f7915bf05a758946e4ad6a982d3d43571c42424ca4edc7d4a",
+      "size": 85165,
+      "format": "zip",
+      "binaries": {
+        "is-ai-agent.exe": {
+          "path": "is-ai-agent.exe",
+          "sha256": "6280c422e7b9a205ef1ab13fba8dc00550eab5348b625d5bd0e936e2b794a567"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/sdairs/is-ai-agent/releases/download/v0.7.0/is-ai-agent-v0.7.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "f45bf3a1b4733415010bca11190ec099c6bcb034f87a1312e70acaf7cd991420",
+      "size": 82372,
+      "format": "zip",
+      "binaries": {
+        "is-ai-agent.exe": {
+          "path": "is-ai-agent.exe",
+          "sha256": "15da63e0f3f6157df7f9ebbfc1d62967d131fee1ac232c26518c8d967bc0e0d6"
+        }
+      }
+    }
+  }
+}
