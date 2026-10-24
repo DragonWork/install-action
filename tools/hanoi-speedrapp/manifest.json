@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "hanoi-speedrapp",
+  "version": "0.5.1",
+  "repository": "SpeckyYT/hanoi-speedrapp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/SpeckyYT/hanoi-speedrapp/releases/download/v0.5.1/hanoi-speedrapp-v0.5.1-x86_64-linux.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "9b5eb14f05b36bc3105617652e27207b12c9ff366125627dcceac9c835ddbde7",
+      "size": 2889880,
+      "format": "tar.xz",
+      "binaries": {
+        "hanoi-speedrapp": {
+          "path": "hanoi-speedrapp-v0.5.1-x86_64-linux/hanoi-speedrapp",
+          "sha256": "beea48bebb3b232ff393d16c51733e79146abb2ea929652550a7cb7b8d187818"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/SpeckyYT/hanoi-speedrapp/releases/download/v0.5.1/hanoi-speedrapp-v0.5.1-aarch64-linux.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "3a2cd9e42d7313f57264bf6769ae5cbcf41e7b554120deffafbb6b472932fe5e",
+      "size": 2555160,
+      "format": "tar.xz",
+      "binaries": {
+        "hanoi-speedrapp": {
+          "path": "hanoi-speedrapp-v0.5.1-aarch64-linux/hanoi-speedrapp",
+          "sha256": "3d451a7f3b8bbf8386cb40fac7359784d6f10e4d01e0e77011423c2430c92d13"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/SpeckyYT/hanoi-speedrapp/releases/download/v0.5.1/hanoi-speedrapp-v0.5.1-x86_64-macos.tar.xz",
+      "releaseTag": "v0.5.1",
+      "sha256": "9ed6601cdfc23cf0133a69dfd18b440f88c698c1b52def335962fc96b0dc3efb",
+      "size": 1928816,
+      "format": "tar.xz",
+      "binaries": {
+        "hanoi-speedrapp": {
+          "path": "hanoi-speedrapp-v0.5.1-x86_64-macos/hanoi-speedrapp",
+          "sha256": "74a6b93b45c05a22704052cd7c4e75f69f245b63182f57ec74a183dba5ede8b5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/SpeckyYT/hanoi-speedrapp/releases/download/v0.5.1/hanoi-speedrapp-v0.5.1-x86_64-windows.zip",
+      "releaseTag": "v0.5.1",
+      "sha256": "1a6e34287435fa4f74e45b01bea9caaa32637d1a0f6921820b498393867a1f1c",
+      "size": 2211857,
+      "format": "zip",
+      "binaries": {
+        "hanoi-speedrapp.exe": {
+          "path": "hanoi-speedrapp-v0.5.1-x86_64-windows/hanoi-speedrapp.exe",
+          "sha256": "2974909fcedeb0d5c1c56494638a486394be0aac5eb4562e907ba95baf75bf7e"
+        }
+      }
+    }
+  }
+}
