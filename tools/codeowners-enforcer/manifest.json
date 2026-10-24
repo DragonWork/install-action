@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "codeowners-enforcer",
+  "version": "1.0.3",
+  "repository": "jamiebuilds/codeowners-enforcer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jamiebuilds/codeowners-enforcer/releases/download/v1.0.3/codeowners-enforcer-v1.0.3-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.3",
+      "sha256": "b6133920977d3f3bb138c9db34f8fcfde84c8a268a3eeabd94b89e450ff4ec59",
+      "size": 1667639,
+      "format": "tar.gz",
+      "binaries": {
+        "codeowners-enforcer": {
+          "path": "codeowners-enforcer-v1.0.3-x86_64-unknown-linux-musl/codeowners-enforcer",
+          "sha256": "3be991607713eb27bc7ab1ab98e8e7f37a2dbc334590dea748f68bd3cf8c9e3b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jamiebuilds/codeowners-enforcer/releases/download/v1.0.3/codeowners-enforcer-v1.0.3-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.3",
+      "sha256": "37cac6c8f5daccac759d375759acf15f688d2e82b23c088014661afd3cb7b81c",
+      "size": 1277776,
+      "format": "tar.gz",
+      "binaries": {
+        "codeowners-enforcer": {
+          "path": "codeowners-enforcer-v1.0.3-x86_64-apple-darwin/codeowners-enforcer",
+          "sha256": "a56bc0f0e900439297ebe6ac860dc2f1ac4bdb807bf8c3855b54607015217f47"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jamiebuilds/codeowners-enforcer/releases/download/v1.0.3/codeowners-enforcer-v1.0.3-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.0.3",
+      "sha256": "f3bff8a78bcbda6b30136b2e0bb51eea5e9910c8ab7f666c72bd4f3c5a22c8c1",
+      "size": 1154520,
+      "format": "tar.gz",
+      "binaries": {
+        "codeowners-enforcer.exe": {
+          "path": "codeowners-enforcer-v1.0.3-x86_64-pc-windows-msvc/codeowners-enforcer.exe",
+          "sha256": "acfc323149067302a2702c111f1013b460c9dc31d06a351fa2eb4e0ce8d3a798"
+        }
+      }
+    }
+  }
+}
