@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "git-interactive-rebase-tool",
+  "version": "2.4.1",
+  "repository": "MitMaro/git-interactive-rebase-tool",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/MitMaro/git-interactive-rebase-tool/releases/download/2.4.1/git-interactive-rebase-tool-2.4.1-windows-_x86_64.exe",
+      "releaseTag": "2.4.1",
+      "sha256": "c1ed22c2fe4d6f5d642714ad0c3bdad877805680460f5ada87ecd006d4d73440",
+      "size": 2273792,
+      "format": "binary",
+      "binaries": {
+        "interactive-rebase-tool.exe": {
+          "path": "git-interactive-rebase-tool-2.4.1-windows-_x86_64.exe",
+          "sha256": "c1ed22c2fe4d6f5d642714ad0c3bdad877805680460f5ada87ecd006d4d73440"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/MitMaro/git-interactive-rebase-tool/releases/download/2.4.1/git-interactive-rebase-tool-2.4.1-windows-_aarch64.exe",
+      "releaseTag": "2.4.1",
+      "sha256": "06453849463185e461dcc002ccfb52e3c1c5bebd61bf9853db9f9b7995cd534c",
+      "size": 2074112,
+      "format": "binary",
+      "binaries": {
+        "interactive-rebase-tool.exe": {
+          "path": "git-interactive-rebase-tool-2.4.1-windows-_aarch64.exe",
+          "sha256": "06453849463185e461dcc002ccfb52e3c1c5bebd61bf9853db9f9b7995cd534c"
+        }
+      }
+    }
+  }
+}
