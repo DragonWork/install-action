@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "portier_broker",
+  "version": "0.15.1",
+  "repository": "portier/portier-broker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/portier/portier-broker/releases/download/v0.15.1/Portier-Broker-v0.15.1-Linux-x86_64.tgz",
+      "releaseTag": "v0.15.1",
+      "sha256": "5858e25ecd9a085c71d3149f3fa1c302cd97f4b18b021ef74824e89a4ca1baeb",
+      "size": 7883435,
+      "format": "tar.gz",
+      "binaries": {
+        "portier-broker": {
+          "path": "Portier-Broker-v0.15.1-Linux-x86_64/portier-broker",
+          "sha256": "d0181259776ea379922cf49a933ecd7fa6ef4d49054d98f80ad285c5d7c6eb52"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/portier/portier-broker/releases/download/v0.15.1/Portier-Broker-v0.15.1-Linux-aarch64.tgz",
+      "releaseTag": "v0.15.1",
+      "sha256": "dfd393ae5d259d55cc2e46721e11cb139fa6c85f33a85ad763f2cf6746b12ddc",
+      "size": 7613575,
+      "format": "tar.gz",
+      "binaries": {
+        "portier-broker": {
+          "path": "Portier-Broker-v0.15.1-Linux-aarch64/portier-broker",
+          "sha256": "b7fad58995a5fe2355f7b154a0979fac9536a46f490aad75aba0751df0d800fe"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/portier/portier-broker/releases/download/v0.15.1/Portier-Broker-v0.15.1-Windows-x86_64.zip",
+      "releaseTag": "v0.15.1",
+      "sha256": "03f9f12923377513bfea030fd20d6939b8688fdf976c5cd2b1731df4159ad71d",
+      "size": 6069780,
+      "format": "zip",
+      "binaries": {
+        "portier-broker.exe": {
+          "path": "Portier-Broker-v0.15.1-Windows-x86_64/portier-broker.exe",
+          "sha256": "92461d724e582bb7b6cb084375809cecb9823bfb8a7b2b4ca04f46a09099ba41"
+        }
+      }
+    }
+  }
+}
