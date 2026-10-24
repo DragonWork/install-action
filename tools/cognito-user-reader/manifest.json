@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cognito-user-reader",
+  "version": "1.0.3",
+  "repository": "robertohuertasm/cognito-user-reader",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/robertohuertasm/cognito-user-reader/releases/download/v1.0.3/cur_linux.zip",
+      "sha256": "364d6d927294a5b66d5f61aef192c36b0c7f03bb688a5b547b2c2f05ac23cd0f",
+      "size": 1031001,
+      "format": "zip",
+      "releaseTag": "v1.0.3",
+      "binaries": {
+        "cur": {
+          "path": "target/release/cur",
+          "sha256": "fae243bdaab856b9cf7891e9160eea98a2153067d48fcccd380d2bcdc7921cad"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/robertohuertasm/cognito-user-reader/releases/download/v1.0.3/cur_osx.zip",
+      "sha256": "bf68ed6e6b5c13e28b7d567f4b8632eecc4ff1a8972156443fbfc692fc62fb61",
+      "size": 992268,
+      "format": "zip",
+      "releaseTag": "v1.0.3",
+      "binaries": {
+        "cur": {
+          "path": "target/release/cur",
+          "sha256": "dbe424968ecb6a656d5d8776a05f2758a98d604425345a4334e9cf1083314472"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/robertohuertasm/cognito-user-reader/releases/download/v1.0.3/cur_windows.zip",
+      "sha256": "b3983aaa63e7e6497d6d3191eb67727e2842aa2a4f8cc1f7913f4de7da800c20",
+      "size": 912113,
+      "format": "zip",
+      "releaseTag": "v1.0.3",
+      "binaries": {
+        "cur.exe": {
+          "path": "target/release/cur.exe",
+          "sha256": "d78ff363aaa62ef8780f74b5aa59988eb180c310872cb293ce70491405e8c08c"
+        }
+      }
+    }
+  }
+}
