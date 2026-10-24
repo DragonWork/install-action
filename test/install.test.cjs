@@ -5,9 +5,9 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const os = require('node:os');
-const { download, validateManifest, ownedDirectory, writeCommand } = require('../lib/common.cjs');
+const { download, validateManifest, ownedDirectory, writeCommand, sha256, archivePath } = require('../lib/common.cjs');
 const { install } = require('../lib/install.cjs');
-const { sample } = require('./fixtures.cjs');
+const { sample, tar } = require('./fixtures.cjs');
 
 async function temporary(t) {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-test-'));
@@ -24,6 +24,30 @@ test('prebuilt installation verifies both hashes and preserves the binary name',
   assert.deepEqual(await fs.readFile(path.join(result.bin, 'another-name')), fixture.binary);
   assert.equal(result.version, '1.0.0');
   assert.deepEqual(await fs.readdir(path.dirname(result.bin)), ['bin']);
+});
+
+test('standalone executables are checksum-verified and installed directly', async t => {
+  const root = await temporary(t);
+  const { manifest } = sample();
+  const binary = Buffer.concat([Buffer.from([127, 69, 76, 70]), Buffer.alloc(60)]);
+  const artifact = manifest.artifacts['linux-x64'];
+  Object.assign(artifact, { format: 'binary', sha256: sha256(binary), size: binary.length });
+  artifact.binaries['sample-cli'] = { path: 'sample-cli_linux_x64_bin', sha256: sha256(binary) };
+  const result = await install(manifest, root, { platform: 'linux-x64', fetcher: async () => new Response(binary) });
+  assert.deepEqual(await fs.readFile(path.join(result.bin, 'sample-cli')), binary);
+});
+
+test('relative archive prefixes work without permitting parent traversal', async t => {
+  const root = await temporary(t);
+  const { manifest, binary } = sample();
+  const member = './sample-cli';
+  const archive = tar({ [member]: binary });
+  Object.assign(manifest.artifacts['linux-x64'], { sha256: sha256(archive), size: archive.length });
+  manifest.artifacts['linux-x64'].binaries['sample-cli'].path = member;
+  const result = await install(manifest, root, { platform: 'linux-x64', fetcher: async () => new Response(archive) });
+  assert.deepEqual(await fs.readFile(path.join(result.bin, 'sample-cli')), binary);
+  assert.equal(archivePath('./../escape'), false);
+  assert.equal(archivePath('.//absolute'), false);
 });
 
 test('an archive checksum failure never installs an executable', async t => {

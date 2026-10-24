@@ -7,7 +7,7 @@ const os = require('node:os');
 const path = require('node:path');
 const { signedCommit, release } = require('../scripts/github.cjs');
 const { wrapper, compareVersions, repositoryOf, probeReleases, publicationBudget,
-  prepareShard, mergePrepared, catalogProgress } = require('../scripts/update-tools.cjs');
+  prepareShard, mergePrepared, catalogProgress, assetCandidates, assetFormat, nativeBinary } = require('../scripts/update-tools.cjs');
 const { main: publishTools } = require('../scripts/publish-tools.cjs');
 const { sample } = require('./fixtures.cjs');
 
@@ -30,6 +30,29 @@ test('publication batches leave room for API checks and priority lookups', () =>
   assert.equal(publicationBudget(900, 100), 100);
   assert.equal(publicationBudget(500, 100), 50);
   assert.equal(publicationBudget(700, 100, true), 50);
+});
+
+test('multiple release variants select the ordinary package and platform archive', () => {
+  const assets = names => names.map(name => ({ name, state: 'uploaded' }));
+  const select = (name, names, platform = 'linux-x64') => assetCandidates(assets(names), platform, name, [name])[0].name;
+  assert.equal(select('cargo-binstall', [
+    'cargo-binstall-x86_64-unknown-linux-musl.full.tgz',
+    'cargo-binstall-x86_64-unknown-linux-musl.tgz',
+  ]), 'cargo-binstall-x86_64-unknown-linux-musl.tgz');
+  assert.equal(select('zellij', [
+    'zellij-no-web-x86_64-unknown-linux-musl.tar.gz',
+    'zellij-x86_64-unknown-linux-musl.tar.gz',
+  ]), 'zellij-x86_64-unknown-linux-musl.tar.gz');
+  assert.equal(select('atuin', [
+    'atuin-server-x86_64-unknown-linux-musl.tar.gz',
+    'atuin-x86_64-unknown-linux-musl.tar.gz',
+  ]), 'atuin-x86_64-unknown-linux-musl.tar.gz');
+  assert.equal(select('eza', ['eza_x86_64-unknown-linux-musl.zip', 'eza_x86_64-unknown-linux-musl.tar.gz']),
+    'eza_x86_64-unknown-linux-musl.tar.gz');
+  assert.equal(select('b3sum', ['b3sum_macos_x64_bin', 'b3sum_linux_x64_bin']), 'b3sum_linux_x64_bin');
+  assert.equal(assetFormat('b3sum_windows_x64_bin.exe'), 'binary');
+  assert.equal(assetFormat('tool-installer.exe'), null);
+  assert.equal(nativeBinary(Buffer.from('not an executable'), 'linux-x64'), false);
 });
 
 test('bulk discovery batches release lookups and records unavailable repositories', async t => {

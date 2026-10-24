@@ -18,14 +18,57 @@ const TARGETS = {
   'win32-x64': ['x86_64-pc-windows-msvc', 'x86_64-pc-windows-gnu'],
   'win32-arm64': ['aarch64-pc-windows-msvc'],
 };
-const ARCHIVE = /\.(tar\.(gz|xz|zst)|tgz|zip)$/;
+const RESOLVER_REVISION = 2;
+
+function assetFormat(name) {
+  if (name.endsWith('.zip')) return 'zip';
+  if (name.endsWith('.tar.xz')) return 'tar.xz';
+  if (name.endsWith('.tar.zst')) return 'tar.zst';
+  if (/\.(tar\.gz|tgz)$/.test(name)) return 'tar.gz';
+  if (!/installer|setup/i.test(name) && /(?:\.exe|[_.]bin)$/i.test(name)) return 'binary';
+  return null;
+}
+
+function nativeBinary(bytes, platform) {
+  if (bytes.length < 32) return false;
+  if (platform.startsWith('linux-')) return bytes.subarray(0, 4).equals(Buffer.from([127, 69, 76, 70]));
+  if (platform.startsWith('win32-')) return bytes.subarray(0, 2).toString() === 'MZ';
+  return ['cffaedfe', 'feedfacf', 'cafebabe', 'bebafeca', 'cafebabf', 'bfbafeca'].includes(bytes.subarray(0, 4).toString('hex'));
+}
+
+function assetCandidates(assets, platform, name, binaries) {
+  const targets = TARGETS[platform];
+  const arch = platform.endsWith('-x64') ? /(?:^|[-_.])(x86_64|amd64|x64)(?:[-_.]|$)/i
+    : /(?:^|[-_.])(aarch64|arm64)(?:[-_.]|$)/i;
+  const os = platform.startsWith('linux-') ? /(?:^|[-_.])linux(?:[-_.]|$)/i
+    : platform.startsWith('darwin-') ? /(?:^|[-_.])(darwin|macos|osx)(?:[-_.]|$)/i
+      : /(?:^|[-_.])(windows|win32|win64)(?:[-_.]|$)/i;
+  const names = [...new Set([name, ...binaries])];
+  const prefix = asset => names.some(binary => asset.name.startsWith(binary + '-')
+    || asset.name.startsWith(binary + '_') || asset.name.startsWith(binary + '.')) ? 0 : 1;
+  const order = platform.startsWith('win32-') ? ['zip', 'tar.gz', 'tar.xz', 'tar.zst', 'binary']
+    : ['tar.gz', 'tar.xz', 'tar.zst', 'zip', 'binary'];
+  const rank = asset => {
+    const target = targets.findIndex(value => asset.name.includes(value));
+    return target >= 0 ? target : targets.length;
+  };
+  const stem = asset => asset.name.replace(/\.(?:tar\.(?:gz|xz|zst)|tgz|zip|exe)$/, '');
+  return assets.filter(asset => asset.state === 'uploaded' && assetFormat(asset.name)
+    && (targets.some(target => asset.name.includes(target)) || (arch.test(asset.name) && os.test(asset.name))))
+    .sort((a, b) => rank(a) - rank(b) || prefix(a) - prefix(b)
+      || Number(assetFormat(a.name) === 'binary') - Number(assetFormat(b.name) === 'binary')
+      || stem(a).length - stem(b).length
+      || order.indexOf(assetFormat(a.name)) - order.indexOf(assetFormat(b.name))
+      || a.name.localeCompare(b.name));
+}
 
 async function probeReleases(catalog, state, current, limit = 2000) {
   const now = Date.now();
   const due = Object.keys(catalog.crates).filter(name => {
     const version = catalog.crates[name].version;
     if (current[name] && compareVersions(current[name].version, version) >= 0) return false;
-    return state[name]?.version !== version || Date.parse(state[name].retryAfter || 0) <= now;
+    return state[name]?.version !== version || state[name]?.resolverRevision !== RESOLVER_REVISION
+      || Date.parse(state[name].retryAfter || 0) <= now;
   });
   due.sort((a, b) => Number(Boolean(current[b])) - Number(Boolean(current[a]))
     || Number(Boolean(state[a])) - Number(Boolean(state[b])) || a.localeCompare(b));
@@ -35,7 +78,7 @@ async function probeReleases(catalog, state, current, limit = 2000) {
     const entry = catalog.crates[name];
     const repository = repositoryOf(entry.repository);
     if (!repository) {
-      state[name] = { version: entry.version, reason: 'No GitHub release repository.', retryAfter };
+      state[name] = { version: entry.version, resolverRevision: RESOLVER_REVISION, reason: 'No GitHub release repository.', retryAfter };
       continue;
     }
     if (requests.length < limit) requests.push({ name, entry, repository });
@@ -65,9 +108,9 @@ async function probeReleases(catalog, state, current, limit = 2000) {
       const { name, entry } = block[index];
       const releases = Object.values(response.data[`r${index}`] || {}).filter(Boolean);
       const found = releases.find(r => !r.isDraft && !r.isPrerelease
-        && r.releaseAssets.nodes.some(a => ARCHIVE.test(a.name)));
-      state[name] = { version: entry.version, retryAfter, ...(found ? { release: {
-        tag_name: found.tagName, assets: found.releaseAssets.nodes.filter(a => ARCHIVE.test(a.name)).map(a => ({ name: a.name,
+        && r.releaseAssets.nodes.some(a => assetFormat(a.name)));
+      state[name] = { version: entry.version, resolverRevision: RESOLVER_REVISION, retryAfter, ...(found ? { release: {
+        tag_name: found.tagName, assets: found.releaseAssets.nodes.filter(a => assetFormat(a.name)).map(a => ({ name: a.name,
           browser_download_url: a.downloadUrl, size: a.size, digest: a.digest, state: 'uploaded' })),
       } } : { reason: 'No matching upstream binary release.' }) };
     }
@@ -137,35 +180,37 @@ async function prebuilts(name, version, repository, binaries, temporary, knownRe
   }
   if (!release) return {};
   const artifacts = {};
-  for (const [platform, targets] of Object.entries(TARGETS)) {
-    let asset;
-    for (const target of targets) {
-      const candidates = release.assets.filter(a => a.name.includes(target)
-        && ARCHIVE.test(a.name) && a.state === 'uploaded');
-      if (candidates.length === 1) { asset = candidates[0]; break; }
+  for (const platform of Object.keys(TARGETS)) {
+    for (const asset of assetCandidates(release.assets, platform, name, binaries)) {
+      const format = assetFormat(asset.name);
+      if (format === 'binary' && binaries.length !== 1) continue;
+      const archive = path.join(temporary, `${platform}.${format}`);
+      const expected = /^sha256:[a-f0-9]{64}$/.test(asset.digest || '') ? asset.digest.slice(7) : undefined;
+      const bytes = await download(asset.browser_download_url, { expected, size: asset.size });
+      const found = {};
+      if (format === 'binary') {
+        if (!nativeBinary(bytes, platform)) continue;
+        const filename = binaries[0] + (platform.startsWith('win32-') ? '.exe' : '');
+        found[filename] = { path: asset.name, sha256: sha256(bytes) };
+      } else {
+        await fs.writeFile(archive, bytes, { flag: 'wx' });
+        try {
+          const { stdout } = await execute(format === 'zip' ? 'unzip' : 'tar',
+            format === 'zip' ? ['-Z1', archive] : ['-tf', archive], { maxBuffer: 8 * 1024 * 1024 });
+          const paths = stdout.trim().split(/\r?\n/);
+          for (const binary of binaries) {
+            const filename = binary + (platform.startsWith('win32-') ? '.exe' : '');
+            const matches = paths.filter(member => archivePath(member) && path.posix.basename(member) === filename);
+            if (matches.length !== 1) break;
+            found[filename] = { path: matches[0], sha256: sha256(await extractBinary(archive, { format, executable: matches[0] })) };
+          }
+        } finally { await fs.unlink(archive); }
+      }
+      if (Object.keys(found).length !== binaries.length) continue;
+      artifacts[platform] = { url: asset.browser_download_url, releaseTag: release.tag_name,
+        sha256: sha256(bytes), size: bytes.length, format, binaries: found };
+      break;
     }
-    if (!asset) continue;
-    const format = asset.name.endsWith('.zip') ? 'zip' : asset.name.endsWith('.tar.xz') ? 'tar.xz'
-      : asset.name.endsWith('.tar.zst') ? 'tar.zst' : 'tar.gz';
-    const archive = path.join(temporary, `${platform}.${format}`);
-    const expected = /^sha256:[a-f0-9]{64}$/.test(asset.digest || '') ? asset.digest.slice(7) : undefined;
-    const bytes = await download(asset.browser_download_url, { expected, size: asset.size });
-    await fs.writeFile(archive, bytes, { flag: 'wx' });
-    const { stdout } = await execute(format === 'zip' ? 'unzip' : 'tar',
-      format === 'zip' ? ['-Z1', archive] : ['-tf', archive], { maxBuffer: 8 * 1024 * 1024 });
-    const paths = stdout.trim().split(/\r?\n/);
-    const found = {};
-    for (const binary of binaries) {
-      const filename = binary + (platform.startsWith('win32-') ? '.exe' : '');
-      const matches = paths.filter(member => archivePath(member) && path.posix.basename(member) === filename);
-      if (matches.length !== 1) break;
-      found[filename] = { path: matches[0], sha256: sha256(await extractBinary(archive, { format, executable: matches[0] })) };
-    }
-    if (Object.keys(found).length === binaries.length) artifacts[platform] = {
-      url: asset.browser_download_url, releaseTag: release.tag_name,
-      sha256: sha256(bytes), size: bytes.length, format, binaries: found,
-    };
-    await fs.unlink(archive);
   }
   return artifacts;
 }
@@ -220,7 +265,7 @@ async function currentManifests(directory) {
 }
 
 function duePreparation(entry, version, now = Date.now()) {
-  return entry?.version === version && entry.release
+  return entry?.version === version && entry.resolverRevision === RESOLVER_REVISION && entry.release
     && (!entry.retryable || Date.parse(entry.retryAfter) <= now);
 }
 
@@ -230,7 +275,7 @@ function catalogProgress(catalog, state, current, now = Date.now()) {
   for (const [name, entry] of Object.entries(catalog.crates)) {
     if (current[name] && compareVersions(current[name].version, entry.version) >= 0) continue;
     const status = state[name];
-    if (!status || status.version !== entry.version) { remaining++; runnable++; continue; }
+    if (!status || status.version !== entry.version || status.resolverRevision !== RESOLVER_REVISION) { remaining++; runnable++; continue; }
     if (status.release || status.retryable) {
       remaining++;
       if (!status.retryable || Date.parse(status.retryAfter) <= now) runnable++;
@@ -309,7 +354,7 @@ async function prepareShard(directory, output, shard, generator = generate) {
       const message = String(error.message).replace(/[\r\n]/g, ' ').slice(0, 300);
       const retryable = /HTTP (403|408|429|5\d\d)|fetch failed|timeout|timed out|aborted|ECONN|ENOTFOUND/i.test(message);
       console.log(`${name}: ${message}`);
-      report.failures[name] = { version: candidate.targetVersion, reason: message, retryable,
+      report.failures[name] = { version: candidate.targetVersion, resolverRevision: RESOLVER_REVISION, reason: message, retryable,
         retryAfter: new Date(Date.now() + (retryable ? 15 * 60 * 1000 : 7 * 24 * 60 * 60 * 1000)).toISOString(),
         ...(retryable && candidate.release ? { release: candidate.release } : {}),
       };
@@ -376,4 +421,5 @@ async function main() {
 
 if (require.main === module) main().catch(failure);
 module.exports = { wrapper, compareVersions, repositoryOf, generate, registered, probeReleases, publicationBudget,
+  assetFormat, assetCandidates, nativeBinary,
   catalogProgress, planUpdate, prepareShard, mergePrepared, main };
