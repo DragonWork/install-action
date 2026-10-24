@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "bpf-linker",
+  "version": "0.12.0",
+  "repository": "aya-rs/bpf-linker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aya-rs/bpf-linker/releases/download/v0.12.0/bpf-linker-x86_64-unknown-linux-musl.tar.zst",
+      "releaseTag": "v0.12.0",
+      "sha256": "6789717c8cb6a2a5d920f3b6bfac2bd7efc00f6228ecd149108a99699a75c679",
+      "size": 27995844,
+      "format": "tar.zst",
+      "binaries": {
+        "bpf-linker": {
+          "path": "bpf-linker",
+          "sha256": "45ab72c67eb05f7c52cc7acbdfdd2ab872bbd6dc6c23804f9bdc1699f407d9bd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/aya-rs/bpf-linker/releases/download/v0.12.0/bpf-linker-aarch64-unknown-linux-musl.tar.zst",
+      "releaseTag": "v0.12.0",
+      "sha256": "5e201e69dafac7af98f9788f1c68edd5ccc8fa0805093f899bf02bd2947b3935",
+      "size": 26765421,
+      "format": "tar.zst",
+      "binaries": {
+        "bpf-linker": {
+          "path": "bpf-linker",
+          "sha256": "70a1d2688cb83568a20ad900a81cac756145694351d445b33f0c0c3b94c5abf8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aya-rs/bpf-linker/releases/download/v0.12.0/bpf-linker-x86_64-apple-darwin.tar.zst",
+      "releaseTag": "v0.12.0",
+      "sha256": "93ddc50fc97ff412e4470639e7ed85107126128b98d2593b5b3388c9325d8373",
+      "size": 15428687,
+      "format": "tar.zst",
+      "binaries": {
+        "bpf-linker": {
+          "path": "bpf-linker",
+          "sha256": "64bb8751c3a985a5ee798e5618c7895e645f10314b1873c817f46c0a9fecf7fe"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aya-rs/bpf-linker/releases/download/v0.12.0/bpf-linker-aarch64-apple-darwin.tar.zst",
+      "releaseTag": "v0.12.0",
+      "sha256": "08be0f9ae1e153944ec7e180d587bd9c2935d8dbdddf95e4d92205ee660867f4",
+      "size": 14122637,
+      "format": "tar.zst",
+      "binaries": {
+        "bpf-linker": {
+          "path": "bpf-linker",
+          "sha256": "d1e2ba6217de8da0b7ede925e544ea92f574594df4e6256e3807602cb187a845"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aya-rs/bpf-linker/releases/download/v0.12.0/bpf-linker-x86_64-pc-windows-gnullvm.tar.zst",
+      "releaseTag": "v0.12.0",
+      "sha256": "b7587b89d896e2acf1095cc9c30d1b3ed3e1b10519f5fe486de1de3250f70eec",
+      "size": 20241429,
+      "format": "tar.zst",
+      "binaries": {
+        "bpf-linker.exe": {
+          "path": "bpf-linker.exe",
+          "sha256": "a87f3d64096aac1eeac8be81ac44fd6bc1976ec76991fff319fe9958a1cda78b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/aya-rs/bpf-linker/releases/download/v0.12.0/bpf-linker-aarch64-pc-windows-gnullvm.tar.zst",
+      "releaseTag": "v0.12.0",
+      "sha256": "1dd8bab6db71068d3bc502e418ca8a3dc5f61ad467c3aff832e8217392f71b6a",
+      "size": 18755753,
+      "format": "tar.zst",
+      "binaries": {
+        "bpf-linker.exe": {
+          "path": "bpf-linker.exe",
+          "sha256": "f06c8d245abdd9c6cfd0cc76ed79950afc98ad14043d06b4d292d1cfeacb2b68"
+        }
+      }
+    }
+  }
+}
