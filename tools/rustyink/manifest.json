@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rustyink",
+  "version": "0.5.0",
+  "repository": "arjunkomath/RustyInk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/arjunkomath/RustyInk/releases/download/v0.5.0/rustyink-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "9ae2459c62136ce5d00ba929b521d0d1ceab3a961f9088a61de4502947305b54",
+      "size": 3343068,
+      "format": "tar.xz",
+      "binaries": {
+        "rustyink": {
+          "path": "rustyink-x86_64-unknown-linux-musl/rustyink",
+          "sha256": "f4a26ac44e3c4181ac098384f1e4d9ca7c5510da24568d1ab3d085d08cc0a0bc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/arjunkomath/RustyInk/releases/download/v0.5.0/rustyink-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "0653320fe6f50f5a9d453c09ed91ffe34c6d9fd8287e8afd2fe5d204e78a85bb",
+      "size": 3052712,
+      "format": "tar.xz",
+      "binaries": {
+        "rustyink": {
+          "path": "rustyink-aarch64-unknown-linux-gnu/rustyink",
+          "sha256": "0575ddc957597a4117f4340c6f8b0867b096a324946aeb3d96488ce070698f2d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/arjunkomath/RustyInk/releases/download/v0.5.0/rustyink-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "412ef68d3b929a0052998db7a6810e7bdfbe684e04c72a931c7abcc0d411b584",
+      "size": 2935040,
+      "format": "tar.xz",
+      "binaries": {
+        "rustyink": {
+          "path": "rustyink-x86_64-apple-darwin/rustyink",
+          "sha256": "12c100d0c91fd686f9a0d7cf3e4eac7d12a403a13fee3d8d107916d24b78e875"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/arjunkomath/RustyInk/releases/download/v0.5.0/rustyink-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "16c8c4416ab1627d8b37f47d6b7d5634766dc98eac532ce36f94aace87fcd69a",
+      "size": 2757872,
+      "format": "tar.xz",
+      "binaries": {
+        "rustyink": {
+          "path": "rustyink-aarch64-apple-darwin/rustyink",
+          "sha256": "13227f9fc8160b5fac765006edc4fe23d5677f11ec6aa5f8655f9e9aaee2d204"
+        }
+      }
+    }
+  }
+}
