@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "a2kit",
+  "version": "4.4.2",
+  "repository": "dfgordon/a2kit",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dfgordon/a2kit/releases/download/v4.4.2/a2kit-x86_64-unknown-linux-musl-e783431867f5df1403f6bf2b1af373df767dfeab.tar.gz",
+      "sha256": "5317bb53da3628fe8ffab0e1139afcf95ce85ea5ba0e6d5ff6c1afc8ae7953c6",
+      "size": 3184108,
+      "format": "tar.gz",
+      "releaseTag": "v4.4.2",
+      "binaries": {
+        "a2kit": {
+          "path": "a2kit",
+          "sha256": "0cba972bcb920a3b02e57614f4d0f104ad20bc2def782f83142281a2215a9e57"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dfgordon/a2kit/releases/download/v4.4.2/a2kit-x86_64-apple-darwin-e783431867f5df1403f6bf2b1af373df767dfeab.tar.gz",
+      "sha256": "0e5f2c5b0c5817e2eba58a70aa886d8b0f76a4aee3ec7869227b94dd30eef99c",
+      "size": 2921432,
+      "format": "tar.gz",
+      "releaseTag": "v4.4.2",
+      "binaries": {
+        "a2kit": {
+          "path": "a2kit",
+          "sha256": "f2205de91f670fcc80a17ef459d0fe6411eef87aec59301ad2ed81d62a6deafd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dfgordon/a2kit/releases/download/v4.4.2/a2kit-aarch64-apple-darwin-e783431867f5df1403f6bf2b1af373df767dfeab.tar.gz",
+      "sha256": "1a5fb6372c12498b8927f92f95343b8df7eae33bacab6a76d708200981249f9e",
+      "size": 2778581,
+      "format": "tar.gz",
+      "releaseTag": "v4.4.2",
+      "binaries": {
+        "a2kit": {
+          "path": "a2kit",
+          "sha256": "e1248202b8e6b17d2323e0a6743b1532dba7c76fb4c165f567748c5108f89a8d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dfgordon/a2kit/releases/download/v4.4.2/a2kit-x86_64-pc-windows-msvc-e783431867f5df1403f6bf2b1af373df767dfeab.tar.gz",
+      "sha256": "341b26fe8ce6c1d5b4c15a4f2238282bcd7425340a9195fe10ba0cf50e1d399e",
+      "size": 2608956,
+      "format": "tar.gz",
+      "releaseTag": "v4.4.2",
+      "binaries": {
+        "a2kit.exe": {
+          "path": "a2kit.exe",
+          "sha256": "28385aa42953e1dcd5316d262db4567dc66cccee6c695a3fc7fa7997c7ff3230"
+        }
+      }
+    }
+  }
+}
