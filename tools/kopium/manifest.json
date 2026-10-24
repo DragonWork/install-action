@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "kopium",
+  "version": "0.24.1",
+  "repository": "kube-rs/kopium",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kube-rs/kopium/releases/download/0.24.1/kopium-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.24.1",
+      "sha256": "136bfb25911070088b82e3a74374d0ac79b757afa112a50fded1ddfe4a53f226",
+      "size": 2869884,
+      "format": "tar.xz",
+      "binaries": {
+        "kopium": {
+          "path": "kopium-x86_64-unknown-linux-musl/kopium",
+          "sha256": "29355399b7063584aafe22b43b842d9df44b076ee4be5b85d945ecaa1ac190bf"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kube-rs/kopium/releases/download/0.24.1/kopium-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.24.1",
+      "sha256": "43120d1741e0c643b6eddc4a95c90a8ae2510dc032a609f6e9c775e6958380e1",
+      "size": 2931884,
+      "format": "tar.xz",
+      "binaries": {
+        "kopium": {
+          "path": "kopium-aarch64-unknown-linux-gnu/kopium",
+          "sha256": "842c917e4200d19e0f6827c9b05c82b50e456d8ba90e7a1d78299a579c37119e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kube-rs/kopium/releases/download/0.24.1/kopium-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.24.1",
+      "sha256": "e98406d0c0aad4f983987d784e166eee071374c17bdeb4e51d83ee8b6b71bb27",
+      "size": 2729840,
+      "format": "tar.xz",
+      "binaries": {
+        "kopium": {
+          "path": "kopium-x86_64-apple-darwin/kopium",
+          "sha256": "bed56ec791051993065588289cb959487a4397e210527b48ec2e4e15e3130d30"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kube-rs/kopium/releases/download/0.24.1/kopium-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.24.1",
+      "sha256": "967f26da8df651a18c93354da67ecfee32b8de70c0dc7a9e3e3561e8c12cfc90",
+      "size": 2439812,
+      "format": "tar.xz",
+      "binaries": {
+        "kopium": {
+          "path": "kopium-aarch64-apple-darwin/kopium",
+          "sha256": "2e67910572d0ffd46b763448709759f6c1fc04f5e58567ab16e04ab1ba389601"
+        }
+      }
+    }
+  }
+}
