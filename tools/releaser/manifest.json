@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "releaser",
+  "version": "0.16.1",
+  "repository": "aegoroff/releaser",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aegoroff/releaser/releases/download/0.16.1/releaser-0.16.1-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "0.16.1",
+      "sha256": "b6a164c850352491b16401b3ac6cee12e6b9e40d37bea5b9dc250a3abf96bc5d",
+      "size": 1102174,
+      "format": "tar.gz",
+      "binaries": {
+        "releaser": {
+          "path": "releaser",
+          "sha256": "343f94f7c54b7542eb889b8d46c742549a33a9f8487227818f0d5b870c89e8f9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aegoroff/releaser/releases/download/0.16.1/releaser-0.16.1-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.16.1",
+      "sha256": "661cf90a504b7435151c8516d553739df0c45da29e4b9f2e37edad92be73c3bb",
+      "size": 1005224,
+      "format": "tar.gz",
+      "binaries": {
+        "releaser": {
+          "path": "releaser",
+          "sha256": "14ac562b74c17b084976146948b5b598cc9315cda64b56d185f71f6871a31ea6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aegoroff/releaser/releases/download/0.16.1/releaser-0.16.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.16.1",
+      "sha256": "0fccaee3f20dd4dd25b6d3d33f83731aca3055beaa244e557a157be81099b39d",
+      "size": 916767,
+      "format": "tar.gz",
+      "binaries": {
+        "releaser": {
+          "path": "releaser",
+          "sha256": "416c056fad84624f9a8324983cc6235736447d3a141a0e8def756cdc99429876"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aegoroff/releaser/releases/download/0.16.1/releaser-0.16.1-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.16.1",
+      "sha256": "12423f66374c143f8183d849240c4c88f822c4430f9d7512137d6366e1a49b3a",
+      "size": 943431,
+      "format": "tar.gz",
+      "binaries": {
+        "releaser.exe": {
+          "path": "releaser.exe",
+          "sha256": "8b4a0e9e75b34ed7395dba4e906c3f6312ed8174239fa774f2175acd278983ce"
+        }
+      }
+    }
+  }
+}
