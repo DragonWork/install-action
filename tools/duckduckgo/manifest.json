@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "duckduckgo",
+  "version": "0.3.3",
+  "repository": "wiseaidotdev/duckduckgo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wiseaidotdev/duckduckgo/releases/download/v0.3.3/ddg",
+      "sha256": "cc0f41aefdd7f8789c542726a8262e20966ea6f3ebe0c6d6205d3442a10ab74b",
+      "size": 14215208,
+      "format": "binary",
+      "releaseTag": "v0.3.3",
+      "binaries": {
+        "ddg": {
+          "path": "ddg",
+          "sha256": "cc0f41aefdd7f8789c542726a8262e20966ea6f3ebe0c6d6205d3442a10ab74b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wiseaidotdev/duckduckgo/releases/download/v0.3.3/ddg.exe",
+      "sha256": "955d36e7a2febe83893afa55058ca0a73181b128fb69e8496e2cf7b89ae944c2",
+      "size": 10716160,
+      "format": "binary",
+      "releaseTag": "v0.3.3",
+      "binaries": {
+        "ddg.exe": {
+          "path": "ddg.exe",
+          "sha256": "955d36e7a2febe83893afa55058ca0a73181b128fb69e8496e2cf7b89ae944c2"
+        }
+      }
+    }
+  }
+}
