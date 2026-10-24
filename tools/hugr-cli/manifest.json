@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hugr-cli",
+  "version": "0.30.3",
+  "repository": "Quantinuum/hugr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Quantinuum/hugr/releases/download/hugr-cli-v0.30.3/hugr-cli-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "hugr-cli-v0.30.3",
+      "sha256": "97d219bce78c35f43d818f3ef27b27f238f33f7c6a60c3d0f0e67bff64d9fd42",
+      "size": 3027844,
+      "format": "tar.xz",
+      "binaries": {
+        "hugr": {
+          "path": "hugr-cli-x86_64-unknown-linux-musl/hugr",
+          "sha256": "45f8043e060200ae05c583ccbd28d79c1ff760e5a3d317e4e0ac7dd4c574762c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Quantinuum/hugr/releases/download/hugr-cli-v0.30.3/hugr-cli-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "hugr-cli-v0.30.3",
+      "sha256": "264039fee0f6781b3f7ef8a224f53aedbb5b9bad4d2e91144fa9149a79042f29",
+      "size": 2638944,
+      "format": "tar.xz",
+      "binaries": {
+        "hugr": {
+          "path": "hugr-cli-aarch64-unknown-linux-gnu/hugr",
+          "sha256": "efb456023afa3df34a385f8349b78742d077c0554cc9de220a7dbc39f162a0e0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Quantinuum/hugr/releases/download/hugr-cli-v0.30.3/hugr-cli-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "hugr-cli-v0.30.3",
+      "sha256": "e73ed5adcfa0b6bd95713b7a52af90790e16ecf0ea832d524f58ddb288970562",
+      "size": 2725376,
+      "format": "tar.xz",
+      "binaries": {
+        "hugr": {
+          "path": "hugr-cli-x86_64-apple-darwin/hugr",
+          "sha256": "6725a74a910e5ddbc6ad9c436df95bf4d8db91efe14fa9a274f37eed0fdcb5dd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Quantinuum/hugr/releases/download/hugr-cli-v0.30.3/hugr-cli-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "hugr-cli-v0.30.3",
+      "sha256": "882ca3d8ec8e5d50c7ad0329f509d1cc144e8e76230aa2e4cda62e0335af9506",
+      "size": 2388784,
+      "format": "tar.xz",
+      "binaries": {
+        "hugr": {
+          "path": "hugr-cli-aarch64-apple-darwin/hugr",
+          "sha256": "a6d52b081336b11070a48211d7008d7ea3a492131b8cb2c554d2f2fb06adfef7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Quantinuum/hugr/releases/download/hugr-cli-v0.30.3/hugr-cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "hugr-cli-v0.30.3",
+      "sha256": "05ebd8a00bd05fa929f2cd3f5f477dcf47ff798b1fa15ea79e5c00039de9fe58",
+      "size": 3907303,
+      "format": "zip",
+      "binaries": {
+        "hugr.exe": {
+          "path": "hugr.exe",
+          "sha256": "367dc8586b3e4df8d467384d7cdcdee992d79634a5d7f2cb46837440e18b0917"
+        }
+      }
+    }
+  }
+}
