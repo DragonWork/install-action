@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "minmon",
+  "version": "0.13.1",
+  "repository": "flo-at/minmon",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/flo-at/minmon/releases/download/v0.13.1/minmon-linux-x86_64.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "3f62819fd2a4b2d0cac319d142f34798b72700a5e62e19eb091de9abd6e3914b",
+      "size": 3880952,
+      "format": "tar.gz",
+      "binaries": {
+        "minmon": {
+          "path": "minmon",
+          "sha256": "79406412ca42ef641625016db222c96cf582eab821228c63bf1de7ec1986039d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/flo-at/minmon/releases/download/v0.13.1/minmon-linux-aarch64.tar.gz",
+      "releaseTag": "v0.13.1",
+      "sha256": "75c44974aa5409814f568ce36a732c2f33bc96ab4de5d40195df400acdda898b",
+      "size": 3491808,
+      "format": "tar.gz",
+      "binaries": {
+        "minmon": {
+          "path": "minmon",
+          "sha256": "d2684e251cbbc56946a8070d844bd559dd8b14a646e07a7ac397ec1a605b81e2"
+        }
+      }
+    }
+  }
+}
