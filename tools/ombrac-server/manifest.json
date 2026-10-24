@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "ombrac-server",
+  "version": "0.7.13",
+  "repository": "ombrac/ombrac",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ombrac/ombrac/releases/download/v0.7.13/ombrac-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.13",
+      "sha256": "e7803a8a608e31c3dd066b5b2aa38bcc7b0744a6eb5d52a75f8c32aa6d5c6672",
+      "size": 9248642,
+      "format": "tar.gz",
+      "binaries": {
+        "ombrac-server": {
+          "path": "./ombrac-server",
+          "sha256": "5a8b4dac778d4502b0822bdd0ce7e074480930eb1fd97a98b9c74b43705018e8"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ombrac/ombrac/releases/download/v0.7.13/ombrac-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.13",
+      "sha256": "553aef11eba9cddb1e129123966da2e1573ed8bb2d8eb86f92a86ef8ee870480",
+      "size": 8894621,
+      "format": "tar.gz",
+      "binaries": {
+        "ombrac-server": {
+          "path": "./ombrac-server",
+          "sha256": "8a1692cc2290860c4aa65fc858162190f192561fcbec1dd71a7959fa0dfddd64"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ombrac/ombrac/releases/download/v0.7.13/ombrac-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.13",
+      "sha256": "7e96fca620d5fe64d0fe848bd5f88b52afb48028c64ca56471ebbdc8c0c99993",
+      "size": 8373543,
+      "format": "tar.gz",
+      "binaries": {
+        "ombrac-server": {
+          "path": "./ombrac-server",
+          "sha256": "166fdb1da22946005dfe23dbcfeea85a86fdd883a62a7f1f34591795fde10e31"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ombrac/ombrac/releases/download/v0.7.13/ombrac-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.13",
+      "sha256": "0fd57f3cb9afd25bc89dcfc076b74f6974c2c8eaa736db24e4f35205a3abef6f",
+      "size": 7932283,
+      "format": "tar.gz",
+      "binaries": {
+        "ombrac-server": {
+          "path": "./ombrac-server",
+          "sha256": "c21e7d609e0f05e0b4e3eb4888715545d157a6e4978884241eb283ef92ae9b88"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ombrac/ombrac/releases/download/v0.7.13/ombrac-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.7.13",
+      "sha256": "e990322b300b13b3ebd07b3282ba6a420d78aaf18cccdc283ace524d6f899ed1",
+      "size": 7276296,
+      "format": "tar.gz",
+      "binaries": {
+        "ombrac-server.exe": {
+          "path": "./ombrac-server.exe",
+          "sha256": "24b7157d3bed375e6a782f115a034077846540a71e6c00899794da320dda3319"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ombrac/ombrac/releases/download/v0.7.13/ombrac-aarch64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v0.7.13",
+      "sha256": "acf85dfcb32eff590b992b756b112a51a61a7aba9c3c681b0fa77e20219c0e26",
+      "size": 7102441,
+      "format": "tar.gz",
+      "binaries": {
+        "ombrac-server.exe": {
+          "path": "./ombrac-server.exe",
+          "sha256": "ae97657f69b3bd8447d104d5a40dfcf4eeeab65b754ff8760bb2c5da61a746ac"
+        }
+      }
+    }
+  }
+}
