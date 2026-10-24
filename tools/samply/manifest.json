@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "samply",
+  "version": "0.13.1",
+  "repository": "mstange/samply",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mstange/samply/releases/download/samply-v0.13.1/samply-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "samply-v0.13.1",
+      "sha256": "691f48f3b3ece38d6fc0d93ce2143fd8ca5621fe627ebc4c13f1f0081fcb6480",
+      "size": 5027292,
+      "format": "tar.xz",
+      "binaries": {
+        "samply": {
+          "path": "samply-x86_64-unknown-linux-musl/samply",
+          "sha256": "cc0e21ddcae80ceb5b89cbe92ce17ed221edd91b7f834dff89d985e9ec579e09"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mstange/samply/releases/download/samply-v0.13.1/samply-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "samply-v0.13.1",
+      "sha256": "aa465162b62830168775b7ff4804bc35049436dcbc29bb3d1ea9f580380ea06a",
+      "size": 3777740,
+      "format": "tar.xz",
+      "binaries": {
+        "samply": {
+          "path": "samply-aarch64-unknown-linux-gnu/samply",
+          "sha256": "4563b7135099f3e0911ac047366b113cd6ddfe1c93fe8da9e62f0c08350201a0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mstange/samply/releases/download/samply-v0.13.1/samply-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "samply-v0.13.1",
+      "sha256": "a57f05f9162d06c36df6d51425d976ac774a8cd6dbd84050e6303fa8bf813998",
+      "size": 4750028,
+      "format": "tar.xz",
+      "binaries": {
+        "samply": {
+          "path": "samply-x86_64-apple-darwin/samply",
+          "sha256": "26a04b6b776de74593df3ca757a7b633ed919cb11fdcf5e8f146b12ce1903973"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mstange/samply/releases/download/samply-v0.13.1/samply-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "samply-v0.13.1",
+      "sha256": "7597239aa3769e75058be5ed359dbfe067f5e7714a5f052c45dd81d509aec17f",
+      "size": 4240484,
+      "format": "tar.xz",
+      "binaries": {
+        "samply": {
+          "path": "samply-aarch64-apple-darwin/samply",
+          "sha256": "dcf042115dd8a9e8582510f403365cbee1a2025405d0f3ebe95162f31943123b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mstange/samply/releases/download/samply-v0.13.1/samply-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "samply-v0.13.1",
+      "sha256": "8fed74dac18197bbb2520125b0199255e09709bed7903a7672a06225a5d7e976",
+      "size": 14895943,
+      "format": "zip",
+      "binaries": {
+        "samply.exe": {
+          "path": "samply.exe",
+          "sha256": "38b2be39fa87f04297b903d7475b2c703e1d464b7b79834ace80bdc3100e4621"
+        }
+      }
+    }
+  }
+}
