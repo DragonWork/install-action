@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rsql_cli",
+  "version": "0.21.0",
+  "repository": "theseus-rs/rsql",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/theseus-rs/rsql/releases/download/v0.21.0/rsql-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.21.0",
+      "sha256": "a12fc78ec9564a8a2ddf2fb3c3d3338afa59563e7f30f241bd068bcf3f5ddac1",
+      "size": 36440791,
+      "format": "tar.gz",
+      "binaries": {
+        "rsql": {
+          "path": "rsql",
+          "sha256": "51402eaf0d90463ab2e3f3a8f91140988147dd9bc5ecdef24da168e3c4e5f967"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/theseus-rs/rsql/releases/download/v0.21.0/rsql_cli-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.21.0",
+      "sha256": "28cc8716ed4b0cb533feba6088ebd5397065098685364a4d66d8041a01462d8e",
+      "size": 33454713,
+      "format": "zip",
+      "binaries": {
+        "rsql.exe": {
+          "path": "rsql.exe",
+          "sha256": "27dae32f6a0b79c1f55b3285790cd1956608294719ce455c35cb6ab59022bf79"
+        }
+      }
+    }
+  }
+}
