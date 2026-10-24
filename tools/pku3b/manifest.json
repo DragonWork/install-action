@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pku3b",
+  "version": "0.16.1",
+  "repository": "sshwy/pku3b",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sshwy/pku3b/releases/download/0.16.1/pku3b-0.16.1-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.16.1",
+      "sha256": "d5c04182109c48080bd58465db36ac94f5cf4a152af43df5b853566b4ccb60de",
+      "size": 3552951,
+      "format": "tar.gz",
+      "binaries": {
+        "pku3b": {
+          "path": "pku3b-0.16.1-x86_64-unknown-linux-gnu/pku3b",
+          "sha256": "32b25060b4ba6c11d3419558abdbf49f8203f5d39482a9690d95bd40d0bb68a1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sshwy/pku3b/releases/download/0.16.1/pku3b-0.16.1-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "0.16.1",
+      "sha256": "bd7a4329c5ac688d8392e21728473b43f6ac40b72907f613de5618ab15919ac7",
+      "size": 3247454,
+      "format": "tar.gz",
+      "binaries": {
+        "pku3b": {
+          "path": "pku3b-0.16.1-aarch64-apple-darwin/pku3b",
+          "sha256": "1a4683806d7e21fc000cb6061f8ef3b61e7ded6d1aaa296ffb0bf40a2dae1e11"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sshwy/pku3b/releases/download/0.16.1/pku3b-0.16.1-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.16.1",
+      "sha256": "ae0e596bfca6e54e53297541e3e43b17fedca7defe002ba20d3c5013ddea60b0",
+      "size": 3282353,
+      "format": "zip",
+      "binaries": {
+        "pku3b.exe": {
+          "path": "pku3b-0.16.1-x86_64-pc-windows-msvc/pku3b.exe",
+          "sha256": "d78a9eb8d42587b2d5daa9676a8792a31933f096f8307f72c7f3b844a649f801"
+        }
+      }
+    }
+  }
+}
