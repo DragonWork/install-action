@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "uesave",
+  "version": "0.5.0",
+  "repository": "trumank/uesave",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/trumank/uesave/releases/download/v0.5.0/uesave-x86_64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "8f47b5cee658ec1fbc2628184ce5eac847b5c8dbd11d164e91e69ae0e1e0bbca",
+      "size": 1822944,
+      "format": "tar.xz",
+      "binaries": {
+        "uesave": {
+          "path": "uesave-x86_64-unknown-linux-gnu/uesave",
+          "sha256": "f44f1e2d4f663da3f2b993f639d228a60acda79164141ef7b2c001d1144c2bc9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/trumank/uesave/releases/download/v0.5.0/uesave-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "7553de2a58e512b1010a6264574f5260cac39cdfc0d6cec7ce58e9f12f112420",
+      "size": 705864,
+      "format": "tar.xz",
+      "binaries": {
+        "uesave": {
+          "path": "uesave-x86_64-apple-darwin/uesave",
+          "sha256": "a4ce8ea0b74d6aac744486ed8fcfe49659dfe38e9fced4ad91e042902d45e844"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/trumank/uesave/releases/download/v0.5.0/uesave-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "v0.5.0",
+      "sha256": "b89a0c60b829776484692699c306d1b2a9bb9973e4e975b14e5cfdcba86190c5",
+      "size": 649392,
+      "format": "tar.xz",
+      "binaries": {
+        "uesave": {
+          "path": "uesave-aarch64-apple-darwin/uesave",
+          "sha256": "607e4ebe228487e39f48f2f173ee512f60d3feb3e6236a96ba441b4733e6a488"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/trumank/uesave/releases/download/v0.5.0/uesave-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.5.0",
+      "sha256": "a32dd0c1524b461ab73cd4c8f0cabdb75dc0cd534287c4167bc16a60a3a6d28f",
+      "size": 2246630,
+      "format": "zip",
+      "binaries": {
+        "uesave.exe": {
+          "path": "uesave.exe",
+          "sha256": "35c75104be0740161a2b239df666ed9a8b331a0ff89cbc45527e46c641f372fd"
+        }
+      }
+    }
+  }
+}
