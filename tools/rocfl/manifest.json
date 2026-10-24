@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rocfl",
+  "version": "1.7.0",
+  "repository": "pwinckles/rocfl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pwinckles/rocfl/releases/download/v1.7.0/rocfl-linux-x86_64.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "9c7cc80faee3f414002ddae3de728ba3444d39039ef770f76198f4d4e86f2b63",
+      "size": 4359158,
+      "format": "zip",
+      "binaries": {
+        "rocfl": {
+          "path": "rocfl",
+          "sha256": "bed0dca78ca414314303a9e4a08d8e595ea05f617fa5d6ad72a220a22b720ac8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pwinckles/rocfl/releases/download/v1.7.0/rocfl-macos-x86_64.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "5af196905e5db148bc0cbfa083fb88c782c11bb2b08c73323c17409593001040",
+      "size": 4009227,
+      "format": "zip",
+      "binaries": {
+        "rocfl": {
+          "path": "rocfl",
+          "sha256": "90d7eff5a20508746b5e5eda5e5adc1b90179277438ff9fe30ec398ac1efa366"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pwinckles/rocfl/releases/download/v1.7.0/rocfl-windows-x86_64.exe.zip",
+      "releaseTag": "v1.7.0",
+      "sha256": "a05c353e2c8f570a536ab6d319ceed29d8ab30005ef0874f0a60716b259716cd",
+      "size": 4102739,
+      "format": "zip",
+      "binaries": {
+        "rocfl.exe": {
+          "path": "rocfl.exe",
+          "sha256": "abff2a9f094858e3dc0889678e3c25bed0309e199d13b4e8ee6bc1ef46caed59"
+        }
+      }
+    }
+  }
+}
