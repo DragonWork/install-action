@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tam",
+  "version": "1.0.13",
+  "repository": "wst7/tam",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.13",
+      "sha256": "c983527242386416a26a24b33f3748149291721e0024725dcec3b8491c103731",
+      "size": 2287587,
+      "format": "tar.gz",
+      "binaries": {
+        "tam": {
+          "path": "tam-x86_64-unknown-linux-musl/tam",
+          "sha256": "35d315cfc77ba4cf3ae8e0111f204a637f5e3fd3fbd9fa7888e231ffde84d814"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v1.0.13",
+      "sha256": "8ae789e62f75ef349bef92d9430e527f7506ae999687ebe9af09f8f0d14e408f",
+      "size": 1839586,
+      "format": "tar.gz",
+      "binaries": {
+        "tam": {
+          "path": "tam-aarch64-unknown-linux-musl/tam",
+          "sha256": "919bced5e43e63ceb723c09e23a7fb4009699486d191e6c0b15ae270fb36fb84"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.13",
+      "sha256": "93b36f9c89b0dee95a9abdd982c5dabbab7b1e64f6bee6aef434337ff19be97d",
+      "size": 2104438,
+      "format": "tar.gz",
+      "binaries": {
+        "tam": {
+          "path": "tam-x86_64-apple-darwin/tam",
+          "sha256": "79b68e1234f1045b1983d8f9d8c6c4ed4fe5dc1c844c9ebe80d3d53039318d9e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v1.0.13",
+      "sha256": "19c4671a7489ae9465a966f4e526a5fc14463723b6b881efe9eee0b704657930",
+      "size": 1986449,
+      "format": "tar.gz",
+      "binaries": {
+        "tam": {
+          "path": "tam-aarch64-apple-darwin/tam",
+          "sha256": "9d43c2c55a8e2d981ea1316d19c878ae02e64964ac63541a79c7e71be29caee4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "v1.0.13",
+      "sha256": "57841c6fec4443a45d2429100098aa2dec6df561033133770efd96d259295e3f",
+      "size": 1824240,
+      "format": "tar.gz",
+      "binaries": {
+        "tam.exe": {
+          "path": "tam-x86_64-pc-windows-msvc/tam.exe",
+          "sha256": "a9a3d628dd93faaf4c9a9ba7a766d1f33d2a237eface79f23872ea1a000b3e83"
+        }
+      }
+    }
+  }
+}
