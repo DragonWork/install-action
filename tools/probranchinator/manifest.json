@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "probranchinator",
+  "version": "0.3.1",
+  "repository": "strowk/probranchinator",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/strowk/probranchinator/releases/download/v0.3.1/probranchinator-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "9dd873beab34fc1d5b91a1caa5ba8554078e58a9a493b91ea2c8b97e47626dd5",
+      "size": 2160784,
+      "format": "tar.gz",
+      "binaries": {
+        "probranchinator": {
+          "path": "target/x86_64-unknown-linux-gnu/release/probranchinator",
+          "sha256": "72d7f01f0c745f10a0aecf00603afed687d00b55ca3c2897de20d30aa56939e5"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/strowk/probranchinator/releases/download/v0.3.1/probranchinator-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "1a46306a6aa51c2bb234c360250236f2b4378d908b7dba6fd331d91220e1cb1f",
+      "size": 1223094,
+      "format": "tar.gz",
+      "binaries": {
+        "probranchinator": {
+          "path": "target/x86_64-apple-darwin/release/probranchinator",
+          "sha256": "5c9045dc0823764e971eab979643e7137f41e3e7b2e16894a44a015e30cd0281"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/strowk/probranchinator/releases/download/v0.3.1/probranchinator-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "73a4c2f124487986c8428db99e547e3c5dd5faacdab9a4cbf2950785ec4405a1",
+      "size": 1133760,
+      "format": "tar.gz",
+      "binaries": {
+        "probranchinator": {
+          "path": "target/aarch64-apple-darwin/release/probranchinator",
+          "sha256": "f733d1abc083a786311bd74a3fea5c83447202d5584f9c7d713892370d1c20cb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/strowk/probranchinator/releases/download/v0.3.1/probranchinator-x86_64-pc-windows-gnu.tar.gz",
+      "releaseTag": "v0.3.1",
+      "sha256": "7aefd5e22b4a27f1f197ffb54263768724024b533e1cfff9cd64dde34afc281d",
+      "size": 3835759,
+      "format": "tar.gz",
+      "binaries": {
+        "probranchinator.exe": {
+          "path": "target/x86_64-pc-windows-gnu/release/probranchinator.exe",
+          "sha256": "c6db4bd0fdb8fa3d1b86f87cb0c50cf7f6692132ac1fff19b0214f7ce4f93ce3"
+        }
+      }
+    }
+  }
+}
