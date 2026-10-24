@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "talenta",
+  "version": "0.5.0",
+  "repository": "el7cosmos/talenta",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/el7cosmos/talenta/releases/download/0.5.0/talenta-0.5.0-x86_64-unknown-linux-gnu.tar.gz",
+      "releaseTag": "0.5.0",
+      "sha256": "d528e623397ba1fc855223c6955023ec80cd83984cdc9cdda411cab0cc976cae",
+      "size": 2968353,
+      "format": "tar.gz",
+      "binaries": {
+        "talenta": {
+          "path": "talenta",
+          "sha256": "2c2f65ee71432bdc68dc4c3debc9fdd6de7844a9d4eec4ac431127de578335b8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/el7cosmos/talenta/releases/download/0.5.0/talenta-0.5.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "0.5.0",
+      "sha256": "ba199112220ea192c8a4de753b72a600bb61e15faab6e45ba608b2b2df4afb46",
+      "size": 2033739,
+      "format": "tar.gz",
+      "binaries": {
+        "talenta": {
+          "path": "talenta",
+          "sha256": "22b809dd4d1a816936e04423017ba6780304574ffde4720514679bfaa91d21ff"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/el7cosmos/talenta/releases/download/0.5.0/talenta-0.5.0-x86_64-pc-windows-msvc.tar.gz",
+      "releaseTag": "0.5.0",
+      "sha256": "04d27b7cbad62a3a2abfe545dee6da2399bad9a6b7aa269c62365ebf6b555dbf",
+      "size": 1723021,
+      "format": "tar.gz",
+      "binaries": {
+        "talenta.exe": {
+          "path": "talenta.exe",
+          "sha256": "8f282aa82a3dfd3a5ee28d27ce52245cdffe166f5e49be57fe0a4183dca15426"
+        }
+      }
+    }
+  }
+}
