@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "whyq",
+  "version": "0.10.2",
+  "repository": "clux/lq",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/clux/lq/releases/download/0.10.2/yq-x86_64-unknown-linux-musl.tar.xz",
+      "releaseTag": "0.10.2",
+      "sha256": "b367157e0ba231fc1fd6ddb56452f26b3dd5439a711900e508b0b558ca201577",
+      "size": 860820,
+      "format": "tar.xz",
+      "binaries": {
+        "yq": {
+          "path": "yq-x86_64-unknown-linux-musl/yq",
+          "sha256": "3e2a88f4df77905caf77a9974d37472cc1a89dc61e0b1e30fbe9e8166d99da6b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/clux/lq/releases/download/0.10.2/yq-aarch64-unknown-linux-gnu.tar.xz",
+      "releaseTag": "0.10.2",
+      "sha256": "62a87fc1a1ec5e7a1cd870eec667fce0225cb2737b9a2edc0df223886a8ae007",
+      "size": 1152948,
+      "format": "tar.xz",
+      "binaries": {
+        "yq": {
+          "path": "yq-aarch64-unknown-linux-gnu/yq",
+          "sha256": "3033d03e70a39859814e95ab45f784e2cf98a7867ec325822fd1b3890e9a5a2c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/clux/lq/releases/download/0.10.2/yq-x86_64-apple-darwin.tar.xz",
+      "releaseTag": "0.10.2",
+      "sha256": "71c7dcef55f3908016646f2b53a1b539a78fd0f6343fb12855c0cff3d0e20f8b",
+      "size": 779224,
+      "format": "tar.xz",
+      "binaries": {
+        "yq": {
+          "path": "yq-x86_64-apple-darwin/yq",
+          "sha256": "cb87400cc9d9f07b75f50b0711430e5266a289318bc5c02b108118decd158fbd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/clux/lq/releases/download/0.10.2/yq-aarch64-apple-darwin.tar.xz",
+      "releaseTag": "0.10.2",
+      "sha256": "19a88a0fc45f2f0af8f8b4177f80c2b7b4ff3bf173a69391f39eb6e7fb123f3a",
+      "size": 673388,
+      "format": "tar.xz",
+      "binaries": {
+        "yq": {
+          "path": "yq-aarch64-apple-darwin/yq",
+          "sha256": "447febc8eb30b27f0056384c2951dc25a1d7d37fb51172c6e26bd72d3ba5c93f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/clux/lq/releases/download/0.10.2/yq-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "0.10.2",
+      "sha256": "b853e18a1458a94d78691329a445f7ec9b691899b715305761a0b0619526164e",
+      "size": 1011793,
+      "format": "zip",
+      "binaries": {
+        "yq.exe": {
+          "path": "yq-x86_64-pc-windows-msvc/yq.exe",
+          "sha256": "3c5c243e4d0fa7622c8e6d5d3042b2eedf71ce784ae15cc6e221e4b9179bf08e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/clux/lq/releases/download/0.10.2/yq-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "0.10.2",
+      "sha256": "84770fd5b9664c750dd16fff1c9a2999bbbfebaaa34d4ab4b613c0ba00d5a515",
+      "size": 970173,
+      "format": "zip",
+      "binaries": {
+        "yq.exe": {
+          "path": "yq-aarch64-pc-windows-msvc/yq.exe",
+          "sha256": "789cd8ba65593f95e4111e9e920fb6083b788babaa429d669d5050a852f06c45"
+        }
+      }
+    }
+  }
+}
