@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "elv",
+  "version": "0.13.5",
+  "repository": "kpagacz/elv",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kpagacz/elv/releases/download/v0.13.5/elv-v0.13.5-x86_64-unknown-linux-musl.zip",
+      "releaseTag": "v0.13.5",
+      "sha256": "a039cb39fc803433b3f5f96aa2518bbb64a2bfd0409da07da17bfec6cc2a8ccf",
+      "size": 5991917,
+      "format": "zip",
+      "binaries": {
+        "elv": {
+          "path": "elv",
+          "sha256": "4ff91e9267b2ef96e7d104e041f09c50aa3ef6319cacec59cedf578b6641ad4c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kpagacz/elv/releases/download/v0.13.5/elv-v0.13.5-x86_64-apple-darwin.zip",
+      "releaseTag": "v0.13.5",
+      "sha256": "9b121e36b13eeb6700d3001e63125d7871885d76b20a598d72c00e75b817aa3a",
+      "size": 3614121,
+      "format": "zip",
+      "binaries": {
+        "elv": {
+          "path": "elv",
+          "sha256": "c4332fac08e411c6f69d4416c73e577e66c072bd49b5ebee265ef5c587f835f6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kpagacz/elv/releases/download/v0.13.5/elv-v0.13.5-aarch64-apple-darwin.zip",
+      "releaseTag": "v0.13.5",
+      "sha256": "1c0fe8605ca2242438c751dae1ef603f67c57887c62e41f11f7138e91ecf24f2",
+      "size": 3495714,
+      "format": "zip",
+      "binaries": {
+        "elv": {
+          "path": "elv",
+          "sha256": "32244e18e55ca3059cb31ac321af573fe42fe4962bf7f7872f118a9490b41d89"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kpagacz/elv/releases/download/v0.13.5/elv-v0.13.5-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.13.5",
+      "sha256": "decdb397002a65319fab73990518c66c0a3ad102498272f203a2e20b0ce1d2ae",
+      "size": 3186962,
+      "format": "zip",
+      "binaries": {
+        "elv.exe": {
+          "path": "elv.exe",
+          "sha256": "bbfc02a5c536f10b72d0ad578fb64dcdd3d3b4a2ae33e7adb6546dfb2364eeec"
+        }
+      }
+    }
+  }
+}
