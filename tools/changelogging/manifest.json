@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "changelogging",
+  "version": "0.7.0",
+  "repository": "nekitdev/changelogging",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nekitdev/changelogging/releases/download/v0.7.0/changelogging-0.7.0-x86_64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "f87baa20bcc94cd360e3d20d7f1e955515d5a1c0b5668e387ea3f918e01ae62f",
+      "size": 1209733,
+      "format": "tar.gz",
+      "binaries": {
+        "changelogging": {
+          "path": "changelogging",
+          "sha256": "e0f88fc923387eb6d8dcef3f2950ec55869963dc5326cee1e9a7a99513e98a1d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nekitdev/changelogging/releases/download/v0.7.0/changelogging-0.7.0-aarch64-unknown-linux-musl.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "a4097d7a4239cf9305bdc248f155cb8c473255821f968bbec37bc22b6dd3f59c",
+      "size": 1186920,
+      "format": "tar.gz",
+      "binaries": {
+        "changelogging": {
+          "path": "changelogging",
+          "sha256": "854690b530fc6d7885b1b7f7db072d1e622a262f83ffbd5d5987905d60fb23a8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nekitdev/changelogging/releases/download/v0.7.0/changelogging-0.7.0-x86_64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "53b80556e2be6e3a82a02dcaf0442f76e26d25c427ad11f8e7fc39abebfd9f61",
+      "size": 1117723,
+      "format": "tar.gz",
+      "binaries": {
+        "changelogging": {
+          "path": "changelogging",
+          "sha256": "9d9bbbd39903665f6e05f19524490fcd97468ab6b50c0c3fd94f5f7ee8367280"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nekitdev/changelogging/releases/download/v0.7.0/changelogging-0.7.0-aarch64-apple-darwin.tar.gz",
+      "releaseTag": "v0.7.0",
+      "sha256": "36623cf8055485112f73c58c62804d395303ff3b7d853f20fd164d295f81b9d8",
+      "size": 1067809,
+      "format": "tar.gz",
+      "binaries": {
+        "changelogging": {
+          "path": "changelogging",
+          "sha256": "a04f20f930dcb4b3256dce69f48fe2983217f10b6584fcfc636119b2b939768e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nekitdev/changelogging/releases/download/v0.7.0/changelogging-0.7.0-x86_64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "5f5d6bcc2c89d265e6efd582ff54b880536c1562946dbe3fed0bf97403459a40",
+      "size": 945998,
+      "format": "zip",
+      "binaries": {
+        "changelogging.exe": {
+          "path": "changelogging.exe",
+          "sha256": "4fbe37f560835c7b9df9b4649d57d278ce0a221ec57b71e77935c46b48aed9bd"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/nekitdev/changelogging/releases/download/v0.7.0/changelogging-0.7.0-aarch64-pc-windows-msvc.zip",
+      "releaseTag": "v0.7.0",
+      "sha256": "027b5761008ca8bf214d05337e3a79549db8e1bd258c6cc7dd5b4a9fd68ab2fd",
+      "size": 893667,
+      "format": "zip",
+      "binaries": {
+        "changelogging.exe": {
+          "path": "changelogging.exe",
+          "sha256": "c41cf5094c65f8ef410c7d105100851e71bf45aaddac4ec444462a08d22787bc"
+        }
+      }
+    }
+  }
+}
