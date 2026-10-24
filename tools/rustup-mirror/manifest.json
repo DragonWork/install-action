@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "rustup-mirror",
+  "version": "0.12.0",
+  "repository": "jiegec/rustup-mirror",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jiegec/rustup-mirror/releases/download/v0.12.0/rustup-mirror_0.12.0-1_amd64.deb",
+      "sha256": "927097723a927a6a025bf80f92f5bce089b010fda2ef32b1702ccfc8cb233675",
+      "size": 2171300,
+      "format": "deb",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "rustup-mirror": {
+          "path": "./usr/bin/rustup-mirror",
+          "sha256": "36196dea1958987a02268243f935f9d7ba9b697917bfa4e42bc0d94bd05251e5"
+        }
+      }
+    }
+  }
+}
