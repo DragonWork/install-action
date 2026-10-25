@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "name": "i3stat",
+  "version": "0.15.0",
+  "repository": "acheronfail/i3stat",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/acheronfail/i3stat/releases/download/0.15.0/i3stat-x86_64-unknown-linux-gnu.zip",
+      "sha256": "efbae360f89e6f79e9810ba05aefac1b6af9a94f06fbd2024840b1ff0c98a238",
+      "size": 3996695,
+      "format": "zip",
+      "releaseTag": "0.15.0",
+      "binaries": {
+        "i3stat": {
+          "path": "i3stat-x86_64-unknown-linux-gnu/i3stat",
+          "sha256": "f5bb117035e8ab4735043db2c7c31b8e388e32b2072662b551160571b21c3364"
+        },
+        "i3stat-acpi": {
+          "path": "i3stat-x86_64-unknown-linux-gnu/i3stat-acpi",
+          "sha256": "a1a7ca6749a4566d4aab75005b30a4d51e5442654660883219f7d187b84d56f6"
+        },
+        "i3stat-ipc": {
+          "path": "i3stat-x86_64-unknown-linux-gnu/i3stat-ipc",
+          "sha256": "1617993e46ef14901bbfc5e285479ce60a805538feb8bc23e66d5c4f69111d71"
+        },
+        "i3stat-sensors": {
+          "path": "i3stat-x86_64-unknown-linux-gnu/i3stat-sensors",
+          "sha256": "ad1794f483735f4005dff183bc289dcd653d8b9ef7700270cfbbecf56148d3bb"
+        },
+        "i3stat-signals": {
+          "path": "i3stat-x86_64-unknown-linux-gnu/i3stat-signals",
+          "sha256": "7c1428c06d4e220cc49a81df28a282da0a7b82fe6e25f43db1f70655a07335cb"
+        }
+      }
+    }
+  }
+}
