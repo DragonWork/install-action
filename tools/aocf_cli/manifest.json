@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "aocf_cli",
+  "version": "0.1.21",
+  "repository": "nuxeh/aocf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nuxeh/aocf/releases/download/v0.1.21/aocf_cli_0.1.21_amd64.deb",
+      "sha256": "797855206ecddff63c0099ddbe69417736396b930d9fc574bca1c0744fdb7a4a",
+      "size": 2392076,
+      "format": "deb",
+      "releaseTag": "v0.1.21",
+      "binaries": {
+        "aocf": {
+          "path": "usr/bin/aocf",
+          "sha256": "00e2ab9719a8423590e14e0458f9b6a4210c7fc6adfa149ed84337cbedd46202"
+        }
+      }
+    }
+  }
+}
