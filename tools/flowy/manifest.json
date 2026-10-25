@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "flowy",
+  "version": "0.4.0",
+  "repository": "vineetred/flowy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/vineetred/flowy/releases/download/0.4.0/flowy_linux_gnu.zip",
+      "sha256": "03305142c1a495cdab15ee3425fa4e67b3135e78e3f26a8a25d7e59e443bc73f",
+      "size": 2687262,
+      "format": "zip",
+      "releaseTag": "0.4.0",
+      "binaries": {
+        "flowy": {
+          "path": "flowy",
+          "sha256": "2c809d035a3f569f20c6ba81d32e242bfc39fb93993d49dc9cd515ca5ddc7b7d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vineetred/flowy/releases/download/0.4.0/flowy_macos.zip",
+      "sha256": "e81dee4b790a399bb56fc97e209fb8987d4343301c424065e5e4db6afab68c54",
+      "size": 1632866,
+      "format": "zip",
+      "releaseTag": "0.4.0",
+      "binaries": {
+        "flowy": {
+          "path": "flowy",
+          "sha256": "d0a184b108f11628d4f0df71afb2147b23c691e35b66eb239f8e010166cd0bd5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vineetred/flowy/releases/download/0.4.0/flowy_windows.zip",
+      "sha256": "69a4e6c18cdf9a097a21b213de86bb9c4c0a76cca2f7d0207e6820cc3186f0ac",
+      "size": 1379287,
+      "format": "zip",
+      "releaseTag": "0.4.0",
+      "binaries": {
+        "flowy.exe": {
+          "path": "flowy.exe",
+          "sha256": "422dc1a9d4ebc1dd2ddc8f2febc6e90542ad88835ed7994fd539eb05048daed0"
+        }
+      }
+    }
+  }
+}
