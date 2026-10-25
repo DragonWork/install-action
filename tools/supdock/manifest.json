@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "supdock",
+  "version": "3.5.2",
+  "repository": "segersniels/supdock",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/segersniels/supdock/releases/download/3.5.2/supdock-amd64-linux",
+      "sha256": "c5063034af29001d90a74843f1c01550b8cb0217d06171c088d2640ff1985d34",
+      "size": 2327664,
+      "format": "binary",
+      "releaseTag": "3.5.2",
+      "binaries": {
+        "supdock": {
+          "path": "supdock-amd64-linux",
+          "sha256": "c5063034af29001d90a74843f1c01550b8cb0217d06171c088d2640ff1985d34"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/segersniels/supdock/releases/download/3.5.2/supdock-aarch64-linux",
+      "sha256": "ca4f182ceff04a9c1b5fba17608758ab76e2c912dfd8dd45b4b0fbd4861191c6",
+      "size": 1905176,
+      "format": "binary",
+      "releaseTag": "3.5.2",
+      "binaries": {
+        "supdock": {
+          "path": "supdock-aarch64-linux",
+          "sha256": "ca4f182ceff04a9c1b5fba17608758ab76e2c912dfd8dd45b4b0fbd4861191c6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/segersniels/supdock/releases/download/3.5.2/supdock-macos",
+      "sha256": "c3bb5ccec361e9761e540a8c6dbd9e8cc2a13298c16e35e259d1f7dd4c1c64fc",
+      "size": 2007984,
+      "format": "binary",
+      "releaseTag": "3.5.2",
+      "binaries": {
+        "supdock": {
+          "path": "supdock-macos",
+          "sha256": "c3bb5ccec361e9761e540a8c6dbd9e8cc2a13298c16e35e259d1f7dd4c1c64fc"
+        }
+      }
+    }
+  }
+}
