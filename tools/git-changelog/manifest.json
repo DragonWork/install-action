@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "git-changelog",
+  "version": "0.3.1",
+  "repository": "aldrin/git-changelog",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aldrin/git-changelog/releases/download/v0.3.1/git-changelog-v0.3.1-linux.tar.gz",
+      "sha256": "07d84c4c871a350c9834b74991f96b21a7546d874aa4c9025c08c03a4f898c82",
+      "size": 2551462,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "git-changelog": {
+          "path": "git-changelog",
+          "sha256": "1ceb93dfa4c7ef61d0b6452fd6dbc5e0f34d13b3c6c2e44e7836bd94be2ff6d8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aldrin/git-changelog/releases/download/v0.3.1/git-changelog-v0.3.1-osx.tar.gz",
+      "sha256": "a3057e3c634ba1c4ac76ce5cb48ccff08d5a65775bb2a04fbeee7b636eed3c68",
+      "size": 1302431,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "git-changelog": {
+          "path": "git-changelog",
+          "sha256": "9bd999086839e4684ccfe9c8ab2cebbc6c3de796f87710785de3b10790762d0f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aldrin/git-changelog/releases/download/v0.3.1/git-changelog-v0.3.1-windows.zip",
+      "sha256": "9c986c20a13b85a489e9c6d123abd3b2eb166ee39e44cf005f66cc666bdfa62c",
+      "size": 969802,
+      "format": "zip",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "git-changelog.exe": {
+          "path": "target/release/git-changelog.exe",
+          "sha256": "ea70ac3d5f0dbe9a87b5a14067d7dfc457dd59bf43f55347bb30ae356d6970e3"
+        }
+      }
+    }
+  }
+}
