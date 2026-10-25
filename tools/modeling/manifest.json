@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "modeling",
+  "version": "0.6.2",
+  "repository": "modernizing/modeling",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/modernizing/modeling/releases/download/v0.6.2/modeling_linux",
+      "sha256": "4be06e3c3a5fe337b894ca15bc53ad2e149b343f6b9454acf1e178087f9b02ad",
+      "size": 7533720,
+      "format": "binary",
+      "releaseTag": "v0.6.2",
+      "binaries": {
+        "modeling": {
+          "path": "modeling_linux",
+          "sha256": "4be06e3c3a5fe337b894ca15bc53ad2e149b343f6b9454acf1e178087f9b02ad"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/modernizing/modeling/releases/download/v0.6.2/modeling_macos",
+      "sha256": "ccdc86be143eaff88e82662f2a7dadda9977e1373925baac156cb1e2e41b0550",
+      "size": 3769800,
+      "format": "binary",
+      "releaseTag": "v0.6.2",
+      "binaries": {
+        "modeling": {
+          "path": "modeling_macos",
+          "sha256": "ccdc86be143eaff88e82662f2a7dadda9977e1373925baac156cb1e2e41b0550"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/modernizing/modeling/releases/download/v0.6.2/modeling-windows.exe",
+      "sha256": "7dcf747b32b61e29e7a2fe4be67dcbba64a00e74f19d73192742d2695f172f0b",
+      "size": 3342848,
+      "format": "binary",
+      "releaseTag": "v0.6.2",
+      "binaries": {
+        "modeling.exe": {
+          "path": "modeling-windows.exe",
+          "sha256": "7dcf747b32b61e29e7a2fe4be67dcbba64a00e74f19d73192742d2695f172f0b"
+        }
+      }
+    }
+  }
+}
