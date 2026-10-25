@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "pkgx",
+  "version": "2.11.0",
+  "repository": "pkgxdev/pkgx",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pkgxdev/pkgx/releases/download/v2.11.0/pkgx-2.11.0%2Blinux%2Bx86-64.tar.gz",
+      "sha256": "71284469ab59e86a8f61b33c76cf1d70d1a8eae4450e402868c326546ad43e1a",
+      "size": 4497935,
+      "format": "tar.gz",
+      "releaseTag": "v2.11.0",
+      "binaries": {
+        "pkgx": {
+          "path": "pkgx",
+          "sha256": "400577e990a642f5e14746aade3e955be03f6945449ccf1c9cbb2f2629d16935"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pkgxdev/pkgx/releases/download/v2.11.0/pkgx-2.11.0%2Blinux%2Baarch64.tar.gz",
+      "sha256": "dad557767349ac87f051e4aab032640b472a868a480f55e1b3dce2a01fccd28e",
+      "size": 4369223,
+      "format": "tar.gz",
+      "releaseTag": "v2.11.0",
+      "binaries": {
+        "pkgx": {
+          "path": "pkgx",
+          "sha256": "ec0bcce905f7e01d90c81a8a8e26956043fa1cee8fb8e231d74997f78273ac89"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/pkgxdev/pkgx/releases/download/v2.11.0/pkgx-2.11.0%2Bdarwin%2Bx86-64.tar.gz",
+      "sha256": "bff567fc907cde0a68c20533e7e01d1a6b971f10f019be9a7622483df1d58641",
+      "size": 3626366,
+      "format": "tar.gz",
+      "releaseTag": "v2.11.0",
+      "binaries": {
+        "pkgx": {
+          "path": "pkgx",
+          "sha256": "9206513b960b7307cdbf016022beafc1eb3d8c405ac2705f80b5b3feb8f78504"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pkgxdev/pkgx/releases/download/v2.11.0/pkgx-2.11.0%2Bdarwin%2Baarch64.tar.gz",
+      "sha256": "411c013e2a9a2ad45a4cd2487e8e61fe96bd03129405d647201c5bb991242ac4",
+      "size": 3284222,
+      "format": "tar.gz",
+      "releaseTag": "v2.11.0",
+      "binaries": {
+        "pkgx": {
+          "path": "pkgx",
+          "sha256": "2a9cbdac420495317c558d27b72b5237419e78f91a2bc2a3382fdb7196d0d73a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pkgxdev/pkgx/releases/download/v2.11.0/pkgx-2.11.0%2Bwindows%2Bx86-64.zip",
+      "sha256": "4dabaa46d1e67017529a689aa7eec9f4ee2b6d5408b3ab2be8acef2ecd43542e",
+      "size": 4487160,
+      "format": "zip",
+      "releaseTag": "v2.11.0",
+      "binaries": {
+        "pkgx.exe": {
+          "path": "pkgx.exe",
+          "sha256": "9486c69c91e407e9748d48acfa09d1588a74316f53a0bb5cc8f1ef94a3e4df34"
+        }
+      }
+    }
+  }
+}
