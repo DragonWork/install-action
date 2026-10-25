@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cluttered",
+  "version": "0.11.0",
+  "repository": "Terria-K/cluttered",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Terria-K/cluttered/releases/download/0.11.0/linux.zip",
+      "sha256": "6f98cc2ec69698e377b5f5ee02fda8c0e2a93c0d13b2e88df5bd275d411bfac3",
+      "size": 3525471,
+      "format": "zip",
+      "releaseTag": "0.11.0",
+      "binaries": {
+        "cluttered": {
+          "path": "cluttered",
+          "sha256": "0d42219bd51e43f3f71c5d269e8ec050d041d717d558d0382c3159a657d6e669"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Terria-K/cluttered/releases/download/0.11.0/macOS.zip",
+      "sha256": "b3c5a4cbae7517d1e46ea132e93a64230a5ca2429afc8ea6289d65210153a21a",
+      "size": 3085161,
+      "format": "zip",
+      "releaseTag": "0.11.0",
+      "binaries": {
+        "cluttered": {
+          "path": "cluttered",
+          "sha256": "63699e0f40df7591a4a23c86f4ca1d9340969e3e1ecf85da6dc724a159f38422"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Terria-K/cluttered/releases/download/0.11.0/windows.zip",
+      "sha256": "1d4dab738febd52f1812e0f2ed392334de3d5a33543fa152b91178ee388ba6e7",
+      "size": 3322486,
+      "format": "zip",
+      "releaseTag": "0.11.0",
+      "binaries": {
+        "cluttered.exe": {
+          "path": "cluttered.exe",
+          "sha256": "582825ff7220d9b4d56b67283e1f396d4f880e76984266bcee5a7c9bf2a504ab"
+        }
+      }
+    }
+  }
+}
