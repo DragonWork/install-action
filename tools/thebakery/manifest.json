@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "thebakery",
+  "version": "1.1.14",
+  "repository": "yanctab/bakery",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/yanctab/bakery/releases/download/v1.1.14/bakery-x86_64-musl-v1.1.14.deb",
+      "sha256": "e98ebccdd9123b7d69e9550a06b61c57859e0eba7fd0c5bc2d0d8971890b79ba",
+      "size": 1560514,
+      "format": "deb",
+      "releaseTag": "v1.1.14",
+      "binaries": {
+        "bakery": {
+          "path": "./usr/bin/bakery",
+          "sha256": "47b24332fc3135c9745fc8e19ce56f772cd29ae922a65ca7b0ec72cdaf23ef2f"
+        }
+      }
+    }
+  }
+}
