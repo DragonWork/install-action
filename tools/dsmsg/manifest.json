@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dsmsg",
+  "version": "1.7.1",
+  "repository": "Yaulendil/dsmsg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Yaulendil/dsmsg/releases/download/v1.7.1/dsmsg-1.7.1-linux",
+      "sha256": "753ae1253631634f94a99b561a9ef1a7425e22a4e327a88932d9e6e5a69e81dc",
+      "size": 419936,
+      "format": "binary",
+      "releaseTag": "v1.7.1",
+      "binaries": {
+        "dsmsg": {
+          "path": "dsmsg-1.7.1-linux",
+          "sha256": "753ae1253631634f94a99b561a9ef1a7425e22a4e327a88932d9e6e5a69e81dc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Yaulendil/dsmsg/releases/download/v1.7.1/dsmsg-1.7.1-windows.exe",
+      "sha256": "1658208a8eb73b6b96152b344c0928a971386d2e454c9e1a4824cf034b4e455a",
+      "size": 322062,
+      "format": "binary",
+      "releaseTag": "v1.7.1",
+      "binaries": {
+        "dsmsg.exe": {
+          "path": "dsmsg-1.7.1-windows.exe",
+          "sha256": "1658208a8eb73b6b96152b344c0928a971386d2e454c9e1a4824cf034b4e455a"
+        }
+      }
+    }
+  }
+}
