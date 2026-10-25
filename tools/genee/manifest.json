@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "genee",
+  "version": "0.9.3",
+  "repository": "mfep/genee",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mfep/genee/releases/download/v0.9.3/genee-v0.9.3-linux-x86_64.tar.gz",
+      "sha256": "a27f5bd43b6b8e9840128e5cdc670d0470c79e2b9064a02f004ceac570baa27f",
+      "size": 1829574,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.3",
+      "binaries": {
+        "genee": {
+          "path": "genee",
+          "sha256": "d2b7728e7d4bee749b875f813aa2a94fc5ceddafe0a7588a4ee5321da176308a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mfep/genee/releases/download/v0.9.3/genee-v0.9.3-linux-arm64.tar.gz",
+      "sha256": "3f109959308d08c686e21b8a6c96a4bc55222e967e568aaed34d4c7c6a13ade2",
+      "size": 1570343,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.3",
+      "binaries": {
+        "genee": {
+          "path": "genee",
+          "sha256": "c7af14c36f0f287c145f1801c966fc70fbb06647d21f48bcf39308cb724cde49"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mfep/genee/releases/download/v0.9.3/genee-v0.9.3-macos-x86_64.tar.gz",
+      "sha256": "f66d6190d2a0549ac0b7d6d756cd33070164d8e9aa0af57b2b50d3e7ad98fa33",
+      "size": 1726850,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.3",
+      "binaries": {
+        "genee": {
+          "path": "genee",
+          "sha256": "45160c72834f721717a0cc5519dc47831dc29ecd1d2cc36199bd8a8675671873"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mfep/genee/releases/download/v0.9.3/genee-v0.9.3-macos-arm64.tar.gz",
+      "sha256": "24cdaaa4706b7b9bebe2b575c54cda74252cab0902749c1f9540e72747082a89",
+      "size": 1631257,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.3",
+      "binaries": {
+        "genee": {
+          "path": "genee",
+          "sha256": "c1ad5ddb5f66eedddd7ab7710ac0b29e8c3b0019d2beecf496ffbcc46af1cfa4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mfep/genee/releases/download/v0.9.3/genee-v0.9.3-windows-x86_64.tar.gz",
+      "sha256": "5f155d58250302d7920f4ca244d48cce3c8d73da8953b196e9aa262a45d7e8e7",
+      "size": 1520207,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.3",
+      "binaries": {
+        "genee.exe": {
+          "path": "genee.exe",
+          "sha256": "393f515bfc1870cc3b20bbf48c160de47ff4f0e5234db4707f48a1ca781333ed"
+        }
+      }
+    }
+  }
+}
