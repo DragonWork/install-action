@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "tfct",
+  "version": "0.4.1",
+  "repository": "06chaynes/tfc-toolset",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/06chaynes/tfc-toolset/releases/download/tfct/v0.4.1/tfct-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "f12eaa287c56f4c9364d54734dbe92b08ef0b5703b6b12b9e7bb09b49a64bd0a",
+      "size": 5405424,
+      "format": "tar.xz",
+      "releaseTag": "tfct/v0.4.1",
+      "binaries": {
+        "tfct": {
+          "path": "tfct-x86_64-unknown-linux-gnu/tfct",
+          "sha256": "23dd98e1382873c05eb22617930c34a452b39dc53210863ac15a2eec6af9cae0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/06chaynes/tfc-toolset/releases/download/tfct/v0.4.1/tfct-x86_64-apple-darwin.tar.xz",
+      "sha256": "672f2c64fc5e0fde4364c034b8c7f9207546a2e22d4b6a7ec7b73f8a269cc989",
+      "size": 4178536,
+      "format": "tar.xz",
+      "releaseTag": "tfct/v0.4.1",
+      "binaries": {
+        "tfct": {
+          "path": "tfct-x86_64-apple-darwin/tfct",
+          "sha256": "2d2bad7223863ddcde6a598ea0f6f1c77bbdb0c156efac56762c722330d929a3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/06chaynes/tfc-toolset/releases/download/tfct/v0.4.1/tfct-aarch64-apple-darwin.tar.xz",
+      "sha256": "ed5e1b30c388956261d22b5c3d9a7745a411438f09a4f9da5cefc570873f7589",
+      "size": 4257876,
+      "format": "tar.xz",
+      "releaseTag": "tfct/v0.4.1",
+      "binaries": {
+        "tfct": {
+          "path": "tfct-aarch64-apple-darwin/tfct",
+          "sha256": "226405f9dda5bd32125a3816a6b0d0afd592631cd3a00a6b7ee0b855d498c042"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/06chaynes/tfc-toolset/releases/download/tfct/v0.4.1/tfct-x86_64-pc-windows-msvc.zip",
+      "sha256": "681953e3ef8cdb4afa36d06fbc1224a3eb535a416ee4bb83d6ce85e14204f6c3",
+      "size": 11184783,
+      "format": "zip",
+      "releaseTag": "tfct/v0.4.1",
+      "binaries": {
+        "tfct.exe": {
+          "path": "tfct.exe",
+          "sha256": "a1fb623f8b56836b7d4e3826c67460f1eab122f8a63c4780aa59c2a24d925b3a"
+        }
+      }
+    }
+  }
+}
