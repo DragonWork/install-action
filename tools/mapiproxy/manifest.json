@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mapiproxy",
+  "version": "0.6.4",
+  "repository": "MonetDBSolutions/mapiproxy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MonetDBSolutions/mapiproxy/releases/download/v0.6.4/mapiproxy-0.6.4-linux.tar.gz",
+      "sha256": "919e4a8229020e5ea0636a620a56d7cb0977a98598d514d04ca0f46a48a982b5",
+      "size": 1013661,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.4",
+      "binaries": {
+        "mapiproxy": {
+          "path": "mapiproxy",
+          "sha256": "275c43fe644b6bc5dcd4734654552c9e57942157e8e107e6a2a541c554829a8d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MonetDBSolutions/mapiproxy/releases/download/v0.6.4/mapiproxy-0.6.4-macos-intel.tar.gz",
+      "sha256": "c1af79e2768eac0b3e316a430bfd840c845cd90ee88209e1a2b8d9158adcfa52",
+      "size": 910216,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.4",
+      "binaries": {
+        "mapiproxy": {
+          "path": "mapiproxy",
+          "sha256": "3e15f8967c900330b3bdba07236ecb4a11568c6ce146784588ddff8e8229defd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MonetDBSolutions/mapiproxy/releases/download/v0.6.4/mapiproxy-0.6.4-windows.zip",
+      "sha256": "17dfa70b664edf28fbe73c8c2a52864393cd522ff82e0aee604a9286f8ad1b4c",
+      "size": 868485,
+      "format": "zip",
+      "releaseTag": "v0.6.4",
+      "binaries": {
+        "mapiproxy.exe": {
+          "path": "mapiproxy.exe",
+          "sha256": "1a33d6efd4e146cd3772b52a48460330eeb47143c3836b50f9d6a96334d82933"
+        }
+      }
+    }
+  }
+}
