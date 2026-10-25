@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "indradb-client",
+  "version": "5.0.0",
+  "repository": "indradb/indradb",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/indradb/indradb/releases/download/v5.0.0/indradb-linux.tar.gz",
+      "sha256": "6448acbcfa5f32eb5cd7c40f5e5e075149ca565108108791b249f1bce2b4333b",
+      "size": 9796299,
+      "format": "tar.gz",
+      "releaseTag": "v5.0.0",
+      "binaries": {
+        "indradb-client": {
+          "path": "indradb-client",
+          "sha256": "f64c00d5264ab837bdfb240a24193ee2bdab229618f652df9859f97ee975c05f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/indradb/indradb/releases/download/v5.0.0/indradb-macos.tar.gz",
+      "sha256": "8002502e9676ce5a66173922639e86bbce72a04d9920714fb2b0619d9fbae52f",
+      "size": 7812518,
+      "format": "tar.gz",
+      "releaseTag": "v5.0.0",
+      "binaries": {
+        "indradb-client": {
+          "path": "indradb-client",
+          "sha256": "7b155761d05a973921872cdd9d499db0ace095d2994ccbb01b1c7de0267d7064"
+        }
+      }
+    }
+  }
+}
