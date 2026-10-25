@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "peek-reverse-proxy",
+  "version": "0.1.12",
+  "repository": "somehowchris/peek-reverse-proxy",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/somehowchris/peek-reverse-proxy/releases/download/0.1.12/peek-reverse-proxy-x86_64-unknown-linux-musl.txz",
+      "sha256": "9daa318b52923bc3f88f4eedc8cf01f184c619bf3f3ecf7d251ac0aa0536d6e4",
+      "size": 1141924,
+      "format": "tar.xz",
+      "releaseTag": "0.1.12",
+      "binaries": {
+        "peek-reverse-proxy": {
+          "path": "peek-reverse-proxy",
+          "sha256": "4613ba01e5f6f3237c4dc03a6b9932b5a9e3a728a0d00c8977830f61e6077a81"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/somehowchris/peek-reverse-proxy/releases/download/0.1.12/peek-reverse-proxy-aarch64-unknown-linux-musl.txz",
+      "sha256": "b4647534b7095711b40fe865e0a6d192c1aa5569ea4605cb3dd783fa31937741",
+      "size": 994232,
+      "format": "tar.xz",
+      "releaseTag": "0.1.12",
+      "binaries": {
+        "peek-reverse-proxy": {
+          "path": "peek-reverse-proxy",
+          "sha256": "7334fbcc5bbc1c28e5ec091710103bd589573f043967002e2d4e603a8a189faa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/somehowchris/peek-reverse-proxy/releases/download/0.1.12/peek-reverse-proxy-x86_64-apple-darwin.txz",
+      "sha256": "fa652ed48576d67b9854c433087294d2041dc8d5f6f2bbb409c372689aae6329",
+      "size": 1080408,
+      "format": "tar.xz",
+      "releaseTag": "0.1.12",
+      "binaries": {
+        "peek-reverse-proxy": {
+          "path": "peek-reverse-proxy",
+          "sha256": "08cb352cafdb4e2ced89e46f672e86bdcd98030dfc290f7654f72b30298894bd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/somehowchris/peek-reverse-proxy/releases/download/0.1.12/peek-reverse-proxy-aarch64-apple-darwin.txz",
+      "sha256": "55b30d7f977d29e97983c7c040e77216f68f5325edf5a4e67ecd48216c2c7672",
+      "size": 935988,
+      "format": "tar.xz",
+      "releaseTag": "0.1.12",
+      "binaries": {
+        "peek-reverse-proxy": {
+          "path": "peek-reverse-proxy",
+          "sha256": "31529989c11e05a8fbe855e9832fe2fbdd3d0be4cdfaae185059678d9bb1ec70"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/somehowchris/peek-reverse-proxy/releases/download/0.1.12/peek-reverse-proxy-x86_64-pc-windows-msvc.txz",
+      "sha256": "141fac250eba4b5ed086de1e38257376e5a46d219cece69e88e672c1e2127235",
+      "size": 1061276,
+      "format": "tar.xz",
+      "releaseTag": "0.1.12",
+      "binaries": {
+        "peek-reverse-proxy.exe": {
+          "path": "peek-reverse-proxy.exe",
+          "sha256": "adaebfe8c355302d3cb98c50d445569ff5bb0f85f069e4c229db493405f4c893"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/somehowchris/peek-reverse-proxy/releases/download/0.1.12/peek-reverse-proxy-aarch64-pc-windows-msvc.txz",
+      "sha256": "cf83ff5f54530ef0946ed9a9fa65785ac4285b0cf454f28d524e22adf8e37388",
+      "size": 965640,
+      "format": "tar.xz",
+      "releaseTag": "0.1.12",
+      "binaries": {
+        "peek-reverse-proxy.exe": {
+          "path": "peek-reverse-proxy.exe",
+          "sha256": "83fdd245b9cda1437b18f28c524c47ba637de2354092788d32b970093436182d"
+        }
+      }
+    }
+  }
+}
