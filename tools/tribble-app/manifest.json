@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tribble-app",
+  "version": "0.1.1",
+  "repository": "arctic-hen7/tribble",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/arctic-hen7/tribble/releases/download/v0.1.1/tribble-linux-amd64",
+      "sha256": "0f6352f26db67dd506cc6bae8bb2d44acc2670e13faac24c40ba74e515ebf388",
+      "size": 14552416,
+      "format": "binary",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "schema": {
+          "path": "tribble-linux-amd64",
+          "sha256": "0f6352f26db67dd506cc6bae8bb2d44acc2670e13faac24c40ba74e515ebf388"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/arctic-hen7/tribble/releases/download/v0.1.1/tribble-macos-amd64",
+      "sha256": "5b3cb88728085c7f60542c585ec3e033acd7c73f3342e3f6b8abdfd64e2b88ba",
+      "size": 9318752,
+      "format": "binary",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "schema": {
+          "path": "tribble-macos-amd64",
+          "sha256": "5b3cb88728085c7f60542c585ec3e033acd7c73f3342e3f6b8abdfd64e2b88ba"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/arctic-hen7/tribble/releases/download/v0.1.1/tribble-windows-amd64",
+      "sha256": "8394046e21e7fd8a2694f2a9025d7f163584d77063b405741ff616cdc7728095",
+      "size": 8215040,
+      "format": "binary",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "schema.exe": {
+          "path": "tribble-windows-amd64",
+          "sha256": "8394046e21e7fd8a2694f2a9025d7f163584d77063b405741ff616cdc7728095"
+        }
+      }
+    }
+  }
+}
