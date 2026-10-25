@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "sane-fmt",
+  "version": "0.18.1",
+  "repository": "sane-fmt/sane-fmt",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sane-fmt/sane-fmt/releases/download/0.18.1/sane-fmt-x86_64-unknown-linux-musl",
+      "sha256": "5d6c715367b947fafcc47a21d7b1e874748a775e6a26eabfbcab11f3ce8fad5f",
+      "size": 4163992,
+      "format": "binary",
+      "releaseTag": "0.18.1",
+      "binaries": {
+        "sane-fmt": {
+          "path": "sane-fmt-x86_64-unknown-linux-musl",
+          "sha256": "5d6c715367b947fafcc47a21d7b1e874748a775e6a26eabfbcab11f3ce8fad5f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sane-fmt/sane-fmt/releases/download/0.18.1/sane-fmt-x86_64-apple-darwin",
+      "sha256": "83d1ecb985d77117a3ee4ba2d5aaee9e8f85466b53571429df2cd86b231dfc9e",
+      "size": 3726848,
+      "format": "binary",
+      "releaseTag": "0.18.1",
+      "binaries": {
+        "sane-fmt": {
+          "path": "sane-fmt-x86_64-apple-darwin",
+          "sha256": "83d1ecb985d77117a3ee4ba2d5aaee9e8f85466b53571429df2cd86b231dfc9e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sane-fmt/sane-fmt/releases/download/0.18.1/sane-fmt-x86_64-pc-windows-msvc.exe",
+      "sha256": "964be808cb6fb2c3b64c7b256352778f340d751021d9802496f8d0453eb6c242",
+      "size": 3706880,
+      "format": "binary",
+      "releaseTag": "0.18.1",
+      "binaries": {
+        "sane-fmt.exe": {
+          "path": "sane-fmt-x86_64-pc-windows-msvc.exe",
+          "sha256": "964be808cb6fb2c3b64c7b256352778f340d751021d9802496f8d0453eb6c242"
+        }
+      }
+    }
+  }
+}
