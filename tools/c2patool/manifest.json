@@ -1,32 +1,58 @@
 {
   "schema": 1,
   "name": "c2patool",
-  "version": "0.28.2",
+  "version": "0.28.3",
   "repository": "contentauth/c2patool",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.2/v0.28.2-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.28.2",
-      "sha256": "ff9f05d0f985a77995ec18956671f331d619c804e033c9929972a8d4f479e93a",
-      "size": 12718260,
+      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.3/v0.28.3-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "74f9d5c599b05345fdd0de8c7b3ee347960f1d24352d030d36a2a1de33c99600",
+      "size": 12782187,
       "format": "tar.gz",
+      "releaseTag": "v0.28.3",
       "binaries": {
         "c2patool": {
           "path": "c2patool/c2patool",
-          "sha256": "8f6ff063e443be7c48f1408e44514f9aae7146db4c817c980e8022d896c4ed5d"
+          "sha256": "51270f2701bccdeceb16fec3e2ddcff5ba340744d1f01ec5db918b5ddd3ffc53"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.3/v0.28.3-universal-apple-darwin.zip",
+      "sha256": "12db3a9b454e2ce23f8701b74bca88ebd3dd4f0b9e5468f4dfda1810ee1d2787",
+      "size": 23108255,
+      "format": "zip",
+      "releaseTag": "v0.28.3",
+      "binaries": {
+        "c2patool": {
+          "path": "c2patool/c2patool",
+          "sha256": "8bd0cb04588e642fed31a44a9fa2a2fce0c02a3b4a4ace6ecea444c6696f8479"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.3/v0.28.3-universal-apple-darwin.zip",
+      "sha256": "12db3a9b454e2ce23f8701b74bca88ebd3dd4f0b9e5468f4dfda1810ee1d2787",
+      "size": 23108255,
+      "format": "zip",
+      "releaseTag": "v0.28.3",
+      "binaries": {
+        "c2patool": {
+          "path": "c2patool/c2patool",
+          "sha256": "8bd0cb04588e642fed31a44a9fa2a2fce0c02a3b4a4ace6ecea444c6696f8479"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.2/v0.28.2-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.28.2",
-      "sha256": "64ffece01fe6407f239e07e9fa5b4a335f8d4b01e326b09cab97e4c26891cc95",
-      "size": 10921799,
+      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.3/v0.28.3-x86_64-pc-windows-msvc.zip",
+      "sha256": "8206b9727e3a13a219a8ed005f6e003c44a6ea9dcd23053db18f0491929c9532",
+      "size": 10989170,
       "format": "zip",
+      "releaseTag": "v0.28.3",
       "binaries": {
         "c2patool.exe": {
           "path": "c2patool/c2patool.exe",
-          "sha256": "b970c119c95539896c9a2a05b1bb160dce7da6874bafad08815c2bd6538f01e1"
+          "sha256": "84880bb0b24cfa7db5a6c268b15a183b9c4e878002cdb4189eb54b662edef285"
         }
       }
     }
