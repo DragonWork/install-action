@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "font-catcher",
+  "version": "2.1.1",
+  "repository": "GustavoPeredo/Font-Catcher",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/GustavoPeredo/Font-Catcher/releases/download/v2.1.1/font-catcher-linux",
+      "sha256": "e63f706f198c9101e75c6ef6650ff45a4202316bbb7f8c3cac8bcbb92936259d",
+      "size": 4832456,
+      "format": "binary",
+      "releaseTag": "v2.1.1",
+      "binaries": {
+        "font-catcher": {
+          "path": "font-catcher-linux",
+          "sha256": "e63f706f198c9101e75c6ef6650ff45a4202316bbb7f8c3cac8bcbb92936259d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/GustavoPeredo/Font-Catcher/releases/download/v2.1.1/font-catcher-macos",
+      "sha256": "201fe8a78785b54e7f2fd0af4df5c7e5cd1d9f18a61e59417133e5c66b9b52c6",
+      "size": 1168008,
+      "format": "binary",
+      "releaseTag": "v2.1.1",
+      "binaries": {
+        "font-catcher": {
+          "path": "font-catcher-macos",
+          "sha256": "201fe8a78785b54e7f2fd0af4df5c7e5cd1d9f18a61e59417133e5c66b9b52c6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/GustavoPeredo/Font-Catcher/releases/download/v2.1.1/font-catcher-windows.exe",
+      "sha256": "f2ea0c99d42d03f5c04c7f4aa11caa83cde393cb13ac372150a9c2d04f46fb72",
+      "size": 1133056,
+      "format": "binary",
+      "releaseTag": "v2.1.1",
+      "binaries": {
+        "font-catcher.exe": {
+          "path": "font-catcher-windows.exe",
+          "sha256": "f2ea0c99d42d03f5c04c7f4aa11caa83cde393cb13ac372150a9c2d04f46fb72"
+        }
+      }
+    }
+  }
+}
