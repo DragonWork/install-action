@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tojson",
+  "version": "0.3.2",
+  "repository": "meain/tojson",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/meain/tojson/releases/download/0.3.2/tojson-linux-amd64",
+      "sha256": "c4dae0c1f5b134c3fbdc5820c50786ab750e8921e614c44b521b944e995dbcee",
+      "size": 4239072,
+      "format": "binary",
+      "releaseTag": "0.3.2",
+      "binaries": {
+        "tojson": {
+          "path": "tojson-linux-amd64",
+          "sha256": "c4dae0c1f5b134c3fbdc5820c50786ab750e8921e614c44b521b944e995dbcee"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/meain/tojson/releases/download/0.3.2/tojson-macos-amd64",
+      "sha256": "975e36708a5c5adb7ac07fe57873970e7ed29468deb7c2ff47609bd6a2a83e02",
+      "size": 1554348,
+      "format": "binary",
+      "releaseTag": "0.3.2",
+      "binaries": {
+        "tojson": {
+          "path": "tojson-macos-amd64",
+          "sha256": "975e36708a5c5adb7ac07fe57873970e7ed29468deb7c2ff47609bd6a2a83e02"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/meain/tojson/releases/download/0.3.2/tojson-windows-amd64",
+      "sha256": "e6c692e59624717250c9c3d9f7f4e834341ab651dbb7c4523b46914a6be4f9d1",
+      "size": 1284096,
+      "format": "binary",
+      "releaseTag": "0.3.2",
+      "binaries": {
+        "tojson.exe": {
+          "path": "tojson-windows-amd64",
+          "sha256": "e6c692e59624717250c9c3d9f7f4e834341ab651dbb7c4523b46914a6be4f9d1"
+        }
+      }
+    }
+  }
+}
