@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ghcid-ng",
+  "version": "0.3.8",
+  "repository": "MercuryTechnologies/ghciwatch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MercuryTechnologies/ghciwatch/releases/download/v0.3.8/ghciwatch-x86_64-linux",
+      "sha256": "47cea47177c85f717757d048c459bf6a8c930d6f2c1b390a4d9690ca1c7f5797",
+      "size": 12098288,
+      "format": "binary",
+      "releaseTag": "v0.3.8",
+      "binaries": {
+        "ghcid-ng": {
+          "path": "ghciwatch-x86_64-linux",
+          "sha256": "47cea47177c85f717757d048c459bf6a8c930d6f2c1b390a4d9690ca1c7f5797"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MercuryTechnologies/ghciwatch/releases/download/v0.3.8/ghciwatch-aarch64-linux",
+      "sha256": "8f1dac5f58f4d8cdbbcfa99a538ebbc11a7d88140c2c2851c392220ce2c3c366",
+      "size": 11533656,
+      "format": "binary",
+      "releaseTag": "v0.3.8",
+      "binaries": {
+        "ghcid-ng": {
+          "path": "ghciwatch-aarch64-linux",
+          "sha256": "8f1dac5f58f4d8cdbbcfa99a538ebbc11a7d88140c2c2851c392220ce2c3c366"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MercuryTechnologies/ghciwatch/releases/download/v0.3.8/ghciwatch-macos",
+      "sha256": "4fe12bbc99d3de6e44a451855b281f9363c9825b4c31ad6606f97d7c05aff782",
+      "size": 19956503,
+      "format": "binary",
+      "releaseTag": "v0.3.8",
+      "binaries": {
+        "ghcid-ng": {
+          "path": "ghciwatch-macos",
+          "sha256": "4fe12bbc99d3de6e44a451855b281f9363c9825b4c31ad6606f97d7c05aff782"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MercuryTechnologies/ghciwatch/releases/download/v0.3.8/ghciwatch-macos",
+      "sha256": "4fe12bbc99d3de6e44a451855b281f9363c9825b4c31ad6606f97d7c05aff782",
+      "size": 19956503,
+      "format": "binary",
+      "releaseTag": "v0.3.8",
+      "binaries": {
+        "ghcid-ng": {
+          "path": "ghciwatch-macos",
+          "sha256": "4fe12bbc99d3de6e44a451855b281f9363c9825b4c31ad6606f97d7c05aff782"
+        }
+      }
+    }
+  }
+}
