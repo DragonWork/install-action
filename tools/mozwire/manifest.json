@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mozwire",
+  "version": "0.8.1",
+  "repository": "NilsIrl/MozWire",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/NilsIrl/MozWire/releases/download/v0.8.1/mozwire-linux",
+      "sha256": "dce020aa08b9c2519c4fb8c91a914286da6a754aabc8144c3ac2e98137fddd78",
+      "size": 5093856,
+      "format": "binary",
+      "releaseTag": "v0.8.1",
+      "binaries": {
+        "mozwire": {
+          "path": "mozwire-linux",
+          "sha256": "dce020aa08b9c2519c4fb8c91a914286da6a754aabc8144c3ac2e98137fddd78"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/NilsIrl/MozWire/releases/download/v0.8.1/mozwire-macos",
+      "sha256": "18dcc0d668bb1ccbb2258c7e6508fe8685729416cc64d02f687c0dce6506c313",
+      "size": 4609424,
+      "format": "binary",
+      "releaseTag": "v0.8.1",
+      "binaries": {
+        "mozwire": {
+          "path": "mozwire-macos",
+          "sha256": "18dcc0d668bb1ccbb2258c7e6508fe8685729416cc64d02f687c0dce6506c313"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/NilsIrl/MozWire/releases/download/v0.8.1/mozwire-windows.exe",
+      "sha256": "c32d0aaf91e8407a74a0de596a006395eaf1881e8ae19548088663366bc92ac9",
+      "size": 5551104,
+      "format": "binary",
+      "releaseTag": "v0.8.1",
+      "binaries": {
+        "mozwire.exe": {
+          "path": "mozwire-windows.exe",
+          "sha256": "c32d0aaf91e8407a74a0de596a006395eaf1881e8ae19548088663366bc92ac9"
+        }
+      }
+    }
+  }
+}
