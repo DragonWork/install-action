@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "jargon",
+  "version": "0.3.9",
+  "repository": "PsypherPunk/jargon-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/PsypherPunk/jargon-rs/releases/download/0.3.9/jargon_0.3.9_amd64.deb",
+      "sha256": "d91cf835b5b13a81d3872a93969311a2e8e3d94fa4eb6165cecd6c8f5bb95362",
+      "size": 541524,
+      "format": "deb",
+      "releaseTag": "0.3.9",
+      "binaries": {
+        "jargon": {
+          "path": "./usr/bin/jargon",
+          "sha256": "9916898220a2c215232c859a881e62494603d9b88b47f1dd2c72853bb0ab28fd"
+        }
+      }
+    }
+  }
+}
