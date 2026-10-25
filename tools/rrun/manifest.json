@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "rrun",
+  "version": "0.2.3",
+  "repository": "buster/rrun",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/buster/rrun/releases/download/v0.2.3/rrun_0.2.3_amd64.deb",
+      "sha256": "97bd71173451661397fa73121a5b32007d576aa7d8b591ef72c82ee60117ba77",
+      "size": 488864,
+      "format": "deb",
+      "releaseTag": "v0.2.3",
+      "binaries": {
+        "rrun": {
+          "path": "./usr/bin/rrun",
+          "sha256": "938f64e84d617d8911d25ac59457cdbedd1633ad140a356e121998505610a8d5"
+        }
+      }
+    }
+  }
+}
