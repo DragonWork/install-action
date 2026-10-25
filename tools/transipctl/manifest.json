@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "transipctl",
+  "version": "0.4.7",
+  "repository": "paulusminus/transipctl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/paulusminus/transipctl/releases/download/v0.4.7/transipctl_0.4.7-1_amd64.deb",
+      "sha256": "41a243500edcd0b4429789b1a554ae919851e086cc522eec9ca98b77a1882d26",
+      "size": 2498572,
+      "format": "deb",
+      "releaseTag": "v0.4.7",
+      "binaries": {
+        "transipctl": {
+          "path": "./usr/bin/transipctl",
+          "sha256": "db0d58ff407d51e0d8351c60b12e54ff5bec4f14ae6b1bb4b011af46ff4b9cc8"
+        }
+      }
+    }
+  }
+}
