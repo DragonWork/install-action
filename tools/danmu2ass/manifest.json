@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "danmu2ass",
+  "version": "0.2.1",
+  "repository": "gwy15/danmu2ass",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gwy15/danmu2ass/releases/download/v0.2.1/danmu2ass-linux.zip",
+      "sha256": "4fc8b73178c0f8281b434400e26dff4ed60951415607dbb3b9e042d7edd4da19",
+      "size": 4444714,
+      "format": "zip",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "danmu2ass": {
+          "path": "danmu2ass",
+          "sha256": "290043e013155e5f1be9a9b90650a91ab884a86ddb59425a6e0cc88fbd88b2dd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/gwy15/danmu2ass/releases/download/v0.2.1/danmu2ass-windows.zip",
+      "sha256": "3eb1d96ba6ab2c8d2b20b171d9c97ef005a50382167a6d2c65728bbc89ee39fb",
+      "size": 6637575,
+      "format": "zip",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "danmu2ass.exe": {
+          "path": "danmu2ass.exe",
+          "sha256": "47acd1b0a0353766d49d0bf13e749151d3f00f2c5ac1b6b5321e9f3f3b2425ac"
+        }
+      }
+    }
+  }
+}
