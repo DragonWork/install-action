@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "erldash",
+  "version": "0.4.0",
+  "repository": "sile/erldash",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sile/erldash/releases/download/v0.4.0/erldash-0.4.0.x86_64-unknown-linux-musl",
+      "sha256": "7ac1954efd05b26232a4aeeebf801c54d27efe4cd0371fa078cd00b89d57e7af",
+      "size": 2818392,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "erldash": {
+          "path": "erldash-0.4.0.x86_64-unknown-linux-musl",
+          "sha256": "7ac1954efd05b26232a4aeeebf801c54d27efe4cd0371fa078cd00b89d57e7af"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sile/erldash/releases/download/v0.4.0/erldash-0.4.0.x86_64-apple-darwin",
+      "sha256": "5595ff034530d1ddb2b05746492ae637c39889f0e84431c0c1f79a67090063a7",
+      "size": 2484708,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "erldash": {
+          "path": "erldash-0.4.0.x86_64-apple-darwin",
+          "sha256": "5595ff034530d1ddb2b05746492ae637c39889f0e84431c0c1f79a67090063a7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sile/erldash/releases/download/v0.4.0/erldash-0.4.0.aarch64-apple-darwin",
+      "sha256": "206b44a288143b80abb83ac2bf8e1d6c5714d59ebe947eb9d09e5fbf20724c3d",
+      "size": 2420464,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "erldash": {
+          "path": "erldash-0.4.0.aarch64-apple-darwin",
+          "sha256": "206b44a288143b80abb83ac2bf8e1d6c5714d59ebe947eb9d09e5fbf20724c3d"
+        }
+      }
+    }
+  }
+}
