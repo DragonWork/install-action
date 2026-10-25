@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "btsnoop-extcap",
+  "version": "0.1.7",
+  "repository": "mauricelam/btsnoop-extcap",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mauricelam/btsnoop-extcap/releases/download/0.1.7/btsnoop-extcap-linux",
+      "sha256": "6321fb931938877fa3f2eca295f7ecf6caa8e30b03b70a1eb3fb1e38514bfcff",
+      "size": 4566272,
+      "format": "binary",
+      "releaseTag": "0.1.7",
+      "binaries": {
+        "btsnoop-extcap": {
+          "path": "btsnoop-extcap-linux",
+          "sha256": "6321fb931938877fa3f2eca295f7ecf6caa8e30b03b70a1eb3fb1e38514bfcff"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mauricelam/btsnoop-extcap/releases/download/0.1.7/btsnoop-extcap-macos",
+      "sha256": "438055d0fb323d12c0bc487bcbbe726329cad01799a97b9ce50fb5efab3f7e79",
+      "size": 3865536,
+      "format": "binary",
+      "releaseTag": "0.1.7",
+      "binaries": {
+        "btsnoop-extcap": {
+          "path": "btsnoop-extcap-macos",
+          "sha256": "438055d0fb323d12c0bc487bcbbe726329cad01799a97b9ce50fb5efab3f7e79"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mauricelam/btsnoop-extcap/releases/download/0.1.7/btsnoop-extcap-windows.exe",
+      "sha256": "0693ec8a5bef02a16d2a0cc220184b1d1fd2851ca14fc90cb0cd4dd0a221528f",
+      "size": 3406848,
+      "format": "binary",
+      "releaseTag": "0.1.7",
+      "binaries": {
+        "btsnoop-extcap.exe": {
+          "path": "btsnoop-extcap-windows.exe",
+          "sha256": "0693ec8a5bef02a16d2a0cc220184b1d1fd2851ca14fc90cb0cd4dd0a221528f"
+        }
+      }
+    }
+  }
+}
