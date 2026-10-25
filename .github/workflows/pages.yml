@@ -17,7 +17,8 @@ permissions:
   contents: read
 
 concurrency:
-  group: github-pages
+  group: crate-publication
+  queue: max
   cancel-in-progress: false
 
 jobs:
