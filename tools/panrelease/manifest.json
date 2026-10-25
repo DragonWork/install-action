@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "panrelease",
+  "version": "0.19.0",
+  "repository": "dghilardi/panrelease",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dghilardi/panrelease/releases/download/0.19.0/panrelease-linux.tar.gz",
+      "sha256": "6589ac05c3496dbf7fe745c5afd86a6c0692ade90676ff3252cae0fab03ab590",
+      "size": 2619796,
+      "format": "tar.gz",
+      "releaseTag": "0.19.0",
+      "binaries": {
+        "panrelease": {
+          "path": "panrelease-linux/panrelease",
+          "sha256": "f5e83cee8ca53f0fd797710d6f7afcf066708540ab9aced15192676f9b782fbf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dghilardi/panrelease/releases/download/0.19.0/panrelease-win64.tar.gz",
+      "sha256": "63c0454179da73b547fac6b10d787893ff08a1ec505f5b0b88c7f8d15b1ff0e7",
+      "size": 3507402,
+      "format": "tar.gz",
+      "releaseTag": "0.19.0",
+      "binaries": {
+        "panrelease.exe": {
+          "path": "panrelease-win64/panrelease.exe",
+          "sha256": "acf5ceb30199e40866f5c1bec37d1ab484090b4ea1ff7323b54ab588f6ac49ff"
+        }
+      }
+    }
+  }
+}
