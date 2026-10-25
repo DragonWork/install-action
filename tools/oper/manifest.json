@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "oper",
+  "version": "0.5.0",
+  "repository": "elektronenhirn/oper",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/elektronenhirn/oper/releases/download/0.5.0/oper_0.5.0_amd64_ubuntu-18.04.deb",
+      "sha256": "e55d24c8075a9e2858fc44130fd206ed88cede2cfd2bf7684aef95f805fee8e6",
+      "size": 1086500,
+      "format": "deb",
+      "releaseTag": "0.5.0",
+      "binaries": {
+        "oper": {
+          "path": "usr/bin/oper",
+          "sha256": "62b962fc6469adbd980cceed8a45d5dfa5c41e19c6f3ebbef6390befa13ed2cc"
+        }
+      }
+    }
+  }
+}
