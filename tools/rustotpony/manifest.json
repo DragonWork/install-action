@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rustotpony",
+  "version": "0.5.5",
+  "repository": "Zebradil/rustotpony",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Zebradil/rustotpony/releases/download/0.5.5/totp-linux",
+      "sha256": "82b478d1d9f2fe5250f4f48f6ac5aeb480131303e8b1e0e2a6ebb7cad3811601",
+      "size": 1361296,
+      "format": "binary",
+      "releaseTag": "0.5.5",
+      "binaries": {
+        "totp": {
+          "path": "totp-linux",
+          "sha256": "82b478d1d9f2fe5250f4f48f6ac5aeb480131303e8b1e0e2a6ebb7cad3811601"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Zebradil/rustotpony/releases/download/0.5.5/totp-macos",
+      "sha256": "a728906e049f8ceca73084931330b9f673d7e2a0a6752b7298b9750c20d3abc8",
+      "size": 1055544,
+      "format": "binary",
+      "releaseTag": "0.5.5",
+      "binaries": {
+        "totp": {
+          "path": "totp-macos",
+          "sha256": "a728906e049f8ceca73084931330b9f673d7e2a0a6752b7298b9750c20d3abc8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Zebradil/rustotpony/releases/download/0.5.5/totp-windows.exe",
+      "sha256": "4d5cf6ec02e5e5db4cfcec09d877a5366818b28001a0442a1eead1457e3e3845",
+      "size": 904704,
+      "format": "binary",
+      "releaseTag": "0.5.5",
+      "binaries": {
+        "totp.exe": {
+          "path": "totp-windows.exe",
+          "sha256": "4d5cf6ec02e5e5db4cfcec09d877a5366818b28001a0442a1eead1457e3e3845"
+        }
+      }
+    }
+  }
+}
