@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "glint",
+  "version": "6.3.4",
+  "repository": "brigand/glint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/brigand/glint/releases/download/v6.3.4/glint-linux",
+      "sha256": "abe17013d4388d88e56b033f8342b5550eed4ba884dfbfc6b4ccb2c04f5d5f43",
+      "size": 2655760,
+      "format": "binary",
+      "releaseTag": "v6.3.4",
+      "binaries": {
+        "glint": {
+          "path": "glint-linux",
+          "sha256": "abe17013d4388d88e56b033f8342b5550eed4ba884dfbfc6b4ccb2c04f5d5f43"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/brigand/glint/releases/download/v6.3.4/glint-macos",
+      "sha256": "41bd07612e0098eca53c59b83678b1163002435ce2b6733dd2f381f4b4b32519",
+      "size": 1260608,
+      "format": "binary",
+      "releaseTag": "v6.3.4",
+      "binaries": {
+        "glint": {
+          "path": "glint-macos",
+          "sha256": "41bd07612e0098eca53c59b83678b1163002435ce2b6733dd2f381f4b4b32519"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/brigand/glint/releases/download/v6.3.4/glint-windows",
+      "sha256": "97ce7d1a8e6e20ee655aae37b43034417e3357b1ca12ffd195a6d4cefd0e1870",
+      "size": 931328,
+      "format": "binary",
+      "releaseTag": "v6.3.4",
+      "binaries": {
+        "glint.exe": {
+          "path": "glint-windows",
+          "sha256": "97ce7d1a8e6e20ee655aae37b43034417e3357b1ca12ffd195a6d4cefd0e1870"
+        }
+      }
+    }
+  }
+}
