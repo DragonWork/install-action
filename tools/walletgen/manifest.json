@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "walletgen",
+  "version": "1.2.0",
+  "repository": "CipherDogs/wallet-generator",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/CipherDogs/wallet-generator/releases/download/v1.2.0/walletgen_1.2.0_amd64.deb",
+      "sha256": "88eaf56b42cb254db1454d98b875be21fec0f848da0c85fe5dd9a727c2e805ef",
+      "size": 597644,
+      "format": "deb",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "walletgen": {
+          "path": "usr/bin/walletgen",
+          "sha256": "1c31d67bc69f4bf01a3b9547652958b28197cd48008cc40de0ac7a1c9c8c6fbe"
+        }
+      }
+    }
+  }
+}
