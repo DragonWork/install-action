@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "narvie-processor",
+  "version": "0.3.3",
+  "repository": "physical-computation/narvie",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/physical-computation/narvie/releases/download/v0.3.3/narvie-cli-linux",
+      "sha256": "95a53bc7cb3d7823b2dd10c13d854186be95d798e8d08c6a2d7970a8e3e52e8a",
+      "size": 2927464,
+      "format": "binary",
+      "releaseTag": "v0.3.3",
+      "binaries": {
+        "narvie-processor": {
+          "path": "narvie-cli-linux",
+          "sha256": "95a53bc7cb3d7823b2dd10c13d854186be95d798e8d08c6a2d7970a8e3e52e8a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/physical-computation/narvie/releases/download/v0.3.3/narvie-cli-osx",
+      "sha256": "9fcaf84154816561f06d4b5853bfacaf71398455688ba540b9fc1ce3ad5e111e",
+      "size": 2544092,
+      "format": "binary",
+      "releaseTag": "v0.3.3",
+      "binaries": {
+        "narvie-processor": {
+          "path": "narvie-cli-osx",
+          "sha256": "9fcaf84154816561f06d4b5853bfacaf71398455688ba540b9fc1ce3ad5e111e"
+        }
+      }
+    }
+  }
+}
