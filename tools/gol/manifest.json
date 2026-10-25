@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "gol",
+  "version": "0.1.14",
+  "repository": "lloydmeta/gol-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lloydmeta/gol-rs/releases/download/0.1.14/gol-0.1.14-linux-64-bit.zip",
+      "sha256": "422b42e7100aca85de06bd9af88fccc1f01173b67e1e824fa57570e0e4f70956",
+      "size": 1513676,
+      "format": "zip",
+      "releaseTag": "0.1.14",
+      "binaries": {
+        "gol": {
+          "path": "gol-0.1.14-linux-64-bit/gol",
+          "sha256": "c782d6bd341c0ab396d872427d815316d4e9d2077f8da2a067cb947eac09f2aa"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lloydmeta/gol-rs/releases/download/0.1.14/gol-0.1.14-macos-64-bit.zip",
+      "sha256": "42965c829c03209cee0af55b1ae2845d8690ea362a3ba61289b48c27448e97bc",
+      "size": 592741,
+      "format": "zip",
+      "releaseTag": "0.1.14",
+      "binaries": {
+        "gol": {
+          "path": "gol-0.1.14-macos-64-bit/gol",
+          "sha256": "62aed7dc52619e28dc087f179bd2c04a94c98ab9769bd2c5d2028c083bc179e6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lloydmeta/gol-rs/releases/download/0.1.14/gol-0.1.14-windows-64-bit.zip",
+      "sha256": "6852ad4ab6a6605ae3d1b8813657462b23cc837bc6dca9b976dd1bd29dd3f106",
+      "size": 1162777,
+      "format": "zip",
+      "releaseTag": "0.1.14",
+      "binaries": {
+        "gol.exe": {
+          "path": "gol-0.1.14-windows-64-bit/gol.exe",
+          "sha256": "68890b30ff2b893e560106782cedb4b61a809c6cbdb6bc15e25f77b44f2ba7ef"
+        }
+      }
+    }
+  }
+}
