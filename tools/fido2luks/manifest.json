@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "fido2luks",
+  "version": "0.2.19",
+  "repository": "shimunn/fido2luks",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shimunn/fido2luks/releases/download/0.2.19/fido2luks_0.2.19_amd64.deb",
+      "sha256": "b8e551a8c1c4f12b1e08845ba791f2e2f8b942cf045274b6cf9548ec4e248334",
+      "size": 638760,
+      "format": "deb",
+      "releaseTag": "0.2.19",
+      "binaries": {
+        "fido2luks": {
+          "path": "usr/bin/fido2luks",
+          "sha256": "b09ec1d824ca0b039d2c49bb4c567d69d85c4689a1996b1b091fb12566714f5e"
+        }
+      }
+    }
+  }
+}
