@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "zeronsd",
+  "version": "0.5.0",
+  "repository": "zerotier/zeronsd",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zerotier/zeronsd/releases/download/v0.5.0/zeronsd_0.5.0_amd64.deb",
+      "sha256": "dc638486781141cb02c9a868f399e6e370858069ee0dfe66b7d11895dfad4dee",
+      "size": 2182052,
+      "format": "deb",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "zeronsd": {
+          "path": "usr/bin/zeronsd",
+          "sha256": "6087b27489e47e97a1e4bbbeb90ac2024025dda5c673dea3b149119403f9d01c"
+        }
+      }
+    }
+  }
+}
