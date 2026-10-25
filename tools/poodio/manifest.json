@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "poodio",
+  "version": "0.0.23",
+  "repository": "AsherJingkongChen/poopoo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/AsherJingkongChen/poopoo/releases/download/poodio%400.0.23/poodio%400.0.23-x86_64-unknown-linux-gnu.tgz",
+      "sha256": "6c8868cc36f3ce27ba109be430360d90b71792b6661015cd7f6c4f1612849e4c",
+      "size": 378819,
+      "format": "tar.gz",
+      "releaseTag": "poodio@0.0.23",
+      "binaries": {
+        "poodio": {
+          "path": "poodio",
+          "sha256": "8ef69cdbbdd4b56cbf1f2ca4d586a21d899391ba702641012e8bd31dee96b484"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/AsherJingkongChen/poopoo/releases/download/poodio%400.0.23/poodio%400.0.23-aarch64-unknown-linux-gnu.tgz",
+      "sha256": "5f9acd7d852a199c48ad1c20428c31ed1e52a2c496fae1015fd709261d6f72e0",
+      "size": 355644,
+      "format": "tar.gz",
+      "releaseTag": "poodio@0.0.23",
+      "binaries": {
+        "poodio": {
+          "path": "poodio",
+          "sha256": "e5cd8f6aae2a5e79df0869797d90603c413f1bb3ca50930512719b1a971e4a79"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/AsherJingkongChen/poopoo/releases/download/poodio%400.0.23/poodio%400.0.23-x86_64-apple-darwin.tgz",
+      "sha256": "2d48515528dbbecd86a0b0e0e2dfaf1d67e72acfbb017a515339d8d947ae281d",
+      "size": 346830,
+      "format": "tar.gz",
+      "releaseTag": "poodio@0.0.23",
+      "binaries": {
+        "poodio": {
+          "path": "poodio",
+          "sha256": "c9cfea0652e870bfd6ed2fe62fb6c71a50f45d7d6d93b4f2e07768b22b7fda4e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/AsherJingkongChen/poopoo/releases/download/poodio%400.0.23/poodio%400.0.23-aarch64-apple-darwin.tgz",
+      "sha256": "0710a1afe0bed3757f6c616c6b7a658be7e138c749e9f96f1134f3b9703adfd0",
+      "size": 324753,
+      "format": "tar.gz",
+      "releaseTag": "poodio@0.0.23",
+      "binaries": {
+        "poodio": {
+          "path": "poodio",
+          "sha256": "6b78c58bebbc7f7b2bff2cf66cd57f71a067bfe55976a139132bb7c63494a69f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/AsherJingkongChen/poopoo/releases/download/poodio%400.0.23/poodio%400.0.23-x86_64-pc-windows-msvc.tgz",
+      "sha256": "b38f58c0f7241624fc4938a40632cb3a0447b4f66fb360ea2df760821c739df6",
+      "size": 234867,
+      "format": "tar.gz",
+      "releaseTag": "poodio@0.0.23",
+      "binaries": {
+        "poodio.exe": {
+          "path": "poodio.exe",
+          "sha256": "e4d0bc734a12a870c2c04f870c03d993801863404be39b74fa20de0e49942e4e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/AsherJingkongChen/poopoo/releases/download/poodio%400.0.23/poodio%400.0.23-aarch64-pc-windows-msvc.tgz",
+      "sha256": "57b9e629c1427e312d8a239cbe3fff16e5b75cf86f1165875b4cfe6b40f6bc4a",
+      "size": 220129,
+      "format": "tar.gz",
+      "releaseTag": "poodio@0.0.23",
+      "binaries": {
+        "poodio.exe": {
+          "path": "poodio.exe",
+          "sha256": "ae61e1a644903abd303d6cd3a1bc5349babf3901a818e38236741d1febedeacb"
+        }
+      }
+    }
+  }
+}
