@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "vsr-new",
+  "version": "0.1.11",
+  "repository": "jhonatanmacazana/vsr-new",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jhonatanmacazana/vsr-new/releases/download/v0.1.11/vsr-new-linux.tar.gz",
+      "sha256": "2a460d8b5b133fa3b3c478c2c02f81fbb17db09ddaab8b81849051c0a26ee5bc",
+      "size": 1752485,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.11",
+      "binaries": {
+        "vsr-new": {
+          "path": "vsr-new-linux/vsr-new",
+          "sha256": "41bbc8a72221df4c393fca88c0cfab8cd5b2eeebcd8d36fe71d2d3a97519e01c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jhonatanmacazana/vsr-new/releases/download/v0.1.11/vsr-new-macos.tar.gz",
+      "sha256": "b6b2c16417edc993d571572764acf6decf6f9ad48df0cd9a7fde5116b9c9809a",
+      "size": 1565122,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.11",
+      "binaries": {
+        "vsr-new": {
+          "path": "vsr-new-macos/vsr-new",
+          "sha256": "6c305daf82b5887518e207ae7fad785efa975b876c4247abf437df642559d266"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jhonatanmacazana/vsr-new/releases/download/v0.1.11/vsr-new-win64.tar.gz",
+      "sha256": "2b9945779589f8327abb531e797219bbcc88ec54f0f7e01f9e8cb234eae2de5c",
+      "size": 1553110,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.11",
+      "binaries": {
+        "vsr-new.exe": {
+          "path": "vsr-new-win64/vsr-new.exe",
+          "sha256": "95d563c44c4d139334838f5bbdce749bdfd4b465e939ab238e5871ab235f7a15"
+        }
+      }
+    }
+  }
+}
