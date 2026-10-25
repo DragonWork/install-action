@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "vsb",
+  "version": "1.1.11",
+  "repository": "KonishchevDmitry/vsb",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KonishchevDmitry/vsb/releases/download/v1.1.11/vsb-linux-x64-v1.1.11.tar.bz2",
+      "sha256": "d3e4bea6c2772fda962c0b02a7e0316238b93584bedb0644da0108817becf42f",
+      "size": 4157311,
+      "format": "tar.bz2",
+      "releaseTag": "v1.1.11",
+      "binaries": {
+        "vsb": {
+          "path": "vsb",
+          "sha256": "3a7fe760d1058cefd611fdf514a35eaee7a17a9d9959dc37fa6c7debb5679884"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/KonishchevDmitry/vsb/releases/download/v1.1.11/vsb-macos-arm64-v1.1.11.tar.bz2",
+      "sha256": "54f9bfedd62498560a94e86c66427d2efb8c07a51b93670292a9099cda934dcb",
+      "size": 3633478,
+      "format": "tar.bz2",
+      "releaseTag": "v1.1.11",
+      "binaries": {
+        "vsb": {
+          "path": "vsb",
+          "sha256": "e4549021d3a10fa7c8c6a7dad72ed7e4f88b0928edf2540fbdbe3272ce9c40df"
+        }
+      }
+    }
+  }
+}
