@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "dcpu",
+  "version": "0.5.0",
+  "repository": "Yamakaky/dcpu",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Yamakaky/dcpu/releases/download/0.5.0/emulator",
+      "sha256": "cb14636aea4cc7716022efcb724cb0ee858a4e1c401e53ad40d049af4460e8df",
+      "size": 6125336,
+      "format": "binary",
+      "releaseTag": "0.5.0",
+      "binaries": {
+        "emulator": {
+          "path": "emulator",
+          "sha256": "cb14636aea4cc7716022efcb724cb0ee858a4e1c401e53ad40d049af4460e8df"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Yamakaky/dcpu/releases/download/0.5.0/emulator.exe",
+      "sha256": "9180cd353a86dfcbfb981b4deca936bdf0ecdda7be5bfc0cb8be86801cfc7fee",
+      "size": 3720731,
+      "format": "binary",
+      "releaseTag": "0.5.0",
+      "binaries": {
+        "emulator.exe": {
+          "path": "emulator.exe",
+          "sha256": "9180cd353a86dfcbfb981b4deca936bdf0ecdda7be5bfc0cb8be86801cfc7fee"
+        }
+      }
+    }
+  }
+}
