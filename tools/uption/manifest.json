@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "uption",
+  "version": "0.6.6",
+  "repository": "uption/uption",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/uption/uption/releases/download/v0.6.6/uption_0.6.6_amd64.deb",
+      "sha256": "de4340bf394075fdaa66f27847716932f95e2e6e8706600a52927af76003c647",
+      "size": 2660880,
+      "format": "deb",
+      "releaseTag": "v0.6.6",
+      "binaries": {
+        "uption": {
+          "path": "usr/bin/uption",
+          "sha256": "73e99242301134a52a6b58692969900e6ad61ffbfbd6a7abaf140c8581299436"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/uption/uption/releases/download/v0.6.6/uption_0.6.6_arm64.deb",
+      "sha256": "d441c2a0d7b43dc56cf64ee0066785d694aea2cc8bc78fc6a40b6b32db7e66f8",
+      "size": 2305648,
+      "format": "deb",
+      "releaseTag": "v0.6.6",
+      "binaries": {
+        "uption": {
+          "path": "usr/bin/uption",
+          "sha256": "590114f586d43a8c9aef3866f8f699b1c4813bd40c991463f9168d3d84742da1"
+        }
+      }
+    }
+  }
+}
