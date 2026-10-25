@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "hfile",
+  "version": "0.5.2",
+  "repository": "nbari/hfile",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nbari/hfile/releases/download/0.5.2/hfile_0.5.2-1_amd64.deb",
+      "sha256": "38ad68433da8a84f0ddf7ee0b46a09a9175496e5ba559341f7b89cc5da4aa360",
+      "size": 442584,
+      "format": "deb",
+      "releaseTag": "0.5.2",
+      "binaries": {
+        "hfile": {
+          "path": "./usr/bin/hfile",
+          "sha256": "cb3a5e0a45358a605ed202f676d37cb69709136f9da67cced106ab3428f53563"
+        }
+      }
+    }
+  }
+}
