@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "json-minimal-tests",
+  "version": "0.1.9",
+  "repository": "Luni-4/json-minimal-tests",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Luni-4/json-minimal-tests/releases/download/v0.1.9/json-minimal-tests-linux.tar.gz",
+      "sha256": "99f510ec9e5075a4760c3900764582bb595234fae4c2deb4707ffac0d9972f1d",
+      "size": 1020855,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.9",
+      "binaries": {
+        "json-minimal-tests": {
+          "path": "json-minimal-tests",
+          "sha256": "deff0d034e39ae509d6cf1f9bb7cdba58e04130ae0ed64c76961a477cfa27619"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Luni-4/json-minimal-tests/releases/download/v0.1.9/json-minimal-tests-macos.zip",
+      "sha256": "fe31bb56791023ec2e78a630a06b38142b41b2bd0bb2b5cfed3c32843ef6c2c8",
+      "size": 896683,
+      "format": "zip",
+      "releaseTag": "v0.1.9",
+      "binaries": {
+        "json-minimal-tests": {
+          "path": "json-minimal-tests",
+          "sha256": "aba4047272ac67a99e8537d57fa4edb1c84463b53a7aaf4650a3f634b991f2f7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Luni-4/json-minimal-tests/releases/download/v0.1.9/json-minimal-tests-windows-msvc.zip",
+      "sha256": "7f7ac1cb607cddd7a66bf7a19432a075b6ad0db3f2c2bef8355ef5ac1533b16b",
+      "size": 845304,
+      "format": "zip",
+      "releaseTag": "v0.1.9",
+      "binaries": {
+        "json-minimal-tests.exe": {
+          "path": "json-minimal-tests.exe",
+          "sha256": "d1cbfd8c0fcc570621625e6175dbb0727f3361f22110ed000cf9611d1f63cd91"
+        }
+      }
+    }
+  }
+}
