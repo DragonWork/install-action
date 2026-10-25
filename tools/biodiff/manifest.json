@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "biodiff",
+  "version": "1.2.1",
+  "repository": "8051Enthusiast/biodiff",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/8051Enthusiast/biodiff/releases/download/v1.2.1/biodiff-linux-1.2.1.zip",
+      "sha256": "da759a21b3611abe5f1e4b15752546198a7c6ae2e34fac73763f2fdfe6b47528",
+      "size": 1977676,
+      "format": "zip",
+      "releaseTag": "v1.2.1",
+      "binaries": {
+        "git-biodiff": {
+          "path": "git-biodiff",
+          "sha256": "857b1925d5b81c9bdbb4b604e4bfcaffca1be57ed67c7130e16632a3a7330f0b"
+        },
+        "biodiff": {
+          "path": "biodiff",
+          "sha256": "3f0801507adac79574f23df813b6ec7a9c779e2cb39b530c6f5b52530bee7613"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/8051Enthusiast/biodiff/releases/download/v1.2.1/biodiff-macos-1.2.1.zip",
+      "sha256": "2ede8732491b933e20589043fedaca367b70921f9ec3599d7733af236a4a4afa",
+      "size": 3512731,
+      "format": "zip",
+      "releaseTag": "v1.2.1",
+      "binaries": {
+        "git-biodiff": {
+          "path": "git-biodiff",
+          "sha256": "f0d9cc967cdd9aef5015c9dc1e59ae997d247ecde4c1dc57ccec2576ca74c686"
+        },
+        "biodiff": {
+          "path": "biodiff",
+          "sha256": "576983cb947c374e6d10f71b67f063884b9c082fcda9a427bbce429d5736c28c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/8051Enthusiast/biodiff/releases/download/v1.2.1/biodiff-macos-1.2.1.zip",
+      "sha256": "2ede8732491b933e20589043fedaca367b70921f9ec3599d7733af236a4a4afa",
+      "size": 3512731,
+      "format": "zip",
+      "releaseTag": "v1.2.1",
+      "binaries": {
+        "git-biodiff": {
+          "path": "git-biodiff",
+          "sha256": "f0d9cc967cdd9aef5015c9dc1e59ae997d247ecde4c1dc57ccec2576ca74c686"
+        },
+        "biodiff": {
+          "path": "biodiff",
+          "sha256": "576983cb947c374e6d10f71b67f063884b9c082fcda9a427bbce429d5736c28c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/8051Enthusiast/biodiff/releases/download/v1.2.1/biodiff-windows-1.2.1.zip",
+      "sha256": "51b23a190a21e089a5108b1ed72b04c8c45222bed1934b259d4d2a6355f1bbc3",
+      "size": 1891865,
+      "format": "zip",
+      "releaseTag": "v1.2.1",
+      "binaries": {
+        "git-biodiff.exe": {
+          "path": "git-biodiff.exe",
+          "sha256": "e8406a649791b1738332974f177b253b19d96c83f5b014cab7a39aea91e2cd18"
+        },
+        "biodiff.exe": {
+          "path": "biodiff.exe",
+          "sha256": "58e5cfb54c6db147651b13d5d70cda585a170801ceb950f2bc97f4a964aca085"
+        }
+      }
+    }
+  }
+}
