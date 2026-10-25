@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "ajour",
+  "version": "1.0.1",
+  "repository": "ajour/ajour",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/ajour/ajour/releases/download/1.0.1/ajour-macos.tar.gz",
+      "sha256": "c4bb61bbd9c9d610a3683b3c6313211264e9628ebd66dbe4dba8a42cd42923b4",
+      "size": 7697759,
+      "format": "tar.gz",
+      "releaseTag": "1.0.1",
+      "binaries": {
+        "ajour": {
+          "path": "ajour",
+          "sha256": "56572091aa0c52b6f351b49d64ffae5e41e2a48bf90bf011db391fcf455c0960"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ajour/ajour/releases/download/1.0.1/ajour.exe",
+      "sha256": "1069435ea07fe7a99af361e359829842ca6cc2ab80e2fbd16f2e58faece485bb",
+      "size": 21118704,
+      "format": "binary",
+      "releaseTag": "1.0.1",
+      "binaries": {
+        "ajour.exe": {
+          "path": "ajour.exe",
+          "sha256": "1069435ea07fe7a99af361e359829842ca6cc2ab80e2fbd16f2e58faece485bb"
+        }
+      }
+    }
+  }
+}
