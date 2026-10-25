@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "throttle-server",
+  "version": "0.5.13",
+  "repository": "pacman82/throttle",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pacman82/throttle/releases/download/v0.5.13/throttle-linux-musl",
+      "sha256": "285e763d124a64098bde28f6393e81a7b18b5e0eaf963dc89aec1c02c890aaba",
+      "size": 3480328,
+      "format": "binary",
+      "releaseTag": "v0.5.13",
+      "binaries": {
+        "throttle": {
+          "path": "throttle-linux-musl",
+          "sha256": "285e763d124a64098bde28f6393e81a7b18b5e0eaf963dc89aec1c02c890aaba"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pacman82/throttle/releases/download/v0.5.13/throttle-osx",
+      "sha256": "1a47479f3422a8dd285e50de7050cc36e327ca3874c7521efab8e690d94e9fb5",
+      "size": 3194976,
+      "format": "binary",
+      "releaseTag": "v0.5.13",
+      "binaries": {
+        "throttle": {
+          "path": "throttle-osx",
+          "sha256": "1a47479f3422a8dd285e50de7050cc36e327ca3874c7521efab8e690d94e9fb5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/pacman82/throttle/releases/download/v0.5.13/throttle-win64.zip",
+      "sha256": "59e85954eaf56e2012011ff298ecbb066b612e66fe39cd6fa480db1111f561f4",
+      "size": 1409512,
+      "format": "zip",
+      "releaseTag": "v0.5.13",
+      "binaries": {
+        "throttle.exe": {
+          "path": "throttle.exe",
+          "sha256": "1d33db3483166dcc29be13152b806f8b686d9f3981f0b61b37621b6a9b5b2c1b"
+        }
+      }
+    }
+  }
+}
