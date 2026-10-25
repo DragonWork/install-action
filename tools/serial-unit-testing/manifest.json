@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "serial-unit-testing",
+  "version": "0.2.4",
+  "repository": "markatk/serial-unit-testing",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/markatk/serial-unit-testing/releases/download/v0.2.4/sut-v0.2.4-linux",
+      "sha256": "fcaa40e758219afa23236e9a66111f9fb1bd3ff46d641651a70d966c25c506e3",
+      "size": 5906336,
+      "format": "binary",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "sut": {
+          "path": "sut-v0.2.4-linux",
+          "sha256": "fcaa40e758219afa23236e9a66111f9fb1bd3ff46d641651a70d966c25c506e3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/markatk/serial-unit-testing/releases/download/v0.2.4/sut-v0.2.4-osx",
+      "sha256": "e9975b61be37929d34a364fc1bc791306fafbc9c81561397a4418023c91e87ad",
+      "size": 2905496,
+      "format": "binary",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "sut": {
+          "path": "sut-v0.2.4-osx",
+          "sha256": "e9975b61be37929d34a364fc1bc791306fafbc9c81561397a4418023c91e87ad"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/markatk/serial-unit-testing/releases/download/v0.2.4/sut-v0.2.4-windows.exe",
+      "sha256": "73888c7852bae8cbb7e487f16d5eccf64121f8ae186f1c18525dbc77eba7f168",
+      "size": 7742921,
+      "format": "binary",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "sut.exe": {
+          "path": "sut-v0.2.4-windows.exe",
+          "sha256": "73888c7852bae8cbb7e487f16d5eccf64121f8ae186f1c18525dbc77eba7f168"
+        }
+      }
+    }
+  }
+}
