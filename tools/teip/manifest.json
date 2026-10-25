@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "teip",
+  "version": "2.2.0",
+  "repository": "greymd/teip",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/greymd/teip/releases/download/v2.2.0/teip-2.2.0.x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "a41b64ec72d459cf90c845efc795c1e37c83f70a1f24e001065280a4bbb109c9",
+      "size": 1189389,
+      "format": "tar.gz",
+      "releaseTag": "v2.2.0",
+      "binaries": {
+        "teip": {
+          "path": "bin/teip",
+          "sha256": "2b99240333c43804aaf1744b0136fff5660107b4807f4c964da432940b2930a7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/greymd/teip/releases/download/v2.2.0/teip-2.2.0.aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "171483e2c19eca0390b69b1bf21515a566b58b31de37e82263089845e1c2a29d",
+      "size": 1045792,
+      "format": "tar.gz",
+      "releaseTag": "v2.2.0",
+      "binaries": {
+        "teip": {
+          "path": "bin/teip",
+          "sha256": "19305e1becfc94cebf93d095e40ee7d56c7b032256cc3c33df2b3ef242ad8dbb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/greymd/teip/releases/download/v2.2.0/teip-2.2.0.x86_64-apple-darwin.tar.gz",
+      "sha256": "ef041adf0699cd4ba05b4ba76de2ea94847fbd8c12f9b83142ae904f8f551a81",
+      "size": 1222880,
+      "format": "tar.gz",
+      "releaseTag": "v2.2.0",
+      "binaries": {
+        "teip": {
+          "path": "bin/teip",
+          "sha256": "2da0886cb149629cf0d71fa913a1a377729ecb7470318ed023246d8d185e1494"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/greymd/teip/releases/download/v2.2.0/teip-2.2.0.aarch64-apple-darwin.tar.gz",
+      "sha256": "e403b493daf6a97a2ef91df444ba4a292f96f1d4764c3e667e6710c4fbeb321c",
+      "size": 1167182,
+      "format": "tar.gz",
+      "releaseTag": "v2.2.0",
+      "binaries": {
+        "teip": {
+          "path": "bin/teip",
+          "sha256": "71824fcae3dacbcc14b7a27543cf80a0a37ab4a5153533854aee4e4f58950056"
+        }
+      }
+    }
+  }
+}
