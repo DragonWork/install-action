@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "template-cli",
+  "version": "0.4.4",
+  "repository": "hiddewie/template",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hiddewie/template/releases/download/v0.4.4/template-v0.4.4-x86_64-unknown-linux-gnu",
+      "sha256": "fa46395d63b2b7e928654805462cce82f78ed45c360641766842578fa48e9feb",
+      "size": 5170472,
+      "format": "binary",
+      "releaseTag": "v0.4.4",
+      "binaries": {
+        "template": {
+          "path": "template-v0.4.4-x86_64-unknown-linux-gnu",
+          "sha256": "fa46395d63b2b7e928654805462cce82f78ed45c360641766842578fa48e9feb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hiddewie/template/releases/download/v0.4.4/template-v0.4.4-x86_64-apple-darwin",
+      "sha256": "8a5ae0cdd33ce11c7cd6593ebfcccc5879793a25df61f314fe050e0fa2c5576b",
+      "size": 4476840,
+      "format": "binary",
+      "releaseTag": "v0.4.4",
+      "binaries": {
+        "template": {
+          "path": "template-v0.4.4-x86_64-apple-darwin",
+          "sha256": "8a5ae0cdd33ce11c7cd6593ebfcccc5879793a25df61f314fe050e0fa2c5576b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hiddewie/template/releases/download/v0.4.4/template-v0.4.4-x86_64-pc-windows-msvc",
+      "sha256": "5706442d66a9ba4d269b6f15d8c8cd5651776cc058b6212b369ef04f1027b225",
+      "size": 3956736,
+      "format": "binary",
+      "releaseTag": "v0.4.4",
+      "binaries": {
+        "template.exe": {
+          "path": "template-v0.4.4-x86_64-pc-windows-msvc",
+          "sha256": "5706442d66a9ba4d269b6f15d8c8cd5651776cc058b6212b369ef04f1027b225"
+        }
+      }
+    }
+  }
+}
