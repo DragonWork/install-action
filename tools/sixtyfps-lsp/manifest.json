@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "sixtyfps-lsp",
+  "version": "0.1.6",
+  "repository": "slint-ui/slint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v0.1.6/sixtyfps-lsp-linux.tar.gz",
+      "sha256": "871a5a550005d84fea5af6d3865b5bb463e7ce527312ce129a3982971711b335",
+      "size": 3712208,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "sixtyfps-lsp": {
+          "path": "sixtyfps-lsp/sixtyfps-lsp",
+          "sha256": "412318f739448078eeed506bfab64b8c70398dae7fc2a13318829eaadb1ccd24"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v0.1.6/sixtyfps-lsp-windows.zip",
+      "sha256": "4f11874347925209705b95c208ee5b46d20e7ef072b6c02e7cc5652a630c04c8",
+      "size": 12001632,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "sixtyfps-lsp.exe": {
+          "path": "sixtyfps-lsp/sixtyfps-lsp.exe",
+          "sha256": "c9fb7da4ad0171d5b44ee4d32d4d4d595f0c3f79b48efa9a88127a9e0c2e867d"
+        }
+      }
+    }
+  }
+}
