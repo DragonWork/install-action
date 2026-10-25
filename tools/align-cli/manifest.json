@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "align-cli",
+  "version": "0.4.2",
+  "repository": "snijderlab/align-cli",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/snijderlab/align-cli/releases/download/v0.4.2/align_darwin",
+      "sha256": "b06a86562d9b01da547211a9fec5b86f95ac23996c1507b4341cf1f808958cce",
+      "size": 34940408,
+      "format": "binary",
+      "releaseTag": "v0.4.2",
+      "binaries": {
+        "align": {
+          "path": "align_darwin",
+          "sha256": "b06a86562d9b01da547211a9fec5b86f95ac23996c1507b4341cf1f808958cce"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/snijderlab/align-cli/releases/download/v0.4.2/align.exe",
+      "sha256": "39e76e4a34f8e2b11e8267eb6f2b8dbf17a02b16217568a4cdaf102b22f845b1",
+      "size": 37554688,
+      "format": "binary",
+      "releaseTag": "v0.4.2",
+      "binaries": {
+        "align.exe": {
+          "path": "align.exe",
+          "sha256": "39e76e4a34f8e2b11e8267eb6f2b8dbf17a02b16217568a4cdaf102b22f845b1"
+        }
+      }
+    }
+  }
+}
