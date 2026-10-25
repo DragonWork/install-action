@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rangefs",
+  "version": "0.5.1",
+  "repository": "DCsunset/rangefs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DCsunset/rangefs/releases/download/v0.5.1/rangefs-x86_64-unknown-linux-musl",
+      "sha256": "03cddcb2c38be4a81ec568ebf60aa3d84030bd109f1d6ad0f21452fd033901f2",
+      "size": 2623656,
+      "format": "binary",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "rangefs": {
+          "path": "rangefs-x86_64-unknown-linux-musl",
+          "sha256": "03cddcb2c38be4a81ec568ebf60aa3d84030bd109f1d6ad0f21452fd033901f2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/DCsunset/rangefs/releases/download/v0.5.1/rangefs-aarch64-unknown-linux-musl",
+      "sha256": "43da72d198298e57a58e01467dae2d017b751b498ec0fec7e5fcd79f44ac3782",
+      "size": 2434360,
+      "format": "binary",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "rangefs": {
+          "path": "rangefs-aarch64-unknown-linux-musl",
+          "sha256": "43da72d198298e57a58e01467dae2d017b751b498ec0fec7e5fcd79f44ac3782"
+        }
+      }
+    }
+  }
+}
