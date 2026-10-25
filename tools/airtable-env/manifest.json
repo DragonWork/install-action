@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "airtable-env",
+  "version": "0.1.7",
+  "repository": "abhiyerra/airtable-env",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/abhiyerra/airtable-env/releases/download/v0.1.7/airtable-env-linux-amd64",
+      "sha256": "d339447088ca4e55011d3349e9f14152bc166b39472fa8e65dedb18f65b05e55",
+      "size": 8941008,
+      "format": "binary",
+      "releaseTag": "v0.1.7",
+      "binaries": {
+        "airtable-env": {
+          "path": "airtable-env-linux-amd64",
+          "sha256": "d339447088ca4e55011d3349e9f14152bc166b39472fa8e65dedb18f65b05e55"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/abhiyerra/airtable-env/releases/download/v0.1.7/airtable-env-macos-amd64",
+      "sha256": "125e798c6048a92dcbd74502b060c27d6fc651e96336c74014ee6f569cbaa042",
+      "size": 4942160,
+      "format": "binary",
+      "releaseTag": "v0.1.7",
+      "binaries": {
+        "airtable-env": {
+          "path": "airtable-env-macos-amd64",
+          "sha256": "125e798c6048a92dcbd74502b060c27d6fc651e96336c74014ee6f569cbaa042"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/abhiyerra/airtable-env/releases/download/v0.1.7/airtable-env-windows-amd64",
+      "sha256": "6fc54c2003cf8c572b36f821d43e83c8054e48618ed68124233201ab454200ee",
+      "size": 3866112,
+      "format": "binary",
+      "releaseTag": "v0.1.7",
+      "binaries": {
+        "airtable-env.exe": {
+          "path": "airtable-env-windows-amd64",
+          "sha256": "6fc54c2003cf8c572b36f821d43e83c8054e48618ed68124233201ab454200ee"
+        }
+      }
+    }
+  }
+}
