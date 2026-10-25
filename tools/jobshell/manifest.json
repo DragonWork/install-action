@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "jobshell",
+  "version": "2.0.4",
+  "repository": "angelplusultra/job-shell",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/angelplusultra/job-shell/releases/download/v2.0.4/jobshell-linux",
+      "sha256": "23a2f56d3988aa4338e069426db0dc8b2bd0896b99ac26b7de69fd141b5c4f4f",
+      "size": 19039072,
+      "format": "binary",
+      "releaseTag": "v2.0.4",
+      "binaries": {
+        "jobshell": {
+          "path": "jobshell-linux",
+          "sha256": "23a2f56d3988aa4338e069426db0dc8b2bd0896b99ac26b7de69fd141b5c4f4f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/angelplusultra/job-shell/releases/download/v2.0.4/jobshell-macos-x86_64",
+      "sha256": "45a9dc4c49dcb2da9a39c11493c59cfb58a87839cbbc57a585a4b02592d1918e",
+      "size": 17095316,
+      "format": "binary",
+      "releaseTag": "v2.0.4",
+      "binaries": {
+        "jobshell": {
+          "path": "jobshell-macos-x86_64",
+          "sha256": "45a9dc4c49dcb2da9a39c11493c59cfb58a87839cbbc57a585a4b02592d1918e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/angelplusultra/job-shell/releases/download/v2.0.4/jobshell-macos-aarch64",
+      "sha256": "81f50e57cbb54857abe78daa9cfac6253700525b90c66a43aaa94793a3513803",
+      "size": 16699264,
+      "format": "binary",
+      "releaseTag": "v2.0.4",
+      "binaries": {
+        "jobshell": {
+          "path": "jobshell-macos-aarch64",
+          "sha256": "81f50e57cbb54857abe78daa9cfac6253700525b90c66a43aaa94793a3513803"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/angelplusultra/job-shell/releases/download/v2.0.4/jobshell-windows-x86_64.exe",
+      "sha256": "30c7096b8697298ed9a285dc19ef88f34ca1e417302c197597b2c8770e048d2d",
+      "size": 25273160,
+      "format": "binary",
+      "releaseTag": "v2.0.4",
+      "binaries": {
+        "jobshell.exe": {
+          "path": "jobshell-windows-x86_64.exe",
+          "sha256": "30c7096b8697298ed9a285dc19ef88f34ca1e417302c197597b2c8770e048d2d"
+        }
+      }
+    }
+  }
+}
