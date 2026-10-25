@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "blindspot",
+  "version": "1.2.2",
+  "repository": "xermicus/blindspot",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/xermicus/blindspot/releases/download/v1.2.2/blindspot_linux-x86_64",
+      "sha256": "d55d89dc61d5c1fb827a59b41fb0fe856f6b994112f4100f52f9d1ef2b146f24",
+      "size": 4054560,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "blindspot": {
+          "path": "blindspot_linux-x86_64",
+          "sha256": "d55d89dc61d5c1fb827a59b41fb0fe856f6b994112f4100f52f9d1ef2b146f24"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xermicus/blindspot/releases/download/v1.2.2/blindspot_macos-x86_64",
+      "sha256": "0b30d81f35fe7a17b5de97efae5ae8d76b581bab21084a4c28d61c938f77a328",
+      "size": 4703544,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "blindspot": {
+          "path": "blindspot_macos-x86_64",
+          "sha256": "0b30d81f35fe7a17b5de97efae5ae8d76b581bab21084a4c28d61c938f77a328"
+        }
+      }
+    }
+  }
+}
