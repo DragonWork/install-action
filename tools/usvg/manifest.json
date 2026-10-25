@@ -1,45 +1,84 @@
 {
   "schema": 1,
   "name": "usvg",
-  "version": "0.48.1",
+  "version": "0.49.0",
   "repository": "linebender/resvg",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/linebender/resvg/releases/download/v0.48.1/usvg-linux-x86_64.tar.gz",
-      "releaseTag": "v0.48.1",
-      "sha256": "17de71993a7552df74f527ec5e137d422a69b22039740617ebc0a222d1dff556",
-      "size": 1479254,
+      "url": "https://github.com/linebender/resvg/releases/download/v0.49.0/usvg-linux-x86_64.tar.gz",
+      "sha256": "5dd60419d3cf180c79d8c7f73aae50fa207b092e5971e8ebe62c1aa6aa6da3bc",
+      "size": 1494822,
       "format": "tar.gz",
+      "releaseTag": "v0.49.0",
       "binaries": {
         "usvg": {
           "path": "usvg",
-          "sha256": "1b7c4e6cd1c96a796b4e2684ab0b983207b1b239b54f49e96fc3e69aa6695bda"
+          "sha256": "39dffe71aa2175cd245fc8d607833e0513784910d32f2bc1dfd23a9ec167d388"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/linebender/resvg/releases/download/v0.49.0/usvg-linux-aarch64.tar.gz",
+      "sha256": "3ce2c03e1c84fe88cabbe4fa200cc0dc50a79ca08e98c086a5798825980c7d40",
+      "size": 1415600,
+      "format": "tar.gz",
+      "releaseTag": "v0.49.0",
+      "binaries": {
+        "usvg": {
+          "path": "usvg",
+          "sha256": "035cce58f2fbe87646a670358e437a97c81f734eefd24f597d6ac00dba53400e"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/linebender/resvg/releases/download/v0.48.1/usvg-macos-x86_64.zip",
-      "releaseTag": "v0.48.1",
-      "sha256": "ef1e9321be267b4c5f7b5bb9a8eff438db44f6fa58d85624f8fc9905b5d17cbb",
-      "size": 1393886,
+      "url": "https://github.com/linebender/resvg/releases/download/v0.49.0/usvg-macos-x86_64.zip",
+      "sha256": "d28e99c42e5be8ca9691b75fa48bcb9880e33eee62a672e233a0b330248ff4f2",
+      "size": 1407454,
       "format": "zip",
+      "releaseTag": "v0.49.0",
       "binaries": {
         "usvg": {
           "path": "usvg",
-          "sha256": "3b5cb549f02dbd40e9b3ec9220d4815b43400717cee1f814e4f20f3a4ad34215"
+          "sha256": "cfc11a02280332b46fe6a6706ba1cc7e239a5049fa3df26b482c4123f9ff0ebe"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/linebender/resvg/releases/download/v0.48.1/usvg-macos-aarch64.zip",
-      "releaseTag": "v0.48.1",
-      "sha256": "4ab1bc46918b2aabd30ef7ac11c0e5f8be2b56590431092969247695fe120f16",
-      "size": 1346011,
+      "url": "https://github.com/linebender/resvg/releases/download/v0.49.0/usvg-macos-aarch64.zip",
+      "sha256": "7c7935dad854c704cc22cf1a5b031e06482d39270ffc06b9aae31f9004157f1e",
+      "size": 1373519,
       "format": "zip",
+      "releaseTag": "v0.49.0",
       "binaries": {
         "usvg": {
           "path": "usvg",
-          "sha256": "1b7f7b91e93da2bddc868604e028f6750d5a5cf0f361d4d8e64fdda747208a12"
+          "sha256": "5eff48429792634775f9f2fc94ca387b046c780627578f27c7c91202db8a96d9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/linebender/resvg/releases/download/v0.49.0/usvg-win-x86_64.zip",
+      "sha256": "f2db05f416e42844e67086808f515e4cb20566cc5ab813ab1dddf9eef8578956",
+      "size": 1314918,
+      "format": "zip",
+      "releaseTag": "v0.49.0",
+      "binaries": {
+        "usvg.exe": {
+          "path": "usvg.exe",
+          "sha256": "ac146cffe3410fa3a47ba2df06bb384f3102ad987a35f09a68032aa60a1841f3"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/linebender/resvg/releases/download/v0.49.0/usvg-win-aarch64.zip",
+      "sha256": "7f34062cb4742c99208113fc343cb3b37e1efcdb3826c6f3877ba6f89e49ec7c",
+      "size": 1227836,
+      "format": "zip",
+      "releaseTag": "v0.49.0",
+      "binaries": {
+        "usvg.exe": {
+          "path": "usvg.exe",
+          "sha256": "40a555a458f689f37a9d8017b7cbf86262da70059f9714e96603f56f866d9a06"
         }
       }
     }
