@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "sgf-render",
+  "version": "3.3.1",
+  "repository": "julianandrews/sgf-render",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/julianandrews/sgf-render/releases/download/v3.3.1/sgf-render-linux.tar.gz",
+      "sha256": "f349b8e8fff4e1d0f10dc32a3c5e1333961c41e2305662166b6de10f140b868e",
+      "size": 2123683,
+      "format": "tar.gz",
+      "releaseTag": "v3.3.1",
+      "binaries": {
+        "sgf-render": {
+          "path": "sgf-render",
+          "sha256": "8b334b751568ef556dcdcc71239bf1457e81945579b4ef801f541d054c650420"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/julianandrews/sgf-render/releases/download/v3.3.1/sgf-render-macos.tar.gz",
+      "sha256": "dd2860c08f3ee0b56c66a503b7aa200745d925fc1dfd5dacccbd89b4e8a0f2a8",
+      "size": 2011749,
+      "format": "tar.gz",
+      "releaseTag": "v3.3.1",
+      "binaries": {
+        "sgf-render": {
+          "path": "sgf-render",
+          "sha256": "cdc9b0d3bb55da89c7dcda033b08116558a2ca23d2702a9f3d5ad67b3986f82a"
+        }
+      }
+    }
+  }
+}
