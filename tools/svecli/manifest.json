@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "svecli",
+  "version": "0.4.0",
+  "repository": "TheOnlyTails/svecli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/TheOnlyTails/svecli/releases/download/0.4.0/svecli-linux.tar.gz",
+      "sha256": "814ad8c68b0fe21765436aa5fc7c70fa672f7431aa592482097d53a980d58868",
+      "size": 1231698,
+      "format": "tar.gz",
+      "releaseTag": "0.4.0",
+      "binaries": {
+        "svecli": {
+          "path": "svecli-linux/svecli",
+          "sha256": "68b9ac561e1be7df6f9e8341fc6094b1c0af65e3a3adfdc56f34a59135ac1454"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/TheOnlyTails/svecli/releases/download/0.4.0/svecli-macos.tar.gz",
+      "sha256": "0f173c38aafc1bea15bf59cd16d0632e620e5caab563380c2dd140e215b90791",
+      "size": 456086,
+      "format": "tar.gz",
+      "releaseTag": "0.4.0",
+      "binaries": {
+        "svecli": {
+          "path": "svecli-macos/svecli",
+          "sha256": "11c402aa0f38691c4d37324ee4671b42b69bad2164d4fd0bc96551bdb5d44472"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/TheOnlyTails/svecli/releases/download/0.4.0/svecli-win64.tar.gz",
+      "sha256": "0e7cb5643417a36fc3e343e747beb4da0f4769f23a48f640ca004662b92afb8e",
+      "size": 332473,
+      "format": "tar.gz",
+      "releaseTag": "0.4.0",
+      "binaries": {
+        "svecli.exe": {
+          "path": "svecli-win64/svecli.exe",
+          "sha256": "06241c96c0c04861b7343f72afa8b74eacb45eb2d189b55954e2554c45dd131a"
+        }
+      }
+    }
+  }
+}
