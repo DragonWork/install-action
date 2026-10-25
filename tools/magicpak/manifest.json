@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "magicpak",
+  "version": "1.4.0",
+  "repository": "coord-e/magicpak",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/coord-e/magicpak/releases/download/v1.4.0/magicpak-x86_64-unknown-linux-musl",
+      "sha256": "067b7299a9013b1ab541228284224037bf84ba554a8dcedeb89d06b603468fed",
+      "size": 5898936,
+      "format": "binary",
+      "releaseTag": "v1.4.0",
+      "binaries": {
+        "magicpak": {
+          "path": "magicpak-x86_64-unknown-linux-musl",
+          "sha256": "067b7299a9013b1ab541228284224037bf84ba554a8dcedeb89d06b603468fed"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/coord-e/magicpak/releases/download/v1.4.0/magicpak-aarch64-unknown-linux-musl",
+      "sha256": "2bb3610d27cefffabd5890013a8349acd4b8fdca9dc7155f10b67969b57bc129",
+      "size": 6076088,
+      "format": "binary",
+      "releaseTag": "v1.4.0",
+      "binaries": {
+        "magicpak": {
+          "path": "magicpak-aarch64-unknown-linux-musl",
+          "sha256": "2bb3610d27cefffabd5890013a8349acd4b8fdca9dc7155f10b67969b57bc129"
+        }
+      }
+    }
+  }
+}
