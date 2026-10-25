@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "staple",
+  "version": "0.3.2",
+  "repository": "Kilerd/staple",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Kilerd/staple/releases/download/0.3.2/staple-ubuntu.tar.gz",
+      "sha256": "6f2e464410cd46f9b096030febc06ef329935ca9ca369fdb25066b20399176de",
+      "size": 3396839,
+      "format": "tar.gz",
+      "releaseTag": "0.3.2",
+      "binaries": {
+        "staple": {
+          "path": "staple",
+          "sha256": "ee60712675399b1ffe4344041164309d7c7ad3318e0cdfdebd7c900664cfc950"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Kilerd/staple/releases/download/0.3.2/staple-macos.tar.gz",
+      "sha256": "c19f9e64a7384c0d50e2df9edff16d0393cf115e29012c1a5ba6f5cd0b042818",
+      "size": 2951258,
+      "format": "tar.gz",
+      "releaseTag": "0.3.2",
+      "binaries": {
+        "staple": {
+          "path": "staple",
+          "sha256": "84de94a6b9b077bfeeed12fd4e21dd3bba50bd6f414e3302b989b125ddcbbc05"
+        }
+      }
+    }
+  }
+}
