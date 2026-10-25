@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "syno-photo-frame",
+  "version": "0.18.3",
+  "repository": "Caleb9/syno-photo-frame",
+  "artifacts": {
+    "linux-arm64": {
+      "url": "https://github.com/Caleb9/syno-photo-frame/releases/download/0.18.3/syno-photo-frame_0.18.3_arm64.deb",
+      "sha256": "a38499d80248d347f642f5e91bc577e6af8e643caf6b90b942fc22b7e4e094f3",
+      "size": 3717180,
+      "format": "deb",
+      "releaseTag": "0.18.3",
+      "binaries": {
+        "syno-photo-frame": {
+          "path": "./usr/bin/syno-photo-frame",
+          "sha256": "464907ced879ce68c4f1fa7391bb44e3157248a94a5ba97637f3a5a5f5b2c1be"
+        }
+      }
+    }
+  }
+}
