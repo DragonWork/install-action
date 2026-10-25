@@ -5,10 +5,10 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const os = require('node:os');
-const { download, validateManifest, ownedDirectory, writeCommand, sha256, archivePath } = require('../lib/common.cjs');
+const { download, validateManifest, ownedDirectory, writeCommand, sha256, archivePath, archiveEntries } = require('../lib/common.cjs');
 const { install, main } = require('../lib/install.cjs');
 const { checkYanked } = require('../lib/yank.cjs');
-const { sample, tar, ar } = require('./fixtures.cjs');
+const { sample, tar, ar, zip } = require('./fixtures.cjs');
 
 async function temporary(t) {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-test-'));
@@ -36,6 +36,31 @@ test('standalone executables are checksum-verified and installed directly', asyn
   artifact.binaries['sample-cli'] = { path: 'sample-cli_linux_x64_bin', sha256: sha256(binary) };
   const result = await install(manifest, root, { platform: 'linux-x64', fetcher: async () => new Response(binary) });
   assert.deepEqual(await fs.readFile(path.join(result.bin, 'sample-cli')), binary);
+});
+
+test('ZIP installation handles streaming entries and unrelated Unicode files on every runner', async t => {
+  const root = await temporary(t);
+  const { manifest, binary } = sample();
+  for (const compressed of [true, false]) {
+    const files = { 'sample-cli': binary, 'static/字幕.txt': 'unrelated content', '../outside': 'never extracted' };
+    const archive = zip(files, compressed);
+    const artifact = manifest.artifacts['linux-x64'];
+    Object.assign(artifact, { format: 'zip', sha256: sha256(archive), size: archive.length });
+    artifact.binaries['sample-cli'].path = 'sample-cli';
+    const file = path.join(root, `fixture-${compressed}.zip`);
+    await fs.writeFile(file, archive);
+    const entries = await archiveEntries(file, 'zip');
+    assert.equal(entries.length, Object.keys(files).length);
+    assert(entries.includes('sample-cli'));
+    if (process.platform === 'win32') assert(entries.includes('static/字幕.txt'));
+    const result = await install(manifest, root, { platform: 'linux-x64', fetcher: async () => new Response(archive) });
+    assert.deepEqual(await fs.readFile(path.join(result.bin, 'sample-cli')), binary);
+    assert.deepEqual(await fs.readdir(path.dirname(result.bin)), ['bin']);
+    artifact.binaries['sample-cli'].sha256 = '0'.repeat(64);
+    await assert.rejects(install(manifest, root, { platform: 'linux-x64', fetcher: async () => new Response(archive) }), /Executable SHA-256/);
+    artifact.binaries['sample-cli'].sha256 = sha256(binary);
+  }
+  assert.equal(await fs.stat(path.join(root, 'outside')).catch(() => null), null);
 });
 
 test('relative archive prefixes work without permitting parent traversal', async t => {

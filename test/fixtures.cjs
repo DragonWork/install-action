@@ -1,6 +1,6 @@
 'use strict';
 
-const { gzipSync } = require('node:zlib');
+const { gzipSync, deflateRawSync } = require('node:zlib');
 const { sha256 } = require('../lib/common.cjs');
 
 function tar(files) {
@@ -89,4 +89,48 @@ function ar(files) {
   ])]);
 }
 
-module.exports = { tar, sample, executable, universal, ar };
+function zip(files, compressed = true) {
+  const local = [], central = [];
+  let offset = 0;
+  for (const [name, raw] of Object.entries(files)) {
+    const filename = Buffer.from(name), bytes = Buffer.from(raw);
+    const data = compressed ? deflateRawSync(bytes) : bytes;
+    let crc = 0xffffffff;
+    for (const byte of bytes) {
+      crc ^= byte;
+      for (let bit = 0; bit < 8; bit++) crc = (crc >>> 1) ^ (crc & 1 ? 0xedb88320 : 0);
+    }
+    crc = (crc ^ 0xffffffff) >>> 0;
+    const header = Buffer.alloc(30), entry = Buffer.alloc(46), descriptor = Buffer.alloc(16);
+    header.writeUInt32LE(0x04034b50);
+    header.writeUInt16LE(20, 4);
+    header.writeUInt16LE(0x808, 6); // UTF-8 names and streaming data descriptor.
+    header.writeUInt16LE(compressed ? 8 : 0, 8);
+    header.writeUInt16LE(filename.length, 26);
+    descriptor.writeUInt32LE(0x08074b50);
+    descriptor.writeUInt32LE(crc, 4);
+    descriptor.writeUInt32LE(data.length, 8);
+    descriptor.writeUInt32LE(bytes.length, 12);
+    entry.writeUInt32LE(0x02014b50);
+    entry.writeUInt16LE(20, 4);
+    entry.writeUInt16LE(20, 6);
+    header.copy(entry, 8, 6, 10);
+    entry.writeUInt32LE(crc, 16);
+    entry.writeUInt32LE(data.length, 20);
+    entry.writeUInt32LE(bytes.length, 24);
+    entry.writeUInt16LE(filename.length, 28);
+    entry.writeUInt32LE(offset, 42);
+    local.push(header, filename, data, descriptor);
+    central.push(entry, filename);
+    offset += header.length + filename.length + data.length + descriptor.length;
+  }
+  const directory = Buffer.concat(central), end = Buffer.alloc(22);
+  end.writeUInt32LE(0x06054b50);
+  end.writeUInt16LE(central.length / 2, 8);
+  end.writeUInt16LE(central.length / 2, 10);
+  end.writeUInt32LE(directory.length, 12);
+  end.writeUInt32LE(offset, 16);
+  return Buffer.concat([...local, directory, end]);
+}
+
+module.exports = { tar, sample, executable, universal, ar, zip };
