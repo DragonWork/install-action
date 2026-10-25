@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "benchrs",
+  "version": "0.1.10",
+  "repository": "arkaitzj/benchrs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/arkaitzj/benchrs/releases/download/v0.1.10/linux_benchrs",
+      "sha256": "940422eea59f85a552831b64fab156137ef35c3d46c55476efca465265d7e8cc",
+      "size": 3551800,
+      "format": "binary",
+      "releaseTag": "v0.1.10",
+      "binaries": {
+        "benchrs": {
+          "path": "linux_benchrs",
+          "sha256": "940422eea59f85a552831b64fab156137ef35c3d46c55476efca465265d7e8cc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/arkaitzj/benchrs/releases/download/v0.1.10/macos_benchrs",
+      "sha256": "e7acce7bdbca9b8b3c9d7f784a6542e39efa42308f4e8235765ad42bb1e5ddcc",
+      "size": 2149184,
+      "format": "binary",
+      "releaseTag": "v0.1.10",
+      "binaries": {
+        "benchrs": {
+          "path": "macos_benchrs",
+          "sha256": "e7acce7bdbca9b8b3c9d7f784a6542e39efa42308f4e8235765ad42bb1e5ddcc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/arkaitzj/benchrs/releases/download/v0.1.10/windows_benchrs.exe",
+      "sha256": "59ce38b72bb6c82ad6a62d33c446308ffdfb745b7f90e7a9f2211555690e3a54",
+      "size": 1699328,
+      "format": "binary",
+      "releaseTag": "v0.1.10",
+      "binaries": {
+        "benchrs.exe": {
+          "path": "windows_benchrs.exe",
+          "sha256": "59ce38b72bb6c82ad6a62d33c446308ffdfb745b7f90e7a9f2211555690e3a54"
+        }
+      }
+    }
+  }
+}
