@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "nvm-rust",
+  "version": "0.4.3",
+  "repository": "beeequeue/nvm-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/beeequeue/nvm-rust/releases/download/v0.4.3/nvm-linux",
+      "sha256": "85e9735b3963cd4c7f906f50c0b65db4e2f4a3d916065edf7076a89b0eaac80e",
+      "size": 3078704,
+      "format": "binary",
+      "releaseTag": "v0.4.3",
+      "binaries": {
+        "nvm": {
+          "path": "nvm-linux",
+          "sha256": "85e9735b3963cd4c7f906f50c0b65db4e2f4a3d916065edf7076a89b0eaac80e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/beeequeue/nvm-rust/releases/download/v0.4.3/nvm-macos",
+      "sha256": "480ad9cbf22468ab97b7ad6c7b8dd22f08fc263d778a1ee442078a980f1411a5",
+      "size": 2723792,
+      "format": "binary",
+      "releaseTag": "v0.4.3",
+      "binaries": {
+        "nvm": {
+          "path": "nvm-macos",
+          "sha256": "480ad9cbf22468ab97b7ad6c7b8dd22f08fc263d778a1ee442078a980f1411a5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/beeequeue/nvm-rust/releases/download/v0.4.3/nvm-win.exe",
+      "sha256": "ebc37ba0a2aafc9494b7469910961953f5de3c42a828ddcf681be295aa111020",
+      "size": 3290112,
+      "format": "binary",
+      "releaseTag": "v0.4.3",
+      "binaries": {
+        "nvm.exe": {
+          "path": "nvm-win.exe",
+          "sha256": "ebc37ba0a2aafc9494b7469910961953f5de3c42a828ddcf681be295aa111020"
+        }
+      }
+    }
+  }
+}
