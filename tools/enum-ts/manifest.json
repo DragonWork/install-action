@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "enum-ts",
+  "version": "0.2.6",
+  "repository": "colelawrence/enum-ts",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/colelawrence/enum-ts/releases/download/v0.2.6/enum-ts-linux.tar.gz",
+      "sha256": "199dea6c46d3d7dff2818a94eda19f4a2e951607dc2b2717370a34009d5134d7",
+      "size": 1520620,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.6",
+      "binaries": {
+        "enum-ts": {
+          "path": "enum-ts-linux/enum-ts",
+          "sha256": "d1ff5440cc7e738b1b4cc03baf435f474313ddf104daf5e52a4bb23218ca6139"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/colelawrence/enum-ts/releases/download/v0.2.6/enum-ts-macos.tar.gz",
+      "sha256": "1ab0b704b1be0fe2a5494384b9f62f9b2746bee0581cda6bab8b02a19e9a1507",
+      "size": 814228,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.6",
+      "binaries": {
+        "enum-ts": {
+          "path": "enum-ts-macos/enum-ts",
+          "sha256": "b3b7588e94db2ed6dc637db1f813d4d45222c6d8e0c5adc16bded31521f96412"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/colelawrence/enum-ts/releases/download/v0.2.6/enum-ts-win64.tar.gz",
+      "sha256": "578df71fba81996242e5a1e122f07d77776334a7d1ce4a82dbe90f0452c76bf6",
+      "size": 2363747,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.6",
+      "binaries": {
+        "enum-ts.exe": {
+          "path": "enum-ts-win64/enum-ts.exe",
+          "sha256": "91b3dc33e35a497a5fd9431ad839414bfaa3297072488f33414183ca73b61f05"
+        }
+      }
+    }
+  }
+}
