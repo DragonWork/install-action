@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "colorizer",
+  "version": "2.1.0",
+  "repository": "kulinsky/colorizer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kulinsky/colorizer/releases/download/v2.1.0/colorizer-amd64-linux",
+      "sha256": "4ccaf952ff0d2bb0a846e4ec4c568d826fa5b294fd32aed9f353789e36dc45c2",
+      "size": 2856984,
+      "format": "binary",
+      "releaseTag": "v2.1.0",
+      "binaries": {
+        "colorizer": {
+          "path": "colorizer-amd64-linux",
+          "sha256": "4ccaf952ff0d2bb0a846e4ec4c568d826fa5b294fd32aed9f353789e36dc45c2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kulinsky/colorizer/releases/download/v2.1.0/colorizer-aarch64-linux",
+      "sha256": "20f027c94a935e061356d1cd4d6bdd5d31a7ae540448e2695844b05d98fef2f6",
+      "size": 2575880,
+      "format": "binary",
+      "releaseTag": "v2.1.0",
+      "binaries": {
+        "colorizer": {
+          "path": "colorizer-aarch64-linux",
+          "sha256": "20f027c94a935e061356d1cd4d6bdd5d31a7ae540448e2695844b05d98fef2f6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kulinsky/colorizer/releases/download/v2.1.0/colorizer-amd64-macos",
+      "sha256": "0c0311fa8f60222135bc9484751a6efb7c9c36b8941788abd43e5d6ac7d195ec",
+      "size": 2370632,
+      "format": "binary",
+      "releaseTag": "v2.1.0",
+      "binaries": {
+        "colorizer": {
+          "path": "colorizer-amd64-macos",
+          "sha256": "0c0311fa8f60222135bc9484751a6efb7c9c36b8941788abd43e5d6ac7d195ec"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kulinsky/colorizer/releases/download/v2.1.0/colorizer-aarch64-macos",
+      "sha256": "acaaa99cc8587817f096ca03aa3feebc40ed04996aff5a855b469896e464ff3b",
+      "size": 2228616,
+      "format": "binary",
+      "releaseTag": "v2.1.0",
+      "binaries": {
+        "colorizer": {
+          "path": "colorizer-aarch64-macos",
+          "sha256": "acaaa99cc8587817f096ca03aa3feebc40ed04996aff5a855b469896e464ff3b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kulinsky/colorizer/releases/download/v2.1.0/colorizer-windows.exe",
+      "sha256": "1e0ccdce041baa066e1cad4c417544af67a3340ec5c5a129e7af5205e632dde0",
+      "size": 2254336,
+      "format": "binary",
+      "releaseTag": "v2.1.0",
+      "binaries": {
+        "colorizer.exe": {
+          "path": "colorizer-windows.exe",
+          "sha256": "1e0ccdce041baa066e1cad4c417544af67a3340ec5c5a129e7af5205e632dde0"
+        }
+      }
+    }
+  }
+}
