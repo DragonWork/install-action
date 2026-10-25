@@ -1,58 +1,58 @@
 {
   "schema": 1,
   "name": "s3m",
-  "version": "0.21.0",
+  "version": "0.21.1",
   "repository": "s3m/s3m",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/s3m/s3m/releases/download/0.21.0/s3m-0.21.0-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "0.21.0",
-      "sha256": "1ae1d4caa85b79a84e8f6b4151df78351cc31f385276a7a63ecbbabff53ec447",
-      "size": 4709872,
+      "url": "https://github.com/s3m/s3m/releases/download/0.21.1/s3m-0.21.1-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "6f2b17c9823572ad1f51159a4c757a97c3513b9f92bec07044e6ef20eabb68a6",
+      "size": 4726411,
       "format": "tar.gz",
+      "releaseTag": "0.21.1",
       "binaries": {
         "s3m": {
-          "path": "s3m-0.21.0-x86_64-unknown-linux-musl/s3m",
-          "sha256": "8ddede4d4899a51f826142da279f3e26fb5a818b9a1c0b87b048a2b62baaf157"
+          "path": "s3m-0.21.1-x86_64-unknown-linux-musl/s3m",
+          "sha256": "c0590d7ce464fa1a08ef8f682f13423303d05632964df54edc04daad2cb505d3"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/s3m/s3m/releases/download/0.21.0/s3m-0.21.0-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "0.21.0",
-      "sha256": "16f639be41b8e0a6f7a33e61d86def33e06e68ac7ed915953a79235fb9f8023b",
-      "size": 4266173,
+      "url": "https://github.com/s3m/s3m/releases/download/0.21.1/s3m-0.21.1-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "11ef9ccd9e5584280dfc985575f1f02ef0985092664b5098a3d257207c214bd2",
+      "size": 4279889,
       "format": "tar.gz",
+      "releaseTag": "0.21.1",
       "binaries": {
         "s3m": {
-          "path": "s3m-0.21.0-aarch64-unknown-linux-musl/s3m",
-          "sha256": "54b85f863aeb2483aeb5e869e38f847d1cabd9978ae5b7315c393791e871a663"
+          "path": "s3m-0.21.1-aarch64-unknown-linux-musl/s3m",
+          "sha256": "e5b45d39362d79f89500e3bd816c8c8956c50fa9ff960541574f1c5d729127fb"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/s3m/s3m/releases/download/0.21.0/s3m-0.21.0-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "0.21.0",
-      "sha256": "544876192d7b2b1536ccdf19196ed4650a945f3c3d22dd12566857edb0e76f2e",
-      "size": 4435808,
+      "url": "https://github.com/s3m/s3m/releases/download/0.21.1/s3m-0.21.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "1903eb3d73010a1ae395f2a4f2aa847a7578b0b458c96f97bf28ef20c8945422",
+      "size": 4455554,
       "format": "tar.gz",
+      "releaseTag": "0.21.1",
       "binaries": {
         "s3m": {
-          "path": "s3m-0.21.0-x86_64-apple-darwin/s3m",
-          "sha256": "8aa2c35c6e6d015a2deed304f9579afc050443ee7bef4572eb51dbb28845fb00"
+          "path": "s3m-0.21.1-x86_64-apple-darwin/s3m",
+          "sha256": "1c7a7d8c559bbdb0e3ddd9fac9eebd8171e862993aebd2a9ac15c9f818ef3381"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/s3m/s3m/releases/download/0.21.0/s3m--x86_64-pc-windows-msvc.zip",
-      "releaseTag": "0.21.0",
-      "sha256": "fbe2c96be3878e34a89aaee02e234ceb0060d219111fd3ed3999daa0ea98ab97",
-      "size": 3931847,
+      "url": "https://github.com/s3m/s3m/releases/download/0.21.1/s3m-0.21.1-x86_64-pc-windows-msvc.zip",
+      "sha256": "7a218b64e89719048ee99751ec73838faa9bcc2d5226bb50e75491076482fcb2",
+      "size": 3944761,
       "format": "zip",
+      "releaseTag": "0.21.1",
       "binaries": {
         "s3m.exe": {
-          "path": "s3m--x86_64-pc-windows-msvc/s3m.exe",
-          "sha256": "7133cacc1639eedd06fbd0d20e8dd25f3b7472a093dbf5e3b02443cbec124636"
+          "path": "s3m-0.21.1-x86_64-pc-windows-msvc/s3m.exe",
+          "sha256": "5398948acade993c0c5ef85aa0113874da837e240d0711c7b655864472278f9b"
         }
       }
     }
