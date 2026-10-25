@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "timetracking",
+  "version": "1.5.20",
+  "repository": "hardliner66/timetracking",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hardliner66/timetracking/releases/download/v1.5.20/tt-linux",
+      "sha256": "71ce213de368499a54637f2752c0a7704cb631790215c77087b0d5123866b254",
+      "size": 1513768,
+      "format": "binary",
+      "releaseTag": "v1.5.20",
+      "binaries": {
+        "tt": {
+          "path": "tt-linux",
+          "sha256": "71ce213de368499a54637f2752c0a7704cb631790215c77087b0d5123866b254"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hardliner66/timetracking/releases/download/v1.5.20/tt-macos",
+      "sha256": "5f7f8415288c5cc8ed0925989075288f9fc6196cc2f7135fddcea55da4439993",
+      "size": 1811560,
+      "format": "binary",
+      "releaseTag": "v1.5.20",
+      "binaries": {
+        "tt": {
+          "path": "tt-macos",
+          "sha256": "5f7f8415288c5cc8ed0925989075288f9fc6196cc2f7135fddcea55da4439993"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hardliner66/timetracking/releases/download/v1.5.20/tt.exe",
+      "sha256": "c314dc5f60de72c8a5123bc5223a0128cc877e01cc0dd0790d7eb2cdac10ead7",
+      "size": 1461760,
+      "format": "binary",
+      "releaseTag": "v1.5.20",
+      "binaries": {
+        "tt.exe": {
+          "path": "tt.exe",
+          "sha256": "c314dc5f60de72c8a5123bc5223a0128cc877e01cc0dd0790d7eb2cdac10ead7"
+        }
+      }
+    }
+  }
+}
