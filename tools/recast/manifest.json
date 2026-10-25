@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "recast",
+  "version": "0.2.1",
+  "repository": "Altair-Bueno/recast",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Altair-Bueno/recast/releases/download/0.2.1/recast-x86_64-unknown-linux-gnu",
+      "sha256": "ff8c9c62c0d8c43de57748e2c430c58bf1f6e28dd9a1b50cde6286de0fc1f7b9",
+      "size": 1608224,
+      "format": "binary",
+      "releaseTag": "0.2.1",
+      "binaries": {
+        "recast": {
+          "path": "recast-x86_64-unknown-linux-gnu",
+          "sha256": "ff8c9c62c0d8c43de57748e2c430c58bf1f6e28dd9a1b50cde6286de0fc1f7b9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Altair-Bueno/recast/releases/download/0.2.1/recast-x86_64-apple-darwin",
+      "sha256": "7cabfb2c090fb312d6be5877930b117e4b2c910c081dade946a7c25ce7dfab0d",
+      "size": 1352880,
+      "format": "binary",
+      "releaseTag": "0.2.1",
+      "binaries": {
+        "recast": {
+          "path": "recast-x86_64-apple-darwin",
+          "sha256": "7cabfb2c090fb312d6be5877930b117e4b2c910c081dade946a7c25ce7dfab0d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Altair-Bueno/recast/releases/download/0.2.1/recast-aarch64-apple-darwin",
+      "sha256": "2cf3dfd7e445f527c25711e06130d1958865e4ae6196910db1c971a473967118",
+      "size": 1201032,
+      "format": "binary",
+      "releaseTag": "0.2.1",
+      "binaries": {
+        "recast": {
+          "path": "recast-aarch64-apple-darwin",
+          "sha256": "2cf3dfd7e445f527c25711e06130d1958865e4ae6196910db1c971a473967118"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Altair-Bueno/recast/releases/download/0.2.1/recast-x86_64-pc-windows-msvc",
+      "sha256": "7119816d9310be5336c0d0d2877117e14e6746fcdd9ab37542bfa0c1fbaaf038",
+      "size": 1288192,
+      "format": "binary",
+      "releaseTag": "0.2.1",
+      "binaries": {
+        "recast.exe": {
+          "path": "recast-x86_64-pc-windows-msvc",
+          "sha256": "7119816d9310be5336c0d0d2877117e14e6746fcdd9ab37542bfa0c1fbaaf038"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Altair-Bueno/recast/releases/download/0.2.1/recast-aarch64-pc-windows-msvc",
+      "sha256": "057521df6a610202999a82fc59d481da1b10d3fbf452c73b263ad9535e28ed6b",
+      "size": 1142784,
+      "format": "binary",
+      "releaseTag": "0.2.1",
+      "binaries": {
+        "recast.exe": {
+          "path": "recast-aarch64-pc-windows-msvc",
+          "sha256": "057521df6a610202999a82fc59d481da1b10d3fbf452c73b263ad9535e28ed6b"
+        }
+      }
+    }
+  }
+}
