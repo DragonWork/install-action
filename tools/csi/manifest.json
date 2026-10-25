@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "csi",
+  "version": "1.0.2",
+  "repository": "longshorej/csi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/longshorej/csi/releases/download/v1.0.2/csi-linux-amd64",
+      "sha256": "ef893a8e7f7b4f3ec8e4afe632311e7e7765240410d8599f37dd3a4806012e61",
+      "size": 2831114,
+      "format": "binary",
+      "releaseTag": "v1.0.2",
+      "binaries": {
+        "csi": {
+          "path": "csi-linux-amd64",
+          "sha256": "ef893a8e7f7b4f3ec8e4afe632311e7e7765240410d8599f37dd3a4806012e61"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/longshorej/csi/releases/download/v1.0.2/csi-darwin-amd64",
+      "sha256": "9ea6eff02cfd3acda4d0c31d2328a89fff5e25f93b1f531214ded2835b97c7af",
+      "size": 400216,
+      "format": "binary",
+      "releaseTag": "v1.0.2",
+      "binaries": {
+        "csi": {
+          "path": "csi-darwin-amd64",
+          "sha256": "9ea6eff02cfd3acda4d0c31d2328a89fff5e25f93b1f531214ded2835b97c7af"
+        }
+      }
+    }
+  }
+}
