@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "url-bot-rs",
+  "version": "0.4.3",
+  "repository": "nuxeh/url-bot-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nuxeh/url-bot-rs/releases/download/v0.4.3/url-bot-rs_0.4.3_amd64.deb",
+      "sha256": "cffd80e33f515fe9015edf3c0edad4426ec963ef14cf5b6535e982dd5a4c2615",
+      "size": 3339500,
+      "format": "deb",
+      "releaseTag": "v0.4.3",
+      "binaries": {
+        "url-bot-get": {
+          "path": "usr/bin/url-bot-get",
+          "sha256": "80de9eb0335ebec56751424ec890e19f787287d84734cf7df613b8d441b05e73"
+        },
+        "url-bot-rs": {
+          "path": "usr/bin/url-bot-rs",
+          "sha256": "f879c2216fbb44a7075cb1850cc20ba59580f78c5b766906c6417afca503f71f"
+        }
+      }
+    }
+  }
+}
