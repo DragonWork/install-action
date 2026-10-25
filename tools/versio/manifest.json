@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "versio",
+  "version": "0.8.5",
+  "repository": "chaaz/versio",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/chaaz/versio/releases/download/v0.8.5/versio__x86_64-unknown-linux-gnu",
+      "sha256": "5180b4bf10c1b66ee56511ee6b0fa3db95b25b7c1a0292cf62f0488d06911cdf",
+      "size": 22378120,
+      "format": "binary",
+      "releaseTag": "v0.8.5",
+      "binaries": {
+        "versio": {
+          "path": "versio__x86_64-unknown-linux-gnu",
+          "sha256": "5180b4bf10c1b66ee56511ee6b0fa3db95b25b7c1a0292cf62f0488d06911cdf"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/chaaz/versio/releases/download/v0.8.5/versio__x86_64-pc-windows-msvc",
+      "sha256": "dd43079574802fa3b6e0c01baeb387bdb3e4cbc4dcd387609aeed11820fd9f3c",
+      "size": 18233344,
+      "format": "binary",
+      "releaseTag": "v0.8.5",
+      "binaries": {
+        "versio.exe": {
+          "path": "versio__x86_64-pc-windows-msvc",
+          "sha256": "dd43079574802fa3b6e0c01baeb387bdb3e4cbc4dcd387609aeed11820fd9f3c"
+        }
+      }
+    }
+  }
+}
