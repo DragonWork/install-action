@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "wasmo",
+  "version": "1.4.1",
+  "repository": "MAIF/wasmo",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/MAIF/wasmo/releases/download/1.4.1/wasmo-darwin-amd64",
+      "sha256": "481316e712617ab0f7343a1418838e2f5be6c7cb10bbed70f167ee7ce6bc1db1",
+      "size": 4394792,
+      "format": "binary",
+      "releaseTag": "1.4.1",
+      "binaries": {
+        "wasmo": {
+          "path": "wasmo-darwin-amd64",
+          "sha256": "481316e712617ab0f7343a1418838e2f5be6c7cb10bbed70f167ee7ce6bc1db1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MAIF/wasmo/releases/download/1.4.1/wasmo-darwin-arm64",
+      "sha256": "1a584d4e9af1a32776f72bf0684749f284c7f99ef55285280d06f0c7c3950f3c",
+      "size": 4171656,
+      "format": "binary",
+      "releaseTag": "1.4.1",
+      "binaries": {
+        "wasmo": {
+          "path": "wasmo-darwin-arm64",
+          "sha256": "1a584d4e9af1a32776f72bf0684749f284c7f99ef55285280d06f0c7c3950f3c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MAIF/wasmo/releases/download/1.4.1/wasmo-amd64.exe",
+      "sha256": "720ffc9fe3feaff8236bee5491dfe9a132cae256b04b33d5ef40525a7c637e1d",
+      "size": 4933632,
+      "format": "binary",
+      "releaseTag": "1.4.1",
+      "binaries": {
+        "wasmo.exe": {
+          "path": "wasmo-amd64.exe",
+          "sha256": "720ffc9fe3feaff8236bee5491dfe9a132cae256b04b33d5ef40525a7c637e1d"
+        }
+      }
+    }
+  }
+}
