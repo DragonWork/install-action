@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "megaphone-broker",
+  "version": "0.11.1",
+  "repository": "dghilardi/megaphone",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dghilardi/megaphone/releases/download/0.11.1/megaphone-linux.tar.gz",
+      "sha256": "27a24f1d19fd05f6df0a1396a2cd4e1bcb1e3c88e5bc28e4414342643590cc9a",
+      "size": 3840178,
+      "format": "tar.gz",
+      "releaseTag": "0.11.1",
+      "binaries": {
+        "megaphone-broker": {
+          "path": "megaphone-linux/megaphone-broker",
+          "sha256": "29684d71fc15dcbca2e16fa24f8cbc131711de86641efa39a6eaf6912f72dde6"
+        }
+      }
+    }
+  }
+}
