@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "what-bump",
+  "version": "1.2.0",
+  "repository": "sky-uk/what-bump",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sky-uk/what-bump/releases/download/1.2.0/what-bump",
+      "sha256": "23d72a8877b5c29d0b570b499061ab670d0e18bd740fa91bd1f86cdf1f702f5e",
+      "size": 8080776,
+      "format": "binary",
+      "releaseTag": "1.2.0",
+      "binaries": {
+        "what-bump": {
+          "path": "what-bump",
+          "sha256": "23d72a8877b5c29d0b570b499061ab670d0e18bd740fa91bd1f86cdf1f702f5e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sky-uk/what-bump/releases/download/1.2.0/what-bump-x86_64-apple-darwin",
+      "sha256": "732e79363588aae5d8a95c2b265a67b9b3503f84ee0ed8004100d4841d081b2d",
+      "size": 4144144,
+      "format": "binary",
+      "releaseTag": "1.2.0",
+      "binaries": {
+        "what-bump": {
+          "path": "what-bump-x86_64-apple-darwin",
+          "sha256": "732e79363588aae5d8a95c2b265a67b9b3503f84ee0ed8004100d4841d081b2d"
+        }
+      }
+    }
+  }
+}
