@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "todors",
+  "version": "0.10.7",
+  "repository": "meysam81/todors",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/meysam81/todors/releases/download/v0.10.7/todors-x86_64-unknown-linux-musl",
+      "sha256": "254e380b0199d76691593d3fe0473471e6a4c711fde7dacb8ba94c3d0decfd10",
+      "size": 19169720,
+      "format": "binary",
+      "releaseTag": "v0.10.7",
+      "binaries": {
+        "todors": {
+          "path": "todors-x86_64-unknown-linux-musl",
+          "sha256": "254e380b0199d76691593d3fe0473471e6a4c711fde7dacb8ba94c3d0decfd10"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/meysam81/todors/releases/download/v0.10.7/todors-x86_64-apple-darwin",
+      "sha256": "4a34a65e08ed3e3cc26c6ba83f2c80f9ecd2a55ed2985aeb76b03e6e0971031c",
+      "size": 18018056,
+      "format": "binary",
+      "releaseTag": "v0.10.7",
+      "binaries": {
+        "todors": {
+          "path": "todors-x86_64-apple-darwin",
+          "sha256": "4a34a65e08ed3e3cc26c6ba83f2c80f9ecd2a55ed2985aeb76b03e6e0971031c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/meysam81/todors/releases/download/v0.10.7/todors-aarch64-apple-darwin",
+      "sha256": "61ad8af41dbfadb69d976c940bf2e19b661934e42e610ee890a7c5d0d0a68464",
+      "size": 17304088,
+      "format": "binary",
+      "releaseTag": "v0.10.7",
+      "binaries": {
+        "todors": {
+          "path": "todors-aarch64-apple-darwin",
+          "sha256": "61ad8af41dbfadb69d976c940bf2e19b661934e42e610ee890a7c5d0d0a68464"
+        }
+      }
+    }
+  }
+}
