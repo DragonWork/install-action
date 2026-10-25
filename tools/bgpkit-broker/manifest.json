@@ -1,32 +1,58 @@
 {
   "schema": 1,
   "name": "bgpkit-broker",
-  "version": "0.13.1",
+  "version": "0.14.0",
   "repository": "bgpkit/bgpkit-broker",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/bgpkit/bgpkit-broker/releases/download/v0.13.1/bgpkit-broker-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.13.1",
-      "sha256": "49e3e2c1f32aa008b20547e4dc9bd6645733db3f90cfcf5c00c66d92ad7eda7a",
-      "size": 9605727,
+      "url": "https://github.com/bgpkit/bgpkit-broker/releases/download/v0.14.0/bgpkit-broker-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "23650317f2a3d93851f2617a9c3ef64adf4cf2a2b6f5f88d53090ed296125154",
+      "size": 9630935,
       "format": "tar.gz",
+      "releaseTag": "v0.14.0",
       "binaries": {
         "bgpkit-broker": {
           "path": "bgpkit-broker",
-          "sha256": "76a655ca9dbdea8b22fda11bad10377729dec4ef181d24548b6ba82710f36c60"
+          "sha256": "da13ee43ec417cf2ce90e293c56a3cb62bfa83763c42dae2b27e012f21ddf325"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/bgpkit/bgpkit-broker/releases/download/v0.13.1/bgpkit-broker-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.13.1",
-      "sha256": "6094ec7b604e050607578a37951b5a2fdfb4030492ea5a306bc9cc3c7fafbdfb",
-      "size": 9318056,
+      "url": "https://github.com/bgpkit/bgpkit-broker/releases/download/v0.14.0/bgpkit-broker-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "d9f0c2605417bbf8a94589694042befb74b04c6b5233662807f6d48fa38ebeea",
+      "size": 9350988,
       "format": "tar.gz",
+      "releaseTag": "v0.14.0",
       "binaries": {
         "bgpkit-broker": {
           "path": "bgpkit-broker",
-          "sha256": "b2ecc60289d74c37555c1be093a290b61074647512258588f0cd43159520d5a7"
+          "sha256": "38399470e20a0c7a07e254b98860d38925f8ac762e40e2c39235030249371405"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bgpkit/bgpkit-broker/releases/download/v0.14.0/bgpkit-broker-universal-apple-darwin.tar.gz",
+      "sha256": "43c11fc78e1f07619b044433fd0cf19022edbe7ac916151050759aeb44056c1e",
+      "size": 17687698,
+      "format": "tar.gz",
+      "releaseTag": "v0.14.0",
+      "binaries": {
+        "bgpkit-broker": {
+          "path": "bgpkit-broker",
+          "sha256": "0b1a7b633d034aafacecc66390b21c1e3017c633dedb459bb9a362944c71827a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bgpkit/bgpkit-broker/releases/download/v0.14.0/bgpkit-broker-universal-apple-darwin.tar.gz",
+      "sha256": "43c11fc78e1f07619b044433fd0cf19022edbe7ac916151050759aeb44056c1e",
+      "size": 17687698,
+      "format": "tar.gz",
+      "releaseTag": "v0.14.0",
+      "binaries": {
+        "bgpkit-broker": {
+          "path": "bgpkit-broker",
+          "sha256": "0b1a7b633d034aafacecc66390b21c1e3017c633dedb459bb9a362944c71827a"
         }
       }
     }
