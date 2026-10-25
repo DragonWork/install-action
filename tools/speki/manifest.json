@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "speki",
+  "version": "0.4.8",
+  "repository": "TBS1996/speki",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/TBS1996/speki/releases/download/v0.4.8/speki-linux.tar.gz",
+      "sha256": "f6f6482d218cabd944430404e8a03df6a0bb3f12b6b09160656c626a2dd1b952",
+      "size": 5850017,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.8",
+      "binaries": {
+        "speki": {
+          "path": "speki",
+          "sha256": "cde4cff14f8b0bcaa42303094b847764f343ac7baac515b6a6864aebd98989f3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/TBS1996/speki/releases/download/v0.4.8/speki-macos.tar.gz",
+      "sha256": "3c31eac4a86607873966861c9ad603457fd897acddd02492224f496dd529b24f",
+      "size": 5410113,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.8",
+      "binaries": {
+        "speki": {
+          "path": "speki",
+          "sha256": "1ccba0fd49486bdbfdd701b093117c2a0134428f2cdf1f8a1c73b62f64841def"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/TBS1996/speki/releases/download/v0.4.8/speki-windows.tar.gz",
+      "sha256": "a75b988a223b76bd2b51a9f6cd9ce0880fdf32ada099f9392dc9e05eff7c2d0e",
+      "size": 5304719,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.8",
+      "binaries": {
+        "speki.exe": {
+          "path": "speki.exe",
+          "sha256": "4d48f67ad0e4eb775741fdaa6ac939acfb347610ad2587cfc367907f51c1f484"
+        }
+      }
+    }
+  }
+}
