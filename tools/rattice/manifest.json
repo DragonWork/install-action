@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "rattice",
+  "version": "0.7.0",
+  "repository": "oza6ut0ne/rattice",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/oza6ut0ne/rattice/releases/download/v0.7.0/rattice.x86_64-unknown-linux-musl",
+      "sha256": "faed5499059bb39be8f0fda57fa589e78f370e759cb591361718526486b072c2",
+      "size": 6636240,
+      "format": "binary",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "rattice": {
+          "path": "rattice.x86_64-unknown-linux-musl",
+          "sha256": "faed5499059bb39be8f0fda57fa589e78f370e759cb591361718526486b072c2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/oza6ut0ne/rattice/releases/download/v0.7.0/rattice.aarch64-unknown-linux-musl",
+      "sha256": "9c4235b7011d296dafb5b2ac17fa833d2d4e1152f5d38ed0f66bb2eef4adc751",
+      "size": 5345224,
+      "format": "binary",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "rattice": {
+          "path": "rattice.aarch64-unknown-linux-musl",
+          "sha256": "9c4235b7011d296dafb5b2ac17fa833d2d4e1152f5d38ed0f66bb2eef4adc751"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/oza6ut0ne/rattice/releases/download/v0.7.0/rattice.x86_64-apple-darwin",
+      "sha256": "3470859822bfe6a10e91dcbae2536db088a8a9912cf5dcedab47c106b6e4683a",
+      "size": 5176616,
+      "format": "binary",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "rattice": {
+          "path": "rattice.x86_64-apple-darwin",
+          "sha256": "3470859822bfe6a10e91dcbae2536db088a8a9912cf5dcedab47c106b6e4683a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/oza6ut0ne/rattice/releases/download/v0.7.0/rattice.exe",
+      "sha256": "292f70ccfb2041f0bf4478e054aec0705493e7f16e9a483d14f0be152fa9ef97",
+      "size": 5960704,
+      "format": "binary",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "rattice.exe": {
+          "path": "rattice.exe",
+          "sha256": "292f70ccfb2041f0bf4478e054aec0705493e7f16e9a483d14f0be152fa9ef97"
+        }
+      }
+    }
+  }
+}
