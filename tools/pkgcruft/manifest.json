@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "pkgcruft",
+  "version": "0.0.18",
+  "repository": "pkgcraft/pkgcraft",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pkgcraft/pkgcraft/releases/download/pkgcruft-0.0.18/pkgcruft-0.0.18-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "dc2b97b2e956db2eeafd8d236109c522d226042838a48708d9b8e985983406f0",
+      "size": 2488676,
+      "format": "tar.xz",
+      "releaseTag": "pkgcruft-0.0.18",
+      "binaries": {
+        "pkgcruft": {
+          "path": "pkgcruft",
+          "sha256": "4e05f6cf32e9ffb809fb6cc54e7099c6b4d67459c3e3956dc7ff352b468e521b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pkgcraft/pkgcraft/releases/download/pkgcruft-0.0.18/pkgcruft-0.0.18-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "b93ced2772256f8fd115c88c1fbd5ec6743af6ab300c0d4ae55c48eecd42dc6e",
+      "size": 2181036,
+      "format": "tar.xz",
+      "releaseTag": "pkgcruft-0.0.18",
+      "binaries": {
+        "pkgcruft": {
+          "path": "pkgcruft",
+          "sha256": "320ce21813ccdb2e7a3b9372a74fbcc6ba9723454d7701d4150d918e4137bda3"
+        }
+      }
+    }
+  }
+}
