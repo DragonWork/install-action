@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "ncube",
+  "version": "2.4.1",
+  "repository": "ndavd/ncube",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ndavd/ncube/releases/download/v2.4.1/ncube-linux-v2.4.1.zip",
+      "sha256": "e360b5bd5c177c48916a9a08890d2839d65f6cc7536d77b920c30181f226a185",
+      "size": 20681116,
+      "format": "zip",
+      "releaseTag": "v2.4.1",
+      "binaries": {
+        "ncube": {
+          "path": "ncube",
+          "sha256": "a8842a33d8ceb41e8af9f94104011d27fe6ec88b7ce0685302880d07ee4cf9f6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ndavd/ncube/releases/download/v2.4.1/ncube-windows-v2.4.1.zip",
+      "sha256": "aef92dc437f6d19fc132b73d23e1d667c87cc289063043ac1800510e13835ae8",
+      "size": 14410933,
+      "format": "zip",
+      "releaseTag": "v2.4.1",
+      "binaries": {
+        "ncube.exe": {
+          "path": "ncube.exe",
+          "sha256": "d9dd49c497f1d30b830242fa33db21df72a8e0e9fd91645459ec8aff6ab1a3ac"
+        }
+      }
+    }
+  }
+}
