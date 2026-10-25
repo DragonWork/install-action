@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "azure-storage-cli",
+  "version": "0.9.0",
+  "repository": "demoray/azure-storage-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/demoray/azure-storage-cli/releases/download/0.9.0/azure-storage-cli_0.9.0-1_amd64_22.04.deb",
+      "sha256": "010626134717d7f58ba4bbe7df3bc5af6da30c488b881148b34499621acbe8af",
+      "size": 3657852,
+      "format": "deb",
+      "releaseTag": "0.9.0",
+      "binaries": {
+        "azs": {
+          "path": "usr/bin/azs",
+          "sha256": "f610c1906c1c642de70fb5038476066018d21afe2041432433ef5c924ac55aa9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/demoray/azure-storage-cli/releases/download/0.9.0/azs-macos-0.9.0",
+      "sha256": "45d6360f30c15d42e84b6cee9b8300766b32d27b86a68334c7772f443a1e0235",
+      "size": 10276888,
+      "format": "binary",
+      "releaseTag": "0.9.0",
+      "binaries": {
+        "azs": {
+          "path": "azs-macos-0.9.0",
+          "sha256": "45d6360f30c15d42e84b6cee9b8300766b32d27b86a68334c7772f443a1e0235"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/demoray/azure-storage-cli/releases/download/0.9.0/azs-windows-0.9.0.exe",
+      "sha256": "547ac536600ac9c51339695e67846343116319036bc3c59e9b42ef2f5fbb3dd1",
+      "size": 9606656,
+      "format": "binary",
+      "releaseTag": "0.9.0",
+      "binaries": {
+        "azs.exe": {
+          "path": "azs-windows-0.9.0.exe",
+          "sha256": "547ac536600ac9c51339695e67846343116319036bc3c59e9b42ef2f5fbb3dd1"
+        }
+      }
+    }
+  }
+}
