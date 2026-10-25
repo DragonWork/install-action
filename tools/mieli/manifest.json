@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "mieli",
+  "version": "0.28.2",
+  "repository": "irevoire/mieli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/irevoire/mieli/releases/download/v0.28.2/mieli-linux-amd64",
+      "sha256": "807d0559701b94bb40f8768ef84acb2ee7ff54c490044fe047aea7320510c4a0",
+      "size": 1401152,
+      "format": "binary",
+      "releaseTag": "v0.28.2",
+      "binaries": {
+        "mieli": {
+          "path": "mieli-linux-amd64",
+          "sha256": "807d0559701b94bb40f8768ef84acb2ee7ff54c490044fe047aea7320510c4a0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/irevoire/mieli/releases/download/v0.28.2/mieli-macos-amd64",
+      "sha256": "8aec38173713221fd96960f0eefdc6dadc09689e20327f1c770ff9f836947678",
+      "size": 2650128,
+      "format": "binary",
+      "releaseTag": "v0.28.2",
+      "binaries": {
+        "mieli": {
+          "path": "mieli-macos-amd64",
+          "sha256": "8aec38173713221fd96960f0eefdc6dadc09689e20327f1c770ff9f836947678"
+        }
+      }
+    }
+  }
+}
