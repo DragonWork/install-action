@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "stubr-cli",
+  "version": "0.6.2",
+  "repository": "beltram/stubr",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/beltram/stubr/releases/download/0.6.2/stubr-linux.tar.gz",
+      "sha256": "e6de83d03687bfb8a6e6451fb4ec6b60961ef83b27f126e8c31c740de3b00906",
+      "size": 2047567,
+      "format": "tar.gz",
+      "releaseTag": "0.6.2",
+      "binaries": {
+        "stubr": {
+          "path": "stubr",
+          "sha256": "57beb0ae32da1eeb60a44aa9ec3733df0c1435bfa58c4d32219c63253bf13100"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/beltram/stubr/releases/download/0.6.2/stubr-macos.tar.gz",
+      "sha256": "3b3f2227e596e30527bdc220b25dab4e73ba949fb0562522851a4f4e1034d8f0",
+      "size": 2355764,
+      "format": "tar.gz",
+      "releaseTag": "0.6.2",
+      "binaries": {
+        "stubr": {
+          "path": "stubr",
+          "sha256": "aa184957d50a6119efc480a08ef5de266154b9762e68d01b4a062e26dde1a337"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/beltram/stubr/releases/download/0.6.2/stubr-windows.zip",
+      "sha256": "b526981ddec0ccb05f63ec7664700b956121f4f68dd1a60e52a24db6a6070e37",
+      "size": 2364354,
+      "format": "zip",
+      "releaseTag": "0.6.2",
+      "binaries": {
+        "stubr.exe": {
+          "path": "stubr.exe",
+          "sha256": "fb716a08557bad8ceabdcf01edcae0f12c5bc4425513d80266b2df1659bc005b"
+        }
+      }
+    }
+  }
+}
