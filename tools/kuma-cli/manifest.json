@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "kuma-cli",
+  "version": "2.0.0",
+  "repository": "BigBoot/AutoKuma",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/BigBoot/AutoKuma/releases/download/v2.0.0/kuma-linux",
+      "sha256": "191003ef8fc44ffbea055657244e58a532cc35bf62e964f91e241a82c9598c97",
+      "size": 18307512,
+      "format": "binary",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "kuma": {
+          "path": "kuma-linux",
+          "sha256": "191003ef8fc44ffbea055657244e58a532cc35bf62e964f91e241a82c9598c97"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/BigBoot/AutoKuma/releases/download/v2.0.0/kuma-windows.exe",
+      "sha256": "52c91da5ec22a42ad3c9ea09c3bbacd145a303b5c8456e21c69b96ca0f7624c0",
+      "size": 17144320,
+      "format": "binary",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "kuma.exe": {
+          "path": "kuma-windows.exe",
+          "sha256": "52c91da5ec22a42ad3c9ea09c3bbacd145a303b5c8456e21c69b96ca0f7624c0"
+        }
+      }
+    }
+  }
+}
