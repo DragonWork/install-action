@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tlauc",
+  "version": "1.1.0",
+  "repository": "tlaplus-community/tlauc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tlaplus-community/tlauc/releases/download/1.1.0/tlauc-linux.tar.gz",
+      "sha256": "54927abef7521291abe136ab1a8212edd68bc1378d40d5b95c103b9a200aeb61",
+      "size": 1570692,
+      "format": "tar.gz",
+      "releaseTag": "1.1.0",
+      "binaries": {
+        "tlauc": {
+          "path": "tlauc",
+          "sha256": "31c187540a80bc2bbc350f8de41175bfd3f72bcb96352d5aafc3dce011176d63"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tlaplus-community/tlauc/releases/download/1.1.0/tlauc-macos.tar.gz",
+      "sha256": "0739bc020264883c01da3c936a93ab6c8fb68f83778c23688a48c946070bfb5c",
+      "size": 1432360,
+      "format": "tar.gz",
+      "releaseTag": "1.1.0",
+      "binaries": {
+        "tlauc": {
+          "path": "tlauc",
+          "sha256": "59e272e7a1e8d4eae9a1daec1c3aad693b2c1b9376868528dfbf0a5125ac06bc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/tlaplus-community/tlauc/releases/download/1.1.0/tlauc-windows.zip",
+      "sha256": "4a433cbcdab0e2d13edf7e4dc3d05cbc67514ce3a0782b6381cc74a536730420",
+      "size": 1253595,
+      "format": "zip",
+      "releaseTag": "1.1.0",
+      "binaries": {
+        "tlauc.exe": {
+          "path": "tlauc.exe",
+          "sha256": "d9a91b55ab67cc228547b863de0fa92b1d7f0b20f1819664917548de9e14ddbb"
+        }
+      }
+    }
+  }
+}
