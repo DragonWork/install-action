@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "name": "hmmcli",
+  "version": "0.6.0",
+  "repository": "samwho/hmm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/samwho/hmm/releases/download/v0.6.0/hmm-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "3a9d97f4c0d1017230f9d39df4809b3ef6a463ef3821fb12373da1718268512f",
+      "size": 2914538,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "hmm": {
+          "path": "hmm",
+          "sha256": "3b35edca57e482bfe75ba6ae275d789fac0d9b8d5de8c87b53dff75ff3baf48b"
+        },
+        "hmmq": {
+          "path": "hmmq",
+          "sha256": "e306badc85cab6d24bbb21c6c3360981e3fa5bec45d0d1d981d026d227e15ed6"
+        },
+        "hmmp": {
+          "path": "hmmp",
+          "sha256": "d514d48feefc72ef78c20c3c62b19cf670d3ca5b60267962146b918da7bb55fb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/samwho/hmm/releases/download/v0.6.0/hmm-x86_64-apple-darwin.tar.gz",
+      "sha256": "e5cc5fa9f717e6ed64374b427de652afa31e6aad7a253a5bb4b995c506bce85f",
+      "size": 2713122,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "hmm": {
+          "path": "hmm",
+          "sha256": "f0d099d98240218445ef70b04e5ba1f063a72014a292fa2cb8077f1a41053998"
+        },
+        "hmmq": {
+          "path": "hmmq",
+          "sha256": "e9c5f2460afbfadaa26a9fe4c8b31c8c73159459abdeb9635086580d1e5e7c3b"
+        },
+        "hmmp": {
+          "path": "hmmp",
+          "sha256": "69670823aeb92cd8cd3d741895326b6323a17515e2f203f7f803dcf8f3968a37"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/samwho/hmm/releases/download/v0.6.0/hmm-x86_64-pc-windows-msvc.zip",
+      "sha256": "836cddbf3e4fccc00d9786ae2f69ef6110613811711c4d1b1245802a16a555a1",
+      "size": 2467654,
+      "format": "zip",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "hmm.exe": {
+          "path": "hmm.exe",
+          "sha256": "4b669f25d2a0684bbe53d80766c9ed187a401a2f45f80b5e121af662c5d1c19c"
+        },
+        "hmmq.exe": {
+          "path": "hmmq.exe",
+          "sha256": "cc484d61b26875fd9d4563fa58d06665315ebe8d78c46c5b84dd76f07c88bc77"
+        },
+        "hmmp.exe": {
+          "path": "hmmp.exe",
+          "sha256": "84accf59458f13896c31fb56ae68017284a6618a100cdc40af100b397fc2b410"
+        }
+      }
+    }
+  }
+}
