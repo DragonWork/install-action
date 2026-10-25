@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tcalc",
+  "version": "1.8.1",
+  "repository": "dubrowgn/tcalc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dubrowgn/tcalc/releases/download/v1.8.1/tcalc-v1.8.1-lin-x64.tar.zst",
+      "sha256": "e088c98499283cd9b25c8271efb55ad0e3a53656a355c05794b50f6571c23c4b",
+      "size": 249931,
+      "format": "tar.zst",
+      "releaseTag": "v1.8.1",
+      "binaries": {
+        "tcalc": {
+          "path": "tcalc",
+          "sha256": "0d59dc46f9bb0c7ac7705c6ca22fbe30300b9dab26f355f028e5313e9597611d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dubrowgn/tcalc/releases/download/v1.8.1/tcalc-v1.8.1-lin-arm64.tar.zst",
+      "sha256": "5fc84db4cca29da565c23f190f423916b97275e6a0e7165449927ae2a081e564",
+      "size": 235161,
+      "format": "tar.zst",
+      "releaseTag": "v1.8.1",
+      "binaries": {
+        "tcalc": {
+          "path": "tcalc",
+          "sha256": "e1c996efc0bfdd2a35ed3f34ec53a211a340a5b43a26b497c389ec2af66435bb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dubrowgn/tcalc/releases/download/v1.8.1/tcalc-v1.8.1-win-x64.tar.zst",
+      "sha256": "4bc373bc62305403226d7fb52803e3ce601ca5ca2373ad9563ee4bce18631662",
+      "size": 575347,
+      "format": "tar.zst",
+      "releaseTag": "v1.8.1",
+      "binaries": {
+        "tcalc.exe": {
+          "path": "tcalc.exe",
+          "sha256": "e0e40d7358f101bc95abef3a6d8a8a3fc3db22578a87ffdb9852f075aa407fd0"
+        }
+      }
+    }
+  }
+}
