@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "cargo-xwinbuild",
+  "version": "0.4.0",
+  "repository": "rust-cross/cargo-xwin",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "8326807f610bfdaf15860b3a115e99131ccdc8da0e2763a25c8a705df5597b2a",
+      "size": 4614051,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "cargo-xwinbuild": {
+          "path": "cargo-xwinbuild",
+          "sha256": "ec8242a97b4e8f919fb505d5698ed0c149b62b48d0cc02df645273c55ca6df96"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "a49e54c3fb58839c5661952b7c739ab9d74e636f15c35991c84282d54d38cd03",
+      "size": 4362797,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "cargo-xwinbuild": {
+          "path": "cargo-xwinbuild",
+          "sha256": "aa97abf9a896bac3883b4ec2f14f9d1d5b87b4d7466d04db8fda0e9e3afd2241"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.apple-darwin.tar.gz",
+      "sha256": "f8f10db0abe5886fee5898de17f9db4713d10e6e0bd01f8f006c4d44e0578191",
+      "size": 6081508,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "cargo-xwinbuild": {
+          "path": "cargo-xwinbuild",
+          "sha256": "5f26ba97c175686a9fe626f096e3bb2ced5b0c22d1fa1fe153cb77c7455f661e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.apple-darwin.tar.gz",
+      "sha256": "f8f10db0abe5886fee5898de17f9db4713d10e6e0bd01f8f006c4d44e0578191",
+      "size": 6081508,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "cargo-xwinbuild": {
+          "path": "cargo-xwinbuild",
+          "sha256": "5f26ba97c175686a9fe626f096e3bb2ced5b0c22d1fa1fe153cb77c7455f661e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.4.0/cargo-xwinbuild-v0.4.0.windows-x64.zip",
+      "sha256": "1909c584431aa60ae8af0639f66df6bc89eabf590c72ac58b6266ca27330f24f",
+      "size": 2618703,
+      "format": "zip",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "cargo-xwinbuild.exe": {
+          "path": "cargo-xwinbuild.exe",
+          "sha256": "970dcaa8ab4d6584f4166fd7bf60ccfe1048333898353867d694c1124a4f3838"
+        }
+      }
+    }
+  }
+}
