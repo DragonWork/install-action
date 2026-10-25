@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "resymo-agent",
+  "version": "0.1.0",
+  "repository": "ctron/resymo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ctron/resymo/releases/download/v0.1.0/resymo-agent-x86_64-unknown-linux-musl",
+      "sha256": "656deb26f3abd45b46db6b12b629254752d01018cb245d877470d03ded09e656",
+      "size": 18903088,
+      "format": "binary",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "resymo-agent": {
+          "path": "resymo-agent-x86_64-unknown-linux-musl",
+          "sha256": "656deb26f3abd45b46db6b12b629254752d01018cb245d877470d03ded09e656"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ctron/resymo/releases/download/v0.1.0/resymo-agent-aarch64-unknown-linux-musl",
+      "sha256": "4f18eb8cf42a27ff00c7f9899de04a53edbee3f36a564a79828b015edbdbd962",
+      "size": 17869536,
+      "format": "binary",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "resymo-agent": {
+          "path": "resymo-agent-aarch64-unknown-linux-musl",
+          "sha256": "4f18eb8cf42a27ff00c7f9899de04a53edbee3f36a564a79828b015edbdbd962"
+        }
+      }
+    }
+  }
+}
