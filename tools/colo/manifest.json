@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "colo",
+  "version": "0.4.1",
+  "repository": "Aloso/colo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Aloso/colo/releases/download/v0.4.1/colo_linux_v0.4.1",
+      "sha256": "a9c49a252bbfb50fa5763b5f7ed9804b04799af9c04548ebe0f9e32b76862e32",
+      "size": 2920312,
+      "format": "binary",
+      "releaseTag": "v0.4.1",
+      "binaries": {
+        "colo": {
+          "path": "colo_linux_v0.4.1",
+          "sha256": "a9c49a252bbfb50fa5763b5f7ed9804b04799af9c04548ebe0f9e32b76862e32"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Aloso/colo/releases/download/v0.4.1/colo_macos_v0.4.1",
+      "sha256": "f326eafcae197f09e35b165be1596bf3549bb9588775b273eb55e31d2f13214d",
+      "size": 1375808,
+      "format": "binary",
+      "releaseTag": "v0.4.1",
+      "binaries": {
+        "colo": {
+          "path": "colo_macos_v0.4.1",
+          "sha256": "f326eafcae197f09e35b165be1596bf3549bb9588775b273eb55e31d2f13214d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Aloso/colo/releases/download/v0.4.1/colo_windows_v0.4.1.exe",
+      "sha256": "18f4ae1bf0a7e20a62050e806b67b6f716e87c6463e7af233f2febb4a88a06f1",
+      "size": 1524736,
+      "format": "binary",
+      "releaseTag": "v0.4.1",
+      "binaries": {
+        "colo.exe": {
+          "path": "colo_windows_v0.4.1.exe",
+          "sha256": "18f4ae1bf0a7e20a62050e806b67b6f716e87c6463e7af233f2febb4a88a06f1"
+        }
+      }
+    }
+  }
+}
