@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "reddsaver",
+  "version": "0.4.0",
+  "repository": "manojkarthick/reddsaver",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/manojkarthick/reddsaver/releases/download/v0.4.0/reddsaver-0.4.0-x86_64.tar.gz",
+      "sha256": "a60965cf93d6291ba66b8705135317bd9b63209fecfc79e65f05d0307343c848",
+      "size": 1980391,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "reddsaver": {
+          "path": "reddsaver",
+          "sha256": "e3f00dc9210863dac8ff1f58c5091879deef7a1a86e9c47bce09d6f21fe0f7b7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/manojkarthick/reddsaver/releases/download/v0.4.0/reddsaver-macos-amd64",
+      "sha256": "491f6242088aad5db6fa34c87193763bbfebdcbe60d14cbfb29ff4eae0ad572c",
+      "size": 6102720,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "reddsaver": {
+          "path": "reddsaver-macos-amd64",
+          "sha256": "491f6242088aad5db6fa34c87193763bbfebdcbe60d14cbfb29ff4eae0ad572c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/manojkarthick/reddsaver/releases/download/v0.4.0/reddsaver-windows-amd64",
+      "sha256": "8ea8bb6e221a2a9533a2f508cbff58374004037fac8ba9f285f12131558eca1a",
+      "size": 4989952,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "reddsaver.exe": {
+          "path": "reddsaver-windows-amd64",
+          "sha256": "8ea8bb6e221a2a9533a2f508cbff58374004037fac8ba9f285f12131558eca1a"
+        }
+      }
+    }
+  }
+}
