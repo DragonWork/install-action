@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "gpt-cli",
+  "version": "0.1.3",
+  "repository": "gustawdaniel/gpt-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gustawdaniel/gpt-cli/releases/download/v0.1.3/gpt-cli_amd64.deb",
+      "sha256": "eb08937f11c27f636afd4cfd6c074fe6be1460dc95ced12e39c1b71f92e111eb",
+      "size": 4285686,
+      "format": "deb",
+      "releaseTag": "v0.1.3",
+      "binaries": {
+        "gpt-cli": {
+          "path": "./usr/bin/gpt-cli",
+          "sha256": "3bcb0bd97fbc0768d46522c2eb8ffd64580ec9f40a0aede98edca7ce07a2e2b1"
+        }
+      }
+    }
+  }
+}
