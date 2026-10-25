@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "vic3-tiger",
+  "version": "1.19.0",
+  "repository": "amtep/tiger",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/amtep/tiger/releases/download/v1.19.0/vic3-tiger-linux-v1.19.0.tar.gz",
+      "sha256": "eff63a3f74646634f81d0f2fc4e7f631c2b9276055ce3cd0e0cace0866c64ec4",
+      "size": 8749509,
+      "format": "tar.gz",
+      "releaseTag": "v1.19.0",
+      "binaries": {
+        "vic3-tiger": {
+          "path": "vic3-tiger-linux-v1.19.0/vic3-tiger",
+          "sha256": "1fbb87217ab8d3cd717e015b17fe13a2f004e80673710cdc6ce74cf18dcb8b5a"
+        },
+        "vic3-tiger-auto": {
+          "path": "vic3-tiger-linux-v1.19.0/vic3-tiger-auto",
+          "sha256": "73c16ebd876ee942607f5d550abe0d20792e36bc85da8991214a62942eace240"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/amtep/tiger/releases/download/v1.19.0/vic3-tiger-windows-v1.19.0.zip",
+      "sha256": "45022a8fd91ed817f49712f35626d05c142715c8d0dc715c7b5bb7ac926ef8d7",
+      "size": 7539143,
+      "format": "zip",
+      "releaseTag": "v1.19.0",
+      "binaries": {
+        "vic3-tiger.exe": {
+          "path": "vic3-tiger.exe",
+          "sha256": "a5737e8c3fdcb1fdbd5e45767033e429bcb5b46ef996415f6b6d25c6adedd333"
+        },
+        "vic3-tiger-auto.exe": {
+          "path": "vic3-tiger-auto.exe",
+          "sha256": "78212c5bd0b51617aca75350f610402e799b377c408b14feb3569cc8d876e23e"
+        }
+      }
+    }
+  }
+}
