@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "quench",
+  "version": "0.3.0",
+  "repository": "samestep/moss",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/samestep/moss/releases/download/v0.3.0/quench-linux",
+      "sha256": "59ec931f92611ef3537d9046e2e096b022bf9396de6007cccd85932bfe430841",
+      "size": 71110368,
+      "format": "binary",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "quench": {
+          "path": "quench-linux",
+          "sha256": "59ec931f92611ef3537d9046e2e096b022bf9396de6007cccd85932bfe430841"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/samestep/moss/releases/download/v0.3.0/quench-macos",
+      "sha256": "672d4fc7078194aef91ed8307daa04bc4bc0defbcc03ca51819a446a57e962c9",
+      "size": 59411384,
+      "format": "binary",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "quench": {
+          "path": "quench-macos",
+          "sha256": "672d4fc7078194aef91ed8307daa04bc4bc0defbcc03ca51819a446a57e962c9"
+        }
+      }
+    }
+  }
+}
