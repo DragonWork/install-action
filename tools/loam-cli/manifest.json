@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "loam-cli",
+  "version": "0.14.4",
+  "repository": "loambuild/loam",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/loambuild/loam/releases/download/loam-cli-v0.14.4/loam-cli-v0.14.4-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "da1208ef0011ebd50f0b5281656b58f56951b9c5b5fe402420e3c59dd93d5b80",
+      "size": 8509599,
+      "format": "tar.gz",
+      "releaseTag": "loam-cli-v0.14.4",
+      "binaries": {
+        "loam": {
+          "path": "loam",
+          "sha256": "72b678e710fa072704c678989af5adee4598673db71cce6358878e93394126a9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/loambuild/loam/releases/download/loam-cli-v0.14.4/loam-cli-v0.14.4-x86_64-pc-windows-msvc.zip",
+      "sha256": "6d72eb6a9640bf8a5f12b7dc81c1bc69ca5740f886855f69b73af9b23d4cfa5c",
+      "size": 6813529,
+      "format": "zip",
+      "releaseTag": "loam-cli-v0.14.4",
+      "binaries": {
+        "loam.exe": {
+          "path": "loam.exe",
+          "sha256": "ff67626bce595f66df3842c06073290441bc69c861be2f77cf0c4bde6eb4e5f9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/loambuild/loam/releases/download/loam-cli-v0.14.4/loam-cli-v0.14.4-aarch64-pc-windows-msvc.zip",
+      "sha256": "f5c500c28100a226bb6204e645f7e00278968d32a7ec7e53bce135c2b2d8fdd9",
+      "size": 6427845,
+      "format": "zip",
+      "releaseTag": "loam-cli-v0.14.4",
+      "binaries": {
+        "loam.exe": {
+          "path": "loam.exe",
+          "sha256": "bba13270f5e4638054c37860fa6a1185fdcf779a840456a9158b23f8f903cf87"
+        }
+      }
+    }
+  }
+}
