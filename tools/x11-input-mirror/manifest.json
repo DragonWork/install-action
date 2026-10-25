@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "x11-input-mirror",
+  "version": "0.3.6",
+  "repository": "pzmarzly/x11-input-mirror",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pzmarzly/x11-input-mirror/releases/download/0.3.6/x11-input-mirror-0.3.6.zip",
+      "sha256": "6bb90de60dc31ebee5936c7874b89d49cd789a3a35a6257b49f354fbf2163658",
+      "size": 1156915,
+      "format": "zip",
+      "releaseTag": "0.3.6",
+      "binaries": {
+        "grabber": {
+          "path": "x11-input-mirror/grabber",
+          "sha256": "418911619c8f1476999ad382e1ad63cf2fd850b71443d0233a86b00e77814929"
+        },
+        "server": {
+          "path": "x11-input-mirror/server",
+          "sha256": "90592e6a82f6dfacec1686fdaf63773afd28fe8c7185251ca515fde0e9a59cf3"
+        }
+      }
+    }
+  }
+}
