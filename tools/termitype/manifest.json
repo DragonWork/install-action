@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "termitype",
+  "version": "0.0.11",
+  "repository": "emanuel2718/termitype",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/emanuel2718/termitype/releases/download/v0.0.11/termitype-v0.0.11-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "e47e9573fc48c71530ec11aec8cbb112ee4ae4a2825fda11b31c6242bfaa367d",
+      "size": 2996136,
+      "format": "tar.gz",
+      "releaseTag": "v0.0.11",
+      "binaries": {
+        "termitype": {
+          "path": "termitype-v0.0.11-x86_64-unknown-linux-musl/termitype",
+          "sha256": "14146309dcafef8dc10b4cc6d439b7fd8f92f31581b3614bb2961bce7b711468"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/emanuel2718/termitype/releases/download/v0.0.11/termitype-v0.0.11-x86_64-apple-darwin.tar.gz",
+      "sha256": "8f73c04078c26108494f80422d245c36759487c9db8fdc89ecf6a95fc5bb685a",
+      "size": 2858390,
+      "format": "tar.gz",
+      "releaseTag": "v0.0.11",
+      "binaries": {
+        "termitype": {
+          "path": "termitype-v0.0.11-x86_64-apple-darwin/termitype",
+          "sha256": "5b0b4658da59307a40b41c3a29cc340709390df2fd4b291cc074c958683503ce"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/emanuel2718/termitype/releases/download/v0.0.11/termitype-v0.0.11-aarch64-apple-darwin.tar.gz",
+      "sha256": "04b658fe632f4c10ac9141c82a19275a06ff786974fb43a44a3030346bd56e17",
+      "size": 2834878,
+      "format": "tar.gz",
+      "releaseTag": "v0.0.11",
+      "binaries": {
+        "termitype": {
+          "path": "termitype-v0.0.11-aarch64-apple-darwin/termitype",
+          "sha256": "040f7d2abdcf0c66b183f283e87744ee645c6476f3b3b51750c4e1f50fe92a14"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/emanuel2718/termitype/releases/download/v0.0.11/termitype-v0.0.11-x86_64-pc-windows-msvc.zip",
+      "sha256": "ad3696983a465f7569b64bb0e2e86c23d97326bebeb3694e67835e6e88f01930",
+      "size": 2800177,
+      "format": "zip",
+      "releaseTag": "v0.0.11",
+      "binaries": {
+        "termitype.exe": {
+          "path": "termitype-v0.0.11-x86_64-pc-windows-msvc/termitype.exe",
+          "sha256": "6ca09a65f18666a2b8594ea4eaa275e515062df72be6fcc5a2459700868d9001"
+        }
+      }
+    }
+  }
+}
