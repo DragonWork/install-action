@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "autokuma",
+  "version": "2.0.0",
+  "repository": "BigBoot/AutoKuma",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/BigBoot/AutoKuma/releases/download/v2.0.0/autokuma-linux",
+      "sha256": "844c3e7be680a7b4216e80148635316bf156dde706c9cea3b039c4b00edea286",
+      "size": 31886696,
+      "format": "binary",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "autokuma": {
+          "path": "autokuma-linux",
+          "sha256": "844c3e7be680a7b4216e80148635316bf156dde706c9cea3b039c4b00edea286"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/BigBoot/AutoKuma/releases/download/v2.0.0/autokuma-windows.exe",
+      "sha256": "97cb89d05d2c0bcb05264d409913c3d2aca1903d0e01d0f602b23b02ecce6e45",
+      "size": 28721152,
+      "format": "binary",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "autokuma.exe": {
+          "path": "autokuma-windows.exe",
+          "sha256": "97cb89d05d2c0bcb05264d409913c3d2aca1903d0e01d0f602b23b02ecce6e45"
+        }
+      }
+    }
+  }
+}
