@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "wiresmith",
+  "version": "0.4.5",
+  "repository": "svenstaro/wiresmith",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/svenstaro/wiresmith/releases/download/v0.4.5/wiresmith-0.4.5-x86_64-unknown-linux-musl",
+      "sha256": "868888d2fd809307b2622df2cc2c191532ee8807906f2c7fcff14a6a53e5f164",
+      "size": 7892048,
+      "format": "binary",
+      "releaseTag": "v0.4.5",
+      "binaries": {
+        "wiresmith": {
+          "path": "wiresmith-0.4.5-x86_64-unknown-linux-musl",
+          "sha256": "868888d2fd809307b2622df2cc2c191532ee8807906f2c7fcff14a6a53e5f164"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/svenstaro/wiresmith/releases/download/v0.4.5/wiresmith-0.4.5-aarch64-unknown-linux-musl",
+      "sha256": "276d150ea433e6ce5799a06b7513315c11fedbad0f62dc0249fc3f9c64722b91",
+      "size": 6044096,
+      "format": "binary",
+      "releaseTag": "v0.4.5",
+      "binaries": {
+        "wiresmith": {
+          "path": "wiresmith-0.4.5-aarch64-unknown-linux-musl",
+          "sha256": "276d150ea433e6ce5799a06b7513315c11fedbad0f62dc0249fc3f9c64722b91"
+        }
+      }
+    }
+  }
+}
