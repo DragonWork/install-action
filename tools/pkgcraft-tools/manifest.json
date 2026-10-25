@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "pkgcraft-tools",
+  "version": "0.0.31",
+  "repository": "pkgcraft/pkgcraft",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/pkgcraft/pkgcraft/releases/download/pkgcraft-tools-0.0.31/pkgcraft-tools-0.0.31-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "ac4732d0d2cf336594e303f118ca15e2d8db9f39cb74876419b3d08eaed76772",
+      "size": 4894648,
+      "format": "tar.xz",
+      "releaseTag": "pkgcraft-tools-0.0.31",
+      "binaries": {
+        "pk": {
+          "path": "pk",
+          "sha256": "9994b464e925b27444a33eabf77b6efcaf9f7596e5899ca8af704392dcae264c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pkgcraft/pkgcraft/releases/download/pkgcraft-tools-0.0.31/pkgcraft-tools-0.0.31-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "1c545aa07c4b54564a90ce811525cf3067139844a4ca923ca41acc448d78fa83",
+      "size": 4384240,
+      "format": "tar.xz",
+      "releaseTag": "pkgcraft-tools-0.0.31",
+      "binaries": {
+        "pk": {
+          "path": "pk",
+          "sha256": "26427832ab607ee62448c6f7ba9615fc8b9f050ce267004c9842abb08050d283"
+        }
+      }
+    }
+  }
+}
