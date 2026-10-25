@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "pucli",
+  "version": "0.7.0",
+  "repository": "dghilardi/pucli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dghilardi/pucli/releases/download/0.7.0/pucli-linux.tar.gz",
+      "sha256": "3fadbb239a36cd738d3d0d6cad09598c07f8855ea36ea0614d522000b8610507",
+      "size": 3448038,
+      "format": "tar.gz",
+      "releaseTag": "0.7.0",
+      "binaries": {
+        "pucli": {
+          "path": "pucli-linux/pucli",
+          "sha256": "dd43d816f16c28f6715950056d850b5dacd3d9a2cd606eeb5228f95ed7dc0cb9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dghilardi/pucli/releases/download/0.7.0/pucli-win64.tar.gz",
+      "sha256": "9b16a4f6c8b675b76a1aa5f1ca8a46bd552576fbea5354cc585b323a283b8f1d",
+      "size": 7830829,
+      "format": "tar.gz",
+      "releaseTag": "0.7.0",
+      "binaries": {
+        "pucli.exe": {
+          "path": "pucli-win64/pucli.exe",
+          "sha256": "a54a7a3aa40fb3d700943fdd468eaef6549db7c3c3622ccdd1f0d89768dd1315"
+        }
+      }
+    }
+  }
+}
