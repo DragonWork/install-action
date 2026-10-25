@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "scriptx",
+  "version": "0.4.10",
+  "repository": "JoelMon/scriptx",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/JoelMon/scriptx/releases/download/v0.4.10/scriptx_0.4.10_amd64.deb",
+      "sha256": "50dd47650af89297f0a682eda42a95f46bb88724e825d13f760359b0e9caa0c7",
+      "size": 1290860,
+      "format": "deb",
+      "releaseTag": "v0.4.10",
+      "binaries": {
+        "scriptx": {
+          "path": "./usr/bin/scriptx",
+          "sha256": "cb7cd69c91e9b2faf60c51daa5095e0c1e66d94d9474d5d0aff09b98ecdcfc6f"
+        }
+      }
+    }
+  }
+}
