@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "ktmpl",
+  "version": "0.9.1",
+  "repository": "jimmycuadra/ktmpl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jimmycuadra/ktmpl/releases/download/0.9.1/ktmpl-0.9.1-linux.tar.gz",
+      "sha256": "3ed6fc221a9560317e158e7a176a29a7f52633637bfef26377b95024901f7c2e",
+      "size": 1690224,
+      "format": "tar.gz",
+      "releaseTag": "0.9.1",
+      "binaries": {
+        "ktmpl": {
+          "path": "ktmpl",
+          "sha256": "795e504b8c9521db6da86a52ca6c5b64371b8d60912d2e05efedf03feba6abf3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jimmycuadra/ktmpl/releases/download/0.9.1/ktmpl-0.9.1-darwin.tar.gz",
+      "sha256": "d8829cb18e040e1889aa475f38166b2ce848ced4e7b2441873539e11e3522bfb",
+      "size": 825927,
+      "format": "tar.gz",
+      "releaseTag": "0.9.1",
+      "binaries": {
+        "ktmpl": {
+          "path": "ktmpl",
+          "sha256": "d7436f977c64b09747b928ba65b0f2357ec9db3e4c96d7e151ea146b58de5d38"
+        }
+      }
+    }
+  }
+}
