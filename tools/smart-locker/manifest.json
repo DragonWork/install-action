@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "smart-locker",
+  "version": "0.3.1",
+  "repository": "WillIsback/smart-locker",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/WillIsback/smart-locker/releases/download/v0.3.1/smartlocker_linux.tar.gz",
+      "sha256": "aefe0cf895d13181cbb725921dde5632382ef50e2b9430f8d9d4eab999be2f5f",
+      "size": 709932,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "smart-locker": {
+          "path": "linux/smart-locker",
+          "sha256": "111cbbb3612604789d1fef9c15d5bb3f2a484c410966f4d43e1bad89f68277cc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/WillIsback/smart-locker/releases/download/v0.3.1/smartlocker_windows.zip",
+      "sha256": "3604415471c2aca8b0b7efe39d8f36102638e21f69c7f2cd5c4b80b53b9960de",
+      "size": 1554304,
+      "format": "zip",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "smart-locker.exe": {
+          "path": "dist/windows/smart-locker.exe",
+          "sha256": "1dd2b1d577dbfef8713deb7d15f3636f47e0a1ef991500054735c30557ce324d"
+        }
+      }
+    }
+  }
+}
