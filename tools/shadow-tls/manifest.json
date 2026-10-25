@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "shadow-tls",
+  "version": "0.2.20",
+  "repository": "ihciah/shadow-tls",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ihciah/shadow-tls/releases/download/v0.2.20/shadow-tls-x86_64-unknown-linux-musl",
+      "sha256": "cb2bad97600d1b227269f38a298f8fad1c8216fddeea9ed84bbf91001ad80857",
+      "size": 7451528,
+      "format": "binary",
+      "releaseTag": "v0.2.20",
+      "binaries": {
+        "shadow-tls": {
+          "path": "shadow-tls-x86_64-unknown-linux-musl",
+          "sha256": "cb2bad97600d1b227269f38a298f8fad1c8216fddeea9ed84bbf91001ad80857"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ihciah/shadow-tls/releases/download/v0.2.20/shadow-tls-aarch64-unknown-linux-musl",
+      "sha256": "aab17bbfac648323b6a4e8333395bea7561e2c717686d83461220b5ee7f6ee24",
+      "size": 6640752,
+      "format": "binary",
+      "releaseTag": "v0.2.20",
+      "binaries": {
+        "shadow-tls": {
+          "path": "shadow-tls-aarch64-unknown-linux-musl",
+          "sha256": "aab17bbfac648323b6a4e8333395bea7561e2c717686d83461220b5ee7f6ee24"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ihciah/shadow-tls/releases/download/v0.2.20/shadow-tls-x86_64-apple-darwin",
+      "sha256": "6dfb97e6ac01399a37d5ed8779efc8a521e51211dcd11d1d5727298ad5277c9a",
+      "size": 4138064,
+      "format": "binary",
+      "releaseTag": "v0.2.20",
+      "binaries": {
+        "shadow-tls": {
+          "path": "shadow-tls-x86_64-apple-darwin",
+          "sha256": "6dfb97e6ac01399a37d5ed8779efc8a521e51211dcd11d1d5727298ad5277c9a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ihciah/shadow-tls/releases/download/v0.2.20/shadow-tls-aarch64-apple-darwin",
+      "sha256": "0809361258dc04c88506d40600b44fa1637fd2e9b8587a4f57eb69d4cda9cd23",
+      "size": 3907176,
+      "format": "binary",
+      "releaseTag": "v0.2.20",
+      "binaries": {
+        "shadow-tls": {
+          "path": "shadow-tls-aarch64-apple-darwin",
+          "sha256": "0809361258dc04c88506d40600b44fa1637fd2e9b8587a4f57eb69d4cda9cd23"
+        }
+      }
+    }
+  }
+}
