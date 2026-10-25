@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "streamson-bin",
+  "version": "7.1.0",
+  "repository": "shenek/streamson",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/shenek/streamson/releases/download/v7.1.0/sson-linux",
+      "sha256": "ac6bc4ef3a31f303279b4aed6e0a5c022eaea478487eaafbfce380847a8efd10",
+      "size": 6237024,
+      "format": "binary",
+      "releaseTag": "v7.1.0",
+      "binaries": {
+        "sson": {
+          "path": "sson-linux",
+          "sha256": "ac6bc4ef3a31f303279b4aed6e0a5c022eaea478487eaafbfce380847a8efd10"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/shenek/streamson/releases/download/v7.1.0/sson-macos",
+      "sha256": "7615419d7042d7bf4653f775c4244acb47779e423c4ffd755a38ab92cc6fa9d8",
+      "size": 2865736,
+      "format": "binary",
+      "releaseTag": "v7.1.0",
+      "binaries": {
+        "sson": {
+          "path": "sson-macos",
+          "sha256": "7615419d7042d7bf4653f775c4244acb47779e423c4ffd755a38ab92cc6fa9d8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/shenek/streamson/releases/download/v7.1.0/sson-windows.exe",
+      "sha256": "6a737a5014cb1475f55ef13115c32c2f23ffde0eaae76bdca4e22961f08f07f4",
+      "size": 2248704,
+      "format": "binary",
+      "releaseTag": "v7.1.0",
+      "binaries": {
+        "sson.exe": {
+          "path": "sson-windows.exe",
+          "sha256": "6a737a5014cb1475f55ef13115c32c2f23ffde0eaae76bdca4e22961f08f07f4"
+        }
+      }
+    }
+  }
+}
