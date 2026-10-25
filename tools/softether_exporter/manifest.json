@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "softether_exporter",
+  "version": "0.2.0",
+  "repository": "dalance/softether_exporter",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dalance/softether_exporter/releases/download/v0.2.0/softether_exporter-v0.2.0-x86_64-lnx.zip",
+      "sha256": "634a155cc2e7bad0b2b93f89cabfecafc45cb6e701839bd583ecd24953ff1d7e",
+      "size": 1949157,
+      "format": "zip",
+      "releaseTag": "v0.2.0",
+      "binaries": {
+        "softether_exporter": {
+          "path": "softether_exporter",
+          "sha256": "543d779aa1cda888a3e7cdc3fb7d1d2629e8288c31ec7e5870e44efdb63b64ac"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dalance/softether_exporter/releases/download/v0.2.0/softether_exporter-v0.2.0-x86_64-mac.zip",
+      "sha256": "f1e7009b2f8d7b73be45a4eb1be795a3623b2a4a9cb2728788ba2da4a9194a42",
+      "size": 1145119,
+      "format": "zip",
+      "releaseTag": "v0.2.0",
+      "binaries": {
+        "softether_exporter": {
+          "path": "softether_exporter",
+          "sha256": "a15464abb3acab07a0abb00ae0fb78613f7af52e06926855d2ef1af823b2067a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dalance/softether_exporter/releases/download/v0.2.0/softether_exporter-v0.2.0-x86_64-win.zip",
+      "sha256": "d861863f6e7af3d0932238e3cec6018d5b6df8bcff29f3e2e2af98e0b17320bc",
+      "size": 926494,
+      "format": "zip",
+      "releaseTag": "v0.2.0",
+      "binaries": {
+        "softether_exporter.exe": {
+          "path": "target/x86_64-pc-windows-msvc/release/softether_exporter.exe",
+          "sha256": "77a66e1564d611fda780d359c30bca9023cd7012bc179b10bc6cd86ad19b7d84"
+        }
+      }
+    }
+  }
+}
