@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mfte",
+  "version": "0.3.0",
+  "repository": "mathphreak/mfte",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mathphreak/mfte/releases/download/v0.3.0/mfte-linux",
+      "sha256": "b0cd55b7bb822745a2f4633f7d76435b03f9e3e6cbb97172e1123eca2ded2d18",
+      "size": 5237869,
+      "format": "binary",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "mfte": {
+          "path": "mfte-linux",
+          "sha256": "b0cd55b7bb822745a2f4633f7d76435b03f9e3e6cbb97172e1123eca2ded2d18"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mathphreak/mfte/releases/download/v0.3.0/mfte-osx",
+      "sha256": "dfa41f2b8db09de39c3ec0bb4b7e7e03a80680df6107ab0d1752a2e57ea1c141",
+      "size": 1579128,
+      "format": "binary",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "mfte": {
+          "path": "mfte-osx",
+          "sha256": "dfa41f2b8db09de39c3ec0bb4b7e7e03a80680df6107ab0d1752a2e57ea1c141"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mathphreak/mfte/releases/download/v0.3.0/mfte-x64.exe",
+      "sha256": "92749ceec23a8396ffadcfe17c359b3d3b35565b6cd3aa3832066127bb7373d3",
+      "size": 1014784,
+      "format": "binary",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "mfte.exe": {
+          "path": "mfte-x64.exe",
+          "sha256": "92749ceec23a8396ffadcfe17c359b3d3b35565b6cd3aa3832066127bb7373d3"
+        }
+      }
+    }
+  }
+}
