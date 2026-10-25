@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "csv-groupby",
+  "version": "0.10.0",
+  "repository": "sflanaga/csv-groupby",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sflanaga/csv-groupby/releases/download/0.10.0/gb",
+      "sha256": "2b85c8348636390b239e080ea40e90dc048e001e9ac2680758173ea8e9f9c1ba",
+      "size": 9090576,
+      "format": "binary",
+      "releaseTag": "0.10.0",
+      "binaries": {
+        "gb": {
+          "path": "gb",
+          "sha256": "2b85c8348636390b239e080ea40e90dc048e001e9ac2680758173ea8e9f9c1ba"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sflanaga/csv-groupby/releases/download/0.10.0/gb.exe",
+      "sha256": "d1e71b0250202074c4a53fa5d14aeebdf8cc2f4e25593cf7a666ab8bf3ed40e6",
+      "size": 3786752,
+      "format": "binary",
+      "releaseTag": "0.10.0",
+      "binaries": {
+        "gb.exe": {
+          "path": "gb.exe",
+          "sha256": "d1e71b0250202074c4a53fa5d14aeebdf8cc2f4e25593cf7a666ab8bf3ed40e6"
+        }
+      }
+    }
+  }
+}
