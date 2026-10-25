@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "prometheus_web_exporter",
+  "version": "1.0.9",
+  "repository": "huseyinyilmaz/web_exporter",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/huseyinyilmaz/web_exporter/releases/download/v1.0.9/prometheus_web_exporter-linux",
+      "sha256": "dee4a78bd72195cad610c7e77a1c781af68a1172a96abc1a2b1a75acf6b1c52b",
+      "size": 11470424,
+      "format": "binary",
+      "releaseTag": "v1.0.9",
+      "binaries": {
+        "prometheus_web_exporter": {
+          "path": "prometheus_web_exporter-linux",
+          "sha256": "dee4a78bd72195cad610c7e77a1c781af68a1172a96abc1a2b1a75acf6b1c52b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/huseyinyilmaz/web_exporter/releases/download/v1.0.9/prometheus_web_exporter-macos",
+      "sha256": "51015392a8457bf3b4600c9c16da768cee0c786608cc492354c70aa50f2dc3d5",
+      "size": 9692256,
+      "format": "binary",
+      "releaseTag": "v1.0.9",
+      "binaries": {
+        "prometheus_web_exporter": {
+          "path": "prometheus_web_exporter-macos",
+          "sha256": "51015392a8457bf3b4600c9c16da768cee0c786608cc492354c70aa50f2dc3d5"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/huseyinyilmaz/web_exporter/releases/download/v1.0.9/prometheus_web_exporter-windows",
+      "sha256": "b74aff94f6b4ff9122f2eac5dff9f8ca22b0e3e1a95475acd38984c69e77fa96",
+      "size": 9117184,
+      "format": "binary",
+      "releaseTag": "v1.0.9",
+      "binaries": {
+        "prometheus_web_exporter.exe": {
+          "path": "prometheus_web_exporter-windows",
+          "sha256": "b74aff94f6b4ff9122f2eac5dff9f8ca22b0e3e1a95475acd38984c69e77fa96"
+        }
+      }
+    }
+  }
+}
