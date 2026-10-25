@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "quickserve",
+  "version": "0.5.2",
+  "repository": "meain/quickserve",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/meain/quickserve/releases/download/0.5.2/quickserve-linux-amd64",
+      "sha256": "a9a6b8620f41344b5a7dc15b3cf979d36ea6db8330c63c30327d701ce849cb99",
+      "size": 3240176,
+      "format": "binary",
+      "releaseTag": "0.5.2",
+      "binaries": {
+        "quickserve": {
+          "path": "quickserve-linux-amd64",
+          "sha256": "a9a6b8620f41344b5a7dc15b3cf979d36ea6db8330c63c30327d701ce849cb99"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/meain/quickserve/releases/download/0.5.2/quickserve-macos-amd64",
+      "sha256": "22f344a9ab4adc8ad06adc59b4d25a8f31bea671faeb747aefb09294f1fb7331",
+      "size": 1789312,
+      "format": "binary",
+      "releaseTag": "0.5.2",
+      "binaries": {
+        "quickserve": {
+          "path": "quickserve-macos-amd64",
+          "sha256": "22f344a9ab4adc8ad06adc59b4d25a8f31bea671faeb747aefb09294f1fb7331"
+        }
+      }
+    }
+  }
+}
