@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "mapvas",
+  "version": "0.2.11",
+  "repository": "UdHo/mapvas",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/UdHo/mapvas/releases/download/0.2.11/mapvas-macos.zip",
+      "sha256": "9807803fa4114b3b41e613ab250884c0dda03a5e0838ad1befeb1ab6e4cd1ae1",
+      "size": 21970465,
+      "format": "zip",
+      "releaseTag": "0.2.11",
+      "binaries": {
+        "mapcat": {
+          "path": "mapcat",
+          "sha256": "43b0b2134a82d72ca024676c2dcce736270b458e340ea113b5db9fe38027511e"
+        },
+        "mapvas": {
+          "path": "mapvas",
+          "sha256": "74f9b6cbfd71175950d0a98ebbaa06b8e60a8bef6ea1662f1a23e41c7bddbf7f"
+        }
+      }
+    }
+  }
+}
