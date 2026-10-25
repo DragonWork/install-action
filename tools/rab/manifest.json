@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rab",
+  "version": "0.5.0",
+  "repository": "itytophile/rab",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/itytophile/rab/releases/download/v0.5/rab-linux-x86_64.zip",
+      "sha256": "e41a1e65f5019e942b0a094015a946dca9e4bf84e418602c68ee597ddabf00b2",
+      "size": 5863337,
+      "format": "zip",
+      "releaseTag": "v0.5",
+      "binaries": {
+        "rab": {
+          "path": "rab",
+          "sha256": "802fb692cc781f55ee94bbd5e74136d454b020d7234c13e82c9009dcc349f0c8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/itytophile/rab/releases/download/v0.5/rab-windows-x86_64.zip",
+      "sha256": "7d0b1c596452df69bb4ad19dc8e2d4369534aeba7f20826865a3e762c8db7856",
+      "size": 5961768,
+      "format": "zip",
+      "releaseTag": "v0.5",
+      "binaries": {
+        "rab.exe": {
+          "path": "rab.exe",
+          "sha256": "a0cb37e677bc6972f8f3284050c83ed3540c458f3debbc85c9d8487b39b0a28f"
+        }
+      }
+    }
+  }
+}
