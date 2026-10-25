@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pretty-exec",
+  "version": "0.5.0",
+  "repository": "KSXGitHub/pretty-exec",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KSXGitHub/pretty-exec/releases/download/0.5.0/pretty-exec-x86_64-unknown-linux-musl",
+      "sha256": "ae9b8ada726f4eb1483b609a3a19b086ef0f85d95323fc07075ee6d2997519a3",
+      "size": 932104,
+      "format": "binary",
+      "releaseTag": "0.5.0",
+      "binaries": {
+        "pretty-exec": {
+          "path": "pretty-exec-x86_64-unknown-linux-musl",
+          "sha256": "ae9b8ada726f4eb1483b609a3a19b086ef0f85d95323fc07075ee6d2997519a3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KSXGitHub/pretty-exec/releases/download/0.5.0/pretty-exec-x86_64-apple-darwin",
+      "sha256": "a756359ca78340f088e34ce78a139aabbcec05ddcc4d556703bac83cb98585d0",
+      "size": 770992,
+      "format": "binary",
+      "releaseTag": "0.5.0",
+      "binaries": {
+        "pretty-exec": {
+          "path": "pretty-exec-x86_64-apple-darwin",
+          "sha256": "a756359ca78340f088e34ce78a139aabbcec05ddcc4d556703bac83cb98585d0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KSXGitHub/pretty-exec/releases/download/0.5.0/pretty-exec-x86_64-pc-windows-msvc.exe",
+      "sha256": "6709181b42ab46a0ea12a5b702b7fdaf7151afc1588362bbc438b7e01fc37375",
+      "size": 710144,
+      "format": "binary",
+      "releaseTag": "0.5.0",
+      "binaries": {
+        "pretty-exec.exe": {
+          "path": "pretty-exec-x86_64-pc-windows-msvc.exe",
+          "sha256": "6709181b42ab46a0ea12a5b702b7fdaf7151afc1588362bbc438b7e01fc37375"
+        }
+      }
+    }
+  }
+}
