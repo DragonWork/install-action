@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "git-cm",
+  "version": "0.2.3",
+  "repository": "mainrs/git-cm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mainrs/git-cm/releases/download/v0.2.3/git-cm-linux.tar.gz",
+      "sha256": "8e4ba470b5c1a1c2bc413324433cdc79c0af927bf8eee95970136b79c48692b2",
+      "size": 1119747,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.3",
+      "binaries": {
+        "git-cm": {
+          "path": "./git-cm",
+          "sha256": "db77b75522e5accef3b1b9d37eea9c718248504e072cbc5baa58f28ae8362a32"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mainrs/git-cm/releases/download/v0.2.3/git-cm-mac.tar.gz",
+      "sha256": "75f343eec8036517145c8b1e0c193cf959295fd62e31afbb2ed82e639c3f997a",
+      "size": 1040441,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.3",
+      "binaries": {
+        "git-cm": {
+          "path": "./git-cm",
+          "sha256": "d1b85421668aa55279489fdd6c0d3fce78f262a5f3900680fa11a63a936adb04"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mainrs/git-cm/releases/download/v0.2.3/git-cm-win.tar.gz",
+      "sha256": "520fce9919612a3958a468ebeabd42c39f1c13781093d8cd3fa4f5b3535ce1ba",
+      "size": 1347237,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.3",
+      "binaries": {
+        "git-cm.exe": {
+          "path": "./git-cm.exe",
+          "sha256": "8148339cc78b19e9a2a1164fe46cb0eec1ca15aa80e652604c313bdfe59a43e2"
+        }
+      }
+    }
+  }
+}
