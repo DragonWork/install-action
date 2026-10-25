@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "name": "halp",
+  "version": "0.2.0",
+  "repository": "orhun/halp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/orhun/halp/releases/download/v0.2.0/halp-0.2.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "b252400f8c94204cc2de7180a0f984bd2fcfdbdd2889f62a663d81fc0c1bd8b0",
+      "size": 2176942,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.0",
+      "binaries": {
+        "halp-completions": {
+          "path": "halp-0.2.0/halp-completions",
+          "sha256": "4edc892af21a16456f6bc279a65a39f41442c290229a42b6d5d105f804013a4d"
+        },
+        "halp-mangen": {
+          "path": "halp-0.2.0/halp-mangen",
+          "sha256": "8e106dfda04620f015353d0042d74e1aa65cbf0da6c7561419dd2b58fce97b72"
+        },
+        "halp": {
+          "path": "halp-0.2.0/halp",
+          "sha256": "b724bdb41304485c85f2e3d8e4dfce2afce968b3cc51227fcff7ae879c0b5f90"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/orhun/halp/releases/download/v0.2.0/halp-0.2.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "c15b4671a394030ea2939e39bd82c053e0863d8ed93c90f5c06238835be46938",
+      "size": 2045339,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.0",
+      "binaries": {
+        "halp-completions": {
+          "path": "halp-0.2.0/halp-completions",
+          "sha256": "34d1c1a96f3e7d251e796b942c95e3c4bdd4bc6a66901c3e0a34a269cd79dd2e"
+        },
+        "halp-mangen": {
+          "path": "halp-0.2.0/halp-mangen",
+          "sha256": "82af4fd562e721145a3d0715d93463a312815af8337813ab72940fb5e8b4013d"
+        },
+        "halp": {
+          "path": "halp-0.2.0/halp",
+          "sha256": "3d9c5d7cac50bb76e1dd67ce930b36472cb532b6676eb6ef05176649748beb82"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/orhun/halp/releases/download/v0.2.0/halp-0.2.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "f2f8f20f53842d6c57c83d2ae0daf46dd235813f2b810227067d6f1e0d29accb",
+      "size": 1906764,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.0",
+      "binaries": {
+        "halp-completions": {
+          "path": "halp-0.2.0/halp-completions",
+          "sha256": "420abf7dd3489bbca973b00beb4373a15026ed5ce39ae7cc5f340b62b5af4066"
+        },
+        "halp-mangen": {
+          "path": "halp-0.2.0/halp-mangen",
+          "sha256": "6016ab6972c2c9b1709b97cfe5fd1c1a30f9eddcf2caad065f1c288885c416b5"
+        },
+        "halp": {
+          "path": "halp-0.2.0/halp",
+          "sha256": "0d0bce7ce618453ba5214a85dc7822d7fb42dcd0a0412bf6ec5405a5dc7f9b78"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/orhun/halp/releases/download/v0.2.0/halp-0.2.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "789435b9b76d599987edc9706c8fc83dc8c61f8b67f71beae4ef8453e4912080",
+      "size": 1806224,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.0",
+      "binaries": {
+        "halp-completions": {
+          "path": "halp-0.2.0/halp-completions",
+          "sha256": "c2340e2af632f5a431072d72ead88dd20350e611fca4ab6404314201a35b7766"
+        },
+        "halp-mangen": {
+          "path": "halp-0.2.0/halp-mangen",
+          "sha256": "5b80ce83b90ba635c9f2f53cab62ac42dad16dcf32c8ba46cb34bbe64f15b6bf"
+        },
+        "halp": {
+          "path": "halp-0.2.0/halp",
+          "sha256": "974defaf6ddb64cc475934db6c2fbd44301844fb2a6c3719e0ddbd82380de8d0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/orhun/halp/releases/download/v0.2.0/halp--x86_64-pc-windows-msvc.zip",
+      "sha256": "6bf6498a38313c153e5f1e87ffafa9afb74933f517a298edeeaeb25940088d07",
+      "size": 1734786,
+      "format": "zip",
+      "releaseTag": "v0.2.0",
+      "binaries": {
+        "halp-completions.exe": {
+          "path": "halp-/halp-completions.exe",
+          "sha256": "7e789730855a361f0229a3ec378531f5c7cec368d9b51e300374dd788a567b5d"
+        },
+        "halp-mangen.exe": {
+          "path": "halp-/halp-mangen.exe",
+          "sha256": "a86547f79965dfa10e5c71d452b0e04aa004416e9c81ab9077bffdc946bcb696"
+        },
+        "halp.exe": {
+          "path": "halp-/halp.exe",
+          "sha256": "801a1ffff284af7cfa98822272fc795242f01745d41c4f4e12d4d8b9ddda364f"
+        }
+      }
+    }
+  }
+}
