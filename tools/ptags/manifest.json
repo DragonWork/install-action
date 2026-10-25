@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "ptags",
+  "version": "0.3.5",
+  "repository": "dalance/ptags",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dalance/ptags/releases/download/v0.3.5/ptags-v0.3.5-x86_64-lnx.zip",
+      "sha256": "49ef2941734e9cb78d3ee5e90d204f56fb93b990591b71231d7e4e49e4d668e6",
+      "size": 1767062,
+      "format": "zip",
+      "releaseTag": "v0.3.5",
+      "binaries": {
+        "ptags": {
+          "path": "ptags",
+          "sha256": "5f7bbb0a4ba33ec9cb4c75e8635c59bc064937afc889f7f45bdd8467f89e87ab"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dalance/ptags/releases/download/v0.3.5/ptags-v0.3.5-x86_64-mac.zip",
+      "sha256": "6891bdc75e63d2ec8fa073e61fdc830e029224a2b1f6842176a00dcf68c984cc",
+      "size": 737346,
+      "format": "zip",
+      "releaseTag": "v0.3.5",
+      "binaries": {
+        "ptags": {
+          "path": "ptags",
+          "sha256": "26ead3a02d1488050bcf59503cb7a667f6f948e3e7c08e960ee4caab63974da6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dalance/ptags/releases/download/v0.3.5/ptags-v0.3.5-aarch64-mac.zip",
+      "sha256": "d83bef904b567e46f4258d618ccb43b7f9e144ec453e94ee8adc865d32e07788",
+      "size": 713823,
+      "format": "zip",
+      "releaseTag": "v0.3.5",
+      "binaries": {
+        "ptags": {
+          "path": "ptags",
+          "sha256": "9d2f166f05fa0fff727d185ed89adbe8353ced14c4152182358d60aa2a19d06b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dalance/ptags/releases/download/v0.3.5/ptags-v0.3.5-x86_64-win.zip",
+      "sha256": "0259df12c4f7a9d55e5f0b1817da166306f3e4407fa5721d757255a535453d30",
+      "size": 534514,
+      "format": "zip",
+      "releaseTag": "v0.3.5",
+      "binaries": {
+        "ptags.exe": {
+          "path": "target/x86_64-pc-windows-msvc/release/ptags.exe",
+          "sha256": "578ef60abf65efa0660e5f323757a0166bb6e6f5c7a91fd1d75bff6b05da1952"
+        }
+      }
+    }
+  }
+}
