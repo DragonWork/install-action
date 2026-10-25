@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rmg",
+  "version": "0.5.11",
+  "repository": "rsuu/rmg",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rsuu/rmg/releases/download/v0.5.11/rmg_linux_v0.5.11.tar.gz",
+      "sha256": "aa4065e0b53afbf7be4f064e1d197e395aa3e806cb786955dc42ae82901a2a81",
+      "size": 2002771,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.11",
+      "binaries": {
+        "rmg": {
+          "path": "rmg_linux_v0.5.11/rmg",
+          "sha256": "aa87aa1f0026eba69b2c1b03c7e7c0908fb1e23d05411b21a5f0466271261068"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rsuu/rmg/releases/download/v0.5.11/rmg_macos_v0.5.11.tar.gz",
+      "sha256": "adfc8be03e4c12c386e7fe2285185cb3968ecb4f5249169d92e384555765a5ac",
+      "size": 1819959,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.11",
+      "binaries": {
+        "rmg": {
+          "path": "rmg_macos_v0.5.11/rmg",
+          "sha256": "03f0a479d2484378429c3da7dc15d8347a31e29001a9befaf9fa0b1ad03b58cc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rsuu/rmg/releases/download/v0.5.11/rmg_win-gnu_v0.5.11.zip",
+      "sha256": "f3024f5d1e2eba00687ecd067992a37000f9a2af60ae501bbbb44f0d5a437b5d",
+      "size": 1856008,
+      "format": "zip",
+      "releaseTag": "v0.5.11",
+      "binaries": {
+        "rmg.exe": {
+          "path": "rmg_win-gnu_v0.5.11/rmg.exe",
+          "sha256": "befa32284735a138c9bbdda9973c6bb3ae4ff3837b7fb219b5d2316756b89109"
+        }
+      }
+    }
+  }
+}
