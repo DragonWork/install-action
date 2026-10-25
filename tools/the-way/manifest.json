@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "the-way",
+  "version": "0.20.3",
+  "repository": "out-of-cheese-error/the-way",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/out-of-cheese-error/the-way/releases/download/v0.20.3/the-way-linux.tar.gz",
+      "sha256": "054c2f6f5caedfe6a49500f01df6deb5174f02d7b8fef9d98e642ba3d391eb69",
+      "size": 4422066,
+      "format": "tar.gz",
+      "releaseTag": "v0.20.3",
+      "binaries": {
+        "the-way": {
+          "path": "the-way",
+          "sha256": "ade3abc4ae1c637223fa96ad3081dceeeef254ff445f8d3058d78dfe51a2b4a7"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/out-of-cheese-error/the-way/releases/download/v0.20.3/the-way-macos.tar.gz",
+      "sha256": "2699aaccbf9fc1da9b7208525415bb6e759cc966093747489495a693ac9685c7",
+      "size": 4195682,
+      "format": "tar.gz",
+      "releaseTag": "v0.20.3",
+      "binaries": {
+        "the-way": {
+          "path": "the-way",
+          "sha256": "99056172e888bbc5eaca52a4cb32ffd916e1540942bd69b3215f876049dd51b0"
+        }
+      }
+    }
+  }
+}
