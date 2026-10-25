@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "deno_cli",
+  "version": "0.23.0",
+  "repository": "denoland/deno",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/denoland/deno/releases/download/v0.23.0/deno_win_x64.zip",
+      "sha256": "8df750fd0633d36b4a7d278a2d3e08e5415fa1364369f22c5afca703a7bda061",
+      "size": 10680631,
+      "format": "zip",
+      "releaseTag": "v0.23.0",
+      "binaries": {
+        "deno.exe": {
+          "path": "deno.exe",
+          "sha256": "4b47268a3297caaad8d152779bc8642bdf602409d797e7c50571dcc80d4a0c88"
+        }
+      }
+    }
+  }
+}
