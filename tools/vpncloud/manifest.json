@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "vpncloud",
+  "version": "2.3.0",
+  "repository": "dswd/vpncloud",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dswd/vpncloud/releases/download/v2.3.0/vpncloud_2.3.0_amd64.deb",
+      "sha256": "69a327bfe932792c922159af5c580a11f62b7a7f5548b81d1c4ad13f58f26443",
+      "size": 1090420,
+      "format": "deb",
+      "releaseTag": "v2.3.0",
+      "binaries": {
+        "vpncloud": {
+          "path": "usr/bin/vpncloud",
+          "sha256": "74bfa3741d49aed3d6c7587d1fd680968012164b89fc697ef78f7f2da480e62e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dswd/vpncloud/releases/download/v2.3.0/vpncloud_2.3.0_arm64.deb",
+      "sha256": "9576418a91793aa93b8e9ee567a97b89cde09edac2fc7af234ee7de2dd6f9c4c",
+      "size": 948108,
+      "format": "deb",
+      "releaseTag": "v2.3.0",
+      "binaries": {
+        "vpncloud": {
+          "path": "usr/bin/vpncloud",
+          "sha256": "097e3c209d6db011438865bdc93ccfb1049d34dac027f03477d508d93e0b9182"
+        }
+      }
+    }
+  }
+}
