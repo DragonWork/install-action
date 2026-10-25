@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "cork",
+  "version": "0.2.6",
+  "repository": "RedDocMD/cork",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/RedDocMD/cork/releases/download/v0.2.6/cork",
+      "sha256": "96fab84314bb69ff933ed114720b2c41c74631556542e504ce02b5c9ee5e5564",
+      "size": 5649960,
+      "format": "binary",
+      "releaseTag": "v0.2.6",
+      "binaries": {
+        "cork": {
+          "path": "cork",
+          "sha256": "96fab84314bb69ff933ed114720b2c41c74631556542e504ce02b5c9ee5e5564"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/RedDocMD/cork/releases/download/v0.2.6/cork-v0.2.6-portable.exe",
+      "sha256": "2f0839624914549c36c9f7da9c8d27df075f72ac2f130d446e652fe0920c0a69",
+      "size": 1416704,
+      "format": "binary",
+      "releaseTag": "v0.2.6",
+      "binaries": {
+        "cork.exe": {
+          "path": "cork-v0.2.6-portable.exe",
+          "sha256": "2f0839624914549c36c9f7da9c8d27df075f72ac2f130d446e652fe0920c0a69"
+        }
+      }
+    }
+  }
+}
