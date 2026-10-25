@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "git-skel",
+  "version": "0.1.6",
+  "repository": "dalance/git-skel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dalance/git-skel/releases/download/v0.1.6/git-skel-v0.1.6-x86_64-lnx.zip",
+      "sha256": "2ec8bab0b0cb7d4930dbb0e71061b5a224b0c71786b92eb6c161e4247a09df6a",
+      "size": 3684672,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "git-skel": {
+          "path": "git-skel",
+          "sha256": "3b8205fe9fc07dca34d494251c5a731476168dca0ad7da7b07f73c904c5a0b5b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dalance/git-skel/releases/download/v0.1.6/git-skel-v0.1.6-x86_64-mac.zip",
+      "sha256": "4dd1bd8586977c0ef9a99b61de3e4d242322f53374ce7808c8b1847da5e49ff4",
+      "size": 1407152,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "git-skel": {
+          "path": "git-skel",
+          "sha256": "6b5771756d2901f0fb0c690899b60381d534eb4f365fe3c1acd051cff96a2ad1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dalance/git-skel/releases/download/v0.1.6/git-skel-v0.1.6-x86_64-win.zip",
+      "sha256": "e42433f7bf64794daae844f1a84b768c2859f08f9eedbe651d3aae42d2050350",
+      "size": 1434267,
+      "format": "zip",
+      "releaseTag": "v0.1.6",
+      "binaries": {
+        "git-skel.exe": {
+          "path": "target/x86_64-pc-windows-msvc/release/git-skel.exe",
+          "sha256": "fc97041caf0241df7ac889b9fe62d8c77068a2b21fc6fe54deb1c261cb981cbc"
+        }
+      }
+    }
+  }
+}
