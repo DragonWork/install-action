@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pgdo-cli",
+  "version": "0.7.0",
+  "repository": "allenap/pgdo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/allenap/pgdo/releases/download/v0.7.0/pgdo-linux",
+      "sha256": "667025feae75cc135d11cf909fa2294dd518b8de0f9730d52b4ebafad4e7afc2",
+      "size": 4834576,
+      "format": "binary",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "pgdo": {
+          "path": "pgdo-linux",
+          "sha256": "667025feae75cc135d11cf909fa2294dd518b8de0f9730d52b4ebafad4e7afc2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/allenap/pgdo/releases/download/v0.7.0/pgdo-apple-darwin",
+      "sha256": "a39d831974a7b467830bcd134b09643de131bd66fb98cf0063656d8a3335c7a6",
+      "size": 7991168,
+      "format": "binary",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "pgdo": {
+          "path": "pgdo-apple-darwin",
+          "sha256": "a39d831974a7b467830bcd134b09643de131bd66fb98cf0063656d8a3335c7a6"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/allenap/pgdo/releases/download/v0.7.0/pgdo-apple-darwin",
+      "sha256": "a39d831974a7b467830bcd134b09643de131bd66fb98cf0063656d8a3335c7a6",
+      "size": 7991168,
+      "format": "binary",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "pgdo": {
+          "path": "pgdo-apple-darwin",
+          "sha256": "a39d831974a7b467830bcd134b09643de131bd66fb98cf0063656d8a3335c7a6"
+        }
+      }
+    }
+  }
+}
