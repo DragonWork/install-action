@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "pyxis-parcel",
+  "version": "0.5.0",
+  "repository": "chordtoll/pyxis-parcel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/chordtoll/pyxis-parcel/releases/download/v0.5.0/pyxis-parcel-0.5.0-1-x86_64.pkg.tar.zst",
+      "sha256": "d294f06476a454013c589871019c6fafdd5ccb8352f91a40e7c29de3b2ed39dc",
+      "size": 667763,
+      "format": "tar.zst",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "parcel-cat": {
+          "path": "usr/bin/parcel-cat",
+          "sha256": "8ff0774abdf0058ef05f3c4e236030ac4a984873126166f893afb51ebd1c94c6"
+        },
+        "parcel-create": {
+          "path": "usr/bin/parcel-create",
+          "sha256": "c12af17a98515d9367cde8cbc7bd6fc094c7651890248c55f9e884090adef3be"
+        }
+      }
+    }
+  }
+}
