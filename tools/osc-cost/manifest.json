@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "osc-cost",
+  "version": "0.8.0",
+  "repository": "outscale/osc-cost",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/outscale/osc-cost/releases/download/v0.8.0/osc-cost-v0.8.0-x86_64-unknown-linux-musl",
+      "sha256": "d7ea3c2da726be8f7ccaa7b4e8b1d43ffa47ea93ff448bbc1303aad8a300f802",
+      "size": 24969984,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "osc-cost": {
+          "path": "osc-cost-v0.8.0-x86_64-unknown-linux-musl",
+          "sha256": "d7ea3c2da726be8f7ccaa7b4e8b1d43ffa47ea93ff448bbc1303aad8a300f802"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/outscale/osc-cost/releases/download/v0.8.0/osc-cost-v0.8.0-aarch64-apple-darwin",
+      "sha256": "bc75d5dc4ed59e160bc3ee8af809f949e4d7c6ded416c0b1eb86d68df8c2b8ee",
+      "size": 20811584,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "osc-cost": {
+          "path": "osc-cost-v0.8.0-aarch64-apple-darwin",
+          "sha256": "bc75d5dc4ed59e160bc3ee8af809f949e4d7c6ded416c0b1eb86d68df8c2b8ee"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/outscale/osc-cost/releases/download/v0.8.0/osc-cost-v0.8.0-x86_64-pc-windows-msvc.exe",
+      "sha256": "d7265f0866d945546c9012e277871278bf6921e11fbda03c2e04c8bed935b0e4",
+      "size": 18361856,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "osc-cost.exe": {
+          "path": "osc-cost-v0.8.0-x86_64-pc-windows-msvc.exe",
+          "sha256": "d7265f0866d945546c9012e277871278bf6921e11fbda03c2e04c8bed935b0e4"
+        }
+      }
+    }
+  }
+}
