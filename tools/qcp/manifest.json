@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "qcp",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "repository": "crazyscot/qcp",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-linux-x86_64-musl.tar.gz",
-      "releaseTag": "v0.9.0",
-      "sha256": "7a7545a43812121739e809fe5e2c59ba1a4e397487f775dfe7441e90185d0af5",
-      "size": 3541031,
-      "format": "tar.gz",
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.1/qcp_0.9.1_amd64.deb",
+      "sha256": "b2b027795207ee740f99e92dbda023eccd96c6f4ee205bacd8a4b85907208122",
+      "size": 2581244,
+      "format": "deb",
+      "releaseTag": "v0.9.1",
       "binaries": {
         "qcp": {
-          "path": "qcp-linux-x86_64-musl/qcp",
-          "sha256": "f9752bb7fbb6fe2c12f08339d2574ec9e84eb471037dd5587b071b465324537f"
+          "path": "./usr/bin/qcp",
+          "sha256": "710756e75cdb85c86fa5051f44b814a07c4aa3da40362f3e2f887c2a6df2ff0e"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-linux-aarch64-musl.tar.gz",
-      "releaseTag": "v0.9.0",
-      "sha256": "95e6b637cc00babac605f6b50147ef9a3adb41fa0ba6264258cfbc0e67cde24a",
-      "size": 3290191,
-      "format": "tar.gz",
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.1/qcp_0.9.1_arm64.deb",
+      "sha256": "43db6fef5a63897de36a68ce7be910f215ce8a74ee6d92a23b7675f9db5f096a",
+      "size": 2253024,
+      "format": "deb",
+      "releaseTag": "v0.9.1",
       "binaries": {
         "qcp": {
-          "path": "qcp-linux-aarch64-musl/qcp",
-          "sha256": "2d948bcaffa9900f3a96e07b3412498e054ca527df9983ac4ece66368e1e053b"
+          "path": "./usr/bin/qcp",
+          "sha256": "bf642dc9279a61b098ebd00c283b425c4b72254c306830369938da9c11c73e9f"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-osx-x86_64.tar.gz",
-      "releaseTag": "v0.9.0",
-      "sha256": "3a5e7702a4ec58f7b920d51f12564f9c4501f59ac66660ae1d98bf04e813b589",
-      "size": 3349569,
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.1/qcp-osx-x86_64.tar.gz",
+      "sha256": "0936195534a57912ea6fce5d01cdd6c229991884751babf47e7cb32189f18fe5",
+      "size": 3286198,
       "format": "tar.gz",
+      "releaseTag": "v0.9.1",
       "binaries": {
         "qcp": {
           "path": "qcp-osx-x86_64/qcp",
-          "sha256": "736d138f2862b372cb8f835cabbb1f6c6e9ef24edaf4befd9a1a86bbcad9a015"
+          "sha256": "5f607b608836b644220210154bd9cd8145ba7392616f1d69d6ef287c7da794ca"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-osx-aarch64.tar.gz",
-      "releaseTag": "v0.9.0",
-      "sha256": "57403574c06085366b5675bc172db54a159330861c8e3cfcd0b6a25a77aef432",
-      "size": 3162827,
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.1/qcp-osx-aarch64.tar.gz",
+      "sha256": "ca3653a3543b5c85dfcc6fe59523e12c98bc463364a1866dcb256a643bb514e7",
+      "size": 3081854,
       "format": "tar.gz",
+      "releaseTag": "v0.9.1",
       "binaries": {
         "qcp": {
           "path": "qcp-osx-aarch64/qcp",
-          "sha256": "3237d0d4e540ca0c7fab98311aabb77fb8dd431cf01f884b85268c7af3b5b889"
+          "sha256": "5095fb1ca8bf80a323132c5301b276f6d86a5e4ebe10021d955fcfa4d5629cf2"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.0/qcp-windows-x86_64-mingw.zip",
-      "releaseTag": "v0.9.0",
-      "sha256": "1a840f75bb540b30be20dd4930407a0cbaaddcf2d15e4788cbc25baa7db0ca39",
-      "size": 3607216,
+      "url": "https://github.com/crazyscot/qcp/releases/download/v0.9.1/qcp-windows-x86_64-mingw.zip",
+      "sha256": "22083e79e9aa8ed8897ce07a5395900fc8dfd3504a7d896237528282d2c2957c",
+      "size": 3594190,
       "format": "zip",
+      "releaseTag": "v0.9.1",
       "binaries": {
         "qcp.exe": {
           "path": "qcp-windows-x86_64-mingw/qcp.exe",
-          "sha256": "c22ea2b6a2c76dc9ecf48fc9fbeff6120d6af5558da49fb3f0d1e918030e14c0"
+          "sha256": "38255a8cf76a5a86920b01c855e045721a46dc724dc410663eea04cf1662097f"
         }
       }
     }
