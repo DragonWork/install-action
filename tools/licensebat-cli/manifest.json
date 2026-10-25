@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "licensebat-cli",
+  "version": "0.23.0",
+  "repository": "licensebat/licensebat",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/licensebat/licensebat/releases/download/v0.23.0/licensebat_linux.zip",
+      "sha256": "0a36d1eb758601321d6644d7e11260ee09d61a4782fdae2fbffdd16e38985f08",
+      "size": 9961178,
+      "format": "zip",
+      "releaseTag": "v0.23.0",
+      "binaries": {
+        "licensebat": {
+          "path": "target/release/licensebat",
+          "sha256": "8a1e118f6124bbdf720abe3cf74c6e99c2e99e5500c319f17b04459fdb5ff63d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/licensebat/licensebat/releases/download/v0.23.0/licensebat_osx.zip",
+      "sha256": "1a3b0031e1489d67aebeef5a08fb40096b36854998d03f5b8d47644eca9a3c6e",
+      "size": 9520512,
+      "format": "zip",
+      "releaseTag": "v0.23.0",
+      "binaries": {
+        "licensebat": {
+          "path": "target/release/licensebat",
+          "sha256": "236a88eb67d44b915c18182c8ce29c57474eef1a79190336dcdf6c1ee16cd12a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/licensebat/licensebat/releases/download/v0.23.0/licensebat_windows.zip",
+      "sha256": "98f129378287f6c0cea716bb87efee70a0799e995b083b75340aa0786f52710a",
+      "size": 9030603,
+      "format": "zip",
+      "releaseTag": "v0.23.0",
+      "binaries": {
+        "licensebat.exe": {
+          "path": "target/release/licensebat.exe",
+          "sha256": "cf9beb2bb7cf18f682b37faf5eb0725cf3882f61b7d13b1c070da9c4691352ef"
+        }
+      }
+    }
+  }
+}
