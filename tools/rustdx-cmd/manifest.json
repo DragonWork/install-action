@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "rustdx-cmd",
+  "version": "0.5.0",
+  "repository": "zjp-CN/rustdx",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/zjp-CN/rustdx/releases/download/v0.5.0/rustdx-linux",
+      "sha256": "6410ffc2ae2c6d54284e819e09cf4f77e19940ee77a493cdba211ffc1136333b",
+      "size": 3743824,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "rustdx": {
+          "path": "rustdx-linux",
+          "sha256": "6410ffc2ae2c6d54284e819e09cf4f77e19940ee77a493cdba211ffc1136333b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/zjp-CN/rustdx/releases/download/v0.5.0/rustdx-macos",
+      "sha256": "496dacd0b0c7b5e43237ee825e2d3a95d80fa902382734faee016dae52fe2955",
+      "size": 3195552,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "rustdx": {
+          "path": "rustdx-macos",
+          "sha256": "496dacd0b0c7b5e43237ee825e2d3a95d80fa902382734faee016dae52fe2955"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/zjp-CN/rustdx/releases/download/v0.5.0/rustdx.exe",
+      "sha256": "3b98c203bc044bab0216e142770dfe7cd4341211b17301e1ff25b04408aeafe0",
+      "size": 3337728,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "rustdx.exe": {
+          "path": "rustdx.exe",
+          "sha256": "3b98c203bc044bab0216e142770dfe7cd4341211b17301e1ff25b04408aeafe0"
+        }
+      }
+    }
+  }
+}
