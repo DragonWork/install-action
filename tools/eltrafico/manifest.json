@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "eltrafico",
+  "version": "2.3.0",
+  "repository": "sigmaSd/Eltrafico",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sigmaSd/Eltrafico/releases/download/2.3.0/eltrafico.tar",
+      "sha256": "c63015a7089c47e50c1dda78d7fba11a54a350c9c4d83e4277e57d3fddc1557e",
+      "size": 7628800,
+      "format": "tar",
+      "releaseTag": "2.3.0",
+      "binaries": {
+        "eltrafico": {
+          "path": "target/release/eltrafico",
+          "sha256": "895efd73be7e7b3e5e299319c8c58cfa6266ecb459bcf0b599d70df417d88fe6"
+        },
+        "eltrafico_tc": {
+          "path": "target/release/eltrafico_tc",
+          "sha256": "c31e43bf50e65305be1d5ef97a69446b14d1985ca98053f8708d679aef88d19e"
+        }
+      }
+    }
+  }
+}
