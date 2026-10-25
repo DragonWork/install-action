@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "patch-json",
+  "version": "0.1.1",
+  "repository": "jcaesar/patch-json",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jcaesar/patch-json/releases/download/v0.1.1/patch-json-amd64-linux",
+      "sha256": "4f287b4f9e2749f9596f3b7142f8986d33fe17eee83b8366e41ae9dc6c1e700c",
+      "size": 729880,
+      "format": "binary",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "patch-json": {
+          "path": "patch-json-amd64-linux",
+          "sha256": "4f287b4f9e2749f9596f3b7142f8986d33fe17eee83b8366e41ae9dc6c1e700c"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jcaesar/patch-json/releases/download/v0.1.1/patch-json-aarch64-linux",
+      "sha256": "31c2aec6b5792539ae259f4a2ee6610632a28f87359b078a21a50628834850de",
+      "size": 710032,
+      "format": "binary",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "patch-json": {
+          "path": "patch-json-aarch64-linux",
+          "sha256": "31c2aec6b5792539ae259f4a2ee6610632a28f87359b078a21a50628834850de"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/jcaesar/patch-json/releases/download/v0.1.1/patch-json-macos",
+      "sha256": "fab43c9ce192fcf34dd4c55ead166f44db89f25916c4755db7e2b7e57b37a480",
+      "size": 587720,
+      "format": "binary",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "patch-json": {
+          "path": "patch-json-macos",
+          "sha256": "fab43c9ce192fcf34dd4c55ead166f44db89f25916c4755db7e2b7e57b37a480"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jcaesar/patch-json/releases/download/v0.1.1/patch-json-windows.exe",
+      "sha256": "f0f8773d738d695733cca9ce31c2e4e87d4c8160e48c5d886cd134580e0103d1",
+      "size": 420864,
+      "format": "binary",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "patch-json.exe": {
+          "path": "patch-json-windows.exe",
+          "sha256": "f0f8773d738d695733cca9ce31c2e4e87d4c8160e48c5d886cd134580e0103d1"
+        }
+      }
+    }
+  }
+}
