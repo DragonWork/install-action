@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "gooseberry",
+  "version": "0.10.1",
+  "repository": "out-of-cheese-error/gooseberry",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/out-of-cheese-error/gooseberry/releases/download/0.10.1/gooseberry-linux.tar.gz",
+      "sha256": "14854111dd6501820d86bb2564acb17d772dd05d311073ec1d8e9c804dac78be",
+      "size": 6657304,
+      "format": "tar.gz",
+      "releaseTag": "0.10.1",
+      "binaries": {
+        "gooseberry": {
+          "path": "gooseberry",
+          "sha256": "3a5ede856c34a0d1149bd8e09a15985aa413224e3c6b57723ece15399c0aeba6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/out-of-cheese-error/gooseberry/releases/download/0.10.1/gooseberry-macos.tar.gz",
+      "sha256": "721abe55a53262459cd6931a72b46e487ac3c2798448e4035e3a441299a34d0c",
+      "size": 6381894,
+      "format": "tar.gz",
+      "releaseTag": "0.10.1",
+      "binaries": {
+        "gooseberry": {
+          "path": "gooseberry",
+          "sha256": "2d25956f847dab786d2f371f609dea000870c3b8ea9512955295e8455d106ba1"
+        }
+      }
+    }
+  }
+}
