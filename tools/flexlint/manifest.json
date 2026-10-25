@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "flexlint",
+  "version": "0.2.7",
+  "repository": "dalance/flexlint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dalance/flexlint/releases/download/v0.2.7/flexlint-v0.2.7-x86_64-lnx.zip",
+      "sha256": "ee37ebfe829bee9525e8a79bbd106737ff96cb7593cd71e468dcd3af5d300e46",
+      "size": 2437457,
+      "format": "zip",
+      "releaseTag": "v0.2.7",
+      "binaries": {
+        "flexlint": {
+          "path": "flexlint",
+          "sha256": "f0f64653b36986de4b7cb5a1f4ce729cd36676a9e1c507e357bbd5db53a6c4e0"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dalance/flexlint/releases/download/v0.2.7/flexlint-v0.2.7-x86_64-mac.zip",
+      "sha256": "b15392fa1287d8a431cdeb389d309f75abd1a64b0fbec3ad2d84df84b589f6a7",
+      "size": 1338611,
+      "format": "zip",
+      "releaseTag": "v0.2.7",
+      "binaries": {
+        "flexlint": {
+          "path": "flexlint",
+          "sha256": "f2498e93f658a30b6e3665d4f6b39fd83a8ac776134deb7fb50295e40d31efb0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dalance/flexlint/releases/download/v0.2.7/flexlint-v0.2.7-x86_64-win.zip",
+      "sha256": "902aa28c24736222e75f02e97ebd0a40f4fc6cbeca44920e8041f261aeccf3d9",
+      "size": 1042034,
+      "format": "zip",
+      "releaseTag": "v0.2.7",
+      "binaries": {
+        "flexlint.exe": {
+          "path": "target/x86_64-pc-windows-msvc/release/flexlint.exe",
+          "sha256": "78c9184a854528b1bb36043ce60cfb06d25745079fc088fba1a93aab7e148a8a"
+        }
+      }
+    }
+  }
+}
