@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "modus",
+  "version": "0.1.15",
+  "repository": "msv-lab/modus",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/msv-lab/modus/releases/download/0.1.15/modus-x86_64-linux-musl",
+      "sha256": "ca4fdd2a18da395778eb52ad5f17cee4c07ce27e97dd669fa16846fb5a9155f9",
+      "size": 6050392,
+      "format": "binary",
+      "releaseTag": "0.1.15",
+      "binaries": {
+        "modus": {
+          "path": "modus-x86_64-linux-musl",
+          "sha256": "ca4fdd2a18da395778eb52ad5f17cee4c07ce27e97dd669fa16846fb5a9155f9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/msv-lab/modus/releases/download/0.1.15/modus-aarch64-linux-musl",
+      "sha256": "cb3758fb121e587d77585faa053fccaec71ce3de60b1b2deda53ed1d1a575d46",
+      "size": 6085256,
+      "format": "binary",
+      "releaseTag": "0.1.15",
+      "binaries": {
+        "modus": {
+          "path": "modus-aarch64-linux-musl",
+          "sha256": "cb3758fb121e587d77585faa053fccaec71ce3de60b1b2deda53ed1d1a575d46"
+        }
+      }
+    }
+  }
+}
