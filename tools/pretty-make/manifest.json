@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "pretty-make",
+  "version": "0.7.0",
+  "repository": "Awea/pretty-make",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Awea/pretty-make/releases/download/0.7.0/pretty-make-linux",
+      "sha256": "2c3f09ba4aba1384032a68505ede903985ab4ace026b8207f697b4793b2945b8",
+      "size": 1394624,
+      "format": "binary",
+      "releaseTag": "0.7.0",
+      "binaries": {
+        "pretty-make": {
+          "path": "pretty-make-linux",
+          "sha256": "2c3f09ba4aba1384032a68505ede903985ab4ace026b8207f697b4793b2945b8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Awea/pretty-make/releases/download/0.7.0/pretty-make-macos",
+      "sha256": "897edd5f5b228000330972ab3426b8aa147caea5c12d3040459f2cc7ac403e7c",
+      "size": 1144524,
+      "format": "binary",
+      "releaseTag": "0.7.0",
+      "binaries": {
+        "pretty-make": {
+          "path": "pretty-make-macos",
+          "sha256": "897edd5f5b228000330972ab3426b8aa147caea5c12d3040459f2cc7ac403e7c"
+        }
+      }
+    }
+  }
+}
