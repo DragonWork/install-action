@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "sauce",
+  "version": "0.9.0",
+  "repository": "DanCardin/sauce",
+  "artifacts": {
+    "darwin-x64": {
+      "url": "https://github.com/DanCardin/sauce/releases/download/v0.9.0/sauce_darwin",
+      "sha256": "9abb3571bd93c3179da798db90ba6caa292376305cfe3b3945226c4e0573e4f1",
+      "size": 1611552,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "sauce": {
+          "path": "sauce_darwin",
+          "sha256": "9abb3571bd93c3179da798db90ba6caa292376305cfe3b3945226c4e0573e4f1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/DanCardin/sauce/releases/download/v0.9.0/sauce.exe",
+      "sha256": "40696dc9398f3fcfe40d0e4ee318fa67433023f089f5ccad10673c8ed11a7252",
+      "size": 1708544,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "sauce.exe": {
+          "path": "sauce.exe",
+          "sha256": "40696dc9398f3fcfe40d0e4ee318fa67433023f089f5ccad10673c8ed11a7252"
+        }
+      }
+    }
+  }
+}
