@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "qcloud",
+  "version": "0.1.15",
+  "repository": "bujnlc8/qcloud",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bujnlc8/qcloud/releases/download/0.1.15/qcloud_x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "644e55d72643e5607c626e30010d0f4374de2d5d99bfa412057e462bc316b684",
+      "size": 1598910,
+      "format": "tar.gz",
+      "releaseTag": "0.1.15",
+      "binaries": {
+        "qcloud": {
+          "path": "qcloud/qcloud",
+          "sha256": "f00c8ab29d083b3f3b65ecf3a9934bc21955a0bc3ba9cd025657e2239e00834c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bujnlc8/qcloud/releases/download/0.1.15/qcloud_x86_64-apple-darwin.tar.gz",
+      "sha256": "03a9e34a78fc139d65adccdb1968ea08c4b95bab97854df3867c6c8583b4cb28",
+      "size": 1409665,
+      "format": "tar.gz",
+      "releaseTag": "0.1.15",
+      "binaries": {
+        "qcloud": {
+          "path": "qcloud/qcloud",
+          "sha256": "a4ca85a9a50cec8fd39cb8f322e812bdb78c97474a55f51f9bb20c3a7620aaf4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bujnlc8/qcloud/releases/download/0.1.15/qcloud_aarch64-apple-darwin.tar.gz",
+      "sha256": "8cf719f35ae64beee6573ff1a72a4df9eadc87175a4f166f4743f55c92033b08",
+      "size": 1336083,
+      "format": "tar.gz",
+      "releaseTag": "0.1.15",
+      "binaries": {
+        "qcloud": {
+          "path": "qcloud/qcloud",
+          "sha256": "31dd4ecfd8e79fe5ecab4b4f313faf824665eb36a41d93e647f88a53d6c1c750"
+        }
+      }
+    }
+  }
+}
