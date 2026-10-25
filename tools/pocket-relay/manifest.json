@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "pocket-relay",
+  "version": "0.5.0",
+  "repository": "PocketRelay/Server",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/PocketRelay/Server/releases/download/v0.5.0/pocket-relay-linux",
+      "sha256": "3bf9d7e231ee50abbef9c067c96ad7a722f6f793bed7106545f7c77c922393b9",
+      "size": 18081912,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "pocket-relay": {
+          "path": "pocket-relay-linux",
+          "sha256": "3bf9d7e231ee50abbef9c067c96ad7a722f6f793bed7106545f7c77c922393b9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/PocketRelay/Server/releases/download/v0.5.0/pocket-relay-windows.exe",
+      "sha256": "b5a6356122215170607a8adb18e082f7f61c04d85fb24f1d9e9563f2188931fe",
+      "size": 19264904,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "pocket-relay.exe": {
+          "path": "pocket-relay-windows.exe",
+          "sha256": "b5a6356122215170607a8adb18e082f7f61c04d85fb24f1d9e9563f2188931fe"
+        }
+      }
+    }
+  }
+}
