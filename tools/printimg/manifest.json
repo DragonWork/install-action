@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "printimg",
+  "version": "0.5.6",
+  "repository": "oza6ut0ne/printimg-rust",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/oza6ut0ne/printimg-rust/releases/download/v0.5.6/printi.x86_64-unknown-linux-musl",
+      "sha256": "763207346a9044cfe688cdc5268c92de5ee7fb5aa8f8dcd947dc3c899c880edb",
+      "size": 1861864,
+      "format": "binary",
+      "releaseTag": "v0.5.6",
+      "binaries": {
+        "printi": {
+          "path": "printi.x86_64-unknown-linux-musl",
+          "sha256": "763207346a9044cfe688cdc5268c92de5ee7fb5aa8f8dcd947dc3c899c880edb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/oza6ut0ne/printimg-rust/releases/download/v0.5.6/printi.aarch64-unknown-linux-musl",
+      "sha256": "054c254d9904ebdba49f88cb92a5a06d8acb519e5b30b00c8e73db20aecbaf74",
+      "size": 1554072,
+      "format": "binary",
+      "releaseTag": "v0.5.6",
+      "binaries": {
+        "printi": {
+          "path": "printi.aarch64-unknown-linux-musl",
+          "sha256": "054c254d9904ebdba49f88cb92a5a06d8acb519e5b30b00c8e73db20aecbaf74"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/oza6ut0ne/printimg-rust/releases/download/v0.5.6/printi.x86_64-apple-darwin",
+      "sha256": "b00ab58bad3ddb334fb9c3e0bfb1acc7d9e7f8cf14d57bb7e55e6dda883b7419",
+      "size": 1631920,
+      "format": "binary",
+      "releaseTag": "v0.5.6",
+      "binaries": {
+        "printi": {
+          "path": "printi.x86_64-apple-darwin",
+          "sha256": "b00ab58bad3ddb334fb9c3e0bfb1acc7d9e7f8cf14d57bb7e55e6dda883b7419"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/oza6ut0ne/printimg-rust/releases/download/v0.5.6/printi.exe",
+      "sha256": "59985810ed65172f87fa04e5d7c001a19552dcbd75a97d6cd01787f7b1a1269b",
+      "size": 1678336,
+      "format": "binary",
+      "releaseTag": "v0.5.6",
+      "binaries": {
+        "printi.exe": {
+          "path": "printi.exe",
+          "sha256": "59985810ed65172f87fa04e5d7c001a19552dcbd75a97d6cd01787f7b1a1269b"
+        }
+      }
+    }
+  }
+}
