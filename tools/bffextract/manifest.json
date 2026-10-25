@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "bffextract",
+  "version": "0.9.0",
+  "repository": "ponchofiesta/bffextract-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ponchofiesta/bffextract-rs/releases/download/v0.9.0/bffextract-v0.9.0-linux.tar.gz",
+      "sha256": "cfc91af896cc97e1edf6bd47e5710211a19be249f2cd7a26dba94706f5e7dc3a",
+      "size": 627777,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "bffextract": {
+          "path": "target/x86_64-unknown-linux-musl/release/bffextract",
+          "sha256": "b75b172be3a5d0cef5fab543687ab1d5d924c239f0810b32bdc1f7692c963461"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ponchofiesta/bffextract-rs/releases/download/v0.9.0/bffextract-v0.9.0-macos.tar.gz",
+      "sha256": "8fec493595dbbd271b7d54afdaa877bac3da53d2d62d763f3f1ea16176a3db25",
+      "size": 524953,
+      "format": "tar.gz",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "bffextract": {
+          "path": "target/release/bffextract",
+          "sha256": "f6b55dab1dc971372722ef09a8e682dc36323bcfb92153e2b937a2d431106b18"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ponchofiesta/bffextract-rs/releases/download/v0.9.0/bffextract-v0.9.0-windows.zip",
+      "sha256": "174825912ed7c72f14280a17b23844314f806f86fb9364a3087423b979d5db95",
+      "size": 412593,
+      "format": "zip",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "bffextract.exe": {
+          "path": "bffextract.exe",
+          "sha256": "fbc15db50b082f929ab05d65b485f137c1972f0fae730188dfa113831b9d6217"
+        }
+      }
+    }
+  }
+}
