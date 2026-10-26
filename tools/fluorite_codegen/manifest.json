@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "fluorite_codegen",
-  "version": "0.10.0",
+  "version": "0.12.0",
   "repository": "blossomstack/fluorite",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/blossomstack/fluorite/releases/download/v0.10.0/fluorite-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.10.0",
-      "sha256": "7e635466aa0715c56e3a0f0bbc62e5ebd018ae804c565098f74480d84a94355a",
-      "size": 1385472,
+    "linux-x64": {
+      "url": "https://github.com/blossomstack/fluorite/releases/download/v0.12.0/fluorite-x86_64-unknown-linux-gnu",
+      "sha256": "b924a90a0a98c84f9c597737d693534c1047f4c66d6ef0fcd1b1b22e4f60f404",
+      "size": 3419208,
       "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "fluorite": {
+          "path": "fluorite-x86_64-unknown-linux-gnu",
+          "sha256": "b924a90a0a98c84f9c597737d693534c1047f4c66d6ef0fcd1b1b22e4f60f404"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/blossomstack/fluorite/releases/download/v0.12.0/fluorite-aarch64-unknown-linux-gnu",
+      "sha256": "eb09f73ca218794c6da8e17bd177354c6812f39d3496306f2269d7528416450e",
+      "size": 3206232,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "fluorite": {
+          "path": "fluorite-aarch64-unknown-linux-gnu",
+          "sha256": "eb09f73ca218794c6da8e17bd177354c6812f39d3496306f2269d7528416450e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/blossomstack/fluorite/releases/download/v0.12.0/fluorite-x86_64-apple-darwin",
+      "sha256": "a29de3adaeb2c34d7904d5ebfa5e146cd76e7ee3fec2e8c0e25f4b7482f1ff3b",
+      "size": 3156976,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "fluorite": {
+          "path": "fluorite-x86_64-apple-darwin",
+          "sha256": "a29de3adaeb2c34d7904d5ebfa5e146cd76e7ee3fec2e8c0e25f4b7482f1ff3b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/blossomstack/fluorite/releases/download/v0.12.0/fluorite-aarch64-apple-darwin",
+      "sha256": "88a907649b012ac04b5ba8b91a7024a2808b4caac6a21629bdcdb853baff19be",
+      "size": 3052400,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "fluorite": {
+          "path": "fluorite-aarch64-apple-darwin",
+          "sha256": "88a907649b012ac04b5ba8b91a7024a2808b4caac6a21629bdcdb853baff19be"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/blossomstack/fluorite/releases/download/v0.12.0/fluorite-x86_64-pc-windows-msvc.exe",
+      "sha256": "5b3f29cb0070ad3074eeee301ec686366c786ee333e8ec744d52bb7ea656c580",
+      "size": 1467392,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "fluorite.exe": {
           "path": "fluorite-x86_64-pc-windows-msvc.exe",
-          "sha256": "7e635466aa0715c56e3a0f0bbc62e5ebd018ae804c565098f74480d84a94355a"
+          "sha256": "5b3f29cb0070ad3074eeee301ec686366c786ee333e8ec744d52bb7ea656c580"
         }
       }
     }
