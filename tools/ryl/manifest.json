@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "ryl",
-  "version": "0.26.0",
+  "version": "0.26.1",
   "repository": "owenlamont/ryl",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.0/ryl-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.26.0",
-      "sha256": "09b6ee9ba3d526b4ed8e2c6b180d7da4689e7e765c2aab94734ab1461db3c66e",
-      "size": 3803617,
+      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.1/ryl-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "c8364da2cb937e22930a09da01801b09c5e8e40b8408abb4d18e4da41cb0d3cc",
+      "size": 4054444,
       "format": "tar.gz",
+      "releaseTag": "v0.26.1",
       "binaries": {
         "ryl": {
           "path": "ryl",
-          "sha256": "3b9b0532abe442117f59d3ced9ec3b0f80807cd100b50bba751404c4e0d89c79"
+          "sha256": "9529c1cb7b4a8ad57d8fa5923f59b7c733afa1c50b849314c08759ab5c3fc869"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.0/ryl-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.26.0",
-      "sha256": "df2ef83585de0171cefed3656a2e66639c28e275c0d00997178c6fc6ecc2a4ce",
-      "size": 3479082,
+      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.1/ryl-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "ed6a521d3952ff65e92e188044d1e1917b9c4acd34a61fce6b2dbec0c3a56ac0",
+      "size": 3719815,
       "format": "tar.gz",
+      "releaseTag": "v0.26.1",
       "binaries": {
         "ryl": {
           "path": "ryl",
-          "sha256": "1a7fb8fe79f6a1ade82abd741acd16cd8e5d307070b88499439d8a2d07d21ca3"
+          "sha256": "2575480c550bb3667efdc3c4e390c1e4eee691f47c9a79eb35e934178018e02c"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.0/ryl-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.26.0",
-      "sha256": "5f15a725e1d698fca150cf61050187cdcd046882badef5baf619b987c5896936",
-      "size": 3306931,
+      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.1/ryl-aarch64-apple-darwin.tar.gz",
+      "sha256": "753d8637baeb38b35e59fae9da94a226d7ae4423d3d26db89ae424d6a64c2792",
+      "size": 3549021,
       "format": "tar.gz",
+      "releaseTag": "v0.26.1",
       "binaries": {
         "ryl": {
           "path": "ryl",
-          "sha256": "b0f7c1307c939b56875aba40db6c1660ec1fae009510357bfbf37c57c7d35856"
+          "sha256": "918898ecc98e9c074e5c0a5d2fa0e7b490043553b24dc8f94f5f574a9966755d"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.0/ryl-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.26.0",
-      "sha256": "31b5792360c2ed5678f9ba960d380a9a0cc41930e444e6c4b33eadc4ef29a037",
-      "size": 3505545,
+      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.1/ryl-x86_64-pc-windows-msvc.zip",
+      "sha256": "e6c49aaab0d674de1842ee2095c32f22f69394fe84e0898315d9a58e506438d5",
+      "size": 3759313,
       "format": "zip",
+      "releaseTag": "v0.26.1",
       "binaries": {
         "ryl.exe": {
           "path": "ryl.exe",
-          "sha256": "ea5509703c7fd14b5857d322950cbcdb145638bb82917d625dc0e1a3b7a36c33"
+          "sha256": "22985be4c30dcf2b36ff57f7a429bdfcf6fe47d9dd9d0d78190909427cacb185"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.0/ryl-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v0.26.0",
-      "sha256": "7fffafffdd97cb6a7c82293908158afc20584648398fee824b7aa34b52f4fa5a",
-      "size": 3198052,
+      "url": "https://github.com/owenlamont/ryl/releases/download/v0.26.1/ryl-aarch64-pc-windows-msvc.zip",
+      "sha256": "9c00d555b823c7caa5891219d9ff20a414829ac48b0b43cc5fed4ad8e6cfb791",
+      "size": 3442658,
       "format": "zip",
+      "releaseTag": "v0.26.1",
       "binaries": {
         "ryl.exe": {
           "path": "ryl.exe",
-          "sha256": "19fcd9aa5edff08495cd1cf4a24b5ca154fd4b00276a55d71b60d43c240d0752"
+          "sha256": "3ebf6e3ffdc2afc8082afe37e904c91c4cf7efd6f2fe7bc559fc0fd18ac357f1"
         }
       }
     }
