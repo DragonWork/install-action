@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "shadowquic",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "repository": "spongebob888/shadowquic",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.5/shadowquic-x86_64-windows.exe",
-      "releaseTag": "v0.4.5",
-      "sha256": "46a3c4aead9573ba2656cc1ab1d125a82a0158739eaef9d89781f89de9d39a40",
-      "size": 17263616,
+    "linux-x64": {
+      "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.6/shadowquic-x86_64-linux",
+      "sha256": "e199be3828580366411f792c1d640831f3a12ecb3f4b7373be569cbf7683590f",
+      "size": 15679824,
       "format": "binary",
+      "releaseTag": "v0.4.6",
+      "binaries": {
+        "shadowquic": {
+          "path": "shadowquic-x86_64-linux",
+          "sha256": "e199be3828580366411f792c1d640831f3a12ecb3f4b7373be569cbf7683590f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.6/shadowquic-aarch64-linux",
+      "sha256": "59d2cdeffc5f8a3a41bb735969c44767d7fc4d1e8954dabe8270a078091f7885",
+      "size": 13718480,
+      "format": "binary",
+      "releaseTag": "v0.4.6",
+      "binaries": {
+        "shadowquic": {
+          "path": "shadowquic-aarch64-linux",
+          "sha256": "59d2cdeffc5f8a3a41bb735969c44767d7fc4d1e8954dabe8270a078091f7885"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.6/shadowquic-x86_64-darwin",
+      "sha256": "e6cbd296657c7973b6cfed493bc8d3b9babe3c1a1bc0cb177a654d93b71e1f95",
+      "size": 13975992,
+      "format": "binary",
+      "releaseTag": "v0.4.6",
+      "binaries": {
+        "shadowquic": {
+          "path": "shadowquic-x86_64-darwin",
+          "sha256": "e6cbd296657c7973b6cfed493bc8d3b9babe3c1a1bc0cb177a654d93b71e1f95"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.6/shadowquic-aarch64-darwin",
+      "sha256": "9eed18cf9cda4778fc9a61537434b3d3f9102c5267569c902b801f0bb0fdb463",
+      "size": 12697984,
+      "format": "binary",
+      "releaseTag": "v0.4.6",
+      "binaries": {
+        "shadowquic": {
+          "path": "shadowquic-aarch64-darwin",
+          "sha256": "9eed18cf9cda4778fc9a61537434b3d3f9102c5267569c902b801f0bb0fdb463"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.6/shadowquic-x86_64-windows.exe",
+      "sha256": "d86173a7064f3e9b237746a93370b70c7d2fd59d97b6619697232d0edb377d6f",
+      "size": 17433600,
+      "format": "binary",
+      "releaseTag": "v0.4.6",
       "binaries": {
         "shadowquic.exe": {
           "path": "shadowquic-x86_64-windows.exe",
-          "sha256": "46a3c4aead9573ba2656cc1ab1d125a82a0158739eaef9d89781f89de9d39a40"
+          "sha256": "d86173a7064f3e9b237746a93370b70c7d2fd59d97b6619697232d0edb377d6f"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.5/shadowquic-aarch64-windows.exe",
-      "releaseTag": "v0.4.5",
-      "sha256": "d53d3c0b57b03a526271c0dd05237b074cdef386d3703f59803fc015848abf40",
-      "size": 14785536,
+      "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.6/shadowquic-aarch64-windows.exe",
+      "sha256": "eddfd62a522b6085e0ab7db699cdbe1f154c30b9da4e46825e64fe3316c7bead",
+      "size": 14961664,
       "format": "binary",
+      "releaseTag": "v0.4.6",
       "binaries": {
         "shadowquic.exe": {
           "path": "shadowquic-aarch64-windows.exe",
-          "sha256": "d53d3c0b57b03a526271c0dd05237b074cdef386d3703f59803fc015848abf40"
+          "sha256": "eddfd62a522b6085e0ab7db699cdbe1f154c30b9da4e46825e64fe3316c7bead"
         }
       }
     }
