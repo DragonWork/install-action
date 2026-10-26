@@ -1,32 +1,45 @@
 {
   "schema": 1,
   "name": "git2mail",
-  "version": "0.4.6",
+  "version": "0.7.0",
   "repository": "extiop/git2mail",
   "artifacts": {
-    "darwin-arm64": {
-      "url": "https://github.com/extiop/git2mail/releases/download/v0.4.6/git2mail-macos-v0.4.6",
-      "sha256": "55bc8aaee3730cc1aa21698cd88bd1242c186c349956594f00c7fa981a9b5e38",
-      "size": 4777872,
+    "linux-x64": {
+      "url": "https://github.com/extiop/git2mail/releases/download/v0.7.0/git2mail-linux-static-v0.7.0",
+      "sha256": "7b72021fbf159544e93c0695011c432f3da16bc2788b15bcfce20960b9c1bc8f",
+      "size": 6780128,
       "format": "binary",
-      "releaseTag": "v0.4.6",
+      "releaseTag": "v0.7.0",
       "binaries": {
         "git2mail": {
-          "path": "git2mail-macos-v0.4.6",
-          "sha256": "55bc8aaee3730cc1aa21698cd88bd1242c186c349956594f00c7fa981a9b5e38"
+          "path": "git2mail-linux-static-v0.7.0",
+          "sha256": "7b72021fbf159544e93c0695011c432f3da16bc2788b15bcfce20960b9c1bc8f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/extiop/git2mail/releases/download/v0.7.0/git2mail-macos-v0.7.0",
+      "sha256": "faa9388fb556b155f13c0db13674952573b11f3d84e6917d121888087125988a",
+      "size": 4846208,
+      "format": "binary",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "git2mail": {
+          "path": "git2mail-macos-v0.7.0",
+          "sha256": "faa9388fb556b155f13c0db13674952573b11f3d84e6917d121888087125988a"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/extiop/git2mail/releases/download/v0.4.6/git2mail-windows-v0.4.6",
-      "sha256": "3ab5cfcb6988f7b5345f98181de7c4dd4c1707b17bfe6beab7d4eaffefaa5696",
-      "size": 4643840,
+      "url": "https://github.com/extiop/git2mail/releases/download/v0.7.0/git2mail-windows-v0.7.0.exe",
+      "sha256": "94b0c0b7c538c805e012f9af979b3df9f9f9823e9c78edebc3f56d25fff0a660",
+      "size": 5054464,
       "format": "binary",
-      "releaseTag": "v0.4.6",
+      "releaseTag": "v0.7.0",
       "binaries": {
         "git2mail.exe": {
-          "path": "git2mail-windows-v0.4.6",
-          "sha256": "3ab5cfcb6988f7b5345f98181de7c4dd4c1707b17bfe6beab7d4eaffefaa5696"
+          "path": "git2mail-windows-v0.7.0.exe",
+          "sha256": "94b0c0b7c538c805e012f9af979b3df9f9f9823e9c78edebc3f56d25fff0a660"
         }
       }
     }
