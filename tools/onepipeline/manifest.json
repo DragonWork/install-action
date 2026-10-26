@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "onepipeline",
+  "version": "0.93.0",
+  "repository": "nickderobertis/onepipeline",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nickderobertis/onepipeline/releases/download/v0.93.0/onepipeline-v0.93.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "67d6495799af834c70c28efeafd3c08ddaf00b88123a9144129a3018b9a37644",
+      "size": 23520017,
+      "format": "tar.gz",
+      "releaseTag": "v0.93.0",
+      "binaries": {
+        "onepipeline": {
+          "path": "onepipeline",
+          "sha256": "e45758118b1745ac03c60172e4798e5240e1b94059b8ef1151684cc14ef17f92"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nickderobertis/onepipeline/releases/download/v0.93.0/onepipeline-v0.93.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "cd55c09c61a42e55c421890c990438edb558010c89b9f9077f96e5a68532f3e7",
+      "size": 21882782,
+      "format": "tar.gz",
+      "releaseTag": "v0.93.0",
+      "binaries": {
+        "onepipeline": {
+          "path": "onepipeline",
+          "sha256": "089cfae0f3a7a88fcc47e26ff5a042def2c7473fe502df7e79127cae7126a15d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nickderobertis/onepipeline/releases/download/v0.93.0/onepipeline-v0.93.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "cf893e42729bd2f1da24df65c5d2ff3ff0833d7185c986afd91836a299cbab75",
+      "size": 19127058,
+      "format": "tar.gz",
+      "releaseTag": "v0.93.0",
+      "binaries": {
+        "onepipeline": {
+          "path": "onepipeline",
+          "sha256": "4b7a8d4bb8eb676114c8b98c902481e0c6766dee4fa51e0622b02df5ffd07474"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nickderobertis/onepipeline/releases/download/v0.93.0/onepipeline-v0.93.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "dc955e0275466979b19d84e41242c9188f7e0e9f16401a014afa9cc5ec9a63f0",
+      "size": 23054341,
+      "format": "zip",
+      "releaseTag": "v0.93.0",
+      "binaries": {
+        "onepipeline.exe": {
+          "path": "onepipeline.exe",
+          "sha256": "799cd8987f07aa9aba564b6fc47d7c602f656aa4594498f971941b416ea0acdc"
+        }
+      }
+    }
+  }
+}
