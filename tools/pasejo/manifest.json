@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "pasejo",
-  "version": "2026.10.18",
+  "version": "2026.10.25",
   "repository": "metio/pasejo",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/metio/pasejo/releases/download/2026.10.18/pasejo-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "2026.10.18",
-      "sha256": "a575d4ca5dba7f52c8443a788e99708a2f1f59ed94eec3cedf654ad88bd065c8",
-      "size": 8229511,
+      "url": "https://github.com/metio/pasejo/releases/download/2026.10.25/pasejo-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "327d485a437fea3499c68220e476c2b3726223969533672b1b5a02e1b71188c4",
+      "size": 8275275,
       "format": "tar.gz",
+      "releaseTag": "2026.10.25",
       "binaries": {
         "pasejo": {
           "path": "pasejo",
-          "sha256": "df6751c2b136156b97dd0042f39ee354f1b1d242e35e46c4085e09c0064e81d4"
+          "sha256": "2f8504556dc2c3b63991f896298196748b3446723148b30ee03a0fbfc2feaa5d"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/metio/pasejo/releases/download/2026.10.18/pasejo-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "2026.10.18",
-      "sha256": "ebef113e0ef600b23b132bf771a21fffd52a6236c76d83398e44e8139693f624",
-      "size": 7790751,
+      "url": "https://github.com/metio/pasejo/releases/download/2026.10.25/pasejo-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "ce3e49e591644f6dcc5cd4355572a1aa3d0aef512ecb811bf861c3ba696e3d84",
+      "size": 7823092,
       "format": "tar.gz",
+      "releaseTag": "2026.10.25",
       "binaries": {
         "pasejo": {
           "path": "pasejo",
-          "sha256": "92664c337f718166d823c780ff4f353e62073a61aab43db6fb7077ffe175f999"
+          "sha256": "0cfe661e775978040500394a6898c624469045e749432d7cfb027a5a04acc614"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/metio/pasejo/releases/download/2026.10.18/pasejo-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "2026.10.18",
-      "sha256": "f8e2835ef6c56e4cb2f704f11fe779d92b32b6459479892423ae490740c912fe",
-      "size": 6330720,
+      "url": "https://github.com/metio/pasejo/releases/download/2026.10.25/pasejo-x86_64-apple-darwin.tar.gz",
+      "sha256": "553ff84a1218c7d5b45bf8acaebe5d0fb199760cf7fdbdc78da8ee2ba4474dcc",
+      "size": 6334273,
       "format": "tar.gz",
+      "releaseTag": "2026.10.25",
       "binaries": {
         "pasejo": {
           "path": "pasejo",
-          "sha256": "8cbb805e8d79503056047d882f2e2b842bb9370ae3c5ed60a80d50c141407603"
+          "sha256": "9977d46400457512fa0b58dea54b828e273459d2020f90e90b978dba3d1409b5"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/metio/pasejo/releases/download/2026.10.18/pasejo-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "2026.10.18",
-      "sha256": "4ee936cfefc247e6c3e6ac69f9b7a92b9cf0f1bb6c5f6663f488564fab67905e",
-      "size": 5988117,
+      "url": "https://github.com/metio/pasejo/releases/download/2026.10.25/pasejo-aarch64-apple-darwin.tar.gz",
+      "sha256": "44363e2a705baa8d181ab9aee053a44e57b568e012990a4d5d0edf9e8faae94b",
+      "size": 5985665,
       "format": "tar.gz",
+      "releaseTag": "2026.10.25",
       "binaries": {
         "pasejo": {
           "path": "pasejo",
-          "sha256": "ec08c24b4342e3c28f5dc40af262e50d267a65cd31e5fd90936448d4a35ac228"
+          "sha256": "c475d5291e062f85988db1d1d466267b13e19cb1c2850fc8466b4d7320a1551f"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/metio/pasejo/releases/download/2026.10.18/pasejo-x86_64-pc-windows-msvc.tar.gz",
-      "releaseTag": "2026.10.18",
-      "sha256": "b73859c993dcbbf4bcd0d454c22dc30deb81e7e4619f5f49553ce986c6eee7ca",
-      "size": 5761273,
+      "url": "https://github.com/metio/pasejo/releases/download/2026.10.25/pasejo-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "169a3462636816ff9577646bc15f9c9136367b8c76e49b8a0d88a0283f4bb77b",
+      "size": 5751474,
       "format": "tar.gz",
+      "releaseTag": "2026.10.25",
       "binaries": {
         "pasejo.exe": {
           "path": "pasejo.exe",
-          "sha256": "8355d3f6c7f4f4f7c488b3812c527b4a4506c6a0e5475d7a530e7d983953e1c3"
+          "sha256": "0252505ea84b7b21a2e39b1432fdb379a3e5d3b7bbca499b75b2c2eab7b659eb"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/metio/pasejo/releases/download/2026.10.18/pasejo-aarch64-pc-windows-msvc.tar.gz",
-      "releaseTag": "2026.10.18",
-      "sha256": "a4054c64a780b6a359c65d04cc4ee3f0eb63eac808db5ed38d8a8ea8570e3950",
-      "size": 5296127,
+      "url": "https://github.com/metio/pasejo/releases/download/2026.10.25/pasejo-aarch64-pc-windows-msvc.tar.gz",
+      "sha256": "d1e391088bcf225703979726a0017b12f6cf5a81bb702945321b9ffcfb56d65b",
+      "size": 5288035,
       "format": "tar.gz",
+      "releaseTag": "2026.10.25",
       "binaries": {
         "pasejo.exe": {
           "path": "pasejo.exe",
-          "sha256": "7b781335742cc8a5f853f6b2c32dd860a0df73fea45b8a0390a7f987198f1400"
+          "sha256": "55aea54e58db6221db60f4a28a820997fb43dde5990fba1160d177b3ee75cc0f"
         }
       }
     }
