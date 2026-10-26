@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "tabiew",
-  "version": "0.15.1",
+  "version": "0.16.0",
   "repository": "shshemi/tabiew",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/shshemi/tabiew/releases/download/v0.15.1/tw-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.15.1",
-      "sha256": "0825b58383391f0413fe1d0669ea0469dc8a42ddb24f3c9439cf951c947ecbda",
-      "size": 68281344,
+    "linux-x64": {
+      "url": "https://github.com/shshemi/tabiew/releases/download/v0.16.0/tw-x86_64-unknown-linux-musl",
+      "sha256": "575b840cd861a4cf98541e92c95046b6c7acd747921c230d80bb6458c4941120",
+      "size": 78032904,
       "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "tw": {
+          "path": "tw-x86_64-unknown-linux-musl",
+          "sha256": "575b840cd861a4cf98541e92c95046b6c7acd747921c230d80bb6458c4941120"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/shshemi/tabiew/releases/download/v0.16.0/tw-aarch64-unknown-linux-musl",
+      "sha256": "101b3345d016bf6ddfce70790aebb76a669804cd3832b43b25cae6856737bd06",
+      "size": 64015440,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "tw": {
+          "path": "tw-aarch64-unknown-linux-musl",
+          "sha256": "101b3345d016bf6ddfce70790aebb76a669804cd3832b43b25cae6856737bd06"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/shshemi/tabiew/releases/download/v0.16.0/tw-x86_64-apple-darwin",
+      "sha256": "b8707298b199f944dcdf3358a2a7d5aa28621b8cb60420243c07244c31b684ca",
+      "size": 69138568,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "tw": {
+          "path": "tw-x86_64-apple-darwin",
+          "sha256": "b8707298b199f944dcdf3358a2a7d5aa28621b8cb60420243c07244c31b684ca"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/shshemi/tabiew/releases/download/v0.16.0/tw-aarch64-apple-darwin",
+      "sha256": "8865df2d3dad3814477da7f2360b9da08df182c98691ce8199479d43ad474ef6",
+      "size": 59030048,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "tw": {
+          "path": "tw-aarch64-apple-darwin",
+          "sha256": "8865df2d3dad3814477da7f2360b9da08df182c98691ce8199479d43ad474ef6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/shshemi/tabiew/releases/download/v0.16.0/tw-x86_64-pc-windows-msvc.exe",
+      "sha256": "1b6d6db9f0a6befa3a785fa1d01b44fe00f2c3c15f7eb6c17916ba8721f4f172",
+      "size": 69689856,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
       "binaries": {
         "tw.exe": {
           "path": "tw-x86_64-pc-windows-msvc.exe",
-          "sha256": "0825b58383391f0413fe1d0669ea0469dc8a42ddb24f3c9439cf951c947ecbda"
+          "sha256": "1b6d6db9f0a6befa3a785fa1d01b44fe00f2c3c15f7eb6c17916ba8721f4f172"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/shshemi/tabiew/releases/download/v0.15.1/tw-aarch64-pc-windows-msvc.exe",
-      "releaseTag": "v0.15.1",
-      "sha256": "c2220e93505046e9123e2b976d85eb0fe5296d0c567b008e24e26b84c327f0a1",
-      "size": 57839616,
+      "url": "https://github.com/shshemi/tabiew/releases/download/v0.16.0/tw-aarch64-pc-windows-msvc.exe",
+      "sha256": "be88ea10b14826dce409cb32a3c68acf628d5b7d6da055de12cf4c1d04f59f90",
+      "size": 59223552,
       "format": "binary",
+      "releaseTag": "v0.16.0",
       "binaries": {
         "tw.exe": {
           "path": "tw-aarch64-pc-windows-msvc.exe",
-          "sha256": "c2220e93505046e9123e2b976d85eb0fe5296d0c567b008e24e26b84c327f0a1"
+          "sha256": "be88ea10b14826dce409cb32a3c68acf628d5b7d6da055de12cf4c1d04f59f90"
         }
       }
     }
