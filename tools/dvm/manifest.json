@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dvm",
+  "version": "1.11.7",
+  "repository": "justjavac/dvm",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/justjavac/dvm/releases/download/v1.11.7/dvm-x86_64-unknown-linux-gnu.zip",
+      "sha256": "94a040e0454c8e995a0f82fca459138d3876995657e5714692ee8f0745f637ab",
+      "size": 1520413,
+      "format": "zip",
+      "releaseTag": "v1.11.7",
+      "binaries": {
+        "dvm": {
+          "path": "dvm",
+          "sha256": "71271a258322971452ca155b3b2e0e432fcef66cc28d7ebcda3dedd8e829eec2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/justjavac/dvm/releases/download/v1.11.7/dvm-aarch64-unknown-linux-gnu.zip",
+      "sha256": "ddcaac880d5220fa5a8a1a35e47de8fe6bea1f15118b013d6cad4897ce1eaa78",
+      "size": 1517598,
+      "format": "zip",
+      "releaseTag": "v1.11.7",
+      "binaries": {
+        "dvm": {
+          "path": "dvm",
+          "sha256": "4c13e5c04259f9b3a1d638db41c6bf576f789bf800c345f49bb38bbcc1566e83"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/justjavac/dvm/releases/download/v1.11.7/dvm-x86_64-apple-darwin.zip",
+      "sha256": "f411b45140d933a8c562867e3a2d04f72f36e168a8da78b7749b10f1ac243997",
+      "size": 1426592,
+      "format": "zip",
+      "releaseTag": "v1.11.7",
+      "binaries": {
+        "dvm": {
+          "path": "dvm",
+          "sha256": "998ab76ba8ffde1853742be6a35b2acef754cd681a82fc30b17902de01732e85"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/justjavac/dvm/releases/download/v1.11.7/dvm-aarch64-apple-darwin.zip",
+      "sha256": "69356864ffe858466da278926d3f4741e005abedfffb88712e276f024717d638",
+      "size": 1360185,
+      "format": "zip",
+      "releaseTag": "v1.11.7",
+      "binaries": {
+        "dvm": {
+          "path": "dvm",
+          "sha256": "94c2917616556817f4f06f399475385967d13ae1a2fafa38cedff30c1c8c4bd8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/justjavac/dvm/releases/download/v1.11.7/dvm-x86_64-pc-windows-msvc.zip",
+      "sha256": "cdfcb965c5110b2952e2e4654f1944ee2b144ac1efa4ff23895964e517254389",
+      "size": 1341457,
+      "format": "zip",
+      "releaseTag": "v1.11.7",
+      "binaries": {
+        "dvm.exe": {
+          "path": "dvm.exe",
+          "sha256": "5d8accb503f11feca86a731a413e207a6e95c379f3866017fcde43d0e27856c5"
+        }
+      }
+    }
+  }
+}
