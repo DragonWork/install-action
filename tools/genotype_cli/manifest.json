@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "genotype_cli",
-  "version": "0.17.1",
+  "version": "0.18.0",
   "repository": "kossnocorp/genotype",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.17.1/gt-v0.17.1-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.17.1",
-      "sha256": "3b360b1e3f46b96779a694e07390106087897eea8053fae4b1eb814ebaaad5db",
-      "size": 9438720,
+    "linux-x64": {
+      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.18.0/gt-v0.18.0-x86_64-unknown-linux-gnu",
+      "sha256": "3c77075461dc4f79cff4ae7085bdc9f0265a354fe08e2de0845db9c7668c7f82",
+      "size": 13357176,
       "format": "binary",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "gt": {
+          "path": "gt-v0.18.0-x86_64-unknown-linux-gnu",
+          "sha256": "3c77075461dc4f79cff4ae7085bdc9f0265a354fe08e2de0845db9c7668c7f82"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.18.0/gt-v0.18.0-aarch64-unknown-linux-gnu",
+      "sha256": "bf1fc541273067f2c29a4fe71182724b4aaa6a8ac46606421730cb29a9b6450f",
+      "size": 12814360,
+      "format": "binary",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "gt": {
+          "path": "gt-v0.18.0-aarch64-unknown-linux-gnu",
+          "sha256": "bf1fc541273067f2c29a4fe71182724b4aaa6a8ac46606421730cb29a9b6450f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.18.0/gt-v0.18.0-x86_64-apple-darwin",
+      "sha256": "1db70853eec5e320f78357fc496f02737810db2d0f99a84be946f15e6cf6d326",
+      "size": 11541160,
+      "format": "binary",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "gt": {
+          "path": "gt-v0.18.0-x86_64-apple-darwin",
+          "sha256": "1db70853eec5e320f78357fc496f02737810db2d0f99a84be946f15e6cf6d326"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.18.0/gt-v0.18.0-aarch64-apple-darwin",
+      "sha256": "4b939a32bfdcdcf9517ef7198436961cbb4ac9bef56e0259bb542abe1b480d5e",
+      "size": 11284928,
+      "format": "binary",
+      "releaseTag": "v0.18.0",
+      "binaries": {
+        "gt": {
+          "path": "gt-v0.18.0-aarch64-apple-darwin",
+          "sha256": "4b939a32bfdcdcf9517ef7198436961cbb4ac9bef56e0259bb542abe1b480d5e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.18.0/gt-v0.18.0-x86_64-pc-windows-msvc.exe",
+      "sha256": "1f700b6b11e77af8392c21924f644200d3d09de0ba8de6a9736de4cca7eb8663",
+      "size": 9783296,
+      "format": "binary",
+      "releaseTag": "v0.18.0",
       "binaries": {
         "gt.exe": {
-          "path": "gt-v0.17.1-x86_64-pc-windows-msvc.exe",
-          "sha256": "3b360b1e3f46b96779a694e07390106087897eea8053fae4b1eb814ebaaad5db"
+          "path": "gt-v0.18.0-x86_64-pc-windows-msvc.exe",
+          "sha256": "1f700b6b11e77af8392c21924f644200d3d09de0ba8de6a9736de4cca7eb8663"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.17.1/gt-v0.17.1-aarch64-pc-windows-msvc.exe",
-      "releaseTag": "v0.17.1",
-      "sha256": "d3dbd9f898e4003ee6cb540aef6e994bfa65ce28c8c7a4d13d286a500f793662",
-      "size": 8238592,
+      "url": "https://github.com/kossnocorp/genotype/releases/download/v0.18.0/gt-v0.18.0-aarch64-pc-windows-msvc.exe",
+      "sha256": "5bd3035a67a02f0938d214762cc6593f1461834570c2defbd3d1c06562d182ad",
+      "size": 8496640,
       "format": "binary",
+      "releaseTag": "v0.18.0",
       "binaries": {
         "gt.exe": {
-          "path": "gt-v0.17.1-aarch64-pc-windows-msvc.exe",
-          "sha256": "d3dbd9f898e4003ee6cb540aef6e994bfa65ce28c8c7a4d13d286a500f793662"
+          "path": "gt-v0.18.0-aarch64-pc-windows-msvc.exe",
+          "sha256": "5bd3035a67a02f0938d214762cc6593f1461834570c2defbd3d1c06562d182ad"
         }
       }
     }
