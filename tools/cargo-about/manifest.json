@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "cargo-about",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "repository": "EmbarkStudios/cargo-about",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.2/cargo-about-0.9.2-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "0.9.2",
-      "sha256": "9099a59e820c38a68b9d65f300662a567d56562f9a10f6aa4c7e86c17c2566af",
-      "size": 6732751,
+      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.3/cargo-about-0.9.3-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "3ad1e94ea1e63d69d1961f4fb15ccbbe9575d906111f96d2cb4dce6df48f71b4",
+      "size": 6843671,
       "format": "tar.gz",
+      "releaseTag": "0.9.3",
       "binaries": {
         "cargo-about": {
-          "path": "cargo-about-0.9.2-x86_64-unknown-linux-musl/cargo-about",
-          "sha256": "b06bd6a8bfd726cffb90e3e0588e3e0b1cfbb582bf6a34f4c1c2692ba8f2e7b8"
+          "path": "cargo-about-0.9.3-x86_64-unknown-linux-musl/cargo-about",
+          "sha256": "e902609296601f873c08ca912acea0c37b375128ea3940eb307a76080afb8211"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.2/cargo-about-0.9.2-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "0.9.2",
-      "sha256": "af5169282fb6f84e13471493f405437e43ac517744c9ae12fbe2cdf0a6f0e5a8",
-      "size": 6485812,
+      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.3/cargo-about-0.9.3-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "eb4d9ff6ebd2518152a8308729431a04b3836e71d2bd5ead7aea69f91a71162e",
+      "size": 6561034,
       "format": "tar.gz",
+      "releaseTag": "0.9.3",
       "binaries": {
         "cargo-about": {
-          "path": "cargo-about-0.9.2-aarch64-unknown-linux-musl/cargo-about",
-          "sha256": "1ef31cd994086302c71de5a43a7e8f588c812d134373bcfcb108d4f662c39de4"
+          "path": "cargo-about-0.9.3-aarch64-unknown-linux-musl/cargo-about",
+          "sha256": "fcd4948a2b6bffbfc83112de0e6057ff664e23fb4da8fae37c51889e6770b792"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.2/cargo-about-0.9.2-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "0.9.2",
-      "sha256": "ae72f0df0c399a1e96336f696fa55b1b28679fd725632eba8cf8e4568467cc3e",
-      "size": 6198548,
+      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.3/cargo-about-0.9.3-aarch64-apple-darwin.tar.gz",
+      "sha256": "45520df8680978a6e7c4023ace0e3f311c73efc208cd68e5a7f4ed4822fa0349",
+      "size": 6283576,
       "format": "tar.gz",
+      "releaseTag": "0.9.3",
       "binaries": {
         "cargo-about": {
-          "path": "cargo-about-0.9.2-aarch64-apple-darwin/cargo-about",
-          "sha256": "84465f88119f68b2667a66db26e4ff3480edfe45f5dbe3dd9b5f8a13f15e7f93"
+          "path": "cargo-about-0.9.3-aarch64-apple-darwin/cargo-about",
+          "sha256": "d43f3ad43c48c36eb6c7a5abb2c7104396bea6117273cf0e6b74ad58add27af6"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.2/cargo-about-0.9.2-x86_64-pc-windows-msvc.tar.gz",
-      "releaseTag": "0.9.2",
-      "sha256": "1c03e5890238562497c2d89a3b75b02560af349c1fc3e713d3284f532a5cd748",
-      "size": 6186529,
+      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.3/cargo-about-0.9.3-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "9e2942533ef1c592c4a70bdb384cae1550a3f5fc9ae40379b6662e3d2f16fe02",
+      "size": 6303413,
       "format": "tar.gz",
+      "releaseTag": "0.9.3",
       "binaries": {
         "cargo-about.exe": {
-          "path": "cargo-about-0.9.2-x86_64-pc-windows-msvc/cargo-about.exe",
-          "sha256": "7923ca2d7082c609f27c2fc599366c7b6157f58164b278c8d984653022b8969a"
+          "path": "cargo-about-0.9.3-x86_64-pc-windows-msvc/cargo-about.exe",
+          "sha256": "1d865e2cd72823b466a64831462046e6c9f7b6fb5d2984abfc186ccba1df9d89"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.2/cargo-about-0.9.2-aarch64-pc-windows-msvc.tar.gz",
-      "releaseTag": "0.9.2",
-      "sha256": "1251a3cdf09538eb91a4f95af34ea719913db98c54574e1165052616e9ad93ec",
-      "size": 5989953,
+      "url": "https://github.com/EmbarkStudios/cargo-about/releases/download/0.9.3/cargo-about-0.9.3-aarch64-pc-windows-msvc.tar.gz",
+      "sha256": "f05a79c38eeffa45098091f6325682ef0801a1078b4e706e024585fa2bfb641b",
+      "size": 6061812,
       "format": "tar.gz",
+      "releaseTag": "0.9.3",
       "binaries": {
         "cargo-about.exe": {
-          "path": "cargo-about-0.9.2-aarch64-pc-windows-msvc/cargo-about.exe",
-          "sha256": "1984d0893701339f32de842c506f7ea64be62269a63f0ba75ac7ec5455ca64be"
+          "path": "cargo-about-0.9.3-aarch64-pc-windows-msvc/cargo-about.exe",
+          "sha256": "445f03a8487ace635f88e059e2ea9ce44ded6f3a1665b884bfa9276a43a7d321"
         }
       }
     }
