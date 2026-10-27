@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "pfetch",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "repository": "Gobidev/pfetch-rs",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.0.2/pfetch-linux-gnu-x86_64.tar.gz",
-      "releaseTag": "v3.0.2",
-      "sha256": "3f2170afc33890aebeaafe927ed734e3e4bd64e04f3fe391b74163f5c6ad295e",
-      "size": 1518591,
+      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.1.0/pfetch-linux-gnu-x86_64.tar.gz",
+      "sha256": "3f0538e00dbf91a2adf97c61aa98f3d576430c872c3ef1e220175e44cc2ed02c",
+      "size": 1604817,
       "format": "tar.gz",
+      "releaseTag": "v3.1.0",
       "binaries": {
         "pfetch": {
           "path": "pfetch",
-          "sha256": "d6dbedad7399087a2cf79c41c24b398ba49fd44aea810629732e83bf55ddee80"
+          "sha256": "1ee152ffc50880cfe0a4a7661d5642e69d03b93b205c69acf186d761b27302fd"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.0.2/pfetch-linux-musl-aarch64.tar.gz",
-      "releaseTag": "v3.0.2",
-      "sha256": "a9e411ed8200eecd5d68b64a4edd74b9f4c5d6595e0ad9ab5cef30cce66d0571",
-      "size": 1437848,
+      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.1.0/pfetch-linux-musl-aarch64.tar.gz",
+      "sha256": "655d1317f0842525e10d0a82650581341e0e7c0759d655a90aa5c0e5b5bf123a",
+      "size": 1438204,
       "format": "tar.gz",
+      "releaseTag": "v3.1.0",
       "binaries": {
         "pfetch": {
           "path": "pfetch",
-          "sha256": "c4ed5810e374c51dd9632fdd1900759e05ddfaddc23bfde90ffe0f0bd375bbc9"
+          "sha256": "aba5cd1dde9b9316b121778400f6ff7b86b1ac596f9f41c0bc641a780376ec48"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.0.2/pfetch-macos-x86_64.tar.gz",
-      "releaseTag": "v3.0.2",
-      "sha256": "23f6bee29671eb643248b39583f21775e9a9dd485a1ef320205aef14730a34c8",
-      "size": 684769,
+      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.1.0/pfetch-macos-x86_64.tar.gz",
+      "sha256": "1b4627c35a82bc3aa00bb680800193aba38116088b1ee273689c2d9f7674012d",
+      "size": 685926,
       "format": "tar.gz",
+      "releaseTag": "v3.1.0",
       "binaries": {
         "pfetch": {
           "path": "pfetch",
-          "sha256": "db58c0a48c870076f4d4820a10c2233f23a448fe5400bcd07fad289de7452a9e"
+          "sha256": "a20abb84e6cce400dce96377f4f6d06d07a0597f6d494a75694af4c6f3877745"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.0.2/pfetch-macos-aarch64.tar.gz",
-      "releaseTag": "v3.0.2",
-      "sha256": "24fe1da324037ef24e02962c62d62495d9935e58781ac9d0b60f66400c5c8648",
-      "size": 624332,
+      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.1.0/pfetch-macos-aarch64.tar.gz",
+      "sha256": "bfd038f013c5423721834dd3b8771025fe8ef8e1fec1adddd8f9d3a27b6d1973",
+      "size": 625656,
       "format": "tar.gz",
+      "releaseTag": "v3.1.0",
       "binaries": {
         "pfetch": {
           "path": "pfetch",
-          "sha256": "5f0cf52ec2a0bc38f8a77854284595bc69ad61d31521cfefe8970b867b236cee"
+          "sha256": "a7f4639c5132692aebc00e5c39268e902b2621c6376b67f92476b2b10f88ab35"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.0.2/pfetch-windows-x86_64.exe",
-      "releaseTag": "v3.0.2",
-      "sha256": "f98125b0f55ebd7bd448abf635c6519063c14e4fbd4ef14a3994af98bf86be63",
-      "size": 3117056,
+      "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.1.0/pfetch-windows-x86_64.exe",
+      "sha256": "81f87a790ae73886bd7b541963223cad782e77d262d19b7705c211fdb4a9d06c",
+      "size": 3119616,
       "format": "binary",
+      "releaseTag": "v3.1.0",
       "binaries": {
         "pfetch.exe": {
           "path": "pfetch-windows-x86_64.exe",
-          "sha256": "f98125b0f55ebd7bd448abf635c6519063c14e4fbd4ef14a3994af98bf86be63"
+          "sha256": "81f87a790ae73886bd7b541963223cad782e77d262d19b7705c211fdb4a9d06c"
         }
       }
     }
