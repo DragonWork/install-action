@@ -6,21 +6,59 @@ import csv
 import codecs
 import datetime
 import hashlib
+import http.client
 import json
 import os
 import re
 import tarfile
+import tempfile
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from email.utils import parsedate_to_datetime
 
 DUMP_URL = "https://static.crates.io/db-dump.tar.gz"
 MIN_DOWNLOADS = 10_000
 SCHEMA = 3
 USER_AGENT = "DragonWork/install-action (https://github.com/DragonWork/install-action)"
 VERSION = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
+
+
+def warning(message):
+    text = str(message).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+    print(f"::warning::{text}", flush=True)
+
+
+def request_data(request, consume, opener=None, pause=time.sleep, timeout=60):
+    opener = opener or urllib.request.urlopen
+    for attempt in range(3):
+        delay = 2 ** (attempt + 1)
+        try:
+            with opener(request, timeout=timeout) as response:
+                return consume(response)
+        except urllib.error.HTTPError as error:
+            if error.code not in {408, 429, 500, 502, 503, 504} or attempt == 2:
+                raise
+            retry_after = error.headers.get("Retry-After") if error.headers else None
+            if retry_after:
+                try:
+                    delay = max(delay, float(retry_after))
+                except ValueError:
+                    try:
+                        delay = max(delay, (parsedate_to_datetime(retry_after)
+                                            - datetime.datetime.now(datetime.timezone.utc)).total_seconds())
+                    except (TypeError, ValueError):
+                        pass
+            if delay > 60:
+                raise
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException,
+                EOFError, tarfile.ReadError, json.JSONDecodeError):
+            if attempt == 2:
+                raise
+        warning(f"Temporary crates.io request failure; retrying in {delay:g}s (attempt {attempt + 2}/3).")
+        pause(delay)
 
 
 def version_key(value):
@@ -96,38 +134,76 @@ def scan(stream, today=None):
             "yanked": dict(sorted(yanked_versions.items()))}
 
 
-def refresh_downloads(catalog, previous, opener=urllib.request.urlopen, pause=time.sleep, now=None):
+def refresh_downloads(catalog, previous, opener=None, pause=time.sleep, now=None):
     now = now or datetime.datetime.now(datetime.timezone.utc)
-    if previous.get("popularityUpdatedAt"):
-        age = now - datetime.datetime.fromisoformat(previous["popularityUpdatedAt"])
-        if datetime.timedelta(0) <= age < datetime.timedelta(hours=12) and all(
-                name in previous.get("crates", {}) and "recentDownloads" in previous["crates"][name]
-                for name in catalog["crates"]):
-            for name, entry in catalog["crates"].items():
-                entry["recentDownloads"] = previous["crates"][name]["recentDownloads"]
-            catalog["popularityUpdatedAt"] = previous["popularityUpdatedAt"]
-            return
-    names = sorted(catalog["crates"])
+
+    def fresh(entry):
+        if type(entry.get("recentDownloads")) is not int or entry["recentDownloads"] < 0:
+            return False
+        try:
+            age = now - datetime.datetime.fromisoformat(entry["recentDownloadsUpdatedAt"])
+            return datetime.timedelta(0) <= age < datetime.timedelta(hours=12)
+        except (KeyError, TypeError, ValueError):
+            return False
+
+    for name, entry in catalog["crates"].items():
+        old = previous.get("crates", {}).get(name, {})
+        if type(old.get("recentDownloads")) is int and old["recentDownloads"] >= 0:
+            entry["recentDownloads"] = old["recentDownloads"]
+            updated = old.get("recentDownloadsUpdatedAt", previous.get("popularityUpdatedAt"))
+            if updated:
+                entry["recentDownloadsUpdatedAt"] = updated
+    names = sorted(name for name, entry in catalog["crates"].items() if not fresh(entry))
     for offset in range(0, len(names), 100):
         batch = names[offset:offset + 100]
         query = urllib.parse.urlencode([("per_page", "100")] + [("ids[]", name) for name in batch])
         request = urllib.request.Request("https://crates.io/api/v1/crates?" + query,
                                          headers={"User-Agent": USER_AGENT})
-        with opener(request, timeout=60) as response:
-            rows = json.load(response)["crates"]
-        found = set()
+        try:
+            data = request_data(request, json.load, opener, pause)
+            if not isinstance(data, dict) or not isinstance(data.get("crates"), list):
+                raise ValueError("Invalid recent download statistics response")
+            rows = data["crates"]
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException, ValueError) as error:
+            warning(f"Download statistics refresh deferred; keeping cached counts for {len(names) - offset} crates: {error}")
+            break
+        found = {}
         for row in rows:
-            name, recent = row["id"], row.get("recent_downloads")
-            if name not in batch or name in found or type(recent) is not int or recent < 0:
-                raise ValueError("Invalid recent download statistics from crates.io")
-            catalog["crates"][name]["recentDownloads"] = recent
-            found.add(name)
-        if found != set(batch):
-            raise ValueError("Incomplete recent download statistics from crates.io")
-        print(f"Updated download statistics for {offset + len(batch)} / {len(names)} crates.", flush=True)
+            name = row.get("id") if isinstance(row, dict) else None
+            recent = row.get("recent_downloads") if isinstance(row, dict) else None
+            if not isinstance(name, str) or name not in batch or name in found or type(recent) is not int or recent < 0:
+                warning("Invalid recent download statistics from crates.io; keeping cached counts for this batch.")
+                found = {}
+                break
+            found[name] = recent
+        for name, recent in found.items():
+            catalog["crates"][name].update(recentDownloads=recent, recentDownloadsUpdatedAt=now.isoformat())
+        missing = sorted(set(batch) - found.keys())
+        if missing:
+            warning(f"No current download statistics for {', '.join(missing)}; keeping previous counts where available.")
+        print(f"Checked download statistics for {offset + len(batch)} / {len(names)} crates.", flush=True)
         if offset + 100 < len(names):
             pause(1)
-    catalog["popularityUpdatedAt"] = now.isoformat()
+    if all(fresh(entry) for entry in catalog["crates"].values()):
+        catalog["popularityUpdatedAt"] = min((entry["recentDownloadsUpdatedAt"] for entry in catalog["crates"].values()),
+                                              default=now.isoformat())
+    else:
+        catalog.pop("popularityUpdatedAt", None)
+
+
+def save_catalog(destination, catalog):
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=destination.parent,
+                                         prefix=".catalog-", suffix=".json", delete=False) as output:
+            temporary = Path(output.name)
+            json.dump(catalog, output, sort_keys=True, separators=(",", ":"))
+            output.write("\n")
+        os.replace(temporary, destination)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
 def inventory_key(etag):
@@ -144,8 +220,8 @@ def main():
     previous = json.loads(destination.read_text()) if destination.exists() else {}
     headers = {"User-Agent": USER_AGENT}
     if args.cache_info:
-        with urllib.request.urlopen(urllib.request.Request(DUMP_URL, method="HEAD", headers=headers), timeout=60) as response:
-            etag = response.headers.get("ETag")
+        etag = request_data(urllib.request.Request(DUMP_URL, method="HEAD", headers=headers),
+                            lambda response: response.headers.get("ETag"))
         if not etag:
             raise ValueError("The crates.io dump has no ETag")
         restore = previous.get("etag") != etag or previous.get("schema") != SCHEMA or previous.get("minimumDownloads") != MIN_DOWNLOADS
@@ -156,19 +232,19 @@ def main():
         headers["If-None-Match"] = previous["etag"]
     request = urllib.request.Request(DUMP_URL, headers=headers)
     try:
-        with urllib.request.urlopen(request, timeout=120) as response:
-            catalog = {"schema": SCHEMA, "minimumDownloads": MIN_DOWNLOADS, "source": DUMP_URL, "etag": response.headers.get("ETag"),
-                       "modified": response.headers.get("Last-Modified"), **scan(response)}
+        catalog = request_data(request, lambda response: {
+            "schema": SCHEMA, "minimumDownloads": MIN_DOWNLOADS, "source": DUMP_URL,
+            "etag": response.headers.get("ETag"), "modified": response.headers.get("Last-Modified"), **scan(response),
+        }, timeout=120)
     except urllib.error.HTTPError as error:
         if error.code != 304:
             raise
         catalog = previous
         print("The crates.io dump is unchanged.")
     refresh_downloads(catalog, previous)
-    destination.parent.mkdir(parents=True, exist_ok=True)
     for entry in catalog["crates"].values():
         entry.pop("checksum", None)
-    destination.write_text(json.dumps(catalog, sort_keys=True, separators=(",", ":")) + "\n")
+    save_catalog(destination, catalog)
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as output:
             output.write(f"key={inventory_key(catalog['etag'])}\n")
