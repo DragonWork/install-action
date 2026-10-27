@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "fast-mvt",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "repository": "nyurik/fast-mvt",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.7.0",
-      "sha256": "038a7374f24b04522b16477d5ab98cabf08652a10770fd02587d463e3e247124",
-      "size": 452316,
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.1/fast-mvt-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "e220e770877713cb9d40a2c673687004910497721de0126ee35e474ecfc4b1c3",
+      "size": 452560,
       "format": "tar.gz",
+      "releaseTag": "v0.7.1",
       "binaries": {
         "mvt": {
           "path": "mvt",
-          "sha256": "655c6c5a63797255531d789a7c05a73aa96747a37ac970c5a6e63b57eca2e2cb"
+          "sha256": "6c7cae569cc80a9025e784804ddf3608ee6de058275b8e9a388178ff09a6af1b"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.7.0",
-      "sha256": "ec8fb6b9b9340d32b41f07542f2990873b13f1c7462f59f439c263ad70b3dd3b",
-      "size": 425240,
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.1/fast-mvt-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "75eb407bd82edc22108371d22d1b4b7bebd6b9c23c24c1478124e8ba23ca689d",
+      "size": 425389,
       "format": "tar.gz",
+      "releaseTag": "v0.7.1",
       "binaries": {
         "mvt": {
           "path": "mvt",
-          "sha256": "e9ea7bbe203c0dbaf705ea7106ddd8444b01c887ebc496bf4965e71a74e4b48d"
+          "sha256": "6ae23560e0be4ad4a4127b96c27ecfcdddd6f37480513cf77a2cf0ebd63d2e8e"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.7.0",
-      "sha256": "b39aff68379083df0d89789c8439140498d83c02434dfe5cadaa57ccf4fb9f32",
-      "size": 421790,
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.1/fast-mvt-x86_64-apple-darwin.tar.gz",
+      "sha256": "99f98db00234dfcb38e750412ea2db2f0285f3bf41f1a0e1a407623d28ccdd80",
+      "size": 422018,
       "format": "tar.gz",
+      "releaseTag": "v0.7.1",
       "binaries": {
         "mvt": {
           "path": "mvt",
-          "sha256": "3442f3aaea9e95676cf1af7b53d94f7384dc706b6d2f0073484ecb580b4feed7"
+          "sha256": "2c076384e952e88c5cc27cdc710828a46efaba368a3e59de772cf2f1dbde78db"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.7.0",
-      "sha256": "c4ff038305558e6d31cd9b8cf97c89af16814747c39929ecb5f37671e5cd68ee",
-      "size": 402591,
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.1/fast-mvt-aarch64-apple-darwin.tar.gz",
+      "sha256": "4b834847a5704e53b90e95a1ffc2bc4bb68ff4393c4d5082cb91c5722cd3a6f1",
+      "size": 401608,
       "format": "tar.gz",
+      "releaseTag": "v0.7.1",
       "binaries": {
         "mvt": {
           "path": "mvt",
-          "sha256": "4dee873815d161d4f9831ac5a9d39796508a163ed5b74d309b02c1dc3d4309a4"
+          "sha256": "a913cd4f2fd97df0fc88780a80d6086621b283cf4c701f0af4a65611df87732a"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.0/fast-mvt-x86_64-pc-windows-msvc.tar.gz",
-      "releaseTag": "v0.7.0",
-      "sha256": "154a7c484cf1679ac42aaa7e9e6c8b1f17e61001cce7eb2f541f8287741d405b",
-      "size": 304219,
+      "url": "https://github.com/nyurik/fast-mvt/releases/download/v0.7.1/fast-mvt-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "ffc35107863ea719dccc888a7e657873134e0db3d4d4718bae53422ce521f541",
+      "size": 305500,
       "format": "tar.gz",
+      "releaseTag": "v0.7.1",
       "binaries": {
         "mvt.exe": {
           "path": "mvt.exe",
-          "sha256": "ef33caf8f6c6002f4dcf6af2d7b577e530bb8aaf7694c50547cbff420a3fe0dc"
+          "sha256": "2ccc21f14a451d3f347c7691e83b9bd119043410c09bd6a9a3b228d80191bd85"
         }
       }
     }
