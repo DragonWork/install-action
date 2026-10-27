@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "wiiload",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "repository": "mq1/wiiload-rs",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.8.0/wiiload-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.8.0",
-      "sha256": "d1d76f331c838388bf1d4469c214485228ca9220f95875a3b0b811f5450a2238",
-      "size": 151040,
+    "linux-x64": {
+      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.9.0/wiiload-x86_64-unknown-linux-musl",
+      "sha256": "8d4668c1ad6df4aeacdaaaf89ff8c99a71af97b680bdb6a2fc6db75e2373ff18",
+      "size": 414232,
       "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "wiiload": {
+          "path": "wiiload-x86_64-unknown-linux-musl",
+          "sha256": "8d4668c1ad6df4aeacdaaaf89ff8c99a71af97b680bdb6a2fc6db75e2373ff18"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.9.0/wiiload-aarch64-unknown-linux-musl",
+      "sha256": "36c8b0d2411126ef236fe3ab1cad7d5f6d9762a6e3bc016d94f192674176125f",
+      "size": 364568,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "wiiload": {
+          "path": "wiiload-aarch64-unknown-linux-musl",
+          "sha256": "36c8b0d2411126ef236fe3ab1cad7d5f6d9762a6e3bc016d94f192674176125f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.9.0/wiiload-x86_64-apple-darwin",
+      "sha256": "15a071586da8331028b61653019380e65f123d6e9500e66fc89338e6af600abc",
+      "size": 300848,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "wiiload": {
+          "path": "wiiload-x86_64-apple-darwin",
+          "sha256": "15a071586da8331028b61653019380e65f123d6e9500e66fc89338e6af600abc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.9.0/wiiload-aarch64-apple-darwin",
+      "sha256": "1841871c800e685fac7e74f4ef053972dd1dc1fa4319556608a9c96499467e07",
+      "size": 303056,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
+      "binaries": {
+        "wiiload": {
+          "path": "wiiload-aarch64-apple-darwin",
+          "sha256": "1841871c800e685fac7e74f4ef053972dd1dc1fa4319556608a9c96499467e07"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.9.0/wiiload-x86_64-pc-windows-msvc.exe",
+      "sha256": "ea1d3233c200b260a0bcd7cc4b36ed1f58c188d1735d3c160ae442ef0b1dbaed",
+      "size": 150016,
+      "format": "binary",
+      "releaseTag": "v0.9.0",
       "binaries": {
         "wiiload.exe": {
           "path": "wiiload-x86_64-pc-windows-msvc.exe",
-          "sha256": "d1d76f331c838388bf1d4469c214485228ca9220f95875a3b0b811f5450a2238"
+          "sha256": "ea1d3233c200b260a0bcd7cc4b36ed1f58c188d1735d3c160ae442ef0b1dbaed"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.8.0/wiiload-aarch64-pc-windows-msvc.exe",
-      "releaseTag": "v0.8.0",
-      "sha256": "2769480dcc44aa063599a7b09567fb65c3a13236d7634965e75a2423ad6d2ff3",
-      "size": 140800,
+      "url": "https://github.com/mq1/wiiload-rs/releases/download/v0.9.0/wiiload-aarch64-pc-windows-msvc.exe",
+      "sha256": "a904cedb3f5e427322d57e9780219005a6382f189b874d861c8bd7f5abd4b0ec",
+      "size": 140288,
       "format": "binary",
+      "releaseTag": "v0.9.0",
       "binaries": {
         "wiiload.exe": {
           "path": "wiiload-aarch64-pc-windows-msvc.exe",
-          "sha256": "2769480dcc44aa063599a7b09567fb65c3a13236d7634965e75a2423ad6d2ff3"
+          "sha256": "a904cedb3f5e427322d57e9780219005a6382f189b874d861c8bd7f5abd4b0ec"
         }
       }
     }
