@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "cargo-nextest",
-  "version": "0.9.149",
+  "version": "0.9.150",
   "repository": "nextest-rs/nextest",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.149/cargo-nextest-0.9.149-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "cargo-nextest-0.9.149",
-      "sha256": "d65c7f14bcb5c1566d1ecd534c5da8dedb81ba58586e478b0ab81c877d2bd8ad",
-      "size": 9753661,
+      "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "84f0f9ba75d0b6fa117bc418d49747ba78e20e4583057f6fa628f1b17c17234d",
+      "size": 9787815,
       "format": "tar.gz",
+      "releaseTag": "cargo-nextest-0.9.150",
       "binaries": {
         "cargo-nextest": {
           "path": "cargo-nextest",
-          "sha256": "943fdd15102ffe32532754325c96a706a300e89a72d674d912c94b5cdfe5a7ab"
+          "sha256": "f60be355cded290b1080a0b7c92ca11ec34a1900e3ad1afbd6336ddbfdbbded0"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.149/cargo-nextest-0.9.149-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "cargo-nextest-0.9.149",
-      "sha256": "533c9b431c2bb1dcb216e02e474263db0cdcd556373b72cc34830fb417058a6b",
-      "size": 9054225,
+      "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "5a7fe62b64a9006e1e47422021df7b1d308cc76c528c9eaf4649a488615ed6fb",
+      "size": 9081517,
       "format": "tar.gz",
+      "releaseTag": "cargo-nextest-0.9.150",
       "binaries": {
         "cargo-nextest": {
           "path": "cargo-nextest",
-          "sha256": "2022b30c0c7d2163ee93214b6f2ae8d09b591ef55d02e6e32d9c475622066dab"
+          "sha256": "e58f4afede9a264d5ef9c202ae1528c913ccdf188614c5b7abd51015b31fba31"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-universal-apple-darwin.tar.gz",
+      "sha256": "82a759b4d218d38359424196ab244c470e8f7c7d149c814fbbeef4d67c3c301a",
+      "size": 16804268,
+      "format": "tar.gz",
+      "releaseTag": "cargo-nextest-0.9.150",
+      "binaries": {
+        "cargo-nextest": {
+          "path": "cargo-nextest",
+          "sha256": "aad9d409cd2f0a81fcaed49d7672a133254179458436c1e957505e4a11655329"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-universal-apple-darwin.tar.gz",
+      "sha256": "82a759b4d218d38359424196ab244c470e8f7c7d149c814fbbeef4d67c3c301a",
+      "size": 16804268,
+      "format": "tar.gz",
+      "releaseTag": "cargo-nextest-0.9.150",
+      "binaries": {
+        "cargo-nextest": {
+          "path": "cargo-nextest",
+          "sha256": "aad9d409cd2f0a81fcaed49d7672a133254179458436c1e957505e4a11655329"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-x86_64-pc-windows-msvc.zip",
+      "sha256": "6fd8f9ba48c946a79a5bcdd35bf4f922447b149f7ca6c3ff7f39e12f32ef78db",
+      "size": 7739905,
+      "format": "zip",
+      "releaseTag": "cargo-nextest-0.9.150",
+      "binaries": {
+        "cargo-nextest.exe": {
+          "path": "cargo-nextest.exe",
+          "sha256": "c58428d722f2030566f70a4e0d6626689bd060570d991c99a4ccdf56d507fd0e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.150/cargo-nextest-0.9.150-aarch64-pc-windows-msvc.zip",
+      "sha256": "812da1f75a1a18911d8aeb74e2b75caa95e652bfd210a46527de7d5f0776f22e",
+      "size": 7301256,
+      "format": "zip",
+      "releaseTag": "cargo-nextest-0.9.150",
+      "binaries": {
+        "cargo-nextest.exe": {
+          "path": "cargo-nextest.exe",
+          "sha256": "cd54c35e514d4db72a1a2f14c5f4f9b102995c37c8f11612f8c3b1bea62ceeda"
         }
       }
     }
