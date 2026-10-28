@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "skim",
-  "version": "5.8.0",
+  "version": "5.9.0",
   "repository": "skim-rs/skim",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v5.8.0",
-      "sha256": "2e231ee7651a3908a1e1a0948e4d1e7b3029f5acdb889556680220bf87535984",
-      "size": 2622124,
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.9.0/skim-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "de1ab4c6a0e53e3ed7850048ddd622b830b5aee2dc8ad8f0925f1fbf79e01eef",
+      "size": 2625000,
       "format": "tar.xz",
+      "releaseTag": "v5.9.0",
       "binaries": {
         "sk": {
           "path": "skim-x86_64-unknown-linux-musl/sk",
-          "sha256": "ff9c82cb5eac7371be21e24626220d5fbb1f929715d6c6181143545c20ba6c75"
+          "sha256": "41350ef67cf41f87d9583145c5eb72fdee1d705593280365a139f6d5303ed1ec"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-aarch64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v5.8.0",
-      "sha256": "bdff0079dc5bda07eccf850b59f0306982990191c1e7363cbcee897913bcc871",
-      "size": 2018572,
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.9.0/skim-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "651fa4314223e3c32478f32cab22cf046943c6852caa220c73f211f785bc257a",
+      "size": 2021988,
       "format": "tar.xz",
+      "releaseTag": "v5.9.0",
       "binaries": {
         "sk": {
           "path": "skim-aarch64-unknown-linux-musl/sk",
-          "sha256": "b65db1e4bb2778279e06d789f70069000336069dbd35e196a884cc452208e9d0"
+          "sha256": "4c2d4d01805ce471489441e7c835e09075c79b9bf66e305e5a5d1a985491d19d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v5.8.0",
-      "sha256": "63cb976eea549d0e422f02d4fe9d3f74ecdb9a6b7f1be9596ca0eb8b8899256c",
-      "size": 2454692,
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.9.0/skim-x86_64-apple-darwin.tar.xz",
+      "sha256": "71832e5264f15a617991061232c09eaa85a6c9afe49cbf09848ba5a07d8438d8",
+      "size": 2457312,
       "format": "tar.xz",
+      "releaseTag": "v5.9.0",
       "binaries": {
         "sk": {
           "path": "skim-x86_64-apple-darwin/sk",
-          "sha256": "fce691368d6f6db1782ac7d8f4fad996f5e460dd12f7707a37569ec18f95d26c"
+          "sha256": "df9158694d25765ae45a65c6079d77df11a2a6269b445c07c5226c894a6d179b"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v5.8.0",
-      "sha256": "df70e190ecaa24c3df651dc9b2ebb679a529909d7f56c625a658c77d4756842d",
-      "size": 1888456,
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.9.0/skim-aarch64-apple-darwin.tar.xz",
+      "sha256": "9fe50c046ca23def3fb6b6d01cf60cc2c4aa24752936f5745899c61c324b6b26",
+      "size": 1890824,
       "format": "tar.xz",
+      "releaseTag": "v5.9.0",
       "binaries": {
         "sk": {
           "path": "skim-aarch64-apple-darwin/sk",
-          "sha256": "e43e405886f9a779dbbdfa2e8aa67e7d2147bde1b75400f01767885494234f36"
+          "sha256": "f1bc68808fe5cc41fe24cf0668fa493ae5a2da1547b5646c5f83a33d26ba93bf"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/skim-rs/skim/releases/download/v5.8.0/skim-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v5.8.0",
-      "sha256": "d2f0f82bb3500d6c4bf9262f7b31490c249193f021d66c01ceddb46112486310",
-      "size": 3866457,
+      "url": "https://github.com/skim-rs/skim/releases/download/v5.9.0/skim-x86_64-pc-windows-msvc.zip",
+      "sha256": "12ffcb2568b070d3337aeb00c9eafb84fab63b76f00dc709ab9e0079ee1e1e27",
+      "size": 3870293,
       "format": "zip",
+      "releaseTag": "v5.9.0",
       "binaries": {
         "sk.exe": {
           "path": "sk.exe",
-          "sha256": "d793f6b82ea1b8d0d86907ed3e691a09720b0cc87399c3b04a6eeae9b43030a9"
+          "sha256": "f85d002d1b0b661b8e8ff9d066563522e83cc29a88f14f3641809df412a586f2"
         }
       }
     }
