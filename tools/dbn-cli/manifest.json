@@ -1,45 +1,84 @@
 {
   "schema": 1,
   "name": "dbn-cli",
-  "version": "0.72.0",
+  "version": "0.73.0",
   "repository": "databento/dbn",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/databento/dbn/releases/download/v0.72.0/dbn-0.72.0-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.72.0",
-      "sha256": "c9710f4a86a5ef874730eed9fc0a5d3374d89f3cf4d5a59f2f9cc2953295f4aa",
-      "size": 1491135,
+      "url": "https://github.com/databento/dbn/releases/download/v0.73.0/dbn-0.73.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "d3aaa7ecb55fa1afa668d571b658f66de9ef2f3df2ea2019dd139c0cffee2a8b",
+      "size": 3650117,
       "format": "tar.gz",
+      "releaseTag": "v0.73.0",
       "binaries": {
         "dbn": {
-          "path": "dbn-0.72.0-x86_64-unknown-linux-musl/dbn",
-          "sha256": "c507ba65f99a677ebdbe123386415aa1d09af601bb5ee42e0f2f29e888a06397"
+          "path": "dbn-0.73.0-x86_64-unknown-linux-musl/dbn",
+          "sha256": "08f8764a8e8868bc11ee567cea8d8ddc384cbdcd0635e019c5ef0096ac50c5c7"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/databento/dbn/releases/download/v0.72.0/dbn-0.72.0-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.72.0",
-      "sha256": "bbf405c5bf7e434b7fac2cb3f675d82e9d12a596d6d88ded43c47c6e0ad02b0d",
-      "size": 1412440,
+      "url": "https://github.com/databento/dbn/releases/download/v0.73.0/dbn-0.73.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "31f3bd8ff01ea4fe671baa30c853e4106a8a8a5eca9985bec356b5f36728e935",
+      "size": 3468186,
       "format": "tar.gz",
+      "releaseTag": "v0.73.0",
       "binaries": {
         "dbn": {
-          "path": "dbn-0.72.0-aarch64-unknown-linux-musl/dbn",
-          "sha256": "70ee750c4066bda50f0351f019e45bb50c4f62a88403d546325504911737ec08"
+          "path": "dbn-0.73.0-aarch64-unknown-linux-musl/dbn",
+          "sha256": "4e8a76f2ba1b809c3b3832cf2e6a50da625b65b0398967349a95712581b4fad4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/databento/dbn/releases/download/v0.73.0/dbn-0.73.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "8d297f90e47ba0f939f21be5f9c87978bb19d21d27ed291a5f1c3b24d567248f",
+      "size": 3115000,
+      "format": "tar.gz",
+      "releaseTag": "v0.73.0",
+      "binaries": {
+        "dbn": {
+          "path": "dbn-0.73.0-x86_64-apple-darwin/dbn",
+          "sha256": "da8af2fbbcda985546d113edb6db97971e789458c82d37a0a27cfdbe115a1a4e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/databento/dbn/releases/download/v0.73.0/dbn-0.73.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "d9edd1dd665abe7c0498e6b1d8dff77cbb91bdf7a32f1d6459a614cac855071e",
+      "size": 2893609,
+      "format": "tar.gz",
+      "releaseTag": "v0.73.0",
+      "binaries": {
+        "dbn": {
+          "path": "dbn-0.73.0-aarch64-apple-darwin/dbn",
+          "sha256": "9212463e14ebf34f5ea73c8903a712ef19759c43ed940084a89e92d1c7ac4a25"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/databento/dbn/releases/download/v0.73.0/dbn-0.73.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "0a6d9eef7a5d84043a8a0cc177c2231ba9cc3601efa0a170629b26230e304f07",
+      "size": 2617548,
+      "format": "zip",
+      "releaseTag": "v0.73.0",
+      "binaries": {
+        "dbn.exe": {
+          "path": "dbn-0.73.0-x86_64-pc-windows-msvc/dbn.exe",
+          "sha256": "20044632c339f61c5e3cad694a58e99b1672ec2531410e0bf574d0c3f26c4419"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/databento/dbn/releases/download/v0.72.0/dbn-0.72.0-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v0.72.0",
-      "sha256": "8e46baf4074c5eba22c70fd005d9d2877d344cad07685e409b5a5037ba9033d4",
-      "size": 929399,
+      "url": "https://github.com/databento/dbn/releases/download/v0.73.0/dbn-0.73.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "f3ddae2788b9811225a9d577311911750daa6027db03819cfaa854ef1872b8bc",
+      "size": 2377613,
       "format": "zip",
+      "releaseTag": "v0.73.0",
       "binaries": {
         "dbn.exe": {
-          "path": "dbn-0.72.0-aarch64-pc-windows-msvc/dbn.exe",
-          "sha256": "c8777d93c71b077c71c67cb0ef07e0bbeca36eaeb9fcbcb6e6411e4a8fb8e4d0"
+          "path": "dbn-0.73.0-aarch64-pc-windows-msvc/dbn.exe",
+          "sha256": "7e880ca5503ced14e4e2f63a5149bc41567d4f3046c794d5f78f10cb260e5d4c"
         }
       }
     }
