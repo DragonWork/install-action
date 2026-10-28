@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "ballistics-engine",
-  "version": "0.48.0",
+  "version": "0.49.0",
   "repository": "ajokela/ballistics-engine",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/ajokela/ballistics-engine/releases/download/v0.48.0/ballistics-0.48.0-windows-x86_64.exe",
-      "releaseTag": "v0.48.0",
-      "sha256": "83454db01b47afe239ba29867f4ce574850921bc502c82f1275dd4ed90010078",
-      "size": 12815360,
+    "linux-x64": {
+      "url": "https://github.com/ajokela/ballistics-engine/releases/download/v0.49.0/ballistics-0.49.0-linux-x86_64",
+      "sha256": "fe41aad11df949b3d7c5aef4ff8d6177fdd13d0e7b7b84d939aa2f14e3ce6d2a",
+      "size": 10664008,
       "format": "binary",
+      "releaseTag": "v0.49.0",
+      "binaries": {
+        "ballistics": {
+          "path": "ballistics-0.49.0-linux-x86_64",
+          "sha256": "fe41aad11df949b3d7c5aef4ff8d6177fdd13d0e7b7b84d939aa2f14e3ce6d2a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ajokela/ballistics-engine/releases/download/v0.49.0/ballistics-0.49.0-linux-aarch64",
+      "sha256": "2d134b24b61f8272f5ffce32de1a1352c21059c5814c82abd526389f0662230a",
+      "size": 9408000,
+      "format": "binary",
+      "releaseTag": "v0.49.0",
+      "binaries": {
+        "ballistics": {
+          "path": "ballistics-0.49.0-linux-aarch64",
+          "sha256": "2d134b24b61f8272f5ffce32de1a1352c21059c5814c82abd526389f0662230a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ajokela/ballistics-engine/releases/download/v0.49.0/ballistics-0.49.0-macos-x86_64",
+      "sha256": "d1b3dc14436a0d9aee64fa3d826e5de1bb7cfced8c830245b4778f3c5b0e081d",
+      "size": 10197696,
+      "format": "binary",
+      "releaseTag": "v0.49.0",
+      "binaries": {
+        "ballistics": {
+          "path": "ballistics-0.49.0-macos-x86_64",
+          "sha256": "d1b3dc14436a0d9aee64fa3d826e5de1bb7cfced8c830245b4778f3c5b0e081d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ajokela/ballistics-engine/releases/download/v0.49.0/ballistics-0.49.0-macos-aarch64",
+      "sha256": "571ad37c86750273c4abb24d656c148724dba66fbef4b416ca108a00f124c24e",
+      "size": 8825200,
+      "format": "binary",
+      "releaseTag": "v0.49.0",
+      "binaries": {
+        "ballistics": {
+          "path": "ballistics-0.49.0-macos-aarch64",
+          "sha256": "571ad37c86750273c4abb24d656c148724dba66fbef4b416ca108a00f124c24e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ajokela/ballistics-engine/releases/download/v0.49.0/ballistics-0.49.0-windows-x86_64.exe",
+      "sha256": "befc412fe2285fde7b412cf84e06c6e727232c7d2180cd19529aff7bd062d918",
+      "size": 12868096,
+      "format": "binary",
+      "releaseTag": "v0.49.0",
       "binaries": {
         "ballistics.exe": {
-          "path": "ballistics-0.48.0-windows-x86_64.exe",
-          "sha256": "83454db01b47afe239ba29867f4ce574850921bc502c82f1275dd4ed90010078"
+          "path": "ballistics-0.49.0-windows-x86_64.exe",
+          "sha256": "befc412fe2285fde7b412cf84e06c6e727232c7d2180cd19529aff7bd062d918"
         }
       }
     }
