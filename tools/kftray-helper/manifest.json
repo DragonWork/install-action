@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "kftray-helper",
-  "version": "0.33.0",
+  "version": "0.34.0",
   "repository": "hcavarsan/kftray",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.33.0/kftui_windows_x86_64.exe",
-      "releaseTag": "v0.33.0",
-      "sha256": "178d6c8094d06d28181e023fc30fba98efebc453f994c4d22f6c149499152d41",
-      "size": 20229632,
+    "linux-x64": {
+      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.34.0/kftui_linux_amd64",
+      "sha256": "da4c31987a01c7c68138a25468f91a8ac03147a98661863a4440579f463cc354",
+      "size": 27884880,
       "format": "binary",
+      "releaseTag": "v0.34.0",
+      "binaries": {
+        "kftray-helper": {
+          "path": "kftui_linux_amd64",
+          "sha256": "da4c31987a01c7c68138a25468f91a8ac03147a98661863a4440579f463cc354"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.34.0/kftui_linux_arm64",
+      "sha256": "aa38df8bce2351cf64d6fadcadf808455f0d929abc73be7f332a31c54756cda3",
+      "size": 27445256,
+      "format": "binary",
+      "releaseTag": "v0.34.0",
+      "binaries": {
+        "kftray-helper": {
+          "path": "kftui_linux_arm64",
+          "sha256": "aa38df8bce2351cf64d6fadcadf808455f0d929abc73be7f332a31c54756cda3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.34.0/kftui_macos_universal",
+      "sha256": "e40e7e3a6792a98c1c0fe540565741985bbe94704fa16cd6183c46d1dea03c7f",
+      "size": 46667808,
+      "format": "binary",
+      "releaseTag": "v0.34.0",
+      "binaries": {
+        "kftray-helper": {
+          "path": "kftui_macos_universal",
+          "sha256": "e40e7e3a6792a98c1c0fe540565741985bbe94704fa16cd6183c46d1dea03c7f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.34.0/kftui_macos_universal",
+      "sha256": "e40e7e3a6792a98c1c0fe540565741985bbe94704fa16cd6183c46d1dea03c7f",
+      "size": 46667808,
+      "format": "binary",
+      "releaseTag": "v0.34.0",
+      "binaries": {
+        "kftray-helper": {
+          "path": "kftui_macos_universal",
+          "sha256": "e40e7e3a6792a98c1c0fe540565741985bbe94704fa16cd6183c46d1dea03c7f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.34.0/kftui_windows_x86_64.exe",
+      "sha256": "d8a9a7f79d19529f5087e4ff01f77a5aa5094f5aa84d7dbbd696ed38286c5a28",
+      "size": 20263424,
+      "format": "binary",
+      "releaseTag": "v0.34.0",
       "binaries": {
         "kftray-helper.exe": {
           "path": "kftui_windows_x86_64.exe",
-          "sha256": "178d6c8094d06d28181e023fc30fba98efebc453f994c4d22f6c149499152d41"
+          "sha256": "d8a9a7f79d19529f5087e4ff01f77a5aa5094f5aa84d7dbbd696ed38286c5a28"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.33.0/kftui_windows_arm64.exe",
-      "releaseTag": "v0.33.0",
-      "sha256": "87842d746ea68d6c5b379444da2e81ec1f8e176a123faaede3c5382d201965b7",
-      "size": 17458176,
+      "url": "https://github.com/hcavarsan/kftray/releases/download/v0.34.0/kftui_windows_arm64.exe",
+      "sha256": "db92a9eaa2697bf277100730a278c4bff90af09f4adb4c2453326cfd42fbefa3",
+      "size": 17491968,
       "format": "binary",
+      "releaseTag": "v0.34.0",
       "binaries": {
         "kftray-helper.exe": {
           "path": "kftui_windows_arm64.exe",
-          "sha256": "87842d746ea68d6c5b379444da2e81ec1f8e176a123faaede3c5382d201965b7"
+          "sha256": "db92a9eaa2697bf277100730a278c4bff90af09f4adb4c2453326cfd42fbefa3"
         }
       }
     }
