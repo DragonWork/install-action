@@ -1,71 +1,84 @@
 {
   "schema": 1,
   "name": "espup",
-  "version": "0.17.1",
+  "version": "0.19.0",
   "repository": "esp-rs/espup",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/esp-rs/espup/releases/download/v0.17.1/espup-x86_64-unknown-linux-gnu.zip",
-      "releaseTag": "v0.17.1",
-      "sha256": "dd8625b3742b2f74ce406286baef8ee67525d63b25ea303ddf7473ed2cc31192",
-      "size": 5205939,
+      "url": "https://github.com/esp-rs/espup/releases/download/v0.19.0/espup-x86_64-unknown-linux-gnu.zip",
+      "sha256": "e7ebeaa9085a9a4c0d4eedb6cd4d6e030d9a17c64c3534004f7b444dc5212a5e",
+      "size": 5295591,
       "format": "zip",
+      "releaseTag": "v0.19.0",
       "binaries": {
         "espup": {
           "path": "espup",
-          "sha256": "dbe54e9907b687809dbe1b955731569ed6df2b525362710d676256c5c8cf9ccd"
+          "sha256": "f31411c64dffff4da0f0e23c432b9a5fda48942ff8695b8b21009ceb7007bcc0"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/esp-rs/espup/releases/download/v0.17.1/espup-aarch64-unknown-linux-gnu.zip",
-      "releaseTag": "v0.17.1",
-      "sha256": "9b0082414a962edfdd62aeebba07e8eaf3009477e78903a6bc656775f2f1dbe7",
-      "size": 4814629,
+      "url": "https://github.com/esp-rs/espup/releases/download/v0.19.0/espup-aarch64-unknown-linux-gnu.zip",
+      "sha256": "6c2c754afc64b52ebc3fbf0701aa6a5c7322b781f30b2957c9fee2a1ec8d8a2d",
+      "size": 4906306,
       "format": "zip",
+      "releaseTag": "v0.19.0",
       "binaries": {
         "espup": {
           "path": "espup",
-          "sha256": "2c2275cc937f33f64d65bed4338aa4216f2c70c9dfe5e563b9942cd936088b0c"
+          "sha256": "a7e841449edbc78ce2443416e90027890b52896698767b6e45a5caafc880498b"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/esp-rs/espup/releases/download/v0.17.1/espup-x86_64-apple-darwin.zip",
-      "releaseTag": "v0.17.1",
-      "sha256": "c51cf3d7a91c5e24de680812cf110fa58a4315ed80b8d1af8e74f89088d8b861",
-      "size": 5126205,
+      "url": "https://github.com/esp-rs/espup/releases/download/v0.19.0/espup-x86_64-apple-darwin.zip",
+      "sha256": "5f642b8fe6fcbc9eeff4d447157f243ac4b56021832032d32cc7791a57e88d4f",
+      "size": 5184552,
       "format": "zip",
+      "releaseTag": "v0.19.0",
       "binaries": {
         "espup": {
           "path": "espup",
-          "sha256": "8ab7794dc30e6a26d70364c741a024043f2733dac792939e78550b66358ad095"
+          "sha256": "f075dd9ca0e9c64ee5f342b27f9cf25369e2445fd67ac39f51aac7f39078916d"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/esp-rs/espup/releases/download/v0.17.1/espup-aarch64-apple-darwin.zip",
-      "releaseTag": "v0.17.1",
-      "sha256": "93bff02d2e3f37eb5c0ab68b2016fcbeb5e9aa0334f8f47e5ec63a219daace91",
-      "size": 4784682,
+      "url": "https://github.com/esp-rs/espup/releases/download/v0.19.0/espup-aarch64-apple-darwin.zip",
+      "sha256": "e0ea25046cfdf4b209472c299c3121e6ca61eef30efa2c045e035b17e2732318",
+      "size": 4778891,
       "format": "zip",
+      "releaseTag": "v0.19.0",
       "binaries": {
         "espup": {
           "path": "espup",
-          "sha256": "ab0e937d659396ed2b3b0c0f74d29bdf570217f096ea88fa58b8966cf4d32cba"
+          "sha256": "e18e722774b5fa2e8de73753ffe14370a621af7366ad5bdb73d7c42054fa2cdd"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/esp-rs/espup/releases/download/v0.17.1/espup-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.17.1",
-      "sha256": "f3a2d372e6f04f67a2adb7ff310ad336d9d475a5c4ce2c0c7855792875981bf0",
-      "size": 4874110,
+      "url": "https://github.com/esp-rs/espup/releases/download/v0.19.0/espup-x86_64-pc-windows-msvc.zip",
+      "sha256": "b6ffcdd229181417ac40fede4eb7cb4f1f1fb2df327d25720fa1b4942390d038",
+      "size": 5175688,
       "format": "zip",
+      "releaseTag": "v0.19.0",
       "binaries": {
         "espup.exe": {
           "path": "espup.exe",
-          "sha256": "17d077a06f928e5dab0df39b1c00c62bdfce70332d3a2b25d4c2b8bdce65215a"
+          "sha256": "c0ceeb4894064cfedb0e3c6e31173d260719d47578843823f81f84fe6fbacf96"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/esp-rs/espup/releases/download/v0.19.0/espup-aarch64-pc-windows-msvc.zip",
+      "sha256": "2e773a3ffb46fec665031212d680354aca2769ef50426b47cd0427fba785e949",
+      "size": 4929553,
+      "format": "zip",
+      "releaseTag": "v0.19.0",
+      "binaries": {
+        "espup.exe": {
+          "path": "espup.exe",
+          "sha256": "9a11605eeb29bc4edef4ead67b6fcac85f9d5af8dda2ddae2b90b6d850aff63d"
         }
       }
     }
