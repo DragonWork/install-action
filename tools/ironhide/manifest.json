@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "ironhide",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "repository": "IronCoreLabs/ironhide",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.1/ironhide-1.1.1-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "1.1.1",
-      "sha256": "5f935157f7c1a9f36a05774182b716c265c8c7cee70f579397317a31f361e47b",
-      "size": 5228806,
+      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.2/ironhide-1.1.2-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "912acd8334d218cab63fd2efc49d85dc294bb0eef4b168c272c770bed908ee85",
+      "size": 5232749,
       "format": "tar.gz",
+      "releaseTag": "1.1.2",
       "binaries": {
         "ironhide": {
-          "path": "ironhide-1.1.1-x86_64-unknown-linux-musl/ironhide",
-          "sha256": "3cf47ed71138c94da05de7b4378bc2eb180db202a0065abd65e968eb632c4375"
+          "path": "ironhide-1.1.2-x86_64-unknown-linux-musl/ironhide",
+          "sha256": "f0d611a472ed1c4fb95f38eacdf150f677f91282c253c6515ac779a809097141"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.1/ironhide-1.1.1-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "1.1.1",
-      "sha256": "aaecf18a65da67415a46f0cad17f05064123fd010e8a33847009ce2317a4602e",
-      "size": 5682034,
+      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.2/ironhide-1.1.2-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "d76a1e8f7031b7c9db33486a4129c6497bd9e6e6de128f4a362ad6b44f8d459d",
+      "size": 5774333,
       "format": "tar.gz",
+      "releaseTag": "1.1.2",
       "binaries": {
         "ironhide": {
-          "path": "ironhide-1.1.1-aarch64-unknown-linux-gnu/ironhide",
-          "sha256": "303f082887f5b9819cd2bae054f32abf67a3ad634f2012a49b71dd805287c295"
+          "path": "ironhide-1.1.2-aarch64-unknown-linux-gnu/ironhide",
+          "sha256": "a4607245a983c6130f7a701f4b6a4feb3c7d13f980c81e646f46902f7eea846d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.1/ironhide-1.1.1-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "1.1.1",
-      "sha256": "496ae86d66cc5ba0dac3e64555c53ed3ccb00e8f1ff6b0ca2dad8ad0e04b8226",
-      "size": 5045428,
+      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.2/ironhide-1.1.2-x86_64-apple-darwin.tar.gz",
+      "sha256": "8f7c1e33b23417801264ed5311b72e5887c977786626c402bc66f570b44cc0c8",
+      "size": 5020068,
       "format": "tar.gz",
+      "releaseTag": "1.1.2",
       "binaries": {
         "ironhide": {
-          "path": "ironhide-1.1.1-x86_64-apple-darwin/ironhide",
-          "sha256": "4390d25c188daadded73fcdcfe0cdf6d48b44df428fb234304e6c3618562c973"
+          "path": "ironhide-1.1.2-x86_64-apple-darwin/ironhide",
+          "sha256": "b08dcf2056f226e2ce2a3e774fcc7895787077c9a0d0f2b171c193872d723a17"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.1/ironhide-1.1.1-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "1.1.1",
-      "sha256": "8d9daa06ab84a0e0daf74febcca55c59f9a26a43688802b9cb9217647949f051",
-      "size": 4663433,
+      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.2/ironhide-1.1.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "5f66478ce1f34308f6b7f74535ce9489f0406bea52a24ee9338ff104d44d1260",
+      "size": 4662881,
       "format": "tar.gz",
+      "releaseTag": "1.1.2",
       "binaries": {
         "ironhide": {
-          "path": "ironhide-1.1.1-aarch64-apple-darwin/ironhide",
-          "sha256": "3c69561d748a7aff6a4a95e6796559146c141175014a4898155c5a01b6eda8bf"
+          "path": "ironhide-1.1.2-aarch64-apple-darwin/ironhide",
+          "sha256": "aaa802531c2a3612961b297227ec06295bb42e52f5ba978ea994acbf20b8f2f1"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.1/ironhide-1.1.1-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "1.1.1",
-      "sha256": "3f37cd3cf68b70e9030999d4aeac0918c8d6608dbe1f2577b26e06f62c83a9da",
-      "size": 4627340,
+      "url": "https://github.com/IronCoreLabs/ironhide/releases/download/1.1.2/ironhide-1.1.2-x86_64-pc-windows-msvc.zip",
+      "sha256": "5fa28c93d246dee6e1164d8700995429a43fcdd96806c134e2d50ecbec180606",
+      "size": 4657786,
       "format": "zip",
+      "releaseTag": "1.1.2",
       "binaries": {
         "ironhide.exe": {
-          "path": "ironhide-1.1.1-x86_64-pc-windows-msvc/ironhide.exe",
-          "sha256": "f9b05e15aa9d7eb77ecb72625e1f30dc5df4fd50846d4691b107e17b52e47db2"
+          "path": "ironhide-1.1.2-x86_64-pc-windows-msvc/ironhide.exe",
+          "sha256": "cfb3f45367d007a8424527f6cf61d6d7201cf2abbf2f59b28885179a9cee26e1"
         }
       }
     }
