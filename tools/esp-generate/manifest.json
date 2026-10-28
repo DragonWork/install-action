@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "esp-generate",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "repository": "esp-rs/esp-generate",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-x86_64-unknown-linux-gnu.zip",
-      "releaseTag": "v1.4.0",
-      "sha256": "06306a25fecc1bd1c1e6b6ea0c05137086fea1f37bd83ba80f57ba5cfebf44f1",
-      "size": 3032115,
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v2.0.0/esp-generate-x86_64-unknown-linux-gnu.zip",
+      "sha256": "72ac9b601280cbb18bfef798212b7edd37b380e889fa3473b1ef3f52fb41c988",
+      "size": 3511957,
       "format": "zip",
+      "releaseTag": "v2.0.0",
       "binaries": {
         "esp-generate": {
           "path": "esp-generate",
-          "sha256": "a2b174a8882ca5545ec85a2ea8415480d688ed1b9a6733735c9126a58edfbbbd"
+          "sha256": "6264cfe9bcf960f40e47d6beab40d6f59f2513380fef4af0e5dfa5487c3604cf"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-aarch64-unknown-linux-gnu.zip",
-      "releaseTag": "v1.4.0",
-      "sha256": "64d945754a55564e2bb16622cf03afe7a606db9be7e299326707be320f73839a",
-      "size": 2928098,
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v2.0.0/esp-generate-aarch64-unknown-linux-gnu.zip",
+      "sha256": "5fe81f9d452227c473d7362213c51ccc7b5365ba24b5579c6d8a3d0c52c0c741",
+      "size": 3393447,
       "format": "zip",
+      "releaseTag": "v2.0.0",
       "binaries": {
         "esp-generate": {
           "path": "esp-generate",
-          "sha256": "930a94c4b4b93f024771ac402e788eeca3e7d71fa7cb20a37f717ea61fc01cc1"
+          "sha256": "197bf26f093a58ecb4c6ea423ef84cc159c8f0c66da52e4de323e5fdf8d3292e"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-x86_64-apple-darwin.zip",
-      "releaseTag": "v1.4.0",
-      "sha256": "23f2250bd6916e1853bd66dbaa412519fdf62666591401b1ec93e875fa775439",
-      "size": 2847081,
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v2.0.0/esp-generate-x86_64-apple-darwin.zip",
+      "sha256": "166254a06f77023cf6914696c69814d0803e094681bbf83c3656632e520e42d4",
+      "size": 3285706,
       "format": "zip",
+      "releaseTag": "v2.0.0",
       "binaries": {
         "esp-generate": {
           "path": "esp-generate",
-          "sha256": "a1daf952ebca8e255143edd2cf61753c2b328eee247ff80d74dc26ecfa73f40e"
+          "sha256": "73434b8765273ea0aab8fc78f71f0172ac54081b8b258c89f4551ae46116914f"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-aarch64-apple-darwin.zip",
-      "releaseTag": "v1.4.0",
-      "sha256": "8532d1a6d742128444b977984ee70b8be0b07888d6cddd6b5727fa9146b5dbc6",
-      "size": 2697968,
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v2.0.0/esp-generate-aarch64-apple-darwin.zip",
+      "sha256": "43431ddeefa8f37b7ea1703b4f408d09c7a7655aae5a4ed4e4b8f8c9dab6fdfe",
+      "size": 3121356,
       "format": "zip",
+      "releaseTag": "v2.0.0",
       "binaries": {
         "esp-generate": {
           "path": "esp-generate",
-          "sha256": "77ec1a89fdb5a6b39d44a5805ed4fa1c66fb3e93ad57dc119356faf931e77562"
+          "sha256": "5f56808c9cd0877f58a021c32458a4c35f448f8bfdb5e1eeb9f3fb2641f22065"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/esp-rs/esp-generate/releases/download/v1.4.0/esp-generate-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v1.4.0",
-      "sha256": "1728cd077b5517c322402c3e5a89987f59fa1b2da5b6af174d6446a8dd8e9675",
-      "size": 2592966,
+      "url": "https://github.com/esp-rs/esp-generate/releases/download/v2.0.0/esp-generate-x86_64-pc-windows-msvc.zip",
+      "sha256": "be622038e461646ff3d7aa8bcb6d8bd91f7a86c79a2d32e328f37f52aecc769d",
+      "size": 3005182,
       "format": "zip",
+      "releaseTag": "v2.0.0",
       "binaries": {
         "esp-generate.exe": {
           "path": "esp-generate.exe",
-          "sha256": "94d28baa5596e3f37a6a92871b1d37176e4ad8425aae8669b454ca69710f9a91"
+          "sha256": "576257b9759a7a7ceb4e61bcb20e14a3a555088a7bd8d7a67db6427d599434ef"
         }
       }
     }
