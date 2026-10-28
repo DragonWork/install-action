@@ -1,108 +1,108 @@
 {
   "schema": 1,
   "name": "running-process",
-  "version": "4.10.17",
+  "version": "4.10.20",
   "repository": "zackees/running-process",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/zackees/running-process/releases/download/4.10.17/running-process-4.10.17-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "6149bdfa708cec20ca6779cadc288dd642b0b55f82af4121e92d9bae02093a5a",
-      "size": 12814749,
+      "url": "https://github.com/zackees/running-process/releases/download/4.10.20/running-process-4.10.20-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "abb514d959392bf5c1d49adf337ac9a33264c0b91c936a8c0bd57832136add59",
+      "size": 12674304,
       "format": "tar.gz",
-      "releaseTag": "4.10.17",
+      "releaseTag": "4.10.20",
       "binaries": {
         "running-process-daemon": {
-          "path": "running-process-4.10.17-x86_64-unknown-linux-gnu/running-process-daemon",
-          "sha256": "920271b4fc03cb02c7ba1fd4f9b0018476779f490d93391d48db4794d263a370"
+          "path": "running-process-4.10.20-x86_64-unknown-linux-gnu/running-process-daemon",
+          "sha256": "2c09db4eb1cde86119473c07368b835a4b5b18982e85e8e2c60f8527dfb98d3d"
         },
         "runpm": {
-          "path": "running-process-4.10.17-x86_64-unknown-linux-gnu/runpm",
-          "sha256": "445699e174ad760e764052a770a44e6ddeb5c36cf9724112cba75e3f64b83d1c"
+          "path": "running-process-4.10.20-x86_64-unknown-linux-gnu/runpm",
+          "sha256": "cc1c74fa100ade5efa57a2b6c33b13d04acb5962f0ee5e6f33365af11bcd85d3"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/zackees/running-process/releases/download/4.10.17/running-process-4.10.17-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "ac9a876e9798a1c792d2d58b1f6878db30e18b7d1cad8b251a4f01f298f6c3e9",
-      "size": 12566312,
+      "url": "https://github.com/zackees/running-process/releases/download/4.10.20/running-process-4.10.20-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "414bf4a5eeb836b974b44a9a6301be0624790c397211b02f4f695ce1d5a3abf7",
+      "size": 12467542,
       "format": "tar.gz",
-      "releaseTag": "4.10.17",
+      "releaseTag": "4.10.20",
       "binaries": {
         "running-process-daemon": {
-          "path": "running-process-4.10.17-aarch64-unknown-linux-gnu/running-process-daemon",
-          "sha256": "b79ed10af2d2dbeabe37ef421883bb1a4551c0e4c33f7cb8221e095309116683"
+          "path": "running-process-4.10.20-aarch64-unknown-linux-gnu/running-process-daemon",
+          "sha256": "16e83867646c58936b346717aa62a4e4fd3715891aa6daa280d0e495ab9ba3c5"
         },
         "runpm": {
-          "path": "running-process-4.10.17-aarch64-unknown-linux-gnu/runpm",
-          "sha256": "ca0ca49117a30b2f65b6ede3b4576b979f49703eb67ecd1b67ce867d92bbee07"
+          "path": "running-process-4.10.20-aarch64-unknown-linux-gnu/runpm",
+          "sha256": "6d779a298f44e596633a331c466f3c49b865102e84174ffc6971cd0689ff5923"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/zackees/running-process/releases/download/4.10.17/running-process-4.10.17-x86_64-apple-darwin.tar.gz",
-      "sha256": "172bad9dd8419fae0d10fbac7d08f8d5c8d1df8ae00015ba6e08329183c1f4f5",
-      "size": 4199020,
+      "url": "https://github.com/zackees/running-process/releases/download/4.10.20/running-process-4.10.20-x86_64-apple-darwin.tar.gz",
+      "sha256": "af70be72cf4b35f3f0150bc16f0c3e0d899beb1c31b06baf95d4a2234dac1584",
+      "size": 4186878,
       "format": "tar.gz",
-      "releaseTag": "4.10.17",
+      "releaseTag": "4.10.20",
       "binaries": {
         "running-process-daemon": {
-          "path": "running-process-4.10.17-x86_64-apple-darwin/running-process-daemon",
-          "sha256": "ab657e4f8ebc6c833cef9816f832760bb8ae35542fd330ff3e7054d9512e168f"
+          "path": "running-process-4.10.20-x86_64-apple-darwin/running-process-daemon",
+          "sha256": "6b161687696eef570c588b15d946a2b0e17152b8fe68ef786a9f0bde1ec7c712"
         },
         "runpm": {
-          "path": "running-process-4.10.17-x86_64-apple-darwin/runpm",
-          "sha256": "2796ec684916f4095216f8ddf93932e8e96f72dfeb81f512dd675504da786874"
+          "path": "running-process-4.10.20-x86_64-apple-darwin/runpm",
+          "sha256": "5b1c3ff1397078ff22f32aaf77a028bff9e1b1422c1c75a5560a35cad1b52197"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/zackees/running-process/releases/download/4.10.17/running-process-4.10.17-aarch64-apple-darwin.tar.gz",
-      "sha256": "5698664e98efb4d0597f297ef240f7f30094d967b8cc187bdafdf1fb5ef7a803",
-      "size": 4058463,
+      "url": "https://github.com/zackees/running-process/releases/download/4.10.20/running-process-4.10.20-aarch64-apple-darwin.tar.gz",
+      "sha256": "85037915b7078e555da7b42c95b6876bdb99be78a03f5c5b586c6d7fe7ee0191",
+      "size": 4041392,
       "format": "tar.gz",
-      "releaseTag": "4.10.17",
+      "releaseTag": "4.10.20",
       "binaries": {
         "running-process-daemon": {
-          "path": "running-process-4.10.17-aarch64-apple-darwin/running-process-daemon",
-          "sha256": "0d1b3bdef9be58d1a081248859daf70c27b278a96a2f9831fd37c1eb05c650d1"
+          "path": "running-process-4.10.20-aarch64-apple-darwin/running-process-daemon",
+          "sha256": "0e8666b6d073c70a2b069caa8581305615ea48d5317c2e9eb3656b17252b2f0b"
         },
         "runpm": {
-          "path": "running-process-4.10.17-aarch64-apple-darwin/runpm",
-          "sha256": "3420209cbaccd2cd046cbbef77a979630c5bb905176ef89ac2cb229029d04e91"
+          "path": "running-process-4.10.20-aarch64-apple-darwin/runpm",
+          "sha256": "659a4733d48e82a683263d8fccb1f2016619ad2429f9a906ffda34a81151029d"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/zackees/running-process/releases/download/4.10.17/running-process-4.10.17-x86_64-pc-windows-msvc.zip",
-      "sha256": "df4972d88084e62ccfe70211e35ee60067c6fa4c27f8f4d8eeec38a038ff0308",
-      "size": 5747657,
+      "url": "https://github.com/zackees/running-process/releases/download/4.10.20/running-process-4.10.20-x86_64-pc-windows-msvc.zip",
+      "sha256": "637dae957be24ad059128e84b295bc362f7a619ca7f3d418fff9e897019b5c84",
+      "size": 5713407,
       "format": "zip",
-      "releaseTag": "4.10.17",
+      "releaseTag": "4.10.20",
       "binaries": {
         "running-process-daemon.exe": {
-          "path": "running-process-4.10.17-x86_64-pc-windows-msvc/running-process-daemon.exe",
-          "sha256": "eca538ba9cdb07005bb97df37502e0ec20a391493c8df22225d6f1b4e28aa2f1"
+          "path": "running-process-4.10.20-x86_64-pc-windows-msvc/running-process-daemon.exe",
+          "sha256": "0a05a7d5487651ed593479cc6220f923511ff86724814f0dcf4acc3460597ede"
         },
         "runpm.exe": {
-          "path": "running-process-4.10.17-x86_64-pc-windows-msvc/runpm.exe",
-          "sha256": "e5ff243675784bc5e171c9ae6aaa3731a45d90da8a64a21f23a81526660c498b"
+          "path": "running-process-4.10.20-x86_64-pc-windows-msvc/runpm.exe",
+          "sha256": "b6fa5624d11203d53ffb3b1fc758d9c5cdd4ab809294f67b4261c9151eaf9955"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/zackees/running-process/releases/download/4.10.17/running-process-4.10.17-aarch64-pc-windows-msvc.zip",
-      "sha256": "d127e512fc8fea6f2676b63c135668bc1103c7555699443d71d065b2be001f5d",
-      "size": 5425902,
+      "url": "https://github.com/zackees/running-process/releases/download/4.10.20/running-process-4.10.20-aarch64-pc-windows-msvc.zip",
+      "sha256": "6d5e5e8b42619142bce7c371a650ce3a5372044088f427ffb448ab13d9cc1800",
+      "size": 5414086,
       "format": "zip",
-      "releaseTag": "4.10.17",
+      "releaseTag": "4.10.20",
       "binaries": {
         "running-process-daemon.exe": {
-          "path": "running-process-4.10.17-aarch64-pc-windows-msvc/running-process-daemon.exe",
-          "sha256": "b1f789a5dcebdd2da57ae8d79b67b6adb317e6eea6010a80a95cd117d5d15eae"
+          "path": "running-process-4.10.20-aarch64-pc-windows-msvc/running-process-daemon.exe",
+          "sha256": "1ec34b2b34993043885cb270128ebe611841d77928be53a1a61d7aac217b68e4"
         },
         "runpm.exe": {
-          "path": "running-process-4.10.17-aarch64-pc-windows-msvc/runpm.exe",
-          "sha256": "5fdebb7beb980252fb9b488dbd2d4716ec9b9b3b1aff581b5c7c1cd1378d39ff"
+          "path": "running-process-4.10.20-aarch64-pc-windows-msvc/runpm.exe",
+          "sha256": "fd78631cd493a4ffc10c6bead0487aafb04137f9f8eae6a0250d98189ea2946c"
         }
       }
     }
