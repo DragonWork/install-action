@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "viceroy",
-  "version": "0.21.1",
+  "version": "0.22.0",
   "repository": "fastly/Viceroy",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_linux-amd64.tar.gz",
-      "releaseTag": "v0.21.1",
-      "sha256": "54a5b46ab05ce1492f4df136728b2eb81b350cb42da5d9f2eec66558ddc1e233",
-      "size": 13772277,
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.22.0/viceroy_v0.22.0_linux-amd64.tar.gz",
+      "sha256": "03f66f27275e8adc0c1857c4f571bd6f5ae997e38cc43760b19c6840a92b298d",
+      "size": 14548443,
       "format": "tar.gz",
+      "releaseTag": "v0.22.0",
       "binaries": {
         "viceroy": {
           "path": "viceroy",
-          "sha256": "881dc618935b9d8c2f04bb8e3c2f2199d77f2a1415be141755fbe0cd7682e5b9"
+          "sha256": "f36b911a9ffd2c85816d62f5a56d347e40530f9b62cbeaa9bac128bc2eeb1c32"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_linux-arm64.tar.gz",
-      "releaseTag": "v0.21.1",
-      "sha256": "145ad45e5f42d640e1d02ab7313890a518fce92e14826599ef3cf9a6bb59f427",
-      "size": 12272786,
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.22.0/viceroy_v0.22.0_linux-arm64.tar.gz",
+      "sha256": "414c438938984572a5911c7491471a1a8bff6808c9e371c84704f6d0df43ded3",
+      "size": 12873426,
       "format": "tar.gz",
+      "releaseTag": "v0.22.0",
       "binaries": {
         "viceroy": {
           "path": "viceroy",
-          "sha256": "fe41e4f3cc17de08ec68248665e41e12e9b8f353440730e460e4fe0647f2d912"
+          "sha256": "6ca579c656062aac2991e631b6655edcdab2c049033623ba6b2a5eced8648102"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_darwin-amd64.tar.gz",
-      "releaseTag": "v0.21.1",
-      "sha256": "dbdca091ccce3c71c91f0245065afd5effc1e83abb3c7588d0167c68d24be867",
-      "size": 13194416,
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.22.0/viceroy_v0.22.0_darwin-amd64.tar.gz",
+      "sha256": "115b9a08c41fa94b656cfc1b7698d9e16c0f255f692242a3025cb488bf2001ce",
+      "size": 14039644,
       "format": "tar.gz",
+      "releaseTag": "v0.22.0",
       "binaries": {
         "viceroy": {
           "path": "viceroy",
-          "sha256": "e71b27d042a42541cbcc7de167f27885bbc5135125d464da11e84328730c2735"
+          "sha256": "36309d0b9fa044f3ffaa74159856e41d644c432bfa01a842b9b986003b333de5"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_darwin-arm64.tar.gz",
-      "releaseTag": "v0.21.1",
-      "sha256": "6b51aae210a6f875df6344b45a4310b0f913478a1747c63f39c13f364a5a99e9",
-      "size": 11718969,
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.22.0/viceroy_v0.22.0_darwin-arm64.tar.gz",
+      "sha256": "515860ff63e663c2e9215fe4c59124dc22e2d5e7d8f327f6b0b667996e5759a0",
+      "size": 12411186,
       "format": "tar.gz",
+      "releaseTag": "v0.22.0",
       "binaries": {
         "viceroy": {
           "path": "viceroy",
-          "sha256": "fc300629a866d53351cdddd8d49c1847cb54f1b44d52cfdd864b69801e8770e4"
+          "sha256": "b3aa90bc77e9ad8a0510c16bb0a236e64480027a2c6e1c09c6457330025d376c"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/fastly/Viceroy/releases/download/v0.21.1/viceroy_v0.21.1_windows-amd64.tar.gz",
-      "releaseTag": "v0.21.1",
-      "sha256": "a145592a1d9fabd555368402765ae075c4796ff38c18c176928a9edf6adb18b2",
-      "size": 14353748,
+      "url": "https://github.com/fastly/Viceroy/releases/download/v0.22.0/viceroy_v0.22.0_windows-amd64.tar.gz",
+      "sha256": "bb91b372e29e93bd9514beb416c2e7fc9ae8dafe419b84bbb0c5af2795a33617",
+      "size": 14838761,
       "format": "tar.gz",
+      "releaseTag": "v0.22.0",
       "binaries": {
         "viceroy.exe": {
           "path": "viceroy.exe",
-          "sha256": "966debddadcf357f955f451c0d917c4b1dd8bd07399fea849c8421bef5ae8cc6"
+          "sha256": "0881f082551145b7de31906b4671ca9543e8576b03555397a7b58ec3917e8680"
         }
       }
     }
