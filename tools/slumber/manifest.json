@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "slumber",
-  "version": "5.4.3",
+  "version": "5.4.4",
   "repository": "LucasPickering/slumber",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v5.4.3",
-      "sha256": "4e117a39f4dd1920fcd6a29e0f23462144cfce89db7e65d1e2c0480ed961039e",
-      "size": 7493300,
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.4/slumber-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "3f95312ed2c3e2ef058c4253898bd6f1d979b93af708c8691e36cc82c35a53be",
+      "size": 7489064,
       "format": "tar.xz",
+      "releaseTag": "v5.4.4",
       "binaries": {
         "slumber": {
           "path": "slumber-x86_64-unknown-linux-musl/slumber",
-          "sha256": "8a54cbffef658a55c7e95a3459d9c61e6d1e8e90fbf5418e58c23c044d320beb"
+          "sha256": "f75e3c53fb61d87a3b32cd550724beba3d03e000ef8c4c2bf9531ba1eddcd738"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-aarch64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v5.4.3",
-      "sha256": "fbcf11fe2e7fa00b16d183c160bbb91525ffe883058d1c4e4adba82417f2d291",
-      "size": 6758292,
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.4/slumber-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "34ab05b515c031ef3532416a1b72a2059e55c2dc4ce4e2eeff96dd982ce5238e",
+      "size": 6752540,
       "format": "tar.xz",
+      "releaseTag": "v5.4.4",
       "binaries": {
         "slumber": {
           "path": "slumber-aarch64-unknown-linux-musl/slumber",
-          "sha256": "f1495d10b2f7ce584c7ed16f45a2690932312d9a68cd496f15752a3a9e1ebb3c"
+          "sha256": "706b4416e0b4191582604e6ed3611d3b2379b95a822161c3c93e69f161b07835"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v5.4.3",
-      "sha256": "0203c1fa898d55e9735ce3fb9d8e0ccd6b3c69717f247a1d2f6f7cb02cb85356",
-      "size": 6892800,
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.4/slumber-x86_64-apple-darwin.tar.xz",
+      "sha256": "d5eb1bd9218d45e3a2e804a50697363120b24f36214f890cdf8e1a81e3295e8b",
+      "size": 6893284,
       "format": "tar.xz",
+      "releaseTag": "v5.4.4",
       "binaries": {
         "slumber": {
           "path": "slumber-x86_64-apple-darwin/slumber",
-          "sha256": "5cc45acc10e1b412e71ed0a749cd0eb372145b8f0ae181d5b10d98deb45e4293"
+          "sha256": "2091624da2edf2c2f5952589454ed99854587f93ae4b5b5c69d494f105f1a89b"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v5.4.3",
-      "sha256": "fbbbc2fb9fab5d83937bd8b8bc7f90b844cff064a75e5181ec3b7eb7476af2ec",
-      "size": 6267468,
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.4/slumber-aarch64-apple-darwin.tar.xz",
+      "sha256": "6b4039cc3aa322053dff1b3236fb6515c375c41f79b6540ee53f5c93dc5d3509",
+      "size": 6268112,
       "format": "tar.xz",
+      "releaseTag": "v5.4.4",
       "binaries": {
         "slumber": {
           "path": "slumber-aarch64-apple-darwin/slumber",
-          "sha256": "5420918842c970912aea21650cca0cbf6750d4ad84c73ef88d6a70663c86345f"
+          "sha256": "d3cf74ea4c7e6121e3c1ef33854f947912c3267db72290d74e2ba111818023d7"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v5.4.3",
-      "sha256": "b413981b1f0009b6bc0548a7e23b3cdfa1c9f7bb1d0104b3c9bdddafc19a4fdc",
-      "size": 10450149,
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.4/slumber-x86_64-pc-windows-msvc.zip",
+      "sha256": "554516f5b666a5fe9d79ebfee1f4d00518c78f7f3ae8a15c4f1050d54c238e17",
+      "size": 10450695,
       "format": "zip",
+      "releaseTag": "v5.4.4",
       "binaries": {
         "slumber.exe": {
           "path": "slumber.exe",
-          "sha256": "8a41f1d75e208287c55dec366d7908e5cf97f00422b4bc8ee28ffa69149dfb96"
+          "sha256": "d7fc4bbb6d6e280f9073fa666411fe17bab49ff5ea5f599b7b6f5033d2ee2bbe"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.3/slumber-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v5.4.3",
-      "sha256": "0cf552ed3de94fea48f8751e454dcc76c22914f6445c08fe48a83137ec675e76",
-      "size": 9516919,
+      "url": "https://github.com/LucasPickering/slumber/releases/download/v5.4.4/slumber-aarch64-pc-windows-msvc.zip",
+      "sha256": "3c3006cd91e8ddcf0ea9b027995daca8855fb0d54700d088994b243d98e33d10",
+      "size": 9518658,
       "format": "zip",
+      "releaseTag": "v5.4.4",
       "binaries": {
         "slumber.exe": {
           "path": "slumber.exe",
-          "sha256": "082e6b09dfb5a8949e594b0f6d1ac039e7d2891baf15e5860c76ba86c8634f4f"
+          "sha256": "e41eda26d5f339f494aff1270fd78bfaa6509d2fce4342e661fd330438fbbfbb"
         }
       }
     }
