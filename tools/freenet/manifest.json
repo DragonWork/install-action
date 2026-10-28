@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "freenet",
-  "version": "0.2.150",
+  "version": "0.2.151",
   "repository": "freenet/freenet-core",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.150/freenet-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "095fe6fcb88778dab9c24af27390f9f78188ba73f32868544d4fbf73ab0b81b2",
-      "size": 22728408,
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.151/freenet-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "ab1731b2d7b0e4366650a6bf0589e96ee8e5dacb9b3465858bcc44fa3af88db2",
+      "size": 22749737,
       "format": "tar.gz",
-      "releaseTag": "v0.2.150",
+      "releaseTag": "v0.2.151",
       "binaries": {
         "freenet": {
           "path": "freenet",
-          "sha256": "0a437b5c5f5e3d1fe91d184c6aa9f7012bf132a20718c5df4c55fa2d4c0a389b"
+          "sha256": "0e174f8e41bffeeeeb98a5d4ec86d2f3e297d41e2422a144e5ff17b9dcc5d064"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.150/freenet-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "1064ac76ad87e07e1af35f6bb69d5b1036eea3c184a62ae96136ac8cc683b98f",
-      "size": 21323195,
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.151/freenet-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "64e63796be669574e6d2967645aa018e7c7c536f4fc77ffbb3d44a85dd6a1fb6",
+      "size": 21311786,
       "format": "tar.gz",
-      "releaseTag": "v0.2.150",
+      "releaseTag": "v0.2.151",
       "binaries": {
         "freenet": {
           "path": "freenet",
-          "sha256": "03bd7dabb6b2c59536feb0115a7b256fa69f5b8e86791e3257ca06cf743bffae"
+          "sha256": "585614fe60de5884017eb951b2e6ac15d3dca2b3b9e48eb809455ee17acff3ef"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.150/freenet-x86_64-apple-darwin.tar.gz",
-      "sha256": "8c3c6175798517ac4a3f236597b83810cad95ef5313fdf972b5c849015b7dc8f",
-      "size": 22467715,
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.151/freenet-x86_64-apple-darwin.tar.gz",
+      "sha256": "603c73b80ba0b98043dc5e0a5b32f85708182ed60ff11a5af5dc95725c867a4c",
+      "size": 22472729,
       "format": "tar.gz",
-      "releaseTag": "v0.2.150",
+      "releaseTag": "v0.2.151",
       "binaries": {
         "freenet": {
           "path": "freenet",
-          "sha256": "8910eaa62136766d1060454b1c816871e4cd70ef8f4f12f8267db56663bafe6d"
+          "sha256": "35974ac31da01f10aac8b9f5807567ff938510ec8042c9dc0664ad1128febec0"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.150/freenet-aarch64-apple-darwin.tar.gz",
-      "sha256": "e5e2c8906c8885d6dd02135d14dc63d2e51ebb1236146e6b666ab8d99c44d342",
-      "size": 20058392,
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.151/freenet-aarch64-apple-darwin.tar.gz",
+      "sha256": "7c786974d18e42e06162de8419d28c4ec34b0a395ac38c5002e8f23745a323ac",
+      "size": 20001196,
       "format": "tar.gz",
-      "releaseTag": "v0.2.150",
+      "releaseTag": "v0.2.151",
       "binaries": {
         "freenet": {
           "path": "freenet",
-          "sha256": "d323cbb023334217c5c8e46c18c6a904cbab0d68e77d54dfeb1302c9481dad91"
+          "sha256": "d3b31a45210e61717a01676e41e3c33645b7f01f9d7b25373b709cd12b7e84d2"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.150/freenet-x86_64-pc-windows-msvc.zip",
-      "sha256": "4b34e94d6437b1dbc7563e283cdf91c990430f2629ca64c94498093f8131be3b",
-      "size": 19210822,
+      "url": "https://github.com/freenet/freenet-core/releases/download/v0.2.151/freenet-x86_64-pc-windows-msvc.zip",
+      "sha256": "56983bb1d6c3643d2066f1b26a80ee28bb52e540fab362d0146654579f39b4b7",
+      "size": 19232094,
       "format": "zip",
-      "releaseTag": "v0.2.150",
+      "releaseTag": "v0.2.151",
       "binaries": {
         "freenet.exe": {
           "path": "freenet.exe",
-          "sha256": "dd3030d29abec2904ae97092e56b616d7aac7d407723f2913f478621ea7a04e3"
+          "sha256": "b5e364362654746506af1a5d5da08854d9c7fcf01e0b925e1a834cffd0158d4b"
         }
       }
     }
