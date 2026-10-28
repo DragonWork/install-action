@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "mft",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "repository": "omerbenamram/mft",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/omerbenamram/mft/releases/download/v0.7.0/mft_dump-v0.7.0-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.7.0",
-      "sha256": "cad73925b50784dbccab5ad3bbb611998db91f409c079acf4bf10a7c010a0a91",
-      "size": 1255936,
+    "linux-x64": {
+      "url": "https://github.com/omerbenamram/mft/releases/download/v0.8.0/mft_dump-v0.8.0-x86_64-unknown-linux-musl",
+      "sha256": "41c953daead394e5c8c8aa45880e18660206514744f690fc619f4efd15ebbfb3",
+      "size": 1962816,
       "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "mft_dump": {
+          "path": "mft_dump-v0.8.0-x86_64-unknown-linux-musl",
+          "sha256": "41c953daead394e5c8c8aa45880e18660206514744f690fc619f4efd15ebbfb3"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/omerbenamram/mft/releases/download/v0.8.0/mft_dump-v0.8.0-aarch64-unknown-linux-gnu",
+      "sha256": "082d368e0a948f210ef3172d874717b88ac9d361428faed79804ff3fcc32cfcf",
+      "size": 1275360,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "mft_dump": {
+          "path": "mft_dump-v0.8.0-aarch64-unknown-linux-gnu",
+          "sha256": "082d368e0a948f210ef3172d874717b88ac9d361428faed79804ff3fcc32cfcf"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/omerbenamram/mft/releases/download/v0.8.0/mft_dump-v0.8.0-x86_64-apple-darwin",
+      "sha256": "5f9e8d6b4cc2d1b23c9fa28ed25c67ac9fae7bdcb8fddb5d0980ca6c27924d7c",
+      "size": 1828552,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "mft_dump": {
+          "path": "mft_dump-v0.8.0-x86_64-apple-darwin",
+          "sha256": "5f9e8d6b4cc2d1b23c9fa28ed25c67ac9fae7bdcb8fddb5d0980ca6c27924d7c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/omerbenamram/mft/releases/download/v0.8.0/mft_dump-v0.8.0-aarch64-apple-darwin",
+      "sha256": "53a2fe436cb66eb22ae011b3a290f045960bafd2f2f224e4e2a9f619e616372f",
+      "size": 1772064,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "mft_dump": {
+          "path": "mft_dump-v0.8.0-aarch64-apple-darwin",
+          "sha256": "53a2fe436cb66eb22ae011b3a290f045960bafd2f2f224e4e2a9f619e616372f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/omerbenamram/mft/releases/download/v0.8.0/mft_dump-v0.8.0-x86_64-pc-windows-msvc.exe",
+      "sha256": "45e067be12edc9f3eeaf7000644917125a1f6b0bb10dfb504d64a48f4cb8e009",
+      "size": 1492480,
+      "format": "binary",
+      "releaseTag": "v0.8.0",
       "binaries": {
         "mft_dump.exe": {
-          "path": "mft_dump-v0.7.0-x86_64-pc-windows-msvc.exe",
-          "sha256": "cad73925b50784dbccab5ad3bbb611998db91f409c079acf4bf10a7c010a0a91"
+          "path": "mft_dump-v0.8.0-x86_64-pc-windows-msvc.exe",
+          "sha256": "45e067be12edc9f3eeaf7000644917125a1f6b0bb10dfb504d64a48f4cb8e009"
         }
       }
     }
