@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "atuin-server",
-  "version": "18.24.1",
+  "version": "18.24.2",
   "repository": "atuinsh/atuin",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.1/atuin-server-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v18.24.1",
-      "sha256": "5ff68a4e27edc7050084065ca5294c89113d42ca4fa98c08efaf67a4fb44c26a",
-      "size": 7652285,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-server-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "41a08a06cd66fd68ce7dc289a0bd9f99a73b315ac48329d7f646e65e39b91182",
+      "size": 7655124,
       "format": "tar.gz",
+      "releaseTag": "v18.24.2",
       "binaries": {
         "atuin-server": {
           "path": "atuin-server-x86_64-unknown-linux-musl/atuin-server",
-          "sha256": "610a575ff93d97cf7b1c6baf2d2ab9d44e25c48210c20535160e46182cb4cb88"
+          "sha256": "ab471fd3e0df6872b9aaeb9e8976ce7a93e451363076ec899517419583cb6afc"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.1/atuin-server-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v18.24.1",
-      "sha256": "5afd1383769073730134db8a1a7245ef4b6cad2623c26d5147b78eb2a55bf0f4",
-      "size": 7542281,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-server-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "130ff5b344a854b9e079ad368f7e53334104a1c04fec3ddc6a0173bbe12f5c96",
+      "size": 7548094,
       "format": "tar.gz",
+      "releaseTag": "v18.24.2",
       "binaries": {
         "atuin-server": {
           "path": "atuin-server-aarch64-unknown-linux-musl/atuin-server",
-          "sha256": "e04d3a0a1846fca41e7fe0748d71fc6285a68ec3df9061439a1ec92812e4d384"
+          "sha256": "5c4599d14c290f8bcb8fb06a01ceafd86a640d6827ca2c2e1729c3a59d9aaf13"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.1/atuin-server-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v18.24.1",
-      "sha256": "2ffe07e8fa9fa5107a507b7f51384969f3f1b517d4b6efc95c1b4b32b52b7184",
-      "size": 5198366,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-server-x86_64-apple-darwin.tar.gz",
+      "sha256": "ecd10420eff0348390a400942cdb1b88ec41fdf6213b80ac9115fbada07b4be6",
+      "size": 5204548,
       "format": "tar.gz",
+      "releaseTag": "v18.24.2",
       "binaries": {
         "atuin-server": {
           "path": "atuin-server-x86_64-apple-darwin/atuin-server",
-          "sha256": "26b79784248d7b9635ffeaecd13776f3b10daccdc0f17185cf839e37b79eace1"
+          "sha256": "0adf84c31d2e3433d563b2318f62444bd222ad8898dffbd523236e99c8d80a7f"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.1/atuin-server-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v18.24.1",
-      "sha256": "9be3a15d5563e5e59f848bfc842a9955b7f9a73e012ff1c9b40d1e190af55cf1",
-      "size": 4881095,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-server-aarch64-apple-darwin.tar.gz",
+      "sha256": "327e7fc9422eedc9a02912173ddf7e3107e569b6e4e1f7339beaaa08e7a6ed38",
+      "size": 4882629,
       "format": "tar.gz",
+      "releaseTag": "v18.24.2",
       "binaries": {
         "atuin-server": {
           "path": "atuin-server-aarch64-apple-darwin/atuin-server",
-          "sha256": "ee545aea37d0cad46c39ac6e26f0ef057e460a1dd226bf8a7e62b66c33b6d66a"
+          "sha256": "1f4c9aa68c088090c2c9c8d7ebf8f7190e15a808f1d42dec4b70d5418e3ce6b3"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.1/atuin-server-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v18.24.1",
-      "sha256": "fc89b2256284a9dc11358b101477d3ab227f0571be84629888c269ddcb32769a",
-      "size": 5597494,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-server-x86_64-pc-windows-msvc.zip",
+      "sha256": "b879645449833176f2c4dc1f02aa6b05dee72ab70f37f86d268aeacaf6815a79",
+      "size": 5602279,
       "format": "zip",
+      "releaseTag": "v18.24.2",
       "binaries": {
         "atuin-server.exe": {
           "path": "atuin-server.exe",
-          "sha256": "28e13e0dedf183a2479b4717d4d4d37d27381a948eb2e2469966b1faaed5797a"
+          "sha256": "06a5541ad3539ed3b1aedb28fae60361e6e69a6cd8d3dbf7a8504f0784f0e4df"
         }
       }
     }
