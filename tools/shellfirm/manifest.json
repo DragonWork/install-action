@@ -1,58 +1,71 @@
 {
   "schema": 1,
   "name": "shellfirm",
-  "version": "0.3.10",
+  "version": "0.4.0",
   "repository": "kaplanelad/shellfirm",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.10/shellfirm-v0.3.10-x86_64-linux.tar.xz",
-      "releaseTag": "v0.3.10",
-      "sha256": "70f2ca128cee33f948bbe5b5ed5e8c2076d5e88c8661a02d33f587074d5a8f94",
-      "size": 1680516,
+      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.0/shellfirm-v0.4.0-x86_64-linux.tar.xz",
+      "sha256": "29f6f2650149583fa61603c2e86c7d255f6bbc62b2c17faac42a8f4968d6acf7",
+      "size": 4185916,
       "format": "tar.xz",
+      "releaseTag": "v0.4.0",
       "binaries": {
         "shellfirm": {
-          "path": "shellfirm-v0.3.10-x86_64-linux/shellfirm",
-          "sha256": "bcd46079067bedf8882260e511536915e8efe8d0f60f751684bd44861f631588"
+          "path": "shellfirm-v0.4.0-x86_64-linux/shellfirm",
+          "sha256": "3fe3bb7159acdfb44023346792298a1289b6ebdd7a7168eb0cfd6bd755412d4f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.0/shellfirm-v0.4.0-aarch64-linux.tar.xz",
+      "sha256": "d62699d19ed885385c4c5600b15a73b6221b1f385f4f79f1e11072d23b25b943",
+      "size": 3712308,
+      "format": "tar.xz",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "shellfirm": {
+          "path": "shellfirm-v0.4.0-aarch64-linux/shellfirm",
+          "sha256": "9b2beac22173e63962ede28b41ae13bbfb299ffbae5362e3cfc30ffa6e53f0d9"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.10/shellfirm-v0.3.10-x86_64-macos.tar.xz",
-      "releaseTag": "v0.3.10",
-      "sha256": "a9d88fce4bd73f4499ad07cf0e5416d590b233f0df5fa9850332190610106f7f",
-      "size": 1589760,
+      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.0/shellfirm-v0.4.0-x86_64-macos.tar.xz",
+      "sha256": "2f70cbe8c7d8c67dd01d67ba20a9510447753d8608d81f5db9e08b8ce6c70633",
+      "size": 4082472,
       "format": "tar.xz",
+      "releaseTag": "v0.4.0",
       "binaries": {
         "shellfirm": {
-          "path": "shellfirm-v0.3.10-x86_64-macos/shellfirm",
-          "sha256": "3ceca7c28798e288416829d7305a79caec075009cf555919a5b56fb5bfb1e286"
+          "path": "shellfirm-v0.4.0-x86_64-macos/shellfirm",
+          "sha256": "8ea62ce26dcb01d9e6b1226fa953ece72faa50e9b32caf6fccd67dd5c430990f"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.10/shellfirm-v0.3.10-aarch64-macos.tar.xz",
-      "releaseTag": "v0.3.10",
-      "sha256": "66a555b73555fce316981c52e60b5d56dd6e85295485b4186aa1fb6f8279a7c6",
-      "size": 1394876,
+      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.0/shellfirm-v0.4.0-aarch64-macos.tar.xz",
+      "sha256": "6c551f1a5a3aec5c4d013bdd4d6c42fa0af56eaeaace49b1681d6c536b336ab2",
+      "size": 3666884,
       "format": "tar.xz",
+      "releaseTag": "v0.4.0",
       "binaries": {
         "shellfirm": {
-          "path": "shellfirm-v0.3.10-aarch64-macos/shellfirm",
-          "sha256": "d2954b38c9a2763b2a9ee55c1a0d4bbb86722bfa17138f7e742374648cf48d37"
+          "path": "shellfirm-v0.4.0-aarch64-macos/shellfirm",
+          "sha256": "2b76fe07783c9764e16299384ab5177a30e3f83f2ee30c25e5d81ae2f0d77cb2"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.10/shellfirm-v0.3.10-x86_64-windows.zip",
-      "releaseTag": "v0.3.10",
-      "sha256": "b675e7fb1981776c4b68b5fac23cdeb67518f0ac59aae532fb20aee207520612",
-      "size": 2287870,
+      "url": "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.0/shellfirm-v0.4.0-x86_64-windows.zip",
+      "sha256": "abfbdc040a015430289d7233fc12fad720ae673bef14e68229447426f0fe2131",
+      "size": 5585805,
       "format": "zip",
+      "releaseTag": "v0.4.0",
       "binaries": {
         "shellfirm.exe": {
-          "path": "shellfirm-v0.3.10-x86_64-windows/shellfirm.exe",
-          "sha256": "3aa2135089828f6e22eaed8b46b4f2b48d9022cb6eec0a9ac952fa62ef471313"
+          "path": "shellfirm-v0.4.0-x86_64-windows/shellfirm.exe",
+          "sha256": "b7852d182834820cbe9174693b3aee2341301ec1bc2283dee1cde33f7334f8da"
         }
       }
     }
