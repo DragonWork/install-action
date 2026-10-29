@@ -1,19 +1,58 @@
 {
   "schema": 1,
   "name": "anchor-cli",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "repository": "otter-sec/anchor",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/otter-sec/anchor/releases/download/v1.2.1/anchor-1.2.1-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v1.2.1",
-      "sha256": "df3b5f1d0c0a7947fa977e80c4a84591eed3fc1dea63b2c39601cb5e607e175e",
-      "size": 18708992,
+    "linux-x64": {
+      "url": "https://github.com/otter-sec/anchor/releases/download/v1.2.2/anchor-1.2.2-x86_64-unknown-linux-gnu",
+      "sha256": "e2c35a973bcfe476f3a89b120e99820f917229faf33d3e71f6625bd94199e741",
+      "size": 22886016,
       "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "anchor": {
+          "path": "anchor-1.2.2-x86_64-unknown-linux-gnu",
+          "sha256": "e2c35a973bcfe476f3a89b120e99820f917229faf33d3e71f6625bd94199e741"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/otter-sec/anchor/releases/download/v1.2.2/anchor-1.2.2-x86_64-apple-darwin",
+      "sha256": "bd5a0c4504512f07e19bb86a70abe80a8a054b2562773d8b6a1a0f8b0407332d",
+      "size": 29569520,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "anchor": {
+          "path": "anchor-1.2.2-x86_64-apple-darwin",
+          "sha256": "bd5a0c4504512f07e19bb86a70abe80a8a054b2562773d8b6a1a0f8b0407332d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/otter-sec/anchor/releases/download/v1.2.2/anchor-1.2.2-aarch64-apple-darwin",
+      "sha256": "fbfa9dc5c130dde033970aad20271ca10f1d20e9abcb78506c29b6c1684cc7d1",
+      "size": 28386000,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "anchor": {
+          "path": "anchor-1.2.2-aarch64-apple-darwin",
+          "sha256": "fbfa9dc5c130dde033970aad20271ca10f1d20e9abcb78506c29b6c1684cc7d1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/otter-sec/anchor/releases/download/v1.2.2/anchor-1.2.2-x86_64-pc-windows-msvc.exe",
+      "sha256": "0bb2198ba58e3f2a62a138b6a4afdf10bd4559f1ce55d6f05ed4a6eeab819978",
+      "size": 18894336,
+      "format": "binary",
+      "releaseTag": "v1.2.2",
       "binaries": {
         "anchor.exe": {
-          "path": "anchor-1.2.1-x86_64-pc-windows-msvc.exe",
-          "sha256": "df3b5f1d0c0a7947fa977e80c4a84591eed3fc1dea63b2c39601cb5e607e175e"
+          "path": "anchor-1.2.2-x86_64-pc-windows-msvc.exe",
+          "sha256": "0bb2198ba58e3f2a62a138b6a4afdf10bd4559f1ce55d6f05ed4a6eeab819978"
         }
       }
     }
