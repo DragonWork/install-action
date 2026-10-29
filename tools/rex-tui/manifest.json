@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "rex-tui",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "repository": "TheRustyPickle/Rex",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.3.2/rex-tui-x86_64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v0.3.2",
-      "sha256": "073caf1ec558bb0204185081578100f39c99938d4efd4ab446ca92ace1f56379",
-      "size": 3710696,
+      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.4.0/rex-tui-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "326b96c244d11cd2e616ee10b47e1af877e1f3baad94d61ebc1a2a7c9b7d092c",
+      "size": 4816640,
       "format": "tar.xz",
+      "releaseTag": "v0.4.0",
       "binaries": {
         "rex": {
           "path": "rex-tui-x86_64-unknown-linux-gnu/rex",
-          "sha256": "96c3f4babbd289b9bde367f78d5dc7e6f06d8de3fbbff8131482346cbe1f327d"
+          "sha256": "58b7594c0d11ecc7a06370140486936e491a0cf7504714b406155d4e85ede16e"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.3.2/rex-tui-aarch64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v0.3.2",
-      "sha256": "55f9bd28dc7f7da0eae1ea2823f725045471cd79ef407edc0b2ef1b4e272a03f",
-      "size": 3415212,
+      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.4.0/rex-tui-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "c7de57d81d7b03d5699163182abd0d592af75311f43893860b54d1bfc9db3245",
+      "size": 5117432,
       "format": "tar.xz",
+      "releaseTag": "v0.4.0",
       "binaries": {
         "rex": {
           "path": "rex-tui-aarch64-unknown-linux-gnu/rex",
-          "sha256": "6bfe7e2a5efb6012a5859170c64d71e1cb947119d512924c6f590dc1b78abbcb"
+          "sha256": "de59f5616662cc38fe3dd4f52a176496f3f9095e5551c65810f518664f5ea4aa"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.3.2/rex-tui-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v0.3.2",
-      "sha256": "358e8e783843ce950197ede4087a6d1f89b9bddc77dbc66a5437ef2577d3950b",
-      "size": 3455228,
+      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.4.0/rex-tui-x86_64-apple-darwin.tar.xz",
+      "sha256": "d167c91153cd0d25de40528150236e6694c8550ee5620dffdfbac38df43a5bb4",
+      "size": 4457852,
       "format": "tar.xz",
+      "releaseTag": "v0.4.0",
       "binaries": {
         "rex": {
           "path": "rex-tui-x86_64-apple-darwin/rex",
-          "sha256": "70ce6f1242829d3982f180eb018a49b67bb61b50f4a61a4ab41a1705f2122019"
+          "sha256": "918c171a5c8fb08008b6de5d879e1c3a574e5abc6813f465a39eae9a7a07da4f"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.3.2/rex-tui-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v0.3.2",
-      "sha256": "0ec086e87316d201cd21c3df5cef20e3f8c992d26ada747da2679609ba98e6cb",
-      "size": 3110932,
+      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.4.0/rex-tui-aarch64-apple-darwin.tar.xz",
+      "sha256": "e4a09b130392ba8c91ca1aed76793b1da00a524d85898d5191621ba5b7d8b930",
+      "size": 4641508,
       "format": "tar.xz",
+      "releaseTag": "v0.4.0",
       "binaries": {
         "rex": {
           "path": "rex-tui-aarch64-apple-darwin/rex",
-          "sha256": "411e555f59c6abd4a83aa75c4ca94e7d32deced75057619eb465e8ad4cc5814b"
+          "sha256": "ab70f94b3ebd3905b93f2255e66aeca3414c42bcca27ef0e1a065320e4ab271e"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.3.2/rex-tui-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.3.2",
-      "sha256": "5040969ac56e9ea15acf23777209e24d54d5d92326758e9eea33235db6515e89",
-      "size": 4248993,
+      "url": "https://github.com/TheRustyPickle/Rex/releases/download/v0.4.0/rex-tui-x86_64-pc-windows-msvc.zip",
+      "sha256": "cfe9432bab16e0e4a76b51f6f4137cfd5986ffe8d375bbcbe8d74456195a4e4f",
+      "size": 5542405,
       "format": "zip",
+      "releaseTag": "v0.4.0",
       "binaries": {
         "rex.exe": {
           "path": "rex.exe",
-          "sha256": "6721cd011b2f4260674a5991a11b88ddb9fe41cd07371d85044efe78313f9e6e"
+          "sha256": "d87f2f03174615df282e02895f6deea16f7a84da0759175d34b89b2c0da057be"
         }
       }
     }
