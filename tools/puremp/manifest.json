@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "puremp",
+  "version": "0.3.2",
+  "repository": "KarpelesLab/puremp",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KarpelesLab/puremp/releases/download/v0.3.2/puremp-v0.3.2-linux-x86_64.tar.gz",
+      "sha256": "64120aa088aedde30eb63c3a50368c7cc605a6cf491053e74247868e12e37d77",
+      "size": 2261741,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "puremp": {
+          "path": "./bin/puremp",
+          "sha256": "07bf3c411f17aa1833b19bd3a23e34964ddd68aa927e8f40d58185228b75d3f4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KarpelesLab/puremp/releases/download/v0.3.2/puremp-v0.3.2-linux-aarch64.tar.gz",
+      "sha256": "2c02c80a4015acac83158de211adec5c0031d3cbe5b32dbe5c6d1468df143206",
+      "size": 2214240,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "puremp": {
+          "path": "./bin/puremp",
+          "sha256": "1cc0986898ec42d2f0d8725aff62a7cf810ec28687b7fe9b6e10a31525778ca6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KarpelesLab/puremp/releases/download/v0.3.2/puremp-v0.3.2-macos-universal.tar.gz",
+      "sha256": "d1255fa5045907f31e42e4cfcd41153c55d0d01062530c30673f0e4fd58b6c3b",
+      "size": 4314051,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "puremp": {
+          "path": "./bin/puremp",
+          "sha256": "7c786a533de25e462c9a253a60558709b3c904abb150ca59b2a29b04a3d94993"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/KarpelesLab/puremp/releases/download/v0.3.2/puremp-v0.3.2-macos-universal.tar.gz",
+      "sha256": "d1255fa5045907f31e42e4cfcd41153c55d0d01062530c30673f0e4fd58b6c3b",
+      "size": 4314051,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "puremp": {
+          "path": "./bin/puremp",
+          "sha256": "7c786a533de25e462c9a253a60558709b3c904abb150ca59b2a29b04a3d94993"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KarpelesLab/puremp/releases/download/v0.3.2/puremp-v0.3.2-windows-x86_64.zip",
+      "sha256": "782b5c3f053cf20cf3749e270d0a8372d1624698a812e59900684f999bbcb998",
+      "size": 1395668,
+      "format": "zip",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "puremp.exe": {
+          "path": "bin/puremp.exe",
+          "sha256": "4631e89252ef6bfa2126a1214f14c4d4cacdeadde9548632126a5f580cdadf99"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/KarpelesLab/puremp/releases/download/v0.3.2/puremp-v0.3.2-windows-aarch64.zip",
+      "sha256": "0afde0f928681e27bede365ac17f998c13a29b06a9074d4406c9a8c341bace08",
+      "size": 1306837,
+      "format": "zip",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "puremp.exe": {
+          "path": "bin/puremp.exe",
+          "sha256": "5925917754c92839ede8d3f6c230df0c0729cfd6778dc83f6b6298aea25fdc06"
+        }
+      }
+    }
+  }
+}
