@@ -1,58 +1,71 @@
 {
   "schema": 1,
   "name": "zenohd",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "repository": "eclipse-zenoh/zenoh",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.1/zenoh-1.10.1-x86_64-unknown-linux-musl-standalone.zip",
-      "releaseTag": "1.10.1",
-      "sha256": "db3d4542cae5ca01ca74cc4acc726891a16d4c573e79b452966b1d5d535b6edc",
-      "size": 9425289,
+      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.2/zenoh-1.10.2-x86_64-unknown-linux-musl-standalone.zip",
+      "sha256": "ba1dac0df97ede0d8e5f0778f303b84ca5ad779d5d5f3a4d290faf6895ee7212",
+      "size": 9429080,
       "format": "zip",
+      "releaseTag": "1.10.2",
       "binaries": {
         "zenohd": {
           "path": "zenohd",
-          "sha256": "4cce63180faf5f2fb5f924022fc16cc1d6c6b86238043d1db5f4ad2dcd1594dd"
+          "sha256": "180f34593670e05fd4cb80db7de673a0a40ab7f736f08e3be3654cee0aab1b25"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.1/zenoh-1.10.1-aarch64-unknown-linux-musl-standalone.zip",
-      "releaseTag": "1.10.1",
-      "sha256": "ce03f3ea85b7bee26024e710501a1123ee21367af8fefe4498e36f6e8c55fecb",
-      "size": 9028305,
+      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.2/zenoh-1.10.2-aarch64-unknown-linux-musl-standalone.zip",
+      "sha256": "a6ecd13a8f2722e0370f2fc9b0bf5df53c939ee3478f3bf490c7c2602fe03ab0",
+      "size": 9038204,
       "format": "zip",
+      "releaseTag": "1.10.2",
       "binaries": {
         "zenohd": {
           "path": "zenohd",
-          "sha256": "3818ff963fb1b74224308555b9d5078ea2ff5163557d7d3d34fbdc1fb003e13a"
+          "sha256": "13e26f3e02a35349ebe496cdd476f600863df7d3191ee3d515e32c7038dfed7e"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.1/zenoh-1.10.1-x86_64-apple-darwin-standalone.zip",
-      "releaseTag": "1.10.1",
-      "sha256": "9778edea5464f80a18be8bef3a3a50bc7229d003340c118aa16823a9ed1e659c",
-      "size": 9006551,
+      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.2/zenoh-1.10.2-x86_64-apple-darwin-standalone.zip",
+      "sha256": "7b00623216177a1d5561b681a5cfd96451926dcddf5e10247a5fb17b8ed1bed5",
+      "size": 9013938,
       "format": "zip",
+      "releaseTag": "1.10.2",
       "binaries": {
         "zenohd": {
           "path": "zenohd",
-          "sha256": "9c046a3e8ab2e33905cfdaea64e6e80c45abbbeb7760ea90862f9c3404a7056e"
+          "sha256": "75612f1d525d0f61ba0757b3fb76c26c2bfc9d47551ffc7dc470fc1832904c3d"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.1/zenoh-1.10.1-aarch64-apple-darwin-standalone.zip",
-      "releaseTag": "1.10.1",
-      "sha256": "a27a177014fa81bc1bdb9b824373a2a8bce0e0a33c40e6c189d6fc9414b57b8a",
-      "size": 8153627,
+      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.2/zenoh-1.10.2-aarch64-apple-darwin-standalone.zip",
+      "sha256": "7de8b1467ced19bd157b43ca0e0d5b7e65f7f1dfd2365c6dae854cd8c24d52fe",
+      "size": 8157858,
       "format": "zip",
+      "releaseTag": "1.10.2",
       "binaries": {
         "zenohd": {
           "path": "zenohd",
-          "sha256": "0b794884d333efbddd3be386a7c0d2e54f73e214ec1e39ce73566537bee74301"
+          "sha256": "07880b5a569948be6c7d3cf6b5e43ccc9ddd1742a819bc584bccbff988651da4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/eclipse-zenoh/zenoh/releases/download/1.10.2/zenoh-1.10.2-x86_64-pc-windows-gnu-standalone.zip",
+      "sha256": "10663b818cf8b147785d32a6f001579d21b8c7bd5941b22cdfa12a8aa2906d30",
+      "size": 37017177,
+      "format": "zip",
+      "releaseTag": "1.10.2",
+      "binaries": {
+        "zenohd.exe": {
+          "path": "zenohd.exe",
+          "sha256": "1ebf40af4aa94b3c460bba8a544faef1ad7c6ebb534899f59a4648ac8236f9a1"
         }
       }
     }
