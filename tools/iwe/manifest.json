@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "iwe",
-  "version": "0.29.1",
+  "version": "0.29.3",
   "repository": "iwe-org/iwe",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.1/iwe-v0.29.1-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "40e723d313eee18c8780e7dd8b9aeb127637b74c9e418cd66e84ec7f0edca3f7",
-      "size": 25336605,
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.3/iwe-v0.29.3-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "c40ae0ae34ee818862a2d36ee992f2cb5415add6d110a4b3afc3cb1f68a78cc9",
+      "size": 26511082,
       "format": "tar.gz",
-      "releaseTag": "iwe-v0.29.1",
+      "releaseTag": "iwe-v0.29.3",
       "binaries": {
         "iwe": {
           "path": "iwe",
-          "sha256": "6ebcef94c742c6b42162a762dc3481b051f14a5b3dfef69b7358a65f46a9e9e2"
+          "sha256": "c0ad3da786da7cb22721775cb64de867d336fae25b44566dcff4bec09aa26fa7"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.1/iwe-v0.29.1-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "b10ddb7b1112584b79d59f3ab3300397493324a333376a154bac550f7272dfd8",
-      "size": 25345443,
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.3/iwe-v0.29.3-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "b62e32dde1e80cf38c3f0c5180e2511eb0d7eff31bdd6f5f7c7ae03932bfef64",
+      "size": 25440469,
       "format": "tar.gz",
-      "releaseTag": "iwe-v0.29.1",
+      "releaseTag": "iwe-v0.29.3",
       "binaries": {
         "iwe": {
           "path": "iwe",
-          "sha256": "bd37cd0d9f76c4f362a5f77d9dd616ada0aaba04a90a12ccacdaf399aa7253ca"
+          "sha256": "0d3e8df93e3cf74e57a573d853a4232486f9f8a7973b896b44179f4e5963ebab"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.1/iwe-v0.29.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "a86f233e6c3805b7a060fbdfd06d7b83b7ff8332a805891885158979a7564f2d",
-      "size": 24046363,
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.3/iwe-v0.29.3-x86_64-apple-darwin.tar.gz",
+      "sha256": "f7701f83f044a5cec8fc873a34b66ce9fdac88bae91355cc11de721f53edc40c",
+      "size": 24043996,
       "format": "tar.gz",
-      "releaseTag": "iwe-v0.29.1",
+      "releaseTag": "iwe-v0.29.3",
       "binaries": {
         "iwe": {
           "path": "iwe",
-          "sha256": "8c73b9824b84d2b075d0e23154718ceccd646d34863dbab9ea8240f46936fcf5"
+          "sha256": "147d91ec4abe8e474186b8b57a0e44a07a0dba048f1398e9d24e2798b03b3f22"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.1/iwe-v0.29.1-aarch64-apple-darwin.tar.gz",
-      "sha256": "9112bf28cefe1e16fe7b1777cee809a37d040f979c5775445f11f2cbee164c5f",
-      "size": 23257028,
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.3/iwe-v0.29.3-aarch64-apple-darwin.tar.gz",
+      "sha256": "4df263c837fbddafa7b57afcd334f860ef10b8515ffcc3b532026675beabf02e",
+      "size": 23255179,
       "format": "tar.gz",
-      "releaseTag": "iwe-v0.29.1",
+      "releaseTag": "iwe-v0.29.3",
       "binaries": {
         "iwe": {
           "path": "iwe",
-          "sha256": "89360a128e60544a6392a18699d3fb93bc111d398e21db923085aca0b217e667"
+          "sha256": "fd99fb69e8abb706f4d660d517dd35d61fbc0193d41fb980e4353d87ab8c6cc9"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.1/iwe-v0.29.1-x86_64-pc-windows-msvc.zip",
-      "sha256": "0a9891ec7e8630d2161c727feec2156af2ad89d1a2a8e3024aca94ea23d1e01e",
-      "size": 21505151,
+      "url": "https://github.com/iwe-org/iwe/releases/download/iwe-v0.29.3/iwe-v0.29.3-x86_64-pc-windows-msvc.zip",
+      "sha256": "55a838845c153c51404416826fd4af6559d4cb6a23db34ec82abc5e894b3650f",
+      "size": 21470838,
       "format": "zip",
-      "releaseTag": "iwe-v0.29.1",
+      "releaseTag": "iwe-v0.29.3",
       "binaries": {
         "iwe.exe": {
           "path": "iwe.exe",
-          "sha256": "5ef18e04f5eaffc32f05134576148433664567e1d512a260b6b716c8ef12d13c"
+          "sha256": "42d7bb4fca15189be013c591624f7d21fcceb2e1f69722c3b96c89afd8658e07"
         }
       }
     }
