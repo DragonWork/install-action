@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "git-graph",
+  "version": "0.8.3",
+  "repository": "git-bahn/git-graph",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/git-bahn/git-graph/releases/download/v0.8.3/git-graph-v0.8.3-linux-amd64.tar.gz",
+      "sha256": "f2f83fce6458f716e2d80dab572444e69abcbebc14ce0a1f70d532ce87ac6729",
+      "size": 1339344,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.3",
+      "binaries": {
+        "git-graph": {
+          "path": "git-graph",
+          "sha256": "160cbacb69b1d1f5d0573c5acec220b41296d0bcde9c5aa047384ef7c8c7af89"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/git-bahn/git-graph/releases/download/v0.8.3/git-graph-v0.8.3-windows-amd64.tar.gz",
+      "sha256": "95fd0fdc726fef4ff8bf8a61f85345b66e73e72c52d9e119c45661dd801b5e14",
+      "size": 1443599,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.3",
+      "binaries": {
+        "git-graph.exe": {
+          "path": "git-graph.exe",
+          "sha256": "0ac29ee80f4d183d7f9c5e32f57d6273df55505b458b916866e6a7b0ec5ed8c5"
+        }
+      }
+    }
+  }
+}
