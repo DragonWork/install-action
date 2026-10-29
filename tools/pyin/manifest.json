@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "pyin",
+  "version": "1.2.0",
+  "repository": "Sytronik/pyin-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Sytronik/pyin-rs/releases/download/v1.2.0/pyin-ubuntu-latest.zip",
+      "sha256": "fbbb8bd7b9f58897d2e8f70309ccb61244dc061e6881093a1b1238ea847f01ef",
+      "size": 1069334,
+      "format": "zip",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "pyin": {
+          "path": "target/release/pyin",
+          "sha256": "a60b3e35e69474001fbb8b20b48854f25312ab4bf7f7d7d3fb75dc27565f44d1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Sytronik/pyin-rs/releases/download/v1.2.0/pyin-macos-latest.zip",
+      "sha256": "53d2411fec07bc19898858f1b50925ff907cdb35611366855e2e3b94c7b2bdf6",
+      "size": 879073,
+      "format": "zip",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "pyin": {
+          "path": "target/release/pyin",
+          "sha256": "4a81e7952eee7a4e636407a8bfe58e63a6e748928c1234639701503da6a2131b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Sytronik/pyin-rs/releases/download/v1.2.0/pyin.exe",
+      "sha256": "db7512b3e46a660c9b7e010e0c77e8fcb26c0f82798172bd69f5cd6e754a9f98",
+      "size": 2046464,
+      "format": "binary",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "pyin.exe": {
+          "path": "pyin.exe",
+          "sha256": "db7512b3e46a660c9b7e010e0c77e8fcb26c0f82798172bd69f5cd6e754a9f98"
+        }
+      }
+    }
+  }
+}
