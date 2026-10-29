@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "atuin",
-  "version": "18.24.2",
+  "version": "18.24.3",
   "repository": "atuinsh/atuin",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "311cd1ba4b8be27de7071dbcae1c95ff4c2b38aeec82d557707b6b832bfceddf",
-      "size": 20351592,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.3/atuin-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "7e2ae5dbbced1c40ee9eb20815436253a7fac2363a77024021892880beb0b589",
+      "size": 20808006,
       "format": "tar.gz",
-      "releaseTag": "v18.24.2",
+      "releaseTag": "v18.24.3",
       "binaries": {
         "atuin": {
           "path": "atuin-x86_64-unknown-linux-musl/atuin",
-          "sha256": "3a80d8d27a6c4317843611a08c60ad7044d8e5b845bdcf896f8564f0ed9da383"
+          "sha256": "ec36c7d275519255cc98e84822a98b1ab1bc58392325908a24f22677a31ba7e0"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "9addf06ece26e68e842489cefa33e81860c288da373538986ea58c23eccb4f14",
-      "size": 19129327,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.3/atuin-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "48d7bc0e6821bcaef7e9752abaa4ded541b36889b1620923d8abb17fa34059b3",
+      "size": 19501646,
       "format": "tar.gz",
-      "releaseTag": "v18.24.2",
+      "releaseTag": "v18.24.3",
       "binaries": {
         "atuin": {
           "path": "atuin-aarch64-unknown-linux-musl/atuin",
-          "sha256": "491959e9253825beea01cd7386e73ccbe3ac98ae684e5e494d2ffea666e088bf"
+          "sha256": "d729a7d6d183b26fa4503b53f805df7325eb8cddaa893a8b1e7b264fa904b979"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-x86_64-apple-darwin.tar.gz",
-      "sha256": "43cae243768e15576730c17995264ced8c4c4cd8bf7052bd50ca6793f58d4b05",
-      "size": 17323517,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.3/atuin-x86_64-apple-darwin.tar.gz",
+      "sha256": "3aa4f2017a4beecd77e5ecd05df9c2f39af6dab953f8bb90cc717454cfb4af21",
+      "size": 17759757,
       "format": "tar.gz",
-      "releaseTag": "v18.24.2",
+      "releaseTag": "v18.24.3",
       "binaries": {
         "atuin": {
           "path": "atuin-x86_64-apple-darwin/atuin",
-          "sha256": "d29d494a85d3f2c5f9325b086c6d60e663124ab23ef5de03bfb09dcf0444b3c7"
+          "sha256": "f129530c57f8dda4a80a579d393d9128e699f26f8b05bf961d3c51d51208cc78"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-aarch64-apple-darwin.tar.gz",
-      "sha256": "ba155cb61385e424c972ba5cadab68add2c6ad0d4f842365fc958d7a5f5917d5",
-      "size": 15929248,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.3/atuin-aarch64-apple-darwin.tar.gz",
+      "sha256": "dd266366b1b00c298d689b0613c1acbe82855f04eb47d3f3f96262b148d8ebb9",
+      "size": 16299484,
       "format": "tar.gz",
-      "releaseTag": "v18.24.2",
+      "releaseTag": "v18.24.3",
       "binaries": {
         "atuin": {
           "path": "atuin-aarch64-apple-darwin/atuin",
-          "sha256": "be4f56d7ceadbc2caccab6900c20b744852e81d2e1babf2ff25cb9c15475b42c"
+          "sha256": "733b4b2b8f530d6722204af0e750bca2d323f5ef3fb517040a5a95063cb0b382"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.2/atuin-x86_64-pc-windows-msvc.zip",
-      "sha256": "ff7b211112783ca05f4e3bbc8dc69593791982668750f46bb83f7148e357e102",
-      "size": 18663825,
+      "url": "https://github.com/atuinsh/atuin/releases/download/v18.24.3/atuin-x86_64-pc-windows-msvc.zip",
+      "sha256": "faa3d3af8f51a676dde3cb6d250c5e65b33a67ff824d7d1092da94585ae8c953",
+      "size": 19106594,
       "format": "zip",
-      "releaseTag": "v18.24.2",
+      "releaseTag": "v18.24.3",
       "binaries": {
         "atuin.exe": {
           "path": "atuin.exe",
-          "sha256": "fa72003b3f7063caf8fe2e372c7d840eb05e19d73e40f30b2129b376be1d36e5"
+          "sha256": "489b4f86c09f0c80e738ad75caaa436b8870ff10f9414edbf987acea58c3bc5b"
         }
       }
     }
