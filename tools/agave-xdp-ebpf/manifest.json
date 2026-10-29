@@ -1,19 +1,45 @@
 {
   "schema": 1,
   "name": "agave-xdp-ebpf",
-  "version": "4.3.2",
+  "version": "4.4.0",
   "repository": "anza-xyz/agave",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/anza-xyz/agave/releases/download/v4.3.2/agave-install-init-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v4.3.2",
-      "sha256": "e25fd1d0c4b4af75f54e7ba1dad3c8098a554fbccde973faaccef59b3a077ac9",
-      "size": 7947264,
+    "linux-x64": {
+      "url": "https://github.com/anza-xyz/agave/releases/download/v4.4.0/agave-install-init-x86_64-unknown-linux-gnu",
+      "sha256": "37a8ba344c688cfb3c903d24214ed8c56edc58f20c97cb671c6e213a6c9cecda",
+      "size": 9667232,
       "format": "binary",
+      "releaseTag": "v4.4.0",
       "binaries": {
-        "agave-xdp-prog.exe": {
-          "path": "agave-install-init-x86_64-pc-windows-msvc.exe",
-          "sha256": "e25fd1d0c4b4af75f54e7ba1dad3c8098a554fbccde973faaccef59b3a077ac9"
+        "agave-xdp-prog": {
+          "path": "agave-install-init-x86_64-unknown-linux-gnu",
+          "sha256": "37a8ba344c688cfb3c903d24214ed8c56edc58f20c97cb671c6e213a6c9cecda"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/anza-xyz/agave/releases/download/v4.4.0/agave-install-init-x86_64-apple-darwin",
+      "sha256": "debfe11f6f7e0e395269718b57d0dab2fa99cb949ca215e22239ac13ed76df67",
+      "size": 8374224,
+      "format": "binary",
+      "releaseTag": "v4.4.0",
+      "binaries": {
+        "agave-xdp-prog": {
+          "path": "agave-install-init-x86_64-apple-darwin",
+          "sha256": "debfe11f6f7e0e395269718b57d0dab2fa99cb949ca215e22239ac13ed76df67"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/anza-xyz/agave/releases/download/v4.4.0/agave-install-init-aarch64-apple-darwin",
+      "sha256": "332b97988ec857de2ce45e9cb07c5244120ff75bdff2a5d37aa5a360b87cd7a3",
+      "size": 8093760,
+      "format": "binary",
+      "releaseTag": "v4.4.0",
+      "binaries": {
+        "agave-xdp-prog": {
+          "path": "agave-install-init-aarch64-apple-darwin",
+          "sha256": "332b97988ec857de2ce45e9cb07c5244120ff75bdff2a5d37aa5a360b87cd7a3"
         }
       }
     }
