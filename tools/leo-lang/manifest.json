@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "leo-lang",
+  "version": "4.4.6",
+  "repository": "aleo-labs-protocol/leo",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/aleo-labs-protocol/leo/releases/download/leo-lang-v4.4.6/leo-lang-v4.4.6-x86_64-unknown-linux-musl.zip",
+      "sha256": "168b9ae270340def69d004dd35c7435791999237c6ab3cd798e92f77d06da62e",
+      "size": 39548302,
+      "format": "zip",
+      "releaseTag": "leo-lang-v4.4.6",
+      "binaries": {
+        "leo": {
+          "path": "leo",
+          "sha256": "229aef8b47ca2629333615a21d09d45a0e1cb08cf115ff99fdaab39a3486f5d1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/aleo-labs-protocol/leo/releases/download/leo-lang-v4.4.6/leo-lang-v4.4.6-x86_64-apple-darwin.zip",
+      "sha256": "8465dba41c77f124f2deeaa365ac74657ee398166d1caff504c3d21e631326f2",
+      "size": 36543058,
+      "format": "zip",
+      "releaseTag": "leo-lang-v4.4.6",
+      "binaries": {
+        "leo": {
+          "path": "leo",
+          "sha256": "73048c20f3e0b3ee058c175b422e4e5e06583e969f2762b161ec4aa14ebd6e80"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/aleo-labs-protocol/leo/releases/download/leo-lang-v4.4.6/leo-lang-v4.4.6-aarch64-apple-darwin.zip",
+      "sha256": "d1499414683df466409e4c348cd2a07feff53013ac9707273597cd24282f1924",
+      "size": 35155282,
+      "format": "zip",
+      "releaseTag": "leo-lang-v4.4.6",
+      "binaries": {
+        "leo": {
+          "path": "leo",
+          "sha256": "c5dd35a5b6294f8a626b6ad9a04031d3ec9c67abe450698ea5a657f8163bf19d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/aleo-labs-protocol/leo/releases/download/leo-lang-v4.4.6/leo-lang-v4.4.6-x86_64-pc-windows-msvc.zip",
+      "sha256": "10fda780f4a7b6f618e91be0109edc46df5286b3515a6241b056ba1781e256dd",
+      "size": 39018100,
+      "format": "zip",
+      "releaseTag": "leo-lang-v4.4.6",
+      "binaries": {
+        "leo.exe": {
+          "path": "leo.exe",
+          "sha256": "83df1b40488b0dcb4e2656155b9ee78253a15c69145a83f5e52d1164b10c1954"
+        }
+      }
+    }
+  }
+}
