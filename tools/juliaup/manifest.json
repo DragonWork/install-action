@@ -1,91 +1,91 @@
 {
   "schema": 1,
   "name": "juliaup",
-  "version": "1.22.10",
+  "version": "1.23.0",
   "repository": "JuliaLang/juliaup",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.22.10/juliaup-1.22.10-x86_64-unknown-linux-musl-portable.tar.gz",
-      "sha256": "095698e88e862445befd68bb853b2467f564fb59b69105961a042163c97fa127",
-      "size": 15620803,
+      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.23.0/juliaup-1.23.0-x86_64-unknown-linux-musl-portable.tar.gz",
+      "sha256": "5d5078d5ec5d92874e21122ffd9f4c36e42f913debbd73a560c55fce63c39a8a",
+      "size": 15633125,
       "format": "tar.gz",
-      "releaseTag": "v1.22.10",
+      "releaseTag": "v1.23.0",
       "binaries": {
         "julia": {
           "path": "./julia",
-          "sha256": "b2df760bcbc3f6300e70b250526f3608e3c678e2c4e93df1159277552ef999fe"
+          "sha256": "8f4c79cec15b541130535447fe8ab3cae42069f4815716ac8255c6b6d4aff0cd"
         },
         "juliaup": {
           "path": "./juliaup",
-          "sha256": "3de82b83ad5e81253763372bffa50cc411d181ace7b45e504e48825dd9380043"
+          "sha256": "5e7282c18fb18f63ac28e00bc975f5720981f2c643dd47a8e26c9eccf4915690"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.22.10/juliaup-1.22.10-aarch64-unknown-linux-musl-portable.tar.gz",
-      "sha256": "fcaa9e6ae1f0ceb11b7f65f2f585d33ca3fb1956c574bfdbfd4d17d16c013b0c",
-      "size": 14516954,
+      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.23.0/juliaup-1.23.0-aarch64-unknown-linux-musl-portable.tar.gz",
+      "sha256": "0f9f508eb1f9c5eab1646caa165d14139277bbe2cd8d2fab8d7ba5c00a6a54d5",
+      "size": 14531813,
       "format": "tar.gz",
-      "releaseTag": "v1.22.10",
+      "releaseTag": "v1.23.0",
       "binaries": {
         "julia": {
           "path": "./julia",
-          "sha256": "c94fff81469378ef1ba8796bf81fb6f281e4a0a8e7a36a768be4b3a7b5ea890e"
+          "sha256": "9302b26becc840d49ae3274d4c52fa843eface437fed2cbb18527dc6ada504ea"
         },
         "juliaup": {
           "path": "./juliaup",
-          "sha256": "38098c338f0b645956579ce0c59f6dafb393cf089dad0f59130ef5d43fea3c93"
+          "sha256": "c88639f050f28539446e3f06dacac4ae20e5c6f385a06d297ec49b806b7074df"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.22.10/juliaup-1.22.10-x86_64-apple-darwin-portable.tar.gz",
-      "sha256": "7951d7cf3ba55ff74c3d428235cd023efe873fd30b4d063b1bb312927d48d831",
-      "size": 9560788,
+      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.23.0/juliaup-1.23.0-x86_64-apple-darwin-portable.tar.gz",
+      "sha256": "4d789a9fc7db9dcdd70a04101bd7cc86cacebd379e11a946c4c36e475324ff72",
+      "size": 9575006,
       "format": "tar.gz",
-      "releaseTag": "v1.22.10",
+      "releaseTag": "v1.23.0",
       "binaries": {
         "julia": {
           "path": "./julia",
-          "sha256": "a59fd7e1e5aa7fe5d51bb35a21c41168fcf2eefe42d747d87c1c7f41f476d51e"
+          "sha256": "5553aa3f9aa8e68eae095932d71a8df00e0b5ea994b99d3c0dc4079b93746c9b"
         },
         "juliaup": {
           "path": "./juliaup",
-          "sha256": "fc5810d49c2a8f3acb7c9f265775a65f58c73972375dc1f39eddcebd4ddb8bbd"
+          "sha256": "7555ca7f7f5d254667298f563fcaaed8c9b4bf35bbef2f7d62153c528e3beb1b"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.22.10/juliaup-1.22.10-aarch64-apple-darwin-portable.tar.gz",
-      "sha256": "aa329485e39267cb7554a4f2b3aa62e2f0fbb19a69546361a0e189ceb8137677",
-      "size": 8838141,
+      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.23.0/juliaup-1.23.0-aarch64-apple-darwin-portable.tar.gz",
+      "sha256": "d853725d5ae609f8397d4070f9c08c4c2df880ef94f74260b20d087d2b555dac",
+      "size": 8852446,
       "format": "tar.gz",
-      "releaseTag": "v1.22.10",
+      "releaseTag": "v1.23.0",
       "binaries": {
         "julia": {
           "path": "./julia",
-          "sha256": "928baf7faee578f39e9590799cd39f58386c1c30fdac9bbe7744f099ae369001"
+          "sha256": "e08def77d35c8c34cd34b7d8cf2271c7364fc0c7b0ddf67ad843c05219de268e"
         },
         "juliaup": {
           "path": "./juliaup",
-          "sha256": "8a462f68c209e4923d3a8962309f35d16eaa215d88ff84fb5f23606d97343c9e"
+          "sha256": "b70dbc9f9806fb8cac1727cc9e8f0519488669d3d96c4810776fc77f09a5dee1"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.22.10/juliaup-1.22.10-x86_64-pc-windows-gnu-portable.tar.gz",
-      "sha256": "accd7a4d0d96a4ea0551fb07edd27db9649aa0ab3c80079cb0df308f9ac9c06a",
-      "size": 9355545,
+      "url": "https://github.com/JuliaLang/juliaup/releases/download/v1.23.0/juliaup-1.23.0-x86_64-pc-windows-gnu-portable.tar.gz",
+      "sha256": "658998db70847f79987341904d70b8dddd6c35d2f41354fd90f14624053656cb",
+      "size": 9372510,
       "format": "tar.gz",
-      "releaseTag": "v1.22.10",
+      "releaseTag": "v1.23.0",
       "binaries": {
         "julia.exe": {
           "path": "./julia.exe",
-          "sha256": "2b27592cba55a49034bcd792625d930a9b112f7cfb11f4625f628eab004180f1"
+          "sha256": "26a56fe06d0ec711987323942e35dc977592f0bdf50ae4c9b25080fb25091d46"
         },
         "juliaup.exe": {
           "path": "./juliaup.exe",
-          "sha256": "dce9dbffe894f26336cdfcd3d05215a896c250180528f2e5fef92e434896c392"
+          "sha256": "af1b62a5d31eedbff8f0f1efc6588ce62c70a767295e12d50934bfab92020856"
         }
       }
     }
