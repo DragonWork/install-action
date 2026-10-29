@@ -1,19 +1,45 @@
 {
   "schema": 1,
   "name": "mostro",
-  "version": "0.20.1",
+  "version": "0.20.2",
   "repository": "MostroP2P/mostro",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/MostroP2P/mostro/releases/download/v0.20.1/mostrod-x86_64-pc-windows-gnu.exe",
-      "releaseTag": "v0.20.1",
-      "sha256": "f3134978df866cb4a3e1326b18efff0f0e448237da41e3744f54ed1fb5ba5bb3",
-      "size": 54012283,
+    "linux-x64": {
+      "url": "https://github.com/MostroP2P/mostro/releases/download/v0.20.2/mostrod-x86_64-unknown-linux-musl",
+      "sha256": "2d11a6940dd2d76742a903dbe7cfe82325421fdef016721fecf28f54e1d4773d",
+      "size": 29610656,
       "format": "binary",
+      "releaseTag": "v0.20.2",
+      "binaries": {
+        "mostrod": {
+          "path": "mostrod-x86_64-unknown-linux-musl",
+          "sha256": "2d11a6940dd2d76742a903dbe7cfe82325421fdef016721fecf28f54e1d4773d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MostroP2P/mostro/releases/download/v0.20.2/mostrod-aarch64-unknown-linux-musl",
+      "sha256": "bbc62158db39aec5b14f3ea83965394a505e2e09a3bda91714076f9ad585b048",
+      "size": 28323920,
+      "format": "binary",
+      "releaseTag": "v0.20.2",
+      "binaries": {
+        "mostrod": {
+          "path": "mostrod-aarch64-unknown-linux-musl",
+          "sha256": "bbc62158db39aec5b14f3ea83965394a505e2e09a3bda91714076f9ad585b048"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MostroP2P/mostro/releases/download/v0.20.2/mostrod-x86_64-pc-windows-gnu.exe",
+      "sha256": "b0c16186e3c0587b6da61731fd6af6278c76d19e9ff806716c938244764b01d6",
+      "size": 54275083,
+      "format": "binary",
+      "releaseTag": "v0.20.2",
       "binaries": {
         "mostrod.exe": {
           "path": "mostrod-x86_64-pc-windows-gnu.exe",
-          "sha256": "f3134978df866cb4a3e1326b18efff0f0e448237da41e3744f54ed1fb5ba5bb3"
+          "sha256": "b0c16186e3c0587b6da61731fd6af6278c76d19e9ff806716c938244764b01d6"
         }
       }
     }
