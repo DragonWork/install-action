@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "codewhale-cli",
+  "version": "0.10.2",
+  "repository": "codewhale-hq/Codewhale",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codewhale-linux-x64.tar.gz",
+      "sha256": "ed666471d845549c922bb808c01e7d5553c3e97972d77ca411398002510f70d9",
+      "size": 92854522,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.2",
+      "binaries": {
+        "codewhale": {
+          "path": "codewhale-linux-x64/codewhale",
+          "sha256": "28ac984a2f145bf99b29933498a3f951a591283c22782933ce933861dda6c70b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codewhale-linux-arm64.tar.gz",
+      "sha256": "d737fc57e2e0abb106c5a84fb33733316541857601a6237449c207bb06993387",
+      "size": 84879881,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.2",
+      "binaries": {
+        "codewhale": {
+          "path": "codewhale-linux-arm64/codewhale",
+          "sha256": "b7c55e36f7ef30c8fae4b8741bfaf9e0177220a9d4d6d3e26650609b4d9ffe90"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codewhale-macos-x64.tar.gz",
+      "sha256": "a3cefe3d0cc8880cb6284443e1045ba7642fd30d390ba1314783dde69a7eb61d",
+      "size": 89796859,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.2",
+      "binaries": {
+        "codewhale": {
+          "path": "codewhale-macos-x64/codewhale",
+          "sha256": "ac135d8961525b4092101a15874016d42f71ef821c9c34db3b8f936aad9cb988"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codewhale-macos-arm64.tar.gz",
+      "sha256": "0462cc6332ea45cf8afdcc238b5b8493011efe06ca64a6738fa38d223690aa15",
+      "size": 83416151,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.2",
+      "binaries": {
+        "codewhale": {
+          "path": "codewhale-macos-arm64/codewhale",
+          "sha256": "da0229610647f1cc2dd14c4227b333a92ea276a49f5d4d79160fa19e515e590d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codewhale-windows-x64.zip",
+      "sha256": "21b27337a24d2f555ca3b4a1c5c47f5808a4939a363be14076655c4521ab272c",
+      "size": 96698729,
+      "format": "zip",
+      "releaseTag": "v0.10.2",
+      "binaries": {
+        "codewhale.exe": {
+          "path": "codewhale-windows-x64/codewhale.exe",
+          "sha256": "578280bec8d6e0ee9cfe97ee29de817535689f4078d8afd47384ff1941b1ee6c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codewhale-windows-arm64.zip",
+      "sha256": "5c771d7b8fa9ed417a188f09c92e76a230714fc4d6f282beaec97b886b62c292",
+      "size": 90467997,
+      "format": "zip",
+      "releaseTag": "v0.10.2",
+      "binaries": {
+        "codewhale.exe": {
+          "path": "codewhale-windows-arm64/codewhale.exe",
+          "sha256": "cbb56b79e071089e98c09e3325e9e237b38b787dcba29c13fd06701d3528aa63"
+        }
+      }
+    }
+  }
+}
