@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "mise",
-  "version": "2026.10.22",
+  "version": "2026.10.23",
   "repository": "jdx/mise",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.10.22/mise-v2026.10.22-linux-x64.tar.gz",
-      "sha256": "b8c44caa1ff2f7c417e0d40efc9235839e84bb9f55a13f93c128d48941c145a9",
-      "size": 59654644,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.10.23/mise-v2026.10.23-linux-x64.tar.gz",
+      "sha256": "4be3403954d8e8cdeba93bddd10212ae8ecb69ce549833041805a027b803d996",
+      "size": 59647833,
       "format": "tar.gz",
-      "releaseTag": "v2026.10.22",
+      "releaseTag": "v2026.10.23",
       "binaries": {
         "mise": {
           "path": "mise/bin/mise",
-          "sha256": "b1a4915ab9497dca0b9e6e29fba148da7d1c0903ca54a3d1f4ab80cb6650cbdc"
+          "sha256": "a6ac620e73fb58cefbdfef8fb154856fbd8ae08d75ae88103e4b81daef3a836e"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.10.22/mise-v2026.10.22-linux-arm64.tar.gz",
-      "sha256": "d50359b2cf4d8ad366dea96e00b07b6b1549671df7851b0285faef1365eb19db",
-      "size": 60483816,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.10.23/mise-v2026.10.23-linux-arm64.tar.gz",
+      "sha256": "4ae04207468000b50eb457610de80a0779b119ef32684e7489770934d36f9ad9",
+      "size": 60558387,
       "format": "tar.gz",
-      "releaseTag": "v2026.10.22",
+      "releaseTag": "v2026.10.23",
       "binaries": {
         "mise": {
           "path": "mise/bin/mise",
-          "sha256": "906f7f5fcd307bc967e11a0783c65db598e07cbb6601835058ed5bc7bc9c2a95"
+          "sha256": "7a4032ee0f637e2333b78ef937bdffc90efed799a4a85fa64c393799cc428731"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.10.22/mise-v2026.10.22-macos-x64.tar.gz",
-      "sha256": "5358da33f912652d532899bc98d44b6177cadd3be013dbc72c7c4ca500a0f336",
-      "size": 63921475,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.10.23/mise-v2026.10.23-macos-x64.tar.gz",
+      "sha256": "38f56451213155378580a205ffb39ffd516e1ae60a748631a000ada7cc0a9e49",
+      "size": 64012894,
       "format": "tar.gz",
-      "releaseTag": "v2026.10.22",
+      "releaseTag": "v2026.10.23",
       "binaries": {
         "mise": {
           "path": "mise/bin/mise",
-          "sha256": "3995d45a4c45c5106921ea82fb3ae7312594f52a2355b0301ae8b3fed1a7f41b"
+          "sha256": "9c439d85efca0a3529994fabe89de0098a6caae3b4f24e1492e51abc055873e6"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.10.22/mise-v2026.10.22-macos-arm64.tar.gz",
-      "sha256": "a03278808ca2449933c28921d48c75f15f69fdde3f893b51abc7bd35a679a716",
-      "size": 48040148,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.10.23/mise-v2026.10.23-macos-arm64.tar.gz",
+      "sha256": "b9146f565a02c18dc117e63a9e59ec1cb5189d1602e2cc68b27c0322c2a5908d",
+      "size": 48153738,
       "format": "tar.gz",
-      "releaseTag": "v2026.10.22",
+      "releaseTag": "v2026.10.23",
       "binaries": {
         "mise": {
           "path": "mise/bin/mise",
-          "sha256": "8065ac0e64b5ba155945bf006b7e58d1fa35fc44d53a3576b1a8396f7209de8f"
+          "sha256": "666b62cf0951b0a8ffccbfa832bfad8e19420d2bd5137b0458ce181f4225e835"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.10.22/mise-v2026.10.22-windows-x64.zip",
-      "sha256": "d17239513ad4821fc73ce8c5aa9dc6a239652a59cb76fa3f003d3e6c67833b4d",
-      "size": 84881116,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.10.23/mise-v2026.10.23-windows-x64.zip",
+      "sha256": "6e18e69bd870e2d33fab27d65c5c44e8db657507bd44796dd0755ebeda503725",
+      "size": 84946007,
       "format": "zip",
-      "releaseTag": "v2026.10.22",
+      "releaseTag": "v2026.10.23",
       "binaries": {
         "mise.exe": {
           "path": "mise/bin/mise.exe",
-          "sha256": "7dcf74720b731b19e895646992700b18344fc1b59cad4bc4d6643780f38d0196"
+          "sha256": "820e6399261eea81d4d167cfeb5b77aa4db4094033a3f6ed0bdf1a4b1b094e8c"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.10.22/mise-v2026.10.22-windows-arm64.zip",
-      "sha256": "0c268c9da19715e5e5642e79c17d6419bd5809afb62542aa762be678e70ff4a2",
-      "size": 77416973,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.10.23/mise-v2026.10.23-windows-arm64.zip",
+      "sha256": "6dda64c4a07321a76537e9192ceace7fa8c6d22121a3f874713e0aa13671b660",
+      "size": 77493972,
       "format": "zip",
-      "releaseTag": "v2026.10.22",
+      "releaseTag": "v2026.10.23",
       "binaries": {
         "mise.exe": {
           "path": "mise/bin/mise.exe",
-          "sha256": "6024bc1aaf5b0bb3206572f91a530f907cbbfa81f7313423d2af1778971eaa6a"
+          "sha256": "6fccb499d5c8bccd771bb55259411fe089368456e4725894624fb901081d1be7"
         }
       }
     }
