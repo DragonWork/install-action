@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "mcvcli",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "repository": "mcjars/mcvcli",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-x86_64-linux.tar.xz",
-      "releaseTag": "2.5.0",
-      "sha256": "b17fa59673acf7329e7d29843a6f9a6daec3698945e4efce28ea91bef98d5e6b",
-      "size": 2140680,
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.1/mcvcli-x86_64-linux.tar.xz",
+      "sha256": "f0f72663cac18667a0e12b5247c166db1a3c1295332accfc174bf37435f65131",
+      "size": 1901376,
       "format": "tar.xz",
+      "releaseTag": "2.5.1",
       "binaries": {
         "mcvcli": {
           "path": "mcvcli-x86_64-linux/mcvcli",
-          "sha256": "53eed3d294d2902f0c83426f66be8f5e3c626acae59625a20cda5bd9d479bd62"
+          "sha256": "8dd38cfc606bf4edea230e1b9495185a5f48c148d2b4f736793e8ba9795c948b"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-aarch64-linux.tar.xz",
-      "releaseTag": "2.5.0",
-      "sha256": "c02c3c30d519eab4ead1ce701aa9a95578da9bd626a3495038e0dd91e778785b",
-      "size": 1870636,
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.1/mcvcli-aarch64-linux.tar.xz",
+      "sha256": "fe47c57fa1106af51b5fd299529cf61a8f68b6fa8ad40c307de9faadcf3c54fb",
+      "size": 1654428,
       "format": "tar.xz",
+      "releaseTag": "2.5.1",
       "binaries": {
         "mcvcli": {
           "path": "mcvcli-aarch64-linux/mcvcli",
-          "sha256": "ded44ed2fa05d76bfc2e2a94f5e9b29ec9edd73e92dc115789f8c61b0d48214e"
+          "sha256": "e38c22c3c1ead148d343b614d49e23e2f3d1a8de2385c3240cd08b9e9eda57ee"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-x86_64-macos.tar.xz",
-      "releaseTag": "2.5.0",
-      "sha256": "921340ba210634b326cb1a81ad30de9fda4b800b22a63292697ef7a6baa44702",
-      "size": 2085180,
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.1/mcvcli-x86_64-macos.tar.xz",
+      "sha256": "818eeb48619cc50483b69027e1e4480280803d47bcac008873de1b24a29c5e33",
+      "size": 1833128,
       "format": "tar.xz",
+      "releaseTag": "2.5.1",
       "binaries": {
         "mcvcli": {
           "path": "mcvcli-x86_64-macos/mcvcli",
-          "sha256": "3ebf8a428e1230d1eb5e75463e57addc95dd1b882eafd92ffde82b4acc716b41"
+          "sha256": "8e9a46178057e678a5d52bb7b4adcc01d92b3c1465e74694a147eb09863a5442"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-aarch64-macos.tar.xz",
-      "releaseTag": "2.5.0",
-      "sha256": "9bb32ecc16835093b7b724c71e719f072a70b1dd104c4a9ed292cf83b9fa7a00",
-      "size": 1774440,
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.1/mcvcli-aarch64-macos.tar.xz",
+      "sha256": "1e99d3c70087c84cb9f52e6fa902e1ae73e16cc2493258958c8dd4a0333e8e84",
+      "size": 1538396,
       "format": "tar.xz",
+      "releaseTag": "2.5.1",
       "binaries": {
         "mcvcli": {
           "path": "mcvcli-aarch64-macos/mcvcli",
-          "sha256": "fdb095cbac4fe0f1f526d2301ae117c3b651493c5968dd011cb7bc0d654c7fa9"
+          "sha256": "f3fda8d52a3ee9cf562de5ddb1d1470e98cbf3c091d631d9ebd47f33b2cd3593"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.0/mcvcli-x86_64-windows.zip",
-      "releaseTag": "2.5.0",
-      "sha256": "6414ba702ab268a64b85130a8ecc5534168f08ba5c5a6c2b35fce8bc6747d2c9",
-      "size": 2385942,
+      "url": "https://github.com/mcjars/mcvcli/releases/download/2.5.1/mcvcli-x86_64-windows.zip",
+      "sha256": "70b83fe34a680c8c6e7d041eb5e67845a948ba7df98ddfa4f0894e130c90ceec",
+      "size": 2126916,
       "format": "zip",
+      "releaseTag": "2.5.1",
       "binaries": {
         "mcvcli.exe": {
           "path": "mcvcli-x86_64-windows/mcvcli.exe",
-          "sha256": "e2186e2d72cb8d539135f604a2d8a92645bf72e6aae40ac5c751bd2c7fc7fd64"
+          "sha256": "c458937b3c89d1de40a8d0f86d975f38d1a6514116b6a440b9fd0d43f4e1fa34"
         }
       }
     }
