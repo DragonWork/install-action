@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "redacter",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "repository": "abdolence/redacter-rs",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.20.0/redacter-Linux-x86_64.tar.gz",
-      "releaseTag": "v0.20.0",
-      "sha256": "2e5fd9aa19e93cfab4d92194d504954b518ff39c082e5c82a59faf48d7413c02",
-      "size": 17194888,
+      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.21.0/redacter-Linux-x86_64.tar.gz",
+      "sha256": "f6e16582ca9dfcd4ade70222251b00a730e4abd793e084f3b140eee9f61c65ce",
+      "size": 17568784,
       "format": "tar.gz",
+      "releaseTag": "v0.21.0",
       "binaries": {
         "redacter": {
           "path": "redacter",
-          "sha256": "f6ab2399bac43f3a1e6501ecfd4af19b7db310a00c05633ed1d50df27381ac31"
+          "sha256": "071eb5ea5ded11a5bc568c330144f9bb16579ec24b3560a10cf00a344d33015b"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.20.0/redacter-Linux-aarch64.tar.gz",
-      "releaseTag": "v0.20.0",
-      "sha256": "25d35bab49525bfcc2910cec8940a3d76f0b380e13fc572aee1ef2e6b5f34071",
-      "size": 20001525,
+      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.21.0/redacter-Linux-aarch64.tar.gz",
+      "sha256": "d50f0ad3f7d1da54873fff40370ac9a76f754dc19a04e998843fdd36d0a712ba",
+      "size": 20386971,
       "format": "tar.gz",
+      "releaseTag": "v0.21.0",
       "binaries": {
         "redacter": {
           "path": "redacter",
-          "sha256": "8a6ba82ffe7491ef4619977a0fb8f755d7c4c7952d6d969e51fe3b8f6d0c42d2"
+          "sha256": "87bf16ee5465916a65073151a0b6891c4552f135bc7aeeda7b51b1c733fa2ad4"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.20.0/redacter-Darwin-x86_64.tar.gz",
-      "releaseTag": "v0.20.0",
-      "sha256": "8a3acb4154265481bd5107388056629fdaa5a104dcf4f4ec31ab173d8d2f9d2a",
-      "size": 18229405,
+      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.21.0/redacter-Darwin-x86_64.tar.gz",
+      "sha256": "19c5aebb61c796fce5a9a652fce6046863ad550f8547ca81fd23a2fb0455ee3e",
+      "size": 18670873,
       "format": "tar.gz",
+      "releaseTag": "v0.21.0",
       "binaries": {
         "redacter": {
           "path": "redacter",
-          "sha256": "7a45bc754834308328c3c81e889863f2c0c219bfd917942f7148ae412f2a193e"
+          "sha256": "261e538284020bb246be10852388250cd4a07fcdda155ef0db8b31f8a1ed148e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.20.0/redacter-Darwin-aarch64.tar.gz",
-      "releaseTag": "v0.20.0",
-      "sha256": "5e005a18c8f4a1977d796a5eb7ebe7fd75a3a0c4868c6d64ee5e921cb396911e",
-      "size": 14509155,
+      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.21.0/redacter-Darwin-aarch64.tar.gz",
+      "sha256": "5e061424521ac86c1d836f3d182b8e5c64806c7ccab54929ed25b808f0ba11aa",
+      "size": 14823972,
       "format": "tar.gz",
+      "releaseTag": "v0.21.0",
       "binaries": {
         "redacter": {
           "path": "redacter",
-          "sha256": "00be46de757d828d27977be08247408da64983e0832d5476e446b6c4c3321d78"
+          "sha256": "780f917db395a316a97d5150fa0acadeb5f8fcd735ef0509ac8e8b6b6b5cdc87"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.20.0/redacter-Windows-x86_64.zip",
-      "releaseTag": "v0.20.0",
-      "sha256": "74a4d9cafcc5c6a3a0c95392341f0efe827b895078c598c6e61db9226f3f85ac",
-      "size": 14941190,
+      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.21.0/redacter-Windows-x86_64.zip",
+      "sha256": "1bcd6774c92f3de70cde753af24d9da940058465c47b7c8612540244d2e43213",
+      "size": 15322851,
       "format": "zip",
+      "releaseTag": "v0.21.0",
       "binaries": {
         "redacter.exe": {
           "path": "redacter.exe",
-          "sha256": "52eb06cbbba50da0352703f5e8c475aad1d51e7dff988bab1954837d83855658"
+          "sha256": "4269f5f9b3dc903ac88ca18582844292e6a893c63a876cafb5974f4ff653e16d"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.20.0/redacter-Windows-aarch64.zip",
-      "releaseTag": "v0.20.0",
-      "sha256": "421dec5e1ad2e7db65b75bfcf8e37ddca470bf19c637332bf27995f995e3adf8",
-      "size": 13959225,
+      "url": "https://github.com/abdolence/redacter-rs/releases/download/v0.21.0/redacter-Windows-aarch64.zip",
+      "sha256": "8f77626fc259ffe67b64ba94032653706ba34fb99e98b4356bbda9a11f1cde7c",
+      "size": 14302763,
       "format": "zip",
+      "releaseTag": "v0.21.0",
       "binaries": {
         "redacter.exe": {
           "path": "redacter.exe",
-          "sha256": "df7969c247132b06401c5819ad21d21814a58d2d2deb6370cb313248fe59ec93"
+          "sha256": "8692ce37e089686d81963434b46c118c4c0e10cac7b621d5a96594fa2af3fa55"
         }
       }
     }
