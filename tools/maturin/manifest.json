@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "maturin",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "repository": "PyO3/maturin",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/PyO3/maturin/releases/download/v1.15.0/maturin-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.15.0",
-      "sha256": "5a7d5226e83598b0c85881a0a03be16393ee2c0924b6f9d752951795825ac806",
-      "size": 10226361,
+      "url": "https://github.com/PyO3/maturin/releases/download/v1.16.0/maturin-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "804add817bf3b8a3760324ace2e2c39c345f7a99b3ace1296aeed1abc3a1d8c4",
+      "size": 10440643,
       "format": "tar.gz",
+      "releaseTag": "v1.16.0",
       "binaries": {
         "maturin": {
           "path": "maturin",
-          "sha256": "7770f6d9cbe0497f69b9b60f001a9a92784767651658e778b9664e6ef9b8a29a"
+          "sha256": "6819ebfead6131aa9654a23dce1c0a34861d48691fa7fb0a542435e460a1dffc"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/PyO3/maturin/releases/download/v1.15.0/maturin-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.15.0",
-      "sha256": "cd287a2c9dc69ab559670d245bfc9d3f5b0c9f184aa98ad0d8f826abc90c78dd",
-      "size": 9654472,
+      "url": "https://github.com/PyO3/maturin/releases/download/v1.16.0/maturin-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "7b7321340805f90d65f138ba8831c789b706086153f1cfb97d915c5ac6ad6c4d",
+      "size": 9863420,
       "format": "tar.gz",
+      "releaseTag": "v1.16.0",
       "binaries": {
         "maturin": {
           "path": "maturin",
-          "sha256": "f48ead340837d0a36f7ec429b25c918121a294e40e8061740796297844238c1c"
+          "sha256": "ac34e9599a28f134712dd70e53078624e9d786efde1b8fcfd1bbbe7f48f30baf"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/PyO3/maturin/releases/download/v1.15.0/maturin-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v1.15.0",
-      "sha256": "d72809b92806a53bdc22074aeedc83af66f8bdb391e2c60bc72547c40ec10629",
-      "size": 9719838,
+      "url": "https://github.com/PyO3/maturin/releases/download/v1.16.0/maturin-x86_64-apple-darwin.tar.gz",
+      "sha256": "ef7dd01584717c0ebf49b9a2aedf49a6586d17543adb2e8f08577af7d987a525",
+      "size": 9969248,
       "format": "tar.gz",
+      "releaseTag": "v1.16.0",
       "binaries": {
         "maturin": {
           "path": "maturin",
-          "sha256": "37a8e94a0552f29c3f13468d24fee81461a39d16b61357a30dae54c18379592d"
+          "sha256": "57a595c491896d9b3983b9e06537c9b05ea6292c7f78757e59a1f0b831c7be1f"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/PyO3/maturin/releases/download/v1.15.0/maturin-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v1.15.0",
-      "sha256": "d7a9ce82389e75aeaef8fdda43d35dbc956fac6a4b143a4c7b447b6ffadc7eaf",
-      "size": 9035129,
+      "url": "https://github.com/PyO3/maturin/releases/download/v1.16.0/maturin-aarch64-apple-darwin.tar.gz",
+      "sha256": "1abe6c9d188b674103a4c3d9bbaa6817cc45c4b7e2ecd5908643624ff5cbf657",
+      "size": 9194641,
       "format": "tar.gz",
+      "releaseTag": "v1.16.0",
       "binaries": {
         "maturin": {
           "path": "maturin",
-          "sha256": "55b014193adf178c96c2b9d8c01f3f32dbf52d570338eb2d7a025444ad611532"
+          "sha256": "566ad250375e6d4a6c0141a8392f93dd55c1f0f1585a54b97b8ae90ad141c01b"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/PyO3/maturin/releases/download/v1.15.0/maturin-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v1.15.0",
-      "sha256": "c645dc55f848205210552e77f744685c90c35ae81fd03e47a9887ebdc8ae8299",
-      "size": 9569120,
+      "url": "https://github.com/PyO3/maturin/releases/download/v1.16.0/maturin-x86_64-pc-windows-msvc.zip",
+      "sha256": "ca9fa03d2b37bbfc2851a62a787f1b6948b33ebd9cc6856376244a340377961b",
+      "size": 9794754,
       "format": "zip",
+      "releaseTag": "v1.16.0",
       "binaries": {
         "maturin.exe": {
           "path": "maturin.exe",
-          "sha256": "787779fa7f453d3444ac732689ad2bb8f1399b4d4e2af1ad9e00f84bb6460f07"
+          "sha256": "e65704fc01faa6f77c9a9121464e2672f13eb286b0f6abb0715c8b2ac53ddad7"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/PyO3/maturin/releases/download/v1.15.0/maturin-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v1.15.0",
-      "sha256": "bbb9361d2101039a81423cd3d66d6b3e94365640104bb553ee25591989010953",
-      "size": 8953884,
+      "url": "https://github.com/PyO3/maturin/releases/download/v1.16.0/maturin-aarch64-pc-windows-msvc.zip",
+      "sha256": "7c1c68ee355abfef3dd59bd9a970c3b2e1781169d6ce16571d9186233535e012",
+      "size": 9112405,
       "format": "zip",
+      "releaseTag": "v1.16.0",
       "binaries": {
         "maturin.exe": {
           "path": "maturin.exe",
-          "sha256": "02dc2fd2126e133980cdf292341619e22e6b3d00a126212e03dc6f46196821ca"
+          "sha256": "6aa91e6fd508092f3d141a78178a0550b24ed55a20e36690a80cca2d24e22520"
         }
       }
     }
