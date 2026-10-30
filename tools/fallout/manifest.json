@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "fallout",
+  "version": "0.4.3",
+  "repository": "Pajn/fallout",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Pajn/fallout/releases/download/v0.4.3/fallout-v0.4.3-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "f84caa4be6808ac7785b685d43454e64b0c7b0307272e3c4b230e87d2436ebce",
+      "size": 2133496,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.3",
+      "binaries": {
+        "fallout": {
+          "path": "fallout-v0.4.3-x86_64-unknown-linux-gnu/fallout",
+          "sha256": "85648610aae82021cfb7d5fa6a20e724ca26181316d1a4aecd1db8abc6375708"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Pajn/fallout/releases/download/v0.4.3/fallout-v0.4.3-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "7505e5b6d02c854ea172c26ac47ab6d1b2dfb34054bdb4a61deb88d7097ff086",
+      "size": 2036730,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.3",
+      "binaries": {
+        "fallout": {
+          "path": "fallout-v0.4.3-aarch64-unknown-linux-gnu/fallout",
+          "sha256": "3a9764293a4479a290c4d07b0e96ef0664f5f7c06cf3f13f0513b024de17da71"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Pajn/fallout/releases/download/v0.4.3/fallout-v0.4.3-aarch64-apple-darwin.tar.gz",
+      "sha256": "efffca08734f06fc90ef38168f43fc62f273adb2195e0b8b32e686edc5392345",
+      "size": 1914821,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.3",
+      "binaries": {
+        "fallout": {
+          "path": "fallout-v0.4.3-aarch64-apple-darwin/fallout",
+          "sha256": "6d79f5bdf615151644b267ea399a57e222c4e62ca999f3ebdbf062e4e11f1036"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Pajn/fallout/releases/download/v0.4.3/fallout-v0.4.3-x86_64-pc-windows-msvc.zip",
+      "sha256": "6c1dbe30693e7be995fa80e968476df2d1bc61cf369c797d8c1643e3906adbd0",
+      "size": 1793973,
+      "format": "zip",
+      "releaseTag": "v0.4.3",
+      "binaries": {
+        "fallout.exe": {
+          "path": "fallout-v0.4.3-x86_64-pc-windows-msvc/fallout.exe",
+          "sha256": "97038e3e9428393586e1d6fbf13dd425da29302507ae90f52b1a60d052ac1445"
+        }
+      }
+    }
+  }
+}
