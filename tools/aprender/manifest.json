@@ -1,19 +1,45 @@
 {
   "schema": 1,
   "name": "aprender",
-  "version": "0.71.4",
+  "version": "0.72.2",
   "repository": "paiml/aprender",
   "artifacts": {
-    "darwin-arm64": {
-      "url": "https://github.com/paiml/aprender/releases/download/v0.71.4/apr-v0.71.4-aarch64-apple-darwin-cpu.tar.gz",
-      "releaseTag": "v0.71.4",
-      "sha256": "184f3da0e95ad55253970523b0bb5f71f46b68614a12fa583eeac0975d22d6ba",
-      "size": 24155366,
+    "linux-x64": {
+      "url": "https://github.com/paiml/aprender/releases/download/v0.72.2/apr-v0.72.2-x86_64-unknown-linux-gnu-cpu.tar.gz",
+      "sha256": "85735f0c73359b7f7446d021e7f5cc828fc24cf50ce6cad89450e920c4741aae",
+      "size": 29211224,
       "format": "tar.gz",
+      "releaseTag": "v0.72.2",
       "binaries": {
         "apr": {
-          "path": "apr-v0.71.4-aarch64-apple-darwin-cpu/apr",
-          "sha256": "a998f747e03bc42ead04062393207b65f5eeff1703e452e17e931ff82b3caf4c"
+          "path": "apr-v0.72.2-x86_64-unknown-linux-gnu-cpu/apr",
+          "sha256": "3184a906bacc29beab4324c01e1aff2c0af5a5b2ad783ca2ef96d97a46402dc2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/paiml/aprender/releases/download/v0.72.2/apr-v0.72.2-aarch64-unknown-linux-gnu-cpu.tar.gz",
+      "sha256": "9763d8b91d9469552b8b44a5ef2b1c1da14bbfca2341974ec74a4d5cdf015d66",
+      "size": 25999835,
+      "format": "tar.gz",
+      "releaseTag": "v0.72.2",
+      "binaries": {
+        "apr": {
+          "path": "apr-v0.72.2-aarch64-unknown-linux-gnu-cpu/apr",
+          "sha256": "743fb977d3b32fb67a3059951233b523ff75ac96abe4b5f37fc5ac75d06168bf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/paiml/aprender/releases/download/v0.72.2/apr-v0.72.2-aarch64-apple-darwin-cpu.tar.gz",
+      "sha256": "27f5797c52832be0681008568ca5cbe307036466214142cc5f0996e92eeae572",
+      "size": 25099872,
+      "format": "tar.gz",
+      "releaseTag": "v0.72.2",
+      "binaries": {
+        "apr": {
+          "path": "apr-v0.72.2-aarch64-apple-darwin-cpu/apr",
+          "sha256": "688894967b84fb35ae109da7d2ff5ed4723afcbf34c83a9ccf8656c43bbceb83"
         }
       }
     }
