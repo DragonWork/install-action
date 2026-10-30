@@ -1,45 +1,71 @@
 {
   "schema": 1,
   "name": "monolith",
-  "version": "2.11.6",
+  "version": "2.11.7",
   "repository": "Y2Z/monolith",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.6/monolith-cli-linux-x86_64",
-      "sha256": "680f11831e5e0de4be6a17cbb1ce2542b8536bc50f7dd83a12cfd2a4e63c25c7",
-      "size": 8216768,
+      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.7/monolith-cli-linux-x86_64",
+      "sha256": "fda159d2ae1f8a48ac7f5b96f25e1c01c4642e370a6d0e2f25c4dc5f4fbf00f6",
+      "size": 8227256,
       "format": "binary",
-      "releaseTag": "v2.11.6",
+      "releaseTag": "v2.11.7",
       "binaries": {
         "monolith": {
           "path": "monolith-cli-linux-x86_64",
-          "sha256": "680f11831e5e0de4be6a17cbb1ce2542b8536bc50f7dd83a12cfd2a4e63c25c7"
+          "sha256": "fda159d2ae1f8a48ac7f5b96f25e1c01c4642e370a6d0e2f25c4dc5f4fbf00f6"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.6/monolith-cli-linux-aarch64",
-      "sha256": "f7275341ec2d9bcb9f4b23d8ea1bc2c618222f4d3b4c24e752d6cb4b3d56c1ac",
-      "size": 7294640,
+      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.7/monolith-cli-linux-aarch64",
+      "sha256": "fb6f541ca62e990491c109c249349c33efd4e977350ccca36509aacc1ea57637",
+      "size": 7301120,
       "format": "binary",
-      "releaseTag": "v2.11.6",
+      "releaseTag": "v2.11.7",
       "binaries": {
         "monolith": {
           "path": "monolith-cli-linux-aarch64",
-          "sha256": "f7275341ec2d9bcb9f4b23d8ea1bc2c618222f4d3b4c24e752d6cb4b3d56c1ac"
+          "sha256": "fb6f541ca62e990491c109c249349c33efd4e977350ccca36509aacc1ea57637"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.7/monolith-cli-macos-x86_64-apple-darwin",
+      "sha256": "1eb48aa028ed2fb71d422816fbe1be7fbc20f451342e88b601128350106ca5cd",
+      "size": 7572120,
+      "format": "binary",
+      "releaseTag": "v2.11.7",
+      "binaries": {
+        "monolith": {
+          "path": "monolith-cli-macos-x86_64-apple-darwin",
+          "sha256": "1eb48aa028ed2fb71d422816fbe1be7fbc20f451342e88b601128350106ca5cd"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.7/monolith-cli-macos-aarch64-apple-darwin",
+      "sha256": "4740d3e1b9b09a3ae6aa2397b60bc9430237c62c1131700f30eb8cd03baa0880",
+      "size": 6191936,
+      "format": "binary",
+      "releaseTag": "v2.11.7",
+      "binaries": {
+        "monolith": {
+          "path": "monolith-cli-macos-aarch64-apple-darwin",
+          "sha256": "4740d3e1b9b09a3ae6aa2397b60bc9430237c62c1131700f30eb8cd03baa0880"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.6/monolith-cli.exe",
-      "sha256": "af9a6e1c6e245f94397b1544c89041f837b79b45bad93454c1f7a658cac68383",
-      "size": 5486592,
+      "url": "https://github.com/Y2Z/monolith/releases/download/v2.11.7/monolith-cli.exe",
+      "sha256": "1ccaa35ce0b787ff29925c4cc8844a1bb49e1f850a587ceabbcab79e37bebc0b",
+      "size": 5492736,
       "format": "binary",
-      "releaseTag": "v2.11.6",
+      "releaseTag": "v2.11.7",
       "binaries": {
         "monolith.exe": {
           "path": "monolith-cli.exe",
-          "sha256": "af9a6e1c6e245f94397b1544c89041f837b79b45bad93454c1f7a658cac68383"
+          "sha256": "1ccaa35ce0b787ff29925c4cc8844a1bb49e1f850a587ceabbcab79e37bebc0b"
         }
       }
     }
