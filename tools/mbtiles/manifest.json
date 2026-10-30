@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mbtiles",
+  "version": "0.21.2",
+  "repository": "maplibre/martin",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/maplibre/martin/releases/download/mbtiles-v0.21.2/martin-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "46c8508fb7504e2d04449cdcd7f8ff560782eb3b2be0fd77f229c0e56f557f2c",
+      "size": 28033919,
+      "format": "tar.gz",
+      "releaseTag": "mbtiles-v0.21.2",
+      "binaries": {
+        "mbtiles": {
+          "path": "mbtiles",
+          "sha256": "b22ca1e5c2d013a01b1032054c6701ee5fc4c66991ea16768cc60f7f6cd61eea"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/maplibre/martin/releases/download/mbtiles-v0.21.2/martin-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "a8d0c77a1d0fe25b291b918edac0a26a1f43f322fb4447359442d127b4d8305e",
+      "size": 25901931,
+      "format": "tar.gz",
+      "releaseTag": "mbtiles-v0.21.2",
+      "binaries": {
+        "mbtiles": {
+          "path": "mbtiles",
+          "sha256": "585c634eaf5ee64bc853a45f6ca5a857158efad6f5958970c37143aa8195a4d8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/maplibre/martin/releases/download/mbtiles-v0.21.2/martin-aarch64-apple-darwin.tar.gz",
+      "sha256": "458a3ea4992ba1d9bda92615940ad9997e293927eca301e0956a24230ebe9fd9",
+      "size": 24381207,
+      "format": "tar.gz",
+      "releaseTag": "mbtiles-v0.21.2",
+      "binaries": {
+        "mbtiles": {
+          "path": "mbtiles",
+          "sha256": "8e990da38812526d495eeb63ac0ebc7abc7533215962db29d430bf48259d13c4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/maplibre/martin/releases/download/mbtiles-v0.21.2/martin-x86_64-pc-windows-msvc.zip",
+      "sha256": "b66a2d2fc327b108da582ce159f222c5848f984417636dd3b59b9808f46b062f",
+      "size": 27795584,
+      "format": "zip",
+      "releaseTag": "mbtiles-v0.21.2",
+      "binaries": {
+        "mbtiles.exe": {
+          "path": "mbtiles.exe",
+          "sha256": "f3deaeb976f37deb8b9dfdfe7c611b28950b3a3724c3f5008613e425f87fb1a7"
+        }
+      }
+    }
+  }
+}
