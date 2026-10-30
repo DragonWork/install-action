@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "espflash",
-  "version": "4.6.0",
+  "version": "4.7.0",
   "repository": "esp-rs/espflash",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-x86_64-unknown-linux-musl.zip",
-      "releaseTag": "v4.6.0",
-      "sha256": "d515ee13ae44ba913c31a2ca58dc5fd72d3362994ee1d7487a16b289dfbb6e4a",
-      "size": 8151372,
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.7.0/espflash-x86_64-unknown-linux-musl.zip",
+      "sha256": "a9bf20c76ab42d0d4330bbc33707c4424d5541f5129149d889dbfa8dab476910",
+      "size": 8307510,
       "format": "zip",
+      "releaseTag": "v4.7.0",
       "binaries": {
         "espflash": {
           "path": "espflash",
-          "sha256": "eb02b1d35d72bb6ac2798009b2715d835df474eaafeff2af0f3060bb6744d0e8"
+          "sha256": "a4a2b28f12176771773e19c16662d5a828a7cb446433d3626c57d7567b9c33ee"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-aarch64-unknown-linux-gnu.zip",
-      "releaseTag": "v4.6.0",
-      "sha256": "560c690ce28c7fe2b31709eeaf1fcc6717cfa832798b68287dddca1e3a3b65d6",
-      "size": 7829521,
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.7.0/espflash-aarch64-unknown-linux-musl.zip",
+      "sha256": "a2081c002f6050a287007a93ba01cdd4c9d111181b69d5ddf7bdb71d33841c65",
+      "size": 7971289,
       "format": "zip",
+      "releaseTag": "v4.7.0",
       "binaries": {
         "espflash": {
           "path": "espflash",
-          "sha256": "4ef5e03a91ff105cf019f241e1aebc27dde221fddbe334543106e1b6f3d16a86"
+          "sha256": "c928d87a8039316e16e64d58f9029e264928546e45c96049c108826d213d5998"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-x86_64-apple-darwin.zip",
-      "releaseTag": "v4.6.0",
-      "sha256": "e945685fe62e45a120487b79ccecc5ac3586bbf5f4e7d78f95cc09e2227bf32d",
-      "size": 7903502,
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.7.0/espflash-x86_64-apple-darwin.zip",
+      "sha256": "3e3ca415f15f58000d351ca8dd22137c2d04384a8153f65b831553074601ee03",
+      "size": 8059620,
       "format": "zip",
+      "releaseTag": "v4.7.0",
       "binaries": {
         "espflash": {
           "path": "espflash",
-          "sha256": "d81ec591d6617a419913905dcb8358576853c5539a48f96dc7566b027160c589"
+          "sha256": "835858a8e0ae47ae550372f5f0c64b64a0e99c0840f7bc5f0baa646a1f48a952"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-aarch64-apple-darwin.zip",
-      "releaseTag": "v4.6.0",
-      "sha256": "f39bff252a181a6e345991f603d7606cf9762550e557073c1282eada46d8c757",
-      "size": 7781066,
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.7.0/espflash-aarch64-apple-darwin.zip",
+      "sha256": "4313a4cf3e05036d4e1d8edeef938a11661eb5b9ba5759cabbf48ad4f6fbc180",
+      "size": 7928264,
       "format": "zip",
+      "releaseTag": "v4.7.0",
       "binaries": {
         "espflash": {
           "path": "espflash",
-          "sha256": "472da6edfdab4b47a146e61343aa6887d341e0c7f4e584a2ef308365ed5386ba"
+          "sha256": "07b57452dafd22c8c74561fe5048b2097e0cd7429769e77ebe52c42279209fec"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/esp-rs/espflash/releases/download/v4.6.0/espflash-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v4.6.0",
-      "sha256": "b2cb4656b067716fe2b3794cf0604b461b2476d06dee7f481704cb6c8495b11c",
-      "size": 7625358,
+      "url": "https://github.com/esp-rs/espflash/releases/download/v4.7.0/espflash-x86_64-pc-windows-msvc.zip",
+      "sha256": "2b10333e4f4f1a26024259b0cc1942ba17f27b3c530621c6111f4c10ac70213e",
+      "size": 7763057,
       "format": "zip",
+      "releaseTag": "v4.7.0",
       "binaries": {
         "espflash.exe": {
           "path": "espflash.exe",
-          "sha256": "d101587d64761cd9ea584d318bee130edf38e2cf057301808656f1423a77d5f4"
+          "sha256": "9fc8f3ace81e3180d2ba0b72c31a81e3f47ac580e3c9667954b58016d7a3fd87"
         }
       }
     }
