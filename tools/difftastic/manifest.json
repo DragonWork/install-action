@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "difftastic",
-  "version": "0.71.0",
+  "version": "0.72.0",
   "repository": "Wilfred/difftastic",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/Wilfred/difftastic/releases/download/0.71.0/difft-0.71.0-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "0.71.0",
-      "sha256": "0a65e6715df992b0adae012e606bd9cc74fa6cfe90eaf13bbae165a0a19b3086",
-      "size": 11746371,
+      "url": "https://github.com/Wilfred/difftastic/releases/download/0.72.0/difft-0.72.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "27b9c1fe038a95682eed241265a3cacb781227730f106104b617e10067d38ff4",
+      "size": 10151788,
       "format": "tar.gz",
+      "releaseTag": "0.72.0",
       "binaries": {
         "difft": {
           "path": "difft",
-          "sha256": "c858db111e28f13c6629834295afa517d15388a3bf615f6ca21caf0caf23af8d"
+          "sha256": "bfdc094b9ec7e858bb7d314f9f1b56b9e828ff3025e4cd801fdd52d3b30bff5a"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/Wilfred/difftastic/releases/download/0.71.0/difft-0.71.0-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "0.71.0",
-      "sha256": "5f046098b36ff985d0f99fec6f22cf74961db60386ff9d40df39fd99660aae2c",
-      "size": 11471678,
+      "url": "https://github.com/Wilfred/difftastic/releases/download/0.72.0/difft-0.72.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "0993a82a6708a24adc6c6b8de366924728ed08f537a5b488940082c8edc79353",
+      "size": 9863601,
       "format": "tar.gz",
+      "releaseTag": "0.72.0",
       "binaries": {
         "difft": {
           "path": "difft",
-          "sha256": "da2a37bff0e35484cb38d53af4ee534efbaf98128d6e6dedcd55c56685d1fdb7"
+          "sha256": "9f8daf1594e6edfcee812593fdc0c6fcb22ac0e07ca461a1b0ef2a1a877cabd4"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/Wilfred/difftastic/releases/download/0.71.0/difft-0.71.0-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "0.71.0",
-      "sha256": "390b5299b0bc5059b5617f448eb1f3cb42c689933258fc57770c24d257a5d8a8",
-      "size": 11301173,
+      "url": "https://github.com/Wilfred/difftastic/releases/download/0.72.0/difft-0.72.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "31472d5cc1d40444beb697b58e6cf83febb3c7741df4007c3039952ffc1c36c6",
+      "size": 9714098,
       "format": "tar.gz",
+      "releaseTag": "0.72.0",
       "binaries": {
         "difft": {
           "path": "difft",
-          "sha256": "0d4d42d950b0533d6c04132c991e4be6b6289828fd59b0164996e8defbdbb916"
+          "sha256": "1aa4878594ab8dc5c32b223c052ba0b4c23d69ceae6b3ea4a4614dc530f5e304"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/Wilfred/difftastic/releases/download/0.71.0/difft-0.71.0-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "0.71.0",
-      "sha256": "92acf8890543b6d6f436a87a7a5ec64f82a4b8dbe3a7e564c1e5cbfe60823bc7",
-      "size": 11992567,
+      "url": "https://github.com/Wilfred/difftastic/releases/download/0.72.0/difft-0.72.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "959ce3e4b661663a6bb0b79de5e03051897e521e99c1b85f3c810b54f025ec93",
+      "size": 10188281,
       "format": "tar.gz",
+      "releaseTag": "0.72.0",
       "binaries": {
         "difft": {
           "path": "difft",
-          "sha256": "493ae3a2495f075580f7778dcffbb36bdd854053d288e1d67a8584f39f94485f"
+          "sha256": "3ced24583b4e5e3e195c8ec422a5e9b59f179f367abccd932a8404b7504d6da0"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/Wilfred/difftastic/releases/download/0.71.0/difft-0.71.0-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "0.71.0",
-      "sha256": "9a979f9d96d739625a0fe69317f3197cc7bcef663a6d7195197d6c9bf96ed6f5",
-      "size": 10446790,
+      "url": "https://github.com/Wilfred/difftastic/releases/download/0.72.0/difft-0.72.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "7b6295a9a433ba79978b02ad4b4b27f955423b8eb379927409b9ff4e5156379e",
+      "size": 8907291,
       "format": "zip",
+      "releaseTag": "0.72.0",
       "binaries": {
         "difft.exe": {
           "path": "difft.exe",
-          "sha256": "bc0097f4785e77c5f4768d39098e099f2b912d8fad70fa520126176b6ca0c138"
+          "sha256": "cf61797a609f14b338788f64804302b1775842ed63c34f83233413acf4e18a99"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/Wilfred/difftastic/releases/download/0.71.0/difft-0.71.0-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "0.71.0",
-      "sha256": "fbf0497f654271f9c96dfc52f06aad2163ac391ee4050f9dab7b88cba2bd9e77",
-      "size": 10284280,
+      "url": "https://github.com/Wilfred/difftastic/releases/download/0.72.0/difft-0.72.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "d5fc6be7140ac28a26985328b9ae7724962d467e21aa78f7245319573af76cdc",
+      "size": 8755550,
       "format": "zip",
+      "releaseTag": "0.72.0",
       "binaries": {
         "difft.exe": {
           "path": "difft.exe",
-          "sha256": "7bef86de9293bcd9fa7823be10d11064f5fcb8b1c887a6723bddc4db4593c280"
+          "sha256": "6babb1ab2c3edae6ca02dfae51e8ad5acc5923095ced374462a9308438d41210"
         }
       }
     }
