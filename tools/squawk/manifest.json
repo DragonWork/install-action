@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "squawk",
-  "version": "2.70.0",
+  "version": "2.71.0",
   "repository": "sbdchd/squawk",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/sbdchd/squawk/releases/download/v2.70.0/squawk-windows-x64.exe",
-      "releaseTag": "v2.70.0",
-      "sha256": "a076936531b5fa26b95cdcebe33ecaa3fa8e764dc000a607a06fc6da5d2098bd",
-      "size": 17079808,
+    "linux-x64": {
+      "url": "https://github.com/sbdchd/squawk/releases/download/v2.71.0/squawk-linux-x64",
+      "sha256": "ab978cb412e5e5eb2f06aaa4c5035a1567f6eba53274d7d1e068f73169b88bbd",
+      "size": 29252088,
       "format": "binary",
+      "releaseTag": "v2.71.0",
+      "binaries": {
+        "squawk": {
+          "path": "squawk-linux-x64",
+          "sha256": "ab978cb412e5e5eb2f06aaa4c5035a1567f6eba53274d7d1e068f73169b88bbd"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sbdchd/squawk/releases/download/v2.71.0/squawk-linux-arm64",
+      "sha256": "cc6b563f205e9d93472232ca21113c736d6e1f45a7ce700170b7e17bcecc9b7f",
+      "size": 29045448,
+      "format": "binary",
+      "releaseTag": "v2.71.0",
+      "binaries": {
+        "squawk": {
+          "path": "squawk-linux-arm64",
+          "sha256": "cc6b563f205e9d93472232ca21113c736d6e1f45a7ce700170b7e17bcecc9b7f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sbdchd/squawk/releases/download/v2.71.0/squawk-darwin-x64",
+      "sha256": "e0770d7641dd4bea5a0f11b3efb18829702e52a230724c6b3f725393369c467c",
+      "size": 21266800,
+      "format": "binary",
+      "releaseTag": "v2.71.0",
+      "binaries": {
+        "squawk": {
+          "path": "squawk-darwin-x64",
+          "sha256": "e0770d7641dd4bea5a0f11b3efb18829702e52a230724c6b3f725393369c467c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sbdchd/squawk/releases/download/v2.71.0/squawk-darwin-arm64",
+      "sha256": "6132cb9779c688303e43746e10268f280b35a3fbcc70b851472021cc882ef5a2",
+      "size": 20980016,
+      "format": "binary",
+      "releaseTag": "v2.71.0",
+      "binaries": {
+        "squawk": {
+          "path": "squawk-darwin-arm64",
+          "sha256": "6132cb9779c688303e43746e10268f280b35a3fbcc70b851472021cc882ef5a2"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sbdchd/squawk/releases/download/v2.71.0/squawk-windows-x64.exe",
+      "sha256": "3299e2f9e41ab5d6274cad64a061488a370a0310a02d17e0dcf3845ad779beec",
+      "size": 21108224,
+      "format": "binary",
+      "releaseTag": "v2.71.0",
       "binaries": {
         "squawk.exe": {
           "path": "squawk-windows-x64.exe",
-          "sha256": "a076936531b5fa26b95cdcebe33ecaa3fa8e764dc000a607a06fc6da5d2098bd"
+          "sha256": "3299e2f9e41ab5d6274cad64a061488a370a0310a02d17e0dcf3845ad779beec"
         }
       }
     }
