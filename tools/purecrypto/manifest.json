@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "purecrypto",
-  "version": "0.10.3",
+  "version": "0.10.4",
   "repository": "KarpelesLab/purecrypto",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.3/purecrypto-v0.10.3-linux-x86_64.tar.gz",
-      "releaseTag": "v0.10.3",
-      "sha256": "289adc4bbcedae1fbc0c25280e3c67c4ba187a6024b595d3a5944ab041b2ae87",
-      "size": 10723691,
+      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.4/purecrypto-v0.10.4-linux-x86_64.tar.gz",
+      "sha256": "7139735623ca1cf6d8c3c9761a4b3ff909948f7c58add7083a641cdecb0b6e0a",
+      "size": 12034930,
       "format": "tar.gz",
+      "releaseTag": "v0.10.4",
       "binaries": {
         "purecrypto": {
           "path": "./bin/purecrypto",
-          "sha256": "78c2bedacf6f670228f43b7972b794e0be9de09d3cc1d41132434467a656d436"
+          "sha256": "35467cdc18cbf79aca812a58bf8b74e30c0f4b2a386fa1807b76868d1285dad5"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.3/purecrypto-v0.10.3-linux-aarch64.tar.gz",
-      "releaseTag": "v0.10.3",
-      "sha256": "c43fcbc3d32d79880a9ef2ba3ceca1d8199a28e7e2a29bad041d1a0109671c8c",
-      "size": 10212744,
+      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.4/purecrypto-v0.10.4-linux-aarch64.tar.gz",
+      "sha256": "cebf3aebb515742c03771f29f05581e5dd46b848a8b3cf632713b48c56e5315b",
+      "size": 10765711,
       "format": "tar.gz",
+      "releaseTag": "v0.10.4",
       "binaries": {
         "purecrypto": {
           "path": "./bin/purecrypto",
-          "sha256": "e17ef02cf6fd23db9d1c59f8a4b0a10df6fcbc695342db363f76632faa462683"
+          "sha256": "b86f4af940946959b761a5ff9b123762fd0de8dc306f7e9f0e0866c185d582a9"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.4/purecrypto-v0.10.4-macos-universal.tar.gz",
+      "sha256": "b28d886f1c18447c43a48b5633eff14595be8695975655414fd4c7d7ff45d620",
+      "size": 21552042,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.4",
+      "binaries": {
+        "purecrypto": {
+          "path": "./bin/purecrypto",
+          "sha256": "9e3b4067c0314f03a72bf0041f0772cb30c77a101b311ff805eff721b43ec0fe"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.4/purecrypto-v0.10.4-macos-universal.tar.gz",
+      "sha256": "b28d886f1c18447c43a48b5633eff14595be8695975655414fd4c7d7ff45d620",
+      "size": 21552042,
+      "format": "tar.gz",
+      "releaseTag": "v0.10.4",
+      "binaries": {
+        "purecrypto": {
+          "path": "./bin/purecrypto",
+          "sha256": "9e3b4067c0314f03a72bf0041f0772cb30c77a101b311ff805eff721b43ec0fe"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.3/purecrypto-v0.10.3-windows-x86_64.zip",
-      "releaseTag": "v0.10.3",
-      "sha256": "53935592e5f46017f8e100c3383c485155a8a09b757e26428b162084a5626b50",
-      "size": 9987265,
+      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.4/purecrypto-v0.10.4-windows-x86_64.zip",
+      "sha256": "c994c6d5780853aac549c95fc2e3962ed6838facb51edcc6972c36c45f7e4df0",
+      "size": 11320110,
       "format": "zip",
+      "releaseTag": "v0.10.4",
       "binaries": {
         "purecrypto.exe": {
           "path": "bin/purecrypto.exe",
-          "sha256": "b41f8344cf162b64e73e05349326b242771baf27ff0ef283368a10716867915e"
+          "sha256": "9d3d323e92649457b30c7936682b1deb4bb43c81f1c886e7824e47d3decff4f3"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.3/purecrypto-v0.10.3-windows-aarch64.zip",
-      "releaseTag": "v0.10.3",
-      "sha256": "432f692e8bc8bb4b57ddddfc63f8ae60c6ab6da0cc35dac00a8aea5a487d89d4",
-      "size": 9353069,
+      "url": "https://github.com/KarpelesLab/purecrypto/releases/download/v0.10.4/purecrypto-v0.10.4-windows-aarch64.zip",
+      "sha256": "7a355e567f72c06e4b37e220a058d34369d0b07cbc1ca76af6178f389f019019",
+      "size": 9872220,
       "format": "zip",
+      "releaseTag": "v0.10.4",
       "binaries": {
         "purecrypto.exe": {
           "path": "bin/purecrypto.exe",
-          "sha256": "58ba7ea14252b2ae0a2d42f2138ef2f67417b5eb3025a9e4f58c9ae380c2cf44"
+          "sha256": "20acbcb6c76d4613ab59c8a57cea782f992eaee1c10d15758c3794325d166b87"
         }
       }
     }
