@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "wasm-tools",
-  "version": "1.262.0",
+  "version": "1.263.0",
   "repository": "bytecodealliance/wasm-tools",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.262.0/wasm-tools-1.262.0-x86_64-linux.tar.gz",
-      "releaseTag": "v1.262.0",
-      "sha256": "655b8df67d54c3ef9b52fc237c4e94bbfbb5f5f43825245cb0940a7002a9ed65",
-      "size": 5951367,
+      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.263.0/wasm-tools-1.263.0-x86_64-musl.tar.gz",
+      "sha256": "b9bf473d8c676f7590b98a12d81b43ad88b2eec5233795a861874c606fce1f81",
+      "size": 6357446,
       "format": "tar.gz",
+      "releaseTag": "v1.263.0",
       "binaries": {
         "wasm-tools": {
-          "path": "wasm-tools-1.262.0-x86_64-linux/wasm-tools",
-          "sha256": "fe6a056dc03269b06f53e0cff926101c17d4f4ea37fbaa077d049c0d18acb211"
+          "path": "wasm-tools-1.263.0-x86_64-musl/wasm-tools",
+          "sha256": "a1197b60eae0643bd6ad3fb84561e07b85054e3732b81d48586c22865265a403"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.262.0/wasm-tools-1.262.0-aarch64-linux.tar.gz",
-      "releaseTag": "v1.262.0",
-      "sha256": "729dc47a114305ed60873ce6199d403eed1da89c3aa2367eef292da358b1e8d3",
-      "size": 6015840,
+      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.263.0/wasm-tools-1.263.0-aarch64-musl.tar.gz",
+      "sha256": "4a9a4dd47bafcdfbf0730b33c666e4bcd45d6b9d9f903d70cb99b8827e69651a",
+      "size": 6106460,
       "format": "tar.gz",
+      "releaseTag": "v1.263.0",
       "binaries": {
         "wasm-tools": {
-          "path": "wasm-tools-1.262.0-aarch64-linux/wasm-tools",
-          "sha256": "d0f5c3d16ee3b7dcecd80748a3b6765562c8c66946cd87e925a478e4c3e793d1"
+          "path": "wasm-tools-1.263.0-aarch64-musl/wasm-tools",
+          "sha256": "374872788a4dcf781ad912008bbe3f82cb453f652de125b1405f84d0cca6a81b"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.262.0/wasm-tools-1.262.0-x86_64-macos.tar.gz",
-      "releaseTag": "v1.262.0",
-      "sha256": "970b078911cad1a01a645c769de722cd44feee3355dcc4170c2ac3066154e5e9",
-      "size": 5633028,
+      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.263.0/wasm-tools-1.263.0-x86_64-macos.tar.gz",
+      "sha256": "909061aba8c069aeed8cb0933e50973a9c8e869bbd6a7819176b49871a338424",
+      "size": 5657377,
       "format": "tar.gz",
+      "releaseTag": "v1.263.0",
       "binaries": {
         "wasm-tools": {
-          "path": "wasm-tools-1.262.0-x86_64-macos/wasm-tools",
-          "sha256": "900284e6502d874ea91a0c9e18dc6ba0256c43f8f3f595ff72af7f50fcd5255b"
+          "path": "wasm-tools-1.263.0-x86_64-macos/wasm-tools",
+          "sha256": "23b9a6d63a3146ee6b9664e8d31ecced613152792bb5070d97aeed8d5501c4d4"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.262.0/wasm-tools-1.262.0-aarch64-macos.tar.gz",
-      "releaseTag": "v1.262.0",
-      "sha256": "801b237643cc0f4ab27ebd1745e7863e23bf194a038bc6ca8ce5618212e43669",
-      "size": 5191137,
+      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.263.0/wasm-tools-1.263.0-aarch64-macos.tar.gz",
+      "sha256": "b568f04746a699c4068b8d751779b60b501cf2cab6d259a3bc973eb5eeb1f62b",
+      "size": 5227062,
       "format": "tar.gz",
+      "releaseTag": "v1.263.0",
       "binaries": {
         "wasm-tools": {
-          "path": "wasm-tools-1.262.0-aarch64-macos/wasm-tools",
-          "sha256": "4a5b127f48340fbd453708283d190f9b1dbbe5820571eae5cbae0a205a095a00"
+          "path": "wasm-tools-1.263.0-aarch64-macos/wasm-tools",
+          "sha256": "b89204b6c3b3e909b2d40003347307c98a6c23c3ff828a6ee669d872f903f3cb"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.262.0/wasm-tools-1.262.0-x86_64-windows.zip",
-      "releaseTag": "v1.262.0",
-      "sha256": "a39100cadac426e174e449a80db669f191b6a2e14f27c369553580ca6e9ea7e3",
-      "size": 4697594,
+      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.263.0/wasm-tools-1.263.0-x86_64-windows.zip",
+      "sha256": "0803df158b4dbea6b029d11f4206c414f432f0447af91542817061e4f0bd912e",
+      "size": 4715259,
       "format": "zip",
+      "releaseTag": "v1.263.0",
       "binaries": {
         "wasm-tools.exe": {
-          "path": "wasm-tools-1.262.0-x86_64-windows/wasm-tools.exe",
-          "sha256": "a3de96729f17bb5a7bcb11632f6c15ea45b26d8bc636f21a98cf2515cf3bc70d"
+          "path": "wasm-tools-1.263.0-x86_64-windows/wasm-tools.exe",
+          "sha256": "3be416990124225fb4b683c8add1d910ea5bccb67de0963dab13a5599b685829"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.262.0/wasm-tools-1.262.0-aarch64-windows.zip",
-      "releaseTag": "v1.262.0",
-      "sha256": "ed4fcb7d89ef2683d3a6d99615258e8e4fe125edf66e369b94232081fa853684",
-      "size": 4362778,
+      "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.263.0/wasm-tools-1.263.0-aarch64-windows.zip",
+      "sha256": "e556da1f47810331f6455cb1b23248a9fa43f2fca28adb6eeb0973d4f25b7e25",
+      "size": 4394043,
       "format": "zip",
+      "releaseTag": "v1.263.0",
       "binaries": {
         "wasm-tools.exe": {
-          "path": "wasm-tools-1.262.0-aarch64-windows/wasm-tools.exe",
-          "sha256": "6b215e20d0d5f1b969850db8e5ee9f257cf15dfa7cea404028a9962c6a3eea33"
+          "path": "wasm-tools-1.263.0-aarch64-windows/wasm-tools.exe",
+          "sha256": "95d1d1de14d88dbb0747939c0faedfeb366eeae6ccd1e1de04edd8aed41708f2"
         }
       }
     }
