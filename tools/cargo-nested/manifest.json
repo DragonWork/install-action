@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-nested",
+  "version": "3.2.0",
+  "repository": "smoelius/nested_workspace",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/smoelius/nested_workspace/releases/download/v3.2.0/cargo-nested-x86_64-unknown-linux-gnu-v3.2.0.tar.gz",
+      "sha256": "349a96a98017e9ac95d8c8ca0b1a9d1098525f8327cfb7fdd75f9e6528901c92",
+      "size": 1024170,
+      "format": "tar.gz",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "cargo-nested": {
+          "path": "cargo-nested-x86_64-unknown-linux-gnu-v3.2.0/cargo-nested",
+          "sha256": "0e98f38cee582d209929eeace1a6183b06e74140f29d076d5cdf148b4f2874cf"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/smoelius/nested_workspace/releases/download/v3.2.0/cargo-nested-aarch64-apple-darwin-v3.2.0.tar.gz",
+      "sha256": "bde107ee22ed06dd8c2cb300913a3213ee80afae0f4a7e2fa46b6474a2261494",
+      "size": 878218,
+      "format": "tar.gz",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "cargo-nested": {
+          "path": "cargo-nested-aarch64-apple-darwin-v3.2.0/cargo-nested",
+          "sha256": "1dc04ad6c6d09fb0ceedb4d663a56a709c1ef56fbf051b4b7c683b95ca9db39f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/smoelius/nested_workspace/releases/download/v3.2.0/cargo-nested-x86_64-pc-windows-msvc-v3.2.0.tar.gz",
+      "sha256": "217d11252138db5ed5a5c97084e98d6187d7d8cd61f530c05a4fe534084f11c3",
+      "size": 811195,
+      "format": "tar.gz",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "cargo-nested.exe": {
+          "path": "cargo-nested-x86_64-pc-windows-msvc-v3.2.0/cargo-nested.exe",
+          "sha256": "aca169733a4a46a3f4a09248aed179a9883bed64e15f47020f23abd26856907a"
+        }
+      }
+    }
+  }
+}
