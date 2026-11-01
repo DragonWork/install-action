@@ -1,32 +1,32 @@
 {
   "schema": 1,
   "name": "dragonfly-client-init",
-  "version": "1.5.9",
+  "version": "1.5.10",
   "repository": "dragonflyoss/client",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.9/dragonfly-client-v1.5.9-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.5.9",
-      "sha256": "1beae2ebb00d2e480e6dea8a3b122c1571caf5943282beeadb28140dd86bf94e",
-      "size": 34597404,
+      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.10/dragonfly-client-v1.5.10-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "08d18af7daf04ab25356cb0763d693bfe2820cf8376bf834dd93ba0a285cfd24",
+      "size": 34601817,
       "format": "tar.gz",
+      "releaseTag": "v1.5.10",
       "binaries": {
         "dfinit": {
-          "path": "dragonfly-client-v1.5.9-x86_64-unknown-linux-musl/dfinit",
-          "sha256": "4fddac554d2b2654bfb8e2b1823f73930ad9b28637eec356c0f92d87abbb794a"
+          "path": "dragonfly-client-v1.5.10-x86_64-unknown-linux-musl/dfinit",
+          "sha256": "90053f3f9c6d7afc48868b8465f0c849bcd6a34d2d8cb986741f1e0990aa3474"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.9/dragonfly-client-v1.5.9-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.5.9",
-      "sha256": "190ce568df554eb9ea960935e65ab24462d96f6c459203650a0cd0fe8c880f4e",
-      "size": 31035024,
+      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.10/dragonfly-client-v1.5.10-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "cfe3f407838251d9c53e7df1971b13eca2c5a498caafd343bfb3746606501042",
+      "size": 31037660,
       "format": "tar.gz",
+      "releaseTag": "v1.5.10",
       "binaries": {
         "dfinit": {
-          "path": "dragonfly-client-v1.5.9-aarch64-unknown-linux-musl/dfinit",
-          "sha256": "eea2134538ac3dfd186a0c5cf2d01808b31a354a85fae9d4436fc339237f01fc"
+          "path": "dragonfly-client-v1.5.10-aarch64-unknown-linux-musl/dfinit",
+          "sha256": "a13ff92597409d99be7f36ac90299d858d0a8f5b091ed8ed9d021ccd111490b5"
         }
       }
     }
