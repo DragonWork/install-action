@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "compcol",
-  "version": "0.7.6",
+  "version": "0.7.8",
   "repository": "KarpelesLab/compcol",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.6/compcol-v0.7.6-linux-x86_64.tar.gz",
-      "releaseTag": "v0.7.6",
-      "sha256": "bab320a70e88619b7e9d8686245151289c68f23f6296f7acf08727d12d89002f",
-      "size": 907630,
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.8/compcol-v0.7.8-linux-x86_64.tar.gz",
+      "sha256": "076cfa91386d0553133da3de266e46e92506d6f2031c38ca5edd3b39b02e23a7",
+      "size": 932868,
       "format": "tar.gz",
+      "releaseTag": "v0.7.8",
       "binaries": {
         "compcol": {
           "path": "./bin/compcol",
-          "sha256": "ff1ef7c06c3b724a6feda8b0d9403382aa01b9bed8a1af1902a5a40f09b50fd6"
+          "sha256": "7a644383f0ac0a8a48b2e677d3770eee338beaff31df794e3b32b2852eaf84ba"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.6/compcol-v0.7.6-linux-aarch64.tar.gz",
-      "releaseTag": "v0.7.6",
-      "sha256": "2d85b0e6b34d6703998d4e3b7a0703d3b830f75b4b53e42d8563f2d32950220f",
-      "size": 887320,
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.8/compcol-v0.7.8-linux-aarch64.tar.gz",
+      "sha256": "db07a7dff320020ed99b6660fa14b2abc61c6fbb00c0b4c4468c4e1451ba60cb",
+      "size": 910565,
       "format": "tar.gz",
+      "releaseTag": "v0.7.8",
       "binaries": {
         "compcol": {
           "path": "./bin/compcol",
-          "sha256": "df712591d998b25a935f15060f3ce0bcfce1af714cbb999c28c6e6b597fa9354"
+          "sha256": "3535f9324cedc79cb31bfa442007fd99dcf22b67401e1cab89410d74912ac6db"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.8/compcol-v0.7.8-macos-universal.tar.gz",
+      "sha256": "0be9e72d8581b6ed20f862f99fadf2b6cb4eab15afabf785cec01072ec9fa7c3",
+      "size": 1759828,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.8",
+      "binaries": {
+        "compcol": {
+          "path": "./bin/compcol",
+          "sha256": "b1eee122e4cf02b99b072e1e59c09dbef5f9592c81a2d211364e6de0ecdb9c29"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.8/compcol-v0.7.8-macos-universal.tar.gz",
+      "sha256": "0be9e72d8581b6ed20f862f99fadf2b6cb4eab15afabf785cec01072ec9fa7c3",
+      "size": 1759828,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.8",
+      "binaries": {
+        "compcol": {
+          "path": "./bin/compcol",
+          "sha256": "b1eee122e4cf02b99b072e1e59c09dbef5f9592c81a2d211364e6de0ecdb9c29"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.6/compcol-v0.7.6-windows-x86_64.zip",
-      "releaseTag": "v0.7.6",
-      "sha256": "c6e1c57f63ab53e3b62d567608bf61c744523e7085ef92af732facfce230d20a",
-      "size": 725037,
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.8/compcol-v0.7.8-windows-x86_64.zip",
+      "sha256": "1cea2475875bc739f26111c804da5863b34b44db10dd4d0ea0c3da5f47af8882",
+      "size": 751510,
       "format": "zip",
+      "releaseTag": "v0.7.8",
       "binaries": {
         "compcol.exe": {
           "path": "bin/compcol.exe",
-          "sha256": "ac03aa8227c076e6da7c2d82eec04042480a24a2d27eaaa40251108b56078fb7"
+          "sha256": "d690320c351719a6392d880f774a5a7ab5e553b00ca6ee6ee752f0b0aa200c5a"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.6/compcol-v0.7.6-windows-aarch64.zip",
-      "releaseTag": "v0.7.6",
-      "sha256": "30a3a35ffb8ed6210a5b0998f0022120f7941851a57d97f452bd501d96fd8ddb",
-      "size": 696930,
+      "url": "https://github.com/KarpelesLab/compcol/releases/download/v0.7.8/compcol-v0.7.8-windows-aarch64.zip",
+      "sha256": "3bb246d884933e038ebc461879a91eb2b854bf3de5a940bc8a9ee4a1bcb2a9c5",
+      "size": 719969,
       "format": "zip",
+      "releaseTag": "v0.7.8",
       "binaries": {
         "compcol.exe": {
           "path": "bin/compcol.exe",
-          "sha256": "74986eca3f606edcc4b19bb7b83fef83bba802d34c98a3e1a61a716525ad94bb"
+          "sha256": "7673b94cd759ed31b46f79f120775149643c5452c77e1d4aa46f3f94ad68339a"
         }
       }
     }
