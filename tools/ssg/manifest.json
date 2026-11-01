@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "ssg",
-  "version": "0.0.69",
+  "version": "0.0.70",
   "repository": "sebastienrousseau/static-site-generator",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.69/ssg-v0.0.69-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.0.69",
-      "sha256": "a8b1bd72bc607a58ddb57299fac0107da6cc5b08ed4723b79b8f337f0248ba46",
-      "size": 6131442,
+      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.70/ssg-v0.0.70-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "b13cab9f4c442563afe857e01d71e0efc0a375623ad6be87fdb50f070bf5023b",
+      "size": 6223672,
       "format": "tar.gz",
+      "releaseTag": "v0.0.70",
       "binaries": {
         "ssg": {
           "path": "ssg",
-          "sha256": "8bf0a6de70f082cfa15b2bd7b05f7cd9c5a481477c60493f2ff73f6c59f04cb0"
+          "sha256": "e8757abaf07844ca83de845081c1e14e5a5b223b66e7388666f950d986b079d0"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.69/ssg-v0.0.69-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.0.69",
-      "sha256": "54d981e759863e2e3059b213782261165675d85dc36240d3dd23f8a1cfaeeb14",
-      "size": 5586557,
+      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.70/ssg-v0.0.70-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "c191d5eca77c05f05d737b27685a24e58f774f14042134098970ee71e04bc148",
+      "size": 5668683,
       "format": "tar.gz",
+      "releaseTag": "v0.0.70",
       "binaries": {
         "ssg": {
           "path": "ssg",
-          "sha256": "3b94a23d0e4aec7241901f83bda013d7c28324d7cb286fc3b76710b213be2d91"
+          "sha256": "bbc870477156af781cc4e69b712f87ae974d6bbcc80b02d951598c0eb3be3149"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.69/ssg-v0.0.69-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.0.69",
-      "sha256": "e0b54e785226f7d6a4e1e797e25ae2decfbd4dbdb557e2070b7dfca711b2aaf3",
-      "size": 5789265,
+      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.70/ssg-v0.0.70-x86_64-apple-darwin.tar.gz",
+      "sha256": "3a6039d84d7aeece42b97acd2e82765562e3618134e669ffdde27c253572823a",
+      "size": 5878537,
       "format": "tar.gz",
+      "releaseTag": "v0.0.70",
       "binaries": {
         "ssg": {
           "path": "ssg",
-          "sha256": "2f43867707dc62a56172ae20a9d98d52633a6b627c80403fef99112fabed2d67"
+          "sha256": "399fd43562ca99bf93dc70c0ae9b242f1437ed7d33565e9b404ae40aa4f6d7aa"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.69/ssg-v0.0.69-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.0.69",
-      "sha256": "aec3320300e3227438e7afac2f752401a627ae91727b975a384982e89410ec0e",
-      "size": 5298898,
+      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.70/ssg-v0.0.70-aarch64-apple-darwin.tar.gz",
+      "sha256": "62874b56b53f4410493ceda5f9a190f5bd8e30ef836934c4996ca52955f2cc7f",
+      "size": 5379633,
       "format": "tar.gz",
+      "releaseTag": "v0.0.70",
       "binaries": {
         "ssg": {
           "path": "ssg",
-          "sha256": "8b7bfdc4905319c8e01c9fd0741afa06ebc6ffc24d031b39f22cab57ce237b10"
+          "sha256": "ad33eacd7e83b365fcd339ed06b8d23b5ac86c2a474d72789214ca24114a79df"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.69/ssg-v0.0.69-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.0.69",
-      "sha256": "be00849ceb25a8dcc8bf4feb23fd3d327ef9803fe6bc272f17da6a5ac0520921",
-      "size": 5868017,
+      "url": "https://github.com/sebastienrousseau/static-site-generator/releases/download/v0.0.70/ssg-v0.0.70-x86_64-pc-windows-msvc.zip",
+      "sha256": "ec751de23a1ee1a806e08fa8f44721e9e3724969b423caca3c72b53dd0f06d57",
+      "size": 5956865,
       "format": "zip",
+      "releaseTag": "v0.0.70",
       "binaries": {
         "ssg.exe": {
           "path": "ssg.exe",
-          "sha256": "3a495cc7af1ad7c90bc197903faf46d8fe531895b76cb6e248ffe5d836a4e0fe"
+          "sha256": "45d99c42799b0f9f6e415c4c8205e487e31ab1e4346679c0a8c7fc6a33ccf77d"
         }
       }
     }
