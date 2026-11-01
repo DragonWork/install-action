@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "cargo-binstall",
-  "version": "1.26.1",
+  "version": "1.26.2",
   "repository": "cargo-bins/cargo-binstall",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.1/cargo-binstall-x86_64-unknown-linux-musl.tgz",
-      "sha256": "43d379fef8cb450961a14ff113e7bce7b5e1e52db709c776d186f928d8a20a40",
-      "size": 8214448,
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.2/cargo-binstall-x86_64-unknown-linux-musl.tgz",
+      "sha256": "9e0e064f189a9abb9f8df5fb93c3c810ef5cc19e7212d998c7a64c9e4d3527d5",
+      "size": 8202216,
       "format": "tar.gz",
-      "releaseTag": "v1.26.1",
+      "releaseTag": "v1.26.2",
       "binaries": {
         "cargo-binstall": {
           "path": "cargo-binstall",
-          "sha256": "dca67a317bfb44ab71f058213d1d4b447ba04d608bb3d8f81fee25deeb394732"
+          "sha256": "802d50c78d75fef6d0db250c44354d8fdbfb654d163145cf3da723879bd9961e"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.1/cargo-binstall-aarch64-unknown-linux-musl.tgz",
-      "sha256": "243dbea9976495f0a5640f856283b5b3d934113381c9a1fba347c9e4b1fea142",
-      "size": 7654011,
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.2/cargo-binstall-aarch64-unknown-linux-musl.tgz",
+      "sha256": "a235250cd684af9bf1e3a1e4c216b1d36e6c553553d5d789744f27689d81c2d6",
+      "size": 7659634,
       "format": "tar.gz",
-      "releaseTag": "v1.26.1",
+      "releaseTag": "v1.26.2",
       "binaries": {
         "cargo-binstall": {
           "path": "cargo-binstall",
-          "sha256": "2e6ca6138f80af3b9dd856fcffd545ae521c6cf67092ef7a0b044d180640af0b"
+          "sha256": "2b6bea577bcbfd03ae5c3440f6b5814b304c4145f7d0f4c22e62f9fbece9d06d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.1/cargo-binstall-x86_64-apple-darwin.zip",
-      "sha256": "9460fb1b3c465f1bc979425ee637e4958c5a0a550cb0c83cb429604893c9cb7e",
-      "size": 7898289,
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.2/cargo-binstall-x86_64-apple-darwin.zip",
+      "sha256": "a114e207a9cd116f97708f175ba5e4f0a37836ff9c4d1ea63c8364436decf70f",
+      "size": 7881278,
       "format": "zip",
-      "releaseTag": "v1.26.1",
+      "releaseTag": "v1.26.2",
       "binaries": {
         "cargo-binstall": {
           "path": "cargo-binstall",
-          "sha256": "cef994329202898c4debb8642e37b48029beef0be2cdccfbba602412dada9853"
+          "sha256": "842e63919cd5d8c1855da83d81d499bf7276924e02fd2f2c53a1b146b20d61d6"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.1/cargo-binstall-aarch64-apple-darwin.zip",
-      "sha256": "f98f9e19ba97b483d4058d8388a8ec9ee8ffdba487f4c07aa4516f0edd44b152",
-      "size": 7148794,
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.2/cargo-binstall-aarch64-apple-darwin.zip",
+      "sha256": "0f9ddd602d439ea64f03a5c188c59656d5ef389ecdcbff044c8d373e51c0e2b3",
+      "size": 7147985,
       "format": "zip",
-      "releaseTag": "v1.26.1",
+      "releaseTag": "v1.26.2",
       "binaries": {
         "cargo-binstall": {
           "path": "cargo-binstall",
-          "sha256": "7f835fa5b0e8f244eb617bd7babe155b19c753478c31acb52f73a8ca272e32ba"
+          "sha256": "19fe6b84686d33195b1c46a2f30661426d4669c97df2cce05d9d98ac91a22780"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.1/cargo-binstall-x86_64-pc-windows-msvc.zip",
-      "sha256": "b6d110d4911bc77c6dcf53f7ba0322ba826e487684adf1d468cdaf30607cad2b",
-      "size": 7390952,
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.2/cargo-binstall-x86_64-pc-windows-msvc.zip",
+      "sha256": "c377a4977ffdbdcbf58dd263055b2f1d56ba873c69fbd6bfc60bef98256183a3",
+      "size": 7396883,
       "format": "zip",
-      "releaseTag": "v1.26.1",
+      "releaseTag": "v1.26.2",
       "binaries": {
         "cargo-binstall.exe": {
           "path": "cargo-binstall.exe",
-          "sha256": "8e971416f2d1142f97615957ee75863686403815d3710ef246943a69e5113b25"
+          "sha256": "b3fb8abd5eaba81e708cb5c255dd18cb8fc63b041f4386a0b55e103f2737c023"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.1/cargo-binstall-aarch64-pc-windows-msvc.zip",
-      "sha256": "4806a9f038dd040a1845d18e10efa7985c61f2d31e75a88c11b2935219337797",
-      "size": 7045961,
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/download/v1.26.2/cargo-binstall-aarch64-pc-windows-msvc.zip",
+      "sha256": "3736cca189d958ae80bd5770e77cce9bbc5653bb2e9561e5002e766f2a185804",
+      "size": 7052447,
       "format": "zip",
-      "releaseTag": "v1.26.1",
+      "releaseTag": "v1.26.2",
       "binaries": {
         "cargo-binstall.exe": {
           "path": "cargo-binstall.exe",
-          "sha256": "95016b02b0ec9423bef1d58b41d39f8a82fc34cdc83d4d4cf6ebcf90939a7a66"
+          "sha256": "d085a5f6a3ad503134ee489e4cf71ba5d4e0ffa8d3c92ae99be9dfc4c2aca4a0"
         }
       }
     }
