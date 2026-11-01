@@ -1,58 +1,71 @@
 {
   "schema": 1,
   "name": "http-stat",
-  "version": "0.9.0",
+  "version": "0.9.2",
   "repository": "vicanso/http-stat-rs",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-linux-musl-x86_64.tar.gz",
-      "releaseTag": "v0.9.0",
-      "sha256": "7db36eb57c2f53b52b41a7e14281c783f5a3707f50615ff548ab6225e38d895a",
-      "size": 2212868,
+      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.2/httpstat-linux-musl-x86_64.tar.gz",
+      "sha256": "865ca7f497102dc5044967f4c53339d0ae22aacebe93a888df6036e4d965f4e0",
+      "size": 2231918,
       "format": "tar.gz",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "httpstat": {
           "path": "httpstat",
-          "sha256": "4825e9b4d5868e32dccd8c62722ec273f9d137dd8665734766f08fd8bd0cc3d6"
+          "sha256": "49542005e399d0d139716f6884e8322641f3f1f3c183e354ac437403efdeda9f"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-linux-musl-aarch64.tar.gz",
-      "releaseTag": "v0.9.0",
-      "sha256": "50574f6108bb86a97d968c8c72e189526f1bef39f91c6212f61d84456b93a744",
-      "size": 2084515,
+      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.2/httpstat-linux-musl-aarch64.tar.gz",
+      "sha256": "5a6d25b01203d8cbd17a4d5539bb4eb3a1a9753f28127dddef6f4fbad635f3e9",
+      "size": 2106005,
       "format": "tar.gz",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "httpstat": {
           "path": "httpstat",
-          "sha256": "09a7d37f0ddef17a643aef3925ba3a85d545da12d23bd18d6fa6aedd86e1e942"
+          "sha256": "6f71a481768d3b74e407a396947316f65b778dd9a0b1dc547085b001d91646d2"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-darwin-x86_64.tar.gz",
-      "releaseTag": "v0.9.0",
-      "sha256": "a2d0aef9f89904722bf39ac22fa7ebda8803200dd2c23502e601678e4362bc50",
-      "size": 1917681,
+      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.2/httpstat-darwin-x86_64.tar.gz",
+      "sha256": "ca0a19279549714af27c4c6ecc2d54f127a043c22da632ea959551674abaedb4",
+      "size": 1942069,
       "format": "tar.gz",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "httpstat": {
           "path": "httpstat",
-          "sha256": "97ab60594a3aa1308e609d28c5d0675510fe6219c1b57b8dc79a8ecf78a2ffba"
+          "sha256": "38f178064de053d708498fc0610d2dcc2c6d9a25e536f05fab52dc3a7e58525a"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.0/httpstat-darwin-arm64.tar.gz",
-      "releaseTag": "v0.9.0",
-      "sha256": "dbfb08574784c3033c03fad15440d3bd878c74b805987636bbfd855d216f1daa",
-      "size": 1797064,
+      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.2/httpstat-darwin-arm64.tar.gz",
+      "sha256": "425f4b8ce88021911be105d816edec827c8e95c80c017e0948d28224a2ae3e9d",
+      "size": 1818058,
       "format": "tar.gz",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "httpstat": {
           "path": "httpstat",
-          "sha256": "aff0610c4ea84b34f4ed432b280a646ab577ad35d8202941a65ec0b9c8d55c42"
+          "sha256": "43229339a1a078af032101ed3891d7eaf81e931a2ac3d4f8378740855f3b71c9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vicanso/http-stat-rs/releases/download/v0.9.2/httpstat-windows.exe.zip",
+      "sha256": "4a4e38123c698042df7b65c0ef1d91c69683547f0e3bcc6bea3b5f061dacfcd6",
+      "size": 1885350,
+      "format": "zip",
+      "releaseTag": "v0.9.2",
+      "binaries": {
+        "httpstat.exe": {
+          "path": "httpstat.exe",
+          "sha256": "bb42e6f77adb1e34b2f563155e1c7f4b958964c5d2c3da4403ea39004b703755"
         }
       }
     }
