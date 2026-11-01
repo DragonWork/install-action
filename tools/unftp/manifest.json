@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "unftp",
-  "version": "0.15.2",
-  "repository": "bolcom/unFTP",
+  "version": "0.16.0",
+  "repository": "Cloudinvoke/unFTP",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/bolcom/unFTP/releases/download/v0.15.2/unftp_x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.15.2",
-      "sha256": "57a983c7086ffc3846093f7f48dd7e8833a17042bb65a70c683d3f2f998732ae",
-      "size": 15577600,
+    "linux-x64": {
+      "url": "https://github.com/Cloudinvoke/unFTP/releases/download/v0.16.0/unftp_x86_64-unknown-linux-musl",
+      "sha256": "902584e68f3c4f4b1d0223eb994d16226576a3b92b5d6003b0221c2ece6ddae2",
+      "size": 19278872,
       "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "unftp": {
+          "path": "unftp_x86_64-unknown-linux-musl",
+          "sha256": "902584e68f3c4f4b1d0223eb994d16226576a3b92b5d6003b0221c2ece6ddae2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Cloudinvoke/unFTP/releases/download/v0.16.0/unftp_aarch64-unknown-linux-musl",
+      "sha256": "4f745076b351adfc64ea3bb0fec4eb1fe3a9bdf92ea8b493d9b05e4f3a123c7d",
+      "size": 17237000,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "unftp": {
+          "path": "unftp_aarch64-unknown-linux-musl",
+          "sha256": "4f745076b351adfc64ea3bb0fec4eb1fe3a9bdf92ea8b493d9b05e4f3a123c7d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Cloudinvoke/unFTP/releases/download/v0.16.0/unftp_x86_64-apple-darwin",
+      "sha256": "2ee442cfde3026bbfe0375491dabcf55bea24cf469741a275c00364f7c632027",
+      "size": 17781992,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "unftp": {
+          "path": "unftp_x86_64-apple-darwin",
+          "sha256": "2ee442cfde3026bbfe0375491dabcf55bea24cf469741a275c00364f7c632027"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Cloudinvoke/unFTP/releases/download/v0.16.0/unftp_aarch64-apple-darwin",
+      "sha256": "aeea599b84db9b4ef5f84e0960cf178b5e40ffc820690e4484c78c42bb6d7d20",
+      "size": 16005888,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "unftp": {
+          "path": "unftp_aarch64-apple-darwin",
+          "sha256": "aeea599b84db9b4ef5f84e0960cf178b5e40ffc820690e4484c78c42bb6d7d20"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Cloudinvoke/unFTP/releases/download/v0.16.0/unftp_x86_64-pc-windows-msvc.exe",
+      "sha256": "cf518296f6105efa9f9c501c4a874f6e7e1c965473eaffe3a9c7c23ac363eb09",
+      "size": 14376448,
+      "format": "binary",
+      "releaseTag": "v0.16.0",
       "binaries": {
         "unftp.exe": {
           "path": "unftp_x86_64-pc-windows-msvc.exe",
-          "sha256": "57a983c7086ffc3846093f7f48dd7e8833a17042bb65a70c683d3f2f998732ae"
+          "sha256": "cf518296f6105efa9f9c501c4a874f6e7e1c965473eaffe3a9c7c23ac363eb09"
         }
       }
     }
