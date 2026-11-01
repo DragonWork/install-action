@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "parol",
+  "version": "5.0.4",
+  "repository": "jsinger67/parol",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jsinger67/parol/releases/download/parol-v5.0.4/parol-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "019de06187bbc0d72d2c0d085fc864cc37c61439dde7c442aacdefecb986b6aa",
+      "size": 2112122,
+      "format": "tar.gz",
+      "releaseTag": "parol-v5.0.4",
+      "binaries": {
+        "parol": {
+          "path": "parol",
+          "sha256": "11aaee5dd1c8b516d6ba1f6a2bb1fa5140b271971d9d10a16b72767b5ef25bba"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/jsinger67/parol/releases/download/parol-v5.0.4/parol-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "6bc7feec017072c122e61dda93b0cfcd68a8e6d7a409b9009a76d862bdd4aa50",
+      "size": 15526951,
+      "format": "tar.gz",
+      "releaseTag": "parol-v5.0.4",
+      "binaries": {
+        "parol": {
+          "path": "parol",
+          "sha256": "00384467916691b0786f8b1c773aee5756a145f3e22701b2028738888b0dccb8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jsinger67/parol/releases/download/parol-v5.0.4/parol-aarch64-apple-darwin.tar.gz",
+      "sha256": "f8f1995daf949dd127c1acdcbe1f727488f3026837e9eb64e64d69fc39618bcc",
+      "size": 1839260,
+      "format": "tar.gz",
+      "releaseTag": "parol-v5.0.4",
+      "binaries": {
+        "parol": {
+          "path": "parol",
+          "sha256": "488ee88a07f3cac21a7a08f2fcc93c9d9b6aff78516352bd1b9c15184a60039e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/jsinger67/parol/releases/download/parol-v5.0.4/parol-x86_64-pc-windows-msvc.zip",
+      "sha256": "5a4e904c0e5daa9e58738703d07beede9a55ffd3a963636585519ca3da3ea0af",
+      "size": 2121000,
+      "format": "zip",
+      "releaseTag": "parol-v5.0.4",
+      "binaries": {
+        "parol.exe": {
+          "path": "parol.exe",
+          "sha256": "edb66d0a79644e6d7dc0391779ba927670fe51f60c5d8ceb5b17c14ce782d4de"
+        }
+      }
+    }
+  }
+}
