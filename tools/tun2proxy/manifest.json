@@ -1,108 +1,108 @@
 {
   "schema": 1,
   "name": "tun2proxy",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "repository": "tun2proxy/tun2proxy",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-x86_64-unknown-linux-musl.zip",
-      "releaseTag": "v0.8.6",
-      "sha256": "5fce5f420c5f1194df07307f6861cf613273e69aa30649919ce1b05de4798bb7",
-      "size": 4384884,
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.7/tun2proxy-x86_64-unknown-linux-musl.zip",
+      "sha256": "e21529ecc39db5e51e048288c53264b14da698aa8c4104bf7b54d81a0b4d9c7f",
+      "size": 4444434,
       "format": "zip",
+      "releaseTag": "v0.8.7",
       "binaries": {
         "tun2proxy-bin": {
           "path": "tun2proxy-bin",
-          "sha256": "414c23cb208bc6172e57ab0722086d811cbc8181f434b5f90ea23b38775f0dda"
+          "sha256": "d6a196282166abad5602fc850383cde9514751808c8775b4a0b1dd52b23f7d6d"
         },
         "udpgw-server": {
           "path": "udpgw-server",
-          "sha256": "b28700fb52d7e8f39edca120e18d8dae028bd167c30e75243fdcc83eaf2c924d"
+          "sha256": "fa66671a90201c3d66986703f0f15899a4f8dcb1939e211187c4867fb5bbdd2b"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-aarch64-unknown-linux-gnu.zip",
-      "releaseTag": "v0.8.6",
-      "sha256": "8dca73e3945b931882467cfcadc2a82018ece78a28f25d6d4d1e7613c266b493",
-      "size": 7356132,
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.7/tun2proxy-aarch64-unknown-linux-gnu.zip",
+      "sha256": "e9d7aaa265ccb4f8fa12c1e6438debee6a20abc36175e304bbf3b7197c63fb33",
+      "size": 7446497,
       "format": "zip",
+      "releaseTag": "v0.8.7",
       "binaries": {
         "tun2proxy-bin": {
           "path": "tun2proxy-bin",
-          "sha256": "266d38fa5c316afaea3b2d05d0af11d6af3045acfb571c7a040f6635620ed529"
+          "sha256": "b2595c66b2e728c9c42c41e3aab6aad7c3713f843f0b141a18536038b42d294c"
         },
         "udpgw-server": {
           "path": "udpgw-server",
-          "sha256": "cfa395003fc1f7b6c32d2e0e08ee74ff38c75d776a20a774a6ef55c656239df8"
+          "sha256": "601a686d4bf8fa8c8c8f846d1629d34070be68145ae86c3127b7d22eb2f3c494"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-x86_64-apple-darwin.zip",
-      "releaseTag": "v0.8.6",
-      "sha256": "fd7fda5165da4a708ffd51d5a371326f152e9bc1feb9d202a654b96473c2a9b0",
-      "size": 5041506,
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.7/tun2proxy-x86_64-apple-darwin.zip",
+      "sha256": "8e933965be6aca14e1293a088997c9bcd2861af8872103aaff5710127913f987",
+      "size": 5077923,
       "format": "zip",
+      "releaseTag": "v0.8.7",
       "binaries": {
         "tun2proxy-bin": {
           "path": "tun2proxy-bin",
-          "sha256": "7cd2abc5c961157971ff7ab2e93d49969e3b19e72a36e9e2818ff8985d39090c"
+          "sha256": "e93d5228733378431ab67fcd1af20a93d33c4e36dbd0f6b7583cf7b359b9c1f2"
         },
         "udpgw-server": {
           "path": "udpgw-server",
-          "sha256": "1084157b5adf1bb85ffc76dae35e15dc10d3b80964f5b35a2905a35e0216c936"
+          "sha256": "eddcc44ba72ba3d2aa58a577df63ed43aaf7922265ea9eb9ae7c7e20bddc6529"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-aarch64-apple-darwin.zip",
-      "releaseTag": "v0.8.6",
-      "sha256": "7d74b93c1f52568b508924a3dbbf9cd3fc8bfebff1dfe9232807f306e24d6f31",
-      "size": 4859214,
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.7/tun2proxy-aarch64-apple-darwin.zip",
+      "sha256": "689cb897a8465accc7925ebc712a9ff98f9aaa349f5ff86838290e303507d9a7",
+      "size": 4889771,
       "format": "zip",
+      "releaseTag": "v0.8.7",
       "binaries": {
         "tun2proxy-bin": {
           "path": "tun2proxy-bin",
-          "sha256": "d3340cb98ea1f66a09d8f7b87c3a4cffc88f23c6a4655dfbf78f36bffb59d902"
+          "sha256": "6030410997e5284d6099fbcc89d5ef307f51740628623750b465f1b9c835d8b4"
         },
         "udpgw-server": {
           "path": "udpgw-server",
-          "sha256": "f2e055411c2202b850ce523efd78ce74a1c7b3224f518676634f3e68c4b0ecaf"
+          "sha256": "6e53aedc8bc30179643f91c62833ef046060c3eeb365d4b83c38e942dcdc907d"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.8.6",
-      "sha256": "197e6c6227b7267028dbe9eb4c7a00795b20ed604fedbbbd6451fddbfd2976f1",
-      "size": 4902572,
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.7/tun2proxy-x86_64-pc-windows-msvc.zip",
+      "sha256": "801396ff46776aac4d9a6660a2972dbeb70b68c90a95a38289126c756298f863",
+      "size": 4938491,
       "format": "zip",
+      "releaseTag": "v0.8.7",
       "binaries": {
         "tun2proxy-bin.exe": {
           "path": "tun2proxy-bin.exe",
-          "sha256": "09a3143af0a289afff964cdbcb3dad33dad305882b50cade0e5301834c1d4f4b"
+          "sha256": "dee4f05420838f69b0c90d910bba8a2bf0416ef217d1032d292c12536fe351eb"
         },
         "udpgw-server.exe": {
           "path": "udpgw-server.exe",
-          "sha256": "c063cada5344cda27dcc55d93819c02cd3c39da196e3985056e3c55d58309565"
+          "sha256": "6d26de325415c8222b99652118f05265d5c9d47199138f28c90e3e312b18e346"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v0.8.6",
-      "sha256": "086f08c6558e09b44e498b5b2a02e1b114fa1bf01a39d046ef154d400a5c4c7a",
-      "size": 4492513,
+      "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.7/tun2proxy-aarch64-pc-windows-msvc.zip",
+      "sha256": "d9ab46718c2450eac64802f28cc0e17c111f2f473647835ee3b3bbd7295500b7",
+      "size": 4543120,
       "format": "zip",
+      "releaseTag": "v0.8.7",
       "binaries": {
         "tun2proxy-bin.exe": {
           "path": "tun2proxy-bin.exe",
-          "sha256": "e19a31b1a7fbcb8cb0c41865e1caf4878fe26e8b5dc297c558f6b48b13fcd7de"
+          "sha256": "1ff2e6d4080fde1db54ef037ea0d335db8a0a8ca04febe8b5bfc9d61384f9ef6"
         },
         "udpgw-server.exe": {
           "path": "udpgw-server.exe",
-          "sha256": "ace6976908e54b0be9473553cb389c9d20502986056202a74f2f5121acc4322b"
+          "sha256": "61e6f67a0b7b8d24ea8ff047c85cf2190a8009b86e8f99167f8de299c1ffa3ba"
         }
       }
     }
