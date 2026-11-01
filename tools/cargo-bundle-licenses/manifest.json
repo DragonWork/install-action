@@ -1,32 +1,45 @@
 {
   "schema": 1,
   "name": "cargo-bundle-licenses",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "repository": "sstadick/cargo-bundle-licenses",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/sstadick/cargo-bundle-licenses/releases/download/v4.2.0/cargo-bundle-licenses-linux-amd64.deb",
-      "sha256": "7b84fb7a93fe21d6c490c17d763e3beff7ba3f4d79a41c31c8f4d56751a870a9",
-      "size": 1314560,
+      "url": "https://github.com/sstadick/cargo-bundle-licenses/releases/download/v5.0.0/cargo-bundle-licenses-linux-amd64.deb",
+      "sha256": "b18e2c1c808da3d1625523d5c46839ef238ed67124721d747eb63ad2d8486856",
+      "size": 1308720,
       "format": "deb",
-      "releaseTag": "v4.2.0",
+      "releaseTag": "v5.0.0",
       "binaries": {
         "cargo-bundle-licenses": {
           "path": "./usr/bin/cargo-bundle-licenses",
-          "sha256": "421c156a4528c765487af58fa7a4f38ca6a3ed0dddfa7d07c5f29cf5573d8766"
+          "sha256": "3416cc7f3856102501091f4dc155dc4e12bb580f462c3b85afc0e4fd4fee66fc"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sstadick/cargo-bundle-licenses/releases/download/v5.0.0/cargo-bundle-licenses-macos-amd64",
+      "sha256": "7d3de93308ce58f41a277f30d06176bff2c4d09e5b546fef3d6485871d349ff5",
+      "size": 5219568,
+      "format": "binary",
+      "releaseTag": "v5.0.0",
+      "binaries": {
+        "cargo-bundle-licenses": {
+          "path": "cargo-bundle-licenses-macos-amd64",
+          "sha256": "7d3de93308ce58f41a277f30d06176bff2c4d09e5b546fef3d6485871d349ff5"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/sstadick/cargo-bundle-licenses/releases/download/v4.2.0/cargo-bundle-licenses-windows-amd64",
-      "sha256": "f0e2add8243ac2b0f0376796080f5ca5fae4397078072a03d8d8c48354632169",
-      "size": 4574208,
+      "url": "https://github.com/sstadick/cargo-bundle-licenses/releases/download/v5.0.0/cargo-bundle-licenses-windows-amd64",
+      "sha256": "b422048f8c233d529f82fcc80cc48e75d1a3936010104fb079fbe747e4db48d0",
+      "size": 4596224,
       "format": "binary",
-      "releaseTag": "v4.2.0",
+      "releaseTag": "v5.0.0",
       "binaries": {
         "cargo-bundle-licenses.exe": {
           "path": "cargo-bundle-licenses-windows-amd64",
-          "sha256": "f0e2add8243ac2b0f0376796080f5ca5fae4397078072a03d8d8c48354632169"
+          "sha256": "b422048f8c233d529f82fcc80cc48e75d1a3936010104fb079fbe747e4db48d0"
         }
       }
     }
