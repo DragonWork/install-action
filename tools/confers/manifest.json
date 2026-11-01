@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "confers",
+  "version": "0.5.1",
+  "repository": "Kirky-X/confers",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Kirky-X/confers/releases/download/v0.5.1/confers-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "67ae141318bcd54f2ccb2ad2b6e67cbf0758a854a3b6802fc92f3e54c00bb0de",
+      "size": 870101,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "confers": {
+          "path": "confers",
+          "sha256": "1252e05f648e3356d09967ee6ae9cb0dc300aea46a1201a7684fa954024a6629"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Kirky-X/confers/releases/download/v0.5.1/confers-x86_64-apple-darwin.tar.gz",
+      "sha256": "be49de9d6dde3eb3ec980b38ec6765c15b64d74aac7fa3bf9a13f007e2d39f75",
+      "size": 836636,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "confers": {
+          "path": "confers",
+          "sha256": "2cd49bb5210a28b29463ecf6a60c3a24f924c270e1a0799d3868f2cd13087711"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Kirky-X/confers/releases/download/v0.5.1/confers-aarch64-apple-darwin.tar.gz",
+      "sha256": "c21aa49d10aa521b668eed19bbebb459e6a4d3097bed5c7da6dd480b6833d283",
+      "size": 767739,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "confers": {
+          "path": "confers",
+          "sha256": "3e22e040f12db3d650f81703ec33faa04092957b08b9c771aa4fcc748de703eb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Kirky-X/confers/releases/download/v0.5.1/confers-x86_64-pc-windows-msvc.zip",
+      "sha256": "764296565b447b26b1c2f2e60afc87ac74e14ee216b383ec27101cc6409e65ab",
+      "size": 763172,
+      "format": "zip",
+      "releaseTag": "v0.5.1",
+      "binaries": {
+        "confers.exe": {
+          "path": "confers.exe",
+          "sha256": "71be1f428affcce5a9804641bcdf6428fc5aaa112a72d5afb67f257ee2c123e5"
+        }
+      }
+    }
+  }
+}
