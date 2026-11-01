@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "md-tui",
-  "version": "0.11.1",
+  "version": "0.11.2",
   "repository": "henriklovhaug/md-tui",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.1/md-tui-x86_64-unknown-linux-musl.tar.xz",
-      "sha256": "02c55e4a317e44648e7c85da7eba64a1e65dcb8ec42374696b67798fbe892227",
-      "size": 4687612,
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.2/md-tui-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "68e858efbd10881f6f96486f52584e07c9c33f5f99a90b340fccc958392b782d",
+      "size": 4651028,
       "format": "tar.xz",
-      "releaseTag": "v0.11.1",
+      "releaseTag": "v0.11.2",
       "binaries": {
         "mdt": {
           "path": "md-tui-x86_64-unknown-linux-musl/mdt",
-          "sha256": "03940ca92dba5cf0f93111a9bbb87ec6164fe5b8fda7a5e190d4bb6169cc1fb1"
+          "sha256": "c050694c36bdd7854758c704c1c20bdfa2ea580595690bc131f12f50dfa075ad"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.1/md-tui-aarch64-unknown-linux-gnu.tar.xz",
-      "sha256": "5a9f7ba1b89fafa945f4d1c56412f93bb1faa5d9a34f1f9d728b667285bb5285",
-      "size": 4146792,
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.2/md-tui-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "899224ab4fc332c0dfa9aa04cd07eee9ada9cf4ed9c6e7931b5ea71abf0d031d",
+      "size": 4124764,
       "format": "tar.xz",
-      "releaseTag": "v0.11.1",
+      "releaseTag": "v0.11.2",
       "binaries": {
         "mdt": {
           "path": "md-tui-aarch64-unknown-linux-gnu/mdt",
-          "sha256": "7b3f2dd64a68a9d7edd5f1bb4b93970600fc5fead915edde1017c62373a2bdfc"
+          "sha256": "3016e383f6afea3cd9ec8ee6a44b98211cdfe18e2ee07f8bfbcb45093bdeabbc"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.1/md-tui-x86_64-apple-darwin.tar.xz",
-      "sha256": "2cbbef209afaff39dedc75c1e916fe9113c07bfb2cc2d3150b107de47b4c193c",
-      "size": 4441316,
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.2/md-tui-x86_64-apple-darwin.tar.xz",
+      "sha256": "d401f28b8d325dddae292d1efe7ba8a96f4491b53247a6479d09211d7a085138",
+      "size": 4470860,
       "format": "tar.xz",
-      "releaseTag": "v0.11.1",
+      "releaseTag": "v0.11.2",
       "binaries": {
         "mdt": {
           "path": "md-tui-x86_64-apple-darwin/mdt",
-          "sha256": "4121668798a374c348c8a361bf88c08f5fb8ac4c069a45de0b4b7c6b4aba4b05"
+          "sha256": "964a4afca8227e30cf75e3897d88cd0a55356c7ed856946cacb0fb1213586792"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.1/md-tui-aarch64-apple-darwin.tar.xz",
-      "sha256": "c7ac776baeaa7091dd2ff257b6f636c075c3f5e02577a3a8e58a71bad03b524c",
-      "size": 4182648,
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.2/md-tui-aarch64-apple-darwin.tar.xz",
+      "sha256": "8365bbc7f6013334542599faea0ad71f54de798ae861cb175a749f2f5fc292dc",
+      "size": 4203416,
       "format": "tar.xz",
-      "releaseTag": "v0.11.1",
+      "releaseTag": "v0.11.2",
       "binaries": {
         "mdt": {
           "path": "md-tui-aarch64-apple-darwin/mdt",
-          "sha256": "90939979cc771d8ba63ba15f1005ea9ff556fc324e70a77392aa4b4cd4d18cfc"
+          "sha256": "5841d028e2e934640c01728e492c7a698fdb3df823f89973e1c6b81e2f4d91ba"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.1/md-tui-x86_64-pc-windows-msvc.zip",
-      "sha256": "d35e7546a8f9d286bb16e44fbca7f2bd6c0d42e6d15e4f4dec5d66bedabe30b0",
-      "size": 6881942,
+      "url": "https://github.com/henriklovhaug/md-tui/releases/download/v0.11.2/md-tui-x86_64-pc-windows-msvc.zip",
+      "sha256": "76c40b37880ce16f85e944c800b11bafcf9c824ef3bc2a85c783f0203946c31f",
+      "size": 6882423,
       "format": "zip",
-      "releaseTag": "v0.11.1",
+      "releaseTag": "v0.11.2",
       "binaries": {
         "mdt.exe": {
           "path": "mdt.exe",
-          "sha256": "711979a054dc284a18bd0d25322fdb26d245d6b51e4046f7eafdcbca2d803484"
+          "sha256": "ffb799ce353620cab53686dfccb27262d8e70e707350fabf5f3a7a70babb698f"
         }
       }
     }
