@@ -1,58 +1,58 @@
 {
   "schema": 1,
   "name": "awsbck",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "repository": "beeb/awsbck",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.5/awsbck-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v1.0.5",
-      "sha256": "878016951a513b809204bd475256cc3410586acff61e33375b9a7af8ca574c2b",
-      "size": 4933008,
+      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.6/awsbck-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "ecb13b150e5fb1be299b1b9cacefa8d87b4ef541d51d8512a1e59055e0fc0c49",
+      "size": 4390000,
       "format": "tar.xz",
+      "releaseTag": "v1.0.6",
       "binaries": {
         "awsbck": {
           "path": "awsbck-x86_64-unknown-linux-musl/awsbck",
-          "sha256": "02e3be09333f4762e0693054808e71e03b0c58a7676ba2cab2d59ea2667f8855"
+          "sha256": "3dbcdc5a4c1278a38500d76c594e71190df02306a20282f0782860bd00756064"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.5/awsbck-aarch64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v1.0.5",
-      "sha256": "28cf35c78158324a835bb3f19299d23a2a585705713169a6355004b36d09c65a",
-      "size": 4363124,
+      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.6/awsbck-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "58a622099a2c61edfd25e19ef86871f4f9bff0a73cc8dd6aeea0ea2b00c1a312",
+      "size": 3882868,
       "format": "tar.xz",
+      "releaseTag": "v1.0.6",
       "binaries": {
         "awsbck": {
           "path": "awsbck-aarch64-unknown-linux-gnu/awsbck",
-          "sha256": "bfd7e8260190efa2fabdb727ed6393777764cfecbd15fb9cfd40593e2ec15fd3"
+          "sha256": "a62073a0180288d542fd8343bcf91e5cec5b49d24b26e416851ffcf007920469"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.5/awsbck-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v1.0.5",
-      "sha256": "88eb471499de09a58023996f83d15736ee90a449117dac780bcf7e94aa4cd0e9",
-      "size": 3869932,
+      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.6/awsbck-aarch64-apple-darwin.tar.xz",
+      "sha256": "63de9c60fe5a5e576e97db62fe93642b2ca2e9b6570e5d12fde073b415a563b3",
+      "size": 3432136,
       "format": "tar.xz",
+      "releaseTag": "v1.0.6",
       "binaries": {
         "awsbck": {
           "path": "awsbck-aarch64-apple-darwin/awsbck",
-          "sha256": "54a3f2ad94d67c36d34f33022cd7339fa9927d5e4465286870ca2e8114144ff6"
+          "sha256": "f330e2376d9061a2741f9f94483a962107a59fd6f1339164e604c22d275ac253"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.5/awsbck-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v1.0.5",
-      "sha256": "a6e994f14f0e555260318417644021f71141e71c50705607f30a5de824293a98",
-      "size": 7472339,
+      "url": "https://github.com/beeb/awsbck/releases/download/v1.0.6/awsbck-x86_64-pc-windows-msvc.zip",
+      "sha256": "bc4e18ac2ab4027426973b736f993c0c5d5a38a21996bb321f39e984544c292c",
+      "size": 6397305,
       "format": "zip",
+      "releaseTag": "v1.0.6",
       "binaries": {
         "awsbck.exe": {
           "path": "awsbck.exe",
-          "sha256": "f5fb042f92e1013718b14a4629685daff61cc7750b87c59d119689ec1ba49e08"
+          "sha256": "b234266e59ad0d33ba2b660cc21c87ebb123378c2088ab1a9ba0eb4be2e75149"
         }
       }
     }
