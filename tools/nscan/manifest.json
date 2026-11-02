@@ -1,58 +1,58 @@
 {
   "schema": 1,
   "name": "nscan",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "repository": "shellrow/nscan",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/shellrow/nscan/releases/download/v1.6.0/nscan-x86_64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v1.6.0",
-      "sha256": "a918c33a7a06f2b32beaa8e5bf8e9389752b5d1c828f0b17f7c8a11d21710cda",
-      "size": 4144132,
+      "url": "https://github.com/shellrow/nscan/releases/download/v1.7.0/nscan-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "a6e9e864378ecb672c028b418c5e2e2285f081b98b5f086220a74a3813088e97",
+      "size": 3808196,
       "format": "tar.xz",
+      "releaseTag": "v1.7.0",
       "binaries": {
         "nscan": {
           "path": "nscan-x86_64-unknown-linux-gnu/nscan",
-          "sha256": "f65aabff6425ecf6742a4a1d1023308da4827116bed043284b6555d4cdcf4b0c"
+          "sha256": "e5868e8d7fff85961f54e07ca2cd1b63a3d298e1c193983c58b2c663104ed400"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/shellrow/nscan/releases/download/v1.6.0/nscan-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v1.6.0",
-      "sha256": "2480e452c663385b145176c516fe9b809c2834a6a94d7a13892697f3e980001b",
-      "size": 3798412,
+      "url": "https://github.com/shellrow/nscan/releases/download/v1.7.0/nscan-x86_64-apple-darwin.tar.xz",
+      "sha256": "ca8f2ec478c54db93ac6e3c50ab0fee1291aa8c6d80e775aa2b97bb462edcdc2",
+      "size": 3266216,
       "format": "tar.xz",
+      "releaseTag": "v1.7.0",
       "binaries": {
         "nscan": {
           "path": "nscan-x86_64-apple-darwin/nscan",
-          "sha256": "b72870e32e3339c7be79bfb37ebea2016ab5255e01eff93e68733578d0519845"
+          "sha256": "ca8a0f1423e36cc911e4a3992946ff7296c6c00e434a53f3dd149802a229d17f"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/shellrow/nscan/releases/download/v1.6.0/nscan-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v1.6.0",
-      "sha256": "6293eb9ae8603af1b3b72288450a703446c04d96fcdf2792abea5a02671aa7bb",
-      "size": 3537600,
+      "url": "https://github.com/shellrow/nscan/releases/download/v1.7.0/nscan-aarch64-apple-darwin.tar.xz",
+      "sha256": "5860d9f7c3db535fa4f0a25821dfdfdbb91d5042753034f6c6e5a9f804fd3c41",
+      "size": 3039900,
       "format": "tar.xz",
+      "releaseTag": "v1.7.0",
       "binaries": {
         "nscan": {
           "path": "nscan-aarch64-apple-darwin/nscan",
-          "sha256": "150b5d0b2767d320c0f4c9a6bc379cabd1a608d07d7a43b5304ddd66c49855c0"
+          "sha256": "29954f029579d623ee85b1f62a06692d62b38fa6588cfc988e07d96b8b5e908e"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/shellrow/nscan/releases/download/v1.6.0/nscan-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v1.6.0",
-      "sha256": "a64488acc716f96a7f679d8fff738702aea9ca3740a6ad5cf400dd9f09ef1ed3",
-      "size": 5263687,
+      "url": "https://github.com/shellrow/nscan/releases/download/v1.7.0/nscan-x86_64-pc-windows-msvc.zip",
+      "sha256": "6d8a7bd3ad68e0e925486fce0459a0f99d02d9b6d90a8886b6771e13e6ee5746",
+      "size": 4437690,
       "format": "zip",
+      "releaseTag": "v1.7.0",
       "binaries": {
         "nscan.exe": {
           "path": "nscan.exe",
-          "sha256": "5280f46c4ca63637d39726dc0ac24c9c86fcee9a39997633f54840a8a937e868"
+          "sha256": "40d940799810469eeb9153fd22c0dfcd5a6ffe614a79bc715a0bc613c17de290"
         }
       }
     }
