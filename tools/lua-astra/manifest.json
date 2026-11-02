@@ -1,19 +1,58 @@
 {
   "schema": 1,
   "name": "lua-astra",
-  "version": "0.51.2",
+  "version": "0.52.0",
   "repository": "ArkForgeLabs/Astra",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.51.2/astra-luau-windows-amd64.exe",
-      "releaseTag": "v0.51.2",
-      "sha256": "26aba37f8399a8797beb89e17d31733c3de1bde20f16e7a355c05ef7d411751a",
-      "size": 16719360,
+    "linux-x64": {
+      "url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.52.0/astra-luau-linux-amd64",
+      "sha256": "291172a989a30435a432b7a4b174d50fcf6582cade901053f3c7064e571a2e7b",
+      "size": 17500848,
       "format": "binary",
+      "releaseTag": "v0.52.0",
+      "binaries": {
+        "astra": {
+          "path": "astra-luau-linux-amd64",
+          "sha256": "291172a989a30435a432b7a4b174d50fcf6582cade901053f3c7064e571a2e7b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.52.0/astra-luau-linux-arm64",
+      "sha256": "ccb0e70ca38fff15f24803ebf4a8a61f395c9d574c947df40bd5227f47b85a30",
+      "size": 15040640,
+      "format": "binary",
+      "releaseTag": "v0.52.0",
+      "binaries": {
+        "astra": {
+          "path": "astra-luau-linux-arm64",
+          "sha256": "ccb0e70ca38fff15f24803ebf4a8a61f395c9d574c947df40bd5227f47b85a30"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.52.0/astra-luau-macos-arm64",
+      "sha256": "e7ae14d7085dda1265871584b6cadae9e3cdd908f8988d68f495e2065090c5ec",
+      "size": 12608128,
+      "format": "binary",
+      "releaseTag": "v0.52.0",
+      "binaries": {
+        "astra": {
+          "path": "astra-luau-macos-arm64",
+          "sha256": "e7ae14d7085dda1265871584b6cadae9e3cdd908f8988d68f495e2065090c5ec"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ArkForgeLabs/Astra/releases/download/v0.52.0/astra-luau-windows-amd64.exe",
+      "sha256": "0a336287a30707cba6b1d4cbb1906f178d0e6fb458148cb559e35fda8aead9e6",
+      "size": 16723456,
+      "format": "binary",
+      "releaseTag": "v0.52.0",
       "binaries": {
         "astra.exe": {
           "path": "astra-luau-windows-amd64.exe",
-          "sha256": "26aba37f8399a8797beb89e17d31733c3de1bde20f16e7a355c05ef7d411751a"
+          "sha256": "0a336287a30707cba6b1d4cbb1906f178d0e6fb458148cb559e35fda8aead9e6"
         }
       }
     }
