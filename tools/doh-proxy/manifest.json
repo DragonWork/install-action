@@ -1,19 +1,45 @@
 {
   "schema": 1,
   "name": "doh-proxy",
-  "version": "0.10.0",
+  "version": "0.11.1",
   "repository": "DNSCrypt/doh-server",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DNSCrypt/doh-server/releases/download/0.11.1/doh-proxy_0.11.1-1_amd64.deb",
+      "sha256": "527b4d5e0c922e989b51ef4dcea7f492090c1442a1e39b19d79a97cafe391f3c",
+      "size": 1200104,
+      "format": "deb",
+      "releaseTag": "0.11.1",
+      "binaries": {
+        "doh-proxy": {
+          "path": "./usr/bin/doh-proxy",
+          "sha256": "337390c5f0d21a1774f4d0b3f0fef1d0156b07ba2a1738a3b2badc48fc4bc075"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/DNSCrypt/doh-server/releases/download/0.11.1/doh-proxy_0.11.1-1_arm64.deb",
+      "sha256": "387052f985ac51ae865dc6a257140f24714c90e8e98a97f1420ca4c01a5be0cd",
+      "size": 1050712,
+      "format": "deb",
+      "releaseTag": "0.11.1",
+      "binaries": {
+        "doh-proxy": {
+          "path": "./usr/bin/doh-proxy",
+          "sha256": "50fb4d7018fd42d054be43ea41dd642e656c06e75b0bbaa8310f731989c4a982"
+        }
+      }
+    },
     "win32-x64": {
-      "url": "https://github.com/DNSCrypt/doh-server/releases/download/0.10.0/doh-proxy_0.10.0_windows-x86_64.zip",
-      "releaseTag": "0.10.0",
-      "sha256": "25dd555543e04e31a0978816a7bcc25ccd5f837a548c0ba8f7e469285ba6dcf8",
-      "size": 1361149,
+      "url": "https://github.com/DNSCrypt/doh-server/releases/download/0.11.1/doh-proxy_0.11.1_windows-x86_64.zip",
+      "sha256": "062f452a8db4a2996e9f8d339fe4168a31db463d9ab25b450c1584c18b3bede0",
+      "size": 1412704,
       "format": "zip",
+      "releaseTag": "0.11.1",
       "binaries": {
         "doh-proxy.exe": {
           "path": "doh-proxy/doh-proxy.exe",
-          "sha256": "e241b51856798e2740dc22e1a0d0772b445db537e517e57952f5d09311d257a7"
+          "sha256": "f76ca8dd65ee82bcdb10503b43372636b90c6a0b44f39bcef26d4e0f6a1ac2f3"
         }
       }
     }
