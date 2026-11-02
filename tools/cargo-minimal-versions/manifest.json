@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "cargo-minimal-versions",
-  "version": "0.1.37",
+  "version": "0.1.38",
   "repository": "taiki-e/cargo-minimal-versions",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.37/cargo-minimal-versions-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.1.37",
-      "sha256": "8815c9ba8cba0f496693637d6ee155dd7b1f0256b48b317d9a48faa896eb47bd",
-      "size": 548924,
+      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.38/cargo-minimal-versions-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "b4b5479ba5cfcf79b7478cffec8f73db88e07a50b301deebdc65eb8f34ed5607",
+      "size": 537320,
       "format": "tar.gz",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "cargo-minimal-versions": {
           "path": "cargo-minimal-versions",
-          "sha256": "6975c45a3b633bf8ceead48f72da0cef11635e9f5a8280460e157dc9e59585a6"
+          "sha256": "d5ebd2aa66a3d5ee75d422134713afc92068329b1dc7de5ea977c090e92b1477"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.37/cargo-minimal-versions-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.1.37",
-      "sha256": "4e8fb7a560f34c5e0f7fe400dc7352bb8c7f033f23b7106af5bd69bf9bc01ffd",
-      "size": 520694,
+      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.38/cargo-minimal-versions-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "f4a891075d85464c1577da647f042dc27c4bac9ddecf819ec270458afea8d3e1",
+      "size": 513385,
       "format": "tar.gz",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "cargo-minimal-versions": {
           "path": "cargo-minimal-versions",
-          "sha256": "514b741314482075858d0633f71d672dc880de1bc30cd516970563fea432c448"
+          "sha256": "78f1c9eeb21808632951cf12759ae936928b740080a93a7f1bd8ad84a8bbb16f"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.37/cargo-minimal-versions-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.1.37",
-      "sha256": "44633032360e76a78555038ae0cf584aa0f1a32eb938e47e07e4351b44aa5d9d",
-      "size": 456328,
+      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.38/cargo-minimal-versions-x86_64-apple-darwin.tar.gz",
+      "sha256": "2c4f401584f81c8ce67b6f7a62d6c4296137de03439efd77bf5d84783d93c39c",
+      "size": 448499,
       "format": "tar.gz",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "cargo-minimal-versions": {
           "path": "cargo-minimal-versions",
-          "sha256": "b01f598348275f895ef29094e3b422cf2043641df749d3e429181bb4db27adaa"
+          "sha256": "71de389ff6c85f88b692c08683b1f49b8cb05ba8909dd4b68b2e2afe22dabb9e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.37/cargo-minimal-versions-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.1.37",
-      "sha256": "3c57fbc9c8a4c965849b1ebcf67f286fd624fd702c37df8e92a4c39ca85bb09a",
-      "size": 429181,
+      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.38/cargo-minimal-versions-aarch64-apple-darwin.tar.gz",
+      "sha256": "7a019676c0d44dc21040782cf82c85e14398e87b5d6dd986da11900d3490c0b0",
+      "size": 424211,
       "format": "tar.gz",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "cargo-minimal-versions": {
           "path": "cargo-minimal-versions",
-          "sha256": "8f64fbb4a0089824cf060fa451a8f3653a572283b61da3e6d2cb08a60490c568"
+          "sha256": "f2d7d7336cda073725e7d3b32da084997ffb77e45618a7f928d8e399366b1039"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.38/cargo-minimal-versions-x86_64-pc-windows-msvc.zip",
+      "sha256": "77475fd56a0c1480c9b31c09ba5be847980ccd451bac8c9ce6ad733392f1864e",
+      "size": 414798,
+      "format": "zip",
+      "releaseTag": "v0.1.38",
+      "binaries": {
+        "cargo-minimal-versions.exe": {
+          "path": "cargo-minimal-versions.exe",
+          "sha256": "a1578b39a7d5524c6a07e0b8a8d3145bb728c0ab107901ebd754c8af7c5c65a1"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/taiki-e/cargo-minimal-versions/releases/download/v0.1.38/cargo-minimal-versions-aarch64-pc-windows-msvc.zip",
+      "sha256": "c1f39bb918f5eb6f00a1ad21df66897105f49819492fd91cdae7bca3868c8239",
+      "size": 378385,
+      "format": "zip",
+      "releaseTag": "v0.1.38",
+      "binaries": {
+        "cargo-minimal-versions.exe": {
+          "path": "cargo-minimal-versions.exe",
+          "sha256": "c4fb3f4ff5f6bed983c5b084ee562e389efa193cea1ff1de0f8cad0c828fc7d7"
         }
       }
     }
