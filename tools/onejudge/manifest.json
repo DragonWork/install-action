@@ -1,45 +1,19 @@
 {
   "schema": 1,
   "name": "onejudge",
-  "version": "0.22.1",
+  "version": "0.22.2",
   "repository": "nickderobertis/onejudge",
   "artifacts": {
-    "linux-x64": {
-      "url": "https://github.com/nickderobertis/onejudge/releases/download/onejudge-v0.22.1/onejudge-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "3a77249d121eebc6eb062e4ffa2a0f6c78cda3d929ac043c0bf21fc065f3341b",
-      "size": 4959507,
-      "format": "tar.gz",
-      "releaseTag": "onejudge-v0.22.1",
-      "binaries": {
-        "onejudge": {
-          "path": "onejudge-x86_64-unknown-linux-gnu/onejudge",
-          "sha256": "717b73bcc5947c9ae84b13645f21a3f6c8beab7cc8b1bc050bc91f22b9a9c2ad"
-        }
-      }
-    },
     "darwin-arm64": {
-      "url": "https://github.com/nickderobertis/onejudge/releases/download/onejudge-v0.22.1/onejudge-aarch64-apple-darwin.tar.gz",
-      "sha256": "f65b739f19ee947b9278b3244b142f071bd8d48065fd703ba9a62c4ba3d66383",
-      "size": 3790713,
+      "url": "https://github.com/nickderobertis/onejudge/releases/download/onejudge-v0.22.2/onejudge-aarch64-apple-darwin.tar.gz",
+      "sha256": "01645f982d956676e777981592d826e3adeb01766211fae13d834a3e9e511a87",
+      "size": 3809206,
       "format": "tar.gz",
-      "releaseTag": "onejudge-v0.22.1",
+      "releaseTag": "onejudge-v0.22.2",
       "binaries": {
         "onejudge": {
           "path": "onejudge-aarch64-apple-darwin/onejudge",
-          "sha256": "f3e57347ea0a798b5761b9f5e31e7db487fb780bc2b0f531c27a7c068ca0cb3c"
-        }
-      }
-    },
-    "win32-x64": {
-      "url": "https://github.com/nickderobertis/onejudge/releases/download/onejudge-v0.22.1/onejudge-x86_64-pc-windows-msvc.zip",
-      "sha256": "5607860ca996d729fddb87afb509a3a61c515488ea580e17ed3cac8c734a950c",
-      "size": 4145058,
-      "format": "zip",
-      "releaseTag": "onejudge-v0.22.1",
-      "binaries": {
-        "onejudge.exe": {
-          "path": "onejudge-x86_64-pc-windows-msvc/onejudge.exe",
-          "sha256": "8253f51283fe7a52e7e63555a959961c3bd8304bdab6d1ea08b397021f5451d3"
+          "sha256": "06cc55d6e4456f454e4ed3bf50bce1a156371f23c69b99ee74644f2f5ab4de44"
         }
       }
     }
