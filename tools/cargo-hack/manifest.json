@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "cargo-hack",
-  "version": "0.6.45",
+  "version": "0.6.46",
   "repository": "taiki-e/cargo-hack",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.45/cargo-hack-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.6.45",
-      "sha256": "b242dffcfd43317ac484dd2dbc3b9fc5f8a7eb3ba252af31b531503f0bad33d1",
-      "size": 959108,
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.46/cargo-hack-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "82875b396319288894d4c213389a107039756e37f0f7eb299ed15f5d4ad269cf",
+      "size": 948879,
       "format": "tar.gz",
+      "releaseTag": "v0.6.46",
       "binaries": {
         "cargo-hack": {
           "path": "cargo-hack",
-          "sha256": "155f560b74e8442c4e7aa70e6d47878944aa1cb66b5019d3b9e1fdf535fc4678"
+          "sha256": "ae0159a529136b3bd2cc1b5ec7c91d847498c64297d58fc5bf48ee262fb6723e"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.45/cargo-hack-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.6.45",
-      "sha256": "9ac71756f1da6e8798ac5afbfd222abecb95de9c10e672ed52c179b637d6444b",
-      "size": 906587,
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.46/cargo-hack-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "2d6f3b8f73c53214195255a89a3dfd91520ad35254c7621fd5e9254e5751625d",
+      "size": 888799,
       "format": "tar.gz",
+      "releaseTag": "v0.6.46",
       "binaries": {
         "cargo-hack": {
           "path": "cargo-hack",
-          "sha256": "1bf1e63cbd7ade31eda8fd6b8a228774eebfee94731cac886ff4a4385d4af2d3"
+          "sha256": "bdb84b8159a50a3ef63beab6bf7e9b6e85ad2fc44e53f8fdc3034fde2d4f0186"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.45/cargo-hack-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.6.45",
-      "sha256": "b1a65c2daaca37957a288a295cb25f5c3bf3f7945ec60b450ecdbb1159acbff4",
-      "size": 860204,
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.46/cargo-hack-x86_64-apple-darwin.tar.gz",
+      "sha256": "d59a46947429dfa58e1c2f9b644e878580f85c3001b0f26854eeaa9da5b00fc4",
+      "size": 856909,
       "format": "tar.gz",
+      "releaseTag": "v0.6.46",
       "binaries": {
         "cargo-hack": {
           "path": "cargo-hack",
-          "sha256": "c2927da7c1549b80231f9eab7aeb2773cdc56005e4b707c2f5ee64e2fed0a366"
+          "sha256": "0b9913ee93eeb0f056d44d1ddd6fecffb5a9352192e821a2b3dc1615d923eca3"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.45/cargo-hack-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.6.45",
-      "sha256": "af0ab90e56aa716ae9f545a93e4338d4f36525e187d367b6519da71b60249b50",
-      "size": 798036,
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.46/cargo-hack-aarch64-apple-darwin.tar.gz",
+      "sha256": "9ad9fae78158671df8161b1803bb6b9f6a8b0081adc70a5c2bb91dff5ec4044d",
+      "size": 785088,
       "format": "tar.gz",
+      "releaseTag": "v0.6.46",
       "binaries": {
         "cargo-hack": {
           "path": "cargo-hack",
-          "sha256": "a8682b1b5d7ba1e22f8eafdda59db1e4c02cf2b982cb1130ab5125623d0d3385"
+          "sha256": "0730e19f9251509b5f835ee2a11cf8ea0447de65c602755af7038d14155fb31f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.46/cargo-hack-x86_64-pc-windows-msvc.zip",
+      "sha256": "c647159f27352aa1a28c3383a937802c71dbda048a15a628e086c7bad4b57fa0",
+      "size": 826255,
+      "format": "zip",
+      "releaseTag": "v0.6.46",
+      "binaries": {
+        "cargo-hack.exe": {
+          "path": "cargo-hack.exe",
+          "sha256": "194c2de363484d7ec7763e3e1574b01bfe44062c998eea0a6a78e38b9a6bd839"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/taiki-e/cargo-hack/releases/download/v0.6.46/cargo-hack-aarch64-pc-windows-msvc.zip",
+      "sha256": "2c74a35f4ddf6420c3b72fd53107972785785f79856ea1bae2f175a148a9af68",
+      "size": 749823,
+      "format": "zip",
+      "releaseTag": "v0.6.46",
+      "binaries": {
+        "cargo-hack.exe": {
+          "path": "cargo-hack.exe",
+          "sha256": "4c1c88aa32f82a60ad6c1e574765b72348f312ca185c227b1ae45c4c96062456"
         }
       }
     }
