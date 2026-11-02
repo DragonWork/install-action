@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "tunnelto",
+  "version": "0.2.0",
+  "repository": "tunneltodev/tunnelto",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tunneltodev/tunnelto/releases/download/0.2.0/Linux-x86_64.tar.gz",
+      "sha256": "a1752f612ee050694261c78176cf3e91b80d40038e862c1928a77b358f8f3381",
+      "size": 8567877,
+      "format": "tar.gz",
+      "releaseTag": "0.2.0",
+      "binaries": {
+        "tunn": {
+          "path": "app/tunn",
+          "sha256": "3620ca54de5e0a5fd401b35adb9f07a7b3aaf26c54ae09d061ad56bf3410c80e"
+        },
+        "tunnelto": {
+          "path": "app/tunnelto",
+          "sha256": "f4838328281de8b5dd3931724e52a727ab8633d955d8a37c8b93a479d94e275b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tunneltodev/tunnelto/releases/download/0.2.0/Linux-aarch64.tar.gz",
+      "sha256": "f7bc5ffc57af37d905e22477bc57ceb4ef2cbad9961f89cfd31c2a304582b5e9",
+      "size": 8632138,
+      "format": "tar.gz",
+      "releaseTag": "0.2.0",
+      "binaries": {
+        "tunn": {
+          "path": "app/tunn",
+          "sha256": "39c3e98cb54f15cfebc7f42de4e02300a575e6b9d984b8d7ab18d0256de79774"
+        },
+        "tunnelto": {
+          "path": "app/tunnelto",
+          "sha256": "f9c1712a73995c79f534875d69151dce86d6b681ef27f542a285477f3afa466c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/tunneltodev/tunnelto/releases/download/0.2.0/Darwin-x86_64.tar.gz",
+      "sha256": "45f639adbe622d63178486ca49680d4649ab16b62c45c18daffdc9d700c852f4",
+      "size": 8108786,
+      "format": "tar.gz",
+      "releaseTag": "0.2.0",
+      "binaries": {
+        "tunn": {
+          "path": "app/tunn",
+          "sha256": "2bb3e338a942fc35813248d3d2c3ccff69878b2688431ad6e8635fc6ddb31381"
+        },
+        "tunnelto": {
+          "path": "app/tunnelto",
+          "sha256": "f91712766a8b10227ad9a581e93436666af6fbacc2e80f649aea12b08b20279b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tunneltodev/tunnelto/releases/download/0.2.0/Darwin-arm64.tar.gz",
+      "sha256": "cee2b4c3d145419be45d3ffd43e564c25acfea0653eb8f704c1a022307ed7bab",
+      "size": 7778618,
+      "format": "tar.gz",
+      "releaseTag": "0.2.0",
+      "binaries": {
+        "tunn": {
+          "path": "app/tunn",
+          "sha256": "8515611343c5eeed5c2fabb13e22bb4d9f7237f832b1c7a4baf5f09943efeecf"
+        },
+        "tunnelto": {
+          "path": "app/tunnelto",
+          "sha256": "1a59fd3ab629938c512cf1d7b3983a4074a8ad59a688e8a98a07c381cac93697"
+        }
+      }
+    }
+  }
+}
