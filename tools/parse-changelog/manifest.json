@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "parse-changelog",
-  "version": "0.6.17",
+  "version": "0.6.18",
   "repository": "taiki-e/parse-changelog",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.17/parse-changelog-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.6.17",
-      "sha256": "d78fe1527b14d55328e3e8e130123cdbb3606d4055ca207f7e03ae51fc3c7e03",
-      "size": 812870,
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.18/parse-changelog-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "e0f0aa87a94501111052dbb7f3c79b28b61ab421427641ba9ac4e4ae61d6eee9",
+      "size": 815482,
       "format": "tar.gz",
+      "releaseTag": "v0.6.18",
       "binaries": {
         "parse-changelog": {
           "path": "parse-changelog",
-          "sha256": "c934f917a2669dbb02771f96262a55aa6343753ab856ee82ce49c9d754fa8fb3"
+          "sha256": "8dc34e47d9c688f72b93d32a9e68e7ba926a8b226ddd8297d4f2cb8041b40fb9"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.17/parse-changelog-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.6.17",
-      "sha256": "bff12e434d13ef150e27c0494a0486ed4b3e85ba9e204fff06dfdfb19329f940",
-      "size": 740161,
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.18/parse-changelog-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "ca1e216f84999487a73edff60f4df735584d5b5cae31617ac81450c4b6f2879a",
+      "size": 743692,
       "format": "tar.gz",
+      "releaseTag": "v0.6.18",
       "binaries": {
         "parse-changelog": {
           "path": "parse-changelog",
-          "sha256": "81d2835bc9bd72d7651fc5f50996ecdd0aa1dd54854bc49e4a517ed776292da8"
+          "sha256": "12302f7cdb059b37251e1aab0773e406aacac34c2b1d4bfc7b0f5aecaec33467"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.17/parse-changelog-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.6.17",
-      "sha256": "f252807a41d5b10839e63c5c39b342586b5ccdba2d61373e40356f4cf03a8369",
-      "size": 710278,
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.18/parse-changelog-x86_64-apple-darwin.tar.gz",
+      "sha256": "af5b9bf13e26ab93492592fb3d86d591398a7ac921f54f3d0086dae109639d70",
+      "size": 702646,
       "format": "tar.gz",
+      "releaseTag": "v0.6.18",
       "binaries": {
         "parse-changelog": {
           "path": "parse-changelog",
-          "sha256": "cf93c0a0a0ea2430a7f98f747cb73d1f6a4710df38d5cd81e0c85f502e743198"
+          "sha256": "b60c22ed602b14aa7b9fda38bc5ff5db493200c0c5f9130304dabaaa1ea82a53"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.17/parse-changelog-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.6.17",
-      "sha256": "282d25dc8a8c2e667e22de70df284edfa5e24a6f3308b2a9b74557dbaaed4d9b",
-      "size": 662440,
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.18/parse-changelog-aarch64-apple-darwin.tar.gz",
+      "sha256": "56158c595174012c2116562de282bdbc35b4388856007db2aa991cb3a35debb4",
+      "size": 656847,
       "format": "tar.gz",
+      "releaseTag": "v0.6.18",
       "binaries": {
         "parse-changelog": {
           "path": "parse-changelog",
-          "sha256": "28a8e73567d8f76fa0f74cc28eab53fa427ae916a096d932d6a32a6643ed127e"
+          "sha256": "87f77f2a969c0066aec498098201c80d1a3dfdff3892b0c61636b2948232e6c3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.18/parse-changelog-x86_64-pc-windows-msvc.zip",
+      "sha256": "59e8271cb1f75b32bee13e6893109737d0752ae95f31055db34d7f1aa9bd4ed8",
+      "size": 650994,
+      "format": "zip",
+      "releaseTag": "v0.6.18",
+      "binaries": {
+        "parse-changelog.exe": {
+          "path": "parse-changelog.exe",
+          "sha256": "ed35f22f1e44bf69d3cd135b3681dbfc8a6929b154859218b86bc6858d86cc4c"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/taiki-e/parse-changelog/releases/download/v0.6.18/parse-changelog-aarch64-pc-windows-msvc.zip",
+      "sha256": "a5e47b5d2e955483e4183fd59da33ff163773a1719e197df4e03ef1718ae2996",
+      "size": 588759,
+      "format": "zip",
+      "releaseTag": "v0.6.18",
+      "binaries": {
+        "parse-changelog.exe": {
+          "path": "parse-changelog.exe",
+          "sha256": "81ec3259e44a14cfee862a4200f787e0404fa47d2350ce0175b3dbc443f9449b"
         }
       }
     }
