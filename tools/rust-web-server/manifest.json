@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "rust-web-server",
-  "version": "18.19.0",
+  "version": "18.24.0",
   "repository": "bohdaq/rust-web-server",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.19.0/rws-18.19.0-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "519ccc250a51919b43b476209cbc9af2f0097068ddaf578482eec42a2b44672c",
-      "size": 17431941,
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.24.0/rws-18.24.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "94cb2e6de36a21e75c46c797da3a626e0e91b4b4e98031082d252e99289d51f4",
+      "size": 17899311,
       "format": "tar.gz",
-      "releaseTag": "18.19.0",
+      "releaseTag": "18.24.0",
       "binaries": {
         "rws": {
-          "path": "rws-18.19.0-x86_64-unknown-linux-musl/rws",
-          "sha256": "2f9779afe92b528a8152e7d644b3c680b529e0224604c63d7e531f9057d5d62e"
+          "path": "rws-18.24.0-x86_64-unknown-linux-musl/rws",
+          "sha256": "61c77cb9e6ef43e663bd4f909acac79ae82f4940ea52e4530a8a83760bbec06b"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.19.0/rws-18.19.0-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "80fbbb409163a647fece9a888501134b260940ee2a0aa77f4bff87fbf1e7bf2a",
-      "size": 16176222,
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.24.0/rws-18.24.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "c64e671477bf760e028545d89b15fff345426baaf72ce15dfc60b78fd29da5c2",
+      "size": 16556690,
       "format": "tar.gz",
-      "releaseTag": "18.19.0",
+      "releaseTag": "18.24.0",
       "binaries": {
         "rws": {
-          "path": "rws-18.19.0-aarch64-unknown-linux-musl/rws",
-          "sha256": "4d009f606860518543b40572a773efe3d2c1a2065613efe3a934e1417acc6a11"
+          "path": "rws-18.24.0-aarch64-unknown-linux-musl/rws",
+          "sha256": "fc5e75f6b465a067d142abaff75770b28f5a8d19fa4839e126abe542cbb73bcb"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.19.0/rws-18.19.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "167db0de604d921dd6666e5666d67dd4dc3a05a66abab1848bbf38ff4cea3801",
-      "size": 11065612,
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.24.0/rws-18.24.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "2d55931955553d8bb4c6638b0e772bd905f6df3d3f16b636f8f63bd0395f4b89",
+      "size": 11656861,
       "format": "tar.gz",
-      "releaseTag": "18.19.0",
+      "releaseTag": "18.24.0",
       "binaries": {
         "rws": {
-          "path": "rws-18.19.0-x86_64-apple-darwin/rws",
-          "sha256": "5108af093bcd1fc89a0156d570e66804d234f957bacade46f38f15f5062fb441"
+          "path": "rws-18.24.0-x86_64-apple-darwin/rws",
+          "sha256": "80823bea604f182d7da335430837c7fc140463d6bc167f72b31c4027d72d1733"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.19.0/rws-18.19.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "6b83eff8120c2710c51b514164a4621074db095226f60c1f8df580d933c766d0",
-      "size": 10092704,
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.24.0/rws-18.24.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "9733741464e1daf1d52bd8804b7672b26a970f3895471f681190f845cbb24349",
+      "size": 10595771,
       "format": "tar.gz",
-      "releaseTag": "18.19.0",
+      "releaseTag": "18.24.0",
       "binaries": {
         "rws": {
-          "path": "rws-18.19.0-aarch64-apple-darwin/rws",
-          "sha256": "34c016edef2b277127a1207ecae50966152a2ceae618b7c99c2efffb686c4c20"
+          "path": "rws-18.24.0-aarch64-apple-darwin/rws",
+          "sha256": "38869b04bf1d8263d811db1f8a98858cd71211921549a9df735279b1acd8a95a"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.19.0/rws-18.19.0-x86_64-pc-windows-msvc.zip",
-      "sha256": "2103af102db905f5c56874391e6852c945a2244cacf98ebdd8c6e434cd7bf6bb",
-      "size": 9774926,
+      "url": "https://github.com/bohdaq/rust-web-server/releases/download/18.24.0/rws-18.24.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "8c1fad4c9ac1bb876166a3008ad42b37b6d9e56de0808368cb945e814f0e99b1",
+      "size": 10227085,
       "format": "zip",
-      "releaseTag": "18.19.0",
+      "releaseTag": "18.24.0",
       "binaries": {
         "rws.exe": {
-          "path": "rws-18.19.0-x86_64-pc-windows-msvc/rws.exe",
-          "sha256": "e78bcb76f0fa6b2fb3f6a1e88cd0f61f256cc98efaf54ffd535cc3ab26ecfdbe"
+          "path": "rws-18.24.0-x86_64-pc-windows-msvc/rws.exe",
+          "sha256": "d5027d3afc5032ee32f19afef692b3bb0e6aca40f118a5317748f86e8c4b9e3f"
         }
       }
     }
