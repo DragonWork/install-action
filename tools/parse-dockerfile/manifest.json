@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "parse-dockerfile",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "repository": "taiki-e/parse-dockerfile",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.8/parse-dockerfile-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.1.8",
-      "sha256": "fb711085a7062b16dd6b73bfd7c64e4bcd04ceeb23ac40994514a0f176a1cd33",
-      "size": 286593,
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.9/parse-dockerfile-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "d79668eb77e1fed724f25f3b8e88b56b6bcc922350a3143c45776aea743c8887",
+      "size": 281357,
       "format": "tar.gz",
+      "releaseTag": "v0.1.9",
       "binaries": {
         "parse-dockerfile": {
           "path": "parse-dockerfile",
-          "sha256": "beec55b66e3c0dccba401070b03f47fac12731569e0f78d646929cb5942e7e67"
+          "sha256": "675e30ebe982cf2ee0f80ad538a013d9e17b78d6d04007b729fe3da4c47dcbfa"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.8/parse-dockerfile-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.1.8",
-      "sha256": "4463b8676cc3d58abee82754451270e17a5a6d15032013d9e669c5a700b5716f",
-      "size": 282795,
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.9/parse-dockerfile-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "272492226b5ef239c330b4fdea6847fb3626bf503d8910b6fa09b8be329c9c77",
+      "size": 279054,
       "format": "tar.gz",
+      "releaseTag": "v0.1.9",
       "binaries": {
         "parse-dockerfile": {
           "path": "parse-dockerfile",
-          "sha256": "2a4c801c92dc12c931f65b643cc99ceab022548799ef6b8e9d22209a45e9b903"
+          "sha256": "a9b28ab278b8f8f4a6031f3a93ecc657e63921f5b1b301d192d2eeda5719d7f2"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.8/parse-dockerfile-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.1.8",
-      "sha256": "f3422d8f36231d5730576eaca52c45c393290cdce26f9771da60a598ebc4c470",
-      "size": 229616,
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.9/parse-dockerfile-x86_64-apple-darwin.tar.gz",
+      "sha256": "0e776274195ac57b748d4f6ca4c405d268e1cee57f579fe143b03c0426376f90",
+      "size": 223943,
       "format": "tar.gz",
+      "releaseTag": "v0.1.9",
       "binaries": {
         "parse-dockerfile": {
           "path": "parse-dockerfile",
-          "sha256": "738df3134b0b293ff47c195a8383f13a754f8f79faa1b6bdf72c2373bd69de97"
+          "sha256": "affd866877b7917b1668fb29c2eae14e09ba10255943b6d107ee8caf7d8e3a40"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.8/parse-dockerfile-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.1.8",
-      "sha256": "3e01a2d668453bfd956afdff461ec63f4b41dfbbd9d59cd1059ff74fec41e894",
-      "size": 219225,
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.9/parse-dockerfile-aarch64-apple-darwin.tar.gz",
+      "sha256": "d61640989be19cd2b2c0c7d9909468fd9890974abe2bfe5f47f4c4b25a0406f5",
+      "size": 214984,
       "format": "tar.gz",
+      "releaseTag": "v0.1.9",
       "binaries": {
         "parse-dockerfile": {
           "path": "parse-dockerfile",
-          "sha256": "f5ed93c110c0ef509b9cb0abfc392e30d918bfc43b7d0cf7af83bb69bdc9e6e2"
+          "sha256": "f88277b2d490f25dc9ff33d781f2221458290f5c68b9470ef1ba867a2a3a5264"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.9/parse-dockerfile-x86_64-pc-windows-msvc.zip",
+      "sha256": "173c3c4bab1a93a96e5966a58c20d3b3d850a792b4d8bd4502ef115016db2196",
+      "size": 176683,
+      "format": "zip",
+      "releaseTag": "v0.1.9",
+      "binaries": {
+        "parse-dockerfile.exe": {
+          "path": "parse-dockerfile.exe",
+          "sha256": "65c4c9affb51641e8a9b7a9cd792ffc0200c153b46e8c7d199a5146c15164694"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/taiki-e/parse-dockerfile/releases/download/v0.1.9/parse-dockerfile-aarch64-pc-windows-msvc.zip",
+      "sha256": "9974aec539577e47df032c9b23a37c1f58808ac41d22475cb6364d92d07e0808",
+      "size": 163561,
+      "format": "zip",
+      "releaseTag": "v0.1.9",
+      "binaries": {
+        "parse-dockerfile.exe": {
+          "path": "parse-dockerfile.exe",
+          "sha256": "ab892f68837a4491b5cad43ab7633c8414f91d2a3786fb9bb7931eedacbe51d6"
         }
       }
     }
