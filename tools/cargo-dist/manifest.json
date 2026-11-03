@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "cargo-dist",
-  "version": "0.32.0",
+  "version": "0.34.0",
   "repository": "axodotdev/cargo-dist",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v0.32.0",
-      "sha256": "0d9dc001b0e937e9cc18e0dc11784aa7a3fd566656b07828d5e1d10ce1c1c48c",
-      "size": 6612988,
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.34.0/cargo-dist-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "f274b9889e93333a52cdcab86b93ab04b875b8ef4eebc7f8589514e0aff827e6",
+      "size": 6664072,
       "format": "tar.xz",
+      "releaseTag": "v0.34.0",
       "binaries": {
         "dist": {
           "path": "cargo-dist-x86_64-unknown-linux-musl/dist",
-          "sha256": "282213d0b4c04598e7d2ff4aaf036d56813f1819646e7887e474acf04bc6f5d8"
+          "sha256": "85974126b4ff5c753e33a797250f7cb85ea19713fa052f89f23e7aa0dad60928"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-aarch64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v0.32.0",
-      "sha256": "16d4394af9b91366ca92cb4601a72dd0a209a49301ef535749e2141039e26ed6",
-      "size": 5024280,
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.34.0/cargo-dist-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "aac7d48901f5283b53e136dd0498782c88a3350dfa4a5e88f4c3e0ba7e486eea",
+      "size": 5118532,
       "format": "tar.xz",
+      "releaseTag": "v0.34.0",
       "binaries": {
         "dist": {
           "path": "cargo-dist-aarch64-unknown-linux-musl/dist",
-          "sha256": "181d2eb6468755d753555a82947e621bf6c82f97817afe41793d0ed188975765"
+          "sha256": "7559166d033d1cad0d69fb2a0701d984e64ce452c5b31910b5fc30d90d146577"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v0.32.0",
-      "sha256": "6243464a8389e006b9256ee548bc795638f1a17113c1b6669c0e05ce89fd05c5",
-      "size": 6154984,
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.34.0/cargo-dist-x86_64-apple-darwin.tar.xz",
+      "sha256": "6aa89bb1e7c18f51ae8b148ce2fc6ab00ac46ed8173d4f2ed9afa12101218773",
+      "size": 6165684,
       "format": "tar.xz",
+      "releaseTag": "v0.34.0",
       "binaries": {
         "dist": {
           "path": "cargo-dist-x86_64-apple-darwin/dist",
-          "sha256": "5058cee214cdf892b1811f45895b461cff9cb6db3c209af0494cb1ec9986c94e"
+          "sha256": "84c1cf2fc9b33a00dd43aed24a8a6bbcf7b68945f1807b24b2fe6bbc66a43993"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v0.32.0",
-      "sha256": "aa343b2ff78ec2981f17a65140250c5ad6062c74072163f68c5c2686d94763a7",
-      "size": 5534744,
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.34.0/cargo-dist-aarch64-apple-darwin.tar.xz",
+      "sha256": "d1eec30e63eed23e5a5bd48fe96eae314799811bffca254ec1d2264638ba1890",
+      "size": 5506640,
       "format": "tar.xz",
+      "releaseTag": "v0.34.0",
       "binaries": {
         "dist": {
           "path": "cargo-dist-aarch64-apple-darwin/dist",
-          "sha256": "d15349313730639e30bd3074cacbeae75b96d0480b49332a6ad4132120abc8b8"
+          "sha256": "d3cf96e64e319e24521e9e6391393393d66a89097eaf498cb4d58b7dd8216ed8"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-dist-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.32.0",
-      "sha256": "26e845cabff12a92911ce960af73a86c8f9b2b2d9072b01dfe5b662acf044fa3",
-      "size": 8372344,
+      "url": "https://github.com/axodotdev/cargo-dist/releases/download/v0.34.0/cargo-dist-x86_64-pc-windows-msvc.zip",
+      "sha256": "7bb53fbc998321f77a3bbb044084a52747c8ed041cf6d6a604802aa57b9c80c6",
+      "size": 8516838,
       "format": "zip",
+      "releaseTag": "v0.34.0",
       "binaries": {
         "dist.exe": {
           "path": "dist.exe",
-          "sha256": "919e7e820ff2a05c12a27a1e6cb584602507d9573be5e77fb560d01e908f2031"
+          "sha256": "e3666cb09a51f61a0a02fd856000f23e2d44ac7d3a471fbd7f00523e73c118b7"
         }
       }
     }
