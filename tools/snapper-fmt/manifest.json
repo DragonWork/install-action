@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "name": "snapper-fmt",
+  "version": "0.11.10",
+  "repository": "TurtleTech-ehf/snapper",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/TurtleTech-ehf/snapper/releases/download/v0.11.10/snapper-fmt-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "f4f46484dfd5125fd9e29c06a9c6de7d87308c743d770182d34a32c4f06162c5",
+      "size": 5919424,
+      "format": "tar.xz",
+      "releaseTag": "v0.11.10",
+      "binaries": {
+        "snapper": {
+          "path": "snapper-fmt-x86_64-unknown-linux-musl/snapper",
+          "sha256": "b249c4831aeeffe455590dca47483bbbcf079b4508bec443c8f5608c68e0c627"
+        },
+        "snapper-fmt": {
+          "path": "snapper-fmt-x86_64-unknown-linux-musl/snapper-fmt",
+          "sha256": "b249c4831aeeffe455590dca47483bbbcf079b4508bec443c8f5608c68e0c627"
+        },
+        "snapper-gen-docs": {
+          "path": "snapper-fmt-x86_64-unknown-linux-musl/snapper-gen-docs",
+          "sha256": "8e530b5cadca0a57092dcde75bbfd32db90ccc3ea066dc1835fac8081b56a193"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/TurtleTech-ehf/snapper/releases/download/v0.11.10/snapper-fmt-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "9ac6119c0c7d4611fba1ce1a7b90295d7f3483c4cc57cf60225ba0314a6e7333",
+      "size": 4953716,
+      "format": "tar.xz",
+      "releaseTag": "v0.11.10",
+      "binaries": {
+        "snapper": {
+          "path": "snapper-fmt-aarch64-unknown-linux-musl/snapper",
+          "sha256": "9496b24c1d1bea71e5f2d2de63e43e23d4527ece6b83950c4af153db1dc1d2db"
+        },
+        "snapper-fmt": {
+          "path": "snapper-fmt-aarch64-unknown-linux-musl/snapper-fmt",
+          "sha256": "b6d443867ba78a084a7900ac13ed1fae85583a74ad6e826a763c77899b6d9557"
+        },
+        "snapper-gen-docs": {
+          "path": "snapper-fmt-aarch64-unknown-linux-musl/snapper-gen-docs",
+          "sha256": "5af7dc3b2c1200e67803e262033848cbf8cf48c02fa3c9e09fb956c63ad2ef57"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/TurtleTech-ehf/snapper/releases/download/v0.11.10/snapper-fmt-x86_64-apple-darwin.tar.xz",
+      "sha256": "871270e104c7a7b579066eb4a2c2155601a3a761ee1ca13c5188b9892b12b5f7",
+      "size": 5590784,
+      "format": "tar.xz",
+      "releaseTag": "v0.11.10",
+      "binaries": {
+        "snapper": {
+          "path": "snapper-fmt-x86_64-apple-darwin/snapper",
+          "sha256": "f0d4088542a9771c43861a01e55563af91dffc8d388bac3935f7469b76de0866"
+        },
+        "snapper-fmt": {
+          "path": "snapper-fmt-x86_64-apple-darwin/snapper-fmt",
+          "sha256": "f7d2436c369df07117818a7457837468bdde1e964e94546db7eb90052fdbbe5d"
+        },
+        "snapper-gen-docs": {
+          "path": "snapper-fmt-x86_64-apple-darwin/snapper-gen-docs",
+          "sha256": "c967a454f6b366fcd48c6268f42385784af929eea05060fa955ebc4bef284329"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/TurtleTech-ehf/snapper/releases/download/v0.11.10/snapper-fmt-aarch64-apple-darwin.tar.xz",
+      "sha256": "b4747e9039ab9f950390f18f0411354642658758203faa37faafb9ac76fd68b7",
+      "size": 5004552,
+      "format": "tar.xz",
+      "releaseTag": "v0.11.10",
+      "binaries": {
+        "snapper": {
+          "path": "snapper-fmt-aarch64-apple-darwin/snapper",
+          "sha256": "735747bcfa743d8b5a9889c6abd80e36299ba65b70cca364152448bb76cf5477"
+        },
+        "snapper-fmt": {
+          "path": "snapper-fmt-aarch64-apple-darwin/snapper-fmt",
+          "sha256": "8b47e03d5d800a2c3c12204489af07e71b6e1c5493008ed5e932fa3a0b7f4818"
+        },
+        "snapper-gen-docs": {
+          "path": "snapper-fmt-aarch64-apple-darwin/snapper-gen-docs",
+          "sha256": "e2a8218b7981a5d5f63cab1de5e726a788f5cc3e8f47e04fc95b8c53fb29879f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/TurtleTech-ehf/snapper/releases/download/v0.11.10/snapper-fmt-x86_64-pc-windows-msvc.zip",
+      "sha256": "237b2da23c23840f3b1f8e28f6a5ec80d4b37f5956c23097eca21f786d99ca50",
+      "size": 18512775,
+      "format": "zip",
+      "releaseTag": "v0.11.10",
+      "binaries": {
+        "snapper.exe": {
+          "path": "snapper.exe",
+          "sha256": "e5ffd8be10fbb703fff9d74b2c44396feec673e7e16e25ff35e4c7b4b535bf1d"
+        },
+        "snapper-fmt.exe": {
+          "path": "snapper-fmt.exe",
+          "sha256": "fcbddd6167d743364df38c58f0ea1b9bc27a5e48fb9617c2734399113aad4399"
+        },
+        "snapper-gen-docs.exe": {
+          "path": "snapper-gen-docs.exe",
+          "sha256": "d901497d3a5ed8f1d8b7e7a2e7be6df90ea34fec560a78324cf72b56d51537c0"
+        }
+      }
+    }
+  }
+}
