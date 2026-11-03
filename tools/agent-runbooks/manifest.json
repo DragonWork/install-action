@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "agent-runbooks",
+  "version": "0.1.0",
+  "repository": "btakita/agent-runbooks",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/btakita/agent-runbooks/releases/download/v0.1.0/agent-runbooks-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "90cdabe8cb0df8e62de11bd269f5046e97d31b2d549984a65f3d01d79a13936f",
+      "size": 841597,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-runbooks": {
+          "path": "agent-runbooks",
+          "sha256": "6cdc3bfee5d5865fd746fb4a245daca125424b2f4743bf1a3949c289e1fbef78"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/btakita/agent-runbooks/releases/download/v0.1.0/agent-runbooks-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "4b31bb6c53fe319433e22517cba5959f8f8ee02e494d93750e194d126cde653e",
+      "size": 757576,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-runbooks": {
+          "path": "agent-runbooks",
+          "sha256": "381b3847333361f3642a27aa3e593880c1df1d3aa0038144e33f5406e76ccb58"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/btakita/agent-runbooks/releases/download/v0.1.0/agent-runbooks-x86_64-apple-darwin.tar.gz",
+      "sha256": "2f999f6646b94d89e2b4f004ffc9ea8643ac1b7122d980061e994eb8fbbfe874",
+      "size": 786490,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-runbooks": {
+          "path": "agent-runbooks",
+          "sha256": "7e52595e18702faf0a23cc927ab5e916c2e7c31421a18d1e27b2175142a62ace"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/btakita/agent-runbooks/releases/download/v0.1.0/agent-runbooks-aarch64-apple-darwin.tar.gz",
+      "sha256": "68bd7255b69693238ff4ec61a29c4972c4367a7c10debc048fe7f5c15c316d5f",
+      "size": 702334,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-runbooks": {
+          "path": "agent-runbooks",
+          "sha256": "c16298c76e9ef892b9b59c906fe12e1accf09c0d86741ce8a864b762e99c2b2d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/btakita/agent-runbooks/releases/download/v0.1.0/agent-runbooks-x86_64-pc-windows-msvc.zip",
+      "sha256": "0fee5afeaf884414d77d142325e035288128a66888fc6e288d0f0afc573e3123",
+      "size": 730065,
+      "format": "zip",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-runbooks.exe": {
+          "path": "agent-runbooks.exe",
+          "sha256": "5611aa2a7962740d4bcb7cf27bdcfb908c85c946a8f5e61a464e3e1a1c797725"
+        }
+      }
+    }
+  }
+}
