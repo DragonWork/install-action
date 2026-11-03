@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "neocmakelsp",
-  "version": "0.11.2",
+  "version": "0.12.0",
   "repository": "neocmakelsp/neocmakelsp",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.11.2/neocmakelsp-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.11.2",
-      "sha256": "0b05d2574997f81275c34b69c90103f6ded03ea67bae3e086901c0d0afc98086",
-      "size": 3622237,
+      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.12.0/neocmakelsp-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "df46fd5ff70fdc061f5666e1a7163fe7a710857d52e179ffe97a7e39d3aac119",
+      "size": 3636519,
       "format": "tar.gz",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "neocmakelsp": {
           "path": "neocmakelsp",
-          "sha256": "a2cbe6bcc278f1b97911fca2a30d717c63087a0c6101a5f8811cf9e85871bde1"
+          "sha256": "646437ae4cebb719185eb8782a7095e7c7c5d61eced236f8957acd2517fc30d0"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.11.2/neocmakelsp-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.11.2",
-      "sha256": "21a2be4f746ac5281b596efeeb249aaf4ce33815f17e9b64ed0240f46df5a376",
-      "size": 3370612,
+      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.12.0/neocmakelsp-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "8216146860ede059741841592e6fdfedc7c99fdf7d199e4cefa582caef002698",
+      "size": 3365148,
       "format": "tar.gz",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "neocmakelsp": {
           "path": "neocmakelsp",
-          "sha256": "6bbcfba47ea96e261b11119c3d129defb4148609516fd460bdf3a8bd90bc6457"
+          "sha256": "a95b10fdae884a9f92b366988fde289e7c543df83bb6038cd5e7f034579b5a28"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.12.0/neocmakelsp-universal-apple-darwin.tar.gz",
+      "sha256": "39d0887ccc4cec0b8c8cf9c42aa5481aad27fa7198cebaabd3e581403f702ff8",
+      "size": 7241629,
+      "format": "tar.gz",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "neocmakelsp": {
+          "path": "neocmakelsp",
+          "sha256": "d4fd363f63f26f4c1db31a044f5f3d4620117f7e44137506a0a803ea1417b673"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.12.0/neocmakelsp-universal-apple-darwin.tar.gz",
+      "sha256": "39d0887ccc4cec0b8c8cf9c42aa5481aad27fa7198cebaabd3e581403f702ff8",
+      "size": 7241629,
+      "format": "tar.gz",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "neocmakelsp": {
+          "path": "neocmakelsp",
+          "sha256": "d4fd363f63f26f4c1db31a044f5f3d4620117f7e44137506a0a803ea1417b673"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.11.2/neocmakelsp-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.11.2",
-      "sha256": "011aedd26fa5855490b612280482832ad10367ab4807d4e89f2d6fa4f8bae3cb",
-      "size": 3640111,
+      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.12.0/neocmakelsp-x86_64-pc-windows-msvc.zip",
+      "sha256": "8abc3cdfa641478e689b70ae474b0eb784b2d4211026398a2fd4fd2a452be8ae",
+      "size": 3642565,
       "format": "zip",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "neocmakelsp.exe": {
           "path": "neocmakelsp.exe",
-          "sha256": "d04b7a325a2c8d6c8ff7733bb0a332ed16371490860ca116d11123f9419b930d"
+          "sha256": "75edca2f2a72624f78d9f9ff091748cf63e3a037093317e47cf49e00d96034a5"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.11.2/neocmakelsp-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v0.11.2",
-      "sha256": "185205a0f05abee373d12946ffbba47f4aa9b02fead3a0e25e94659e3caf7992",
-      "size": 3358676,
+      "url": "https://github.com/neocmakelsp/neocmakelsp/releases/download/v0.12.0/neocmakelsp-aarch64-pc-windows-msvc.zip",
+      "sha256": "13eaedccb4706129658be33ecd83bfc2f76d3b3fa5c30f7c3e0b567c58bb5b49",
+      "size": 3362609,
       "format": "zip",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "neocmakelsp.exe": {
           "path": "neocmakelsp.exe",
-          "sha256": "1754f6e60f7a949ae75062f1da420b7afab00a9e4c7378c8e52ac28d2c6a0bfa"
+          "sha256": "9f5d89b4d267d8a33315e3859e61c812fab1002ce13644286e7fb58011dbd6ea"
         }
       }
     }
