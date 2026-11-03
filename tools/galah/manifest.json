@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "galah",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "repository": "wwood/galah",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v0.6.2",
-      "sha256": "6314831fcc442e78441b4884154c2d2f4f7c5f4fe6cc057e5c48b8781a67ebb0",
-      "size": 1560976,
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.3/galah-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "56a58dcf3570ba5ea3ce86b0561cb5cd36986532bcded2e9bce30206831c192d",
+      "size": 1561664,
       "format": "tar.xz",
+      "releaseTag": "v0.6.3",
       "binaries": {
         "galah": {
           "path": "galah-x86_64-unknown-linux-musl/galah",
-          "sha256": "b89783b1ebdb96245fe776c6766b126cb6684fd4d9080c06c7b0db0ff2062b43"
+          "sha256": "7abf64dac60f295241fa4102640284f6c41e20534eb97709ce032fea1471c965"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-aarch64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v0.6.2",
-      "sha256": "95fb6a33d677c2bebdd50610ed93d5a1dda14d2dc402e8b2d4bdf1966cd0dc6c",
-      "size": 1318388,
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.3/galah-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "8ae66855d0b12374983306a47929089c784ee3cb3c7f019de3bde04846ebdbcb",
+      "size": 1319372,
       "format": "tar.xz",
+      "releaseTag": "v0.6.3",
       "binaries": {
         "galah": {
           "path": "galah-aarch64-unknown-linux-gnu/galah",
-          "sha256": "c72904c775cbdc3e663c1cbef6778dd8b0851b7c23a99361654fdfe5092a3a32"
+          "sha256": "3cdfbf1b2e72b4a136334f1e8d7c3467473a1cd79a46696d39cd46a3d9a9e56d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v0.6.2",
-      "sha256": "d60539f81fc3e1dc4196b6e30e7545fbe43fed4f02ca8a494cdb0c9f9494ee6b",
-      "size": 1372128,
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.3/galah-x86_64-apple-darwin.tar.xz",
+      "sha256": "bd4b0d055cc9c02f3792e39343061166c706d1a2e84e23f47bfbd653b0646f84",
+      "size": 1372156,
       "format": "tar.xz",
+      "releaseTag": "v0.6.3",
       "binaries": {
         "galah": {
           "path": "galah-x86_64-apple-darwin/galah",
-          "sha256": "8267a42f122cb932b3abb41f07664331cfcb7eab453aeb7a61c2f4c5043e6c45"
+          "sha256": "f5ae0bf2c653b796195ab19163eca1eef508c2a14be7c67521e39d9700f0e246"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v0.6.2",
-      "sha256": "db6121c663e7ddf8238e72a44531550c0eae9a3f1d1d9d9f10258f30055596c3",
-      "size": 1197916,
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.3/galah-aarch64-apple-darwin.tar.xz",
+      "sha256": "c43ab1050ec70ee1a9eb112e909093baab9ce82e29b6f50e2074e37d0066850e",
+      "size": 1190792,
       "format": "tar.xz",
+      "releaseTag": "v0.6.3",
       "binaries": {
         "galah": {
           "path": "galah-aarch64-apple-darwin/galah",
-          "sha256": "5ded00b8df6e2f3c44aceb08bb6eb31a296a87780d36795bd687a62536db4f27"
+          "sha256": "7073f85292d7c7c343fba13b80f3ad4c0730d2582b50fd7f3db1900009f58c34"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/wwood/galah/releases/download/v0.6.2/galah-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.6.2",
-      "sha256": "a2572e5989635f8b131849807a551c7a01eb329c5d24ecec45f2d00e21b18188",
-      "size": 1826329,
+      "url": "https://github.com/wwood/galah/releases/download/v0.6.3/galah-x86_64-pc-windows-msvc.zip",
+      "sha256": "1f85a40edcc91adee509faebeca4c1bbe47fa2f61ab9a985fc161bfbba4ce36c",
+      "size": 1828003,
       "format": "zip",
+      "releaseTag": "v0.6.3",
       "binaries": {
         "galah.exe": {
           "path": "galah.exe",
-          "sha256": "47ee21f80fef2d2b82841293508532e4211c6153f6e5638f80584d8ce009937e"
+          "sha256": "ce02f596205b0879ed85340c10e2e090f84f19028a6d16f666a3f4b1faa30d5c"
         }
       }
     }
