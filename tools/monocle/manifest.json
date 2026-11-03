@@ -1,32 +1,58 @@
 {
   "schema": 1,
   "name": "monocle",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "repository": "bgpkit/monocle",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/bgpkit/monocle/releases/download/v1.6.0/monocle-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v1.6.0",
-      "sha256": "06af4f8caf627b632d0c334768ac45698a9fc7ff8857ffb1c809dd089b449fe5",
-      "size": 10017844,
+      "url": "https://github.com/bgpkit/monocle/releases/download/v1.6.1/monocle-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "f1ba30577af37b4865fc318898919df79c7db5a4d4a336ea8aa6623f12808e5e",
+      "size": 10046679,
       "format": "tar.gz",
+      "releaseTag": "v1.6.1",
       "binaries": {
         "monocle": {
           "path": "monocle",
-          "sha256": "e3f91992e60bee48343526671f1683f76f69a823e84b606da9858e2752ed29f0"
+          "sha256": "19cff0d80e66e8864d83ab4ae333012f96cdb8d714f0284f562bc1987a9fd28b"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/bgpkit/monocle/releases/download/v1.6.0/monocle-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v1.6.0",
-      "sha256": "f57bf1c89ffdb0e6d46d20b7345af4f97311fbf580c1cc587feef3d3c5026cf3",
-      "size": 9614606,
+      "url": "https://github.com/bgpkit/monocle/releases/download/v1.6.1/monocle-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "2550086cdd2edb94fb6e6e4889995ab5ec615f106d135906eed957d54ca885c5",
+      "size": 9634621,
       "format": "tar.gz",
+      "releaseTag": "v1.6.1",
       "binaries": {
         "monocle": {
           "path": "monocle",
-          "sha256": "8eb5d1c7f68c57f9bd509f0465218be3c50f6614e9794519015b9d9779a3f023"
+          "sha256": "2a8d930d83b1b8a78d62e1e1e4d0de58f99012a3baac8aa1da72c0275e8d1b5f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bgpkit/monocle/releases/download/v1.6.1/monocle-universal-apple-darwin.tar.gz",
+      "sha256": "85256ffc17b94a9985b1a6ad860ef5c7971c86d162921b28505d6e6e17de9bd1",
+      "size": 18406417,
+      "format": "tar.gz",
+      "releaseTag": "v1.6.1",
+      "binaries": {
+        "monocle": {
+          "path": "monocle",
+          "sha256": "cd3a637877763fe29b9fe3f099640b16c435ce28c2c383e2ba15a6e66b1a7961"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bgpkit/monocle/releases/download/v1.6.1/monocle-universal-apple-darwin.tar.gz",
+      "sha256": "85256ffc17b94a9985b1a6ad860ef5c7971c86d162921b28505d6e6e17de9bd1",
+      "size": 18406417,
+      "format": "tar.gz",
+      "releaseTag": "v1.6.1",
+      "binaries": {
+        "monocle": {
+          "path": "monocle",
+          "sha256": "cd3a637877763fe29b9fe3f099640b16c435ce28c2c383e2ba15a6e66b1a7961"
         }
       }
     }
