@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "agent-rules",
+  "version": "0.1.0",
+  "repository": "btakita/agent-rules",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/btakita/agent-rules/releases/download/v0.1.0/agent-rules-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "f091bcd372683f1ea6052e9418db8e54bed14a123539c7ab2717eb2cb09e378f",
+      "size": 1110714,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-rules": {
+          "path": "agent-rules",
+          "sha256": "aa3308ef78af9237640d403291054e475a9fa17c85775e41bb05be1e1e5dafd4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/btakita/agent-rules/releases/download/v0.1.0/agent-rules-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "8698feff8623457ad6e25dc8b36645f2d549cd8b589d1d85ab366ba56f114d28",
+      "size": 1053469,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-rules": {
+          "path": "agent-rules",
+          "sha256": "0535ebcf1ee6e85fdd804d03c7c652b7b72c7e24b60956a8c15c3002d13dcb6c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/btakita/agent-rules/releases/download/v0.1.0/agent-rules-x86_64-apple-darwin.tar.gz",
+      "sha256": "c5971f1c722e8003d275b7f20b0fc2fd529de086fd6bfec4439ca2c213ae702a",
+      "size": 1034302,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-rules": {
+          "path": "agent-rules",
+          "sha256": "66bf38af706e55d2676d365b0c690291759802171e1c76c50c4207a07ee74f72"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/btakita/agent-rules/releases/download/v0.1.0/agent-rules-aarch64-apple-darwin.tar.gz",
+      "sha256": "ae84dc2615e385bd6e2f62dfc0585e8e98f32560ca7dd5c0f97936b66dcfc52d",
+      "size": 970291,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-rules": {
+          "path": "agent-rules",
+          "sha256": "1b7da5533b42a0b2afce9e1dcfa8681c3b9f7cf1946de25e5c3c01505f7e9ead"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/btakita/agent-rules/releases/download/v0.1.0/agent-rules-x86_64-pc-windows-msvc.zip",
+      "sha256": "be928b5e7bdfb87c613d1a6a6942b80d7658a2f57dbb6ede1d1d2782b251690a",
+      "size": 853474,
+      "format": "zip",
+      "releaseTag": "v0.1.0",
+      "binaries": {
+        "agent-rules.exe": {
+          "path": "agent-rules.exe",
+          "sha256": "f73c40d4b9545f811754feff6e5c9e57227f2748a74a12278d40102e1f601af5"
+        }
+      }
+    }
+  }
+}
