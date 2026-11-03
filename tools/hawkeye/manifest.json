@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "hawkeye",
-  "version": "7.2.0",
+  "version": "7.3.0",
   "repository": "fast/hawkeye",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v7.2.0",
-      "sha256": "b353991dc911bcd83ec57b2fc786d2440bef16b926961442db461b43e212c18d",
-      "size": 3264060,
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.3.0/hawkeye-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "b7739ef867152872bbc62ee460991f6d152a7cecdad892c16a6a5e6877b41d7a",
+      "size": 3282876,
       "format": "tar.xz",
+      "releaseTag": "v7.3.0",
       "binaries": {
         "hawkeye": {
           "path": "hawkeye-x86_64-unknown-linux-musl/hawkeye",
-          "sha256": "8f3c90ee966cf99786990f29f2e8ce17c46a12f9ce4d2fde6938a2863a300f0e"
+          "sha256": "c392a05d4652d40956d1b297fc4c4be23e5be7000245ba3e9046b6c5f878f51a"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-aarch64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v7.2.0",
-      "sha256": "6d9e38d42bc814b1b142f61ec9f0add8a1d26f6b91462d50e21605e699867bf1",
-      "size": 2946848,
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.3.0/hawkeye-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "042fcba85d40d50b4f689da5e1669ba28c33b22fc01d0710a446fc0a2c9945e5",
+      "size": 2957488,
       "format": "tar.xz",
+      "releaseTag": "v7.3.0",
       "binaries": {
         "hawkeye": {
           "path": "hawkeye-aarch64-unknown-linux-musl/hawkeye",
-          "sha256": "1e2730fc146f5506644afed5d4a8ff6e1fa95820e181ff0177c7df02a84e3dd8"
+          "sha256": "05db7e4435bc567d33f8fcb43bf9f4def7548c7ae9c30cfc91d8f4d6ac1a2ddc"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v7.2.0",
-      "sha256": "841e3bbc5e02856c7cb1a8d0bc1688bbfdaf6ba41f6bbb19fc6ee6d7a10e9547",
-      "size": 2965532,
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.3.0/hawkeye-x86_64-apple-darwin.tar.xz",
+      "sha256": "2ed84814dcb73a5ccbecdc6976890d3aa41faa48ebfff6d63eb6742fc4483af4",
+      "size": 2983916,
       "format": "tar.xz",
+      "releaseTag": "v7.3.0",
       "binaries": {
         "hawkeye": {
           "path": "hawkeye-x86_64-apple-darwin/hawkeye",
-          "sha256": "d49ba76560a6ea1da3c114150a8aba925b810be883ee94710f34a4721881d25e"
+          "sha256": "40e4823961e054fdf82c129f0d5ad4becd191f01c72ab10a8b9d2056abee8d5a"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v7.2.0",
-      "sha256": "24fb4412ef7f176d4c8ece75f15365076d1d051e39770e7a79dffd03ea5049ae",
-      "size": 2700948,
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.3.0/hawkeye-aarch64-apple-darwin.tar.xz",
+      "sha256": "45e904268257bdbe2f9af9af44572fa36a871733b55cf925c1759145abb5e957",
+      "size": 2705244,
       "format": "tar.xz",
+      "releaseTag": "v7.3.0",
       "binaries": {
         "hawkeye": {
           "path": "hawkeye-aarch64-apple-darwin/hawkeye",
-          "sha256": "2b5c15208432cfbcbf576a6f931ac4af5e03f7f86800d76eb26e89f4a7ec64a9"
+          "sha256": "bd42bfe73b1664ffbc9d6ac812e595e4ac98de953ee32d1d68b5a9c24160b48c"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/fast/hawkeye/releases/download/v7.2.0/hawkeye-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v7.2.0",
-      "sha256": "729537a72e4bbf09ff942dc08da0c1c625d771d72a7ca27938c1cac34b4e62c9",
-      "size": 4227930,
+      "url": "https://github.com/fast/hawkeye/releases/download/v7.3.0/hawkeye-x86_64-pc-windows-msvc.zip",
+      "sha256": "0e156132ea2ff972545608ea7c5c9b4471d63b05c28936ff2becc58cfa4ec629",
+      "size": 4244003,
       "format": "zip",
+      "releaseTag": "v7.3.0",
       "binaries": {
         "hawkeye.exe": {
           "path": "hawkeye.exe",
-          "sha256": "fc8626d74cec425848a4a352f3dae7fa433badbaf678e26c0fbd8b4926f38cbf"
+          "sha256": "50f9ebbb97a776d950c3eb30f6da2c28091b8eb1e21a5bd8d2baed8e8b0a90f7"
         }
       }
     }
