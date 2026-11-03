@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tbdflow",
+  "version": "0.36.0",
+  "repository": "cladam/tbdflow",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/cladam/tbdflow/releases/download/v0.36.0/tbdflow-x86_64-unknown-linux-gnu",
+      "sha256": "f3bd182ca8e98057b07fa3c52a11a933de50b7827b914d2e6f7cd9d0c926b42d",
+      "size": 9323312,
+      "format": "binary",
+      "releaseTag": "v0.36.0",
+      "binaries": {
+        "tbdflow": {
+          "path": "tbdflow-x86_64-unknown-linux-gnu",
+          "sha256": "f3bd182ca8e98057b07fa3c52a11a933de50b7827b914d2e6f7cd9d0c926b42d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/cladam/tbdflow/releases/download/v0.36.0/tbdflow-aarch64-unknown-linux-gnu",
+      "sha256": "4a64e85450100d403b93ccce3eca6dea3ac7d182eb9a71847a67a97ade44e36d",
+      "size": 15437624,
+      "format": "binary",
+      "releaseTag": "v0.36.0",
+      "binaries": {
+        "tbdflow": {
+          "path": "tbdflow-aarch64-unknown-linux-gnu",
+          "sha256": "4a64e85450100d403b93ccce3eca6dea3ac7d182eb9a71847a67a97ade44e36d"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/cladam/tbdflow/releases/download/v0.36.0/tbdflow-x86_64-apple-darwin",
+      "sha256": "b7949cf9b4442db5da301e9a29dfe758ddab7e94446ed29da4ddc7e7f9ea2aae",
+      "size": 7979840,
+      "format": "binary",
+      "releaseTag": "v0.36.0",
+      "binaries": {
+        "tbdflow": {
+          "path": "tbdflow-x86_64-apple-darwin",
+          "sha256": "b7949cf9b4442db5da301e9a29dfe758ddab7e94446ed29da4ddc7e7f9ea2aae"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/cladam/tbdflow/releases/download/v0.36.0/tbdflow-aarch64-apple-darwin",
+      "sha256": "03e2003614edf312af3e83bda47edf08b6427650db7e2e0ac3f12da82ae761c6",
+      "size": 7780528,
+      "format": "binary",
+      "releaseTag": "v0.36.0",
+      "binaries": {
+        "tbdflow": {
+          "path": "tbdflow-aarch64-apple-darwin",
+          "sha256": "03e2003614edf312af3e83bda47edf08b6427650db7e2e0ac3f12da82ae761c6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/cladam/tbdflow/releases/download/v0.36.0/tbdflow-x86_64-pc-windows-msvc.exe",
+      "sha256": "f9ba4d62b889af56bdb3e97ab143d21b8e4771aae15d58abee861c701b37959b",
+      "size": 6747648,
+      "format": "binary",
+      "releaseTag": "v0.36.0",
+      "binaries": {
+        "tbdflow.exe": {
+          "path": "tbdflow-x86_64-pc-windows-msvc.exe",
+          "sha256": "f9ba4d62b889af56bdb3e97ab143d21b8e4771aae15d58abee861c701b37959b"
+        }
+      }
+    }
+  }
+}
