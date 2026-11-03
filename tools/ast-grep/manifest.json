@@ -1,108 +1,108 @@
 {
   "schema": 1,
   "name": "ast-grep",
-  "version": "0.51.0",
+  "version": "0.51.1",
   "repository": "ast-grep/ast-grep",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-x86_64-unknown-linux-gnu.zip",
-      "releaseTag": "0.51.0",
-      "sha256": "a7eead5552d3a8daad70f5d50d935da44bd0c138e946b5b0a96b1d38169fa639",
-      "size": 8857052,
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.1/app-x86_64-unknown-linux-gnu.zip",
+      "sha256": "42514f77ae0c8a25d7d32154d31d3e7e16f3ab894f8ce76ce417de234ee49157",
+      "size": 8955783,
       "format": "zip",
+      "releaseTag": "0.51.1",
       "binaries": {
         "ast-grep": {
           "path": "ast-grep",
-          "sha256": "99b5aeab1f47536789482b4517595b759de910f7f1f1d1f80c752824e894e38e"
+          "sha256": "c4c1970bf0da5a4a81b37b682b7feb1f00d623e23ec40bbf1546fe9bf65c7306"
         },
         "sg": {
           "path": "sg",
-          "sha256": "ca07e422a66b3fbfeb52da69d165eb4964bbc34fd8d0cdd755a67d3793c4b220"
+          "sha256": "9bb89d68719cd44a0dcb17d8cc6ff523177b2d93cd6d0d126b9f12efaa08eaea"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-aarch64-unknown-linux-gnu.zip",
-      "releaseTag": "0.51.0",
-      "sha256": "73af0ebe5958acee012754a5b2826a186580ef83333092408a7a01096fc30b8b",
-      "size": 8511534,
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.1/app-aarch64-unknown-linux-gnu.zip",
+      "sha256": "db02fae2d8eace5fc40c55242068882452dd03eab38a1d950d5fd981cf112926",
+      "size": 8602673,
       "format": "zip",
+      "releaseTag": "0.51.1",
       "binaries": {
         "ast-grep": {
           "path": "ast-grep",
-          "sha256": "50f96dbaf16c20b6e3f2275b3e670bd2a8e527e85c67ca906447116b2ff37cee"
+          "sha256": "bf31aeda9584b14dedff1e3c9a501fed449b48635da2f40f676851a3b3e9982f"
         },
         "sg": {
           "path": "sg",
-          "sha256": "807c03b2adbb85c03c92cc8b7e38c2ae62a7598aea33994655275119f01fcc5e"
+          "sha256": "08b750fc47410a02c38368a835737f02b46b06537f3584dedc08fc03d34a7ea9"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-x86_64-apple-darwin.zip",
-      "releaseTag": "0.51.0",
-      "sha256": "8438fe549da59da28518c45bdaab5b851aabafe8fb4f8dc05c261a7649b4eca6",
-      "size": 8689176,
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.1/app-x86_64-apple-darwin.zip",
+      "sha256": "302b92868fa1b0439f0927b1f31668e03636b12a8e646fb1a3cd8de816c78242",
+      "size": 8782573,
       "format": "zip",
+      "releaseTag": "0.51.1",
       "binaries": {
         "ast-grep": {
           "path": "ast-grep",
-          "sha256": "7c7bd4ccd32fa7881dd52b6eb6b55dc8c930e20db41cdf8ee733a9c47085a981"
+          "sha256": "70e2e16c2ffd0ecf6d27c2e3a85e001748dc1155dd351c927812e6158e4e1bcf"
         },
         "sg": {
           "path": "sg",
-          "sha256": "9e206a22640bd6047626acc80547ce53a33393039f5aefd85a119d41fe63d2e5"
+          "sha256": "df6d6db3ecf7a89f5008867fa54d9a0cbce0c4726e080e79628c4f2f0f8be599"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-aarch64-apple-darwin.zip",
-      "releaseTag": "0.51.0",
-      "sha256": "e18e13c27ed6c4b3ec4de00745b0755dee9dc26c035e226f4dd5d147dca99cc8",
-      "size": 8626879,
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.1/app-aarch64-apple-darwin.zip",
+      "sha256": "a95772097b4d02bd9d45ed63b300c37041ae3c36632b3bf19250cc7c10187dc4",
+      "size": 8698737,
       "format": "zip",
+      "releaseTag": "0.51.1",
       "binaries": {
         "ast-grep": {
           "path": "ast-grep",
-          "sha256": "6e4e64393e1cbc67b68f56606982c2834e9ffe771cf10d4811de0f4d15ee3a6d"
+          "sha256": "094391a222233faed3be5170b4abf7098162cc3322ce7dd6b83a1e113a6ce550"
         },
         "sg": {
           "path": "sg",
-          "sha256": "b4d74880ed67e10447eaf4d19fb99e3ac7f800f0126b88308cd48543eaee101b"
+          "sha256": "d7798325cba6b888fe175c673ecbb813e199263a5a554534aeeaae8429fad10a"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "0.51.0",
-      "sha256": "1a5b7824c5925ac34257f806488e54860817cefd855fd308d13df7550d068908",
-      "size": 16249102,
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.1/app-x86_64-pc-windows-msvc.zip",
+      "sha256": "12a0cefb77498820ef6fb302ed8758cbda39be87d4c15120dc74c1dea968a50d",
+      "size": 16460061,
       "format": "zip",
+      "releaseTag": "0.51.1",
       "binaries": {
         "ast-grep.exe": {
           "path": "ast-grep.exe",
-          "sha256": "8ac5d5e90484e727c6ca53114c77c93b26e63a42bf9db07efda5008a5a4165a3"
+          "sha256": "910dbbfcf09ed7873296a66fce5934f0069cf55726eff947f92649194ce833df"
         },
         "sg.exe": {
           "path": "sg.exe",
-          "sha256": "9ee7ad7e4beb391f84d6aea24e72ccbd2678740959ad973b3e6051af6b2dff24"
+          "sha256": "8ccfb3435a788e48fb880009ab12c9fddd409013f323e830428f1343fba477b9"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.0/app-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "0.51.0",
-      "sha256": "fb6a4c3c6ed350d7e64eae81961bdf6b3f201c6e7c31ace8caccf8ceddff1cac",
-      "size": 15496895,
+      "url": "https://github.com/ast-grep/ast-grep/releases/download/0.51.1/app-aarch64-pc-windows-msvc.zip",
+      "sha256": "8b3f8fed40e99e0fa4df050859d2897fce454cba262d903486dc12a464237126",
+      "size": 15636991,
       "format": "zip",
+      "releaseTag": "0.51.1",
       "binaries": {
         "ast-grep.exe": {
           "path": "ast-grep.exe",
-          "sha256": "db2e891196e4ac0ff074af35ef9f8654b53eccc415d7800e7da64ca253d5e778"
+          "sha256": "da2d5c5b00a31d27f8a0031151fcb6464f119ce7065c7ddc9b17a6b3fd6b93c6"
         },
         "sg.exe": {
           "path": "sg.exe",
-          "sha256": "b72876bf6668f81020edf2100055a1b2772055d0e593f41ceaf818703a7f5d8a"
+          "sha256": "aa05a5e6fd776f4adbe58e439cfdc852f37975f823e1e129f74d56fa5fed9992"
         }
       }
     }
