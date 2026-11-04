@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "soroban-cli",
-  "version": "28.1.0",
+  "version": "30.0.1",
   "repository": "stellar/stellar-cli",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/stellar/stellar-cli/releases/download/v28.1.0/stellar-cli-28.1.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "c1680deee94301d33ada7a17f98411e642a4248c727afbd2e43050d345746462",
-      "size": 26427814,
+      "url": "https://github.com/stellar/stellar-cli/releases/download/v30.0.1/stellar-cli-30.0.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "48c70074020e09af0a3ebbd2bf62d53c9aec47935e49a112d3cd90fb4e37658f",
+      "size": 26579342,
       "format": "tar.gz",
-      "releaseTag": "v28.1.0",
+      "releaseTag": "v30.0.1",
       "binaries": {
         "stellar": {
           "path": "stellar",
-          "sha256": "fd19fdafe58f8004d296a1829362e2c780a25303da04f73f4efd3dcb22e1209f"
+          "sha256": "d161f7cacee3c45df32b030e5af40158974cc346d277398e0d48bfa1f5ac367c"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/stellar/stellar-cli/releases/download/v28.1.0/stellar-cli-28.1.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "b1e6ab53b0dd673400110fbd665a525cd0a969449943a2990a782f20cc7abe98",
-      "size": 29553867,
+      "url": "https://github.com/stellar/stellar-cli/releases/download/v30.0.1/stellar-cli-30.0.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "145785bb4bfd9711a7af1b4cf13a38ae31034421401a5fed061be35baf01373a",
+      "size": 29598360,
       "format": "tar.gz",
-      "releaseTag": "v28.1.0",
+      "releaseTag": "v30.0.1",
       "binaries": {
         "stellar": {
           "path": "stellar",
-          "sha256": "94b8f3a6753da8ce7b8619be6ad4b32e6bd3a791784bd207b70f7cf6bb16758c"
+          "sha256": "27487d36fdba5cf533f73bcdf479d12f28cab85bca8c4a8190abacf5f40a8835"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/stellar/stellar-cli/releases/download/v28.1.0/stellar-cli-28.1.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "edae3f5c8380c75110a08dedffe599ef2fc7555ff4cbf37576193e26a9e4589f",
-      "size": 23788964,
+      "url": "https://github.com/stellar/stellar-cli/releases/download/v30.0.1/stellar-cli-30.0.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "46a11bfaa1dce67f75f024594aaea04ee69c50407ea5663891e52fa107568acf",
+      "size": 23958921,
       "format": "tar.gz",
-      "releaseTag": "v28.1.0",
+      "releaseTag": "v30.0.1",
       "binaries": {
         "stellar": {
           "path": "stellar",
-          "sha256": "4fb0f803d88d8c4e2e3ee7f9a6b2c915ff4949dff702ef06a18ce34b4eb188d9"
+          "sha256": "c18ac76d41e81ed3291a45998b56125c10462d873f1bb75c10251ef6e0a8a2cc"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/stellar/stellar-cli/releases/download/v28.1.0/stellar-cli-28.1.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "accddc9a44dc51e99e5fc6d976fb87a327f8b5cd71bc72c0dab3ac685dfbc7ec",
-      "size": 23521946,
+      "url": "https://github.com/stellar/stellar-cli/releases/download/v30.0.1/stellar-cli-30.0.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "53e126c7be4ec096809a44cececdc7dee5131f261f3c8b85bdafb98053556d55",
+      "size": 23617299,
       "format": "tar.gz",
-      "releaseTag": "v28.1.0",
+      "releaseTag": "v30.0.1",
       "binaries": {
         "stellar": {
           "path": "stellar",
-          "sha256": "2b8a0b7f366346e6b39722126895dd1ec3c2ac799b55557f50f00583b66e4312"
+          "sha256": "f13fb2ead21d77ebcb9443f456f2e3815f00153023296a9f31877d24fb4b3120"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/stellar/stellar-cli/releases/download/v28.1.0/stellar-cli-28.1.0-x86_64-pc-windows-msvc.tar.gz",
-      "sha256": "5011c20fe8020cd375988f971e9324f392f384b85b14af8f53ca68d85953a9c2",
-      "size": 22658751,
+      "url": "https://github.com/stellar/stellar-cli/releases/download/v30.0.1/stellar-cli-30.0.1-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "5511d1c40f733b936bb6cd61d9296c318581b2fffc534402d0be0aea3a2427e3",
+      "size": 22903541,
       "format": "tar.gz",
-      "releaseTag": "v28.1.0",
+      "releaseTag": "v30.0.1",
       "binaries": {
         "stellar.exe": {
           "path": "stellar.exe",
-          "sha256": "610cd860e8303e78576046ee806d2120ee0a8c4e3cedc945dbc0507eb89f03c7"
+          "sha256": "2f44f55ac029e0ccf3100bac8ee9388d60a1c47c11002a6d59c148ebd678b531"
         }
       }
     }
