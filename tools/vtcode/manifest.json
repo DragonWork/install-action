@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "vtcode",
-  "version": "0.181.2",
+  "version": "0.181.3",
   "repository": "vinhnx/VTCode",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.2/vtcode-0.181.2-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "1929e3af081acc47a0604f40f0332ced62538bd61f9bab36cf14cda142f27f99",
-      "size": 33737410,
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.3/vtcode-0.181.3-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "acd8ee0a22db75d90f098538a9db76ed8713b079eb247b0523a857f35eba0580",
+      "size": 33761220,
       "format": "tar.gz",
-      "releaseTag": "0.181.2",
+      "releaseTag": "0.181.3",
       "binaries": {
         "vtcode": {
           "path": "./vtcode",
-          "sha256": "06617bbaa33f89b6abf743aff967e44e66c3d21df1772fb6fc2142ba898712f4"
+          "sha256": "655fcf2c34e9408f0cdbb5e2a5f147114dad838a6020a7e10380cda80601ac2e"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.2/vtcode-0.181.2-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "f5d23ee5d961a0985251f1316291e8e63248805f45a43d51adfcfb439deec136",
-      "size": 31800958,
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.3/vtcode-0.181.3-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "33d601ef08941b6e814a19ecea9673fd5314e94b79f59c4eb1da3eccf00c1bda",
+      "size": 31804068,
       "format": "tar.gz",
-      "releaseTag": "0.181.2",
+      "releaseTag": "0.181.3",
       "binaries": {
         "vtcode": {
           "path": "./vtcode",
-          "sha256": "c70745c4d91f1d036b96b3e40b18c76717e3dab273627ebb0ebed54cb713351e"
+          "sha256": "f7ba293ee7ae5ece0b13426c383bd455922a307976b95d36022a3a4e1b99ddf3"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.2/vtcode-0.181.2-x86_64-apple-darwin.tar.gz",
-      "sha256": "85d422525af10537eaafafbc8a422bc49321bf68243b4cb8c0a90c76faa78ed7",
-      "size": 20200480,
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.3/vtcode-0.181.3-x86_64-apple-darwin.tar.gz",
+      "sha256": "f1398cbde0e1349da528eba7bdd2c8e086e4249552119eb47d14dc27fd498f20",
+      "size": 20200989,
       "format": "tar.gz",
-      "releaseTag": "0.181.2",
+      "releaseTag": "0.181.3",
       "binaries": {
         "vtcode": {
           "path": "./vtcode",
-          "sha256": "e418057ebdeba72c24b3db41a594593b2458d27d0a36fd7f3feb8c87befd0296"
+          "sha256": "bb349c2a8b37c0af728b1f089ecd64c1dd01b730b41da2cb798302d6e6cc2023"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.2/vtcode-0.181.2-aarch64-apple-darwin.tar.gz",
-      "sha256": "12cbce63857d64050b7722c42fdd24bef3d59a14aa050400aa16edc3c1a1f0de",
-      "size": 18366876,
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.3/vtcode-0.181.3-aarch64-apple-darwin.tar.gz",
+      "sha256": "9b145ce50f0babf0dd57af532eb55e9b8813c0b6b8f763f5842131fe63012094",
+      "size": 18352166,
       "format": "tar.gz",
-      "releaseTag": "0.181.2",
+      "releaseTag": "0.181.3",
       "binaries": {
         "vtcode": {
           "path": "./vtcode",
-          "sha256": "519e6b1d6e81f1b8a506c947b061ef76b56d591208c368bacf6a77159217857f"
+          "sha256": "10b9c21888c07718fed0097a5af32f213d6e3b76a5f036519422802e105c6f04"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.2/vtcode-0.181.2-x86_64-pc-windows-msvc.zip",
-      "sha256": "1b1968781d2d01df5a6a268d89a688a1792d2ed6f655c553a6f1cb074b2a81b1",
-      "size": 30522156,
+      "url": "https://github.com/vinhnx/VTCode/releases/download/0.181.3/vtcode-0.181.3-x86_64-pc-windows-msvc.zip",
+      "sha256": "9d465aeed0f848690e1118db115350affa7da0c37db37de3954f52db74fa2449",
+      "size": 30527468,
       "format": "zip",
-      "releaseTag": "0.181.2",
+      "releaseTag": "0.181.3",
       "binaries": {
         "vtcode.exe": {
           "path": "vtcode.exe",
-          "sha256": "a595f25af80777cbdbe7eef50e034d03f7b6e477e98e04067e73a6a8dd13c14c"
+          "sha256": "fecb040cca5a191d1da902b8fc3e8ce8c52f04792024ff8b37f0b103938bf265"
         }
       }
     }
