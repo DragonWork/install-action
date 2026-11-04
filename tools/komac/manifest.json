@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "komac",
-  "version": "2.17.1",
+  "version": "2.17.2",
   "repository": "russellbanks/Komac",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.1/komac-2.17.1-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v2.17.1",
-      "sha256": "e694e79cd451afabf47bead66ed34586fef4814f7b94e4b61a098f419978d5d7",
-      "size": 7214828,
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.2/komac-2.17.2-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "b03b020eec98acfb0b53e284a6e21815b884be33de6785b97e7a120f0e748966",
+      "size": 7273050,
       "format": "tar.gz",
+      "releaseTag": "v2.17.2",
       "binaries": {
         "komac": {
           "path": "komac",
-          "sha256": "6930be6d43885f6dd09b216dc5db96ba6208412168b86aea96d3e7ecd3eea716"
+          "sha256": "094c7b65f603827be47869d249904db61ef9b55d84e7d5a0b62df325c7474858"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.1/komac-2.17.1-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v2.17.1",
-      "sha256": "413fd4ac86aea1675d89e0868a72cf3e9869ceb02806076e6b49b901f75acd16",
-      "size": 7172973,
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.2/komac-2.17.2-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "f880bff72f9f634ba72e478fb2f1f0f6bc08f22d5b7c073d636314a23bc1d2de",
+      "size": 7216228,
       "format": "tar.gz",
+      "releaseTag": "v2.17.2",
       "binaries": {
         "komac": {
           "path": "komac",
-          "sha256": "8d300cae5ea4c53576048cbf22fbab660e6b1be31c017222be75e881103691ef"
+          "sha256": "2df6913cfebf9fc67b7ddeaa678f7296acaa81a941301367ad0ca5a06d4935f5"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.1/komac-2.17.1-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v2.17.1",
-      "sha256": "a1a11c4729591771b0acef00ec960611b037ca36014c2e7f4e2799d6d7857693",
-      "size": 4770110,
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.2/komac-2.17.2-x86_64-apple-darwin.tar.gz",
+      "sha256": "4165c11f28cec366ca7b0db361960bcd75654a50690f712fed12085ea1daad6b",
+      "size": 4803775,
       "format": "tar.gz",
+      "releaseTag": "v2.17.2",
       "binaries": {
         "komac": {
           "path": "komac",
-          "sha256": "2a9bf40ca42b5c43b10ca1050c9184f5fac7a1f85fd032e52c312d5d9e6ee376"
+          "sha256": "800813e60fe77410970db3995a3c4152c4b4774115cd9f7a6c3ac64f6bff8766"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.1/komac-2.17.1-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v2.17.1",
-      "sha256": "ca5be34d8742409b3855095561cfc1f5462efcbf585779765a95d1206df401cc",
-      "size": 4456022,
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.2/komac-2.17.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "ff8d71eb1b8b5e2b2102aa3818312d877ca06faf479cdcad1835ea211cbefe8d",
+      "size": 4483954,
       "format": "tar.gz",
+      "releaseTag": "v2.17.2",
       "binaries": {
         "komac": {
           "path": "komac",
-          "sha256": "da8699b5a2e588753972e253b56a1a1d83224d037394a7439431fd0dec53afef"
+          "sha256": "4f94da395a0208038a0b703d1d24226cf445630c648444c522aef80d766d789e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.2/komac-2.17.2-x86_64-pc-windows-msvc.exe",
+      "sha256": "38a5a53b2291e959157a46a9ed2f20c1c66e9e238666780519650fcc8d37ad58",
+      "size": 13889536,
+      "format": "binary",
+      "releaseTag": "v2.17.2",
+      "binaries": {
+        "komac.exe": {
+          "path": "komac-2.17.2-x86_64-pc-windows-msvc.exe",
+          "sha256": "38a5a53b2291e959157a46a9ed2f20c1c66e9e238666780519650fcc8d37ad58"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/russellbanks/Komac/releases/download/v2.17.2/komac-2.17.2-aarch64-pc-windows-msvc.exe",
+      "sha256": "d3331763e00f301c717095629eaae18e500879187644240da93055d91d0eff7f",
+      "size": 11690496,
+      "format": "binary",
+      "releaseTag": "v2.17.2",
+      "binaries": {
+        "komac.exe": {
+          "path": "komac-2.17.2-aarch64-pc-windows-msvc.exe",
+          "sha256": "d3331763e00f301c717095629eaae18e500879187644240da93055d91d0eff7f"
         }
       }
     }
