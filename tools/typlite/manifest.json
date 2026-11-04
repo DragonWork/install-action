@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "typlite",
-  "version": "0.15.10",
+  "version": "0.15.12",
   "repository": "Myriad-Dreamin/tinymist",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.15.12/tinymist-linux-x64",
+      "sha256": "59cd0441dc6789a5715a4e7417ebdb492be07ca3d4ebdf40ade976bea1c1d1ff",
+      "size": 77541960,
+      "format": "binary",
+      "releaseTag": "v0.15.12",
+      "binaries": {
+        "typlite": {
+          "path": "tinymist-linux-x64",
+          "sha256": "59cd0441dc6789a5715a4e7417ebdb492be07ca3d4ebdf40ade976bea1c1d1ff"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.15.12/tinymist-linux-arm64",
+      "sha256": "e85e7eafdc5436638a98c71d88a77f08942de3cc261ec0bcca2672ff85cc8655",
+      "size": 63957592,
+      "format": "binary",
+      "releaseTag": "v0.15.12",
+      "binaries": {
+        "typlite": {
+          "path": "tinymist-linux-arm64",
+          "sha256": "e85e7eafdc5436638a98c71d88a77f08942de3cc261ec0bcca2672ff85cc8655"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.15.12/tinymist-darwin-x64",
+      "sha256": "1682fa2afbae1a77d8ddad1f4d67a5254d92bbd68004a7c1925693185c0ff928",
+      "size": 71074648,
+      "format": "binary",
+      "releaseTag": "v0.15.12",
+      "binaries": {
+        "typlite": {
+          "path": "tinymist-darwin-x64",
+          "sha256": "1682fa2afbae1a77d8ddad1f4d67a5254d92bbd68004a7c1925693185c0ff928"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.15.12/tinymist-darwin-arm64",
+      "sha256": "92f1d92e7822be822a054aa29a97b4099439ee907c6676034a5002d572ae2f67",
+      "size": 64973648,
+      "format": "binary",
+      "releaseTag": "v0.15.12",
+      "binaries": {
+        "typlite": {
+          "path": "tinymist-darwin-arm64",
+          "sha256": "92f1d92e7822be822a054aa29a97b4099439ee907c6676034a5002d572ae2f67"
+        }
+      }
+    },
     "win32-x64": {
-      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.15.10/tinymist-win32-x64.exe",
-      "releaseTag": "v0.15.10",
-      "sha256": "5c40fdbd7ba8aa411b74b552a4af08e927f9748874ed2e5e4144cc821cc305da",
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.15.12/tinymist-win32-x64.exe",
+      "sha256": "c7a2ad09d2f25f18e09f203deda20de1e086b3134fe70a5d163b720e97524af4",
       "size": 64103424,
       "format": "binary",
+      "releaseTag": "v0.15.12",
       "binaries": {
         "typlite.exe": {
           "path": "tinymist-win32-x64.exe",
-          "sha256": "5c40fdbd7ba8aa411b74b552a4af08e927f9748874ed2e5e4144cc821cc305da"
+          "sha256": "c7a2ad09d2f25f18e09f203deda20de1e086b3134fe70a5d163b720e97524af4"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.15.10/tinymist-win32-arm64.exe",
-      "releaseTag": "v0.15.10",
-      "sha256": "0f2504298cdacbac4ddd706a006f4b16434a068d91ff31a24c1536e2c25c1c78",
+      "url": "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.15.12/tinymist-win32-arm64.exe",
+      "sha256": "226d9f069041117fd5cbd83babc12d60943246c9c0b0d06e935a52b18a9eacdb",
       "size": 58044416,
       "format": "binary",
+      "releaseTag": "v0.15.12",
       "binaries": {
         "typlite.exe": {
           "path": "tinymist-win32-arm64.exe",
-          "sha256": "0f2504298cdacbac4ddd706a006f4b16434a068d91ff31a24c1536e2c25c1c78"
+          "sha256": "226d9f069041117fd5cbd83babc12d60943246c9c0b0d06e935a52b18a9eacdb"
         }
       }
     }
