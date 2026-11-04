@@ -1,19 +1,45 @@
 {
   "schema": 1,
   "name": "aws-assume-role-rs",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository": "okkez/aws-assume-role-rs",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/okkez/aws-assume-role-rs/releases/download/v0.2.2/aws-assume-role-rs-x86_64-unknown-linux-gnu-v0.2.2.tar.gz",
-      "releaseTag": "v0.2.2",
-      "sha256": "4baf70d6f7ac850d7a17c9b119a8b55106fb2890d2b9893affc6138d99ce2b37",
-      "size": 4311251,
+      "url": "https://github.com/okkez/aws-assume-role-rs/releases/download/v0.2.3/aws-assume-role-rs-x86_64-unknown-linux-gnu-v0.2.3.tar.gz",
+      "sha256": "234668e3896f75401f08a96cbe7d44f470eac47864aab44ee44e6bade77fcac8",
+      "size": 4331358,
       "format": "tar.gz",
+      "releaseTag": "v0.2.3",
       "binaries": {
         "assume-role": {
           "path": "assume-role",
-          "sha256": "5991fbdb424ca970734ed6d762c68332b378b5eb14694cbe04a2f105765a6db3"
+          "sha256": "a1e4a337ef19334fbe7fb8b83a401c5c3a61906ef4686357d9f7e20fc5b1eb7e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/okkez/aws-assume-role-rs/releases/download/v0.2.3/aws-assume-role-rs-x86_64-pc-windows-msvc-v0.2.3.zip",
+      "sha256": "451cd6bb78abf28acc8f957af7a5096ad01c0ea0f4db262d709059f5d32e2b6f",
+      "size": 3845293,
+      "format": "zip",
+      "releaseTag": "v0.2.3",
+      "binaries": {
+        "assume-role.exe": {
+          "path": "assume-role.exe",
+          "sha256": "1db8b8843822e02d035756e8c41e5aa6df3dc86ba859c4c09fb5373dcc6a26f9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/okkez/aws-assume-role-rs/releases/download/v0.2.3/aws-assume-role-rs-aarch64-pc-windows-msvc-v0.2.3.zip",
+      "sha256": "2360805968ae9bb72d5ea0936992b6c806601d3c3aefa584710d8bf83780a4c2",
+      "size": 3411135,
+      "format": "zip",
+      "releaseTag": "v0.2.3",
+      "binaries": {
+        "assume-role.exe": {
+          "path": "assume-role.exe",
+          "sha256": "5cf37c330c0aa9aff2eebb7d7b7d93a57940e575985bb402837423c2d0ffb5c4"
         }
       }
     }
