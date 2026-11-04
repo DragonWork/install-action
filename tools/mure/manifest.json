@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "mure",
+  "version": "0.3.1",
+  "repository": "kitsuyui/mure",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kitsuyui/mure/releases/download/v0.3.1/mure-x86_64-unknown-linux-gnu-v0.3.1.tar.gz",
+      "sha256": "bbb741e88e2df532cd64da526d2001c1abb635c73ccfee1406bbe43e1f7f07aa",
+      "size": 6993143,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "mure": {
+          "path": "mure",
+          "sha256": "80b8cc701ff44b90ee82474a287ebc776ee4629151a17fee5600d36d01d54588"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/kitsuyui/mure/releases/download/v0.3.1/mure-aarch64-unknown-linux-gnu-v0.3.1.tar.gz",
+      "sha256": "54c7b9dcce62d9b7f13df8e8fcce7e119abab2c0b0dd4b4815709e404263abc7",
+      "size": 7406319,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "mure": {
+          "path": "mure",
+          "sha256": "3f94e7c92c7ca8d68210d804cfee9c82d2144d9110a290faf6d1c15e70aa68d8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kitsuyui/mure/releases/download/v0.3.1/mure-x86_64-apple-darwin-v0.3.1.tar.gz",
+      "sha256": "fe3a2e86c1743072114335522cf0fbb8c0e3634430c0e48bce93e24084b8c35d",
+      "size": 6029342,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "mure": {
+          "path": "mure",
+          "sha256": "c52a6dbc70b48b73f5405f5df66a0b4a18f3cbd86fc08423c742351dff4fd086"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kitsuyui/mure/releases/download/v0.3.1/mure-aarch64-apple-darwin-v0.3.1.tar.gz",
+      "sha256": "eef678b8469ae10d89cc1953d1456d2744047892caae26e84add5a4cd43c4b09",
+      "size": 6116652,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "mure": {
+          "path": "mure",
+          "sha256": "c2ba732258176f8a8b0b369164f789de9e198a1f6484ad4f032e797f536ea454"
+        }
+      }
+    }
+  }
+}
