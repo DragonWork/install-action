@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "name": "lux-cli",
-  "version": "0.53.1",
+  "version": "0.53.2",
   "repository": "lumen-oss/lux",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/lumen-oss/lux/releases/download/v0.53.1/lx-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "9d01cfcb6c8f7257a8febca26e615a99664ff9cbafad98f1e8d39509b8ca76dc",
-      "size": 17112522,
+      "url": "https://github.com/lumen-oss/lux/releases/download/v0.53.2/lx-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "d7bae2a6a808c53d6b950a3f65a8ae01a32cd1b757c60ca1a4fb78a3ce1dd65f",
+      "size": 17112530,
       "format": "tar.gz",
-      "releaseTag": "v0.53.1",
+      "releaseTag": "v0.53.2",
       "binaries": {
         "lx": {
           "path": "lx",
-          "sha256": "c9401675e2e0da43725fa6f5eaaa7135d77b4a4b6d87a795148bd8eaa8a47980"
+          "sha256": "b6b569b4a2108b07442ec50f66fa4a381175f87e34b1ba9e8d907ef9b74e7667"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/lumen-oss/lux/releases/download/v0.53.1/lx-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "f6441b48258c04c1f2663a938ad9ef0b417c138f897984e85503690632ccddfb",
-      "size": 16816309,
+      "url": "https://github.com/lumen-oss/lux/releases/download/v0.53.2/lx-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "b1541a990c2ff8b2f2a8ec1251407df334c9f45dd67f62a13cfbde74eed0d303",
+      "size": 16813533,
       "format": "tar.gz",
-      "releaseTag": "v0.53.1",
+      "releaseTag": "v0.53.2",
       "binaries": {
         "lx": {
           "path": "lx",
-          "sha256": "b5e50cc454df3a81916d24eb5a30db18f3330f1b1377e3a6be5ebfbb395898ef"
+          "sha256": "67c459847efa792c1ded742547528b1ca91bc330be684b1c8b07d55e537e3f4e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/lumen-oss/lux/releases/download/v0.53.1/lx-aarch64-apple-darwin.tar.gz",
-      "sha256": "cc704fef85d2cb79939f42a21108503c3a8729944ae61fce16b14eaaa70646d4",
-      "size": 15076446,
+      "url": "https://github.com/lumen-oss/lux/releases/download/v0.53.2/lx-aarch64-apple-darwin.tar.gz",
+      "sha256": "b4b4d2c7b6e902d47460f017d176ba029a6ac0759db0073da570db7fbce45d77",
+      "size": 15081005,
       "format": "tar.gz",
-      "releaseTag": "v0.53.1",
+      "releaseTag": "v0.53.2",
       "binaries": {
         "lx": {
           "path": "lx",
-          "sha256": "682dea62675bff6b9dc39702368b284dbafa55c9b6a7d6a3aa2eceef5f14aa07"
+          "sha256": "0c77c83d6f1ae81f222f9b6abcbea2b1b2155f2bef6beef8dd7ca6ebee38252a"
         }
       }
     }
