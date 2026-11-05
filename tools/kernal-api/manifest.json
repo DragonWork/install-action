@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "kernal-api",
-  "version": "0.1.37",
+  "version": "0.1.38",
   "repository": "forge-ci/kernal-api",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.37/kernal-symbolize-x86_64-unknown-linux-gnu",
-      "sha256": "0167b299ab411baf06ec0ad069815c9966f7b1ded20333b184362d1dccd11953",
+      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.38/kernal-symbolize-x86_64-unknown-linux-gnu",
+      "sha256": "0890d12deb450dc2e166136656b268fac3bf433efdbd7b0e50e75e6949568ddd",
       "size": 3893728,
       "format": "binary",
-      "releaseTag": "v0.1.37",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "kernal-symbolize": {
           "path": "kernal-symbolize-x86_64-unknown-linux-gnu",
-          "sha256": "0167b299ab411baf06ec0ad069815c9966f7b1ded20333b184362d1dccd11953"
+          "sha256": "0890d12deb450dc2e166136656b268fac3bf433efdbd7b0e50e75e6949568ddd"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.37/kernal-symbolize-aarch64-unknown-linux-gnu",
-      "sha256": "baba5a32b34d85bc0a125cf78d2860a8b4cac76299303016b4e780a0f14ef146",
-      "size": 3809504,
+      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.38/kernal-symbolize-aarch64-unknown-linux-gnu",
+      "sha256": "3aec4c229ab3052218908c2bf98ef9bfad80ef56e54cab12cad8ba8cf37fd031",
+      "size": 3809584,
       "format": "binary",
-      "releaseTag": "v0.1.37",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "kernal-symbolize": {
           "path": "kernal-symbolize-aarch64-unknown-linux-gnu",
-          "sha256": "baba5a32b34d85bc0a125cf78d2860a8b4cac76299303016b4e780a0f14ef146"
+          "sha256": "3aec4c229ab3052218908c2bf98ef9bfad80ef56e54cab12cad8ba8cf37fd031"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.37/kernal-symbolize-x86_64-apple-darwin",
-      "sha256": "e0b7604f60db536aff89e8811bbc0a73fe669c307fec942af415682e3c58c0f1",
-      "size": 3587704,
+      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.38/kernal-symbolize-x86_64-apple-darwin",
+      "sha256": "8440cb004de829e35d40bd4319b0b86312337cbc8fa42d73d10934fdd05ed3f5",
+      "size": 3587744,
       "format": "binary",
-      "releaseTag": "v0.1.37",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "kernal-symbolize": {
           "path": "kernal-symbolize-x86_64-apple-darwin",
-          "sha256": "e0b7604f60db536aff89e8811bbc0a73fe669c307fec942af415682e3c58c0f1"
+          "sha256": "8440cb004de829e35d40bd4319b0b86312337cbc8fa42d73d10934fdd05ed3f5"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.37/kernal-symbolize-aarch64-apple-darwin",
-      "sha256": "3eded29ac1b6dfe5b6f3e774202819cf5aa56124210c86552b2360617406ffb3",
+      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.38/kernal-symbolize-aarch64-apple-darwin",
+      "sha256": "98a61910746eafcb973de75990109b008edb8a669149d2f02f764883475e7227",
       "size": 3396848,
       "format": "binary",
-      "releaseTag": "v0.1.37",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "kernal-symbolize": {
           "path": "kernal-symbolize-aarch64-apple-darwin",
-          "sha256": "3eded29ac1b6dfe5b6f3e774202819cf5aa56124210c86552b2360617406ffb3"
+          "sha256": "98a61910746eafcb973de75990109b008edb8a669149d2f02f764883475e7227"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.37/kernal-symbolize-x86_64-pc-windows-msvc.exe",
-      "sha256": "2c3cc41a30eb9f7ed73c94c536f53130ad597169b83f6929a541e4665ac45c51",
+      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.38/kernal-symbolize-x86_64-pc-windows-msvc.exe",
+      "sha256": "f4c3fdf9683491b034521a4d3139dcbe62748ca5e1a5747e433fd4c7c3079b63",
       "size": 2754560,
       "format": "binary",
-      "releaseTag": "v0.1.37",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "kernal-symbolize.exe": {
           "path": "kernal-symbolize-x86_64-pc-windows-msvc.exe",
-          "sha256": "2c3cc41a30eb9f7ed73c94c536f53130ad597169b83f6929a541e4665ac45c51"
+          "sha256": "f4c3fdf9683491b034521a4d3139dcbe62748ca5e1a5747e433fd4c7c3079b63"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.37/kernal-symbolize-aarch64-pc-windows-msvc.exe",
-      "sha256": "afbd43f967ae631cab841d6f2bf524431d37e4341b7a5690097bbb8af48fa5ab",
+      "url": "https://github.com/forge-ci/kernal-api/releases/download/v0.1.38/kernal-symbolize-aarch64-pc-windows-msvc.exe",
+      "sha256": "3a6d268e4baf41df65d53f1fa650dbdcbbfb90082c4779b6a7aed6aee2c7eb36",
       "size": 2308608,
       "format": "binary",
-      "releaseTag": "v0.1.37",
+      "releaseTag": "v0.1.38",
       "binaries": {
         "kernal-symbolize.exe": {
           "path": "kernal-symbolize-aarch64-pc-windows-msvc.exe",
-          "sha256": "afbd43f967ae631cab841d6f2bf524431d37e4341b7a5690097bbb8af48fa5ab"
+          "sha256": "3a6d268e4baf41df65d53f1fa650dbdcbbfb90082c4779b6a7aed6aee2c7eb36"
         }
       }
     }
