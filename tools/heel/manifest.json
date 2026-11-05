@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "heel",
+  "version": "0.8.0",
+  "repository": "May-Agent/heel",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/May-Agent/heel/releases/download/heel-v0.8.0/heel-x86_64-unknown-linux-gnu",
+      "sha256": "c883417f7ec6af111976c4cda3f4cb85545ef286cbc73a2a3155516924ef4c79",
+      "size": 4184992,
+      "format": "binary",
+      "releaseTag": "heel-v0.8.0",
+      "binaries": {
+        "heel": {
+          "path": "heel-x86_64-unknown-linux-gnu",
+          "sha256": "c883417f7ec6af111976c4cda3f4cb85545ef286cbc73a2a3155516924ef4c79"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/May-Agent/heel/releases/download/heel-v0.8.0/heel-aarch64-unknown-linux-gnu",
+      "sha256": "30f0aedec91bcbd978078cc95cbad14057babe72d736eed8cb4bc0acdf33e042",
+      "size": 3679584,
+      "format": "binary",
+      "releaseTag": "heel-v0.8.0",
+      "binaries": {
+        "heel": {
+          "path": "heel-aarch64-unknown-linux-gnu",
+          "sha256": "30f0aedec91bcbd978078cc95cbad14057babe72d736eed8cb4bc0acdf33e042"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/May-Agent/heel/releases/download/heel-v0.8.0/heel-aarch64-apple-darwin",
+      "sha256": "9e539707447fb863ab36d875ffc50ac90096bbd065c5f215fe06c3ac6dd4532d",
+      "size": 3288928,
+      "format": "binary",
+      "releaseTag": "heel-v0.8.0",
+      "binaries": {
+        "heel": {
+          "path": "heel-aarch64-apple-darwin",
+          "sha256": "9e539707447fb863ab36d875ffc50ac90096bbd065c5f215fe06c3ac6dd4532d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/May-Agent/heel/releases/download/heel-v0.8.0/heel-x86_64-pc-windows-msvc.exe",
+      "sha256": "12d10dc216ca0b7037d4ab6205b87d82fc74bbee745a20d135709ba8b1d72403",
+      "size": 4733952,
+      "format": "binary",
+      "releaseTag": "heel-v0.8.0",
+      "binaries": {
+        "heel.exe": {
+          "path": "heel-x86_64-pc-windows-msvc.exe",
+          "sha256": "12d10dc216ca0b7037d4ab6205b87d82fc74bbee745a20d135709ba8b1d72403"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/May-Agent/heel/releases/download/heel-v0.8.0/heel-aarch64-pc-windows-msvc.exe",
+      "sha256": "96bf7028941f925ebaa35544594e54c9f3e7686d304029e3b13252dffc8eee9b",
+      "size": 3968000,
+      "format": "binary",
+      "releaseTag": "heel-v0.8.0",
+      "binaries": {
+        "heel.exe": {
+          "path": "heel-aarch64-pc-windows-msvc.exe",
+          "sha256": "96bf7028941f925ebaa35544594e54c9f3e7686d304029e3b13252dffc8eee9b"
+        }
+      }
+    }
+  }
+}
