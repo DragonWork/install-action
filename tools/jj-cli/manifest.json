@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "jj-cli",
-  "version": "0.46.0",
+  "version": "0.47.1",
   "repository": "jj-vcs/jj",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/jj-vcs/jj/releases/download/v0.46.0/jj-v0.46.0-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "fce0271158e665ceb82dc66c5eb95b1728649094e9133074f3b5baece345fc08",
-      "size": 11110358,
+      "url": "https://github.com/jj-vcs/jj/releases/download/v0.47.1/jj-v0.47.1-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "d4b657f622ee50929c8916466dfa3d6a6c17a0a32b50e7b2c793707ec9ebcad7",
+      "size": 11743512,
       "format": "tar.gz",
-      "releaseTag": "v0.46.0",
+      "releaseTag": "v0.47.1",
       "binaries": {
         "jj": {
           "path": "./jj",
-          "sha256": "dbf80e7290f00005908aaa9aa576fd1906156049af0fba94d2dec48ff4193534"
+          "sha256": "0ab65f3c0de21978a18dfd97970cf2ffa9cf8f4de8f7cdf364c0eb6e3b29cdfc"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/jj-vcs/jj/releases/download/v0.46.0/jj-v0.46.0-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "80e28f7501c11e50e0ca06cd6a1fa1d982cff9cc59bfe4411a9d36aa501d867e",
-      "size": 10396522,
+      "url": "https://github.com/jj-vcs/jj/releases/download/v0.47.1/jj-v0.47.1-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "0f300e1576de8dabe0a9dedf0b87ae44f8accea5cf54d9a342a51061c1fb1bcd",
+      "size": 10989474,
       "format": "tar.gz",
-      "releaseTag": "v0.46.0",
+      "releaseTag": "v0.47.1",
       "binaries": {
         "jj": {
           "path": "./jj",
-          "sha256": "732011c0715ff6bbd4e1103c2cf595bc69de4c74fa86a110733a7a36ea1ef9e5"
+          "sha256": "2101c66ee20fdca505fa2c400af29f9d634e7ea656448c2c684c076261c129c6"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/jj-vcs/jj/releases/download/v0.46.0/jj-v0.46.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "10d941de276c7c5074ef5d395312813b4575f4ce92cb9c0b05738efb90bd3b60",
-      "size": 10721091,
+      "url": "https://github.com/jj-vcs/jj/releases/download/v0.47.1/jj-v0.47.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "ce7ac70c3b7cf90f2273b4fa62d24576727c5fd55c60dc3820221c05320c7589",
+      "size": 11326914,
       "format": "tar.gz",
-      "releaseTag": "v0.46.0",
+      "releaseTag": "v0.47.1",
       "binaries": {
         "jj": {
           "path": "./jj",
-          "sha256": "d8e2caf9190ac81d921862329bc66040ba67d31368dfbf96dbcafd1d88b32d26"
+          "sha256": "be800c928244aec326b19bc4e9161b94d25fdb2862df84e1ec6ea3c337a078c4"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/jj-vcs/jj/releases/download/v0.46.0/jj-v0.46.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "43daa37ce0f9716cdf6fb65a29cbcae74a3160aef048cf3cb3d166d41cb4ab58",
-      "size": 10074305,
+      "url": "https://github.com/jj-vcs/jj/releases/download/v0.47.1/jj-v0.47.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "50129b527f7cd6aef82aebd4bb2b670bb56766adc509ef3279c4327aa3592255",
+      "size": 10642035,
       "format": "tar.gz",
-      "releaseTag": "v0.46.0",
+      "releaseTag": "v0.47.1",
       "binaries": {
         "jj": {
           "path": "./jj",
-          "sha256": "fee2fd6a09f09b43b6cd501b75921b4234655801bb7636408a25796d3fb0e51a"
+          "sha256": "d39b0c80a65e8d6e3749841976d35e48995b6ea92c824acd45ee5fe54865c667"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/jj-vcs/jj/releases/download/v0.46.0/jj-v0.46.0-x86_64-pc-windows-msvc.zip",
-      "sha256": "c42316b10df04611bc65029a18bcb2d92636edddb6871d511f7bb4233e999b83",
-      "size": 10233241,
+      "url": "https://github.com/jj-vcs/jj/releases/download/v0.47.1/jj-v0.47.1-x86_64-pc-windows-msvc.zip",
+      "sha256": "72f9f80bc99d07a7f48d5f219cf5bab91f7e906e4b53f6c827948e646cd1152f",
+      "size": 10784418,
       "format": "zip",
-      "releaseTag": "v0.46.0",
+      "releaseTag": "v0.47.1",
       "binaries": {
         "jj.exe": {
           "path": "jj.exe",
-          "sha256": "53c6ee72346f477bc464e383d4df45f8d3862ad5a17fa5f4d8f4849bcf2d96cc"
+          "sha256": "ca6e3ea3498a548eef6e60304a88d632b8130fcddc12d187a2f1a54d7b97fc81"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/jj-vcs/jj/releases/download/v0.46.0/jj-v0.46.0-aarch64-pc-windows-msvc.zip",
-      "sha256": "f6f0552d0e292e3e62aa7fd21f4b15e9b6644d4939db908ed6d6b04b5b0a7907",
-      "size": 9472142,
+      "url": "https://github.com/jj-vcs/jj/releases/download/v0.47.1/jj-v0.47.1-aarch64-pc-windows-msvc.zip",
+      "sha256": "07f3cf6ed6db95f12be6c79c76aff948689375a9f201f521df4468d0a0c5de85",
+      "size": 9961945,
       "format": "zip",
-      "releaseTag": "v0.46.0",
+      "releaseTag": "v0.47.1",
       "binaries": {
         "jj.exe": {
           "path": "jj.exe",
-          "sha256": "faf6587e15db231922538a9b877144ca47673ce2118a114c57c7f3b4803ec8ba"
+          "sha256": "f29bdddcafeeee6960d1301d6b18d0591fae6170fddad1ee9af1bb811445060a"
         }
       }
     }
