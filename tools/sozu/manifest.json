@@ -1,32 +1,32 @@
 {
   "schema": 1,
   "name": "sozu",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "repository": "sozu-proxy/sozu",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.3/sozu-2.3.3-x86_64-unknown-linux-musl-crypto-ring.tar.gz",
-      "releaseTag": "2.3.3",
-      "sha256": "ddc0827a9c9ba580f2f6230f5692edcbcc4520a296cebbd61284dd7f287e8816",
-      "size": 7327403,
+      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.4/sozu-2.3.4-x86_64-unknown-linux-musl-crypto-ring.tar.gz",
+      "sha256": "c9de3a1b1cf5f6e66b13a1ea95d6fb9c0949f4175cb9edd15cb0705a8f99b485",
+      "size": 7328080,
       "format": "tar.gz",
+      "releaseTag": "2.3.4",
       "binaries": {
         "sozu": {
-          "path": "sozu-2.3.3-x86_64-unknown-linux-musl-crypto-ring/sozu",
-          "sha256": "042e088186f370f0e14af6941a20730f3ab9d8faa8050c6663f4de6d48c61e5d"
+          "path": "sozu-2.3.4-x86_64-unknown-linux-musl-crypto-ring/sozu",
+          "sha256": "8c601ec8b0f4eca4ecf1dadffff797bc53784cadb98f200ed06b8d906065ccfc"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.3/sozu-2.3.3-aarch64-unknown-linux-gnu-fips.tar.gz",
-      "releaseTag": "2.3.3",
-      "sha256": "74e196289fc955cca1d2aea7975b97ce98aff5d56111c5d0959d0958c865a9c6",
-      "size": 7303616,
+      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.4/sozu-2.3.4-aarch64-unknown-linux-gnu-fips.tar.gz",
+      "sha256": "ca1fb6feca2fa205abb82fb2234a3ebef49fc8c94488a05fb32c5726c9ab4194",
+      "size": 7340037,
       "format": "tar.gz",
+      "releaseTag": "2.3.4",
       "binaries": {
         "sozu": {
-          "path": "sozu-2.3.3-aarch64-unknown-linux-gnu-fips/sozu",
-          "sha256": "09a8a2645432b8cdc752f223b1bdf7ec716a684d0a20cc655391e12b3a12e168"
+          "path": "sozu-2.3.4-aarch64-unknown-linux-gnu-fips/sozu",
+          "sha256": "3f10c08bc5ffbdf4c2562b2d4f9b3043312b1667594486f0eba9aef5df2468bc"
         }
       }
     }
