@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "veryl",
-  "version": "0.22.0",
+  "version": "0.22.1",
   "repository": "veryl-lang/veryl",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.0/veryl-x86_64-linux.zip",
-      "releaseTag": "v0.22.0",
-      "sha256": "5a955bd395a09e8a611d70d7e6850ed930fa268e83b6a89238ad2670f616016a",
-      "size": 39036430,
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.1/veryl-x86_64-linux.zip",
+      "sha256": "33bcb567403fb32beadb0aa169c52789c2e47844eecc8bec1964bc21c7bd557b",
+      "size": 40588001,
       "format": "zip",
+      "releaseTag": "v0.22.1",
       "binaries": {
         "veryl": {
           "path": "veryl",
-          "sha256": "aa57dd31488410769ee61c367f03de6cbf11101be47b510b99bde4ac9155b4c1"
+          "sha256": "cb7977f4c54d1af582a179463579c9cddd636e766d39747c1cf4b081988d0f6f"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.0/veryl-aarch64-linux.zip",
-      "releaseTag": "v0.22.0",
-      "sha256": "237388c07e3d0fa9a80907393cadcfbf23b088f05108cb993c7db5bd1b6444d9",
-      "size": 36275378,
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.1/veryl-aarch64-linux.zip",
+      "sha256": "d70ca45341147e0982249f47ac192204089d97be5d82ee23ca388c69d70d4bc7",
+      "size": 37696194,
       "format": "zip",
+      "releaseTag": "v0.22.1",
       "binaries": {
         "veryl": {
           "path": "veryl",
-          "sha256": "dc3aadee4d7aa83e20239f014df18d8a936fe401e0c535cecae30dbc8ad5555d"
+          "sha256": "daf0e1b76460eab77034e010edb5c52c8a52f7338b1a603032f43ac617d88043"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.1/veryl-x86_64-mac.zip",
+      "sha256": "6701cfcfc60ec32b6b0377b54f583323b6578136f1e1713710676cdf548f868a",
+      "size": 39769589,
+      "format": "zip",
+      "releaseTag": "v0.22.1",
+      "binaries": {
+        "veryl": {
+          "path": "veryl",
+          "sha256": "099f55018b863f47841339ed02c9f42c4aa24b997d0b4c3934f3ec4ac0374ecb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.1/veryl-aarch64-mac.zip",
+      "sha256": "3b9a5d07a66041b4c11f75962a6f4c4e7ff1f816daf494432ffdb68906ae33b9",
+      "size": 36387292,
+      "format": "zip",
+      "releaseTag": "v0.22.1",
+      "binaries": {
+        "veryl": {
+          "path": "veryl",
+          "sha256": "375b2af33c96faf4f53e1b436ba9fa03a928c7494ba0fa2fd75ab66c888aabfe"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.0/veryl-x86_64-windows.zip",
-      "releaseTag": "v0.22.0",
-      "sha256": "f3f47183fb2c203c7845f2c0d4aa752a7fdbd19e99f6b0618a8c85c6197b8beb",
-      "size": 36542765,
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.1/veryl-x86_64-windows.zip",
+      "sha256": "c818c6bd31da4410d9279af60fd7d438ca6ab09487e8265d92a19576037c22a4",
+      "size": 38105622,
       "format": "zip",
+      "releaseTag": "v0.22.1",
       "binaries": {
         "veryl.exe": {
           "path": "veryl.exe",
-          "sha256": "d9bd15a9c749758676081f452297934d896b842587d9e6d33ffefca7ce93f5d2"
+          "sha256": "130d26605388b8f7a4cd0091d6ee0256befc5ff25e3168946196880c9847d237"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.0/veryl-aarch64-windows.zip",
-      "releaseTag": "v0.22.0",
-      "sha256": "f35a2720687fea09f6a4aa9b4942dc04236bbd607b81d7f62ea52d9a6ac2eb08",
-      "size": 33736190,
+      "url": "https://github.com/veryl-lang/veryl/releases/download/v0.22.1/veryl-aarch64-windows.zip",
+      "sha256": "d8e1455082a7595c5f818cbfb49e2346cea60602bc6af0f5586194924356c6ff",
+      "size": 35144032,
       "format": "zip",
+      "releaseTag": "v0.22.1",
       "binaries": {
         "veryl.exe": {
           "path": "veryl.exe",
-          "sha256": "0570041c805be680bb72c728054b6556e51e170cf4a0da600fa3b01be6ac1c48"
+          "sha256": "771d5c7be2cb8829b4ff9010e3e952180009976f0359e653b43bf0ae4643a101"
         }
       }
     }
