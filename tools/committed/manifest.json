@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "committed",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "repository": "crate-ci/committed",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "9a860b0a557bc842df663ce923213ff36f077ae2783f8db3123738823279387f",
+      "size": 6128875,
+      "format": "tar.gz",
+      "releaseTag": "v1.1.12",
+      "binaries": {
+        "committed": {
+          "path": "./committed",
+          "sha256": "779f222b26a70375e5413db8ef6641145733c679b8c56baf2a91ec16f711099f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "2077f9fa0157f3e0bfa7273327aa26c793d05b16620e046e499a982dd6fd2e7c",
+      "size": 5975181,
+      "format": "tar.gz",
+      "releaseTag": "v1.1.12",
+      "binaries": {
+        "committed": {
+          "path": "./committed",
+          "sha256": "ea31260d5355ac56066110aac22d2d83e7c645b3f78ceb2720daefd97b3b425b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-x86_64-apple-darwin.tar.gz",
+      "sha256": "070776b773e5fedeb8bd8c2e53d369357b1900fc11ce66f78b4dcf11dfc63fe3",
+      "size": 1531353,
+      "format": "tar.gz",
+      "releaseTag": "v1.1.12",
+      "binaries": {
+        "committed": {
+          "path": "./committed",
+          "sha256": "d0cfc59e5a93a5fe186013d159adbdb2c9b9bae72f091118a95676d6113ebb01"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-aarch64-apple-darwin.tar.gz",
+      "sha256": "293c1825e3dcb9f73e92a1d1cf75b20c9c071cb531ec0eace51cc4deec767867",
+      "size": 1418707,
+      "format": "tar.gz",
+      "releaseTag": "v1.1.12",
+      "binaries": {
+        "committed": {
+          "path": "./committed",
+          "sha256": "41d0b66c257fd4961eddf6418a7c51c8026ffcfd3d5b0aa351d8220a8151a671"
+        }
+      }
+    },
     "win32-x64": {
-      "url": "https://github.com/crate-ci/committed/releases/download/v1.1.11/committed-v1.1.11-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v1.1.11",
-      "sha256": "af4f5a65320471751ed1dfbb5502f15f4857cea797b077c6049acb2b995d293b",
-      "size": 1549144,
+      "url": "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-x86_64-pc-windows-msvc.zip",
+      "sha256": "9d8608d3622037f19c784bc907903d840c52c1d5e1e4f16daef8653d8a8894b6",
+      "size": 1617499,
       "format": "zip",
+      "releaseTag": "v1.1.12",
       "binaries": {
         "committed.exe": {
           "path": "committed.exe",
-          "sha256": "2d0f10821d868e789da67fd0d729544e2a96d15d32450feaf87b3fa47f63bb8e"
+          "sha256": "27bbad57bdb5b2ac8354c671d69e7c2cbd19ce62b7e7e0d228495387f2b1cb41"
         }
       }
     }
