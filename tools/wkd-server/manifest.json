@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "name": "wkd-server",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "repository": "martin-fink/rust-wkd-server",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/martin-fink/rust-wkd-server/releases/download/v2.0.1/wkd-server-x86_64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v2.0.1",
-      "sha256": "c98293735971bbcfb7a028fc788e44e3d4470736f2414e2332c7d712ef019c9f",
-      "size": 2070212,
+      "url": "https://github.com/martin-fink/rust-wkd-server/releases/download/v2.1.0/wkd-server-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "a7ffea3b751ac577776cc6d0e323f792d225c92eb115ce1696bfb40adb6aa831",
+      "size": 2101604,
       "format": "tar.xz",
+      "releaseTag": "v2.1.0",
       "binaries": {
         "wkd-server": {
           "path": "wkd-server-x86_64-unknown-linux-gnu/wkd-server",
-          "sha256": "38163f66f1f6ee4bfcf207f44d04d841e7349255134baf036ebc1f20b1b1aa2a"
+          "sha256": "b045ce8c1ec84e857e5abc772dd38fe05845be27e5aa2dc3329a64e1f491e15a"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/martin-fink/rust-wkd-server/releases/download/v2.0.1/wkd-server-aarch64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v2.0.1",
-      "sha256": "1be48092a3fc76ca20b6bc1a7800e099ee0f3cad01361c5243576cd133a144f9",
-      "size": 1877452,
+      "url": "https://github.com/martin-fink/rust-wkd-server/releases/download/v2.1.0/wkd-server-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "90fc98b2fabaf9193838550c0776da20f40df3133d14be2805b1ee0fe7d8fd52",
+      "size": 1926724,
       "format": "tar.xz",
+      "releaseTag": "v2.1.0",
       "binaries": {
         "wkd-server": {
           "path": "wkd-server-aarch64-unknown-linux-gnu/wkd-server",
-          "sha256": "32905507dc0be0d92909116e2f9e16d4db7ced68e9c62657436ead51add4006e"
+          "sha256": "00ba4b292c5b240b354f87863779f7badd0856c0dcd0d3785f02bce3ae059551"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/martin-fink/rust-wkd-server/releases/download/v2.0.1/wkd-server-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v2.0.1",
-      "sha256": "aa71296f78be2c17c65c60c967d99d6d53c0d2ddc7dc93ff4464f2a7f2da557c",
-      "size": 1711028,
+      "url": "https://github.com/martin-fink/rust-wkd-server/releases/download/v2.1.0/wkd-server-aarch64-apple-darwin.tar.xz",
+      "sha256": "c1c731c4448306909dec87913b8365af2849a8bae9ab4dc12f6ffc37f62ba3c6",
+      "size": 1737984,
       "format": "tar.xz",
+      "releaseTag": "v2.1.0",
       "binaries": {
         "wkd-server": {
           "path": "wkd-server-aarch64-apple-darwin/wkd-server",
-          "sha256": "b70c7a6bba88cdc866d4d7f67580b0f6aa355013d6dd1596031d61a958141f05"
+          "sha256": "4a21d47250598e47331e9cd7243dd34d8cc9748eee8395712daf94a998002a1b"
         }
       }
     }
