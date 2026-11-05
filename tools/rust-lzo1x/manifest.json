@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "rust-lzo1x",
+  "version": "0.4.0",
+  "repository": "antimatter-studios/rust-lzo1x",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/antimatter-studios/rust-lzo1x/releases/download/v0.4.0/rust-lzo1x-0.4.0-linux-x86_64.tar.gz",
+      "sha256": "a3523a535d9b9bd57176c2ea0a43cf389cea493abac2e6c1684d2894a103cdeb",
+      "size": 602701,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "rust-lzo1x": {
+          "path": "bin/rust-lzo1x",
+          "sha256": "875f34ff3b5e5e49dfde5feae56a695c2b07802ca19423a1a8fc1c19186ceb57"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/antimatter-studios/rust-lzo1x/releases/download/v0.4.0/rust-lzo1x-0.4.0-darwin-arm64.tar.gz",
+      "sha256": "a05d16800a474534165e8136dfe4e86887647b15a6287c4cd68b3db2507c02da",
+      "size": 540059,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "rust-lzo1x": {
+          "path": "bin/rust-lzo1x",
+          "sha256": "a5847fff753bdef7d023e7aea88e122ae02d721a808659a5fbc091f26d505363"
+        }
+      }
+    }
+  }
+}
