@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "mitts",
+  "version": "0.3.28",
+  "repository": "alex09x/mitts",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/alex09x/mitts/releases/download/v0.3.28/mitts-v0.3.28-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "adf1305a56b35ebffd08b830f6fd166f1feab2bfadde4d8ec31bd141611840fc",
+      "size": 4019014,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.28",
+      "binaries": {
+        "mitts": {
+          "path": "mitts",
+          "sha256": "4a31d0805cffbedb2b59721f8107711fa61503a4a73c7b347cd8fea5f4252ff5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/alex09x/mitts/releases/download/v0.3.28/mitts-v0.3.28-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "7bc867c09e519a5ce52e52772271eeedda4553f128a05810bd9b302518eef9d6",
+      "size": 3880442,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.28",
+      "binaries": {
+        "mitts": {
+          "path": "mitts",
+          "sha256": "37e500cc143fe9cfc3a8b265d88492a1f1dcfdb5c321ff575d6d7acb4cb05583"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/alex09x/mitts/releases/download/v0.3.28/mitts-v0.3.28-aarch64-apple-darwin.tar.gz",
+      "sha256": "d038d077e817d08f54aa5cfbd2fae7c43861d9d66eedaeb4b4a557a398a2e147",
+      "size": 3582702,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.28",
+      "binaries": {
+        "mitts": {
+          "path": "mitts",
+          "sha256": "d7119b91d0f9b199509d6540fe2e329c2abe5429c42cc903df0020140b5d31c6"
+        }
+      }
+    }
+  }
+}
