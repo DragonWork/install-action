@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "narrowlink-agent",
-  "version": "0.2.6",
+  "version": "0.2.8",
   "repository": "narrowlink/narrowlink",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-agent-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "0.2.6",
-      "sha256": "9b5072a86d6b6e97672d5f4cad86b5b99280a24c1179c03caa5e97582eebfad3",
-      "size": 2359296,
+    "linux-x64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-agent-x86_64-unknown-linux-musl",
+      "sha256": "e5aceaf581909b40c6fa7b453531f37674dc5e8d2c45ce1db3b24a4eaca7e13a",
+      "size": 2886640,
       "format": "binary",
+      "releaseTag": "0.2.8",
+      "binaries": {
+        "narrowlink-agent": {
+          "path": "narrowlink-agent-x86_64-unknown-linux-musl",
+          "sha256": "e5aceaf581909b40c6fa7b453531f37674dc5e8d2c45ce1db3b24a4eaca7e13a"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-agent-aarch64-unknown-linux-musl",
+      "sha256": "c45b6fbcee9c3064fc3a144209aa61a5030dc23702373a90902b0c858714c2b3",
+      "size": 2369936,
+      "format": "binary",
+      "releaseTag": "0.2.8",
+      "binaries": {
+        "narrowlink-agent": {
+          "path": "narrowlink-agent-aarch64-unknown-linux-musl",
+          "sha256": "c45b6fbcee9c3064fc3a144209aa61a5030dc23702373a90902b0c858714c2b3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-agent-x86_64-apple-darwin",
+      "sha256": "f98214541d87a80a2f81a88ba25bc5eb66b2d044dda5efb3dea6bfcd35cd23f3",
+      "size": 2204088,
+      "format": "binary",
+      "releaseTag": "0.2.8",
+      "binaries": {
+        "narrowlink-agent": {
+          "path": "narrowlink-agent-x86_64-apple-darwin",
+          "sha256": "f98214541d87a80a2f81a88ba25bc5eb66b2d044dda5efb3dea6bfcd35cd23f3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-agent-aarch64-apple-darwin",
+      "sha256": "9b2d68f2fd84327f344bdcb71b184e9f4ca4a7349ca830c324a57492bf904949",
+      "size": 1876112,
+      "format": "binary",
+      "releaseTag": "0.2.8",
+      "binaries": {
+        "narrowlink-agent": {
+          "path": "narrowlink-agent-aarch64-apple-darwin",
+          "sha256": "9b2d68f2fd84327f344bdcb71b184e9f4ca4a7349ca830c324a57492bf904949"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-agent-x86_64-pc-windows-msvc.exe",
+      "sha256": "5ccad34aadfeaf845b1e48308cfd6beae75d60fd9ec25ce87efac7ea6f399503",
+      "size": 2251264,
+      "format": "binary",
+      "releaseTag": "0.2.8",
       "binaries": {
         "narrowlink-agent.exe": {
           "path": "narrowlink-agent-x86_64-pc-windows-msvc.exe",
-          "sha256": "9b5072a86d6b6e97672d5f4cad86b5b99280a24c1179c03caa5e97582eebfad3"
+          "sha256": "5ccad34aadfeaf845b1e48308cfd6beae75d60fd9ec25ce87efac7ea6f399503"
         }
       }
     }
