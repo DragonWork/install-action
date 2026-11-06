@@ -1,58 +1,58 @@
 {
   "schema": 1,
   "name": "oura",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "repository": "txpipe/oura",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/txpipe/oura/releases/download/v2.2.1/oura-x86_64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v2.2.1",
-      "sha256": "8ce5a84dcb1669b7c86d4858295d52b185ab99ed999477e123bb41e7a32fb78c",
-      "size": 10944220,
+      "url": "https://github.com/txpipe/oura/releases/download/v2.3.0/oura-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "926f2bc383b3ec2bff17d97aa82b6739d2ebc5d893025cf6a192604d3191537e",
+      "size": 10958996,
       "format": "tar.xz",
+      "releaseTag": "v2.3.0",
       "binaries": {
         "oura": {
           "path": "oura-x86_64-unknown-linux-gnu/oura",
-          "sha256": "c626c814615fd75be1699c5e9e0992756bc3af71938d7866eab6c276230327c7"
+          "sha256": "e6d60e632d9eefe62b6e946fb322b6b37880f2145504580b299291715169c515"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/txpipe/oura/releases/download/v2.2.1/oura-aarch64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v2.2.1",
-      "sha256": "6c18511f604ca1894663962cc658516cf9d2ce5819597419bd31888bcaa4ac67",
-      "size": 10096296,
+      "url": "https://github.com/txpipe/oura/releases/download/v2.3.0/oura-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "8f9cc05777f6d0328a1e204ac8674dfb4c16916b92be515fc85d65a09a8bfa0e",
+      "size": 10119496,
       "format": "tar.xz",
+      "releaseTag": "v2.3.0",
       "binaries": {
         "oura": {
           "path": "oura-aarch64-unknown-linux-gnu/oura",
-          "sha256": "65f4ec895d2c79436adeda5b21964a62829f0fb2dfc273b06544c9cf6c9fc65c"
+          "sha256": "fcd9f780abf2f07a1917ed896fa1acfed7b854ef68a38d325a518898a646f189"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/txpipe/oura/releases/download/v2.2.1/oura-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v2.2.1",
-      "sha256": "7419168c509f409e90f84d35ba932772d6e4f2a01f330d49abf2865ec7c47b60",
-      "size": 9345356,
+      "url": "https://github.com/txpipe/oura/releases/download/v2.3.0/oura-aarch64-apple-darwin.tar.xz",
+      "sha256": "717b9af270f6ccfe0daed482cb110445e80dd4314aef093fd24d0eb6b4720bb5",
+      "size": 9372096,
       "format": "tar.xz",
+      "releaseTag": "v2.3.0",
       "binaries": {
         "oura": {
           "path": "oura-aarch64-apple-darwin/oura",
-          "sha256": "2eaa875ddc1767d9b36a42d1052a23fc8c06bd80f6142f73fb9f1f49e99478dc"
+          "sha256": "1e74980dc2707d2472dafe936f0e07f7cfd3975ca983903b0d77c380e63b56e4"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/txpipe/oura/releases/download/v2.2.1/oura-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v2.2.1",
-      "sha256": "9350956162c560c2602f10ab087799bf8befddbdd16111bf057fc332b16363eb",
-      "size": 15822208,
+      "url": "https://github.com/txpipe/oura/releases/download/v2.3.0/oura-x86_64-pc-windows-msvc.zip",
+      "sha256": "de272ce9927b7a06db52f867ead6655c8d7427dca121011bb92b00bf00bf1dbc",
+      "size": 15830027,
       "format": "zip",
+      "releaseTag": "v2.3.0",
       "binaries": {
         "oura.exe": {
           "path": "oura.exe",
-          "sha256": "4ace81dd6f2437b188204f87699687e73df41eccbaa62c96a89fd2c18d1f8628"
+          "sha256": "acef5443f9feb49aed52062e8876fe13148b525380de660d50c024b44249e250"
         }
       }
     }
