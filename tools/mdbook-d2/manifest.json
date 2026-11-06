@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "mdbook-d2",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "repository": "danieleades/mdbook-d2",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.9/mdbook-d2-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.3.9",
-      "sha256": "01a408b45108783d1e6e14bedbbdb478a122ead09babff248d39577edcdcdef0",
-      "size": 908673,
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.10/mdbook-d2-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "90b67c84cd8f7b4e034109a80370ae7a23fa806b78a04819d13fd9eb958fdfc7",
+      "size": 910477,
       "format": "tar.gz",
+      "releaseTag": "v0.3.10",
       "binaries": {
         "mdbook-d2": {
           "path": "mdbook-d2",
-          "sha256": "65b20ca532fc1b25d51628a6f9bf1be4502aca53931f06c978a40a6b5bd3490f"
+          "sha256": "29edf39c6eee5330196a5dccfa64102fb4bbd5bf18281d99ac5862232e178af4"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.9/mdbook-d2-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.3.9",
-      "sha256": "9bfc69c9684a14bd203cd43eef43722c48f62a8a9c84711fb94ce598c44ae8b3",
-      "size": 869568,
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.10/mdbook-d2-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "5b3d4893ff9ea23a77e5acfca73f010d799c7854dc185d44175861e0901bc62b",
+      "size": 872631,
       "format": "tar.gz",
+      "releaseTag": "v0.3.10",
       "binaries": {
         "mdbook-d2": {
           "path": "mdbook-d2",
-          "sha256": "3a894dbd763f5e974c1efad4ad0fc4be2306fe8e2041e45c453ce6ecd26b443c"
+          "sha256": "6072708171b9116c30fde434c8c4a2ecdce9c4e94d6766ce7750aa3ffec313cf"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.9/mdbook-d2-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.3.9",
-      "sha256": "d9db9991176984727298458d4890459d72d1c7f5c2636db95b2c1ee2694d6f81",
-      "size": 778809,
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.10/mdbook-d2-x86_64-apple-darwin.tar.gz",
+      "sha256": "dd4ef8b0e9760265ec3aeb57c43c9a6a19431205ae0348e40e3ab3d13b6029c2",
+      "size": 780169,
       "format": "tar.gz",
+      "releaseTag": "v0.3.10",
       "binaries": {
         "mdbook-d2": {
           "path": "mdbook-d2",
-          "sha256": "b82f5e60ad3567c81bdb99b8eed8761f17ea9db128267153d9a819296cc78bfb"
+          "sha256": "41139a98af07eacc4622a18d89befbc6bdae6f35c17bb4817cf59b8d3beada03"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.9/mdbook-d2-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.3.9",
-      "sha256": "cab1c82d61d68f20b2a3eedc1ee5c04253a2254864f73984100c7d3f277f6212",
-      "size": 758584,
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.10/mdbook-d2-aarch64-apple-darwin.tar.gz",
+      "sha256": "8a7e81864bded75e9f9506209e4a8b2a4b0a7a3c46be63f8c909ecc6c0045c45",
+      "size": 760319,
       "format": "tar.gz",
+      "releaseTag": "v0.3.10",
       "binaries": {
         "mdbook-d2": {
           "path": "mdbook-d2",
-          "sha256": "a18139db0fc19649609125b9520ecd0b97503a52170539cede6b4cdd4e5611a7"
+          "sha256": "99eb3e22ca1a2355bea29b00f6590f5e3ae4474af55811fa43669f9eab989b1f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.10/mdbook-d2-x86_64-pc-windows-msvc.zip",
+      "sha256": "3987677140a2ead8441fbe7d87556d3a95387dceb8802cca3f70ee4cde6cab86",
+      "size": 701617,
+      "format": "zip",
+      "releaseTag": "v0.3.10",
+      "binaries": {
+        "mdbook-d2.exe": {
+          "path": "mdbook-d2.exe",
+          "sha256": "c162df032abaed151520878977d4eba9fe6bc1d57a59cc4597ade3d0d906660f"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/danieleades/mdbook-d2/releases/download/v0.3.10/mdbook-d2-aarch64-pc-windows-msvc.zip",
+      "sha256": "43d672fc4dba1c9cbba879037c0d881400abc2dbbca62b8973a4c21141bb4a9f",
+      "size": 659384,
+      "format": "zip",
+      "releaseTag": "v0.3.10",
+      "binaries": {
+        "mdbook-d2.exe": {
+          "path": "mdbook-d2.exe",
+          "sha256": "57e2208507f389440d2fd1bf90b86f07838002e92da3a2d61c209d5b41d702d3"
         }
       }
     }
