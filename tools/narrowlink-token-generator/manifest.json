@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "narrowlink-token-generator",
-  "version": "0.2.6",
+  "version": "0.2.8",
   "repository": "narrowlink/narrowlink",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.6/narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "0.2.6",
-      "sha256": "2debcfb72de068c125d61ee5ec81a5701202b077c4cdd48cae647b03a00f7cb9",
-      "size": 811008,
+    "linux-x64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-token-generator-x86_64-unknown-linux-musl",
+      "sha256": "4925726ee30e5e57216c661ce6bf7e780b5881994a721780fe5530e1cc10e57f",
+      "size": 647840,
       "format": "binary",
+      "releaseTag": "0.2.8",
+      "binaries": {
+        "narrowlink-token-generator": {
+          "path": "narrowlink-token-generator-x86_64-unknown-linux-musl",
+          "sha256": "4925726ee30e5e57216c661ce6bf7e780b5881994a721780fe5530e1cc10e57f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-token-generator-aarch64-unknown-linux-musl",
+      "sha256": "a03cda6035f38dc5b3b64fac5b80fcc4ac1f85eb6a0c2a2a90f4df4b574fd309",
+      "size": 594016,
+      "format": "binary",
+      "releaseTag": "0.2.8",
+      "binaries": {
+        "narrowlink-token-generator": {
+          "path": "narrowlink-token-generator-aarch64-unknown-linux-musl",
+          "sha256": "a03cda6035f38dc5b3b64fac5b80fcc4ac1f85eb6a0c2a2a90f4df4b574fd309"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-token-generator-x86_64-apple-darwin",
+      "sha256": "c76ada0abd30a542174fa334eec082a3ec0e2b3f89c85cef25e8063108d88442",
+      "size": 502840,
+      "format": "binary",
+      "releaseTag": "0.2.8",
+      "binaries": {
+        "narrowlink-token-generator": {
+          "path": "narrowlink-token-generator-x86_64-apple-darwin",
+          "sha256": "c76ada0abd30a542174fa334eec082a3ec0e2b3f89c85cef25e8063108d88442"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-token-generator-aarch64-apple-darwin",
+      "sha256": "4d90e7caf151fec082d7571f161009d4797f0c0938d14f3b6e7af9fcbaf5ec57",
+      "size": 469728,
+      "format": "binary",
+      "releaseTag": "0.2.8",
+      "binaries": {
+        "narrowlink-token-generator": {
+          "path": "narrowlink-token-generator-aarch64-apple-darwin",
+          "sha256": "4d90e7caf151fec082d7571f161009d4797f0c0938d14f3b6e7af9fcbaf5ec57"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/narrowlink/narrowlink/releases/download/0.2.8/narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
+      "sha256": "b0bb377aad793e3b27bf5d5409b079b63f65cabbfe2b369cccab368640324a72",
+      "size": 460288,
+      "format": "binary",
+      "releaseTag": "0.2.8",
       "binaries": {
         "narrowlink-token-generator.exe": {
           "path": "narrowlink-token-generator-x86_64-pc-windows-msvc.exe",
-          "sha256": "2debcfb72de068c125d61ee5ec81a5701202b077c4cdd48cae647b03a00f7cb9"
+          "sha256": "b0bb377aad793e3b27bf5d5409b079b63f65cabbfe2b369cccab368640324a72"
         }
       }
     }
