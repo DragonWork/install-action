@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "csaf",
+  "version": "0.7.0",
+  "repository": "csaf-rs/csaf",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/csaf-rs/csaf/releases/download/v0.7.0/csaf-x86_64-unknown-linux-gnu-v0.7.0.zip",
+      "sha256": "e2597504ced5f9adc76e7dcaf3711647b8744d4934a59c1fd2e745915963ad2e",
+      "size": 6304405,
+      "format": "zip",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "csaf": {
+          "path": "csaf",
+          "sha256": "bbe264735dca658360605b92a4f6c96c7076714ab55d9b2140debcf0af060b42"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/csaf-rs/csaf/releases/download/v0.7.0/csaf-aarch64-unknown-linux-gnu-v0.7.0.zip",
+      "sha256": "2741bfb94f738c9b764ede74fdb5f26528517c2b671842e5ad0c6a10a0e361d8",
+      "size": 6236829,
+      "format": "zip",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "csaf": {
+          "path": "csaf",
+          "sha256": "9cdc9572bbd8594628e349ad6fad71dddbce0f9d1f5a97e6ccc423811e993b71"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/csaf-rs/csaf/releases/download/v0.7.0/csaf-x86_64-apple-darwin-v0.7.0.zip",
+      "sha256": "b671a85b5b9b24915ac544855dd3cf55c549206bb9d0f09a417e704de7d2b7f5",
+      "size": 5915794,
+      "format": "zip",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "csaf": {
+          "path": "csaf",
+          "sha256": "c32bd5a5c89ffef3ceed9a3befc44815f77480ee46615eaccee515705f76e97e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/csaf-rs/csaf/releases/download/v0.7.0/csaf-aarch64-apple-darwin-v0.7.0.zip",
+      "sha256": "ca185130f011d53ef1336f422afe909dad2f5c2419be0397f72a817262b3876d",
+      "size": 5726900,
+      "format": "zip",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "csaf": {
+          "path": "csaf",
+          "sha256": "6c20932312b97cde47a22712094947ba3e33dd62577c62bdcaa742374688788b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/csaf-rs/csaf/releases/download/v0.7.0/csaf-x86_64-pc-windows-msvc-v0.7.0.zip",
+      "sha256": "22d22d98fa4f174b069e0e2edf21b1f49ec9f4ae7d35fcd8c0cc9c98cbafaae8",
+      "size": 5706182,
+      "format": "zip",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "csaf.exe": {
+          "path": "csaf.exe",
+          "sha256": "2660a888687c6ff5f6ddc04369421cea5f6f74623ef6b8db39c0dfa48a323304"
+        }
+      }
+    }
+  }
+}
