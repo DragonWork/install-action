@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "bitcache",
+  "version": "0.0.5",
+  "repository": "artob/bitcache",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/artob/bitcache/releases/download/0.0.5/bitcache-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "f533780588b15487dec54ac2c501f8101961e52f949e2534a887cf1cc70a5112",
+      "size": 8245300,
+      "format": "tar.xz",
+      "releaseTag": "0.0.5",
+      "binaries": {
+        "bitcache": {
+          "path": "bitcache-x86_64-unknown-linux-gnu/bitcache",
+          "sha256": "400df1cdeec28f21fc75a04edff0a9a86b2fe4231e65e142c6fd33c191c22058"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/artob/bitcache/releases/download/0.0.5/bitcache-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "8b94ee121536c79d57dfdee3621055ea4ff807744299b9494e6fae320368511d",
+      "size": 7500308,
+      "format": "tar.xz",
+      "releaseTag": "0.0.5",
+      "binaries": {
+        "bitcache": {
+          "path": "bitcache-aarch64-unknown-linux-gnu/bitcache",
+          "sha256": "10633eab3c4f840e729789b453852cb3ca7f238f221604b404ba8ad2d4553ba6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/artob/bitcache/releases/download/0.0.5/bitcache-x86_64-apple-darwin.tar.xz",
+      "sha256": "c9cb57c88c46f8c6856e3204d370eff474beadc425bb7c4f5915d22c6d5d8a1d",
+      "size": 7813536,
+      "format": "tar.xz",
+      "releaseTag": "0.0.5",
+      "binaries": {
+        "bitcache": {
+          "path": "bitcache-x86_64-apple-darwin/bitcache",
+          "sha256": "a2d7b985d4fcf99fba4f4be6760527a37f981f6f81dae5d1109de98d63f8c76c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/artob/bitcache/releases/download/0.0.5/bitcache-aarch64-apple-darwin.tar.xz",
+      "sha256": "9293cf3e04133c70bcd4265dd02043f8724fb8a6bca0ac5896b4e89cd7e1f340",
+      "size": 7195920,
+      "format": "tar.xz",
+      "releaseTag": "0.0.5",
+      "binaries": {
+        "bitcache": {
+          "path": "bitcache-aarch64-apple-darwin/bitcache",
+          "sha256": "777cbfacbcf713279cfc3a6bf87e88f7b9762995df42d3d38d2a839b2987315b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/artob/bitcache/releases/download/0.0.5/bitcache-x86_64-pc-windows-msvc.zip",
+      "sha256": "107859283bb05babf02caa64b46ceaaae95c4d7eee055e420124aa81c5399d74",
+      "size": 12216596,
+      "format": "zip",
+      "releaseTag": "0.0.5",
+      "binaries": {
+        "bitcache.exe": {
+          "path": "bitcache.exe",
+          "sha256": "1981bdb93380ea2ea4ca31f6c33071b8b3879a5d733495488847becfd4a6e5e0"
+        }
+      }
+    }
+  }
+}
