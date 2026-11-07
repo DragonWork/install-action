@@ -1,32 +1,58 @@
 {
   "schema": 1,
   "name": "bgpkit-parser",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "repository": "bgpkit/bgpkit-parser",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/bgpkit/bgpkit-parser/releases/download/v0.23.0/bgpkit-parser-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.23.0",
-      "sha256": "88695a904fb4170e868d7cbac8f15d8549e9b80afbdd584822ccc3e7a005c46d",
-      "size": 4875941,
+      "url": "https://github.com/bgpkit/bgpkit-parser/releases/download/v0.24.0/bgpkit-parser-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "fec5e48fa4137556724f6f157daec77595d2a437dfb1689bff2c4bf54a92eb2f",
+      "size": 4877323,
       "format": "tar.gz",
+      "releaseTag": "v0.24.0",
       "binaries": {
         "bgpkit-parser": {
           "path": "bgpkit-parser",
-          "sha256": "12daa961281710b313cd05516910eecef23a25362782fc0d90e98731379f2d9c"
+          "sha256": "46f86ffbe9a41f2d8cf41eedc041a9d7f2ca45adfcad478b13108b7f31f7406e"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/bgpkit/bgpkit-parser/releases/download/v0.23.0/bgpkit-parser-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.23.0",
-      "sha256": "ae9481443c7249eb64ebe904312ffe99dcb21e1958d669cb3236f2c2882658a3",
-      "size": 4673871,
+      "url": "https://github.com/bgpkit/bgpkit-parser/releases/download/v0.24.0/bgpkit-parser-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "c301427b5ad282254a2ea353e4dbe6f54017729a46eabdf9e2f0c1d2a6d3c0e5",
+      "size": 4689148,
       "format": "tar.gz",
+      "releaseTag": "v0.24.0",
       "binaries": {
         "bgpkit-parser": {
           "path": "bgpkit-parser",
-          "sha256": "1ec4e4b31f2338bc01f8d47b3379980209cf6f555d9bd9279cfa6dac2d50e68f"
+          "sha256": "c9b177757f7eaa565fe8ccc15b1bf5e631b77ad7c25b89fb5a124f5b33d388e3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bgpkit/bgpkit-parser/releases/download/v0.24.0/bgpkit-parser-universal-apple-darwin.tar.gz",
+      "sha256": "433bf4de3cbad3b468320df2d517406714123643e441cd80a3eb74610d932c45",
+      "size": 8985919,
+      "format": "tar.gz",
+      "releaseTag": "v0.24.0",
+      "binaries": {
+        "bgpkit-parser": {
+          "path": "bgpkit-parser",
+          "sha256": "00532c5147a89dd3ab906bf37e36de6df79741c44d96688d697c3f2995d044db"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bgpkit/bgpkit-parser/releases/download/v0.24.0/bgpkit-parser-universal-apple-darwin.tar.gz",
+      "sha256": "433bf4de3cbad3b468320df2d517406714123643e441cd80a3eb74610d932c45",
+      "size": 8985919,
+      "format": "tar.gz",
+      "releaseTag": "v0.24.0",
+      "binaries": {
+        "bgpkit-parser": {
+          "path": "bgpkit-parser",
+          "sha256": "00532c5147a89dd3ab906bf37e36de6df79741c44d96688d697c3f2995d044db"
         }
       }
     }
