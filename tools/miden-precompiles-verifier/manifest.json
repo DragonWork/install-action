@@ -1,32 +1,32 @@
 {
   "schema": 1,
   "name": "miden-precompiles-verifier",
-  "version": "0.36.3",
+  "version": "0.36.4",
   "repository": "0xMiden/miden-vm",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/0xMiden/miden-vm/releases/download/v0.36.3/miden-vm-x86_64-unknown-linux-gnu",
-      "sha256": "b212b0124fa74a1e6c81ad15be9d1d8ed39b3238ebecf835e7689ed26c15d2cf",
-      "size": 30935880,
+      "url": "https://github.com/0xMiden/miden-vm/releases/download/v0.36.4/miden-vm-x86_64-unknown-linux-gnu",
+      "sha256": "ee0baf295e8d8a90d819ad336d32249041866baab4ebef7bcbf28a7814b7294e",
+      "size": 30937872,
       "format": "binary",
-      "releaseTag": "v0.36.3",
+      "releaseTag": "v0.36.4",
       "binaries": {
         "pvm-registry-regen": {
           "path": "miden-vm-x86_64-unknown-linux-gnu",
-          "sha256": "b212b0124fa74a1e6c81ad15be9d1d8ed39b3238ebecf835e7689ed26c15d2cf"
+          "sha256": "ee0baf295e8d8a90d819ad336d32249041866baab4ebef7bcbf28a7814b7294e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/0xMiden/miden-vm/releases/download/v0.36.3/miden-vm-aarch64-apple-darwin",
-      "sha256": "a575bf35df11d9de30ed274595bed8a9c72cdf646a5cabaf5846af95acec4e83",
-      "size": 31377024,
+      "url": "https://github.com/0xMiden/miden-vm/releases/download/v0.36.4/miden-vm-aarch64-apple-darwin",
+      "sha256": "5530fbea21fa154746bf076571a8d432177bfcb10c661e6e3481214b5769e932",
+      "size": 31376096,
       "format": "binary",
-      "releaseTag": "v0.36.3",
+      "releaseTag": "v0.36.4",
       "binaries": {
         "pvm-registry-regen": {
           "path": "miden-vm-aarch64-apple-darwin",
-          "sha256": "a575bf35df11d9de30ed274595bed8a9c72cdf646a5cabaf5846af95acec4e83"
+          "sha256": "5530fbea21fa154746bf076571a8d432177bfcb10c661e6e3481214b5769e932"
         }
       }
     }
