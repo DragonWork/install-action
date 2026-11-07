@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "riffdiff",
-  "version": "3.6.2",
+  "version": "3.7.0",
   "repository": "walles/riff",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/walles/riff/releases/download/3.6.2/riff-3.6.2-x86_64-windows.exe",
-      "releaseTag": "3.6.2",
-      "sha256": "04437749a12fa1b4e1f79cdd7594f59e554af52cd79c35316630f633533855b0",
-      "size": 8188581,
+    "linux-x64": {
+      "url": "https://github.com/walles/riff/releases/download/3.7.0/riff-3.7.0-x86_64-linux",
+      "sha256": "279068ceb813670eed79b30145207f6d96776cec6764282a53e7313c8e4d477e",
+      "size": 7439016,
       "format": "binary",
+      "releaseTag": "3.7.0",
+      "binaries": {
+        "riff": {
+          "path": "riff-3.7.0-x86_64-linux",
+          "sha256": "279068ceb813670eed79b30145207f6d96776cec6764282a53e7313c8e4d477e"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/walles/riff/releases/download/3.7.0/riff-3.7.0-aarch64-linux",
+      "sha256": "1acbe244b18a4d60b7ef5aafb5f8c538548817ab528c52bccabf27737e3698df",
+      "size": 7660416,
+      "format": "binary",
+      "releaseTag": "3.7.0",
+      "binaries": {
+        "riff": {
+          "path": "riff-3.7.0-aarch64-linux",
+          "sha256": "1acbe244b18a4d60b7ef5aafb5f8c538548817ab528c52bccabf27737e3698df"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/walles/riff/releases/download/3.7.0/riff-3.7.0-universal-macos",
+      "sha256": "1034a4087758185ba3c2e4f4829958db45e7464d85046da6fe8312727a9f5b9f",
+      "size": 3657512,
+      "format": "binary",
+      "releaseTag": "3.7.0",
+      "binaries": {
+        "riff": {
+          "path": "riff-3.7.0-universal-macos",
+          "sha256": "1034a4087758185ba3c2e4f4829958db45e7464d85046da6fe8312727a9f5b9f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/walles/riff/releases/download/3.7.0/riff-3.7.0-universal-macos",
+      "sha256": "1034a4087758185ba3c2e4f4829958db45e7464d85046da6fe8312727a9f5b9f",
+      "size": 3657512,
+      "format": "binary",
+      "releaseTag": "3.7.0",
+      "binaries": {
+        "riff": {
+          "path": "riff-3.7.0-universal-macos",
+          "sha256": "1034a4087758185ba3c2e4f4829958db45e7464d85046da6fe8312727a9f5b9f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/walles/riff/releases/download/3.7.0/riff-3.7.0-x86_64-windows.exe",
+      "sha256": "bb76a25818f54ecc6d43d060da238cdd1e5d081e98d5e8f469b434b60b9b9319",
+      "size": 8350427,
+      "format": "binary",
+      "releaseTag": "3.7.0",
       "binaries": {
         "riff.exe": {
-          "path": "riff-3.6.2-x86_64-windows.exe",
-          "sha256": "04437749a12fa1b4e1f79cdd7594f59e554af52cd79c35316630f633533855b0"
+          "path": "riff-3.7.0-x86_64-windows.exe",
+          "sha256": "bb76a25818f54ecc6d43d060da238cdd1e5d081e98d5e8f469b434b60b9b9319"
         }
       }
     }
