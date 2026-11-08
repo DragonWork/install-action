@@ -1,58 +1,71 @@
 {
   "schema": 1,
   "name": "chess-tui",
-  "version": "2.8.0",
+  "version": "2.8.1",
   "repository": "thomas-mauran/chess-tui",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.0/chess-tui-2.8.0-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "2.8.0",
-      "sha256": "239844d36725cf6606331a00c20230676f1f20cf724df1411ac97b0587faf438",
-      "size": 3194472,
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.1/chess-tui-2.8.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "d618b0f4ee7afe291db84eb7b567c635da0bc7462ef754b937bc60da9878436b",
+      "size": 2846817,
       "format": "tar.gz",
+      "releaseTag": "2.8.1",
       "binaries": {
         "chess-tui": {
           "path": "./chess-tui",
-          "sha256": "17c55157c8e37222cca75eebc02c1b0f585a2d70d8c40e377dcdadafd18406e6"
+          "sha256": "2f14af04835fcbc7036d6d8a9ee8af4487d443a859d1fa01fc9f50fc0707beeb"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.0/chess-tui-2.8.0-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "2.8.0",
-      "sha256": "9ba39c897ede6cd44d961a0dc31afa0583923abe8a122e32a78509e3c4b9f2e3",
-      "size": 3036484,
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.1/chess-tui-2.8.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "47c603c353eea1ff725bed8e6fe7588bdde72ce8aff7d24dee9030d1106182cc",
+      "size": 2692479,
       "format": "tar.gz",
+      "releaseTag": "2.8.1",
       "binaries": {
         "chess-tui": {
           "path": "./chess-tui",
-          "sha256": "b3af0b7cbe497b5a13548e74c30c57398ccbc400698386ad384a08c679791ac7"
+          "sha256": "8da2596e597624c31e905a139f309044cec5e68ffce99ec19a9033fcac120d4b"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.0/chess-tui-2.8.0-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "2.8.0",
-      "sha256": "2816c7486d8b00f4b0d20e5e5ad9ca057e8d1d04733d541296762be1f045df32",
-      "size": 3027255,
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.1/chess-tui-2.8.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "79ba88f59334bdaedeb07c2d077c71f9498f35cfb3db2b616119b655d2b88d43",
+      "size": 2677514,
       "format": "tar.gz",
+      "releaseTag": "2.8.1",
       "binaries": {
         "chess-tui": {
           "path": "./chess-tui",
-          "sha256": "1be8e28637e1fabc5d5b230ebe0b91c65fa11ab588f401907e8216cac79340f8"
+          "sha256": "cb6cd2c40233a89af13f5851875577374755422703d4d24a858e0b3fecb1424e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.0/chess-tui-2.8.0-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "2.8.0",
-      "sha256": "f199e818030e32e6c9f7f260d489839920abf7d0529cb920461e9c3bbe24d7ae",
-      "size": 2871070,
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.1/chess-tui-2.8.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "2595a4e297e00238e257704422fc1e05304265e5e03696b490bf85d1c35dea60",
+      "size": 2514516,
       "format": "tar.gz",
+      "releaseTag": "2.8.1",
       "binaries": {
         "chess-tui": {
           "path": "./chess-tui",
-          "sha256": "47deb205a3e33df766f8ff029d06dfb29b2f9ae313a0d09393f563cc6d7afbaa"
+          "sha256": "775403f0f5d28f7a4ed579e02d934a60baec53eed1b06085d5231b107c7bf540"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.1/chess-tui-2.8.1-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "a137eb4185261b59dd68b42192611408804b370cef82dc2e495c57906332087f",
+      "size": 2581808,
+      "format": "tar.gz",
+      "releaseTag": "2.8.1",
+      "binaries": {
+        "chess-tui.exe": {
+          "path": "./chess-tui",
+          "sha256": "49c2b0c9733ec9b8a041460fa04bffd0402e9d17059d8e13770f272f9f30c300"
         }
       }
     }
