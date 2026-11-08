@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "oneharness",
+  "version": "0.28.0",
+  "repository": "nickderobertis/oneharness",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nickderobertis/oneharness/releases/download/v0.28.0/oneharness-v0.28.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "735a18f5a680e102d8b9ac7f65fda9f4573191e00f4181a7a9e607fe95b8b564",
+      "size": 4219659,
+      "format": "tar.gz",
+      "releaseTag": "v0.28.0",
+      "binaries": {
+        "oneharness": {
+          "path": "oneharness",
+          "sha256": "68e9b2835dc9b28e7c6a96c69e9fd5c1c4cbf55dba23943498102613f3a321b0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nickderobertis/oneharness/releases/download/v0.28.0/oneharness-v0.28.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "594d9c025780bc04eaf15fbc81f8090171cb7d4a64abe5b63aeb529068fbb51c",
+      "size": 3874902,
+      "format": "tar.gz",
+      "releaseTag": "v0.28.0",
+      "binaries": {
+        "oneharness": {
+          "path": "oneharness",
+          "sha256": "650e5a3a05cb5007663368dd397851d55708d38da49ef386947a5a1349ef9f31"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nickderobertis/oneharness/releases/download/v0.28.0/oneharness-v0.28.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "1231e463b1e2f4122e04cc0c1caf9a0d524e7db33b6b89c67e9c78840dee3b59",
+      "size": 3819521,
+      "format": "tar.gz",
+      "releaseTag": "v0.28.0",
+      "binaries": {
+        "oneharness": {
+          "path": "oneharness",
+          "sha256": "fe603ac9732beabec60dfa930df20138c1399eed985af6671205712c947728df"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nickderobertis/oneharness/releases/download/v0.28.0/oneharness-v0.28.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "bd40ad6d4d685bfd56780253e2ff15a5f4f55b0c2133f92639e1d297728d1616",
+      "size": 3891778,
+      "format": "zip",
+      "releaseTag": "v0.28.0",
+      "binaries": {
+        "oneharness.exe": {
+          "path": "oneharness.exe",
+          "sha256": "7fb04f3bedbaa009ec29788e1018981c4b46ad838fcec7e77cfcf0735d71f573"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/nickderobertis/oneharness/releases/download/v0.28.0/oneharness-v0.28.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "1ff88c3354995db3b20a0f31a72d277cbbe8c82d0e09cd2aa95612f47c511bfe",
+      "size": 3646282,
+      "format": "zip",
+      "releaseTag": "v0.28.0",
+      "binaries": {
+        "oneharness.exe": {
+          "path": "oneharness.exe",
+          "sha256": "7dad5d9a9bcfc786a8990ddcd8f0549099c3d68de7d92ee0aada963103f3466c"
+        }
+      }
+    }
+  }
+}
