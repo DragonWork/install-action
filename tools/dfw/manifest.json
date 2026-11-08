@@ -1,19 +1,32 @@
 {
   "schema": 1,
   "name": "dfw",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "repository": "pitkley/dfw",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/pitkley/dfw/releases/download/1.3.0/dfw-x86_64-unknown-linux-musl",
-      "sha256": "75a4a2314b2ed9889ebee763d82c6b9060237df86f2c7249ca1f3c23a4ca65c4",
-      "size": 8728408,
+      "url": "https://github.com/pitkley/dfw/releases/download/1.3.2/dfw-x86_64-unknown-linux-musl",
+      "sha256": "f66dd0563c70b983377f9b37d5c8828df7afde427072802651529a77b7745b97",
+      "size": 6124400,
       "format": "binary",
-      "releaseTag": "1.3.0",
+      "releaseTag": "1.3.2",
       "binaries": {
         "dfw": {
           "path": "dfw-x86_64-unknown-linux-musl",
-          "sha256": "75a4a2314b2ed9889ebee763d82c6b9060237df86f2c7249ca1f3c23a4ca65c4"
+          "sha256": "f66dd0563c70b983377f9b37d5c8828df7afde427072802651529a77b7745b97"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/pitkley/dfw/releases/download/1.3.2/dfw-aarch64-unknown-linux-musl",
+      "sha256": "0a25b90c3dd05e5883198f57655bb40d84b3206fca49efcf990d1465b1015d14",
+      "size": 5757112,
+      "format": "binary",
+      "releaseTag": "1.3.2",
+      "binaries": {
+        "dfw": {
+          "path": "dfw-aarch64-unknown-linux-musl",
+          "sha256": "0a25b90c3dd05e5883198f57655bb40d84b3206fca49efcf990d1465b1015d14"
         }
       }
     }
