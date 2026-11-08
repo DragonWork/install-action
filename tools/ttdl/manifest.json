@@ -1,19 +1,32 @@
 {
   "schema": 1,
   "name": "ttdl",
-  "version": "6.2.2",
+  "version": "6.2.5",
   "repository": "VladimirMarkelov/ttdl",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/VladimirMarkelov/ttdl/releases/download/v6.2.2/ttdl_6.2.2_linux-x64-musl.tar.gz",
-      "releaseTag": "v6.2.2",
-      "sha256": "77c4c29c09ee6c0d23a0a06bb29aab140918a0949491067e53204823e3dd0661",
-      "size": 1656422,
+      "url": "https://github.com/VladimirMarkelov/ttdl/releases/download/v6.2.5/ttdl_6.2.5_linux-x64-musl.tar.gz",
+      "sha256": "198684c1a634a790ef5483e54eab2d34a53c3b357ed9a0cce5733619d59b5fee",
+      "size": 1688880,
       "format": "tar.gz",
+      "releaseTag": "v6.2.5",
       "binaries": {
         "ttdl": {
           "path": "ttdl",
-          "sha256": "0a2cf2f47ac1272462214caa1e52b1de8c9c3611044c2f42a3c2d381a91e471f"
+          "sha256": "542eb2de50c6f3a8eac20f8c763dfa5bd77202b97bfeaff0e1ed215081426fb4"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/VladimirMarkelov/ttdl/releases/download/v6.2.5/ttdl_6.2.5_win_x64.zip",
+      "sha256": "9081f1b051d4ee939540b8c2eba5384228a0e93c1d8b9332cee9e73c1cf89e67",
+      "size": 1500475,
+      "format": "zip",
+      "releaseTag": "v6.2.5",
+      "binaries": {
+        "ttdl.exe": {
+          "path": "ttdl.exe",
+          "sha256": "3c7226c55e43c2bb3971da52f3fb00210505de7357683474e7c073ac3c7139e5"
         }
       }
     }
