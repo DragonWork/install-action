@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "mostro-cli",
-  "version": "0.16.3",
+  "version": "0.17.0",
   "repository": "MostroP2P/mostro-cli",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/MostroP2P/mostro-cli/releases/download/v0.16.3/mostro-cli-x86_64-pc-windows-gnu.exe",
-      "releaseTag": "v0.16.3",
-      "sha256": "0bb498d617c98957e30338991f83783f63474d2180b3a58f99de390f03da3b78",
-      "size": 31816924,
+    "linux-x64": {
+      "url": "https://github.com/MostroP2P/mostro-cli/releases/download/v0.17.0/mostro-cli-x86_64-unknown-linux-musl",
+      "sha256": "b934df8c1c1949e6d55cba8807b48564d78bf7a0442f8d3814050a882e639ae4",
+      "size": 23574744,
       "format": "binary",
+      "releaseTag": "v0.17.0",
+      "binaries": {
+        "mostro-cli": {
+          "path": "mostro-cli-x86_64-unknown-linux-musl",
+          "sha256": "b934df8c1c1949e6d55cba8807b48564d78bf7a0442f8d3814050a882e639ae4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MostroP2P/mostro-cli/releases/download/v0.17.0/mostro-cli-aarch64-unknown-linux-musl",
+      "sha256": "f9f8f8ac2d59af8dadaadb588b7494cdb35e5826650c87e7ca3b4d09e62fed2c",
+      "size": 22677520,
+      "format": "binary",
+      "releaseTag": "v0.17.0",
+      "binaries": {
+        "mostro-cli": {
+          "path": "mostro-cli-aarch64-unknown-linux-musl",
+          "sha256": "f9f8f8ac2d59af8dadaadb588b7494cdb35e5826650c87e7ca3b4d09e62fed2c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MostroP2P/mostro-cli/releases/download/v0.17.0/mostro-cli-x86_64-apple-darwin",
+      "sha256": "4eac003fb9dd4bb13cd7f6fd0352d0b475f6846a1625b6ed383c79b31a65107c",
+      "size": 21589288,
+      "format": "binary",
+      "releaseTag": "v0.17.0",
+      "binaries": {
+        "mostro-cli": {
+          "path": "mostro-cli-x86_64-apple-darwin",
+          "sha256": "4eac003fb9dd4bb13cd7f6fd0352d0b475f6846a1625b6ed383c79b31a65107c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MostroP2P/mostro-cli/releases/download/v0.17.0/mostro-cli-aarch64-apple-darwin",
+      "sha256": "ab50e1488ec51f8872904ae590864321e1d4be7e2c584857bf10605d9d5a59fd",
+      "size": 20655728,
+      "format": "binary",
+      "releaseTag": "v0.17.0",
+      "binaries": {
+        "mostro-cli": {
+          "path": "mostro-cli-aarch64-apple-darwin",
+          "sha256": "ab50e1488ec51f8872904ae590864321e1d4be7e2c584857bf10605d9d5a59fd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/MostroP2P/mostro-cli/releases/download/v0.17.0/mostro-cli-x86_64-pc-windows-gnu.exe",
+      "sha256": "121398343dd19cbbfc8d9e520f9019fd9da6fc764f6a748f6da11b19d9a17161",
+      "size": 34415537,
+      "format": "binary",
+      "releaseTag": "v0.17.0",
       "binaries": {
         "mostro-cli.exe": {
           "path": "mostro-cli-x86_64-pc-windows-gnu.exe",
-          "sha256": "0bb498d617c98957e30338991f83783f63474d2180b3a58f99de390f03da3b78"
+          "sha256": "121398343dd19cbbfc8d9e520f9019fd9da6fc764f6a748f6da11b19d9a17161"
         }
       }
     }
