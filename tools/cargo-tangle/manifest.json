@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "cargo-tangle",
+  "version": "0.6.1",
+  "repository": "tangle-network/blueprint",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/tangle-network/blueprint/releases/download/cargo-tangle-v0.6.1/cargo-tangle-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "824a917ab1c566a880452c1d826cea6582ea786f4a71ee1b61b6107b2e561b07",
+      "size": 42527644,
+      "format": "tar.xz",
+      "releaseTag": "cargo-tangle-v0.6.1",
+      "binaries": {
+        "cargo-tangle": {
+          "path": "cargo-tangle-x86_64-unknown-linux-gnu/cargo-tangle",
+          "sha256": "5f0eeb958a6d72bca05b87b4f8ee58c4c9f396140873606cff6d4acbbd99d9cc"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/tangle-network/blueprint/releases/download/cargo-tangle-v0.6.1/cargo-tangle-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "3438f6d8752af5cc6b59fa8ae307375390dc62135ad02c2bfd0c2a7138cf3611",
+      "size": 40673884,
+      "format": "tar.xz",
+      "releaseTag": "cargo-tangle-v0.6.1",
+      "binaries": {
+        "cargo-tangle": {
+          "path": "cargo-tangle-aarch64-unknown-linux-gnu/cargo-tangle",
+          "sha256": "1e769a81c2cc75130befc341802bf243cddc0fd792991f9cae32f919aef5a68d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/tangle-network/blueprint/releases/download/cargo-tangle-v0.6.1/cargo-tangle-aarch64-apple-darwin.tar.xz",
+      "sha256": "747d9ff2d249374c688bca18408df9fbebd927205be02dbd771a783b624f73da",
+      "size": 17170540,
+      "format": "tar.xz",
+      "releaseTag": "cargo-tangle-v0.6.1",
+      "binaries": {
+        "cargo-tangle": {
+          "path": "cargo-tangle-aarch64-apple-darwin/cargo-tangle",
+          "sha256": "91899a0730803d8359b6e49e3bbd0dc26a04defab63ada3332312c2119c6859a"
+        }
+      }
+    }
+  }
+}
