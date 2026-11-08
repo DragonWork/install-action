@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "cdviz-collector",
-  "version": "0.53.1",
+  "version": "0.54.0",
   "repository": "cdviz-dev/cdviz-collector",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "0.53.1",
-      "sha256": "648bed42e021a9ff604ccefaf6def643d98d38d8079085b3243d31f7b64f81c3",
-      "size": 10748800,
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.54.0/cdviz-collector-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "a23f815e2d2f31a2726660d5d8980c561844ff2887bdc890e27588525c2b3393",
+      "size": 11274736,
       "format": "tar.xz",
+      "releaseTag": "0.54.0",
       "binaries": {
         "cdviz-collector": {
           "path": "cdviz-collector-x86_64-unknown-linux-musl/cdviz-collector",
-          "sha256": "69d1684bd371fea8415a2987acbb953e11e8e74790031fee1b0074541a6a43ef"
+          "sha256": "a9f05c12af7197c993f125d4f511b8899d0ddad2e37f62bfc319bb6fd6b8e8ab"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-aarch64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "0.53.1",
-      "sha256": "f61d7a4ac783abf6d2a6f3840a6d9b66556259fc70d10a62490f216da12bd003",
-      "size": 9293184,
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.54.0/cdviz-collector-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "086fd89b4c4cb5368e659c647ef5d061b3efac8c9396d5b0d0b6bdd14aee9768",
+      "size": 9709484,
       "format": "tar.xz",
+      "releaseTag": "0.54.0",
       "binaries": {
         "cdviz-collector": {
           "path": "cdviz-collector-aarch64-unknown-linux-gnu/cdviz-collector",
-          "sha256": "10023748c80fe569c6c5d5bc50a0e03b2a5d7baa2d3777840d9ca97cb119e638"
+          "sha256": "96e170e0f2286346fbcf2c81bf79570bf73d72fed887254781db15aa697abaf3"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "0.53.1",
-      "sha256": "b5fbf2bf9ea654d78de7bad3a1c85c2f93bd7e5d0774d24227c618ffa109f044",
-      "size": 10215060,
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.54.0/cdviz-collector-x86_64-apple-darwin.tar.xz",
+      "sha256": "ae082ecd7fd8ef0843d58a91a9236705d1e7f4ad163f7556551084a6a3476eb3",
+      "size": 10695588,
       "format": "tar.xz",
+      "releaseTag": "0.54.0",
       "binaries": {
         "cdviz-collector": {
           "path": "cdviz-collector-x86_64-apple-darwin/cdviz-collector",
-          "sha256": "b3e130252282e09e3393fd2352bcadf44116918b5445b167839d77623703ef99"
+          "sha256": "16c54ec51e7fcf9aad8357f82edca0b1bf55ede54e0ce8461378dece5f4e4b17"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "0.53.1",
-      "sha256": "cf793661a52e40f28874586b9909f5528dd7064a3b096e89f19bfff339f904f0",
-      "size": 8559272,
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.54.0/cdviz-collector-aarch64-apple-darwin.tar.xz",
+      "sha256": "25d8ea5436900f507c56fa0cfc7abf5cbd89915f0ad9a60b4f8aa6bf78a0e2cd",
+      "size": 8936384,
       "format": "tar.xz",
+      "releaseTag": "0.54.0",
       "binaries": {
         "cdviz-collector": {
           "path": "cdviz-collector-aarch64-apple-darwin/cdviz-collector",
-          "sha256": "ab1b5c41dab94071e0385b68a0fe44b7d135b91146059f16394337031b805583"
+          "sha256": "e20da12818c9956158b9f99b312b18f7b4941889f347385d7d4ed48e307d8664"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.53.1/cdviz-collector-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "0.53.1",
-      "sha256": "7b6f3ffe101f6f3e4430a79c36bd2a1d721fe3b286a2bd61f65638c8a86d9305",
-      "size": 16448817,
+      "url": "https://github.com/cdviz-dev/cdviz-collector/releases/download/0.54.0/cdviz-collector-x86_64-pc-windows-msvc.zip",
+      "sha256": "6cb248fbe13ddf3317fdf57adc80bd516e6ff3d754517425348f5d11c0b300a3",
+      "size": 17297345,
       "format": "zip",
+      "releaseTag": "0.54.0",
       "binaries": {
         "cdviz-collector.exe": {
           "path": "cdviz-collector.exe",
-          "sha256": "303282bb29b8ec77590ed70be08a828855e04190bb1805a47b9e214acf86af8f"
+          "sha256": "66428d98a8276330c235775c08eaaaa13ef131c53e92f48b65572ff6c8406599"
         }
       }
     }
