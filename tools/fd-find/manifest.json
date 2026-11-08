@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "fd-find",
-  "version": "10.5.1",
+  "version": "10.5.2",
   "repository": "sharkdp/fd",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "f6c95edb190c241df6fddc815a5bab4051444993ac5d92ddc6eec0e0dc2342c7",
-      "size": 1799129,
+      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.2/fd-v10.5.2-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "7e2d07fa2b8807642aaec67b7e2972a9fbe4db26fcb340a7372392db42b26694",
+      "size": 1798931,
       "format": "tar.gz",
-      "releaseTag": "v10.5.1",
+      "releaseTag": "v10.5.2",
       "binaries": {
         "fd": {
-          "path": "fd-v10.5.1-x86_64-unknown-linux-musl/fd",
-          "sha256": "86102b09f45e4f63cf1f67f98e8d2f7fd6e9420a9c7d1f77401a1b979004b8b1"
+          "path": "fd-v10.5.2-x86_64-unknown-linux-musl/fd",
+          "sha256": "bd664fa3c5c4919234adf2b489c4b7ec47282e8e926c012e3f67112cf9f8c182"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "64c20b9b154c9d4b36d4b7df3521de771c499c4768b4b5b045ef6b01532117be",
-      "size": 1641049,
+      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.2/fd-v10.5.2-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "63ea52cb31586e6d98efa2f06d73d542f16c7d0c4af0f07b579aaf9714cf907a",
+      "size": 1643779,
       "format": "tar.gz",
-      "releaseTag": "v10.5.1",
+      "releaseTag": "v10.5.2",
       "binaries": {
         "fd": {
-          "path": "fd-v10.5.1-aarch64-unknown-linux-musl/fd",
-          "sha256": "fee1f8195a2ff2fe894236cd7c045a26b91f47e5300bf31d7be050561b4e188f"
+          "path": "fd-v10.5.2-aarch64-unknown-linux-musl/fd",
+          "sha256": "3f27a82f32ccbaef516abca257bc026ea5011ff4f25e2c20a31318be5e0f0dd7"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "308ac4fa5f53798b4e4bd77d243ba65e77b3eaae1ef2fe4e2a8a4bb2128eedff",
-      "size": 1452085,
+      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.2/fd-v10.5.2-x86_64-apple-darwin.tar.gz",
+      "sha256": "0f02e6000a8c896cd254cf4dccc7da1e604e77a32c6783609eed5e4cb07785e3",
+      "size": 1453160,
       "format": "tar.gz",
-      "releaseTag": "v10.5.1",
+      "releaseTag": "v10.5.2",
       "binaries": {
         "fd": {
-          "path": "fd-v10.5.1-x86_64-apple-darwin/fd",
-          "sha256": "fcf538e080578fbdd6081663389189f133ef9cceef8dd08b50ee3f5fae82d14a"
+          "path": "fd-v10.5.2-x86_64-apple-darwin/fd",
+          "sha256": "3060edfa6cc9e2c240e96b2d766ef8050d9b56e1325a32fe41991614dd5ced20"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-aarch64-apple-darwin.tar.gz",
-      "sha256": "2d336895ed27b14c5cc9fc5eb22df03b3ee842b5dce80060e99d9cdc1b1b9fc7",
-      "size": 1346435,
+      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.2/fd-v10.5.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "81bf98a16d3d7230e4a9123fcede243d71ea31a577113476ed43f1cdf4773162",
+      "size": 1349389,
       "format": "tar.gz",
-      "releaseTag": "v10.5.1",
+      "releaseTag": "v10.5.2",
       "binaries": {
         "fd": {
-          "path": "fd-v10.5.1-aarch64-apple-darwin/fd",
-          "sha256": "96eb610125107448e6e442647745ddd81ed26fed3b2936583ef7e4ebe52b880e"
+          "path": "fd-v10.5.2-aarch64-apple-darwin/fd",
+          "sha256": "e913dd665759feeb4572896c87b8052e6d55989e35a412c1dd9ce60e1e0e5791"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-x86_64-pc-windows-msvc.zip",
-      "sha256": "e52306a600e60b7ba92019c81dc753e6ea6665379d005867d38215ffd14cf5c2",
-      "size": 1564314,
+      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.2/fd-v10.5.2-x86_64-pc-windows-msvc.zip",
+      "sha256": "7edac75ef96b7e9a01ebb251a21ee86ea365a09adcfb865f1ec3346a906153b6",
+      "size": 1564536,
       "format": "zip",
-      "releaseTag": "v10.5.1",
+      "releaseTag": "v10.5.2",
       "binaries": {
         "fd.exe": {
-          "path": "fd-v10.5.1-x86_64-pc-windows-msvc/fd.exe",
-          "sha256": "6d89badd1939553fc849913d047e83db5db001ae748e99ba888d150dd12cd784"
+          "path": "fd-v10.5.2-x86_64-pc-windows-msvc/fd.exe",
+          "sha256": "2fe8ed92c57e0d1b3a84b66cf69ec8fac15330d0012147a64b4be521bbddfa83"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.1/fd-v10.5.1-aarch64-pc-windows-msvc.zip",
-      "sha256": "39d0166d11ef01975fbc8fb92cf4c8e78afcda5ca0f64aa924f950f2baacd5e0",
-      "size": 1386413,
+      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.2/fd-v10.5.2-aarch64-pc-windows-msvc.zip",
+      "sha256": "0ee570ad513e6e1909642dbd79bf7177cf3457652e912c27726582c0f49df86e",
+      "size": 1388549,
       "format": "zip",
-      "releaseTag": "v10.5.1",
+      "releaseTag": "v10.5.2",
       "binaries": {
         "fd.exe": {
-          "path": "fd-v10.5.1-aarch64-pc-windows-msvc/fd.exe",
-          "sha256": "2a1a1df45b5c0514c247972858e951aa70545d132a25747be9723f9b709cd3fd"
+          "path": "fd-v10.5.2-aarch64-pc-windows-msvc/fd.exe",
+          "sha256": "8e5732b4e5c435074840c9c947d5c12c8286df968a062761f5de1cdecb697675"
         }
       }
     }
