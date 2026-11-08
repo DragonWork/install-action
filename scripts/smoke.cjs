@@ -21,6 +21,7 @@ async function main() {
         console.log(`${name}: no upstream binary for this platform.`);
         continue;
       }
+      console.log(`${name} ${manifest.version}: installing for ${process.platform}-${process.arch}.`);
       const result = await install(manifest, root);
       console.log(`${name} ${result.version}: ${result.bin}`);
     }

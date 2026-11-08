@@ -5,6 +5,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const os = require('node:os');
+const timers = require('node:timers/promises');
 const { download, validateManifest, ownedDirectory, writeCommand, sha256, archivePath, archiveEntries } = require('../lib/common.cjs');
 const { install, main } = require('../lib/install.cjs');
 const { checkYanked } = require('../lib/yank.cjs');
@@ -140,6 +141,96 @@ test('download rejects untrusted redirects and oversized responses', async () =>
   await assert.rejects(download('https://github.com/example/asset', {
     fetcher: async () => new Response('too large'), limit: 3,
   }), /size limit/);
+});
+
+test('timed-out bodies restart from the release URL with fresh deadlines and intact hashes', async t => {
+  const pauses = [], messages = [], requests = [];
+  t.mock.method(timers, 'setTimeout', async delay => { pauses.push(delay); });
+  t.mock.method(console, 'warn', message => { messages.push(message); });
+  const source = 'https://github.com/example/asset';
+  const target = 'https://release-assets.githubusercontent.com/asset';
+  const bytes = Buffer.from('complete pinned archive');
+  const timeout = new DOMException('The operation was aborted due to timeout', 'TimeoutError');
+  const result = await download(source, { expected: sha256(bytes), size: bytes.length,
+    fetcher: async (url, options) => {
+      requests.push({ url, signal: options.signal });
+      if (url === source) return new Response(null, { status: 302, headers: { location: target } });
+      if (requests.length === 2) return new Response(new ReadableStream({
+        start(controller) { controller.enqueue(Buffer.from('partial')); },
+        pull(controller) { controller.error(timeout); },
+      }));
+      return new Response(bytes);
+    },
+  });
+  assert.deepEqual(result, bytes);
+  assert.deepEqual(requests.map(request => request.url), [source, target, source, target]);
+  assert.equal(requests[0].signal, requests[1].signal);
+  assert.notEqual(requests[0].signal, requests[2].signal);
+  assert.deepEqual(pauses, [2000]);
+  assert.match(messages[0], /attempt 2\/3.*timeout/);
+});
+
+test('temporary HTTP errors cancel their bodies and honor bounded Retry-After delays', async t => {
+  const pauses = [];
+  t.mock.method(timers, 'setTimeout', async delay => { pauses.push(delay); });
+  t.mock.method(console, 'warn', () => {});
+  for (const status of [408, 429, 500, 502, 503, 504]) {
+    let calls = 0, cancelled = false;
+    const bytes = await download('https://github.com/example/asset', { fetcher: async () => {
+      if (calls++ === 0) return new Response(new ReadableStream({
+        cancel() { cancelled = true; },
+      }), { status, headers: { 'retry-after': '3' } });
+      return new Response('complete');
+    } });
+    assert.equal(bytes.toString(), 'complete');
+    assert.equal(calls, 2);
+    assert.equal(cancelled, true);
+  }
+  assert.deepEqual(pauses, Array(6).fill(3000));
+  await assert.rejects(download('https://github.com/example/asset', {
+    fetcher: async () => new Response(null, { status: 429, headers: { 'retry-after': '61' } }),
+  }), /HTTP 429/);
+  assert.equal(pauses.length, 6);
+});
+
+test('repeated network failures stop after three attempts and identify the original asset', async t => {
+  const pauses = [];
+  t.mock.method(timers, 'setTimeout', async delay => { pauses.push(delay); });
+  t.mock.method(console, 'warn', () => {});
+  let calls = 0;
+  const error = new TypeError('fetch failed', { cause: Object.assign(new Error('reset'), { code: 'ECONNRESET' }) });
+  await assert.rejects(download('https://github.com/example/asset', { fetcher: async () => {
+    calls++;
+    throw error;
+  } }), failure => {
+    assert.match(failure.message, /Could not download https:\/\/github.com\/example\/asset: fetch failed/);
+    assert.equal(failure.cause, error);
+    return true;
+  });
+  assert.equal(calls, 3);
+  assert.deepEqual(pauses, [2000, 4000]);
+});
+
+test('download retries never bypass checksum, size, HTTP or redirect validation', async t => {
+  t.mock.method(timers, 'setTimeout', async () => { assert.fail('Must not retry a permanent failure'); });
+  const source = 'https://github.com/example/asset';
+  for (const options of [
+    { expected: '0'.repeat(64) },
+    { size: 99 },
+    { limit: 3 },
+    { headers: { 'content-length': '100' }, limit: 99 },
+    { status: 404 },
+    { status: 403 },
+    { status: 302, headers: { location: 'https://example.com/asset' } },
+  ]) {
+    let calls = 0;
+    const { status = 200, headers, ...settings } = options;
+    await assert.rejects(download(source, { ...settings, fetcher: async () => {
+      calls++;
+      return new Response('complete', { status, headers });
+    } }));
+    assert.equal(calls, 1);
+  }
 });
 
 test('manifest validation rejects paths, floating versions and missing hashes', () => {
