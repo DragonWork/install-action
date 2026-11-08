@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "openai_rust_sdk",
+  "version": "2.0.3",
+  "repository": "ThreatFlux/openai_rust_sdk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ThreatFlux/openai_rust_sdk/releases/download/v2.0.3/openai_rust_sdk-linux-amd64.tar.gz",
+      "sha256": "39312b0e4c0b612186bc01aa16245d9ce9caa086f00d1d013793ace910c01ddd",
+      "size": 7132034,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.3",
+      "binaries": {
+        "openai_rust_sdk": {
+          "path": "./openai_rust_sdk",
+          "sha256": "1da2f0da4cd32fe500322f5313a91661b8f64ce2e0d8f658a7837ac4f8a1c6c0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ThreatFlux/openai_rust_sdk/releases/download/v2.0.3/openai_rust_sdk-linux-arm64.tar.gz",
+      "sha256": "e12aa9cd15bf054ef94c6e0a771029368ee98d273b06ea5610ac5d0e36279fbf",
+      "size": 6236281,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.3",
+      "binaries": {
+        "openai_rust_sdk": {
+          "path": "./openai_rust_sdk",
+          "sha256": "d04530497541ca40fda95141392d30195604215d374b4d0621eb1f0465a470f1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ThreatFlux/openai_rust_sdk/releases/download/v2.0.3/openai_rust_sdk-macos-amd64.tar.gz",
+      "sha256": "69d382b715d78bc0eef2c8167e8efa0bc45ed27b078607cd00613ac4ffe6700e",
+      "size": 6800155,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.3",
+      "binaries": {
+        "openai_rust_sdk": {
+          "path": "./openai_rust_sdk",
+          "sha256": "709b6b07e1628d8599ea141cef06701029906ed651fa5607a15b5a6c084565b7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ThreatFlux/openai_rust_sdk/releases/download/v2.0.3/openai_rust_sdk-macos-arm64.tar.gz",
+      "sha256": "5e41afa2f9c3a4901b8042e54a87f467b31673f8312fa3d6a305e90f3aa3aba5",
+      "size": 5852630,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.3",
+      "binaries": {
+        "openai_rust_sdk": {
+          "path": "./openai_rust_sdk",
+          "sha256": "f51bac25b33eafacd1681fb72740af0dfa63db9b05014f317db043d08c1445ac"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ThreatFlux/openai_rust_sdk/releases/download/v2.0.3/openai_rust_sdk-windows-amd64.zip",
+      "sha256": "c16a5795ffe25ae3b85a524c0cfc2f0451f12174e21b3446eb7c8c8b8871b59a",
+      "size": 6781927,
+      "format": "zip",
+      "releaseTag": "v2.0.3",
+      "binaries": {
+        "openai_rust_sdk.exe": {
+          "path": "openai_rust_sdk.exe",
+          "sha256": "128da76ade84ec53e2bd00ac516cea46ea322140fe4102ecdbe1a63757ec35b5"
+        }
+      }
+    }
+  }
+}
