@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "mise",
-  "version": "2026.11.4",
+  "version": "2026.11.5",
   "repository": "jdx/mise",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.11.4/mise-v2026.11.4-linux-x64.tar.gz",
-      "sha256": "e9652ecdc9ac990662ba8346b2b3da95ad9c890ed73768ea4675ef721dcef37e",
-      "size": 60496662,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.11.5/mise-v2026.11.5-linux-x64.tar.gz",
+      "sha256": "d7dee029352bf4b8986e7c4696b8ce54746c3eb648ffca3cc69bdeecc0ff06e9",
+      "size": 60696346,
       "format": "tar.gz",
-      "releaseTag": "v2026.11.4",
+      "releaseTag": "v2026.11.5",
       "binaries": {
         "mise": {
           "path": "mise/bin/mise",
-          "sha256": "0296d9cba9324106d4e0962bb94a2072902f3658813aeb3b09504947bb8ddc2b"
+          "sha256": "7a5b051d6f17d335c502f8047a5175cf3103f347d91942771c60da4e302ebcb0"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.11.4/mise-v2026.11.4-linux-arm64.tar.gz",
-      "sha256": "e168248871cd4f958bb1597dc74d03ec65634bb54bf49c80dbb7999a7ba88471",
-      "size": 61648915,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.11.5/mise-v2026.11.5-linux-arm64.tar.gz",
+      "sha256": "146b114c2714f6ed76a629778f162d578e14821e47b87389dbdd64068bd5cf06",
+      "size": 61496193,
       "format": "tar.gz",
-      "releaseTag": "v2026.11.4",
+      "releaseTag": "v2026.11.5",
       "binaries": {
         "mise": {
           "path": "mise/bin/mise",
-          "sha256": "219d1daa41d110ed004b6a9c4029000046b23b3498f45d17c7897a166177e80b"
+          "sha256": "3cb907fc1d3f033afab40b4a8efca4fd71440bf91b63bfca3beb3302b0f3a6d5"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.11.4/mise-v2026.11.4-macos-x64.tar.gz",
-      "sha256": "b8a74f677aba6a8e418c82870c2321a563391e828b0a2474f61497e2801177de",
-      "size": 64700288,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.11.5/mise-v2026.11.5-macos-x64.tar.gz",
+      "sha256": "67f980425c594e59675027d8b522901dee80a94bafadcdc4dfdcce14f0cc3b40",
+      "size": 64797485,
       "format": "tar.gz",
-      "releaseTag": "v2026.11.4",
+      "releaseTag": "v2026.11.5",
       "binaries": {
         "mise": {
           "path": "mise/bin/mise",
-          "sha256": "f16f34e9dc498ce23af603ef0066638258d9659896b84087ff1ce1585c012238"
+          "sha256": "f9489962f8c979520111b86b70c5da91086c54c9141edd116198d89093784a1e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.11.4/mise-v2026.11.4-macos-arm64.tar.gz",
-      "sha256": "d37c01389b0918a19bbf763ee8ed339e533eebdb281be4911e9ad71d00b51477",
-      "size": 48765169,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.11.5/mise-v2026.11.5-macos-arm64.tar.gz",
+      "sha256": "f69c8a4f7c265d5f3ffdd06d44104aa15a7ffd9b6545a87b7768f893b70f0fd8",
+      "size": 48876809,
       "format": "tar.gz",
-      "releaseTag": "v2026.11.4",
+      "releaseTag": "v2026.11.5",
       "binaries": {
         "mise": {
           "path": "mise/bin/mise",
-          "sha256": "21c269cd3c88e31c56aad7f7ccd9916b6fa78683937d93e5d17129b783d6f962"
+          "sha256": "4f9faebcfac7f8bb1321e697ba7a5ba26f645233aa269741a16482f757bd482e"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.11.4/mise-v2026.11.4-windows-x64.zip",
-      "sha256": "aa601a967bb48f1a603345887dd5af0518a552bafbe724139456e75f10e0e102",
-      "size": 85690136,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.11.5/mise-v2026.11.5-windows-x64.zip",
+      "sha256": "d8842ae3b8d6cf3dd69e3189a69dcacabea85c677fce670266aefce46954e3e5",
+      "size": 85547819,
       "format": "zip",
-      "releaseTag": "v2026.11.4",
+      "releaseTag": "v2026.11.5",
       "binaries": {
         "mise.exe": {
           "path": "mise/bin/mise.exe",
-          "sha256": "cac63b5c09b64155232126b8f84ec6aaaa50e19ea7b69b33d7fbf6e1cfc0c6b8"
+          "sha256": "f310926e432d6ae16eeb822d205c7880ea6bd88540162d84b48d6b886f95ea80"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/jdx/mise/releases/download/v2026.11.4/mise-v2026.11.4-windows-arm64.zip",
-      "sha256": "b70e4e0f8d5daa2253a499215c125ff6418385534bd783175d9d3948d4cdfde3",
-      "size": 78304993,
+      "url": "https://github.com/jdx/mise/releases/download/v2026.11.5/mise-v2026.11.5-windows-arm64.zip",
+      "sha256": "415592ad5d6bfa7067d6fd00f68a21714f0540fda6fd32c089bbfd9dc26800fb",
+      "size": 78385158,
       "format": "zip",
-      "releaseTag": "v2026.11.4",
+      "releaseTag": "v2026.11.5",
       "binaries": {
         "mise.exe": {
           "path": "mise/bin/mise.exe",
-          "sha256": "6a343c7aae62fee35247c6437a3735c5acd7c4dcc125ec53076ea2941df995a8"
+          "sha256": "e03cb266822cfaf6d459eda4e8c20875febf49f07fac371f7a5704f500795260"
         }
       }
     }
