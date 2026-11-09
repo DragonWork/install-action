@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "name": "raftcli",
-  "version": "1.32.0",
+  "version": "1.33.0",
   "repository": "robdobsn/RaftCLI",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/robdobsn/RaftCLI/releases/download/v1.32.0/raft-linux-x86_64-gnu.tar.gz",
-      "sha256": "83bcaecf2f60d113124d6eaf9b01ec52b04f07897c4619730e0b1578b3ea192b",
-      "size": 3222350,
+      "url": "https://github.com/robdobsn/RaftCLI/releases/download/v1.33.0/raft-linux-x86_64-gnu.tar.gz",
+      "sha256": "e68bb9efdca3c77824faba6ee6576d4b04fdfaee1c3bf5c0fa10a1c7eae138b6",
+      "size": 3231461,
       "format": "tar.gz",
-      "releaseTag": "v1.32.0",
+      "releaseTag": "v1.33.0",
       "binaries": {
         "raft": {
           "path": "raft",
-          "sha256": "9b4dd20a95bdb77f6e91138091c5f3d113e75c2d047aaf6ef17c1316d94bfcff"
+          "sha256": "33bd947d88512a25384eed2d050627e57988ac974772354a1e1c8b3038b9f570"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/robdobsn/RaftCLI/releases/download/v1.32.0/raft-macos-x86_64.tar.gz",
-      "sha256": "82f81e3ce8f2c79237f3eb233cdc171b3ef1e1fe0b2aced0add9a1582495ce98",
-      "size": 2798695,
+      "url": "https://github.com/robdobsn/RaftCLI/releases/download/v1.33.0/raft-macos-x86_64.tar.gz",
+      "sha256": "0531e34d753ad5dfce4b0de5e7a43f28c6369aeef9b9fbfcf78a2dc53ac03596",
+      "size": 2822071,
       "format": "tar.gz",
-      "releaseTag": "v1.32.0",
+      "releaseTag": "v1.33.0",
       "binaries": {
         "raft": {
           "path": "raft",
-          "sha256": "005a9a4cbb766019c55db30cd492a73aea688ca57a5f5b90e4a64d5749212a5d"
+          "sha256": "dc0db0eb00cec25f09829acdfd8779e5099b406ed9b7f4c6155808facf644504"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/robdobsn/RaftCLI/releases/download/v1.32.0/raft-windows-x86_64-msvc.zip",
-      "sha256": "15df59ba55e0e57e4e76154fa6e39b20573861ac5f14717120b83ba1a3e40900",
-      "size": 2390314,
+      "url": "https://github.com/robdobsn/RaftCLI/releases/download/v1.33.0/raft-windows-x86_64-msvc.zip",
+      "sha256": "35091742b8faea474311a9a7cd6f36cdb5b1e7c9bb7d3d9d87b3fbcb00e37f3f",
+      "size": 2402957,
       "format": "zip",
-      "releaseTag": "v1.32.0",
+      "releaseTag": "v1.33.0",
       "binaries": {
         "raft.exe": {
           "path": "raft.exe",
-          "sha256": "8338adc10d99d56297bc37f4b8dd910a3acb1a3a03a806e85e7c757ef58b7beb"
+          "sha256": "314d2b356385b50dd4889a886804bb98fffe1e4af9ed75db933c652e4be26081"
         }
       }
     }
