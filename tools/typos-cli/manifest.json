@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "typos-cli",
-  "version": "1.52.0",
+  "version": "1.52.1",
   "repository": "crate-ci/typos",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.0/typos-v1.52.0-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "6155d4114f9a0f5b8f6d4fda96266c9d5f6add71df80da7f684ee5e72eb14588",
-      "size": 8282701,
+      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.1/typos-v1.52.1-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "c034dbec8797cfa0c4548b3726c1eebbafcf703b8a17f15a961b037788eebcdd",
+      "size": 8283099,
       "format": "tar.gz",
-      "releaseTag": "v1.52.0",
+      "releaseTag": "v1.52.1",
       "binaries": {
         "typos": {
           "path": "./typos",
-          "sha256": "76125faf58db99d89564498c94b46fe91ed39044690907ad6750f547a66b7b78"
+          "sha256": "6fe9ca1e0d9dbc67059ffb15d3ace6be216ff8181f59a8b03fd549598b5f8aba"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.0/typos-v1.52.0-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "63b7d4478d467a61fe47cdb3162f720c6797856e61a04f7e125d1cdc282488b8",
-      "size": 7222226,
+      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.1/typos-v1.52.1-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "3c82c3e97aafdd686fbb3f8c7b82bca3a870d21a0bcadd41babd37e84cc2f2df",
+      "size": 7220945,
       "format": "tar.gz",
-      "releaseTag": "v1.52.0",
+      "releaseTag": "v1.52.1",
       "binaries": {
         "typos": {
           "path": "./typos",
-          "sha256": "b14a0f9bd01f27989790281ebe315923de3fc1d54dca499971188074922e83fd"
+          "sha256": "b67d33bb9a642ac1936a0a8db93c33962b47127e094c803ff4fa133924e63229"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.0/typos-v1.52.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "8de057f425909b02c0184892539755d70ecc3244c4b214ae9382cedd691127e0",
-      "size": 3474111,
+      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.1/typos-v1.52.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "dbca3612fc20dd711829d3e45f948a9faf8902a681a1d056184a7e81b756ca98",
+      "size": 3473564,
       "format": "tar.gz",
-      "releaseTag": "v1.52.0",
+      "releaseTag": "v1.52.1",
       "binaries": {
         "typos": {
           "path": "./typos",
-          "sha256": "8fb1526006566db4b0176bd726acb830597934963cfa6ff1d32cb857ea84e689"
+          "sha256": "09cbebd32044108ac5c3b439a87a052bc0b2918d3388913a9723fa99c397a68b"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.0/typos-v1.52.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "90724dd2905cb1ce033343c71ed60e52fe898674f882803e3110cd228e09e1c5",
-      "size": 3362010,
+      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.1/typos-v1.52.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "e342c1ec32ea6f60a8b557cd75f30e7c604745131754acff295402a0a3d43263",
+      "size": 3361209,
       "format": "tar.gz",
-      "releaseTag": "v1.52.0",
+      "releaseTag": "v1.52.1",
       "binaries": {
         "typos": {
           "path": "./typos",
-          "sha256": "6ebf8a2af7f35d1a99da91846295a7e87d0990d293bb11fe964bf91412810fe1"
+          "sha256": "1d97af21e8d475c27f4a4183c1ee8132b89eefd6ea27c7923628bd8ba3107b2f"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.0/typos-v1.52.0-x86_64-pc-windows-msvc.zip",
-      "sha256": "7da6eb1932ad86921420a7198dbc9e62a10bcd995144704dc19b81d3fb802182",
-      "size": 3262295,
+      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.1/typos-v1.52.1-x86_64-pc-windows-msvc.zip",
+      "sha256": "adb3ac98b0ca8964a23b984c786c2116a25b3665e070f2a4f8156e2d6d4df2e3",
+      "size": 3261157,
       "format": "zip",
-      "releaseTag": "v1.52.0",
+      "releaseTag": "v1.52.1",
       "binaries": {
         "typos.exe": {
           "path": "typos.exe",
-          "sha256": "1d314da396e516bdc1c98a7fc19aa8847eebabbe00bb820b3c5ec9c17e140d85"
+          "sha256": "0db30346b47c127a73b8840a844d29ec128f355f6ba93a9de5415dc4768901d5"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.0/typos-v1.52.0-aarch64-pc-windows-msvc.zip",
-      "sha256": "bbee0a3b8826ae6fcf9b5424c6af6637b8c32899c8d679b1d851624a688c497d",
-      "size": 3092222,
+      "url": "https://github.com/crate-ci/typos/releases/download/v1.52.1/typos-v1.52.1-aarch64-pc-windows-msvc.zip",
+      "sha256": "0d7f8352eec68885522c6cfa0c24f6294816d83fda14efab7876f3c5a286dd5e",
+      "size": 3091135,
       "format": "zip",
-      "releaseTag": "v1.52.0",
+      "releaseTag": "v1.52.1",
       "binaries": {
         "typos.exe": {
           "path": "typos.exe",
-          "sha256": "6baa61d954a86f53d690f1bc53d42c0038f9665598b9f0c5f1e461a63f4bab34"
+          "sha256": "654acc297169ed35fe6a48925817a3802f8b2332dab82197cdfb1befe3cf43ed"
         }
       }
     }
