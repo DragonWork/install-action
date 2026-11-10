@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "fontc",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "repository": "googlefonts/fontc",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "fontc-v1.0.0",
-      "sha256": "dd715c5bd5884bf7172d24f5a1d1d2efd5985c1f45d41ef99324590a2fb3aeb0",
-      "size": 7427031,
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v2.0.1/fontc-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "debfb4bae4c27ce359a402d022a017c32746ea061d79463fab54578c797e6e32",
+      "size": 9390796,
       "format": "tar.gz",
+      "releaseTag": "fontc-v2.0.1",
       "binaries": {
         "fontc": {
           "path": "fontc",
-          "sha256": "e48d6f5c29acf64f85956b156181876f8f03d0942f5152096f8b7f2059db0556"
+          "sha256": "ea3e16a130972a9d61cae8927060df058bbb2a576d2f2ddcf2c42e9e130ae161"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "fontc-v1.0.0",
-      "sha256": "8c3e44ea40a232811d3992b8b14a6299e8eb5714f0898ee8ad9d57cbc014ba3a",
-      "size": 7030254,
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v2.0.1/fontc-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "443ab7612902bd9e2c5814d5dfbd7619ad7e15ef2c150207dbb5f170cba412ef",
+      "size": 8863968,
       "format": "tar.gz",
+      "releaseTag": "fontc-v2.0.1",
       "binaries": {
         "fontc": {
           "path": "fontc",
-          "sha256": "46177a1d0fa22d7933ca6a48c0fb9f1deff9d9e8842be83a8d12e23042acfa9d"
+          "sha256": "052f01c454e77dc6367d314f0a79f7e336644423a75d6bfcb831f4b8328eaa81"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "fontc-v1.0.0",
-      "sha256": "942673665844187cc3a2ffea02c5dbc310f4eca36595d48ad5d3908aee9e6658",
-      "size": 6941186,
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v2.0.1/fontc-x86_64-apple-darwin.tar.gz",
+      "sha256": "917b06008e6b2481084038ccbb833c3024558025547d04cfec2e1720735deaf6",
+      "size": 8841107,
       "format": "tar.gz",
+      "releaseTag": "fontc-v2.0.1",
       "binaries": {
         "fontc": {
           "path": "fontc",
-          "sha256": "98655dc02be46bb433815b2f0fb1859a6fc2196c1443078d9e854af3193fcf14"
+          "sha256": "ecce60f78c8a20128f0671159a971797aa94b5df9d3b733e727217051a9005aa"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "fontc-v1.0.0",
-      "sha256": "f7703a5967a6d78e931493e8ca44d3393b9221982697e7cc3f4e627a399eec28",
-      "size": 6605882,
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v2.0.1/fontc-aarch64-apple-darwin.tar.gz",
+      "sha256": "7e4876d4ab6fed25fd46d01f456ae9f4d761ad0816f612c933d088d25a67b1d8",
+      "size": 8361941,
       "format": "tar.gz",
+      "releaseTag": "fontc-v2.0.1",
       "binaries": {
         "fontc": {
           "path": "fontc",
-          "sha256": "54b709ee0c7c55b35cf2a0ec1169e07e8146aa5dafe76f4ba5b0ec0eeea9aed9"
+          "sha256": "a05e8fb36d32f156ba9f8b371c1f889cd17bb7b0394a1bee145c37959f19c624"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "fontc-v1.0.0",
-      "sha256": "2c8b60198d80a02431860256406d48dff8c714534fce2e6a27180d93694869c1",
-      "size": 6036089,
+      "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v2.0.1/fontc-x86_64-pc-windows-msvc.zip",
+      "sha256": "cf05ad4e70b922339e53561a236ed783c5555a885f5787500af82d185173c0ff",
+      "size": 7716444,
       "format": "zip",
+      "releaseTag": "fontc-v2.0.1",
       "binaries": {
         "fontc.exe": {
           "path": "fontc.exe",
-          "sha256": "a5d4cd3e790378ee3c15e66b985131c8e0786b8bf27ac8bb9ee4c9aa96841346"
+          "sha256": "ea1d3a487acc0b62ef5fc3a9dc440eb8a8c01d94a4f2b77d7caf9b5647c69aa5"
         }
       }
     }
