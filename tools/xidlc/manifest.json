@@ -1,84 +1,71 @@
 {
   "schema": 1,
   "name": "xidlc",
-  "version": "0.110.0",
+  "version": "0.111.0",
   "repository": "xidl/xidl",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/xidl/xidl/releases/download/v0.110.0/xidlc-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "2d809aeff308a58375c32e718cc2ee066cd170be04305873c253a378fae2a43c",
-      "size": 7397282,
+      "url": "https://github.com/xidl/xidl/releases/download/v0.111.0/xidlc-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "99ebc64ab26321ca6d3bf66b8832ddd007100829742fb88f482988a4c90c1577",
+      "size": 7465813,
       "format": "tar.gz",
-      "releaseTag": "v0.110.0",
+      "releaseTag": "v0.111.0",
       "binaries": {
         "xidlc": {
           "path": "xidlc",
-          "sha256": "d682f647241c8fc6a791876eaf5a7d4e0c017b0d3693b97112d62458b0b538fd"
+          "sha256": "9380c77864fdfe6c98b2d1e06b8f7ab6cede291d23bf85fff1c794d0ead64f87"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/xidl/xidl/releases/download/v0.110.0/xidlc-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "3a0af622c29da43ec1fb4156073a35a820c5d565436d616da1f680faf433a31c",
-      "size": 6699639,
+      "url": "https://github.com/xidl/xidl/releases/download/v0.111.0/xidlc-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "efe663f382e6b52993031bc40bd23b72855f01d0d7cf1ca1c91714d578205ecf",
+      "size": 6753666,
       "format": "tar.gz",
-      "releaseTag": "v0.110.0",
+      "releaseTag": "v0.111.0",
       "binaries": {
         "xidlc": {
           "path": "xidlc",
-          "sha256": "d751c13b8d0c6e9604d61ec04de34fb1d81e29647d2ea63e4e72985ffd96a4a7"
+          "sha256": "481a0027ae9489a48067db5b2b350541de3758d1c18f93fff6358821d09406d1"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/xidl/xidl/releases/download/v0.110.0/xidlc-x86_64-apple-darwin.tar.gz",
-      "sha256": "38e23bc2b3ed00401d7de3a6dd26691729b0e1d47d017ab027b93669d220cb73",
-      "size": 7131910,
+      "url": "https://github.com/xidl/xidl/releases/download/v0.111.0/xidlc-x86_64-apple-darwin.tar.gz",
+      "sha256": "162d332a0ec4c45d49e64e46ccd7bc0ed20cc591e570f51be12035af140dbb18",
+      "size": 7201997,
       "format": "tar.gz",
-      "releaseTag": "v0.110.0",
+      "releaseTag": "v0.111.0",
       "binaries": {
         "xidlc": {
           "path": "xidlc",
-          "sha256": "7a5987a103b2fdb5a400b604bff33119519722f021d443628e83f0ba1445a103"
-        }
-      }
-    },
-    "darwin-arm64": {
-      "url": "https://github.com/xidl/xidl/releases/download/v0.110.0/xidlc-aarch64-apple-darwin.tar.gz",
-      "sha256": "f3605a603c172a7121bc4bd4548a8a070e119ab9531c595d8c4c7a96a1b55435",
-      "size": 6661001,
-      "format": "tar.gz",
-      "releaseTag": "v0.110.0",
-      "binaries": {
-        "xidlc": {
-          "path": "xidlc",
-          "sha256": "4af89fcc21d19b725321d5150e64ee6a33802194bcbf12b0a6e81deeaf2443fb"
+          "sha256": "9b974c2804f2cb2f7c4d7bf362e18acbc1178fa7b177e52954c47c83ebfcb616"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/xidl/xidl/releases/download/v0.110.0/xidlc-x86_64-pc-windows-msvc.zip",
-      "sha256": "898bcd2ab68ce79c6445d37042fc9f624d756b415acd89bb6c58d22a42e3c81a",
-      "size": 7280640,
+      "url": "https://github.com/xidl/xidl/releases/download/v0.111.0/xidlc-x86_64-pc-windows-msvc.zip",
+      "sha256": "7edc7cd686ead09700dc4f635fb614677c4a5d78288253ae16cc7ce490647b8c",
+      "size": 7343975,
       "format": "zip",
-      "releaseTag": "v0.110.0",
+      "releaseTag": "v0.111.0",
       "binaries": {
         "xidlc.exe": {
           "path": "xidlc.exe",
-          "sha256": "3e991083998d573081faf9c94c3b719001dd1df628cd70b8eb7a5ab26a86c6ed"
+          "sha256": "6e33d712b4429f2b3900d1e8647664c3dc27412c38a58a0aa4b4fc9d7ab36f52"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/xidl/xidl/releases/download/v0.110.0/xidlc-aarch64-pc-windows-msvc.zip",
-      "sha256": "7fb1e561a56865783f47be8d050044dcdc61378d1b2b10fa73d261c48070d52d",
-      "size": 6833059,
+      "url": "https://github.com/xidl/xidl/releases/download/v0.111.0/xidlc-aarch64-pc-windows-msvc.zip",
+      "sha256": "61362c2d44c5d93ee9d414102f701e563d22f36ef5589101c3a9c4fbbafc2a9e",
+      "size": 6903330,
       "format": "zip",
-      "releaseTag": "v0.110.0",
+      "releaseTag": "v0.111.0",
       "binaries": {
         "xidlc.exe": {
           "path": "xidlc.exe",
-          "sha256": "51fac6544854cb680f0fe7d237e0d426f8f2424f15665fe0c96cbaf64803a1ee"
+          "sha256": "4217dceb9f78c7b980cc386616d13839880c9546ede5e8fb9403ce46bdadea34"
         }
       }
     }
