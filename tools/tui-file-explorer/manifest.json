@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "tui-file-explorer",
+  "version": "4.0.6",
+  "repository": "sorinirimies/tui-file-explorer",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sorinirimies/tui-file-explorer/releases/download/v4.0.6/tfe-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "43c35f9c5e6b145bda0056e70693c547a116ad73fcf45fafeb61cb29310bbe2c",
+      "size": 3844927,
+      "format": "tar.gz",
+      "releaseTag": "v4.0.6",
+      "binaries": {
+        "tfe": {
+          "path": "tfe",
+          "sha256": "c48494157070fd30219f3d5b2daa3707f9ac79128765b5e18590716f74505594"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sorinirimies/tui-file-explorer/releases/download/v4.0.6/tfe-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "788296b5ae1b23501cbf11749b28547af0942f589ce301fcf98a98d16a92c58d",
+      "size": 3535536,
+      "format": "tar.gz",
+      "releaseTag": "v4.0.6",
+      "binaries": {
+        "tfe": {
+          "path": "tfe",
+          "sha256": "3097a32d68eb155c83fd2c98ab5628e550871c744085889136ee66c53f579517"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sorinirimies/tui-file-explorer/releases/download/v4.0.6/tfe-x86_64-apple-darwin.tar.gz",
+      "sha256": "0136f9b7a70066baf58359e442a84db0061d78592f4156e709f92efda4841eb7",
+      "size": 3842476,
+      "format": "tar.gz",
+      "releaseTag": "v4.0.6",
+      "binaries": {
+        "tfe": {
+          "path": "tfe",
+          "sha256": "f357e955dbf101dc043adb2e8780d944f813ead71508b717b6f3d2220cbef479"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sorinirimies/tui-file-explorer/releases/download/v4.0.6/tfe-aarch64-apple-darwin.tar.gz",
+      "sha256": "4cd12801071ec46f939ca08164b793c7d6770d6c7c773312f3dc989773fd3b35",
+      "size": 3622522,
+      "format": "tar.gz",
+      "releaseTag": "v4.0.6",
+      "binaries": {
+        "tfe": {
+          "path": "tfe",
+          "sha256": "a0611dcf59fef6d071562b0a14e5fdc68b68f39cbf2397ecae72e066d1aa444e"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sorinirimies/tui-file-explorer/releases/download/v4.0.6/tfe-x86_64-pc-windows-msvc.zip",
+      "sha256": "abf967087e43fdb8ec34e80eaf3a6639b80691ccc5c99d935d953beb797fa0a1",
+      "size": 3451102,
+      "format": "zip",
+      "releaseTag": "v4.0.6",
+      "binaries": {
+        "tfe.exe": {
+          "path": "tfe.exe",
+          "sha256": "df5ecc44c3072928dc6873136c63493e1394555a9890cc5c086c7ee089836a88"
+        }
+      }
+    }
+  }
+}
