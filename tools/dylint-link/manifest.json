@@ -1,45 +1,58 @@
 {
   "schema": 1,
   "name": "dylint-link",
-  "version": "6.3.2",
+  "version": "6.4.0",
   "repository": "trailofbits/dylint",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/trailofbits/dylint/releases/download/v6.3.2/dylint-link-x86_64-unknown-linux-gnu-v6.3.2.tar.gz",
-      "sha256": "cd30b76bf42e1c22e71bbb44c8f474cfc2dc4ec279c861cf5c5242368d1cea78",
-      "size": 1214743,
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.4.0/dylint-link-x86_64-unknown-linux-gnu-v6.4.0.tar.gz",
+      "sha256": "06cf85d33132e54daef748a6b9a98939a8f8e4119cafd27c675e56c7c7a86a38",
+      "size": 1214389,
       "format": "tar.gz",
-      "releaseTag": "v6.3.2",
+      "releaseTag": "v6.4.0",
       "binaries": {
         "dylint-link": {
-          "path": "dylint-link-x86_64-unknown-linux-gnu-v6.3.2/dylint-link",
-          "sha256": "657b812efe6ff2709ee5ca0986ccc00197ed1eae85fa3289972ef2e535d909e1"
+          "path": "dylint-link-x86_64-unknown-linux-gnu-v6.4.0/dylint-link",
+          "sha256": "ce588a42f853b79d8293a8d43b5e4c882cfda7c6e18c0e919c3086df2d6987ff"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/trailofbits/dylint/releases/download/v6.3.2/dylint-link-aarch64-unknown-linux-gnu-v6.3.2.tar.gz",
-      "sha256": "b3622e3f2cd5c782158542c7bcfc6acce0050fb0387f8bb6ace149ec5a16c75d",
-      "size": 1160825,
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.4.0/dylint-link-aarch64-unknown-linux-gnu-v6.4.0.tar.gz",
+      "sha256": "0a405bcd1b2c1c94ca60338e892568ffc16a12a16dab632ed8485db6336bea23",
+      "size": 1159346,
       "format": "tar.gz",
-      "releaseTag": "v6.3.2",
+      "releaseTag": "v6.4.0",
       "binaries": {
         "dylint-link": {
-          "path": "dylint-link-aarch64-unknown-linux-gnu-v6.3.2/dylint-link",
-          "sha256": "fdfe7e4f118acc3106c988e6c3aef45c2cb7251810524aa5761a5bcc70df85f1"
+          "path": "dylint-link-aarch64-unknown-linux-gnu-v6.4.0/dylint-link",
+          "sha256": "2db219fb87457ad7ff87f9d38870a5e5cea1b3e3fbdcf60aaf460d9d8a59f450"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/trailofbits/dylint/releases/download/v6.3.2/dylint-link-aarch64-apple-darwin-v6.3.2.tar.gz",
-      "sha256": "8949c49ea9e97ce482d9e9d17423801b8bceddca980f7f8486d1458c4d2a3c2a",
-      "size": 1026611,
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.4.0/dylint-link-aarch64-apple-darwin-v6.4.0.tar.gz",
+      "sha256": "b9a767942f58137c291a6181750d18e7a74db0784a46d093882dfa077c9478f3",
+      "size": 1027027,
       "format": "tar.gz",
-      "releaseTag": "v6.3.2",
+      "releaseTag": "v6.4.0",
       "binaries": {
         "dylint-link": {
-          "path": "dylint-link-aarch64-apple-darwin-v6.3.2/dylint-link",
-          "sha256": "7865d60b4fa18df58c731b5e5876dc5fdb31f94de7680768066c659e1930ff80"
+          "path": "dylint-link-aarch64-apple-darwin-v6.4.0/dylint-link",
+          "sha256": "f1c6452dcc5aa6b5ef2ee078641e05296d19786206139f265d8fa102f36cfceb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.4.0/dylint-link-x86_64-pc-windows-msvc-v6.4.0.tar.gz",
+      "sha256": "c00e983739e4dc7151a83d0047a4d40e44d460f61f9c2575733b2cc63582c412",
+      "size": 1702620,
+      "format": "tar.gz",
+      "releaseTag": "v6.4.0",
+      "binaries": {
+        "dylint-link.exe": {
+          "path": "dylint-link-x86_64-pc-windows-msvc-v6.4.0/dylint-link.exe",
+          "sha256": "da4a4ce7d8da6622bdc13102c74df58399f5903004638f2dc95400d6acd0d2f0"
         }
       }
     }
