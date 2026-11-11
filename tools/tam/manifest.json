@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "tam",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "repository": "wst7/tam",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.0.13",
-      "sha256": "c983527242386416a26a24b33f3748149291721e0024725dcec3b8491c103731",
-      "size": 2287587,
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.14/tam-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "1d6ff6cd983051839fc595c306d3240d5cdd1df27569c77641d4eacd65e42924",
+      "size": 2487431,
       "format": "tar.gz",
+      "releaseTag": "v1.0.14",
       "binaries": {
         "tam": {
           "path": "tam-x86_64-unknown-linux-musl/tam",
-          "sha256": "35d315cfc77ba4cf3ae8e0111f204a637f5e3fd3fbd9fa7888e231ffde84d814"
+          "sha256": "1487794fb68f59efda6bdd71afd922bac8b85f0e1eed9e83bf8ae0787494401e"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.0.13",
-      "sha256": "8ae789e62f75ef349bef92d9430e527f7506ae999687ebe9af09f8f0d14e408f",
-      "size": 1839586,
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.14/tam-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "0af8939e6a2dda5b5bfa38924e2727bc68d41a8e5a126f474e7790f3a40e0395",
+      "size": 2024177,
       "format": "tar.gz",
+      "releaseTag": "v1.0.14",
       "binaries": {
         "tam": {
           "path": "tam-aarch64-unknown-linux-musl/tam",
-          "sha256": "919bced5e43e63ceb723c09e23a7fb4009699486d191e6c0b15ae270fb36fb84"
+          "sha256": "6857130c9cb5ef3c5c5f3afe544f378554dbe1d8e68e23137b6d7cbe35bfea49"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v1.0.13",
-      "sha256": "93b36f9c89b0dee95a9abdd982c5dabbab7b1e64f6bee6aef434337ff19be97d",
-      "size": 2104438,
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.14/tam-x86_64-apple-darwin.tar.gz",
+      "sha256": "de50919497c22e12af0ce72bfa16a2dfaec1ec34046fc57352dd626aee131107",
+      "size": 2276263,
       "format": "tar.gz",
+      "releaseTag": "v1.0.14",
       "binaries": {
         "tam": {
           "path": "tam-x86_64-apple-darwin/tam",
-          "sha256": "79b68e1234f1045b1983d8f9d8c6c4ed4fe5dc1c844c9ebe80d3d53039318d9e"
+          "sha256": "513fb75247639a3fc07fef703b1515c0dc507ececb5fd2549e8963b21780e345"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v1.0.13",
-      "sha256": "19c4671a7489ae9465a966f4e526a5fc14463723b6b881efe9eee0b704657930",
-      "size": 1986449,
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.14/tam-aarch64-apple-darwin.tar.gz",
+      "sha256": "da3d85f06607c106748522e1c3b20d59f785eab85f123e146c1dd3b147e48729",
+      "size": 2166370,
       "format": "tar.gz",
+      "releaseTag": "v1.0.14",
       "binaries": {
         "tam": {
           "path": "tam-aarch64-apple-darwin/tam",
-          "sha256": "9d43c2c55a8e2d981ea1316d19c878ae02e64964ac63541a79c7e71be29caee4"
+          "sha256": "099f911dabc38e640f7ff54dc953a947c1f1bf562c0f2d1982eeb72a801d9973"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/wst7/tam/releases/download/v1.0.13/tam-x86_64-pc-windows-msvc.tar.gz",
-      "releaseTag": "v1.0.13",
-      "sha256": "57841c6fec4443a45d2429100098aa2dec6df561033133770efd96d259295e3f",
-      "size": 1824240,
+      "url": "https://github.com/wst7/tam/releases/download/v1.0.14/tam-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "c76a3dac21a7418bc47c38206ec42cedcd783f502c227a3c8bad8636fd67b565",
+      "size": 2031152,
       "format": "tar.gz",
+      "releaseTag": "v1.0.14",
       "binaries": {
         "tam.exe": {
           "path": "tam-x86_64-pc-windows-msvc/tam.exe",
-          "sha256": "a9a3d628dd93faaf4c9a9ba7a766d1f33d2a237eface79f23872ea1a000b3e83"
+          "sha256": "58e07dd9771729432001659c57c9a85fa669273ec792b5aa990b7725069716b7"
         }
       }
     }
