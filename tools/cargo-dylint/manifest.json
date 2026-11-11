@@ -1,45 +1,58 @@
 {
   "schema": 1,
   "name": "cargo-dylint",
-  "version": "6.3.2",
+  "version": "6.4.0",
   "repository": "trailofbits/dylint",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/trailofbits/dylint/releases/download/v6.3.2/cargo-dylint-x86_64-unknown-linux-gnu-v6.3.2.tar.gz",
-      "sha256": "57704c617d60f9c220ad5dd253793804f7e2933f2d715abd75b2e8391840bd87",
-      "size": 3563463,
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.4.0/cargo-dylint-x86_64-unknown-linux-gnu-v6.4.0.tar.gz",
+      "sha256": "11a75eb2b0f57a7240a08deb95898cf7b54d5d57e0a08f8328e4ce6b6263ef4f",
+      "size": 3542650,
       "format": "tar.gz",
-      "releaseTag": "v6.3.2",
+      "releaseTag": "v6.4.0",
       "binaries": {
         "cargo-dylint": {
-          "path": "cargo-dylint-x86_64-unknown-linux-gnu-v6.3.2/cargo-dylint",
-          "sha256": "57439b319ca2267139d0bdcc3e8a4ec57a2bffe48fa65f9e19b012625e09c1b1"
+          "path": "cargo-dylint-x86_64-unknown-linux-gnu-v6.4.0/cargo-dylint",
+          "sha256": "4dc8122bad23e708506d6c4cd33f389b8cbcb091486ef32f58d354b0b545a969"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/trailofbits/dylint/releases/download/v6.3.2/cargo-dylint-aarch64-unknown-linux-gnu-v6.3.2.tar.gz",
-      "sha256": "d868551de9a7c37fe26f8d798a328eba24388aaab310d87aa0dd376145dccab7",
-      "size": 3477751,
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.4.0/cargo-dylint-aarch64-unknown-linux-gnu-v6.4.0.tar.gz",
+      "sha256": "85ed5c32f5391c2ab7f1d1e2126adf61ab7049b0c1151567453157ffacbe11a3",
+      "size": 3484578,
       "format": "tar.gz",
-      "releaseTag": "v6.3.2",
+      "releaseTag": "v6.4.0",
       "binaries": {
         "cargo-dylint": {
-          "path": "cargo-dylint-aarch64-unknown-linux-gnu-v6.3.2/cargo-dylint",
-          "sha256": "d14a6b5fb889e8daac7598b3622553f7fb5d89be10ead9335d7c25c869947683"
+          "path": "cargo-dylint-aarch64-unknown-linux-gnu-v6.4.0/cargo-dylint",
+          "sha256": "4e181ae8392fe7074bb6954f2ca5900dadb0900aeb26167635bcb8a5f6c903c8"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/trailofbits/dylint/releases/download/v6.3.2/cargo-dylint-aarch64-apple-darwin-v6.3.2.tar.gz",
-      "sha256": "ab3f54d488992936de67aa5b4f4c8824ce2814c410650df5355b8993eba8704e",
-      "size": 3112621,
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.4.0/cargo-dylint-aarch64-apple-darwin-v6.4.0.tar.gz",
+      "sha256": "a85d12f7c9b3ff943cbb76012a0510711fce0a3847332cee5885c957139cb46d",
+      "size": 3117578,
       "format": "tar.gz",
-      "releaseTag": "v6.3.2",
+      "releaseTag": "v6.4.0",
       "binaries": {
         "cargo-dylint": {
-          "path": "cargo-dylint-aarch64-apple-darwin-v6.3.2/cargo-dylint",
-          "sha256": "c6ea5ba3286f3eb4d05b639d2442d8debf456e5ab4384b5bdac00866c61fe3bd"
+          "path": "cargo-dylint-aarch64-apple-darwin-v6.4.0/cargo-dylint",
+          "sha256": "51cce2150ee8572e10e866a4419aede81a2cc8a945b28d2888769da500292b3a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/trailofbits/dylint/releases/download/v6.4.0/cargo-dylint-x86_64-pc-windows-msvc-v6.4.0.tar.gz",
+      "sha256": "859ee7d262cf25f9fe5b2da6e6af5897d54b8a1e26cf38a1806493189f3d483d",
+      "size": 3214474,
+      "format": "tar.gz",
+      "releaseTag": "v6.4.0",
+      "binaries": {
+        "cargo-dylint.exe": {
+          "path": "cargo-dylint-x86_64-pc-windows-msvc-v6.4.0/cargo-dylint.exe",
+          "sha256": "c137788a6e58b80cf9d3756375e7b4f8114e3229f8f30622d3196177725f9f26"
         }
       }
     }
