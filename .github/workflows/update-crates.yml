@@ -195,7 +195,7 @@ jobs:
               fs.readFile(`prepared/worker-${i}.json`, 'utf8').then(JSON.parse)));
             for (const name of plan.names) {
               const report = reports.find(worker => worker.attempted.includes(name));
-              assert(report && !report.failures[name], `${name}: ${report?.failures[name]?.reason || 'preparation deferred; retry this request'}`);
+              assert(report && !Object.hasOwn(report.failures, name), `${name}: ${report?.failures[name]?.reason || 'preparation deferred; retry this request'}`);
             }
           })().catch(failure);
           NODE
