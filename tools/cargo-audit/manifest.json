@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "cargo-audit",
-  "version": "0.22.2",
+  "version": "0.23.0",
   "repository": "rustsec/rustsec",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.22.2/cargo-audit-x86_64-unknown-linux-musl-v0.22.2.tgz",
-      "sha256": "7fb9497f8594b389e5fce5ef9b92db08432996895b2e0c5a0167a69ed445c428",
-      "size": 6648968,
+      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.23.0/cargo-audit-x86_64-unknown-linux-musl-v0.23.0.tgz",
+      "sha256": "4f01c74ed84b2dffd0b1d37012a62cdf2a92c96e25bdf8eec7fcc0d4d3eb7811",
+      "size": 6481356,
       "format": "tar.gz",
-      "releaseTag": "cargo-audit/v0.22.2",
+      "releaseTag": "cargo-audit/v0.23.0",
       "binaries": {
         "cargo-audit": {
-          "path": "cargo-audit-x86_64-unknown-linux-musl-v0.22.2/cargo-audit",
-          "sha256": "66f9c8f530950d106c1869ce27ef5a4008bcea53c7716c3ed8117586337ee7d8"
+          "path": "cargo-audit-x86_64-unknown-linux-musl-v0.23.0/cargo-audit",
+          "sha256": "ae133cc7bdfc6d61d1f9d000da3259423f1a232e6275e9ade45b4b4c67207b64"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.22.2/cargo-audit-aarch64-unknown-linux-gnu-v0.22.2.tgz",
-      "sha256": "c6603814ddaa45e51263dafd31c0ac98808f688d26f7395804f9670b0fd599dd",
-      "size": 6027187,
+      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.23.0/cargo-audit-aarch64-unknown-linux-gnu-v0.23.0.tgz",
+      "sha256": "00eff3158429b9629abe8748e971f29f99ee53d4cff54a25072cbb15167bdda8",
+      "size": 5867831,
       "format": "tar.gz",
-      "releaseTag": "cargo-audit/v0.22.2",
+      "releaseTag": "cargo-audit/v0.23.0",
       "binaries": {
         "cargo-audit": {
-          "path": "cargo-audit-aarch64-unknown-linux-gnu-v0.22.2/cargo-audit",
-          "sha256": "bc1528b7ba3b7dc0bb681eaa13237fb195142ef0ba037f0e73d28afc3ec22c4d"
+          "path": "cargo-audit-aarch64-unknown-linux-gnu-v0.23.0/cargo-audit",
+          "sha256": "9307386968f817987bcae4192d113d94d69539f5c58f0b8a9b1a9a31d074a446"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.22.2/cargo-audit-x86_64-apple-darwin-v0.22.2.tgz",
-      "sha256": "847831323de932155b226ab60ee4a180e13e5d007a019f0d4b7b4d89a6de2ab2",
-      "size": 6357453,
+      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.23.0/cargo-audit-x86_64-apple-darwin-v0.23.0.tgz",
+      "sha256": "845ec02452dd233c292be887700ac99a38a697299423081ee0d8ea1a0c961464",
+      "size": 6220205,
       "format": "tar.gz",
-      "releaseTag": "cargo-audit/v0.22.2",
+      "releaseTag": "cargo-audit/v0.23.0",
       "binaries": {
         "cargo-audit": {
-          "path": "cargo-audit-x86_64-apple-darwin-v0.22.2/cargo-audit",
-          "sha256": "1a63bb3ab4f99a0220a8e4d8a677692afe5901cb44a949b2473c545a02028326"
+          "path": "cargo-audit-x86_64-apple-darwin-v0.23.0/cargo-audit",
+          "sha256": "16cf8cf04e0fba3d7cdebbb344e501367be404fe1ccac8ba2633f12e665042de"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.22.2/cargo-audit-aarch64-apple-darwin-v0.22.2.tgz",
-      "sha256": "ec7ca4263769593df4d909be85b94a6b79efa2897be5d2bb8ebd516e823175af",
-      "size": 5954803,
+      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.23.0/cargo-audit-aarch64-apple-darwin-v0.23.0.tgz",
+      "sha256": "84101204e5b8013c9a8d7251766aebdef3e7fa1a3ef040cde44d65b48b8c4056",
+      "size": 5758164,
       "format": "tar.gz",
-      "releaseTag": "cargo-audit/v0.22.2",
+      "releaseTag": "cargo-audit/v0.23.0",
       "binaries": {
         "cargo-audit": {
-          "path": "cargo-audit-aarch64-apple-darwin-v0.22.2/cargo-audit",
-          "sha256": "33fbe81adca1b794f4ffe98574d59b0ebe6fcfdb310976fafed98a094c795111"
+          "path": "cargo-audit-aarch64-apple-darwin-v0.23.0/cargo-audit",
+          "sha256": "d0077fd0e21972623699c1fcf61d7e87bbbfb0570b5fbb57d9e5b91b5e85e425"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.22.2/cargo-audit-x86_64-pc-windows-msvc-v0.22.2.zip",
-      "sha256": "0a7316540862c13d954f648917ceacca593747baed6eec180fafa590be2710ab",
-      "size": 6192256,
+      "url": "https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.23.0/cargo-audit-x86_64-pc-windows-msvc-v0.23.0.zip",
+      "sha256": "aafeb61206730029601a72e669a12231f8674427e6248d02f6cb382cb36d56b4",
+      "size": 6158091,
       "format": "zip",
-      "releaseTag": "cargo-audit/v0.22.2",
+      "releaseTag": "cargo-audit/v0.23.0",
       "binaries": {
         "cargo-audit.exe": {
-          "path": "cargo-audit-x86_64-pc-windows-msvc-v0.22.2/cargo-audit.exe",
-          "sha256": "0157f5ce1ce9fd4fb0a1f7c79af1229771d1f80b6c2613ddb0d9200a8ba73946"
+          "path": "cargo-audit-x86_64-pc-windows-msvc-v0.23.0/cargo-audit.exe",
+          "sha256": "da6176c4ff085a66c3c56053d373b9599f72dabad90fc8e318f0f054929cbb5a"
         }
       }
     }
