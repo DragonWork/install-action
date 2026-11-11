@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "monosecret",
+  "version": "0.5.0",
+  "repository": "ifiokjr/monosecret",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ifiokjr/monosecret/releases/download/v0.5.0/monosecret-x86_64-unknown-linux-musl-v0.5.0.tar.gz",
+      "sha256": "b8f9aa4f2767818db7cd591ba880c6d840196a328777e32da825df29c4e52f2b",
+      "size": 22264802,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "monosecret": {
+          "path": "monosecret",
+          "sha256": "4f071fa6d98f80e2ca5a0d2bb2dbcbb6cd40b9dade69ef079e46b87ae9bb2dc9"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ifiokjr/monosecret/releases/download/v0.5.0/monosecret-aarch64-unknown-linux-musl-v0.5.0.tar.gz",
+      "sha256": "439482a67604f2d3528212a67df46354e6a211deeb4cf47e652e3296eb145355",
+      "size": 21477127,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "monosecret": {
+          "path": "monosecret",
+          "sha256": "03ef1622e3474509b6a6fe29dfbd70fb92812b2950597f9ad82c3b21b3c71298"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ifiokjr/monosecret/releases/download/v0.5.0/monosecret-x86_64-apple-darwin-v0.5.0.tar.gz",
+      "sha256": "778c396aad5b2e8dd6edbc0cf3b07f44894a78abbf2b1207c3cc9baaa960b521",
+      "size": 18537600,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "monosecret": {
+          "path": "monosecret",
+          "sha256": "b1790ba5eba005e81d651d214e40b9c50d5711ad13170d604ca925a87575c90a"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ifiokjr/monosecret/releases/download/v0.5.0/monosecret-aarch64-apple-darwin-v0.5.0.tar.gz",
+      "sha256": "edbdb28d071bae707891bb0920e81d2f9c15b5a0ba071a631519a6608a046683",
+      "size": 17770192,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "monosecret": {
+          "path": "monosecret",
+          "sha256": "c657333f9d0c7a1110ae075ae7fcb67b0e82c5a87dc5fbec46e81d3df3c997bd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ifiokjr/monosecret/releases/download/v0.5.0/monosecret-x86_64-pc-windows-msvc-v0.5.0.zip",
+      "sha256": "205182f3c966e86d11b43d798d214490b6d985e2723c3cfb48c2f1bb8df399bb",
+      "size": 16258070,
+      "format": "zip",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "monosecret.exe": {
+          "path": "monosecret.exe",
+          "sha256": "0526b6269312c63805c3a8f793118bc9297d621f33ea86cdaa164a7245ee40e9"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ifiokjr/monosecret/releases/download/v0.5.0/monosecret-aarch64-pc-windows-msvc-v0.5.0.zip",
+      "sha256": "ed024bb1d2eb2b006aa47564e770651c0842d627d1d2d380e8cfb84790bafed8",
+      "size": 15125994,
+      "format": "zip",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "monosecret.exe": {
+          "path": "monosecret.exe",
+          "sha256": "6da2c36d20f75256fa1b4aff48ee820aed786c44499a1247eef033e4268b8fcf"
+        }
+      }
+    }
+  }
+}
