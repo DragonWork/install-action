@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "lethe",
-  "version": "0.8.0",
+  "version": "1.0.1",
   "repository": "Kostassoid/lethe",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/Kostassoid/lethe/releases/download/v0.8.0/lethe-v0.8.0-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.8.0",
-      "sha256": "dcfe1356f123ce2f8cf11165b441721d0845edbed195e5fbd9ee4fdfa6e24e68",
-      "size": 1499973,
-      "format": "tar.gz",
+      "url": "https://github.com/Kostassoid/lethe/releases/download/v1.0.1/lethe-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "7bf3e68e57f877f78e66fdcddf868d0c4850d44edfd725da1cbe8d90b2dfdcb0",
+      "size": 949672,
+      "format": "tar.xz",
+      "releaseTag": "v1.0.1",
       "binaries": {
         "lethe": {
-          "path": "lethe",
-          "sha256": "cc33a67043b0f2c9db01f97bb2680ab2e6566d3b1dd71f204a6f90db37df0097"
+          "path": "lethe-x86_64-unknown-linux-musl/lethe",
+          "sha256": "ef54268bebae7332e3c0b03395b93f4fab59e2189eb1f67010686d8f0a060e71"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Kostassoid/lethe/releases/download/v1.0.1/lethe-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "8fcf7c41d160aaba8a033279cecbd7b8f5e53e69b5f578a192e2ea943e1d1bb2",
+      "size": 815828,
+      "format": "tar.xz",
+      "releaseTag": "v1.0.1",
+      "binaries": {
+        "lethe": {
+          "path": "lethe-aarch64-unknown-linux-musl/lethe",
+          "sha256": "f2b961c1b0863da29c30be78843e1575c690f1d2f2cb6f755c4b369a2380ae54"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Kostassoid/lethe/releases/download/v1.0.1/lethe-aarch64-apple-darwin.tar.xz",
+      "sha256": "2c89d6010d2c8e616b56307d95606e1d07638fd00549b5556aefa1648b183e45",
+      "size": 784704,
+      "format": "tar.xz",
+      "releaseTag": "v1.0.1",
+      "binaries": {
+        "lethe": {
+          "path": "lethe-aarch64-apple-darwin/lethe",
+          "sha256": "cc6d38314799d7270bf07a2164ee122a904bd7d35d6ffeb72ef5ab1a94d111dd"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Kostassoid/lethe/releases/download/v1.0.1/lethe-x86_64-pc-windows-msvc.zip",
+      "sha256": "7b7d63a1eb9c3c92e775104dc91f65312ab9947226eb39349023d9d1b8a2835e",
+      "size": 1137218,
+      "format": "zip",
+      "releaseTag": "v1.0.1",
+      "binaries": {
+        "lethe.exe": {
+          "path": "lethe.exe",
+          "sha256": "e1b241d39268b24c0cb019eea849bcd64f7b79bda7afd6ca06f60754323e17d6"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Kostassoid/lethe/releases/download/v1.0.1/lethe-aarch64-pc-windows-msvc.zip",
+      "sha256": "cafe01da6cc0ecc33bc48e1388693436123dc0a3220c9d63e535a9ef9647b984",
+      "size": 1043375,
+      "format": "zip",
+      "releaseTag": "v1.0.1",
+      "binaries": {
+        "lethe.exe": {
+          "path": "lethe.exe",
+          "sha256": "a8c481a895cfe0e4b5808eb73a4b18c576ce4b5188dd0cc3624fea4b182a5f6a"
         }
       }
     }
