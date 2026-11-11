@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "divviup-cli",
-  "version": "0.5.10",
+  "version": "0.5.11",
   "repository": "divviup/divviup-api",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.10/divviup-x86_64-unknown-linux-gnu",
-      "sha256": "4637629cc69aaaad27d137da8c6e0d48b8b4393dd02c25b21e714fdf92324f43",
-      "size": 13028784,
+      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.11/divviup-x86_64-unknown-linux-gnu",
+      "sha256": "09fad17d2320efd65538e5648800697bb42ee0384715c0b5bc39a1da0b783d42",
+      "size": 13191016,
       "format": "binary",
-      "releaseTag": "0.5.10",
+      "releaseTag": "0.5.11",
       "binaries": {
         "divviup": {
           "path": "divviup-x86_64-unknown-linux-gnu",
-          "sha256": "4637629cc69aaaad27d137da8c6e0d48b8b4393dd02c25b21e714fdf92324f43"
+          "sha256": "09fad17d2320efd65538e5648800697bb42ee0384715c0b5bc39a1da0b783d42"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.10/divviup-aarch64-unknown-linux-gnu",
-      "sha256": "e1497b31ef67e607fbadc31c6b597aebb27340bd1ec61c5884c4667172d73e3f",
-      "size": 12715088,
+      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.11/divviup-aarch64-unknown-linux-gnu",
+      "sha256": "b65b2b8b5975107f2d771f0c8e2a184f1a9c24b2f6bb9b88101f8c1538ce6e36",
+      "size": 12715016,
       "format": "binary",
-      "releaseTag": "0.5.10",
+      "releaseTag": "0.5.11",
       "binaries": {
         "divviup": {
           "path": "divviup-aarch64-unknown-linux-gnu",
-          "sha256": "e1497b31ef67e607fbadc31c6b597aebb27340bd1ec61c5884c4667172d73e3f"
+          "sha256": "b65b2b8b5975107f2d771f0c8e2a184f1a9c24b2f6bb9b88101f8c1538ce6e36"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.10/divviup-x86_64-apple-darwin",
-      "sha256": "e3bd67cb828e1a37fea5c46abba1a49213af8fa5e5fa5935b87ca9e0815a3c74",
+      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.11/divviup-x86_64-apple-darwin",
+      "sha256": "01a22b7a45473029057d088bd797d58aa0b8a256d14bed9322ed271d7a33a6b3",
       "size": 12225256,
       "format": "binary",
-      "releaseTag": "0.5.10",
+      "releaseTag": "0.5.11",
       "binaries": {
         "divviup": {
           "path": "divviup-x86_64-apple-darwin",
-          "sha256": "e3bd67cb828e1a37fea5c46abba1a49213af8fa5e5fa5935b87ca9e0815a3c74"
+          "sha256": "01a22b7a45473029057d088bd797d58aa0b8a256d14bed9322ed271d7a33a6b3"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.10/divviup-aarch64-apple-darwin",
-      "sha256": "fa4b9336e34b41a1f0d7db16931732d86cb91260c596a916b449b1db06f09847",
+      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.11/divviup-aarch64-apple-darwin",
+      "sha256": "feca74eda823b6990b6061ae5e7c1f8e8e57548125fbe2b4405f23e0ce2d872b",
       "size": 9891352,
       "format": "binary",
-      "releaseTag": "0.5.10",
+      "releaseTag": "0.5.11",
       "binaries": {
         "divviup": {
           "path": "divviup-aarch64-apple-darwin",
-          "sha256": "fa4b9336e34b41a1f0d7db16931732d86cb91260c596a916b449b1db06f09847"
+          "sha256": "feca74eda823b6990b6061ae5e7c1f8e8e57548125fbe2b4405f23e0ce2d872b"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.10/divviup-x86_64-pc-windows-msvc.exe",
-      "sha256": "3b83e0be5f17b33a8a876ad249ca9a94259bdabff2ab9ded947b9e6ad75c8b86",
+      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.11/divviup-x86_64-pc-windows-msvc.exe",
+      "sha256": "e08f0ef60b4994ea8b8424375e397b9207a1a4491ba88faeb8973c944be4fdfa",
       "size": 12870656,
       "format": "binary",
-      "releaseTag": "0.5.10",
+      "releaseTag": "0.5.11",
       "binaries": {
         "divviup.exe": {
           "path": "divviup-x86_64-pc-windows-msvc.exe",
-          "sha256": "3b83e0be5f17b33a8a876ad249ca9a94259bdabff2ab9ded947b9e6ad75c8b86"
+          "sha256": "e08f0ef60b4994ea8b8424375e397b9207a1a4491ba88faeb8973c944be4fdfa"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.10/divviup-aarch64-pc-windows-msvc.exe",
-      "sha256": "55816ca3328e66dddaaf8a567e6e34607e8d8e599a68fc0f42eb73aa7b51d553",
-      "size": 10778112,
+      "url": "https://github.com/divviup/divviup-api/releases/download/0.5.11/divviup-aarch64-pc-windows-msvc.exe",
+      "sha256": "28c58a35900b606d6613096ce38302820b8bf0d8edafdafb7c20e4a4636a7641",
+      "size": 10777600,
       "format": "binary",
-      "releaseTag": "0.5.10",
+      "releaseTag": "0.5.11",
       "binaries": {
         "divviup.exe": {
           "path": "divviup-aarch64-pc-windows-msvc.exe",
-          "sha256": "55816ca3328e66dddaaf8a567e6e34607e8d8e599a68fc0f42eb73aa7b51d553"
+          "sha256": "28c58a35900b606d6613096ce38302820b8bf0d8edafdafb7c20e4a4636a7641"
         }
       }
     }
