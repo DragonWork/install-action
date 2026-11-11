@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hyperlight-unikraft",
+  "version": "0.21.0",
+  "repository": "hyperlight-dev/hyperlight-unikraft",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hyperlight-dev/hyperlight-unikraft/releases/download/v0.21.0/hluk-v0.21.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "4b0536a948a9c380cbc7c47e1b04d28c66b2a3d5f25292ae1d90311b181ee722",
+      "size": 4255366,
+      "format": "tar.gz",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "hluk": {
+          "path": "hluk",
+          "sha256": "7ae62c08f862fc56dfc6eb470e0c17b54de0109723efa2b736192832193ffbea"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hyperlight-dev/hyperlight-unikraft/releases/download/v0.21.0/hluk-v0.21.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "ded91cf0f02fea63e07e7e963fa1954fb732fb41d1753bd617c723cba077dd4b",
+      "size": 4089877,
+      "format": "tar.gz",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "hluk": {
+          "path": "hluk",
+          "sha256": "518108446a100aa7e1fa0d158bfc877a67f4eeb5c9dffa3ccbd0dc909826be91"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hyperlight-dev/hyperlight-unikraft/releases/download/v0.21.0/hluk-v0.21.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "9077eda69f85a01e9c437b4cd1a757139b8aa1858f8d71db4e54964c6bd56caf",
+      "size": 3657180,
+      "format": "tar.gz",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "hluk": {
+          "path": "hluk",
+          "sha256": "d04b8fc453639551d2ed6094a6e008a719c1985e27b87bb1b9898c9fb46176d7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hyperlight-dev/hyperlight-unikraft/releases/download/v0.21.0/hluk-v0.21.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "974c52a81a0d47e0c71170cd0188608d211b2eb5939696a117b1d5af98710b58",
+      "size": 3689945,
+      "format": "zip",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "hluk.exe": {
+          "path": "hluk.exe",
+          "sha256": "d1d6d7de154a8a6d10a12ba4f87c5553f4fe3a059690b50dec72d21ec6a5970e"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/hyperlight-dev/hyperlight-unikraft/releases/download/v0.21.0/hluk-v0.21.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "9d6f5a84b803f9e21284d83d979392d0fdd011c0807006631feea1728d38655c",
+      "size": 3509674,
+      "format": "zip",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "hluk.exe": {
+          "path": "hluk.exe",
+          "sha256": "4d7aca81166772d432136a93ab0561f1bbf94d23733d7376f07bfc2f664049f0"
+        }
+      }
+    }
+  }
+}
