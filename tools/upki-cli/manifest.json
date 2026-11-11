@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "upki-cli",
+  "version": "1.0.0",
+  "repository": "rustls/upki",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.0/upki-cli-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "545e50b9ecc722bb8cf03397168e3a5a749e46dddc8d807fbb96610eaa7528c0",
+      "size": 2716812,
+      "format": "tar.xz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "upki": {
+          "path": "upki-cli-x86_64-unknown-linux-musl/upki",
+          "sha256": "895ae235647d9ef6148a1b0424542df9c53beb6f60f72d02a2306f9b69aae39b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.0/upki-cli-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "dfd0ce18d821253c8a1552c13ac8a35e86052a7b2c89bb234a9371058c60c285",
+      "size": 2425320,
+      "format": "tar.xz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "upki": {
+          "path": "upki-cli-aarch64-unknown-linux-gnu/upki",
+          "sha256": "74361d76c261ea6a771056518d9b7e7b243c44ec28aec68247986f0e158b4522"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.0/upki-cli-aarch64-apple-darwin.tar.xz",
+      "sha256": "898a67df92f9e0c5fe77eae57dbd9499f274beab723e79bd9567d4e87ab500d4",
+      "size": 2300872,
+      "format": "tar.xz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "upki": {
+          "path": "upki-cli-aarch64-apple-darwin/upki",
+          "sha256": "c2e542132085c178668df8de0b6339ed41fee9911ddbad2c960a27eaaf6e761f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.0/upki-cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "b60eb6c194603a4df533f40eb2ff604fadbb240c3a2f230b4e499254b4678659",
+      "size": 3210508,
+      "format": "zip",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "upki.exe": {
+          "path": "upki.exe",
+          "sha256": "501a96bf546e756e7281a7495544035765b430bb46c8462102ee6742e8af8fb0"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.0/upki-cli-aarch64-pc-windows-msvc.zip",
+      "sha256": "4bc7032daf5850be05cbaf1c47a73b3c4bd2bf22af95e179c479fb399b98322b",
+      "size": 3175807,
+      "format": "zip",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "upki.exe": {
+          "path": "upki.exe",
+          "sha256": "623db3c3a2c2a5dd5a22a182a822cbc0b7a17d847ae9eeb2b3164d061199b88e"
+        }
+      }
+    }
+  }
+}
