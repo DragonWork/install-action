@@ -19,26 +19,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  initialize:
+  plan:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-26.04
+    timeout-minutes: 30
     permissions:
       contents: write
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
-        with:
-          node-version: '24'
-      - run: node scripts/init-registry.cjs
-        env:
-          GH_TOKEN: ${{ github.token }}
-
-  plan:
-    needs: initialize
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-26.04
     outputs:
       head: ${{ steps.base.outputs.head }}
       artifact: ${{ steps.upload.outputs.artifact-id }}
@@ -51,6 +37,9 @@ jobs:
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '24'
+      - run: node scripts/init-registry.cjs
+        env:
+          GH_TOKEN: ${{ github.token }}
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: crates.io
@@ -62,28 +51,52 @@ jobs:
       - run: npm test
       - run: python3 -B -m unittest discover -s test -p '*_test.py'
       - name: Identify crates.io snapshot
+        if: inputs.crates == ''
         id: inventory
         run: python3 -B scripts/discover-crates.py --cache-info
       - id: cache
+        if: inputs.crates == ''
         uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: registry/catalog.json
           key: ${{ steps.inventory.outputs.key }}
           lookup-only: ${{ steps.inventory.outputs.restore != 'true' }}
       - name: Discover CLI crates
+        if: inputs.crates == ''
         id: discover
         run: python3 -B scripts/discover-crates.py
-      - if: steps.cache.outputs.cache-hit != 'true' || steps.inventory.outputs.key != steps.discover.outputs.key
+      - if: inputs.crates == '' && (steps.cache.outputs.cache-hit != 'true' || steps.inventory.outputs.key != steps.discover.outputs.key)
         uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: registry/catalog.json
           key: ${{ steps.discover.outputs.key }}
       - name: Resolve crate updates
         id: update
-        run: node scripts/update-tools.cjs plan
         env:
           CRATE_NAMES: ${{ inputs.crates }}
           GH_TOKEN: ${{ github.token }}
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs/promises');
+          const { planUpdate } = require('./scripts/update-tools.cjs');
+          const { assert, writeCommand, failure } = require('./lib/common.cjs');
+          (async () => {
+            const names = [...new Set((process.env.CRATE_NAMES || '').split(/[\s,]+/).filter(Boolean))];
+            if (process.env.CRATE_NAMES) {
+              assert(names.length > 0 && names.length <= 100, 'Select between 1 and 100 CLI crates.');
+              process.env.CRATE_BATCH_SIZE = String(names.length);
+            }
+            const output = process.env.GITHUB_OUTPUT;
+            delete process.env.GITHUB_OUTPUT;
+            const plan = await planUpdate('registry');
+            assert(names.every(name => plan.names.includes(name)), 'Insufficient API budget for all selected crates; retry after the rate limit resets.');
+            // Keep small requests on one runner; fan larger batches out in groups of ten.
+            plan.shards = Math.min(6, Math.ceil(plan.names.length / 10)) || 1;
+            await fs.writeFile('registry/update-plan.json', JSON.stringify(plan) + '\n');
+            await writeCommand(output, 'work', String(plan.names.length > 0));
+            await writeCommand(output, 'matrix', JSON.stringify(Array.from({ length: plan.shards }, (_, i) => i)));
+          })().catch(failure);
+          NODE
       - run: npm run check
       - id: upload
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -96,16 +109,18 @@ jobs:
             registry/update-plan.json
           if-no-files-found: error
           retention-days: 3
+          overwrite: true
 
   prepare:
     needs: plan
     if: needs.plan.outputs.work == 'true'
     strategy:
       fail-fast: false
-      max-parallel: 3
+      max-parallel: 6
       matrix:
         shard: ${{ fromJSON(needs.plan.outputs.matrix) }}
     runs-on: ubuntu-26.04
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -124,20 +139,21 @@ jobs:
           GH_TOKEN: ${{ github.token }}
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: prepared-${{ matrix.shard }}
+          name: prepared-${{ needs.plan.outputs.artifact }}-${{ matrix.shard }}
           path: prepared
           if-no-files-found: error
           retention-days: 3
+          overwrite: true
 
   merge:
     needs: [plan, prepare]
     if: always() && needs.plan.result == 'success' && (needs.prepare.result == 'success' || needs.prepare.result == 'skipped')
     runs-on: ubuntu-26.04
+    timeout-minutes: 10
     outputs:
       artifact: ${{ steps.upload.outputs.artifact-id }}
       changed: ${{ steps.merge.outputs.changed }}
       names: ${{ steps.merge.outputs.names }}
-      remaining: ${{ steps.merge.outputs.remaining }}
       platforms: ${{ steps.merge.outputs.platforms }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -154,11 +170,35 @@ jobs:
       - if: needs.plan.outputs.work == 'true'
         uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
-          pattern: prepared-*
+          pattern: prepared-${{ needs.plan.outputs.artifact }}-*
           path: prepared
           merge-multiple: true
       - id: merge
         run: node scripts/update-tools.cjs merge
+      - name: Report batch results
+        env:
+          CRATE_NAMES: ${{ inputs.crates }}
+          CHANGED_CRATES: ${{ steps.merge.outputs.names }}
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs/promises');
+          const { assert, failure } = require('./lib/common.cjs');
+          (async () => {
+            const progress = JSON.parse(await fs.readFile('registry/catalog-progress.json'));
+            const changed = (process.env.CHANGED_CRATES || '').split(' ').filter(Boolean);
+            await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,
+              `Prepared ${changed.length} tools. Remaining: ${progress.remaining}; ready: ${progress.runnable}.\n\n`
+              + (progress.remaining ? 'Remaining work resumes on the next scheduled Update crates run.\n' : 'The catalog is caught up.\n'));
+            if (!process.env.CRATE_NAMES) return;
+            const plan = JSON.parse(await fs.readFile('registry/update-plan.json'));
+            const reports = await Promise.all(Array.from({ length: plan.shards }, (_, i) =>
+              fs.readFile(`prepared/worker-${i}.json`, 'utf8').then(JSON.parse)));
+            for (const name of plan.names) {
+              const report = reports.find(worker => worker.attempted.includes(name));
+              assert(report && !report.failures[name], `${name}: ${report?.failures[name]?.reason || 'preparation deferred; retry this request'}`);
+            }
+          })().catch(failure);
+          NODE
       - run: npm run check
       - id: upload
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -171,15 +211,18 @@ jobs:
             registry/catalog-progress.json
           if-no-files-found: error
           retention-days: 3
+          overwrite: true
 
   validate:
     needs: merge
     if: needs.merge.outputs.changed == 'true'
     strategy:
       fail-fast: false
+      max-parallel: 6
       matrix:
         os: ${{ fromJSON(needs.merge.outputs.platforms) }}
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -201,8 +244,10 @@ jobs:
     needs: [plan, merge, validate]
     if: always() && needs.merge.result == 'success' && (needs.validate.result == 'success' || needs.validate.result == 'skipped')
     runs-on: ubuntu-26.04
+    timeout-minutes: 20
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -216,26 +261,42 @@ jobs:
           artifact-ids: ${{ needs.merge.outputs.artifact }}
           path: registry
           merge-multiple: true
-      - run: node scripts/publish-tools.cjs
+      - name: Publish validated tools and refresh Pages when inputs change
         env:
           GH_TOKEN: ${{ github.token }}
           CRATES_HEAD: ${{ needs.plan.outputs.head }}
           CHANGED_CRATES: ${{ needs.merge.outputs.names }}
-
-  continue:
-    needs: [merge, publish]
-    if: always() && needs.publish.result == 'success' && needs.merge.outputs.remaining != '0'
-    runs-on: ubuntu-26.04
-    permissions:
-      actions: write
-      contents: read
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
-        with:
-          node-version: '24'
-      - run: node scripts/continue-catalog.cjs
-        env:
-          GH_TOKEN: ${{ github.token }}
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs/promises');
+          const { api } = require('./scripts/github.cjs');
+          const { main: publish, contents } = require('./scripts/publish-tools.cjs');
+          const { assert, failure } = require('./lib/common.cjs');
+          const base = '/repos/DragonWork/install-action';
+          async function inputs(head) {
+            const commit = await api(`${base}/git/commits/${head}`);
+            const tree = await api(`${base}/git/trees/${commit.tree.sha}`);
+            return JSON.stringify(tree.tree.filter(entry => ['tools', 'catalog.json'].includes(entry.path))
+              .map(entry => [entry.path, entry.sha]).sort());
+          }
+          (async () => {
+            const before = await inputs(process.env.CRATES_HEAD);
+            // A failed publication may already have committed part of this batch.
+            // The publisher still checks every namespace and refuses downgrades.
+            const live = (await api(`${base}/git/ref/heads/crates.io`)).object.sha;
+            if (live !== process.env.CRATES_HEAD) {
+              for (const file of ['catalog.json', 'catalog-state.json', 'catalog-progress.json']) {
+                const original = await contents('DragonWork/install-action', file, process.env.CRATES_HEAD);
+                const current = await contents('DragonWork/install-action', file, live);
+                assert(original === current || current === await fs.readFile(`registry/${file}`, 'utf8'),
+                  `${file} changed in another update; start a new Update crates run.`);
+              }
+            }
+            process.env.CRATES_HEAD = live;
+            await publish();
+            const after = (await api(`${base}/git/ref/heads/crates.io`)).object.sha;
+            if (before !== await inputs(after)) {
+              await api(`${base}/actions/workflows/pages.yml/dispatches`, { method: 'POST', body: { ref: 'main' } });
+            }
+          })().catch(failure);
+          NODE

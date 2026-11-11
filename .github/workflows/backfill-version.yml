@@ -8,7 +8,7 @@ on:
         type: string
         required: true
       version:
-        description: Exact stable crate version.
+        description: Exact stable version; adds it to the catalog if newer than the listed version.
         type: string
         required: true
 
@@ -28,10 +28,12 @@ jobs:
   prepare:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-26.04
+    timeout-minutes: 20
     outputs:
       artifact: ${{ steps.upload.outputs.artifact-id }}
       platforms: ${{ steps.prepare.outputs.platforms }}
       work: ${{ steps.prepare.outputs.work }}
+      publish: ${{ steps.prepare.outputs.publish }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -40,12 +42,46 @@ jobs:
         with:
           node-version: '24'
       - id: prepare
-        run: node scripts/backfill-version.cjs prepare
         env:
           GH_TOKEN: ${{ github.token }}
-      - if: steps.prepare.outputs.work == 'true'
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs/promises');
+          const { prepare } = require('./scripts/backfill-version.cjs');
+          const { api } = require('./scripts/github.cjs');
+          const { contents } = require('./scripts/publish-tools.cjs');
+          const { compareVersions } = require('./scripts/update-tools.cjs');
+          const { assert, writeCommand, failure } = require('./lib/common.cjs');
+          (async () => {
+            await prepare('registry');
+            const metadata = await fs.readFile('registry/backfill.json', 'utf8').catch(error => {
+              if (error.code !== 'ENOENT') throw error;
+            });
+            if (!metadata) {
+              // Existing tags were already verified by prepare(); register them without downloading again.
+              const repository = 'DragonWork/install-action';
+              const name = process.env.CRATE_NAME, version = process.env.CRATE_VERSION;
+              const head = (await api(`/repos/${repository}/git/ref/heads/crates.io`)).object.sha;
+              const previous = await contents(repository, `tools/${name}/manifest.json`, head);
+              if (previous && compareVersions(JSON.parse(previous).version, version) >= 0) {
+                await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, `${name} ${version} is already published and the catalog is current.\n`);
+                return;
+              }
+              const tag = (await api(`/repos/${repository}/git/ref/tags/${name}/v${version}`)).object.sha;
+              await fs.mkdir(`registry/tools/${name}`, { recursive: true });
+              for (const file of ['manifest.json', 'action.yml']) {
+                const content = await contents(repository, `tools/${name}/${file}`, tag);
+                assert(content, `Missing published ${file}.`);
+                await fs.writeFile(`registry/tools/${name}/${file}`, content);
+              }
+              await fs.writeFile('registry/backfill.json', JSON.stringify({ name, version, head }) + '\n');
+            }
+            await writeCommand(process.env.GITHUB_OUTPUT, 'publish', 'true');
+          })().catch(failure);
+          NODE
+      - if: steps.prepare.outputs.publish == 'true'
         run: npm run check
-      - if: steps.prepare.outputs.work == 'true'
+      - if: steps.prepare.outputs.publish == 'true'
         id: upload
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
@@ -53,15 +89,18 @@ jobs:
           path: registry
           retention-days: 3
           if-no-files-found: error
+          overwrite: true
 
   validate:
     needs: prepare
     if: needs.prepare.outputs.work == 'true'
     strategy:
       fail-fast: false
+      max-parallel: 6
       matrix:
         os: ${{ fromJSON(needs.prepare.outputs.platforms) }}
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -78,10 +117,12 @@ jobs:
 
   publish:
     needs: [prepare, validate]
-    if: needs.prepare.outputs.work == 'true'
+    if: always() && needs.prepare.result == 'success' && needs.prepare.outputs.publish == 'true' && (needs.validate.result == 'success' || needs.validate.result == 'skipped')
     runs-on: ubuntu-26.04
+    timeout-minutes: 10
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -94,6 +135,46 @@ jobs:
           artifact-ids: ${{ needs.prepare.outputs.artifact }}
           path: registry
           merge-multiple: true
-      - run: node scripts/backfill-version.cjs publish
+      - name: Publish version, register the newest manifest, and refresh Pages
         env:
           GH_TOKEN: ${{ github.token }}
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs/promises');
+          const { publish } = require('./scripts/backfill-version.cjs');
+          const { api, signedCommit } = require('./scripts/github.cjs');
+          const { contents } = require('./scripts/publish-tools.cjs');
+          const { compareVersions } = require('./scripts/update-tools.cjs');
+          const { failure } = require('./lib/common.cjs');
+          const repository = 'DragonWork/install-action', base = `/repos/${repository}`;
+          async function inputs(head) {
+            const commit = await api(`${base}/git/commits/${head}`);
+            const tree = await api(`${base}/git/trees/${commit.tree.sha}`);
+            return JSON.stringify(tree.tree.filter(entry => ['tools', 'catalog.json'].includes(entry.path))
+              .map(entry => [entry.path, entry.sha]).sort());
+          }
+          (async () => {
+            const metadata = JSON.parse(await fs.readFile('registry/backfill.json'));
+            const before = await inputs(metadata.head);
+            // Rebase the isolated tag commit on retry; existing tags remain immutable.
+            metadata.head = (await api(`${base}/git/ref/heads/crates.io`)).object.sha;
+            await fs.writeFile('registry/backfill.json', JSON.stringify(metadata) + '\n');
+            await publish('registry');
+            const { name, version } = metadata;
+            const head = (await api(`${base}/git/ref/heads/crates.io`)).object.sha;
+            const previous = await contents(repository, `tools/${name}/manifest.json`, head);
+            if (!previous || compareVersions(version, JSON.parse(previous).version) > 0) {
+              const files = {};
+              for (const file of ['manifest.json', 'action.yml']) {
+                files[`tools/${name}/${file}`] = await fs.readFile(`registry/tools/${name}/${file}`, 'utf8');
+              }
+              await signedCommit(repository, 'crates.io', head, `feat(${name}): register ${version} in catalog`, files);
+            }
+            const after = (await api(`${base}/git/ref/heads/crates.io`)).object.sha;
+            if (before !== await inputs(after)) {
+              await api(`${base}/actions/workflows/pages.yml/dispatches`, { method: 'POST', body: { ref: 'main' } });
+            }
+            await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,
+              `Published ${name}/v${version}. The catalog lists the newest registered version; older versions retain their tags.\n`);
+          })().catch(failure);
+          NODE
