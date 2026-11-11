@@ -43,7 +43,7 @@ async function prepare(directory) {
   const data = await response.json();
   const selected = data.versions.find(entry => entry.num === version && !entry.yanked);
   assert(data.crate.id === name && selected?.bin_names?.length, 'No matching non-yanked CLI crate version.');
-  const { manifest } = await generate(name, null, { record: {
+  const { manifest } = await generate(name, null, { manual: true, record: {
     version, binaries: selected.bin_names, downloads: data.crate.downloads,
     repository: selected.repository || data.crate.repository,
   } });

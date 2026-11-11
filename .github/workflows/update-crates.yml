@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       crates:
-        description: CLI crates to prioritize (space-separated).
+        description: CLI crates to add or update regardless of download count (space-separated).
         type: string
         default: ''
 

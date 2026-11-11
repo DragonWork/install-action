@@ -278,14 +278,14 @@ async function prebuilts(name, version, repository, binaries, temporary, knownRe
   return artifacts;
 }
 
-async function generate(name, previous, { record, release: knownRelease } = {}) {
+async function generate(name, previous, { record, release: knownRelease, manual = false } = {}) {
   assert(NAME.test(name), 'Invalid crate name.');
-  if (record) assert(record.downloads >= 10000, `${name} has fewer than 10,000 total downloads.`);
+  if (record && !manual) assert(record.downloads >= 10000, `${name} has fewer than 10,000 total downloads.`);
   let selected = record && { num: record.version, bin_names: record.binaries, repository: record.repository };
   if (!selected) {
     const data = await cratesApi(`/crates/${name}`);
     assert(data.crate.id === name, `Use the canonical crate name: ${data.crate.id}`);
-    assert(data.crate.downloads >= 10000, `${name} has fewer than 10,000 total downloads.`);
+    if (!manual) assert(data.crate.downloads >= 10000, `${name} has fewer than 10,000 total downloads.`);
     selected = data.versions.filter(v => !v.yanked && VERSION.test(v.num) && v.bin_names?.length)
       .sort((a, b) => compareVersions(b.num, a.num))[0];
     if (selected) selected.repository ||= data.crate.repository;
@@ -387,7 +387,7 @@ async function planUpdate(directory) {
   const plan = { names, shards: Math.min(3, names.length) || 1, candidates: Object.fromEntries(names.map(name => [name, {
     previous: current[name] || null,
     targetVersion: catalog.crates[name]?.version || null,
-    ...(extra.includes(name) ? {} : { record: catalog.crates[name], release: state[name]?.release }),
+    ...(extra.includes(name) ? { manual: true } : { record: catalog.crates[name], release: state[name]?.release }),
   }])) };
   await fs.mkdir(directory, { recursive: true });
   await fs.writeFile(path.join(directory, 'catalog-state.json'), JSON.stringify(state, null, 2) + '\n');

@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       crate:
-        description: CLI crate name.
+        description: CLI crate name (no minimum download count).
         type: string
         required: true
       version:

@@ -67,6 +67,46 @@ test('backfilling a verified existing version skips downloads and validation job
   await assert.rejects(fs.stat(path.join(root, 'registry')), { code: 'ENOENT' });
 });
 
+test('manual backfills accept low-download crates while rejecting yanked or non-CLI versions', async t => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-manual-backfill-'));
+  const originalFetch = global.fetch, originalEnv = { ...process.env };
+  t.after(async () => {
+    global.fetch = originalFetch;
+    for (const key of Object.keys(process.env)) if (!(key in originalEnv)) delete process.env[key];
+    Object.assign(process.env, originalEnv);
+    await fs.rm(root, { recursive: true, force: true });
+  });
+  Object.assign(process.env, { GITHUB_REPOSITORY: 'DragonWork/install-action', GITHUB_REF: 'refs/heads/main',
+    CRATE_NAME: 'upki-cli', CRATE_VERSION: '1.0.0', GITHUB_OUTPUT: path.join(root, 'output') });
+  const bytes = executable('linux-x64');
+  const url = 'https://github.com/example/upki/releases/download/v1.0.0/upki-cli_linux_x64_bin';
+  const selected = { num: '1.0.0', yanked: false, bin_names: ['upki'] };
+  global.fetch = async request => {
+    if (request.includes('/git/ref/tags/')) return Response.json({}, { status: 404 });
+    if (request === 'https://crates.io/api/v1/crates/upki-cli') return Response.json({
+      crate: { id: 'upki-cli', downloads: 1, repository: 'https://github.com/example/upki' }, versions: [selected],
+    });
+    if (request === 'https://api.github.com/graphql') return Response.json({ data: { repository: { nameWithOwner: 'example/upki' } } });
+    if (request.endsWith('/releases/tags/v1.0.0')) return Response.json({ tag_name: 'v1.0.0', assets: [{
+      name: 'upki-cli_linux_x64_bin', state: 'uploaded', size: bytes.length, browser_download_url: url,
+    }] });
+    if (request.endsWith('/git/ref/heads/crates.io')) return Response.json({ object: { sha: 'a'.repeat(40) } });
+    assert.equal(request, url);
+    return new Response(bytes);
+  };
+  const directory = path.join(root, 'registry');
+  await prepareHistorical(directory);
+  const manifest = JSON.parse(await fs.readFile(path.join(directory, 'tools/upki-cli/manifest.json')));
+  assert.equal(manifest.version, '1.0.0');
+  assert.deepEqual(Object.keys(manifest.artifacts['linux-x64'].binaries), ['upki']);
+  assert.match(await fs.readFile(process.env.GITHUB_OUTPUT, 'utf8'), /work=true/);
+  selected.yanked = true;
+  await assert.rejects(prepareHistorical(path.join(root, 'yanked')), /non-yanked CLI/);
+  selected.yanked = false;
+  selected.bin_names = [];
+  await assert.rejects(prepareHistorical(path.join(root, 'library')), /non-yanked CLI/);
+});
+
 test('crate wrappers call the selected engine without embedding its version', () => {
   const text = wrapper('cargo_example');
   assert.match(text, /"\$DW_INSTALL_NODE" "\$DW_INSTALL_ENGINE" "\$DW_MANIFEST"/);
@@ -174,6 +214,70 @@ test('a misleading CPU filename cannot publish the wrong architecture', async t 
     release: { repository: 'example/sample-cli', tag_name: 'v1.0.0', assets: [{ name: 'sample-cli-linux-x64', state: 'uploaded',
       size: bytes.length, browser_download_url: 'https://github.com/example/sample-cli/releases/download/v1.0.0/sample-cli-linux-x64' }] },
   }), /No prebuilt platform artifacts/);
+});
+
+test('automatic generation retains the download threshold for catalog records and live metadata', async t => {
+  const original = global.fetch;
+  t.after(() => { global.fetch = original; });
+  await assert.rejects(generate('upki-cli', null, { record: { downloads: 9999 } }), /fewer than 10,000/);
+  let lookups = 0;
+  global.fetch = async request => {
+    lookups++;
+    assert.equal(request, 'https://crates.io/api/v1/crates/upki-cli');
+    return Response.json({ crate: { id: 'upki-cli', downloads: 9999 } });
+  };
+  await assert.rejects(generate('upki-cli', null), /fewer than 10,000/);
+  assert.equal(lookups, 1);
+});
+
+test('manual low-download additions survive planning, preparation and merging beside automatic updates', async t => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-manual-update-'));
+  const originalFetch = global.fetch, originalEnv = { ...process.env };
+  t.after(async () => {
+    global.fetch = originalFetch;
+    for (const key of Object.keys(process.env)) if (!(key in originalEnv)) delete process.env[key];
+    Object.assign(process.env, originalEnv);
+    await fs.rm(root, { recursive: true, force: true });
+  });
+  Object.assign(process.env, { CRATE_NAMES: 'upki-cli', GITHUB_OUTPUT: path.join(root, 'output') });
+  for (const key of ['CRATE_BATCH_SIZE', 'CRATE_PROBE_SIZE', 'DISCOVER_RELEASES']) delete process.env[key];
+  const bytes = executable('linux-x64');
+  const release = (name, repository = `example/${name}`) => ({ repository, tag_name: 'v1.0.0', assets: [{
+    name: `${name}_linux_x64_bin`, state: 'uploaded', size: bytes.length,
+    browser_download_url: `https://github.com/${repository}/releases/download/v1.0.0/${name}_linux_x64_bin`,
+  }] });
+  const record = { version: '1.0.0', downloads: 10000, binaries: ['sample-cli'], repository: 'https://github.com/example/sample-cli' };
+  await fs.writeFile(path.join(root, 'catalog.json'), JSON.stringify({ minimumDownloads: 10000, crates: { 'sample-cli': record } }));
+  await fs.writeFile(path.join(root, 'catalog-state.json'), JSON.stringify({ 'sample-cli': {
+    version: '1.0.0', resolverRevision: 4, release: release('sample-cli'),
+  } }));
+  global.fetch = async request => {
+    if (request.endsWith('/rate_limit')) return Response.json({ resources: { core: { remaining: 1000 } } });
+    if (request === 'https://crates.io/api/v1/crates/upki-cli') return Response.json({
+      crate: { id: 'upki-cli', downloads: 1, repository: 'https://github.com/example/upki' },
+      versions: [
+        { num: '3.0.0-beta.1', yanked: false, bin_names: ['upki'] },
+        { num: '2.0.0', yanked: true, bin_names: ['upki'] },
+        { num: '1.0.0', yanked: false, bin_names: ['upki'] },
+      ],
+    });
+    if (request === 'https://api.github.com/graphql') return Response.json({ data: { repository: { nameWithOwner: 'example/upki' } } });
+    if (request.endsWith('/releases/tags/v1.0.0')) return Response.json(release('upki-cli', 'example/upki'));
+    assert([release('upki-cli', 'example/upki'), release('sample-cli')].some(value => value.assets[0].browser_download_url === request));
+    return new Response(bytes);
+  };
+  const plan = await planUpdate(root);
+  assert.deepEqual(plan.names, ['upki-cli', 'sample-cli']);
+  const output = path.join(root, 'prepared');
+  for (let shard = 0; shard < plan.shards; shard++) {
+    const report = await prepareShard(root, output, shard);
+    assert.deepEqual(report.failures, {});
+  }
+  await mergePrepared(root, output);
+  const manifest = JSON.parse(await fs.readFile(path.join(root, 'tools/upki-cli/manifest.json')));
+  assert.equal(manifest.version, '1.0.0');
+  assert.deepEqual(Object.keys(manifest.artifacts['linux-x64'].binaries), ['upki']);
+  assert.match(await fs.readFile(process.env.GITHUB_OUTPUT, 'utf8'), /names=upki-cli sample-cli/);
 });
 
 test('bulk discovery batches release lookups and records unavailable repositories', async t => {
