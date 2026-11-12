@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "grcov",
-  "version": "0.10.7",
+  "version": "0.10.8",
   "repository": "mozilla/grcov",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-x86_64-unknown-linux-musl.tar.bz2",
+      "sha256": "36d90cd7d4a92c5dd9bf7ec521e751d10c272e6a44ca228c46655119d6805c0d",
+      "size": 2992067,
+      "format": "tar.bz2",
+      "releaseTag": "v0.10.8",
+      "binaries": {
+        "grcov": {
+          "path": "grcov",
+          "sha256": "1d06507e9fa36b3087d589f10e362350978c98ed01c861fd5ed6181df1f4d9e1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-aarch64-unknown-linux-musl.tar.bz2",
+      "sha256": "d98bb5a177a9610177f39134aeeffebb772df4073e879e17bf0a9f39c4503d3c",
+      "size": 2654172,
+      "format": "tar.bz2",
+      "releaseTag": "v0.10.8",
+      "binaries": {
+        "grcov": {
+          "path": "grcov",
+          "sha256": "b85b8c89d6f86bd8fe3d99f96a60e566439cf25057007400f109e5daa0f3b432"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-x86_64-apple-darwin.tar.bz2",
+      "sha256": "7100963cce45cdebe1a3fcda3e9472ba10b3fc117d6da741671af2a01dcbbdf3",
+      "size": 2722453,
+      "format": "tar.bz2",
+      "releaseTag": "v0.10.8",
+      "binaries": {
+        "grcov": {
+          "path": "grcov",
+          "sha256": "70773a1de38aa93273614e9e99d737a0fad3fd3d6751d596837b3c0d623c2b8c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-aarch64-apple-darwin.tar.bz2",
+      "sha256": "c5441aae995470192afcd93f8da9fd56cf38a2caf910d3eafa7927ff847deba3",
+      "size": 2610023,
+      "format": "tar.bz2",
+      "releaseTag": "v0.10.8",
+      "binaries": {
+        "grcov": {
+          "path": "grcov",
+          "sha256": "d3db424c9abbbcc92f511ce7b8a5e76701f050fd67e71404947b86460d228a97"
+        }
+      }
+    },
     "win32-x64": {
-      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.7/grcov-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.10.7",
-      "sha256": "a6f3df650509382aa0d10594feccaa0b31aece8af7505c931351a95b4d8ca1a4",
-      "size": 2996300,
+      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-x86_64-pc-windows-msvc.zip",
+      "sha256": "a4da82112c8ddd7bd2db618b85d8cc40606ddd74b43140db9209895f5e73b771",
+      "size": 2967369,
       "format": "zip",
+      "releaseTag": "v0.10.8",
       "binaries": {
         "grcov.exe": {
           "path": "grcov.exe",
-          "sha256": "7fbb7b8b77944c232ee721501fafd5a738b79c465237436e83bd30612096dd69"
+          "sha256": "ec10aace13db489e9815d426bf58d9d5fe1e215ab8afdcd91d728f090236128b"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.7/grcov-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v0.10.7",
-      "sha256": "4b3f35c4159104fae4177caf75b5b1efe1ed69bdb9ed6cad23ac8d729c22e3e7",
-      "size": 2739666,
+      "url": "https://github.com/mozilla/grcov/releases/download/v0.10.8/grcov-aarch64-pc-windows-msvc.zip",
+      "sha256": "80eba01238b735407f5674d9f677c51567ea3a1dba3c48cec2bf999defffe9da",
+      "size": 2713906,
       "format": "zip",
+      "releaseTag": "v0.10.8",
       "binaries": {
         "grcov.exe": {
           "path": "grcov.exe",
-          "sha256": "37b0dc3b2ca9b01cf20553096996f40e9e23642759a9061d0085efddf00d5138"
+          "sha256": "449a784e210f678103106c466ae6736799a81407af78065fb936ed499fb72859"
         }
       }
     }
