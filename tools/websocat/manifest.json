@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "websocat",
-  "version": "1.14.1",
+  "version": "1.14.2",
   "repository": "vi/websocat",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/vi/websocat/releases/download/v1.14.1/websocat.x86_64-pc-windows-gnu.exe",
-      "releaseTag": "v1.14.1",
-      "sha256": "284339b5b86f2b11496137d97b6705bb2ef27e64f21527c1ba240bdb6177ba3b",
-      "size": 1929728,
+    "linux-x64": {
+      "url": "https://github.com/vi/websocat/releases/download/v1.14.2/websocat.x86_64-unknown-linux-musl",
+      "sha256": "cd26f92cb507f620e2d54fe6e126f4dc191f3eee90f2b53bccf07eac0645ec84",
+      "size": 7933400,
       "format": "binary",
+      "releaseTag": "v1.14.2",
+      "binaries": {
+        "websocat": {
+          "path": "websocat.x86_64-unknown-linux-musl",
+          "sha256": "cd26f92cb507f620e2d54fe6e126f4dc191f3eee90f2b53bccf07eac0645ec84"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/vi/websocat/releases/download/v1.14.2/websocat.aarch64-unknown-linux-musl",
+      "sha256": "cdd6b0bee24c81c537cb9ef257b433625355e0bbe002235f8df1e70acbd2c1dd",
+      "size": 6446632,
+      "format": "binary",
+      "releaseTag": "v1.14.2",
+      "binaries": {
+        "websocat": {
+          "path": "websocat.aarch64-unknown-linux-musl",
+          "sha256": "cdd6b0bee24c81c537cb9ef257b433625355e0bbe002235f8df1e70acbd2c1dd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/vi/websocat/releases/download/v1.14.2/websocat.x86_64-apple-darwin",
+      "sha256": "220b2706d32b1b87d4aa5dc2f50741032874754658aaaac914738c4aad10be9c",
+      "size": 2922573,
+      "format": "binary",
+      "releaseTag": "v1.14.2",
+      "binaries": {
+        "websocat": {
+          "path": "websocat.x86_64-apple-darwin",
+          "sha256": "220b2706d32b1b87d4aa5dc2f50741032874754658aaaac914738c4aad10be9c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/vi/websocat/releases/download/v1.14.2/websocat.aarch64-apple-darwin",
+      "sha256": "c11a379994e7cf7f14c8e5575de1667eeb64c31bacb0aea97b13a7704502384a",
+      "size": 2847656,
+      "format": "binary",
+      "releaseTag": "v1.14.2",
+      "binaries": {
+        "websocat": {
+          "path": "websocat.aarch64-apple-darwin",
+          "sha256": "c11a379994e7cf7f14c8e5575de1667eeb64c31bacb0aea97b13a7704502384a"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vi/websocat/releases/download/v1.14.2/websocat.x86_64-pc-windows-gnu.exe",
+      "sha256": "90797ce63356c5d2acb2e295c62642d8d28e86dd12908eaa5c3d254370036acd",
+      "size": 1950720,
+      "format": "binary",
+      "releaseTag": "v1.14.2",
       "binaries": {
         "websocat.exe": {
           "path": "websocat.x86_64-pc-windows-gnu.exe",
-          "sha256": "284339b5b86f2b11496137d97b6705bb2ef27e64f21527c1ba240bdb6177ba3b"
+          "sha256": "90797ce63356c5d2acb2e295c62642d8d28e86dd12908eaa5c3d254370036acd"
         }
       }
     }
