@@ -1,71 +1,75 @@
 {
   "schema": 1,
   "name": "zellij",
-  "version": "0.45.1",
+  "version": "0.46.0",
   "repository": "zellij-org/zellij",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.45.1",
-      "sha256": "40bcc2e03f5d5ae8e054e39f676081fe12ab70871506996ba595834c3718eefc",
-      "size": 18729165,
+      "url": "https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "a8ee599eb357b6142443c91506a4ece3aa8811cb75dcf2b28d194bd66853c79d",
+      "size": 38939226,
       "format": "tar.gz",
+      "releaseTag": "v0.46.0",
       "binaries": {
         "zellij": {
           "path": "zellij",
-          "sha256": "d006c521dcb475a6005d741e9dd7c5758e5a23b28dd60a5c10cebfa4876319dd"
+          "sha256": "afb6bfb5f9fdc3d9e9d094ce21866bc99d37073a5fbe75bb612e21fc9b96033d"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.45.1",
-      "sha256": "05f0802afadd53f8db9514e7cae53c9ae8432fed1b35b8294aa816ee3044a16b",
-      "size": 17986395,
+      "url": "https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "c416b3d29ec9c71baf8754fe66663afe4f615395895e3f9b8b6e3bd0f7042427",
+      "size": 37695880,
       "format": "tar.gz",
+      "releaseTag": "v0.46.0",
       "binaries": {
         "zellij": {
           "path": "zellij",
-          "sha256": "2a2c0621e6f3b11ecbb05d66939a48000a2508604620aa20727a5fd61c49f451"
+          "sha256": "09cc9f60eb122987c10221fa559aa00c441333a23ba53d727c807f36c5222147"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.45.1",
-      "sha256": "8e8bea22737d1652278c51fc5c26c7c22c9855d0ebb9634a84b8873823093114",
-      "size": 16044196,
+      "url": "https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-apple-darwin.tar.gz",
+      "sha256": "e3b6197af04b286f74f7a9f5f519e5a8cf048be65f0371a32b0d60abac97384a",
+      "size": 35216614,
       "format": "tar.gz",
+      "releaseTag": "v0.46.0",
       "binaries": {
         "zellij": {
           "path": "zellij",
-          "sha256": "e3afe876c04cb83ca3f68cb939113ec7b1abe5fb46c13727c102a64afcb4b7d4"
+          "sha256": "60d2d5ff0c20fd0b0d03c76209cf3b55e224518d01797af62ae8469a1a458da3"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.45.1",
-      "sha256": "c029ba4fe1927b79ad9f0cdd59155c4dff80777863c85857d4d09b88b56f9891",
-      "size": 15390807,
+      "url": "https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-aarch64-apple-darwin.tar.gz",
+      "sha256": "716a1c7887be83cc813900012a156a4d8e0ee1468ac56c58a299c9d8898cdc90",
+      "size": 34292914,
       "format": "tar.gz",
+      "releaseTag": "v0.46.0",
       "binaries": {
         "zellij": {
           "path": "zellij",
-          "sha256": "ca5f9333735bdbc59a621f1d8ed8e24798845302a28ff175d253d4793d5a4a2c"
+          "sha256": "27be5b0489377217aa47633253c0e7a162fcebced02351f36e97bf7dff29acdc"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.45.1",
-      "sha256": "b854e7b223e67d0705c5f685ef50541c38a57981b13624d09c92bed419b6f80d",
-      "size": 17336505,
+      "url": "https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-pc-windows-msvc.zip",
+      "sha256": "be19eed784ed3dd22a3b179b8b79086c0e3ee67ddc836092a1ea9d4306dfd934",
+      "size": 37261285,
       "format": "zip",
+      "releaseTag": "v0.46.0",
       "binaries": {
         "zellij.exe": {
           "path": "zellij.exe",
-          "sha256": "7c34f38921e6884873a9922bfdd4907f4d68fd0a2dd930ce357e4c7cb23f6f42"
+          "sha256": "a8baaee504d84ed9f0a7ef7181aac53ebccde3bea7530a1acbdfecc1746c7a74"
+        },
+        "zellij-terminal.exe": {
+          "path": "zellij-terminal.exe",
+          "sha256": "69fb349191c5f39fa35670e96b7d91c397f3d507388a40cd172eeff4117858d5"
         }
       }
     }
