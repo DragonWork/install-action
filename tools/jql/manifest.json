@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "jql",
-  "version": "9.0.3",
+  "version": "9.0.4",
   "repository": "yamafaktory/jql",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "jql-v9.0.3",
-      "sha256": "b1d5718b04c7cccd33735a25a85ade2f878b2bf402e1a037504f21f61f517099",
-      "size": 580579,
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.4/jql-v9.0.4-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "0ee9bc20ddc53dd13e3f8d84adbb4ff446a275d20f1c7fde83859382f307e7f0",
+      "size": 578400,
       "format": "tar.gz",
+      "releaseTag": "jql-v9.0.4",
       "binaries": {
         "jql": {
           "path": "jql",
-          "sha256": "d68ef2a3b24a7f010f1c8b5bf226c423c0d19997129c6a02baa377eb8f1dad23"
+          "sha256": "04e5ae7fd6e490391f6cbc526e2c0bafb574e2dfc14247273eb83c15aff4503f"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "jql-v9.0.3",
-      "sha256": "a26bcbb7a84f4125dcd2ece6e54b977a13b1ca6f994a4df7f27e00f0513153e3",
-      "size": 581570,
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.4/jql-v9.0.4-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "b10c29e3aa8790e7dbcf998e4c290a8a90c8c4a75354f630065eac7c24974a96",
+      "size": 580555,
       "format": "tar.gz",
+      "releaseTag": "jql-v9.0.4",
       "binaries": {
         "jql": {
           "path": "jql",
-          "sha256": "74f2d265adb96d30487f956899fba56494588938740c857568eb547722738d97"
+          "sha256": "9378f2192fed9f02d99174084058b75c58dd9bcdf8de48703c0f9bdd93941bea"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-x86_64-apple-darwin.zip",
-      "releaseTag": "jql-v9.0.3",
-      "sha256": "888b044ff3e9a91d74a4ed178a4438ea94628e199901b936b6d6303cacaadb79",
-      "size": 468628,
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.4/jql-v9.0.4-x86_64-apple-darwin.zip",
+      "sha256": "d6c687d2994e676c5ff8849bc05040f9268ba1fabe87a0787ecaefd8abb7b9ab",
+      "size": 472899,
       "format": "zip",
+      "releaseTag": "jql-v9.0.4",
       "binaries": {
         "jql": {
           "path": "jql",
-          "sha256": "7e29c619df57866725b11770834797d80f32a81f08e157c962bacc05b13aea3e"
+          "sha256": "4b259e59b77c166f8888fd2adec7f70f25db717072f1a3320d36488147fd1f3e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-aarch64-apple-darwin.zip",
-      "releaseTag": "jql-v9.0.3",
-      "sha256": "c57916e7e9fb0c5e81ccd1193de2fef16b36d1169cc25a724da4b6e436822ef2",
-      "size": 456042,
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.4/jql-v9.0.4-aarch64-apple-darwin.zip",
+      "sha256": "6b41e42d3f33f56fe5a734b83ef3a1a46206c28d61d74a11c9646437464ebc0f",
+      "size": 457218,
       "format": "zip",
+      "releaseTag": "jql-v9.0.4",
       "binaries": {
         "jql": {
           "path": "jql",
-          "sha256": "719174b11f7676d06710f63e0720a750fe4102768059651ac4450ff0baed316b"
+          "sha256": "f8cb2331d8f60ee040a0626caeaefe6489ed9fafdbbf6752f8944d852c79d7c7"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.3/jql-v9.0.3-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "jql-v9.0.3",
-      "sha256": "270816a8f06c96e6c4ecb32af379d3275991222f90648fa500f4572bbe68e2ba",
-      "size": 343331,
+      "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.4/jql-v9.0.4-x86_64-pc-windows-msvc.zip",
+      "sha256": "e01a4ff04f0caa377016593f70a2d1bfcee1210540c6ffe68d52a8d114794172",
+      "size": 345495,
       "format": "zip",
+      "releaseTag": "jql-v9.0.4",
       "binaries": {
         "jql.exe": {
           "path": "jql.exe",
-          "sha256": "5794ef390ec8f891d5606f6f79090265686145fab9202b88908779612afe15cd"
+          "sha256": "c50438c10e9a0741ab78c46a26476633fa12182414ac1ba545cbceb7e41fa60e"
         }
       }
     }
