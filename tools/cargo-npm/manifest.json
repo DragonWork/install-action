@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "cargo-npm",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "repository": "abemedia/cargo-npm",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.4/cargo-npm-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.1.4",
-      "sha256": "f5ac3420dcef6169a9009efc08246dab2118b4adf9719ee43f9186fd65c3d612",
-      "size": 829367,
+      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.5/cargo-npm-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "799b5f6f99289cfe7d8e3a01a3e2484794cf6f6cf3599bc056cfd798451e3c7d",
+      "size": 836990,
       "format": "tar.gz",
+      "releaseTag": "v0.1.5",
       "binaries": {
         "cargo-npm": {
           "path": "cargo-npm",
-          "sha256": "1d65b46e1a760e12097b1b9dd8a6216cd5df03ad209525836cd334cbb684e0c7"
+          "sha256": "812f713ee14954ea4631eb54f93b56840adb05cad0fc8900257f3495ca6c35de"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.4/cargo-npm-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.1.4",
-      "sha256": "21a1b2a19c3d272cdfde6f93a1184dc8858411bb6415ef2e177ecaa0b71902fb",
-      "size": 793209,
+      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.5/cargo-npm-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "1c467560c79aade07e22f221f561ff7acb4ef769dc5d4b68756488e3682345b3",
+      "size": 800099,
       "format": "tar.gz",
+      "releaseTag": "v0.1.5",
       "binaries": {
         "cargo-npm": {
           "path": "cargo-npm",
-          "sha256": "6599b704b662e97dfd4f1ed658a45926043734194cffa2b2ef7604bdb272cab7"
+          "sha256": "5a70bbcfd483af5682d6b03300ee983de437cc54e3fb94760a0de6d9f5e91e28"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.4/cargo-npm-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.1.4",
-      "sha256": "ecc6188c2c88126a79c371bfddd61c258b9a6adff1887969cd00f7788d2ef24f",
-      "size": 696941,
+      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.5/cargo-npm-x86_64-apple-darwin.tar.gz",
+      "sha256": "60577d547abdcfdb4e2778596e615b326f5ab4411f669d309dc974f922d94247",
+      "size": 710179,
       "format": "tar.gz",
+      "releaseTag": "v0.1.5",
       "binaries": {
         "cargo-npm": {
           "path": "cargo-npm",
-          "sha256": "0f684a4baf847b71531f15ec3a09449a46b1d9fb6eb8d389eb45fe292e98e76e"
+          "sha256": "1180e6ed204f4fe68d9cf8b174c49aa213a2ac0648d3b21608f48d7277ba7402"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.4/cargo-npm-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.1.4",
-      "sha256": "f93774bdac195a3fd5777a68e38e422404b076733f7a6e26072e92c49b01de94",
-      "size": 670338,
+      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.5/cargo-npm-aarch64-apple-darwin.tar.gz",
+      "sha256": "beab9aabac6218ea040eb61359057657be62bc77f6d01325f2c32709475f6155",
+      "size": 680983,
       "format": "tar.gz",
+      "releaseTag": "v0.1.5",
       "binaries": {
         "cargo-npm": {
           "path": "cargo-npm",
-          "sha256": "005c6bb80c26eeece980cc64a82f320296d9dad99227c200d9a4b2e684126c9d"
+          "sha256": "255391051ff31add19ef4aa3456df0d42080091969fd28022c2745de46b09da3"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.4/cargo-npm-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.1.4",
-      "sha256": "cabd6ef5dd4ee6db2ecec4273870a57c9a46b051f2ff6aae0e28e5264b90997b",
-      "size": 629039,
+      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.5/cargo-npm-x86_64-pc-windows-msvc.zip",
+      "sha256": "abcc2d514bb54e9901f3af4dc261c86b1b7a016317b9513f319deb9dfd44808b",
+      "size": 640620,
       "format": "zip",
+      "releaseTag": "v0.1.5",
       "binaries": {
         "cargo-npm.exe": {
           "path": "cargo-npm.exe",
-          "sha256": "617cee3ec11ab35a502b71f923d9c88a5c001b44b13ffd6e2c08d0c02a18109c"
+          "sha256": "e105a98b57f6f20457b5be8fc0e14b69a5ed3414589b4a7cdc2e13fed216a1f2"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.4/cargo-npm-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v0.1.4",
-      "sha256": "7d8f012c1ed97031fd5413f7093630ea1ba558741012b15fa96d891ed80d97cb",
-      "size": 597417,
+      "url": "https://github.com/abemedia/cargo-npm/releases/download/v0.1.5/cargo-npm-aarch64-pc-windows-msvc.zip",
+      "sha256": "7993ff1cd9ae408ac72a0f82025f1bc0614cd31a3a5f458bedf9b95dfbac0b31",
+      "size": 608969,
       "format": "zip",
+      "releaseTag": "v0.1.5",
       "binaries": {
         "cargo-npm.exe": {
           "path": "cargo-npm.exe",
-          "sha256": "715488d08f9b17f2f9f33fecf5638ddcd61b6c8badc394dd7acfa7252512cc07"
+          "sha256": "5a2929150259ba53293b272ea2c3d0a592c160642a33c0e2425d17519ca0c9d0"
         }
       }
     }
