@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "fstool",
+  "version": "0.5.3",
+  "repository": "KarpelesLab/fstool",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KarpelesLab/fstool/releases/download/v0.5.3/fstool-v0.5.3-linux-x86_64.tar.gz",
+      "sha256": "a6396714ef507a0fa7100d7356fa23e95dde2e6196f15e9a2498a3591685b7e0",
+      "size": 5219752,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.3",
+      "binaries": {
+        "fstool": {
+          "path": "./fstool",
+          "sha256": "001569544f047b6d91c9ebf593f74948ad46273dd76e8238dfe7b061a967ebc7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KarpelesLab/fstool/releases/download/v0.5.3/fstool-v0.5.3-linux-aarch64.tar.gz",
+      "sha256": "589c8d234e0828542ea43a13fd35ef62779b441db6f54f78adfec12174b1a689",
+      "size": 4807478,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.3",
+      "binaries": {
+        "fstool": {
+          "path": "./fstool",
+          "sha256": "a4fb0d5a3fca940c669d749cfd210391e6d791185eeef302c44164b025148ccb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KarpelesLab/fstool/releases/download/v0.5.3/fstool-v0.5.3-macos-universal.tar.gz",
+      "sha256": "42e9bc7ce8f3312b87735e627d06d9c222dcd2d0eda39f8d0ef49701ea5ee398",
+      "size": 9492039,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.3",
+      "binaries": {
+        "fstool": {
+          "path": "./fstool",
+          "sha256": "b51a0fcddd9f877f75c7fb744f358e38849f026919cdc02274a4a845d13459f0"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/KarpelesLab/fstool/releases/download/v0.5.3/fstool-v0.5.3-macos-universal.tar.gz",
+      "sha256": "42e9bc7ce8f3312b87735e627d06d9c222dcd2d0eda39f8d0ef49701ea5ee398",
+      "size": 9492039,
+      "format": "tar.gz",
+      "releaseTag": "v0.5.3",
+      "binaries": {
+        "fstool": {
+          "path": "./fstool",
+          "sha256": "b51a0fcddd9f877f75c7fb744f358e38849f026919cdc02274a4a845d13459f0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KarpelesLab/fstool/releases/download/v0.5.3/fstool-v0.5.3-windows-x86_64.zip",
+      "sha256": "883022d46f3caa0c47201a0ec706b239b979e7bdab1c6b68af9525ac42e975a0",
+      "size": 4569968,
+      "format": "zip",
+      "releaseTag": "v0.5.3",
+      "binaries": {
+        "fstool.exe": {
+          "path": "fstool.exe",
+          "sha256": "2aa7822de52079895a30c375427b026a281769e627ca951176b0d1c6915b4899"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/KarpelesLab/fstool/releases/download/v0.5.3/fstool-v0.5.3-windows-aarch64.zip",
+      "sha256": "c87e383507f89181553552d73fa685c59867760f5935260d9c9c6b4f1ed5d09c",
+      "size": 4098180,
+      "format": "zip",
+      "releaseTag": "v0.5.3",
+      "binaries": {
+        "fstool.exe": {
+          "path": "fstool.exe",
+          "sha256": "6467d4fac1b804215e31b9c18b5771662e33deefb3f0d320ee12519474455c98"
+        }
+      }
+    }
+  }
+}
