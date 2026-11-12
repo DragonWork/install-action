@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "uptime_lib",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "repository": "itchyny/uptime-rs",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.1/uptime-rs_v0.3.1_linux_amd64.zip",
-      "releaseTag": "v0.3.1",
-      "sha256": "bdd5c405d655c2bbda9071bbdb7d14390884aeba92fb17a24346562c9f6b0fa6",
-      "size": 169468,
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.2/uptime-rs-v0.3.2-x86_64-unknown-linux-musl.zip",
+      "sha256": "e3f54d5357c33a13d8d8fa812fb3164840ef0de724f27160bf1c1821831b4e94",
+      "size": 194829,
       "format": "zip",
+      "releaseTag": "v0.3.2",
       "binaries": {
         "uptime-rs": {
-          "path": "uptime-rs_v0.3.1_linux_amd64/uptime-rs",
-          "sha256": "eb084baef6c09ca1c51c5a1df7caeb37ede7ca6108493d3c4f0f0d45bb080b93"
+          "path": "uptime-rs-v0.3.2-x86_64-unknown-linux-musl/uptime-rs",
+          "sha256": "d6073aa430d861c24e7c1918f5419713d210261ad77e73249decb3a5508a68a2"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.1/uptime-rs_v0.3.1_linux_arm64.zip",
-      "releaseTag": "v0.3.1",
-      "sha256": "ea9ed9d1714ad9e81f183a9b11fe5d3bcfd75ba11806ed5003b5e8e86282ac41",
-      "size": 163368,
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.2/uptime-rs-v0.3.2-aarch64-unknown-linux-musl.zip",
+      "sha256": "d559ea4f402aee5a007902e3f3141fae6302f7a70f44ec27608065fb272a1609",
+      "size": 188083,
       "format": "zip",
+      "releaseTag": "v0.3.2",
       "binaries": {
         "uptime-rs": {
-          "path": "uptime-rs_v0.3.1_linux_arm64/uptime-rs",
-          "sha256": "d732efb69b601d171995eb3bc8bb48cffe9eb000c481a9774b5d3b919a5486e7"
+          "path": "uptime-rs-v0.3.2-aarch64-unknown-linux-musl/uptime-rs",
+          "sha256": "fb4b90dcca7f1556c8c2284de1d74603fe34c185e035469076fb7bfb4577512b"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.1/uptime-rs_v0.3.1_darwin_amd64.zip",
-      "releaseTag": "v0.3.1",
-      "sha256": "0954d8f9d572cea67d6d7dc0fd2385fcf7d65d93b9357ff3d3744a60a2ec04a2",
-      "size": 157802,
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.2/uptime-rs-v0.3.2-x86_64-apple-darwin.zip",
+      "sha256": "93f9241d7b766a75c46e0889324f77947de19d0c4d42b1188d40ba7cb5d77b6f",
+      "size": 150798,
       "format": "zip",
+      "releaseTag": "v0.3.2",
       "binaries": {
         "uptime-rs": {
-          "path": "uptime-rs_v0.3.1_darwin_amd64/uptime-rs",
-          "sha256": "fbba8dad168963d1d962dd4d2608d7fc486ade30d0ee7cc37dfa8ec7a5e08c85"
+          "path": "uptime-rs-v0.3.2-x86_64-apple-darwin/uptime-rs",
+          "sha256": "9fdf2685eb4a67581ccbe0e7ae74d3a65c88b1ae0d7d1ca0409dc2f412cf431a"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.1/uptime-rs_v0.3.1_darwin_arm64.zip",
-      "releaseTag": "v0.3.1",
-      "sha256": "908516c5cfc16bb721744b04261c41037e836380615d657c4c57859dd0ced340",
-      "size": 152981,
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.2/uptime-rs-v0.3.2-aarch64-apple-darwin.zip",
+      "sha256": "392c45f4442b6cb2282a3f735295e3ad7cb6ce90b9e6b3b092c2d0887e94b4c2",
+      "size": 142332,
       "format": "zip",
+      "releaseTag": "v0.3.2",
       "binaries": {
         "uptime-rs": {
-          "path": "uptime-rs_v0.3.1_darwin_arm64/uptime-rs",
-          "sha256": "4b87f086e6125a6c617ba276e19e99dbe7933deb3c75d592905bcde276651236"
+          "path": "uptime-rs-v0.3.2-aarch64-apple-darwin/uptime-rs",
+          "sha256": "6cb6341894d51906f1aba2d87b1b3c1d9352ac2331b03f61fe0556970aae3ebe"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.2/uptime-rs-v0.3.2-x86_64-pc-windows-msvc.zip",
+      "sha256": "55fcb6bf57bb2e3ff23ef13d0d642812781e1b6b0c48d68b883d2bffe26bc48b",
+      "size": 67742,
+      "format": "zip",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "uptime-rs.exe": {
+          "path": "uptime-rs-v0.3.2-x86_64-pc-windows-msvc/uptime-rs.exe",
+          "sha256": "20565a321b29ce016243afcf3f6514e45126ddcfe3245c51b577879f61e66d9b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/itchyny/uptime-rs/releases/download/v0.3.2/uptime-rs-v0.3.2-aarch64-pc-windows-msvc.zip",
+      "sha256": "af80dd755b5debfa21500d66c4dcc8db59491d87b4984a2efa8398fe3a1ac100",
+      "size": 66326,
+      "format": "zip",
+      "releaseTag": "v0.3.2",
+      "binaries": {
+        "uptime-rs.exe": {
+          "path": "uptime-rs-v0.3.2-aarch64-pc-windows-msvc/uptime-rs.exe",
+          "sha256": "861f37c2d7e88286791658d3a1bfa4de0cb31949c23adde06a0f91d86a7864ca"
         }
       }
     }
