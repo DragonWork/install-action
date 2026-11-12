@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ggplot-rs",
+  "version": "0.45.1",
+  "repository": "sipemu/ggplot-rs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.45.1/ggplot-rs-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "a2d6f9932163328f1091951a288022f932968eb085e05f533f2aae3239f7a7b0",
+      "size": 29441724,
+      "format": "tar.gz",
+      "releaseTag": "v0.45.1",
+      "binaries": {
+        "ggplot-rs": {
+          "path": "ggplot-rs",
+          "sha256": "e7313fcda2b15926097e6881bd5f336c2d8a78265c7e832640165efd289c0146"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.45.1/ggplot-rs-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "39cd3ec39ec870621cad8ddb47f607d27eee182c5cadb6e2dd966b44cbf6813f",
+      "size": 27680700,
+      "format": "tar.gz",
+      "releaseTag": "v0.45.1",
+      "binaries": {
+        "ggplot-rs": {
+          "path": "ggplot-rs",
+          "sha256": "bb81ca1e963ae1a42aaeb556772ca690ff64ca40a6a056ba1c97dd8d890745ab"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.45.1/ggplot-rs-x86_64-apple-darwin.tar.gz",
+      "sha256": "b8887a37ce4f62f4f0bc2b1583507f626e0005d141da131a2f5a45f9e14ba6bd",
+      "size": 26389745,
+      "format": "tar.gz",
+      "releaseTag": "v0.45.1",
+      "binaries": {
+        "ggplot-rs": {
+          "path": "ggplot-rs",
+          "sha256": "0f58e702c6beeb31db80613ce8f351b037ae594bc0c6609e01f07ee8ff00715f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.45.1/ggplot-rs-aarch64-apple-darwin.tar.gz",
+      "sha256": "4fa84ae5534680dace70439399ee0918f05daa4ecc81fff04d1ea47e5a4a9965",
+      "size": 25103702,
+      "format": "tar.gz",
+      "releaseTag": "v0.45.1",
+      "binaries": {
+        "ggplot-rs": {
+          "path": "ggplot-rs",
+          "sha256": "4de08625a50a79e1546ce1a1eda6afa2bee951b0b712641a428398ceed85cf85"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.45.1/ggplot-rs-x86_64-pc-windows-msvc.zip",
+      "sha256": "731fcb04dae2cf0ece45f306005a15ef4058d2205996ba47864c8f8dbbd3e305",
+      "size": 20831371,
+      "format": "zip",
+      "releaseTag": "v0.45.1",
+      "binaries": {
+        "ggplot-rs.exe": {
+          "path": "ggplot-rs.exe",
+          "sha256": "485731cf9313636badcd169dcd14d43c30ee4a13c8631c7ef3aae5a8de2c696e"
+        }
+      }
+    }
+  }
+}
