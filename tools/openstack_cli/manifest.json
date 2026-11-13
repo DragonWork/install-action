@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "openstack_cli",
-  "version": "0.13.8",
+  "version": "0.14.0",
   "repository": "gtema/openstack",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v0.13.8",
-      "sha256": "4911a42ecf2d507372667708953fd47adaa7c6e409c57c9d95d500c5cd18c382",
-      "size": 21031068,
+      "url": "https://github.com/gtema/openstack/releases/download/v0.14.0/openstack_cli-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "d9452eb22349bb940d1f5180a5595bf97dab6574dd06b3ea994e0bbde3a3757a",
+      "size": 21560908,
       "format": "tar.xz",
+      "releaseTag": "v0.14.0",
       "binaries": {
         "osc": {
           "path": "openstack_cli-x86_64-unknown-linux-musl/osc",
-          "sha256": "808d59b0a937d21c7abbc8666ba98af2ae6bf4eaba376feff5aca2a76c60254f"
+          "sha256": "3609e43188cf3b493bda32ae423c38963bf54057f6f46350d67f4b90e355babe"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-aarch64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v0.13.8",
-      "sha256": "723ecf0813035b7f16506e8135066c11b05678bb083baf5e2239fdd563a61f93",
-      "size": 18679660,
+      "url": "https://github.com/gtema/openstack/releases/download/v0.14.0/openstack_cli-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "6793a97f121ad4920935c402c902597dc4ff94e8edaefd6b1329fa9d483eb9bd",
+      "size": 18899492,
       "format": "tar.xz",
+      "releaseTag": "v0.14.0",
       "binaries": {
         "osc": {
           "path": "openstack_cli-aarch64-unknown-linux-gnu/osc",
-          "sha256": "4e83af5fb272f54ffa13e89798c91736ca6f0b8ccd0bf3716349aad128361244"
+          "sha256": "5e7e29b92369c4daff9f326fb1db3924cce4d37dcb0b9925385ebbc1da3d8629"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v0.13.8",
-      "sha256": "84f7aa81484147bb36c020bfd389d710e7a44f7ad2fa9ad2126bb1f716adc673",
-      "size": 19411848,
+      "url": "https://github.com/gtema/openstack/releases/download/v0.14.0/openstack_cli-x86_64-apple-darwin.tar.xz",
+      "sha256": "1e18d440e735b815627058ca63282fa80271265f5bfc69d53f4f847c8a63ba04",
+      "size": 19711556,
       "format": "tar.xz",
+      "releaseTag": "v0.14.0",
       "binaries": {
         "osc": {
           "path": "openstack_cli-x86_64-apple-darwin/osc",
-          "sha256": "aad2c66e41fb7034154694927309a8b807d52a74a417034c5dd9529ec8d6df7f"
+          "sha256": "d9b9d262475c8719f557764efc85b9d335614aaf4d88fe330327189c95a233c1"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v0.13.8",
-      "sha256": "1e7f605b794d9484d992017215a514fba7fd7aeea58020fd6830f734fc418616",
-      "size": 17715884,
+      "url": "https://github.com/gtema/openstack/releases/download/v0.14.0/openstack_cli-aarch64-apple-darwin.tar.xz",
+      "sha256": "740477436f2d49efc6bcd72219b1721235501edd3925455bdc4bfd78d27e4917",
+      "size": 18022248,
       "format": "tar.xz",
+      "releaseTag": "v0.14.0",
       "binaries": {
         "osc": {
           "path": "openstack_cli-aarch64-apple-darwin/osc",
-          "sha256": "7db8a7a36350b301637b340b2f6ddb42ae55cbef8c00759faf9d0401aab3c676"
+          "sha256": "d07000dcff86f830cd87ac53b7a3cf8c1cd92ce5f6f7c2cff011f42cf236d0f4"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/gtema/openstack/releases/download/v0.13.8/openstack_cli-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.13.8",
-      "sha256": "bac4bcaca8f8c72b6087cbbee94adb7a08c410bfef20985422aad720c4085e7b",
-      "size": 36588848,
+      "url": "https://github.com/gtema/openstack/releases/download/v0.14.0/openstack_cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "48abc097a2f48886550d4b2ed8619e2f22ccb6afbdf147d37cbe5e0aa3af1861",
+      "size": 36708176,
       "format": "zip",
+      "releaseTag": "v0.14.0",
       "binaries": {
         "osc.exe": {
           "path": "osc.exe",
-          "sha256": "26fe770054463ca12352cc661b464b41a3f036579acce56d4410c981dbbef802"
+          "sha256": "9a75e8d97dbcb4ed71e362c684be09c37844763a5fb6e5d62decce21e03eb354"
         }
       }
     }
