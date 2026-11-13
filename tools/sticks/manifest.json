@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "sticks",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "repository": "mAmineChniti/sticks",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/mAmineChniti/sticks/releases/download/v0.4.1/sticks-windows-x86_64.exe",
-      "releaseTag": "v0.4.1",
-      "sha256": "bf0b98a0a2a75fdc8a67260f906dc3e7f51821704877cea0a5e96fb4eb8c349f",
-      "size": 3346432,
+    "linux-x64": {
+      "url": "https://github.com/mAmineChniti/sticks/releases/download/v0.5.0/sticks_0.5.0-1_amd64.deb",
+      "sha256": "b88501d889819cfad156d9a0e92d309ff9567cbf1ec5e60a9cbbd62cca0e1442",
+      "size": 1181816,
+      "format": "deb",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "sticks": {
+          "path": "./usr/bin/sticks",
+          "sha256": "9f24e4e105e2b5f6278fd8f8aefb88e2ebbf9f9e8c5b5d0d30d5dfbd592f7a70"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/mAmineChniti/sticks/releases/download/v0.5.0/sticks-linux-aarch64",
+      "sha256": "cea2e1bd970154070b789c05f4a48673004fa454bb532934231a5fdc24a68a96",
+      "size": 3609616,
       "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "sticks": {
+          "path": "sticks-linux-aarch64",
+          "sha256": "cea2e1bd970154070b789c05f4a48673004fa454bb532934231a5fdc24a68a96"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/mAmineChniti/sticks/releases/download/v0.5.0/sticks-macos-x86_64",
+      "sha256": "1d1acd432cce9b9727fdab45345728de65d41d298938939bef24616127e8c942",
+      "size": 4593720,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "sticks": {
+          "path": "sticks-macos-x86_64",
+          "sha256": "1d1acd432cce9b9727fdab45345728de65d41d298938939bef24616127e8c942"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/mAmineChniti/sticks/releases/download/v0.5.0/sticks-macos-aarch64",
+      "sha256": "824f4474d7bc1d04a89dc2327ff752339b3b5261b9f386463e24360a7561b5f1",
+      "size": 4329024,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
+      "binaries": {
+        "sticks": {
+          "path": "sticks-macos-aarch64",
+          "sha256": "824f4474d7bc1d04a89dc2327ff752339b3b5261b9f386463e24360a7561b5f1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/mAmineChniti/sticks/releases/download/v0.5.0/sticks-windows-x86_64.exe",
+      "sha256": "38c43d3a5a7c6ef25ac930f9eb5714235493c1f58fa5322327ef524ec2b47c25",
+      "size": 3975168,
+      "format": "binary",
+      "releaseTag": "v0.5.0",
       "binaries": {
         "sticks.exe": {
           "path": "sticks-windows-x86_64.exe",
-          "sha256": "bf0b98a0a2a75fdc8a67260f906dc3e7f51821704877cea0a5e96fb4eb8c349f"
+          "sha256": "38c43d3a5a7c6ef25ac930f9eb5714235493c1f58fa5322327ef524ec2b47c25"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/mAmineChniti/sticks/releases/download/v0.4.1/sticks-windows-aarch64.exe",
-      "releaseTag": "v0.4.1",
-      "sha256": "99602b01bf7fb37d39edfe120e53a3e29063cdb956431590c493f6e78ae8bab8",
-      "size": 2881536,
+      "url": "https://github.com/mAmineChniti/sticks/releases/download/v0.5.0/sticks-windows-aarch64.exe",
+      "sha256": "e7844158d6ce8f6d4782a200f57f4f78ca737d82d7d5ce3e3cc74be399e6387c",
+      "size": 3398144,
       "format": "binary",
+      "releaseTag": "v0.5.0",
       "binaries": {
         "sticks.exe": {
           "path": "sticks-windows-aarch64.exe",
-          "sha256": "99602b01bf7fb37d39edfe120e53a3e29063cdb956431590c493f6e78ae8bab8"
+          "sha256": "e7844158d6ce8f6d4782a200f57f4f78ca737d82d7d5ce3e3cc74be399e6387c"
         }
       }
     }
