@@ -1,45 +1,71 @@
 {
   "schema": 1,
   "name": "dua-cli",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "repository": "Byron/dua-cli",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "a0834d1247c39a0048fa3e7f520a2afa23538c06c5945ca992e49813290319e0",
-      "size": 2501202,
+      "url": "https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "68c3142969cf19b29353dbab3c456a483753d49116dbf19ae44ddd545a0abad8",
+      "size": 2512308,
       "format": "tar.gz",
-      "releaseTag": "v3.0.1",
+      "releaseTag": "v3.0.3",
       "binaries": {
         "dua": {
-          "path": "dua-v3.0.1-x86_64-unknown-linux-musl/dua",
-          "sha256": "f818330c093713c5c8e5c7f097251cf6e6c7b5a37d5af67e6c8ae6f409e0d168"
+          "path": "dua-v3.0.3-x86_64-unknown-linux-musl/dua",
+          "sha256": "b031ef57aa2b8a07154eb4c691c1720d0c6de75e9c5b3d3abb00c9ec336c9a76"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "30b6e9f14c9ac6cf1daaf0f54f3e54bde6dd0e88daf4d3d95c0c8dd9c00b526b",
-      "size": 2322541,
+      "url": "https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "aa95a658bd6216621c11686b41be09437a1aec7c49361b5a6a21a2188024a701",
+      "size": 2330886,
       "format": "tar.gz",
-      "releaseTag": "v3.0.1",
+      "releaseTag": "v3.0.3",
       "binaries": {
         "dua": {
-          "path": "dua-v3.0.1-aarch64-unknown-linux-musl/dua",
-          "sha256": "30fc9ff60895a7df5649a27dba1702447e8c6fbd643222b897a856fcafe176d7"
+          "path": "dua-v3.0.3-aarch64-unknown-linux-musl/dua",
+          "sha256": "ba842e0881683f4effa1411e6e125c0a35214e8cc39909bbf23ee988fe39844c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-x86_64-apple-darwin.tar.gz",
+      "sha256": "5721d1764698147e2d5e12a7a6597b47f601247ac0bbd23db4725cd83e75f977",
+      "size": 2276062,
+      "format": "tar.gz",
+      "releaseTag": "v3.0.3",
+      "binaries": {
+        "dua": {
+          "path": "dua-v3.0.3-x86_64-apple-darwin/dua",
+          "sha256": "f68fecb400ed6d615d4d8e3a6262928599d321cc7b34f8ec3342acf519bc68f1"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-aarch64-apple-darwin.tar.gz",
+      "sha256": "1336047f5ea3a111c10492861ade03233545a26ffd4cadd4fd3ebc2f4db14b65",
+      "size": 2093049,
+      "format": "tar.gz",
+      "releaseTag": "v3.0.3",
+      "binaries": {
+        "dua": {
+          "path": "dua-v3.0.3-aarch64-apple-darwin/dua",
+          "sha256": "98eba913863aa012da32ff456ced9174fa10465fbad3be7e5ca0361a3843585b"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/Byron/dua-cli/releases/download/v3.0.1/dua-v3.0.1-x86_64-pc-windows-msvc.zip",
-      "sha256": "ff9064f1b0af51eeacaaa63a97c3628e670117a8f336710ee54fe96f54193b9d",
-      "size": 2133714,
+      "url": "https://github.com/Byron/dua-cli/releases/download/v3.0.3/dua-v3.0.3-x86_64-pc-windows-msvc.zip",
+      "sha256": "2fb9181079471f5e6a7a525c1508eb2a171bd2e12280a4fd2c598ec0d7993ab6",
+      "size": 2141377,
       "format": "zip",
-      "releaseTag": "v3.0.1",
+      "releaseTag": "v3.0.3",
       "binaries": {
         "dua.exe": {
-          "path": "dua-v3.0.1-x86_64-pc-windows-msvc/dua.exe",
-          "sha256": "357d040c25de540d4a7ec88c64547c32b726d7c8a79f903618ff8db97d98e8e8"
+          "path": "dua-v3.0.3-x86_64-pc-windows-msvc/dua.exe",
+          "sha256": "fcb7e7eb8d89ebf47325d5e48cfb3522c7781ff0d6683032b8b81f68363968a6"
         }
       }
     }
