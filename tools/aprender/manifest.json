@@ -1,32 +1,45 @@
 {
   "schema": 1,
   "name": "aprender",
-  "version": "0.72.3",
+  "version": "0.72.5",
   "repository": "paiml/aprender",
   "artifacts": {
-    "linux-arm64": {
-      "url": "https://github.com/paiml/aprender/releases/download/v0.72.3/apr-v0.72.3-aarch64-unknown-linux-gnu-cpu.tar.gz",
-      "sha256": "5ecfaf28fc3b43b9000c7ab5bc429f262f1ce5dedc08854e5b5987af9be4ff3e",
-      "size": 25963574,
+    "linux-x64": {
+      "url": "https://github.com/paiml/aprender/releases/download/v0.72.5/apr-v0.72.5-x86_64-unknown-linux-gnu-cpu.tar.gz",
+      "sha256": "568bd8418cd3e701c0b2b8470f14314d2d04e1c573f5d34c5a0e89e804000a7a",
+      "size": 29319296,
       "format": "tar.gz",
-      "releaseTag": "v0.72.3",
+      "releaseTag": "v0.72.5",
       "binaries": {
         "apr": {
-          "path": "apr-v0.72.3-aarch64-unknown-linux-gnu-cpu/apr",
-          "sha256": "b046f5c764d7d672c8cdc21ca99e56fa9e49b2f21e0c1f689fc6de8df062504c"
+          "path": "apr-v0.72.5-x86_64-unknown-linux-gnu-cpu/apr",
+          "sha256": "e99b161f0ec3902f0f09e4b0460c0f498eae69588f0e2c605a7683da5879a7b6"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/paiml/aprender/releases/download/v0.72.5/apr-v0.72.5-aarch64-unknown-linux-gnu-cpu.tar.gz",
+      "sha256": "12b09c314c633774457f185ab4c061a064ab78e5433ff1fc9edc6a5bf1db13c1",
+      "size": 26084293,
+      "format": "tar.gz",
+      "releaseTag": "v0.72.5",
+      "binaries": {
+        "apr": {
+          "path": "apr-v0.72.5-aarch64-unknown-linux-gnu-cpu/apr",
+          "sha256": "d1e2746f71905a1e7d2a7b851840aa06d076e0aa3abdd9637e9cbbc9df2659ac"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/paiml/aprender/releases/download/v0.72.3/apr-v0.72.3-aarch64-apple-darwin-cpu.tar.gz",
-      "sha256": "81f8a5909deae1f2fc4dbd62ba27c21366129098922c20729dfcbdb34cb4f28c",
-      "size": 25100433,
+      "url": "https://github.com/paiml/aprender/releases/download/v0.72.5/apr-v0.72.5-aarch64-apple-darwin-cpu.tar.gz",
+      "sha256": "735b6e138aefdda96ff8ebad3b787641b9a23652cb4cdefae8b73f569f5c3259",
+      "size": 25163964,
       "format": "tar.gz",
-      "releaseTag": "v0.72.3",
+      "releaseTag": "v0.72.5",
       "binaries": {
         "apr": {
-          "path": "apr-v0.72.3-aarch64-apple-darwin-cpu/apr",
-          "sha256": "6a373835f5fd9034371ccf33b651d2b58f08a5108bd21a1062b67fb7bab553d4"
+          "path": "apr-v0.72.5-aarch64-apple-darwin-cpu/apr",
+          "sha256": "7afc68cd0a7aa5651c82087eb7943b9e7e380727a060ca021aa14e6e2e80e290"
         }
       }
     }
