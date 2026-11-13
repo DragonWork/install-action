@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "csum",
+  "version": "0.2.1",
+  "repository": "TheAwiteb/csum",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/TheAwiteb/csum/releases/download/v0.2.1/csum_v0.2.1_x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "74f4b2e30efeed62afd0a5012b46073136f228bb7fa92d96142594f27e18dbdd",
+      "size": 444116,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "csum": {
+          "path": "csum",
+          "sha256": "89fef17f6f8babb350001f2801385d58e00e36abc996c0cd236d386830068bff"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/TheAwiteb/csum/releases/download/v0.2.1/csum_v0.2.1_x86_64-apple-darwin.zip",
+      "sha256": "4f622a34442d852461bbe78f2953533f078a7c1ce1ed317b8cb9fa3227280c92",
+      "size": 500976,
+      "format": "zip",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "csum": {
+          "path": "csum",
+          "sha256": "7ac690395aab2b3053692dc13a0b6a7aff71c7b15b1da3e04280c7d491631629"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/TheAwiteb/csum/releases/download/v0.2.1/csum_v0.2.1_x86_64-pc-windows-gnu.zip",
+      "sha256": "ab2f366431a6412cd1c6b9143516db04a535d8095127b2d1ca274d182364be7a",
+      "size": 393632,
+      "format": "zip",
+      "releaseTag": "v0.2.1",
+      "binaries": {
+        "csum.exe": {
+          "path": "csum.exe",
+          "sha256": "aaf5df00e3a3d995dff6fb65e930e7c6770c82691235b21fb0e7dcdabea339c6"
+        }
+      }
+    }
+  }
+}
