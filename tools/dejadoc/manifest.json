@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "dejadoc",
+  "version": "0.6.0",
+  "repository": "LucaCappelletti94/cargo-dejadoc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/LucaCappelletti94/cargo-dejadoc/releases/download/v0.6.0/cargo-dejadoc-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "9169e79ba9da0e90ec4e169a538e74c4f99c99474c55848f25391d427b0c3eb4",
+      "size": 5566991,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "cargo-dejadoc": {
+          "path": "cargo-dejadoc",
+          "sha256": "f2121688820804d0adf38a1676b9faa7679da704b139e558c7e17d17bff68377"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/LucaCappelletti94/cargo-dejadoc/releases/download/v0.6.0/cargo-dejadoc-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1e7d764f40d07c455bdb4945048fda96a180297cf90ec7accebce7f710ebdde0",
+      "size": 4712469,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "cargo-dejadoc": {
+          "path": "cargo-dejadoc",
+          "sha256": "5e7bb367eb1ed2cb26a4474fc1cc8a6a720f654d8661265388c09ed0f47d9c74"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/LucaCappelletti94/cargo-dejadoc/releases/download/v0.6.0/cargo-dejadoc-x86_64-apple-darwin.tar.gz",
+      "sha256": "7279c011a3b5236c8d2de09582aaf96f05a22dd6b5686ed2484c6ac373c9854f",
+      "size": 5365599,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "cargo-dejadoc": {
+          "path": "cargo-dejadoc",
+          "sha256": "527795aeaa75c3dca3c6647ba493076ce84c750d62ca6b2f31ec82a872de34f5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/LucaCappelletti94/cargo-dejadoc/releases/download/v0.6.0/cargo-dejadoc-aarch64-apple-darwin.tar.gz",
+      "sha256": "b57f6c65ce97f93817165bc4fe7040a6fc55ebb4d5b12477b5ecbd9753f4a00a",
+      "size": 4673379,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "cargo-dejadoc": {
+          "path": "cargo-dejadoc",
+          "sha256": "bd6f22ba1f005673b475e63d6ae48e204428d77f10cff04df2fc43f3e2b0bbf9"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/LucaCappelletti94/cargo-dejadoc/releases/download/v0.6.0/cargo-dejadoc-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "d7a0a559c4cae0b365c0b8e3a5543dd99588aeff3386eef23698b624ba752c15",
+      "size": 5619514,
+      "format": "tar.gz",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "cargo-dejadoc.exe": {
+          "path": "cargo-dejadoc.exe",
+          "sha256": "026691d0f1ab88a1883d1d5943fd29b2c36796cbe8586fa2b8f61be7fef61098"
+        }
+      }
+    }
+  }
+}
