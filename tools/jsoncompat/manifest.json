@@ -1,19 +1,58 @@
 {
   "schema": 1,
   "name": "jsoncompat",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "repository": "ostrowr/jsoncompat",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/ostrowr/jsoncompat/releases/download/v0.5.0/jsoncompat-windows-x86_64.exe",
-      "releaseTag": "v0.5.0",
-      "sha256": "ceeb9100da41321a87f4f10f55d300c4c6e1de346170ea9279f4076ab9e0b71a",
-      "size": 9499648,
+    "linux-x64": {
+      "url": "https://github.com/ostrowr/jsoncompat/releases/download/v0.6.0/jsoncompat-linux-x86_64",
+      "sha256": "a335454836f96dc44e3ac60edb86fbb0b2b5c808469ffb2eaa02c62c02a05f99",
+      "size": 16050232,
       "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "jsoncompat": {
+          "path": "jsoncompat-linux-x86_64",
+          "sha256": "a335454836f96dc44e3ac60edb86fbb0b2b5c808469ffb2eaa02c62c02a05f99"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ostrowr/jsoncompat/releases/download/v0.6.0/jsoncompat-macos-x86_64",
+      "sha256": "6ee11c719c218a250ab58122dc2e2b453eb2d36ee36ded9bfc54ed9f7eed9dcb",
+      "size": 13908344,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "jsoncompat": {
+          "path": "jsoncompat-macos-x86_64",
+          "sha256": "6ee11c719c218a250ab58122dc2e2b453eb2d36ee36ded9bfc54ed9f7eed9dcb"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ostrowr/jsoncompat/releases/download/v0.6.0/jsoncompat-macos-aarch64",
+      "sha256": "f31e3e7a1ebe1c9a8c25f0cbb33aa1634ee677e760e67a3bee2eae3e3f6664fc",
+      "size": 13020048,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
+      "binaries": {
+        "jsoncompat": {
+          "path": "jsoncompat-macos-aarch64",
+          "sha256": "f31e3e7a1ebe1c9a8c25f0cbb33aa1634ee677e760e67a3bee2eae3e3f6664fc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ostrowr/jsoncompat/releases/download/v0.6.0/jsoncompat-windows-x86_64.exe",
+      "sha256": "f1f0a5e507d9410b7d6403ac6cf1361c4102fe658af930c6b49e3f4342006fb7",
+      "size": 12401664,
+      "format": "binary",
+      "releaseTag": "v0.6.0",
       "binaries": {
         "jsoncompat.exe": {
           "path": "jsoncompat-windows-x86_64.exe",
-          "sha256": "ceeb9100da41321a87f4f10f55d300c4c6e1de346170ea9279f4076ab9e0b71a"
+          "sha256": "f1f0a5e507d9410b7d6403ac6cf1361c4102fe658af930c6b49e3f4342006fb7"
         }
       }
     }
