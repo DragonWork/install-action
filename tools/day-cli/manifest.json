@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "day-cli",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "repository": "daybrite/day",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/daybrite/day/releases/download/v0.7.3/day-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "12eac20d7f9388746fb476111dae6fa8f51038625d0870987f49289b2f2e0c17",
-      "size": 7023651,
+      "url": "https://github.com/daybrite/day/releases/download/v0.7.4/day-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "74c550e363726f7a31d80d78b709f6bbd408c263a825bbb03b0299befdcedf10",
+      "size": 7191795,
       "format": "tar.gz",
-      "releaseTag": "v0.7.3",
+      "releaseTag": "v0.7.4",
       "binaries": {
         "day": {
           "path": "day",
-          "sha256": "5894fbb3e41a2c541c585371597cdccfe81ce8f1f47d8f0087f0714da97d043f"
+          "sha256": "1354f3299655ed065726ca12ab842a68be119a3019f6a9e90689f4f6ed67709d"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/daybrite/day/releases/download/v0.7.3/day-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "87176bc24b3b04b2fda732bc1b8683c49d94fa0e2b810f2dfddd45d400da2692",
-      "size": 6493959,
+      "url": "https://github.com/daybrite/day/releases/download/v0.7.4/day-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "b863db7695a215442b4a0c5b30fcf1d32b0cc6aee34a2f468f439f0460bc28f6",
+      "size": 6671043,
       "format": "tar.gz",
-      "releaseTag": "v0.7.3",
+      "releaseTag": "v0.7.4",
       "binaries": {
         "day": {
           "path": "day",
-          "sha256": "19a0b136ffaafe31c12a23a2e6797c6df6a37a5f4bdad109b98809b7d6c632c0"
+          "sha256": "a3515bd5457f5f935d3ffb82d5f0c95788e11c4b002270bbf07fe26f23613a69"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/daybrite/day/releases/download/v0.7.3/day-x86_64-apple-darwin.tar.gz",
-      "sha256": "6e421a31914db5db458f51e0cd331fffa2e20e2dcad7debb9b31485ac32add16",
-      "size": 6916374,
+      "url": "https://github.com/daybrite/day/releases/download/v0.7.4/day-x86_64-apple-darwin.tar.gz",
+      "sha256": "da48403c8ea1b0903ea0322de8568393b4d41448c580c427f6f2d992e0a71c3b",
+      "size": 7094676,
       "format": "tar.gz",
-      "releaseTag": "v0.7.3",
+      "releaseTag": "v0.7.4",
       "binaries": {
         "day": {
           "path": "day",
-          "sha256": "0b5b286813a2c5844ab9330febc90af1419e5697e6665846fcd2e90f9d65ea17"
+          "sha256": "1579ed75fffd45faf35fe50aa019b0191db7e2c38c8ee084e4d1108d447b6cc4"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/daybrite/day/releases/download/v0.7.3/day-aarch64-apple-darwin.tar.gz",
-      "sha256": "f9744886e283beaf14795971ec70fb877979ae5a7cf4f0ee9b5af9314b3cc9d3",
-      "size": 6289797,
+      "url": "https://github.com/daybrite/day/releases/download/v0.7.4/day-aarch64-apple-darwin.tar.gz",
+      "sha256": "e775531a18027820416534edb4decac49bbc796050407af1c308dccd86c49954",
+      "size": 6472681,
       "format": "tar.gz",
-      "releaseTag": "v0.7.3",
+      "releaseTag": "v0.7.4",
       "binaries": {
         "day": {
           "path": "day",
-          "sha256": "9a50936d2e7c0884286e2d650500070b0e4b23f1db583ec8629d2f3fdd61b910"
+          "sha256": "cd884753c9a15a2373de62e88c62b4b102f03137f1e0dc3f9945803f45998e6b"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/daybrite/day/releases/download/v0.7.3/day-x86_64-pc-windows-msvc.zip",
-      "sha256": "0e7e3e99e7bb40a2ab948977667fa97646e400e539be6bb7718e7b4a581bad0e",
-      "size": 7152974,
+      "url": "https://github.com/daybrite/day/releases/download/v0.7.4/day-x86_64-pc-windows-msvc.zip",
+      "sha256": "75e2c0cc941eff335e88a2612282d7617c44138756f0d2b655a0d9f16f50a7db",
+      "size": 7361754,
       "format": "zip",
-      "releaseTag": "v0.7.3",
+      "releaseTag": "v0.7.4",
       "binaries": {
         "day.exe": {
           "path": "day.exe",
-          "sha256": "dc03a24c6a01b2e2ab3ba1fc237bc7a6be685a22f8075987208e9a37af008f84"
+          "sha256": "9fb6d19c68085a855131d6bbdbc9091fa60c7e58e1815403032a186b1234d9c0"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/daybrite/day/releases/download/v0.7.3/day-aarch64-pc-windows-msvc.zip",
-      "sha256": "d50454eeb25503db0a4331b125c5e21e60f7c32a1af0d7ce7775be5987932208",
-      "size": 6434407,
+      "url": "https://github.com/daybrite/day/releases/download/v0.7.4/day-aarch64-pc-windows-msvc.zip",
+      "sha256": "9e6187acc9c915c14722c403cdd949f715dddcf682a4430844534dea5d19ec3d",
+      "size": 6637449,
       "format": "zip",
-      "releaseTag": "v0.7.3",
+      "releaseTag": "v0.7.4",
       "binaries": {
         "day.exe": {
           "path": "day.exe",
-          "sha256": "799a11351034b369b76fb1640ccdcb8a2c835af803f129814b7b05e49378378f"
+          "sha256": "db042c3ba99887fd55dc1de1a4b9266ba1dbb1a667dc6d0450fc84f92bc04b9f"
         }
       }
     }
