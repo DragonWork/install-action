@@ -1,58 +1,45 @@
 {
   "schema": 1,
   "name": "c2patool",
-  "version": "0.28.6",
+  "version": "0.29.0",
   "repository": "contentauth/c2patool",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.6/v0.28.6-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "e2dcd1cfcb872ee4f4cc4b353131615e09b608ed7cdea9f27a7f9d73d5d9af86",
-      "size": 12835929,
+      "url": "https://github.com/contentauth/c2patool/releases/download/v0.29.0/v0.29.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "af5494722fc8c3f239980f36ceb3acf496d1481850d356a4bb34777b33b08043",
+      "size": 12635244,
       "format": "tar.gz",
-      "releaseTag": "v0.28.6",
+      "releaseTag": "v0.29.0",
       "binaries": {
         "c2patool": {
           "path": "c2patool/c2patool",
-          "sha256": "cfad8e893eeab3aa5c7cc27e159439f977a4a4c9cef6e5395e40dd8aaeec7ba9"
+          "sha256": "bb51c17777d8a4c4ea458f65016e239da906ae8d28a7331a8c53b2dc2e01c62d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.6/v0.28.6-universal-apple-darwin.zip",
-      "sha256": "d627f7481b8095e3046db02364e02429efb9c5b79310fb43509a37b1d72871b5",
-      "size": 23184894,
+      "url": "https://github.com/contentauth/c2patool/releases/download/v0.29.0/v0.29.0-universal-apple-darwin.zip",
+      "sha256": "cf093fdf7ca0bdd02af2b985183c792c4636538aba0ee169777bfd87fdd8ea48",
+      "size": 22791378,
       "format": "zip",
-      "releaseTag": "v0.28.6",
+      "releaseTag": "v0.29.0",
       "binaries": {
         "c2patool": {
           "path": "c2patool/c2patool",
-          "sha256": "a7429dd024aa11f62531aef74c26861663a81307fb5aeb7732b321d5ccc1fc43"
+          "sha256": "d6979d6035d8e2ae76e70da5447cd744a6e5949e2e1a6df9e5c616071c3eec81"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.6/v0.28.6-universal-apple-darwin.zip",
-      "sha256": "d627f7481b8095e3046db02364e02429efb9c5b79310fb43509a37b1d72871b5",
-      "size": 23184894,
+      "url": "https://github.com/contentauth/c2patool/releases/download/v0.29.0/v0.29.0-universal-apple-darwin.zip",
+      "sha256": "cf093fdf7ca0bdd02af2b985183c792c4636538aba0ee169777bfd87fdd8ea48",
+      "size": 22791378,
       "format": "zip",
-      "releaseTag": "v0.28.6",
+      "releaseTag": "v0.29.0",
       "binaries": {
         "c2patool": {
           "path": "c2patool/c2patool",
-          "sha256": "a7429dd024aa11f62531aef74c26861663a81307fb5aeb7732b321d5ccc1fc43"
-        }
-      }
-    },
-    "win32-x64": {
-      "url": "https://github.com/contentauth/c2patool/releases/download/v0.28.6/v0.28.6-x86_64-pc-windows-msvc.zip",
-      "sha256": "4c2bc0ba068cbcea75ddad06318655366df254bf161483b1077f75455d1b5e1d",
-      "size": 11025328,
-      "format": "zip",
-      "releaseTag": "v0.28.6",
-      "binaries": {
-        "c2patool.exe": {
-          "path": "c2patool/c2patool.exe",
-          "sha256": "1eb8fc3f6a22e4424c0f81d88b70bf478da222f40587d88118d0ab14d63eafb9"
+          "sha256": "d6979d6035d8e2ae76e70da5447cd744a6e5949e2e1a6df9e5c616071c3eec81"
         }
       }
     }
