@@ -1,58 +1,58 @@
 {
   "schema": 1,
   "name": "rioterm",
-  "version": "0.5.29",
+  "version": "0.5.30",
   "repository": "raphamorim/rio",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.29/rioterm_0.5.29_amd64_x11.deb",
-      "sha256": "85fcd3da2b864d37b8fda7a91b00e526e558b16c0ca40d91c01e5760cc779399",
-      "size": 11204220,
+      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.30/rioterm_0.5.30_amd64_x11.deb",
+      "sha256": "51cbcc5b60ec1f94b86051060de4aac2dd8e0f5b80350810b61914006790bab9",
+      "size": 11228022,
       "format": "deb",
-      "releaseTag": "v0.5.29",
+      "releaseTag": "v0.5.30",
       "binaries": {
         "rio": {
           "path": "./usr/bin/rio",
-          "sha256": "27d37245c8e35c82094b0129aeec42793a11112eedc307ad2a73972e37d7ae58"
+          "sha256": "0fd062244fa25f0a7622395a8867cfb31235b52db5930841035084c0d49e47e8"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.29/rioterm_0.5.29_arm64_x11.deb",
-      "sha256": "c306536b7eb77ef5136339749476a288d39839fd0065093fd8d419a8cb37bb01",
-      "size": 10748934,
+      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.30/rioterm_0.5.30_arm64_x11.deb",
+      "sha256": "5b76b59c543c48c80c1298e3c6f644b3d181738c851e66ce45cf4d1894b5a483",
+      "size": 10773376,
       "format": "deb",
-      "releaseTag": "v0.5.29",
+      "releaseTag": "v0.5.30",
       "binaries": {
         "rio": {
           "path": "./usr/bin/rio",
-          "sha256": "21165b4d271f31e1892a41d5c236ae64cca0bc010a6a41f9d04e1fc1b5cec2ba"
+          "sha256": "6e408fad9b0c50d3ed1e26757178e63d3b9dc8e8c51344759ac9411e0aa97ef9"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.29/rio-portable-x86_64.exe",
-      "sha256": "a245f6e0bf980d19e8acfc84552b542038a4529ed97ef1ddcad7249e4c780f9e",
-      "size": 24557568,
+      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.30/rio-portable-x86_64.exe",
+      "sha256": "8fdbdf7fdc3e2e16ad9805958ecfa03f42abd5869331532e0088ff2dd3a56b7a",
+      "size": 24600064,
       "format": "binary",
-      "releaseTag": "v0.5.29",
+      "releaseTag": "v0.5.30",
       "binaries": {
         "rio.exe": {
           "path": "rio-portable-x86_64.exe",
-          "sha256": "a245f6e0bf980d19e8acfc84552b542038a4529ed97ef1ddcad7249e4c780f9e"
+          "sha256": "8fdbdf7fdc3e2e16ad9805958ecfa03f42abd5869331532e0088ff2dd3a56b7a"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.29/rio-portable-aarch64.exe",
-      "sha256": "7f602818eebba5a74e6c146fac9366bbe9717ceaa9748f2cfc962a5dd26072dc",
-      "size": 22126592,
+      "url": "https://github.com/raphamorim/rio/releases/download/v0.5.30/rio-portable-aarch64.exe",
+      "sha256": "e756a5d900b24709119e4078ea2b995ef8bbdee8e7361d44898a19bdab8c6d23",
+      "size": 22171648,
       "format": "binary",
-      "releaseTag": "v0.5.29",
+      "releaseTag": "v0.5.30",
       "binaries": {
         "rio.exe": {
           "path": "rio-portable-aarch64.exe",
-          "sha256": "7f602818eebba5a74e6c146fac9366bbe9717ceaa9748f2cfc962a5dd26072dc"
+          "sha256": "e756a5d900b24709119e4078ea2b995ef8bbdee8e7361d44898a19bdab8c6d23"
         }
       }
     }
