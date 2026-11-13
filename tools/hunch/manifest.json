@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "hunch",
+  "version": "2.0.4",
+  "repository": "lijunzh/hunch",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lijunzh/hunch/releases/download/v2.0.4/hunch-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "3064826e314390a7f60ab3444609fca5c331c40f213c11279fdf74a7eafc1ff6",
+      "size": 1625516,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.4",
+      "binaries": {
+        "hunch": {
+          "path": "hunch-x86_64-unknown-linux-gnu/hunch",
+          "sha256": "b67fc939e8c482e698b47ec904dfffc8534c30fbfd97d4697eecf66008d341ce"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lijunzh/hunch/releases/download/v2.0.4/hunch-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1b64383cb202cd3dd4fde0a16704ac35beb8986701cc16bd04cf48231ece0b85",
+      "size": 1572058,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.4",
+      "binaries": {
+        "hunch": {
+          "path": "hunch-aarch64-unknown-linux-gnu/hunch",
+          "sha256": "7480a76d298f36c01fa38848d1f27a5548141fbefeab2d9dc1c8bfc9b4acd95e"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lijunzh/hunch/releases/download/v2.0.4/hunch-x86_64-apple-darwin.tar.gz",
+      "sha256": "fa6d8ebfe5bb7a0f6a4115e233baa6050f08b1ea04fb344ee7f2f25e47301268",
+      "size": 1514292,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.4",
+      "binaries": {
+        "hunch": {
+          "path": "hunch-x86_64-apple-darwin/hunch",
+          "sha256": "09604b7d1a9037334fb0d62bb936b239ca1638af46358d8aff8ba5f801ab64b9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lijunzh/hunch/releases/download/v2.0.4/hunch-aarch64-apple-darwin.tar.gz",
+      "sha256": "e1770e00016309d86d9cca8370dac3a175083ba5cc08c9333b6a1809bd610484",
+      "size": 1432131,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.4",
+      "binaries": {
+        "hunch": {
+          "path": "hunch-aarch64-apple-darwin/hunch",
+          "sha256": "37c19d925f356d1597719c374064a33b97ecbb39f4df43a76140d91a64f7a72d"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lijunzh/hunch/releases/download/v2.0.4/hunch-x86_64-pc-windows-msvc.zip",
+      "sha256": "4d739e77c46fd6ae09da8eab84bb2f0fd4d195153fc4bab8eeaf73f5f30e09bc",
+      "size": 1265289,
+      "format": "zip",
+      "releaseTag": "v2.0.4",
+      "binaries": {
+        "hunch.exe": {
+          "path": "hunch-x86_64-pc-windows-msvc/hunch.exe",
+          "sha256": "f8abff07a3733b32b2159af4a243cf59d71240c28f7d557050ce19e653fe4698"
+        }
+      }
+    }
+  }
+}
