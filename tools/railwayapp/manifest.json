@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "railwayapp",
-  "version": "5.71.0",
+  "version": "5.74.0",
   "repository": "railwayapp/cli",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/railwayapp/cli/releases/download/v5.71.0/railway-v5.71.0-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v5.71.0",
-      "sha256": "2e682fd2ddf8d6fdf9e46d9d99d99646ff0022a6abb0c2bca93011348a269fb9",
-      "size": 9245637,
+      "url": "https://github.com/railwayapp/cli/releases/download/v5.74.0/railway-v5.74.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "0fc8d11c416b666d4963e9727581b62ad136f5bd83df79dbd85d66f9e4b845f7",
+      "size": 9434919,
       "format": "tar.gz",
+      "releaseTag": "v5.74.0",
       "binaries": {
         "railway": {
           "path": "railway",
-          "sha256": "8b1394f787d85cefdaa480027b5718212ad74c46b57a6ee21cd4436667dfc8e1"
+          "sha256": "d9130a9514980d2a0b684128054569e8882998b362c1122aff50ed1b1d9b033d"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/railwayapp/cli/releases/download/v5.71.0/railway-v5.71.0-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v5.71.0",
-      "sha256": "d160ad2a029eaac4b4c85012adb67c1f5709ba81f7320edb5a27be928211d638",
-      "size": 10391203,
+      "url": "https://github.com/railwayapp/cli/releases/download/v5.74.0/railway-v5.74.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "72f4d44f8d5dd0012e2ad5293c240fc050d3bbb6a585ea23266e88dbf61e3bf4",
+      "size": 10618199,
       "format": "tar.gz",
+      "releaseTag": "v5.74.0",
       "binaries": {
         "railway": {
           "path": "railway",
-          "sha256": "20c06795e42a8735ce226fee49b4205e2560dd0cb66a1fefbd698d75fc33a78a"
+          "sha256": "2dd7cfe7192e547043931a0bbc3c0254a6cf0e23cd0cf1ef7a9b484ef6f7fc1f"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/railwayapp/cli/releases/download/v5.71.0/railway-v5.71.0-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v5.71.0",
-      "sha256": "1b41dd77292657c80ae3dfccbe7653bbb40b7cdc95a8f4b06c2c1f0c2a009919",
-      "size": 8290395,
+      "url": "https://github.com/railwayapp/cli/releases/download/v5.74.0/railway-v5.74.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "03d6795d72311d1e44fb040b525bf42487f7921410ea928b46ae37de6555d3cc",
+      "size": 8461585,
       "format": "tar.gz",
+      "releaseTag": "v5.74.0",
       "binaries": {
         "railway": {
           "path": "railway",
-          "sha256": "ca6f2c38061e3f01c66f555a2c8aab8dc07b13f806d392ba152a6aef73664794"
+          "sha256": "3e6103645fc6753f96e99ec4b5b28fe77ceea83ba719b695b6a7200ebea498a5"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/railwayapp/cli/releases/download/v5.71.0/railway-v5.71.0-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v5.71.0",
-      "sha256": "350748f2edf41f46b22c5d66cea4294d660e764804e252ddba08a27b19cd0bd1",
-      "size": 7657421,
+      "url": "https://github.com/railwayapp/cli/releases/download/v5.74.0/railway-v5.74.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "be91f3256042e0dbab53efa8d230f2103c8f1d9a53e45a67c43b2f3f29db4ee2",
+      "size": 7828669,
       "format": "tar.gz",
+      "releaseTag": "v5.74.0",
       "binaries": {
         "railway": {
           "path": "railway",
-          "sha256": "1d4dd2ea0804f46ea8715cb8786e7626b4a5dba67d1f166468c2fb18c6b0b7e8"
+          "sha256": "ea37e676bdbf06a9cab27a3c0418d008cbded27215f1ca84075bb71c04383220"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/railwayapp/cli/releases/download/v5.74.0/railway-v5.74.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "e70e0de087dd8c9be32463ff23d5cd11840c641c2fd39bf0d5519e8eff40a470",
+      "size": 8142953,
+      "format": "zip",
+      "releaseTag": "v5.74.0",
+      "binaries": {
+        "railway.exe": {
+          "path": "railway.exe",
+          "sha256": "3dfc4924d8a1f80da6c6c57b274ecf9d88e18ecda721ae023660977932153446"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/railwayapp/cli/releases/download/v5.74.0/railway-v5.74.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "16f6344b285d318e1cd6b121af145500bbacb085dfd1f38df1fee85638204d36",
+      "size": 7727625,
+      "format": "zip",
+      "releaseTag": "v5.74.0",
+      "binaries": {
+        "railway.exe": {
+          "path": "railway.exe",
+          "sha256": "c4b1700b6aecb9e64ae22058d4124bbbbb82a514b94e66891616baa5fe94af97"
         }
       }
     }
