@@ -1,64 +1,64 @@
 {
   "schema": 1,
   "name": "dragonfly-client",
-  "version": "1.5.12",
+  "version": "1.5.14",
   "repository": "dragonflyoss/client",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.12/dragonfly-client-v1.5.12-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "848e0350b3ca7dafbaf589772387a827355c104ca5787a3c54ef7217b8679316",
-      "size": 34644277,
+      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.14/dragonfly-client-v1.5.14-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "d514da77d57dd77e02ac903a0072e921aa19350bbef273f5be36ae41b235653a",
+      "size": 34760185,
       "format": "tar.gz",
-      "releaseTag": "v1.5.12",
+      "releaseTag": "v1.5.14",
       "binaries": {
         "dfcache": {
-          "path": "dragonfly-client-v1.5.12-x86_64-unknown-linux-musl/dfcache",
-          "sha256": "c5fdabed26261907449e4051f13192b11108bda0794a14febae97ab090e3628a"
+          "path": "dragonfly-client-v1.5.14-x86_64-unknown-linux-musl/dfcache",
+          "sha256": "faff4c7805760fa22857f639d7c455292a71cb71aaa10af4b495894bb28c1b9e"
         },
         "dfctl": {
-          "path": "dragonfly-client-v1.5.12-x86_64-unknown-linux-musl/dfctl",
-          "sha256": "a5077cf05a7161cd38424eff1b9c5c6e5ed64382acd03798d7ca0b80216576e3"
+          "path": "dragonfly-client-v1.5.14-x86_64-unknown-linux-musl/dfctl",
+          "sha256": "54c8f06ea42dbadb913ed6cf5b3f5c22fbc4b4e7217f9eb0911bcb96838c9983"
         },
         "dfdaemon": {
-          "path": "dragonfly-client-v1.5.12-x86_64-unknown-linux-musl/dfdaemon",
-          "sha256": "f2212213636044a94b01c391b9a1d339cc9e642c65e0d6a60f6d0b664a0088fb"
+          "path": "dragonfly-client-v1.5.14-x86_64-unknown-linux-musl/dfdaemon",
+          "sha256": "11a3feeaca6de282fd1bd7c00b77d16e14c5cb66d11f28f4c53a53e97586e962"
         },
         "dfget": {
-          "path": "dragonfly-client-v1.5.12-x86_64-unknown-linux-musl/dfget",
-          "sha256": "661eec0d2fab8eae33ee47e06cb67f6c9f5984a40feb09cb7037987c958e5e96"
+          "path": "dragonfly-client-v1.5.14-x86_64-unknown-linux-musl/dfget",
+          "sha256": "d1ef833befeb85a2a788fa7b475c58220687d6fbe9532143ab04373d39f19eca"
         },
         "dfstore": {
-          "path": "dragonfly-client-v1.5.12-x86_64-unknown-linux-musl/dfstore",
-          "sha256": "3f575cb70d2d9bfec5bcd82359bce8e02bd3ded412c96bd9ae576b3acf458119"
+          "path": "dragonfly-client-v1.5.14-x86_64-unknown-linux-musl/dfstore",
+          "sha256": "258eabb053a7bf1b75fec27e2e0754734a49434a4bfa227673591887154d0269"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.12/dragonfly-client-v1.5.12-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "edacae84e8a368b948df47692c99ed0b6d9409bdcbb0a5924f431271128692e5",
-      "size": 31120903,
+      "url": "https://github.com/dragonflyoss/client/releases/download/v1.5.14/dragonfly-client-v1.5.14-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "361eee34f7a203c3b3ed435e93839cc8c383f07721110c8ad54e03f0a22fb49c",
+      "size": 31198010,
       "format": "tar.gz",
-      "releaseTag": "v1.5.12",
+      "releaseTag": "v1.5.14",
       "binaries": {
         "dfcache": {
-          "path": "dragonfly-client-v1.5.12-aarch64-unknown-linux-musl/dfcache",
-          "sha256": "8f422dcc26f3d612d26150ea7a28c832d5403e4b96e52b919e5c7c480f68225c"
+          "path": "dragonfly-client-v1.5.14-aarch64-unknown-linux-musl/dfcache",
+          "sha256": "d50dfa944b13dbcbaa3a9f9cc2bc91b2965bfcd5425ae76d475c7973fa51ea6c"
         },
         "dfctl": {
-          "path": "dragonfly-client-v1.5.12-aarch64-unknown-linux-musl/dfctl",
-          "sha256": "6cf0276d4d40689b0b8f68d587538e8a2029da3838b1076c77c951062c4e3648"
+          "path": "dragonfly-client-v1.5.14-aarch64-unknown-linux-musl/dfctl",
+          "sha256": "248da1686acd5b59a2af11f82ca4f8840d7c37a51703a0269e077b4408aff308"
         },
         "dfdaemon": {
-          "path": "dragonfly-client-v1.5.12-aarch64-unknown-linux-musl/dfdaemon",
-          "sha256": "5cd5427ea5845971c6a308ec9cdc4e3baf01cf089c375bf801522d0bb0ac60d7"
+          "path": "dragonfly-client-v1.5.14-aarch64-unknown-linux-musl/dfdaemon",
+          "sha256": "0d431b990e509224b06968caf244a29ef0252d4c86a4cd62a1bec7c30b3a88ec"
         },
         "dfget": {
-          "path": "dragonfly-client-v1.5.12-aarch64-unknown-linux-musl/dfget",
-          "sha256": "32a807fb551b8642e219955026a52a840f4ed9fcc30cd275be2e6b3e2daf4c4b"
+          "path": "dragonfly-client-v1.5.14-aarch64-unknown-linux-musl/dfget",
+          "sha256": "6994fcc2dc56679e918c181ffc71a209cc96261b3ec5636cf22f3dcfb868bca2"
         },
         "dfstore": {
-          "path": "dragonfly-client-v1.5.12-aarch64-unknown-linux-musl/dfstore",
-          "sha256": "90a88cd02d35de068471f1f7b9b8efd023cebe71eafc184f4eb81120c5fdd7c9"
+          "path": "dragonfly-client-v1.5.14-aarch64-unknown-linux-musl/dfstore",
+          "sha256": "300d7c1acbf5a65397335c6a6f4f65b0413b92cda276f2eb4c1c84933b9d109d"
         }
       }
     }
