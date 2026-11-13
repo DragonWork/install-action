@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "one2html",
+  "version": "2.0.1",
+  "repository": "msiemens/one2html",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/msiemens/one2html/releases/download/v2.0.1/one2html-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "55a6f550aec2c4be888a00ed4d12db661d8dcfc6934747ac94a02c221ff45db8",
+      "size": 2036769,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.1",
+      "binaries": {
+        "one2html": {
+          "path": "one2html",
+          "sha256": "343c247d7a5513df08185418d2be0ecaeb00ac06e4bc427f084f1e2179af5523"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/msiemens/one2html/releases/download/v2.0.1/one2html-aarch64-apple-darwin.tar.gz",
+      "sha256": "cf8e9300a499baaf92737ba6b7c5e00e39061afe3e4e05ca23572477e4569a2c",
+      "size": 1841831,
+      "format": "tar.gz",
+      "releaseTag": "v2.0.1",
+      "binaries": {
+        "one2html": {
+          "path": "one2html",
+          "sha256": "b6c8410be1bb6dffd5ec89117c616c1286c4180ae0d3e3dc4a69620ed0a68b41"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/msiemens/one2html/releases/download/v2.0.1/one2html-x86_64-pc-windows-msvc.zip",
+      "sha256": "47af8b8895c3fcd2039990f5398ac811b233ee11a02ee3f46578bcf3162e0ee7",
+      "size": 1663113,
+      "format": "zip",
+      "releaseTag": "v2.0.1",
+      "binaries": {
+        "one2html.exe": {
+          "path": "one2html.exe",
+          "sha256": "9d3d043f86a65e8b97782bb72275837768a066353c771dab96bceef683136981"
+        }
+      }
+    }
+  }
+}
