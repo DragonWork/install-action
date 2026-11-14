@@ -1,58 +1,71 @@
 {
   "schema": 1,
   "name": "doist",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "repository": "chaosteil/doist",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.0/doist_0.4.0_linux_amd64.tar.gz",
-      "releaseTag": "v0.4.0",
-      "sha256": "8e303153008a54ce55070e4df671a1c2f23bbee8f121a278619e9b674fa8ef5e",
-      "size": 4777130,
+      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.2/doist_0.4.2_x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "2fac9ccbab85749df5e10e2ab8ecbf525e61a114356d47aa2db39a04f545c037",
+      "size": 2966599,
       "format": "tar.gz",
+      "releaseTag": "v0.4.2",
       "binaries": {
         "doist": {
           "path": "doist",
-          "sha256": "c7cf132270878f78f5556ce673a48104134086fde34436e7c794152be8534a80"
+          "sha256": "e0f71dd1e36adebd6faa05d07acbf86123766438004f6cdb5b47bcec698f6e2d"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.2/doist_0.4.2_aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "16e604c002e0a2e58ec9f88f6ab4e61898f09416b6b99d04a5de8863006ff3d7",
+      "size": 2851238,
+      "format": "tar.gz",
+      "releaseTag": "v0.4.2",
+      "binaries": {
+        "doist": {
+          "path": "doist",
+          "sha256": "227091f6644b0cbfc7b5f7ab104260892b605831d8eb46745460bb53e2620a5d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.0/doist_0.4.0_darwin_amd64.tar.gz",
-      "releaseTag": "v0.4.0",
-      "sha256": "a5c1548ded04e162ce5bfcc88773ff5e4b2125dc270932739057031a268dd8aa",
-      "size": 2788708,
+      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.2/doist_0.4.2_x86_64-apple-darwin.tar.gz",
+      "sha256": "5f7811c2e768d096769ed333aa43956dd8e5f81ec0041f82fc27b1af790381fb",
+      "size": 2701034,
       "format": "tar.gz",
+      "releaseTag": "v0.4.2",
       "binaries": {
         "doist": {
           "path": "doist",
-          "sha256": "74f47458c6e5b4eaa0534d281a7ed423c91054caa54000f347edb5e50c8ca295"
+          "sha256": "7c8d7c8bb87eb619a35b48a33239f79021f01d522b054f97f859fb3f8b6f0f7b"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.0/doist_0.4.0_darwin_arm64.tar.gz",
-      "releaseTag": "v0.4.0",
-      "sha256": "449c796e9b56e6f8eb1980b85bde43a4db538ff95b8be5e0922265eb6e8c8289",
-      "size": 2673007,
+      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.2/doist_0.4.2_aarch64-apple-darwin.tar.gz",
+      "sha256": "8e3eae832fc6ecdf053e79a32993e99636f0cc8fd50ab6ab91787bb722800339",
+      "size": 2555247,
       "format": "tar.gz",
+      "releaseTag": "v0.4.2",
       "binaries": {
         "doist": {
           "path": "doist",
-          "sha256": "0497ed8f550dca99218d1da4825ac1e1e0b07ca3f3a2a164dbf786e93adb4b9e"
+          "sha256": "2e4de4ef981b3cfb7bd8a9a5b8306c62f8ce592b9aaa50e20051d542214f2387"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.0/doist_0.4.0_windows_amd64.zip",
-      "releaseTag": "v0.4.0",
-      "sha256": "a4be75cfa66a8e2a7e1022a6196faa41cff7d5836ce457dd51fc8e674612fb4c",
-      "size": 2922046,
+      "url": "https://github.com/chaosteil/doist/releases/download/v0.4.2/doist_0.4.2_x86_64-pc-windows-gnu.zip",
+      "sha256": "cfede4d546ab153765c0489c8497c7f09bb1a9c66ceae36ad49f5274a03fbf16",
+      "size": 2981392,
       "format": "zip",
+      "releaseTag": "v0.4.2",
       "binaries": {
         "doist.exe": {
           "path": "doist.exe",
-          "sha256": "938fe9441579da4c3a3af5158b9a7653ef5ab17fa408dc683826b086fb189c77"
+          "sha256": "4c6cfc61967259ad56fa13f5f0cf17afc4bdc77ba2751ffef58fa9a3573934be"
         }
       }
     }
