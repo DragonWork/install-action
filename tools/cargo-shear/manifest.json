@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "cargo-shear",
-  "version": "1.14.0",
+  "version": "1.14.1",
   "repository": "Boshen/cargo-shear",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.0/cargo-shear-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.14.0",
-      "sha256": "9004df4eb031a456026c4326ae0d0ce545321527a67be90f4524c1be729dc40e",
-      "size": 1587250,
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.1/cargo-shear-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "7b4cec5ec12e22717670721ace1edbd97a65cb9e08864466d292a3009bb85d1a",
+      "size": 1599396,
       "format": "tar.gz",
+      "releaseTag": "v1.14.1",
       "binaries": {
         "cargo-shear": {
           "path": "cargo-shear",
-          "sha256": "66c6f91695d654846becf97df2c1083545003e28f79389e93b44e8cb0d15ac70"
+          "sha256": "d6d63ebf63ecbc70a3671badbe3a9b3b386e9c58c428884d9c26757a392ab024"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.0/cargo-shear-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.14.0",
-      "sha256": "d83f7c5b02c4c237d0454697c12df041df0bd83ffecc1aba46c6e06315fd47e1",
-      "size": 1433309,
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.1/cargo-shear-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "7b8c61cca4f2628cbc847ba4dfda37924b8dd2dba8ba19fe4107797f87e6b3ea",
+      "size": 1443294,
       "format": "tar.gz",
+      "releaseTag": "v1.14.1",
       "binaries": {
         "cargo-shear": {
           "path": "cargo-shear",
-          "sha256": "98a02bef25f9f098b124098ae4a38bc591a1748734bb425ed5e1d58dd7f1bbf4"
+          "sha256": "4d16e9af8629f3c2ce1056d620c56f8844c7f299d00efd2025524ca3f606e830"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.0/cargo-shear-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v1.14.0",
-      "sha256": "ea0df899fecd1ae8116d588c97ebdeef8c1ed487ac7df2701ab39d05063a7930",
-      "size": 1438165,
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.1/cargo-shear-x86_64-apple-darwin.tar.gz",
+      "sha256": "c414e63bdc08205c19b276456fc8ac5af6e33c3f2b40086a782fedb7c13e5567",
+      "size": 1446241,
       "format": "tar.gz",
+      "releaseTag": "v1.14.1",
       "binaries": {
         "cargo-shear": {
           "path": "cargo-shear",
-          "sha256": "ec245d620892855e0ccccbd16bf5a4abedbe752c1375b474b9540deac99b1de7"
+          "sha256": "72866b5cd3a0385af0569eb9eb30cdd168e60ad6f8e4626497385c9128845951"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.0/cargo-shear-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v1.14.0",
-      "sha256": "e50b9375b1e93d2293c803819c118337f1e8fce519e4188a93bb0f5e08041ca3",
-      "size": 1287539,
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.1/cargo-shear-aarch64-apple-darwin.tar.gz",
+      "sha256": "925a8e005a4966ce1e3f63d70743dbc68dd16e3369eea9aa91cfcb3ba61727cf",
+      "size": 1296487,
       "format": "tar.gz",
+      "releaseTag": "v1.14.1",
       "binaries": {
         "cargo-shear": {
           "path": "cargo-shear",
-          "sha256": "34edccc283039ed8c2351c72c45c21a13ed65cf1fdde915f689ac97b060150c5"
+          "sha256": "5fd63fb02da09d185ab16fd59a5e0189e442aa863d8584d5a308707a94a74fd0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.1/cargo-shear-x86_64-pc-windows-msvc.zip",
+      "sha256": "439a3c203c177b06c538e13cfb7260972738b9e9e8dc6433d4ace416cf40eb36",
+      "size": 1365073,
+      "format": "zip",
+      "releaseTag": "v1.14.1",
+      "binaries": {
+        "cargo-shear.exe": {
+          "path": "cargo-shear.exe",
+          "sha256": "50dce5eec8391b461af17f160a31bb358eba14d081b0c6dd520131a43bee66f8"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/Boshen/cargo-shear/releases/download/v1.14.1/cargo-shear-aarch64-pc-windows-msvc.zip",
+      "sha256": "261555c5001188bde76291f5ca8478b8f566900341ec14fded7d28571adafbbf",
+      "size": 1256246,
+      "format": "zip",
+      "releaseTag": "v1.14.1",
+      "binaries": {
+        "cargo-shear.exe": {
+          "path": "cargo-shear.exe",
+          "sha256": "1cb1277a6ce0448dab29382df8e70f38874b4935749c7abe6b2ef2e76b8b63cd"
         }
       }
     }
