@@ -1,32 +1,58 @@
 {
   "schema": 1,
   "name": "oxyromon",
-  "version": "0.24.0",
+  "version": "0.25.0",
   "repository": "alucryd/oxyromon",
   "artifacts": {
-    "darwin-x64": {
-      "url": "https://github.com/alucryd/oxyromon/releases/download/0.24.0/oxyromon.x86_64-apple-darwin.tar.xz",
-      "releaseTag": "0.24.0",
-      "sha256": "c400606a1ac19b04ec2a54b11152d953e5113e075837b9910c52187d91dd3649",
-      "size": 6582344,
+    "linux-x64": {
+      "url": "https://github.com/alucryd/oxyromon/releases/download/0.25.0/oxyromon.x86_64-linux-gnu.tar.xz",
+      "sha256": "29bb73548be402e42b02179116c1846c0eb69ebd349351e315f6426e1ace95b1",
+      "size": 8158832,
       "format": "tar.xz",
+      "releaseTag": "0.25.0",
+      "binaries": {
+        "oxyromon": {
+          "path": "target/x86_64-unknown-linux-gnu/release/oxyromon",
+          "sha256": "2cd37e8b2a67fc266649adc7e701c2cebd8b707c566f80d1b434da694a8e03b4"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/alucryd/oxyromon/releases/download/0.25.0/oxyromon.aarch64-linux-gnu.tar.xz",
+      "sha256": "e6cfc6bb5bbc798a90b78e1d04ff2ba4ad2c30c161b1da03ad9b9c5bc60787f8",
+      "size": 7067572,
+      "format": "tar.xz",
+      "releaseTag": "0.25.0",
+      "binaries": {
+        "oxyromon": {
+          "path": "target/aarch64-unknown-linux-gnu/release/oxyromon",
+          "sha256": "2ec410fa119f535b2920a536993b3ba02776b0fa3f392453b89bf6133dc5bbe4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/alucryd/oxyromon/releases/download/0.25.0/oxyromon.x86_64-apple-darwin.tar.xz",
+      "sha256": "8cd9e6d7dcd004e599263929e06e59a2bb3ddb9ec8154116709af5f84ced251b",
+      "size": 8111472,
+      "format": "tar.xz",
+      "releaseTag": "0.25.0",
       "binaries": {
         "oxyromon": {
           "path": "target/x86_64-apple-darwin/release/oxyromon",
-          "sha256": "e76afff29155269dad66ff4208ed624d081cc41f65d8e97a5338f4ea49a45d6f"
+          "sha256": "39a49c14282593fa6edfa6a2397c1b567aa7bfa8df98e112c492c1cfe7ae202b"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/alucryd/oxyromon/releases/download/0.24.0/oxyromon.aarch64-apple-darwin.tar.xz",
-      "releaseTag": "0.24.0",
-      "sha256": "ed7ab38b9a0e51b75051663b90bf4aeb62bfc2abef92435a76506e6e22d94df9",
-      "size": 5560132,
+      "url": "https://github.com/alucryd/oxyromon/releases/download/0.25.0/oxyromon.aarch64-apple-darwin.tar.xz",
+      "sha256": "a7652e3ae447958518d08cdfcc6e3451547f1e4c296b3f85933f00415441e39a",
+      "size": 6765992,
       "format": "tar.xz",
+      "releaseTag": "0.25.0",
       "binaries": {
         "oxyromon": {
           "path": "target/aarch64-apple-darwin/release/oxyromon",
-          "sha256": "3ee1632a0fb90e9571e5c7f5b6c1a8b4348d65351399342aac1ae89b7f8e8816"
+          "sha256": "52b1db0664fe632d292f47e5f3d85ac5bb4e1d453e2f190e77a1be0333130521"
         }
       }
     }
