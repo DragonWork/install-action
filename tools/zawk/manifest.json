@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "zawk",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "repository": "linux-china/zawk",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.1/zawk-x86_64-unknown-linux-musl.tar.xz",
-      "sha256": "0585b7aa10f10690cf423fbbc9cb0e09d058b5cb6975e9a3c4336353270eaad9",
-      "size": 12794844,
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.2/zawk-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "59bde6fa08dfdd41c1cde64b775ed84d824a5a92e5e3e41c1cb3bae897e71bb7",
+      "size": 13046400,
       "format": "tar.xz",
-      "releaseTag": "v0.7.1",
+      "releaseTag": "v0.7.2",
       "binaries": {
         "zawk": {
           "path": "zawk-x86_64-unknown-linux-musl/zawk",
-          "sha256": "078ab3d1ef773f5e7d007228c5cf1bf21344f4e295af8251ec02192aeb32e5d5"
+          "sha256": "77390dd80cf3bf1087aa97a04829d5c2d1d64a070f65f4b259c5798ca668ba28"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.1/zawk-aarch64-unknown-linux-musl.tar.xz",
-      "sha256": "fe9de8a4dc023aa73ca7a7490d573223e83356dcd5ddc54f168ac1124e5179e3",
-      "size": 10912948,
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.2/zawk-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "94d889e191cd7ec558aa4c96f9f2b25a6e0d9b0a1b0833c57bebcbda163df861",
+      "size": 11121188,
       "format": "tar.xz",
-      "releaseTag": "v0.7.1",
+      "releaseTag": "v0.7.2",
       "binaries": {
         "zawk": {
           "path": "zawk-aarch64-unknown-linux-musl/zawk",
-          "sha256": "539bdf345e6442a9ce28dde24bea21763f27273c152926af7d20ac15f73cd01e"
+          "sha256": "4a2af498e805ed8751a439b5e6887fff7abebfce3a3630f7b8c9d21dc859b86b"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.1/zawk-x86_64-apple-darwin.tar.xz",
-      "sha256": "6dcaffd71db060c3ddde61fbab46dc7ac56b20cedd5bf8c761b0ce74aee7c617",
-      "size": 12048192,
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.2/zawk-x86_64-apple-darwin.tar.xz",
+      "sha256": "de9401425753bec260ab1ccbf287045e11cb692d3bb2bb480a608ae8848be2b4",
+      "size": 12276628,
       "format": "tar.xz",
-      "releaseTag": "v0.7.1",
+      "releaseTag": "v0.7.2",
       "binaries": {
         "zawk": {
           "path": "zawk-x86_64-apple-darwin/zawk",
-          "sha256": "9499d422e25ea260fa2d5198c226a8334e273fce051a40b1065a88f4ce940630"
+          "sha256": "ae2297b2071025d1cc7e068adf21621881b8fe072b652601daeb4b9a06881599"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.1/zawk-aarch64-apple-darwin.tar.xz",
-      "sha256": "331f575e640f0543bdada8c674be640b19795d84e8dbf33d43d5681240ae8cb5",
-      "size": 9757944,
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.2/zawk-aarch64-apple-darwin.tar.xz",
+      "sha256": "9bfb0b3f6d608e4b6e20a1fb186b8c199a818d860f57eaf481f44b42d1560de2",
+      "size": 9965040,
       "format": "tar.xz",
-      "releaseTag": "v0.7.1",
+      "releaseTag": "v0.7.2",
       "binaries": {
         "zawk": {
           "path": "zawk-aarch64-apple-darwin/zawk",
-          "sha256": "0795a6502af2717cb4aaa55c7fe29139dde060c8a2d58c71a322b417e1bc7580"
+          "sha256": "48831d9785f07f870ddf616709780acfa3a85fc92fac68d4506b00b61006ecc3"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.1/zawk-x86_64-pc-windows-msvc.zip",
-      "sha256": "e61284d358256fbd7b22d95ef92a4a49ae9e8ce505ed447bf2d8685a755d278c",
-      "size": 18821353,
+      "url": "https://github.com/linux-china/zawk/releases/download/v0.7.2/zawk-x86_64-pc-windows-msvc.zip",
+      "sha256": "8d7b0dc248aa9b616a65d0245fa1b05b0d491643d39f59cd4580f985b8f0ef26",
+      "size": 19268438,
       "format": "zip",
-      "releaseTag": "v0.7.1",
+      "releaseTag": "v0.7.2",
       "binaries": {
         "zawk.exe": {
           "path": "zawk.exe",
-          "sha256": "1b2b065b45dd52f513ac885ce9fe20db3ae663658b9a434461c78b135c8797e8"
+          "sha256": "ee03bc0194cc0829b6db6d1ae017871dede033922a3db654f72c095b090b23a6"
         }
       }
     }
