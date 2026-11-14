@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "diesel_cli",
-  "version": "2.3.14",
+  "version": "2.4.0",
   "repository": "diesel-rs/diesel",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-x86_64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v2.3.14",
-      "sha256": "2be3eb59e00c2b9c45054d66cf3ccefae02aa231c25cc22b144612b58ffa56df",
-      "size": 6253776,
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.4.0/diesel_cli-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "ba70569567a5671a27b474ac1d733bd89ba48297eff25b3825a59acb54d965b9",
+      "size": 8460036,
       "format": "tar.xz",
+      "releaseTag": "v2.4.0",
       "binaries": {
         "diesel": {
           "path": "diesel_cli-x86_64-unknown-linux-gnu/diesel",
-          "sha256": "6d74b32ad8b2cec0e2d1c7e00aef58faee823e61cef0e1201c82417cb2faa400"
+          "sha256": "ca6f51aa0f1f616eafb8c052377ca348d437574ad5915cfa8f89ac315d116d1e"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-aarch64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v2.3.14",
-      "sha256": "861eb1a5cef438340fb7272044dae2fd06fe801020b160f61d021b97cab5cc54",
-      "size": 6292372,
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.4.0/diesel_cli-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "c1a2b7b47e3691b7b5524d5f0b832216a1900862e990575498cfa10901539852",
+      "size": 8300528,
       "format": "tar.xz",
+      "releaseTag": "v2.4.0",
       "binaries": {
         "diesel": {
           "path": "diesel_cli-aarch64-unknown-linux-gnu/diesel",
-          "sha256": "5f242e8307453b1b618b6d67eccfb709e2a655fdf1ff57e0c75b11ba85e0972c"
+          "sha256": "b3ddadb509c8664bf6a2b1cea4a8f70bedfb20cffebf45da90e705183153843b"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v2.3.14",
-      "sha256": "cbd6d4db5224e547913b125cf4c3936884123c20fff44150927c2d302436a913",
-      "size": 5855268,
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.4.0/diesel_cli-x86_64-apple-darwin.tar.xz",
+      "sha256": "a923fb4990364a7ea98c9bd35cf85d2ca685081e3dc1edf2f18a351b48d0af62",
+      "size": 7949888,
       "format": "tar.xz",
+      "releaseTag": "v2.4.0",
       "binaries": {
         "diesel": {
           "path": "diesel_cli-x86_64-apple-darwin/diesel",
-          "sha256": "d39f655abcf4e192290861461e8341f845b13fab9a84ef1e1c0ea8499ca55de5"
+          "sha256": "fab5d0cb144bede0fcbed4e13bacb3db7e4d86d4f4ab0814d3bd0d9e6720dca3"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v2.3.14",
-      "sha256": "3a029f65ebcc9379342629edef23c6328467c23be6a23dcb2b0ee39bfc80405d",
-      "size": 5755328,
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.4.0/diesel_cli-aarch64-apple-darwin.tar.xz",
+      "sha256": "95fd624a00d165b6a0832073e5eea2fdd07df94d19470f8c31730fa50e71e07e",
+      "size": 7651492,
       "format": "tar.xz",
+      "releaseTag": "v2.4.0",
       "binaries": {
         "diesel": {
           "path": "diesel_cli-aarch64-apple-darwin/diesel",
-          "sha256": "27235f0a9e9717dda83b57fbd0651c2566e7ddec2a397106531488eaf87c4514"
+          "sha256": "ab74ee0600fc180055dd2b535473687b4c5f1188110d1869373ae7d358d0b070"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.14/diesel_cli-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v2.3.14",
-      "sha256": "c095b093278829b88df18821d3d4dfdf7ba5f30a4abfc11ba206abac21af8344",
-      "size": 8052092,
+      "url": "https://github.com/diesel-rs/diesel/releases/download/v2.4.0/diesel_cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "308dae118f771deca2f44d37827a420af698e80afdcb6bbf70fa9bb84627034b",
+      "size": 11694202,
       "format": "zip",
+      "releaseTag": "v2.4.0",
       "binaries": {
         "diesel.exe": {
           "path": "diesel.exe",
-          "sha256": "06589c25b5f22ae94ef9e1dce442b46a6002ee59319b1ebd971feff65f0de41b"
+          "sha256": "e366ad291684b5e0ba781b8560164e8cade70236b19d06e0c049101e0449c6e5"
         }
       }
     }
