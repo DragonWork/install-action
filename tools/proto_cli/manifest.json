@@ -1,91 +1,91 @@
 {
   "schema": 1,
   "name": "proto_cli",
-  "version": "0.63.2",
+  "version": "0.64.0",
   "repository": "moonrepo/proto",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/moonrepo/proto/releases/download/v0.63.2/proto_cli-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v0.63.2",
-      "sha256": "da1517ad3eb85d352c68143876c0a61785cc849bf9be44123e5e3d52021760fb",
-      "size": 12949996,
+      "url": "https://github.com/moonrepo/proto/releases/download/v0.64.0/proto_cli-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "090c72b70338ed3abcd92c5f86381d90806ec091470963021bfe8c70dbaafdee",
+      "size": 13333992,
       "format": "tar.xz",
+      "releaseTag": "v0.64.0",
       "binaries": {
         "proto": {
           "path": "proto_cli-x86_64-unknown-linux-musl/proto",
-          "sha256": "caacb313a33e585d396429ca07556dbcc01c37969056566ea0fa601fe4655812"
+          "sha256": "4222c8b3478a6e860f72c2a620d7b23f970bf9fbbc173eb1e5169133b2752f77"
         },
         "proto-shim": {
           "path": "proto_cli-x86_64-unknown-linux-musl/proto-shim",
-          "sha256": "395f7f7492b2b40c3da71e1ac3f9e0e2a264a486f1c05cbd91c1151a5af55794"
+          "sha256": "7e9ffb3273713aa503552dd459cebb9e678829753bb953975ca17783caa1db60"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/moonrepo/proto/releases/download/v0.63.2/proto_cli-aarch64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v0.63.2",
-      "sha256": "d7aa6071b29051b9ce233c2549bf9507defc7055f3860ce6fc2272b2d180bd2d",
-      "size": 11802320,
+      "url": "https://github.com/moonrepo/proto/releases/download/v0.64.0/proto_cli-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "f781bef5ff06218bb699bbdec63d4a5cb48e92de8dc44123c9be5218cf78e728",
+      "size": 12130916,
       "format": "tar.xz",
+      "releaseTag": "v0.64.0",
       "binaries": {
         "proto": {
           "path": "proto_cli-aarch64-unknown-linux-musl/proto",
-          "sha256": "a18db54b1bce3ec74f38f77ede4af014d24a33f22d42c32798580763f51c5bd6"
+          "sha256": "b22b9378cd2a156d8b84fbb37311088f0d0ab5bd063aafb322f49ba24545286e"
         },
         "proto-shim": {
           "path": "proto_cli-aarch64-unknown-linux-musl/proto-shim",
-          "sha256": "f07705356490546673fefc75bd2543271965aae9ccf5ef8057b75c809bb5a766"
+          "sha256": "97b52f1258cc65f385feb8a8ebb5125658fb411fd0fc5a731fc07b6ce6053be6"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/moonrepo/proto/releases/download/v0.63.2/proto_cli-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v0.63.2",
-      "sha256": "6d071b05657237f4e3c2e60cee3777564a1b9350eaadf69529e5c9bfa5686867",
-      "size": 10701260,
+      "url": "https://github.com/moonrepo/proto/releases/download/v0.64.0/proto_cli-x86_64-apple-darwin.tar.xz",
+      "sha256": "af901e2198825507811ca354dea43c256049e44b5389c67eee8e20da294db442",
+      "size": 11095560,
       "format": "tar.xz",
+      "releaseTag": "v0.64.0",
       "binaries": {
         "proto": {
           "path": "proto_cli-x86_64-apple-darwin/proto",
-          "sha256": "e1fc8f03dc1ae35422d881201c0a45dde667cafee20297778464c62cbc62cc8c"
+          "sha256": "93ed5a30853527ee6d2880908e3d06bccf57b021877c2ec26d063273d3a43710"
         },
         "proto-shim": {
           "path": "proto_cli-x86_64-apple-darwin/proto-shim",
-          "sha256": "dd840a86b9a0ba611a914bf0ae22681d1d7a7e9198df5e906ce15dfcb1eaf201"
+          "sha256": "1754ee147b0f37333e7240e3adda4e1655955bbf0b8015d74250cedc54a3a011"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/moonrepo/proto/releases/download/v0.63.2/proto_cli-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v0.63.2",
-      "sha256": "d2bb0da3afd121baf516b2e8ed7f549b2849243db91bca0a57b398392fba5e41",
-      "size": 8921112,
+      "url": "https://github.com/moonrepo/proto/releases/download/v0.64.0/proto_cli-aarch64-apple-darwin.tar.xz",
+      "sha256": "05f6fbeb1064a7181adfa9c4a331e290f6e1d89cb2f5dcfce542b33cd4b7b220",
+      "size": 9226664,
       "format": "tar.xz",
+      "releaseTag": "v0.64.0",
       "binaries": {
         "proto": {
           "path": "proto_cli-aarch64-apple-darwin/proto",
-          "sha256": "b33b55dbe02509df3782bccec741f6a859315085d1bf17345ea58fb89f4776c6"
+          "sha256": "ea020a27454af1573eb9b6924e25d3243081cdb6e971b84f4d3b9196ab4f1125"
         },
         "proto-shim": {
           "path": "proto_cli-aarch64-apple-darwin/proto-shim",
-          "sha256": "fccb942cba12f32d8e964c4571765017c02f3889778edc4cf8a3be8476d9b5bb"
+          "sha256": "94deaf3af9afbf35175998f84152250cc009ef828668af961e9fa8d37385c696"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/moonrepo/proto/releases/download/v0.63.2/proto_cli-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.63.2",
-      "sha256": "4f39177289667de29afe062dc982249475f838fb6a8101654b79d1bb086aff93",
-      "size": 14854248,
+      "url": "https://github.com/moonrepo/proto/releases/download/v0.64.0/proto_cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "1ce776214bbab4e1f4396c196bdebdf4aaff3b6d290d1785963818e5ffeadc58",
+      "size": 15425152,
       "format": "zip",
+      "releaseTag": "v0.64.0",
       "binaries": {
         "proto.exe": {
           "path": "proto.exe",
-          "sha256": "f8f7afb2f50ab8b3dfc1c54ca0f39751dc201fe9147b80386d2f82cc665c56c6"
+          "sha256": "2b78abf2987522459167c2635f7dc6c54743f06272bef4c74c184a318986c247"
         },
         "proto-shim.exe": {
           "path": "proto-shim.exe",
-          "sha256": "1ffed9ca55422a4c129790ca8e651d5147a3d652c7ddf1842eed9cdb7a23ce6a"
+          "sha256": "12d645c7a0b8432022564cde54168be4ca278bba35227f83879006ef7627164a"
         }
       }
     }
