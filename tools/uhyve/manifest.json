@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "name": "uhyve",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "repository": "hermit-os/uhyve",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/hermit-os/uhyve/releases/download/v0.10.0/uhyve-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.10.0",
-      "sha256": "81d072e000952708345613c6230734b4e992ad470881cf210dd7ade4effaf888",
-      "size": 1456701,
+      "url": "https://github.com/hermit-os/uhyve/releases/download/v0.10.1/uhyve-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "192595c9d3bde8696989f8c529f3122d5b576bb388e8d6196f26e45ef7e27b0f",
+      "size": 1522454,
       "format": "tar.gz",
+      "releaseTag": "v0.10.1",
       "binaries": {
         "uhyve": {
           "path": "uhyve",
-          "sha256": "7a1b9bff06696e3b7827542e9e149a5397428495388146c3d63a15ab050957a3"
+          "sha256": "5575696685b370d7d678a42cf0ea8de8910bbf72147135b642eb4cf2b4882371"
         }
       }
     }
