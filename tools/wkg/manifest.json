@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "wkg",
-  "version": "0.16.1",
+  "version": "0.16.2",
   "repository": "bytecodealliance/wasm-pkg-tools",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-x86_64-unknown-linux-gnu",
-      "sha256": "235ecf455e11b8b146e00f24f24c95b573cfe6a432f332358463b229311cec57",
-      "size": 28861352,
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.2/wkg-x86_64-unknown-linux-gnu",
+      "sha256": "3cf5061a8743c87fb29ea999cb536fc3860d0413b41745ab8bd421d88ba736bd",
+      "size": 29090456,
       "format": "binary",
-      "releaseTag": "v0.16.1",
+      "releaseTag": "v0.16.2",
       "binaries": {
         "wkg": {
           "path": "wkg-x86_64-unknown-linux-gnu",
-          "sha256": "235ecf455e11b8b146e00f24f24c95b573cfe6a432f332358463b229311cec57"
+          "sha256": "3cf5061a8743c87fb29ea999cb536fc3860d0413b41745ab8bd421d88ba736bd"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-aarch64-unknown-linux-gnu",
-      "sha256": "1b897312b55a3586a91e7ceb7e14224f815b6a5ddeee903ffeca58735716d1be",
-      "size": 27064712,
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.2/wkg-aarch64-unknown-linux-gnu",
+      "sha256": "e1d91c7454b5841c84310e8e46ae317c9669937e5bf463921834134366c4205f",
+      "size": 27123640,
       "format": "binary",
-      "releaseTag": "v0.16.1",
+      "releaseTag": "v0.16.2",
       "binaries": {
         "wkg": {
           "path": "wkg-aarch64-unknown-linux-gnu",
-          "sha256": "1b897312b55a3586a91e7ceb7e14224f815b6a5ddeee903ffeca58735716d1be"
+          "sha256": "e1d91c7454b5841c84310e8e46ae317c9669937e5bf463921834134366c4205f"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-x86_64-apple-darwin",
-      "sha256": "ce1ea6f3aab7756009c523ff68bc973dc4479c744f227a7f087df284143fbe2d",
-      "size": 25166296,
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.2/wkg-x86_64-apple-darwin",
+      "sha256": "2bd819c027163f93d6fbf627f32269372d2f45832dc3389440168dc77f5ca8a6",
+      "size": 25303416,
       "format": "binary",
-      "releaseTag": "v0.16.1",
+      "releaseTag": "v0.16.2",
       "binaries": {
         "wkg": {
           "path": "wkg-x86_64-apple-darwin",
-          "sha256": "ce1ea6f3aab7756009c523ff68bc973dc4479c744f227a7f087df284143fbe2d"
+          "sha256": "2bd819c027163f93d6fbf627f32269372d2f45832dc3389440168dc77f5ca8a6"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-aarch64-apple-darwin",
-      "sha256": "3ad0e1d2698607bffe4900fd2320f7d359ec672d8c8a359c77ae4c5e0c7fb3b7",
-      "size": 23662224,
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.2/wkg-aarch64-apple-darwin",
+      "sha256": "d0b26ce740be85464aec5552df282dd877bed1a1b12ae1fb76d45fd6bc04b50e",
+      "size": 23803872,
       "format": "binary",
-      "releaseTag": "v0.16.1",
+      "releaseTag": "v0.16.2",
       "binaries": {
         "wkg": {
           "path": "wkg-aarch64-apple-darwin",
-          "sha256": "3ad0e1d2698607bffe4900fd2320f7d359ec672d8c8a359c77ae4c5e0c7fb3b7"
+          "sha256": "d0b26ce740be85464aec5552df282dd877bed1a1b12ae1fb76d45fd6bc04b50e"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.1/wkg-x86_64-pc-windows-gnu",
-      "sha256": "c5249b4a45d3ea3c3c87fb9029e47ee5b834fed19acdd6e91fff602b145b0dec",
-      "size": 41827477,
+      "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.16.2/wkg-x86_64-pc-windows-gnu",
+      "sha256": "ddcd535ba464fdf097d8dab4eb688aa0024402f015d84eafc7f899be185ae4b5",
+      "size": 39630230,
       "format": "binary",
-      "releaseTag": "v0.16.1",
+      "releaseTag": "v0.16.2",
       "binaries": {
         "wkg.exe": {
           "path": "wkg-x86_64-pc-windows-gnu",
-          "sha256": "c5249b4a45d3ea3c3c87fb9029e47ee5b834fed19acdd6e91fff602b145b0dec"
+          "sha256": "ddcd535ba464fdf097d8dab4eb688aa0024402f015d84eafc7f899be185ae4b5"
         }
       }
     }
