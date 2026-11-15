@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "mdbook-tailor",
+  "version": "2.3.0",
+  "repository": "CoralPink/mdbook-tailor",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/CoralPink/mdbook-tailor/releases/download/v2.3.0/mdbook-tailor-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "687c63f9a07df9299ee01141a6afac6d5c392d27b37e6ee74790ed1f53a1b809",
+      "size": 1062895,
+      "format": "tar.gz",
+      "releaseTag": "v2.3.0",
+      "binaries": {
+        "mdbook-tailor": {
+          "path": "mdbook-tailor",
+          "sha256": "7e66e52045ae47272f28cf4ff20611d651f4457579ac0ee0a103a62f0377de77"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/CoralPink/mdbook-tailor/releases/download/v2.3.0/mdbook-tailor-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "f3cfcb56d0747a1ef3348b3d99e3655308bddb009aabadcec1964fefe4817da5",
+      "size": 992904,
+      "format": "tar.gz",
+      "releaseTag": "v2.3.0",
+      "binaries": {
+        "mdbook-tailor": {
+          "path": "mdbook-tailor",
+          "sha256": "60e7df3c615ae8c0f83293ccd8db8b1451256d1322b77e0b93d996542df7eadf"
+        }
+      }
+    }
+  }
+}
