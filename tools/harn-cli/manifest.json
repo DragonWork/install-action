@@ -1,79 +1,79 @@
 {
   "schema": 1,
   "name": "harn-cli",
-  "version": "0.10.196",
+  "version": "0.10.199",
   "repository": "burin-labs/harn",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.196/harn-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "f99626eca3dbf4173447184c4384969808c123bfa11ff124c40d96c361a8b668",
-      "size": 86578846,
+      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.199/harn-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "63c407f2885f25598651fc007b30ccf20286b3143008e158ae9744da46bd3e59",
+      "size": 86645318,
       "format": "tar.gz",
-      "releaseTag": "v0.10.196",
+      "releaseTag": "v0.10.199",
       "binaries": {
         "harn": {
           "path": "harn",
-          "sha256": "db48ccb0ae9db5caf0baf135b916622febbc7a3b0d97dd64af0ed7ffb0bf1794"
+          "sha256": "986f4447c48dde267a172b289c60bf335c508f0576ef7d0640d9cfdd23be46c1"
         },
         "harn-container-probe": {
           "path": "harn-container-probe",
-          "sha256": "f2c5f27b7e2e2109d8f5e5fe151cc8bdb07799e8c6ddab8eb4a18755feb6723d"
+          "sha256": "0c93dd4d7913e139cbd4661d10b300f1aaf65ea7b5057263b48a4cf06f070fbb"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.196/harn-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "81bbe4686a82ce98c6d229606cfb8d10da2174f8a3d63f2ab513d6b7505b1aa7",
-      "size": 94705390,
+      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.199/harn-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "0c1747b1639c313cd3c63971979ff6956f133d18f606d250dd2e4f06f44ed588",
+      "size": 94870670,
       "format": "tar.gz",
-      "releaseTag": "v0.10.196",
+      "releaseTag": "v0.10.199",
       "binaries": {
         "harn": {
           "path": "harn",
-          "sha256": "45c5360d4ed1005bbddd88a7d786fb23acf17ca6ee7b62ba5a1492637827f1e4"
+          "sha256": "145250bba98cecd9e92af7f8e8113c33c622caa9fe8af670695173136cc7550c"
         },
         "harn-container-probe": {
           "path": "harn-container-probe",
-          "sha256": "c2ae532c316f31605ca6fe4a40489a1aa709a0869435f8f7f4c835a9ffad0294"
+          "sha256": "cde8c13e367becfd68a9d838921f9b9d5d16f54338d77fe536e37447ff6678b9"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.196/harn-x86_64-apple-darwin.tar.gz",
-      "sha256": "c5019f0d313b789c79f3f459f47876cbf40d17fbf61b1ee5646c1d3a2853142c",
-      "size": 99883673,
+      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.199/harn-x86_64-apple-darwin.tar.gz",
+      "sha256": "017f10b523e4aa9b1a6828517c3ae2392579e3a2083ab87d6b34421864b1c50f",
+      "size": 99936814,
       "format": "tar.gz",
-      "releaseTag": "v0.10.196",
+      "releaseTag": "v0.10.199",
       "binaries": {
         "harn": {
           "path": "harn",
-          "sha256": "da91d22cca1d98b5a76b8e093dace6938467acdcd4b2901781216f662e2bfd5c"
+          "sha256": "9a8530bee35b8a152ecafc97d3519edb3c56dc9aa75c4f56a6dee5d523942200"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.196/harn-aarch64-apple-darwin.tar.gz",
-      "sha256": "b1ba592d93de8f9e609879f59889fda23560b926216fe66ac26a91a9d230d04c",
-      "size": 90441326,
+      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.199/harn-aarch64-apple-darwin.tar.gz",
+      "sha256": "cd302f8d4bae25ac206af33fb2b478adcc09c7827a3e9fa0d5f2558f0156f1eb",
+      "size": 90728384,
       "format": "tar.gz",
-      "releaseTag": "v0.10.196",
+      "releaseTag": "v0.10.199",
       "binaries": {
         "harn": {
           "path": "harn",
-          "sha256": "57c67a5e9075b59313cd52df01914013d15f62015889abda5c97a069395b2f7c"
+          "sha256": "a8c1a542fb6d77ff10a33b0dfe1bc28706c97538ca8c60cb962f7c1d1a22e1a0"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.196/harn-x86_64-pc-windows-msvc.zip",
-      "sha256": "fb90f9928ff7b3efc3d25ab6910ba423220aee4d69291629f25c01708455c968",
-      "size": 86780586,
+      "url": "https://github.com/burin-labs/harn/releases/download/v0.10.199/harn-x86_64-pc-windows-msvc.zip",
+      "sha256": "e12751c50ee8a5713e70bdee8bee21cb57cc00b31eb25a1633b15503b23be530",
+      "size": 86919720,
       "format": "zip",
-      "releaseTag": "v0.10.196",
+      "releaseTag": "v0.10.199",
       "binaries": {
         "harn.exe": {
           "path": "harn.exe",
-          "sha256": "217911e05698f237bf7e40c3def79674eb597786747234a3fcfa0c608ed345ef"
+          "sha256": "2bea1b56dfb589a914aadc80f5e4d95ed81d12d7133feec1ec076e016c2980d3"
         }
       }
     }
