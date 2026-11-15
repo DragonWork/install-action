@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "oha",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "repository": "hatoo/oha",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/hatoo/oha/releases/download/v1.16.0/oha-windows-amd64.exe",
-      "releaseTag": "v1.16.0",
-      "sha256": "d692d392e958e7e8e1b16810287e74a835a62255b079ba2766a4b3b04499f267",
-      "size": 8453120,
+    "linux-x64": {
+      "url": "https://github.com/hatoo/oha/releases/download/v1.17.0/oha-linux-amd64",
+      "sha256": "85c6eb98066b8c8bd513b2dd96fafd8f9863249ea653606bae1ca2e3a75c43d2",
+      "size": 12529488,
       "format": "binary",
+      "releaseTag": "v1.17.0",
+      "binaries": {
+        "oha": {
+          "path": "oha-linux-amd64",
+          "sha256": "85c6eb98066b8c8bd513b2dd96fafd8f9863249ea653606bae1ca2e3a75c43d2"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hatoo/oha/releases/download/v1.17.0/oha-linux-arm64",
+      "sha256": "0b360c858f6277a5fca691d38adbd2dbc8c344d049ddf1a12fee8a762351ea24",
+      "size": 10621064,
+      "format": "binary",
+      "releaseTag": "v1.17.0",
+      "binaries": {
+        "oha": {
+          "path": "oha-linux-arm64",
+          "sha256": "0b360c858f6277a5fca691d38adbd2dbc8c344d049ddf1a12fee8a762351ea24"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hatoo/oha/releases/download/v1.17.0/oha-macos-amd64",
+      "sha256": "c372c87b3273d60aeeb0516f026672bdbcf234638e06ce43a752142c54651ca3",
+      "size": 11032192,
+      "format": "binary",
+      "releaseTag": "v1.17.0",
+      "binaries": {
+        "oha": {
+          "path": "oha-macos-amd64",
+          "sha256": "c372c87b3273d60aeeb0516f026672bdbcf234638e06ce43a752142c54651ca3"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hatoo/oha/releases/download/v1.17.0/oha-macos-arm64",
+      "sha256": "2c58f2bac11ae23a12f6188a6723fd1882fa82f73d9874c2141eb78c222752c7",
+      "size": 9538128,
+      "format": "binary",
+      "releaseTag": "v1.17.0",
+      "binaries": {
+        "oha": {
+          "path": "oha-macos-arm64",
+          "sha256": "2c58f2bac11ae23a12f6188a6723fd1882fa82f73d9874c2141eb78c222752c7"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/hatoo/oha/releases/download/v1.17.0/oha-windows-amd64.exe",
+      "sha256": "3971644690672523c5d998874bef397cbc5d800cb1ba7164882eb7fe8f6027ac",
+      "size": 7921664,
+      "format": "binary",
+      "releaseTag": "v1.17.0",
       "binaries": {
         "oha.exe": {
           "path": "oha-windows-amd64.exe",
-          "sha256": "d692d392e958e7e8e1b16810287e74a835a62255b079ba2766a4b3b04499f267"
+          "sha256": "3971644690672523c5d998874bef397cbc5d800cb1ba7164882eb7fe8f6027ac"
         }
       }
     }
