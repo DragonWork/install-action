@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "zshrs",
+  "version": "0.13.80",
+  "repository": "MenkeTechnologies/zshrs",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/MenkeTechnologies/zshrs/releases/download/v0.13.80/zshrs-v0.13.80-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "a6e81eb82c22261d7943299991dac58c3e13443756ad535781566dcc12bf3d3d",
+      "size": 17352508,
+      "format": "tar.gz",
+      "releaseTag": "v0.13.80",
+      "binaries": {
+        "zd": {
+          "path": "zd",
+          "sha256": "f162d28890114d44cf17ee199c2806d36d4422c36de90ece614da35c520da414"
+        },
+        "zshrs": {
+          "path": "zshrs",
+          "sha256": "d49ba5c7d0bed4c747aab8a97a160cba1caa1288f948aa54be0c9e9a5e304805"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/MenkeTechnologies/zshrs/releases/download/v0.13.80/zshrs-v0.13.80-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "91cac6c4b93772a1f3bd6afedd861300ab51bc4e54a0da2075034f8425b48c64",
+      "size": 15735349,
+      "format": "tar.gz",
+      "releaseTag": "v0.13.80",
+      "binaries": {
+        "zd": {
+          "path": "zd",
+          "sha256": "0f072305e9eaca075fb6777ead6bf6503417be2ec6da606cf3bcc41591067f28"
+        },
+        "zshrs": {
+          "path": "zshrs",
+          "sha256": "4aa892d6e155cb2d4af4b9516c3739b1045d41865714b00c7f603809b05641a6"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/MenkeTechnologies/zshrs/releases/download/v0.13.80/zshrs-v0.13.80-x86_64-apple-darwin.tar.gz",
+      "sha256": "cad9cb8a6c177879a693ff813d4f018a20a4b40b7d1b7a27a466873458c83feb",
+      "size": 16648263,
+      "format": "tar.gz",
+      "releaseTag": "v0.13.80",
+      "binaries": {
+        "zd": {
+          "path": "zd",
+          "sha256": "2cb5e8cd913f8c8c25cfb49c87dda445667eb02ceedd302625be8260a4b27298"
+        },
+        "zshrs": {
+          "path": "zshrs",
+          "sha256": "3d3f0cc4ae9703c5cbfad8cd4bcee6ebcce9a6c51eaf1f7de7fb5eaf2ae178f2"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/MenkeTechnologies/zshrs/releases/download/v0.13.80/zshrs-v0.13.80-aarch64-apple-darwin.tar.gz",
+      "sha256": "71662f06d3b1cb284f89ceba04a51090b8ac323f6dc4e4bf131b976e104649ed",
+      "size": 14951282,
+      "format": "tar.gz",
+      "releaseTag": "v0.13.80",
+      "binaries": {
+        "zd": {
+          "path": "zd",
+          "sha256": "3ae70558990c696fc37c32674f5da8ea318d205d3228381b8f718248f3e3e4f6"
+        },
+        "zshrs": {
+          "path": "zshrs",
+          "sha256": "b9bb9bb44cd561332fcb5de6cac60fc5409279c239e8ae95247b5fdb90878d5c"
+        }
+      }
+    }
+  }
+}
