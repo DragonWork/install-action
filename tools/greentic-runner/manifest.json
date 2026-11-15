@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "greentic-runner",
+  "version": "1.2.2",
+  "repository": "greenticai/greentic-runner",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/greenticai/greentic-runner/releases/download/v1.2.2/greentic-runner-v1.2.2-x86_64-unknown-linux-gnu.tgz",
+      "sha256": "8db44190338d57c45f929a49626dcebd9bb0c6757e3099a2532d34a50fa0671c",
+      "size": 35548769,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "greentic-runner": {
+          "path": "greentic-runner-v1.2.2-x86_64-unknown-linux-gnu/greentic-runner",
+          "sha256": "a7afa8cffa023d6b80b272476fb944a8257f9a277613a06ed39991145f32d184"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/greenticai/greentic-runner/releases/download/v1.2.2/greentic-runner-v1.2.2-aarch64-unknown-linux-gnu.tgz",
+      "sha256": "28b6f94bf33634d2e9d7b5205ae8f939aa3f8e9ac2653836c914c6c7b18b9409",
+      "size": 34239472,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "greentic-runner": {
+          "path": "greentic-runner-v1.2.2-aarch64-unknown-linux-gnu/greentic-runner",
+          "sha256": "d09b9e460949a9793099eedfdbe48c55dddc75499ebcb16539bbd4b98b5388a1"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/greenticai/greentic-runner/releases/download/v1.2.2/greentic-runner-v1.2.2-x86_64-apple-darwin.tgz",
+      "sha256": "5fe4aef380685c06b58ed1d58144d11e4022f01b58eabf93a5049adc60e537fd",
+      "size": 34408753,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "greentic-runner": {
+          "path": "greentic-runner-v1.2.2-x86_64-apple-darwin/greentic-runner",
+          "sha256": "2c372eedde9d81145e686b45dcab7e6d0de6074d94c833df1fb7bb7c51e13566"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/greenticai/greentic-runner/releases/download/v1.2.2/greentic-runner-v1.2.2-aarch64-apple-darwin.tgz",
+      "sha256": "2709bae0d62069b6c5f2b489f7cfa725575697d4a3cb92c9463d5a8fd0ee5481",
+      "size": 32078163,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "greentic-runner": {
+          "path": "greentic-runner-v1.2.2-aarch64-apple-darwin/greentic-runner",
+          "sha256": "353da5839d7d0e0c9eab48135128b76dd580a33e9593977298e80c9f394a9a4b"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/greenticai/greentic-runner/releases/download/v1.2.2/greentic-runner-v1.2.2-x86_64-pc-windows-msvc.zip",
+      "sha256": "985b8a1fd825de57a9605dca98fa9263b6273d78e2089303ab89aee77f5b0328",
+      "size": 31188048,
+      "format": "zip",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "greentic-runner.exe": {
+          "path": "greentic-runner-v1.2.2-x86_64-pc-windows-msvc/greentic-runner.exe",
+          "sha256": "bcb7cbae535ee04dff69c4ef475bfb745fcb347795d6361877e4e8193238cdce"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/greenticai/greentic-runner/releases/download/v1.2.2/greentic-runner-v1.2.2-aarch64-pc-windows-msvc.zip",
+      "sha256": "b5f351a67722b9dab092b9050ab7ff194ab506e006c4c78879162d3cca9d2791",
+      "size": 28569784,
+      "format": "zip",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "greentic-runner.exe": {
+          "path": "greentic-runner-v1.2.2-aarch64-pc-windows-msvc/greentic-runner.exe",
+          "sha256": "be99f23727e581f45c8bc3833ad00013e63c273a6a80b89e6636d4d5fc3013da"
+        }
+      }
+    }
+  }
+}
