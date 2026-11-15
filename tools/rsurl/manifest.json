@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "rsurl",
+  "version": "0.1.22",
+  "repository": "KarpelesLab/rsurl",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KarpelesLab/rsurl/releases/download/v0.1.22/rsurl-v0.1.22-linux-x86_64.tar.gz",
+      "sha256": "6aad59659de97617b0d640b985805ac831fefdbc21e61b7477c6e91d97d765ff",
+      "size": 11938018,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.22",
+      "binaries": {
+        "rsurl": {
+          "path": "./bin/rsurl",
+          "sha256": "b759113eea3e172275aaf4c9e0042723017a9978d249fe2a3b0f951ffae5c391"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/KarpelesLab/rsurl/releases/download/v0.1.22/rsurl-v0.1.22-linux-aarch64.tar.gz",
+      "sha256": "6f1bbdec412f1da8ffd21966ef4545cd382680f66227080a0f5acbe7ebd81fc4",
+      "size": 10456489,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.22",
+      "binaries": {
+        "rsurl": {
+          "path": "./bin/rsurl",
+          "sha256": "5d732292be81692a6e49b652a8044ff973d375cc2fc1639ed8e01a204632d486"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KarpelesLab/rsurl/releases/download/v0.1.22/rsurl-v0.1.22-macos-universal.tar.gz",
+      "sha256": "20906256750299fda6f1fe5a88cc975b3cad249c4f05a6b51814bdc896a2bb2a",
+      "size": 21311062,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.22",
+      "binaries": {
+        "rsurl": {
+          "path": "./bin/rsurl",
+          "sha256": "34a1143893356565ce69b17126a808f6cfd8d20389ede58c7359e30c764326a8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/KarpelesLab/rsurl/releases/download/v0.1.22/rsurl-v0.1.22-macos-universal.tar.gz",
+      "sha256": "20906256750299fda6f1fe5a88cc975b3cad249c4f05a6b51814bdc896a2bb2a",
+      "size": 21311062,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.22",
+      "binaries": {
+        "rsurl": {
+          "path": "./bin/rsurl",
+          "sha256": "34a1143893356565ce69b17126a808f6cfd8d20389ede58c7359e30c764326a8"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/KarpelesLab/rsurl/releases/download/v0.1.22/rsurl-v0.1.22-windows-x86_64.zip",
+      "sha256": "0686ae3646ec17e1daa770ef844f4076991185d6eb0092265a2508111a5120cf",
+      "size": 11298967,
+      "format": "zip",
+      "releaseTag": "v0.1.22",
+      "binaries": {
+        "rsurl.exe": {
+          "path": "bin/rsurl.exe",
+          "sha256": "a14ed0c4bae274e1c5831d258def5bcbe122f4f317db8e966025d8f62119869b"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/KarpelesLab/rsurl/releases/download/v0.1.22/rsurl-v0.1.22-windows-aarch64.zip",
+      "sha256": "fdd7a08c154ad07d74406eb01908cca44e033033a3a5f36cbfe5cca2d4b97fb9",
+      "size": 9942376,
+      "format": "zip",
+      "releaseTag": "v0.1.22",
+      "binaries": {
+        "rsurl.exe": {
+          "path": "bin/rsurl.exe",
+          "sha256": "1a886a11aef78a9e139e4bd0c392523c7e8f24065be081a63685d46f48d5e9ae"
+        }
+      }
+    }
+  }
+}
