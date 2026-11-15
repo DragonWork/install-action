@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "url-cleaner",
+  "version": "0.12.0",
+  "repository": "Scripter17/url-cleaner",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/Scripter17/url-cleaner/releases/download/v0.12.0/url-cleaner-linux.zip",
+      "sha256": "a1046d9ec8f2faf0bfbc4521e4ffcf4ccfde77a23b32770734a4dbe9c7b9b43b",
+      "size": 32006289,
+      "format": "zip",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "url-cleaner": {
+          "path": "url-cleaner",
+          "sha256": "4d76aea6d66ad7e1b6014f9041e490a690b0b8771a53192a9ace84c901f8a6d9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/Scripter17/url-cleaner/releases/download/v0.12.0/url-cleaner-macos.zip",
+      "sha256": "b9278e1422a3cd1a7ec230603e8e277908a87f96d16b1f035fed932a49eaf726",
+      "size": 28983660,
+      "format": "zip",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "url-cleaner": {
+          "path": "url-cleaner",
+          "sha256": "37b47a4804234622e2686748bd5025d070f75bc41dd72e08c4c9127ddae89209"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/Scripter17/url-cleaner/releases/download/v0.12.0/url-cleaner-windows.zip",
+      "sha256": "9252639d9618360d67cd333cf10cb55357665a26646606454e52980ef9eb4b58",
+      "size": 27955023,
+      "format": "zip",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "url-cleaner.exe": {
+          "path": "url-cleaner.exe",
+          "sha256": "41bb1fcf2ff6c1fcd2777f36976f60bd9fa9c783ba65d1bac6284e6d69598135"
+        }
+      }
+    }
+  }
+}
