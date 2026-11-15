@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "goat-cli",
+  "version": "0.3.0",
+  "repository": "genomehubs/goat-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/genomehubs/goat-cli/releases/download/v0.3.0/goat-cli-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "b591172ef590d5f5ab5882f64dcee41f54be8904913c72c1b280397137b8bdc7",
+      "size": 2664756,
+      "format": "tar.xz",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "goat-cli": {
+          "path": "goat-cli-x86_64-unknown-linux-gnu/goat-cli",
+          "sha256": "20a7b990257c7174b8feb2030c4beb71a0cfad3a6104414066657c85bddf6ee4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/genomehubs/goat-cli/releases/download/v0.3.0/goat-cli-x86_64-apple-darwin.tar.xz",
+      "sha256": "86c9db63e38421ae494d1bcca6007b0d81acf66b9567be3afedfbceeb18e35c2",
+      "size": 2528648,
+      "format": "tar.xz",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "goat-cli": {
+          "path": "goat-cli-x86_64-apple-darwin/goat-cli",
+          "sha256": "3331dcd867447c709f5e708e5e01ad103cdcbc8036f5bbc94f3874aa273b9eca"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/genomehubs/goat-cli/releases/download/v0.3.0/goat-cli-aarch64-apple-darwin.tar.xz",
+      "sha256": "ffa9280dd48851ecb1d33706db2f9539659c91c5f2917ef278318567a0618b9c",
+      "size": 2324564,
+      "format": "tar.xz",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "goat-cli": {
+          "path": "goat-cli-aarch64-apple-darwin/goat-cli",
+          "sha256": "5e7226df85ecdf19d3997ff36c2b2e2fdc21b7cca7e4012f0fe8b578474004cb"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/genomehubs/goat-cli/releases/download/v0.3.0/goat-cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "24fccda45cdf6498db32898ca674da08408ffed3e8e1eb56d8c6df25e52d3784",
+      "size": 3432442,
+      "format": "zip",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "goat-cli.exe": {
+          "path": "goat-cli.exe",
+          "sha256": "adbc2377934de4c4a76a12bedff1cbb406063eac8df5ce28c58b7505ab16e12f"
+        }
+      }
+    }
+  }
+}
