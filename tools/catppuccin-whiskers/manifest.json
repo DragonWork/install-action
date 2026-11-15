@@ -1,19 +1,45 @@
 {
   "schema": 1,
   "name": "catppuccin-whiskers",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "repository": "catppuccin/whiskers",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/catppuccin/whiskers/releases/download/v2.9.0/whiskers-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v2.9.0",
-      "sha256": "2f804ce4ede168fc40010f7562b0e81cb8ba94ed51f3583edff99bb5603589ec",
-      "size": 5328896,
+    "linux-x64": {
+      "url": "https://github.com/catppuccin/whiskers/releases/download/v2.10.0/whiskers-x86_64-unknown-linux-gnu",
+      "sha256": "75a1d3e208e8691fb78a8f0c281e411cb6fb6a6b82a14266b3cdb725c2289aa9",
+      "size": 6254896,
       "format": "binary",
+      "releaseTag": "v2.10.0",
+      "binaries": {
+        "whiskers": {
+          "path": "whiskers-x86_64-unknown-linux-gnu",
+          "sha256": "75a1d3e208e8691fb78a8f0c281e411cb6fb6a6b82a14266b3cdb725c2289aa9"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/catppuccin/whiskers/releases/download/v2.10.0/whiskers-aarch64-apple-darwin",
+      "sha256": "65a6b4a7353599e6c1d94bb6edf8b08a017075ef5cdc838e56951c50b26dcbec",
+      "size": 4432448,
+      "format": "binary",
+      "releaseTag": "v2.10.0",
+      "binaries": {
+        "whiskers": {
+          "path": "whiskers-aarch64-apple-darwin",
+          "sha256": "65a6b4a7353599e6c1d94bb6edf8b08a017075ef5cdc838e56951c50b26dcbec"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/catppuccin/whiskers/releases/download/v2.10.0/whiskers-x86_64-pc-windows-msvc.exe",
+      "sha256": "87260ff38f99044623079f3ffad3ed9980e35e7da2ba9c449d33643c426bc923",
+      "size": 5441024,
+      "format": "binary",
+      "releaseTag": "v2.10.0",
       "binaries": {
         "whiskers.exe": {
           "path": "whiskers-x86_64-pc-windows-msvc.exe",
-          "sha256": "2f804ce4ede168fc40010f7562b0e81cb8ba94ed51f3583edff99bb5603589ec"
+          "sha256": "87260ff38f99044623079f3ffad3ed9980e35e7da2ba9c449d33643c426bc923"
         }
       }
     }
