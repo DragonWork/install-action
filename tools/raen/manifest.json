@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "raen",
+  "version": "0.1.1",
+  "repository": "raendev/raen",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/raendev/raen/releases/download/v0.1.1/raen-v0.1.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "33645fede33b0f0bc4d1e8f6bffb59531994d34d87e8a22e263f2cd7066ea399",
+      "size": 8670973,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "raen": {
+          "path": "raen-v0.1.1-x86_64-unknown-linux-gnu/raen",
+          "sha256": "2009d34de09aab41d8f46b7942e66347ae412d88ef6774d93eb08479a269df00"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/raendev/raen/releases/download/v0.1.1/raen-v0.1.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "ed2d293ef32a4c75f9797b27b59fbaaea0603bbf6065342a8fb02ecd3aa8269d",
+      "size": 8065796,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "raen": {
+          "path": "raen-v0.1.1-x86_64-apple-darwin/raen",
+          "sha256": "88f8ea0debf0c313f7e0750ecd8690ad47014b19d8035421a8663dc21bd44171"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/raendev/raen/releases/download/v0.1.1/raen-v0.1.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "ff323144c87b6745fdbceaa663e1fa5b74b5929e9dfd1842fdfba6275eb65c8f",
+      "size": 7104631,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "raen": {
+          "path": "raen-v0.1.1-aarch64-apple-darwin/raen",
+          "sha256": "bdbf8ee5c65d9bc1643696d2f61a441d37629ada8a7e4a6a6a01de5807f0ed08"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/raendev/raen/releases/download/v0.1.1/raen-v0.1.1-x86_64-pc-windows-msvc.zip",
+      "sha256": "b2814b4c8d1f984d076e47dc124d3e69c15aa5f8b9300ed2af2af594986ce198",
+      "size": 6749994,
+      "format": "zip",
+      "releaseTag": "v0.1.1",
+      "binaries": {
+        "raen.exe": {
+          "path": "raen-v0.1.1-x86_64-pc-windows-msvc/raen.exe",
+          "sha256": "5d5c78150da7bc313aa93bcad8efeefbb0fa76a5b94700c0baaadc8539ff369c"
+        }
+      }
+    }
+  }
+}
