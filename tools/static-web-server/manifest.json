@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "static-web-server",
-  "version": "2.44.2",
+  "version": "2.44.3",
   "repository": "static-web-server/static-web-server",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.2/static-web-server-v2.44.2-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "b4ca0495eb132a9f88317ddde9e3fd572586bc9cdf9bd86931a1241ea7d731eb",
-      "size": 3580550,
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.3/static-web-server-v2.44.3-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "d97a9c74be2e547c80669bcf797c1254fb3d4bac92600967081dc60f594ce30a",
+      "size": 3583181,
       "format": "tar.gz",
-      "releaseTag": "v2.44.2",
+      "releaseTag": "v2.44.3",
       "binaries": {
         "static-web-server": {
-          "path": "static-web-server-v2.44.2-x86_64-unknown-linux-musl/static-web-server",
-          "sha256": "fcf2e2cd5958593eca05c08d4e59ccc421a0d87de16c0d19505c81875c5466ed"
+          "path": "static-web-server-v2.44.3-x86_64-unknown-linux-musl/static-web-server",
+          "sha256": "1e9e952d26f7438c605e6858ed74418429df65534bf9cf151431d835f73c0fe8"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.2/static-web-server-v2.44.2-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "2fab8b2dcafef51c7b8c22855dbb29c686efb82216bc832aafabb3d06823a665",
-      "size": 3312083,
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.3/static-web-server-v2.44.3-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "92122a4006e2d7c8dfd6525809fe266e220c7a047c98739566506614f0f16edd",
+      "size": 3315055,
       "format": "tar.gz",
-      "releaseTag": "v2.44.2",
+      "releaseTag": "v2.44.3",
       "binaries": {
         "static-web-server": {
-          "path": "static-web-server-v2.44.2-aarch64-unknown-linux-musl/static-web-server",
-          "sha256": "f5455dc1c86cb2dc611e96be3e89be8413c2246a747f3dc9f7b2e5d3962909c8"
+          "path": "static-web-server-v2.44.3-aarch64-unknown-linux-musl/static-web-server",
+          "sha256": "b26eeb75033117adcbfa900e6bdbf75e9e77f81b3a1d2924ec6fae9e6b022351"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.2/static-web-server-v2.44.2-x86_64-apple-darwin.tar.gz",
-      "sha256": "9e1be45f41f4a9057d9f3bd740157ef6239b7f1889dd95d9a855a2361cfb7299",
-      "size": 3231494,
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.3/static-web-server-v2.44.3-x86_64-apple-darwin.tar.gz",
+      "sha256": "0db04b0f885f7329ff229533d6d3ba300527e97fd81205d6bf5bd5ce9e1c7870",
+      "size": 3234172,
       "format": "tar.gz",
-      "releaseTag": "v2.44.2",
+      "releaseTag": "v2.44.3",
       "binaries": {
         "static-web-server": {
-          "path": "static-web-server-v2.44.2-x86_64-apple-darwin/static-web-server",
-          "sha256": "60842eda7af992625843606adb8ca65a78b90cf40b82bd71fa7f6b57d208cb03"
+          "path": "static-web-server-v2.44.3-x86_64-apple-darwin/static-web-server",
+          "sha256": "baa530b662f3f7e7273799aa2250a3faf35db2feb9358b6c94857b8d18ff2bb8"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.2/static-web-server-v2.44.2-aarch64-apple-darwin.tar.gz",
-      "sha256": "40b35f6c3d6a503ec4bc9182b1df047c2828d69f33c5d674d979ae53c3a3521d",
-      "size": 2938776,
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.3/static-web-server-v2.44.3-aarch64-apple-darwin.tar.gz",
+      "sha256": "23221b2dbd5f0e89fee8c614deb7995eaf81448a67e067f4adeadfff4fe292b4",
+      "size": 2942074,
       "format": "tar.gz",
-      "releaseTag": "v2.44.2",
+      "releaseTag": "v2.44.3",
       "binaries": {
         "static-web-server": {
-          "path": "static-web-server-v2.44.2-aarch64-apple-darwin/static-web-server",
-          "sha256": "2eef27b3165b6e1954b5dc602efd200ac95faa8ff54acd4a7fb82a20a0cdf422"
+          "path": "static-web-server-v2.44.3-aarch64-apple-darwin/static-web-server",
+          "sha256": "64c2df014caf93837e54d9ac5d1f2b698b5661d994fa8983dc83905d127699bd"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.2/static-web-server-v2.44.2-x86_64-pc-windows-msvc.zip",
-      "sha256": "b498d4ab2437a7c23ad3fa5b33e2c5a9c8b3549658aa77345c1fbffa19efe4a5",
-      "size": 3102911,
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.3/static-web-server-v2.44.3-x86_64-pc-windows-msvc.zip",
+      "sha256": "105429b8e86af80f2a73f14c146fc79961252265d30136de3c2b58c97f6104e0",
+      "size": 3109266,
       "format": "zip",
-      "releaseTag": "v2.44.2",
+      "releaseTag": "v2.44.3",
       "binaries": {
         "static-web-server.exe": {
-          "path": "static-web-server-v2.44.2-x86_64-pc-windows-msvc/static-web-server.exe",
-          "sha256": "46fd024a558c45c85e8ead732c75a9949354c28c85511661ea45c94a1d84d1d9"
+          "path": "static-web-server-v2.44.3-x86_64-pc-windows-msvc/static-web-server.exe",
+          "sha256": "f46fc49bf03b0d6bd6e15c05765a2c3ffe94ec2f9709d6ee2bf3650c8b1fad2f"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.2/static-web-server-v2.44.2-aarch64-pc-windows-msvc.zip",
-      "sha256": "3792497b0689d4aa3a291e20baa104b1d5619ab1d3a39643366a33e37e70cd7c",
-      "size": 2925506,
+      "url": "https://github.com/static-web-server/static-web-server/releases/download/v2.44.3/static-web-server-v2.44.3-aarch64-pc-windows-msvc.zip",
+      "sha256": "651bb420c04d6e8eace74a82427f82a84a95aa9cafbfc2c268894fe7d5db945e",
+      "size": 2934067,
       "format": "zip",
-      "releaseTag": "v2.44.2",
+      "releaseTag": "v2.44.3",
       "binaries": {
         "static-web-server.exe": {
-          "path": "static-web-server-v2.44.2-aarch64-pc-windows-msvc/static-web-server.exe",
-          "sha256": "1e02b87c3fc61b63f8f4ef551c2c9211f0c594d9b58112f3aba197cebb3f05c8"
+          "path": "static-web-server-v2.44.3-aarch64-pc-windows-msvc/static-web-server.exe",
+          "sha256": "717177de33bce82fcc3e3a3ec2e7b961fa9ef895b72d0819c0c8a5cc183335c9"
         }
       }
     }
