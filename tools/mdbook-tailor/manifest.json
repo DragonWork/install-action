@@ -1,32 +1,45 @@
 {
   "schema": 1,
   "name": "mdbook-tailor",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "repository": "CoralPink/mdbook-tailor",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/CoralPink/mdbook-tailor/releases/download/v2.3.0/mdbook-tailor-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "687c63f9a07df9299ee01141a6afac6d5c392d27b37e6ee74790ed1f53a1b809",
-      "size": 1062895,
+      "url": "https://github.com/CoralPink/mdbook-tailor/releases/download/v2.3.1/mdbook-tailor-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "a837fc4e5d7a14a63db09d34c0f894ece3cb4b8257b7ea8e951106479c6d9918",
+      "size": 1062887,
       "format": "tar.gz",
-      "releaseTag": "v2.3.0",
+      "releaseTag": "v2.3.1",
       "binaries": {
         "mdbook-tailor": {
           "path": "mdbook-tailor",
-          "sha256": "7e66e52045ae47272f28cf4ff20611d651f4457579ac0ee0a103a62f0377de77"
+          "sha256": "ea0b3c86bf16a719bb121233e353f42260ad465b85a5a5c7861e07041647e671"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/CoralPink/mdbook-tailor/releases/download/v2.3.0/mdbook-tailor-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "f3cfcb56d0747a1ef3348b3d99e3655308bddb009aabadcec1964fefe4817da5",
-      "size": 992904,
+      "url": "https://github.com/CoralPink/mdbook-tailor/releases/download/v2.3.1/mdbook-tailor-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "b204dcda8368956aff71cb5e0b42c786505a06296aaf60112ee849b498a301a6",
+      "size": 992905,
       "format": "tar.gz",
-      "releaseTag": "v2.3.0",
+      "releaseTag": "v2.3.1",
       "binaries": {
         "mdbook-tailor": {
           "path": "mdbook-tailor",
-          "sha256": "60e7df3c615ae8c0f83293ccd8db8b1451256d1322b77e0b93d996542df7eadf"
+          "sha256": "66bb801ef745b6800291c35e46890118b42295029fb8c969b6b2656ae51e52f7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/CoralPink/mdbook-tailor/releases/download/v2.3.1/mdbook-tailor-aarch64-apple-darwin.tar.gz",
+      "sha256": "b57a1e7e1da4c63376b16c113f07c098d45180443ea00df054a13d8464071cfe",
+      "size": 945331,
+      "format": "tar.gz",
+      "releaseTag": "v2.3.1",
+      "binaries": {
+        "mdbook-tailor": {
+          "path": "mdbook-tailor",
+          "sha256": "a811fe9cc864fe80d3f859631c787e5287824c464819d3219ae2998cde7c1f9f"
         }
       }
     }
