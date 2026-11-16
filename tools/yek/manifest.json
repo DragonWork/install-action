@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "yek",
-  "version": "0.25.5",
-  "repository": "mohsen1/yek",
+  "version": "0.26.0",
+  "repository": "prooflinedev/yek",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/mohsen1/yek/releases/download/v0.25.5/yek-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.25.5",
-      "sha256": "bedf98d7c391d12c2a1725eca4c6508e8e0a1aeaa174f14a0e4d0bb6581c49b6",
-      "size": 7339033,
+      "url": "https://github.com/prooflinedev/yek/releases/download/v0.26.0/yek-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "6529bca1eb65cc47b72e43e6baa8dce67a88cbf98bd8a475af71bb3567d21085",
+      "size": 7280559,
       "format": "tar.gz",
+      "releaseTag": "v0.26.0",
       "binaries": {
         "yek": {
           "path": "yek-x86_64-unknown-linux-musl/yek",
-          "sha256": "b95dd1e7dec742f08108c217f3530f086846620a4cbf5902952435deecf249f6"
+          "sha256": "cdadbd80f0e9d80492282468111044aa2e7d1fc26ffa650b8dfd536c9de8c362"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/mohsen1/yek/releases/download/v0.25.5/yek-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.25.5",
-      "sha256": "7f3e60da9b32f219b4b64bbef4491062562b8cf72fe552c28ba7a6abb259715d",
-      "size": 7200838,
+      "url": "https://github.com/prooflinedev/yek/releases/download/v0.26.0/yek-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "55f00d33092bd64ee08a70f591351bd6650601dad89c6acaca55b14350d3ca0b",
+      "size": 7341960,
       "format": "tar.gz",
+      "releaseTag": "v0.26.0",
       "binaries": {
         "yek": {
-          "path": "yek-aarch64-unknown-linux-gnu/yek",
-          "sha256": "c5ee12409241332bde0a28d7fe51aa9e0f6d00bcce8009a97304afd2957ff391"
+          "path": "yek-aarch64-unknown-linux-musl/yek",
+          "sha256": "a0fd2b79baf444e68e9427eda7c2a63e60daa1e7dccc1ae29098577797dd95e9"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/mohsen1/yek/releases/download/v0.25.5/yek-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.25.5",
-      "sha256": "51482c1b6a65e8182b84321eadd47c582620003134a4b4c45107612ea7ddcffd",
-      "size": 6429695,
+      "url": "https://github.com/prooflinedev/yek/releases/download/v0.26.0/yek-x86_64-apple-darwin.tar.gz",
+      "sha256": "a042407b2349d31139540d0a7a0eae24ebf8a11e057eac2b4b9bcf49e8780a35",
+      "size": 6446594,
       "format": "tar.gz",
+      "releaseTag": "v0.26.0",
       "binaries": {
         "yek": {
           "path": "yek-x86_64-apple-darwin/yek",
-          "sha256": "59134c804880ab784479c84dbcfdad1d162e3f0860ea3924f89eb4bceec5b3da"
+          "sha256": "a9e5bba85c86dc3397eeb11d3a3bc366c5b437b6e37528f831f27a2e79f99cf3"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/mohsen1/yek/releases/download/v0.25.5/yek-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.25.5",
-      "sha256": "0797f0b8f25537b33e870acf1ac172c7ef62415a8bd9e8528d03438e546167ee",
-      "size": 6659137,
+      "url": "https://github.com/prooflinedev/yek/releases/download/v0.26.0/yek-aarch64-apple-darwin.tar.gz",
+      "sha256": "54839556f848287e273c9b5c255faffdb0b0df232bf795f481904f9363834273",
+      "size": 6659274,
       "format": "tar.gz",
+      "releaseTag": "v0.26.0",
       "binaries": {
         "yek": {
           "path": "yek-aarch64-apple-darwin/yek",
-          "sha256": "8cd0bf0b01ef0274e56a193b58adf37e66cb72d73d28ad539e6873a62e7cc01c"
+          "sha256": "c0148cd4b7e3ec255f25bec80bf1750711dc0146d941117fb3b1bd30665c539f"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/mohsen1/yek/releases/download/v0.25.5/yek-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.25.5",
-      "sha256": "4d964df9c202f0f8e547b2d362bfb7d250c37c1936ad2858cc5a364cdd238823",
-      "size": 5123467,
+      "url": "https://github.com/prooflinedev/yek/releases/download/v0.26.0/yek-x86_64-pc-windows-msvc.zip",
+      "sha256": "633dd909d772807ec4083854a14afe068ef4b44d4f9e4c781299deaf17c15806",
+      "size": 5143440,
       "format": "zip",
+      "releaseTag": "v0.26.0",
       "binaries": {
         "yek.exe": {
           "path": "yek-x86_64-pc-windows-msvc/yek.exe",
-          "sha256": "b39867324cd9f23b3177e81948c28930646ead0208cef8cf2bdad2807b05fa1f"
+          "sha256": "005d2cf3d4a0dca46a1fedb012a1babd9893aa44ec913ec483c5a8a0f203e3cf"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/mohsen1/yek/releases/download/v0.25.5/yek-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v0.25.5",
-      "sha256": "d66d47645c7096ccb60d5dfb504faac32e9d31b1018f0db88c64e033fdcb8b45",
-      "size": 4983090,
+      "url": "https://github.com/prooflinedev/yek/releases/download/v0.26.0/yek-aarch64-pc-windows-msvc.zip",
+      "sha256": "a3b95bc1a5ce00f0a1c5cea835bc3eaafb95e15441fab461626a287cdce50ae8",
+      "size": 4976280,
       "format": "zip",
+      "releaseTag": "v0.26.0",
       "binaries": {
         "yek.exe": {
           "path": "yek-aarch64-pc-windows-msvc/yek.exe",
-          "sha256": "f8f95c14e916ba1d9c397e012211f2b9a6ef817c7a563a90c6b832e206c537a9"
+          "sha256": "2fa7eb8824cb1ae54aa632b46f2000e31f306fe4429ae7cc10045d0d7d16c01d"
         }
       }
     }
