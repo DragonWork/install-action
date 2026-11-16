@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "typstyle",
-  "version": "0.15.2",
+  "version": "0.15.3",
   "repository": "typstyle-rs/typstyle",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.2/typstyle-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.15.2",
-      "sha256": "ec620da653e620968020768443bbe51acc96c65aa3fc15cd9f3a7610f2fbf782",
-      "size": 1914368,
+    "linux-x64": {
+      "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-x86_64-unknown-linux-musl",
+      "sha256": "dee2de93d6218de1fb9f071edebab2e1fb7c33bf92dfde5008f56ee3126f5143",
+      "size": 2674152,
       "format": "binary",
+      "releaseTag": "v0.15.3",
+      "binaries": {
+        "typstyle": {
+          "path": "typstyle-x86_64-unknown-linux-musl",
+          "sha256": "dee2de93d6218de1fb9f071edebab2e1fb7c33bf92dfde5008f56ee3126f5143"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-aarch64-unknown-linux-gnu",
+      "sha256": "3a8bcd929995904b4cd830cd9d6b1e620e5ed5ee9727198b1b5e2cc5f8cd48b8",
+      "size": 2545080,
+      "format": "binary",
+      "releaseTag": "v0.15.3",
+      "binaries": {
+        "typstyle": {
+          "path": "typstyle-aarch64-unknown-linux-gnu",
+          "sha256": "3a8bcd929995904b4cd830cd9d6b1e620e5ed5ee9727198b1b5e2cc5f8cd48b8"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-x86_64-apple-darwin",
+      "sha256": "04255bfcbb80734dfb2b3929cfb76cb9693c72b90ee4c68c931f7988eaff26db",
+      "size": 2657712,
+      "format": "binary",
+      "releaseTag": "v0.15.3",
+      "binaries": {
+        "typstyle": {
+          "path": "typstyle-x86_64-apple-darwin",
+          "sha256": "04255bfcbb80734dfb2b3929cfb76cb9693c72b90ee4c68c931f7988eaff26db"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-aarch64-apple-darwin",
+      "sha256": "a895316b606319bf05764402ea151c179d7de496526c4060594c2c1a5edf1224",
+      "size": 2594600,
+      "format": "binary",
+      "releaseTag": "v0.15.3",
+      "binaries": {
+        "typstyle": {
+          "path": "typstyle-aarch64-apple-darwin",
+          "sha256": "a895316b606319bf05764402ea151c179d7de496526c4060594c2c1a5edf1224"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-x86_64-pc-windows-msvc.exe",
+      "sha256": "840a9ba38bec7f669434743598c1407f3a5d85cf597c1cd3daa657bb842f4049",
+      "size": 1929216,
+      "format": "binary",
+      "releaseTag": "v0.15.3",
       "binaries": {
         "typstyle.exe": {
           "path": "typstyle-x86_64-pc-windows-msvc.exe",
-          "sha256": "ec620da653e620968020768443bbe51acc96c65aa3fc15cd9f3a7610f2fbf782"
+          "sha256": "840a9ba38bec7f669434743598c1407f3a5d85cf597c1cd3daa657bb842f4049"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.2/typstyle-aarch64-pc-windows-msvc.exe",
-      "releaseTag": "v0.15.2",
-      "sha256": "5eb62b46d1651cbcb8d504703995d07a02e7f9d57ade089de3988ae9246f5d24",
-      "size": 1694720,
+      "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-aarch64-pc-windows-msvc.exe",
+      "sha256": "388a8b2d5954fe4df3e1c3a60719760e67eb84e7f8fbf3bfcfb147847de07971",
+      "size": 1709568,
       "format": "binary",
+      "releaseTag": "v0.15.3",
       "binaries": {
         "typstyle.exe": {
           "path": "typstyle-aarch64-pc-windows-msvc.exe",
-          "sha256": "5eb62b46d1651cbcb8d504703995d07a02e7f9d57ade089de3988ae9246f5d24"
+          "sha256": "388a8b2d5954fe4df3e1c3a60719760e67eb84e7f8fbf3bfcfb147847de07971"
         }
       }
     }
