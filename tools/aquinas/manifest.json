@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "aquinas",
+  "version": "0.1.5",
+  "repository": "codabrink/aquinas",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/codabrink/aquinas/releases/download/v0.1.5/aquinas-v0.1.5-x86_64-linux.tar.gz",
+      "sha256": "6bdbfcfd85db7c3ae8b8dedca4be1355a3922240a6efb70791acefc192a7aefc",
+      "size": 1473450,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.5",
+      "binaries": {
+        "aquinas": {
+          "path": "aquinas",
+          "sha256": "bd875653a2b6771f74fcd40b81123bfb7236d20dde70d3505fd498c3d76099a7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/codabrink/aquinas/releases/download/v0.1.5/aquinas-v0.1.5-aarch64-macos.tar.gz",
+      "sha256": "6fe459c6867b8b8747555b04b3f450d2465014f79f9af51f5e27fb7077eb4b71",
+      "size": 1172035,
+      "format": "tar.gz",
+      "releaseTag": "v0.1.5",
+      "binaries": {
+        "aquinas": {
+          "path": "aquinas",
+          "sha256": "477247e6372d6c0b40ca0537c12d912679bfcbb85b6da69f3c84ae4601db96b9"
+        }
+      }
+    }
+  }
+}
