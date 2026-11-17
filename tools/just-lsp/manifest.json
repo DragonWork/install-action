@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "just-lsp",
-  "version": "0.11.1",
+  "version": "0.11.2",
   "repository": "terror/just-lsp",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/terror/just-lsp/releases/download/0.11.1/just-lsp-0.11.1-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "df25f72b7a715e0ac5b9d5e5610f69f3e8412f56ca1637fc7ed6a7e7e2c45b22",
-      "size": 3016910,
+      "url": "https://github.com/terror/just-lsp/releases/download/0.11.2/just-lsp-0.11.2-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "02cc551138fb377080d537e99c7f09d4a6b6a04e4d0e36ab6b25854d9bc48c4a",
+      "size": 3022088,
       "format": "tar.gz",
-      "releaseTag": "0.11.1",
+      "releaseTag": "0.11.2",
       "binaries": {
         "just-lsp": {
           "path": "./just-lsp",
-          "sha256": "a084d7a62a85a5f210cd6f8b6ca006f0f9c079cbf884f4d6b3fd8cfbf38926d8"
+          "sha256": "5ac755c3bed2815f5b4726618aeb2760708bb0ff52e00fe0004af3c97858bbae"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/terror/just-lsp/releases/download/0.11.1/just-lsp-0.11.1-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "440a9f74210d847738a4bb581d95c880eb52819d5f7b00758c81ca7f12863330",
-      "size": 2788113,
+      "url": "https://github.com/terror/just-lsp/releases/download/0.11.2/just-lsp-0.11.2-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "d22a12f1db16575271ba9e303c9164dd8ac5eb1ee0714b0940cd177d2eff7349",
+      "size": 2792223,
       "format": "tar.gz",
-      "releaseTag": "0.11.1",
+      "releaseTag": "0.11.2",
       "binaries": {
         "just-lsp": {
           "path": "./just-lsp",
-          "sha256": "7ae2758cff34ffbc8a6a6d909051210b3c73ad2869bf406f86774ae4c3e7d450"
+          "sha256": "28a24916557c535a8f603fa9fabff311be7a75b9381f15f4108f7a1f4dd9bb8f"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/terror/just-lsp/releases/download/0.11.1/just-lsp-0.11.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "368dceb0957602b01e0167c55f9a9d6a4ecdc9be13fb6b67631cebf020518d85",
-      "size": 2814053,
+      "url": "https://github.com/terror/just-lsp/releases/download/0.11.2/just-lsp-0.11.2-x86_64-apple-darwin.tar.gz",
+      "sha256": "1556b437214064230b4f26cd6ef299ee191d164382ece0a98bfd92d8c7e57844",
+      "size": 2820529,
       "format": "tar.gz",
-      "releaseTag": "0.11.1",
+      "releaseTag": "0.11.2",
       "binaries": {
         "just-lsp": {
           "path": "./just-lsp",
-          "sha256": "f12982a6646eda50876bd5119b9824ed3aca17ba295620b6a90c2cff63d3749f"
+          "sha256": "f94aae89d14a3ab5ca551c8be9884660f563144c806d8915319a2dc1f32b0bc2"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/terror/just-lsp/releases/download/0.11.1/just-lsp-0.11.1-aarch64-apple-darwin.tar.gz",
-      "sha256": "ae471d9697bbba168dd9f2e8ac5385279f4764cce3e93b0d64d5cfa68ec33a20",
-      "size": 2620749,
+      "url": "https://github.com/terror/just-lsp/releases/download/0.11.2/just-lsp-0.11.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "4c3fee654dba32d2452902562211b609f657024ea3faa45bca881aa4270af2d0",
+      "size": 2626642,
       "format": "tar.gz",
-      "releaseTag": "0.11.1",
+      "releaseTag": "0.11.2",
       "binaries": {
         "just-lsp": {
           "path": "./just-lsp",
-          "sha256": "71b78140cdc76bcdfb906f18f3e89ada69a2496daa2fcac9440cd7acd3b6aca1"
+          "sha256": "a8afb9e75a8339754abceba446bf094a4b68d764807ef4ace1a4cb15e7caecc4"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/terror/just-lsp/releases/download/0.11.1/just-lsp-0.11.1-x86_64-pc-windows-msvc.zip",
-      "sha256": "1a2b7761075373defe5857acb5e779a5f146f579d910c69644a574805c26e116",
-      "size": 2764196,
+      "url": "https://github.com/terror/just-lsp/releases/download/0.11.2/just-lsp-0.11.2-x86_64-pc-windows-msvc.zip",
+      "sha256": "4802f46769ed6bda4f47317bd6987058a573c1aa2fd74e3a448dcf9bca4902a8",
+      "size": 2770957,
       "format": "zip",
-      "releaseTag": "0.11.1",
+      "releaseTag": "0.11.2",
       "binaries": {
         "just-lsp.exe": {
           "path": "just-lsp.exe",
-          "sha256": "13ebfd82789cc0d737e4685420b2b034df9ec99b9072db419cd3545376dc2368"
+          "sha256": "3eff2cddff44e658e13575f51382800b238f507e8ac651c99eda05c3c74d9526"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/terror/just-lsp/releases/download/0.11.1/just-lsp-0.11.1-aarch64-pc-windows-msvc.zip",
-      "sha256": "b9c253e2f6bef4884a8666180ba5b22cc668b2c0b8570155869036598e1b5a62",
-      "size": 2520954,
+      "url": "https://github.com/terror/just-lsp/releases/download/0.11.2/just-lsp-0.11.2-aarch64-pc-windows-msvc.zip",
+      "sha256": "baa228d90e72794fbc8634e7de1870b0a04fd447d0c1f215caf8eb9d6707c3f2",
+      "size": 2526084,
       "format": "zip",
-      "releaseTag": "0.11.1",
+      "releaseTag": "0.11.2",
       "binaries": {
         "just-lsp.exe": {
           "path": "just-lsp.exe",
-          "sha256": "54135ccc312289cb5acf2ffc355e082d3b37fc04ba2bed2ee6bdf111612d26a2"
+          "sha256": "6866c38a3b2573e14c3a07a5fff0e119b935948e9032da989829740a142bc8fb"
         }
       }
     }
