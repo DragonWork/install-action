@@ -2,22 +2,12 @@
 
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { execFile } = require('node:child_process');
-const { promisify } = require('node:util');
 const { createHash } = require('node:crypto');
 const { assert, VERSION, validateManifest, writeCommand, failure } = require('../lib/common.cjs');
 const { checkRegistry } = require('./check.cjs');
 const { compareVersions } = require('./update-tools.cjs');
 const { popularity } = require('./popularity.cjs');
-
-async function tagRefs() {
-  const { stdout } = await promisify(execFile)('git', ['for-each-ref',
-    '--format=%(refname:strip=2)%09%(objectname)%09%(*objectname)', 'refs/tags'], { maxBuffer: 8 * 1024 * 1024 });
-  return new Map(stdout.trim().split('\n').filter(Boolean).map(line => {
-    const [name, sha, peeled] = line.split('\t');
-    return [name, peeled || sha];
-  }));
-}
+const { tagRefs } = require('./github.cjs');
 
 function catalogIndex(manifests, refs, catalog) {
   assert([2, 3].includes(catalog.schema) && catalog.yanked && typeof catalog.yanked === 'object'
@@ -45,13 +35,11 @@ function catalogIndex(manifests, refs, catalog) {
     };
   }).sort((a, b) => b.popularity - a.popularity || a.name.localeCompare(b.name, 'en'));
   assert(new Set(tools.map(tool => tool.name)).size === tools.length, 'Duplicate catalog tool.');
-  return { schema: 1, updatedAt: catalog.modified || null, engine, tools };
+  return { schema: 1, engine, tools };
 }
 
 async function buildCatalog({ directory = path.resolve('registry'), output = path.resolve('_site'), refs } = {}) {
-  const names = await checkRegistry(directory);
-  const manifests = [];
-  for (const name of names) manifests.push(JSON.parse(await fs.readFile(path.join(directory, 'tools', name, 'manifest.json'), 'utf8')));
+  const manifests = await checkRegistry(directory);
   const catalog = JSON.parse(await fs.readFile(path.join(directory, 'catalog.json'), 'utf8'));
   const index = catalogIndex(manifests, refs || await tagRefs(), catalog);
   const assets = ['index.html', 'style.css', 'catalog.mjs'];
@@ -67,10 +55,12 @@ async function buildCatalog({ directory = path.resolve('registry'), output = pat
     assert(allowed.has(entry.name) && entry.isFile(), 'Site output contains unrelated files.');
   }
   for (const file of assets) await fs.copyFile(path.join(__dirname, '..', 'site', file), path.join(output, file));
-  await fs.writeFile(path.join(output, 'tools.json'), JSON.stringify(index) + '\n');
   await fs.writeFile(path.join(output, '.nojekyll'), '');
-  const fingerprint = createHash('sha256');
-  for (const file of [...assets, 'tools.json', '.nojekyll']) fingerprint.update(await fs.readFile(path.join(output, file)));
+  // Rebuilding identical content should keep the deployment and its displayed timestamp.
+  const fingerprint = createHash('sha256').update(JSON.stringify(index));
+  for (const file of assets) fingerprint.update(await fs.readFile(path.join(output, file)));
+  index.updatedAt = new Date().toISOString();
+  await fs.writeFile(path.join(output, 'tools.json'), JSON.stringify(index) + '\n');
   await fs.writeFile(path.join(output, 'build-id.txt'), fingerprint.digest('hex') + '\n');
   console.log(`Built catalog: ${index.tools.length} tools; installer v${index.engine.version}.`);
   return index;
@@ -81,7 +71,7 @@ async function changed() {
   let previous;
   try {
     const response = await fetch('https://dragonwork.github.io/install-action/build-id.txt', {
-      redirect: 'error', signal: AbortSignal.timeout(10_000),
+      cache: 'no-cache', redirect: 'error', signal: AbortSignal.timeout(10_000),
     });
     if (response.ok) previous = (await response.text()).trim();
   } catch { /* Deploy when the existing fingerprint cannot be read. */ }

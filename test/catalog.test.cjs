@@ -2,21 +2,30 @@
 
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { catalogIndex } = require('../scripts/build-catalog.cjs');
+const { buildCatalog, catalogIndex } = require('../scripts/build-catalog.cjs');
 const { sample } = require('./fixtures.cjs');
 const { popularity } = require('../scripts/popularity.cjs');
 
-test('catalog readers queue with publishers so branch contents and tags stay consistent', async () => {
+test('catalog timestamps follow publication and only content changes require a deployment', async t => {
   const fs = require('node:fs/promises');
   const path = require('node:path');
-  for (const name of ['pages.yml', 'update-crates.yml', 'backfill-version.yml']) {
-    const workflow = await fs.readFile(path.join(__dirname, '..', '.github', 'workflows', name), 'utf8');
-    const concurrency = workflow.match(/^concurrency:\n((?:[ \t]+[^\n]*\n)+)/m)?.[1];
-    assert(concurrency, `Missing publication queue in ${name}`);
-    assert.match(concurrency, /^  group: crate-publication$/m, name);
-    assert.match(concurrency, /^  queue: max$/m, name);
-    assert.match(concurrency, /^  cancel-in-progress: false$/m, name);
-  }
+  const directory = await fs.mkdtemp(path.join(require('node:os').tmpdir(), 'install-action-pages-'));
+  t.after(() => fs.rm(directory, { recursive: true }));
+  const output = path.join(directory, '_site');
+  const refs = new Map([['v1.0.0', 'a'.repeat(40)]]);
+  await fs.writeFile(path.join(directory, 'catalog.json'), JSON.stringify({ schema: 3, yanked: {}, modified: '2020-01-01' }));
+  const start = Date.now();
+  const build = () => buildCatalog({ directory, output, refs });
+  const fingerprint = () => fs.readFile(path.join(output, 'build-id.txt'), 'utf8');
+  await build();
+  const data = JSON.parse(await fs.readFile(path.join(output, 'tools.json')));
+  assert(Date.parse(data.updatedAt) >= start && Date.parse(data.updatedAt) <= Date.now());
+  const original = await fingerprint();
+  await build();
+  assert.equal(await fingerprint(), original);
+  refs.set('v1.1.0', 'b'.repeat(40));
+  await build();
+  assert.notEqual(await fingerprint(), original);
 });
 
 test('catalog pins come from installer and tool version tags, with yank status retained', () => {

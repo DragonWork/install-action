@@ -13,10 +13,10 @@ async function main() {
   assert(VERSION.test(version), 'Provide a semantic installer version.');
   assert(version === current.version, 'Commit the requested version in package.json before releasing.');
   const existing = await api(`/repos/${repository}/git/ref/tags/v${version}`, { optional: true });
-  if (existing) { console.log(`v${version} is already released.`); return; }
-  const head = process.env.RELEASE_SHA || process.env.GITHUB_SHA;
+  const ref = existing ? `v${version}` : (process.env.RELEASE_SHA || process.env.GITHUB_SHA);
+  const commit = await api(`/repos/${repository}/commits/${ref}`);
+  const head = commit.sha;
   await assertMainContains(repository, head);
-  const commit = await api(`/repos/${repository}/commits/${head}`);
   assert(commit.commit.verification.verified, 'The installer commit must have a verified signature.');
   await release(repository, `v${version}`, head,
     `DragonWork/install-action ${version}.\n`, true);

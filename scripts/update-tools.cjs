@@ -465,17 +465,24 @@ async function mergePrepared(directory, output) {
       changed.push(name);
     }
   }
-  await require('./check.cjs').checkRegistry(directory);
-  const progress = catalogProgress(catalog, state, await currentManifests(directory));
+  const current = Object.create(null);
+  for (const manifest of await require('./check.cjs').checkRegistry(directory)) current[manifest.name] = manifest;
+  const progress = catalogProgress(catalog, state, current);
   await fs.writeFile(path.join(directory, 'catalog-state.json'), JSON.stringify(state, null, 2) + '\n');
   await fs.writeFile(path.join(directory, 'catalog-progress.json'), JSON.stringify(progress, null, 2) + '\n');
   console.log(`${progress.eligible} eligible; ${progress.remaining} remaining; ${changed.length} prepared.`);
+  const incomplete = plan.names.filter(name => plan.candidates[name].manual
+    && (!attempted.has(name) || Object.hasOwn(state, name)));
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    const lines = [`Prepared ${changed.length} tools. Remaining: ${progress.remaining}; ready: ${progress.runnable}.`];
+    for (const name of incomplete) lines.push(`- ${name}: ${state[name]?.reason || 'deferred until API capacity is available'}`);
+    await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, lines.join('\n') + '\n');
+  }
   if (process.env.GITHUB_OUTPUT) {
-    const manifests = await Promise.all(changed.map(name => readJson(path.join(directory, 'tools', name, 'manifest.json'))));
-    await writeCommand(process.env.GITHUB_OUTPUT, 'platforms', JSON.stringify(validationMatrix(manifests)));
+    await writeCommand(process.env.GITHUB_OUTPUT, 'platforms', JSON.stringify(validationMatrix(changed.map(name => current[name]))));
     await writeCommand(process.env.GITHUB_OUTPUT, 'changed', String(changed.length > 0));
     await writeCommand(process.env.GITHUB_OUTPUT, 'names', changed.join(' '));
-    await writeCommand(process.env.GITHUB_OUTPUT, 'remaining', String(progress.remaining));
+    await writeCommand(process.env.GITHUB_OUTPUT, 'incomplete', incomplete.join(' '));
   }
   return progress;
 }
@@ -494,6 +501,6 @@ async function main() {
 }
 
 if (require.main === module) main().catch(failure);
-module.exports = { wrapper, compareVersions, repositoryOf, generate, registered, probeReleases, publicationBudget,
+module.exports = { wrapper, compareVersions, repositoryOf, cratesApi, generate, registered, probeReleases, publicationBudget,
   assetFormat, assetCandidates, nativeBinary,
   catalogProgress, planUpdate, prepareShard, mergePrepared, main };

@@ -30,7 +30,6 @@ jobs:
     timeout-minutes: 10
     permissions:
       contents: write
-      actions: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -39,24 +38,9 @@ jobs:
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '24'
-      - name: Release installer and refresh Pages for a new version
+      - name: Release installer
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_VERSION: ${{ inputs.version }}
           RELEASE_SHA: ${{ github.sha }}
-        run: |
-          node <<'NODE'
-          const { spawnSync } = require('node:child_process');
-          const { api } = require('./scripts/github.cjs');
-          const { assert, failure } = require('./lib/common.cjs');
-          (async () => {
-            const version = require('./package.json').version;
-            const base = '/repos/DragonWork/install-action';
-            const existing = await api(`${base}/releases/tags/v${version}`, { optional: true });
-            const result = spawnSync(process.execPath, ['scripts/release-engine.cjs'], { stdio: 'inherit' });
-            assert(result.status === 0, 'Installer release failed.');
-            if (!existing) await api(`${base}/actions/workflows/pages.yml/dispatches`, {
-              method: 'POST', body: { ref: 'main' },
-            });
-          })().catch(failure);
-          NODE
+        run: node scripts/release-engine.cjs

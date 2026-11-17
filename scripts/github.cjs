@@ -1,6 +1,19 @@
 'use strict';
 
+const { execFile } = require('node:child_process');
+const { promisify } = require('node:util');
 const { assert } = require('../lib/common.cjs');
+
+async function tagRefs() {
+  const { stdout } = await promisify(execFile)('git', ['ls-remote', '--tags', 'origin'], { maxBuffer: 16 * 1024 * 1024 });
+  const tags = new Map();
+  for (const line of stdout.trim().split('\n').filter(Boolean)) {
+    const [sha, ref] = line.split('\t');
+    const name = ref.slice('refs/tags/'.length).replace(/\^\{\}$/, '');
+    if (!tags.has(name) || ref.endsWith('^{}')) tags.set(name, sha);
+  }
+  return tags;
+}
 
 async function api(endpoint, { method = 'GET', body, optional = false } = {}) {
   assert(endpoint.startsWith('/'), 'Invalid GitHub API endpoint.');
@@ -18,6 +31,11 @@ async function api(endpoint, { method = 'GET', body, optional = false } = {}) {
     throw new Error(`GitHub API ${method} ${endpoint}: HTTP ${response.status} ${detail.message || ''}`);
   }
   return response.status === 204 ? null : response.json();
+}
+
+async function contents(repository, file, ref) {
+  const result = await api(`/repos/${repository}/contents/${file}?ref=${encodeURIComponent(ref)}`, { optional: true });
+  return result ? Buffer.from(result.content, 'base64').toString('utf8') : null;
 }
 
 async function signedCommit(repository, branch, head, message, files, deletions = []) {
@@ -70,4 +88,4 @@ async function release(repository, tag, commit, body, latest = false) {
   } });
 }
 
-module.exports = { api, signedCommit, tagCommit, release, assertMainContains };
+module.exports = { api, contents, signedCommit, tagCommit, tagRefs, release, assertMainContains };

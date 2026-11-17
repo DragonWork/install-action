@@ -7,6 +7,7 @@ const { wrapper, registered } = require('./update-tools.cjs');
 
 async function checkRegistry(directory) {
   const names = await registered(directory);
+  const manifests = [];
   for (const name of names) {
     const folder = path.join(directory, 'tools', name);
     const files = (await fs.readdir(folder)).sort();
@@ -15,12 +16,13 @@ async function checkRegistry(directory) {
     const manifest = validateManifest(JSON.parse(await fs.readFile(path.join(folder, 'manifest.json'), 'utf8')));
     assert(manifest.name === name, 'Crate namespace does not match its manifest.');
     assert(await fs.readFile(path.join(folder, 'action.yml'), 'utf8') === wrapper(name), `Unexpected action wrapper for ${name}.`);
+    manifests.push(manifest);
   }
-  return names;
+  return manifests;
 }
 
 async function main() {
-  const names = await checkRegistry(path.resolve(process.env.CRATES_DIR || 'registry'));
+  const manifests = await checkRegistry(path.resolve(process.env.CRATES_DIR || 'registry'));
   for (const file of await fs.readdir('.github/workflows')) {
     const content = await fs.readFile(path.join('.github/workflows', file), 'utf8');
     for (const match of content.matchAll(/^\s*-?\s*uses:\s*(\S+)/gm)) {
@@ -28,7 +30,7 @@ async function main() {
     }
   }
   assert(JSON.parse(await fs.readFile('package.json')).license === 'Apache-2.0', 'Incorrect package license.');
-  console.log(`Validated ${names.length} crate namespaces and workflow action pins.`);
+  console.log(`Validated ${manifests.length} crate namespaces and workflow action pins.`);
 }
 
 if (require.main === module) main().catch(failure);

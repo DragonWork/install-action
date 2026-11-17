@@ -30,7 +30,7 @@ function element(tag, className, text) {
 }
 
 async function start() {
-  const response = await fetch('./tools.json');
+  const response = await fetch('./tools.json', { cache: 'no-cache' });
   if (!response.ok) throw new Error('Catalog unavailable.');
   const catalog = await response.json();
   if (catalog.schema !== 1 || !Array.isArray(catalog.tools)) throw new Error('Invalid catalog.');
@@ -125,7 +125,7 @@ async function start() {
   });
   const updated = new Date(catalog.updatedAt);
   if (catalog.updatedAt && !Number.isNaN(updated.getTime())) {
-    document.querySelector('#updated').textContent = `Registry snapshot: ${updated.toLocaleString(undefined, {
+    document.querySelector('#updated').textContent = `Catalog updated ${updated.toLocaleString(undefined, {
       year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short',
     })}`;
   }

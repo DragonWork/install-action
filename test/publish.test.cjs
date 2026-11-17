@@ -494,7 +494,7 @@ test('tool publication skips existing tags and recovers missing tags without Git
     CRATES_HEAD: 'a'.repeat(40), GITHUB_SHA: 'c'.repeat(40),
   });
   const calls = [];
-  let existingTag = true;
+  let existingTag = true, tagManifest = files['manifest.json'];
   global.fetch = async (url, options) => {
     calls.push({ url, method: options.method });
     assert(!url.includes('/releases'), 'Tool publication must not require GitHub Releases.');
@@ -508,12 +508,13 @@ test('tool publication skips existing tags and recovers missing tags without Git
     if (url.includes('/contents/')) {
       const name = new URL(url).pathname.split('/').at(-1);
       if (!(name in files)) return Response.json({}, { status: 404 });
-      return Response.json({ content: Buffer.from(files[name]).toString('base64') });
+      const content = name === 'manifest.json' && url.endsWith('b'.repeat(40)) ? tagManifest : files[name];
+      return Response.json({ content: Buffer.from(content).toString('base64') });
     }
     if (url.includes('/heads/main')) return Response.json({ object: { sha: 'c'.repeat(40) } });
     if (url.includes('/heads/crates.io')) return Response.json({ object: { sha: 'a'.repeat(40) } });
     if (url.includes('/commits?')) return Response.json([{ sha: 'b'.repeat(40) }]);
-    if (url.includes('/commits/')) return Response.json({ commit: { verification: { verified: true } },
+    if (url.includes('/commits/')) return Response.json({ sha: 'b'.repeat(40), commit: { verification: { verified: true } },
       files: [{ filename: 'tools/sample-cli/manifest.json' }] });
     if (url.includes('/git/ref/tags/')) return existingTag
       ? Response.json({ object: { type: 'commit', sha: 'b'.repeat(40) } }) : Response.json({}, { status: 404 });
@@ -527,6 +528,13 @@ test('tool publication skips existing tags and recovers missing tags without Git
   existingTag = false;
   await publishTools({ tags: new Set() });
   assert.equal(calls.filter(call => call.method === 'POST').length, 1);
+  calls.length = 0;
+  process.env.CHANGED_CRATES = 'sample-cli';
+  const tags = new Set(['sample-cli/v1.0.0']);
+  await publishTools({ tags });
+  tagManifest = '{}';
+  await assert.rejects(publishTools({ tags }), /Refusing to replace/);
+  assert(calls.every(call => call.method === 'GET'));
 });
 
 test('preparation workers merge distinct tools and defer temporary failures', async t => {
@@ -582,7 +590,7 @@ test('installer publication still creates a GitHub Release without moving its ta
   assert.equal(writes[0].method, 'POST');
 });
 
-test('historical versions require verified commits and never advance the catalog branch', async t => {
+test('backfills preserve verified version tags and register only newer tools', async t => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-historical-'));
   const originalFetch = global.fetch;
   const originalEnv = { ...process.env };
@@ -597,17 +605,23 @@ test('historical versions require verified commits and never advance the catalog
   await fs.mkdir(folder, { recursive: true });
   const files = { 'manifest.json': JSON.stringify(manifest, null, 2) + '\n', 'action.yml': wrapper(manifest.name) };
   for (const [file, content] of Object.entries(files)) await fs.writeFile(path.join(folder, file), content);
-  await fs.writeFile(path.join(root, 'backfill.json'), JSON.stringify({ name: manifest.name, version: manifest.version, head: 'a'.repeat(40) }));
   Object.assign(process.env, { GITHUB_REPOSITORY: 'DragonWork/install-action', GITHUB_REF: 'refs/heads/main',
     GITHUB_SHA: 'c'.repeat(40), CRATE_NAME: manifest.name, CRATE_VERSION: manifest.version });
   const writes = [];
-  let verified = false, tagExists = false;
+  let verified = false, tagExists = false, registeredVersion = '1.1.0';
   global.fetch = async (url, options) => {
     assert(!url.includes('/releases'));
-    assert(['GET', 'POST'].includes(options.method), 'Backfill must not update or delete a reference.');
+    assert(['GET', 'POST'].includes(options.method));
     if (options.method === 'POST') {
       const body = JSON.parse(options.body);
       writes.push(url);
+      if (url.endsWith('/graphql')) {
+        const input = body.variables.input;
+        assert.equal(input.expectedHeadOid, 'a'.repeat(40));
+        assert.equal(input.branch.branchName, 'crates.io');
+        assert.equal(input.message.headline, 'feat(sample-cli): register 1.0.0 in catalog');
+        return Response.json({ data: { createCommitOnBranch: { commit: { oid: 'c'.repeat(40), signature: { isValid: true } } } } });
+      }
       if (url.endsWith('/git/trees')) {
         assert.equal(body.base_tree, 'd'.repeat(40));
         assert(body.tree.every(file => file.path.startsWith('tools/sample-cli/')));
@@ -633,6 +647,9 @@ test('historical versions require verified commits and never advance the catalog
       commit: { verification: { verified } }, files: [{ filename: 'tools/sample-cli/manifest.json' }] });
     if (url.includes('/contents/')) {
       const file = new URL(url).pathname.split('/').at(-1);
+      if (file === 'manifest.json' && url.endsWith('a'.repeat(40))) {
+        return Response.json({ content: Buffer.from(JSON.stringify({ version: registeredVersion })).toString('base64') });
+      }
       return Response.json({ content: Buffer.from(files[file]).toString('base64') });
     }
     throw new Error(`Unexpected API request: ${url}`);
@@ -645,4 +662,7 @@ test('historical versions require verified commits and never advance the catalog
   writes.length = 0;
   await publishHistorical(root);
   assert.deepEqual(writes, []);
+  registeredVersion = '0.9.0';
+  await publishHistorical(root);
+  assert.deepEqual(writes, ['https://api.github.com/graphql']);
 });
