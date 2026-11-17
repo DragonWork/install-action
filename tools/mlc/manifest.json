@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "mlc",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "repository": "becheran/mlc",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/becheran/mlc/releases/download/v1.3.0/mlc-x86_64-windows.exe",
-      "releaseTag": "v1.3.0",
-      "sha256": "16b4535fa1bd746cbb5e3ee6f279fded1b36439105a826f90b232ad23704ab30",
-      "size": 2548736,
+    "linux-x64": {
+      "url": "https://github.com/becheran/mlc/releases/download/v2.0.0/mlc-x86_64-linux",
+      "sha256": "6beb49ec68ea6c48ca945a3589f920aebf9b3e5e8ef17a4587fae628cf109748",
+      "size": 8684808,
       "format": "binary",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "mlc": {
+          "path": "mlc-x86_64-linux",
+          "sha256": "6beb49ec68ea6c48ca945a3589f920aebf9b3e5e8ef17a4587fae628cf109748"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/becheran/mlc/releases/download/v2.0.0/mlc-aarch64-linux",
+      "sha256": "55f3b9436a5834fdc784b3dbb088d6cca2fe2a9150a5d7490fc5ca6781fb26bb",
+      "size": 7105952,
+      "format": "binary",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "mlc": {
+          "path": "mlc-aarch64-linux",
+          "sha256": "55f3b9436a5834fdc784b3dbb088d6cca2fe2a9150a5d7490fc5ca6781fb26bb"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/becheran/mlc/releases/download/v2.0.0/mlc-x86_64-apple-darwin",
+      "sha256": "44b060d5645f5b5b19fa207f55f1af8354107287e0baed95bab0ccdf897d85c5",
+      "size": 2599448,
+      "format": "binary",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "mlc": {
+          "path": "mlc-x86_64-apple-darwin",
+          "sha256": "44b060d5645f5b5b19fa207f55f1af8354107287e0baed95bab0ccdf897d85c5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/becheran/mlc/releases/download/v2.0.0/mlc-aarch64-apple-darwin",
+      "sha256": "5b0e1f519461806e03d836f6fc483ae3ba3af11d49bfaaae8b5edbcef7d488e0",
+      "size": 2382624,
+      "format": "binary",
+      "releaseTag": "v2.0.0",
+      "binaries": {
+        "mlc": {
+          "path": "mlc-aarch64-apple-darwin",
+          "sha256": "5b0e1f519461806e03d836f6fc483ae3ba3af11d49bfaaae8b5edbcef7d488e0"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/becheran/mlc/releases/download/v2.0.0/mlc-x86_64-windows.exe",
+      "sha256": "a2b9411c5679bfe599959e5fe509d9aa022afccd59f783d51abee98b074a2001",
+      "size": 2561024,
+      "format": "binary",
+      "releaseTag": "v2.0.0",
       "binaries": {
         "mlc.exe": {
           "path": "mlc-x86_64-windows.exe",
-          "sha256": "16b4535fa1bd746cbb5e3ee6f279fded1b36439105a826f90b232ad23704ab30"
+          "sha256": "a2b9411c5679bfe599959e5fe509d9aa022afccd59f783d51abee98b074a2001"
         }
       }
     }
