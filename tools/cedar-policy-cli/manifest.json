@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "cedar-policy-cli",
-  "version": "4.14.1",
+  "version": "4.15.0",
   "repository": "cedar-policy/cedar",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.14.1/cedar-policy-cli-x86_64-unknown-linux-gnu.tar.xz",
-      "sha256": "5833e9f4734eac0d95b3dab7ae119a9212caf0a82e02720b989e2fce6f3bfdad",
-      "size": 3381912,
+      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.15.0/cedar-policy-cli-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "befc810b9527bfd97813bf061c45958dccf2ce6c8496ad725eab14a472c30a3c",
+      "size": 3419480,
       "format": "tar.xz",
-      "releaseTag": "cedar-policy-cli-v4.14.1",
+      "releaseTag": "cedar-policy-cli-v4.15.0",
       "binaries": {
         "cedar": {
           "path": "cedar-policy-cli-x86_64-unknown-linux-gnu/cedar",
-          "sha256": "c2a6ba89e13f17d3381b647a879366acb26ef62392f96d847442679f675b1d11"
+          "sha256": "40d14aa479237ea92c539065def1cb70fac92f720d0d72cff260ad39acaebf31"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.14.1/cedar-policy-cli-aarch64-unknown-linux-gnu.tar.xz",
-      "sha256": "499cfb6a6a7eab28ceca7b24215525a2d107fbf3faca759318a253d485b7d346",
-      "size": 3151684,
+      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.15.0/cedar-policy-cli-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "0ded3c89d48ce36fa2f5de7059bba7cc0da7c9515ec2fa4ac40f22ba4fc96cc4",
+      "size": 3184696,
       "format": "tar.xz",
-      "releaseTag": "cedar-policy-cli-v4.14.1",
+      "releaseTag": "cedar-policy-cli-v4.15.0",
       "binaries": {
         "cedar": {
           "path": "cedar-policy-cli-aarch64-unknown-linux-gnu/cedar",
-          "sha256": "3074627b387a3418d75d3145549c5315b5852512f7260990611b1a9e3afe0541"
+          "sha256": "389de8d4ca916b98fb5a2bfa9dc9a5788ac9947eddf5886679623497335f8e98"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.14.1/cedar-policy-cli-x86_64-apple-darwin.tar.xz",
-      "sha256": "b8f8394375771252a91dd62436e615a31a8978e6f7929df905c7989a5d4491d7",
-      "size": 3184292,
+      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.15.0/cedar-policy-cli-x86_64-apple-darwin.tar.xz",
+      "sha256": "c5fb119b3c24f374c7748ef817e453324851e81093bc9410148c299ca8a48ae1",
+      "size": 3199200,
       "format": "tar.xz",
-      "releaseTag": "cedar-policy-cli-v4.14.1",
+      "releaseTag": "cedar-policy-cli-v4.15.0",
       "binaries": {
         "cedar": {
           "path": "cedar-policy-cli-x86_64-apple-darwin/cedar",
-          "sha256": "4f132e0818aa52e605880aa5e10aff7e4dacedf941779d425dc8b83ee40b5217"
+          "sha256": "f8eada2a27352b80db79bf5acc2cfd0a1bef479bcd4449a452e839f13661ab6a"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.14.1/cedar-policy-cli-aarch64-apple-darwin.tar.xz",
-      "sha256": "aa5ed003d0771d6543abd53b40f85476cf1c3d54ea323dc19054532de017a5e3",
-      "size": 2902888,
+      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.15.0/cedar-policy-cli-aarch64-apple-darwin.tar.xz",
+      "sha256": "bc21bec866f6ed91392ee0642f7834db98417e0d5b96149b320e5e4aa9880282",
+      "size": 2946768,
       "format": "tar.xz",
-      "releaseTag": "cedar-policy-cli-v4.14.1",
+      "releaseTag": "cedar-policy-cli-v4.15.0",
       "binaries": {
         "cedar": {
           "path": "cedar-policy-cli-aarch64-apple-darwin/cedar",
-          "sha256": "7262f9a31ecb0b770826d55fa4fce8f853e99b1731b067e3de702be8ce6bf76b"
+          "sha256": "a283b6c2bc52d0a695ba790c87b1dea39279e647c5e84e03f7ded1de3046037c"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.14.1/cedar-policy-cli-x86_64-pc-windows-msvc.zip",
-      "sha256": "b9ceb4b473fae4a90f0ba9c786100cf019205c55a08817fc590a664f01f04afb",
-      "size": 5058617,
+      "url": "https://github.com/cedar-policy/cedar/releases/download/cedar-policy-cli-v4.15.0/cedar-policy-cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "f56e5f1e8f1a9e7e427fe7fcb6f1c57198b992cfbe8aa41d4c07bbcc4a93ce48",
+      "size": 5108946,
       "format": "zip",
-      "releaseTag": "cedar-policy-cli-v4.14.1",
+      "releaseTag": "cedar-policy-cli-v4.15.0",
       "binaries": {
         "cedar.exe": {
           "path": "cedar.exe",
-          "sha256": "f6ee12c36c41a0f2bdce475f232d2b05524fd76a230ca888d9c56b8fd24e988d"
+          "sha256": "3d91a70ad9671d0597a82e74b122a0e5d688f3d94f16ec74a8a168ee8330a9bf"
         }
       }
     }
