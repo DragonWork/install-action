@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "alef",
-  "version": "0.130.2",
+  "version": "0.130.4",
   "repository": "xberg-io/alef",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.2/alef-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "6b74e558778a8bd16b900e6a4e67c7ed8fa08ab29d29cf8e07d0f712201064b1",
-      "size": 25264594,
+      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.4/alef-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "13d94726a1eeb0ff24a6e52eb2c11f0e7e2ab9f974ecbf96eefe054d6aaffb9c",
+      "size": 25261042,
       "format": "tar.gz",
-      "releaseTag": "v0.130.2",
+      "releaseTag": "v0.130.4",
       "binaries": {
         "alef": {
           "path": "alef-x86_64-unknown-linux-musl/alef",
-          "sha256": "e6798133b17c5748a05cc1a78fae29317e4000450cc652e505c05e0c67c8926b"
+          "sha256": "9d4e68421bdf955d65109237805050e1825414c26ae2af444ab3b0c62b5e32fa"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.2/alef-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "884c18e443d8e7a067943056cc0bd2ee791dcf7c116636536ce8de0320712e00",
-      "size": 23131383,
+      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.4/alef-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "fbb4ea569fc6c7a36909d7443d8c4a875e3c36c4fbcb1b8eb93868e2d32d61c4",
+      "size": 23207184,
       "format": "tar.gz",
-      "releaseTag": "v0.130.2",
+      "releaseTag": "v0.130.4",
       "binaries": {
         "alef": {
           "path": "alef-aarch64-unknown-linux-musl/alef",
-          "sha256": "fcd65e669a759e396cfedac7b76a328e9da030cd5a2ae6501b0df618b10ed339"
+          "sha256": "62565fdab9f39e6dae42f2bd798c3c344523ff89337fac0718add62522237ed6"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.2/alef-x86_64-apple-darwin.tar.gz",
-      "sha256": "fa734dbea5c39c7f3955a0fe7ab80e392507e42bea8fa3b901e4f6fb35e498db",
-      "size": 23669710,
+      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.4/alef-x86_64-apple-darwin.tar.gz",
+      "sha256": "479f5aba5775e4f4d57b7808e44cb0de9762bd1d665cf544c1ed849832559e81",
+      "size": 23679959,
       "format": "tar.gz",
-      "releaseTag": "v0.130.2",
+      "releaseTag": "v0.130.4",
       "binaries": {
         "alef": {
           "path": "alef-x86_64-apple-darwin/alef",
-          "sha256": "75965ee55ecd13bef805741823b10762f1a71d7e5d0a892cde4c98b338f8f21a"
+          "sha256": "e1217323e07a7edd97cc8de1ebe010dcd97073332014815c0c145505e4247335"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.2/alef-aarch64-apple-darwin.tar.gz",
-      "sha256": "5c56628270fe7f88270f0eb8b09d627f8ba704d6c9422fcb6123b3d1de1a0f83",
-      "size": 21795825,
+      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.4/alef-aarch64-apple-darwin.tar.gz",
+      "sha256": "2b80abe1fe5914cbd371f1760568787a70eff5ba964e80c76f1abd7428410be9",
+      "size": 21782112,
       "format": "tar.gz",
-      "releaseTag": "v0.130.2",
+      "releaseTag": "v0.130.4",
       "binaries": {
         "alef": {
           "path": "alef-aarch64-apple-darwin/alef",
-          "sha256": "f8ecb8b7b2fe75a7ef0c9587ec6ff7cae66cb5411a257bdabab6af3885bb3172"
+          "sha256": "adbb3612bdfeb7a363d2482243ecc12028dcd46539d825110c9cf3309879f22b"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.2/alef-x86_64-pc-windows-msvc.zip",
-      "sha256": "8b0bd52e1f6ccad6ba4e00ac2048fed38c49ddc460c35a239c918182521c0957",
-      "size": 23199810,
+      "url": "https://github.com/xberg-io/alef/releases/download/v0.130.4/alef-x86_64-pc-windows-msvc.zip",
+      "sha256": "ed74a4f5ffd671ffb0bc2225aa50d18c07ed473f0a1ebdeb801d7d26ad61733c",
+      "size": 23181159,
       "format": "zip",
-      "releaseTag": "v0.130.2",
+      "releaseTag": "v0.130.4",
       "binaries": {
         "alef.exe": {
           "path": "alef-x86_64-pc-windows-msvc/alef.exe",
-          "sha256": "ff0b816991fa37077e6292103250168da390c1e88b56abfc834a86fb3832eef3"
+          "sha256": "b0b237ea94ade22e5ba590ad7de055477534aabc0a059d997be13de13cd7eb8a"
         }
       }
     }
