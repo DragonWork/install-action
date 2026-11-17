@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "usage-cli",
-  "version": "7.3.0",
+  "version": "7.4.0",
   "repository": "jdx/usage",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/jdx/usage/releases/download/v7.3.0/usage-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "9af5d220332a0178c38786eac6deb9fa67b767f4c3d4b2e4c8e6bd5659975e86",
-      "size": 4112840,
+      "url": "https://github.com/jdx/usage/releases/download/v7.4.0/usage-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "223f8819cc26543ffcc11161659497450c6bdbe947ad8580b70183dac4c9d182",
+      "size": 4129899,
       "format": "tar.gz",
-      "releaseTag": "v7.3.0",
+      "releaseTag": "v7.4.0",
       "binaries": {
         "usage": {
           "path": "usage",
-          "sha256": "00cc99c13c4ece2c745ce4278af6c9ea7b33312b09b74c8af91992f00bf1836c"
+          "sha256": "44948385b1d44a9e14e4c6b4bc6bc8ec825489c92c8982a6bc2eeee752fe0f09"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/jdx/usage/releases/download/v7.3.0/usage-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "3bfcf7b5cff0daec5629f54dd15f40001a09bab551663d6e937c99c5716ae094",
-      "size": 3767214,
+      "url": "https://github.com/jdx/usage/releases/download/v7.4.0/usage-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "2b522480691d6af6bb2a96de28cf9edbd90af3a52195cefe0d19217c18652c4a",
+      "size": 3789539,
       "format": "tar.gz",
-      "releaseTag": "v7.3.0",
+      "releaseTag": "v7.4.0",
       "binaries": {
         "usage": {
           "path": "usage",
-          "sha256": "607f06ebe4ee783d8d955dd202c8536168ea19bfd631a7f78cc2dc8d23f7bd60"
+          "sha256": "44d08253a05379c6c9eb887bf1b885c4c2536ff60bac0d4778816ef63b602a7d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/jdx/usage/releases/download/v7.3.0/usage-universal-apple-darwin.tar.gz",
-      "sha256": "3201ab26da21e11cbbf3b75f81da65a502e7774e014bd77956cab13e61e73b87",
-      "size": 7504541,
+      "url": "https://github.com/jdx/usage/releases/download/v7.4.0/usage-universal-apple-darwin.tar.gz",
+      "sha256": "606dbdda615111940c6b39e1cb64dbf4871839304146e8e40e7302312be095d6",
+      "size": 7528748,
       "format": "tar.gz",
-      "releaseTag": "v7.3.0",
+      "releaseTag": "v7.4.0",
       "binaries": {
         "usage": {
           "path": "usage",
-          "sha256": "0718da0517d2fad085a6adc64dcb4b985c5bb9ec0e06891e5e496aacc4684cff"
+          "sha256": "c70fd1f036f7399352c137bec59f8721d87b0c8243b7add47d3b5324130b5129"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/jdx/usage/releases/download/v7.3.0/usage-universal-apple-darwin.tar.gz",
-      "sha256": "3201ab26da21e11cbbf3b75f81da65a502e7774e014bd77956cab13e61e73b87",
-      "size": 7504541,
+      "url": "https://github.com/jdx/usage/releases/download/v7.4.0/usage-universal-apple-darwin.tar.gz",
+      "sha256": "606dbdda615111940c6b39e1cb64dbf4871839304146e8e40e7302312be095d6",
+      "size": 7528748,
       "format": "tar.gz",
-      "releaseTag": "v7.3.0",
+      "releaseTag": "v7.4.0",
       "binaries": {
         "usage": {
           "path": "usage",
-          "sha256": "0718da0517d2fad085a6adc64dcb4b985c5bb9ec0e06891e5e496aacc4684cff"
+          "sha256": "c70fd1f036f7399352c137bec59f8721d87b0c8243b7add47d3b5324130b5129"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/jdx/usage/releases/download/v7.3.0/usage-x86_64-pc-windows-msvc.zip",
-      "sha256": "0156c5ff413cb49275b109a44b0bb388d8aebf4ce2f47db4902333d3fbee46cc",
-      "size": 3838282,
+      "url": "https://github.com/jdx/usage/releases/download/v7.4.0/usage-x86_64-pc-windows-msvc.zip",
+      "sha256": "a0bc6718039bbb4289e19981a2cf82a7e1d8509eb426cb27fcb90c0dc34d8b66",
+      "size": 3854689,
       "format": "zip",
-      "releaseTag": "v7.3.0",
+      "releaseTag": "v7.4.0",
       "binaries": {
         "usage.exe": {
           "path": "usage.exe",
-          "sha256": "bd09a94e4cb54651f5bcb9af715301b0c0856d5be1b1992310fe5d5ceee3ab1d"
+          "sha256": "89b84e1a8550db333121aed724a8f4c0c693565a1cfa354a6d189a61e32f426f"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/jdx/usage/releases/download/v7.3.0/usage-aarch64-pc-windows-msvc.zip",
-      "sha256": "be6e5ef486713af5aa9de830a9cae3f0642c5cc3d6ec475c6aaf52479f53382d",
-      "size": 3474447,
+      "url": "https://github.com/jdx/usage/releases/download/v7.4.0/usage-aarch64-pc-windows-msvc.zip",
+      "sha256": "ee1f583b4357d8836fa95f9fe0c7a837da6b92b1a26fb881d146ceb45edf49dc",
+      "size": 3483827,
       "format": "zip",
-      "releaseTag": "v7.3.0",
+      "releaseTag": "v7.4.0",
       "binaries": {
         "usage.exe": {
           "path": "usage.exe",
-          "sha256": "9a62b915f3f5fc8486815015a823e5ff69d8123020df8d8cba70fb7f9912c248"
+          "sha256": "1e83ed846348ef0f09a6e726dc119d4e2c01e985e4a97661825680cf1d2eeda7"
         }
       }
     }
