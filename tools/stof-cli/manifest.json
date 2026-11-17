@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "stof-cli",
+  "version": "0.14.4",
+  "repository": "dev-formata-io/stof-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dev-formata-io/stof-cli/releases/download/v0.14.4/stof-cli-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "d451d4d50363ead8cf1798af4687438e6b6b7a9b844abd21cf280d52c85986da",
+      "size": 6605852,
+      "format": "tar.xz",
+      "releaseTag": "v0.14.4",
+      "binaries": {
+        "stof": {
+          "path": "stof-cli-x86_64-unknown-linux-musl/stof",
+          "sha256": "031e28bb4c5dc0e1857189ace26fe845135b45dbc15b2d4afc8ce985ef21fbc0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dev-formata-io/stof-cli/releases/download/v0.14.4/stof-cli-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "7e8b73e436d0cbd4853f267100ea18b390fc61ea0563442be1dada0f3bb8d895",
+      "size": 5901996,
+      "format": "tar.xz",
+      "releaseTag": "v0.14.4",
+      "binaries": {
+        "stof": {
+          "path": "stof-cli-aarch64-unknown-linux-musl/stof",
+          "sha256": "4dfe3d96f9a56605f8f774d6d64a1840bad9d5fa54a5d25c26ac5c9cc4acee47"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/dev-formata-io/stof-cli/releases/download/v0.14.4/stof-cli-x86_64-apple-darwin.tar.xz",
+      "sha256": "34ee2179d71ce9dd7bbf1f435d769d569132a63fae2285428962f923639c2565",
+      "size": 6356692,
+      "format": "tar.xz",
+      "releaseTag": "v0.14.4",
+      "binaries": {
+        "stof": {
+          "path": "stof-cli-x86_64-apple-darwin/stof",
+          "sha256": "8ae72b294fb1fb3dbffd6d658e585536a8a2c7041a19b3d493021d176806a893"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/dev-formata-io/stof-cli/releases/download/v0.14.4/stof-cli-aarch64-apple-darwin.tar.xz",
+      "sha256": "c1c0fe5f4af2cf6c8edff024e120b84c69851c9177a209cd0146368b3084bf47",
+      "size": 5581056,
+      "format": "tar.xz",
+      "releaseTag": "v0.14.4",
+      "binaries": {
+        "stof": {
+          "path": "stof-cli-aarch64-apple-darwin/stof",
+          "sha256": "c046d7ae5042f1fcd4265116934da184edc379cde2c0013e42c35b0e958fd8af"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/dev-formata-io/stof-cli/releases/download/v0.14.4/stof-cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "c6fd4d9f1fa2d94686d884319eb41847af35384c4cccff7f6c4df4bc9859f0ed",
+      "size": 9352240,
+      "format": "zip",
+      "releaseTag": "v0.14.4",
+      "binaries": {
+        "stof.exe": {
+          "path": "stof.exe",
+          "sha256": "eab4380944af0b4bd47f37cc9abec5e591f4e6af6538dc2c580a9e899e46c91a"
+        }
+      }
+    }
+  }
+}
