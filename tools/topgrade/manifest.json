@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "topgrade",
-  "version": "17.16.0",
+  "version": "17.17.0",
   "repository": "topgrade-rs/topgrade",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.16.0/topgrade-v17.16.0-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "70cc59701662fecf3757156a7ba8e6cc5f249d77473b5d58557178519d86a8ca",
-      "size": 6695569,
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.17.0/topgrade-v17.17.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "41c3e9e79ae7274461bad910401545250ffca1240805a55266270ef0af85c313",
+      "size": 6717282,
       "format": "tar.gz",
-      "releaseTag": "v17.16.0",
+      "releaseTag": "v17.17.0",
       "binaries": {
         "topgrade": {
           "path": "topgrade",
-          "sha256": "e79f115fc9bd831cbe85865ff21a8a65e22a9b70dbb7c92f582ff4be8edd6b06"
+          "sha256": "ef78659f425e807b1b09f7e0a0ffcdf4b9362689c03e0b4d7f3e77a702c309da"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.16.0/topgrade-v17.16.0-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "fae8eb3465506c2bb64838a3f0681b0d286bf3c569e3bc928076e57ed2f4d865",
-      "size": 6120738,
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.17.0/topgrade-v17.17.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "10cccced7dd5bf1f27cbc7b8b333ea5f7bbbf818290b0a2452aa947f4dd01c08",
+      "size": 6142517,
       "format": "tar.gz",
-      "releaseTag": "v17.16.0",
+      "releaseTag": "v17.17.0",
       "binaries": {
         "topgrade": {
           "path": "topgrade",
-          "sha256": "5548e25d78bae1cb65812a03664602297a077be7b6a02877128ad4b617a526b7"
+          "sha256": "418ec2b83153c6b22eb6ebf8d395b2fa8a980054275e2c32ac7f742e43cfd8cf"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.16.0/topgrade-v17.16.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "23c01f8d69cb8070df8eb5d7086860cebff33bd67884dfad279f83cfc6edaa4a",
-      "size": 5336440,
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.17.0/topgrade-v17.17.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "16dca6ceb97021f26ea021faa98e00133d97f9cd42b30fa9e54a33d7021685a0",
+      "size": 5354466,
       "format": "tar.gz",
-      "releaseTag": "v17.16.0",
+      "releaseTag": "v17.17.0",
       "binaries": {
         "topgrade": {
           "path": "topgrade",
-          "sha256": "28dc41b547a1a77b26f2a20968d15e0c316051bc8a4cd2245288389a23ba7ca4"
+          "sha256": "93bba959eeab787d1d4ccf50ac78e780d8a9e7790b782efa4a787afcf6babc3e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.16.0/topgrade-v17.16.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "fad921f24b445a7a1b07db99ed7a034e9f389bc540202d401bfc65215d641009",
-      "size": 4890598,
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.17.0/topgrade-v17.17.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "8954d5ab7f559420be7cf4c6b4f10145abdb84e16d47d0379d42aa9c89de592b",
+      "size": 4898478,
       "format": "tar.gz",
-      "releaseTag": "v17.16.0",
+      "releaseTag": "v17.17.0",
       "binaries": {
         "topgrade": {
           "path": "topgrade",
-          "sha256": "8a9a9c7618267eca7aa0b7ef47623d0b0b36575905d750405fc1e986543a35c5"
+          "sha256": "3b612954695e3e30216a84282f7bc06721d6495a4bcaa217c5c1ddc06782c548"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.16.0/topgrade-v17.16.0-x86_64-pc-windows-msvc.zip",
-      "sha256": "17f880eb9b4f64ff2937ff54af15fafb6adcd8ae5ef0c089bec8a3f3a4b478d1",
-      "size": 4888034,
+      "url": "https://github.com/topgrade-rs/topgrade/releases/download/v17.17.0/topgrade-v17.17.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "a411c6267f7bab1d012051594c2bc169a0ba797dcb6236caebdead3e520e030c",
+      "size": 4911334,
       "format": "zip",
-      "releaseTag": "v17.16.0",
+      "releaseTag": "v17.17.0",
       "binaries": {
         "topgrade.exe": {
           "path": "topgrade.exe",
-          "sha256": "f26b4e35afd2042118f78035347c567da838d018275117cd84e735fdb2fc9cb4"
+          "sha256": "b63736639bd33203d920e349438692403d898be1bb75cc807e6c0ccb1115397d"
         }
       }
     }
