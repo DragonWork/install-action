@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "rustic-rs",
-  "version": "0.11.4",
+  "version": "0.12.0",
   "repository": "rustic-rs/rustic",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.11.4",
-      "sha256": "628b26785f3787fa1d52e61b3289493f483230a1ed6e86a84ae9c76d7a41a81e",
-      "size": 12189454,
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.12.0/rustic-v0.12.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "c7dc0772bb6e81f9acdcd7c2642c076c99455b20e3a57b2dfc1b7caee0035184",
+      "size": 12844391,
       "format": "tar.gz",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "rustic": {
           "path": "rustic",
-          "sha256": "c9edb8bff6682163fbe1ed0651bd1a6459159069ff680dbb8d4958a0d22f536e"
+          "sha256": "ab2998f1b3ca85ce94a814ab353b8d084535f68485125fd0095433ecd039d5e5"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.11.4",
-      "sha256": "35ccd40ff565b9760245dd391f9fef04c46778ce5e073d833288abe2e5eabd20",
-      "size": 11266022,
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.12.0/rustic-v0.12.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "192d0701216edecba4d523b5ce0e1183b3904140791789ee4974bf70b41b483b",
+      "size": 11839627,
       "format": "tar.gz",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "rustic": {
           "path": "rustic",
-          "sha256": "83c802a61cabf21f43e4b3ed61501b8c68f397a74a1d7cd48c657fbcedc77c6d"
+          "sha256": "2150b8b3f2ca73a859f32fae090f2dce136daee31084323dfc97b46befeace5c"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.11.4",
-      "sha256": "ff0014a53f10965bc7852945ad4ac52532ad8af0efe5e4f4957dd330889946de",
-      "size": 11674264,
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.12.0/rustic-v0.12.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "39e71b0c745a416de6258018e5a74cf5ee80749a6e14a55b686dd671d9ec529a",
+      "size": 12285288,
       "format": "tar.gz",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "rustic": {
           "path": "rustic",
-          "sha256": "97f0b8cb2964d0528f94533dd685e768a6d82ee7007d62828452001a7f699efa"
+          "sha256": "1c54547bbe228b6ccf44d6d4ce4a0cb0400c3e19c4630c52fc4740bfecf1b284"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.11.4",
-      "sha256": "6df166f68876f1bd1e0965547542374877f04ab498cbb5e19b1b155844bce307",
-      "size": 10005141,
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.12.0/rustic-v0.12.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "a8f7ddf306bdad9dca7670fba9a009509300190f84fe7fb8efde5997ccd37348",
+      "size": 10533612,
       "format": "tar.gz",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "rustic": {
           "path": "rustic",
-          "sha256": "5d55059b7330b228eb9e83d42192e1bf29405ea95374eee4d15a84e7141fb626"
+          "sha256": "ad012a7dfa6849200ed96225df9f22e3b5b703bef3117b1320a633423d72d0fe"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.11.4/rustic-v0.11.4-x86_64-pc-windows-msvc.tar.gz",
-      "releaseTag": "v0.11.4",
-      "sha256": "aa3586c2646da30965e099393c739a32526c27314cfaaf97af7f65aab1ec230a",
-      "size": 10746533,
+      "url": "https://github.com/rustic-rs/rustic/releases/download/v0.12.0/rustic-v0.12.0-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "792bb1ecf32b9a01144f0316b5c1cb1e3e23fc20a8d9c2362e067d266e6ddfc9",
+      "size": 11269977,
       "format": "tar.gz",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "rustic.exe": {
           "path": "rustic.exe",
-          "sha256": "3d4bc16c35b9813ff006576dce01e54d947111d16bdfdfe6742d90d0a2fddc5d"
+          "sha256": "168e3b54aff10503fb0f936e002df5096b7b54e0fe31de5a41aa44450d5d4c33"
         }
       }
     }
