@@ -1,91 +1,91 @@
 {
   "schema": 1,
   "name": "task-keeper",
-  "version": "0.35.6",
+  "version": "0.35.7",
   "repository": "linux-china/task-keeper",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.6/task-keeper-x86_64-unknown-linux-musl.tar.xz",
-      "releaseTag": "v0.35.6",
-      "sha256": "15887a6b8f85c838fee54941f48f4dfa3a366141792b421f4409dba2ca22491c",
-      "size": 4782780,
+      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.7/task-keeper-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "865a33d3c02e7a9c0ee454bcac2d6192bc1dccbeb93606e10bf13776af9c692d",
+      "size": 4784244,
       "format": "tar.xz",
+      "releaseTag": "v0.35.7",
       "binaries": {
         "sq": {
           "path": "task-keeper-x86_64-unknown-linux-musl/sq",
-          "sha256": "9402f1bfc7939478e61776f6000859504f4b39d13c4b9487a64c08351afe19e3"
+          "sha256": "e1ce825d541a25802919b7fba5abb0f47761b079930bc370c68d4a9c6434f150"
         },
         "tk": {
           "path": "task-keeper-x86_64-unknown-linux-musl/tk",
-          "sha256": "933d968fd7c77385665fc082cf1462c5fb9fc9444ce4b8cb49dc25591499b175"
+          "sha256": "dc10923bff4b976d1dfc68e658a0d97353a5c1c857787ad96d3b644648bfceb9"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.6/task-keeper-aarch64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v0.35.6",
-      "sha256": "8cbb57efd8c6c758e5884ad7e42d39d4064358e4a138563345fa2579f4aca74e",
-      "size": 5086220,
+      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.7/task-keeper-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "5053779a4612dd28e381cfdace644483d8a75a9da65065d6ea634c4c8b6fd958",
+      "size": 5087764,
       "format": "tar.xz",
+      "releaseTag": "v0.35.7",
       "binaries": {
         "sq": {
           "path": "task-keeper-aarch64-unknown-linux-gnu/sq",
-          "sha256": "5b4494b37eaa3bd61871e0cadcbae86736d5ecc4374ab98725a1bc064604f9be"
+          "sha256": "a3f4b1d6e125d00e6caa0a46a6f6b9dd75de636058fecfd3d31c5fabfbc705d5"
         },
         "tk": {
           "path": "task-keeper-aarch64-unknown-linux-gnu/tk",
-          "sha256": "60b1c8b4159796b010ad6416daeb7bc2f024c579b214abcf24871abf28772847"
+          "sha256": "dc3a61e5076dfb1f7ea0fb8f26f76ba509daf20e6323182c708cf0ffcd163079"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.6/task-keeper-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v0.35.6",
-      "sha256": "9a37b7c232668b3cedb46dfc2ec7436707bdc540b5e58482ade699451dd3f8b4",
-      "size": 3021112,
+      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.7/task-keeper-x86_64-apple-darwin.tar.xz",
+      "sha256": "970abf36e587b1fc209a1b159fb43c7f25f81408d3455c5c5d4607bd803f8a75",
+      "size": 3015672,
       "format": "tar.xz",
+      "releaseTag": "v0.35.7",
       "binaries": {
         "sq": {
           "path": "task-keeper-x86_64-apple-darwin/sq",
-          "sha256": "e8e919343bac53a9eda6e9b7c6d8e164b2cee4d4b39cff9e98636de5cc6271db"
+          "sha256": "b9f1968e7dbaf0acf826ac817552a2248cb8cc50dc2b6a6d4d41e982f90a7931"
         },
         "tk": {
           "path": "task-keeper-x86_64-apple-darwin/tk",
-          "sha256": "10ff90e7d956027e2cc26cc2668de03c98de9afcb43c75004cf0095796110b02"
+          "sha256": "d2127c7dd849953a36a12ecec9d7127e422bbefb8af06a5deb36b5efb7ecf403"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.6/task-keeper-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v0.35.6",
-      "sha256": "ec650b7c3eb044484ac9e4b8aa6843610d464ac5ab420c2e5971493e3cf458de",
-      "size": 2481176,
+      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.7/task-keeper-aarch64-apple-darwin.tar.xz",
+      "sha256": "d0b104082e114b55429f3194a9a9b5e277c6ac221f884833540a6b960dac7a98",
+      "size": 2467968,
       "format": "tar.xz",
+      "releaseTag": "v0.35.7",
       "binaries": {
         "sq": {
           "path": "task-keeper-aarch64-apple-darwin/sq",
-          "sha256": "6212824fa0f0310a5a77ea1728f934803d81468801c0f1dbe43693ac008ae0ec"
+          "sha256": "1cba53b78fc0459de9435f7f45c9fbae3b5c7c21d8b7e42417ff6233eabe7dff"
         },
         "tk": {
           "path": "task-keeper-aarch64-apple-darwin/tk",
-          "sha256": "f5ebf7edad796b14398be4ccbd4cdf9a95e39bf24d90af993db408f80bb3ad0d"
+          "sha256": "c719c0397f0e4f5627f8e47e68acdc810ad61f0026e2f14727504ffc802c8ee2"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.6/task-keeper-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.35.6",
-      "sha256": "a1bc78549b50856bba89e2e97314662e5ff7a3e4e160b32cf937f77b7f28ac87",
-      "size": 4679382,
+      "url": "https://github.com/linux-china/task-keeper/releases/download/v0.35.7/task-keeper-x86_64-pc-windows-msvc.zip",
+      "sha256": "39ba479c20461c24646f345aaf545dcfc7cd1411a667839b2b45cc4ac3185dc2",
+      "size": 4693470,
       "format": "zip",
+      "releaseTag": "v0.35.7",
       "binaries": {
         "sq.exe": {
           "path": "sq.exe",
-          "sha256": "b6ada0bea97f168e001a928d9180e24c0133af3d00eee709002fa687013c494b"
+          "sha256": "91958946083ece64e74ccc04b40416676d81e7b8c38e1f4e410fdb2a4a5de8c8"
         },
         "tk.exe": {
           "path": "tk.exe",
-          "sha256": "edd6ce90cc52838cef733b6bec2190180895130f2239703c463cc669b5d22039"
+          "sha256": "2581b65018549acc815d65f9dcec6e916e57d42457f08d99b0ebccfc060abc43"
         }
       }
     }
