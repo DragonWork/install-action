@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "slint-viewer",
-  "version": "1.18.1",
+  "version": "1.19.0",
   "repository": "slint-ui/slint",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-viewer-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v1.18.1",
-      "sha256": "86b260e661cdc24dcadaf63266b034f3281cbec542afc26545a72a986fe42a13",
-      "size": 19062520,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-viewer-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "1ca32aeb95667d2ab22fd6e1e25e70793c0c0d9f16ba900cf6cb6619f9bc20db",
+      "size": 20243663,
       "format": "tar.gz",
+      "releaseTag": "v1.19.0",
       "binaries": {
         "slint-viewer": {
           "path": "slint-viewer/slint-viewer",
-          "sha256": "c8fee7845c43abb8267da7976e32f9e1ea4c5a2ea5b6a732be4e498bbec15f1e"
+          "sha256": "dab51b3c936a8d555d081a5a235d915b456374658bb7306970a2c5b0a96bbf4c"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-viewer-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v1.18.1",
-      "sha256": "7aad0325b6af939c4adefd49bd17611511dca056c89748e7ded9d45c062953da",
-      "size": 18335859,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-viewer-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "a714949d3d62a8325f90082d3c5d0381e4b573938301e1dace545c166d7528f3",
+      "size": 19310703,
       "format": "tar.gz",
+      "releaseTag": "v1.19.0",
       "binaries": {
         "slint-viewer": {
           "path": "slint-viewer-aarch64-unknown-linux-gnu/slint-viewer",
-          "sha256": "26a637397231e6d906e4e02623d50ae9e5cc5c33da901dc016c6d943ff0f786d"
+          "sha256": "5fe65359f6c83c87c995372c29c786f2761e28d74a0f32243aa2310d8dc139ff"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-viewer-macos.tar.gz",
+      "sha256": "9c8a1d4a2a30c408b8f905f0fb74cc8f3d307ca82430acaa34782128231e6acd",
+      "size": 31813937,
+      "format": "tar.gz",
+      "releaseTag": "v1.19.0",
+      "binaries": {
+        "slint-viewer": {
+          "path": "slint-viewer/slint-viewer",
+          "sha256": "e19088c248aade8e06353cb63047831716ab3f867278c4c6a39f7674adecaebe"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-viewer-macos.tar.gz",
+      "sha256": "9c8a1d4a2a30c408b8f905f0fb74cc8f3d307ca82430acaa34782128231e6acd",
+      "size": 31813937,
+      "format": "tar.gz",
+      "releaseTag": "v1.19.0",
+      "binaries": {
+        "slint-viewer": {
+          "path": "slint-viewer/slint-viewer",
+          "sha256": "e19088c248aade8e06353cb63047831716ab3f867278c4c6a39f7674adecaebe"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-viewer-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v1.18.1",
-      "sha256": "1bdad00c098ce5ca5f9c0e6ccb666170b43c8fdcec20a4e6e7c1539f5d38818e",
-      "size": 15570481,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-viewer-x86_64-pc-windows-msvc.zip",
+      "sha256": "198e30fab8c6ba08613d5a954809f708ec7246f927b28eb342f7095e9b254b87",
+      "size": 16530240,
       "format": "zip",
+      "releaseTag": "v1.19.0",
       "binaries": {
         "slint-viewer.exe": {
           "path": "slint-viewer.exe",
-          "sha256": "c8143c1ac6ac13ce14616de557fd0340ee6600b1237d7707014373d346d9c78b"
+          "sha256": "10e6ecc7914ddf2a977594163a0a204132360f9eedc6769004d2514ecf5a7d94"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.18.1/slint-viewer-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v1.18.1",
-      "sha256": "522e40da5fc30071e838a1d0459f8aeb4d6d2d49c7cd3c202972ca229daeb67b",
-      "size": 14600531,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-viewer-aarch64-pc-windows-msvc.zip",
+      "sha256": "e267569f231911b496ed25c482a2bb9b2e692b5f6ad29f3e81d0002c4acf5d2a",
+      "size": 15397799,
       "format": "zip",
+      "releaseTag": "v1.19.0",
       "binaries": {
         "slint-viewer.exe": {
           "path": "slint-viewer.exe",
-          "sha256": "475762a56ee112804c9a8b2c3b61ff0cf18fb723d82391b8b7cda2354de60acc"
+          "sha256": "f83e64983e0a784e320fc532c780791a1dd1280dacc252883b115fcb9263fa54"
         }
       }
     }
