@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "cargo-release-oxc",
-  "version": "0.0.44",
+  "version": "0.0.45",
   "repository": "oxc-project/cargo-release-oxc",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.44/cargo-release-oxc-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.0.44",
-      "sha256": "43bd9ac713243cf0ee8a9129650c927adc209111d69300d5fbca25d165c53869",
-      "size": 5617398,
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.45/cargo-release-oxc-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "7c0debc0b55ee5c8692a95282d41a0732ed0e0546e228376a9f0b6de21eda12d",
+      "size": 5846485,
       "format": "tar.gz",
+      "releaseTag": "v0.0.45",
       "binaries": {
         "cargo-release-oxc": {
           "path": "cargo-release-oxc",
-          "sha256": "b14d0ea82bc12269de5c0fe959ece454a05e595cc38751534f6b933e290d5793"
+          "sha256": "a78cf86b58b1f428c801ce002edb9d2d30597695137d299b57778770cf92fcb0"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.44/cargo-release-oxc-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.0.44",
-      "sha256": "175bdd97fd4b5b10039e776d2b90fb33a45bb84ce02076113b2d4cec7272a4e7",
-      "size": 5281806,
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.45/cargo-release-oxc-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "dfa6735316111b032b90a2e8dd7842880e882c47cac3cd166654fff17e0ea09f",
+      "size": 5491662,
       "format": "tar.gz",
+      "releaseTag": "v0.0.45",
       "binaries": {
         "cargo-release-oxc": {
           "path": "cargo-release-oxc",
-          "sha256": "b5ec4f224050a1c4a96b4e3835561fa143606a8856b0e057737c4fdb938ad0b4"
+          "sha256": "0e679af66dd2d0ec473230f1e28dbc8fa275e5eb8b1b781c2d1a0a2188708df5"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.44/cargo-release-oxc-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.0.44",
-      "sha256": "4b9b2dee8ca3e0f91ee1a5c37d9b611b98cf7ce567595780590441c929afb419",
-      "size": 4920407,
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.45/cargo-release-oxc-x86_64-apple-darwin.tar.gz",
+      "sha256": "55112e34ae10a58c5d9d8e7d225c9178dfa781b7ff222bd188d700e649706f60",
+      "size": 5128726,
       "format": "tar.gz",
+      "releaseTag": "v0.0.45",
       "binaries": {
         "cargo-release-oxc": {
           "path": "cargo-release-oxc",
-          "sha256": "adb638626345df5a834ebb8e00e8a855f96253c85fd4d88c3f419428b617de7e"
+          "sha256": "b36c130f9c3559f85a9020d51f530e6c72ea7d0aae7dbdf2fb15bc47abb4f178"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.44/cargo-release-oxc-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.0.44",
-      "sha256": "4b5570709279c52fe75f61b03f9fbafe7bc9b43dd68f3d2e6f2160566edd69e3",
-      "size": 4657388,
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.45/cargo-release-oxc-aarch64-apple-darwin.tar.gz",
+      "sha256": "d793b42a63dfa7f9586967e71b5b714df99f84b2daafca33f2ca385b33c9ee09",
+      "size": 4859852,
       "format": "tar.gz",
+      "releaseTag": "v0.0.45",
       "binaries": {
         "cargo-release-oxc": {
           "path": "cargo-release-oxc",
-          "sha256": "d28d152ce9fa260064cfa094a76784fc9c567ce9d8120c588c38332b873d943b"
+          "sha256": "a185b86538679d36c3bb779cad1bfa8445856e32358bb131326a8a95bbedd8af"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.45/cargo-release-oxc-x86_64-pc-windows-msvc.zip",
+      "sha256": "26a1835ce91863f3d68c01780ec07e31b66e955c86d5ea4ee63d5b44356d3bc9",
+      "size": 4919845,
+      "format": "zip",
+      "releaseTag": "v0.0.45",
+      "binaries": {
+        "cargo-release-oxc.exe": {
+          "path": "cargo-release-oxc.exe",
+          "sha256": "8eaef5b6656b15e903c0c04bc0acdfbf9cce15ad202168b49cc6831b17022696"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/oxc-project/cargo-release-oxc/releases/download/v0.0.45/cargo-release-oxc-aarch64-pc-windows-msvc.zip",
+      "sha256": "9b82421e5df8b4bd5a270374f1c04ae5647701fc6ddc22824153946522c5d407",
+      "size": 4633501,
+      "format": "zip",
+      "releaseTag": "v0.0.45",
+      "binaries": {
+        "cargo-release-oxc.exe": {
+          "path": "cargo-release-oxc.exe",
+          "sha256": "a783b218508e41afbc733542bca8bb9837a8617adba7a6a64cfffb3b54593edf"
         }
       }
     }
