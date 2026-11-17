@@ -230,7 +230,7 @@ test('automatic generation retains the download threshold for catalog records an
   assert.equal(lookups, 1);
 });
 
-test('manual low-download additions survive planning, preparation and merging beside automatic updates', async t => {
+test('a manual addition below the threshold gets its next release in a scheduled batch', async t => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-manual-update-'));
   const originalFetch = global.fetch, originalEnv = { ...process.env };
   t.after(async () => {
@@ -242,16 +242,17 @@ test('manual low-download additions survive planning, preparation and merging be
   Object.assign(process.env, { CRATE_NAMES: 'upki-cli', GITHUB_OUTPUT: path.join(root, 'output') });
   for (const key of ['CRATE_BATCH_SIZE', 'CRATE_PROBE_SIZE', 'DISCOVER_RELEASES']) delete process.env[key];
   const bytes = executable('linux-x64');
-  const release = (name, repository = `example/${name}`) => ({ repository, tag_name: 'v1.0.0', assets: [{
+  const release = (name, repository, tag = 'v1.0.0') => ({ repository, tag_name: tag, assets: [{
     name: `${name}_linux_x64_bin`, state: 'uploaded', size: bytes.length,
-    browser_download_url: `https://github.com/${repository}/releases/download/v1.0.0/${name}_linux_x64_bin`,
+    browser_download_url: `https://github.com/${repository}/releases/download/${tag}/${name}_linux_x64_bin`,
   }] });
   const record = { version: '1.0.0', downloads: 10000, binaries: ['sample-cli'], repository: 'https://github.com/example/sample-cli' };
   await fs.writeFile(path.join(root, 'catalog.json'), JSON.stringify({ minimumDownloads: 10000, crates: { 'sample-cli': record } }));
   await fs.writeFile(path.join(root, 'catalog-state.json'), JSON.stringify({ 'sample-cli': {
-    version: '1.0.0', resolverRevision: 4, release: release('sample-cli'),
+    version: '1.0.0', resolverRevision: 4, release: release('sample-cli', 'example/sample-cli'),
   } }));
-  global.fetch = async request => {
+  const nextRelease = release('upki-cli', 'example/upki', 'v1.0.1');
+  global.fetch = async (request, options) => {
     if (request.endsWith('/rate_limit')) return Response.json({ resources: { core: { remaining: 1000 } } });
     if (request === 'https://crates.io/api/v1/crates/upki-cli') return Response.json({
       crate: { id: 'upki-cli', downloads: 1, repository: 'https://github.com/example/upki' },
@@ -261,13 +262,21 @@ test('manual low-download additions survive planning, preparation and merging be
         { num: '1.0.0', yanked: false, bin_names: ['upki'] },
       ],
     });
-    if (request === 'https://api.github.com/graphql') return Response.json({ data: { repository: { nameWithOwner: 'example/upki' } } });
+    if (request === 'https://api.github.com/graphql') {
+      const { query, variables } = JSON.parse(options.body);
+      if (variables?.ids) return Response.json({ data: { nodes: [{ id: 'release', releaseAssets: { nodes: [{
+        name: nextRelease.assets[0].name, downloadUrl: nextRelease.assets[0].browser_download_url, size: bytes.length,
+      }] } }] } });
+      if (query.includes('r0:')) return Response.json({ data: { r0: { nameWithOwner: 'example/upki',
+        t0: { id: 'release', tagName: 'v1.0.1', releaseAssets: { totalCount: 1 } } } } });
+      return Response.json({ data: { repository: { nameWithOwner: 'example/upki' } } });
+    }
     if (request.endsWith('/releases/tags/v1.0.0')) return Response.json(release('upki-cli', 'example/upki'));
-    assert([release('upki-cli', 'example/upki'), release('sample-cli')].some(value => value.assets[0].browser_download_url === request));
+    assert([release('upki-cli', 'example/upki'), nextRelease].some(value => value.assets[0].browser_download_url === request));
     return new Response(bytes);
   };
   const plan = await planUpdate(root);
-  assert.deepEqual(plan.names, ['upki-cli', 'sample-cli']);
+  assert.deepEqual(plan.names, ['upki-cli']);
   const output = path.join(root, 'prepared');
   for (let shard = 0; shard < plan.shards; shard++) {
     const report = await prepareShard(root, output, shard);
@@ -277,7 +286,15 @@ test('manual low-download additions survive planning, preparation and merging be
   const manifest = JSON.parse(await fs.readFile(path.join(root, 'tools/upki-cli/manifest.json')));
   assert.equal(manifest.version, '1.0.0');
   assert.deepEqual(Object.keys(manifest.artifacts['linux-x64'].binaries), ['upki']);
-  assert.match(await fs.readFile(process.env.GITHUB_OUTPUT, 'utf8'), /names=upki-cli sample-cli/);
+  delete process.env.CRATE_NAMES;
+  process.env.CRATE_BATCH_SIZE = '1';
+  await fs.writeFile(path.join(root, 'catalog.json'), JSON.stringify({ minimumDownloads: 10000, crates: {
+    'sample-cli': record, 'upki-cli': { version: '1.0.1', downloads: 2, binaries: ['upki'], repository: 'https://github.com/example/upki' },
+  } }));
+  assert.deepEqual((await planUpdate(root)).names, ['upki-cli']);
+  assert.deepEqual((await prepareShard(root, output, 0)).failures, {});
+  await mergePrepared(root, output);
+  assert.equal(JSON.parse(await fs.readFile(path.join(root, 'tools/upki-cli/manifest.json'))).version, '1.0.1');
 });
 
 test('bulk discovery batches release lookups and records unavailable repositories', async t => {

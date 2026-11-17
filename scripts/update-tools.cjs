@@ -67,9 +67,10 @@ function assetCandidates(assets, platform, name, binaries) {
       || a.name.localeCompare(b.name));
 }
 
-async function probeReleases(catalog, state, current, limit = 1000) {
+async function probeReleases(catalog, state, current, limit = 1000, registeredOnly = false) {
   const now = Date.now();
   const due = Object.keys(catalog.crates).filter(name => {
+    if (registeredOnly && !current[name]) return false;
     const version = catalog.crates[name].version;
     if (current[name] && compareVersions(current[name].version, version) >= 0) return false;
     return state[name]?.version !== version || state[name]?.resolverRevision !== RESOLVER_REVISION
@@ -120,7 +121,7 @@ async function probeReleases(catalog, state, current, limit = 1000) {
         response.data.rateLimit = details.data.rateLimit;
       }
     } catch (error) {
-      if (!/HTTP (403|429)/.test(error.message)) throw error;
+      if (!/HTTP (403|408|429|5\d\d)|fetch failed|timeout|timed out|aborted/i.test(error.message)) throw error;
       console.log(`Discovery deferred; completed batches will be retained. ${error.message}`);
       break;
     }
@@ -151,7 +152,8 @@ async function probeReleases(catalog, state, current, limit = 1000) {
         repository: upstream.nameWithOwner, tag_name: found.tagName,
         assets: assets.get(found.id).filter(a => assetFormat(a.name, entry.binaries)).map(a => ({ name: a.name,
           browser_download_url: a.downloadUrl, size: a.size, digest: a.digest, state: 'uploaded' })),
-      } } : { reason: 'No matching upstream binary release.' }) };
+      } } : { reason: 'No matching upstream binary release.',
+        ...(current[name] ? { retryable: true, retryAfter: new Date(now + 15 * 60 * 1000).toISOString() } : {}) }) };
     }
     console.log(`Checked binary releases for ${Math.min(offset + block.length, requests.length)} / ${requests.length} crates.`);
     if (response.data.rateLimit?.remaining < 150) break;
@@ -280,23 +282,21 @@ async function prebuilts(name, version, repository, binaries, temporary, knownRe
 
 async function generate(name, previous, { record, release: knownRelease, manual = false } = {}) {
   assert(NAME.test(name), 'Invalid crate name.');
-  if (record && !manual) assert(record.downloads >= 10000, `${name} has fewer than 10,000 total downloads.`);
+  if (previous) assert(validateManifest(previous).name === name, 'Previous manifest has the wrong crate name.');
+  const discovery = !previous && !manual;
+  if (record && discovery) assert(record.downloads >= 10000, `${name} has fewer than 10,000 total downloads.`);
   let selected = record && { num: record.version, bin_names: record.binaries, repository: record.repository };
   if (!selected) {
     const data = await cratesApi(`/crates/${name}`);
     assert(data.crate.id === name, `Use the canonical crate name: ${data.crate.id}`);
-    if (!manual) assert(data.crate.downloads >= 10000, `${name} has fewer than 10,000 total downloads.`);
+    if (discovery) assert(data.crate.downloads >= 10000, `${name} has fewer than 10,000 total downloads.`);
     selected = data.versions.filter(v => !v.yanked && VERSION.test(v.num) && v.bin_names?.length)
       .sort((a, b) => compareVersions(b.num, a.num))[0];
     if (selected) selected.repository ||= data.crate.repository;
   }
   assert(selected, `No installable stable version found for ${name}.`);
   const version = selected.num;
-  if (previous) {
-    validateManifest(previous);
-    if (compareVersions(version, previous.version) < 0) return null;
-    if (version === previous.version) return null;
-  }
+  if (previous && compareVersions(version, previous.version) <= 0) return null;
   const temporary = await fs.mkdtemp(path.join(os.tmpdir(), 'install-action-crate-'));
   try {
     const binaries = selected.bin_names || [];
@@ -351,7 +351,9 @@ function catalogProgress(catalog, state, current, now = Date.now()) {
 }
 
 async function planUpdate(directory) {
-  const extra = (process.env.CRATE_NAMES || '').split(/[\s,]+/).filter(Boolean);
+  const extra = [...new Set((process.env.CRATE_NAMES || '').split(/[\s,]+/).filter(Boolean))];
+  if (process.env.CRATE_NAMES) assert(extra.length && extra.length <= 100 && extra.every(name => NAME.test(name)),
+    'Select between 1 and 100 valid CLI crate names.');
   const catalog = await readJson(path.join(directory, 'catalog.json'), { crates: {}, unknown: [] });
   const state = await readJson(path.join(directory, 'catalog-state.json'), {});
   for (const entry of Object.values(state)) {
@@ -366,14 +368,15 @@ async function planUpdate(directory) {
   }
   const current = await currentManifests(directory);
   assert(catalog.minimumDownloads === 10000 || !Object.keys(catalog.crates).length, 'Refresh the catalog with the 10,000-download threshold.');
-  const requested = Number(process.env.CRATE_BATCH_SIZE || 100);
+  const requested = extra.length || Number(process.env.CRATE_BATCH_SIZE || 100);
   assert(Number.isSafeInteger(requested) && requested >= 1 && requested <= 100, 'Crate batch size must be between 1 and 100.');
   const limits = await api('/rate_limit');
   const batch = publicationBudget(limits.resources.core.remaining, requested, extra.length > 0);
-  const ready = Object.keys(state).filter(name => !current[name]
-    && duePreparation(state[name], catalog.crates[name]?.version)).length;
-  if (!extra.length && ready < batch && Object.keys(catalog.crates).length && process.env.DISCOVER_RELEASES !== 'false') {
-    await probeReleases(catalog, state, current, Number(process.env.CRATE_PROBE_SIZE || 1000));
+  assert(batch >= extra.length, 'Insufficient API budget for the selected crates; retry after the rate limit resets.');
+  if (!extra.length && batch && process.env.DISCOVER_RELEASES !== 'false') {
+    const ready = Object.keys(catalog.crates).filter(name => !current[name]
+      && duePreparation(state[name], catalog.crates[name].version)).length;
+    await probeReleases(catalog, state, current, Number(process.env.CRATE_PROBE_SIZE || 1000), ready >= batch);
   }
   const pending = Object.keys(catalog.crates).filter(name => {
     const version = catalog.crates[name].version;
@@ -382,9 +385,9 @@ async function planUpdate(directory) {
   });
   pending.sort((a, b) => Number(Boolean(current[b])) - Number(Boolean(current[a]))
     || popularity(catalog.crates[b]) - popularity(catalog.crates[a]) || a.localeCompare(b));
-  const names = [...new Set([...extra, ...pending])].slice(0, batch);
+  const names = extra.length ? extra : pending.slice(0, batch);
   for (const name of names) assert(NAME.test(name), 'Invalid crate name.');
-  const plan = { names, shards: Math.min(3, names.length) || 1, candidates: Object.fromEntries(names.map(name => [name, {
+  const plan = { names, shards: Math.min(6, Math.ceil(names.length / 10)) || 1, candidates: Object.fromEntries(names.map(name => [name, {
     previous: current[name] || null,
     targetVersion: catalog.crates[name]?.version || null,
     ...(extra.includes(name) ? { manual: true } : { record: catalog.crates[name], release: state[name]?.release }),

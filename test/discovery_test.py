@@ -64,6 +64,32 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(result["crates"]["cli"]["recentVersions"], 1)
         self.assertEqual(result["unknown"], ["unknown"])
         self.assertEqual(result["yanked"], {"cli": ["3.0.0"], "yanked-cli": ["1.0.0"]})
+        data.seek(0)
+        tracked = discovery.scan(data, registered={"small-cli"})
+        self.assertEqual(tracked["crates"]["small-cli"]["downloads"], 9999)
+        self.assertEqual(tracked["yanked"]["small-cli"], ["2.0.0"])
+
+    def test_registered_versions_refresh_even_on_a_cached_dump(self):
+        now = datetime.datetime.now(datetime.timezone.utc)
+        catalog = {"crates": {}, "yanked": {}}
+        requests = []
+
+        def opener(request, timeout):
+            requests.append(request.full_url)
+            if "?" in request.full_url:
+                return io.StringIO(json.dumps({"crates": [{"id": "small", "max_stable_version": "1.1.0",
+                                                          "recent_downloads": 7}]}))
+            self.assertTrue(request.full_url.endswith("/crates/small"))
+            return io.StringIO(json.dumps({"crate": {"id": "small", "downloads": 15}, "versions": [
+                {"num": "2.0.0", "yanked": True, "bin_names": ["small"]},
+                {"num": "1.1.0", "yanked": False, "bin_names": ["small"]},
+            ]}))
+
+        for _ in range(2):
+            discovery.refresh_downloads(catalog, catalog, opener, lambda _: None, now, registered={"small"})
+        self.assertEqual(len(requests), 3)
+        self.assertEqual(catalog["crates"]["small"]["version"], "1.1.0")
+        self.assertEqual(catalog["yanked"]["small"], ["2.0.0"])
 
     def test_download_statistics_are_batched_complete_and_cached(self):
         now = datetime.datetime(2026, 10, 24, tzinfo=datetime.timezone.utc)

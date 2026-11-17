@@ -75,7 +75,7 @@ def binary_names(value):
     return next(csv.reader([value[1:-1]], escapechar="\\"))
 
 
-def scan(stream, today=None):
+def scan(stream, today=None, registered=()):
     names, downloads, latest, binaries, yanked, activity = {}, {}, {}, {}, {}, {}
     cutoff = ((today or datetime.date.today()) - datetime.timedelta(days=365)).isoformat()
     required = {"crates.csv", "crate_downloads.csv", "versions.csv"}
@@ -118,23 +118,56 @@ def scan(stream, today=None):
                 break
     if tables != required:
         raise ValueError("Database dump is missing required tables")
+
+    def eligible(crate_id):
+        return crate_id in names and (downloads.get(crate_id, 0) >= MIN_DOWNLOADS
+                                      or names[crate_id]["name"] in registered)
+
     crates = {}
     for crate_id, (_, details) in binaries.items():
-        if crate_id in names and downloads.get(crate_id, 0) >= MIN_DOWNLOADS:
+        if eligible(crate_id):
             details["repository"] = details["repository"] or names[crate_id]["repository"]
-            details["downloads"] = downloads[crate_id]
+            details["downloads"] = downloads.get(crate_id, 0)
             details["recentVersions"] = min(activity.get(crate_id, 0), 12)
             crates[names[crate_id]["name"]] = details
     unknown = sorted(names[crate_id]["name"] for crate_id, (_, bins) in latest.items()
-                     if bins is None and crate_id in names and downloads.get(crate_id, 0) >= MIN_DOWNLOADS)
+                     if bins is None and eligible(crate_id))
     yanked_versions = {names[crate_id]["name"]: sorted(versions, key=version_key)
                        for crate_id, versions in yanked.items()
-                       if crate_id in names and downloads.get(crate_id, 0) >= MIN_DOWNLOADS}
+                       if eligible(crate_id)}
     return {"crates": dict(sorted(crates.items())), "unknown": unknown,
             "yanked": dict(sorted(yanked_versions.items()))}
 
 
-def refresh_downloads(catalog, previous, opener=None, pause=time.sleep, now=None):
+def refresh_registered_version(catalog, row, opener, pause):
+    name = row["id"]
+    entry = catalog["crates"].get(name, {})
+    if "max_stable_version" not in row or (entry and row["max_stable_version"] == entry["version"]):
+        return
+    # The list endpoint has no binary targets. Read version details only for a changed or missing crate.
+    request = urllib.request.Request("https://crates.io/api/v1/crates/" + urllib.parse.quote(name, safe=""),
+                                     headers={"User-Agent": USER_AGENT})
+    pause(1)
+    data = request_data(request, json.load, opener, pause)
+    if data["crate"]["id"] != name:
+        raise ValueError("Unexpected crate in version response")
+    versions = [v for v in data["versions"] if version_key(v["num"]) is not None]
+    yanked = sorted((v["num"] for v in versions if v["yanked"]), key=version_key)
+    if yanked:
+        catalog["yanked"][name] = yanked
+    else:
+        catalog["yanked"].pop(name, None)
+    latest = max((v for v in versions if not v["yanked"] and v.get("bin_names")),
+                 key=lambda v: version_key(v["num"]), default=None)
+    if latest:
+        entry.update(version=latest["num"], binaries=latest["bin_names"], downloads=data["crate"]["downloads"],
+                     repository=latest.get("repository") or data["crate"].get("repository"))
+        catalog["crates"][name] = entry
+    else:
+        catalog["crates"].pop(name, None)
+
+
+def refresh_downloads(catalog, previous, opener=None, pause=time.sleep, now=None, registered=frozenset()):
     now = now or datetime.datetime.now(datetime.timezone.utc)
 
     def fresh(entry):
@@ -153,7 +186,8 @@ def refresh_downloads(catalog, previous, opener=None, pause=time.sleep, now=None
             updated = old.get("recentDownloadsUpdatedAt", previous.get("popularityUpdatedAt"))
             if updated:
                 entry["recentDownloadsUpdatedAt"] = updated
-    names = sorted(name for name, entry in catalog["crates"].items() if not fresh(entry))
+    stale = {name for name, entry in catalog["crates"].items() if not fresh(entry)}
+    names = sorted(registered) + sorted(stale - registered)
     for offset in range(0, len(names), 100):
         batch = names[offset:offset + 100]
         query = urllib.parse.urlencode([("per_page", "100")] + [("ids[]", name) for name in batch])
@@ -175,9 +209,17 @@ def refresh_downloads(catalog, previous, opener=None, pause=time.sleep, now=None
                 warning("Invalid recent download statistics from crates.io; keeping cached counts for this batch.")
                 found = {}
                 break
-            found[name] = recent
-        for name, recent in found.items():
-            catalog["crates"][name].update(recentDownloads=recent, recentDownloadsUpdatedAt=now.isoformat())
+            found[name] = row
+        for name, row in found.items():
+            if name in registered:
+                try:
+                    refresh_registered_version(catalog, row, opener, pause)
+                except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException,
+                        KeyError, TypeError, ValueError) as error:
+                    warning(f"Version lookup for {name} deferred: {error}")
+            entry = catalog["crates"].get(name)
+            if entry is not None and (not fresh(entry) or entry["recentDownloads"] != row["recent_downloads"]):
+                entry.update(recentDownloads=row["recent_downloads"], recentDownloadsUpdatedAt=now.isoformat())
         missing = sorted(set(batch) - found.keys())
         if missing:
             warning(f"No current download statistics for {', '.join(missing)}; keeping previous counts where available.")
@@ -219,33 +261,41 @@ def main():
     destination = Path(args.output)
     previous = json.loads(destination.read_text()) if destination.exists() else {}
     headers = {"User-Agent": USER_AGENT}
+    reusable = previous.get("etag") and previous.get("schema") == SCHEMA and previous.get("minimumDownloads") == MIN_DOWNLOADS
     if args.cache_info:
         etag = request_data(urllib.request.Request(DUMP_URL, method="HEAD", headers=headers),
                             lambda response: response.headers.get("ETag"))
         if not etag:
             raise ValueError("The crates.io dump has no ETag")
-        restore = previous.get("etag") != etag or previous.get("schema") != SCHEMA or previous.get("minimumDownloads") != MIN_DOWNLOADS
+        restore = not reusable or previous["etag"] != etag
         with open(os.environ["GITHUB_OUTPUT"], "a") as output:
             output.write(f"key={inventory_key(etag)}\nrestore={str(restore).lower()}\n")
         return
-    if previous.get("etag") and previous.get("minimumDownloads") == MIN_DOWNLOADS and previous.get("schema") == SCHEMA:
+    if reusable:
         headers["If-None-Match"] = previous["etag"]
     request = urllib.request.Request(DUMP_URL, headers=headers)
+    tools = destination.parent / "tools"
+    registered = {p.name for p in tools.iterdir() if p.is_dir()} if tools.is_dir() else set()
     try:
         catalog = request_data(request, lambda response: {
             "schema": SCHEMA, "minimumDownloads": MIN_DOWNLOADS, "source": DUMP_URL,
-            "etag": response.headers.get("ETag"), "modified": response.headers.get("Last-Modified"), **scan(response),
+            "etag": response.headers.get("ETag"), "modified": response.headers.get("Last-Modified"),
+            **scan(response, registered=registered),
         }, timeout=120)
-    except urllib.error.HTTPError as error:
-        if error.code != 304:
+    except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException, EOFError,
+            tarfile.ReadError) as error:
+        if not reusable:
             raise
         catalog = previous
-        print("The crates.io dump is unchanged.")
-    refresh_downloads(catalog, previous)
+        if getattr(error, "code", None) == 304:
+            print("The crates.io dump is unchanged.")
+        else:
+            warning(f"Using the existing inventory while the dump is unavailable: {error}")
+    refresh_downloads(catalog, previous, registered=registered)
     for entry in catalog["crates"].values():
         entry.pop("checksum", None)
     save_catalog(destination, catalog)
-    if os.environ.get("GITHUB_OUTPUT"):
+    if os.environ.get("GITHUB_OUTPUT") and catalog.get("etag"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as output:
             output.write(f"key={inventory_key(catalog['etag'])}\n")
     print(f"Discovered {len(catalog['crates'])} CLI crates; {len(catalog['unknown'])} await upstream binary metadata.")
