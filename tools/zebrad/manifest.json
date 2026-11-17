@@ -1,32 +1,32 @@
 {
   "schema": 1,
   "name": "zebrad",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "repository": "ZcashFoundation/zebra",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/ZcashFoundation/zebra/releases/download/v7.0.0/zebrad-7.0.0-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v7.0.0",
-      "sha256": "eb9fb2499c6502489d1c85af22c777af6073a49f2d634ba89e546fff329d5cce",
-      "size": 67262113,
+      "url": "https://github.com/ZcashFoundation/zebra/releases/download/v7.1.0/zebrad-7.1.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "4b42a23e67fcce27f923882d369dad47f694aa608858f1cbbad70e4298e2ecae",
+      "size": 66952292,
       "format": "tar.gz",
+      "releaseTag": "v7.1.0",
       "binaries": {
         "zebrad": {
           "path": "zebrad",
-          "sha256": "fcd972526774591b1b376ebb1bae4a281fa8dbe0faacc320e3178732f3ce9174"
+          "sha256": "6341e1f2f3acb53896d0163584092cd9c52ac906e5833cd202eac56bc1434e2c"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/ZcashFoundation/zebra/releases/download/v7.0.0/zebrad-7.0.0-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v7.0.0",
-      "sha256": "3cbf0151efa1e60e3831ebcf9ec33c37f5a5b1d85a164a143600da1cb3a089df",
-      "size": 66206520,
+      "url": "https://github.com/ZcashFoundation/zebra/releases/download/v7.1.0/zebrad-7.1.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "cf68fed464c319cdb27c319c0943761d0d39c308cf971c68c12197e8698aef2e",
+      "size": 65939210,
       "format": "tar.gz",
+      "releaseTag": "v7.1.0",
       "binaries": {
         "zebrad": {
           "path": "zebrad",
-          "sha256": "354b45aba022a6981d4eec531f432e8cef0ee52ead950655f1eebdd6b8573abb"
+          "sha256": "efff6fdc65e6ae90465498636c99136253edecaac4273fa64e4a80d5d67d94b3"
         }
       }
     }
