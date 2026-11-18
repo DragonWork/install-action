@@ -1,91 +1,91 @@
 {
   "schema": 1,
   "name": "threatflux-anthropic-sdk",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "repository": "ThreatFlux/anthropic_rust_sdk",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.5.5/threatflux-anthropic-sdk-linux-amd64.tar.gz",
-      "sha256": "240cb53d34402cf610f75b887a4605e98abfaedd9a075101ddb23f62e4608c92",
-      "size": 3784624,
+      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.6.0/threatflux-anthropic-sdk-linux-amd64.tar.gz",
+      "sha256": "680f0eae1cb64ed33cb0d82b9745bea7b5a24a192183f729a3fd45eab9c11ca5",
+      "size": 3848493,
       "format": "tar.gz",
-      "releaseTag": "v0.5.5",
+      "releaseTag": "v0.6.0",
       "binaries": {
         "check_my_usage": {
           "path": "./check_my_usage",
-          "sha256": "557aac4d5e94986f72a30148f252141080e5c55e086d0c7469c215e71940ba1b"
+          "sha256": "965dd9e3778146f227296d33585b29c55f0b44b3013ade8534b61d78f0195a5e"
         },
         "test_api": {
           "path": "./test_api",
-          "sha256": "16bb589842f1df22742efefa69022f77014352f0652f5b671297dd701d011cdb"
+          "sha256": "6c2e62f2fc69d3b3a4092bfc08f09da11080f12cdd8b42436453f9814889313d"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.5.5/threatflux-anthropic-sdk-linux-arm64.tar.gz",
-      "sha256": "0b0b50212adb857c432610d53896c14f4c8d67470bd7f9aa0e3a9f22ef9df241",
-      "size": 3619712,
+      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.6.0/threatflux-anthropic-sdk-linux-arm64.tar.gz",
+      "sha256": "59db421821b0544ff8a03c3fd5cda443592acd0328343514707065d08450c1a6",
+      "size": 3703191,
       "format": "tar.gz",
-      "releaseTag": "v0.5.5",
+      "releaseTag": "v0.6.0",
       "binaries": {
         "check_my_usage": {
           "path": "./check_my_usage",
-          "sha256": "230c4f681fb05fb1f471e211b76b1510088b72db5ee8bd9d80d2530308880e57"
+          "sha256": "f855b96f2b0616b9372202519d26b477511c11bb70eb7184b701bdeef76e6baa"
         },
         "test_api": {
           "path": "./test_api",
-          "sha256": "dc71488abe1d656b01b55547e7674b54acdf6cd2d6020b76ed3f1280c8318d5a"
+          "sha256": "67b479b77575cd29b922c6d4dd9670ccc98658762ec2b9910165ea033d3ff8f6"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.5.5/threatflux-anthropic-sdk-macos-amd64.tar.gz",
-      "sha256": "03b2e5057b0d2b9b3194175ed7e2e1264b11f31cc976a78fa0962157a509834c",
-      "size": 3585660,
+      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.6.0/threatflux-anthropic-sdk-macos-amd64.tar.gz",
+      "sha256": "5490bedbf997620589b25f4740947e1ef75031197c379749be7fb06131adf858",
+      "size": 3646943,
       "format": "tar.gz",
-      "releaseTag": "v0.5.5",
+      "releaseTag": "v0.6.0",
       "binaries": {
         "check_my_usage": {
           "path": "./check_my_usage",
-          "sha256": "49480c652d6da4fd0afad257ff275dec28774952a6693bed53b24089e199df0f"
+          "sha256": "1a71f3efdbab694bc93c060fdbc79dbefbb4e1daa04bc1d167a18aee205fdb90"
         },
         "test_api": {
           "path": "./test_api",
-          "sha256": "25bb3e078b8b09622b28c68641ae90dda63a72b201ab8b1b8bd2d01de5ff9113"
+          "sha256": "2b1eaced611f28a3a579d4b7a9c3b32e95e6dccb084ebfc280462c7b945f30cb"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.5.5/threatflux-anthropic-sdk-macos-arm64.tar.gz",
-      "sha256": "8f77d1cc576dde7b27b1c772f84a3e1e4cc02ca866b8a4c2a646aca7479ba74f",
-      "size": 3436995,
+      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.6.0/threatflux-anthropic-sdk-macos-arm64.tar.gz",
+      "sha256": "ea5b6461be0aabbcb46340fab8cebe7b501ce36ffdaaed14245be31355dc1b8e",
+      "size": 3503135,
       "format": "tar.gz",
-      "releaseTag": "v0.5.5",
+      "releaseTag": "v0.6.0",
       "binaries": {
         "check_my_usage": {
           "path": "./check_my_usage",
-          "sha256": "63dd3bde4c72d3f9a08eb5b2ffa9dc8cd00788d61ed3d4003dedc5cbeeda3718"
+          "sha256": "7c4d838beb11093fe43f1f381846a507a0f953b0ba4f37d341887c75b5956f1b"
         },
         "test_api": {
           "path": "./test_api",
-          "sha256": "52613f15a6276aea20e7e074e8948e8c20df6707c2f3c4be4a010eeddf60603a"
+          "sha256": "c4937e9757aa204864f793400be6f12abcf60a0507dde83356d019f8f8e06cc9"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.5.5/threatflux-anthropic-sdk-windows-amd64.zip",
-      "sha256": "559b22dfdb138c2dfc6482998ba785126727584980771ff0a9d4457794ae9850",
-      "size": 3013405,
+      "url": "https://github.com/ThreatFlux/anthropic_rust_sdk/releases/download/v0.6.0/threatflux-anthropic-sdk-windows-amd64.zip",
+      "sha256": "f3704db14b4e1d6018816643198185136ad02ebb64a6882b943dc89e6981a302",
+      "size": 3059902,
       "format": "zip",
-      "releaseTag": "v0.5.5",
+      "releaseTag": "v0.6.0",
       "binaries": {
         "check_my_usage.exe": {
           "path": "check_my_usage.exe",
-          "sha256": "2243893f9bf6e8e39700bedda02ecbaad7a550302daba66f83acc1be3ab0f364"
+          "sha256": "ebce481a91ee71c1d048dacacb279445443c3fc01bf0a624997d30f0cb2d7603"
         },
         "test_api.exe": {
           "path": "test_api.exe",
-          "sha256": "aeb6f40325c05b378465764683e0738bb9ee913328c7c0d8d68e4d4a3100771f"
+          "sha256": "a2d73d5d8bb8684a65db3638b0f08779c430172380d91df86e17d30a7592e42b"
         }
       }
     }
