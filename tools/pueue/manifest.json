@@ -1,71 +1,58 @@
 {
   "schema": 1,
   "name": "pueue",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "repository": "Nukesor/pueue",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-x86_64-unknown-linux-musl",
-      "sha256": "c1b10d7e4e62211075ddd0e1dc3e8cbfc5a43d662cb3be7402a28504e23fcb51",
-      "size": 2143736,
+      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.5/pueue-x86_64-unknown-linux-musl",
+      "sha256": "5bf543b1861a5e5f449e38a5c6902cbcef473dca4d510023c22ec707b7c9307f",
+      "size": 2555324,
       "format": "binary",
-      "releaseTag": "v4.0.4",
+      "releaseTag": "v4.0.5",
       "binaries": {
         "pueue": {
           "path": "pueue-x86_64-unknown-linux-musl",
-          "sha256": "c1b10d7e4e62211075ddd0e1dc3e8cbfc5a43d662cb3be7402a28504e23fcb51"
+          "sha256": "5bf543b1861a5e5f449e38a5c6902cbcef473dca4d510023c22ec707b7c9307f"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-aarch64-unknown-linux-musl",
-      "sha256": "759bf5100a51024997111c6913aaf3330a0cdfd893ff552dcf429ae9b5e01e09",
-      "size": 1771996,
+      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.5/pueue-aarch64-unknown-linux-musl",
+      "sha256": "745a34f73719636dbb2b37b44e08c47f011dc46c13e49b84646abf3b88c7d3f5",
+      "size": 2136892,
       "format": "binary",
-      "releaseTag": "v4.0.4",
+      "releaseTag": "v4.0.5",
       "binaries": {
         "pueue": {
           "path": "pueue-aarch64-unknown-linux-musl",
-          "sha256": "759bf5100a51024997111c6913aaf3330a0cdfd893ff552dcf429ae9b5e01e09"
-        }
-      }
-    },
-    "darwin-x64": {
-      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-x86_64-apple-darwin",
-      "sha256": "c5b89a2f9f9d355b33880735a1f12a8b8d09002f95cc7d2e5f3294e313fb8540",
-      "size": 5872616,
-      "format": "binary",
-      "releaseTag": "v4.0.4",
-      "binaries": {
-        "pueue": {
-          "path": "pueue-x86_64-apple-darwin",
-          "sha256": "c5b89a2f9f9d355b33880735a1f12a8b8d09002f95cc7d2e5f3294e313fb8540"
+          "sha256": "745a34f73719636dbb2b37b44e08c47f011dc46c13e49b84646abf3b88c7d3f5"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-aarch64-apple-darwin",
-      "sha256": "7780dbd21e3a4106e88a57396d6dc2dbcbbae253c7e00d92d994902896b8cb82",
-      "size": 5286672,
+      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.5/pueue-aarch64-apple-darwin",
+      "sha256": "7b3bedb2ea9903250a741eb41fba29c6e5a066b34ae34d43eefaeb9713585c45",
+      "size": 6350944,
       "format": "binary",
-      "releaseTag": "v4.0.4",
+      "releaseTag": "v4.0.5",
       "binaries": {
         "pueue": {
           "path": "pueue-aarch64-apple-darwin",
-          "sha256": "7780dbd21e3a4106e88a57396d6dc2dbcbbae253c7e00d92d994902896b8cb82"
+          "sha256": "7b3bedb2ea9903250a741eb41fba29c6e5a066b34ae34d43eefaeb9713585c45"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.4/pueue-x86_64-pc-windows-msvc.exe",
-      "sha256": "28b0756d54ec16ce13d78b251d086aa62e0057089cb27f793cd649f9762b996a",
-      "size": 6502912,
+      "url": "https://github.com/Nukesor/pueue/releases/download/v4.0.5/pueue-x86_64-pc-windows-msvc.exe",
+      "sha256": "398cc179b732724bb901791b6ecc2938ac36be8fd408291299e832b7d43c80ee",
+      "size": 8215040,
       "format": "binary",
-      "releaseTag": "v4.0.4",
+      "releaseTag": "v4.0.5",
       "binaries": {
         "pueue.exe": {
           "path": "pueue-x86_64-pc-windows-msvc.exe",
-          "sha256": "28b0756d54ec16ce13d78b251d086aa62e0057089cb27f793cd649f9762b996a"
+          "sha256": "398cc179b732724bb901791b6ecc2938ac36be8fd408291299e832b7d43c80ee"
         }
       }
     }
