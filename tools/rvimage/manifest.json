@@ -1,45 +1,32 @@
 {
   "schema": 1,
   "name": "rvimage",
-  "version": "0.9.4",
+  "version": "0.9.7",
   "repository": "bertiqwerty/rvimage",
   "artifacts": {
     "darwin-x64": {
-      "url": "https://github.com/bertiqwerty/rvimage/releases/download/v0.9.4/rvimage-v0.9.4-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.9.4",
-      "sha256": "701087a5ff65eed308e779bc765d8c08450a4bcd1f4bb037a7d1a84ca3c79004",
-      "size": 17261375,
+      "url": "https://github.com/bertiqwerty/rvimage/releases/download/v0.9.7/rvimage-v0.9.7-x86_64-apple-darwin.tar.gz",
+      "sha256": "5f5b7b0f501bfd3e2597a36f1d9b36ba2452144ffcf2fe048dd5ab5550b27a70",
+      "size": 17817073,
       "format": "tar.gz",
+      "releaseTag": "v0.9.7",
       "binaries": {
         "rvimage": {
-          "path": "rvimage-v0.9.4-x86_64-apple-darwin/rvimage",
-          "sha256": "13e36c4a91412ce51ac0a206d91b58e6451b5baa13abcf0f73db3532794ac85e"
-        }
-      }
-    },
-    "darwin-arm64": {
-      "url": "https://github.com/bertiqwerty/rvimage/releases/download/v0.9.4/rvimage-v0.9.4-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.9.4",
-      "sha256": "11e54d003978122fce3d1ab1c0b6edda121f126a0abe9815aad69752f0656634",
-      "size": 16719701,
-      "format": "tar.gz",
-      "binaries": {
-        "rvimage": {
-          "path": "rvimage-v0.9.4-aarch64-apple-darwin/rvimage",
-          "sha256": "2117e993c9741f6a3db4bf04fef32e827f98c413f7c801d657f6570fdb5c688c"
+          "path": "rvimage-v0.9.7-x86_64-apple-darwin/rvimage",
+          "sha256": "44b3fe983ee904991a242c201b20d688b2c4a1cc6e1dac11d7fea9cfc556aa4b"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/bertiqwerty/rvimage/releases/download/v0.9.4/rvimage-v0.9.4-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.9.4",
-      "sha256": "57f232e52d3cf93dd77a923709003bd531b73e717cf8d577a3f3df66e4b87572",
-      "size": 15907911,
+      "url": "https://github.com/bertiqwerty/rvimage/releases/download/v0.9.7/rvimage-v0.9.7-x86_64-pc-windows-msvc.zip",
+      "sha256": "cc993e52b4cb3e1d6ca7f8e6c728bd5feaee870164a83ef13a106ba6607fc667",
+      "size": 16175810,
       "format": "zip",
+      "releaseTag": "v0.9.7",
       "binaries": {
         "rvimage.exe": {
-          "path": "rvimage-v0.9.4-x86_64-pc-windows-msvc/rvimage.exe",
-          "sha256": "775ce6c5cd06b6553306d2d127b4db1cd5923724c07e2e1c973bbf89c489853a"
+          "path": "rvimage-v0.9.7-x86_64-pc-windows-msvc/rvimage.exe",
+          "sha256": "057fca9708cf95ac062a55b292325efd68061740ef7d96e6676293e05d09adb9"
         }
       }
     }
