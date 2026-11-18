@@ -1,58 +1,58 @@
 {
   "schema": 1,
   "name": "rmkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "rmk-rs/rmkit",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.0/rmkit-x86_64-unknown-linux-gnu.tar.xz",
-      "releaseTag": "v0.1.0",
-      "sha256": "284c82bef24bea1022723600cfda96d9366587c6cbd979e619d17e590e2fb3f5",
-      "size": 2818396,
+      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.1/rmkit-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "ad6047c85636caa8d87fb328a22fd5707349b2db1c30f2da1f5adc5b83641812",
+      "size": 2818872,
       "format": "tar.xz",
+      "releaseTag": "v0.1.1",
       "binaries": {
         "rmkit": {
           "path": "rmkit-x86_64-unknown-linux-gnu/rmkit",
-          "sha256": "5d3f7427bf07b6efd2281edb1a0410323900d09230b5ff3b236bb8be5c19af34"
+          "sha256": "74f0bdbaaf0a1b136b68146a2d940fe013abb2a01fda64929dd5224067f7061d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.0/rmkit-x86_64-apple-darwin.tar.xz",
-      "releaseTag": "v0.1.0",
-      "sha256": "d14adf2dad92e26c0a3cd617a9ed4c71c0cc5ff677a26fa2e699e3d9e1e9d64b",
-      "size": 2722324,
+      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.1/rmkit-x86_64-apple-darwin.tar.xz",
+      "sha256": "2b9e700a90d2b88748bac338e438227898e6fbc9e46ab725cc675d840b0d92ab",
+      "size": 2721968,
       "format": "tar.xz",
+      "releaseTag": "v0.1.1",
       "binaries": {
         "rmkit": {
           "path": "rmkit-x86_64-apple-darwin/rmkit",
-          "sha256": "0aeef3789859e4b357d8bbfb315b725becfad822c8b904474ff7f35d72a099a7"
+          "sha256": "5fc98fa0c247159d75ccd2e78fec1d97cf265cd7e8e714c609d502f8fff2523a"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.0/rmkit-aarch64-apple-darwin.tar.xz",
-      "releaseTag": "v0.1.0",
-      "sha256": "317b73c370e85cface889a92f0116bb5d54c9a31361b5f0ff5b76377bf6aa48f",
-      "size": 2398044,
+      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.1/rmkit-aarch64-apple-darwin.tar.xz",
+      "sha256": "002f6cd5a1768042f8c6124edffc0589a9bdf06ade9cb4ac939fec2038863d70",
+      "size": 2343260,
       "format": "tar.xz",
+      "releaseTag": "v0.1.1",
       "binaries": {
         "rmkit": {
           "path": "rmkit-aarch64-apple-darwin/rmkit",
-          "sha256": "09649d69c023b3c83c2a9b4b86076acf23370859a766f5416b77bf96f2484b17"
+          "sha256": "f41f17da5fbfa18d69506523acdc443cc92fe86d814a5818e402dc34644023d8"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.0/rmkit-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.1.0",
-      "sha256": "e1f6c92577afcc12411ef186fac09970d919addc1b609c38f433efa177164d90",
-      "size": 3809617,
+      "url": "https://github.com/rmk-rs/rmkit/releases/download/v0.1.1/rmkit-x86_64-pc-windows-msvc.zip",
+      "sha256": "45a0e7af8f77d94d71fcce07f470476dd914198566972e9d9b8ecb327e39d151",
+      "size": 3802547,
       "format": "zip",
+      "releaseTag": "v0.1.1",
       "binaries": {
         "rmkit.exe": {
           "path": "rmkit.exe",
-          "sha256": "c50033822cb42bf5714aa9dd65fd0063621a6575da0384ab4db6782b7168fd64"
+          "sha256": "67f8cc746a202445b49e43e756c239006e4f26cd620671913861b4c55a81ec58"
         }
       }
     }
