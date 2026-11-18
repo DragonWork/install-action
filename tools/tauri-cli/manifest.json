@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "tauri-cli",
-  "version": "2.12.5",
+  "version": "2.12.6",
   "repository": "tauri-apps/tauri",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.5/cargo-tauri-x86_64-unknown-linux-gnu.tgz",
-      "sha256": "79f9596308f74e41753d1d30688a3f41914187b1bc7eea5dbd20cc0cd6acd640",
-      "size": 9229210,
+      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.6/cargo-tauri-x86_64-unknown-linux-gnu.tgz",
+      "sha256": "057983293b14d88b29331f96b2e57ce9780f887e7a0b76e255844924f83118dc",
+      "size": 9229688,
       "format": "tar.gz",
-      "releaseTag": "tauri-cli-v2.12.5",
+      "releaseTag": "tauri-cli-v2.12.6",
       "binaries": {
         "cargo-tauri": {
           "path": "cargo-tauri",
-          "sha256": "4a55a62c1bb7dc3ff8ff2d3e36227856bbdb7c29b562bb796c9c58a63b297794"
+          "sha256": "d97ea60248958fc72c52296235e0bf48d6ba3f305090d342fa8529ec5a790612"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.5/cargo-tauri-aarch64-unknown-linux-musl.tgz",
-      "sha256": "cca38fb68023db39455b78accf9ea92a464891600fe53c5ecf31ec8f60dc8ddc",
-      "size": 8711313,
+      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.6/cargo-tauri-aarch64-unknown-linux-musl.tgz",
+      "sha256": "1923c58f1842a3e3ba4c3c710a6839c5d238861b79a25e0a9117fb1925375a26",
+      "size": 8709717,
       "format": "tar.gz",
-      "releaseTag": "tauri-cli-v2.12.5",
+      "releaseTag": "tauri-cli-v2.12.6",
       "binaries": {
         "cargo-tauri": {
           "path": "cargo-tauri",
-          "sha256": "bca287aecdb985226accec9d0aecc7230babd9bdd02fc06d8929c87b7adbf45c"
+          "sha256": "ad42275220616f5938af914596ccf13b1eb2ffae0342d9e4c6935b3fe7fcade7"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.5/cargo-tauri-x86_64-apple-darwin.zip",
-      "sha256": "78a1ffb5cbdc8fd704f060bf3c3f81d8e79ba0c0cf78de09f46bbb84e51cc115",
-      "size": 8568635,
+      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.6/cargo-tauri-x86_64-apple-darwin.zip",
+      "sha256": "dd318ab5235a910629fe1e18560b67bd4949618deb2a4b39458a887c593524d1",
+      "size": 8563360,
       "format": "zip",
-      "releaseTag": "tauri-cli-v2.12.5",
+      "releaseTag": "tauri-cli-v2.12.6",
       "binaries": {
         "cargo-tauri": {
           "path": "cargo-tauri",
-          "sha256": "722ac705427982d5f3776ae18d400448c71181cd1b1d808fddaf26dc5e39cdbf"
+          "sha256": "fff498b698b2fa386433044f68e147c1f70d8d20610ca6afdc314868f2d7788b"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.5/cargo-tauri-aarch64-apple-darwin.zip",
-      "sha256": "bae2db07d3962d096acdb758b0e35f93e3e6b6db5443cea370b2718a907a5216",
-      "size": 7974192,
+      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.6/cargo-tauri-aarch64-apple-darwin.zip",
+      "sha256": "1c71c48a9aea9616a857c92bab63bc9bce113e348929493ba0bbaa4d3f4ce4c3",
+      "size": 7977356,
       "format": "zip",
-      "releaseTag": "tauri-cli-v2.12.5",
+      "releaseTag": "tauri-cli-v2.12.6",
       "binaries": {
         "cargo-tauri": {
           "path": "cargo-tauri",
-          "sha256": "76aceb25809867c55a19038db3302b6a6c4c694f8d11cabbd3ddf6dea1647bd9"
+          "sha256": "cc4070879688bfd9c5ab6533744a2a73d941f519279561c8ce9a859e78dca4a6"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.5/cargo-tauri-x86_64-pc-windows-msvc.zip",
-      "sha256": "ff7bb69eb0e102eb84825fd7e3e73a6ee9ca23826c405c781ee727081472246d",
-      "size": 7945170,
+      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.6/cargo-tauri-x86_64-pc-windows-msvc.zip",
+      "sha256": "39636fa68bc00f13dd610fb57688f292e93742978cc35395f2f1be7c540b88a1",
+      "size": 7939975,
       "format": "zip",
-      "releaseTag": "tauri-cli-v2.12.5",
+      "releaseTag": "tauri-cli-v2.12.6",
       "binaries": {
         "cargo-tauri.exe": {
           "path": "cargo-tauri.exe",
-          "sha256": "16942afd4b6ef27486bd326fcc46be79c853552f039ecd0d6eaa6f96c2cdfd41"
+          "sha256": "003cab86f2a4efabdbb76cff6bc58524f9d1a3f9647cda1e6bee6812eebbb574"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.5/cargo-tauri-aarch64-pc-windows-msvc.zip",
-      "sha256": "5c77e018ca82a570bcc1909244325495e678bcc19e0052ce59420de965ec46a6",
-      "size": 7525610,
+      "url": "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.12.6/cargo-tauri-aarch64-pc-windows-msvc.zip",
+      "sha256": "953de5ed8da4c22cc03ab8950c022c97be2a7d652b2639584741cd3afa518d96",
+      "size": 7517083,
       "format": "zip",
-      "releaseTag": "tauri-cli-v2.12.5",
+      "releaseTag": "tauri-cli-v2.12.6",
       "binaries": {
         "cargo-tauri.exe": {
           "path": "cargo-tauri.exe",
-          "sha256": "de62ac1b77bac6b6eb7d043a62423a2d36515d83aaf346f48ccddae7492ee1c4"
+          "sha256": "fbbea1bf31192a5b1ec239152a4cb242ab1d830f379d54fc3076cc4f712ff97d"
         }
       }
     }
