@@ -1,32 +1,32 @@
 {
   "schema": 1,
   "name": "sozu",
-  "version": "2.3.4",
+  "version": "2.3.6",
   "repository": "sozu-proxy/sozu",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.4/sozu-2.3.4-x86_64-unknown-linux-musl-crypto-ring.tar.gz",
-      "sha256": "c9de3a1b1cf5f6e66b13a1ea95d6fb9c0949f4175cb9edd15cb0705a8f99b485",
-      "size": 7328080,
+      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.6/sozu-2.3.6-x86_64-unknown-linux-musl-crypto-ring.tar.gz",
+      "sha256": "a6fae9ca62cfa6975404702168ab73897300c18c8b88baba14ed43cebb75a855",
+      "size": 7360629,
       "format": "tar.gz",
-      "releaseTag": "2.3.4",
+      "releaseTag": "2.3.6",
       "binaries": {
         "sozu": {
-          "path": "sozu-2.3.4-x86_64-unknown-linux-musl-crypto-ring/sozu",
-          "sha256": "8c601ec8b0f4eca4ecf1dadffff797bc53784cadb98f200ed06b8d906065ccfc"
+          "path": "sozu-2.3.6-x86_64-unknown-linux-musl-crypto-ring/sozu",
+          "sha256": "9a295ff3d0cd33160e4f4065b5e8b26653762dc38848a8ba5d2b0bf16667f5e3"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.4/sozu-2.3.4-aarch64-unknown-linux-gnu-fips.tar.gz",
-      "sha256": "ca1fb6feca2fa205abb82fb2234a3ebef49fc8c94488a05fb32c5726c9ab4194",
-      "size": 7340037,
+      "url": "https://github.com/sozu-proxy/sozu/releases/download/2.3.6/sozu-2.3.6-aarch64-unknown-linux-gnu-fips.tar.gz",
+      "sha256": "a3c54768c30048f9301727f0cd37bfb1fa50f7c21d44a98beee3493c77560827",
+      "size": 7325393,
       "format": "tar.gz",
-      "releaseTag": "2.3.4",
+      "releaseTag": "2.3.6",
       "binaries": {
         "sozu": {
-          "path": "sozu-2.3.4-aarch64-unknown-linux-gnu-fips/sozu",
-          "sha256": "3f10c08bc5ffbdf4c2562b2d4f9b3043312b1667594486f0eba9aef5df2468bc"
+          "path": "sozu-2.3.6-aarch64-unknown-linux-gnu-fips/sozu",
+          "sha256": "862eb78e15fd9e48324a412818ca028ca8a6fea397c1df7bad7c8e9f6d3bc66e"
         }
       }
     }
