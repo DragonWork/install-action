@@ -1,156 +1,156 @@
 {
   "schema": 1,
   "name": "kache",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "repository": "kunobi-ninja/kache",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.1.1/kache-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "7603022ee78b48a9afde9055b0df27e5c2cef1351a54fa2de6b4fde0f37ae22c",
-      "size": 18278207,
+      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.2.0/kache-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "eeb6e72b9f55d0e9d61cae0789ffa8f3ab8c33bef166b7af655cc0806447ebac",
+      "size": 18788794,
       "format": "tar.gz",
-      "releaseTag": "v2.1.1",
+      "releaseTag": "v2.2.0",
       "binaries": {
         "kache": {
           "path": "kache",
-          "sha256": "9b1009f33e745ff129909613ffab074d4260107436fff3a30d4f78cc0955f381"
+          "sha256": "c973beeece95c7b488effeadc6c9ec000d10964a4040c1ba97ea472302e4abac"
         },
         "kache-engine": {
           "path": "kache-engine",
-          "sha256": "93b42fa159ae475298ce478a32ba26fc9d4162419e315b536eb8a86a63b7347f"
+          "sha256": "7261c1c43822c98852a5864c58b13fa46986e3bfe799c0d4350ce1e0ccf6d9d7"
         },
         "kache-clang-cl": {
           "path": "kache-clang-cl",
-          "sha256": "ba9e05e7bb4581d09872b763db0274619cb5260d899b31a95a2dd76668ef4394"
+          "sha256": "079338bf4e4a982c358a96dd57197a15aa18c596f21d07a8728e533a2700e101"
         },
         "kache-cl": {
           "path": "kache-cl",
-          "sha256": "b0ffd862a647cc7ee1a6d23cb84d8497b76f63e3a9f2b63c092dcc7601b2ef66"
+          "sha256": "e37ccd4285be6d812be5b7c0604f9e6d2c06fe9869b095fdc47a58ff5253e0bd"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.1.1/kache-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "466f0aef4885f5291359b3c1bc0c9976824634194c5b67e1cee2a4fe3035155a",
-      "size": 16670117,
+      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.2.0/kache-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "99c74e9332a92e8f06d6fbdb077aff5365f364d5b5e6d69cf013fa616e887f22",
+      "size": 17176252,
       "format": "tar.gz",
-      "releaseTag": "v2.1.1",
+      "releaseTag": "v2.2.0",
       "binaries": {
         "kache": {
           "path": "kache",
-          "sha256": "fa733d5e229a9fd094bcacf67e8197a3d9e7c986a87d5efa651337b3b0f1b262"
+          "sha256": "c911d075196b96c9e78cebfdb0a76e85855fbf597a11aba2896f64a104c7c99a"
         },
         "kache-engine": {
           "path": "kache-engine",
-          "sha256": "787abfff32d35cfa7b83904070fc1119656bb0b9f0338c6d0fc32807e35c71ee"
+          "sha256": "cc1e000df5faecd41173ed5b5f49cf23eaca26f41058c9de2c7a6e479ff4bffe"
         },
         "kache-clang-cl": {
           "path": "kache-clang-cl",
-          "sha256": "aa5062a88c0a1e1d8e1f8a3bd17083bbd7516cb77cd748654df44e4b26e3408f"
+          "sha256": "47de7352d1251f808c22666662982bc1ec670845116d8d93dab67dc80b3aa054"
         },
         "kache-cl": {
           "path": "kache-cl",
-          "sha256": "a9bb9603d5dc8ac56d6a70af9a3dab59d88428ce7d2c1d0a23ae8cdf7999e9d4"
+          "sha256": "998214778f07c6c6162eca5858f5d6657cb98ff23af705dee73e41d45cfacf56"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.1.1/kache-x86_64-apple-darwin.tar.gz",
-      "sha256": "69627cfec3017aa521d06a84afc6c5e74734468678bd6659d92afd57d9a4f457",
-      "size": 17550256,
+      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.2.0/kache-x86_64-apple-darwin.tar.gz",
+      "sha256": "cb76efd5c23023bff27cb2b7d787b139b18fd0c851dda84f45b5f71128c38b0e",
+      "size": 18078254,
       "format": "tar.gz",
-      "releaseTag": "v2.1.1",
+      "releaseTag": "v2.2.0",
       "binaries": {
         "kache": {
           "path": "kache",
-          "sha256": "7396ae8ace0b944f02a050d7dab0b3524b2afd9bdfb56ebe29d37d39d3c45c8f"
+          "sha256": "733febcf1f2f5bf21542e39d43438ecf1d0d4b475c1314c83604d446c57b6def"
         },
         "kache-engine": {
           "path": "kache-engine",
-          "sha256": "2d9d4415c45f88d21e209df76b9f65e813c68a9c9599341a7e861f94d08ad0e0"
+          "sha256": "62e8ad990e771e35fe6fb7ad0fd0a7920171dae19d7676e931d84e6d9769712a"
         },
         "kache-clang-cl": {
           "path": "kache-clang-cl",
-          "sha256": "229f0442e6ab88ce020ed8c88c316b6123d9a57b82c7b9e4aa84a58adf6e7037"
+          "sha256": "30ce21fff21fe8a8f388e4b7ff278ad4db166c457cedd393e824187eea83e7a5"
         },
         "kache-cl": {
           "path": "kache-cl",
-          "sha256": "3a20f1d680b3cb29be1a5387b1f5a7bdf0652ab31e09992840b6fa83c1a65e15"
+          "sha256": "b0b12012bebb1f6553fb4b8ed95a3c03c13b888c249bb46a496342366fe20487"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.1.1/kache-aarch64-apple-darwin.tar.gz",
-      "sha256": "d4533baa3c57be51d5f2390b70551ca9d6c2a83a1933266fa0a57053774e08f6",
-      "size": 15295473,
+      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.2.0/kache-aarch64-apple-darwin.tar.gz",
+      "sha256": "8096492dc878796db6a79fef05f3e15ac8af450059c59db1f546eec00d81c3f5",
+      "size": 15826441,
       "format": "tar.gz",
-      "releaseTag": "v2.1.1",
+      "releaseTag": "v2.2.0",
       "binaries": {
         "kache": {
           "path": "kache",
-          "sha256": "cc6817c98d0d929952cb27ffaa86550610bcd6104fbefe2900c472ff87eec713"
+          "sha256": "bb4b6a383eab999c71d3194e6bf24b76bc62cf235a6f1fc24e60bac50f7ce993"
         },
         "kache-engine": {
           "path": "kache-engine",
-          "sha256": "55c5d996c9be2f2a9ca592ccc37bea29b8adb0fe0b41c2af30ff646b4739fe66"
+          "sha256": "130bc86b7d6d1c7c441feed667352237c177499f7f30b9a88dc3998cd8490a3a"
         },
         "kache-clang-cl": {
           "path": "kache-clang-cl",
-          "sha256": "bf82980264c814d326e79953ed003036f2a4b59c5a99e8e27c0504a98743805c"
+          "sha256": "cd4341ea84f26f873a31e564e4d11ae84c99f23bd1cf2e2807c94dbb47b32dfb"
         },
         "kache-cl": {
           "path": "kache-cl",
-          "sha256": "80b2687d35feee4f06bbbe81819d54347d76c3303b46c9513719728c75d91260"
+          "sha256": "6473e7be3f05502e9991101f1e6ffe5d06b973658c0dfea9e8f2f1a43a9df514"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.1.1/kache-x86_64-pc-windows-msvc.zip",
-      "sha256": "8a30c6d8777b989338e58d72df2c0037607578869471b225943a0b1ef9fdff0a",
-      "size": 19179082,
+      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.2.0/kache-x86_64-pc-windows-msvc.zip",
+      "sha256": "83c460ddd9e4baa4aca20c9f8e0929dccb557605dc1c5d1d6fbb1e8465ae20b7",
+      "size": 19886123,
       "format": "zip",
-      "releaseTag": "v2.1.1",
+      "releaseTag": "v2.2.0",
       "binaries": {
         "kache.exe": {
           "path": "kache.exe",
-          "sha256": "794ad6fd3df8726fc8850f8234896e61dd20c1e12aa04c319c0059e3ac2b190a"
+          "sha256": "b930c4dd7a947c9fb954a3e0d3bd77dede84005bda659397db83caf49ae202bc"
         },
         "kache-engine.exe": {
           "path": "kache-engine.exe",
-          "sha256": "5836d2ffa1582ed496531d22ada6a479432ddd97bfba04e3bbc6c590a1b2029c"
+          "sha256": "dda3ad3f89341a7e922594aa5f80bdee643a19d555029300168f934bc68433fa"
         },
         "kache-clang-cl.exe": {
           "path": "kache-clang-cl.exe",
-          "sha256": "2722eb29c549e097f080c55be2fe67ae51454a860dd8772816787eca9bb13db2"
+          "sha256": "a733207d5a06cd5f7d23ddab058c3df0efc50210d97b0feef16f0557d3b7c2d4"
         },
         "kache-cl.exe": {
           "path": "kache-cl.exe",
-          "sha256": "9fac7f930b107e8bfd01439bb7b0ba1cfe07b62be817372d12241d18360b1c4d"
+          "sha256": "6d86fca0d0b91a8f20712b7974113d9d26eab13c026854b679050ae776e8dd11"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.1.1/kache-aarch64-pc-windows-msvc.zip",
-      "sha256": "985dcc506e959c9c0abb63914c91bef671366cd8cf2a5dd8405e124f5939b724",
-      "size": 17473445,
+      "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.2.0/kache-aarch64-pc-windows-msvc.zip",
+      "sha256": "4055c5d2ee00de8c643f91ff25f19d85b748ae4a7fc133b67d2dd1d9810b04f1",
+      "size": 18127514,
       "format": "zip",
-      "releaseTag": "v2.1.1",
+      "releaseTag": "v2.2.0",
       "binaries": {
         "kache.exe": {
           "path": "kache.exe",
-          "sha256": "baf4adc17ceddb4714daf80ebc4802196e35a36625babd86d608c807c34f50e8"
+          "sha256": "e2329d7d2798cee4de042849f1654b7a1654bc59ff8bc84bc8ca3b377b2e9b7d"
         },
         "kache-engine.exe": {
           "path": "kache-engine.exe",
-          "sha256": "f73d05475ffdc5dc532bda8f24add982fa424315656e89e16e6142a36f2d9e70"
+          "sha256": "ed75f53fb18a22acecab0534bb6a0f1461311f43f6f9881e8dea4f8c996488fa"
         },
         "kache-clang-cl.exe": {
           "path": "kache-clang-cl.exe",
-          "sha256": "c6d0d8f256b360c105d561c99cb97573469136f10900d445c9e339cb2c20890a"
+          "sha256": "9137f6b8778389ff091e1043805446fb1579105043f55232191436590b5d4275"
         },
         "kache-cl.exe": {
           "path": "kache-cl.exe",
-          "sha256": "33e43ecd494d2a2e8be6d952a60eae29012424a3a8d49cc9d8d102c09c753d21"
+          "sha256": "b1637087248f5256ed9378048d1269f949a1bfba0b2ab1e1b19c5c7ba3061cec"
         }
       }
     }
