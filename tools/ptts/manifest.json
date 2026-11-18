@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "ptts",
+  "version": "0.7.1",
+  "repository": "gradium-ai/xn-ptts",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/gradium-ai/xn-ptts/releases/download/v0.7.1/ptts-0.7.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "4e65eb2028f85565b69d7a7e6d88eef32a38b28d77860d2c75427e33163f4bbf",
+      "size": 9359824,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.1",
+      "binaries": {
+        "ptts": {
+          "path": "ptts-0.7.1-x86_64-unknown-linux-gnu/ptts",
+          "sha256": "ce13c258e01e1c2d6a153af786d5fbd5c7b7c5c9075a79353ca404af3edaf8a5"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/gradium-ai/xn-ptts/releases/download/v0.7.1/ptts-0.7.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "721de051ef3fa4d6ed0405f549b8cac596118604f8f63b975313c4debdec76d7",
+      "size": 9064174,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.1",
+      "binaries": {
+        "ptts": {
+          "path": "ptts-0.7.1-aarch64-unknown-linux-gnu/ptts",
+          "sha256": "8ddd6d46dc7001d3a7385c62c95f61a47d67334925c02360076c7708de816b6b"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/gradium-ai/xn-ptts/releases/download/v0.7.1/ptts-0.7.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "d084dc0d185e1ed17abaa63d011adb6dce209f8f391f8c35ddf6cd11e166b1ea",
+      "size": 8753512,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.1",
+      "binaries": {
+        "ptts": {
+          "path": "ptts-0.7.1-x86_64-apple-darwin/ptts",
+          "sha256": "2f450e9461e442cf5d53aee577abb9a73f0342f5a08abdf3c67646ee248b9e03"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/gradium-ai/xn-ptts/releases/download/v0.7.1/ptts-0.7.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "8d726ce550d4001ba9c0f18615500bc72e0c1bdf8211cce98d4882242c585635",
+      "size": 8502237,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.1",
+      "binaries": {
+        "ptts": {
+          "path": "ptts-0.7.1-aarch64-apple-darwin/ptts",
+          "sha256": "a8d2f2e47c3cfeae56caf1b50ba08904797bce7c9ba8bc010502d8d5cccf5432"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/gradium-ai/xn-ptts/releases/download/v0.7.1/ptts-0.7.1-x86_64-pc-windows-msvc.zip",
+      "sha256": "a9f958e97909044af3dd1560c55cfb146f5dca6dd60dc3261ec0a25d24340e26",
+      "size": 7813314,
+      "format": "zip",
+      "releaseTag": "v0.7.1",
+      "binaries": {
+        "ptts.exe": {
+          "path": "ptts-0.7.1-x86_64-pc-windows-msvc/ptts.exe",
+          "sha256": "1bb9c7287d5c7c8d3eff0bacdba812c2c472bec5cbe4d84409d5305a15316108"
+        }
+      }
+    }
+  }
+}
