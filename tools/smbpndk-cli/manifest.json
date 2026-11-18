@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "smbpndk-cli",
+  "version": "0.4.0",
+  "repository": "smbcloudXYZ/smbcloud-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-linux-amd64",
+      "sha256": "ebfad49ea85ebb3983547ec6df42b65fecb520ea825d0c34d1d575704a6984ee",
+      "size": 20361688,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "smbpndk-cli": {
+          "path": "smb-linux-amd64",
+          "sha256": "ebfad49ea85ebb3983547ec6df42b65fecb520ea825d0c34d1d575704a6984ee"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-linux-arm64",
+      "sha256": "c8643ff9849d6db0af3d342e59df3c15b7c03102d3b8c94b10d9eab5600e2b40",
+      "size": 19470256,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "smbpndk-cli": {
+          "path": "smb-linux-arm64",
+          "sha256": "c8643ff9849d6db0af3d342e59df3c15b7c03102d3b8c94b10d9eab5600e2b40"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-macos-amd64",
+      "sha256": "0a9fb7db1c6d212e4cbb847fa768fb2506664f7df1a1250a7e815b2786ade0d7",
+      "size": 15957224,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "smbpndk-cli": {
+          "path": "smb-macos-amd64",
+          "sha256": "0a9fb7db1c6d212e4cbb847fa768fb2506664f7df1a1250a7e815b2786ade0d7"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-macos-arm64",
+      "sha256": "87cf529ef1363a82d46dcd95e61180b46332e2cfeba79371c77b378a11979b78",
+      "size": 14912240,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "smbpndk-cli": {
+          "path": "smb-macos-arm64",
+          "sha256": "87cf529ef1363a82d46dcd95e61180b46332e2cfeba79371c77b378a11979b78"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-win-amd64.exe",
+      "sha256": "2cb6af84f7fe7d81d245b897b9b6520313a0fbb8551e3f7099086c95c58418d6",
+      "size": 12067840,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "smbpndk-cli.exe": {
+          "path": "smb-win-amd64.exe",
+          "sha256": "2cb6af84f7fe7d81d245b897b9b6520313a0fbb8551e3f7099086c95c58418d6"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-win-arm64.exe",
+      "sha256": "d2f6fe2aace87bea5557007b71314c6d7767172383ed5e563c1b0af19a75d820",
+      "size": 10180096,
+      "format": "binary",
+      "releaseTag": "v0.4.0",
+      "binaries": {
+        "smbpndk-cli.exe": {
+          "path": "smb-win-arm64.exe",
+          "sha256": "d2f6fe2aace87bea5557007b71314c6d7767172383ed5e563c1b0af19a75d820"
+        }
+      }
+    }
+  }
+}
