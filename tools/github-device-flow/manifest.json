@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "github-device-flow",
+  "version": "0.3.0",
+  "repository": "jakewilkins/gh-device-flow",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/jakewilkins/gh-device-flow/releases/download/v0.3.0/gh-device-flow.x86_64-linux.zip",
+      "sha256": "d08efcee1c64bf93261dbf66d6788e47e055552351456db7b0d0c3b077598e97",
+      "size": 3451463,
+      "format": "zip",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "github-device-flow": {
+          "path": "github-device-flow",
+          "sha256": "76e973434136c6ece2963388446496588492dca3c93709c516172c649fe35f39"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/jakewilkins/gh-device-flow/releases/download/v0.3.0/github-device-flow.macos.zip",
+      "sha256": "7fc2f298ddb6d9bd7b7e71326f61f0b2dd929f5c4f0058db36a08e427bf6eceb",
+      "size": 1450336,
+      "format": "zip",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "github-device-flow": {
+          "path": "github-device-flow",
+          "sha256": "14d62fd3e37fcbfa3d65d1af856eb1891872510c4252d707985122b027fed3ab"
+        }
+      }
+    }
+  }
+}
