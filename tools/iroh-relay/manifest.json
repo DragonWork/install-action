@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "iroh-relay",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "repository": "n0-computer/iroh",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.4.1",
-      "sha256": "75254641e3fad7fcbac6dee4d485556fbe06ef708340a9d8810469270ba626b8",
-      "size": 4016160,
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.5.0/iroh-relay-v1.5.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "935892e4ad570d694f7ad2780f800077b99fd72d9a56ac982792fdd04ef631b4",
+      "size": 4009999,
       "format": "tar.gz",
+      "releaseTag": "v1.5.0",
       "binaries": {
         "iroh-relay": {
           "path": "./iroh-relay",
-          "sha256": "9b9804c768503f3b4840ee011c1c796c26683d0f2496c9d29a2ab3c3bcac71b3"
+          "sha256": "4a13dbcfb84be491882ef0da09144fdb014a123cd0601e0114ee77c9ebf527c1"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v1.4.1",
-      "sha256": "3fc0c2d67c1cd66250bf82f3e2f17a985b7081a3d272186bad9d63e3f2347b38",
-      "size": 3952836,
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.5.0/iroh-relay-v1.5.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "99a14d2ff541711f1b175a15e0c1571a45f46c171d655cda29849d91d90a5c9c",
+      "size": 3951716,
       "format": "tar.gz",
+      "releaseTag": "v1.5.0",
       "binaries": {
         "iroh-relay": {
           "path": "./iroh-relay",
-          "sha256": "39880ec57e472ffea0079fc9ecbe09f019e17383ba9d5f8857a6ad47ceaa1c1c"
+          "sha256": "fabe7094229c606cae063c39b5e0ca86b62d45d87e7d22b88aec9e72f453b4f7"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v1.4.1",
-      "sha256": "b78c6c17af57fc67c0136507952c05e15f27559c7d7ebb085411a45e263ab597",
-      "size": 3887599,
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.5.0/iroh-relay-v1.5.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "e02c205d0112bccc29e8776aea792e1ba43bd453e09a430e646a6e8e8e7cb165",
+      "size": 3885459,
       "format": "tar.gz",
+      "releaseTag": "v1.5.0",
       "binaries": {
         "iroh-relay": {
           "path": "./iroh-relay",
-          "sha256": "38f1b07f6f346a65d462641706db62267c32fb9c5c833c86a81a2282e3fca5c8"
+          "sha256": "fb88742ac54114a7214205139c2afe1d0cd101e9c635f1caab0243ec9490672e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v1.4.1",
-      "sha256": "4f099f834c9ea84d05b9ba0d1e44ec3443794f7aea41e2d03c429d6334ea9303",
-      "size": 3509728,
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.5.0/iroh-relay-v1.5.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "cd06ef1254000891e6297550aa60b94e0c4af9162bbee36d7284fd31038432df",
+      "size": 3553449,
       "format": "tar.gz",
+      "releaseTag": "v1.5.0",
       "binaries": {
         "iroh-relay": {
           "path": "./iroh-relay",
-          "sha256": "e28c50fa7c43997306631523542438b6dcc8f100255e35cf93b2c53e49abc861"
+          "sha256": "ab666f39babe9e8cac0f20b39d7bb8f7028009549a8e6b8c7445b3fd6da485af"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/n0-computer/iroh/releases/download/v1.4.1/iroh-relay-v1.4.1-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v1.4.1",
-      "sha256": "bc1b6bb62fa8a32b6dcf0496e2632c1ac1f5eefa31e8d6787f3246b155e4fca7",
-      "size": 3670011,
+      "url": "https://github.com/n0-computer/iroh/releases/download/v1.5.0/iroh-relay-v1.5.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "cf42e04ab9931c693c88114ab5765216f562f6a07b28ead11df5ef0cada28503",
+      "size": 3667685,
       "format": "zip",
+      "releaseTag": "v1.5.0",
       "binaries": {
         "iroh-relay.exe": {
           "path": "iroh-relay.exe",
-          "sha256": "93e4e81e8215005f03d5901f81ec89e5553dff837479fdf9ee818f71ca5abf8d"
+          "sha256": "7738d1399ee3bcc13402a8e9678125d9b37938d7b5a8d91e5ae7d0c8a6131774"
         }
       }
     }
