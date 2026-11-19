@@ -1,58 +1,58 @@
 {
   "schema": 1,
   "name": "git-delta",
-  "version": "0.20.1",
+  "version": "0.21.1",
   "repository": "dandavison/delta",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "0.20.1",
-      "sha256": "69dcb4043f55c29118f408c6efd30115e0a4e0a6709253343b8c8fa814ab4a31",
-      "size": 3403612,
+      "url": "https://github.com/dandavison/delta/releases/download/0.21.1/delta-0.21.1-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "5cdb719bf6f7c7503ef8bcf181a31577eeca58a8167234f0955f48dd4a92e989",
+      "size": 5204447,
       "format": "tar.gz",
+      "releaseTag": "0.21.1",
       "binaries": {
         "delta": {
-          "path": "delta-0.20.1-x86_64-unknown-linux-musl/delta",
-          "sha256": "35d5a370dd8f554c0465a37acbd1016b8781efa10e04291f8fffc59cbc9e83c4"
+          "path": "delta-0.21.1-x86_64-unknown-linux-musl/delta",
+          "sha256": "101168dcdff1364a79c66171125ee31faf8801ab9896871756fcebfd0d26419d"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "0.20.1",
-      "sha256": "da7f4338f593572ff426ae153e0870e2fdc72729416eff551b40cdeb67940db8",
-      "size": 3158438,
+      "url": "https://github.com/dandavison/delta/releases/download/0.21.1/delta-0.21.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "efe38626967f550c1d3bbe2014990dff5c8028a0a65a3f9b9b6c4a3bb53bfa28",
+      "size": 4818247,
       "format": "tar.gz",
+      "releaseTag": "0.21.1",
       "binaries": {
         "delta": {
-          "path": "delta-0.20.1-aarch64-unknown-linux-gnu/delta",
-          "sha256": "eb5ba9f0ba70e60543d11dc20ad8979d3565f8307055338a638d954b2a4a7062"
+          "path": "delta-0.21.1-aarch64-unknown-linux-gnu/delta",
+          "sha256": "de9b5b0db0c62d4d14db977d280ce9f10bc2929e603545599ec30afae08bbaeb"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "0.20.1",
-      "sha256": "bc1839cea69288d4673a24faffbb825d408ca907e0f7d33b1678c9e6cdd5e58e",
-      "size": 3022152,
+      "url": "https://github.com/dandavison/delta/releases/download/0.21.1/delta-0.21.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "410442570af59c7d8d7f1303abfdc41ba8abc7527a1be697fd03546edeaba9d6",
+      "size": 4361621,
       "format": "tar.gz",
+      "releaseTag": "0.21.1",
       "binaries": {
         "delta": {
-          "path": "delta-0.20.1-aarch64-apple-darwin/delta",
-          "sha256": "490a27379072839208220c5871978053c8291925b8ff211320aba9058049b1b6"
+          "path": "delta-0.21.1-aarch64-apple-darwin/delta",
+          "sha256": "126373dbea54f4a137118c296a3b86431c9d2ba12e9dc19427cc6b90e8c2e919"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "0.20.1",
-      "sha256": "c9af7484b33f1dbc1312a892fc7d5753a6d3365140a4000d49e575a2de742c25",
-      "size": 3450186,
+      "url": "https://github.com/dandavison/delta/releases/download/0.21.1/delta-0.21.1-x86_64-pc-windows-msvc.zip",
+      "sha256": "9645f8a04c700aec5113b946a922ecf8df7568bbbcd7f13b9514f02996035b86",
+      "size": 4714925,
       "format": "zip",
+      "releaseTag": "0.21.1",
       "binaries": {
         "delta.exe": {
-          "path": "delta-0.20.1-x86_64-pc-windows-msvc/delta.exe",
-          "sha256": "5d8470121b68a9235eb594383dcc8ec5ac786e10f9325771da70a59bc8a57dba"
+          "path": "delta-0.21.1-x86_64-pc-windows-msvc/delta.exe",
+          "sha256": "8c2e2ec9ad1cee5f3032e6f676e171517d5bd87748b082cb24804a9344a159b3"
         }
       }
     }
