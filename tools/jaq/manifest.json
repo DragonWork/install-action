@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "jaq",
-  "version": "3.1.2",
+  "version": "3.2.0",
   "repository": "01mf02/jaq",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/01mf02/jaq/releases/download/v3.1.2/jaq-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v3.1.2",
-      "sha256": "8159fcd68008e0dbaeca5c48afcf89acbbf15ccec36d1de9b1bd8658d07143ed",
-      "size": 4872704,
+    "linux-x64": {
+      "url": "https://github.com/01mf02/jaq/releases/download/v3.2.0/jaq-x86_64-unknown-linux-musl",
+      "sha256": "3ae029d4af2f7392aa48fa87670651efc960250c9421acda8933c3661945925f",
+      "size": 4506064,
       "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "jaq": {
+          "path": "jaq-x86_64-unknown-linux-musl",
+          "sha256": "3ae029d4af2f7392aa48fa87670651efc960250c9421acda8933c3661945925f"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/01mf02/jaq/releases/download/v3.2.0/jaq-aarch64-unknown-linux-gnu",
+      "sha256": "9c2d8d8958413f4c8a6e13bcecf9ed70c719f6ba22deb36f1960ed5b8b999e60",
+      "size": 3936520,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "jaq": {
+          "path": "jaq-aarch64-unknown-linux-gnu",
+          "sha256": "9c2d8d8958413f4c8a6e13bcecf9ed70c719f6ba22deb36f1960ed5b8b999e60"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/01mf02/jaq/releases/download/v3.2.0/jaq-x86_64-apple-darwin",
+      "sha256": "e9406739e61b4dbe0eade99fc3a1f9e6260869332696167c52c7c9b97b690559",
+      "size": 4130472,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "jaq": {
+          "path": "jaq-x86_64-apple-darwin",
+          "sha256": "e9406739e61b4dbe0eade99fc3a1f9e6260869332696167c52c7c9b97b690559"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/01mf02/jaq/releases/download/v3.2.0/jaq-aarch64-apple-darwin",
+      "sha256": "646dccce6fc943852310dd457640c4abf3f837b0fb12417cb1240b8f384e7cce",
+      "size": 3894128,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
+      "binaries": {
+        "jaq": {
+          "path": "jaq-aarch64-apple-darwin",
+          "sha256": "646dccce6fc943852310dd457640c4abf3f837b0fb12417cb1240b8f384e7cce"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/01mf02/jaq/releases/download/v3.2.0/jaq-x86_64-pc-windows-msvc.exe",
+      "sha256": "81db75319013c11236baf0f71f371f53e1b794e0a1333546e0fc96147822a7ad",
+      "size": 4903424,
+      "format": "binary",
+      "releaseTag": "v3.2.0",
       "binaries": {
         "jaq.exe": {
           "path": "jaq-x86_64-pc-windows-msvc.exe",
-          "sha256": "8159fcd68008e0dbaeca5c48afcf89acbbf15ccec36d1de9b1bd8658d07143ed"
+          "sha256": "81db75319013c11236baf0f71f371f53e1b794e0a1333546e0fc96147822a7ad"
         }
       }
     }
