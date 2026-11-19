@@ -1,19 +1,58 @@
 {
   "schema": 1,
   "name": "leptosfmt",
-  "version": "0.1.33",
+  "version": "0.1.34",
   "repository": "bram209/leptosfmt",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/bram209/leptosfmt/releases/download/0.1.34/leptosfmt-0.1.34-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "0fc9700082e51e2089a86f117c7b9a7686ae5b69ea53842c6fa9b4c56aa34d8f",
+      "size": 2525333,
+      "format": "tar.gz",
+      "releaseTag": "0.1.34",
+      "binaries": {
+        "leptosfmt": {
+          "path": "./leptosfmt",
+          "sha256": "55b1d93635db7f151bd8d12c8d0ddde9366ca87cca79914c5e2dcd77bc19ead3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bram209/leptosfmt/releases/download/0.1.34/leptosfmt-0.1.34-x86_64-apple-darwin.tar.gz",
+      "sha256": "c32263e29c672462e743c075deee31327b247b9739e4a48513756b1d63e699e5",
+      "size": 2338743,
+      "format": "tar.gz",
+      "releaseTag": "0.1.34",
+      "binaries": {
+        "leptosfmt": {
+          "path": "./leptosfmt",
+          "sha256": "57c14a7a94392418d74c4f27d0d375dc18f9b86899b4b9a3a95ddcb653187f86"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bram209/leptosfmt/releases/download/0.1.34/leptosfmt-0.1.34-aarch64-apple-darwin.tar.gz",
+      "sha256": "3d7818fe92f33686b059824d47e9e7863d7244bc71da7d62a2c387a4fa67f5e9",
+      "size": 2172427,
+      "format": "tar.gz",
+      "releaseTag": "0.1.34",
+      "binaries": {
+        "leptosfmt": {
+          "path": "./leptosfmt",
+          "sha256": "c120f28604f7eab2c8e7ad53ec6a4330421cadca96fdcaff3b7340e2cfb87a2f"
+        }
+      }
+    },
     "win32-x64": {
-      "url": "https://github.com/bram209/leptosfmt/releases/download/0.1.33/leptosfmt-0.1.33-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "0.1.33",
-      "sha256": "3e81a3af3f951cd7bdbbd5d655f69d2334c94ccec83a2bfc156efa2f3614dc5b",
-      "size": 2396868,
+      "url": "https://github.com/bram209/leptosfmt/releases/download/0.1.34/leptosfmt-0.1.34-x86_64-pc-windows-msvc.zip",
+      "sha256": "67be8c9062868c0366cdff6d3d27eaf4aac6e3a57943a038b714b9624f035977",
+      "size": 2333643,
       "format": "zip",
+      "releaseTag": "0.1.34",
       "binaries": {
         "leptosfmt.exe": {
           "path": "leptosfmt.exe",
-          "sha256": "14019ef3c77019fc4ea1d2f89449e9e6624a447c4775cfc9303f7dc9f1f6bcf8"
+          "sha256": "3be1ad43b1cb174289285003fd883e735fba10b20fe18f74164ea98bc361f351"
         }
       }
     }
