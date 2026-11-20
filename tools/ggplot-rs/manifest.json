@@ -1,45 +1,71 @@
 {
   "schema": 1,
   "name": "ggplot-rs",
-  "version": "0.62.0",
+  "version": "0.64.0",
   "repository": "sipemu/ggplot-rs",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.62.0/ggplot-rs-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "1e2ada17d47504545165d812eedd58c7fbde33f4163c5e1cea358a5a128db7d3",
-      "size": 31122128,
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.64.0/ggplot-rs-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "f5578daad8fe3c2e515373d95536f77a30d828c33cd54e703f8722e2a16c225f",
+      "size": 31119919,
       "format": "tar.gz",
-      "releaseTag": "v0.62.0",
+      "releaseTag": "v0.64.0",
       "binaries": {
         "ggplot-rs": {
           "path": "ggplot-rs",
-          "sha256": "bd2d81c91acb2c4e813f474c17f43ac001525ad0e1dbe844fc9371f451dd9888"
+          "sha256": "79111a7d15aadff90de7920f25af9f83c6002345e72c3bd5425484345d14d401"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.62.0/ggplot-rs-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "fa72693a0c0888877b7685dd88c293309f390f45cdf445e225c3229b1fa129fd",
-      "size": 27721268,
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.64.0/ggplot-rs-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "c76bf7890b4ba520380f21259b71317d3de2dacd95588bae9e0b14dfa19a73d2",
+      "size": 27727331,
       "format": "tar.gz",
-      "releaseTag": "v0.62.0",
+      "releaseTag": "v0.64.0",
       "binaries": {
         "ggplot-rs": {
           "path": "ggplot-rs",
-          "sha256": "e4432bfa94c613221d7e9273c4ac3cc6039756022c1f3581299acf39b1e862a1"
+          "sha256": "73a80264222b7b15068920f22cfbffe9b2b7cdcb052caf466ea6869072e31738"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.62.0/ggplot-rs-x86_64-apple-darwin.tar.gz",
-      "sha256": "ca192a53b0dfde1b45562884275a6544cbe0a54bc90857351ff6f9e3ad7879a0",
-      "size": 26453575,
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.64.0/ggplot-rs-x86_64-apple-darwin.tar.gz",
+      "sha256": "44fed61fd67c590c0f586dd01b3be4b68cf5b478222e8db1b32654aabda53a97",
+      "size": 26459189,
       "format": "tar.gz",
-      "releaseTag": "v0.62.0",
+      "releaseTag": "v0.64.0",
       "binaries": {
         "ggplot-rs": {
           "path": "ggplot-rs",
-          "sha256": "120563c717e9ceec40e807ca0453f339cb1da620bcdb5a4a639b56b153c60cd1"
+          "sha256": "414024a9ed3825a4a9950c2dc155aefc0a827ea4e4672a70df675b7c0a72fc40"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.64.0/ggplot-rs-aarch64-apple-darwin.tar.gz",
+      "sha256": "27ff7ddf776d10cfffabc299e22294d507123cba9ce2d185ba5bee10c9a9e47b",
+      "size": 25163438,
+      "format": "tar.gz",
+      "releaseTag": "v0.64.0",
+      "binaries": {
+        "ggplot-rs": {
+          "path": "ggplot-rs",
+          "sha256": "fd02220c9e8166ceba28d4f67ce2cc53c77245a437f59474ae735311c98164a3"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/sipemu/ggplot-rs/releases/download/v0.64.0/ggplot-rs-x86_64-pc-windows-msvc.zip",
+      "sha256": "be777457ad0ed42b09d2cdddda87c857e913049e229606ead62b5f38c12b62f9",
+      "size": 20857866,
+      "format": "zip",
+      "releaseTag": "v0.64.0",
+      "binaries": {
+        "ggplot-rs.exe": {
+          "path": "ggplot-rs.exe",
+          "sha256": "aa19b92ab193833f4a03ce1074dd1178e968ae74d8e9f4bf3c604bda6535e40c"
         }
       }
     }
