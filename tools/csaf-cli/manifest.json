@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "csaf-cli",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "repository": "scm-rs/csaf-walker",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.20.0/csaf-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.20.0",
-      "sha256": "c8bb17a8df3d79f7eae66cf03ecc35fab85b41032c79944227d51a256097f6c8",
-      "size": 38131712,
+    "linux-x64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/csaf-x86_64-unknown-linux-musl",
+      "sha256": "55f63bf51f3f552bfb5b2adcdc124a8c89ace97e8acd80cd1ef5b9ac68089e08",
+      "size": 68298920,
       "format": "binary",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "csaf": {
+          "path": "csaf-x86_64-unknown-linux-musl",
+          "sha256": "55f63bf51f3f552bfb5b2adcdc124a8c89ace97e8acd80cd1ef5b9ac68089e08"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/csaf-aarch64-unknown-linux-musl",
+      "sha256": "eba24bf6ef3b69a06aefd66ec186b8f7dcaa3254d2cf126d16a7c90b60ce34e3",
+      "size": 65352944,
+      "format": "binary",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "csaf": {
+          "path": "csaf-aarch64-unknown-linux-musl",
+          "sha256": "eba24bf6ef3b69a06aefd66ec186b8f7dcaa3254d2cf126d16a7c90b60ce34e3"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/csaf-x86_64-apple-darwin",
+      "sha256": "2fe743c904d46c5b08246ff7d86181264c3fa7377fb2030738e23f93b3531773",
+      "size": 60118976,
+      "format": "binary",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "csaf": {
+          "path": "csaf-x86_64-apple-darwin",
+          "sha256": "2fe743c904d46c5b08246ff7d86181264c3fa7377fb2030738e23f93b3531773"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/csaf-aarch64-apple-darwin",
+      "sha256": "87315f84c4fa9144e9535b85324a3b13a019f15b261e1a67b49742b5fd638576",
+      "size": 57389136,
+      "format": "binary",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "csaf": {
+          "path": "csaf-aarch64-apple-darwin",
+          "sha256": "87315f84c4fa9144e9535b85324a3b13a019f15b261e1a67b49742b5fd638576"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/csaf-x86_64-pc-windows-msvc.exe",
+      "sha256": "52f00ea8216f8f198047e8dac0f5a85999486538ee300c6ca3eb0c94548807f3",
+      "size": 47543296,
+      "format": "binary",
+      "releaseTag": "v0.21.0",
       "binaries": {
         "csaf.exe": {
           "path": "csaf-x86_64-pc-windows-msvc.exe",
-          "sha256": "c8bb17a8df3d79f7eae66cf03ecc35fab85b41032c79944227d51a256097f6c8"
+          "sha256": "52f00ea8216f8f198047e8dac0f5a85999486538ee300c6ca3eb0c94548807f3"
         }
       }
     }
