@@ -1,19 +1,32 @@
 {
   "schema": 1,
   "name": "ab-av1",
-  "version": "0.11.7",
+  "version": "0.12.0",
   "repository": "alexheretic/ab-av1",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/alexheretic/ab-av1/releases/download/v0.11.7/ab-av1-v0.11.7-x86_64-unknown-linux-musl.tar.zst",
-      "releaseTag": "v0.11.7",
-      "sha256": "40c035df608162fcb1c991d1474bc9bc8817e0354ac7aef5be5314d3efd64069",
-      "size": 1030983,
+      "url": "https://github.com/alexheretic/ab-av1/releases/download/v0.12.0/ab-av1-v0.12.0-x86_64-unknown-linux-musl.tar.zst",
+      "sha256": "166eaac62b1dc680279c9962cc789eb9b280480ae33314b9b009044b4c9f9f1d",
+      "size": 1042450,
       "format": "tar.zst",
+      "releaseTag": "v0.12.0",
       "binaries": {
         "ab-av1": {
           "path": "ab-av1",
-          "sha256": "c4b48724eb67d758c0de47123caca28750ff977a30de1567ab179c1638b6bb4c"
+          "sha256": "760f1e36794e7ee1040c8f7b13491cc5c209b165f115d25ac9e5cb498e9ac698"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/alexheretic/ab-av1/releases/download/v0.12.0/ab-av1.exe",
+      "sha256": "773c2d9ab21e7cc2ac09d34059c52090ce47b2d31172c51f34bfea579a5cb6e7",
+      "size": 2817024,
+      "format": "binary",
+      "releaseTag": "v0.12.0",
+      "binaries": {
+        "ab-av1.exe": {
+          "path": "ab-av1.exe",
+          "sha256": "773c2d9ab21e7cc2ac09d34059c52090ce47b2d31172c51f34bfea579a5cb6e7"
         }
       }
     }
