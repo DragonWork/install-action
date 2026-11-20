@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "transmutation",
+  "version": "0.3.5",
+  "repository": "hivellm/transmutation",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/hivellm/transmutation/releases/download/v0.3.5/transmutation-x86_64-unknown-linux-musl",
+      "sha256": "b76080bff114f6f353e4c935c32e4b2b279c00c7b658888537423baa84b1f4e1",
+      "size": 11492408,
+      "format": "binary",
+      "releaseTag": "v0.3.5",
+      "binaries": {
+        "transmutation": {
+          "path": "transmutation-x86_64-unknown-linux-musl",
+          "sha256": "b76080bff114f6f353e4c935c32e4b2b279c00c7b658888537423baa84b1f4e1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/hivellm/transmutation/releases/download/v0.3.5/transmutation-aarch64-unknown-linux-musl",
+      "sha256": "456147bd33435e0fd3f8c6dcf81316e37c9e5f2b7ab5c5afef773112404cd7ea",
+      "size": 9476536,
+      "format": "binary",
+      "releaseTag": "v0.3.5",
+      "binaries": {
+        "transmutation": {
+          "path": "transmutation-aarch64-unknown-linux-musl",
+          "sha256": "456147bd33435e0fd3f8c6dcf81316e37c9e5f2b7ab5c5afef773112404cd7ea"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/hivellm/transmutation/releases/download/v0.3.5/transmutation-x86_64-apple-darwin.tar.gz",
+      "sha256": "ea1590945f2979b5cc4d24735c0cd3203b9a14eb97e056f8232e241ac7f2a69c",
+      "size": 4558338,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.5",
+      "binaries": {
+        "transmutation": {
+          "path": "transmutation",
+          "sha256": "78b1e2c40d04eb6efcf182fdb5c3c76f57b3075ee40a20cf6af0d3f66029657c"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/hivellm/transmutation/releases/download/v0.3.5/transmutation-aarch64-apple-darwin.tar.gz",
+      "sha256": "f72c3dfd022119d5f72c1c0b725d8f7ef7813015e9a3a0546bab349f79bda0bc",
+      "size": 4214757,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.5",
+      "binaries": {
+        "transmutation": {
+          "path": "transmutation",
+          "sha256": "7ae69d51b5a64a221d649ceb2a449aeeeed7d07ef0cf96655faa33678b2587e0"
+        }
+      }
+    }
+  }
+}
