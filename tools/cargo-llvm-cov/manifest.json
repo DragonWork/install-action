@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "cargo-llvm-cov",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "repository": "taiki-e/cargo-llvm-cov",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.1/cargo-llvm-cov-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.9.1",
-      "sha256": "3fca950394a3c49457657c158b1619cec8dfd2647ae5b48746734c0ab969a522",
-      "size": 1789044,
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.2/cargo-llvm-cov-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "8d863ab2df1fb53d4f41052b3fa4627ac003d00c46a6388ce037d17472c504ef",
+      "size": 1794166,
       "format": "tar.gz",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "cargo-llvm-cov": {
           "path": "cargo-llvm-cov",
-          "sha256": "7ce3cb54a77786151ccc3d2df2a425a2330442c123e28135d5c5cf27145c5c6d"
+          "sha256": "7ea7c2ed0364b82180dba221f2bdcd4d82c751adfcd90826b49416530b6a0671"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.1/cargo-llvm-cov-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.9.1",
-      "sha256": "49c0085628392a8d727c4464d91ec417c613c5015f5197cd16d5c05aa3fb5ad1",
-      "size": 1637442,
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.2/cargo-llvm-cov-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "dab1bfd1f25f7fcd3d6fc6abf9d71b40217a7a103e1da88c1a23111960aa4a40",
+      "size": 1644593,
       "format": "tar.gz",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "cargo-llvm-cov": {
           "path": "cargo-llvm-cov",
-          "sha256": "78a77c6922e9b7c01f4d26e8c33578819bd53a490a789237e7d8db71c1d565dd"
+          "sha256": "07b5e3b96ef828670a405d3c8eb484b57bb808af14048a1a5d83d85c06a0b4eb"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.1/cargo-llvm-cov-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v0.9.1",
-      "sha256": "ddf949b82a63017441ea76aa068bdd7e2dde8055f47cd3ef736fdbbd633bc33e",
-      "size": 1613897,
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.2/cargo-llvm-cov-x86_64-apple-darwin.tar.gz",
+      "sha256": "07dbf196c2ad47ca6b30af993c19a6f487989c4986dc963d347d256bf814acd5",
+      "size": 1623888,
       "format": "tar.gz",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "cargo-llvm-cov": {
           "path": "cargo-llvm-cov",
-          "sha256": "fff65c1d12220fca360267d69b28341856ab033d2751e7fdf031f3f85e122dce"
+          "sha256": "761bba8aae37bee616e56c7a6dd724b0afa8d8a481cd1a1cf7525c5427cac6d5"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.1/cargo-llvm-cov-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v0.9.1",
-      "sha256": "7e821a6c90c0884f79f759f5d9be50799ade67bb82515186d922f26032ef43b8",
-      "size": 1488900,
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.2/cargo-llvm-cov-aarch64-apple-darwin.tar.gz",
+      "sha256": "5cd0bf7da3ccedd8cfbd7bf4eaad9083d3f1d47e6633e0c5fab2aeae3d1b2d2e",
+      "size": 1501869,
       "format": "tar.gz",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "cargo-llvm-cov": {
           "path": "cargo-llvm-cov",
-          "sha256": "5ba9a1aa0a478acef5f3679564f0c21e3ede5eb53b6b622fd921c002458ae7cb"
+          "sha256": "56051d81dbd80214b13d9ed45a7fbc46f23489a3e31a470b91e0bd8c07db9942"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.2/cargo-llvm-cov-x86_64-pc-windows-msvc.zip",
+      "sha256": "cba914b8099201f4133706856fb155926b1dbbb54fb4e309c7af85cd3a3ef8b6",
+      "size": 1603676,
+      "format": "zip",
+      "releaseTag": "v0.9.2",
+      "binaries": {
+        "cargo-llvm-cov.exe": {
+          "path": "cargo-llvm-cov.exe",
+          "sha256": "bdebedb247aa298389b216ac9e3752cbf816eccc1ccdd9e8f5bfd4acb6b8b411"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/download/v0.9.2/cargo-llvm-cov-aarch64-pc-windows-msvc.zip",
+      "sha256": "0f40a1693673ffa16e28df5b2f632343e71659a70aaca2e381f0f822b6b291a2",
+      "size": 1452371,
+      "format": "zip",
+      "releaseTag": "v0.9.2",
+      "binaries": {
+        "cargo-llvm-cov.exe": {
+          "path": "cargo-llvm-cov.exe",
+          "sha256": "0d8bfe16b2dedf888941d93214bb7fe53ac9311e0d0ea51b35c40a802c1262fc"
         }
       }
     }
