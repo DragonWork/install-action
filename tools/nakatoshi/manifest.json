@@ -1,32 +1,45 @@
 {
   "schema": 1,
   "name": "nakatoshi",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "repository": "ndelvalle/nakatoshi",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/ndelvalle/nakatoshi/releases/download/v0.2.8/nakatoshi-linux-amd64.tar.gz",
-      "releaseTag": "v0.2.8",
-      "sha256": "f1ab45d6f07a69c45507b1ff8d4909afe31cdb1a3377ffac669cca3a9146a1e8",
-      "size": 737283,
+      "url": "https://github.com/ndelvalle/nakatoshi/releases/download/v0.3.0/nakatoshi-linux-amd64.tar.gz",
+      "sha256": "51b40a4755841344d3dd59598be36becde7b54e9e057a46a9689c9a91a6f9092",
+      "size": 1665353,
       "format": "tar.gz",
+      "releaseTag": "v0.3.0",
       "binaries": {
         "nakatoshi": {
           "path": "nakatoshi",
-          "sha256": "540754f0dbb3b8e05e95c35ead85dcaa206956db6072c0ddf60cac6fc6a41441"
+          "sha256": "9377d853b26f875f4591f000fdec7f15de2b7c26283f2924109d79496ca18b54"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/ndelvalle/nakatoshi/releases/download/v0.2.8/nakatoshi-macos-amd64.tar.gz",
-      "releaseTag": "v0.2.8",
-      "sha256": "c20bc79afdea5dc0b184b520f26adc6fdf790462bf1c80142969559fe7ced37d",
-      "size": 677500,
+      "url": "https://github.com/ndelvalle/nakatoshi/releases/download/v0.3.0/nakatoshi-macos-amd64.tar.gz",
+      "sha256": "adcf14dd5db0d0a86f225eef47a9e5956ba5aa08cf29bbeb398fcadaf61fe4eb",
+      "size": 1645222,
       "format": "tar.gz",
+      "releaseTag": "v0.3.0",
       "binaries": {
         "nakatoshi": {
           "path": "nakatoshi",
-          "sha256": "88638c360dfd998441ba843fe403aac8e19131b43520b0de8b5b457cb818fb80"
+          "sha256": "108960fb0440ed82160ff0b53006560a6da8ef0fa9058354ccd1c291ef265a91"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ndelvalle/nakatoshi/releases/download/v0.3.0/nakatoshi-macos-arm64.tar.gz",
+      "sha256": "95e94b22cfe5ba5858b7156ce09fdf23e3d3fa313d1110c8f652c82aa2366c4b",
+      "size": 1614313,
+      "format": "tar.gz",
+      "releaseTag": "v0.3.0",
+      "binaries": {
+        "nakatoshi": {
+          "path": "nakatoshi",
+          "sha256": "5f5960866a62859046711012d284e425843d0b4015a6710248ee693e0f4e68d2"
         }
       }
     }
