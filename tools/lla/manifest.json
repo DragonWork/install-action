@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "lla",
-  "version": "0.9.0",
+  "version": "0.9.2",
   "repository": "chaqchase/lla",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.0/lla_0.9.0_amd64.deb",
-      "sha256": "f58450c36a9302bf825d3b7d028a6083de07032c5322bf4474e25a6babc52e3b",
-      "size": 10964192,
+      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.2/lla_0.9.2_amd64.deb",
+      "sha256": "61a45cb4a2727ad627e09fcbcc8060baa3a53feaf7c7549d6da313c1940fc05f",
+      "size": 10972144,
       "format": "deb",
-      "releaseTag": "v0.9.0",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "lla": {
           "path": "./usr/bin/lla",
-          "sha256": "d3994092e8a92bb4a7c10ff2e48d06437769d24d4f30c97383130a8477d0fdab"
+          "sha256": "3c373e90b5c75d2bc7c068b9273bd5efce84f6b59208ce4ab425ff197ce09bf4"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.0/lla_0.9.0_arm64.deb",
-      "sha256": "f96c79778e8e357068cfc041ba90000b32084ada6e32353e8986282a36f04cbf",
-      "size": 9746132,
+      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.2/lla_0.9.2_arm64.deb",
+      "sha256": "292ba2ebbd135cd30ffaaa093024f0bb51e5eac243d209b610317cbdfa26abe7",
+      "size": 9750932,
       "format": "deb",
-      "releaseTag": "v0.9.0",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "lla": {
           "path": "./usr/bin/lla",
-          "sha256": "f6eeff0a30c0bd0e0cb91ef7cbf04a4a9c05dcf9c5826331ffd1f141d61575fd"
+          "sha256": "5caf3968272aded0df7ce99d73776bb7e35894c5ad22c80b25a361b04de40d0f"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.0/lla-macos-amd64",
-      "sha256": "742aa12343bafea2cf19de50d7a444b78626902b8c6bb167dc21a509b6fabe43",
-      "size": 24594528,
+      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.2/lla-macos-amd64",
+      "sha256": "db8de82d9507224b766d851b2658db2110d31b0b5c05fb19458768996229caeb",
+      "size": 24602728,
       "format": "binary",
-      "releaseTag": "v0.9.0",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "lla": {
           "path": "lla-macos-amd64",
-          "sha256": "742aa12343bafea2cf19de50d7a444b78626902b8c6bb167dc21a509b6fabe43"
+          "sha256": "db8de82d9507224b766d851b2658db2110d31b0b5c05fb19458768996229caeb"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.0/lla-macos-arm64",
-      "sha256": "540d3ab685b08d068357c229048b402950fc13de65c9b262202a7fb2c4a6bfeb",
-      "size": 20521840,
+      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.2/lla-macos-arm64",
+      "sha256": "cd3694280312d131c28a67258d7eacbe73f1c9d4d863759fd005ab9c21fdfee9",
+      "size": 20538368,
       "format": "binary",
-      "releaseTag": "v0.9.0",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "lla": {
           "path": "lla-macos-arm64",
-          "sha256": "540d3ab685b08d068357c229048b402950fc13de65c9b262202a7fb2c4a6bfeb"
+          "sha256": "cd3694280312d131c28a67258d7eacbe73f1c9d4d863759fd005ab9c21fdfee9"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.0/lla-windows-amd64.exe",
-      "sha256": "322d0b499013b3295c8b09c207f1c66c3b4152c0d1d6e8b78463e0a870ed4a2f",
-      "size": 30000128,
+      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.2/lla-windows-amd64.exe",
+      "sha256": "ce23511a05a524ca58eb5ee7a35cb47435b8564bae8518f10ff8093ae18fa5d6",
+      "size": 30007296,
       "format": "binary",
-      "releaseTag": "v0.9.0",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "lla.exe": {
           "path": "lla-windows-amd64.exe",
-          "sha256": "322d0b499013b3295c8b09c207f1c66c3b4152c0d1d6e8b78463e0a870ed4a2f"
+          "sha256": "ce23511a05a524ca58eb5ee7a35cb47435b8564bae8518f10ff8093ae18fa5d6"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.0/lla-windows-arm64.exe",
-      "sha256": "ea01845a781a5ff3d505be552e6333d46c34f74c4071d23c94479ecff5aad76f",
-      "size": 23389184,
+      "url": "https://github.com/chaqchase/lla/releases/download/v0.9.2/lla-windows-arm64.exe",
+      "sha256": "111627df543c4883b8583a7367248edc3238636c13f285a11545b1ba66cedde8",
+      "size": 23401984,
       "format": "binary",
-      "releaseTag": "v0.9.0",
+      "releaseTag": "v0.9.2",
       "binaries": {
         "lla.exe": {
           "path": "lla-windows-arm64.exe",
-          "sha256": "ea01845a781a5ff3d505be552e6333d46c34f74c4071d23c94479ecff5aad76f"
+          "sha256": "111627df543c4883b8583a7367248edc3238636c13f285a11545b1ba66cedde8"
         }
       }
     }
