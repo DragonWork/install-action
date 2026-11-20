@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "name": "defaults-rs",
+  "version": "1.2.2",
+  "repository": "hitblast/defaults-rs",
+  "artifacts": {
+    "darwin-arm64": {
+      "url": "https://github.com/hitblast/defaults-rs/releases/download/v1.2.2/drs-aarch64-apple-darwin.tar.gz",
+      "sha256": "ba9341e60394b5f546c67f94bfac54c91aa178487b4b2eaddb01caef90326cfd",
+      "size": 1787117,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.2",
+      "binaries": {
+        "drs": {
+          "path": "bin/drs",
+          "sha256": "49769b6b3aefaaf3103adc58c3fc8141c450162260b853635a0370610fcf9306"
+        }
+      }
+    }
+  }
+}
