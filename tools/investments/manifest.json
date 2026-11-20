@@ -1,19 +1,58 @@
 {
   "schema": 1,
   "name": "investments",
-  "version": "8.4.0",
+  "version": "8.4.1",
   "repository": "KonishchevDmitry/investments",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/KonishchevDmitry/investments/releases/download/v8.4.1/investments-v8.4.1-linux-x64.tar.bz2",
+      "sha256": "753a3136e11aeff0bb1a466a3c06231de1e2deb3178c24f03ef7467c5e4f64fa",
+      "size": 8347107,
+      "format": "tar.bz2",
+      "releaseTag": "v8.4.1",
+      "binaries": {
+        "investments": {
+          "path": "investments",
+          "sha256": "74f91815e40c615542dd448abb14ba712ccb63a26fdff11cedcf19d1f0234338"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/KonishchevDmitry/investments/releases/download/v8.4.1/investments-v8.4.1-macos-x64.tar.bz2",
+      "sha256": "717c32bee841ccba1a66684810c451418317b0536656048d2a390e0da890472c",
+      "size": 7791823,
+      "format": "tar.bz2",
+      "releaseTag": "v8.4.1",
+      "binaries": {
+        "investments": {
+          "path": "investments",
+          "sha256": "03095ca7ab0876f2c21465f52b5ca97f5866e0c627733c17a65ba5f6eefc2603"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/KonishchevDmitry/investments/releases/download/v8.4.1/investments-v8.4.1-macos-arm64.tar.bz2",
+      "sha256": "a05787007e884dd4d6c91217bfceb3fbb79752b288fa8092b642f6b6f8ff883f",
+      "size": 7209303,
+      "format": "tar.bz2",
+      "releaseTag": "v8.4.1",
+      "binaries": {
+        "investments": {
+          "path": "investments",
+          "sha256": "65955591e32dd658a1b7a411466c7c5e4be7a35cbab8094c45a8a65002c39b4e"
+        }
+      }
+    },
     "win32-x64": {
-      "url": "https://github.com/KonishchevDmitry/investments/releases/download/v8.4.0/investments-v8.4.0-windows-x64.zip",
-      "releaseTag": "v8.4.0",
-      "sha256": "b0bd483537354edd4f71a89230ed9be553bfde94e5fa42bdc7484f0db49fd0a2",
-      "size": 7240231,
+      "url": "https://github.com/KonishchevDmitry/investments/releases/download/v8.4.1/investments-v8.4.1-windows-x64.zip",
+      "sha256": "18a3b3eb562d9664971b20a2dd17f58e7a4227a9e27b1dbc6dafca31ceb493b1",
+      "size": 8106872,
       "format": "zip",
+      "releaseTag": "v8.4.1",
       "binaries": {
         "investments.exe": {
           "path": "investments.exe",
-          "sha256": "9bf162b3b9eae6fa9952ce66aedcd29eeb5a168f5c89bc9d5f7a6a63c308deb4"
+          "sha256": "659a2a77695da91692a8be6005933a5e5b3825bb66d3cd57fe24cf07582d3027"
         }
       }
     }
