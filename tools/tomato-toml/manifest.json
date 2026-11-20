@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "tomato-toml",
+  "version": "1.0.0",
+  "repository": "ceejbot/tomato",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ceejbot/tomato/releases/download/v1.0.0/tomato-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "6e072a0624387066c2ac7724508bd22c7acc4acd9ab1c928054841cebb2f4859",
+      "size": 646382,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "tomato": {
+          "path": "target/release/tomato",
+          "sha256": "c074c3d17035d0895ab2d3702ea101c8d1edf3ec766281f987cdb8cc1f807e79"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ceejbot/tomato/releases/download/v1.0.0/tomato-x86_64-apple-darwin.tar.gz",
+      "sha256": "5ed3dd483ece52381e01f5aef9d25a59b5794b9a4b0e990d7bbd1d59911349c7",
+      "size": 619978,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "tomato": {
+          "path": "tomato",
+          "sha256": "b72bca98e810e7b3e595cf4166a7833fb344339d37d5e073d9cfc46d2462182d"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ceejbot/tomato/releases/download/v1.0.0/tomato-aarch64-apple-darwin.tar.gz",
+      "sha256": "ab1d277508da7d1f0b9e1ecdf84c85adc57ccde2950319168b787f8b8e2d7eab",
+      "size": 574199,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "tomato": {
+          "path": "tomato",
+          "sha256": "ea82ef011cc50a6f1545569e38fe9cdbe5364ff17bf403c3f466e3f33c33da91"
+        }
+      }
+    }
+  }
+}
