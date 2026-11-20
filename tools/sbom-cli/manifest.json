@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "sbom-cli",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "repository": "scm-rs/csaf-walker",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.20.0/sbom-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.20.0",
-      "sha256": "54c8beaa5e3e793846c04b9c9076f93041dfabc353d9b2eb23be85036c324850",
-      "size": 33894912,
+    "linux-x64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/sbom-x86_64-unknown-linux-musl",
+      "sha256": "86926b87a19667de4e5ab340e48b24ebb5c2c0ab58652e98b410f8e4ca6fb582",
+      "size": 52550664,
       "format": "binary",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "sbom": {
+          "path": "sbom-x86_64-unknown-linux-musl",
+          "sha256": "86926b87a19667de4e5ab340e48b24ebb5c2c0ab58652e98b410f8e4ca6fb582"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/sbom-aarch64-unknown-linux-musl",
+      "sha256": "39330fb62d3ee1efdc065a6039e23587d58433e132c723a248a1ed4968c41102",
+      "size": 49550000,
+      "format": "binary",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "sbom": {
+          "path": "sbom-aarch64-unknown-linux-musl",
+          "sha256": "39330fb62d3ee1efdc065a6039e23587d58433e132c723a248a1ed4968c41102"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/sbom-x86_64-apple-darwin",
+      "sha256": "35ea44bfe5cab7d007f89fe2e47c27d9cb8207122759ea722733fea78a53be46",
+      "size": 45756432,
+      "format": "binary",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "sbom": {
+          "path": "sbom-x86_64-apple-darwin",
+          "sha256": "35ea44bfe5cab7d007f89fe2e47c27d9cb8207122759ea722733fea78a53be46"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/sbom-aarch64-apple-darwin",
+      "sha256": "37ec1d322b68f70a3c5ddd2bf72ec20e8318f0d3ba0fa2e67f6411c90f199876",
+      "size": 42790288,
+      "format": "binary",
+      "releaseTag": "v0.21.0",
+      "binaries": {
+        "sbom": {
+          "path": "sbom-aarch64-apple-darwin",
+          "sha256": "37ec1d322b68f70a3c5ddd2bf72ec20e8318f0d3ba0fa2e67f6411c90f199876"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.0/sbom-x86_64-pc-windows-msvc.exe",
+      "sha256": "ddaa29a7fbcf617a9b571ed1fe9f3aeb5e5050d44907189071ed0a2753852f89",
+      "size": 33891840,
+      "format": "binary",
+      "releaseTag": "v0.21.0",
       "binaries": {
         "sbom.exe": {
           "path": "sbom-x86_64-pc-windows-msvc.exe",
-          "sha256": "54c8beaa5e3e793846c04b9c9076f93041dfabc353d9b2eb23be85036c324850"
+          "sha256": "ddaa29a7fbcf617a9b571ed1fe9f3aeb5e5050d44907189071ed0a2753852f89"
         }
       }
     }
