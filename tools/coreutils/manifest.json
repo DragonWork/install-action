@@ -1,23 +1,58 @@
 {
   "schema": 1,
   "name": "coreutils",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "repository": "uutils/coreutils",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/uutils/coreutils/releases/download/0.12.0/coreutils-0.12.0-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "0.12.0",
-      "sha256": "e08bd526f3c14717b145dfed4dbff5545848ca67a9b940be7ff7de5afea32786",
-      "size": 15578379,
+      "url": "https://github.com/uutils/coreutils/releases/download/0.13.0/coreutils-0.13.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "2f457e5cc3d29bf7b75de5bb2ef60dd6276d1df8b90694bd52b5ec818c738fa6",
+      "size": 5828369,
       "format": "tar.gz",
+      "releaseTag": "0.13.0",
       "binaries": {
         "coreutils": {
-          "path": "coreutils-0.12.0-x86_64-unknown-linux-gnu/coreutils",
-          "sha256": "0fa6290974c4cbec0bb186a28c13d56681d59fe62d6f51092cb1676039a9a20b"
-        },
-        "uudoc": {
-          "path": "coreutils-0.12.0-x86_64-unknown-linux-gnu/uudoc",
-          "sha256": "f03bdb6b0d53cffef18e89a674b01a755181585a778fb2e60746b3c9f66fd5b7"
+          "path": "coreutils-0.13.0-x86_64-unknown-linux-musl/coreutils",
+          "sha256": "22f9582c90c3d5eb6729f0c3d89afc2909829dd7922776c2569418e5bcd9f0a7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.13.0/coreutils-0.13.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "cc92024aa19c6e2b874d9017ca27ca370428aabef5e856200d1164cecee3dbc3",
+      "size": 5379390,
+      "format": "tar.gz",
+      "releaseTag": "0.13.0",
+      "binaries": {
+        "coreutils": {
+          "path": "coreutils-0.13.0-aarch64-unknown-linux-musl/coreutils",
+          "sha256": "1d2087631f14f7c63d906b2845fbcdb85c2dd4cf2d9c9ed56a43fd633cc2c56f"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.13.0/coreutils-0.13.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "a91c36e1abc911d47a835877f58bac9ac5ad00f01a1fb076d1012a2f39b4c8d0",
+      "size": 71464256,
+      "format": "zip",
+      "releaseTag": "0.13.0",
+      "binaries": {
+        "coreutils.exe": {
+          "path": "coreutils-0.13.0-x86_64-pc-windows-msvc/coreutils.exe",
+          "sha256": "2ad4d30e289e2a6a7d55ff363d9d417c253ff8eef5ba71d9de89022172ac96db"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/uutils/coreutils/releases/download/0.13.0/coreutils-0.13.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "ce8827a11efc8d05f0060b49b4c50a9a59cfa57d1a9a3ed0724b5ab0cb62a2f0",
+      "size": 4785208,
+      "format": "zip",
+      "releaseTag": "0.13.0",
+      "binaries": {
+        "coreutils.exe": {
+          "path": "coreutils-0.13.0-aarch64-pc-windows-msvc/coreutils.exe",
+          "sha256": "c814bc6df0d36fabf7c5438231653939c30e5090521034d8c72f8a1adb8e72ed"
         }
       }
     }
