@@ -1,91 +1,91 @@
 {
   "schema": 1,
   "name": "worktrunk",
-  "version": "0.82.0",
+  "version": "0.83.0",
   "repository": "max-sixty/worktrunk",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.82.0/worktrunk-x86_64-unknown-linux-musl.tar.xz",
-      "sha256": "d1e38cf36d8c14ef0682a6d6617f8a512b1a971feb3dfa437419d00136e19a3e",
-      "size": 8418872,
+      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.83.0/worktrunk-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "e0dd5e5eb365890ddc7b255183c227e441fbb7da04cab5b72e54fa80fd21818b",
+      "size": 8459472,
       "format": "tar.xz",
-      "releaseTag": "v0.82.0",
+      "releaseTag": "v0.83.0",
       "binaries": {
         "git-wt": {
           "path": "worktrunk-x86_64-unknown-linux-musl/git-wt",
-          "sha256": "67e350c5dc1b6e808b95967620ea99a0f8896c468b235e8ce493b622ac1cc42b"
+          "sha256": "4f04b0231d0014805f6a50658ca8aedbfd320a5444eaf5c27bc3cec8e69d689d"
         },
         "wt": {
           "path": "worktrunk-x86_64-unknown-linux-musl/wt",
-          "sha256": "d5e9d5e951eb248ce38f6e0dc3c0d48f9dd3b379b0ab538408f72fbe85d3a0e9"
+          "sha256": "5fc608b5d29937f21074ac09ec1215952888447ce1a41761473c1f6ead1b42cd"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.82.0/worktrunk-aarch64-unknown-linux-musl.tar.xz",
-      "sha256": "b907f891bc051dcfc13fa479194e156b356f434a37103522ea1fe1b7ded899b5",
-      "size": 7503684,
+      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.83.0/worktrunk-aarch64-unknown-linux-musl.tar.xz",
+      "sha256": "92c68827a18b037c608b7728bcf7ce1d594771ac814bec7412a35129f276d4ae",
+      "size": 7515420,
       "format": "tar.xz",
-      "releaseTag": "v0.82.0",
+      "releaseTag": "v0.83.0",
       "binaries": {
         "git-wt": {
           "path": "worktrunk-aarch64-unknown-linux-musl/git-wt",
-          "sha256": "ed43b73a320ab8bcc6e568335687402372e6b029cbde090c14640562dbc8af36"
+          "sha256": "04930e51609c9d7a0d55b58e9047ab315970be3b8a3b08b1e881e9c1b85ac860"
         },
         "wt": {
           "path": "worktrunk-aarch64-unknown-linux-musl/wt",
-          "sha256": "82143673f2663c3b5eee04349ee26de1bcada93cf1263a2bbdfbc6b4d5493262"
+          "sha256": "f1654092cb235874bb28c76db83e12faa1102b3a2a41d7ceacaceebd873a6503"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.82.0/worktrunk-x86_64-apple-darwin.tar.xz",
-      "sha256": "d9c87668baa1aad2b44d5bfb08074609c5e4a186a0948dfed6e65d6e6c5a7744",
-      "size": 7350672,
+      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.83.0/worktrunk-x86_64-apple-darwin.tar.xz",
+      "sha256": "9e7f92a037b7dc8cb216a0f323ece11d7ee813572a7762d62fb36c88f33ba917",
+      "size": 7390252,
       "format": "tar.xz",
-      "releaseTag": "v0.82.0",
+      "releaseTag": "v0.83.0",
       "binaries": {
         "git-wt": {
           "path": "worktrunk-x86_64-apple-darwin/git-wt",
-          "sha256": "5f93537165b8ec68d16bd0e967a7f0f327d407aad28ae34f51dfb0a51ce9e9e2"
+          "sha256": "d6b5f45c03cc99b663ee88e44509125f72f3a67506d9a420ffbf0b8459a01da3"
         },
         "wt": {
           "path": "worktrunk-x86_64-apple-darwin/wt",
-          "sha256": "d2c0a06583dcdc9693764dff5830f86b6f4b7f79c025b7fe1a1a8fdea762d9a4"
+          "sha256": "7dcb3249a720697ca4dd46a03e974a9ca0e80baca50acf7406b327e3a57c98e9"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.82.0/worktrunk-aarch64-apple-darwin.tar.xz",
-      "sha256": "6945bc82e0513d0b974c99fb1d30de24e448697fd533ed6b3f442c66a1b3620c",
-      "size": 6702380,
+      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.83.0/worktrunk-aarch64-apple-darwin.tar.xz",
+      "sha256": "5e489089672b553b6277595875ef3479df011755153021c84def90eddaeef7b8",
+      "size": 6759880,
       "format": "tar.xz",
-      "releaseTag": "v0.82.0",
+      "releaseTag": "v0.83.0",
       "binaries": {
         "git-wt": {
           "path": "worktrunk-aarch64-apple-darwin/git-wt",
-          "sha256": "bd6aff9647a7a5b0574bf2d06816fecdb9edca8538d0e81c6faf24a1ec1d1c5e"
+          "sha256": "372c51ea93922455716d6c33ad1a0aa8ddecf078c1c5dfb35ec8b5d2b4ffc535"
         },
         "wt": {
           "path": "worktrunk-aarch64-apple-darwin/wt",
-          "sha256": "2ed548e658ddbbe2e55b93c9733ec1f9947edd1275175648b1b30948e890b6e0"
+          "sha256": "93416204ca7da0e0a404b1d46011de752d40fa30c6778a24e11f36cc0ed5cd18"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.82.0/worktrunk-x86_64-pc-windows-msvc.zip",
-      "sha256": "224325f876b7e4f381255222e18130d8a7575e2c4284baaba4b233f9c56e35a8",
-      "size": 17724940,
+      "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.83.0/worktrunk-x86_64-pc-windows-msvc.zip",
+      "sha256": "db4f76d81db05ac076566511948a5c8fa792910a7dcb15a1ac23a5409298fae8",
+      "size": 17869155,
       "format": "zip",
-      "releaseTag": "v0.82.0",
+      "releaseTag": "v0.83.0",
       "binaries": {
         "git-wt.exe": {
           "path": "git-wt.exe",
-          "sha256": "747732d95c039b4620de43efd93783c5c1021dce62deb3fb4724d9bee2fc6286"
+          "sha256": "dbf37f4791dbec00e8e947c2610603f132efeae74665116b280fb3ff7f207443"
         },
         "wt.exe": {
           "path": "wt.exe",
-          "sha256": "cf498b8fbf8930725bf5c676b72db11187463191b8c3f8f7d35a7accdc529268"
+          "sha256": "1108ba94f7979e0d060dd2ef2f38443ff746e593b3518e837df0ecd0282befaa"
         }
       }
     }
