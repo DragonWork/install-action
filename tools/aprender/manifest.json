@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "name": "aprender",
-  "version": "0.75.0",
+  "version": "0.75.3",
   "repository": "paiml/aprender",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/paiml/aprender/releases/download/v0.75.0/apr-v0.75.0-x86_64-unknown-linux-gnu-cuda.tar.gz",
-      "sha256": "517066815c4146f5e76190e76d360ac7fbfe28abdc28bf2b6ad6894cb1e466b1",
-      "size": 32063979,
+      "url": "https://github.com/paiml/aprender/releases/download/v0.75.3/apr-v0.75.3-x86_64-unknown-linux-gnu-cpu.tar.gz",
+      "sha256": "a1a7cb7aad29763bbe4bbb6b954d7dbfbf022fdb4bbb47811dcb0acf58e1193b",
+      "size": 29891346,
       "format": "tar.gz",
-      "releaseTag": "v0.75.0",
+      "releaseTag": "v0.75.3",
       "binaries": {
         "apr": {
-          "path": "apr-v0.75.0-x86_64-unknown-linux-gnu-cuda/apr",
-          "sha256": "a554aca1eea843871adcaa335a2d41a86eb62517c5b48cd26724a63e3db01868"
+          "path": "apr-v0.75.3-x86_64-unknown-linux-gnu-cpu/apr",
+          "sha256": "4a7d2bd0bebb23ae66a75fc3a32acf4e21c2450358bd751812f6d75908fabbb4"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/paiml/aprender/releases/download/v0.75.0/apr-v0.75.0-aarch64-unknown-linux-gnu-cpu.tar.gz",
-      "sha256": "8190c8849ad7f89742920d70e4896922ff78ff2d23488e618a0474f8a322b018",
-      "size": 26501062,
+      "url": "https://github.com/paiml/aprender/releases/download/v0.75.3/apr-v0.75.3-aarch64-unknown-linux-gnu-cpu.tar.gz",
+      "sha256": "87565693fed003f6386edc772f480209258b9d9884efca9329b2a2f2785ec49f",
+      "size": 26509616,
       "format": "tar.gz",
-      "releaseTag": "v0.75.0",
+      "releaseTag": "v0.75.3",
       "binaries": {
         "apr": {
-          "path": "apr-v0.75.0-aarch64-unknown-linux-gnu-cpu/apr",
-          "sha256": "fc73f132b7f741d2e90848223872100e66ff37767080054a42b308ea4e07cc7c"
+          "path": "apr-v0.75.3-aarch64-unknown-linux-gnu-cpu/apr",
+          "sha256": "2ab62bdabbce372155ad84193bfe46ced7c06fcfbf483a097d32f672254164fc"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/paiml/aprender/releases/download/v0.75.0/apr-v0.75.0-aarch64-apple-darwin-cpu.tar.gz",
-      "sha256": "7312889a89d98934b934111eea0ed198d9b612a265ae26f216e1f8f78a89ae00",
-      "size": 25646112,
+      "url": "https://github.com/paiml/aprender/releases/download/v0.75.3/apr-v0.75.3-aarch64-apple-darwin-cpu.tar.gz",
+      "sha256": "1ae4abbb0651b9333b95ca6fba63bc43b4a2f51fe76de20d364a853f9c6684eb",
+      "size": 25639858,
       "format": "tar.gz",
-      "releaseTag": "v0.75.0",
+      "releaseTag": "v0.75.3",
       "binaries": {
         "apr": {
-          "path": "apr-v0.75.0-aarch64-apple-darwin-cpu/apr",
-          "sha256": "bc1507f5352ca02e76a6aa47cc1f697a34b453ab6d672e880c9d372fa7328f10"
+          "path": "apr-v0.75.3-aarch64-apple-darwin-cpu/apr",
+          "sha256": "5074204e01aac00597423a3d44dbd9b0b0d62c799d82f780d02532db39e6f931"
         }
       }
     }
