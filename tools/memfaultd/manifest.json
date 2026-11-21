@@ -1,32 +1,32 @@
 {
   "schema": 1,
   "name": "memfaultd",
-  "version": "1.30.1",
+  "version": "1.31.0",
   "repository": "memfault/memfaultd",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/memfault/memfaultd/releases/download/1.30.1/memfaultd-x86_64-unknown-linux-musl",
-      "sha256": "d2ee9d70691440fe76c2d61d82d6a249af49d88fdddee22f6dda40a11307f705",
-      "size": 7207496,
+      "url": "https://github.com/memfault/memfaultd/releases/download/1.31.0/memfaultd-x86_64-unknown-linux-musl",
+      "sha256": "05c63d1f4f28135ca5cbae5ee6a277c5f37ee3c2f3d92542cd5633b9ba8b98d7",
+      "size": 7252552,
       "format": "binary",
-      "releaseTag": "1.30.1",
+      "releaseTag": "1.31.0",
       "binaries": {
         "memfaultd": {
           "path": "memfaultd-x86_64-unknown-linux-musl",
-          "sha256": "d2ee9d70691440fe76c2d61d82d6a249af49d88fdddee22f6dda40a11307f705"
+          "sha256": "05c63d1f4f28135ca5cbae5ee6a277c5f37ee3c2f3d92542cd5633b9ba8b98d7"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/memfault/memfaultd/releases/download/1.30.1/memfaultd-aarch64-unknown-linux-musl",
-      "sha256": "8fc06eb1e89eefbd23e7ce52aa9dae83d042bf75afe6049d7b7bf2901400babf",
-      "size": 5806056,
+      "url": "https://github.com/memfault/memfaultd/releases/download/1.31.0/memfaultd-aarch64-unknown-linux-musl",
+      "sha256": "d861aa8bfb72d5012813fd4b96e11344435f07dae4d1b88fd646d951eec22b55",
+      "size": 5863400,
       "format": "binary",
-      "releaseTag": "1.30.1",
+      "releaseTag": "1.31.0",
       "binaries": {
         "memfaultd": {
           "path": "memfaultd-aarch64-unknown-linux-musl",
-          "sha256": "8fc06eb1e89eefbd23e7ce52aa9dae83d042bf75afe6049d7b7bf2901400babf"
+          "sha256": "d861aa8bfb72d5012813fd4b96e11344435f07dae4d1b88fd646d951eec22b55"
         }
       }
     }
