@@ -1,58 +1,71 @@
 {
   "schema": 1,
   "name": "ruxguitar",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "repository": "agourlay/ruxguitar",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/agourlay/ruxguitar/releases/download/v0.15.0/ruxguitar-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "fdd36b8bd07c6d5eb220778958d564c0cd037ae90e86901bb4713193b367a1d4",
-      "size": 12568011,
+      "url": "https://github.com/agourlay/ruxguitar/releases/download/v0.16.0/ruxguitar-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "428812f96c2a8d81a0a4cba4a7388e6dba98b127fb1627af13ff22e6205321e8",
+      "size": 12623439,
       "format": "tar.gz",
-      "releaseTag": "v0.15.0",
+      "releaseTag": "v0.16.0",
       "binaries": {
         "ruxguitar": {
           "path": "ruxguitar",
-          "sha256": "ba6c08e9633d8f70e10188e8925c780a6daa8d23e13a1afe147091cd29a2001d"
+          "sha256": "bd16e434b2a522f89db5ce577fed5c40bb33e6c570e6680e02d49ea1e994a653"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/agourlay/ruxguitar/releases/download/v0.16.0/ruxguitar-x86_64-apple-darwin.tar.gz",
+      "sha256": "4e64df81c67bf6e39a632c15d59a9a1e39843004da3e2efbbe348426517c6836",
+      "size": 9981730,
+      "format": "tar.gz",
+      "releaseTag": "v0.16.0",
+      "binaries": {
+        "ruxguitar": {
+          "path": "ruxguitar",
+          "sha256": "5fb329bbcccf17150693f4a989ca1f5fbe1c8256af0174931121b15a60aa398d"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/agourlay/ruxguitar/releases/download/v0.15.0/ruxguitar-aarch64-apple-darwin.tar.gz",
-      "sha256": "24c789976e4e87fd610bd3bb42ea2c0f305dd2a5d95749994a88e2f969888e52",
-      "size": 9702336,
+      "url": "https://github.com/agourlay/ruxguitar/releases/download/v0.16.0/ruxguitar-aarch64-apple-darwin.tar.gz",
+      "sha256": "cd5e409dd4708d085ad471d966da63b62ea7f592c013f78b782198e74cfb4cb2",
+      "size": 9755617,
       "format": "tar.gz",
-      "releaseTag": "v0.15.0",
+      "releaseTag": "v0.16.0",
       "binaries": {
         "ruxguitar": {
           "path": "ruxguitar",
-          "sha256": "595ae89ef78de20c897ef105a92f5d4e695529bf95fa2ada11775fc488ac7edd"
+          "sha256": "34381ba4fd8b496152cc138671c1c02a6326a7fcd458d562455358444b36dfe0"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/agourlay/ruxguitar/releases/download/v0.15.0/ruxguitar-x86_64-pc-windows-msvc.zip",
-      "sha256": "1f92c21bfeab7d4ffde1d7ae17525d9505648432738101964bbe34e56bca7762",
-      "size": 10364522,
+      "url": "https://github.com/agourlay/ruxguitar/releases/download/v0.16.0/ruxguitar-x86_64-pc-windows-msvc.zip",
+      "sha256": "6b1da7ee5d700147c635ef9046377f238b61e0d70f859c0a33a6994339975c1a",
+      "size": 10417997,
       "format": "zip",
-      "releaseTag": "v0.15.0",
+      "releaseTag": "v0.16.0",
       "binaries": {
         "ruxguitar.exe": {
           "path": "ruxguitar.exe",
-          "sha256": "c768ae1301f6248547d8d88c2a843abe0c15a4c1dc5603203797c6dcc899e01e"
+          "sha256": "744c969e0920ef888578c3c4919f908da6916a1eafa555e7400d1298a060be71"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/agourlay/ruxguitar/releases/download/v0.15.0/ruxguitar-aarch64-pc-windows-msvc.zip",
-      "sha256": "058c4b913861addc723fb37cbfcc1232f0ba56430a8210b4fc8d60339456399b",
-      "size": 10049513,
+      "url": "https://github.com/agourlay/ruxguitar/releases/download/v0.16.0/ruxguitar-aarch64-pc-windows-msvc.zip",
+      "sha256": "e104e671c6721fad31dd3dbfa61f2acad1b402bc0bad647a390e9e46be619b3a",
+      "size": 10102076,
       "format": "zip",
-      "releaseTag": "v0.15.0",
+      "releaseTag": "v0.16.0",
       "binaries": {
         "ruxguitar.exe": {
           "path": "ruxguitar.exe",
-          "sha256": "b1e6027bbfb24f75e325bd2167dc4cdfcf5721519d85d907b6875ce879c33c10"
+          "sha256": "09084cd1cda63b0500cf4990e6402aa9d371d8aa8094663bb45040c0a3fb6ea7"
         }
       }
     }
