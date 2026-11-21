@@ -1,45 +1,45 @@
 {
   "schema": 1,
   "name": "cfn-teleport",
-  "version": "0.52.5",
+  "version": "0.52.8",
   "repository": "udondan/cfn-teleport",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.5/cfn-teleport-x86_64-unknown-linux-musl-v0.52.5.tar.gz",
-      "sha256": "395fa54ece30549afd61ec58e1a7261bf9bc8c05a2664715ac48dcbd5c2603e1",
-      "size": 6878012,
+      "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.8/cfn-teleport-x86_64-unknown-linux-musl-v0.52.8.tar.gz",
+      "sha256": "3db1fb265f2d00a933f3965ce8cf30f52349b17cb08cc2893c595da31c297b6a",
+      "size": 6996619,
       "format": "tar.gz",
-      "releaseTag": "v0.52.5",
+      "releaseTag": "v0.52.8",
       "binaries": {
         "cfn-teleport": {
           "path": "cfn-teleport",
-          "sha256": "da494b06bb1ab92c59944974cfb597aef2eefdd9ab2590d781ef70d9b66df807"
+          "sha256": "b5c24e9f15cb9c041877b1e79d26edc860db4b733950c941f250bccc8c4062ed"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.5/cfn-teleport-aarch64-unknown-linux-musl-v0.52.5.tar.gz",
-      "sha256": "17cafa80049b3361f82d61b177ef1b33a663db5f18b7c3c14326bf71fb8e98fd",
-      "size": 6652516,
+      "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.8/cfn-teleport-aarch64-unknown-linux-musl-v0.52.8.tar.gz",
+      "sha256": "9f378584a51efe6335198490f114cb8b4b88dd5dd0336fd69d133712416e0267",
+      "size": 6793168,
       "format": "tar.gz",
-      "releaseTag": "v0.52.5",
+      "releaseTag": "v0.52.8",
       "binaries": {
         "cfn-teleport": {
           "path": "cfn-teleport",
-          "sha256": "0d192af21d77a05d696b0c6adc212b6a3a28bc191f55ff410d2c226380301a0f"
+          "sha256": "93fd5d99f0ae225174cdc1d1c12330aaeb290163746847103da68f42a0537d4d"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.5/cfn-teleport-x86_64-pc-windows-msvc-v0.52.5.exe",
-      "sha256": "c829c17baaca191e5be8e10cd3d46745b63545a2da549c73c9afb248132a9984",
-      "size": 13221888,
+      "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.8/cfn-teleport-x86_64-pc-windows-msvc-v0.52.8.exe",
+      "sha256": "6697126be82b8e070b7e7e8e0bf3b8fa052b628d14139f5613d9f85f10d290cb",
+      "size": 13317120,
       "format": "binary",
-      "releaseTag": "v0.52.5",
+      "releaseTag": "v0.52.8",
       "binaries": {
         "cfn-teleport.exe": {
-          "path": "cfn-teleport-x86_64-pc-windows-msvc-v0.52.5.exe",
-          "sha256": "c829c17baaca191e5be8e10cd3d46745b63545a2da549c73c9afb248132a9984"
+          "path": "cfn-teleport-x86_64-pc-windows-msvc-v0.52.8.exe",
+          "sha256": "6697126be82b8e070b7e7e8e0bf3b8fa052b628d14139f5613d9f85f10d290cb"
         }
       }
     }
