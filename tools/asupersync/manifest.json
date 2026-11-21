@@ -1,45 +1,71 @@
 {
   "schema": 1,
   "name": "asupersync",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "repository": "Dicklesworthstone/asupersync",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/Dicklesworthstone/asupersync/releases/download/v0.5.0/asupersync-linux-amd64.tar.gz",
-      "releaseTag": "v0.5.0",
-      "sha256": "3be652d253841d369bd8ac0ccc0a34859a7494574f8a2ce68bb8372d9c776fce",
-      "size": 4382189,
+      "url": "https://github.com/Dicklesworthstone/asupersync/releases/download/v0.7.0/asupersync-linux-amd64.tar.gz",
+      "sha256": "452b1a1b8509c830b6755d33ebf7895ac90270139b78a61efd17dcb433d4c5a7",
+      "size": 6122024,
       "format": "tar.gz",
+      "releaseTag": "v0.7.0",
       "binaries": {
         "asupersync": {
           "path": "asupersync",
-          "sha256": "af2865cdf2b85869062be382485da18a985acbfb64563000343351c83247b76b"
+          "sha256": "01b85467536a63ac56e547b6d183ec3324d43e40333f879437e0823a519e0e36"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Dicklesworthstone/asupersync/releases/download/v0.7.0/asupersync-linux-arm64.tar.gz",
+      "sha256": "630ebf85216080a6ab9de6cd752abf2b29c8a9e4ba902a8b5aede9bd940c2f5f",
+      "size": 5682253,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "asupersync": {
+          "path": "asupersync",
+          "sha256": "9b0ff6d78fa364016e6710314ae5846245b03a1e0cabe312c3134c8f0a5a6d22"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/Dicklesworthstone/asupersync/releases/download/v0.7.0/asupersync-darwin-amd64.tar.gz",
+      "sha256": "f9320925b3721e56c6f07956bd1694c7f9a49b3264619243b6c2c525ea44cbed",
+      "size": 5517266,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "asupersync": {
+          "path": "asupersync",
+          "sha256": "6ab4e905d365e306b5d13251e1759f02e85b331a15da34bbd7e15e5cc3a125ab"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/Dicklesworthstone/asupersync/releases/download/v0.5.0/asupersync-darwin-arm64.tar.gz",
-      "releaseTag": "v0.5.0",
-      "sha256": "1aba701298e712fef6287e22e5c93dfdc77755978a5775143c8e1299c108587f",
-      "size": 3949330,
+      "url": "https://github.com/Dicklesworthstone/asupersync/releases/download/v0.7.0/asupersync-darwin-arm64.tar.gz",
+      "sha256": "0c08e62a09517bb179e249eb7488e0a833e7df10bfdf496aba0c85d76ff35db0",
+      "size": 5053964,
       "format": "tar.gz",
+      "releaseTag": "v0.7.0",
       "binaries": {
         "asupersync": {
           "path": "asupersync",
-          "sha256": "69ce9b09e3e2a3e934e30db91765fbf659c48dfb593dc7d073fe8ca7da530b67"
+          "sha256": "e007c214bc29fbbb13b6e96c57d4cb74eaa7c059f2b4cef7634f76399f4b592d"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/Dicklesworthstone/asupersync/releases/download/v0.5.0/asupersync-windows-amd64.zip",
-      "releaseTag": "v0.5.0",
-      "sha256": "57d4c12d60271ffaf67b63d9158c97e53f6e89843f276ffbdc14560f6d499936",
-      "size": 4659379,
+      "url": "https://github.com/Dicklesworthstone/asupersync/releases/download/v0.7.0/asupersync-windows-amd64.zip",
+      "sha256": "8ba3c205f153edb737025d7ce30e81636707ed3693a240379f3b8f11661fa6c9",
+      "size": 6106269,
       "format": "zip",
+      "releaseTag": "v0.7.0",
       "binaries": {
         "asupersync.exe": {
           "path": "asupersync.exe",
-          "sha256": "1a6b265694fad4ffc6cd2f9e8ef579e27f9afc86233080dd47199de2e8678078"
+          "sha256": "a7775005dbbf0654ec5917004e6ba93b70bec10bfaa86815c1ad5a7af36ace2e"
         }
       }
     }
