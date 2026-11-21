@@ -1,19 +1,45 @@
 {
   "schema": 1,
   "name": "steamguard-cli",
-  "version": "0.18.4",
+  "version": "0.19.0",
   "repository": "dyc3/steamguard-cli",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/dyc3/steamguard-cli/releases/download/v0.19.0/steamguard-cli_0.19.0-0_amd64.deb",
+      "sha256": "ed4f34fb0132d953affde61e5fb5f06529befe92bdf0a09eb5f85fa209151828",
+      "size": 4215928,
+      "format": "deb",
+      "releaseTag": "v0.19.0",
+      "binaries": {
+        "steamguard": {
+          "path": "./usr/local/bin/steamguard",
+          "sha256": "f869b04635a0d9a38d33e77290b65f980f035bb08dba2f5ade8004004f8c53cb"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/dyc3/steamguard-cli/releases/download/v0.19.0/steamguard-cli_0.19.0-0_arm64.deb",
+      "sha256": "61f5cfce85c44302fabfd36342bc934679c1dc708ffbdee3b293adab703e8990",
+      "size": 3722752,
+      "format": "deb",
+      "releaseTag": "v0.19.0",
+      "binaries": {
+        "steamguard": {
+          "path": "./usr/local/bin/steamguard",
+          "sha256": "d9446222e1466d0a1d27ec89984794121c5ce302f367688d097935bdd828c444"
+        }
+      }
+    },
     "win32-x64": {
-      "url": "https://github.com/dyc3/steamguard-cli/releases/download/v0.18.4/steamguard-windows-x86_64.exe",
-      "releaseTag": "v0.18.4",
-      "sha256": "081d5899af64db8821c2857f27735eee6989e3a1497b644d8ed783e6bcf399b4",
-      "size": 11021312,
+      "url": "https://github.com/dyc3/steamguard-cli/releases/download/v0.19.0/steamguard-windows-x86_64.exe",
+      "sha256": "8e147c35a15381d56fd14a7adb723a76a37ff83005512a02d48a415aa09b78c4",
+      "size": 11053568,
       "format": "binary",
+      "releaseTag": "v0.19.0",
       "binaries": {
         "steamguard.exe": {
           "path": "steamguard-windows-x86_64.exe",
-          "sha256": "081d5899af64db8821c2857f27735eee6989e3a1497b644d8ed783e6bcf399b4"
+          "sha256": "8e147c35a15381d56fd14a7adb723a76a37ff83005512a02d48a415aa09b78c4"
         }
       }
     }
