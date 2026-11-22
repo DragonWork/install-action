@@ -1,19 +1,32 @@
 {
   "schema": 1,
   "name": "rdfless",
-  "version": "0.4.36",
+  "version": "0.4.37",
   "repository": "larsw/rdfless",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/larsw/rdfless/releases/download/v0.4.37/rdfless_0.4.37_amd64-ubuntu-20.04.deb",
+      "sha256": "5708f86f5f5e024bb33f4414da61d1d0cf793615a2f82f3d29609a0e12b5f22e",
+      "size": 1218084,
+      "format": "deb",
+      "releaseTag": "v0.4.37",
+      "binaries": {
+        "rdfless": {
+          "path": "./usr/bin/rdfless",
+          "sha256": "f52ed1d64e6f9b734a16c5ae20758bd5d22e38c04bc0b4daf6b749e41a896d96"
+        }
+      }
+    },
     "win32-x64": {
-      "url": "https://github.com/larsw/rdfless/releases/download/v0.4.36/rdfless-0.4.36-windows-x86_64.exe",
-      "releaseTag": "v0.4.36",
-      "sha256": "d20cf34ed9b2528a397b0c7cc467a54fb80dff7516696f2b50aa723145663985",
-      "size": 4207632,
+      "url": "https://github.com/larsw/rdfless/releases/download/v0.4.37/rdfless-0.4.37-windows-x86_64.exe",
+      "sha256": "ffc90f1088006f9aed0244396571ba012c980ae24f271a176f418114db9ce029",
+      "size": 4242118,
       "format": "binary",
+      "releaseTag": "v0.4.37",
       "binaries": {
         "rdfless.exe": {
-          "path": "rdfless-0.4.36-windows-x86_64.exe",
-          "sha256": "d20cf34ed9b2528a397b0c7cc467a54fb80dff7516696f2b50aa723145663985"
+          "path": "rdfless-0.4.37-windows-x86_64.exe",
+          "sha256": "ffc90f1088006f9aed0244396571ba012c980ae24f271a176f418114db9ce029"
         }
       }
     }
