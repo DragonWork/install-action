@@ -1,108 +1,108 @@
 {
   "schema": 1,
   "name": "zccache",
-  "version": "1.15.14",
+  "version": "1.15.18",
   "repository": "forge-ci/zccache",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.14/zccache-v1.15.14-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "0c4b85f5216ffa029064bea0c2a7a0472e104509832c7592e65d3ee60e147094",
-      "size": 12355652,
+      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.18/zccache-v1.15.18-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "a31b577fe58eadf9f44aff9544cc8d66676cfc7cbe24b909575b8e3f0503f768",
+      "size": 12822283,
       "format": "tar.gz",
-      "releaseTag": "1.15.14",
+      "releaseTag": "1.15.18",
       "binaries": {
         "zccache": {
-          "path": "zccache-v1.15.14-x86_64-unknown-linux-musl/zccache",
-          "sha256": "9fac17f662ebf4696fb7181f996e013c32c0b9f4b8af36e90146aed70340bf73"
+          "path": "zccache-v1.15.18-x86_64-unknown-linux-musl/zccache",
+          "sha256": "edb782d313362ae66f8a3fb1946020e7c043a0bd2ef409e6bb356d147ba03279"
         },
         "zccache-fp": {
-          "path": "zccache-v1.15.14-x86_64-unknown-linux-musl/zccache-fp",
-          "sha256": "20cd655c1ebc53d87653e3269ec2f1dd304ff8b9d178c7f8c39be2ba876d09f3"
+          "path": "zccache-v1.15.18-x86_64-unknown-linux-musl/zccache-fp",
+          "sha256": "15c0714bc4be22ff1c5005a307ac060d2c1a75db525491a35d358600bb43675d"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.14/zccache-v1.15.14-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "eb1bf09bedf2cc764c658dcf0f35931eda8a1c4a1eb17fe47ecaae511d7806c8",
-      "size": 11963204,
+      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.18/zccache-v1.15.18-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "383ae4cb1848c3754a58235b4e507d49171542a89c8b2c50f3b731ededcbb4b0",
+      "size": 12420838,
       "format": "tar.gz",
-      "releaseTag": "1.15.14",
+      "releaseTag": "1.15.18",
       "binaries": {
         "zccache": {
-          "path": "zccache-v1.15.14-aarch64-unknown-linux-musl/zccache",
-          "sha256": "80ecb5af4581a8b524804e49c0869cae439112c4ad454f02df166e6ae0c45f4f"
+          "path": "zccache-v1.15.18-aarch64-unknown-linux-musl/zccache",
+          "sha256": "81c2b449e702a1429391dac54f37b47d927ffb6fd268f52c01a27ad5d27e5b50"
         },
         "zccache-fp": {
-          "path": "zccache-v1.15.14-aarch64-unknown-linux-musl/zccache-fp",
-          "sha256": "c19eef691a6147edeebf09369599f67839b4eef2bcaa907bb6322bc5dc477559"
+          "path": "zccache-v1.15.18-aarch64-unknown-linux-musl/zccache-fp",
+          "sha256": "adb2571136dfe430ded4fd7d7a94d2440df980ab8fc7abe973b682f6ff9173cf"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.14/zccache-v1.15.14-x86_64-apple-darwin.tar.gz",
-      "sha256": "5260ed7a1c8e97cff2e73cb4aa6503c78566dd8af8d4cbd6aa50a446f7fd2612",
-      "size": 11849116,
+      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.18/zccache-v1.15.18-x86_64-apple-darwin.tar.gz",
+      "sha256": "23ea5d6727ba3e9d49bc60cb701520a7c04248b136c098f5f091e3b722002d42",
+      "size": 12293621,
       "format": "tar.gz",
-      "releaseTag": "1.15.14",
+      "releaseTag": "1.15.18",
       "binaries": {
         "zccache": {
-          "path": "zccache-v1.15.14-x86_64-apple-darwin/zccache",
-          "sha256": "3e884543915f21dc26726dc6e8feac63aa7fb395ee8982d0e2399a40586ebda5"
+          "path": "zccache-v1.15.18-x86_64-apple-darwin/zccache",
+          "sha256": "0842c19500e6cf92312e069bee8696ac7acca77fedb1cd242f5e34a73ea76a80"
         },
         "zccache-fp": {
-          "path": "zccache-v1.15.14-x86_64-apple-darwin/zccache-fp",
-          "sha256": "ea69fa63b8d774a9933bca92cbd0542f0735f7ba1cc41d2c1771841a2671f6ad"
+          "path": "zccache-v1.15.18-x86_64-apple-darwin/zccache-fp",
+          "sha256": "bc10a00aec085b3e66574d6ae7af59da3f17fe84d88df27556ec92999fe8f1d0"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.14/zccache-v1.15.14-aarch64-apple-darwin.tar.gz",
-      "sha256": "28c5f97637c86d5825b69d175930e71b3784b5ac85002ce06c6e6cfa61dc2dcd",
-      "size": 11331283,
+      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.18/zccache-v1.15.18-aarch64-apple-darwin.tar.gz",
+      "sha256": "b1d7bbfb33e6c46df57246533a65b98a73b1b881b84b498c5313073c6ddcd5f4",
+      "size": 11767763,
       "format": "tar.gz",
-      "releaseTag": "1.15.14",
+      "releaseTag": "1.15.18",
       "binaries": {
         "zccache": {
-          "path": "zccache-v1.15.14-aarch64-apple-darwin/zccache",
-          "sha256": "43deb623c4ad8eba37a95531ce5f18d327a3ce7d7175e81fcf6a0ec0f364b35d"
+          "path": "zccache-v1.15.18-aarch64-apple-darwin/zccache",
+          "sha256": "2014677d099f413a9dc3fc64b96fd63b7e1db92da6788c6e4d60fb8495738f23"
         },
         "zccache-fp": {
-          "path": "zccache-v1.15.14-aarch64-apple-darwin/zccache-fp",
-          "sha256": "1261a5344de25b79bab86213b9e446ef70b0f2560ba345d218533d3977c3b77b"
+          "path": "zccache-v1.15.18-aarch64-apple-darwin/zccache-fp",
+          "sha256": "afd9b5d571de7ac2d1a1946d19e4eca381b747c2bb01ad2ec9b3e1f42ae01fa4"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.14/zccache-v1.15.14-x86_64-pc-windows-msvc.zip",
-      "sha256": "ac147fff461f283d544589b154d4300881cb5bbbe1028f9a94a8336bca129b9e",
-      "size": 10477089,
+      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.18/zccache-v1.15.18-x86_64-pc-windows-msvc.zip",
+      "sha256": "55704d65687910f786fcd7011350df0fe9cb5983edd94dcbf93d1eac87e84429",
+      "size": 10902868,
       "format": "zip",
-      "releaseTag": "1.15.14",
+      "releaseTag": "1.15.18",
       "binaries": {
         "zccache.exe": {
-          "path": "zccache-v1.15.14-x86_64-pc-windows-msvc/zccache.exe",
-          "sha256": "69869909560a1d5b215d8fe5523cf5de1c1140b912da1fe0657268c277a71896"
+          "path": "zccache-v1.15.18-x86_64-pc-windows-msvc/zccache.exe",
+          "sha256": "3a184919b4e565cabd0aa078bc2fb90e6dc9309d481f9b8f4093e944fbd50707"
         },
         "zccache-fp.exe": {
-          "path": "zccache-v1.15.14-x86_64-pc-windows-msvc/zccache-fp.exe",
-          "sha256": "fa574b92665fb2322a1e2e581331b8516bbb08fc73bb462931f1bcd03f5baf63"
+          "path": "zccache-v1.15.18-x86_64-pc-windows-msvc/zccache-fp.exe",
+          "sha256": "fb8dd453a8dc4207dd2294f4c4da4383914bfc9a59c65ffe53a924f11c65abda"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.14/zccache-v1.15.14-aarch64-pc-windows-msvc.zip",
-      "sha256": "df2225e3b7c27b114c97e957af3fcd6aa636fd72aafb271a0af408c0f45e57e1",
-      "size": 9796487,
+      "url": "https://github.com/forge-ci/zccache/releases/download/1.15.18/zccache-v1.15.18-aarch64-pc-windows-msvc.zip",
+      "sha256": "a4116df7e53cc004421fa74ace4b73289abf907fe97e7ce9bcb906ae202dcdd7",
+      "size": 10190243,
       "format": "zip",
-      "releaseTag": "1.15.14",
+      "releaseTag": "1.15.18",
       "binaries": {
         "zccache.exe": {
-          "path": "zccache-v1.15.14-aarch64-pc-windows-msvc/zccache.exe",
-          "sha256": "f817f20700d989c2c2f70c9d6819cfa391bc3ee7c7846fa41818857b1057bd42"
+          "path": "zccache-v1.15.18-aarch64-pc-windows-msvc/zccache.exe",
+          "sha256": "410631ae8ec903c1e2320d5dbd49745e263b039d6a8bfa8e002ec66f232514e4"
         },
         "zccache-fp.exe": {
-          "path": "zccache-v1.15.14-aarch64-pc-windows-msvc/zccache-fp.exe",
-          "sha256": "ee1aeb61306fb4acfd34d1e5b2c4b37d19874e54d4bf0758515e36d79ae921e4"
+          "path": "zccache-v1.15.18-aarch64-pc-windows-msvc/zccache-fp.exe",
+          "sha256": "216881faa883bc5970b215dad1a1b7b7e9261092afb2c1100bae4b824676aebd"
         }
       }
     }
