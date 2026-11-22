@@ -1,19 +1,58 @@
 {
   "schema": 1,
   "name": "nightlight",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "repository": "smudge/nightlight",
   "artifacts": {
-    "darwin-x64": {
-      "url": "https://github.com/smudge/nightlight/releases/download/v1.0.0/nightlight-macOS.zip",
-      "sha256": "cfe249ca68b51851ffdfccaf3e99d0fbbc0eb8793f36b0e2512596ba854c186f",
-      "size": 246396,
-      "format": "zip",
-      "releaseTag": "v1.0.0",
+    "linux-x64": {
+      "url": "https://github.com/smudge/nightlight/releases/download/v1.2.0/nightlight-v1.2.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "b61575103c88b66cde841639190988077b874453e22361a1fcce90b83fab2655",
+      "size": 364915,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.0",
       "binaries": {
         "nightlight": {
-          "path": "nightlight",
-          "sha256": "2cb91312018d9965db00186d83c0ad497fc3207dc1539ddfc21f10c9f88717bb"
+          "path": "nightlight-v1.2.0-x86_64-unknown-linux-musl/nightlight",
+          "sha256": "8adff1b57af4dad07cd8cbcd8da5669778b21f4b74b5c473ff088327bd0a7456"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/smudge/nightlight/releases/download/v1.2.0/nightlight-v1.2.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "55a19ca3c09f8e542e8ffa8128b76f02ce74483f7888ca37c0aef9c3737524d0",
+      "size": 348206,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "nightlight": {
+          "path": "nightlight-v1.2.0-aarch64-unknown-linux-musl/nightlight",
+          "sha256": "b14a853f79260437847ffb8fef4d68a51972bc993e6ee5738cce5b5eef5758f4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/smudge/nightlight/releases/download/v1.2.0/nightlight-v1.2.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "83b44e8aa25aa204d6b408fada948a40da26892b5f52966f199d171cdc8ddaa5",
+      "size": 250455,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "nightlight": {
+          "path": "nightlight-v1.2.0-x86_64-apple-darwin/nightlight",
+          "sha256": "5f5194a80b9b927904d8bc3c1b691bc9afe8d4d2efbd28d8ba473b3442be75aa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/smudge/nightlight/releases/download/v1.2.0/nightlight-v1.2.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "343677ec83f380eb4ad1197b86f2e973e95438041cd32be7dc2c241875aad20b",
+      "size": 245181,
+      "format": "tar.gz",
+      "releaseTag": "v1.2.0",
+      "binaries": {
+        "nightlight": {
+          "path": "nightlight-v1.2.0-aarch64-apple-darwin/nightlight",
+          "sha256": "ca9a7bdc1e07dd8821793ccf4b656a7ea933a92504c5cb0b8d89fd5a75bf3bc9"
         }
       }
     }
