@@ -1,19 +1,58 @@
 {
   "schema": 1,
   "name": "mdmodels",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": "FAIRChemistry/md-models",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/FAIRChemistry/md-models/releases/download/v0.3.0/md-models-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.3.0",
-      "sha256": "4eb070d518be00b66d6725af61253c992ac1a9c6bb75c696c4f949d1aab619be",
-      "size": 17003008,
+    "linux-x64": {
+      "url": "https://github.com/FAIRChemistry/md-models/releases/download/v0.3.1/md-models-x86_64-unknown-linux-gnu",
+      "sha256": "1ef10f58212cb92914f60ffa1ce29620616740292549f966152c87f00f60bd94",
+      "size": 22921408,
       "format": "binary",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "md-models": {
+          "path": "md-models-x86_64-unknown-linux-gnu",
+          "sha256": "1ef10f58212cb92914f60ffa1ce29620616740292549f966152c87f00f60bd94"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/FAIRChemistry/md-models/releases/download/v0.3.1/md-models-x86_64-apple-darwin",
+      "sha256": "4e43d4ffb674ce28238db6a4f20d2d3fe144cc669ba979c69925a34e96086065",
+      "size": 19621508,
+      "format": "binary",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "md-models": {
+          "path": "md-models-x86_64-apple-darwin",
+          "sha256": "4e43d4ffb674ce28238db6a4f20d2d3fe144cc669ba979c69925a34e96086065"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/FAIRChemistry/md-models/releases/download/v0.3.1/md-models-aarch64-apple-darwin",
+      "sha256": "b1c6355ab8cfbab9eda459cbfa9f470efd21cf5828f30ff00e616f50ba1e6131",
+      "size": 19220896,
+      "format": "binary",
+      "releaseTag": "v0.3.1",
+      "binaries": {
+        "md-models": {
+          "path": "md-models-aarch64-apple-darwin",
+          "sha256": "b1c6355ab8cfbab9eda459cbfa9f470efd21cf5828f30ff00e616f50ba1e6131"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/FAIRChemistry/md-models/releases/download/v0.3.1/md-models-x86_64-pc-windows-msvc.exe",
+      "sha256": "a4ace51c425b74ce4c8177e31c43ca8fd94d5e949f1bd225c7250b7df21e77d6",
+      "size": 17044992,
+      "format": "binary",
+      "releaseTag": "v0.3.1",
       "binaries": {
         "md-models.exe": {
           "path": "md-models-x86_64-pc-windows-msvc.exe",
-          "sha256": "4eb070d518be00b66d6725af61253c992ac1a9c6bb75c696c4f949d1aab619be"
+          "sha256": "a4ace51c425b74ce4c8177e31c43ca8fd94d5e949f1bd225c7250b7df21e77d6"
         }
       }
     }
