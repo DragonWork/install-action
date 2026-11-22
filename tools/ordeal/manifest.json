@@ -1,58 +1,45 @@
 {
   "schema": 1,
   "name": "ordeal",
-  "version": "0.37.0",
+  "version": "0.38.0",
   "repository": "pulseengine/ordeal",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.37.0/ordeal-v0.37.0-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "98498abb3ea1e1d658fa2519f8951d004966a6ed18e99dd51a01cab252295965",
-      "size": 498185,
+      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.38.0/ordeal-v0.38.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "854c7c98531b9bd7b1ab2ec1bcc4157bcc96804f04e932056535724c9761f335",
+      "size": 565503,
       "format": "tar.gz",
-      "releaseTag": "v0.37.0",
+      "releaseTag": "v0.38.0",
       "binaries": {
         "ordeal": {
           "path": "./ordeal",
-          "sha256": "1152e2e058e7521a2ccea07445a9676683169922182683f00d241ccfedaf2634"
+          "sha256": "2415c2e4ebde5701ade7f19ce15d7056517308e6af11b0576e18a5242b827113"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.37.0/ordeal-v0.37.0-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "6ea958d837dc6102fee987a83a9932c736332f94b24f5414294e3f7ac96ca438",
-      "size": 502775,
+      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.38.0/ordeal-v0.38.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "2644feff31f96aec7e6f1143e8f68eecbfbdd7dcc32413ca6de5692cd0568fc5",
+      "size": 578494,
       "format": "tar.gz",
-      "releaseTag": "v0.37.0",
+      "releaseTag": "v0.38.0",
       "binaries": {
         "ordeal": {
           "path": "./ordeal",
-          "sha256": "7b5b1466f2c2cd98502b7532c020a1a6362386d71b83bbe5bfcea9b294d4bf62"
-        }
-      }
-    },
-    "darwin-x64": {
-      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.37.0/ordeal-v0.37.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "df65205b59dc9cd44b350d265c4828d30a8f128db575a4e7c3b3b40a08b9d477",
-      "size": 442329,
-      "format": "tar.gz",
-      "releaseTag": "v0.37.0",
-      "binaries": {
-        "ordeal": {
-          "path": "./ordeal",
-          "sha256": "716ce7ea65044cec98c589e61b7f20f56355c36873e056b7043a5dbec43a6bf9"
+          "sha256": "cab1eb8e96b5230fb53fedd5b5c4a64e448e27e2edc978fe22c808e8f3d7dd93"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.37.0/ordeal-v0.37.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "3a5f357386ffe097d0bd3ed40326ea8fabe268768fe7512372363d2056079c13",
-      "size": 408495,
+      "url": "https://github.com/pulseengine/ordeal/releases/download/v0.38.0/ordeal-v0.38.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "4bb15cd8b182bf3417a267b3454682c20e6fa1a79c4ada48f346aeaedc44d4f2",
+      "size": 463483,
       "format": "tar.gz",
-      "releaseTag": "v0.37.0",
+      "releaseTag": "v0.38.0",
       "binaries": {
         "ordeal": {
           "path": "./ordeal",
-          "sha256": "d19a93107a566a3d3acb57a2699ced98609d9162d570d929692a1c98c28ce7db"
+          "sha256": "0c9a798d16ebb68f98f6cdadde0b1d45b62414ad2f8ca316216410197df92f9a"
         }
       }
     }
