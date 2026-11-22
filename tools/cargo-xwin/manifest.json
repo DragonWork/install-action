@@ -1,32 +1,71 @@
 {
   "schema": 1,
   "name": "cargo-xwin",
-  "version": "0.23.1",
+  "version": "0.24.1",
   "repository": "rust-cross/cargo-xwin",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.23.1/cargo-xwin-v0.23.1.x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.23.1",
-      "sha256": "c492c6dfb7e5ac0eee586b796e0fc950ba13077e7f0bbb046f445d71790d5360",
-      "size": 3850667,
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.24.1/cargo-xwin-v0.24.1.x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "207ec5436db138b60d90cb41513ce2e3db4893a9c4e25da6209790c1a2db88cf",
+      "size": 3892334,
       "format": "tar.gz",
+      "releaseTag": "v0.24.1",
       "binaries": {
         "cargo-xwin": {
           "path": "cargo-xwin",
-          "sha256": "5436ddb00b07ad567e2b90087cf1da2a2fc68c27edea71041b8d76704b576ae8"
+          "sha256": "44c579e985126858e9d72ee48d44466b5a0cb92a9494923f961778be62426608"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.23.1/cargo-xwin-v0.23.1.aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.23.1",
-      "sha256": "dc0a0fb28fdd90405f69e7365bce91d2504ea7491eb4d79d5655ffa106358925",
-      "size": 3619655,
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.24.1/cargo-xwin-v0.24.1.aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "52a6788620eacb4d6760e0e8dd80d565f4cc333b8c510ad2c8c46d226674474d",
+      "size": 3658714,
       "format": "tar.gz",
+      "releaseTag": "v0.24.1",
       "binaries": {
         "cargo-xwin": {
           "path": "cargo-xwin",
-          "sha256": "054055bf3cdfd5328797993a538151e945473434a3a6eef9860c60b04affcbdd"
+          "sha256": "4b9b99c7733aba9d178466ecde72d591dc6a6e94d7e5d8a226924a3ce40a6a6f"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.24.1/cargo-xwin-v0.24.1.universal2-apple-darwin.tar.gz",
+      "sha256": "8db6fda1dc0b6882cdee8f4d7d999cb651049a71166a83a79a6a048bc2c62c82",
+      "size": 6925391,
+      "format": "tar.gz",
+      "releaseTag": "v0.24.1",
+      "binaries": {
+        "cargo-xwin": {
+          "path": "cargo-xwin",
+          "sha256": "1fe1a3aa304e4abfb9f7a5cca08cce718a818d6a4c5515772a5d48a55c57d9bc"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.24.1/cargo-xwin-v0.24.1.universal2-apple-darwin.tar.gz",
+      "sha256": "8db6fda1dc0b6882cdee8f4d7d999cb651049a71166a83a79a6a048bc2c62c82",
+      "size": 6925391,
+      "format": "tar.gz",
+      "releaseTag": "v0.24.1",
+      "binaries": {
+        "cargo-xwin": {
+          "path": "cargo-xwin",
+          "sha256": "1fe1a3aa304e4abfb9f7a5cca08cce718a818d6a4c5515772a5d48a55c57d9bc"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/rust-cross/cargo-xwin/releases/download/v0.24.1/cargo-xwin-v0.24.1.windows-x64.zip",
+      "sha256": "e4340e23cb2842a0ef7518bcb76f0f44b68a189bc9f8d78a00852256990050c9",
+      "size": 3453247,
+      "format": "zip",
+      "releaseTag": "v0.24.1",
+      "binaries": {
+        "cargo-xwin.exe": {
+          "path": "cargo-xwin.exe",
+          "sha256": "693171efcd5847f4803cbb840b7605a1a927478d0f66c2e8d746955baea8d9ad"
         }
       }
     }
