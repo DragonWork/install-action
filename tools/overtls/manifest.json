@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "overtls",
+  "version": "0.3.18",
+  "repository": "ShadowsocksR-Live/overtls",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ShadowsocksR-Live/overtls/releases/download/v0.3.18/overtls-x86_64-unknown-linux-musl.zip",
+      "sha256": "e549cf874b12079b2d94936a67e55b4a3fe84218e7dd971d5058952bd7b5ceaf",
+      "size": 6197193,
+      "format": "zip",
+      "releaseTag": "v0.3.18",
+      "binaries": {
+        "overtls-bin": {
+          "path": "overtls-bin",
+          "sha256": "3c8a3756e6a4dde6ca53e2922e6b57d370debaff9a8b2a4d76f2d1abb478eeb1"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ShadowsocksR-Live/overtls/releases/download/v0.3.18/overtls-aarch64-unknown-linux-musl.zip",
+      "sha256": "4180ddd4d19a4a22f6899f7ae5a69a531e813bc6a6dc8e60f38c8753ca5254ce",
+      "size": 5978765,
+      "format": "zip",
+      "releaseTag": "v0.3.18",
+      "binaries": {
+        "overtls-bin": {
+          "path": "overtls-bin",
+          "sha256": "cd82f47f2fe2a997442b1c2e5826c675d7fc2269612db271d1dcf91f5285dbfe"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ShadowsocksR-Live/overtls/releases/download/v0.3.18/overtls-x86_64-apple-darwin.zip",
+      "sha256": "759d6722858a266d1e965e45b8e405b992614bab6c4c7686cc1ed03748dfaacf",
+      "size": 8790053,
+      "format": "zip",
+      "releaseTag": "v0.3.18",
+      "binaries": {
+        "overtls-bin": {
+          "path": "overtls-bin",
+          "sha256": "3c85e40ec7a11d6165237b1c0207e4534b9ca649dbe7b781eba8665eeea12dc4"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ShadowsocksR-Live/overtls/releases/download/v0.3.18/overtls-aarch64-apple-darwin.zip",
+      "sha256": "17019d9c2c2693a5e841451c5c165296329f88392a2b02dd8e699108e28a771a",
+      "size": 8393554,
+      "format": "zip",
+      "releaseTag": "v0.3.18",
+      "binaries": {
+        "overtls-bin": {
+          "path": "overtls-bin",
+          "sha256": "c5efb070d990bfc6913b2e08e66693bba4e6e8be47b4bdc245c9da7a09c505f6"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ShadowsocksR-Live/overtls/releases/download/v0.3.18/overtls-x86_64-pc-windows-msvc.zip",
+      "sha256": "01be8d8cd1afdd5be569764788da1f30b881d599cd2c8873ce792a4d9a63fec7",
+      "size": 7871847,
+      "format": "zip",
+      "releaseTag": "v0.3.18",
+      "binaries": {
+        "overtls-bin.exe": {
+          "path": "overtls-bin.exe",
+          "sha256": "9a7b1f5af4feb1274f94a06d042205a056422a86cd54f375b31e3615e4192412"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ShadowsocksR-Live/overtls/releases/download/v0.3.18/overtls-aarch64-pc-windows-msvc.zip",
+      "sha256": "fa9b7332a58aa08fe6eed610d6987450505243ab2c987dcca89f4e02a63bec01",
+      "size": 7496286,
+      "format": "zip",
+      "releaseTag": "v0.3.18",
+      "binaries": {
+        "overtls-bin.exe": {
+          "path": "overtls-bin.exe",
+          "sha256": "99e517d50acfa31ad44db6aa08f806d15757466912ec228cfc0fd28dffb1c87f"
+        }
+      }
+    }
+  }
+}
