@@ -1,0 +1,58 @@
+name: Retry crate validation
+
+on:
+  workflow_run:
+    workflows: [Update crates]
+    branches: [main]
+    types: [completed]
+
+permissions: {}
+
+jobs:
+  retry:
+    if: >-
+      github.event.workflow_run.conclusion == 'failure' &&
+      github.event.workflow_run.run_attempt == 1 &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      (github.event.workflow_run.event == 'schedule' || github.event.workflow_run.event == 'workflow_dispatch')
+    runs-on: ubuntu-26.04
+    timeout-minutes: 5
+    permissions:
+      actions: write
+      checks: read
+    steps:
+      - name: Retry validation if GitHub could not assign a hosted runner
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        shell: bash
+        run: |
+          repo="repos/$GITHUB_REPOSITORY"
+          run="$repo/actions/runs/$RUN_ID"
+          candidate=$(gh api --paginate --slurp "$run/attempts/1/jobs?per_page=100" | jq -r '
+            [.[].jobs[] | select(.conclusion != "success" and .conclusion != "skipped")]
+            | select(length == 1) | .[0]
+            | select((.name | startswith("validate (")) and
+                     (.conclusion == "cancelled" or .conclusion == "failure") and
+                     (.runner_name | length == 0) and (.steps | length == 0))
+            | [.id, (.check_run_url | split("/") | last)] | @tsv')
+          if [[ -z "$candidate" ]]; then
+            echo "No isolated validation job failed before runner assignment."
+            exit 0
+          fi
+
+          read -r job check <<< "$candidate"
+          unassigned=$(gh api --paginate --slurp "$repo/check-runs/$check/annotations" | jq '
+            any(.[][]; .annotation_level == "failure" and
+                (.message | contains("not acquired by Runner of type hosted")))')
+          if [[ "$unassigned" != true ]]; then
+            echo "GitHub did not report a hosted runner acquisition failure for job $job."
+            exit 0
+          fi
+
+          # A maintainer may already have retried the run since this event was delivered.
+          eligible=$(gh api "$run" --jq '.run_attempt == 1 and .status == "completed" and .conclusion == "failure"')
+          if [[ "$eligible" == true ]]; then
+            echo "Requesting one retry of validation job $job and its dependents in run $RUN_ID."
+            gh api --method POST "$repo/actions/jobs/$job/rerun"
+          fi
