@@ -1,40 +1,108 @@
 {
   "schema": 1,
   "name": "gitoxide",
-  "version": "0.61.0",
+  "version": "0.62.0",
   "repository": "GitoxideLabs/gitoxide",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.61.0/gitoxide-max-pure-v0.61.0-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.61.0",
-      "sha256": "ffbaf6cfc6a7e3bf0534f72841741a81f2ae995145d6ab8df709c590b53d678d",
-      "size": 13844833,
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.62.0/gitoxide-max-pure-v0.62.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "bdd6fa1cb52cee3485d5febd9410da5685e2efce30e7053beb106eda0c7e271e",
+      "size": 14865845,
       "format": "tar.gz",
+      "releaseTag": "v0.62.0",
       "binaries": {
         "ein": {
-          "path": "gitoxide-max-pure-v0.61.0-x86_64-unknown-linux-musl/ein",
-          "sha256": "bdbf39d007a780f6f647a7812cabe95b9f2ecf767eb2a65a0a4734289ae505b6"
+          "path": "gitoxide-max-pure-v0.62.0-x86_64-unknown-linux-musl/ein",
+          "sha256": "a8b4d81784e1ba54549898db1ae3a79ae630336851f07f5ac19049e4584f8861"
         },
         "gix": {
-          "path": "gitoxide-max-pure-v0.61.0-x86_64-unknown-linux-musl/gix",
-          "sha256": "1bd7c3cd758ebcf4a719bdf3ef92afb4a815c0cd4596630f50f34121a6508155"
+          "path": "gitoxide-max-pure-v0.62.0-x86_64-unknown-linux-musl/gix",
+          "sha256": "72909159d2e4560bddebf4eb4057a37ef88c10f786b7c0ea3218b7f96bcac0e2"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.61.0/gitoxide-max-pure-v0.61.0-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v0.61.0",
-      "sha256": "f5f5e84f3173601316ce6098377db576203a49669ae0f04879829e793a4d579b",
-      "size": 12779073,
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.62.0/gitoxide-max-pure-v0.62.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "873ad5683073f9dfa3f4ae5bcfc5d7860f4d643266a8bdc28915a7e6355b2abe",
+      "size": 13690955,
       "format": "tar.gz",
+      "releaseTag": "v0.62.0",
       "binaries": {
         "ein": {
-          "path": "gitoxide-max-pure-v0.61.0-aarch64-unknown-linux-musl/ein",
-          "sha256": "e926a6acaddaec1660d6e8fde4217550943b5b33fd9f6e540701485c6331fbcd"
+          "path": "gitoxide-max-pure-v0.62.0-aarch64-unknown-linux-musl/ein",
+          "sha256": "62a497793c2a317f562068213cf8cd9759f363fafc2d4f659a4588d142683212"
         },
         "gix": {
-          "path": "gitoxide-max-pure-v0.61.0-aarch64-unknown-linux-musl/gix",
-          "sha256": "ff476c32a50f3f6a50da40dec32cf8953b9db04f52a55553bcc902b4a1a62733"
+          "path": "gitoxide-max-pure-v0.62.0-aarch64-unknown-linux-musl/gix",
+          "sha256": "a5a9f677967ddc1280e2aa9a1fcbdc491e04ff59f5e5e7849e732e135b30cf4c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.62.0/gitoxide-max-v0.62.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "5c3576aa72fc1c4bc7a06035db1d5aac79a704fee66c0d8adb924b70993dea98",
+      "size": 14556437,
+      "format": "tar.gz",
+      "releaseTag": "v0.62.0",
+      "binaries": {
+        "ein": {
+          "path": "gitoxide-max-v0.62.0-x86_64-apple-darwin/ein",
+          "sha256": "8636d72d3c105fa9a1a9438bbd102213c9542cf1158d648e3b359c33b071e0e9"
+        },
+        "gix": {
+          "path": "gitoxide-max-v0.62.0-x86_64-apple-darwin/gix",
+          "sha256": "3ba19a47336f07bc46436faf3d066855dc2243f03bf85377df6afdd39922421f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.62.0/gitoxide-max-v0.62.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "9d3bda24978840d9ee29777c462df9fb6461a6fd835b87c2048d28a4031b883e",
+      "size": 13531194,
+      "format": "tar.gz",
+      "releaseTag": "v0.62.0",
+      "binaries": {
+        "ein": {
+          "path": "gitoxide-max-v0.62.0-aarch64-apple-darwin/ein",
+          "sha256": "7ea8942f26ef8f8a62f01c9d1c947133a97753bc383b22c5f984cda15551efab"
+        },
+        "gix": {
+          "path": "gitoxide-max-v0.62.0-aarch64-apple-darwin/gix",
+          "sha256": "feb97061c45cf65cb29d86304c3e1fcc86619d7c29ccd476a0ebfbab185361ed"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.62.0/gitoxide-max-v0.62.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "8e808d647f69346d91cc9c6c405febd5b34723f71ccdcfa2020d8192d48836f7",
+      "size": 15685967,
+      "format": "zip",
+      "releaseTag": "v0.62.0",
+      "binaries": {
+        "ein.exe": {
+          "path": "gitoxide-max-v0.62.0-x86_64-pc-windows-msvc/ein.exe",
+          "sha256": "3f545f0ee99f720814986e15ad0b7e2ce57e5ff3f9c849fd4402e3f422928b5f"
+        },
+        "gix.exe": {
+          "path": "gitoxide-max-v0.62.0-x86_64-pc-windows-msvc/gix.exe",
+          "sha256": "8e57218bdfd94906e8c40ebe7fff749419a7d3b5aa2fe75ce35203e269fa25af"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.62.0/gitoxide-max-v0.62.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "d758596b2f9aa14d663949b78d50b53cdfbe29d05ce97dd63419b5086d0ba432",
+      "size": 14615652,
+      "format": "zip",
+      "releaseTag": "v0.62.0",
+      "binaries": {
+        "ein.exe": {
+          "path": "gitoxide-max-v0.62.0-aarch64-pc-windows-msvc/ein.exe",
+          "sha256": "55f5849a1e6c22fa26bf5d7027db462ba3d2d58953c8be71b83d11e522206b4d"
+        },
+        "gix.exe": {
+          "path": "gitoxide-max-v0.62.0-aarch64-pc-windows-msvc/gix.exe",
+          "sha256": "1298de2eca929cc7c1b82bb99b56b218d95f6880c55f9113204da8f3fbdf56c8"
         }
       }
     }
