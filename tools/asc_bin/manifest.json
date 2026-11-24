@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "asc_bin",
+  "version": "2025.12.13",
+  "repository": "ascpkg/asc",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/ascpkg/asc/releases/download/2025.12.13/x86_64-unknown-linux-gnu-2025.12.13.tar.xz",
+      "sha256": "5f2dcbaa99de27b193bf2351b4d740e070af23b11f9b1323b9f0184220beaf1f",
+      "size": 3793564,
+      "format": "tar.xz",
+      "releaseTag": "2025.12.13",
+      "binaries": {
+        "asc": {
+          "path": "x86_64-unknown-linux-gnu-2025.12.13/asc",
+          "sha256": "b2c70254a4a37489dfa90b348ce56b08ea74b7682ea9281c3730981ee77ea8d0"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/ascpkg/asc/releases/download/2025.12.13/aarch64-unknown-linux-gnu-2025.12.13.tar.xz",
+      "sha256": "aed42895977517d37645c6fbfdc5bfa73a12cfe7e08268be97cb229adcd20e2d",
+      "size": 3326256,
+      "format": "tar.xz",
+      "releaseTag": "2025.12.13",
+      "binaries": {
+        "asc": {
+          "path": "aarch64-unknown-linux-gnu-2025.12.13/asc",
+          "sha256": "69ba6470538078c2e53b177c2ee2ce39b78455ae0fd7fe909bc597bd913826b4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/ascpkg/asc/releases/download/2025.12.13/x86_64-apple-darwin-2025.12.13.tar.xz",
+      "sha256": "b79aa6d745bf15a0530a1bb2d5b95d40492a0fa9ed9261d068f35ba804e31519",
+      "size": 4047440,
+      "format": "tar.xz",
+      "releaseTag": "2025.12.13",
+      "binaries": {
+        "asc": {
+          "path": "x86_64-apple-darwin-2025.12.13/asc",
+          "sha256": "6a37c91187be41e642fbbfc8a4a8bc3bb456facc137174ed98a412fc1b0a6af8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/ascpkg/asc/releases/download/2025.12.13/aarch64-apple-darwin-2025.12.13.tar.xz",
+      "sha256": "0934fee08bd3a0d207e0104516042173616d329b72a6cb692f383a8a6b9ddeab",
+      "size": 3644144,
+      "format": "tar.xz",
+      "releaseTag": "2025.12.13",
+      "binaries": {
+        "asc": {
+          "path": "aarch64-apple-darwin-2025.12.13/asc",
+          "sha256": "a41284409f6eb1e91cb3174d9d36f973225cbb728d7a81e4ddac3a3aa6024875"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/ascpkg/asc/releases/download/2025.12.13/x86_64-pc-windows-msvc-2025.12.13.zip",
+      "sha256": "7b56e06c494a0483014ad3d3c9966ac414a83ee7dc3d8a65806bce8a2f0b7913",
+      "size": 5057551,
+      "format": "zip",
+      "releaseTag": "2025.12.13",
+      "binaries": {
+        "asc.exe": {
+          "path": "x86_64-pc-windows-msvc-2025.12.13/asc.exe",
+          "sha256": "768ad58df8f9ddb65a5870b3946d0cc66de001b8d0eb30acd7a423eabeda4253"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/ascpkg/asc/releases/download/2025.12.13/aarch64-pc-windows-msvc-2025.12.13.zip",
+      "sha256": "57c2769fe620644dd027402c63386307ed6bb958a25470d4e02a38cf6b79d67a",
+      "size": 4813128,
+      "format": "zip",
+      "releaseTag": "2025.12.13",
+      "binaries": {
+        "asc.exe": {
+          "path": "aarch64-pc-windows-msvc-2025.12.13/asc.exe",
+          "sha256": "a680b7e966e02e765aa9d114f80f37e7d8891b512e887d240530d1a1514c037e"
+        }
+      }
+    }
+  }
+}
