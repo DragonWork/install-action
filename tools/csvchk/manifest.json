@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "csvchk",
+  "version": "0.2.5",
+  "repository": "kyclark/csvchk",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/kyclark/csvchk/releases/download/v0.2.5/csvchk-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "1f3c1c65b9509b1eb4fb8ed32c02015dcc88145718e681266a2bccb2d31b76d9",
+      "size": 1122208,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.5",
+      "binaries": {
+        "csvchk": {
+          "path": "csvchk",
+          "sha256": "f7eaca5f4885f95e939621df2b0bd492dc4de476ac9e661feef1b26dd12b3c4c"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kyclark/csvchk/releases/download/v0.2.5/csvchk-x86_64-apple-darwin.tar.gz",
+      "sha256": "edb91f8b5f09bbba6c49291dae1607f6f6f9070a84a4b7287af6662cd8c0f754",
+      "size": 1042125,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.5",
+      "binaries": {
+        "csvchk": {
+          "path": "csvchk",
+          "sha256": "4449f66e9ffb515962504d27ae78e228ce513f021a7c6bf5eaf8e14a4ca101d8"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/kyclark/csvchk/releases/download/v0.2.5/csvchk-aarch64-apple-darwin.tar.gz",
+      "sha256": "02c53c1ab6738f16ceae989864e52ae68a8d654e33d3c007863d554f6e0427ec",
+      "size": 987265,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.5",
+      "binaries": {
+        "csvchk": {
+          "path": "csvchk",
+          "sha256": "a07d604fe5c9b80ae34c265c63123c309d834a790cf2a5672bb05039eac3cf8c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/kyclark/csvchk/releases/download/v0.2.5/csvchk-x86_64-pc-windows-msvc.zip",
+      "sha256": "2dcc872d30493062ff02179b9378efee3242955e43095d133a1f1fd92b14cf47",
+      "size": 853612,
+      "format": "zip",
+      "releaseTag": "v0.2.5",
+      "binaries": {
+        "csvchk.exe": {
+          "path": "csvchk.exe",
+          "sha256": "54b1d696b2998f5e2e3a4425aa78a907f821c81201bb97311b3721d146d09c7d"
+        }
+      }
+    }
+  }
+}
