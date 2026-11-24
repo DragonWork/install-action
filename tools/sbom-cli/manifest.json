@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "sbom-cli",
-  "version": "0.21.1",
+  "version": "0.21.2",
   "repository": "scm-rs/csaf-walker",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/sbom-x86_64-unknown-linux-musl",
-      "sha256": "9855b52d6d065f3d702401179c819f992b3c274320016aac54c8ad7a86c240b4",
-      "size": 52549848,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/sbom-x86_64-unknown-linux-musl",
+      "sha256": "e2b32f2535a5d8a30a5502f909bae55c551402a1660ab929b0d42141cb817f4c",
+      "size": 52411976,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "sbom": {
           "path": "sbom-x86_64-unknown-linux-musl",
-          "sha256": "9855b52d6d065f3d702401179c819f992b3c274320016aac54c8ad7a86c240b4"
+          "sha256": "e2b32f2535a5d8a30a5502f909bae55c551402a1660ab929b0d42141cb817f4c"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/sbom-aarch64-unknown-linux-musl",
-      "sha256": "e4e5aa6b8d0c10e7c3109e10b9e5acf427c0243a1a93d4e5e6c6a7b9fe0fe4c5",
-      "size": 49625528,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/sbom-aarch64-unknown-linux-musl",
+      "sha256": "f3d625424e1fdb772687e52da2ef86cf7f9e8f2466f97838bd38faf86676c83d",
+      "size": 49624752,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "sbom": {
           "path": "sbom-aarch64-unknown-linux-musl",
-          "sha256": "e4e5aa6b8d0c10e7c3109e10b9e5acf427c0243a1a93d4e5e6c6a7b9fe0fe4c5"
+          "sha256": "f3d625424e1fdb772687e52da2ef86cf7f9e8f2466f97838bd38faf86676c83d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/sbom-x86_64-apple-darwin",
-      "sha256": "cae927c1f4e9691ed37286978186fa528b6ab9bae8405d5b9320a79230243eff",
-      "size": 45777128,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/sbom-x86_64-apple-darwin",
+      "sha256": "365056437fcc4394a16f08db95054d3f89ebc66b6e3397076580b5e7d1919524",
+      "size": 45522296,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "sbom": {
           "path": "sbom-x86_64-apple-darwin",
-          "sha256": "cae927c1f4e9691ed37286978186fa528b6ab9bae8405d5b9320a79230243eff"
+          "sha256": "365056437fcc4394a16f08db95054d3f89ebc66b6e3397076580b5e7d1919524"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/sbom-aarch64-apple-darwin",
-      "sha256": "c9efa2b10ba070c89768fa615a370f0920d32084a1cc9042ecd76cce044ee8ee",
-      "size": 42790800,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/sbom-aarch64-apple-darwin",
+      "sha256": "741fb5cf42692c1f98a810545bce7e423a47ab1385ddd229b3c4dbc50f6ba251",
+      "size": 42686320,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "sbom": {
           "path": "sbom-aarch64-apple-darwin",
-          "sha256": "c9efa2b10ba070c89768fa615a370f0920d32084a1cc9042ecd76cce044ee8ee"
+          "sha256": "741fb5cf42692c1f98a810545bce7e423a47ab1385ddd229b3c4dbc50f6ba251"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/sbom-x86_64-pc-windows-msvc.exe",
-      "sha256": "469feb611f2cb057a8debddbcca228052aaffa21763ef84b62035d8b2e26affe",
-      "size": 33890304,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/sbom-x86_64-pc-windows-msvc.exe",
+      "sha256": "62b41c83832a38edd12c88db451b7f4969638c2a944c4bec14bcf85668290d13",
+      "size": 33078272,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "sbom.exe": {
           "path": "sbom-x86_64-pc-windows-msvc.exe",
-          "sha256": "469feb611f2cb057a8debddbcca228052aaffa21763ef84b62035d8b2e26affe"
+          "sha256": "62b41c83832a38edd12c88db451b7f4969638c2a944c4bec14bcf85668290d13"
         }
       }
     }
