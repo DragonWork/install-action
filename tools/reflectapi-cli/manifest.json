@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "reflectapi-cli",
+  "version": "0.26.0",
+  "repository": "thepartly/reflectapi",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/thepartly/reflectapi/releases/download/v0.26.0/reflectapi-cli-x86_64-unknown-linux-musl-v0.26.0.tgz",
+      "sha256": "6d4505c6930347f997c17ae3fcf9d251c00081132513dacc0e897e5453a6fe03",
+      "size": 1975812,
+      "format": "tar.gz",
+      "releaseTag": "v0.26.0",
+      "binaries": {
+        "reflectapi": {
+          "path": "reflectapi",
+          "sha256": "7ec0b6d078c45313f6e6ed3c0a6bf1360f4b42b32e8e5b5defe1eff68d9124fe"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/thepartly/reflectapi/releases/download/v0.26.0/reflectapi-cli-aarch64-unknown-linux-musl-v0.26.0.tgz",
+      "sha256": "443057c8da8c86e0f357f8ffcd51522fbf57a84fa8b8b322094524a779735582",
+      "size": 1843776,
+      "format": "tar.gz",
+      "releaseTag": "v0.26.0",
+      "binaries": {
+        "reflectapi": {
+          "path": "reflectapi",
+          "sha256": "d6cae8b3d2a4229e66ee905ed0eb1e5a2599a8712113ec803c81541378037bd4"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/thepartly/reflectapi/releases/download/v0.26.0/reflectapi-cli-x86_64-apple-darwin-v0.26.0.tgz",
+      "sha256": "83f2c8b7a928f3eec8885bdca68bc3220cbeebb261d1ca8f325bb1abd2b4236a",
+      "size": 1822492,
+      "format": "tar.gz",
+      "releaseTag": "v0.26.0",
+      "binaries": {
+        "reflectapi": {
+          "path": "reflectapi",
+          "sha256": "acbd8666a2891c3a43bb7e252df5a97c6b57a0397f767bee333e15c17e5f681b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/thepartly/reflectapi/releases/download/v0.26.0/reflectapi-cli-aarch64-apple-darwin-v0.26.0.tgz",
+      "sha256": "fb942b9ed8184ec1ae4195d4dfef0dcff7830488983a39aeb59a8b4a12976491",
+      "size": 1696246,
+      "format": "tar.gz",
+      "releaseTag": "v0.26.0",
+      "binaries": {
+        "reflectapi": {
+          "path": "reflectapi",
+          "sha256": "b70d36fe799377722852bbf52f82689c4d8ac65919515b35ef929c3efa2b4259"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/thepartly/reflectapi/releases/download/v0.26.0/reflectapi-cli-x86_64-pc-windows-msvc-v0.26.0.tgz",
+      "sha256": "6c327983cddd15e45ddec40c81c3dbbfc9d9779f82aaa71e7bd4ece363abf02d",
+      "size": 1643603,
+      "format": "tar.gz",
+      "releaseTag": "v0.26.0",
+      "binaries": {
+        "reflectapi.exe": {
+          "path": "reflectapi.exe",
+          "sha256": "230d5fbaeab7ac4c7e3873a62bcff5485b8a12cff47ed7e2b2795927bf829de2"
+        }
+      }
+    }
+  }
+}
