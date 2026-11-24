@@ -1,58 +1,32 @@
 {
   "schema": 1,
   "name": "tetanes",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "repository": "lukexor/tetanes",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.18.0/tetanes-0.18.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "654afbcdc31c09fc9dda3c15cc23230b5d4f72da239408d90d8e97175dbbf759",
-      "size": 11578532,
+      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.19.0/tetanes-0.19.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "db4a20c7c19b7cc1fdd8a41ac0b6cf2fd5531328a9f7d9b9990d906569ec3f14",
+      "size": 13030596,
       "format": "tar.gz",
-      "releaseTag": "tetanes-v0.18.0",
+      "releaseTag": "tetanes-v0.19.0",
       "binaries": {
         "tetanes": {
           "path": "./tetanes",
-          "sha256": "a0b5544b1833ff09279d01e1d34d47d6c704b5dca29d7121139d6f110e67d569"
+          "sha256": "8c071c429e6b4189aa47f508017e609c1efc245abebce1f45affc47985e95d84"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.18.0/tetanes-0.18.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "ee340a494fb86f6598f60926979fd5a89970e0a4617ec5f6247107400e2c7c59",
-      "size": 10870357,
+      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.19.0/tetanes-0.19.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "18ddf4ab8909181cfacc4487140cf82f2540619c7ecb5e3f47bba4a619f0baef",
+      "size": 12201363,
       "format": "tar.gz",
-      "releaseTag": "tetanes-v0.18.0",
+      "releaseTag": "tetanes-v0.19.0",
       "binaries": {
         "tetanes": {
           "path": "./tetanes",
-          "sha256": "228d23268eb7b2b4a5de7283f340079d2e3c06afda6928e85a8e8dbe4ea222a2"
-        }
-      }
-    },
-    "darwin-x64": {
-      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.18.0/tetanes-0.18.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "777fdb64e366dace5039a5d9962e486a021ce0a48d167323a47b0305f1bbc9f4",
-      "size": 10974344,
-      "format": "tar.gz",
-      "releaseTag": "tetanes-v0.18.0",
-      "binaries": {
-        "tetanes": {
-          "path": "TetaNES.app/Contents/MacOS/tetanes",
-          "sha256": "a229488ad4759b2af815c830e46368f45c1eec5b6624fc196f1387556e2e46fe"
-        }
-      }
-    },
-    "darwin-arm64": {
-      "url": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.18.0/tetanes-0.18.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "188d2f26446e7c3d3462e5a95edbe157925d7422a6d9489545f5e91c3de15097",
-      "size": 9979135,
-      "format": "tar.gz",
-      "releaseTag": "tetanes-v0.18.0",
-      "binaries": {
-        "tetanes": {
-          "path": "TetaNES.app/Contents/MacOS/tetanes",
-          "sha256": "4e5feeeb378a2a73e0e711134ea74b69565814cdc803df668c457eaa6e9aeb80"
+          "sha256": "1274a9dd706812e8cc44266a14228575bac6b33f42988c88ccc38252c9d8941b"
         }
       }
     }
