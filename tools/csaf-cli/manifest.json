@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "csaf-cli",
-  "version": "0.21.1",
+  "version": "0.21.2",
   "repository": "scm-rs/csaf-walker",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/csaf-x86_64-unknown-linux-musl",
-      "sha256": "167a7cb044eb03c2f801fdf2ac90bfb66c56b308f81ce378b86218966ac32e8b",
-      "size": 68299600,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/csaf-x86_64-unknown-linux-musl",
+      "sha256": "2953c5587389cfaf38a7d682cb76c0d400459cf54a53419de45e4406c725a5e2",
+      "size": 68842832,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "csaf": {
           "path": "csaf-x86_64-unknown-linux-musl",
-          "sha256": "167a7cb044eb03c2f801fdf2ac90bfb66c56b308f81ce378b86218966ac32e8b"
+          "sha256": "2953c5587389cfaf38a7d682cb76c0d400459cf54a53419de45e4406c725a5e2"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/csaf-aarch64-unknown-linux-musl",
-      "sha256": "246b1049209fc244b133c262580ef9ff944f82b56f863c046504c46ba357856d",
-      "size": 65351800,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/csaf-aarch64-unknown-linux-musl",
+      "sha256": "87c7cff268fbe8e9b019e3737422e71e7171d62281b2f269f7bb9872d7149e72",
+      "size": 65964888,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "csaf": {
           "path": "csaf-aarch64-unknown-linux-musl",
-          "sha256": "246b1049209fc244b133c262580ef9ff944f82b56f863c046504c46ba357856d"
+          "sha256": "87c7cff268fbe8e9b019e3737422e71e7171d62281b2f269f7bb9872d7149e72"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/csaf-x86_64-apple-darwin",
-      "sha256": "17742487c6111f6274bfe09dbf8353a0c958bb27d7c1a873553a19991d3dbe93",
-      "size": 60134808,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/csaf-x86_64-apple-darwin",
+      "sha256": "c519ecae4546e5b1a78a9326f54ce24fa0ccff24232313e07f9560410c49386f",
+      "size": 60501776,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "csaf": {
           "path": "csaf-x86_64-apple-darwin",
-          "sha256": "17742487c6111f6274bfe09dbf8353a0c958bb27d7c1a873553a19991d3dbe93"
+          "sha256": "c519ecae4546e5b1a78a9326f54ce24fa0ccff24232313e07f9560410c49386f"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/csaf-aarch64-apple-darwin",
-      "sha256": "c4c12f1920ea0e76529b4b6d6510f2dcc7168b7feabae02c360312656ffcd1f2",
-      "size": 57385936,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/csaf-aarch64-apple-darwin",
+      "sha256": "4fe9963a36152a09367a5df6356421c794d60141338ca8c4a26e4425a9e76c5d",
+      "size": 57879264,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "csaf": {
           "path": "csaf-aarch64-apple-darwin",
-          "sha256": "c4c12f1920ea0e76529b4b6d6510f2dcc7168b7feabae02c360312656ffcd1f2"
+          "sha256": "4fe9963a36152a09367a5df6356421c794d60141338ca8c4a26e4425a9e76c5d"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.1/csaf-x86_64-pc-windows-msvc.exe",
-      "sha256": "7d200210ec7ab84246cd2b6e3d7f238321e911991a5d0fc8943b79301f23355c",
-      "size": 47531520,
+      "url": "https://github.com/scm-rs/csaf-walker/releases/download/v0.21.2/csaf-x86_64-pc-windows-msvc.exe",
+      "sha256": "ed7cacee66f45ce5cf37f047ddb1b9bc719eb2059283b88795065ba8febebeb3",
+      "size": 47858176,
       "format": "binary",
-      "releaseTag": "v0.21.1",
+      "releaseTag": "v0.21.2",
       "binaries": {
         "csaf.exe": {
           "path": "csaf-x86_64-pc-windows-msvc.exe",
-          "sha256": "7d200210ec7ab84246cd2b6e3d7f238321e911991a5d0fc8943b79301f23355c"
+          "sha256": "ed7cacee66f45ce5cf37f047ddb1b9bc719eb2059283b88795065ba8febebeb3"
         }
       }
     }
