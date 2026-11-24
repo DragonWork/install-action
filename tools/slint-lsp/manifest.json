@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "slint-lsp",
-  "version": "1.19.0",
+  "version": "1.19.1",
   "repository": "slint-ui/slint",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-lsp-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "a9e8a2ba904965c5cc01ca783aee44fcac91354e047b78997136ad3d3dde4dff",
-      "size": 21634711,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.1/slint-lsp-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "a8a1aa5a023a3eaef4b97394db3e8037adf18a4bf14c48bf8dd961e0a0eb78ff",
+      "size": 21622552,
       "format": "tar.gz",
-      "releaseTag": "v1.19.0",
+      "releaseTag": "v1.19.1",
       "binaries": {
         "slint-lsp": {
           "path": "slint-lsp/slint-lsp",
-          "sha256": "bf5feb934008c6ae75ffe7a2da65242a6f6daff91f270a45fbc65d3f43dd07a0"
+          "sha256": "13c14e2ce657bbb59a979a79673d152590c39da44b662dd2bfc45dfa7527d1da"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-lsp-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "cc007d992a63955dfe606cc3336537ecd22c4422b15dffe2e05f7e9233b698f4",
-      "size": 20741197,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.1/slint-lsp-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "d541b4a281ee3f387d99cbb2d9fbaaf11c3084663d0541f7fedd4283eac6efaa",
+      "size": 20733294,
       "format": "tar.gz",
-      "releaseTag": "v1.19.0",
+      "releaseTag": "v1.19.1",
       "binaries": {
         "slint-lsp": {
           "path": "slint-lsp-aarch64-unknown-linux-gnu/slint-lsp",
-          "sha256": "3b596fec2233261de8b070ee9f52c009a76ce3f96048fa1cb927d4e8447dafef"
+          "sha256": "2c5289d5c5b8cec5a1e51641cabc68a8949b008ac7d49ba77d8b14b7eb98388b"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-lsp-macos.tar.gz",
-      "sha256": "4f72c818e012321ed638cd40e498bdcf7a9ac36fa4ed01914d7dd814fccaedeb",
-      "size": 34722903,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.1/slint-lsp-macos.tar.gz",
+      "sha256": "4cb613b99d38ed76346a440530dd793128229cab911b1338ac08f4763b79b2c2",
+      "size": 34654568,
       "format": "tar.gz",
-      "releaseTag": "v1.19.0",
+      "releaseTag": "v1.19.1",
       "binaries": {
         "slint-lsp": {
           "path": "slint-lsp/slint-lsp",
-          "sha256": "c1bf59105945a64ece04fb2eb9a3a2c22ee8c0dffb2362fdc0a4d08c2c9076e0"
+          "sha256": "b2d86b2e9fdac207ff241023ebf574591a5d90fe744ef9d931495b8373a8d1fd"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-lsp-macos.tar.gz",
-      "sha256": "4f72c818e012321ed638cd40e498bdcf7a9ac36fa4ed01914d7dd814fccaedeb",
-      "size": 34722903,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.1/slint-lsp-macos.tar.gz",
+      "sha256": "4cb613b99d38ed76346a440530dd793128229cab911b1338ac08f4763b79b2c2",
+      "size": 34654568,
       "format": "tar.gz",
-      "releaseTag": "v1.19.0",
+      "releaseTag": "v1.19.1",
       "binaries": {
         "slint-lsp": {
           "path": "slint-lsp/slint-lsp",
-          "sha256": "c1bf59105945a64ece04fb2eb9a3a2c22ee8c0dffb2362fdc0a4d08c2c9076e0"
+          "sha256": "b2d86b2e9fdac207ff241023ebf574591a5d90fe744ef9d931495b8373a8d1fd"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-lsp-x86_64-pc-windows-msvc.zip",
-      "sha256": "332eb0e37c589e4fa689c7d150012eb82c217886c165c79e95b5b3928e6d8ea9",
-      "size": 17695477,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.1/slint-lsp-x86_64-pc-windows-msvc.zip",
+      "sha256": "7a70df2576e76b1e5335ae661763fc90af657d4e105f528f650a74ec7c1e93e0",
+      "size": 17666771,
       "format": "zip",
-      "releaseTag": "v1.19.0",
+      "releaseTag": "v1.19.1",
       "binaries": {
         "slint-lsp.exe": {
           "path": "slint-lsp.exe",
-          "sha256": "3a8be4a5f572f03eba1fee8e8a93de2cfdbc8ea307afc83fecf8045f1d957c76"
+          "sha256": "388629cfa02fc336f4fa1a36574cc508a26c53e48217bdaf8074b8979e4f4d8d"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.0/slint-lsp-aarch64-pc-windows-msvc.zip",
-      "sha256": "beafe086c43a65f2e805eeb419e1156a201768904692f95ff92ebf24e8aaf9b6",
-      "size": 16517053,
+      "url": "https://github.com/slint-ui/slint/releases/download/v1.19.1/slint-lsp-aarch64-pc-windows-msvc.zip",
+      "sha256": "bc68c2a0380fbeb0b0d69016edc89e2b418ef6cf56471aa60617d6879b047dab",
+      "size": 16502573,
       "format": "zip",
-      "releaseTag": "v1.19.0",
+      "releaseTag": "v1.19.1",
       "binaries": {
         "slint-lsp.exe": {
           "path": "slint-lsp.exe",
-          "sha256": "e11d6594b75473e5d53025d6adbedf72211ac3abfc1cc7dfa9e6552c8f8ec749"
+          "sha256": "6c35b83bbf77ca740cf601dfe4f0f6c88367263ebbe49b7d500674d4b35855b2"
         }
       }
     }
