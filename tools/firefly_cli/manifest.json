@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "firefly_cli",
-  "version": "0.20.2",
+  "version": "0.20.3",
   "repository": "firefly-zero/firefly-cli",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.2/firefly_cli-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "f30fcc5c1f025ff78608b194b32c7579013ebc344cb2451dfd46de28420f44f2",
-      "size": 4028474,
+      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.3/firefly_cli-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "249fbcdc16b445fcd41cf0a8f21fdc60a9c4632674ab29889a0343e0fa50c523",
+      "size": 4037609,
       "format": "tar.gz",
-      "releaseTag": "0.20.2",
+      "releaseTag": "0.20.3",
       "binaries": {
         "firefly_cli": {
           "path": "./firefly_cli",
-          "sha256": "24e86fb6dc135f69da269c550de4e2bd189757341d4f883d89344b0b9e31c41d"
+          "sha256": "44b78ee131822bcb1188092c409763db09905233af343d768d81ac02b1001fb2"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.2/firefly_cli-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "3414f4b2ab8dfd0d003e2a9eadab93f6ef92fc8edc2ee2caf037a0acb0180b0b",
-      "size": 3866422,
+      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.3/firefly_cli-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "708105bb88c9e64597c20a43161fa9467986f46bf9752ded11aea533ef29f762",
+      "size": 3929612,
       "format": "tar.gz",
-      "releaseTag": "0.20.2",
+      "releaseTag": "0.20.3",
       "binaries": {
         "firefly_cli": {
           "path": "./firefly_cli",
-          "sha256": "bd8eb2045a2a33d861556c138462b22b293159e1f1401bdde83df285030396be"
+          "sha256": "00b7f28682f7d88521bbef1d72034cc9b091cf2ac9d70631422d545fadb99f9b"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.2/firefly_cli-x86_64-apple-darwin.tar.gz",
-      "sha256": "08f61d600b25031ef33bac3e72c2ed35d3fd522be39f6bc3021b03309bed3bfe",
-      "size": 3557044,
+      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.3/firefly_cli-x86_64-apple-darwin.tar.gz",
+      "sha256": "e34dcebf6b28b1305378fa89bddda63733c8504f343893481ca2301e025ab5a4",
+      "size": 3581126,
       "format": "tar.gz",
-      "releaseTag": "0.20.2",
+      "releaseTag": "0.20.3",
       "binaries": {
         "firefly_cli": {
           "path": "./firefly_cli",
-          "sha256": "e3f757666d2e276b75ae25e43b1d0673cc83908d4ee82407e8c12a606305d791"
+          "sha256": "6f9d26df81f1525da9850938fd3c310ca38bbf30bae7364c0c48e0eafc66f34e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.2/firefly_cli-aarch64-apple-darwin.tar.gz",
-      "sha256": "b8266961352c491a111dd658ff90fc13a5701ac7c0f24e8887592e44ab64e41d",
-      "size": 3366165,
+      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.3/firefly_cli-aarch64-apple-darwin.tar.gz",
+      "sha256": "dd5680967c621c590c79ebd2075ddd2c02bed45fa8c5b86aef9310aaaaab6b2f",
+      "size": 3406811,
       "format": "tar.gz",
-      "releaseTag": "0.20.2",
+      "releaseTag": "0.20.3",
       "binaries": {
         "firefly_cli": {
           "path": "./firefly_cli",
-          "sha256": "2fbeb321ee95c55174c07096620476e8d25bf289856972bd2346ad9b8200577e"
+          "sha256": "9448041d72f74d0911d6a4afb954f19b35b6d39eaa33dcfe68668c18d2efab64"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.2/firefly_cli-x86_64-pc-windows-msvc.zip",
-      "sha256": "d47f1cf93586fc561c99510ab0427a0dfbdb421ae5c21a09379658b9c1a07348",
-      "size": 2981255,
+      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.3/firefly_cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "f234d0031c7f9be8e781d48d73f06cf1cff368cfffb1ffcbb9a791edc95153d0",
+      "size": 3017435,
       "format": "zip",
-      "releaseTag": "0.20.2",
+      "releaseTag": "0.20.3",
       "binaries": {
         "firefly_cli.exe": {
           "path": "firefly_cli.exe",
-          "sha256": "fd2f3a541b1709c1c90ca8eda70932c12ddb5eb583e1b387239ec27b3131b789"
+          "sha256": "08e5998e0a3d6f7f4dfc2120b37930eb68ecec75e7520acdbe10d0fd0695a976"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.2/firefly_cli-aarch64-pc-windows-msvc.zip",
-      "sha256": "bdee89a6367159441edc5c9f01d61feb1da874f2ba43f50a25dfe8eaad6c9117",
-      "size": 2818827,
+      "url": "https://github.com/firefly-zero/firefly-cli/releases/download/0.20.3/firefly_cli-aarch64-pc-windows-msvc.zip",
+      "sha256": "0e0a99a676e7c7327f35fd16afbf74878e143a189f7e3af20577fa556498fae2",
+      "size": 2842085,
       "format": "zip",
-      "releaseTag": "0.20.2",
+      "releaseTag": "0.20.3",
       "binaries": {
         "firefly_cli.exe": {
           "path": "firefly_cli.exe",
-          "sha256": "781a65a30c9d908cecfee29d275f2f991adf8ddb9146814f101f5c6acfaa51f3"
+          "sha256": "53d07e5e5c4bcbaa8b7523ceae99984adeaa1bc0afd5713aa44a789440d45311"
         }
       }
     }
