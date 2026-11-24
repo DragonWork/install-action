@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "solar-compiler",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": "paradigmxyz/solar",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.0/solar-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "e01eece887e28438a2398e9ec17f1038cfd2b2f93e721382a9b6422020a7fa66",
-      "size": 7790545,
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.1/solar-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "7de1b3c9fd7e20b8b2383bc5f4f369a262f09a74164c9698f45c28b397ff2bb2",
+      "size": 8618355,
       "format": "tar.gz",
-      "releaseTag": "v0.3.0",
+      "releaseTag": "v0.3.1",
       "binaries": {
         "solar": {
           "path": "solar-x86_64-unknown-linux-musl/solar",
-          "sha256": "fb4a0aaa5a765ae045ef003c68982420f78f7629c40b1497d2bd0fcae4945fc2"
+          "sha256": "87d110b3425ded4117cb119826d5ffc6d997b8d2ad251c4e32bfd9c08ca788d9"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.0/solar-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "8da0507426756ec175d281d421ea4fb44d02e3fb9f46ff8ff79802c5d547e95c",
-      "size": 7026054,
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.1/solar-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "e4c86ecc9ad5f27540835ac7ac70a32372fa7d91bfaedb3d6e71470ec2de5f67",
+      "size": 7661399,
       "format": "tar.gz",
-      "releaseTag": "v0.3.0",
+      "releaseTag": "v0.3.1",
       "binaries": {
         "solar": {
           "path": "solar-aarch64-unknown-linux-gnu/solar",
-          "sha256": "4498731b6b113a91383a9873cee595ec2b9631ebccc38c8bad06a1a37d0dfef4"
+          "sha256": "ace19450562a787bbe7b2f337c39fc5b57e33cc816f3e52e60b8008f9b49328d"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.0/solar-x86_64-apple-darwin.tar.gz",
-      "sha256": "df93b34f1568d4bd7bd2ddf46d5d5056be76166c99d008c4186166c2dbe8238a",
-      "size": 7335064,
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.1/solar-x86_64-apple-darwin.tar.gz",
+      "sha256": "da8273c3a220599b574b2344d32f3343d30432bea038e7928819da3e62f1a292",
+      "size": 7995969,
       "format": "tar.gz",
-      "releaseTag": "v0.3.0",
+      "releaseTag": "v0.3.1",
       "binaries": {
         "solar": {
           "path": "solar-x86_64-apple-darwin/solar",
-          "sha256": "0dd6754ba28f8830c849a437b76b9b175038abfeb196dde7b3f50d46593fba3e"
+          "sha256": "b70e0be87a1b76e60536a4e2e66a256265acbe636c105674b9ba4c8a64329738"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.0/solar-aarch64-apple-darwin.tar.gz",
-      "sha256": "6d213a61324b77d55868795b516661c84ec77b41c60befddb4f0cb7a0168d0b1",
-      "size": 6655609,
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.1/solar-aarch64-apple-darwin.tar.gz",
+      "sha256": "820a253db5d65b873bce89191c57f44fcdbfca254c9510e293c14505925db678",
+      "size": 7265210,
       "format": "tar.gz",
-      "releaseTag": "v0.3.0",
+      "releaseTag": "v0.3.1",
       "binaries": {
         "solar": {
           "path": "solar-aarch64-apple-darwin/solar",
-          "sha256": "a5945a750b613cf7615d7c899c5e9443222193449f43f17be89c7580ed28fde3"
+          "sha256": "8ed4b2c2123659d18a572b54d5ed3cc2a7a0558bcf1fbc6078d671eb70bcc6b0"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.0/solar-x86_64-pc-windows-msvc.zip",
-      "sha256": "d3c75bc2d28c330f3c83b6a122a5490c4ad01d2afe64f4598238e75434affc0d",
-      "size": 6331253,
+      "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.1/solar-x86_64-pc-windows-msvc.zip",
+      "sha256": "e83a1143e2a42f4da48a947eac155076797b732f822a039ec631167d129933ed",
+      "size": 6908545,
       "format": "zip",
-      "releaseTag": "v0.3.0",
+      "releaseTag": "v0.3.1",
       "binaries": {
         "solar.exe": {
           "path": "solar.exe",
-          "sha256": "0d635ae48017a0dc943ea182c346e7b9eb245a313c21bbf741402639061995ef"
+          "sha256": "e069bacd197dfec565a6e4bb0576c8f4dd69f7b270c2add2b3b943045b89929b"
         }
       }
     }
