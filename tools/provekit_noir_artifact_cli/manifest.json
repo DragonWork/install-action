@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "provekit_noir_artifact_cli",
+  "version": "1.0.0",
+  "repository": "noir-lang/noir",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/noir-lang/noir/releases/download/v1.0.0/noir-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "4574920052e483b5fb66ab8b892f27ed2be715b8be884b161c4d68b9f7dcabbe",
+      "size": 33406076,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "noir-execute": {
+          "path": "./noir-execute",
+          "sha256": "1f272298ea8caa80f141eaae2c74dde670d73558e069735b1f9db09ddc336554"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/noir-lang/noir/releases/download/v1.0.0/noir-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "b4ad6521a580c576548f1fc8240d7f2b245ab569a9e8dde33ec0dd6b8cd55056",
+      "size": 31726944,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "noir-execute": {
+          "path": "./noir-execute",
+          "sha256": "2b6b0a7f5c65ab0753483dc117f3bde1d4bde91413ab98530a106f6278e4fab2"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/noir-lang/noir/releases/download/v1.0.0/noir-x86_64-apple-darwin.tar.gz",
+      "sha256": "a68f08c656d7b2e0160feee4194feea790d49e582b40b873a72dc8473d73d64f",
+      "size": 30008205,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "noir-execute": {
+          "path": "noir-execute",
+          "sha256": "7f6d601e27f7a3a7f4eb38f8c53baef8ee36099a4c8b39244a5484fc42b6fd23"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/noir-lang/noir/releases/download/v1.0.0/noir-aarch64-apple-darwin.tar.gz",
+      "sha256": "ac2166fc06fe289fd2524f9eb9da228550159c976e88c1013bfc6d0e0b4a2309",
+      "size": 28435655,
+      "format": "tar.gz",
+      "releaseTag": "v1.0.0",
+      "binaries": {
+        "noir-execute": {
+          "path": "noir-execute",
+          "sha256": "ffb509644533b0c03dd9f0b850af9e42f0ff0cdf346830e21ea044ba9fb2ed6c"
+        }
+      }
+    }
+  }
+}
