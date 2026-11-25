@@ -1,19 +1,32 @@
 {
   "schema": 1,
   "name": "bashrs",
-  "version": "7.4.5",
+  "version": "7.5.0",
   "repository": "paiml/bashrs",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/paiml/bashrs/releases/download/v7.4.5/bashrs-v7.4.5-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "6a572d75ee57c43cc144d3fa811a7d785ef6672e85b2e74dc6d2c1f09959da60",
-      "size": 4134180,
+      "url": "https://github.com/paiml/bashrs/releases/download/v7.5.0/bashrs-v7.5.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "092a6c1fab8529045cd6077a4f19577d2b0206335d39878ed661588b795603a6",
+      "size": 4254168,
       "format": "tar.gz",
-      "releaseTag": "v7.4.5",
+      "releaseTag": "v7.5.0",
       "binaries": {
         "bashrs": {
-          "path": "bashrs-v7.4.5-x86_64-unknown-linux-musl/bashrs",
-          "sha256": "777001a510c91d12137207f72f7f7dd11291b3114b9d4f762fad56c220b50783"
+          "path": "bashrs-v7.5.0-x86_64-unknown-linux-musl/bashrs",
+          "sha256": "ad6f9e97f671b9f8600a75809045b3d1f1c3282466ae0b075ed7b7739f2b8b99"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/paiml/bashrs/releases/download/v7.5.0/bashrs-v7.5.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "4df1b8ba3a61c8d6fc8bfe28b83eda9e3e9f1d32118cf0755635caa08543fdae",
+      "size": 4075153,
+      "format": "tar.gz",
+      "releaseTag": "v7.5.0",
+      "binaries": {
+        "bashrs": {
+          "path": "bashrs-v7.5.0-aarch64-unknown-linux-musl/bashrs",
+          "sha256": "5f8c1f58999276707ceb7e296c0ecfebc13f542f82dd401f62e248df580fdaf8"
         }
       }
     }
