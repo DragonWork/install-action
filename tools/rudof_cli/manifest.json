@@ -1,36 +1,36 @@
 {
   "schema": 1,
   "name": "rudof_cli",
-  "version": "0.3.39",
+  "version": "0.3.42",
   "repository": "rudof-project/rudof",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/rudof-project/rudof/releases/download/0.3.39/rudof_0.3.39_amd64.deb",
-      "sha256": "72ea5e3b54fa1060b8d125cda4d1533f5fa671e313ec1509d363c1d09647f1b4",
-      "size": 24381532,
+      "url": "https://github.com/rudof-project/rudof/releases/download/0.3.42/rudof_0.3.42_amd64.deb",
+      "sha256": "f9371be538678d91e00124ca5dd1e916e6f69b2e2f15e4d2adbca11d7e02f674",
+      "size": 24504372,
       "format": "deb",
-      "releaseTag": "0.3.39",
+      "releaseTag": "0.3.42",
       "binaries": {
         "rudof": {
           "path": "./usr/bin/rudof",
-          "sha256": "267a1cbe1eb6d80312a2014d1cc53c6076c2b23f7aa6acf12a25f49cc5dc4738"
+          "sha256": "a4beae425797d4f127609b67083a9fe99d8ef6a16a7445807893d0cf36437b1f"
         },
         "rudof-completions": {
           "path": "./usr/bin/rudof-completions",
-          "sha256": "a88b2ee79a48d301322dfc4cd94c9ad093233745ea2a3efb2c98bc3379add25d"
+          "sha256": "4530d5ea484e7d2809cc0ea7e912641c547f41a9df0d3c767fc3ef95244aab58"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/rudof-project/rudof/releases/download/0.3.39/rudof_0.3.39_x86_64_windows_msvc.exe",
-      "sha256": "41a7f62ba628be3f976fe0948232096f1156f08b8b3fd29bd78b79b990300cc1",
-      "size": 61080576,
+      "url": "https://github.com/rudof-project/rudof/releases/download/0.3.42/rudof_0.3.42_x86_64_windows_msvc.exe",
+      "sha256": "966507a6a75635a5765078453a1fda996296262b496724d4a98f596b43f32e4f",
+      "size": 61513728,
       "format": "binary",
-      "releaseTag": "0.3.39",
+      "releaseTag": "0.3.42",
       "binaries": {
         "rudof.exe": {
-          "path": "rudof_0.3.39_x86_64_windows_msvc.exe",
-          "sha256": "41a7f62ba628be3f976fe0948232096f1156f08b8b3fd29bd78b79b990300cc1"
+          "path": "rudof_0.3.42_x86_64_windows_msvc.exe",
+          "sha256": "966507a6a75635a5765078453a1fda996296262b496724d4a98f596b43f32e4f"
         }
       }
     }
