@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "name": "nsh-windows-app",
+  "version": "0.7.0",
+  "repository": "longbridge/nsh",
+  "artifacts": {
+    "win32-x64": {
+      "url": "https://github.com/longbridge/nsh/releases/download/v0.7.0/nsh-windows-x86_64.zip",
+      "sha256": "1c6ef86afe754198209fd452625f20f32077ecfca3a4431f960a411b0e51d8f3",
+      "size": 85168834,
+      "format": "zip",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "nsh-windows-app.exe": {
+          "path": "nsh/runtime/windows/nsh-windows-app.exe",
+          "sha256": "8968e0e98d4e50b4e1cf204d30daffa5434d54f140cc23c71c8ca0583fd34970"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/longbridge/nsh/releases/download/v0.7.0/nsh-windows-arm64.zip",
+      "sha256": "dbbc3063c71f2b5762a4c65bbcbe6a855f6adf4aa56ccc4479b0b96c5fcfa4e8",
+      "size": 79767618,
+      "format": "zip",
+      "releaseTag": "v0.7.0",
+      "binaries": {
+        "nsh-windows-app.exe": {
+          "path": "nsh/runtime/windows/nsh-windows-app.exe",
+          "sha256": "f29f7570b6a2266c555bffb63dc80b1758868f0447601c032f78090b62817689"
+        }
+      }
+    }
+  }
+}
