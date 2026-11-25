@@ -1,19 +1,32 @@
 {
   "schema": 1,
   "name": "starknet-sierra-compile",
-  "version": "2.21.0",
+  "version": "2.22.0",
   "repository": "starkware-libs/cairo",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/starkware-libs/cairo/releases/download/v2.21.0/release-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v2.21.0",
-      "sha256": "bddfff44fdc9eeceb7010374ee61dbdea349850c3a284357b7c9c7b9d1a22058",
-      "size": 53136131,
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v2.22.0/release-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "d428189bdfb526a45636de92134b43cb685847ecdb7e6ad5f1321138ed36f86c",
+      "size": 53380693,
       "format": "tar.gz",
+      "releaseTag": "v2.22.0",
       "binaries": {
         "starknet-sierra-compile": {
           "path": "cairo/bin/starknet-sierra-compile",
-          "sha256": "8ee7052e8097f0ccd7cf1478a278593636d696fd87a927e67ad0a8c89db15401"
+          "sha256": "7a241033460758765a83b955834160b1a1faf5914cd7fd3d368bcd25df6a6b1f"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v2.22.0/release-aarch64-apple-darwin.tar",
+      "sha256": "ff32f139d050577720c6d2b0eb5eb82f7f6b317f03ccb67d8299690e98925bc7",
+      "size": 46476398,
+      "format": "tar",
+      "releaseTag": "v2.22.0",
+      "binaries": {
+        "starknet-sierra-compile": {
+          "path": "cairo/bin/starknet-sierra-compile",
+          "sha256": "19f4a9fe1af62ce89062359a5fb9b6db86f2192335c05719495427d262342297"
         }
       }
     }
