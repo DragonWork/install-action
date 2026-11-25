@@ -1,58 +1,71 @@
 {
   "schema": 1,
   "name": "vortex-tui",
-  "version": "0.93.0",
+  "version": "0.94.0",
   "repository": "vortex-data/vortex",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/vortex-data/vortex/releases/download/0.93.0/vx-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "7ea329e1f6a97a61754d74c34f4ef9e0693b43c9e13349fe61fda6dc19c848ec",
-      "size": 37186954,
+      "url": "https://github.com/vortex-data/vortex/releases/download/0.94.0/vx-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "a2ce3197db5efabdd47322f616f851d97cde3f66d48cf67226a9d9bb7f3856ab",
+      "size": 40775394,
       "format": "tar.gz",
-      "releaseTag": "0.93.0",
+      "releaseTag": "0.94.0",
       "binaries": {
         "vx": {
           "path": "vx",
-          "sha256": "bb46550d9bc86e7b6f1b54f126c5437724a2fa5feadf3e2f6bb18714b0d74fc5"
+          "sha256": "fdaf14fe3c315f1c004670a10b6f4f06512ddc0fc5e7891ff785fecea83eed29"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/vortex-data/vortex/releases/download/0.93.0/vx-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "e691aa6506995eb70034867fa00cfaf67c833476e9c9bb2cfcbb494a913f1e1d",
-      "size": 35336753,
+      "url": "https://github.com/vortex-data/vortex/releases/download/0.94.0/vx-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "b469f04efd0f803568d509733c63df49876747e11c3338c8354ffc651ece9c9f",
+      "size": 38724390,
       "format": "tar.gz",
-      "releaseTag": "0.93.0",
+      "releaseTag": "0.94.0",
       "binaries": {
         "vx": {
           "path": "vx",
-          "sha256": "0963fbc23437ac693c0989cc2446ba25a2b2add842c5bbfdca13d445e30f56bb"
+          "sha256": "5d5dc33d4af5e898dfaea1e315cd1b63624fd4065d073fc641aad7b6312aaa24"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/vortex-data/vortex/releases/download/0.93.0/vx-x86_64-apple-darwin.tar.gz",
-      "sha256": "7677a900223a23369e14b0a17c6b12188a2b65c99d9ff4e6261736211b937561",
-      "size": 39000937,
+      "url": "https://github.com/vortex-data/vortex/releases/download/0.94.0/vx-x86_64-apple-darwin.tar.gz",
+      "sha256": "4e8992f34f82ea4242c335693b530fd8a5a26c0209e8fa9eb6ec8f5198b2d814",
+      "size": 42825917,
       "format": "tar.gz",
-      "releaseTag": "0.93.0",
+      "releaseTag": "0.94.0",
       "binaries": {
         "vx": {
           "path": "vx",
-          "sha256": "d17cba0e94c82f95d8a51121783ab6fedae1921f30a0316dab85cad9c8bee3cc"
+          "sha256": "c26c01d28dbcc792b65fb592dbdc5f85a158c9fbf4fbbf1b6dad96152d71184e"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/vortex-data/vortex/releases/download/0.93.0/vx-aarch64-apple-darwin.tar.gz",
-      "sha256": "b5c04c0c44768c0f5b54c0fab28113c7d595e8b35e1693e5f5a0bbebbb333985",
-      "size": 37170943,
+      "url": "https://github.com/vortex-data/vortex/releases/download/0.94.0/vx-aarch64-apple-darwin.tar.gz",
+      "sha256": "884dc9c92954263fc6f3cb59779e747efbca9b9d71dc704829b6f56e7fd80e27",
+      "size": 40612207,
       "format": "tar.gz",
-      "releaseTag": "0.93.0",
+      "releaseTag": "0.94.0",
       "binaries": {
         "vx": {
           "path": "vx",
-          "sha256": "c62c817dd1b0429c53929c0a47c45fc84fb9a0ebaa831dbe9a43262813c05bf5"
+          "sha256": "0e259ee2c06f28722b06e726c20ddb2cd92c25e154ab0c0a36b404c81eeca2a1"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/vortex-data/vortex/releases/download/0.94.0/vx-x86_64-pc-windows-msvc.zip",
+      "sha256": "403c3c9923465b33ced902b8d8db64d142b2a5481002118d141fa7980cd5e19f",
+      "size": 44073163,
+      "format": "zip",
+      "releaseTag": "0.94.0",
+      "binaries": {
+        "vx.exe": {
+          "path": "vx.exe",
+          "sha256": "55c723fc72fb75bba7a657fda1e840f5a63ea3ac6a0893c0c87006cbca369227"
         }
       }
     }
