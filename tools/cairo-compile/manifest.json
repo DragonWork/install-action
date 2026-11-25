@@ -1,19 +1,32 @@
 {
   "schema": 1,
   "name": "cairo-compile",
-  "version": "2.21.0",
+  "version": "2.22.0",
   "repository": "starkware-libs/cairo",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/starkware-libs/cairo/releases/download/v2.21.0/release-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v2.21.0",
-      "sha256": "bddfff44fdc9eeceb7010374ee61dbdea349850c3a284357b7c9c7b9d1a22058",
-      "size": 53136131,
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v2.22.0/release-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "d428189bdfb526a45636de92134b43cb685847ecdb7e6ad5f1321138ed36f86c",
+      "size": 53380693,
       "format": "tar.gz",
+      "releaseTag": "v2.22.0",
       "binaries": {
         "cairo-compile": {
           "path": "cairo/bin/cairo-compile",
-          "sha256": "e6a90b109384f5217225ce8158cc3ddd6924e88d58f72bba87f12c758f0e7200"
+          "sha256": "bb391d14af95e478fe6f0e1a537a85db6f1baffbfbd330d9dc4daedbc8a78dfa"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/starkware-libs/cairo/releases/download/v2.22.0/release-aarch64-apple-darwin.tar",
+      "sha256": "ff32f139d050577720c6d2b0eb5eb82f7f6b317f03ccb67d8299690e98925bc7",
+      "size": 46476398,
+      "format": "tar",
+      "releaseTag": "v2.22.0",
+      "binaries": {
+        "cairo-compile": {
+          "path": "cairo/bin/cairo-compile",
+          "sha256": "d96890010627f7cfad3ed0ad073329acbe9a464057af3bb38e124a843b306fa5"
         }
       }
     }
