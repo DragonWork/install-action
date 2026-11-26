@@ -1,58 +1,84 @@
 {
   "schema": 1,
   "name": "brush-shell",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "repository": "reubeno/brush",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.4.0/brush-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "brush-shell-v0.4.0",
-      "sha256": "7397aa2cecef43ed38070912b6d865fdbe23dc08fda2d6148d8cee8dc12d15ee",
-      "size": 3174995,
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.5.0/brush-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "541a5d12c7e6a62e341bd7705ac018993b6ba36261e126d77682d6bb052b2103",
+      "size": 3391798,
       "format": "tar.gz",
+      "releaseTag": "brush-shell-v0.5.0",
       "binaries": {
         "brush": {
           "path": "brush",
-          "sha256": "00b91c49526e940913420d5b4e9bbe99aaca697cf1eb42480beb2f956cf3f156"
+          "sha256": "2547e0e1a7dd65383d925cbd593f620df6ac1f1aaf6a5fe4adde3463cfa3012a"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.4.0/brush-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "brush-shell-v0.4.0",
-      "sha256": "d76bdc0652c447eb8b0afda22eb849b79a1e3d8db77543729a56b731c7fb2c3e",
-      "size": 2848686,
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.5.0/brush-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "8bb25aab542eb6fcd6c6885c289fd4ae6f4833c4cc627e32768e71ee4220490b",
+      "size": 3009475,
       "format": "tar.gz",
+      "releaseTag": "brush-shell-v0.5.0",
       "binaries": {
         "brush": {
           "path": "brush",
-          "sha256": "bcf27cca7cb36952b95910b731b1b1c410f0eeda8d1efc86c90852f37da66d0c"
+          "sha256": "662865ffbada95653fe4344d4bb3e9762d5411d924fd299f548b0ad24dc18c81"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.4.0/brush-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "brush-shell-v0.4.0",
-      "sha256": "fa371980b7770c6dd0d54b8534ec67d02e4c20542b9cc93801d879be17c07ab7",
-      "size": 2908142,
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.5.0/brush-x86_64-apple-darwin.tar.gz",
+      "sha256": "0881ebfb701aa4321c7d80e94c8a7635837a54fb57269e6811a194ba7cc48340",
+      "size": 3131585,
       "format": "tar.gz",
+      "releaseTag": "brush-shell-v0.5.0",
       "binaries": {
         "brush": {
           "path": "brush",
-          "sha256": "b62d480de8a4672dadf75232dd13cc5c791b5843a5e6d5cac4425ab91b7aeb91"
+          "sha256": "96bcbc28cd315f9fd04c0fc715b3afc4e8cf6fa13fd36eee0cc77268391e4974"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.4.0/brush-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "brush-shell-v0.4.0",
-      "sha256": "42e45cb44b1775d7654f26f6fad04adc5fe0d99eb98d4e48ec629ae49645559e",
-      "size": 2603850,
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.5.0/brush-aarch64-apple-darwin.tar.gz",
+      "sha256": "a083937c78a68f97e4820f43f1e92de809ced98d650f62abf35337508e47f6bb",
+      "size": 2771678,
       "format": "tar.gz",
+      "releaseTag": "brush-shell-v0.5.0",
       "binaries": {
         "brush": {
           "path": "brush",
-          "sha256": "1631bd03e965c14d0a402b2d0a83505b2cc08f3df4e78ba9dc82d1a1e42fa90e"
+          "sha256": "2644ead25f7330e065b7a961f542ee9cb51e832cc931c9bad0acf78ed66aaaee"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.5.0/brush-x86_64-pc-windows-msvc.zip",
+      "sha256": "60ff0598916b4cbd9c615871b139692822b8f8ca6c419ae22ca7788095c321ef",
+      "size": 2901818,
+      "format": "zip",
+      "releaseTag": "brush-shell-v0.5.0",
+      "binaries": {
+        "brush.exe": {
+          "path": "brush.exe",
+          "sha256": "e211bf4ffae9fbc5ae48015e9e9c0d585749045c394d3bbd0f24ced3917a061a"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/reubeno/brush/releases/download/brush-shell-v0.5.0/brush-aarch64-pc-windows-msvc.zip",
+      "sha256": "e74c9f9c0a48c68a2840c31ab7ccff9c6c2e71566d9bf54e2d871cc281f3600b",
+      "size": 2650823,
+      "format": "zip",
+      "releaseTag": "brush-shell-v0.5.0",
+      "binaries": {
+        "brush.exe": {
+          "path": "brush.exe",
+          "sha256": "6db897eccf40be02487cde4d2dceb84351fa9c8da706cc0e3838878997967911"
         }
       }
     }
