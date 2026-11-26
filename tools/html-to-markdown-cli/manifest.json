@@ -1,58 +1,108 @@
 {
   "schema": 1,
   "name": "html-to-markdown-cli",
-  "version": "3.21.2",
+  "version": "3.23.4",
   "repository": "xberg-io/html-to-markdown",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.21.2/cli-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "fab4806748cfc8ec4e68c24e1bbd4f548f2a187bd73b2bc7711e98dea187055d",
-      "size": 5975848,
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.23.4/cli-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "35b3226e87c13156351acb1cde984d4ab8f8ccd1a04f132835a10295d138760c",
+      "size": 12198636,
       "format": "tar.gz",
-      "releaseTag": "v3.21.2",
+      "releaseTag": "v3.23.4",
       "binaries": {
+        "h2m": {
+          "path": "cli-x86_64-unknown-linux-musl/h2m",
+          "sha256": "9aadfe49cb2ea9c1fd5cfb0b05edf47cc79d92258e0ccf6d9d5a3eb81144afbe"
+        },
         "html-to-markdown": {
           "path": "cli-x86_64-unknown-linux-musl/html-to-markdown",
-          "sha256": "35a4a921401849ee0ae1c9bc24020cbe57661c4dbd127c0703936db23573f4a1"
+          "sha256": "9aadfe49cb2ea9c1fd5cfb0b05edf47cc79d92258e0ccf6d9d5a3eb81144afbe"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.21.2/cli-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "b43692387d3d02d10a58c4a7ab0ec3347ee735fdf3fe715ba813d864982c152c",
-      "size": 5474855,
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.23.4/cli-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "9e0324a2c7fee155d383efcf5bf0dcb3f53eb7b2849ffd0f121390974c568ec2",
+      "size": 11168178,
       "format": "tar.gz",
-      "releaseTag": "v3.21.2",
+      "releaseTag": "v3.23.4",
       "binaries": {
+        "h2m": {
+          "path": "cli-aarch64-unknown-linux-gnu/h2m",
+          "sha256": "1e9ba24b19e5dc4206908c627d27914ff0f352d05fe1927fd8b9fe5c20482745"
+        },
         "html-to-markdown": {
           "path": "cli-aarch64-unknown-linux-gnu/html-to-markdown",
-          "sha256": "146ea54fe0d8cfc2b591881362790971550c6e7e4c0859128468a637ddd44dfa"
+          "sha256": "1e9ba24b19e5dc4206908c627d27914ff0f352d05fe1927fd8b9fe5c20482745"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.23.4/cli-x86_64-apple-darwin.tar.gz",
+      "sha256": "f209fabc6c5cd4bf811a3699d3d2cdda9c2e033abc7d60a7421b80767d4b4043",
+      "size": 11604403,
+      "format": "tar.gz",
+      "releaseTag": "v3.23.4",
+      "binaries": {
+        "h2m": {
+          "path": "cli-x86_64-apple-darwin/h2m",
+          "sha256": "60bc54ec4f336a849fc5cc3c5bb4a7cc30caedf58c3d7db080c4545b82fe9f5f"
+        },
+        "html-to-markdown": {
+          "path": "cli-x86_64-apple-darwin/html-to-markdown",
+          "sha256": "60bc54ec4f336a849fc5cc3c5bb4a7cc30caedf58c3d7db080c4545b82fe9f5f"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.21.2/cli-aarch64-apple-darwin.tar.gz",
-      "sha256": "6f2bc26e2362c20ec97c3a770986144f5ec13f9145bb4a7b3d184fa9da7f149d",
-      "size": 5354462,
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.23.4/cli-aarch64-apple-darwin.tar.gz",
+      "sha256": "223aa7ebe8cc68257a8caeeb653ac05937f030fd361b3f9b8247227a8474aeea",
+      "size": 10913274,
       "format": "tar.gz",
-      "releaseTag": "v3.21.2",
+      "releaseTag": "v3.23.4",
       "binaries": {
+        "h2m": {
+          "path": "cli-aarch64-apple-darwin/h2m",
+          "sha256": "5b261287a7ca559d3ac6e6f35deacb74ad497d2df55195c1d7f75a8d81ba68f3"
+        },
         "html-to-markdown": {
           "path": "cli-aarch64-apple-darwin/html-to-markdown",
-          "sha256": "bdecb00995b6aa7e6db6b541b3fd5c25bd0c5b1abc5a964a83bf5f8c0e89c9da"
+          "sha256": "5b261287a7ca559d3ac6e6f35deacb74ad497d2df55195c1d7f75a8d81ba68f3"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.21.2/cli-x86_64-pc-windows-msvc.zip",
-      "sha256": "902a252ece074e5c0039c207a23ea606607b8a08fc896324d26c8fbf8739a765",
-      "size": 5457400,
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.23.4/cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "a1a34fb9c6e1c0b13d34969f64fff9ef4c012b0b1aa3ae0784e3c251118fc4a3",
+      "size": 11113267,
       "format": "zip",
-      "releaseTag": "v3.21.2",
+      "releaseTag": "v3.23.4",
       "binaries": {
+        "h2m.exe": {
+          "path": "cli-x86_64-pc-windows-msvc/h2m.exe",
+          "sha256": "19e002d81a8f0d6c290559063173e7519ecf390573b35243374da0192a2f0287"
+        },
         "html-to-markdown.exe": {
           "path": "cli-x86_64-pc-windows-msvc/html-to-markdown.exe",
-          "sha256": "cdcf97c99acd6147808cb5e0283c423d7ee0820a6a1f08785a062b11a7061f8d"
+          "sha256": "19e002d81a8f0d6c290559063173e7519ecf390573b35243374da0192a2f0287"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/xberg-io/html-to-markdown/releases/download/v3.23.4/cli-aarch64-pc-windows-msvc.zip",
+      "sha256": "67b1547924bdd6ca8c4529282be5fd049b2d1b9dd2c516b68565b55455ea50f3",
+      "size": 10727157,
+      "format": "zip",
+      "releaseTag": "v3.23.4",
+      "binaries": {
+        "h2m.exe": {
+          "path": "cli-aarch64-pc-windows-msvc/h2m.exe",
+          "sha256": "e91a988439a8a9f3aa55f9f64a4413a4c3e28b05e1d084ef76586206a0496d47"
+        },
+        "html-to-markdown.exe": {
+          "path": "cli-aarch64-pc-windows-msvc/html-to-markdown.exe",
+          "sha256": "e91a988439a8a9f3aa55f9f64a4413a4c3e28b05e1d084ef76586206a0496d47"
         }
       }
     }
