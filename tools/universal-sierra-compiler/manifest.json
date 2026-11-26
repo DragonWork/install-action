@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "universal-sierra-compiler",
-  "version": "2.10.3",
+  "version": "2.11.0",
   "repository": "software-mansion/universal-sierra-compiler",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.10.3/universal-sierra-compiler-v2.10.3-x86_64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v2.10.3",
-      "sha256": "f76955f5e017b6d83f97e4e6e26b71af73d8e1764853288c6edd245042da3b50",
-      "size": 3240407,
+      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.11.0/universal-sierra-compiler-v2.11.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "e7e0d122aefa076032363d7c7ce0e6a3ee422a61c6052b189c58a45468e68138",
+      "size": 3259321,
       "format": "tar.gz",
+      "releaseTag": "v2.11.0",
       "binaries": {
         "universal-sierra-compiler": {
-          "path": "universal-sierra-compiler-v2.10.3-x86_64-unknown-linux-musl/bin/universal-sierra-compiler",
-          "sha256": "81ace7f7fd788f7194a366fdd5aa35186a6a54822bd521a9e6dd8c463eba6d05"
+          "path": "universal-sierra-compiler-v2.11.0-x86_64-unknown-linux-musl/bin/universal-sierra-compiler",
+          "sha256": "966342d3e8e143777cf67af85512dbba166009b81819bc6531c8e8355ce79143"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.10.3/universal-sierra-compiler-v2.10.3-aarch64-unknown-linux-musl.tar.gz",
-      "releaseTag": "v2.10.3",
-      "sha256": "879dfc3892771c7945fcafc3aa02aafe89de031ab2ecb697771348381315daeb",
-      "size": 3078087,
+      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.11.0/universal-sierra-compiler-v2.11.0-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "b51399f5b09f2c73940aa9905aa8dea0dc913ddff5f337dee5321ea49a57fbd9",
+      "size": 3085566,
       "format": "tar.gz",
+      "releaseTag": "v2.11.0",
       "binaries": {
         "universal-sierra-compiler": {
-          "path": "universal-sierra-compiler-v2.10.3-aarch64-unknown-linux-musl/bin/universal-sierra-compiler",
-          "sha256": "22c8cc0abc3f2c821eafa14975035f900222d0cc1a5f865d7c16e36b916b8ae5"
+          "path": "universal-sierra-compiler-v2.11.0-aarch64-unknown-linux-musl/bin/universal-sierra-compiler",
+          "sha256": "dad2c6f8ac66a0d6af125e88555489aa4adb8437a2461a64f37a5260c7e744c0"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.10.3/universal-sierra-compiler-v2.10.3-x86_64-apple-darwin.tar.gz",
-      "releaseTag": "v2.10.3",
-      "sha256": "f02f9cd8ea68fdf6a3e56a42d385505f34fc2e09d804375bb4ca6da5503efeb9",
-      "size": 3137166,
+      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.11.0/universal-sierra-compiler-v2.11.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "1885a4ac91b77f5cc533eb9551bdb83d7206a144b32530c970ccf4997f8d1924",
+      "size": 3144986,
       "format": "tar.gz",
+      "releaseTag": "v2.11.0",
       "binaries": {
         "universal-sierra-compiler": {
-          "path": "universal-sierra-compiler-v2.10.3-x86_64-apple-darwin/bin/universal-sierra-compiler",
-          "sha256": "30f957672aa1afed0c8ea1fd7415872bad83b644fcca29f34b69cace259cda66"
+          "path": "universal-sierra-compiler-v2.11.0-x86_64-apple-darwin/bin/universal-sierra-compiler",
+          "sha256": "caf44b37125ce4005d552a31f1b1379348ddf1e17001e485ae65d6479f3bb305"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.10.3/universal-sierra-compiler-v2.10.3-aarch64-apple-darwin.tar.gz",
-      "releaseTag": "v2.10.3",
-      "sha256": "543d8847e1e25be66984be4f39e48bb93212d419507c67be71dca3c39cd1d78a",
-      "size": 2897196,
+      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.11.0/universal-sierra-compiler-v2.11.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "3067d723cfd5b81a67e76318f4365ce3debebfccd3c3b2ee39f17a7fe032124f",
+      "size": 2898246,
       "format": "tar.gz",
+      "releaseTag": "v2.11.0",
       "binaries": {
         "universal-sierra-compiler": {
-          "path": "universal-sierra-compiler-v2.10.3-aarch64-apple-darwin/bin/universal-sierra-compiler",
-          "sha256": "ef6a813dac5bae322b07e828dbfb0afd4479e3a04327dc4aaf0465ef50a35973"
+          "path": "universal-sierra-compiler-v2.11.0-aarch64-apple-darwin/bin/universal-sierra-compiler",
+          "sha256": "4c24978c0802250b12f7398c3f134dd08828fb20eda3f50be0483bba92985d19"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.10.3/universal-sierra-compiler-v2.10.3-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v2.10.3",
-      "sha256": "efd4906c70bf7cce6943f0ea9f9a133a9c04a92f00a7ba5d1a2cbdc4521f04a9",
-      "size": 2851313,
+      "url": "https://github.com/software-mansion/universal-sierra-compiler/releases/download/v2.11.0/universal-sierra-compiler-v2.11.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "80050c04960bae8fafbc7c191089b5801e717ea4419e68647f797787d28a00d7",
+      "size": 2859238,
       "format": "zip",
+      "releaseTag": "v2.11.0",
       "binaries": {
         "universal-sierra-compiler.exe": {
-          "path": "universal-sierra-compiler-v2.10.3-x86_64-pc-windows-msvc/bin/universal-sierra-compiler.exe",
-          "sha256": "36effe469959af4fcb6baba226ffd7b8cf7e83610460cc393bc6184028ca7be4"
+          "path": "universal-sierra-compiler-v2.11.0-x86_64-pc-windows-msvc/bin/universal-sierra-compiler.exe",
+          "sha256": "25027f7eba79cb6409e03343ad94e4c98918f1466ade5b91d607d7fa8f42b6b9"
         }
       }
     }
