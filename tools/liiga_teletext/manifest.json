@@ -1,19 +1,71 @@
 {
   "schema": 1,
   "name": "liiga_teletext",
-  "version": "0.29.0",
+  "version": "0.31.0",
   "repository": "nikosalonen/liiga_teletext",
   "artifacts": {
-    "win32-x64": {
-      "url": "https://github.com/nikosalonen/liiga_teletext/releases/download/v0.29.0/liiga_teletext-x86_64-pc-windows-msvc.exe",
-      "releaseTag": "v0.29.0",
-      "sha256": "b730bb05a885554fba8a33a19fb73d4a799ad692282f72ec62fbd24f2744e6d7",
-      "size": 12145152,
+    "linux-x64": {
+      "url": "https://github.com/nikosalonen/liiga_teletext/releases/download/v0.31.0/liiga_teletext-x86_64-unknown-linux-musl",
+      "sha256": "4484f82fbed245f2ecb3a429aaf45c4c66bc6595201a047c8992bf372ca51453",
+      "size": 12586792,
       "format": "binary",
+      "releaseTag": "v0.31.0",
+      "binaries": {
+        "liiga_teletext": {
+          "path": "liiga_teletext-x86_64-unknown-linux-musl",
+          "sha256": "4484f82fbed245f2ecb3a429aaf45c4c66bc6595201a047c8992bf372ca51453"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nikosalonen/liiga_teletext/releases/download/v0.31.0/liiga_teletext-aarch64-unknown-linux-musl",
+      "sha256": "e1afaa072189b15bfd389ece91e43fab5bf64f7cb1af887f41445fe3578704bd",
+      "size": 10247440,
+      "format": "binary",
+      "releaseTag": "v0.31.0",
+      "binaries": {
+        "liiga_teletext": {
+          "path": "liiga_teletext-aarch64-unknown-linux-musl",
+          "sha256": "e1afaa072189b15bfd389ece91e43fab5bf64f7cb1af887f41445fe3578704bd"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nikosalonen/liiga_teletext/releases/download/v0.31.0/liiga_teletext-x86_64-apple-darwin",
+      "sha256": "5c12b78403f66f21fec84ea8d4cc3d9e0e9e34d0547a697558c25c0140b14c4b",
+      "size": 11774416,
+      "format": "binary",
+      "releaseTag": "v0.31.0",
+      "binaries": {
+        "liiga_teletext": {
+          "path": "liiga_teletext-x86_64-apple-darwin",
+          "sha256": "5c12b78403f66f21fec84ea8d4cc3d9e0e9e34d0547a697558c25c0140b14c4b"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nikosalonen/liiga_teletext/releases/download/v0.31.0/liiga_teletext-aarch64-apple-darwin",
+      "sha256": "c9f4cf7c35b016245c464725536533b1f1b227ea72fa4b7c58768e9770f92dba",
+      "size": 10483376,
+      "format": "binary",
+      "releaseTag": "v0.31.0",
+      "binaries": {
+        "liiga_teletext": {
+          "path": "liiga_teletext-aarch64-apple-darwin",
+          "sha256": "c9f4cf7c35b016245c464725536533b1f1b227ea72fa4b7c58768e9770f92dba"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nikosalonen/liiga_teletext/releases/download/v0.31.0/liiga_teletext-x86_64-pc-windows-msvc.exe",
+      "sha256": "aaf9f25f528c316bcf2c39e7f532ee155d713c438d8065cfd037a8f021ca9ddb",
+      "size": 12234752,
+      "format": "binary",
+      "releaseTag": "v0.31.0",
       "binaries": {
         "liiga_teletext.exe": {
           "path": "liiga_teletext-x86_64-pc-windows-msvc.exe",
-          "sha256": "b730bb05a885554fba8a33a19fb73d4a799ad692282f72ec62fbd24f2744e6d7"
+          "sha256": "aaf9f25f528c316bcf2c39e7f532ee155d713c438d8065cfd037a8f021ca9ddb"
         }
       }
     }
