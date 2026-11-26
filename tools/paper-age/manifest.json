@@ -1,45 +1,71 @@
 {
   "schema": 1,
   "name": "paper-age",
-  "version": "1.5.0",
+  "version": "1.6.1",
   "repository": "matiaskorhonen/paper-age",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.5.0/paper-age-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v1.5.0",
-      "sha256": "89722cb8fb4a13b5b63741c6818aef114ae478e6bf368ad6dc0e9ba50736216c",
-      "size": 2105745,
+      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.6.1/paper-age-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "5102a8d10a394bab4de34791cef037bd9b012c3ccf424b90491f6016380c1271",
+      "size": 2457798,
       "format": "tar.gz",
+      "releaseTag": "v1.6.1",
       "binaries": {
         "paper-age": {
           "path": "paper-age",
-          "sha256": "505981153f730f6ed0b186779c7fc7238e39cad314db29cdf4a615b14c8fcc82"
+          "sha256": "36d81d30122617dbd85c19752c62e7c9dbc8f72d509f613a855202095c6490d4"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.5.0/paper-age-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v1.5.0",
-      "sha256": "4e9d10392aba53944abc17d6747db18cd868282199b498be4514f52fa47b590c",
-      "size": 1796165,
+      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.6.1/paper-age-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "f66607802bc0d5b6f6c32afc8c8a93d8c553f09235aba0be05bd6e86df45fec1",
+      "size": 2126340,
       "format": "tar.gz",
+      "releaseTag": "v1.6.1",
       "binaries": {
         "paper-age": {
           "path": "paper-age",
-          "sha256": "10fe5c1b4f33afb00cd31c16a1e515bed354668aa3ad5aa7960247f3d70210ac"
+          "sha256": "3804daacde092219c4b396d3eda7c6db5015486123a637a45471e76de283c7af"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.6.1/paper-age-universal-apple-darwin.tar.gz",
+      "sha256": "6f74a6ffcc464ea0786d94561674a420dc4d1a9510acd8aefef8727b92e72b13",
+      "size": 4181582,
+      "format": "tar.gz",
+      "releaseTag": "v1.6.1",
+      "binaries": {
+        "paper-age": {
+          "path": "paper-age",
+          "sha256": "d07a9e680f18dbf722655fe7dec834c6f603b6f5bea33c883fca03f4f3c562d5"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.6.1/paper-age-universal-apple-darwin.tar.gz",
+      "sha256": "6f74a6ffcc464ea0786d94561674a420dc4d1a9510acd8aefef8727b92e72b13",
+      "size": 4181582,
+      "format": "tar.gz",
+      "releaseTag": "v1.6.1",
+      "binaries": {
+        "paper-age": {
+          "path": "paper-age",
+          "sha256": "d07a9e680f18dbf722655fe7dec834c6f603b6f5bea33c883fca03f4f3c562d5"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.5.0/paper-age-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v1.5.0",
-      "sha256": "c52477d7a08c13a33102c0eabff72fd3569b2965df7b4349fd4928482d4e1925",
-      "size": 1583423,
+      "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.6.1/paper-age-x86_64-pc-windows-msvc.zip",
+      "sha256": "269b8e1f1f5eeb93aa03cda6735b3b8dbfe048ae279183af223cc798633521d5",
+      "size": 1869988,
       "format": "zip",
+      "releaseTag": "v1.6.1",
       "binaries": {
         "paper-age.exe": {
           "path": "paper-age.exe",
-          "sha256": "81b61462546a4a6883fc6dab82832bc23812a5ce424588638f6f8a08ad5d78b3"
+          "sha256": "2817662a2cb1d83eb235534e0e4a1f3a3ed7440e2822ca3fe73e2f06286fe5f2"
         }
       }
     }
