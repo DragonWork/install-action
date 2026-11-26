@@ -1,32 +1,58 @@
 {
   "schema": 1,
   "name": "oneio",
-  "version": "0.27.0",
+  "version": "0.27.1",
   "repository": "bgpkit/oneio",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/bgpkit/oneio/releases/download/v0.27.0/oneio-x86_64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.27.0",
-      "sha256": "9c7d6b80f3a6b084d0ce66f2d05331ff941ccddfb381dd0c651ae977ad54919e",
-      "size": 4182141,
+      "url": "https://github.com/bgpkit/oneio/releases/download/v0.27.1/oneio-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "74c01c75dcd84ec231d11108e9b2a31999fd65bf57c8ce458589ff2f76cb276c",
+      "size": 4149549,
       "format": "tar.gz",
+      "releaseTag": "v0.27.1",
       "binaries": {
         "oneio": {
           "path": "oneio",
-          "sha256": "9531f1aeae266219ddf1e40d64ed43ae4716240fdca4e3d4a4ff8bc8d8b2281d"
+          "sha256": "20017e6aa6ac64e3aa1b9f9505a094454ca2e1d6b192fa02792b1204b0b7136d"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/bgpkit/oneio/releases/download/v0.27.0/oneio-aarch64-unknown-linux-gnu.tar.gz",
-      "releaseTag": "v0.27.0",
-      "sha256": "96c1f7f6ad4e09aa65a93b36de42d4f462acaa6e2ea015c4a534919e80607625",
-      "size": 4063754,
+      "url": "https://github.com/bgpkit/oneio/releases/download/v0.27.1/oneio-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "a0381b2dd25bfa01495b9aa93ed562424e9793df66eaf319323d0d3ce8be5650",
+      "size": 4070148,
       "format": "tar.gz",
+      "releaseTag": "v0.27.1",
       "binaries": {
         "oneio": {
           "path": "oneio",
-          "sha256": "7906246834962d4f047aecd1e0fc4fe3675151cd241d8b4a9d342854f8a366c3"
+          "sha256": "3f3894d226180f9dd3ccaaeea651b06ca25000af6db9a3629d89358daff12011"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/bgpkit/oneio/releases/download/v0.27.1/oneio-universal-apple-darwin.tar.gz",
+      "sha256": "88bd1c0a02393b0e37a1ad0ae9d16ce7830b4a0660ebe0133671fce44d0c6f1d",
+      "size": 7814696,
+      "format": "tar.gz",
+      "releaseTag": "v0.27.1",
+      "binaries": {
+        "oneio": {
+          "path": "oneio",
+          "sha256": "7c8d0a81b33ea50bf12edcabc2f199896b53893846ee6f789a13aac274fe9fff"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/bgpkit/oneio/releases/download/v0.27.1/oneio-universal-apple-darwin.tar.gz",
+      "sha256": "88bd1c0a02393b0e37a1ad0ae9d16ce7830b4a0660ebe0133671fce44d0c6f1d",
+      "size": 7814696,
+      "format": "tar.gz",
+      "releaseTag": "v0.27.1",
+      "binaries": {
+        "oneio": {
+          "path": "oneio",
+          "sha256": "7c8d0a81b33ea50bf12edcabc2f199896b53893846ee6f789a13aac274fe9fff"
         }
       }
     }
