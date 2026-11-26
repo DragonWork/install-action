@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "prek",
-  "version": "0.5.11",
+  "version": "0.5.12",
   "repository": "j178/prek",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/j178/prek/releases/download/v0.5.11/prek-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "e9e283683dae28716652a4c172bc4fb053eecd28b8938132d576af266f8dfecb",
-      "size": 5941970,
+      "url": "https://github.com/j178/prek/releases/download/v0.5.12/prek-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "5296788a63b9aea32ffadf2339b555a2ec2df72d49fbb77966e282fe1aedb5f7",
+      "size": 5945943,
       "format": "tar.gz",
-      "releaseTag": "v0.5.11",
+      "releaseTag": "v0.5.12",
       "binaries": {
         "prek": {
           "path": "prek-x86_64-unknown-linux-musl/prek",
-          "sha256": "b741f5cec0221e9fe900bebf8d6618bd1cc0c6ec5ec0221b5bf622a6f7a43c45"
+          "sha256": "b968f40395d386f56149846a5e83d9f92305179aaf37e2113f39ec67ed7394b4"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/j178/prek/releases/download/v0.5.11/prek-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "bb8aa2339f983f7aba8d2d298ce8ef53719388dc58f7868f4c755b9f48abb319",
-      "size": 5440242,
+      "url": "https://github.com/j178/prek/releases/download/v0.5.12/prek-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "254fd9421672e778b88f017d33dc419c8d3a1c878d31e16603031ea08b7b8a14",
+      "size": 5445948,
       "format": "tar.gz",
-      "releaseTag": "v0.5.11",
+      "releaseTag": "v0.5.12",
       "binaries": {
         "prek": {
           "path": "prek-aarch64-unknown-linux-musl/prek",
-          "sha256": "57f983f424e86a9c0261e216794e633a541a2d3773c209a27bcbcb0e3064b512"
+          "sha256": "41cef265eb462bd96f00d333796d146a7816f351bcc5847e0e45e7dfc019ccea"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/j178/prek/releases/download/v0.5.11/prek-x86_64-apple-darwin.tar.gz",
-      "sha256": "3242c1d10f4bdb808a9fea4e96b4cdf38b7235bd859d50c6f481bd7493bd2e35",
-      "size": 5702620,
+      "url": "https://github.com/j178/prek/releases/download/v0.5.12/prek-x86_64-apple-darwin.tar.gz",
+      "sha256": "e6fcb68b3f7853cef613d9acb8b497b02c82dcc53147ffc899d97b362a84901f",
+      "size": 5708468,
       "format": "tar.gz",
-      "releaseTag": "v0.5.11",
+      "releaseTag": "v0.5.12",
       "binaries": {
         "prek": {
           "path": "prek-x86_64-apple-darwin/prek",
-          "sha256": "67848ff49296da886933e53ae33d5234096c9cbe60a1ded07c98997c1078c876"
+          "sha256": "2cc70eda651cb8895b298d617c5192707f794e4120b388c1c96d795e6b2f011b"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/j178/prek/releases/download/v0.5.11/prek-aarch64-apple-darwin.tar.gz",
-      "sha256": "9c5ddc45402468a7e29b0e8b01453285f0bcd89e6e2eb02cbbb18bd54d13ed7d",
-      "size": 5301562,
+      "url": "https://github.com/j178/prek/releases/download/v0.5.12/prek-aarch64-apple-darwin.tar.gz",
+      "sha256": "f155453347245a4e41c0142a689ab0ad8a2997d5747b4a5570254286d1a29807",
+      "size": 5310274,
       "format": "tar.gz",
-      "releaseTag": "v0.5.11",
+      "releaseTag": "v0.5.12",
       "binaries": {
         "prek": {
           "path": "prek-aarch64-apple-darwin/prek",
-          "sha256": "3e83388371d974627b451578141be390bb809f333c1e9f59a14d6f569cbdbfb5"
+          "sha256": "804aeab6f50849845d4356a3d692c19ca3293efff6c3315c721e711ec2bac31c"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/j178/prek/releases/download/v0.5.11/prek-x86_64-pc-windows-msvc.zip",
-      "sha256": "6b396f6e369832b2458ac95e2e169536d64be4941b48fe116af21df7e1e9aea6",
-      "size": 5372204,
+      "url": "https://github.com/j178/prek/releases/download/v0.5.12/prek-x86_64-pc-windows-msvc.zip",
+      "sha256": "c077339127e07fea07d645ee25b007e454527b45aa9af1671d7644ce20481c21",
+      "size": 5364861,
       "format": "zip",
-      "releaseTag": "v0.5.11",
+      "releaseTag": "v0.5.12",
       "binaries": {
         "prek.exe": {
           "path": "prek.exe",
-          "sha256": "06d459d91b17d2cdcc2c13ca633a1ea810d1066aba0bff67f82f11a896b1043f"
+          "sha256": "4c44941ca5f5eeddd712a61244d8b911106fdb0bf1aebc186a32584145fa92f3"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/j178/prek/releases/download/v0.5.11/prek-aarch64-pc-windows-msvc.zip",
-      "sha256": "7917f97dbc2e5873b0e944e515ead2ce4d2c541030d8fd00054e768e3f96812e",
-      "size": 5264558,
+      "url": "https://github.com/j178/prek/releases/download/v0.5.12/prek-aarch64-pc-windows-msvc.zip",
+      "sha256": "19e595635a15d45fe9735eb30829e457ced2f69ecb5a08cf9549df13ef9e35a4",
+      "size": 5268205,
       "format": "zip",
-      "releaseTag": "v0.5.11",
+      "releaseTag": "v0.5.12",
       "binaries": {
         "prek.exe": {
           "path": "prek.exe",
-          "sha256": "9b14b1143eed79962c90ddcbebe83768a2f8aa2ba9fdc3f82f24bb20f9dae585"
+          "sha256": "b3b891a08cedabacf23a9c101954a031142d6912f99834abdfdb04abd6f1f31f"
         }
       }
     }
