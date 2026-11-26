@@ -1,451 +1,451 @@
 {
   "schema": 1,
   "name": "convert2json",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "repository": "simonrupf/convert2json",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.1/convert2json-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "9a99de57440dd7672c95cd390cbab3fc47d307483e57d2cb8284c17795afd3f4",
-      "size": 6464097,
+      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.2/convert2json-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "affadb8e560d137021eb34acdd5e396b2dcbd84455c41e412395e171abdaf698",
+      "size": 6462992,
       "format": "tar.gz",
-      "releaseTag": "3.0.1",
+      "releaseTag": "3.0.2",
       "binaries": {
         "bson2json": {
           "path": "bson2json",
-          "sha256": "76caa7a15adc39575ce7ece4624819bc48a43d2c999b3cd11ede7a41d108ce69"
+          "sha256": "9e84d0ae44baf815f757752c78edddfbcd2de00dc246529c7f5547760bc6ce9c"
         },
         "bsonq": {
           "path": "bsonq",
-          "sha256": "f7e620ca6e3d98a234cae2b287eafb07b8f6c537a96433b46b26c09d78c36ad6"
+          "sha256": "c04b2ac6a340682324efd74431f9a0b9f7712f8ce4dd070f5695bbd6540e02eb"
         },
         "cbor2json": {
           "path": "cbor2json",
-          "sha256": "e644e6e1ed3cc6de0f4c392b9dbd3ed9cff23f660e902f824e6042b5e2572e97"
+          "sha256": "3aa53d4ffd8b5908bd5ede65e384c05885505b51d53ccfead0c64b37402c2ca8"
         },
         "cborq": {
           "path": "cborq",
-          "sha256": "efef753fd12082c38a5897a7161a22ab51c7cd35b21f86abbb166ce396f105d0"
+          "sha256": "85977026170bffbd3129a4515a41aee02504d73ff1df018c510c507344e917ed"
         },
         "cq": {
           "path": "cq",
-          "sha256": "cf52d7fd0f9710ec878b2cfa87afe75346b3ca1e50bc5f01e6746e8b0c3388dc"
+          "sha256": "2338c4cb54fd9b038d2a54a0064697fd9b5d5abf1844a183ab76d4b4a19ab004"
         },
         "csv2json": {
           "path": "csv2json",
-          "sha256": "1bdab6fffceb1abc20158f79bf40c01566322aab8c883d8d2cac67b243abf5bb"
+          "sha256": "f65f930327ad42975d6710471119cadbd1630185c0ccd30120657877212b7a44"
         },
         "ini2json": {
           "path": "ini2json",
-          "sha256": "4bfc4429b51197a1ead1ba7fd534465de2269159ae6f84fc5ed0b048f28d8269"
+          "sha256": "ed5601912c5049563c1a7b857c6741b0a30bdcb31d2698598dddd09bf9bad5c1"
         },
         "iq": {
           "path": "iq",
-          "sha256": "d9f08a9c1b28706fbca273e8da466419f63c6a15dbb742f05db61445a97bfc61"
+          "sha256": "81390a914d7739faac8156e344de8e0c804c39197a586fc18bfc2597d11ba7db"
         },
         "msg2json": {
           "path": "msg2json",
-          "sha256": "54fb113ada842ad8cac775439a496df6e13a280a97b745b72d2fd225c775aab8"
+          "sha256": "2abbdb5b2f36ccd6836fad9670927e948e3e8b072f102a22d18a60a7117c88d8"
         },
         "msgq": {
           "path": "msgq",
-          "sha256": "2935117df1aac09d3dd605388bf97ad0e7d08c5d28516d5ca5e61deb121193b5"
+          "sha256": "a5cd3a677a1817efbc3f5341ae413cba9f7ada65cf88e6289a8ee3633e1af9fe"
         },
         "plist2json": {
           "path": "plist2json",
-          "sha256": "5b9c89270450a52775ac9530c3eba4d80435a2195c2d5a6ed6f29e8f1a807888"
+          "sha256": "85da8322b6e10d7a488390858e4ce8443819915e8a2a450126b28a17f4e7af27"
         },
         "plistq": {
           "path": "plistq",
-          "sha256": "195ebb85e97b8fdeb8d41470733f65339b4f739399c713f8de1905dfe56ab5ea"
+          "sha256": "79f77518731d5524086f73042769d25322f982051d1395d2bda802a11db15022"
         },
         "rq": {
           "path": "rq",
-          "sha256": "5225ae0f76202945387abad202febce8795a9605d05a0b1de371f30aa038e50a"
+          "sha256": "4c2c7070b7418f27144006f8a3c68c06e93517752c5ea2709215529eaf701779"
         },
         "rsv2json": {
           "path": "rsv2json",
-          "sha256": "4744c8614ee47bd85d58277fc820ea153f9feb1f8d311d8827476bb020f4fc23"
+          "sha256": "5cb6d9ab4d7356e96e9819d0ad1eb66bdf4dd9120ac19ca6874c167c9be487d0"
         },
         "toml2json": {
           "path": "toml2json",
-          "sha256": "8e3f782f457c4a548c17750caca7249c96a3f8b25a351f0838f61af645537771"
+          "sha256": "8e2df26d9eeed1641a75673f1c6ca0cb3e5a3f0362aa3dd0f09918f0453d8f8b"
         },
         "tq": {
           "path": "tq",
-          "sha256": "d8ec14adbd704dc7d06bb00d53fe3fb050df3b0f06593d86ae55491d1a8581e1"
+          "sha256": "f332b277decd0fd1cf4399487b336659061b1a1a73d4ce15a363084b01cffbf2"
         },
         "xml2json": {
           "path": "xml2json",
-          "sha256": "a98d2c1b0c3eb461c984bd3cf6872e6f66114b6d7922353676cbf06865413e0a"
+          "sha256": "334d84522d0e76b478b46e3c7be858560281d905d6c855011de44b42b9a5551c"
         },
         "xq": {
           "path": "xq",
-          "sha256": "e9af00bcecded40ef5aae7c9b7ab53965bebff9537b0208f6759938e4d691ad4"
+          "sha256": "8cdfe2c47f0554ead28ec9c1823821ac49f4bba0a24bcec3ceab2863a386b19d"
         },
         "yaml2json": {
           "path": "yaml2json",
-          "sha256": "bb97f0722a79ad5b0fd71c095abc15e67648ab760320ea0efb5888f0327bbe14"
+          "sha256": "747812bde0d518a32b1e6422437b62c91f31010c6fe59b900ead7b17422496ba"
         },
         "yq": {
           "path": "yq",
-          "sha256": "404cb0dd4f4befcd2f43537cfda3e106122453e5e30b8775a37d8f016a992edc"
+          "sha256": "2ac3fd35615fb2be698ede3d5786add2c4cfddaae203005bbb3706f0702fc872"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.1/convert2json-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "e57ad08b3d0083f9fa7ad52a2c8775b50e7cc880286ff811c8146900764aa5e2",
-      "size": 6095134,
+      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.2/convert2json-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "ae376fa891d01710a5100748812bd3e0e6d02baa3e7e69a3709f8f3d51c373f0",
+      "size": 6097674,
       "format": "tar.gz",
-      "releaseTag": "3.0.1",
+      "releaseTag": "3.0.2",
       "binaries": {
         "bson2json": {
           "path": "bson2json",
-          "sha256": "8ff500c41d388f2a99656e101b26c52fd5186b39b9825df8c8f39ecb1848a7f5"
+          "sha256": "95ebeb615568e4c2c86fe29808fad6dca9751e1ec5162933963272274eee61ee"
         },
         "bsonq": {
           "path": "bsonq",
-          "sha256": "b524bf1407ffacf58f1a064254650ea7322d93609fa1ec0918a0f4c4e95528b7"
+          "sha256": "609b20c4510223dc931993a9b4f85492208ec6cf3415507ee229a3856c44214f"
         },
         "cbor2json": {
           "path": "cbor2json",
-          "sha256": "bc4c0c306ea1125cf1758b91364e0aeb5a5f59ce814a0d7abfea2876cc29e54e"
+          "sha256": "ea8f13ebd33f61ca0347feb5c3ae5f44ad88fd2e832b354ed765433e207af627"
         },
         "cborq": {
           "path": "cborq",
-          "sha256": "624edbc5a38fc91f85bcaea29d2fd0afac65864a7ba0115b2f29e6d382c674b9"
+          "sha256": "5c842f25c0cfb75ccb8742f2172b5ff91261ee77fb0689e7dadea90c1f8471ec"
         },
         "cq": {
           "path": "cq",
-          "sha256": "12a9b603b55219a3438d457e2ae3e1c748c107bdeb7d6cb97ab70c4e1e809617"
+          "sha256": "35ccd3c2b5f03dac8de68b85969afb5863c3b3127240df8f845bf486463b79d2"
         },
         "csv2json": {
           "path": "csv2json",
-          "sha256": "db0e762ed2f1a8b91b606770754b834d3a92837e7d4c18f1c91446b7eb719248"
+          "sha256": "1334fc3cf15d84c1c83bd51f7e6f9b775392f641a5de297458b8bd821b875db5"
         },
         "ini2json": {
           "path": "ini2json",
-          "sha256": "7c1b91d3926ba281c4d9ed7682ad2b7e65438dada6530eaa61cadd4a760868d7"
+          "sha256": "23e62973306538de4773f258c0977e78bde15eb4010babd47b51aba473e987fc"
         },
         "iq": {
           "path": "iq",
-          "sha256": "e83d80839ab57f984b765a877e623ceae12c4a1965aa08f4e5056820b73b26d0"
+          "sha256": "edcd83e31152999d200bfd4d6eff1b58948cabfb171a1039fbcf8f2becdf8eb5"
         },
         "msg2json": {
           "path": "msg2json",
-          "sha256": "a06e2ac866d875c45af381399083393b84462ff537f3b16b280f5a297e8602b2"
+          "sha256": "c0dfb39d6cc4afc9fdde2f4d92c783bba5343ff083cda9ef84eb51d07494d8fd"
         },
         "msgq": {
           "path": "msgq",
-          "sha256": "a37389fec6e2b922dfed119d5aba9b0063efddeb4742b56d1abcda14f7b90c6d"
+          "sha256": "026bbe6897671fbd67b716828c0ac6e171176fdb3e08b1137dec02c864dcf85d"
         },
         "plist2json": {
           "path": "plist2json",
-          "sha256": "4ac54d0776ff62489cb57087be71ea05b7fc02ecf63d5b8d3bb5a20bbb33c991"
+          "sha256": "d7f9cb935034ffd55e3ce04a6ca41de9f0e4646aab57f331d331c293e00daf56"
         },
         "plistq": {
           "path": "plistq",
-          "sha256": "cb873e206721cb56b1872e278a9a23ffa2e2cb18383e33a01bde1e55df36cc90"
+          "sha256": "d9277752b8025427f3ff24f92aed45a45abeb3886e1cfbfffd360027fc7d72d3"
         },
         "rq": {
           "path": "rq",
-          "sha256": "a1c148ddc44a8802485af0f36e3500fbe3c4c17722aada49f30a786fc7702984"
+          "sha256": "7cdb2321054e9969e68c8812151f50700de2e04e758d8ae922797121acf4d1a8"
         },
         "rsv2json": {
           "path": "rsv2json",
-          "sha256": "34c501ffd7b3f50e3ebcc52fb44262c58ba174ac4fcce7affd4ec4e9234b67f1"
+          "sha256": "28ffa823b09f70731d5b2223b72b3a28269ef7fbbbf0d63e1b95f43d191f2bfe"
         },
         "toml2json": {
           "path": "toml2json",
-          "sha256": "7fca760bd338d9bf5e84e27d7a4bd8e081dc295daeb5c355a4ef5f9b4b0850b7"
+          "sha256": "9d1c12904d99b2f53ec75d459002699329ed280e3a33fee7743bfdc66b1e1fad"
         },
         "tq": {
           "path": "tq",
-          "sha256": "787ad8fe7816986af25fd2730f4ffa9fc0ae162d4543caf2e4d65cf3a633f95c"
+          "sha256": "b4bbad750360b2da2745096737f5fd611bfe5212e650ea97e938a95e10b86faf"
         },
         "xml2json": {
           "path": "xml2json",
-          "sha256": "2a76794a730d43bcd07cb544e254032166d3645c6cb7a14289b05111a3ed0072"
+          "sha256": "162a42686571c1678b3e9b011aabb639e93008a0359db2dca8d739e3a96e9fd5"
         },
         "xq": {
           "path": "xq",
-          "sha256": "cf08211f01ed73d114e2b8d786c1ebecebf6d54d8919205fce1b5b3dcf97c6cf"
+          "sha256": "bf90e0061da0ca68f1e7340bbe6e25aa3e5a55ca63d25a5992f0df5ca0c16d01"
         },
         "yaml2json": {
           "path": "yaml2json",
-          "sha256": "b96d0a2717c4b9b8e9aa4c89b22bd53466d105dc957d06d8718e5539529c441c"
+          "sha256": "c8c18ba85f7af3d0abf09bc3464052e68abe5d59fd22156da8e126248b6e17d5"
         },
         "yq": {
           "path": "yq",
-          "sha256": "11566cbd08bee5c0e0852d052c9c45e44d017b8e55d8d636f07e74c5a361bb29"
+          "sha256": "2382e6d868e71ccd46436d6f1770727094a3ab5300b64dbaaed304be81cbbe1f"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.1/convert2json-universal-apple-darwin.tar.gz",
-      "sha256": "a958912d7729757c19a1748b88d7842b4e5edc4dd3ea0652b0cd071bfd493eed",
-      "size": 12042812,
+      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.2/convert2json-universal-apple-darwin.tar.gz",
+      "sha256": "31cab57c54451e385bf4771473828aff004b033deed95a2973d3c51537147dfb",
+      "size": 12048758,
       "format": "tar.gz",
-      "releaseTag": "3.0.1",
+      "releaseTag": "3.0.2",
       "binaries": {
         "bson2json": {
           "path": "bson2json",
-          "sha256": "a663f101b6c7eef7fd29391c028231ec0dafa5699f57e0c82e71143c7ab6602a"
+          "sha256": "e1efafdb1f675c0a991555f25fd564964804c9afd25c02578da66594975bb6ef"
         },
         "bsonq": {
           "path": "bsonq",
-          "sha256": "f592844daff2c1a15551290a64dbba52e85b9bad27f8d2f428cf80956fc97a1a"
+          "sha256": "7b1145ca8cd0fd9a70a3065700a09f780553e6cffe44d9b4262583813f5dda0a"
         },
         "cbor2json": {
           "path": "cbor2json",
-          "sha256": "97d818b2eeb1a3602c039c5db48af3506de562865f9fcca4e6f38d96c39dde63"
+          "sha256": "81f8e0ffd22d7d4c18845ce08b3611636e50e4c59ae1acc592300d4f8bac850a"
         },
         "cborq": {
           "path": "cborq",
-          "sha256": "8b9afef9b8c0dac98cff61f3eeb4688cdd7e76e9772c74c71bb7ea575d39ff46"
+          "sha256": "01ee836e26ad3e26eae400a38d0a9f1080347f040fc5e5b3e918bb4abed387b6"
         },
         "cq": {
           "path": "cq",
-          "sha256": "ba9e082d4608aa750ca1c4a4b8c8b0e57621d944e78b34ea0dfb49a79f320b27"
+          "sha256": "3a51076320c1da220914afb5a61b7644ad74e49b7842150c1ca9e88b30d83193"
         },
         "csv2json": {
           "path": "csv2json",
-          "sha256": "acd648e50fdc3ffbb1053b56de49d30e8434cf8c98dd1a602ee6e5a114d0d8d2"
+          "sha256": "454e286162ed4329a0da06e24852194d20dfec03a0b71c87da12afb27c40c78f"
         },
         "ini2json": {
           "path": "ini2json",
-          "sha256": "5b07d55c1aac63e275032679d2698b8ffc6ce5685755f5526e366f2a8ebc8433"
+          "sha256": "99858efde70d7a2b4c73c944bf37c6123a6531f98a155887ac83b48c7881be73"
         },
         "iq": {
           "path": "iq",
-          "sha256": "4af9ac7816ee86d97c58f539bf78697492797fcca14af4582f7d9cb189c72307"
+          "sha256": "37de325e644b53c8cbc367583d91830e8006599ab7e515c9102dfb7de4ad8f5d"
         },
         "msg2json": {
           "path": "msg2json",
-          "sha256": "985ed17f18fa8249f3cf4db12ab8f4c0b56c6b14ce2715bf32ae214985d0f76d"
+          "sha256": "559128d8a29f3d2cea6f72218f10c1d2e4db523a569b750e13c7700a886cbef1"
         },
         "msgq": {
           "path": "msgq",
-          "sha256": "1c58ce262ae428008724fa7616f37f73e57ac31ca2feafa10ed5512795f77f72"
+          "sha256": "02516e790dd4572064450e19e270f70facdd111566168fbbaf2f86f2720abf88"
         },
         "plist2json": {
           "path": "plist2json",
-          "sha256": "6a2eaaefec48bcd91357f17b6d1ca465d8d10641b86863605063d1e51202d7c7"
+          "sha256": "c6c0f9b97ccaf516a4ccda829e09dcd1fcea59dc3d12b17ce6fe8ad420234d84"
         },
         "plistq": {
           "path": "plistq",
-          "sha256": "45bc3f17817204e96ced59dafca025d7eafa4a294839b626ce9ff68fbb86b23f"
+          "sha256": "dba9bc2602baec252381b9b720f20cf8335bf66aa9a2fa113e5b8f237d91e210"
         },
         "rq": {
           "path": "rq",
-          "sha256": "39d000d8f5b0a32f28bf2d5c35272b3b3dca21ab04a1ae1dc32e682efedf2cf5"
+          "sha256": "74ee56c7181f6417797a8373c810a8bcda006df1866e0f2f9ba3769c42906337"
         },
         "rsv2json": {
           "path": "rsv2json",
-          "sha256": "45769ac7fea76c48303fdd41b1420eb31182b67ebaa77a66cd47fa50c156c19a"
+          "sha256": "00359449b094f784c806bbb844f41a5c7bb158f6a847807f231187a80b2dc966"
         },
         "toml2json": {
           "path": "toml2json",
-          "sha256": "d848af99560de210e05edc2b37fb1bf2f861cbc695697cc33e2774110bffdefe"
+          "sha256": "9dda55baaeb5625231f0133262158c58d0cbfd8144243d573e0b10625723b356"
         },
         "tq": {
           "path": "tq",
-          "sha256": "1a719ebf5e43d6886d0ada78a95e64764993f288c180735a4ecfe6ce29a24170"
+          "sha256": "2a66aca6a207dc894d1a301257d6ca3c606a7b24312a3b6d2eedcaea639f95f1"
         },
         "xml2json": {
           "path": "xml2json",
-          "sha256": "f2527c3bb101e12471a141eec05715fc6782292828fb46813b066839713a6259"
+          "sha256": "244411005e2e179ae8dfbfe309d4c9df48094ac3d4d93adaf2eb2bbf7ab76cf2"
         },
         "xq": {
           "path": "xq",
-          "sha256": "8e151c8af88746b483a789686ecaeb7280d2f8486d43f080875f2740d8f6ead1"
+          "sha256": "c2f3577cb05e05aaba7858821113fbb439d5bf58e720e8e803974a146cb94adc"
         },
         "yaml2json": {
           "path": "yaml2json",
-          "sha256": "134159c414088d2f120251c547174f3b33d6ac8b3c18a0426a817b4b484d61cf"
+          "sha256": "6eb9cc22f2c2b746676d8994aa58f69c6525b54fd4821e8584131a624d1bed85"
         },
         "yq": {
           "path": "yq",
-          "sha256": "1b3ede8114956fc8ad9278a033c3851cd5d049c237095f5e7f634cfd28c701be"
+          "sha256": "9dbd52eb0bfffa14f84b87c3d2027aaa9ab0346b32458007bf217137540823df"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.1/convert2json-universal-apple-darwin.tar.gz",
-      "sha256": "a958912d7729757c19a1748b88d7842b4e5edc4dd3ea0652b0cd071bfd493eed",
-      "size": 12042812,
+      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.2/convert2json-universal-apple-darwin.tar.gz",
+      "sha256": "31cab57c54451e385bf4771473828aff004b033deed95a2973d3c51537147dfb",
+      "size": 12048758,
       "format": "tar.gz",
-      "releaseTag": "3.0.1",
+      "releaseTag": "3.0.2",
       "binaries": {
         "bson2json": {
           "path": "bson2json",
-          "sha256": "a663f101b6c7eef7fd29391c028231ec0dafa5699f57e0c82e71143c7ab6602a"
+          "sha256": "e1efafdb1f675c0a991555f25fd564964804c9afd25c02578da66594975bb6ef"
         },
         "bsonq": {
           "path": "bsonq",
-          "sha256": "f592844daff2c1a15551290a64dbba52e85b9bad27f8d2f428cf80956fc97a1a"
+          "sha256": "7b1145ca8cd0fd9a70a3065700a09f780553e6cffe44d9b4262583813f5dda0a"
         },
         "cbor2json": {
           "path": "cbor2json",
-          "sha256": "97d818b2eeb1a3602c039c5db48af3506de562865f9fcca4e6f38d96c39dde63"
+          "sha256": "81f8e0ffd22d7d4c18845ce08b3611636e50e4c59ae1acc592300d4f8bac850a"
         },
         "cborq": {
           "path": "cborq",
-          "sha256": "8b9afef9b8c0dac98cff61f3eeb4688cdd7e76e9772c74c71bb7ea575d39ff46"
+          "sha256": "01ee836e26ad3e26eae400a38d0a9f1080347f040fc5e5b3e918bb4abed387b6"
         },
         "cq": {
           "path": "cq",
-          "sha256": "ba9e082d4608aa750ca1c4a4b8c8b0e57621d944e78b34ea0dfb49a79f320b27"
+          "sha256": "3a51076320c1da220914afb5a61b7644ad74e49b7842150c1ca9e88b30d83193"
         },
         "csv2json": {
           "path": "csv2json",
-          "sha256": "acd648e50fdc3ffbb1053b56de49d30e8434cf8c98dd1a602ee6e5a114d0d8d2"
+          "sha256": "454e286162ed4329a0da06e24852194d20dfec03a0b71c87da12afb27c40c78f"
         },
         "ini2json": {
           "path": "ini2json",
-          "sha256": "5b07d55c1aac63e275032679d2698b8ffc6ce5685755f5526e366f2a8ebc8433"
+          "sha256": "99858efde70d7a2b4c73c944bf37c6123a6531f98a155887ac83b48c7881be73"
         },
         "iq": {
           "path": "iq",
-          "sha256": "4af9ac7816ee86d97c58f539bf78697492797fcca14af4582f7d9cb189c72307"
+          "sha256": "37de325e644b53c8cbc367583d91830e8006599ab7e515c9102dfb7de4ad8f5d"
         },
         "msg2json": {
           "path": "msg2json",
-          "sha256": "985ed17f18fa8249f3cf4db12ab8f4c0b56c6b14ce2715bf32ae214985d0f76d"
+          "sha256": "559128d8a29f3d2cea6f72218f10c1d2e4db523a569b750e13c7700a886cbef1"
         },
         "msgq": {
           "path": "msgq",
-          "sha256": "1c58ce262ae428008724fa7616f37f73e57ac31ca2feafa10ed5512795f77f72"
+          "sha256": "02516e790dd4572064450e19e270f70facdd111566168fbbaf2f86f2720abf88"
         },
         "plist2json": {
           "path": "plist2json",
-          "sha256": "6a2eaaefec48bcd91357f17b6d1ca465d8d10641b86863605063d1e51202d7c7"
+          "sha256": "c6c0f9b97ccaf516a4ccda829e09dcd1fcea59dc3d12b17ce6fe8ad420234d84"
         },
         "plistq": {
           "path": "plistq",
-          "sha256": "45bc3f17817204e96ced59dafca025d7eafa4a294839b626ce9ff68fbb86b23f"
+          "sha256": "dba9bc2602baec252381b9b720f20cf8335bf66aa9a2fa113e5b8f237d91e210"
         },
         "rq": {
           "path": "rq",
-          "sha256": "39d000d8f5b0a32f28bf2d5c35272b3b3dca21ab04a1ae1dc32e682efedf2cf5"
+          "sha256": "74ee56c7181f6417797a8373c810a8bcda006df1866e0f2f9ba3769c42906337"
         },
         "rsv2json": {
           "path": "rsv2json",
-          "sha256": "45769ac7fea76c48303fdd41b1420eb31182b67ebaa77a66cd47fa50c156c19a"
+          "sha256": "00359449b094f784c806bbb844f41a5c7bb158f6a847807f231187a80b2dc966"
         },
         "toml2json": {
           "path": "toml2json",
-          "sha256": "d848af99560de210e05edc2b37fb1bf2f861cbc695697cc33e2774110bffdefe"
+          "sha256": "9dda55baaeb5625231f0133262158c58d0cbfd8144243d573e0b10625723b356"
         },
         "tq": {
           "path": "tq",
-          "sha256": "1a719ebf5e43d6886d0ada78a95e64764993f288c180735a4ecfe6ce29a24170"
+          "sha256": "2a66aca6a207dc894d1a301257d6ca3c606a7b24312a3b6d2eedcaea639f95f1"
         },
         "xml2json": {
           "path": "xml2json",
-          "sha256": "f2527c3bb101e12471a141eec05715fc6782292828fb46813b066839713a6259"
+          "sha256": "244411005e2e179ae8dfbfe309d4c9df48094ac3d4d93adaf2eb2bbf7ab76cf2"
         },
         "xq": {
           "path": "xq",
-          "sha256": "8e151c8af88746b483a789686ecaeb7280d2f8486d43f080875f2740d8f6ead1"
+          "sha256": "c2f3577cb05e05aaba7858821113fbb439d5bf58e720e8e803974a146cb94adc"
         },
         "yaml2json": {
           "path": "yaml2json",
-          "sha256": "134159c414088d2f120251c547174f3b33d6ac8b3c18a0426a817b4b484d61cf"
+          "sha256": "6eb9cc22f2c2b746676d8994aa58f69c6525b54fd4821e8584131a624d1bed85"
         },
         "yq": {
           "path": "yq",
-          "sha256": "1b3ede8114956fc8ad9278a033c3851cd5d049c237095f5e7f634cfd28c701be"
+          "sha256": "9dbd52eb0bfffa14f84b87c3d2027aaa9ab0346b32458007bf217137540823df"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.1/convert2json-x86_64-pc-windows-msvc.zip",
-      "sha256": "612f189bf2cfd0404ba0275b98b53f0e7b6d3abbfa880f8158eee9a94a830ce6",
-      "size": 4539151,
+      "url": "https://github.com/simonrupf/convert2json/releases/download/3.0.2/convert2json-x86_64-pc-windows-msvc.zip",
+      "sha256": "67cb259809a297bef3e7f445314808dfe93b612c0168c1b6e087bbe84aab8a01",
+      "size": 4577219,
       "format": "zip",
-      "releaseTag": "3.0.1",
+      "releaseTag": "3.0.2",
       "binaries": {
         "bson2json.exe": {
           "path": "bson2json.exe",
-          "sha256": "13fb79aa8944b431354257cdebf97fce95a88d05f527c1c83bae995ee5972ff8"
+          "sha256": "55830a9356b2f69496ba679db7430f4b24dd0039801a372da125fefb47b796fa"
         },
         "bsonq.exe": {
           "path": "bsonq.exe",
-          "sha256": "5065cdb676e5c8ba15978b4a899ed4d254bcb61e77746078f87e982176549a8b"
+          "sha256": "91f0c5adbb6788801beb5f420f7369f97e30de7709e32943c647f4c5ee70439d"
         },
         "cbor2json.exe": {
           "path": "cbor2json.exe",
-          "sha256": "a911a0405eb2ea229659b620dcb13d66bb942fb1f003d398b25b4523960ab7d0"
+          "sha256": "f33e2b71924f0fb3299b5d563aa3ba69e78e69e799cdff38b6a4b8870dba250c"
         },
         "cborq.exe": {
           "path": "cborq.exe",
-          "sha256": "6349b3f847874620df7d4e5b216561a8fe7ae2d74c701b0132e42fba5745bd9f"
+          "sha256": "3b3a5f126b9c67bf59acd373a74fef5f3d7824b5a4976b54ed77934edb047166"
         },
         "cq.exe": {
           "path": "cq.exe",
-          "sha256": "e5dccd249a0a7365101de7387dba4ddab6ff3d370a7d0d2d525b34e1bfe1418e"
+          "sha256": "afdb117efceda56b00ad2f318b857c6725a22a4f660b26c5acb45e3a3c13a95e"
         },
         "csv2json.exe": {
           "path": "csv2json.exe",
-          "sha256": "070fd85084f795b08010d8db3beed6cd09e99a7535fffc838e4253ef2eef05e4"
+          "sha256": "bd4002d5144c8a8184c98e46f223c5a473afc118009d1729947abc411e25568e"
         },
         "ini2json.exe": {
           "path": "ini2json.exe",
-          "sha256": "ec79aa5d6373ab3b128add3630330b27930942f2a4c9f659426ca8f695e982ca"
+          "sha256": "4b5711c63bf3ed1dad51bdf4a75e668ecb2bc5246224465ab6633f3c22a67911"
         },
         "iq.exe": {
           "path": "iq.exe",
-          "sha256": "9af338c5be182edf43599985053fe29d25a91b4fdb754ef5075cf39a5bcddc40"
+          "sha256": "65db19940243a23637d484bf5b492c8fa509b84f37f09203434af5716a58718a"
         },
         "msg2json.exe": {
           "path": "msg2json.exe",
-          "sha256": "51b49e414dcf331b579e643ee946192bd6ead9eb45be7194e4d88d8a8aa53541"
+          "sha256": "fbf02e93701ae0c92fa69abf03bcf55624e841da0691f3327ca58d843ae6f918"
         },
         "msgq.exe": {
           "path": "msgq.exe",
-          "sha256": "7eadf170304493787bbf78de84af2b6d50554c2744b01ed60cef27a10ccb3df4"
+          "sha256": "bd10799c142a2174bdb24b650d1836e09d30435b2f39c9f4ed056dd594ae2926"
         },
         "plist2json.exe": {
           "path": "plist2json.exe",
-          "sha256": "75bd711d6dacae5fc9e91af02d1fd874c5a2fd9c8c1b4bc2b38798108a3f50f7"
+          "sha256": "5ebeec73b62c119a38c9e43138d5c8f58318f297a4171f02dfc3a7ed0b9f348a"
         },
         "plistq.exe": {
           "path": "plistq.exe",
-          "sha256": "6612f268097ec31f7cbad2245bc5eb05665ab0d0eef101a2f941a8ee7b52d02b"
+          "sha256": "eb77f1aba1cd4cbf7d683c702b7b25610854030dd0a82b78ae46ea491f589d80"
         },
         "rq.exe": {
           "path": "rq.exe",
-          "sha256": "81bc0d77d590710dd0532491f02da6f2f8d9aa5bfa7191b1bff53f66e6ae0e94"
+          "sha256": "5a5e3ee46bb3fb9e52da133240243c12d047aea441701665c162f0225dac2ba2"
         },
         "rsv2json.exe": {
           "path": "rsv2json.exe",
-          "sha256": "cc18d237990fce146c550892538508bb55ed627a5c0e55e29312660d79d818fd"
+          "sha256": "db8028f425d8d555e98e7aa940734e208cecaa3ce8fa08a008858a4f21c80dea"
         },
         "toml2json.exe": {
           "path": "toml2json.exe",
-          "sha256": "3ed99e6073abde82ac06059dfcfe094c971de534356ed77eedfff7d40b843329"
+          "sha256": "fbe96b9f1b036f69e43c1522ea0e7baea48c9e1a1b9502a84770d4a7822a3a8a"
         },
         "tq.exe": {
           "path": "tq.exe",
-          "sha256": "772cecc10e64cea711aa126700af6f7e8a7f17ba79eeb729b13fd983757972d6"
+          "sha256": "55d476a4067f6a336d1206ca4db2d31b57cf9d2468871c60067a20145e3b354f"
         },
         "xml2json.exe": {
           "path": "xml2json.exe",
-          "sha256": "f1f412203f5371c32bd1d2719fd3668ddd04cc8fbf8a5e9b8448213397bff2c0"
+          "sha256": "ba8eee3025c930986fb1866cd69a7f7c79701b8c2f28b6c3019dbc966d78d4c6"
         },
         "xq.exe": {
           "path": "xq.exe",
-          "sha256": "330809e18fdc18f7a9cf094f9496be912ca1b186526bd424a60b17c74e070cc7"
+          "sha256": "7f917ea0d629660ae25c3c99e8ca14b4bd74df090aabb4e8800549e16f956c1c"
         },
         "yaml2json.exe": {
           "path": "yaml2json.exe",
-          "sha256": "1d56ebf9234a5030bfcf24fda174c5276008bf31c3180921eb940331522113be"
+          "sha256": "1186fc3ca94024daf3c0d07703e0ad8e0fde83135862415fd8b642b7ad5b095f"
         },
         "yq.exe": {
           "path": "yq.exe",
-          "sha256": "e147379fddbc95fb489f5131f8d89b13ac241c26e13248e7605f6b8d3b801f2e"
+          "sha256": "fa224f132013eb4cddc95ffafa99b839b291ab0f278d88f55068cdab93d01486"
         }
       }
     }
