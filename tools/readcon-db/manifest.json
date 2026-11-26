@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "name": "readcon-db",
+  "version": "0.2.4",
+  "repository": "lode-org/readcon-db",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/lode-org/readcon-db/releases/download/v0.2.4/readcon-db-clib-0.2.4-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0b6bf9b80deaf5d7356124820d41732b6ee81783e1f5408d0a5759c4cabb50da",
+      "size": 12025497,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "readcon-db": {
+          "path": "readcon-db-clib-0.2.4-x86_64-unknown-linux-gnu/bin/readcon-db",
+          "sha256": "69a870fbc845a865d60f65d4c3aa450eadd43b41cab90f11618d023af83aa568"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/lode-org/readcon-db/releases/download/v0.2.4/readcon-db-clib-0.2.4-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "315828fe3ba1ff71745f662daa57d8c9869673111d42b2d45ff63dbf1bad280f",
+      "size": 11822628,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "readcon-db": {
+          "path": "readcon-db-clib-0.2.4-aarch64-unknown-linux-gnu/bin/readcon-db",
+          "sha256": "d4cb353db338833a8c9e32629ab1a0b794cac5aa91b450d06d0580732ebffc54"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/lode-org/readcon-db/releases/download/v0.2.4/readcon-db-clib-0.2.4-x86_64-apple-darwin.tar.gz",
+      "sha256": "e1e996e31e844850d9e636a5d350ee64a636e112b601f36fd2a96a4f2855da5d",
+      "size": 11369201,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "readcon-db": {
+          "path": "readcon-db-clib-0.2.4-x86_64-apple-darwin/bin/readcon-db",
+          "sha256": "410f7cc829e0226e02b14122171007c36a5d8b6df82ddbd97b1765f00a06a439"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/lode-org/readcon-db/releases/download/v0.2.4/readcon-db-clib-0.2.4-aarch64-apple-darwin.tar.gz",
+      "sha256": "cd64655febfaadc51e3bceaece28802e97ecea0fd93c127a4f36533e2ac5b9f9",
+      "size": 10864152,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "readcon-db": {
+          "path": "readcon-db-clib-0.2.4-aarch64-apple-darwin/bin/readcon-db",
+          "sha256": "284fd26b918e94f0c3d39310695c4a77ac722d5426b9c34986af6cac46d77136"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/lode-org/readcon-db/releases/download/v0.2.4/readcon-db-clib-0.2.4-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "4877efe928c9669cbf14aad5920b41e96549c52682e2e51880d8441f1061830e",
+      "size": 2386099,
+      "format": "tar.gz",
+      "releaseTag": "v0.2.4",
+      "binaries": {
+        "readcon-db.exe": {
+          "path": "readcon-db-clib-0.2.4-x86_64-pc-windows-msvc/bin/readcon-db.exe",
+          "sha256": "35934c9f6a4a21daee85a646c20bda8c05a18d1f249601229dde0048a397be9b"
+        }
+      }
+    }
+  }
+}
