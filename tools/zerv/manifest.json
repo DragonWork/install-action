@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "zerv",
-  "version": "0.8.42",
+  "version": "0.8.45",
   "repository": "wislertt/zerv",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.42/zerv-x86_64-unknown-linux-musl",
-      "sha256": "70ec23c8517129281964dc32b43405c6931d76b20ffd065c357ae7f42304fb48",
-      "size": 5455216,
+      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.45/zerv-x86_64-unknown-linux-musl",
+      "sha256": "580e26969a8ad30498308b2fe7beaf5ca054c7f4814fe99e404b3f3472bc0eff",
+      "size": 5446600,
       "format": "binary",
-      "releaseTag": "v0.8.42",
+      "releaseTag": "v0.8.45",
       "binaries": {
         "zerv": {
           "path": "zerv-x86_64-unknown-linux-musl",
-          "sha256": "70ec23c8517129281964dc32b43405c6931d76b20ffd065c357ae7f42304fb48"
+          "sha256": "580e26969a8ad30498308b2fe7beaf5ca054c7f4814fe99e404b3f3472bc0eff"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.42/zerv-aarch64-unknown-linux-musl",
-      "sha256": "ebafdd532b2882936c5cc33cedbf323cc9ac48193a57318da1268c7ee073b833",
-      "size": 4748112,
+      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.45/zerv-aarch64-unknown-linux-musl",
+      "sha256": "f1b20c41f74197c08c3bb9249e1d6c2fe311e0eff25270109e0d5cd5c2cdf1cb",
+      "size": 4744648,
       "format": "binary",
-      "releaseTag": "v0.8.42",
+      "releaseTag": "v0.8.45",
       "binaries": {
         "zerv": {
           "path": "zerv-aarch64-unknown-linux-musl",
-          "sha256": "ebafdd532b2882936c5cc33cedbf323cc9ac48193a57318da1268c7ee073b833"
+          "sha256": "f1b20c41f74197c08c3bb9249e1d6c2fe311e0eff25270109e0d5cd5c2cdf1cb"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.42/zerv-x86_64-apple-darwin",
-      "sha256": "3d4d37dd28fb8a6e910fd643646bbd56dc3b1190c096f5601a05be6763159ec7",
-      "size": 5228640,
+      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.45/zerv-x86_64-apple-darwin",
+      "sha256": "a737da0c0fe58320113d0595de934b7563a65b8c1ee5fa05182981b2643f4cc1",
+      "size": 5232632,
       "format": "binary",
-      "releaseTag": "v0.8.42",
+      "releaseTag": "v0.8.45",
       "binaries": {
         "zerv": {
           "path": "zerv-x86_64-apple-darwin",
-          "sha256": "3d4d37dd28fb8a6e910fd643646bbd56dc3b1190c096f5601a05be6763159ec7"
+          "sha256": "a737da0c0fe58320113d0595de934b7563a65b8c1ee5fa05182981b2643f4cc1"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.42/zerv-aarch64-apple-darwin",
-      "sha256": "7e7524d36aab5ae278c9be4ca05c5970c809fcc1c7e3e3c3b154ed8e4d04dcaa",
-      "size": 4839408,
+      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.45/zerv-aarch64-apple-darwin",
+      "sha256": "ab2907a3579bdbbb544f4b1ec6eafd586a09b1557497fe313f0261f42f3037dd",
+      "size": 4839216,
       "format": "binary",
-      "releaseTag": "v0.8.42",
+      "releaseTag": "v0.8.45",
       "binaries": {
         "zerv": {
           "path": "zerv-aarch64-apple-darwin",
-          "sha256": "7e7524d36aab5ae278c9be4ca05c5970c809fcc1c7e3e3c3b154ed8e4d04dcaa"
+          "sha256": "ab2907a3579bdbbb544f4b1ec6eafd586a09b1557497fe313f0261f42f3037dd"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.42/zerv-x86_64-pc-windows-msvc.exe",
-      "sha256": "63969d4aff88e249a2b395c968fc6c8e0bc82a018167dbba4aa3c11305ccab3e",
-      "size": 5848576,
+      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.45/zerv-x86_64-pc-windows-msvc.exe",
+      "sha256": "406cd25ee50fe4dc7317a4fbee8f55ace9e51e184a45437535179f15e52c4976",
+      "size": 5865472,
       "format": "binary",
-      "releaseTag": "v0.8.42",
+      "releaseTag": "v0.8.45",
       "binaries": {
         "zerv.exe": {
           "path": "zerv-x86_64-pc-windows-msvc.exe",
-          "sha256": "63969d4aff88e249a2b395c968fc6c8e0bc82a018167dbba4aa3c11305ccab3e"
+          "sha256": "406cd25ee50fe4dc7317a4fbee8f55ace9e51e184a45437535179f15e52c4976"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.42/zerv-aarch64-pc-windows-msvc.exe",
-      "sha256": "a20d2bd7d2147e3022ccaf566d8908c6966a454fd52d9bc848758c4f8afd4fe4",
-      "size": 4921344,
+      "url": "https://github.com/wislertt/zerv/releases/download/v0.8.45/zerv-aarch64-pc-windows-msvc.exe",
+      "sha256": "fa4fa8261c72801eaf81fc8f77ec0bcce74132f0cb1143b0e338b26101970074",
+      "size": 4925952,
       "format": "binary",
-      "releaseTag": "v0.8.42",
+      "releaseTag": "v0.8.45",
       "binaries": {
         "zerv.exe": {
           "path": "zerv-aarch64-pc-windows-msvc.exe",
-          "sha256": "a20d2bd7d2147e3022ccaf566d8908c6966a454fd52d9bc848758c4f8afd4fe4"
+          "sha256": "fa4fa8261c72801eaf81fc8f77ec0bcce74132f0cb1143b0e338b26101970074"
         }
       }
     }
