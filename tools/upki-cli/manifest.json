@@ -1,71 +1,71 @@
 {
   "schema": 1,
   "name": "upki-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "rustls/upki",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/rustls/upki/releases/download/v1.0.3/upki-cli-x86_64-unknown-linux-musl.tar.xz",
-      "sha256": "bb0a9018f530032908f4ef9d722c601ef5539c18b4be1050140ae0aa27e17c1b",
-      "size": 2722956,
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.4/upki-cli-x86_64-unknown-linux-musl.tar.xz",
+      "sha256": "87c61910230b385fd74accf8686b715684c6d9bd17bd790e5272cd3292399117",
+      "size": 2732496,
       "format": "tar.xz",
-      "releaseTag": "v1.0.3",
+      "releaseTag": "v1.0.4",
       "binaries": {
         "upki": {
           "path": "upki-cli-x86_64-unknown-linux-musl/upki",
-          "sha256": "579d857e77c64e31c86b16a8f6edf06850a589731138d342971154a00c365b9a"
+          "sha256": "6368e33d65d2acaa48ee5ab07ac652c134e15cbb4dc0f49e3668c0190ee30f10"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/rustls/upki/releases/download/v1.0.3/upki-cli-aarch64-unknown-linux-gnu.tar.xz",
-      "sha256": "a3d0418d5fdca22a53bb50e99ad3aff2d5b97e0128b8bc9e6a431c666ef51d1e",
-      "size": 2429760,
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.4/upki-cli-aarch64-unknown-linux-gnu.tar.xz",
+      "sha256": "c5647aa7e6cf6a68815439e8021821872eed96131063a24312769103919ae224",
+      "size": 2436812,
       "format": "tar.xz",
-      "releaseTag": "v1.0.3",
+      "releaseTag": "v1.0.4",
       "binaries": {
         "upki": {
           "path": "upki-cli-aarch64-unknown-linux-gnu/upki",
-          "sha256": "29628f21fa629d67794159b68db768090dd80e9ef5758f0d95722088959606ef"
+          "sha256": "5474afa1a34c05857fa384955d245e912cff7c2bb1943a24e65fc7744da9b8d4"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/rustls/upki/releases/download/v1.0.3/upki-cli-aarch64-apple-darwin.tar.xz",
-      "sha256": "3447abb0c9001ef303984f6ac34a214750dcf571876c86b736a414b6b5e0a370",
-      "size": 2305856,
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.4/upki-cli-aarch64-apple-darwin.tar.xz",
+      "sha256": "1cd6130f3a6e231333f15491eb608b5b4e3df96d855db7ec53a56ed9a5dc47f6",
+      "size": 2309360,
       "format": "tar.xz",
-      "releaseTag": "v1.0.3",
+      "releaseTag": "v1.0.4",
       "binaries": {
         "upki": {
           "path": "upki-cli-aarch64-apple-darwin/upki",
-          "sha256": "30819248141a2524f8ea606b01aebfd308525fcb99d8e409fb9067313fcc34ee"
+          "sha256": "a792c62ddae641fa08bb1f9f0e180ffba0ab0162350c7053bb9605202d60f8be"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/rustls/upki/releases/download/v1.0.3/upki-cli-x86_64-pc-windows-msvc.zip",
-      "sha256": "0c95fb4cb42d4a30fb045175c055d8ef7c7892d54ab10d87213a48378f30b2fd",
-      "size": 3226893,
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.4/upki-cli-x86_64-pc-windows-msvc.zip",
+      "sha256": "d5677c33ae33a1457a274d6f60b513c265b890da7176ad4fbd9845024aa48876",
+      "size": 3230398,
       "format": "zip",
-      "releaseTag": "v1.0.3",
+      "releaseTag": "v1.0.4",
       "binaries": {
         "upki.exe": {
           "path": "upki.exe",
-          "sha256": "354def490a262b851179012ee0c5d6e105249662c3a83f6f7fc4ab034476acc0"
+          "sha256": "ad77c718b4b78f3f755cc59755828e00a73362fed28fa59dbba3d7575e4e3a53"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/rustls/upki/releases/download/v1.0.3/upki-cli-aarch64-pc-windows-msvc.zip",
-      "sha256": "dbc523c6eb94d640247ff0e8515e60ca55372b59e7d21b4f12c53133e5b10a13",
-      "size": 3189574,
+      "url": "https://github.com/rustls/upki/releases/download/v1.0.4/upki-cli-aarch64-pc-windows-msvc.zip",
+      "sha256": "2e25084e2a593f9598d62bf00f84c2c23b7f2c578da9fedd3a6e01bccafa0c85",
+      "size": 3198025,
       "format": "zip",
-      "releaseTag": "v1.0.3",
+      "releaseTag": "v1.0.4",
       "binaries": {
         "upki.exe": {
           "path": "upki.exe",
-          "sha256": "0388032f1cabf0de0fe846ca9fbb84d67fa65eb9a21d8ce093a50592505298ea"
+          "sha256": "fba6ad15cebc09d6ffd658e5e9a35d68fa62048bd2d49fc4ad4068cb552002ca"
         }
       }
     }
