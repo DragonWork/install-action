@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "rinex-cli",
+  "version": "0.15.0",
+  "repository": "nav-solutions/rinex-cli",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/nav-solutions/rinex-cli/releases/download/v0.15.0/rinex-cli-v0.15.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "7f46f6f8f41fe887fa84510c77b39bba956a7fcf728fbefacbd0bd526eb12fd9",
+      "size": 54645403,
+      "format": "tar.gz",
+      "releaseTag": "v0.15.0",
+      "binaries": {
+        "rinex-cli": {
+          "path": "rinex-cli-v0.15.0-x86_64-unknown-linux-musl/rinex-cli",
+          "sha256": "0d6bdbabf59f7b134b9a6002de1c66741c9b5de3287302705c54fcfb5dabd92b"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/nav-solutions/rinex-cli/releases/download/v0.15.0/rinex-cli-v0.15.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "e7ab8b1899c6457156ab18ebd02dff20b07fd5a66fbd512c60d0b125789f2d53",
+      "size": 53456000,
+      "format": "tar.gz",
+      "releaseTag": "v0.15.0",
+      "binaries": {
+        "rinex-cli": {
+          "path": "rinex-cli-v0.15.0-aarch64-unknown-linux-gnu/rinex-cli",
+          "sha256": "7857ece64dc15c0655ff3df3f844ca9001514f6ff1e5e1312276e8e743cd815a"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/nav-solutions/rinex-cli/releases/download/v0.15.0/rinex-cli-v0.15.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "b553e3edc5ddd1707a8c14a9ce969ac2f37c8281b0b4b86ad405b740403f4570",
+      "size": 53995575,
+      "format": "tar.gz",
+      "releaseTag": "v0.15.0",
+      "binaries": {
+        "rinex-cli": {
+          "path": "rinex-cli-v0.15.0-x86_64-apple-darwin/rinex-cli",
+          "sha256": "f9862a48c529aebff7c847efb7366f9fe9a9f08f8c68918015c7f76e5f3e8b69"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/nav-solutions/rinex-cli/releases/download/v0.15.0/rinex-cli-v0.15.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "f7a8613a59ec1ba0b6ca81acb4a37206e04e5b231aafced2ebca3e176ceff755",
+      "size": 53304875,
+      "format": "tar.gz",
+      "releaseTag": "v0.15.0",
+      "binaries": {
+        "rinex-cli": {
+          "path": "rinex-cli-v0.15.0-aarch64-apple-darwin/rinex-cli",
+          "sha256": "05d0041166d7f8ba50b4c2fde797493181faba55f3285247bf6f8815489c9b6c"
+        }
+      }
+    },
+    "win32-x64": {
+      "url": "https://github.com/nav-solutions/rinex-cli/releases/download/v0.15.0/rinex-cli-v0.15.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "d54f2905b42997190036fb3f576b99ccb5cd3c07a87bb9e924210e357305ec31",
+      "size": 53802211,
+      "format": "zip",
+      "releaseTag": "v0.15.0",
+      "binaries": {
+        "rinex-cli.exe": {
+          "path": "rinex-cli-v0.15.0-x86_64-pc-windows-msvc/rinex-cli.exe",
+          "sha256": "3584b586e557fb9ac21ee0d056b9e2e6b002c82e571f76c5a1bdb22510a04b34"
+        }
+      }
+    },
+    "win32-arm64": {
+      "url": "https://github.com/nav-solutions/rinex-cli/releases/download/v0.15.0/rinex-cli-v0.15.0-aarch64-pc-windows-msvc.zip",
+      "sha256": "2b9813f6c4946332628bf5665830d6a9ae1d6d2415400454cf7193f01aadb2fa",
+      "size": 52752494,
+      "format": "zip",
+      "releaseTag": "v0.15.0",
+      "binaries": {
+        "rinex-cli.exe": {
+          "path": "rinex-cli-v0.15.0-aarch64-pc-windows-msvc/rinex-cli.exe",
+          "sha256": "7e04a49264585f458800eeb06c1a05485bf9dad31582bf393f5d2b5dde2a6af7"
+        }
+      }
+    }
+  }
+}
