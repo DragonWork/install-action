@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "name": "scheck",
+  "version": "0.8.0",
+  "repository": "rh-jfuller/scheck",
+  "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/rh-jfuller/scheck/releases/download/v0.8.0/scheck-0.8.0-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "2ceb2247934fa2cd8ba5836a6e4cbb903d455f4abb70ad1218ef50cc74b0b67e",
+      "size": 1300680,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "scheck": {
+          "path": "scheck",
+          "sha256": "4054e5d9d75393d958005515cf54f2dac6de5e735683e60fd9dfc1f349a75789"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/rh-jfuller/scheck/releases/download/v0.8.0/scheck-0.8.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "4b6bf679dee2aff329032253ae482cd3a515f071679d08874c6f9657ea3fe980",
+      "size": 1153380,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "scheck": {
+          "path": "scheck",
+          "sha256": "79b9336946a07f95356bec563118207ee1926b1eee924e66e66c4fac3d4c4646"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/rh-jfuller/scheck/releases/download/v0.8.0/scheck-0.8.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "623b33f8ee034da96251356152cd293d7143601e9d22a280a8f15e0aea9cf92b",
+      "size": 1192529,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "scheck": {
+          "path": "scheck",
+          "sha256": "f8588bb014f4e370e87fed7160d124309600fe3905725d2bb71031cced395566"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/rh-jfuller/scheck/releases/download/v0.8.0/scheck-0.8.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "425e13666e6345898392869ca85896c81175eaf72db3db7a863fd351bcdbd4cc",
+      "size": 1100287,
+      "format": "tar.gz",
+      "releaseTag": "v0.8.0",
+      "binaries": {
+        "scheck": {
+          "path": "scheck",
+          "sha256": "be4bdd27230b91696cb0fba39b4f048e30f980c053827fd0856cd87cc70d826d"
+        }
+      }
+    }
+  }
+}
