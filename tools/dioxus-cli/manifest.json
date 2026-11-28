@@ -1,32 +1,84 @@
 {
   "schema": 1,
   "name": "dioxus-cli",
-  "version": "0.7.10",
+  "version": "0.7.11",
   "repository": "DioxusLabs/dioxus",
   "artifacts": {
+    "linux-x64": {
+      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.11/dx-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "44c195b7e73951c722ca0a87d6acef2b7ccf2cb7910fbb8cd1f0f7fd9f15cf04",
+      "size": 33243038,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.11",
+      "binaries": {
+        "dx": {
+          "path": "dx",
+          "sha256": "06a39ae8aeaa35cfc4237e69ee29bc4ac618689c083ee2f971edd16cb35fcdd7"
+        }
+      }
+    },
+    "linux-arm64": {
+      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.11/dx-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "be478ffa02973a11dae486f2b08eb303a93a743edbbf86555f8513623a0a8b90",
+      "size": 32075832,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.11",
+      "binaries": {
+        "dx": {
+          "path": "dx",
+          "sha256": "5675b910be95d9833eaa6b2a6f65443d751576ae870e33632788116f94565490"
+        }
+      }
+    },
+    "darwin-x64": {
+      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.11/dx-x86_64-apple-darwin.tar.gz",
+      "sha256": "a2f54e2c44919508b1548d44da17e1a1d8f2c99d5ba51d10195b6dd7e617d85a",
+      "size": 31921372,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.11",
+      "binaries": {
+        "dx": {
+          "path": "dx",
+          "sha256": "13d32d19bfb419e20f196e45c95ff67f100790ced84338d8efeec257c5042e3e"
+        }
+      }
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.11/dx-aarch64-apple-darwin.tar.gz",
+      "sha256": "7175329ce5531c7bc8a0bcd4ff1b09810dc8dab38f4c3fc02ff9c00a107f4132",
+      "size": 30676245,
+      "format": "tar.gz",
+      "releaseTag": "v0.7.11",
+      "binaries": {
+        "dx": {
+          "path": "dx",
+          "sha256": "6ffec87e7b91265b7192dca7c2ef2422477de034beb0881c01aa2a198c604aaf"
+        }
+      }
+    },
     "win32-x64": {
-      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.10/dx-x86_64-pc-windows-msvc.zip",
-      "releaseTag": "v0.7.10",
-      "sha256": "45eb4f87b7f86fdba8508ee7e0ef1f9e13cf8f2ffcc6a2d5858d0e8ea7dd1531",
-      "size": 29757092,
+      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.11/dx-x86_64-pc-windows-msvc.zip",
+      "sha256": "a0a102ccaeae46229fb5f26bc2aa6571eab639e676d91569276120f95f9031b4",
+      "size": 29749077,
       "format": "zip",
+      "releaseTag": "v0.7.11",
       "binaries": {
         "dx.exe": {
           "path": "dx.exe",
-          "sha256": "2ef147c6408c05ea78da1d550ec92a6f5cef6f141f6fc93059c183f4d2b02313"
+          "sha256": "7e749493af4ffd176dfe7bf83cdd5b51ce7d66259c34dba1371f966093321f42"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.10/dx-aarch64-pc-windows-msvc.zip",
-      "releaseTag": "v0.7.10",
-      "sha256": "77e807cc7e5e036b3283186efd13fc2c2501f085ef93aaf817fd1728392f29a3",
-      "size": 28012082,
+      "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.11/dx-aarch64-pc-windows-msvc.zip",
+      "sha256": "f84ec01882d6ab38156ca52c5cb7f4ed46dfd0953d1ea8e7db59c4c15b525c8c",
+      "size": 28047256,
       "format": "zip",
+      "releaseTag": "v0.7.11",
       "binaries": {
         "dx.exe": {
           "path": "dx.exe",
-          "sha256": "26f418859e8555dc7cbf96938daec4d7f4119fa74ba861b45a7a6c6f3a4af08e"
+          "sha256": "443107545d58d95d941c893e3f617dd8e981da59f21ce115535875618b7e37b8"
         }
       }
     }
