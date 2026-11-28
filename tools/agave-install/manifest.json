@@ -1,57 +1,57 @@
 {
   "schema": 1,
   "name": "agave-install",
-  "version": "4.4.1",
+  "version": "4.4.2",
   "repository": "anza-xyz/agave",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/anza-xyz/agave/releases/download/v4.4.1/solana-release-x86_64-unknown-linux-gnu.tar.bz2",
-      "sha256": "5b0f0fc7e4eedace05f6455de00aa1f2f3d1642068f1e8d50760ba49112c3941",
-      "size": 82900972,
+      "url": "https://github.com/anza-xyz/agave/releases/download/v4.4.2/solana-release-x86_64-unknown-linux-gnu.tar.bz2",
+      "sha256": "165d29fa81f8a0bce57c647124e38b3e0f1a03fedbb29c2d197df1a780467b1b",
+      "size": 82914063,
       "format": "tar.bz2",
-      "releaseTag": "v4.4.1",
+      "releaseTag": "v4.4.2",
       "binaries": {
         "agave-install": {
           "path": "solana-release/bin/agave-install",
-          "sha256": "2bda44ce6afe7be2944ce11f2076d742246d8cd6dac934a2228241658360dfa7"
+          "sha256": "ecb5853e9998d9cada42d5119bea3cd12bb9743aa416fd35545d00883898bfd5"
         },
         "agave-install-init": {
           "path": "solana-release/bin/agave-install-init",
-          "sha256": "dee2bd991dbaa5bb9e641aac5f3d435d75c8f0225596365f7f3fa02045bcb3c1"
+          "sha256": "b3783d2b2bac1ebfd9351c61d9afcad8b2abdf1f7158ff7c03eb3ab9436d1d70"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/anza-xyz/agave/releases/download/v4.4.1/solana-release-x86_64-apple-darwin.tar.bz2",
-      "sha256": "2ae847d320d4be7c2a732c7821e570f7927cadaf385fb94b2853841c0d6a5b18",
-      "size": 77701170,
+      "url": "https://github.com/anza-xyz/agave/releases/download/v4.4.2/solana-release-x86_64-apple-darwin.tar.bz2",
+      "sha256": "06f3f304823708f187fe1ad4e15b26c9a0e7d7f00799f046fcd4058011f68431",
+      "size": 77712501,
       "format": "tar.bz2",
-      "releaseTag": "v4.4.1",
+      "releaseTag": "v4.4.2",
       "binaries": {
         "agave-install": {
           "path": "solana-release/bin/agave-install",
-          "sha256": "39f075b90b7a3c24b5c3c98b02d693e0a7b9ab21c1a648292a0a5e83d575a00b"
+          "sha256": "6d5c4882365bc2711598b46420dd0974b42545e29dfe450726791c47bca00a26"
         },
         "agave-install-init": {
           "path": "solana-release/bin/agave-install-init",
-          "sha256": "33ee1c2155e8f6a27cf68c034e0ef60a4e7eb0795e3d52e922e2d2135085ac63"
+          "sha256": "e709cb631a17740ec8d22918a8ecc5e4e392b1251df136c1846ec77a425b2f66"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/anza-xyz/agave/releases/download/v4.4.1/solana-release-aarch64-apple-darwin.tar.bz2",
-      "sha256": "e60d66468977f6a5b5f17523ea3a1846ececfa7cc657efa0b9af279bd58db369",
-      "size": 75376596,
+      "url": "https://github.com/anza-xyz/agave/releases/download/v4.4.2/solana-release-aarch64-apple-darwin.tar.bz2",
+      "sha256": "19d06726f39244e372944b889dda66f04e78afed1bee909f0e717edea392e4f2",
+      "size": 75398711,
       "format": "tar.bz2",
-      "releaseTag": "v4.4.1",
+      "releaseTag": "v4.4.2",
       "binaries": {
         "agave-install": {
           "path": "solana-release/bin/agave-install",
-          "sha256": "507f223dca235a9c84d604d74787f8c5e0cda43e5db1490af7e0e2a1d3b5c7cb"
+          "sha256": "8b846fb723cf697f6a7b5b09a77f4ec367da1a52bb478523ea358dc4ff5c0fb8"
         },
         "agave-install-init": {
           "path": "solana-release/bin/agave-install-init",
-          "sha256": "edf1a9d483d1b2ecc8544ae500e2a68eedae1a439e6f2591920a606c2c9d6d2d"
+          "sha256": "c516cec8c1be7c4b5f39faca1ea23220d8e27e5de5ae61af7577b13ab8fc5e63"
         }
       }
     }
