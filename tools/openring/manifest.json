@@ -1,84 +1,84 @@
 {
   "schema": 1,
   "name": "openring",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "repository": "lukehsiao/openring-rs",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.6/openring-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "d8a214ca2a88d20ad7ebc3924cfb7d4293eeb3679a87845e73a9e1aafa4d5c11",
-      "size": 6459939,
+      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.7/openring-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "31ae42161cfa685e76692d1c23e43b13284a9c3da0fbb650ca348448543a62ae",
+      "size": 6564445,
       "format": "tar.gz",
-      "releaseTag": "v0.6.6",
+      "releaseTag": "v0.6.7",
       "binaries": {
         "openring": {
           "path": "openring",
-          "sha256": "609badd7d5e1521ed2b27d0b47f2e5fb0e47f97d6952a5029364a3a1ae01e5af"
+          "sha256": "35e9cc04584f3083839d20512e0d8b13194eb12e9010c602f9337ecdb390d249"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.6/openring-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "12e537664977ede8cab73bc0ed6c3ccc55fed9682e886300a5d89f374f253be7",
-      "size": 5902552,
+      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.7/openring-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "86c8595194c9f5dae27b88fc7f0de81d87a928844cc49495cce6d9295f8b0935",
+      "size": 6032314,
       "format": "tar.gz",
-      "releaseTag": "v0.6.6",
+      "releaseTag": "v0.6.7",
       "binaries": {
         "openring": {
           "path": "openring",
-          "sha256": "a4153b7eb3f54b22f8b8e609f10da92af6dadaa367fec2820f097dd0b9b913ec"
+          "sha256": "96ae9f54979526644c9796298caa1e0227d6d7126cecaf2e518e96a87e613814"
         }
       }
     },
     "darwin-x64": {
-      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.6/openring-x86_64-apple-darwin.tar.gz",
-      "sha256": "a8369913e112f0c4d10525829281622ace4c07e21002d1244d979ce9ec29722e",
-      "size": 6168818,
+      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.7/openring-x86_64-apple-darwin.tar.gz",
+      "sha256": "4e0b2ded28dede2c5b963d52e989ff0021c66fff8aa2ab5586ad96a594fc79b3",
+      "size": 6278581,
       "format": "tar.gz",
-      "releaseTag": "v0.6.6",
+      "releaseTag": "v0.6.7",
       "binaries": {
         "openring": {
           "path": "openring",
-          "sha256": "b067a95b11d4d92a565f375f7d1b9435dfa5a9bc8550415aa44ac598d0d6ee82"
+          "sha256": "bc74a85ab48f57176d4877b5be56b7a42bf50453b63bf7ef81f89fc91e79107a"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.6/openring-aarch64-apple-darwin.tar.gz",
-      "sha256": "2f21e8e8e4547592a37ffceb672f506b8e4d25634dce3e87058eca9a9ccdd79e",
-      "size": 5809032,
+      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.7/openring-aarch64-apple-darwin.tar.gz",
+      "sha256": "52be29ded87c1f87b23105b4c48cec6ae29d1dbafda951dd2591ce81f786afe3",
+      "size": 5928713,
       "format": "tar.gz",
-      "releaseTag": "v0.6.6",
+      "releaseTag": "v0.6.7",
       "binaries": {
         "openring": {
           "path": "openring",
-          "sha256": "5308e0ba6bbc0854433699bce0b3dd7602323e73c033c2ff94afd0b8011a7898"
+          "sha256": "011eabc0590a81d7b2f26d5448a71e323751605306aaaf3694e1ef152a3a5a71"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.6/openring-x86_64-pc-windows-msvc.zip",
-      "sha256": "519359cf8ba5dda668d4ff3edd53caa4fee0d2a745360f063e4013653fcca3d7",
-      "size": 5955298,
+      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.7/openring-x86_64-pc-windows-msvc.zip",
+      "sha256": "04e9c4feafcc0c4c73cedcdc705718652624c2414d5938a82782d31ca8762ef9",
+      "size": 6068349,
       "format": "zip",
-      "releaseTag": "v0.6.6",
+      "releaseTag": "v0.6.7",
       "binaries": {
         "openring.exe": {
           "path": "openring.exe",
-          "sha256": "2fe96ecf1c8a0e222f5fb2d57e37a8e2997bb0eb4279c045b77409aba5065af6"
+          "sha256": "6c0fb3028f2dad4f51c9db97c3f2d06782184a57672c0dba695a83ce88bf9a7c"
         }
       }
     },
     "win32-arm64": {
-      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.6/openring-aarch64-pc-windows-msvc.zip",
-      "sha256": "05d6df8f28a703ac601cc288a022ebac6e82c8590e28b6e9c00bf1c4badb0609",
-      "size": 5751723,
+      "url": "https://github.com/lukehsiao/openring-rs/releases/download/v0.6.7/openring-aarch64-pc-windows-msvc.zip",
+      "sha256": "eba6ab88e47a8df653ecf7e3d3a87b97b784f6ea4b98356821680f698c537b26",
+      "size": 5881846,
       "format": "zip",
-      "releaseTag": "v0.6.6",
+      "releaseTag": "v0.6.7",
       "binaries": {
         "openring.exe": {
           "path": "openring.exe",
-          "sha256": "5ef2f19da5c3326fb04c119bf42282c63e4e7260096365c763cd425cc5c71e2b"
+          "sha256": "346d8c1e832431ce8dcbf194781952771828a90c29e2bf810575f06b045eea17"
         }
       }
     }
