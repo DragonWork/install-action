@@ -1,58 +1,58 @@
 {
   "schema": 1,
   "name": "cargo-deny",
-  "version": "0.22.1",
+  "version": "0.22.2",
   "repository": "EmbarkStudios/cargo-deny",
   "artifacts": {
     "linux-x64": {
-      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.22.1/cargo-deny-0.22.1-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "13f7e825e9cb811c2f8de63f29b0f45851dfb53004029f0f2501af524728364d",
-      "size": 5054832,
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.22.2/cargo-deny-0.22.2-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "9f831cfb5d03a5093c0810091a7bd3b5e4724a1288cbe5718d8ce8cef2590adf",
+      "size": 5045939,
       "format": "tar.gz",
-      "releaseTag": "0.22.1",
+      "releaseTag": "0.22.2",
       "binaries": {
         "cargo-deny": {
-          "path": "cargo-deny-0.22.1-x86_64-unknown-linux-musl/cargo-deny",
-          "sha256": "322e3f2f93a7e5087933246fab48ed287cc4539a43f4087f11843c722b1bd4df"
+          "path": "cargo-deny-0.22.2-x86_64-unknown-linux-musl/cargo-deny",
+          "sha256": "da62dad53fba572b3757248afee158e1d9e235f87d4e4956bf6d197ee9d6abc2"
         }
       }
     },
     "linux-arm64": {
-      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.22.1/cargo-deny-0.22.1-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "0bac0838a1653ce693e4602b8634d15ca179edd2198e438af9c35ab1c551d509",
-      "size": 4725738,
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.22.2/cargo-deny-0.22.2-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "e35a08517fd126a360361b316af76fbbbb55e608ce765010a9b5a537851b80fd",
+      "size": 4726397,
       "format": "tar.gz",
-      "releaseTag": "0.22.1",
+      "releaseTag": "0.22.2",
       "binaries": {
         "cargo-deny": {
-          "path": "cargo-deny-0.22.1-aarch64-unknown-linux-musl/cargo-deny",
-          "sha256": "ee8a62c13d8c44f3a740bc017ec69a56bcac22ae0de719d8ae79c8e9657be642"
+          "path": "cargo-deny-0.22.2-aarch64-unknown-linux-musl/cargo-deny",
+          "sha256": "088fd254e43afea120a9789fa78ab7cbed4f1c5267bdef0313c993c93a8aa927"
         }
       }
     },
     "darwin-arm64": {
-      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.22.1/cargo-deny-0.22.1-aarch64-apple-darwin.tar.gz",
-      "sha256": "2afa2d672d2b2ee012835528d0c2acb73693ee973a8dc377db0e09d7d8dee9a2",
-      "size": 4611930,
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.22.2/cargo-deny-0.22.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "901e729e66a544985d85762b75d6e109e06a67372c8176a4faf7ef30ec2468cd",
+      "size": 4614079,
       "format": "tar.gz",
-      "releaseTag": "0.22.1",
+      "releaseTag": "0.22.2",
       "binaries": {
         "cargo-deny": {
-          "path": "cargo-deny-0.22.1-aarch64-apple-darwin/cargo-deny",
-          "sha256": "a4b9623d167f4a4bee81e72639e2433078e99be6d55ce86ffe99828a77d1ade6"
+          "path": "cargo-deny-0.22.2-aarch64-apple-darwin/cargo-deny",
+          "sha256": "266eef18b69cb21ae89440f0efb5ca7c0d01da72fdba1a414368bd470d7f60d3"
         }
       }
     },
     "win32-x64": {
-      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.22.1/cargo-deny-0.22.1-x86_64-pc-windows-msvc.tar.gz",
-      "sha256": "b8d7e473f54c328cc528ef8aea221c40b5ccac3d63844aa056f86ed0886800a2",
-      "size": 4882884,
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.22.2/cargo-deny-0.22.2-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "da696b3647f5a661d599807cadb13ed120e56fb421ee3ef113082c274194572c",
+      "size": 4885114,
       "format": "tar.gz",
-      "releaseTag": "0.22.1",
+      "releaseTag": "0.22.2",
       "binaries": {
         "cargo-deny.exe": {
-          "path": "cargo-deny-0.22.1-x86_64-pc-windows-msvc/cargo-deny.exe",
-          "sha256": "354d64576c81b1bff41589c81c4a3c43be37a9fbf9343ee39ccce8916802ccef"
+          "path": "cargo-deny-0.22.2-x86_64-pc-windows-msvc/cargo-deny.exe",
+          "sha256": "5a13d3ac867264578357be5faf8f2ec83993bd31394456083500705ca8a49f16"
         }
       }
     }
